@@ -1,0 +1,31 @@
+{
+  // Template only. Put the real API key in a protected server environment variable.
+  "user_id": "eyvan-owner-farnaz",
+  "toolkits": {
+    "enabled": ["googledrive", "github"]
+  },
+  "tools": {
+    "googledrive": {
+      "enabled": ["GOOGLEDRIVE_SEARCH", "GOOGLEDRIVE_FETCH", "GOOGLEDRIVE_CREATE_FILE"]
+    },
+    "github": {
+      "enabled": ["GITHUB_GET_REPOSITORY", "GITHUB_CREATE_BRANCH", "GITHUB_CREATE_OR_UPDATE_FILE", "GITHUB_CREATE_PULL_REQUEST"]
+    }
+  },
+  "tags": {
+    "enabled": ["readOnlyHint"],
+    "disabled": ["delete", "admin", "billing"]
+  },
+  "manage_connections": {
+    "enabled": true,
+    "enable_wait_for_connections": false,
+    "enable_connection_removal": false
+  },
+  "multi_account": {
+    "enable": true,
+    "max_accounts_per_toolkit": 1,
+    "require_explicit_selection": true
+  },
+  "search": { "enable": true },
+  "execute": { "enable_multi_execute": false }
+}

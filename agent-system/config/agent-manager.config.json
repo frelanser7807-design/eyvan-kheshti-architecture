@@ -1,0 +1,51 @@
+{
+  "systemId": "eyvan-content-os-v1",
+  "brand": "Eyvan Kheshti — Architecture & Interiors",
+  "defaultLanguage": "en",
+  "supportedLanguages": ["en", "fa"],
+  "mode": "draft_only",
+  "agents": {
+    "manager": {
+      "enabled": true,
+      "responsibilities": ["validate_job", "select_skill", "track_state", "route_to_writer"]
+    },
+    "writer": {
+      "enabled": true,
+      "providerOrder": ["gemini", "openai"],
+      "responsibilities": ["draft_article", "write_seo_metadata", "create_localized_versions"]
+    },
+    "publisher": {
+      "enabled": true,
+      "requiresHumanApproval": true,
+      "responsibilities": ["create_publish_package", "open_github_change", "verify_deploy"]
+    }
+  },
+  "limits": {
+    "maxJobsPerWeek": 2,
+    "maxPublishJobsPerWeek": 1,
+    "maxRetriesPerStep": 3,
+    "pauseOnConsecutiveFailures": 2,
+    "allowAutomaticPublishing": false
+  },
+  "connections": {
+    "composio": {
+      "enabled": false,
+      "allowedToolkits": ["googledrive", "github"],
+      "allowedActions": ["read_skill", "read_source", "create_draft_file", "create_branch", "create_pull_request"],
+      "forbiddenActions": ["delete_file", "delete_repository", "merge_pull_request", "publish_without_approval"]
+    },
+    "make": {
+      "enabled": false,
+      "trigger": "google_sheet_status_ready",
+      "schedule": "weekly"
+    },
+    "models": {
+      "gemini": { "enabled": false, "tier": "free", "allowPublicProjectDataOnly": true },
+      "openai": { "enabled": false, "tier": "api_paid_optional" }
+    }
+  },
+  "reviewPolicy": {
+    "requiredBeforePublish": ["factual_accuracy", "brand_voice", "rights_to_media", "language_quality", "seo_metadata"],
+    "approver": "Farnaz Ghaffarian"
+  }
+}

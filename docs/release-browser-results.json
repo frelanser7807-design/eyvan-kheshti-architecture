@@ -1,0 +1,65 @@
+{
+  "results": [
+    "Menu, contact and viewport 1440: pass",
+    "Menu, contact and viewport 768: pass",
+    "Menu, contact and viewport 390: pass",
+    "Menu, contact and viewport 320: pass",
+    "Library Services: pass",
+    "Library Projects: pass",
+    "Library Tutorials: pass",
+    "Library Architecture Notes: pass",
+    "Library Courses & Shop: pass",
+    {
+      "src": "http://127.0.0.1:4175/assets/film/00-digital-founder-intro.mp4",
+      "rate": 1.2,
+      "duration": 6
+    },
+    {
+      "src": "http://127.0.0.1:4175/assets/film/founder-intro-plus-entrance.mp4",
+      "rate": 1.2,
+      "duration": 11.833333
+    },
+    {
+      "src": "http://127.0.0.1:4175/assets/film/lobby-to-studio-clean.mp4",
+      "rate": 1.35,
+      "duration": 5.75
+    },
+    {
+      "src": "http://127.0.0.1:4175/assets/film/chapters/05-presentation-room-clean.mp4",
+      "rate": 1.05,
+      "duration": 3.208333
+    },
+    {
+      "src": "http://127.0.0.1:4175/assets/film/chapters/06-material-lab.mp4",
+      "rate": 1.35,
+      "duration": 5.833333
+    },
+    {
+      "src": "http://127.0.0.1:4175/assets/film/chapters/07-design-desk.mp4",
+      "rate": 1.35,
+      "duration": 5.166667
+    },
+    {
+      "audio": {
+        "time": 30.868344,
+        "paused": false
+      }
+    },
+    "Admin هویت و متن: pass",
+    "Admin متن روی ویدئو: pass",
+    "Admin خدمات: pass",
+    "Admin پروژه‌ها: pass",
+    "Admin آموزش‌ها: pass",
+    "Admin مطالب معماری: pass",
+    "Admin دوره‌ها و فروش: pass",
+    "Admin فروش و پرداخت: pass",
+    "Admin راه‌های ارتباطی: pass",
+    "Admin درخواست‌ها: pass",
+    "Admin اعضای خبرنامه: pass",
+    "Admin اتصال اپ: pass",
+    {
+      "adminText": "Skip to main content\nا\nEYVAN KHESHTI\nمرکز مدیریت\n⌂\nنمای کلی\nAa\nهویت و متن\nT\nمتن روی ویدئو\n✦\nخدمات\n◇\nپروژه‌ها\n▷\nآموزش‌ها\n≡\nمطالب معماری\n$\nدوره‌ها و فروش\n¤\nفروش و پرداخت\n@\nراه‌های ارتباطی\n↙\nدرخواست‌ها\n✉\nاعضای خبرنامه\n⌁\nاتصال اپ\nدموی محلی\nذخیره روی مرورگر\n\nپنل مدیریت\n\nاتصال اپ\nمشاهده سایت ↗\nذخیره تغییرات\n\nوب + اپلیکیشن\n\nمرکز اتصال داده\nسایت و اپ آینده از یک قرارداد داده استفاده می‌کنند.\nقرارداد اتصال داده\nنسخه 1.0 — آمادهٔ پیاده‌سازی\nیک منبع محتوا برای همه‌جا\n\nپروژه‌ها، خدمات و درخواست‌ها از مسیرهای ثابت خوانده می‌شوند؛ بنابراین اپ iOS/Android بدون وابستگی به ظاهر سایت توسعه پیدا می‌کند.\n\nGET\n/v1/site-content\nGET\n/v1/projects\nGET\n/v1/products\nPOST\n/v1/leads\nPOST\n/v1/subscribers\nا\nاپ ایوان خشتی\n"
+    }
+  ],
+  "errors": []
+}

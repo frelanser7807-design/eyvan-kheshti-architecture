@@ -1,0 +1,19 @@
+{
+  "name": "Eyvan Kheshti — Architecture & Interiors",
+  "short_name": "Eyvan Kheshti",
+  "description": "An immersive cinematic architecture studio experience.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0908",
+  "theme_color": "#0a0908",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

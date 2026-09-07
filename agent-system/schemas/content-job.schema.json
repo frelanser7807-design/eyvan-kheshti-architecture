@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Eyvan Content Job v1",
+  "type": "object",
+  "required": ["jobId", "topic", "languages", "status", "sourcePolicy", "createdAt"],
+  "properties": {
+    "jobId": { "type": "string", "pattern": "^eyvan-[a-z0-9-]+$" },
+    "topic": { "type": "string", "minLength": 8, "maxLength": 160 },
+    "languages": { "type": "array", "items": { "enum": ["en", "fa"] }, "minItems": 1, "uniqueItems": true },
+    "status": { "enum": ["ready", "researching", "draft", "needs_review", "approved", "publishing", "published", "failed", "paused"] },
+    "sourcePolicy": { "enum": ["owner_sources_only", "owner_sources_plus_verified_web"] },
+    "skillId": { "type": "string" },
+    "sourceLinks": { "type": "array", "items": { "type": "string", "format": "uri" } },
+    "requestedBy": { "type": "string" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "approvedAt": { "type": "string", "format": "date-time" },
+    "publishedAt": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,41 @@
+# Dependencies and generated output
+node_modules/
+.npm-cache/
+dist/
+
+# Historical archives and downloadable release packages
+archive/
+qa/
+*.zip
+
+# Local environment values and operating-system files
+.env
+.env.local
+.env.*.local
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Agent run data may contain private source material; keep only templates in Git.
+agent-system/runtime/
+agent-system/logs/
+agent-system/github-upload-result.txt
+
+.git-dpapi-credentials/
+UPLOAD-TO-GITHUB.cmd
+
+# Large media is stored losslessly in media-parts/ for connector-safe GitHub transport.
+# scripts/restore-media.mjs rebuilds these exact files before development or build.
+public/assets/film/site-cinematic-score-v2.wav
+public/assets/film/site-cinematic-score-v3.wav
+public/assets/film/founder-intro-plus-entrance.mp4
+public/assets/film/chapters/06-material-lab.mp4
+public/assets/film/lobby-to-studio-clean.mp4
+public/assets/candidates/office-world/scene-00-bishopsgate-tower-entry-v1.png
+public/assets/candidates/office-world/scene-07-principal-design-desk-v3.png
+public/assets/candidates/office-world/scene-04-upper-floor-atelier-v1.png
+public/assets/candidates/office-world/scene-06-material-model-lab-v1.png
+public/assets/candidates/office-world/scene-05-client-presentation-room-v1.png
+public/assets/film/chapters/07-design-desk.mp4
+public/assets/film/00-digital-founder-intro.mp4
+public/assets/film/chapters/05-presentation-room-clean.mp4

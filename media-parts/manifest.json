@@ -1,0 +1,512 @@
+{
+  "version": 1,
+  "chunkSize": 500000,
+  "files": [
+    {
+      "path": "public/assets/candidates/office-world/scene-00-bishopsgate-tower-entry-v1.png",
+      "size": 2480571,
+      "sha256": "7e58c6567c87a49ce207501ca206806c292847c66754ac56b85529be9a5a24de",
+      "parts": [
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-00-bishopsgate-tower-entry-v1.png.part000",
+          "size": 500000,
+          "sha256": "9e8221ff4996d7af178d68ea034a270fe53c36409d7f078d5e81a5998707d109"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-00-bishopsgate-tower-entry-v1.png.part001",
+          "size": 500000,
+          "sha256": "a2f64c7b80af23d329ff2c72481800162099eb392e1585059d5f64f0e9e7ac03"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-00-bishopsgate-tower-entry-v1.png.part002",
+          "size": 500000,
+          "sha256": "531fb615449c28ae6170279f977aa97cb037873fff0ccd852afe29a0e44d54ab"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-00-bishopsgate-tower-entry-v1.png.part003",
+          "size": 500000,
+          "sha256": "26072f3121f540554b896c0578a4c0643c86414e0a71fd00d2d403d9efb1a4c8"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-00-bishopsgate-tower-entry-v1.png.part004",
+          "size": 480571,
+          "sha256": "96c5f83b0e7d21fbf4b308055407995752a22da0e7bd3bc98902e94705becd9d"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/candidates/office-world/scene-04-upper-floor-atelier-v1.png",
+      "size": 2310855,
+      "sha256": "9b39df9df8299546f484d2a13e78c17da2942a738762aaee7410a6d8625dd4f9",
+      "parts": [
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-04-upper-floor-atelier-v1.png.part000",
+          "size": 500000,
+          "sha256": "65a66d2634f8b142fba68bb598d0b1cd998d4895dec4b0830f1e5025ea37638c"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-04-upper-floor-atelier-v1.png.part001",
+          "size": 500000,
+          "sha256": "721b9f8e7b3ed0255a8f1d0924c67c6694d8d41c3ca85b834a48d169889c8df8"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-04-upper-floor-atelier-v1.png.part002",
+          "size": 500000,
+          "sha256": "1443002e2b644a0b87fe33cc12142d9079b0d26bbc57f7db19e45c889ffc2ba1"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-04-upper-floor-atelier-v1.png.part003",
+          "size": 500000,
+          "sha256": "3cf92fdc22c192aa09b18ec573bf0bcaba122361ddf4d495c450405dc7672155"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-04-upper-floor-atelier-v1.png.part004",
+          "size": 310855,
+          "sha256": "ff843b86de1a0360df4ff7c0b70884981b374f21111b7bffdf6e946ccffb5454"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/candidates/office-world/scene-05-client-presentation-room-v1.png",
+      "size": 2094118,
+      "sha256": "59bdedcd1eee6098212acd87d763eadeacb80404c1d93420100d9fa41651a768",
+      "parts": [
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-05-client-presentation-room-v1.png.part000",
+          "size": 500000,
+          "sha256": "718b800ab01d8f511179b78a8ef929bf1d4ef11d504c1e871405980847b576aa"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-05-client-presentation-room-v1.png.part001",
+          "size": 500000,
+          "sha256": "fa49140b974a7ed1dd26ab578bfdaff0864c3a878d319b65e01518b3c06c80e3"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-05-client-presentation-room-v1.png.part002",
+          "size": 500000,
+          "sha256": "d650fd2c712faf061d1ae9f65f60b0beba9b8e47bd69cabee0aa9d99f9691056"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-05-client-presentation-room-v1.png.part003",
+          "size": 500000,
+          "sha256": "f3463ec6b9af7507d9ebcd874cb5eba9f3f1c83bce6495bf1302c3a97fca45e1"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-05-client-presentation-room-v1.png.part004",
+          "size": 94118,
+          "sha256": "dd7e48ecc98cdeafbf5cc39ae1e067de9b870172bcfed1c647d4153a4da62ff8"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/candidates/office-world/scene-06-material-model-lab-v1.png",
+      "size": 2176010,
+      "sha256": "125cc715529a12224aa71c1134537e0f41ed6431bc9a0b8a978910842f673ab4",
+      "parts": [
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-06-material-model-lab-v1.png.part000",
+          "size": 500000,
+          "sha256": "ccf8fd95b46c501ed36290ec4cc7ec01ce8de2b4f5fe34f003b3bca27fc6defe"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-06-material-model-lab-v1.png.part001",
+          "size": 500000,
+          "sha256": "18d474c391925b613d5fc0a3da594b2def709efae59b73174b1bcbab5d5196c3"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-06-material-model-lab-v1.png.part002",
+          "size": 500000,
+          "sha256": "0749f4146a1b7715dde32070fa2ced44b4145aabdd4cea9d014bede20545694d"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-06-material-model-lab-v1.png.part003",
+          "size": 500000,
+          "sha256": "a793d3ec04451fa603c127d6c1c4b34ca7fe5b104c69dd70af4abef3018742d9"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-06-material-model-lab-v1.png.part004",
+          "size": 176010,
+          "sha256": "df46be3d38d785a0aa826741c6a9bd79e64876f5534c060bd2803b9bd593e3a1"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/candidates/office-world/scene-07-principal-design-desk-v3.png",
+      "size": 2310987,
+      "sha256": "162d83bb299048415b4c8ebbb44a7ab3b5f4824f50b4c971631f3dfcfd1f9e32",
+      "parts": [
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-07-principal-design-desk-v3.png.part000",
+          "size": 500000,
+          "sha256": "fb8d71577d49f6f9082edfb68c9703e03c20a29fc7a574f7d1135d012eadf6ba"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-07-principal-design-desk-v3.png.part001",
+          "size": 500000,
+          "sha256": "a3010a210f5f5fbd8b31a7329cb928d10f115b4199156f3cb680d931b11f28f6"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-07-principal-design-desk-v3.png.part002",
+          "size": 500000,
+          "sha256": "db83373875028e5d38b73c60168faf6c6353d4afc5d4c007433410501713cc59"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-07-principal-design-desk-v3.png.part003",
+          "size": 500000,
+          "sha256": "ead950bd9ddecd74fb34a12a0cc5a484f643ffb3fd22890ca05d5c49937d8bc1"
+        },
+        {
+          "path": "media-parts/public/assets/candidates/office-world/scene-07-principal-design-desk-v3.png.part004",
+          "size": 310987,
+          "sha256": "aab5b0d9fe88472629ed113ccfdebee7d75f5407def59668bd2195f0f129755c"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/film/00-digital-founder-intro.mp4",
+      "size": 1573954,
+      "sha256": "7a895ff098c291e9f7e0bcea15b3c423e5f8b69a9b00390f82a0cedadf66eaea",
+      "parts": [
+        {
+          "path": "media-parts/public/assets/film/00-digital-founder-intro.mp4.part000",
+          "size": 500000,
+          "sha256": "1bc73c3a0b0120faeb417a69b37654268adea669f4a0913a48087f36cfcff69e"
+        },
+        {
+          "path": "media-parts/public/assets/film/00-digital-founder-intro.mp4.part001",
+          "size": 500000,
+          "sha256": "172004153931a40d2d69ffb99cfc927561fd91db0b84f93bd2de0f7b66247983"
+        },
+        {
+          "path": "media-parts/public/assets/film/00-digital-founder-intro.mp4.part002",
+          "size": 500000,
+          "sha256": "81f72f9f07b868c61417252ece3313a40a4e7e48962547a6c4e50b895d20f01c"
+        },
+        {
+          "path": "media-parts/public/assets/film/00-digital-founder-intro.mp4.part003",
+          "size": 73954,
+          "sha256": "e9fde4af79f13866201dff962a6c5ed7c354d0092445fede929235603b514682"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/film/chapters/05-presentation-room-clean.mp4",
+      "size": 1137178,
+      "sha256": "4b73288549df8985f69531576ed83236e355b25a07bd43e049c8ceaed8a490fb",
+      "parts": [
+        {
+          "path": "media-parts/public/assets/film/chapters/05-presentation-room-clean.mp4.part000",
+          "size": 500000,
+          "sha256": "7188b9188ff1328b53b03d11272721b3cf9a47333ce96baab29867f8273747fb"
+        },
+        {
+          "path": "media-parts/public/assets/film/chapters/05-presentation-room-clean.mp4.part001",
+          "size": 500000,
+          "sha256": "0858ed1e745fdb1243d94e4a93bfe782372bd4963a3e8e06c49df21a9bbaa8cd"
+        },
+        {
+          "path": "media-parts/public/assets/film/chapters/05-presentation-room-clean.mp4.part002",
+          "size": 137178,
+          "sha256": "0fd692049dda5977af2951699574ad2a1c83723e0af7bed65713865d09e23c16"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/film/chapters/06-material-lab.mp4",
+      "size": 3461092,
+      "sha256": "a2c4f0886d5dc21a9a8c3a47dc8c2b22a357e1a374c5a36606e48a21f8d27f65",
+      "parts": [
+        {
+          "path": "media-parts/public/assets/film/chapters/06-material-lab.mp4.part000",
+          "size": 500000,
+          "sha256": "0da3b4cc515f17ce46236a1f288ec1b063b613b9047de359176a61c2e85574f6"
+        },
+        {
+          "path": "media-parts/public/assets/film/chapters/06-material-lab.mp4.part001",
+          "size": 500000,
+          "sha256": "28109d003f21553fba6e3d7618f90ddfdf4cc850db6be94ff6c7ea7aed7e722a"
+        },
+        {
+          "path": "media-parts/public/assets/film/chapters/06-material-lab.mp4.part002",
+          "size": 500000,
+          "sha256": "404cb2777a05c7ebab4e1663e86cbedc501d887e4a5461fca681ab5f707d5217"
+        },
+        {
+          "path": "media-parts/public/assets/film/chapters/06-material-lab.mp4.part003",
+          "size": 500000,
+          "sha256": "631104353c3a9924bb77580fb530821d47d3e738c1dfb163f1515a105c0addfe"
+        },
+        {
+          "path": "media-parts/public/assets/film/chapters/06-material-lab.mp4.part004",
+          "size": 500000,
+          "sha256": "1b81e48b9d96488f3041d34c7bea3c7ae3272e3b38a73f45ecc9aa437d2f22b1"
+        },
+        {
+          "path": "media-parts/public/assets/film/chapters/06-material-lab.mp4.part005",
+          "size": 500000,
+          "sha256": "ece8788f37addde94b480893bb7c6d639713cef0989fe03bee90acbf8e227bf6"
+        },
+        {
+          "path": "media-parts/public/assets/film/chapters/06-material-lab.mp4.part006",
+          "size": 461092,
+          "sha256": "b75a965f5066d512244c081c68448907fc8e9f530de3d20655e1dd396f392adf"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/film/chapters/07-design-desk.mp4",
+      "size": 1818487,
+      "sha256": "2c0ac9bae928ffec2acc0303d5cc4bd90555190ac1438e62d18cd3d1159ecf0a",
+      "parts": [
+        {
+          "path": "media-parts/public/assets/film/chapters/07-design-desk.mp4.part000",
+          "size": 500000,
+          "sha256": "678329c1440f18fc8efbcb1efa443ebe3dd1502f56f96f023709182f98b1db7d"
+        },
+        {
+          "path": "media-parts/public/assets/film/chapters/07-design-desk.mp4.part001",
+          "size": 500000,
+          "sha256": "c163c68fb1f34f2fd9a2e9c0fe041a661066269741153d36d3e3eed0e404ff75"
+        },
+        {
+          "path": "media-parts/public/assets/film/chapters/07-design-desk.mp4.part002",
+          "size": 500000,
+          "sha256": "eba8291697fdc7e8467334aeda545cf608e96c181c78033137c0d06761399331"
+        },
+        {
+          "path": "media-parts/public/assets/film/chapters/07-design-desk.mp4.part003",
+          "size": 318487,
+          "sha256": "66fa582f503b9d92ac64197b88073e8750070486c6dc501530ffb28fa5d7955d"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/film/founder-intro-plus-entrance.mp4",
+      "size": 3884734,
+      "sha256": "7c6babdde58e5274df7bd79b407e7ff354b6c6247baf843ce7a8dad57d6890d3",
+      "parts": [
+        {
+          "path": "media-parts/public/assets/film/founder-intro-plus-entrance.mp4.part000",
+          "size": 500000,
+          "sha256": "811a263109373f08e2ee1e9035b74446d50694163440ee7e90fcfb97db0f0ad2"
+        },
+        {
+          "path": "media-parts/public/assets/film/founder-intro-plus-entrance.mp4.part001",
+          "size": 500000,
+          "sha256": "c2f6aaf129b8b68c420c6705deefa2d8efcf05cef0fd3b969fe11ed59bfb8f11"
+        },
+        {
+          "path": "media-parts/public/assets/film/founder-intro-plus-entrance.mp4.part002",
+          "size": 500000,
+          "sha256": "3fc9b97019d43927f881bf476ba889ad9b23171d051cc9bfe4bda6fa3bbaf787"
+        },
+        {
+          "path": "media-parts/public/assets/film/founder-intro-plus-entrance.mp4.part003",
+          "size": 500000,
+          "sha256": "436014b634ec9af1f864d4fe69a2a2a7db0da93421f7e928377ac004d7b13d07"
+        },
+        {
+          "path": "media-parts/public/assets/film/founder-intro-plus-entrance.mp4.part004",
+          "size": 500000,
+          "sha256": "b641b2c71bc4e2d2793e43b8fe4a516b94c5f11f6b067f3063008711cad012d0"
+        },
+        {
+          "path": "media-parts/public/assets/film/founder-intro-plus-entrance.mp4.part005",
+          "size": 500000,
+          "sha256": "6ce8306dc80afd870638d1481b55c11f766188594e16fee3dbabd94efbc8daa7"
+        },
+        {
+          "path": "media-parts/public/assets/film/founder-intro-plus-entrance.mp4.part006",
+          "size": 500000,
+          "sha256": "5732627506a775f2eec31fba8abe12a714bf9db8ba122d3d97461d2ab2291a30"
+        },
+        {
+          "path": "media-parts/public/assets/film/founder-intro-plus-entrance.mp4.part007",
+          "size": 384734,
+          "sha256": "cf78a66f1a98d4465c86a4263c817c2dcea35b9875576a899c15c20cd4bf3d9e"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/film/lobby-to-studio-clean.mp4",
+      "size": 2611938,
+      "sha256": "49d2fe709e4b1d7268461bf7145e1ec2e8a351ffb461e08668000afbae4feebe",
+      "parts": [
+        {
+          "path": "media-parts/public/assets/film/lobby-to-studio-clean.mp4.part000",
+          "size": 500000,
+          "sha256": "184b10edaa51a05a1a8ca65414fad4d619b3f282b94e89e3a64b312c87f8911d"
+        },
+        {
+          "path": "media-parts/public/assets/film/lobby-to-studio-clean.mp4.part001",
+          "size": 500000,
+          "sha256": "efbfd74714e27afc52e39ceb1af5945777691d9cd2dba4a5c62e11d60368365b"
+        },
+        {
+          "path": "media-parts/public/assets/film/lobby-to-studio-clean.mp4.part002",
+          "size": 500000,
+          "sha256": "c4c6424ab5c5442cea12c8b255388e584ac11136686c051f7b0a457b0a8a4a03"
+        },
+        {
+          "path": "media-parts/public/assets/film/lobby-to-studio-clean.mp4.part003",
+          "size": 500000,
+          "sha256": "09b22d9d8fd114f23e58b4321af7dce1f5d43c41e6e5f7c603bc2258da21a61b"
+        },
+        {
+          "path": "media-parts/public/assets/film/lobby-to-studio-clean.mp4.part004",
+          "size": 500000,
+          "sha256": "dd3ff8dd443c5ffa2d3149aec2b2379984a33c464a29890bb5fa9dceb49fd16b"
+        },
+        {
+          "path": "media-parts/public/assets/film/lobby-to-studio-clean.mp4.part005",
+          "size": 111938,
+          "sha256": "fcbea7cef58901fca49a9bb8b7d3c291d58f8d4fab64e78bcb58136e1d4d151f"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/film/site-cinematic-score-v2.wav",
+      "size": 6144044,
+      "sha256": "c35307ce64d261d34c99b686b8712c55a72b23d7443c35750989914c7df4cb7c",
+      "parts": [
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v2.wav.part000",
+          "size": 500000,
+          "sha256": "56e020a70db022d3151e7dfcafd37aa822fe2d5e03264f7abf2bbc8c2fbeb97d"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v2.wav.part001",
+          "size": 500000,
+          "sha256": "7435818816cc6bc6c0e53b02c72c38c6df9e134e8e2779656779ef096b47d3eb"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v2.wav.part002",
+          "size": 500000,
+          "sha256": "8913875e1fd0473eb70ac3764132eeea5374a738bf15170f859e9c487226ac1d"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v2.wav.part003",
+          "size": 500000,
+          "sha256": "815ef128b525d637ef2413d5b9db937deb5c98a7374ff52209d422915fc6c372"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v2.wav.part004",
+          "size": 500000,
+          "sha256": "c18386133a0d640b4cc16e2dabc0e6583a2aea5b6ede7dc440884c7e282b5e47"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v2.wav.part005",
+          "size": 500000,
+          "sha256": "e56eab077e595b303b2e616bad15785b5071236a9980078a776878497bd09f5e"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v2.wav.part006",
+          "size": 500000,
+          "sha256": "a746347583e07dfa0c75c351a0cfc999e5198701b11a443df2bfa37574c1bc6a"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v2.wav.part007",
+          "size": 500000,
+          "sha256": "71a19a6884e1e1b355a796ecdea9a1d0b28915ef850ddc13812f90e41726b8ec"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v2.wav.part008",
+          "size": 500000,
+          "sha256": "40a77ac74fbc24e5e95ebf2f3f23441c4a3a03bbaf21dd231aaffd9a57f2873a"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v2.wav.part009",
+          "size": 500000,
+          "sha256": "6fb41f974343224f8a3c3c65513b06f87b7e0d742618a4ad338e43c936c04c32"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v2.wav.part010",
+          "size": 500000,
+          "sha256": "e265cfed2bf54855a86ad458154d3d742afe7de517ae0225206c60f976daa90a"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v2.wav.part011",
+          "size": 500000,
+          "sha256": "fd1172f7eb5318ffad834e326aca950b20865e4f5c91e0d4fe16fa141826d80f"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v2.wav.part012",
+          "size": 144044,
+          "sha256": "d2cfa877113ddd90bfdfb57ed2ea12d4f12cf24437a8df3d8cfb0ea8584187b8"
+        }
+      ]
+    },
+    {
+      "path": "public/assets/film/site-cinematic-score-v3.wav",
+      "size": 6144044,
+      "sha256": "c35307ce64d261d34c99b686b8712c55a72b23d7443c35750989914c7df4cb7c",
+      "parts": [
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v3.wav.part000",
+          "size": 500000,
+          "sha256": "56e020a70db022d3151e7dfcafd37aa822fe2d5e03264f7abf2bbc8c2fbeb97d"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v3.wav.part001",
+          "size": 500000,
+          "sha256": "7435818816cc6bc6c0e53b02c72c38c6df9e134e8e2779656779ef096b47d3eb"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v3.wav.part002",
+          "size": 500000,
+          "sha256": "8913875e1fd0473eb70ac3764132eeea5374a738bf15170f859e9c487226ac1d"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v3.wav.part003",
+          "size": 500000,
+          "sha256": "815ef128b525d637ef2413d5b9db937deb5c98a7374ff52209d422915fc6c372"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v3.wav.part004",
+          "size": 500000,
+          "sha256": "c18386133a0d640b4cc16e2dabc0e6583a2aea5b6ede7dc440884c7e282b5e47"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v3.wav.part005",
+          "size": 500000,
+          "sha256": "e56eab077e595b303b2e616bad15785b5071236a9980078a776878497bd09f5e"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v3.wav.part006",
+          "size": 500000,
+          "sha256": "a746347583e07dfa0c75c351a0cfc999e5198701b11a443df2bfa37574c1bc6a"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v3.wav.part007",
+          "size": 500000,
+          "sha256": "71a19a6884e1e1b355a796ecdea9a1d0b28915ef850ddc13812f90e41726b8ec"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v3.wav.part008",
+          "size": 500000,
+          "sha256": "40a77ac74fbc24e5e95ebf2f3f23441c4a3a03bbaf21dd231aaffd9a57f2873a"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v3.wav.part009",
+          "size": 500000,
+          "sha256": "6fb41f974343224f8a3c3c65513b06f87b7e0d742618a4ad338e43c936c04c32"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v3.wav.part010",
+          "size": 500000,
+          "sha256": "e265cfed2bf54855a86ad458154d3d742afe7de517ae0225206c60f976daa90a"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v3.wav.part011",
+          "size": 500000,
+          "sha256": "fd1172f7eb5318ffad834e326aca950b20865e4f5c91e0d4fe16fa141826d80f"
+        },
+        {
+          "path": "media-parts/public/assets/film/site-cinematic-score-v3.wav.part012",
+          "size": 144044,
+          "sha256": "d2cfa877113ddd90bfdfb57ed2ea12d4f12cf24437a8df3d8cfb0ea8584187b8"
+        }
+      ]
+    }
+  ]
+}

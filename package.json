@@ -1,0 +1,26 @@
+{
+  "name": "eyvan-kheshti-cinematic-architecture",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "media:pack": "node scripts/package-media.mjs",
+    "media:restore": "node scripts/restore-media.mjs",
+    "dev": "node scripts/restore-media.mjs && vite --configLoader runner",
+    "build": "node scripts/restore-media.mjs && vite build --configLoader runner",
+    "preview": "vite preview --configLoader runner",
+    "smoke": "node scripts/smoke.mjs",
+    "agent:validate": "node agent-system/scripts/validate-foundation.mjs"
+  },
+  "dependencies": {
+    "@fontsource/noto-naskh-arabic": "^5.2.6",
+    "@fontsource/vazirmatn": "^5.2.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "vite": "^7.1.3"
+  }
+}
