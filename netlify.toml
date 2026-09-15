@@ -4,4 +4,31 @@
   functions = "netlify/functions"
 
 [functions]
-  node_bundler = "esbuild"
+  # All runtime imports are native ESM; package them intact, with their paths.
+  node_bundler = "none"
+  included_files = ["netlify/functions/article-publishing-v1.md", "agent-system/src/*.mjs"]
+
+[[redirects]]
+  from = "/api/agent-manager"
+  to = "/.netlify/functions/agent-manager"
+  status = 200
+
+[[redirects]]
+  from = "/api/ai-command-center"
+  to = "/.netlify/functions/ai-command-center"
+  status = 200
+
+[[redirects]]
+  from = "/api/control-inbox"
+  to = "/.netlify/functions/control-inbox"
+  status = 200
+
+[[redirects]]
+  from = "/api/composio-command"
+  to = "/.netlify/functions/composio-command"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

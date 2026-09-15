@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { dataMode, submitLead } from '../lib/dataAdapter.js';
 
 function SocialIcon({ type }) {
+  if (type === 'facebook') return <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M13.8 20v-7h2.4l.4-2.8h-2.8V8.4c0-.8.2-1.4 1.4-1.4h1.5V4.5c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.1H8.3V13h2.5v7" /></svg>;
   if (type === 'instagram') return <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4.2" /><circle className="fill" cx="17.4" cy="6.7" r="1" /></svg>;
   if (type === 'telegram') return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 4 3.8 10.6c-1.2.5-1.2 1.2-.2 1.5l4.4 1.4 1.7 5.1c.2.7.1 1 .8 1 .6 0 .9-.3 1.2-.6l2.2-2.1 4.6 3.4c.9.5 1.5.3 1.7-.8L23 6c.3-1.4-.5-2-2-2Z" /><path d="m8.6 13.3 10.2-6.4c.5-.3.9-.1.5.2l-8.4 7.6-.3 3.5" /></svg>;
   if (type === 'youtube') return <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4" /><path className="fill" d="m10 9 5 3-5 3Z" /></svg>;
@@ -110,6 +111,7 @@ export default function ContactModal({ open, onClose, brand = {}, language = 'en
     { id: 'whatsapp', platform: 'whatsapp', label: 'WhatsApp', url: brand.whatsapp },
     { id: 'telegram', platform: 'telegram', label: 'Telegram', url: brand.telegram },
     { id: 'instagram', platform: 'instagram', label: 'Instagram', url: brand.instagram },
+    { id: 'facebook', platform: 'facebook', label: 'Facebook', url: brand.facebook },
     { id: 'youtube', platform: 'youtube', label: 'YouTube', url: brand.youtube },
     { id: 'linkedin', platform: 'linkedin', label: 'LinkedIn', url: brand.linkedin },
     { id: 'pinterest', platform: 'pinterest', label: 'Pinterest', url: brand.pinterest },

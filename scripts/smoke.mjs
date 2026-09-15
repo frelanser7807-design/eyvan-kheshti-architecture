@@ -13,9 +13,23 @@ const required = [
   'src/components/AdminPanel.jsx',
   'src/components/ExplorePanel.jsx',
   'src/components/SiteSeo.jsx',
+  'src/components/EditorialSections.jsx',
+  'src/components/SiteSearch.jsx',
+  'src/components/ArticleReader.jsx',
+  'src/data/articles.js',
+  'src/components/LegalPage.jsx',
+  'src/components/ArticleReader.jsx',
+  'src/components/MagazineReader.jsx',
+  'src/components/CommandCenter.jsx',
+  'public/command-center-status.json',
+  'src/data/articles.js',
+  'src/data/magazines.js',
   'docs/API_CONTRACT.md',
   'docs/COMMERCE_BACKEND_PLAN.md',
   'docs/SEO_PLAN.md',
+  'wordpress/eyvan-kheshti-theme/functions.php',
+  'wordpress/eyvan-kheshti-core/eyvan-kheshti-core.php',
+  'wordpress/README-FA.md',
 ];
 
 const activeAssets = [
@@ -33,6 +47,7 @@ const activeAssets = [
   'assets/film/posters/digital-founder-intro.jpg',
   'assets/film/posters/founder-hero.jpg',
   'assets/film/site-cinematic-score-v3.wav',
+  'assets/brand/farnaz-professional-profile-v6.png',
 ];
 
 for (const path of required) await access(join(root, path));
@@ -47,6 +62,17 @@ if (!html.includes('index, follow') || !html.includes('Professional') && !html.i
 
 const app = await readFile(join(root, 'src/App.jsx'), 'utf8');
 if (!app.includes("startsWith('#/admin')")) throw new Error('Admin route missing');
+const commandCenter = await readFile(join(root, 'src/components/CommandCenter.jsx'), 'utf8');
+if (!commandCenter.includes('command-center-status.json') || !commandCenter.includes('handoffText')) throw new Error('Command Center safe fallback is incomplete.');
+if (!commandCenter.includes('magazineFactory') || !commandCenter.includes('/api/composio-command') || !commandCenter.includes('EXECUTE_APPROVED')) throw new Error('Independent magazine factory or supervised Composio execution is incomplete.');
+const composioCommand = await readFile(join(root, 'netlify/functions/composio-command.mjs'), 'utf8');
+if (!composioCommand.includes('approval_required') || !composioCommand.includes('confirmation !== \'EXECUTE_APPROVED\'') || !composioCommand.includes('/api/v3.1/tools/execute/')) throw new Error('Composio execution gate is incomplete.');
+const netlifyConfig = await readFile(join(root, 'netlify.toml'), 'utf8');
+if (!netlifyConfig.includes('/api/composio-command') || !netlifyConfig.includes('/.netlify/functions/composio-command')) throw new Error('Composio command route is missing.');
+const commandStatus = JSON.parse(await readFile(join(root, 'public/command-center-status.json'), 'utf8'));
+for (const slug of ['whatsapp', 'youtube', 'instagram', 'facebook', 'linkedin', 'pinterest', 'gmail', 'netlify']) {
+  if (!commandStatus.connections.some((item) => item.slug === slug)) throw new Error(`Command Center status is missing ${slug}.`);
+}
 
 const adapter = await readFile(join(root, 'src/lib/dataAdapter.js'), 'utf8');
 for (const endpoint of ['/v1/site-content', '/v1/leads', '/v1/subscribers', '/v1/checkout-sessions']) {
@@ -56,10 +82,10 @@ for (const endpoint of ['/v1/site-content', '/v1/leads', '/v1/subscribers', '/v1
 const cinematic = await readFile(join(root, 'src/components/CinematicSite.jsx'), 'utf8');
 if (!cinematic.includes('PRESENTATION_PLAYBACK_RATE = 1.05')) throw new Error('Presentation scene timing regression');
 if (!cinematic.includes('site-cinematic-score-v3.wav')) throw new Error('Soundtrack integration missing');
-if (!cinematic.includes('defaultLanguage') || !cinematic.includes('founderName')) throw new Error('Bilingual founder identity missing');
+if (!cinematic.includes("const language = 'en'") || !cinematic.includes('founderName')) throw new Error('English public founder identity missing');
 if (cinematic.includes('LONDON STUDIO')) throw new Error('Unverified physical studio location must not be published');
 
-for (const key of ['projects', 'services', 'tutorials', 'insights', 'products', 'story']) {
+for (const key of ['projects', 'services', 'tutorials', 'insights', 'guides', 'library', 'ebooks', 'products', 'story']) {
   if (!Array.isArray(defaultContent[key])) throw new Error('Missing content collection: ' + key);
   const ids = defaultContent[key].map((item) => item.id);
   if (ids.length !== new Set(ids).size) throw new Error('Duplicate content id in ' + key);
@@ -69,9 +95,52 @@ for (const sceneId of ['arrival', 'studio', 'works', 'materials', 'practice']) {
 }
 if (defaultContent.settings.defaultLanguage !== 'en') throw new Error('Public default language must remain English');
 if (!defaultContent.brand.founderName || !defaultContent.brand.founderNameFa) throw new Error('Founder identity is incomplete');
+if (defaultContent.brand.name !== 'WORLD ARCH JOURNAL') throw new Error('Public brand name is incomplete');
+for (const platform of ['whatsapp', 'instagram', 'youtube', 'pinterest']) {
+  const channel = defaultContent.brand.socialLinks.find((item) => item.platform === platform);
+  if (!channel?.enabled || !/^https:\/\//.test(channel.url)) throw new Error('Verified public channel is inactive: ' + platform);
+}
+if (defaultContent.monetization.adsenseEnabled !== false || defaultContent.monetization.affiliateEnabled !== false) throw new Error('Commercial integrations must be disabled in the preview.');
+
+const legal = await readFile(join(root, 'src/components/LegalPage.jsx'), 'utf8');
+for (const route of ['/privacy/', '/terms/', '/affiliate-disclosure/', '/editorial-policy/', '/cookie-settings/']) {
+  if (!legal.includes(`'${route}'`)) throw new Error('Missing legal route: ' + route);
+}
+if (cinematic.includes('ek-menu-trigger') || cinematic.includes('studio-menu')) throw new Error('Public hamburger menu must remain removed.');
+if (!cinematic.includes("sceneIndex > 0 ? 'is-visible' : ''")) throw new Error('Floating navigation must remain hidden through video one and begin on video two.');
+if (!cinematic.includes('<SiteSearch') || !cinematic.includes('sceneIndex <= 0')) throw new Error('Opening smart site search is missing.');
+for (const target of ['projects', 'services', 'tutorials', 'articles', 'journal', 'objects', 'ebooks', 'atlas', 'app', 'shop']) {
+  if (!cinematic.includes(`scrollToSection('${target}')`)) throw new Error('Missing floating navigation target: ' + target);
+}
+const editorial = await readFile(join(root, 'src/components/EditorialSections.jsx'), 'utf8');
+if (!editorial.includes('beforeinstallprompt') || !editorial.includes('Add to Home Screen') || !editorial.includes('BIM Object Library')) throw new Error('Installable app guide or download library is incomplete.');
+if (!editorial.includes('Architecture E-Books') || !editorial.includes('No price, purchase or download is active yet.')) throw new Error('Architecture e-books preview boundary is missing.');
+if (!editorial.includes('Architecture Magazine') || !editorial.includes('onOpenMagazine')) throw new Error('Magazine section is not connected.');
+if (!editorial.includes('Read full article') || !editorial.includes('onOpenArticle')) throw new Error('Articles section is not connected.');
+if (defaultContent.ebooks.some((item) => item.price || item.url)) throw new Error('Architecture e-books must not expose pricing or downloads before launch.');
+if (defaultContent.library.some((item) => item.url)) throw new Error('BIM library downloads must remain inactive in this preview.');
+if (!defaultContent.library.some((item) => item.accessTier === 'free') || !defaultContent.library.some((item) => item.accessTier === 'premium')) throw new Error('BIM freemium tiers are incomplete.');
+const articleData = await readFile(join(root, 'src/data/articles.js'), 'utf8');
+if (!editorial.includes('id="articles"') || !articleData.includes('ARTICLE ILLUSTRATIONS PENDING')) throw new Error('Separate Articles section or honest sample-visual boundary is missing.');
+const articleReader = await readFile(join(root, 'src/components/ArticleReader.jsx'), 'utf8');
+if (articleReader.includes('dangerouslySetInnerHTML') || !articleReader.includes('allowedTags')) throw new Error('Article content must use controlled rendering.');
 
 const robots = await readFile(join(root, 'dist/robots.txt'), 'utf8');
 if (!robots.includes('OAI-SearchBot') || !robots.includes('Allow: /')) throw new Error('Search crawler policy missing');
+
+const staticArticle = await readFile(join(root, 'dist/articles/courtyard-wind-house-passive-cooling/index.html'), 'utf8');
+if (!staticArticle.includes('"@type":"Article"') || !staticArticle.includes('rel="canonical"') || !staticArticle.includes('og:image:alt')) throw new Error('Dedicated article SEO page is incomplete.');
+if ((staticArticle.match(/<img /g) || []).length < 5 || !staticArticle.includes('Cooling is often treated')) throw new Error('Dedicated article page is missing its complete visual story or body copy.');
+const staticMagazine = await readFile(join(root, 'dist/magazine/issue-00-the-house-after-the-grid/index.html'), 'utf8');
+if (!staticMagazine.includes('PublicationIssue') || (staticMagazine.match(/<img /g) || []).length < 5) throw new Error('Dedicated magazine page is incomplete.');
+const staticShop = await readFile(join(root, 'dist/shop/index.html'), 'utf8');
+if (!staticShop.includes('CollectionPage') || staticShop.includes('"@type":"Product"')) throw new Error('Shop must remain crawlable without fake product schema before checkout activation.');
+const sitemap = await readFile(join(root, 'dist/sitemap.xml'), 'utf8');
+for (const expectedPath of ['/articles/courtyard-wind-house-passive-cooling/', '/magazine/issue-00-the-house-after-the-grid/', '/shop/']) {
+  if (!sitemap.includes(expectedPath)) throw new Error('Sitemap is missing: ' + expectedPath);
+}
+if (!cinematic.includes('FA SOON') || !cinematic.includes("preload={sceneIndex <= 0 ? 'auto' : 'metadata'}")) throw new Error('Disabled Persian tab or video preload optimisation is missing.');
+if (!cinematic.includes('if (sceneIndex < scenes.length - 1)') || !cinematic.includes('setSceneIndex((value) => value + 1)')) throw new Error('Continuous one-click cinematic playback is missing.');
 
 const serviceWorker = await readFile(join(root, 'dist/sw.js'), 'utf8');
 if (!serviceWorker.includes("startsWith('/v1/')") || !serviceWorker.includes("destination === 'video'") || !serviceWorker.includes("destination === 'audio'")) {
@@ -98,4 +167,4 @@ for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4',
   }
 }
 
-console.log(`Smoke checks passed: 14 active media files exist, release size is ${distSizeMb.toFixed(2)} MB, cinematic timing and soundtrack are intact, English SEO shell and bilingual content are present, Persian admin and API adapters are wired, and private APIs/media are excluded from the PWA shell cache.`);
+console.log(`Smoke checks passed: ${activeAssets.length} active media and brand files exist, release size is ${distSizeMb.toFixed(2)} MB, cinematic timing and soundtrack are intact, verified social links and the WORLD ARCH JOURNAL identity are present, the public site is English-only, Persian source fields remain available in the admin data, legal pages and API adapters are wired, commercial integrations are off, and private APIs/media are excluded from the PWA shell cache.`);

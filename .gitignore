@@ -1,12 +1,19 @@
 # Dependencies and generated output
 node_modules/
 .npm-cache/
+.npm-cache-netlify/
+.appdata/
+.localappdata/
+.chrome-banner-profile/
 dist/
+release/
+wordpress/eyvan-kheshti-theme/app/
 
 # Historical archives and downloadable release packages
 archive/
 qa/
 *.zip
+build*.log
 
 # Local environment values and operating-system files
 .env
@@ -20,6 +27,7 @@ Thumbs.db
 agent-system/runtime/
 agent-system/logs/
 agent-system/github-upload-result.txt
+local-agent/runtime/
 
 .git-dpapi-credentials/
 UPLOAD-TO-GITHUB.cmd
@@ -39,3 +47,6 @@ public/assets/candidates/office-world/scene-05-client-presentation-room-v1.png
 public/assets/film/chapters/07-design-desk.mp4
 public/assets/film/00-digital-founder-intro.mp4
 public/assets/film/chapters/05-presentation-room-clean.mp4
+
+# Local Netlify folder
+.netlify

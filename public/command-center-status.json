@@ -1,0 +1,14 @@
+{
+  "mode": "codex_composio_bridge",
+  "checkedAt": "2026-09-15T05:29:30.000Z",
+  "connections": [
+    { "slug": "whatsapp", "status": "connected", "detail": "Business connection verified" },
+    { "slug": "youtube", "status": "attention", "detail": "Connected; YouTube API quota exhausted" },
+    { "slug": "instagram", "status": "connected", "detail": "Business profile verified" },
+    { "slug": "facebook", "status": "connected", "detail": "Refreshed connection verified" },
+    { "slug": "linkedin", "status": "connected", "detail": "Profile read verified" },
+    { "slug": "pinterest", "status": "connected", "detail": "Profile read verified" },
+    { "slug": "gmail", "status": "connected", "detail": "Mailbox profile verified" },
+    { "slug": "netlify", "status": "connected", "detail": "Production site read verified" }
+  ]
+}
