@@ -1,0 +1,39 @@
+name: Deploy World Arch Command Center
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "public/**"
+      - "netlify/**"
+      - "agent-system/**"
+      - "media-parts/**"
+      - "package.json"
+      - "package-lock.json"
+      - "vite.config.js"
+      - "netlify.toml"
+      - ".github/workflows/deploy-netlify-command-center.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: world-arch-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Deploy verified source to Netlify
+        env:
+          NETLIFY_MCP_PROXY_PATH: ${{ secrets.NETLIFY_MCP_PROXY_PATH }}
+        run: npx -y @netlify/mcp@latest --site-id 004ad58a-5ee6-445d-a682-c5829242662d --proxy-path "$NETLIFY_MCP_PROXY_PATH"
