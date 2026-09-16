@@ -10,6 +10,7 @@ on:
       - "netlify/**"
       - "agent-system/**"
       - "media-parts/**"
+      - "scripts/**"
       - "package.json"
       - "package-lock.json"
       - "vite.config.js"
@@ -33,6 +34,10 @@ jobs:
         with:
           node-version: "22"
           cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Verify production build
+        run: npm run build
       - name: Deploy verified source to Netlify
         env:
           NETLIFY_MCP_PROXY_PATH: ${{ secrets.NETLIFY_MCP_PROXY_PATH }}
