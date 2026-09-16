@@ -1,0 +1,196 @@
+{
+  "source": {
+    "canonical_url": "https://help.autodesk.com/cloudhelp/2026/ENU/Revit-Model/files/GUID-E7D12B71-C50D-46D8-886B-8E0C2B285988.htm",
+    "publisher": "Autodesk",
+    "published_at": "",
+    "retrieved_at": "2026-09-09T00:00:00+03:30",
+    "evidence": [
+      {
+        "publisher": "Autodesk",
+        "source_url": "https://help.autodesk.com/cloudhelp/2026/ENU/Revit-Model/files/GUID-E7D12B71-C50D-46D8-886B-8E0C2B285988.htm",
+        "source_role": "official_authority",
+        "published_at": "",
+        "retrieved_at": "2026-09-09T00:00:00+03:30",
+        "claim": "Revit shared parameter definitions can be used across families or projects and can support tags and multi-category schedules.",
+        "support": "The official Revit 2026 help page describes shared parameters as definitions stored independently of a family or project and explains their use in tags and schedules.",
+        "limitations": "Versioned product documentation, not a building-performance standard; the page does not display a publication date."
+      },
+      {
+        "publisher": "NBS",
+        "source_url": "https://www.thenbs.com/knowledge/what-is-the-nbs-bim-object-standard",
+        "source_role": "independent_editorial",
+        "published_at": "2023-07-31",
+        "retrieved_at": "2026-09-09T00:00:00+03:30",
+        "claim": "A BIM object quality framework should address information, geometry, functional behaviour and metadata rather than geometry alone.",
+        "support": "NBS describes its BIM Object Standard and its sections for general, information, geometry, functional and metadata requirements.",
+        "limitations": "Professional editorial guidance about the NBS standard; it is not a software-specific Revit tutorial and is not used here as an international standard."
+      },
+      {
+        "publisher": "buildingSMART International",
+        "source_url": "https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/",
+        "source_role": "official_standard",
+        "published_at": "2023",
+        "retrieved_at": "2026-09-09T00:00:00+03:30",
+        "claim": "IFC 4.3.2.0 is official buildingSMART documentation aligned with the ISO publication and provides a formal reference point for open BIM exchange.",
+        "support": "The buildingSMART standards server identifies the page as the official IFC 4.3.2.0 documentation and states that it has the same content as the ISO publication.",
+        "limitations": "The article does not reproduce or interpret detailed IFC entities or property sets; actual export mappings must be tested in the target workflow."
+      },
+      {
+        "publisher": "MDPI / Energies",
+        "source_url": "https://www.mdpi.com/1996-1073/16/23/7845",
+        "source_role": "peer_reviewed_research",
+        "published_at": "2023-11-29",
+        "retrieved_at": "2026-09-09T00:00:00+03:30",
+        "claim": "BIM-to-BEM exchange remains imperfect, with different interoperability strategies carrying different trade-offs and complex models often requiring checks or manual correction.",
+        "support": "The peer-reviewed review examines 100 publications, groups BIM-BEM interoperability into four strategies and reports that no strategy was clearly best across the reviewed cases.",
+        "limitations": "A systematic review of literature through 2023; it does not validate any specific Eyvan object, Revit template or simulation result."
+      }
+    ]
+  },
+  "editorial": {
+    "topic": "Climate-aware Revit families and BIM object information design",
+    "angle": "Explain how a BIM object can carry clear, traceable climate-relevant information without pretending to replace whole-building performance analysis.",
+    "audience": "Architects, BIM managers, Revit family authors and product teams building reusable object libraries",
+    "search_intent": "informational",
+    "primary_keyword": "climate-aware Revit families",
+    "secondary_keywords": [
+      "BIM object parameters",
+      "Revit shared parameters",
+      "BIM to BEM interoperability",
+      "IFC data exchange",
+      "sustainable BIM objects"
+    ],
+    "technical_claims_present": true,
+    "internal_links": [
+      {
+        "label": "BIM Object Studio",
+        "url": "/#objects",
+        "purpose": "Connect the article's object-authoring framework to the future library and parametric product experience."
+      },
+      {
+        "label": "Magazine",
+        "url": "/#journal",
+        "purpose": "Return readers to the editorial and research collection."
+      }
+    ],
+    "cta": "Explore the BIM Object Studio roadmap, then continue with the Magazine's research-led BIM and climate-design stories."
+  },
+  "seo": {
+    "title": "Climate-Aware Revit Families: A Practical BIM Object Framework",
+    "slug": "climate-aware-revit-families-bim-object-framework",
+    "meta_title": "Climate-Aware Revit Families: A BIM Object Framework",
+    "meta_description": "Learn how to structure Revit families with traceable climate-relevant data, usable parameters, IFC awareness and a realistic BIM-to-BEM boundary.",
+    "canonical_path": "/articles/climate-aware-revit-families-bim-object-framework/",
+    "schema": [],
+    "geo": {
+      "answer_summary": "A climate-aware Revit family exposes traceable performance-relevant inputs while keeping verified BIM data separate from whole-building analysis claims.",
+      "entities": ["Revit families", "BIM object parameters", "IFC data exchange", "BIM-to-BEM interoperability"]
+    }
+  },
+  "article": {
+    "language": "en",
+    "excerpt": "A climate-aware Revit family is not an energy model in miniature. It is a disciplined BIM object that makes performance-relevant data visible, traceable and ready for verified downstream use.",
+    "content_html": "<p>A Revit family can be beautifully modelled and still be almost useless for climate-conscious decision-making. The missing ingredient is rarely another bevel, connector or nested detail. It is usually a clear information structure: what the object is, which characteristics may matter to environmental performance, where each value came from, and how the object should be tested when it moves into another workflow.</p>\n<p>This article proposes a practical definition of a <strong>climate-aware Revit family</strong>. It does not mean a family that predicts energy use, guarantees comfort or certifies compliance. It means a reusable BIM object that exposes relevant geometry and data in a consistent, reviewable way, while keeping the boundary between design information and building-performance analysis honest. That distinction gives the future <a href=\"/#objects\">BIM Object Studio</a> a useful quality framework and gives the <a href=\"/#journal\">Magazine</a> a repeatable way to explain why particular object decisions matter.</p>\n<h2>Climate-aware does not mean simulation-ready by default</h2>\n<p>The first principle is restraint. A window family, shading device, façade panel or roof component can carry inputs that may be useful in a climate analysis, but the object alone does not describe occupancy, systems, schedules, neighbouring obstructions, infiltration, weather data or the many other conditions that influence a building model. A well-authored family should therefore communicate what it knows without suggesting that it knows the whole building.</p>\n<p>This view begins with a broader definition of BIM object quality. The <a href=\"https://www.thenbs.com/knowledge/what-is-the-nbs-bim-object-standard\">NBS overview of its BIM Object Standard</a> separates requirements into information, geometry, functional behaviour and metadata, alongside general requirements. That is a useful editorial lens even when a team is not claiming formal NBS conformity. It reminds authors that geometry is only one layer of an object's value.</p>\n<p>For an Eyvan object, “climate-aware” should be treated as a transparent authoring approach, not a badge. The object may expose dimensions that affect solar access, distinguish material options, retain declared product-performance fields, or state the intended analysis use. It should also say when a value is unknown, generic, estimated or awaiting manufacturer evidence. Blank, clearly labelled data is safer than a convincing number with no provenance.</p>\n<h2>Build the object around decisions, not an impressive parameter count</h2>\n<p>A large parameter list can make a family look sophisticated while making it harder to use. The better question is: which decisions must this object support? A schematic shading family may need adjustable depth, spacing and orientation logic. A manufacturer-specific window may need stable identity fields, declared thermal and solar properties, source documents and version metadata. These are different use cases and should not be forced into one bloated template.</p>\n<p>Revit provides a practical mechanism for consistency. Autodesk's <a href=\"https://help.autodesk.com/cloudhelp/2026/ENU/Revit-Model/files/GUID-E7D12B71-C50D-46D8-886B-8E0C2B285988.htm\">official Revit 2026 documentation on shared parameters</a> explains that shared parameter definitions can be used across families or projects. It also notes their role in tags and schedules, including multi-category schedules. For a managed library, that makes shared parameters useful where the same concept must remain recognisable across several object categories or project files.</p>\n<p>A compact climate-aware schema can be organised into five groups:</p>\n<table><thead><tr><th>Group</th><th>Purpose</th><th>Example content</th></tr></thead><tbody><tr><td>Identity</td><td>Say exactly what the object represents</td><td>Library ID, family version, generic or manufacturer-specific status</td></tr><tr><td>Geometry</td><td>Expose dimensions that users are allowed to change or schedule</td><td>Width, height, depth, opening state or shading projection</td></tr><tr><td>Declared performance</td><td>Store relevant values only when units and evidence are known</td><td>Thermal, solar, optical or air-permeability fields appropriate to the product</td></tr><tr><td>Use and exchange</td><td>Explain the intended model stage and downstream mapping</td><td>Design-stage purpose, classification, IFC target and analysis note</td></tr><tr><td>Provenance</td><td>Make review possible</td><td>Source document, source date, author, review status and limitations</td></tr></tbody></table>\n<p>The examples are a design checklist, not a universal naming standard. Actual field names, units, instance-versus-type choices and permitted values must be agreed for the library and tested against its schedules, tags and export targets. A field should not be added simply because it might be useful one day. Every parameter has a maintenance cost and can create ambiguity when its ownership is unclear.</p>\n<h2>Separate three kinds of truth inside the family</h2>\n<p>Climate-relevant BIM data becomes more trustworthy when three different kinds of truth are kept separate. The first is <strong>library truth</strong>: identifiers, version numbers, authoring rules and the fact that an object passed internal checks. The second is <strong>declared product truth</strong>: data taken from an approved manufacturer document, test report or other controlled source. The third is <strong>project assumption</strong>: a value selected by a designer for a particular study.</p>\n<p>Mixing those layers creates quiet errors. If a generic placeholder carries a product-like performance value, a later user may treat the number as verified. If a project assumption is baked into a type and then copied to another project, its context disappears. The family should make status visible through naming, parameter grouping, tooltips or companion documentation. Where a field depends on a particular test method or standard, the source reference belongs beside the value rather than in a forgotten external note.</p>\n<p>This also shapes the free-versus-premium product strategy. A free generic family can be honest, light and useful with restrained geometry, stable identity and clear placeholders. A premium parametric object should earn its price through tested behaviour, richer documentation, controlled options, robust schedules, verified exports and maintainable version history—not through hidden complexity or unsupported claims.</p>\n<h2>Design for exchange, then test the actual exchange</h2>\n<p>Open exchange matters because a BIM object may leave its native authoring environment. The <a href=\"https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/\">official buildingSMART IFC 4.3.2.0 documentation</a> is identified by buildingSMART as the official release documentation aligned with the ISO publication. It provides a formal reference for an open BIM data schema and its concepts. For an object studio, IFC awareness should therefore begin during information design, not as a last-minute export checkbox.</p>\n<p>However, mapping a Revit category or parameter to an IFC destination is not proof that every receiving tool will interpret the result as intended. The object should be exported through a defined test model, opened or validated with the target workflow, and checked for identity, geometry, properties, units and missing values. The test receipt should record the Revit version, export setup, IFC version, validator or receiving tool and any known limitation.</p>\n<p>This is why the object package should distinguish native behaviour from exchanged information. Parametric constraints that work in Revit may arrive downstream as fixed geometry. A material name may transfer while a project-specific analytical assumption does not. The correct product statement is not “IFC compatible” in the abstract; it is a narrower, testable statement describing what was exported, with which setup, and what the team verified.</p>\n<h2>Know where the BIM object ends and the energy model begins</h2>\n<p>The BIM-to-BEM boundary deserves explicit attention. A peer-reviewed review by Ciccozzi and colleagues, <a href=\"https://www.mdpi.com/1996-1073/16/23/7845\">“BIM to BEM for Building Energy Analysis”</a>, examined 100 publications and organised interoperability approaches into four broad strategies: real-time connections, standardised exchange with corrective middleware, model-view-based exchange and proprietary toolchains. The authors found different advantages and limitations across the strategies rather than one universally superior route.</p>\n<p>The review also reports persistent problems such as information loss, geometric errors and missing thermal or physical data, with complex cases often needing manual work before simulation. The practical lesson is not that data-rich families are pointless. It is that they are inputs to a controlled analysis process. A climate-aware object can reduce ambiguity and prepare better information, but an analyst still needs to inspect the analytical model, complete context-specific inputs and judge whether the model is fit for its question.</p>\n<p>Accordingly, the BIM Object Studio should never attach a promised energy-saving percentage to a downloadable family. Any future case study should identify the building, climate file, scenarios, assumptions, analysis engine and reviewer. The Magazine can then explain the method and limitations, while the object page links to the same evidence and test record.</p>\n<h2>A release workflow for the BIM Object Studio</h2>\n<p>A dependable object can be produced through six reviewable steps. First, define the object purpose, target users, project stage and supported Revit version. Second, list the decisions the object must support and remove parameters that have no owner or test. Third, build geometry and behaviour within bounded, documented ranges. Fourth, attach approved information with units, status and provenance. Fifth, test schedules, tags, type changes, project loading and the chosen export path. Sixth, package the family with a thumbnail, parameter guide, licence, version note and limitations.</p>\n<p>The editorial workflow should run beside the technical workflow. Each product page can link to a short Magazine explainer about the architectural or environmental decision behind the object. Each article can link back to the relevant free resource, premium pack or coming-soon prototype without pretending that an unfinished product is available. This creates a useful loop: the article teaches the principle, the object demonstrates it, and the test record makes the claim inspectable.</p>\n<p>That loop is a stronger foundation than publishing a large anonymous library. Start with one object, one clear use case and one complete receipt. If the first family makes its limits as legible as its options, it will establish the language for every object that follows.</p>\n<p><strong>Next step:</strong> explore the planned <a href=\"/#objects\">BIM Object Studio</a> and follow the <a href=\"/#journal\">Magazine</a> for future object tests, Revit workflows and climate-design research.</p>",
+    "word_count": 1543,
+    "faq": [
+      {
+        "question": "What is a climate-aware Revit family?",
+        "answer": "It is a BIM object that exposes relevant geometry, performance fields, use notes and provenance in a consistent structure. The term does not mean that the family alone performs or certifies an energy analysis."
+      },
+      {
+        "question": "Should every climate-related value be a shared parameter?",
+        "answer": "No. Shared parameters are useful when a concept must be reused, tagged or scheduled consistently, but the library team still needs to decide which data belongs in the family, project or external analysis workflow."
+      },
+      {
+        "question": "Does IFC mapping guarantee interoperability?",
+        "answer": "No. Mapping is a starting point. The exported object and its data should be checked in the intended validator or receiving workflow, with the setup and limitations recorded."
+      },
+      {
+        "question": "Can a Revit family prove energy savings?",
+        "answer": "Not by itself. Performance claims require a defined building context, climate data, assumptions, analysis method and qualified review."
+      }
+    ]
+  },
+  "image": {
+    "strategy": "All visuals are to be generated specifically for this article. Do not copy source screenshots, diagrams, logos, product interfaces, project photography or manufacturer imagery.",
+    "assets": [
+      {
+        "id": "hero-climate-aware-object",
+        "filename": "climate-aware-revit-family-hero.webp",
+        "aspect_ratio": "16:9",
+        "original_brief": "Create an original editorial architectural illustration of a generic high-performance window and external shading module as a clean exploded axonometric. Surround it with subtle unlabeled data nodes for geometry, materials, solar response and provenance. Warm off-white background, charcoal linework, muted terracotta and deep green accents, premium architecture-magazine composition, generous negative space, no software interface.",
+        "alt_text": "Exploded axonometric of a generic window and shading BIM object with climate-data layers",
+        "caption": "A climate-aware BIM object connects controlled geometry with traceable performance-relevant information.",
+        "placement": "hero, before the opening paragraph",
+        "rights_status": "original_generated",
+        "rights_note": "Generate new media for this article; do not reuse or imitate any source image, Autodesk interface, NBS diagram or buildingSMART graphic.",
+        "rights_reference": "pending-generation-log:pilot-climate-aware-bim-object/hero"
+      },
+      {
+        "id": "five-layer-object-schema",
+        "filename": "five-layer-bim-object-schema.webp",
+        "aspect_ratio": "4:3",
+        "original_brief": "Create an original diagrammatic still life showing one generic façade component at the centre and five visually distinct concentric information layers: identity, geometry, declared performance, use and exchange, and provenance. Communicate the layers with colour and simple symbols only; leave all text for accessible HTML outside the image. Editorial vector-meets-architectural-render style, off-white, charcoal, terracotta, muted blue and green.",
+        "alt_text": "Five visual layers surrounding a generic façade BIM component",
+        "caption": "A compact object schema separates identity, geometry, declared performance, exchange intent and provenance.",
+        "placement": "after the five-group schema table",
+        "rights_status": "original_generated",
+        "rights_note": "Original diagram concept for Eyvan; no source diagram or standards graphic may be copied.",
+        "rights_reference": "pending-generation-log:pilot-climate-aware-bim-object/schema"
+      },
+      {
+        "id": "truth-layers-comparison",
+        "filename": "bim-data-truth-layers.webp",
+        "aspect_ratio": "3:2",
+        "original_brief": "Create an original architectural editorial triptych with three adjacent transparent display cases holding the same generic window object: one case represents library-controlled identity, one represents declared manufacturer evidence, and one represents a project-specific design assumption. Use distinct colour accents and document-like tokens but no readable text, logos or real products. Precise, calm, premium studio lighting.",
+        "alt_text": "Three display cases separating library data, declared product data and project assumptions",
+        "caption": "Trust improves when library truth, declared product truth and project assumptions remain visibly separate.",
+        "placement": "after the section titled Separate three kinds of truth inside the family",
+        "rights_status": "original_generated",
+        "rights_note": "Generate as an original conceptual image; no manufacturer product or certification mark is shown.",
+        "rights_reference": "pending-generation-log:pilot-climate-aware-bim-object/truth-layers"
+      },
+      {
+        "id": "tested-exchange-workflow",
+        "filename": "tested-bim-exchange-workflow.webp",
+        "aspect_ratio": "16:9",
+        "original_brief": "Create an original horizontal architecture workflow illustration: a generic parametric component in an authoring environment moves through a neutral exchange container, then appears in an analytical model, with a human review checkpoint and a test receipt visibly represented. Abstract interfaces only, no logos, no readable UI, no claims of automatic success. Refined technical editorial aesthetic with clear directional flow.",
+        "alt_text": "Generic BIM object moving through exchange, analysis and human verification stages",
+        "caption": "Mapping begins the exchange; a defined export test and human review establish what actually survives.",
+        "placement": "between the IFC exchange and BIM-to-BEM sections",
+        "rights_status": "original_generated",
+        "rights_note": "Original workflow artwork only; do not reproduce software screens, IFC documentation graphics or research figures.",
+        "rights_reference": "pending-generation-log:pilot-climate-aware-bim-object/exchange-workflow"
+      }
+    ]
+  },
+  "wordpress": {
+    "status": "draft",
+    "category": "Technology, AI and BIM",
+    "tags": [
+      "Revit",
+      "BIM Objects",
+      "Climate Design",
+      "Interoperability",
+      "IFC"
+    ],
+    "author": "Farnaz Ghaffarian"
+  },
+  "qa": {
+    "facts_checked": true,
+    "claims_checked": true,
+    "adsense_safe": true,
+    "keyword_stuffing_checked": true,
+    "schema_facts_verified": true,
+    "duplicate_risk": "low",
+    "word_count_method": "agent-system/src/content-package.mjs visible English text counter",
+    "source_policy": "official or primary, independent professional editorial, and peer-reviewed or official technical evidence; ArchDaily excluded from evidence",
+    "review_flags": [
+      "human_approval_required",
+      "notebooklm_review_required_before_writer_release",
+      "generate_and_review_all_images_before_wordpress_draft_creation",
+      "verify_internal_anchor_routes_in_wordpress_before_draft_creation"
+    ]
+  }
+}
+
