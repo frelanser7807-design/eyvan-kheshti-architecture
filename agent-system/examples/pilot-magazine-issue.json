@@ -1,0 +1,75 @@
+{
+  "issue": {
+    "number": "00",
+    "title": "Issue 00 — The House After the Grid",
+    "slug": "issue-00-the-house-after-the-grid",
+    "language": "en",
+    "summary": "An original visual issue exploring how shade, air paths, courtyards, material depth and careful verification can shape architecture before mechanical cooling begins.",
+    "status": "editorial_preview"
+  },
+  "editorial": {
+    "designSystemProfile": "eyvan-global-architecture-magazine-v1",
+    "theme": "Resilient Homes — Architecture That Lives With Climate",
+    "audience": "Architects, students, BIM professionals and design-aware readers",
+    "sourcePolicy": "primary_plus_independent_plus_technical_when_applicable",
+    "notebookLmRole": "source-room review and contradiction checking; never autonomous publishing"
+  },
+  "features": [
+    {
+      "id": "courtyard-wind-house-passive-cooling",
+      "title": "The House After the Grid",
+      "deck": "Five passive-cooling moves are tested through an original courtyard-house concept, a plan and section, an environmental axonometric and an explicit evidence boundary.",
+      "status": "brief_ready",
+      "articlePackage": "courtyard-wind-house-passive-cooling",
+      "sourceUrls": [
+        "https://www.energy.gov/sites/prod/files/guide_to_passive_solar_home_design.pdf",
+        "https://www.wbdg.org/resources/natural-ventilation",
+        "https://www.sciencedirect.com/science/article/pii/S0378778826008017",
+        "https://www.iea.org/reports/space-cooling-2",
+        "https://www.designboom.com/architecture/power-goes-out-keep-house-cooling-passive-survivability/"
+      ]
+    },
+    {
+      "id": "small-space-climate",
+      "title": "Small Spaces, Serious Climate Decisions",
+      "deck": "A planned feature on how compact plans change daylight, ventilation, storage and comfort decisions.",
+      "status": "brief_ready",
+      "sourceUrls": ["https://www.iea.org/topics/buildings", "https://www.who.int/health-topics/air-pollution"]
+    },
+    {
+      "id": "materials-with-receipts",
+      "title": "Materials With Receipts",
+      "deck": "A planned guide to separating marketing language from verified environmental and technical declarations.",
+      "status": "brief_ready",
+      "sourceUrls": ["https://www.iso.org/standard/38131.html", "https://www.epa.gov/greenerproducts"]
+    },
+    {
+      "id": "responsible-ai-practice",
+      "title": "Responsible AI in Architectural Practice",
+      "deck": "A planned field note on where AI assists research and visualisation—and where professional review must remain decisive.",
+      "status": "brief_ready",
+      "sourceUrls": ["https://www.nist.gov/itl/ai-risk-management-framework", "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics"]
+    }
+  ],
+  "cover": {
+    "title": "The House After the Grid",
+    "altText": "Courtyard Wind House concept with a shaded colonnade, water court and wind-catcher tower",
+    "brief": "Original editorial cover for an unbuilt World Arch Journal concept study, with strong negative space, warm mineral materials and no third-party buildings or logos.",
+    "rightsStatus": "original_generated",
+    "rightsReference": "generated-images:2026-09-09/courtyard-wind-house-cover"
+  },
+  "wordpress": { "status": "draft" },
+  "qa": {
+    "sourcesChecked": true,
+    "claimsChecked": true,
+    "mediaRightsChecked": true,
+    "reviewFlags": [
+      "editorial_preview_only",
+      "complete_all_four_articles",
+      "generate_and_review_cover_and_feature_images",
+      "notebooklm_review_required",
+      "human_approval_required"
+    ]
+  }
+}
+
