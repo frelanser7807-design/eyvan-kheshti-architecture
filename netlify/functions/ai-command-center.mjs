@@ -106,15 +106,14 @@ async function providerStatus() {
   };
 }
 
-async function createGeminiImage(prompt) {
-  if (!process.env.GEMINI_API_KEY) throw new Error('Gemini API هنوز در محیط امن سایت تنظیم نشده است.');
-  const model = process.env.GEMINI_IMAGE_MODEL || 'gemini-3.1-flash-lite-image';
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(process.env.GEMINI_API_KEY)}`;
-  const response = await fetch(url, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ contents: [{ role: 'user', parts: [{ text: prompt }] }], generationConfig: { responseModalities: ['IMAGE'] } }), signal: AbortSignal.timeout(120000) });
+async function createGeminiImage(prompt, references = []) {
+  if (!process.env.GEMINI_API_KEY) throw new Error('کلید Gemini برای تولید تصویر در محیط امن سایت تنظیم نشده است.');
+  const model = process.env.GEMINI_IMAGE_MODEL || 'gemini-3.1-flash-image';
+  const parts = [{ text: prompt }, ...references.map((item) => ({ inlineData: { mimeType: item.mimeType, data: item.data } }))];
+  const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, { method: 'POST', headers: { 'content-type': 'application/json', 'x-goog-api-key': process.env.GEMINI_API_KEY }, body: JSON.stringify({ contents: [{ role: 'user', parts }], generationConfig: { responseModalities: ['IMAGE'] } }), signal: AbortSignal.timeout(120000) });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) throw new Error(data?.error?.message || 'تولید تصویر Gemini انجام نشد.');
-  const parts = data?.candidates?.[0]?.content?.parts || [];
-  return parts.filter((part) => part.inlineData?.data).map((part) => ({ mimeType: part.inlineData.mimeType || 'image/png', data: part.inlineData.data }));
+  return (data.candidates || []).flatMap((candidate) => candidate.content?.parts || []).map((part) => part.inlineData || part.inline_data).filter((item) => item?.data).map((item) => ({ mimeType: item.mimeType || item.mime_type || 'image/png', data: item.data }));
 }
 
 export default async function handler(request) {
@@ -160,7 +159,7 @@ export default async function handler(request) {
     let images = [];
     if (body.generateImage) {
       try {
-        images = await createGeminiImage(`${prompt}\nCreate an original World Arch Journal visual informed by the reference's high-level composition only. Do not copy logos, text, distinctive protected artwork, or a real person's identity.`);
+        images = await createGeminiImage(`${prompt}\nCreate an original World Arch Journal visual informed by the reference's high-level composition only. Do not copy logos, text, distinctive protected artwork, or a real person's identity.`, references);
       } catch (error) {
         errors.push({ provider: 'gemini-image', message: error instanceof Error ? error.message : 'Image generation failed.' });
       }
@@ -170,3 +169,4 @@ export default async function handler(request) {
     return reply(400, { error: { message: error instanceof Error ? error.message : 'Invalid request.' } });
   }
 }
+
