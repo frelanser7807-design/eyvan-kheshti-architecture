@@ -106,12 +106,15 @@ async function providerStatus() {
   };
 }
 
-async function createOpenAIImage(prompt) {
-  if (!process.env.OPENAI_API_KEY) throw new Error('OpenAI API هنوز در محیط امن سایت تنظیم نشده است.');
-  const response = await fetch('https://api.openai.com/v1/images/generations', { method: 'POST', headers: { 'content-type': 'application/json', authorization: `Bearer ${process.env.OPENAI_API_KEY}` }, body: JSON.stringify({ model: process.env.OPENAI_IMAGE_MODEL || 'gpt-image-2', prompt, size: '1024x1024', quality: 'high', output_format: 'webp' }), signal: AbortSignal.timeout(120000) });
+async function createGeminiImage(prompt) {
+  if (!process.env.GEMINI_API_KEY) throw new Error('Gemini API هنوز در محیط امن سایت تنظیم نشده است.');
+  const model = process.env.GEMINI_IMAGE_MODEL || 'gemini-3.1-flash-lite-image';
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(process.env.GEMINI_API_KEY)}`;
+  const response = await fetch(url, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ contents: [{ role: 'user', parts: [{ text: prompt }] }], generationConfig: { responseModalities: ['IMAGE'] } }), signal: AbortSignal.timeout(120000) });
   const data = await response.json().catch(() => ({}));
-  if (!response.ok) throw new Error(data?.error?.message || 'تولید تصویر GPT انجام نشد.');
-  return (data.data || []).filter((item) => item.b64_json).map((item) => ({ mimeType: 'image/webp', data: item.b64_json }));
+  if (!response.ok) throw new Error(data?.error?.message || 'تولید تصویر Gemini انجام نشد.');
+  const parts = data?.candidates?.[0]?.content?.parts || [];
+  return parts.filter((part) => part.inlineData?.data).map((part) => ({ mimeType: part.inlineData.mimeType || 'image/png', data: part.inlineData.data }));
 }
 
 export default async function handler(request) {
@@ -157,9 +160,9 @@ export default async function handler(request) {
     let images = [];
     if (body.generateImage) {
       try {
-        images = await createOpenAIImage(`${prompt}\nCreate an original World Arch Journal visual informed by the reference's high-level composition only. Do not copy logos, text, distinctive protected artwork, or a real person's identity.`);
+        images = await createGeminiImage(`${prompt}\nCreate an original World Arch Journal visual informed by the reference's high-level composition only. Do not copy logos, text, distinctive protected artwork, or a real person's identity.`);
       } catch (error) {
-        errors.push({ provider: 'openai-image', message: error instanceof Error ? error.message : 'Image generation failed.' });
+        errors.push({ provider: 'gemini-image', message: error instanceof Error ? error.message : 'Image generation failed.' });
       }
     }
     return reply(200, { mode: 'draft_only', destination, outputs, council, councilComplete: council.length === 3, errors, images, referenceCount: references.length, publication: { allowed: false, humanApprovalRequired: true }, createdAt: new Date().toISOString() });
