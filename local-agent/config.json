@@ -1,0 +1,16 @@
+{
+  "host": "127.0.0.1",
+  "port": 47832,
+  "workspaceRoot": "..",
+  "maxFileBytes": 1048576,
+  "allowedTasks": ["site_build", "site_smoke"],
+  "composio": {
+    "enabled": true,
+    "baseUrl": "https://backend.composio.dev",
+    "requestTimeoutMs": 15000,
+    "allowToolExecution": false,
+    "allowedToolSlugs": []
+  },
+  "allowDelete": false,
+  "allowArbitraryCommands": false
+}

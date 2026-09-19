@@ -1,0 +1,13 @@
+{
+  // Put the real consumer key in the AI client's protected secret/environment UI.
+  // Never paste it into this file, GitHub, Google Drive, or a prompt.
+  "mcpServers": {
+    "composio": {
+      "type": "streamable-http",
+      "url": "https://connect.composio.dev/mcp",
+      "headers": {
+        "x-consumer-api-key": "${COMPOSIO_CONSUMER_KEY}"
+      }
+    }
+  }
+}

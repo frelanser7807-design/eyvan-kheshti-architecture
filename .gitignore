@@ -28,6 +28,8 @@ agent-system/runtime/
 agent-system/logs/
 agent-system/github-upload-result.txt
 local-agent/runtime/
+local-agent/secrets.env
+drive-backup-parts/
 
 .git-dpapi-credentials/
 UPLOAD-TO-GITHUB.cmd

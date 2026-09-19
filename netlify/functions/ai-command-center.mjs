@@ -38,9 +38,9 @@ async function listComposioConnections() {
 
 async function callGemini(prompt, references = []) {
   if (!process.env.GEMINI_API_KEY || !process.env.GEMINI_MODEL) throw new Error('Gemini هنوز در محیط امن سایت تنظیم نشده است.');
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(process.env.GEMINI_MODEL)}:generateContent?key=${encodeURIComponent(process.env.GEMINI_API_KEY)}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(process.env.GEMINI_MODEL)}:generateContent`;
   const parts = [{ text: prompt }, ...references.map((item) => ({ inline_data: { mime_type: item.mimeType, data: item.data } }))];
-  const response = await fetch(url, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ contents: [{ role: 'user', parts }] }), signal: AbortSignal.timeout(90000) });
+  const response = await fetch(url, { method: 'POST', headers: { 'content-type': 'application/json', 'x-goog-api-key': process.env.GEMINI_API_KEY }, body: JSON.stringify({ contents: [{ role: 'user', parts }] }), signal: AbortSignal.timeout(90000) });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) throw new Error(data?.error?.message || 'Gemini پاسخ نداد.');
   return (data?.candidates?.[0]?.content?.parts || []).map((part) => part.text || '').join('\n');
@@ -134,7 +134,8 @@ export default async function handler(request) {
     const destination = String(body.destination || 'draft');
     const references = Array.isArray(body.references) ? body.references.slice(0, 12).filter((item) => /^image\//.test(item?.mimeType || '') && typeof item?.data === 'string' && item.data.length < 2_000_000) : [];
     const magazineSpec = destination === 'magazine' ? `\nMAGAZINE FACTORY REQUIREMENTS\nAnalyze the reference material's high-level editorial system without copying protected wording, logos, photographs, or distinctive page artwork. Produce a complete original issue package with: issue thesis and audience; cover direction; table of contents; page-by-page flatplan; editor's letter; project facts; design narrative; spatial/technical analysis; diagram and drawing briefs; image list with captions and rights status; complete English copy for every page; credits and cited sources; SEO title, description and schema notes; website article extracts; YouTube, Instagram, LinkedIn, Pinterest and Facebook launch copy; and a final production/quality checklist. Clearly label any missing factual input instead of inventing it.` : '';
-    const system = `You are the private content operator for World Arch Journal. Destination: ${destination}. Produce an original, factual, English-first draft. Never claim publication. Never publish, send, buy, delete, or modify an external account. Mark uncertain facts and media-rights issues for human review.${magazineSpec}`;
+    const articleSpec = destination === 'article' ? `\nINTERNATIONAL ARTICLE REQUIREMENTS\nWrite for an international English-speaking architecture audience. Return a search-friendly slug; SEO title (maximum 60 characters); meta description (150–160 characters); primary and supporting keywords; H1/H2 structure; complete original article; cited source links; image placement plan with captions and descriptive alt text; media-rights status; Article JSON-LD schema notes; canonical URL and EN/FA hreflang notes; website excerpt; and launch copy for Instagram, YouTube, LinkedIn, Pinterest and Facebook. Never invent project facts, sources, measurements, credits or URLs; label missing inputs for review.` : '';
+    const system = `You are the private content operator for World Arch Journal. Destination: ${destination}. The owner may write in Persian; understand Persian commands and explain status, errors and next steps in Persian. Deliverables for the international website and social channels should be in polished English unless the owner explicitly requests Persian. Produce an original, factual draft. Never claim publication. Never publish, send, buy, delete, or modify an external account. Mark uncertain facts, missing sources, URLs and media-rights issues for human review.${articleSpec}${magazineSpec}`;
     const fullPrompt = `${system}\n\nOWNER REQUEST\n${prompt}`;
     const providerMap = { gemini: callGemini, openai: callOpenAI, anthropic: callAnthropic };
     if (provider === 'ollama') {
@@ -169,4 +170,3 @@ export default async function handler(request) {
     return reply(400, { error: { message: error instanceof Error ? error.message : 'Invalid request.' } });
   }
 }
-

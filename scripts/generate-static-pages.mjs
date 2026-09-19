@@ -107,10 +107,9 @@ for (const product of publishedProducts) {
   await emit(pathname, preparePage({ pathname, title: `${product.title} | ${siteName}`, description: product.excerpt, image: product.image, imageAlt: product.imageAlt || product.title, type: verifiedCheckout ? 'product' : 'website', schema, body }));
 }
 
-const sitemapPaths = ['/', '/privacy/', '/terms/', '/affiliate-disclosure/', '/editorial-policy/', '/cookie-settings/', ...articles.filter((item) => item.published).map((item) => `/articles/${item.slug}/`), ...magazines.filter((item) => item.published).map((item) => `/magazine/${item.slug}/`), shopPath, ...publishedProducts.map((item) => `/shop/${item.slug || item.id}/`)];
+const sitemapPaths = ['/', '/privacy/', '/terms/', '/affiliate-disclosure/', '/editorial-policy/', '/cookie-settings/', '/atlas/turkiye/istanbul/', ...articles.filter((item) => item.published).map((item) => `/articles/${item.slug}/`), ...magazines.filter((item) => item.published).map((item) => `/magazine/${item.slug}/`), shopPath, ...publishedProducts.map((item) => `/shop/${item.slug || item.id}/`)];
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...new Set(sitemapPaths)].map((item) => `  <url><loc>${siteUrl}${item === '/' ? '' : item}</loc></url>`).join('\n')}\n</urlset>\n`;
 await writeFile(path.join(dist, 'sitemap.xml'), sitemap, 'utf8');
 await writeFile(path.join(dist, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /#/admin\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nSitemap: ${siteUrl}/sitemap.xml\n`, 'utf8');
 
 console.log(`Generated ${articles.filter((item) => item.published).length} article page(s), ${magazines.filter((item) => item.published).length} magazine page(s), ${publishedProducts.length} product page(s), shop, sitemap and robots.`);
-
