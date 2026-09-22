@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs><style>.t{font:700 30px Arial;fill:#f2ede4;letter-spacing:2px}.s{font:400 19px Arial;fill:#bbb6ac}.n{font:700 18px Arial;fill:#d6b57f}.w{fill:none;stroke:#8b968f;stroke-width:3}.g{fill:#1d2725;stroke:#52615c;stroke-width:2}</style></defs><rect width="1600" height="900" fill="#101615"/>
+  <text x="86" y="94" class="n">STRATEGY 01</text><text x="86" y="148" class="t">MAP EXPOSURE BY ORIENTATION</text>
+  <g transform="translate(95 235)"><circle cx="318" cy="280" r="210" class="w"/><path d="M108 280h420M318 70v420" class="w"/><rect x="230" y="192" width="176" height="176" class="g" transform="rotate(18 318 280)"/><path d="M42 378Q318-70 594 378" fill="none" stroke="#d6b57f" stroke-width="7"/><circle cx="78" cy="326" r="20" fill="#e1c18b"/><circle cx="318" cy="70" r="20" fill="#e1c18b"/><circle cx="558" cy="326" r="20" fill="#e1c18b"/>
+    <text x="300" y="34" class="n">HIGH SUN</text><text x="0" y="430" class="n">LOW MORNING SUN</text><text x="430" y="430" class="n">LOW AFTERNOON SUN</text>
+  </g>
+  <g transform="translate(780 232)"><rect width="700" height="455" rx="10" fill="#18211f" stroke="#46534f"/><g class="n"><text x="34" y="62">EQUATOR-FACING</text><text x="34" y="168">EAST / WEST</text><text x="34" y="274">SHADED / URBAN</text><text x="34" y="380">WIND-EXPOSED</text></g><g class="s"><text x="290" y="62">Test horizontal overhangs</text><text x="290" y="92">and seasonal solar control.</text><text x="290" y="168">Reduce glass; use fins, screens</text><text x="290" y="198">or deep side reveals.</text><text x="290" y="274">Model reflected heat, daylight</text><text x="290" y="304">and the changing horizon.</text><text x="290" y="380">Coordinate openings, rain,</text><text x="290" y="410">noise, safety and pressure.</text></g></g>
+  <text x="88" y="806" class="s">CLIMATE FILE + SOLAR STUDY + LOCAL HORIZON + ROOM-BY-ROOM LOADS</text>
+</svg>

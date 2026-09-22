@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0l10 5-10 5z" fill="#d7b67d"/></marker><style>.t{font:700 30px Arial;fill:#f2ede4;letter-spacing:2px}.s{font:400 18px Arial;fill:#bcb7ad}.n{font:700 18px Arial;fill:#d7b67d}.box{fill:#1b2523;stroke:#53615c;stroke-width:2}.ln{fill:none;stroke:#d7b67d;stroke-width:4;marker-end:url(#a)}</style></defs><rect width="1600" height="900" fill="#101615"/><text x="86" y="94" class="n">VERIFICATION</text><text x="86" y="148" class="t">CLOSE THE EVIDENCE LOOP</text>
+  <g transform="translate(180 220)"><path d="M620 40A300 300 0 1 1 390 105" class="ln"/>
+    <g><rect class="box" x="470" width="300" height="118" rx="59"/><text x="535" y="50" class="n">01 · BASELINE</text><text x="530" y="82" class="s">define climate + use</text></g>
+    <g><rect class="box" x="915" y="170" width="300" height="118" rx="59"/><text x="974" y="220" class="n">02 · COMPARE</text><text x="963" y="252" class="s">model equal assumptions</text></g>
+    <g><rect class="box" x="800" y="470" width="300" height="118" rx="59"/><text x="842" y="520" class="n">03 · DOCUMENT</text><text x="858" y="552" class="s">publish limits + data</text></g>
+    <g><rect class="box" x="215" y="470" width="300" height="118" rx="59"/><text x="258" y="520" class="n">04 · COMMISSION</text><text x="261" y="552" class="s">test real sequences</text></g>
+    <g><rect class="box" x="25" y="170" width="300" height="118" rx="59"/><text x="84" y="220" class="n">05 · MEASURE</text><text x="73" y="252" class="s">review occupied trends</text></g>
+    <text x="486" y="332" class="t">CLAIM ONLY</text><text x="445" y="374" class="t">WHAT YOU CAN SHOW</text>
+  </g><text x="86" y="796" class="s">SIMULATION IS NOT MEASUREMENT · A COMPONENT VALUE IS NOT WHOLE-BUILDING PERFORMANCE</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs><style>.t{font:700 30px Arial;fill:#f2ede4;letter-spacing:2px}.s{font:400 19px Arial;fill:#bcb7ad}.n{font:700 18px Arial;fill:#d7b67d}.axis{stroke:#62706a;stroke-width:2}.hot{fill:none;stroke:#dfb071;stroke-width:7}.in{fill:none;stroke:#8aa99e;stroke-width:7}</style></defs><rect width="1600" height="900" fill="#101615"/><text x="86" y="94" class="n">STRATEGY 06</text><text x="86" y="148" class="t">THERMAL MASS SHIFTS HEAT IN TIME</text>
+  <g transform="translate(105 230)"><path d="M70 450H1370M70 40v410" class="axis"/><g class="s"><text x="42" y="480">00</text><text x="358" y="480">06</text><text x="680" y="480">12</text><text x="1005" y="480">18</text><text x="1330" y="480">24</text><text x="0" y="58">HOT</text><text x="0" y="443">COOL</text></g>
+    <path d="M70 360C250 350 325 250 470 150S760 80 900 150s210 205 470 210" class="hot"/>
+    <path d="M70 365C370 360 500 330 650 260s290-80 420-16 170 105 300 116" class="in"/>
+    <path d="M70 395h285" stroke="#d7b67d" stroke-width="20" opacity=".35"/><path d="M1125 395h245" stroke="#d7b67d" stroke-width="20" opacity=".35"/>
+    <text x="475" y="122" class="n">OUTDOOR PEAK</text><text x="920" y="220" class="n">DELAYED INDOOR PEAK</text><text x="90" y="430" class="n">NIGHT PURGE WINDOW</text><text x="1125" y="430" class="n">NIGHT PURGE WINDOW</text>
+  </g><text x="86" y="796" class="s">MASS DOES NOT REMOVE HEAT · IT HELPS ONLY WHEN A COOLER RELEASE PERIOD EXISTS</text>
+</svg>

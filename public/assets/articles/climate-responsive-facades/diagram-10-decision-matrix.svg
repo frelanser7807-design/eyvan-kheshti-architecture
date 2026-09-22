@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs><style>.t{font:700 29px Arial;fill:#f2ede4;letter-spacing:2px}.s{font:400 17px Arial;fill:#c3beb5}.n{font:700 17px Arial;fill:#d7b67d}.line{stroke:#4f5d58;stroke-width:2}.hi{fill:#d7b67d}.med{fill:#64756e}.low{fill:#303b38}</style></defs><rect width="1600" height="900" fill="#101615"/><text x="75" y="85" class="n">STARTING MATRIX · VERIFY LOCALLY</text><text x="75" y="136" class="t">FACADE PRIORITIES CHANGE WITH CLIMATE</text>
+  <g transform="translate(75 210)"><g class="n"><text x="390" y="0">HOT–DRY</text><text x="660" y="0">HOT–HUMID</text><text x="930" y="0">TEMPERATE</text><text x="1200" y="0">COLD</text></g>
+    <g class="s"><text x="0" y="105">EXTERNAL SHADING</text><text x="0" y="215">LOW SOLAR GAIN</text><text x="0" y="325">OPERABLE VENTILATION</text><text x="0" y="435">THERMAL MASS + NIGHT PURGE</text><text x="0" y="545">CONTINUOUS INSULATION</text></g>
+    <g class="line"><path d="M310 48H1400M310 158H1400M310 268H1400M310 378H1400M310 488H1400M310 598H1400"/><path d="M310 48v550M580 48v550M850 48v550M1120 48v550M1400 48v550"/></g>
+    <g><circle class="hi" cx="445" cy="98" r="24"/><circle class="hi" cx="715" cy="98" r="24"/><circle class="med" cx="985" cy="98" r="24"/><circle class="low" cx="1255" cy="98" r="24"/>
+      <circle class="hi" cx="445" cy="208" r="24"/><circle class="hi" cx="715" cy="208" r="24"/><circle class="med" cx="985" cy="208" r="24"/><circle class="low" cx="1255" cy="208" r="24"/>
+      <circle class="med" cx="445" cy="318" r="24"/><circle class="med" cx="715" cy="318" r="24"/><circle class="hi" cx="985" cy="318" r="24"/><circle class="low" cx="1255" cy="318" r="24"/>
+      <circle class="hi" cx="445" cy="428" r="24"/><circle class="low" cx="715" cy="428" r="24"/><circle class="med" cx="985" cy="428" r="24"/><circle class="med" cx="1255" cy="428" r="24"/>
+      <circle class="med" cx="445" cy="538" r="24"/><circle class="med" cx="715" cy="538" r="24"/><circle class="hi" cx="985" cy="538" r="24"/><circle class="hi" cx="1255" cy="538" r="24"/></g>
+  </g><g transform="translate(1080 820)"><circle class="hi" r="10"/><text x="20" y="6" class="s">HIGH</text><circle class="med" cx="105" r="10"/><text x="125" y="6" class="s">CONDITIONAL</text><circle class="low" cx="285" r="10"/><text x="305" y="6" class="s">LOWER</text></g>
+</svg>

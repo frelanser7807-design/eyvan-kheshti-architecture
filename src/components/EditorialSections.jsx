@@ -12,7 +12,7 @@ const copy = {
     services: 'Studio Services',
     tutorials: 'Tutorials',
     magazine: 'Architecture Magazine',
-    magazineText: 'Curated thematic issues built from separately verified articles—not an automated stream of copied news.',
+    magazineText: 'World Arch Journal issues and source-grounded architecture articles, collected in one dedicated editorial section.',
     openMagazine: 'Open Issue 00',
     articles: 'Articles',
     articlesText: 'Source-grounded, long-form reading for architects, BIM teams and design professionals. Articles are kept separate from shorter studio journal notes.',
@@ -50,7 +50,7 @@ const copy = {
     services: 'خدمات استودیو',
     tutorials: 'آموزش‌ها',
     magazine: 'مجلهٔ معماری',
-    magazineText: 'شماره‌های موضوعی که از مقاله‌های جداگانه و بررسی‌شده ساخته می‌شوند؛ نه جریان خودکار خبرهای کپی‌شده.',
+    magazineText: 'شماره‌های ورلد آرک ژورنال و مقاله‌های منبع‌محور معماری، همگی در یک بخش تحریریهٔ مستقل گردآوری می‌شوند.',
     openMagazine: 'بازکردن شمارهٔ صفر',
     articles: 'مقاله‌ها',
     articlesText: 'مطالب بلند و منبع‌محور برای معماران، تیم‌های BIM و متخصصان طراحی؛ جدا از یادداشت‌های کوتاه ژورنال استودیو.',
@@ -199,9 +199,35 @@ export default function EditorialSections({ content, language, onExplore, onOpen
         <PreviewCards items={tutorials} language={language} />
       </section>
 
-      <section id="journal" className="ek-editorial-section" aria-labelledby="journal-title">
-        <header><small>04</small><h2 id="journal-title">{text.magazine}</h2><button type="button" onClick={() => onExplore('magazines')}>{text.viewAll} ↗</button></header>
+      <section id="journal" className="ek-editorial-section ek-articles-band" aria-labelledby="journal-title">
+        <span id="articles" aria-hidden="true" />
+        <header><small>04</small><h2 id="journal-title">{text.magazine}</h2><button type="button" onClick={() => window.location.assign('/magazine/')}>{text.viewAll} ↗</button></header>
         <p className="ek-articles-intro">{text.magazineText}</p>
+        <div className="ek-magazine-collection-heading">
+          <div><small>01 / EDITORIAL LIBRARY</small><h3>{text.articles}</h3></div>
+          <span>{String(articles.filter((article) => article.published).length).padStart(2, '0')} {language === 'fa' ? 'مقالهٔ منتشرشده' : 'PUBLISHED ARTICLES'}</span>
+        </div>
+        <div className="ek-magazine-article-grid">
+          {articles.filter((article) => article.published).map((article) => (
+            <article className="ek-article-feature" key={article.id}>
+              <figure>
+                <picture>
+                  {article.imageWebp && <source srcSet={assetUrl(article.imageWebp)} type="image/webp" />}
+                  <img src={assetUrl(article.image)} alt={article.imageAlt} loading="lazy" decoding="async" width={article.imageWidth || undefined} height={article.imageHeight || undefined} />
+                </picture>
+                <figcaption>{article.visualLabel}</figcaption>
+              </figure>
+              <div>
+                <small>{article.status} · {article.meta}</small>
+                <h3>{article.title}</h3>
+                <p>{article.excerpt}</p>
+                <ul aria-label="Article topics">{article.tags.slice(0, 4).map((tag) => <li key={tag}>{tag}</li>)}</ul>
+                <button type="button" onClick={() => onOpenArticle(article)}>{text.readArticle} ↗</button>
+              </div>
+            </article>
+          ))}
+        </div>
+        {featuredMagazine && <div className="ek-magazine-collection-heading ek-magazine-issue-heading"><div><small>02 / CURATED ISSUES</small><h3>{language === 'fa' ? 'شماره‌های مجله' : 'Magazine Issues'}</h3></div><span>ISSUE {featuredMagazine.number}</span></div>}
         {featuredMagazine && (
           <article className="ek-magazine-feature">
             <figure>
@@ -220,28 +246,8 @@ export default function EditorialSections({ content, language, onExplore, onOpen
         {adsenseReady && <aside className="ek-ad-ready" aria-label={text.adReserved} data-ad-client={content.monetization.adsensePublisherId}><small>ADVERTISEMENT</small><span>{text.adReserved}</span></aside>}
       </section>
 
-      <section id="articles" className="ek-editorial-section ek-articles-band" aria-labelledby="articles-title">
-        <header><small>05</small><h2 id="articles-title">{text.articles}</h2><button type="button" onClick={() => onExplore('articles')}>{text.viewAll} ↗</button></header>
-        <p className="ek-articles-intro">{text.articlesText}</p>
-        {articles.filter((article) => article.published).map((article) => (
-          <article className="ek-article-feature" key={article.id}>
-            <figure>
-              <img src={assetUrl(article.image)} alt={article.imageAlt} loading="lazy" decoding="async" />
-              <figcaption>{article.visualLabel}</figcaption>
-            </figure>
-            <div>
-              <small>{article.status} · {article.meta}</small>
-              <h3>{article.title}</h3>
-              <p>{article.excerpt}</p>
-              <ul aria-label="Article topics">{article.tags.slice(0, 4).map((tag) => <li key={tag}>{tag}</li>)}</ul>
-              <button type="button" onClick={() => onOpenArticle(article)}>{text.readArticle} ↗</button>
-            </div>
-          </article>
-        ))}
-      </section>
-
       <section id="objects" className="ek-editorial-section ek-library-band" aria-labelledby="objects-title">
-        <header><small>06</small><h2 id="objects-title">{text.library}</h2><button type="button" onClick={() => onExplore('library')}>{text.viewAll} ↗</button></header>
+        <header><small>05</small><h2 id="objects-title">{text.library}</h2><button type="button" onClick={() => onExplore('library')}>{text.viewAll} ↗</button></header>
         <p>{text.libraryText}</p>
         <div className="ek-access-model-grid" aria-label="Planned BIM library access model">
           {library.slice(0, 2).map((item, index) => (
@@ -256,7 +262,7 @@ export default function EditorialSections({ content, language, onExplore, onOpen
       </section>
 
       <section id="ebooks" className="ek-editorial-section ek-ebooks-band" aria-labelledby="ebooks-title">
-        <header><small>07</small><h2 id="ebooks-title">{text.ebooks}</h2><button type="button" onClick={() => onExplore('ebooks')}>{text.viewAll} ↗</button></header>
+        <header><small>06</small><h2 id="ebooks-title">{text.ebooks}</h2><button type="button" onClick={() => onExplore('ebooks')}>{text.viewAll} ↗</button></header>
         <div className="ek-ebooks-preview">
           <div className="ek-ebook-cover" aria-hidden="true"><small>WORLD ARCH EDITIONS</small><b>ARCHITECTURE<br />E-BOOKS</b><span>{text.ebooksStatus}</span></div>
           <div className="ek-ebook-plan">
@@ -273,18 +279,18 @@ export default function EditorialSections({ content, language, onExplore, onOpen
       </section>
 
       <section id="atlas" className="ek-editorial-section ek-atlas-band" aria-labelledby="atlas-title">
-        <header><small>08</small><h2 id="atlas-title">{text.atlas}</h2><button type="button" onClick={() => onExplore('guides')}>{text.viewAll} ↗</button></header>
+        <header><small>07</small><h2 id="atlas-title">{text.atlas}</h2><button type="button" onClick={() => window.location.assign('/atlas/')}>{text.viewAll} ↗</button></header>
         <div className="ek-atlas-copy"><p>{text.atlasText}</p><span>{text.disclosure}</span></div>
         <PreviewCards items={guides} language={language} />
       </section>
 
       <section id="app" className="ek-editorial-section ek-app-band" aria-labelledby="app-title">
-        <header><small>09</small><h2 id="app-title">{text.app}</h2></header>
+        <header><small>08</small><h2 id="app-title">{text.app}</h2></header>
         <AppInstallCard text={text} />
       </section>
 
       <section id="shop" className="ek-editorial-section ek-shop-band" aria-labelledby="shop-title">
-        <header><small>10</small><h2 id="shop-title">{text.shop}</h2><button type="button" onClick={() => onExplore('products')}>{text.viewAll} ↗</button></header>
+        <header><small>09</small><h2 id="shop-title">{text.shop}</h2><button type="button" onClick={() => onExplore('products')}>{text.viewAll} ↗</button></header>
         <p>{text.shopText}</p>
         {products.length > 0 && <PreviewCards items={products} language={language} />}
       </section>
@@ -297,4 +303,3 @@ export default function EditorialSections({ content, language, onExplore, onOpen
     </div>
   );
 }
-

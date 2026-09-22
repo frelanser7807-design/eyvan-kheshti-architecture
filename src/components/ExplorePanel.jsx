@@ -1,25 +1,33 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { dataMode, submitSubscriber } from '../lib/dataAdapter.js';
+import { assetUrl } from '../lib/assetUrl.js';
+import { articles } from '../data/articles.js';
+import { magazines } from '../data/magazines.js';
 
 const views = [
   ['services', 'Services', 'خدمات'],
   ['projects', 'Projects', 'پروژه‌ها'],
   ['tutorials', 'Tutorials', 'آموزش‌ها'],
-  ['insights', 'Architecture Notes', 'یادداشت‌های معماری'],
+  ['magazines', 'Magazine', 'مجلهٔ معماری'],
+  ['guides', 'EYVAN ATLAS', 'ایوان اطلس'],
+  ['library', 'BIM Library', 'کتابخانهٔ BIM'],
+  ['ebooks', 'Architecture E-Books', 'ای‌بوک‌های معماری'],
   ['products', 'Courses & Shop', 'دوره‌ها و فروشگاه'],
 ];
 
 const interfaceCopy = {
   en: {
-    library: 'EYVAN KHESHTI / DIGITAL LIBRARY', title: 'Explore the Studio', close: 'Close the studio library',
-    viewCourse: 'View course', viewItem: 'View item', comingSoon: 'Coming soon', studioService: 'Studio service', preview: 'Preview item',
+    library: 'WORLD ARCH JOURNAL / DIGITAL LIBRARY', title: 'Explore the Studio', close: 'Close the studio library',
+    viewCourse: 'View course', viewItem: 'View item', readArticle: 'Read article', openMagazine: 'Open issue', comingSoon: 'Coming soon', studioService: 'Studio service', preview: 'Preview item',
+    freePlanned: 'Free release planned', premiumPlanned: 'Premium release planned',
     empty: 'This collection is being curated.', journal: 'STUDIO JOURNAL',
     newsletterTitle: 'Architecture, material and process — occasionally in your inbox.', email: 'Email address',
     join: 'Join the journal', saving: 'Saving…', success: 'Thank you. Your email has been added.', error: 'Please enter a valid email address.',
   },
   fa: {
-    library: 'ایوان خشتی / کتابخانهٔ دیجیتال', title: 'استودیو را کشف کنید', close: 'بستن کتابخانهٔ استودیو',
-    viewCourse: 'مشاهدهٔ دوره', viewItem: 'مشاهده', comingSoon: 'به‌زودی', studioService: 'خدمات استودیو', preview: 'پیش‌نمایش',
+    library: 'ورلد آرک ژورنال / کتابخانهٔ دیجیتال', title: 'استودیو را کشف کنید', close: 'بستن کتابخانهٔ استودیو',
+    viewCourse: 'مشاهدهٔ دوره', viewItem: 'مشاهده', readArticle: 'مطالعهٔ مقاله', openMagazine: 'بازکردن شماره', comingSoon: 'به‌زودی', studioService: 'خدمات استودیو', preview: 'پیش‌نمایش',
+    freePlanned: 'انتشار رایگان برنامه‌ریزی شده', premiumPlanned: 'انتشار حرفه‌ای برنامه‌ریزی شده',
     empty: 'این مجموعه در حال تکمیل است.', journal: 'ژورنال استودیو',
     newsletterTitle: 'معماری، متریال و فرایند طراحی؛ گاهی در صندوق ایمیل شما.', email: 'نشانی ایمیل',
     join: 'عضویت در ژورنال', saving: 'در حال ذخیره…', success: 'سپاس؛ ایمیل شما ثبت شد.', error: 'لطفاً یک ایمیل معتبر وارد کنید.',
@@ -42,7 +50,7 @@ function safeHref(value) {
   }
 }
 
-export default function ExplorePanel({ open, onClose, content, initialView = 'projects', language = 'en' }) {
+export default function ExplorePanel({ open, onClose, content, initialView = 'projects', language = 'en', onOpenArticle, onOpenMagazine }) {
   const [active, setActive] = useState('projects');
   const [newsletterStatus, setNewsletterStatus] = useState('idle');
   const panelRef = useRef(null);
@@ -57,12 +65,19 @@ export default function ExplorePanel({ open, onClose, content, initialView = 'pr
     })),
     projects: (content?.projects || []).filter((item) => item.published),
     tutorials: (content?.tutorials || []).filter((item) => item.published),
-    insights: (content?.insights || []).filter((item) => item.published),
+    magazines: [
+      ...magazines.filter((item) => item.published).map((item) => ({ ...item, collectionType: 'issue' })),
+      ...articles.filter((item) => item.published).map((item) => ({ ...item, collectionType: 'article' })),
+    ],
+    guides: (content?.guides || []).filter((item) => item.published),
+    library: (content?.library || []).filter((item) => item.published),
+    ebooks: (content?.ebooks || []).filter((item) => item.published),
     products: (content?.products || []).filter((item) => item.published),
   }), [content]);
 
   useEffect(() => {
-    if (open && views.some(([id]) => id === initialView)) setActive(initialView);
+    const targetView = initialView === 'articles' ? 'magazines' : initialView;
+    if (open && views.some(([id]) => id === targetView)) setActive(targetView);
   }, [initialView, open]);
 
   useEffect(() => {
@@ -135,17 +150,33 @@ export default function ExplorePanel({ open, onClose, content, initialView = 'pr
         <div className="ek-library-grid">
           {items.map((item, index) => {
             const href = safeHref(item.url);
+            const inactiveLabel = active === 'ebooks'
+              ? copy.comingSoon
+              : active === 'library'
+                ? (item.accessTier === 'premium' ? copy.premiumPlanned : copy.freePlanned)
+                : active === 'products'
+                  ? copy.comingSoon
+                  : active === 'services'
+                    ? copy.studioService
+                    : copy.preview;
             return (
               <article className="ek-library-card" key={item.id}>
                 <div className="ek-library-image">
-                  {item.image ? <img src={item.image} alt={localised(item, 'title', language)} loading="lazy" decoding="async" /> : <span>EK</span>}
+                  {item.image ? <img src={assetUrl(item.image)} alt={localised(item, 'title', language)} loading="lazy" decoding="async" /> : <span>EK</span>}
                   <small>{String(index + 1).padStart(2, '0')}</small>
+                  {item.visualLabel && <b className="ek-library-visual-label">{item.visualLabel}</b>}
                 </div>
                 <div className="ek-library-copy">
                   <p>{language === 'fa' ? (item.categoryFa || item.typeFa || item.sceneFa || item.category || item.type || item.scene) : (item.category || item.type || item.scene)} {item.meta || item.year ? <span>· {item.meta || item.year}</span> : null}{item.price ? <span> · {item.currency || 'USD'} {item.price}</span> : null}</p>
                   <h3>{language === 'fa' ? localised(item, 'title', language) : (item.latinTitle || item.title)}</h3>
                   <span>{localised(item, item.excerpt !== undefined ? 'excerpt' : 'description', language)}</span>
-                  {href ? <a href={href} target={href.startsWith('http') ? '_blank' : undefined} rel="noreferrer">{active === 'products' ? copy.viewCourse : copy.viewItem} <i>↗</i></a> : <em>{active === 'products' ? copy.comingSoon : active === 'services' ? copy.studioService : copy.preview}</em>}
+                  {active === 'magazines'
+                    ? item.collectionType === 'article'
+                      ? <button className="ek-library-action" type="button" onClick={() => onOpenArticle(item)}>{copy.readArticle} <i>↗</i></button>
+                      : <button className="ek-library-action" type="button" onClick={() => onOpenMagazine(item)}>{copy.openMagazine} <i>↗</i></button>
+                    : href
+                      ? <a href={href} target={href.startsWith('http') ? '_blank' : undefined} rel="noreferrer">{active === 'products' ? copy.viewCourse : copy.viewItem} <i>↗</i></a>
+                      : <em>{inactiveLabel}</em>}
                 </div>
               </article>
             );

@@ -22,7 +22,7 @@ button { font: inherit; }
 .wordmark strong { font-family: Georgia, serif; font-size: 1.05rem; font-weight: 500; }
 .site-header nav { display: flex; gap: 26px; }
 .site-header nav a { font-size: .78rem; text-decoration: none; color: var(--muted); }
-.site-header nav a:hover, .site-header nav a:focus-visible { color: var(--ink); }
+.site-header nav a:hover, .site-header nav a:focus-visible, .site-header nav a[aria-current="page"] { color: var(--ink); }
 .quiet-button { justify-self: end; border: 1px solid var(--ink); background: transparent; padding: 10px 15px; cursor: pointer; }
 
 .hero { position: relative; min-height: min(84vh, 860px); display: flex; align-items: end; overflow: hidden; color: white; background: #2d302d; }
@@ -119,7 +119,7 @@ dialog li { margin: 13px 0; }
 
 @media (max-width: 900px) {
   .site-header { grid-template-columns: 1fr auto; min-height: 66px; }
-  .site-header nav { display: none; }
+  .site-header nav { grid-column: 1 / -1; display: flex; gap: 18px; max-width: calc(100vw - 48px); overflow-x: auto; white-space: nowrap; padding: 0 0 10px; scrollbar-width: thin; }
   .decision-strip { grid-template-columns: 1fr 1fr; }
   .signature-grid, .stay-grid { grid-template-columns: 1fr; }
   .signature-grid article + article { padding-left: 0; border-left: 0; }

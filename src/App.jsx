@@ -6,19 +6,26 @@ import ErrorBoundary from './components/ErrorBoundary.jsx';
 import LegalPage, { legalPageForPath } from './components/LegalPage.jsx';
 import ArticleReader from './components/ArticleReader.jsx';
 import MagazineReader from './components/MagazineReader.jsx';
+import MagazineHub from './components/MagazineHub.jsx';
 import ProductPage from './components/ProductPage.jsx';
 import CommandCenter from './components/CommandCenter.jsx';
 import { defaultContent } from './data/defaultContent.js';
 import { articleBySlug } from './data/articles.js';
 import { magazineBySlug } from './data/magazines.js';
+import { magazineCategoryBySlug } from './data/magazineCategories.js';
 import { getContent, subscribeToContent } from './lib/dataAdapter.js';
 
 function currentRoute() {
   const normalizedPath = window.location.pathname.endsWith('/') ? window.location.pathname : `${window.location.pathname}/`;
   const articleMatch = normalizedPath.match(/^\/articles\/([^/]+)\/$/);
   if (articleMatch) return { name: 'article', slug: decodeURIComponent(articleMatch[1]), item: articleBySlug(decodeURIComponent(articleMatch[1])) };
+  if (normalizedPath === '/magazine/') return { name: 'magazine-hub' };
   const magazineMatch = normalizedPath.match(/^\/magazine\/([^/]+)\/$/);
-  if (magazineMatch) return { name: 'magazine', slug: decodeURIComponent(magazineMatch[1]), item: magazineBySlug(decodeURIComponent(magazineMatch[1])) };
+  if (magazineMatch) {
+    const slug = decodeURIComponent(magazineMatch[1]);
+    const issue = magazineBySlug(slug);
+    return issue ? { name: 'magazine', slug, item: issue } : { name: 'magazine-category', slug, item: magazineCategoryBySlug(slug) };
+  }
   const productMatch = normalizedPath.match(/^\/shop\/([^/]+)\/$/);
   if (productMatch) return { name: 'product', slug: decodeURIComponent(productMatch[1]) };
   if (normalizedPath === '/shop/') return { name: 'shop' };
@@ -64,6 +71,8 @@ export default function App() {
   if (route.name === 'legal') page = <LegalPage page={route.page} />;
   if (route.name === 'article') page = route.item?.published ? <ArticleReader article={route.item} standalone /> : <ProductPage missing />;
   if (route.name === 'magazine') page = route.item?.published ? <MagazineReader magazine={route.item} standalone /> : <ProductPage missing />;
+  if (route.name === 'magazine-hub') page = <MagazineHub />;
+  if (route.name === 'magazine-category') page = route.item ? <MagazineHub category={route.item} /> : <ProductPage missing />;
   if (route.name === 'shop') page = <ProductPage products={(content?.products || []).filter((item) => item.published)} />;
   if (route.name === 'product') page = <ProductPage product={product} missing={!product} />;
   if (route.name === 'command-center') page = <CommandCenter />;

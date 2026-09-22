@@ -5426,6 +5426,30 @@ html[dir="rtl"] .ek-brand > span:last-child { text-align: right; }
   text-transform: uppercase;
   cursor: pointer;
 }
+.ek-magazine-collection-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 40px 0 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(74, 66, 56, .35);
+}
+.ek-magazine-collection-heading small,
+.ek-magazine-collection-heading > span { color: #796b59; font-size: .55rem; letter-spacing: .15em; }
+.ek-magazine-collection-heading h3 { margin: 8px 0 0; font: 400 clamp(1.9rem, 3vw, 3rem)/1.05 Georgia, serif; }
+.ek-magazine-collection-heading > span { white-space: nowrap; }
+.ek-magazine-article-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+.ek-magazine-article-grid .ek-article-feature { min-width: 0; display: flex; flex-direction: column; box-shadow: none; }
+.ek-magazine-article-grid .ek-article-feature figure { min-height: 0; aspect-ratio: 16 / 9; }
+.ek-magazine-article-grid .ek-article-feature picture,
+.ek-magazine-article-grid .ek-article-feature img { display: block; width: 100%; height: 100%; }
+.ek-magazine-article-grid .ek-article-feature > div { flex: 1; justify-content: flex-start; padding: clamp(22px, 3vw, 38px); }
+.ek-magazine-article-grid .ek-article-feature h3 { max-width: none; margin: 16px 0; font-size: clamp(1.7rem, 2.45vw, 2.6rem); line-height: 1.08; }
+.ek-magazine-article-grid .ek-article-feature p { font-size: .92rem; }
+.ek-magazine-article-grid .ek-article-feature ul { margin-top: 20px; }
+.ek-magazine-article-grid .ek-article-feature button { margin-top: auto; }
+.ek-magazine-issue-heading { margin-top: clamp(46px, 6vw, 80px); }
 .ek-library-action { width: max-content; margin-top: auto; padding: 11px 15px; border-color: rgba(201, 168, 117, .5); background: rgba(201, 168, 117, .08); }
 .ek-library-action i { margin-left: 7px; color: #c9a875; font-style: normal; }
 .ek-library-visual-label { right: 9px; bottom: 9px; left: 9px; padding: 6px 7px; font-size: .39rem; }
@@ -5472,12 +5496,13 @@ html[dir="rtl"] .ek-brand > span:last-child { text-align: right; }
 .ek-article-boundary > small { color: #826541; font-size: .52rem; letter-spacing: .2em; }
 .ek-article-heading h1 { max-width: 17ch; margin: 20px 0 24px; font: 400 clamp(2.7rem, 7vw, 6.5rem)/.92 Georgia, serif; letter-spacing: -.05em; }
 .ek-article-heading > p { max-width: 64ch; margin: 0; color: #5b574f; font: 400 clamp(1.03rem, 1.9vw, 1.28rem)/1.7 Georgia, serif; }
-.ek-article-heading dl { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin: 42px 0; padding: 20px 0; border-top: 1px solid #c5bdb1; border-bottom: 1px solid #c5bdb1; }
+.ek-article-heading dl { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; margin: 42px 0; padding: 20px 0; border-top: 1px solid #c5bdb1; border-bottom: 1px solid #c5bdb1; }
 .ek-article-heading dl div { display: grid; gap: 7px; }
 .ek-article-heading dt { color: #876a45; font-size: .45rem; letter-spacing: .15em; }
 .ek-article-heading dd { margin: 0; color: #4e4a43; font-size: .72rem; line-height: 1.45; }
-.ek-article-hero { position: relative; aspect-ratio: 16 / 8.5; margin: 0 0 clamp(46px, 7vw, 76px); overflow: hidden; background: #171918; }
-.ek-article-hero img { width: 100%; height: 100%; object-fit: cover; filter: saturate(.75) contrast(1.03); }
+.ek-article-hero { position: relative; aspect-ratio: 16 / 9; margin: 0 0 clamp(46px, 7vw, 76px); overflow: hidden; background: #171918; }
+.ek-article-hero picture { display: block; width: 100%; height: 100%; }
+.ek-article-hero img { width: 100%; height: 100%; object-fit: cover; filter: saturate(.82) contrast(1.03); }
 .ek-article-hero figcaption { position: absolute; right: 13px; bottom: 13px; left: 13px; padding: 9px 12px; background: rgba(6, 9, 9, .78); color: #ead2a9; font-size: .48rem; letter-spacing: .14em; text-align: center; text-transform: uppercase; }
 .ek-article-prose { color: #3e3c37; font: 400 1rem/1.85 Georgia, serif; }
 .ek-article-prose > p:first-child::first-letter { float: left; margin: .08em .1em 0 0; color: #805f37; font-size: 4.1em; line-height: .78; }
@@ -5508,6 +5533,11 @@ html[dir="rtl"] .ek-brand > span:last-child { text-align: right; }
 .ek-article-sources li a { color: #6c4f2e; font-size: .66rem; font-weight: 700; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; }
 .ek-article-sources li p { margin: 12px 0 8px; color: #403d37; line-height: 1.62; }
 .ek-article-sources li span { display: block; color: #716b62; font-size: .73rem; line-height: 1.6; }
+.ek-article-toc { width: min(700px, 100%); margin: 58px auto 72px; padding: 30px 34px; border: 1px solid #bdb5aa; background: rgba(255, 255, 255, .36); }
+.ek-article-toc > small { color: #826541; font-size: .5rem; letter-spacing: .2em; }
+.ek-article-toc h2 { margin: 12px 0 22px; font: 400 clamp(2rem, 4vw, 3rem)/1 Georgia, serif; }
+.ek-article-toc ol { display: grid; grid-template-columns: 1fr 1fr; gap: 11px 32px; margin: 0; padding: 0 0 0 20px; }
+.ek-article-toc a { color: #4b4943; font-size: .8rem; line-height: 1.5; text-decoration-color: #b19a78; text-underline-offset: 3px; }
 .ek-article-footer { display: flex; justify-content: space-between; gap: 28px; align-items: center; margin-top: 68px; padding-top: 28px; border-top: 1px solid #bdb5aa; }
 .ek-article-footer p { max-width: 58ch; margin: 0; color: #555149; font-family: Georgia, serif; line-height: 1.65; }
 .ek-article-footer button { flex: 0 0 auto; border: 1px solid #33332f; border-radius: 999px; padding: 13px 17px; background: #1b1d1b; color: #f3eee5; font-size: .52rem; letter-spacing: .1em; text-transform: uppercase; cursor: pointer; }
@@ -5603,6 +5633,12 @@ html[dir="rtl"] .ek-brand > span:last-child { text-align: right; }
 
 @media (max-width: 760px) {
   .ek-articles-band { margin-right: -16px; margin-left: -16px; padding: 50px 16px; }
+  .ek-magazine-article-grid { grid-template-columns: 1fr; gap: 16px; }
+  .ek-magazine-collection-heading { margin-top: 28px; }
+  .ek-magazine-collection-heading > span { font-size: .48rem; }
+  .ek-magazine-article-grid .ek-article-feature figure { aspect-ratio: 16 / 10; }
+  .ek-magazine-article-grid .ek-article-feature > div { padding: 22px 20px 26px; }
+  .ek-magazine-article-grid .ek-article-feature h3 { font-size: clamp(1.75rem, 8vw, 2.25rem); }
   .ek-article-feature { grid-template-columns: 1fr; }
   .ek-article-feature figure { min-height: 240px; aspect-ratio: 16 / 10; }
   .ek-article-feature > div { padding: 25px 20px 28px; }
@@ -5613,7 +5649,7 @@ html[dir="rtl"] .ek-brand > span:last-child { text-align: right; }
   .ek-article-heading h1 { font-size: clamp(2.45rem, 13vw, 4rem); }
   .ek-article-heading dl { grid-template-columns: 1fr; gap: 14px; }
   .ek-article-heading dl div { grid-template-columns: 72px 1fr; }
-  .ek-article-hero { margin-right: -16px; margin-left: -16px; aspect-ratio: 4 / 3; }
+  .ek-article-hero { margin-right: -16px; margin-left: -16px; aspect-ratio: 16 / 9; }
   .ek-article-prose { font-size: .94rem; line-height: 1.78; }
   .ek-article-footer { align-items: flex-start; flex-direction: column; }
 }
@@ -5691,6 +5727,7 @@ html[dir="rtl"] .ek-brand > span:last-child { text-align: right; }
 .ek-article-inline-visual { width: min(980px, calc(100vw - 56px)); margin: clamp(54px, 8vw, 96px) 50%; transform: translateX(-50%); }
 .ek-article-inline-visual.is-full { width: min(1120px, calc(100vw - 44px)); }
 .ek-article-inline-visual.is-offset { width: min(790px, calc(100vw - 56px)); margin-right: 0; margin-left: auto; transform: none; }
+.ek-article-inline-visual picture,
 .ek-article-inline-visual img { display: block; width: 100%; height: auto; background: #ddd6ca; }
 .ek-article-inline-visual figcaption { max-width: 78ch; margin: 13px 0 0; padding-top: 11px; border-top: 1px solid #bbb2a6; color: #6c665d; font-size: .56rem; line-height: 1.6; letter-spacing: .08em; text-transform: uppercase; }
 
@@ -5702,6 +5739,8 @@ html[dir="rtl"] .ek-brand > span:last-child { text-align: right; }
   .ek-article-inline-visual.is-full,
   .ek-article-inline-visual.is-offset { width: calc(100% + 32px); margin-right: -16px; margin-left: -16px; transform: none; }
   .ek-article-inline-visual figcaption { margin-right: 16px; margin-left: 16px; }
+  .ek-article-toc { padding: 24px 22px; }
+  .ek-article-toc ol { grid-template-columns: 1fr; }
 }
 
 /* Mobile web release: preserve the entire cinematic frame and reduce expensive

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs><style>.t{font:700 30px Arial;fill:#f2ede4;letter-spacing:2px}.s{font:400 20px Arial;fill:#b9b4aa}.n{font:700 18px Arial;fill:#d6b57f}.l{stroke:#d6b57f;stroke-width:4}.a{fill:#1d2926;stroke:#62716a;stroke-width:2}</style><pattern id="g" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#27312f" stroke-width="1"/></pattern></defs>
+  <rect width="1600" height="900" fill="#101615"/><rect width="1600" height="900" fill="url(#g)" opacity=".65"/>
+  <text x="90" y="92" class="n">ENVIRONMENTAL SEQUENCE</text><text x="90" y="145" class="t">THE FACADE AS A SYSTEM</text>
+  <g transform="translate(88 235)">
+    <rect class="a" width="238" height="450" rx="8"/><rect class="a" x="286" width="238" height="450" rx="8"/><rect class="a" x="572" width="238" height="450" rx="8"/><rect class="a" x="858" width="238" height="450" rx="8"/><rect class="a" x="1144" width="238" height="450" rx="8"/>
+    <g class="n"><text x="34" y="54">01</text><text x="320" y="54">02</text><text x="606" y="54">03</text><text x="892" y="54">04</text><text x="1178" y="54">05</text></g>
+    <g class="t"><text x="34" y="112">CLIMATE</text><text x="320" y="112">EXTERNAL</text><text x="320" y="150">CONTROL</text><text x="606" y="112">THERMAL</text><text x="606" y="150">ENVELOPE</text><text x="892" y="112">OCCUPIED</text><text x="892" y="150">SPACE</text><text x="1178" y="112">MECHANICAL</text><text x="1178" y="150">BACKUP</text></g>
+    <g class="s"><text x="34" y="224">sun</text><text x="34" y="260">wind</text><text x="34" y="296">heat</text><text x="34" y="332">moisture</text><text x="320" y="224">shade</text><text x="320" y="260">screens</text><text x="320" y="296">planting</text><text x="606" y="224">glass</text><text x="606" y="260">insulation</text><text x="606" y="296">airtightness</text><text x="892" y="224">daylight</text><text x="892" y="260">comfort</text><text x="892" y="296">user control</text><text x="1178" y="224">cooling</text><text x="1178" y="260">ventilation</text><text x="1178" y="296">dehumidification</text></g>
+    <path class="l" d="M238 384h48m238 0h48m238 0h48m238 0h48"/><path fill="#d6b57f" d="M280 374l18 10-18 10m286-20 18 10-18 10m286-20 18 10-18 10m286-20 18 10-18 10"/>
+  </g><text x="90" y="810" class="s">REDUCE LOADS FIRST · CONDITION THE REMAINDER · VERIFY IN USE</text>
+</svg>

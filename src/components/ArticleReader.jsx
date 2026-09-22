@@ -23,6 +23,10 @@ function renderControlledNode(node, key) {
   if (!allowedTags.has(tag)) return children;
 
   const props = { key };
+  if (['h2', 'h3'].includes(tag)) {
+    const id = String(node.getAttribute('id') || '').trim();
+    if (/^[a-z0-9][a-z0-9-]*$/i.test(id)) props.id = id;
+  }
   if (tag === 'a') {
     const href = safeHref(node.getAttribute('href'));
     if (!href) return createElement('span', props, children);
@@ -38,7 +42,10 @@ function renderControlledNode(node, key) {
 function EditorialFigure({ visual }) {
   return (
     <figure className={`ek-article-inline-visual is-${visual.layout || 'wide'}`}>
-      <img src={assetUrl(visual.src)} alt={visual.alt} loading="lazy" decoding="async" />
+      <picture>
+        {visual.srcWebp && <source srcSet={assetUrl(visual.srcWebp)} type="image/webp" />}
+        <img src={assetUrl(visual.src)} alt={visual.alt} loading="lazy" decoding="async" width={visual.width || undefined} height={visual.height || undefined} />
+      </picture>
       <figcaption>{visual.caption}</figcaption>
     </figure>
   );
@@ -119,9 +126,9 @@ export default function ArticleReader({ article, onClose = () => undefined, stan
     <div id={standalone ? 'main-content' : undefined} className={`ek-article-backdrop ${standalone ? 'is-standalone' : ''}`} role={standalone ? undefined : 'presentation'} onMouseDown={(event) => !standalone && event.target === event.currentTarget && onClose()}>
       <section ref={readerRef} className="ek-article-reader" role={standalone ? undefined : 'dialog'} aria-modal={standalone ? undefined : 'true'} aria-labelledby="article-reader-title">
         <header className="ek-article-reader-bar">
-          <a href="/#articles" onClick={standalone ? undefined : onClose}>WORLD ARCH JOURNAL / ARTICLES</a>
+          <a href="/magazine/" onClick={standalone ? undefined : onClose}>WORLD ARCH JOURNAL / MAGAZINE</a>
           {standalone
-            ? <a className="ek-reader-return" href="/#articles" aria-label="Return to articles">←</a>
+            ? <a className="ek-reader-return" href="/magazine/" aria-label="Return to magazine">←</a>
             : <button className="ek-article-close" type="button" onClick={onClose} aria-label="Close article">×</button>}
         </header>
 
@@ -134,11 +141,15 @@ export default function ArticleReader({ article, onClose = () => undefined, stan
               <div><dt>AUTHOR</dt><dd>{article.author}</dd></div>
               <div><dt>READING</dt><dd>{article.meta}</dd></div>
               <div><dt>TOPIC</dt><dd>{article.category}</dd></div>
+              {article.publishedAt && <div><dt>PUBLISHED</dt><dd><time dateTime={article.publishedAt}>{new Date(`${article.publishedAt}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })}</time></dd></div>}
             </dl>
           </div>
 
           <figure className="ek-article-hero">
-            <img src={assetUrl(article.image)} alt={article.imageAlt} />
+            <picture>
+              {article.imageWebp && <source srcSet={assetUrl(article.imageWebp)} type="image/webp" />}
+              <img src={assetUrl(article.image)} alt={article.imageAlt} loading="eager" decoding="async" fetchPriority="high" width={article.imageWidth || undefined} height={article.imageHeight || undefined} />
+            </picture>
             <figcaption>{article.visualLabel}</figcaption>
           </figure>
 
@@ -149,6 +160,16 @@ export default function ArticleReader({ article, onClose = () => undefined, stan
                 {article.facts.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}
               </dl>
             </section>
+          )}
+
+          {article.toc?.length > 0 && (
+            <nav className="ek-article-toc" aria-labelledby="article-toc-title">
+              <small>IN THIS ARTICLE</small>
+              <h2 id="article-toc-title">Contents</h2>
+              <ol>
+                {article.toc.map(([id, label]) => <li key={id}><a href={`#${id}`}>{label}</a></li>)}
+              </ol>
+            </nav>
           )}
 
           <ControlledArticleHtml html={article.contentHtml} visuals={article.visuals} />
@@ -195,4 +216,3 @@ export default function ArticleReader({ article, onClose = () => undefined, stan
     </div>
   );
 }
-

@@ -109,7 +109,7 @@ for (const route of ['/privacy/', '/terms/', '/affiliate-disclosure/', '/editori
 if (cinematic.includes('ek-menu-trigger') || cinematic.includes('studio-menu')) throw new Error('Public hamburger menu must remain removed.');
 if (!cinematic.includes("sceneIndex > 0 ? 'is-visible' : ''")) throw new Error('Floating navigation must remain hidden through video one and begin on video two.');
 if (!cinematic.includes('<SiteSearch') || !cinematic.includes('sceneIndex <= 0')) throw new Error('Opening smart site search is missing.');
-for (const target of ['projects', 'services', 'tutorials', 'articles', 'journal', 'objects', 'ebooks', 'atlas', 'app', 'shop']) {
+for (const target of ['projects', 'services', 'tutorials', 'journal', 'objects', 'ebooks', 'atlas', 'app', 'shop']) {
   if (!cinematic.includes(`scrollToSection('${target}')`)) throw new Error('Missing floating navigation target: ' + target);
 }
 const editorial = await readFile(join(root, 'src/components/EditorialSections.jsx'), 'utf8');
@@ -121,7 +121,13 @@ if (defaultContent.ebooks.some((item) => item.price || item.url)) throw new Erro
 if (defaultContent.library.some((item) => item.url)) throw new Error('BIM library downloads must remain inactive in this preview.');
 if (!defaultContent.library.some((item) => item.accessTier === 'free') || !defaultContent.library.some((item) => item.accessTier === 'premium')) throw new Error('BIM freemium tiers are incomplete.');
 const articleData = await readFile(join(root, 'src/data/articles.js'), 'utf8');
-if (!editorial.includes('id="articles"') || !articleData.includes('ARTICLE ILLUSTRATIONS PENDING')) throw new Error('Separate Articles section or honest sample-visual boundary is missing.');
+const magazineSectionStart = editorial.indexOf('<section id="journal"');
+const magazineArticlesStart = editorial.indexOf('articles.filter((article) => article.published)');
+const followingSectionStart = editorial.indexOf('<section id="objects"');
+if (magazineSectionStart < 0 || magazineArticlesStart < magazineSectionStart || magazineArticlesStart > followingSectionStart) throw new Error('Architecture articles must remain inside the Magazine section.');
+if (editorial.includes('<section id="articles"')) throw new Error('A separate Articles section must not be reintroduced.');
+if (!editorial.includes('className="ek-magazine-article-grid"')) throw new Error('Magazine articles must be displayed together in a dedicated grid.');
+if (!articleData.includes('ARTICLE ILLUSTRATIONS PENDING')) throw new Error('Honest sample-visual boundary is missing.');
 const articleReader = await readFile(join(root, 'src/components/ArticleReader.jsx'), 'utf8');
 if (articleReader.includes('dangerouslySetInnerHTML') || !articleReader.includes('allowedTags')) throw new Error('Article content must use controlled rendering.');
 
