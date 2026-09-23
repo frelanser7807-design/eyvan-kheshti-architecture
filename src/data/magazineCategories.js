@@ -6,7 +6,13 @@ const definitions = [
     slug: 'climate-design',
     title: 'Climate Design',
     description: 'Architecture shaped by sun, air, heat and the realities of place.',
-    articleSlugs: ['climate-responsive-facades-cooling-design', 'courtyard-wind-house-passive-cooling'],
+    articleSlugs: ['small-courtyard-design-light-privacy-cooling', 'climate-responsive-facades-cooling-design', 'courtyard-wind-house-passive-cooling'],
+  },
+  {
+    slug: 'courtyard-design',
+    title: 'Courtyard Design',
+    description: 'Compact courts, passive comfort, privacy and the architecture of an open centre.',
+    articleSlugs: ['small-courtyard-design-light-privacy-cooling', 'courtyard-wind-house-passive-cooling'],
   },
   {
     slug: 'facades',
