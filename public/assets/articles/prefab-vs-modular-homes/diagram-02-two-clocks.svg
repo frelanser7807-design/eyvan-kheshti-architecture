@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Factory and site programme diagram</title>
+  <desc id="desc">A diagram showing factory production and site preparation running in parallel before installation and commissioning.</desc>
+  <rect width="1600" height="900" fill="#f1ece2"/>
+  <text x="100" y="105" fill="#81602e" font-family="Arial, sans-serif" font-size="22" letter-spacing="5">PROGRAMME LOGIC</text>
+  <text x="100" y="180" fill="#111714" font-family="Georgia, serif" font-size="64">Prefab runs on two clocks</text>
+  <text x="100" y="230" fill="#55615b" font-family="Arial, sans-serif" font-size="25">Factory work can overlap with foundations—but only after design, approvals and procurement are sufficiently fixed.</text>
+  <g font-family="Arial, sans-serif">
+    <text x="100" y="360" fill="#111714" font-size="24" font-weight="700">FACTORY</text>
+    <rect x="280" y="315" width="260" height="80" rx="12" fill="#d8b574"/>
+    <text x="410" y="365" text-anchor="middle" fill="#111714" font-size="22">Design freeze</text>
+    <rect x="560" y="315" width="330" height="80" rx="12" fill="#c99e51"/>
+    <text x="725" y="365" text-anchor="middle" fill="#111714" font-size="22">Fabrication + QA</text>
+    <rect x="910" y="315" width="210" height="80" rx="12" fill="#b98633"/>
+    <text x="1015" y="365" text-anchor="middle" fill="#fff" font-size="22">Transport</text>
+
+    <text x="100" y="535" fill="#111714" font-size="24" font-weight="700">SITE</text>
+    <rect x="280" y="490" width="260" height="80" rx="12" fill="#b9c2bd"/>
+    <text x="410" y="540" text-anchor="middle" fill="#111714" font-size="22">Enabling works</text>
+    <rect x="560" y="490" width="330" height="80" rx="12" fill="#9eaaa4"/>
+    <text x="725" y="540" text-anchor="middle" fill="#111714" font-size="22">Groundworks + services</text>
+    <rect x="910" y="490" width="210" height="80" rx="12" fill="#7e8c85"/>
+    <text x="1015" y="540" text-anchor="middle" fill="#fff" font-size="22">Crane setup</text>
+
+    <path d="M1120 355h100v175h-100" fill="none" stroke="#111714" stroke-width="4"/>
+    <rect x="1220" y="397" width="280" height="92" rx="46" fill="#111714"/>
+    <text x="1360" y="452" text-anchor="middle" fill="#fff" font-size="24">Install + connect</text>
+    <path d="M1360 489v92" stroke="#111714" stroke-width="4"/>
+    <rect x="1220" y="581" width="280" height="92" rx="46" fill="#fff" stroke="#111714" stroke-width="3"/>
+    <text x="1360" y="636" text-anchor="middle" fill="#111714" font-size="24">Test + commission</text>
+  </g>
+  <rect x="100" y="730" width="1400" height="90" rx="18" fill="#e4ddd0"/>
+  <text x="140" y="784" fill="#4e3720" font-family="Arial, sans-serif" font-size="24">Critical risk:</text>
+  <text x="300" y="784" fill="#4d5853" font-family="Arial, sans-serif" font-size="24">a fast factory does not rescue late approvals, incompatible foundations, missed transport permits or unplanned utility connections.</text>
+</svg>

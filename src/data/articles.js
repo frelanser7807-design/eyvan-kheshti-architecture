@@ -1,6 +1,7 @@
 import pilotPackage from '../../agent-system/examples/pilot-article-package.json' with { type: 'json' };
 import climateResponsiveFacades from './climateResponsiveFacades.js';
 import adaptiveReuseArchitecture from './adaptiveReuseArchitecture.js';
+import prefabVsModularHomes from './prefabVsModularHomes.js';
 
 const courtyardWindHouse = {
   id: 'article-courtyard-wind-house-passive-cooling',
@@ -139,7 +140,7 @@ const technicalPilot =
     published: false,
   };
 
-export const articles = [adaptiveReuseArchitecture, climateResponsiveFacades, courtyardWindHouse, technicalPilot];
+export const articles = [prefabVsModularHomes, adaptiveReuseArchitecture, climateResponsiveFacades, courtyardWindHouse, technicalPilot];
 
 export function articleBySlug(slug) {
   return articles.find((article) => article.slug === slug);

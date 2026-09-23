@@ -27,6 +27,12 @@ const definitions = [
     articleSlugs: ['adaptive-reuse-architecture-preserve-value'],
   },
   {
+    slug: 'building-systems',
+    title: 'Building Systems',
+    description: 'How construction methods, structures and technical interfaces shape architecture.',
+    articleSlugs: ['prefab-vs-modular-homes'],
+  },
+  {
     slug: 'bim-revit',
     title: 'BIM & Revit',
     description: 'Model-based design, documentation and practical digital workflows.',

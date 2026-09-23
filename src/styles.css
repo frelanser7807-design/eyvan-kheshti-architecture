@@ -5644,9 +5644,13 @@ html[dir="rtl"] .ek-brand > span:last-child { text-align: right; }
   .ek-article-feature > div { padding: 25px 20px 28px; }
   .ek-article-feature h3 { font-size: 2rem; }
   .ek-article-backdrop { padding: 0; }
-  .ek-article-reader { width: 100%; max-height: 100svh; border: 0; }
-  .ek-article-reader > article { width: calc(100% - 32px); padding-top: 44px; }
-  .ek-article-heading h1 { font-size: clamp(2.45rem, 13vw, 4rem); }
+  .ek-article-reader { width: 100%; max-height: 100svh; overflow-x: hidden; border: 0; }
+  .ek-article-reader > article { box-sizing: border-box; width: calc(100% - 32px); max-width: calc(100vw - 32px); min-width: 0; padding-top: 44px; }
+  .ek-article-heading,
+  .ek-article-heading h1,
+  .ek-article-heading > p { min-width: 0; max-width: 100%; }
+  .ek-article-heading h1 { font-size: clamp(2.45rem, 13vw, 4rem); overflow-wrap: break-word; }
+  .ek-article-heading > p { overflow-wrap: break-word; }
   .ek-article-heading dl { grid-template-columns: 1fr; gap: 14px; }
   .ek-article-heading dl div { grid-template-columns: 72px 1fr; }
   .ek-article-hero { margin-right: -16px; margin-left: -16px; aspect-ratio: 16 / 9; }
