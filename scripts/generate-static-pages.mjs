@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { articles } from '../src/data/articles.js';
 import { magazines } from '../src/data/magazines.js';
 import { magazineCategories, publishedMagazineArticles } from '../src/data/magazineCategories.js';
+import { promptCategories, promptItems } from '../src/data/promptLibrary.js';
 import { defaultContent } from '../src/data/defaultContent.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -78,10 +79,10 @@ for (const article of articles.filter((item) => item.published)) {
     ],
   };
   const facts = (article.facts || []).map(([label, value]) => `<li><b>${escapeHtml(label)}:</b> ${escapeHtml(value)}</li>`).join('');
-  const visuals = (article.visuals || []).map((visual) => `<figure>${visual.srcWebp ? `<picture><source srcset="${escapeHtml(visual.srcWebp)}" type="image/webp" />` : ''}<img src="${escapeHtml(visual.src)}" alt="${escapeHtml(visual.alt)}" loading="lazy" decoding="async" />${visual.srcWebp ? '</picture>' : ''}<figcaption>${escapeHtml(visual.caption)}</figcaption></figure>`).join('');
+  const visuals = (article.visuals || []).map((visual) => `<figure>${visual.srcWebp ? `<picture><source srcset="${escapeHtml(visual.srcWebp)}" type="image/webp" />` : ''}<img src="${escapeHtml(visual.src)}" alt="${escapeHtml(visual.alt)}" loading="lazy" decoding="async" />${visual.srcWebp ? '</picture>' : ''}<figcaption>${escapeHtml(visual.caption)}${visual.sourceUrl ? ` <a href="${escapeHtml(visual.sourceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(visual.sourceLabel || 'View licensed source')}</a>` : ''}</figcaption></figure>`).join('');
   const sources = (article.evidence || []).map((source) => `<li><a href="${escapeHtml(source.source_url)}">${escapeHtml(source.publisher)}</a> — ${escapeHtml(source.claim)}</li>`).join('');
   const toc = (article.toc || []).map(([id, label]) => `<li><a href="#${escapeHtml(id)}">${escapeHtml(label)}</a></li>`).join('');
-  const hero = `<figure>${article.imageWebp ? `<picture><source srcset="${escapeHtml(article.imageWebp)}" type="image/webp" />` : ''}<img src="${escapeHtml(article.image)}" alt="${escapeHtml(article.imageAlt)}" width="${Number(article.imageWidth) || 1600}" height="${Number(article.imageHeight) || 900}" fetchpriority="high" />${article.imageWebp ? '</picture>' : ''}<figcaption>${escapeHtml(article.visualLabel)}</figcaption></figure>`;
+  const hero = `<figure>${article.imageWebp ? `<picture><source srcset="${escapeHtml(article.imageWebp)}" type="image/webp" />` : ''}<img src="${escapeHtml(article.image)}" alt="${escapeHtml(article.imageAlt)}" width="${Number(article.imageWidth) || 1600}" height="${Number(article.imageHeight) || 900}" fetchpriority="high" />${article.imageWebp ? '</picture>' : ''}<figcaption>${escapeHtml(article.visualLabel)}${article.imageSourceUrl ? ` <a href="${escapeHtml(article.imageSourceUrl)}" target="_blank" rel="noopener noreferrer">Source and licence</a>` : ''}</figcaption></figure>`;
   const body = `<main class="seo-route-fallback"><a href="/#articles">WORLD ARCH JOURNAL / ARTICLES</a><article><header><small>${escapeHtml(article.status)}</small><h1>${escapeHtml(article.title)}</h1><p>${escapeHtml(article.excerpt)}</p><p>By ${escapeHtml(article.author || defaultContent.brand.founderName)}${article.publishedAt ? ` · <time datetime="${escapeHtml(article.publishedAt)}">${escapeHtml(article.publishedAt)}</time>` : ''}</p></header>${hero}${facts ? `<section><h2>Project file</h2><ul>${facts}</ul></section>` : ''}${toc ? `<nav aria-label="Article contents"><h2>Contents</h2><ol>${toc}</ol></nav>` : ''}<section>${article.contentHtml}</section>${visuals}<section><h2>Evidence and source notes</h2><ol>${sources}</ol></section></article></main>`;
   await emit(pathname, preparePage({ pathname, title: article.seoTitle || `${article.title} | ${siteName}`, description: article.metaDescription || article.excerpt, image: article.image, imageAlt: article.imageAlt, type: 'article', schema: articleSchema, body, preloadImage: article.imageWebp || article.image }));
 }
@@ -104,6 +105,26 @@ for (const magazine of magazines.filter((item) => item.published)) {
   await emit(pathname, preparePage({ pathname, title: `${magazine.title} | ${siteName}`, description: magazine.excerpt, image: magazine.image, imageAlt: magazine.imageAlt, type: 'article', schema, body }));
 }
 
+const promptsPath = '/prompts/';
+const promptsDescription = 'Copy free AI prompts for architecture websites, images, videos, logo motion and animated backgrounds, or explore locked WORLD ARCH PRO collections.';
+const promptLinks = promptItems.map((item) => `<li><a href="/prompts/${escapeHtml(item.id)}/">${escapeHtml(item.title)}</a> <b>${item.access === 'premium' ? '♛ PRO · Locked' : 'FREE · Copy-ready'}</b><p>${escapeHtml(item.summary)}</p></li>`).join('');
+const promptCategoryLinks = promptCategories.map((category) => `<a href="/prompts/?category=${escapeHtml(category.slug)}">${escapeHtml(category.title)}</a>`).join(' · ');
+const promptsBody = `<main class="seo-route-fallback"><a href="/">WORLD ARCH JOURNAL</a><header><small>WORLD ARCH PROMPT LAB · FREE + PRO</small><h1>AI prompts for architecture, image and motion</h1><p>${escapeHtml(promptsDescription)}</p></header><nav aria-label="Prompt categories">${promptCategoryLinks}</nav><section><h2>Prompt library</h2><ol>${promptLinks}</ol></section></main>`;
+const promptsSchema = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: `Free & PRO AI Architecture Prompts | ${siteName}`, description: promptsDescription, url: `${siteUrl}${promptsPath}`, inLanguage: 'en', publisher, hasPart: promptItems.map((item) => ({ '@type': 'CreativeWork', name: item.title, description: item.summary, url: `${siteUrl}/prompts/${item.id}/`, image: absoluteUrl(item.image), isAccessibleForFree: item.access === 'free' })) };
+await emit(promptsPath, preparePage({ pathname: promptsPath, title: `Free & PRO AI Architecture Prompts | ${siteName}`, description: promptsDescription, image: '/assets/articles/climate-responsive-facades/climate-responsive-facade-hero-v1.jpg', schema: promptsSchema, body: promptsBody }));
+
+for (const item of promptItems) {
+  const pathname = `/prompts/${item.id}/`;
+  const description = `${item.summary} ${item.access === 'free' ? 'Free, copy-ready architecture prompt with practical production settings.' : 'WORLD ARCH PRO prompt collection.'}`;
+  const schema = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: item.title, description, url: `${siteUrl}${pathname}`, image: absoluteUrl(item.image), inLanguage: 'en', creator: publisher, isAccessibleForFree: item.access === 'free', learningResourceType: 'Prompt', about: item.category, ...(item.access === 'free' ? { text: item.prompt } : {}) };
+  const category = promptCategories.find((entry) => entry.slug === item.category);
+  const accessBody = item.access === 'free'
+    ? `<section><h2>${escapeHtml(item.promptLabel)}</h2><p>${escapeHtml(item.prompt)}</p><h2>${escapeHtml(item.secondaryLabel)}</h2><p>${escapeHtml(item.secondaryPrompt)}</p></section>`
+    : '<section><h2>♛ WORLD ARCH PRO</h2><p>This professional prompt collection is locked. No checkout is active yet.</p></section>';
+  const body = `<main class="seo-route-fallback"><a href="/prompts/">WORLD ARCH JOURNAL / PROMPT LAB</a><article><header><small>${escapeHtml(category?.title || item.category)} · ${item.access === 'premium' ? '♛ PRO' : 'FREE'}</small><h1>${escapeHtml(item.title)}</h1><p>${escapeHtml(item.summary)}</p></header><figure><img src="${escapeHtml(item.image)}" alt="${escapeHtml(`${item.title} prompt preview`)}" /></figure>${accessBody}</article></main>`;
+  await emit(pathname, preparePage({ pathname, title: `${item.title} AI Prompt | ${siteName}`, description, image: item.image, imageAlt: `${item.title} prompt preview`, schema, body }));
+}
+
 const shopPath = '/shop/';
 const shopDescription = 'Original BIM and Revit resources, architecture e-books and learning products by WORLD ARCH JOURNAL.';
 const publishedProducts = (defaultContent.products || []).filter((item) => item.published);
@@ -120,9 +141,9 @@ for (const product of publishedProducts) {
   await emit(pathname, preparePage({ pathname, title: `${product.title} | ${siteName}`, description: product.excerpt, image: product.image, imageAlt: product.imageAlt || product.title, type: verifiedCheckout ? 'product' : 'website', schema, body }));
 }
 
-const sitemapPaths = ['/', '/privacy/', '/terms/', '/affiliate-disclosure/', '/editorial-policy/', '/cookie-settings/', '/atlas/', '/atlas/turkiye/istanbul/', '/atlas/turkiye/antalya/', '/atlas/turkiye/cappadocia/', '/magazine/', ...magazineCategories.map((category) => `/magazine/${category.slug}/`), ...articles.filter((item) => item.published).map((item) => `/articles/${item.slug}/`), ...magazines.filter((item) => item.published).map((item) => `/magazine/${item.slug}/`), shopPath, ...publishedProducts.map((item) => `/shop/${item.slug || item.id}/`)];
+const sitemapPaths = ['/', '/privacy/', '/terms/', '/affiliate-disclosure/', '/editorial-policy/', '/cookie-settings/', '/atlas/', '/atlas/turkiye/istanbul/', '/atlas/turkiye/antalya/', '/atlas/turkiye/cappadocia/', '/magazine/', ...magazineCategories.map((category) => `/magazine/${category.slug}/`), ...articles.filter((item) => item.published).map((item) => `/articles/${item.slug}/`), ...magazines.filter((item) => item.published).map((item) => `/magazine/${item.slug}/`), promptsPath, ...promptItems.map((item) => `/prompts/${item.id}/`), shopPath, ...publishedProducts.map((item) => `/shop/${item.slug || item.id}/`)];
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...new Set(sitemapPaths)].map((item) => `  <url><loc>${siteUrl}${item === '/' ? '' : item}</loc></url>`).join('\n')}\n</urlset>\n`;
 await writeFile(path.join(dist, 'sitemap.xml'), sitemap, 'utf8');
 await writeFile(path.join(dist, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /#/admin\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nSitemap: ${siteUrl}/sitemap.xml\n`, 'utf8');
 
-console.log(`Generated ${articles.filter((item) => item.published).length} article page(s), ${magazines.filter((item) => item.published).length} magazine page(s), ${publishedProducts.length} product page(s), shop, sitemap and robots.`);
+console.log(`Generated ${articles.filter((item) => item.published).length} article page(s), ${magazines.filter((item) => item.published).length} magazine page(s), ${promptItems.length} prompt page(s), ${publishedProducts.length} product page(s), shop, sitemap and robots.`);

@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { assetUrl } from '../lib/assetUrl.js';
 import { publishedMagazineArticles } from '../data/magazineCategories.js';
+import { promptItems } from '../data/promptLibrary.js';
 
 const FALLBACK_SITE_URL = 'https://worldarchjournal.com';
 const DEFAULT_IMAGE = '/assets/editorial/issue-00/courtyard-wind-house-cover.jpg';
@@ -49,7 +50,7 @@ export default function SiteSeo({ content, route }) {
     const canonicalUrl = `${siteUrl}${normalizedPath === '/' ? '' : normalizedPath}`;
     const legalTitle = legalTitles[normalizedPath];
     const item = route?.item;
-    const isMissing = ['article', 'magazine', 'magazine-category', 'product'].includes(route?.name) && !item;
+    const isMissing = ['article', 'magazine', 'magazine-category', 'product', 'prompt'].includes(route?.name) && !item;
 
     let title = 'WORLD ARCH JOURNAL | Facade, Spatial Design & Visualisation';
     let description = 'Explore global architecture, bespoke facade design, spatial design, architectural visualisation, BIM and Revit resources, original magazines and evidence-led research by Farnaz Ghaffarian.';
@@ -84,6 +85,14 @@ export default function SiteSeo({ content, route }) {
       description = item.excerpt;
       image = absoluteAsset(siteUrl, item.image);
       ogType = 'product';
+    } else if (route?.name === 'prompt-library') {
+      title = `Free & PRO AI Architecture Prompts | ${name}`;
+      description = 'Copy free AI prompts for architecture websites, images, videos, logo motion and animated backgrounds, or explore locked WORLD ARCH PRO collections.';
+      image = absoluteAsset(siteUrl, '/assets/articles/climate-responsive-facades/climate-responsive-facade-hero-v1.jpg');
+    } else if (route?.name === 'prompt' && item) {
+      title = `${item.title} AI Prompt | ${name}`;
+      description = `${item.summary} ${item.access === 'free' ? 'Free, copy-ready architecture prompt with practical production settings.' : 'WORLD ARCH PRO prompt collection.'}`;
+      image = absoluteAsset(siteUrl, item.image);
     } else if (isMissing) {
       title = `Page not found | ${name}`;
       description = 'The requested WORLD ARCH JOURNAL page is not available.';
@@ -159,6 +168,10 @@ export default function SiteSeo({ content, route }) {
     } else if (route?.name === 'product' && item) {
       const checkoutUrl = validCheckoutUrl(item.gumroadUrl || item.checkoutUrl || item.url);
       structuredData = checkoutUrl && item.price ? { '@context': 'https://schema.org', '@type': 'Product', name: item.title, description: item.excerpt, image: [image], url: canonicalUrl, brand: publisher, offers: { '@type': 'Offer', url: checkoutUrl, price: item.price, priceCurrency: item.currency || 'USD', availability: 'https://schema.org/InStock' } } : { '@context': 'https://schema.org', '@type': 'WebPage', name: item.title, description: item.excerpt, url: canonicalUrl, inLanguage: 'en' };
+    } else if (route?.name === 'prompt-library') {
+      structuredData = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, hasPart: promptItems.map((prompt) => ({ '@type': 'CreativeWork', name: prompt.title, description: prompt.summary, url: `${siteUrl}/prompts/${prompt.id}/`, image: absoluteAsset(siteUrl, prompt.image), isAccessibleForFree: prompt.access === 'free' })) };
+    } else if (route?.name === 'prompt' && item) {
+      structuredData = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: item.title, description, url: canonicalUrl, image, inLanguage: 'en', creator: publisher, isAccessibleForFree: item.access === 'free', learningResourceType: 'Prompt', about: item.category, ...(item.access === 'free' ? { text: item.prompt } : {}) };
     } else if (legalTitle) {
       structuredData = { '@context': 'https://schema.org', '@type': 'WebPage', name: legalTitle, description, url: canonicalUrl, inLanguage: 'en', publisher };
     }

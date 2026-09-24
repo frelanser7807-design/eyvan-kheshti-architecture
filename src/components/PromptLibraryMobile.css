@@ -1,0 +1,14 @@
+.prompt-library-page { overflow-x: hidden; }
+
+@media (max-width: 720px) {
+  .prompt-library-header nav { display: none; }
+  .prompt-library-hero,
+  .prompt-detail-intro { grid-template-columns: minmax(0, 1fr); }
+  .prompt-library-hero > div,
+  .prompt-detail-intro > * { min-width: 0; }
+  .prompt-library-hero h1 { width: 100%; max-width: 100%; font-size: clamp(2.85rem, 12vw, 3.5rem); white-space: normal !important; overflow-wrap: normal; word-break: normal; }
+  .prompt-grid { grid-template-columns: minmax(0, 1fr); }
+  .prompt-card-copy { grid-template-columns: minmax(0, 1fr) auto; }
+  .prompt-card-action { font-size: .6rem; }
+  .prompt-detail-intro h1 { max-width: 100%; font-size: clamp(2.8rem, 13vw, 4.2rem); overflow-wrap: anywhere; }
+}

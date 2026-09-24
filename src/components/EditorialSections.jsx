@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { assetUrl } from '../lib/assetUrl.js';
 import { articles } from '../data/articles.js';
 import { magazines } from '../data/magazines.js';
+import { promptCategories, promptItems } from '../data/promptLibrary.js';
 
 const copy = {
   en: {
@@ -11,6 +12,9 @@ const copy = {
     projects: 'Selected Projects',
     services: 'Studio Services',
     tutorials: 'Tutorials',
+    prompts: 'AI Prompt Library',
+    promptsText: 'Free, copy-ready prompts and crown-marked PRO collections for architecture websites, images, videos, logo motion and animated backgrounds.',
+    openPrompts: 'Explore prompts',
     magazine: 'Architecture Magazine',
     magazineText: 'World Arch Journal issues and source-grounded architecture articles, collected in one dedicated editorial section.',
     openMagazine: 'Open Issue 00',
@@ -49,6 +53,9 @@ const copy = {
     projects: 'پروژه‌های منتخب',
     services: 'خدمات استودیو',
     tutorials: 'آموزش‌ها',
+    prompts: 'کتابخانهٔ پرامپ هوش مصنوعی',
+    promptsText: 'پرامپ‌های رایگان قابل کپی و مجموعه‌های حرفه‌ای تاج‌دار برای وب‌سایت، تصویر، ویدیو، لوگوموشن و پس‌زمینهٔ متحرک.',
+    openPrompts: 'مشاهدهٔ پرامپ‌ها',
     magazine: 'مجلهٔ معماری',
     magazineText: 'شماره‌های ورلد آرک ژورنال و مقاله‌های منبع‌محور معماری، همگی در یک بخش تحریریهٔ مستقل گردآوری می‌شوند.',
     openMagazine: 'بازکردن شمارهٔ صفر',
@@ -197,6 +204,23 @@ export default function EditorialSections({ content, language, onExplore, onOpen
       <section id="tutorials" className="ek-editorial-section" aria-labelledby="tutorials-title">
         <header><small>03</small><h2 id="tutorials-title">{text.tutorials}</h2><button type="button" onClick={() => onExplore('tutorials')}>{text.viewAll} ↗</button></header>
         <PreviewCards items={tutorials} language={language} />
+      </section>
+
+      <section id="prompts" className="ek-editorial-section ek-prompts-band" aria-labelledby="prompts-title">
+        <header><small>AI</small><h2 id="prompts-title">{text.prompts}</h2><button type="button" onClick={() => window.location.assign('/prompts/')}>{text.openPrompts} ↗</button></header>
+        <p className="ek-prompts-intro">{text.promptsText}</p>
+        <div className="ek-prompt-category-grid">
+          {promptCategories.map((category) => {
+            const freeItem = promptItems.find((item) => item.category === category.slug && item.access === 'free');
+            const proItem = promptItems.find((item) => item.category === category.slug && item.access === 'premium');
+            return (
+              <article key={category.slug}>
+                <a href={`/prompts/?category=${category.slug}`}><img src={assetUrl(freeItem?.image || proItem?.image)} alt={`${category.title} prompt collection`} loading="lazy" decoding="async" /></a>
+                <div><small>{category.short}</small><h3>{category.title}</h3><p>{category.description}</p><span><b>FREE</b> + <em>♛ PRO</em></span></div>
+              </article>
+            );
+          })}
+        </div>
       </section>
 
       <section id="journal" className="ek-editorial-section ek-articles-band" aria-labelledby="journal-title">

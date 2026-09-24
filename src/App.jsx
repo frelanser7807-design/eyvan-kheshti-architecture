@@ -9,10 +9,13 @@ import MagazineReader from './components/MagazineReader.jsx';
 import MagazineHub from './components/MagazineHub.jsx';
 import ProductPage from './components/ProductPage.jsx';
 import CommandCenter from './components/CommandCenter.jsx';
+import PromptLibrary from './components/PromptLibrary.jsx';
+import PromptDetail from './components/PromptDetail.jsx';
 import { defaultContent } from './data/defaultContent.js';
 import { articleBySlug } from './data/articles.js';
 import { magazineBySlug } from './data/magazines.js';
 import { magazineCategoryBySlug } from './data/magazineCategories.js';
+import { promptById } from './data/promptLibrary.js';
 import { getContent, subscribeToContent } from './lib/dataAdapter.js';
 
 function currentRoute() {
@@ -29,6 +32,12 @@ function currentRoute() {
   const productMatch = normalizedPath.match(/^\/shop\/([^/]+)\/$/);
   if (productMatch) return { name: 'product', slug: decodeURIComponent(productMatch[1]) };
   if (normalizedPath === '/shop/') return { name: 'shop' };
+  if (normalizedPath === '/prompts/') return { name: 'prompt-library' };
+  const promptMatch = normalizedPath.match(/^\/prompts\/([^/]+)\/$/);
+  if (promptMatch) {
+    const slug = decodeURIComponent(promptMatch[1]);
+    return { name: 'prompt', slug, item: promptById(slug) };
+  }
   if (normalizedPath === '/command-center/') return { name: 'command-center' };
   const legalPage = legalPageForPath(window.location.pathname);
   if (legalPage) return { name: 'legal', page: legalPage };
@@ -76,6 +85,8 @@ export default function App() {
   if (route.name === 'shop') page = <ProductPage products={(content?.products || []).filter((item) => item.published)} />;
   if (route.name === 'product') page = <ProductPage product={product} missing={!product} />;
   if (route.name === 'command-center') page = <CommandCenter />;
+  if (route.name === 'prompt-library') page = <PromptLibrary />;
+  if (route.name === 'prompt') page = route.item ? <PromptDetail item={route.item} /> : <ProductPage missing />;
 
   return <ErrorBoundary><SiteSeo content={content} route={resolvedRoute} />{page}</ErrorBoundary>;
 }

@@ -128,14 +128,14 @@ const scenes = [
 const interfaceCopy = {
   en: {
     soundOn: 'SOUND ON', soundOff: 'SOUND OFF', menu: 'MENU', directory: 'STUDIO DIRECTORY',
-    projects: 'Projects', services: 'Services', tutorials: 'Tutorials', articles: 'Articles', insights: 'Magazine', library: 'BIM Object Library', atlas: 'WORLD ARCH ATLAS', ebooks: 'Architecture E-Books', courses: 'Courses & Shop', shop: 'Shop', contact: 'Contact',
+    projects: 'Projects', services: 'Services', tutorials: 'Tutorials', articles: 'Articles', insights: 'Magazine', prompts: 'AI Prompt Library', library: 'BIM Object Library', atlas: 'WORLD ARCH ATLAS', ebooks: 'Architecture E-Books', courses: 'Courses & Shop', shop: 'Shop', contact: 'Contact',
     idleEyebrow: 'INTERACTIVE ARCHITECTURE EXPERIENCE', idleTitle: 'A Studio Built Around Ideas',
     begin: 'Click to Begin', playing: 'Now Playing', continue: 'Click to Continue', explore: 'Explore the Studio',
     whatWeDo: 'WHAT WE DO', concept: 'CONCEPT EXPERIENCE · 2026',
   },
   fa: {
     soundOn: 'صدا روشن', soundOff: 'صدا خاموش', menu: 'منو', directory: 'فهرست استودیو',
-    projects: 'پروژه‌ها', services: 'خدمات', tutorials: 'آموزش‌ها', articles: 'مقاله‌ها', insights: 'مجله معماری', library: 'کتابخانهٔ BIM', atlas: 'اطلس معماری جهانی', ebooks: 'ای‌بوک‌های معماری', courses: 'دوره‌ها و فروشگاه', shop: 'فروشگاه', contact: 'ارتباط با ما',
+    projects: 'پروژه‌ها', services: 'خدمات', tutorials: 'آموزش‌ها', articles: 'مقاله‌ها', insights: 'مجله معماری', prompts: 'کتابخانهٔ پرامپ AI', library: 'کتابخانهٔ BIM', atlas: 'اطلس معماری جهانی', ebooks: 'ای‌بوک‌های معماری', courses: 'دوره‌ها و فروشگاه', shop: 'فروشگاه', contact: 'ارتباط با ما',
     idleEyebrow: 'تجربهٔ تعاملی معماری', idleTitle: 'استودیویی شکل‌گرفته پیرامون ایده‌ها',
     begin: 'برای شروع کلیک کنید', playing: 'در حال پخش', continue: 'برای ادامه کلیک کنید', explore: 'ورود به استودیو',
     whatWeDo: 'خدمات ما', concept: 'تجربهٔ مفهومی · ۲۰۲۶',
@@ -160,6 +160,7 @@ function QuickIcon({ name }) {
     tutorials: <><rect x="3" y="5" width="18" height="14" rx="2" /><path d="M10 9l5 3-5 3V9z" /></>,
     articles: <><path d="M6 3h10l3 3v15H6z" /><path d="M15 3v4h4M9 11h7M9 15h7M9 18h5" /></>,
     journal: <><path d="M5 4h12a2 2 0 012 2v14H7a2 2 0 01-2-2V4z" /><path d="M8 8h8M8 12h8M8 16h5" /></>,
+    prompts: <><path d="M4 6h16v12H4z" /><path d="M7 10h7M7 14h5M17 9v6" /></>,
     library: <><path d="M4 5h5v14H4zM10 5h5v14h-5zM16 7l4-1 2 13-4 1z" /></>,
     ebooks: <><path d="M5 4h10a4 4 0 014 4v12H9a4 4 0 00-4-4V4z" /><path d="M9 8h6M9 11h6" /></>,
     atlas: <><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18" /></>,
@@ -473,6 +474,7 @@ export default function CinematicSite({ content }) {
         <span className="ek-more-wrap" ref={moreRef}>
           <button className="ek-more-trigger" type="button" aria-expanded={moreOpen} aria-controls="ek-secondary-menu" onClick={() => setMoreOpen((value) => !value)}><QuickIcon name="more" /><span>More</span></button>
           <aside id="ek-secondary-menu" className={`ek-secondary-menu ${moreOpen ? 'is-open' : ''}`} aria-hidden={!moreOpen}>
+            <button type="button" tabIndex={moreOpen ? 0 : -1} onClick={() => window.location.assign('/prompts/')}><QuickIcon name="prompts" /><span>{copy.prompts}</span></button>
             <button type="button" tabIndex={moreOpen ? 0 : -1} onClick={() => scrollToSection('objects')}><QuickIcon name="library" /><span>{copy.library}</span></button>
             <button type="button" tabIndex={moreOpen ? 0 : -1} onClick={() => scrollToSection('ebooks')}><QuickIcon name="ebooks" /><span>{copy.ebooks}</span></button>
             <button type="button" tabIndex={moreOpen ? 0 : -1} onClick={() => scrollToSection('app')}><QuickIcon name="app" /><span>Install App</span></button>
