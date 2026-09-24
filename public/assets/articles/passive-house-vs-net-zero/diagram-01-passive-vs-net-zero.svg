@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Passive House and Net Zero comparison</title>
+  <desc id="desc">Two overlapping circles compare the demand and quality focus of Passive House with the annual energy balance focus of Net Zero.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#09110f"/><stop offset="1" stop-color="#18201d"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="1600" height="980" rx="52" fill="url(#bg)"/>
+  <text x="100" y="105" fill="#d8b478" font-family="Arial, sans-serif" font-size="24" letter-spacing="7">WORLD ARCH JOURNAL · PERFORMANCE MAP</text>
+  <text x="100" y="170" fill="#f3efe6" font-family="Georgia, serif" font-size="56">Two targets. One stronger design sequence.</text>
+  <g filter="url(#shadow)"><circle cx="620" cy="520" r="300" fill="#b6cfbf" fill-opacity=".88"/><circle cx="980" cy="520" r="300" fill="#d6ad6e" fill-opacity=".84"/></g>
+  <text x="430" y="348" fill="#132019" font-family="Arial" font-size="31" font-weight="700">PASSIVE HOUSE</text>
+  <text x="420" y="405" fill="#132019" font-family="Arial" font-size="24">Low heating &amp; cooling demand</text><text x="420" y="448" fill="#132019" font-family="Arial" font-size="24">Envelope continuity</text><text x="420" y="491" fill="#132019" font-family="Arial" font-size="24">Airtightness testing</text><text x="420" y="534" fill="#132019" font-family="Arial" font-size="24">Heat-recovery ventilation</text><text x="420" y="577" fill="#132019" font-family="Arial" font-size="24">Comfort &amp; quality control</text><text x="420" y="620" fill="#132019" font-family="Arial" font-size="24">Certification pathway</text>
+  <text x="1045" y="348" fill="#2a1b0d" font-family="Arial" font-size="31" font-weight="700">NET ZERO</text>
+  <text x="1045" y="405" fill="#2a1b0d" font-family="Arial" font-size="24">Annual energy balance</text><text x="1045" y="448" fill="#2a1b0d" font-family="Arial" font-size="24">Defined accounting boundary</text><text x="1045" y="491" fill="#2a1b0d" font-family="Arial" font-size="24">Renewable generation</text><text x="1045" y="534" fill="#2a1b0d" font-family="Arial" font-size="24">Metered operation</text><text x="1045" y="577" fill="#2a1b0d" font-family="Arial" font-size="24">Imports and exports</text><text x="1045" y="620" fill="#2a1b0d" font-family="Arial" font-size="24">12-month verification</text>
+  <g text-anchor="middle"><text x="800" y="438" fill="#f7f4ec" font-family="Arial" font-size="27" font-weight="700">THE OVERLAP</text><text x="800" y="486" fill="#f7f4ec" font-family="Arial" font-size="22">Efficiency first</text><text x="800" y="525" fill="#f7f4ec" font-family="Arial" font-size="22">Climate-aware design</text><text x="800" y="564" fill="#f7f4ec" font-family="Arial" font-size="22">Commissioning</text><text x="800" y="603" fill="#f7f4ec" font-family="Arial" font-size="22">Measured learning</text></g>
+  <rect x="100" y="864" width="1400" height="2" fill="#d8b478" fill-opacity=".45"/><text x="100" y="920" fill="#b9c2bc" font-family="Arial" font-size="22">Best sequence: reduce demand → commission systems → add renewables → measure actual performance.</text>
+</svg>

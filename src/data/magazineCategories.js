@@ -3,10 +3,16 @@ import { articles } from './articles.js';
 // A topic only becomes a public landing page after it has a real article.
 const definitions = [
   {
+    slug: 'biophilic-design',
+    title: 'Biophilic Design',
+    description: 'Evidence-led nature contact, wellbeing, landscape and living systems in architecture.',
+    articleSlugs: ['biophilic-design-architecture-wellbeing'],
+  },
+  {
     slug: 'climate-design',
     title: 'Climate Design',
     description: 'Architecture shaped by sun, air, heat and the realities of place.',
-    articleSlugs: ['small-courtyard-design-light-privacy-cooling', 'climate-responsive-facades-cooling-design', 'courtyard-wind-house-passive-cooling'],
+    articleSlugs: ['passive-house-vs-net-zero-architecture', 'small-courtyard-design-light-privacy-cooling', 'climate-responsive-facades-cooling-design', 'courtyard-wind-house-passive-cooling'],
   },
   {
     slug: 'courtyard-design',
@@ -42,7 +48,7 @@ const definitions = [
     slug: 'bim-revit',
     title: 'BIM & Revit',
     description: 'Model-based design, documentation and practical digital workflows.',
-    articleSlugs: [],
+    articleSlugs: ['bim-vs-cad-architects-workflow'],
   },
 ];
 
