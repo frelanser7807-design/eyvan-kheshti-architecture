@@ -3,6 +3,7 @@ import { assetUrl } from '../lib/assetUrl.js';
 import { promptCategories } from '../data/promptLibrary.js';
 import { copyPromptText, PromptSiteHeader } from './PromptLibrary.jsx';
 import './PromptLibrary.css';
+import './PromptDetailVideo.css';
 
 function CopyPanel({ label, value, copied, onCopy }) {
   return (
@@ -29,7 +30,12 @@ export default function PromptDetail({ item }) {
       <nav className="prompt-breadcrumb" aria-label="Breadcrumb"><a href="/prompts/">Prompt Library</a><span>/</span><a href={`/prompts/?category=${item.category}`}>{category?.title}</a></nav>
       <article className={`prompt-detail ${premium ? 'is-pro' : 'is-free'}`}>
         <div className="prompt-detail-intro">
-          <figure><img src={assetUrl(item.image)} alt={`${item.title} prompt preview`} fetchPriority="high" /><span>{premium ? '♛ PRO' : 'FREE'}</span></figure>
+          <figure>
+            {item.video
+              ? <video src={assetUrl(item.video)} poster={assetUrl(item.image)} controls playsInline preload="metadata" aria-label={`${item.title} example video`} />
+              : <img src={assetUrl(item.image)} alt={`${item.title} prompt preview`} fetchPriority="high" />}
+            <span>{premium ? '♛ PRO' : 'FREE'}</span>
+          </figure>
           <header><small>{category?.title} · {item.tool}</small><h1>{item.title}</h1><p>{item.summary}</p></header>
         </div>
         {premium ? (
@@ -40,7 +46,7 @@ export default function PromptDetail({ item }) {
           <div className="prompt-detail-content">
             <CopyPanel label={item.promptLabel} value={item.prompt} copied={copied === 'primary'} onCopy={(value) => copyValue('primary', value)} />
             <CopyPanel label={item.secondaryLabel} value={item.secondaryPrompt} copied={copied === 'secondary'} onCopy={(value) => copyValue('secondary', value)} />
-            <aside><strong>How to use it</strong><ol><li>Upload or describe your architectural reference.</li><li>Paste the main prompt into the selected AI tool.</li><li>Add the settings or negative prompt.</li><li>Review geometry, materials and rights before publishing.</li></ol></aside>
+            <aside><strong>How to use it</strong><ol><li>Upload a rights-cleared architectural reference image.</li><li>Paste the main prompt into your image-to-video tool.</li><li>Add the vertical settings for a Reel or Story output.</li><li>Check building identity, motion and media rights before publishing.</li></ol><p>Disclosure: this is an AI-generated visualisation, not a construction method or safety guide.</p></aside>
           </div>
         )}
       </article>
@@ -48,3 +54,4 @@ export default function PromptDetail({ item }) {
     </main>
   );
 }
+
