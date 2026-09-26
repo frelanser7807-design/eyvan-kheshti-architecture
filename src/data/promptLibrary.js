@@ -80,7 +80,7 @@ export const promptItems = [
     title: 'AI Construction Video',
     summary: 'Turn one architectural reference image into a fast cinematic construction sequence while protecting the identity of the final building.',
     image: '/assets/prompts/ai-construction-video/cover.png',
-    video: 'https://github.com/frelanser7807-design/eyvan-kheshti-architecture/releases/download/media-2026-09-26/world-arch-journal-ai-construction-video.mp4',
+    video: '/assets/prompts/ai-construction-video/example-reel.mp4',
     tool: 'Veo · Kling · Runway · image-to-video',
     promptLabel: 'Free master prompt',
     prompt: `Ultra-photorealistic 10-second construction action commercial, one continuous high-energy camera move, physically realistic CGI.
