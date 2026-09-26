@@ -74,6 +74,30 @@ export const promptItems = [
     tool: 'Professional pack · 18 video prompts',
   },
   {
+    id: 'ai-construction-video',
+    category: 'video',
+    access: 'free',
+    title: 'AI Construction Video',
+    summary: 'Turn one architectural reference image into a fast cinematic construction sequence while protecting the identity of the final building.',
+    image: '/assets/prompts/ai-construction-video/cover.png',
+    video: 'https://github.com/frelanser7807-design/eyvan-kheshti-architecture/releases/download/media-2026-09-26/world-arch-journal-ai-construction-video.mp4',
+    tool: 'Veo · Kling · Runway · image-to-video',
+    promptLabel: 'Free master prompt',
+    prompt: `Ultra-photorealistic 10-second construction action commercial, one continuous high-energy camera move, physically realistic CGI.
+
+STRICT REFERENCE IMAGE LOCK — CRITICAL: The uploaded reference image is the absolute visual target for the final completed building. Preserve its exact architecture, massing, proportions, floors, facade composition, windows, balconies, materials, colours, roofline, landscaping and visible details. Do not redesign, simplify, add or remove any part of the building.
+
+Begin inside an active construction site. Use physically believable cranes, steel members, concrete panels, machinery, dust and workers to create a rapid but spatially continuous construction sequence. Track upward through the structural frame as beams, panels and glazing are installed with visible weight, cable tension, hydraulic response and realistic motion blur. Avoid magical assembly or unexplained transformations.
+
+Finish by pulling back into a stable architectural hero reveal of the completed building in natural daylight. The final frame must match the uploaded reference building exactly. Reference identity has priority over cinematic action.
+
+Camera language: energetic tracking, low angles, close fly-bys, controlled whip pans, foreground wipes and one smooth final pull-back. NORMAL → FAST → brief slow motion at the strongest impact → FAST → calm final reveal.
+
+No portals, glow, neon, holograms, sci-fi, levitation, impossible physics, teleportation, extra floors, altered windows, warped balconies, changed materials, text, logos or architectural hallucination.`,
+    secondaryLabel: 'Vertical Reel settings',
+    secondaryPrompt: 'Duration 8–10 seconds · vertical 9:16 · 24 fps · reference strength high · architecture lock high · motion strength medium · final hero hold 1.5 seconds · keep the main building inside the centre-safe area · AI-generated visualisation, not a construction or safety guide.',
+  },
+  {
     id: 'monogram-line-reveal',
     category: 'logo-motion',
     access: 'free',
@@ -121,3 +145,4 @@ export const promptItems = [
 
 export const freePromptItems = promptItems.filter((item) => item.access === 'free');
 export const promptById = (id) => promptItems.find((item) => item.id === id);
+
