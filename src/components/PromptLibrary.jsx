@@ -32,6 +32,8 @@ export default function PromptLibrary() {
   const [active, setActive] = useState(initialCategory);
   const [copied, setCopied] = useState('');
   const filtered = useMemo(() => active === 'all' ? promptItems : promptItems.filter((item) => item.category === active), [active]);
+  const freeCount = promptItems.filter((item) => item.access === 'free').length;
+  const proCount = promptItems.filter((item) => item.access === 'premium').length;
 
   useEffect(() => {
     const query = active === 'all' ? '' : `?category=${active}`;
@@ -50,7 +52,7 @@ export default function PromptLibrary() {
       <PromptSiteHeader />
       <section className="prompt-library-hero">
         <div><small>WORLD ARCH PROMPT LAB · FREE + PRO</small><h1>AI prompts for architecture, image and motion.</h1></div>
-        <div><p>Copy tested free prompts for websites, architectural images, short videos, logo motion and animated backgrounds. Crown-marked collections are professional packs and remain securely locked.</p><span>05 FREE PROMPTS · 05 ♛ PRO COLLECTIONS</span></div>
+        <div><p>Copy tested free prompts for websites, architectural images, short videos, logo motion and animated backgrounds. Crown-marked collections are professional packs and remain securely locked.</p><span>{String(freeCount).padStart(2, '0')} FREE PROMPTS · {String(proCount).padStart(2, '0')} ♛ PRO COLLECTIONS</span></div>
       </section>
 
       <nav className="prompt-filter" aria-label="Prompt categories">
@@ -90,3 +92,4 @@ export default function PromptLibrary() {
     </main>
   );
 }
+
