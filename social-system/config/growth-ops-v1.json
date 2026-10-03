@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "status": "paused_pending_pilot",
+  "timezone": "Asia/Tehran",
+  "canonicalSite": "https://worldarchjournal.com",
+  "approvalMode": "draft_only_until_owner_approval",
+  "accounts": {
+    "telegram": {
+      "username": "insta_analysis_1405_bot",
+      "role": "private_growth_command_center",
+      "legacySchedulesStopped": true
+    },
+    "youtubePersian": {
+      "channelId": "UClkZ7YOuCM8RBOZAJ2KvzFQ",
+      "handle": "@farnazghafariyan",
+      "language": "fa"
+    },
+    "youtubeEnglish": {
+      "channelId": "UCF_V0no8iF8mJ93gBvEv9sA",
+      "handle": "@WorldArchByFarnaz",
+      "language": "en"
+    },
+    "instagramPersian": {
+      "username": "farnaz_ghafariyann",
+      "language": "fa"
+    },
+    "instagramEnglish": {
+      "username": "worldarchjournalbyfarnaz",
+      "language": "en"
+    },
+    "googleAnalytics": {
+      "property": "properties/555116579",
+      "measurementId": "G-KWCNH012H1"
+    }
+  },
+  "etsyProducts": [
+    {
+      "productId": "interior-design-presentation-template",
+      "listingId": "4586743960",
+      "priceGbpObserved": 5.34,
+      "sitePath": "/shop/interior-design-presentation-template/"
+    },
+    {
+      "productId": "almora-villa-architecture-presentation-template",
+      "listingId": "4587670228",
+      "priceGbpObserved": 5.0,
+      "sitePath": "/shop/almora-villa-architecture-presentation-template/"
+    }
+  ],
+  "requiredTrackingEvents": [
+    "view_product",
+    "outbound_etsy_click",
+    "product_video_play",
+    "download_click",
+    "newsletter_submit",
+    "contact_click",
+    "social_outbound_click",
+    "scroll_75"
+  ],
+  "utmFields": [
+    "utm_source",
+    "utm_medium",
+    "utm_campaign",
+    "utm_content",
+    "language"
+  ],
+  "dailyRoutine": {
+    "enabled": false,
+    "reason": "Run a supervised seven-day pilot before enabling a schedule.",
+    "notifyWhen": [
+      "meaningful_change",
+      "connection_failure",
+      "broken_link",
+      "owner_decision_required"
+    ],
+    "stayQuietWhen": [
+      "no_material_change",
+      "healthy_unchanged_state"
+    ]
+  },
+  "prohibitedStorage": [
+    "passwords",
+    "api_tokens",
+    "oauth_codes",
+    "customer_private_data",
+    "payment_data"
+  ]
+}
+
+
