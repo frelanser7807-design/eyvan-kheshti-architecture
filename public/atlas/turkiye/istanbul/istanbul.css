@@ -90,6 +90,7 @@ button { font: inherit; }
 .feature-card-dark p { color: rgba(255,255,255,.68); }
 .feature-card-dark span { font-size: .72rem; color: rgba(255,255,255,.45); }
 .booking-button, .text-button { width: fit-content; padding: 0 0 5px; border: 0; border-bottom: 1px solid currentColor; background: transparent; cursor: pointer; }
+.download-link { display: inline-block; margin-top: 12px; color: var(--ink); font-weight: 700; text-decoration: none; border-bottom: 1px solid currentColor; }
 
 .map-section { border-top: 1px solid var(--line); }
 .map-layout { display: grid; grid-template-columns: 1.5fr .7fr; min-height: 520px; border: 1px solid var(--line); }
