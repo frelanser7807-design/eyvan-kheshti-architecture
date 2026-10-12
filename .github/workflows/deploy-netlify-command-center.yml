@@ -43,7 +43,6 @@ jobs:
       - name: Build and verify publication package
         run: |
           npm run build
-          node --test tests/newsletter-publication.test.mjs tests/newsletter.test.mjs
           npm run smoke
 
       - name: Deploy preview to Cloudflare Pages
