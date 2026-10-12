@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Concrete EPD life-cycle boundaries</title>
+  <desc id="desc">Diagram distinguishing product stage A1 to A3 from transport, construction, use and end-of-life stages.</desc>
+  <rect width="1600" height="900" fill="#0d151c"/>
+  <text x="100" y="105" fill="#fff" font-family="Georgia,serif" font-size="58">Read the boundary before the number</text>
+  <text x="100" y="155" fill="#c89550" font-family="Arial,sans-serif" font-size="22" letter-spacing="4">ONE PRODUCT · DIFFERENT ACCOUNTING WINDOWS</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="100" y="250" width="420" height="350" rx="28" fill="#f3efe7"/>
+    <text x="140" y="315" fill="#101820" font-size="34" font-weight="700">A1–A3</text>
+    <text x="140" y="365" fill="#a56f2d" font-size="24">PRODUCT STAGE</text>
+    <text x="140" y="430" fill="#33404a" font-size="24">Raw materials</text>
+    <text x="140" y="475" fill="#33404a" font-size="24">Transport to plant</text>
+    <text x="140" y="520" fill="#33404a" font-size="24">Manufacturing</text>
+    <text x="140" y="565" fill="#33404a" font-size="20">Common comparison boundary</text>
+    <rect x="560" y="250" width="280" height="350" rx="28" fill="#17242d" stroke="#c89550" stroke-width="3"/>
+    <text x="600" y="315" fill="#fff" font-size="34" font-weight="700">A4–A5</text>
+    <text x="600" y="365" fill="#c89550" font-size="24">DELIVERY</text>
+    <text x="600" y="430" fill="#d9d1c5" font-size="23">Site distance</text>
+    <text x="600" y="475" fill="#d9d1c5" font-size="23">Placement</text>
+    <text x="600" y="520" fill="#d9d1c5" font-size="23">Waste</text>
+    <rect x="880" y="250" width="280" height="350" rx="28" fill="#17242d" stroke="#c89550" stroke-width="3"/>
+    <text x="920" y="315" fill="#fff" font-size="34" font-weight="700">B</text>
+    <text x="920" y="365" fill="#c89550" font-size="24">USE</text>
+    <text x="920" y="430" fill="#d9d1c5" font-size="23">Maintenance</text>
+    <text x="920" y="475" fill="#d9d1c5" font-size="23">Repair</text>
+    <text x="920" y="520" fill="#d9d1c5" font-size="23">Service life</text>
+    <rect x="1200" y="250" width="300" height="350" rx="28" fill="#17242d" stroke="#c89550" stroke-width="3"/>
+    <text x="1240" y="315" fill="#fff" font-size="34" font-weight="700">C + D</text>
+    <text x="1240" y="365" fill="#c89550" font-size="24">AFTER USE</text>
+    <text x="1240" y="430" fill="#d9d1c5" font-size="23">Demolition</text>
+    <text x="1240" y="475" fill="#d9d1c5" font-size="23">Processing</text>
+    <text x="1240" y="520" fill="#d9d1c5" font-size="23">Benefits beyond</text>
+  </g>
+  <path d="M520 425H560M840 425H880M1160 425H1200" stroke="#c89550" stroke-width="6"/>
+  <rect x="100" y="690" width="1400" height="100" rx="50" fill="#c89550"/>
+  <text x="800" y="753" fill="#101820" font-family="Arial,sans-serif" font-size="28" font-weight="700" text-anchor="middle">Compare products only when the declared unit, strength, geography, date and life-cycle modules align.</text>
+</svg>

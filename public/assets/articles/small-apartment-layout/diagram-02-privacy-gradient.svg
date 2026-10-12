@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Privacy gradient in a small apartment</title>
+  <desc id="desc">Diagram showing the sequence from shared entrance to a protected sleeping zone using thresholds and partial separation.</desc>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#c89550"/><stop offset="0.52" stop-color="#d9c7a9"/><stop offset="1" stop-color="#28343d"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="#0d151c"/>
+  <text x="100" y="105" fill="#fff" font-family="Georgia,serif" font-size="58">Privacy is a sequence, not one door</text>
+  <text x="100" y="155" fill="#c89550" font-family="Arial,sans-serif" font-size="22" letter-spacing="4">FOUR THRESHOLDS IN A COMPACT HOME</text>
+  <rect x="100" y="260" width="1400" height="180" rx="90" fill="url(#g)"/>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(240 350)"><circle r="62" fill="#101820"/><text y="10" fill="#fff" font-size="28" font-weight="700">01</text><text y="145" fill="#fff" font-size="25">ARRIVAL</text><text y="180" fill="#bfb3a3" font-size="19">coat · shoes · pause</text></g>
+    <g transform="translate(610 350)"><circle r="62" fill="#101820"/><text y="10" fill="#fff" font-size="28" font-weight="700">02</text><text y="145" fill="#fff" font-size="25">SHARED</text><text y="180" fill="#bfb3a3" font-size="19">cook · eat · meet</text></g>
+    <g transform="translate(990 350)"><circle r="62" fill="#101820"/><text y="10" fill="#fff" font-size="28" font-weight="700">03</text><text y="145" fill="#fff" font-size="25">FILTER</text><text y="180" fill="#bfb3a3" font-size="19">screen · joinery · turn</text></g>
+    <g transform="translate(1360 350)"><circle r="62" fill="#f3efe7"/><text y="10" fill="#101820" font-size="28" font-weight="700">04</text><text y="145" fill="#fff" font-size="25">RETREAT</text><text y="180" fill="#bfb3a3" font-size="19">sleep · focus · restore</text></g>
+  </g>
+  <g font-family="Arial,sans-serif">
+    <rect x="150" y="630" width="400" height="115" rx="22" fill="#17242d" stroke="#c89550" stroke-width="3"/><text x="190" y="680" fill="#fff" font-size="25" font-weight="700">Visual privacy</text><text x="190" y="718" fill="#bfb3a3" font-size="20">offset views before adding walls</text>
+    <rect x="600" y="630" width="400" height="115" rx="22" fill="#17242d" stroke="#c89550" stroke-width="3"/><text x="640" y="680" fill="#fff" font-size="25" font-weight="700">Acoustic privacy</text><text x="640" y="718" fill="#bfb3a3" font-size="20">seals, mass and soft absorption</text>
+    <rect x="1050" y="630" width="400" height="115" rx="22" fill="#17242d" stroke="#c89550" stroke-width="3"/><text x="1090" y="680" fill="#fff" font-size="25" font-weight="700">Choice</text><text x="1090" y="718" fill="#bfb3a3" font-size="20">open, filter or close as needed</text>
+  </g>
+</svg>

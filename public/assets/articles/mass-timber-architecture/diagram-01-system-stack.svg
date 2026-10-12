@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Mass timber is a coordinated building system</title>
+  <desc id="desc">Editorial diagram showing structure, connections, services, acoustic layers and enclosure as an integrated mass timber system.</desc>
+  <rect width="1600" height="900" fill="#101514"/>
+  <text x="105" y="105" fill="#d8b777" font-family="Georgia, serif" font-size="28" letter-spacing="7">WORLD ARCH JOURNAL · SYSTEM NOTE 01</text>
+  <text x="105" y="180" fill="#f4efe5" font-family="Georgia, serif" font-size="58">Mass timber is more than exposed wood</text>
+  <text x="105" y="228" fill="#aeb7b2" font-family="Arial, sans-serif" font-size="23">Performance emerges where five coordinated layers meet.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="105" y="310" width="1390" height="92" rx="20" fill="#202724" stroke="#846d43" stroke-width="2"/>
+    <text x="145" y="366" fill="#f4efe5" font-size="30">05 · ENCLOSURE</text><text x="520" y="366" fill="#b9c1bd" font-size="24">air · water · vapour · thermal continuity</text>
+    <rect x="145" y="424" width="1310" height="92" rx="20" fill="#242520" stroke="#9b7d45" stroke-width="2"/>
+    <text x="185" y="480" fill="#f4efe5" font-size="30">04 · ACOUSTIC BUILD-UP</text><text x="640" y="480" fill="#b9c1bd" font-size="24">mass · resilience · flanking control</text>
+    <rect x="185" y="538" width="1230" height="92" rx="20" fill="#1d2828" stroke="#5d817e" stroke-width="2"/>
+    <text x="225" y="594" fill="#f4efe5" font-size="30">03 · SERVICES</text><text x="540" y="594" fill="#b9c1bd" font-size="24">openings · routes · access · firestopping</text>
+    <rect x="225" y="652" width="1150" height="92" rx="20" fill="#28221b" stroke="#aa8050" stroke-width="2"/>
+    <text x="265" y="708" fill="#f4efe5" font-size="30">02 · CONNECTIONS</text><text x="630" y="708" fill="#b9c1bd" font-size="24">loads · movement · erection · fire</text>
+    <rect x="265" y="766" width="1070" height="74" rx="20" fill="#3a2a1c" stroke="#d8b777" stroke-width="2"/>
+    <text x="305" y="814" fill="#f4efe5" font-size="30">01 · PRIMARY STRUCTURE</text><text x="780" y="814" fill="#d8b777" font-size="24">CLT · glulam · hybrid frame</text>
+  </g>
+</svg>
