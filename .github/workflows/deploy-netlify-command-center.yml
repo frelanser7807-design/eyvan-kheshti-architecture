@@ -107,14 +107,15 @@ jobs:
               catch (error) { failures.push(String(error)); }
             }
           }));
-          const imagePaths = [...sitemap.matchAll(/<image:loc>(.*?)<\/image:loc>/g)]
-            .slice(0, 12).map((match) => new URL(match[1], origin).href);
-          for (const path of imagePaths) {
-            try { await fetchOk(path); }
+          const imageUrls = [...sitemap.matchAll(/<image:loc>(.*?)<\/image:loc>/g)
+            .slice(0, 12).map((match) => new URL(match[1], origin))];
+          for (const imageUrl of imageUrls) {
+            if (imageUrl.hostname === 'worldarchjournal.com') imageUrl.host = new URL(origin).host;
+            try { await fetchOk(imageUrl.href); }
             catch (error) { failures.push(String(error)); }
           }
           if (failures.length) throw new Error(failures.join('\n'));
-          console.log(`Preview verified: ${required.length} page/feed routes and ${imagePaths.length} images.`);
+          console.log(`Preview verified: ${required.length} page/feed routes and ${imageUrls.length} images.`);
           NODE
 
       - name: Deploy verified build to Cloudflare Pages production
