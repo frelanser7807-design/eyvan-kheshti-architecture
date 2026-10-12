@@ -134,9 +134,18 @@ jobs:
           node --input-type=module <<'NODE'
           const origin = process.env.PRODUCTION_ORIGIN;
           const check = async (path) => {
-            const response = await fetch(new URL(path, origin), { redirect: 'follow' });
-            if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
-            return response;
+            let lastError;
+            for (let attempt = 0; attempt < 10; attempt++) {
+              try {
+                const response = await fetch(new URL(path, origin), { redirect: 'follow' });
+                if (response.ok) return response;
+                lastError = new Error(`${path}: HTTP ${response.status}`);
+              } catch (error) {
+                lastError = error;
+              }
+              await new Promise((resolve) => setTimeout(resolve, 3000));
+            }
+            throw lastError ?? new Error(`Production route did not respond: ${path}`);
           };
           const sitemap = await (await check('/sitemap.xml')).text();
           const paths = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)]
@@ -144,6 +153,16 @@ jobs:
             .filter((path) => path !== '/sitemap.xml');
           if (!paths.some((path) => path.startsWith('/articles/'))) throw new Error('Live sitemap contains no articles.');
           if (!paths.some((path) => path.startsWith('/newsletter/'))) throw new Error('Live sitemap contains no newsletter issues.');
-          for (const path of [...new Set(['/', '/newsletter/feed.xml', ...paths])]) await check(path);
-          console.log(`Production verified: ${paths.length + 2} routes on worldarchjournal.com.`);
+          const required = [...new Set(['/', '/newsletter/feed.xml', ...paths])];
+          let cursor = 0;
+          const failures = [];
+          await Promise.all(Array.from({ length: 8 }, async () => {
+            while (cursor < required.length) {
+              const path = required[cursor++];
+              try { await check(path); }
+              catch (error) { failures.push(String(error)); }
+            }
+          }));
+          if (failures.length) throw new Error(failures.join('\n'));
+          console.log(`Production verified: ${required.length} routes on worldarchjournal.com.`);
           NODE
