@@ -108,7 +108,7 @@ jobs:
             }
           }));
           const imagePaths = [...sitemap.matchAll(/<image:loc>(.*?)<\/image:loc>/g)]
-            .slice(0, 12).map((match) => new URL(match[1], origin).pathname);
+            .slice(0, 12).map((match) => new URL(match[1], origin).href);
           for (const path of imagePaths) {
             try { await fetchOk(path); }
             catch (error) { failures.push(String(error)); }
