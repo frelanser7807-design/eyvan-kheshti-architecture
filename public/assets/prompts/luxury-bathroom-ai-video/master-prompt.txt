@@ -1,0 +1,15 @@
+Create a premium 10-second photorealistic bathroom build-up sequence using Image 1 as the exact completed-design reference and final visual target.
+
+Open on the same bathroom as a clean, unfinished architectural shell. From there, a giant realistic human hand progressively assembles the interior, one component at a time. Build the scene in a clear physical sequence: install the floor tiles and wall finishes, then place the vanity and sink, mirror, shower glass, bathtub, toilet, lighting, towels, and decorative elements. Each piece should move naturally into its correct position and lock into place with smooth, satisfying, believable motion.
+
+Keep the transformation continuous and visually readable. Do not use cuts. The hand is the only active assembly element; no people should appear in the scene.
+
+REFERENCE FIDELITY - ABSOLUTE PRIORITY:
+Treat Image 1 as the master design reference. The completed bathroom must reproduce the reference as closely as possible, including the exact room proportions, architecture, camera viewpoint, perspective, layout, vanity, sinks, mirrors, shower enclosure, bathtub, toilet, shelving, windows, floor, walls, ceiling, lighting placement, materials, colors, towels, plants, accessories, and visible decorative details.
+
+Do not redesign or reinterpret the bathroom. Do not add, remove, resize, relocate, simplify, substitute, or restyle visible design elements. The assembly animation may begin from an empty shell, but every installed element must progressively reconstruct the bathroom shown in Image 1.
+
+FINAL SHOT:
+Finish on a fully photorealistic hero view that matches Image 1 - same composition, geometry, materials, lighting atmosphere, object placement, and camera angle. The result must read as the exact referenced bathroom, not a similar AI-generated alternative.
+
+No people. No text or logos. No cuts. No unrelated objects. No architectural changes. No final-frame redesign.
