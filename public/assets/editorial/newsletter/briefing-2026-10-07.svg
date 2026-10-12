@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Access, intelligence and public architecture</title>
+  <desc id="desc">Original editorial diagram linking professional learning, coordinated construction robotics, public building access and healthcare design.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09121a"/><stop offset="1" stop-color="#17242b"/></linearGradient>
+    <linearGradient id="copper" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f0b56f"/><stop offset="1" stop-color="#a96738"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g fill="none" stroke="#29404b" stroke-width="2" opacity=".55">
+    <path d="M0 150h1600M0 450h1600M0 750h1600M260 0v900M800 0v900M1340 0v900"/>
+  </g>
+  <text x="110" y="118" fill="#f5efe7" font-family="Arial, sans-serif" font-size="28" letter-spacing="12">WORLD ARCH JOURNAL · 07 OCTOBER 2026</text>
+  <text x="110" y="230" fill="#f5efe7" font-family="Georgia, serif" font-size="78">WHO GETS TO</text>
+  <text x="110" y="320" fill="url(#copper)" font-family="Georgia, serif" font-size="92">LEARN · BUILD · ENTER?</text>
+  <path d="M112 372h1376" stroke="url(#copper)" stroke-width="4"/>
+  <g transform="translate(155 480)" fill="none" stroke="#edb16a" stroke-width="7" filter="url(#glow)">
+    <circle cx="110" cy="110" r="82"/><path d="M78 137v-24c0-35 64-35 64 0v24M66 159h88M88 185h44"/>
+    <circle cx="520" cy="110" r="82"/><path d="M472 126l48-75 48 75-48 29zM520 51v104M477 177h86"/>
+    <circle cx="930" cy="110" r="82"/><path d="M880 171V70h100v101M880 105h100M912 70v101M948 70v101"/>
+    <circle cx="1340" cy="110" r="82"/><path d="M1294 128c0-34 21-62 46-62s46 28 46 62M1310 151h60M1340 66V38"/>
+  </g>
+  <g fill="#f5efe7" font-family="Arial, sans-serif" font-size="25" text-anchor="middle" letter-spacing="3">
+    <text x="265" y="760">LICENSURE ACCESS</text><text x="675" y="760">ROBOTIC CO-DESIGN</text><text x="1085" y="760">OPEN BUILDINGS</text><text x="1495" y="760">CARE ENVIRONMENTS</text>
+  </g>
+  <text x="110" y="842" fill="#9eb0b8" font-family="Arial, sans-serif" font-size="24">ORIGINAL EDITORIAL DIAGRAM · NOT A PHOTOGRAPH OF THE REPORTED PROGRAMMES</text>
+</svg>

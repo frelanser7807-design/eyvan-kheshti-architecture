@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Airport as a regional threshold</title><desc id="desc">An original not-to-scale schematic connecting Sydney’s harbour, Parramatta and Western Parkland centres with a western airport and a public arrival sequence.</desc>
+  <rect width="1200" height="600" fill="#e9e7de"/><path d="M90 353C285 302 392 354 556 314s322-34 554-93" fill="none" stroke="#8d9a92" stroke-width="9" stroke-dasharray="16 12"/>
+  <g stroke="#4e615b" stroke-width="3" fill="#f6f2e8"><circle cx="190" cy="326" r="54"/><circle cx="525" cy="321" r="54"/><circle cx="897" cy="268" r="54"/></g>
+  <path d="M1000 134h118v178h-118z" fill="#283638"/><path d="M976 134h165l-28-43h-110z" fill="#d0a36a"/><path d="M1016 163h85M1016 193h85M1016 223h85M1016 253h85" stroke="#dbe2dc" stroke-width="6"/>
+  <path d="M190 382v64h72M525 377v69h-72M897 324v122h-35" fill="none" stroke="#d0a36a" stroke-width="4"/>
+  <g font-family="Arial,sans-serif" fill="#253335" text-anchor="middle"><text x="600" y="64" font-size="25" letter-spacing="4">ARRIVAL IS A REGIONAL SYSTEM</text><text x="190" y="333" font-size="18">HARBOUR</text><text x="525" y="328" font-size="18">PARRAMATTA</text><text x="897" y="275" font-size="16">WESTERN</text><text x="897" y="296" font-size="16">PARKLAND</text><text x="1059" y="345" font-size="17">AIRPORT</text><text x="600" y="502" font-size="16" letter-spacing="2" fill="#58645f">TRANSIT · PUBLIC REALM · LOCAL IDENTITY · EVERYDAY ACCESS</text><text x="600" y="544" font-size="15" letter-spacing="2" fill="#7a827d">NOT TO SCALE · CONCEPTUAL EDITORIAL SCHEMATIC</text></g>
+  <path d="M245 326H468M580 311H835M951 258H976" fill="none" stroke="#bb8851" stroke-width="3"/>
+</svg>

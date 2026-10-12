@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Robotic construction as a coordinated system</title><desc id="desc">Original conceptual diagram showing design data, sensing, large machines and precision robots coordinating around a timber assembly.</desc>
+  <rect width="1200" height="720" fill="#0b141a"/><g fill="none" stroke="#e4aa65" stroke-width="6"><path d="M160 540h880M260 540V355l160-80 160 80v185M580 540V355l160-80 160 80v185"/><path d="M420 275v265M740 275v265M260 355h640"/></g>
+  <g fill="#18303a" stroke="#8eb3be" stroke-width="4"><rect x="95" y="445" width="130" height="80" rx="16"/><rect x="975" y="445" width="130" height="80" rx="16"/><circle cx="160" cy="540" r="24"/><circle cx="1040" cy="540" r="24"/></g>
+  <g stroke="#e4aa65" stroke-width="4" fill="none" stroke-dasharray="10 10"><path d="M160 445C250 160 470 140 600 245"/><path d="M1040 445C950 160 730 140 600 245"/></g>
+  <circle cx="600" cy="245" r="58" fill="#13262f" stroke="#e4aa65" stroke-width="6"/><text x="600" y="255" fill="#f7f1e9" text-anchor="middle" font-family="Arial" font-size="28">CO-DESIGN</text>
+  <text x="90" y="100" fill="#f7f1e9" font-family="Georgia, serif" font-size="62">AUTONOMY STILL NEEDS</text><text x="90" y="175" fill="#e4aa65" font-family="Georgia, serif" font-size="72">A SHARED SYSTEM</text>
+  <text x="90" y="650" fill="#9fb0b8" font-family="Arial" font-size="24">DESIGN · SIMULATION · SENSING · SAFETY · ASSEMBLY · REUSE</text>
+</svg>

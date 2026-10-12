@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Public access reveals the layers of architecture</title><desc id="desc">Original conceptual diagram of an open civic building with visible thresholds, structure, landscape and people.</desc>
+  <rect width="1200" height="720" fill="#0b141a"/><path d="M130 585h940" stroke="#4d686f" stroke-width="5"/>
+  <g fill="none" stroke="#e4aa65" stroke-width="6"><path d="M225 565V245h750v320M225 245l375-130 375 130M410 565V320h380v245M520 565V390h160v175"/><path d="M600 115v450" opacity=".5"/></g>
+  <g fill="#90adb6"><circle cx="330" cy="520" r="18"/><path d="M330 538v45M312 555h36"/><circle cx="870" cy="520" r="18"/><path d="M870 538v45M852 555h36"/></g>
+  <path d="M80 585c100-95 200-95 300 0M820 585c100-95 200-95 300 0" fill="none" stroke="#355d48" stroke-width="24" opacity=".8"/>
+  <text x="90" y="92" fill="#f7f1e9" font-family="Georgia, serif" font-size="60">AN OPEN DOOR CHANGES</text><text x="90" y="165" fill="#e4aa65" font-family="Georgia, serif" font-size="70">HOW A BUILDING IS READ</text>
+  <text x="90" y="655" fill="#9fb0b8" font-family="Arial" font-size="24">PUBLIC ACCESS · ADAPTIVE REUSE · MATERIALS · MEMORY · EVERYDAY USE</text>
+</svg>
