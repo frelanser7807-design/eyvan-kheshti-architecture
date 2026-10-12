@@ -11,6 +11,7 @@ on:
       - "agent-system/**"
       - "media-parts/**"
       - "scripts/**"
+      - "tests/**"
       - "package.json"
       - "package-lock.json"
       - "vite.config.js"
@@ -27,18 +28,103 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
           cache: npm
+
       - name: Install dependencies
         run: npm ci
-      - name: Verify production build
-        run: npm run build
-      - name: Deploy verified source to Netlify
+
+      - name: Build and verify publication package
+        run: |
+          npm run build
+          node --test tests/newsletter-publication.test.mjs tests/newsletter.test.mjs
+          npm run smoke
+
+      - name: Deploy preview to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=world-arch-journal --branch=preview-${{ github.run_id }}
+
+      - name: Verify preview pages, articles, newsletter, feed, and images
         env:
-          NETLIFY_MCP_PROXY_PATH: ${{ secrets.NETLIFY_MCP_PROXY_PATH }}
-        run: npx -y @netlify/mcp@latest --site-id 004ad58a-5ee6-445d-a682-c5829242662d --proxy-path "$NETLIFY_MCP_PROXY_PATH"
+          PREVIEW_ORIGIN: https://preview-${{ github.run_id }}.world-arch-journal.pages.dev
+        run: |
+          node --input-type=module <<'NODE'
+          const origin = process.env.PREVIEW_ORIGIN;
+          const fetchOk = async (path) => {
+            let lastError;
+            for (let attempt = 0; attempt < 12; attempt++) {
+              try {
+                const response = await fetch(new URL(path, origin), { redirect: 'follow' });
+                if (response.ok) return response;
+                lastError = new Error(`${path}: HTTP ${response.status}`);
+              } catch (error) {
+                lastError = error;
+              }
+              await new Promise((resolve) => setTimeout(resolve, 5000));
+            }
+            throw lastError ?? new Error(`Preview did not respond: ${path}`);
+          };
+          const sitemap = await (await fetchOk('/sitemap.xml')).text();
+          const paths = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)]
+            .map((match) => new URL(match[1], origin).pathname)
+            .filter((path) => path !== '/sitemap.xml');
+          if (!paths.some((path) => path.startsWith('/articles/'))) throw new Error('Sitemap contains no articles.');
+          if (!paths.some((path) => path.startsWith('/newsletter/'))) throw new Error('Sitemap contains no newsletter issues.');
+          const required = [...new Set(['/', '/newsletter/feed.xml', ...paths])];
+          let cursor = 0;
+          const failures = [];
+          await Promise.all(Array.from({ length: 8 }, async () => {
+            while (cursor < required.length) {
+              const path = required[cursor++];
+              try { await fetchOk(path); }
+              catch (error) { failures.push(String(error)); }
+            }
+          }));
+          const imagePaths = [...sitemap.matchAll(/<image:loc>(.*?)<\/image:loc>/g)]
+            .slice(0, 12).map((match) => new URL(match[1], origin).pathname);
+          for (const path of imagePaths) {
+            try { await fetchOk(path); }
+            catch (error) { failures.push(String(error)); }
+          }
+          if (failures.length) throw new Error(failures.join('\n'));
+          console.log(`Preview verified: ${required.length} page/feed routes and ${imagePaths.length} images.`);
+          NODE
+
+      - name: Deploy verified build to Cloudflare Pages production
+        if: github.ref == 'refs/heads/main'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=world-arch-journal --branch=main
+
+      - name: Verify production domain
+        if: github.ref == 'refs/heads/main'
+        env:
+          PRODUCTION_ORIGIN: https://worldarchjournal.com
+        run: |
+          node --input-type=module <<'NODE'
+          const origin = process.env.PRODUCTION_ORIGIN;
+          const check = async (path) => {
+            const response = await fetch(new URL(path, origin), { redirect: 'follow' });
+            if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
+            return response;
+          };
+          const sitemap = await (await check('/sitemap.xml')).text();
+          const paths = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)]
+            .map((match) => new URL(match[1], origin).pathname)
+            .filter((path) => path !== '/sitemap.xml');
+          if (!paths.some((path) => path.startsWith('/articles/'))) throw new Error('Live sitemap contains no articles.');
+          if (!paths.some((path) => path.startsWith('/newsletter/'))) throw new Error('Live sitemap contains no newsletter issues.');
+          for (const path of [...new Set(['/', '/newsletter/feed.xml', ...paths])]) await check(path);
+          console.log(`Production verified: ${paths.length + 2} routes on worldarchjournal.com.`);
+          NODE
