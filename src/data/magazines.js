@@ -74,4 +74,3 @@ export const magazines = [
 export function magazineBySlug(slug) {
   return magazines.find((magazine) => magazine.slug === slug);
 }
-

@@ -8,6 +8,10 @@ const required = [
   'dist/manifest.webmanifest',
   'dist/sw.js',
   'dist/robots.txt',
+  'dist/offline.html',
+  'dist/atlas-sitemap.xml',
+  'dist/article-sitemap.xml',
+  'dist/video-sitemap.xml',
   'dist/assets/film/site-cinematic-score-v3.wav',
   'src/components/CinematicScene.jsx',
   'src/components/AdminPanel.jsx',
@@ -16,6 +20,7 @@ const required = [
   'src/components/EditorialSections.jsx',
   'src/components/SiteSearch.jsx',
   'src/components/ArticleReader.jsx',
+  'src/components/VideoLibrary.jsx',
   'src/data/articles.js',
   'src/components/LegalPage.jsx',
   'src/components/ArticleReader.jsx',
@@ -27,9 +32,6 @@ const required = [
   'docs/API_CONTRACT.md',
   'docs/COMMERCE_BACKEND_PLAN.md',
   'docs/SEO_PLAN.md',
-  'wordpress/eyvan-kheshti-theme/functions.php',
-  'wordpress/eyvan-kheshti-core/eyvan-kheshti-core.php',
-  'wordpress/README-FA.md',
 ];
 
 const activeAssets = [
@@ -56,9 +58,40 @@ for (const path of activeAssets) {
   await access(join(root, 'dist', path));
 }
 
+for (const [pageRoot, pdfRoot, routePrefix] of [
+  ['dist/articles', 'dist/downloads/articles', '/downloads/articles/'],
+  ['dist/newsletter', 'dist/downloads/newsletter', '/downloads/newsletter/'],
+]) {
+  for (const entry of await readdir(join(root, pageRoot), { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue;
+    const slug = entry.name;
+    const html = await readFile(join(root, pageRoot, slug, 'index.html'), 'utf8');
+    const pdfPath = join(root, pdfRoot, `${slug}.pdf`);
+    const pdf = await readFile(pdfPath);
+    if (!html.includes(`${routePrefix}${slug}.pdf`)) throw new Error(`Downloadable PDF link missing from ${pageRoot}/${slug}.`);
+    if (!pdf.subarray(0, 5).equals(Buffer.from('%PDF-'))) throw new Error(`Invalid PDF file for ${slug}.`);
+  }
+}
+
 const html = await readFile(join(root, 'dist/index.html'), 'utf8');
 if (!html.includes('lang="en"') || !html.includes('dir="ltr"')) throw new Error('English metadata missing');
 if (!html.includes('index, follow') || !html.includes('Professional') && !html.includes('Architecture')) throw new Error('SEO shell missing');
+if (defaultContent.brand.linkedin !== 'https://www.linkedin.com/in/farnaz-ghaffarian-architecture/' || defaultContent.brand.socialLinks.find((item) => item.id === 'linkedin')?.url !== defaultContent.brand.linkedin) throw new Error('LinkedIn profile URL is not consistent with the verified public profile.');
+const contentAdapter = await readFile(join(root, 'src/lib/dataAdapter.js'), 'utf8');
+if (!contentAdapter.includes('brand.linkedin = defaultContent.brand.linkedin') || !contentAdapter.includes("fallback.id === 'linkedin'")) throw new Error('Saved site content can still restore the obsolete LinkedIn URL.');
+const staticAnalytics = await readFile(join(root, 'public/assets/site-analytics-static.js'), 'utf8');
+const analyticsConsent = await readFile(join(root, 'src/components/AnalyticsConsent.jsx'), 'utf8');
+for (const source of [staticAnalytics, analyticsConsent]) {
+  if (!source.includes('project_navigation_click') || !source.includes('button[data-analytics-event][data-analytics-label]')) throw new Error('Project and CTA click tracking is incomplete.');
+}
+if (!analyticsConsent.includes("trackSiteEvent('file_download'") || !analyticsConsent.includes('/\\.(pdf|zip)$/i')) throw new Error('PDF and drawing-pack download tracking is missing from the interactive site.');
+const breadcrumbArticle = await readFile(join(root, 'dist/articles/flood-resilient-home-design/index.html'), 'utf8');
+const breadcrumbScript = breadcrumbArticle.match(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/);
+if (!breadcrumbScript) throw new Error('Static article JSON-LD is missing.');
+const breadcrumbGraph = JSON.parse(breadcrumbScript[1]);
+const breadcrumbList = (breadcrumbGraph['@graph'] || [breadcrumbGraph]).find((item) => item['@type'] === 'BreadcrumbList');
+if (!breadcrumbList || breadcrumbList.itemListElement.length < 2 || breadcrumbList.itemListElement.some((item) => !item.name || !item.item)) throw new Error('Static article breadcrumb contains an unnamed or incomplete item.');
+if (!breadcrumbArticle.includes('farnaz-ghaffarian-architecture/')) throw new Error('Static article publisher schema is missing the verified LinkedIn profile.');
 
 const app = await readFile(join(root, 'src/App.jsx'), 'utf8');
 if (!app.includes("startsWith('#/admin')")) throw new Error('Admin route missing');
@@ -102,14 +135,15 @@ for (const platform of ['whatsapp', 'instagram', 'youtube', 'pinterest']) {
 }
 if (defaultContent.monetization.adsenseEnabled !== false || defaultContent.monetization.affiliateEnabled !== false) throw new Error('Commercial integrations must be disabled in the preview.');
 
-const legal = await readFile(join(root, 'src/components/LegalPage.jsx'), 'utf8');
+const legal = await readFile(join(root, 'src/data/legalPages.js'), 'utf8');
 for (const route of ['/privacy/', '/terms/', '/affiliate-disclosure/', '/editorial-policy/', '/cookie-settings/']) {
   if (!legal.includes(`'${route}'`)) throw new Error('Missing legal route: ' + route);
 }
 if (cinematic.includes('ek-menu-trigger') || cinematic.includes('studio-menu')) throw new Error('Public hamburger menu must remain removed.');
 if (!cinematic.includes("sceneIndex > 0 ? 'is-visible' : ''")) throw new Error('Floating navigation must remain hidden through video one and begin on video two.');
 if (!cinematic.includes('<SiteSearch') || !cinematic.includes('sceneIndex <= 0')) throw new Error('Opening smart site search is missing.');
-for (const target of ['projects', 'services', 'tutorials', 'journal', 'objects', 'ebooks', 'atlas', 'app', 'shop']) {
+if (!cinematic.includes("window.location.assign('/projects/')")) throw new Error('Missing projects hub navigation target.');
+for (const target of ['services', 'tutorials', 'journal', 'objects', 'ebooks', 'atlas', 'app', 'shop']) {
   if (!cinematic.includes(`scrollToSection('${target}')`)) throw new Error('Missing floating navigation target: ' + target);
 }
 const editorial = await readFile(join(root, 'src/components/EditorialSections.jsx'), 'utf8');
@@ -140,16 +174,47 @@ if ((staticArticle.match(/<img /g) || []).length < 5 || !staticArticle.includes(
 const staticMagazine = await readFile(join(root, 'dist/magazine/issue-00-the-house-after-the-grid/index.html'), 'utf8');
 if (!staticMagazine.includes('PublicationIssue') || (staticMagazine.match(/<img /g) || []).length < 5) throw new Error('Dedicated magazine page is incomplete.');
 const staticShop = await readFile(join(root, 'dist/shop/index.html'), 'utf8');
-if (!staticShop.includes('CollectionPage') || staticShop.includes('"@type":"Product"')) throw new Error('Shop must remain crawlable without fake product schema before checkout activation.');
+if (!staticShop.includes('CollectionPage') || !staticShop.includes('Interior Design Presentation Template')) throw new Error('Shop must expose the verified published product catalogue.');
+const staticAtlas = await readFile(join(root, 'dist/atlas/index.html'), 'utf8');
+if (!staticAtlas.includes('World Arch Atlas') || !staticAtlas.includes('/downloads/atlas/world-arch-atlas-istanbul-architecture-travel-guide.pdf')) throw new Error('Atlas hub must expose the city catalogue and PDF downloads.');
+for (const atlasPdf of ['world-arch-atlas-istanbul-architecture-travel-guide.pdf', 'world-arch-atlas-antalya-architecture-travel-guide.pdf', 'world-arch-atlas-cappadocia-architecture-travel-guide.pdf']) {
+  const pdfPath = join(root, 'dist/downloads/atlas', atlasPdf);
+  const pdfStat = await stat(pdfPath);
+  if (pdfStat.size < 10000) throw new Error('Atlas PDF is missing or unexpectedly small: ' + atlasPdf);
+}
+const staticPresentationProduct = await readFile(join(root, 'dist/shop/interior-design-presentation-template/index.html'), 'utf8');
+if (!staticPresentationProduct.includes('"@type":"Product"') || !staticPresentationProduct.includes('4586743960') || !staticPresentationProduct.includes('priceCurrency":"GBP"') || !staticPresentationProduct.includes('<video')) throw new Error('Published presentation template is missing verified Etsy checkout, GBP offer schema or video preview.');
 const sitemap = await readFile(join(root, 'dist/sitemap.xml'), 'utf8');
-for (const expectedPath of ['/articles/courtyard-wind-house-passive-cooling/', '/magazine/issue-00-the-house-after-the-grid/', '/shop/']) {
+for (const expectedPath of ['/articles/courtyard-wind-house-passive-cooling/', '/articles/cross-ventilation-apartment-design/', '/articles/apartment-daylight-layout-design/', '/magazine/issue-00-the-house-after-the-grid/', '/prompts/exact-final-frame-architectural-build/', '/shop/', '/shop/interior-design-presentation-template/', '/atlas/turkiye/istanbul/']) {
   if (!sitemap.includes(expectedPath)) throw new Error('Sitemap is missing: ' + expectedPath);
 }
-if (!cinematic.includes('FA SOON') || !cinematic.includes("preload={sceneIndex <= 0 ? 'auto' : 'metadata'}")) throw new Error('Disabled Persian tab or video preload optimisation is missing.');
+const atlasSitemap = await readFile(join(root, 'dist/atlas-sitemap.xml'), 'utf8');
+for (const expectedPath of ['/atlas/', '/atlas/turkiye/istanbul/', '/atlas/turkiye/antalya/', '/atlas/turkiye/cappadocia/']) {
+  if (!atlasSitemap.includes(expectedPath)) throw new Error('Atlas sitemap is missing: ' + expectedPath);
+}
+if (!robots.includes('atlas-sitemap.xml')) throw new Error('Robots file must expose the dedicated Atlas sitemap.');
+const videoPage = await readFile(join(root, 'dist/videos/how-stone-arches-carry-load/index.html'), 'utf8');
+if (!videoPage.includes('VideoObject') || !videoPage.includes('youtube-nocookie.com/embed/0pE7K9EEYvg') || !videoPage.includes('What the sequence shows')) throw new Error('Architecture video landing page is incomplete.');
+const videoSitemap = await readFile(join(root, 'dist/video-sitemap.xml'), 'utf8');
+if (!videoSitemap.includes('/videos/how-stone-arches-carry-load/') || !videoSitemap.includes('<video:player_loc')) throw new Error('Video sitemap is incomplete.');
+const articleSitemap = await readFile(join(root, 'dist/article-sitemap.xml'), 'utf8');
+if (!articleSitemap.includes('/articles/ai-in-architecture-2026-adoption-risks-rules/') || !articleSitemap.includes('/magazine/climate-resilient-homes/')) throw new Error('Article topic sitemap is incomplete.');
+if (!robots.includes('article-sitemap.xml') || !robots.includes('video-sitemap.xml')) throw new Error('Robots file must expose article and video sitemaps.');
+const promptLibrary = await readFile(join(root, 'src/components/PromptLibrary.jsx'), 'utf8');
+if (!promptLibrary.includes('prompt-search-input') || !promptLibrary.includes("trackSiteEvent('prompt_copy'")) throw new Error('Prompt search or copy conversion tracking is missing.');
+const promptDetail = await readFile(join(root, 'src/components/PromptDetail.jsx'), 'utf8');
+if (!promptDetail.includes('Get the launch notice') || !promptDetail.includes('Related prompts')) throw new Error('PRO prompt conversion or related-prompt path is missing.');
+const newsletterPage = await readFile(join(root, 'src/components/NewsletterPage.jsx'), 'utf8');
+if (!newsletterPage.includes('Download PDF') || !newsletterPage.includes('newsletter_signup_success')) throw new Error('Newsletter PDF download or conversion tracking is missing.');
+for (const issueSlug of ['architecture-briefing-2026-10-09', 'architecture-briefing-2026-10-08']) {
+  const newsletterPdf = await stat(join(root, 'dist', 'downloads', 'newsletter', `${issueSlug}.pdf`));
+  if (newsletterPdf.size < 20000) throw new Error(`Newsletter PDF is missing or unexpectedly small: ${issueSlug}`);
+}
+if (!cinematic.includes('FA SOON') || !cinematic.includes("preload={isIdle ? 'none' : 'metadata'}")) throw new Error('Disabled Persian tab or video preload optimisation is missing.');
 if (!cinematic.includes('if (sceneIndex < scenes.length - 1)') || !cinematic.includes('setSceneIndex((value) => value + 1)')) throw new Error('Continuous one-click cinematic playback is missing.');
 
 const serviceWorker = await readFile(join(root, 'dist/sw.js'), 'utf8');
-if (!serviceWorker.includes("startsWith('/v1/')") || !serviceWorker.includes("destination === 'video'") || !serviceWorker.includes("destination === 'audio'")) {
+if (!serviceWorker.includes("startsWith('/v1/')") || !serviceWorker.includes("destination === 'video'") || !serviceWorker.includes("destination === 'audio'") || !serviceWorker.includes("caches.match('/offline.html')")) {
   throw new Error('Service worker must exclude APIs and streamed media from the shell cache');
 }
 
@@ -162,8 +227,27 @@ async function directorySize(path) {
   return total;
 }
 
+async function collectReleaseFiles(path) {
+  const files = [];
+  for (const entry of await readdir(path, { withFileTypes: true })) {
+    const target = join(path, entry.name);
+    if (entry.isDirectory()) files.push(...await collectReleaseFiles(target));
+    else files.push({ path: target, size: (await stat(target)).size });
+  }
+  return files;
+}
+
 const distSizeMb = (await directorySize(join(root, 'dist'))) / (1024 * 1024);
-if (distSizeMb > 40) throw new Error(`Release package regressed to ${distSizeMb.toFixed(2)} MB`);
+const releaseFiles = await collectReleaseFiles(join(root, 'dist'));
+const exactFinalFrameVideo = await stat(join(root, 'dist/assets/prompts/exact-final-frame-architectural-build/example-reel.mp4'));
+if (exactFinalFrameVideo.size > 4 * 1024 * 1024) throw new Error('Exact final-frame prompt video exceeds the 4 MB web budget.');
+if (releaseFiles.length > 20000) throw new Error(`Cloudflare Pages file limit exceeded: ${releaseFiles.length} files`);
+const largestReleaseFile = releaseFiles.reduce((largest, file) => file.size > largest.size ? file : largest, { path: '', size: 0 });
+if (largestReleaseFile.size > 25 * 1024 * 1024) throw new Error(`Cloudflare Pages per-file limit exceeded: ${largestReleaseFile.path} (${(largestReleaseFile.size / 1024 / 1024).toFixed(2)} MB)`);
+// This release includes the directly downloadable social video, Atlas guides,
+// newsletter PDFs and prompt examples. Keep a measured ceiling above the
+// verified 230 MB release while enforcing Cloudflare's actual file/count caps.
+if (distSizeMb > 235) throw new Error(`Release package regressed to ${distSizeMb.toFixed(2)} MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));

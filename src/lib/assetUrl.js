@@ -5,4 +5,3 @@ export function assetUrl(value) {
   if (base === '' || base === '/') return path.startsWith('/') ? path : `/${path}`;
   return `${base}/${path.replace(/^\/+/, '')}`;
 }
-

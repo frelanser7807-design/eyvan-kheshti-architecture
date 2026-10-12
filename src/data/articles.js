@@ -4,14 +4,31 @@ import adaptiveReuseArchitecture from './adaptiveReuseArchitecture.js';
 import prefabVsModularHomes from './prefabVsModularHomes.js';
 import smallCourtyardDesign from './smallCourtyardDesign.js';
 import biophilicDesignArchitecture from './biophilicDesignArchitecture.js';
+import massTimberArchitecture from './massTimberArchitecture.js';
+import rainscreenFacadeDesign from './rainscreenFacadeDesign.js';
 import bimVsCadArchitects from './bimVsCadArchitects.js';
 import passiveHouseVsNetZero from './passiveHouseVsNetZero.js';
-import modernVillaReimagined from './modernVillaReimagined.js';
+import urbanHeatStreets from './urbanHeatStreets.js';
+import aiArchitecture2026 from './aiArchitecture2026.js';
+import brutalistArchitecture from './brutalistArchitecture.js';
+import highPerformanceGlazing from './highPerformanceGlazing.js';
+import universalDesignHomes from './universalDesignHomes.js';
+import lowCarbonConcreteEpd from './lowCarbonConcreteEpd.js';
+import smallApartmentLayout from './smallApartmentLayout.js';
+import wildfireResilientHomes from './wildfireResilientHomes.js';
+import apartmentAcousticDesign from './apartmentAcousticDesign.js';
+import floodResilientHomes from './floodResilientHomes.js';
+import apartmentCrossVentilation from './apartmentCrossVentilation.js';
+import apartmentDaylightLayout from './apartmentDaylightLayout.js';
+import birdSafeFacade from './birdSafeFacade.js';
+import inclusiveWayfinding from './inclusiveWayfinding.js';
 
 const courtyardWindHouse = {
   id: 'article-courtyard-wind-house-passive-cooling',
   slug: 'courtyard-wind-house-passive-cooling',
   title: 'The House After the Grid: Five Passive-Cooling Moves',
+  seoTitle: 'Passive Cooling Architecture: 5 Courtyard Design Moves',
+  metaDescription: 'Explore five passive-cooling design moves using shade, courtyards, thermal mass, ventilation and adaptive operation in a hot-dry house study.',
   category: 'Climate & Resilient Architecture',
   meta: '12 MIN READ · 5 ORIGINAL VISUALS',
   status: 'WORLD ARCH JOURNAL CONCEPT STUDY · ISSUE 00',
@@ -145,8 +162,24 @@ const technicalPilot =
     published: false,
   };
 
-export const articles = [modernVillaReimagined, passiveHouseVsNetZero, bimVsCadArchitects, biophilicDesignArchitecture, smallCourtyardDesign, prefabVsModularHomes, adaptiveReuseArchitecture, climateResponsiveFacades, courtyardWindHouse, technicalPilot];
+export const articles = [birdSafeFacade, inclusiveWayfinding, apartmentCrossVentilation, apartmentDaylightLayout, wildfireResilientHomes, apartmentAcousticDesign, floodResilientHomes, lowCarbonConcreteEpd, smallApartmentLayout, universalDesignHomes, highPerformanceGlazing, aiArchitecture2026, brutalistArchitecture, urbanHeatStreets, rainscreenFacadeDesign, massTimberArchitecture, passiveHouseVsNetZero, bimVsCadArchitects, biophilicDesignArchitecture, smallCourtyardDesign, prefabVsModularHomes, adaptiveReuseArchitecture, climateResponsiveFacades, courtyardWindHouse, technicalPilot];
 
 export function articleBySlug(slug) {
   return articles.find((article) => article.slug === slug);
+}
+
+export function relatedArticlesFor(article, limit = 3) {
+  if (!article) return [];
+  const sourceTags = new Set(article.tags || []);
+  return articles
+    .filter((candidate) => candidate.published && candidate.slug !== article.slug)
+    .map((candidate) => ({
+      candidate,
+      score:
+        (candidate.category === article.category ? 4 : 0) +
+        (candidate.tags || []).filter((tag) => sourceTags.has(tag)).length,
+    }))
+    .sort((a, b) => b.score - a.score || String(b.candidate.publishedAt || '').localeCompare(String(a.candidate.publishedAt || '')))
+    .slice(0, limit)
+    .map(({ candidate }) => candidate);
 }

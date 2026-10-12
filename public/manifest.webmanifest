@@ -1,13 +1,22 @@
 {
-  "name": "Eyvan Kheshti — Architecture & Interiors",
-  "short_name": "Eyvan Kheshti",
+  "name": "WORLD ARCH JOURNAL — Architecture Media & Design",
+  "short_name": "Arch Journal",
   "description": "An immersive cinematic architecture studio experience.",
   "lang": "en",
   "dir": "ltr",
   "start_url": "/",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "categories": ["design", "education", "lifestyle"],
   "background_color": "#0a0908",
   "theme_color": "#0a0908",
+  "shortcuts": [
+    { "name": "Projects", "short_name": "Projects", "url": "/#projects", "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }] },
+    { "name": "Tutorials", "short_name": "Tutorials", "url": "/#tutorials", "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }] },
+    { "name": "EYVAN ATLAS", "short_name": "Atlas", "url": "/#atlas", "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }] },
+    { "name": "Objects & Materials", "short_name": "Library", "url": "/#objects", "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }] }
+  ],
   "icons": [
     {
       "src": "/favicon.svg",

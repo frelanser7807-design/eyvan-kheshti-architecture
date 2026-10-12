@@ -1,0 +1,16 @@
+.prompt-search{display:grid;grid-template-columns:minmax(150px,.35fr) minmax(280px,1fr);align-items:center;gap:24px;padding:26px clamp(20px,5vw,86px);border-bottom:1px solid var(--prompt-line)}
+.prompt-search label{color:#aeb8b5;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}
+.prompt-search>div{display:flex;align-items:center;gap:16px}
+.prompt-search input{width:100%;min-width:0;border:1px solid #35403e;border-radius:999px;padding:14px 18px;background:#0c0f0f;color:#fff;font:inherit}
+.prompt-search input:focus{outline:2px solid var(--prompt-cyan);outline-offset:2px}
+.prompt-search span{flex:none;color:#7d8986;font-size:.68rem}
+.prompt-empty{grid-column:1/-1;padding:65px 24px;border:1px solid var(--prompt-line);text-align:center}
+.prompt-empty h2{font:400 2.2rem/1 Georgia,serif}.prompt-empty p{color:var(--prompt-muted)}
+.prompt-empty button{border:1px solid var(--prompt-cyan);border-radius:999px;padding:12px 18px;background:transparent;color:var(--prompt-cyan);cursor:pointer}
+.prompt-detail-lock>a{display:table;margin:22px auto 0;border-bottom:1px solid var(--prompt-gold);padding:8px 0;color:#fff;text-decoration:none;font-size:.76rem;letter-spacing:.08em}
+.prompt-related{padding:70px clamp(20px,5vw,86px);border-top:1px solid var(--prompt-line)}
+.prompt-related>small{color:var(--prompt-cyan);letter-spacing:.15em}.prompt-related h2{margin:14px 0 30px;font:400 clamp(2.4rem,5vw,4.5rem)/1 Georgia,serif}
+.prompt-related>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.prompt-related a{display:grid;gap:12px;min-height:170px;padding:24px;border:1px solid var(--prompt-line);color:#fff;text-decoration:none}
+.prompt-related a span{color:var(--prompt-gold);font-size:.68rem;letter-spacing:.12em}.prompt-related a strong{font:400 1.55rem/1.05 Georgia,serif}.prompt-related a small{color:#87918e;line-height:1.5}
+@media(max-width:720px){.prompt-search{grid-template-columns:1fr;gap:10px}.prompt-search>div{align-items:flex-start;flex-direction:column}.prompt-related>div{grid-template-columns:1fr}}

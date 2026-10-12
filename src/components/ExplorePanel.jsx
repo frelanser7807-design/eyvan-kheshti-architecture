@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { dataMode, submitSubscriber } from '../lib/dataAdapter.js';
+import { submitSubscriber } from '../lib/dataAdapter.js';
 import { assetUrl } from '../lib/assetUrl.js';
 import { articles } from '../data/articles.js';
 import { magazines } from '../data/magazines.js';
@@ -22,7 +22,8 @@ const interfaceCopy = {
     freePlanned: 'Free release planned', premiumPlanned: 'Premium release planned',
     empty: 'This collection is being curated.', journal: 'STUDIO JOURNAL',
     newsletterTitle: 'Architecture, material and process — occasionally in your inbox.', email: 'Email address',
-    join: 'Join the journal', saving: 'Saving…', success: 'Thank you. Your email has been added.', error: 'Please enter a valid email address.',
+    join: 'Join the journal', saving: 'Sending…', success: 'If this address is not already subscribed, check your inbox for a confirmation link.', error: 'Subscription is temporarily unavailable. Please try again later.',
+    consent: 'I agree to receive occasional World Arch Journal emails. I can unsubscribe at any time.',
   },
   fa: {
     library: 'ورلد آرک ژورنال / کتابخانهٔ دیجیتال', title: 'استودیو را کشف کنید', close: 'بستن کتابخانهٔ استودیو',
@@ -30,7 +31,8 @@ const interfaceCopy = {
     freePlanned: 'انتشار رایگان برنامه‌ریزی شده', premiumPlanned: 'انتشار حرفه‌ای برنامه‌ریزی شده',
     empty: 'این مجموعه در حال تکمیل است.', journal: 'ژورنال استودیو',
     newsletterTitle: 'معماری، متریال و فرایند طراحی؛ گاهی در صندوق ایمیل شما.', email: 'نشانی ایمیل',
-    join: 'عضویت در ژورنال', saving: 'در حال ذخیره…', success: 'سپاس؛ ایمیل شما ثبت شد.', error: 'لطفاً یک ایمیل معتبر وارد کنید.',
+    join: 'عضویت در ژورنال', saving: 'در حال ارسال…', success: 'اگر این نشانی قبلاً عضو نشده باشد، لینک تأیید را در ایمیل خود بررسی کنید.', error: 'عضویت فعلاً در دسترس نیست؛ لطفاً بعداً دوباره تلاش کنید.',
+    consent: 'با دریافت گه‌گاه ایمیل‌های ورلد آرک ژورنال موافقم و هر زمان می‌توانم لغو عضویت کنم.',
   },
 };
 
@@ -123,7 +125,8 @@ export default function ExplorePanel({ open, onClose, content, initialView = 'pr
     setNewsletterStatus('saving');
     const form = event.currentTarget;
     try {
-      await submitSubscriber(new FormData(form).get('email'));
+      const fields = new FormData(form);
+      await submitSubscriber(fields.get('email'), fields.get('consent') === 'yes', fields.get('website'));
       form.reset();
       setNewsletterStatus('success');
     } catch {
@@ -186,9 +189,11 @@ export default function ExplorePanel({ open, onClose, content, initialView = 'pr
 
         <section className="ek-newsletter" aria-labelledby="newsletter-title">
           <div><small>{copy.journal}</small><h3 id="newsletter-title">{copy.newsletterTitle}</h3></div>
-          {newsletterStatus === 'success' ? <p className="ek-newsletter-success" role="status">{dataMode === 'local-preview' ? (language === 'fa' ? 'پیش‌نمایش: ایمیل فقط در همین مرورگر ذخیره شد؛ عضویت واقعی هنوز متصل نیست.' : 'Preview: saved only in this browser. Newsletter delivery is not connected yet.') : copy.success}</p> : (
+          {newsletterStatus === 'success' ? <p className="ek-newsletter-success" role="status">{copy.success}</p> : (
             <form onSubmit={subscribe}>
               <label><span>{copy.email}</span><input type="email" name="email" autoComplete="email" required placeholder="you@example.com" dir="ltr" /></label>
+              <label className="ek-newsletter-consent"><input type="checkbox" name="consent" value="yes" required /><span>{copy.consent} <a href="/privacy/">Privacy policy</a></span></label>
+              <input className="ek-newsletter-trap" type="text" name="website" tabIndex="-1" autoComplete="off" aria-hidden="true" />
               <button type="submit" disabled={newsletterStatus === 'saving'}>{newsletterStatus === 'saving' ? copy.saving : copy.join} <i>↗</i></button>
               {newsletterStatus === 'error' && <p role="alert">{copy.error}</p>}
             </form>

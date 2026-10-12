@@ -78,9 +78,11 @@
 @media (max-width: 620px) {
   .wj-magazine-intro, .wj-magazine-stories, .wj-magazine-issue, .wj-magazine-crosslink, .wj-magazine-topics { width: calc(100% - 36px); }
   .wj-magazine-brand { font-size: .65rem; }
+  .wj-magazine-header nav { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; }
+  .wj-magazine-header nav a { min-width: 0; font-size: .68rem; text-align: center; }
   .wj-magazine-overline span:last-child, .wj-magazine-intro-foot span:last-child, .wj-magazine-section-title span:last-child { display: none; }
   .wj-magazine-intro { padding-top: 67px; }
-  .wj-magazine-intro h1 { margin-top: 26px; font-size: clamp(3.9rem, 18vw, 6rem); }
+  .wj-magazine-intro h1 { margin-top: 26px; font-size: clamp(3.4rem, 15vw, 4.8rem); }
   .wj-magazine-intro > p { margin-bottom: 45px; }
   .wj-magazine-topics { margin-bottom: 65px; }
   .wj-magazine-grid { grid-template-columns: 1fr; gap: 12px; }

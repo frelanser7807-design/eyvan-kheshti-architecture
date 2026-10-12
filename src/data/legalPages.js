@@ -1,0 +1,79 @@
+export const legalPages = {
+  '/privacy/': {
+    eyebrow: 'LEGAL',
+    title: 'Privacy Policy',
+    intro: 'This policy explains the limited information World Arch Journal may receive through this website and how it is handled.',
+    sections: [
+      ['Information you provide', 'If you submit a project enquiry or newsletter request, we may receive the name, contact detail and message you choose to provide. Do not send payment details, passwords or confidential project records through a public form.'],
+      ['Technical information', 'The hosting provider may process standard security and delivery logs such as IP address, browser type, requested page and time of access. Optional Google Analytics and Microsoft Clarity load only after a visitor gives consent. Advertising storage and personalised advertising remain disabled.'],
+      ['How information is used', 'Information is used to respond to enquiries, operate the website, prevent abuse and improve published content. If you opt in to the newsletter, your email is used only to send World Arch Journal updates after you confirm it. It is not sold.'],
+      ['Newsletter storage and delivery', 'When newsletter registration is active, Cloudflare stores the email and confirmation status, while Resend delivers confirmation and journal emails on our behalf. Unconfirmed requests expire after 24 hours. Confirmed subscriptions remain until you unsubscribe or request deletion.'],
+      ['Third-party services', 'The website may use Cloudflare hosting, Resend for opted-in newsletter delivery, consent-based Google Analytics and Microsoft Clarity, and embedded media. Future payment, affiliate or advertising services will be disclosed before activation.'],
+      ['Your choices', 'You may decline optional analytics or reopen Privacy choices at any time. Every journal email includes an unsubscribe link. You may request access, correction or deletion of your information using the contact details on this site, subject to applicable law.'],
+    ],
+  },
+  '/terms/': {
+    eyebrow: 'LEGAL',
+    title: 'Terms of Use',
+    intro: 'These terms govern access to the public information and portfolio material on this website.',
+    sections: [
+      ['Informational use', 'Published articles, city guides and project material are provided for general information and inspiration. They are not a substitute for project-specific architectural, engineering, legal, financial, travel, safety or accessibility advice.'],
+      ['Intellectual property', 'Original text, visual identity, commissioned media and project presentations belong to World Arch Journal or their identified rights holders. No licence to copy, republish or commercially reuse them is granted unless stated in writing.'],
+      ['Accuracy and availability', 'Reasonable care is taken during editorial review, but places, prices, regulations, opening hours and third-party services can change. Availability of the website or a specific feature is not guaranteed.'],
+      ['Commercial services', 'A project enquiry does not create a contract. Scope, fees, schedule, jurisdiction, deliverables and payment terms require a separate written agreement. Store and payment features remain unavailable until their terms are published.'],
+    ],
+  },
+  '/affiliate-disclosure/': {
+    eyebrow: 'TRANSPARENCY',
+    title: 'Affiliate Disclosure',
+    intro: 'No affiliate links are active in the current preview. Future commercial relationships will be labelled clearly.',
+    sections: [
+      ['How affiliate links may work', 'A future WORLD ARCH ATLAS guide may include a clearly identified link to a third-party hotel, experience, transport or design product. World Arch Journal may receive a commission after a qualifying action without changing the user-facing price.'],
+      ['Editorial independence', 'Commercial eligibility does not guarantee inclusion or a positive recommendation. Research, architecture relevance, usefulness and disclosure are required. Paid placement and affiliate relationships will be distinguished from editorial selection.'],
+      ['User responsibility', 'Third-party availability, safety, pricing, cancellation, accessibility and service quality must be checked directly with the provider before booking or purchase.'],
+    ],
+  },
+  '/editorial-policy/': {
+    eyebrow: 'EDITORIAL',
+    title: 'Editorial Standards & Corrections',
+    lastUpdated: '2026-09-28',
+    intro: 'World Arch Journal is an independent architecture publication by Farnaz Ghaffarian. Its briefing distinguishes verified source information, analysis and visual interpretation.',
+    sections: [
+      ['What we publish', 'News analysis explains the significance of dated, attributed announcements; it is not presented as first-hand reporting unless the work includes direct reporting. Field notes and visual explainers are labelled separately. Publication dates describe the page, not the date of an event being discussed.'],
+      ['Sources and verification', 'We prefer primary documents and identify the organisation behind each material claim. A single press release is attributed as that organisation’s statement, not independently established fact. We seek independent corroboration for disputed, consequential or technical claims. RSS and other publications are discovery tools, not text to republish.'],
+      ['Analysis and AI assistance', 'Source claims, our interpretation and uncertainty are kept distinct. AI may assist research organisation, drafting or graphic preparation, but generated output is not evidence. Future issues require an editorial check of factual claims, originality, source links, language, image provenance and page metadata before release. A publishing target never overrides verification.'],
+      ['Images and rights', 'Every published image needs a known origin: original, commissioned, owner-supplied with permission or appropriately licensed. Conceptual or AI-generated illustrations are labelled and must not be passed off as photographs or accurate depictions of named projects. Third-party project photography is not copied by default.'],
+      ['Corrections and updates', 'Readers can report a factual error or rights concern using the editorial contact below. A material correction will be dated and explained on the affected page; the original publication date remains visible. Minor spelling or formatting edits may be made without a correction note. If a claim cannot be verified, we will qualify or remove it.'],
+      ['Commercial independence', 'Advertising, affiliate relationships and paid partnerships must be clearly labelled. Payment does not buy favourable editorial coverage. Ad placement must remain distinguishable from article text and navigation. No advertising is embedded in newsletter email.'],
+    ],
+    links: [
+      { label: 'Meet the publisher and find editorial contact details', url: '/editorial-team/' },
+      { label: 'Read the public briefing archive', url: '/newsletter/' },
+    ],
+  },
+  '/editorial-team/': {
+    eyebrow: 'ABOUT THE PUBLISHER',
+    title: 'Editorial Team & Contact',
+    lastUpdated: '2026-09-28',
+    intro: 'World Arch Journal is an independent architecture media and design platform founded by Farnaz Ghaffarian. It is not a large staffed newsroom.',
+    sections: [
+      ['Publisher and byline', 'Farnaz Ghaffarian is the founder and creative director. The architecture briefing is published under her byline when she is responsible for its editorial direction. A named source or contributor is credited separately where applicable.'],
+      ['Editorial scope', 'The publication covers architecture, interiors, adaptive reuse, design technology and the built environment. Briefings combine linked primary announcements with clearly identified interpretation. We do not claim site visits, interviews or performance measurements that have not occurred.'],
+      ['Contact and corrections', 'For a source clarification, correction, image-rights concern or editorial enquiry, use the public WhatsApp contact linked below and identify the page URL and the passage in question. Do not send sensitive personal or project information in an initial message.'],
+    ],
+    links: [
+      { label: 'Editorial contact on WhatsApp', url: 'https://wa.me/447904600225' },
+      { label: 'Editorial standards and corrections', url: '/editorial-policy/' },
+    ],
+  },
+  '/cookie-settings/': {
+    eyebrow: 'PRIVACY',
+    title: 'Cookie Settings',
+    intro: 'Essential storage supports the website. Optional Google Analytics and Microsoft Clarity are loaded only after a visitor actively allows analytics.',
+    sections: [
+      ['Current status', 'The website may use browser storage for interface preferences. Consent status is stored locally so the site can respect a visitor’s analytics choice. No AdSense advertising tag is active.'],
+      ['Analytics choices', 'Google Analytics and Microsoft Clarity remain off until Allow analytics is selected. Essential only keeps analytics storage denied. The Privacy choices control can be reopened to change this decision.'],
+      ['Future advertising consent', 'Before personalised advertising is activated, a Google-certified consent management platform will be configured where required. Analytics consent does not grant advertising consent.'],
+    ],
+  },
+};

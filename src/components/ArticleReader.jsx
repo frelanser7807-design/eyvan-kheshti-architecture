@@ -1,5 +1,6 @@
 import { createElement, Fragment, useEffect, useMemo, useRef } from 'react';
 import { assetUrl } from '../lib/assetUrl.js';
+import { relatedArticlesFor } from '../data/articles.js';
 
 const allowedTags = new Set(['p', 'h2', 'h3', 'strong', 'em', 'blockquote', 'ul', 'ol', 'li', 'table', 'thead', 'tbody', 'tr', 'th', 'td', 'a']);
 
@@ -12,6 +13,10 @@ function safeHref(value) {
   } catch {
     return '';
   }
+}
+
+function articlePdfHref(article) {
+  return `/downloads/articles/${article.slug}.pdf`;
 }
 
 function renderControlledNode(node, key) {
@@ -46,7 +51,37 @@ function EditorialFigure({ visual }) {
         {visual.srcWebp && <source srcSet={assetUrl(visual.srcWebp)} type="image/webp" />}
         <img src={assetUrl(visual.src)} alt={visual.alt} loading="lazy" decoding="async" width={visual.width || undefined} height={visual.height || undefined} />
       </picture>
-      <figcaption>{visual.caption}</figcaption>
+      <figcaption>
+        {visual.caption}
+        {visual.sourceUrl && (
+          <>
+            {' '}
+            <a href={visual.sourceUrl} target="_blank" rel="noopener noreferrer">
+              {visual.sourceLabel || 'View licensed source'}
+            </a>
+          </>
+        )}
+      </figcaption>
+    </figure>
+  );
+}
+
+function ArticleHero({ article }) {
+  return (
+    <figure className="ek-article-hero">
+      <picture>
+        {article.imageWebp && <source srcSet={assetUrl(article.imageWebp)} type="image/webp" />}
+        <img src={assetUrl(article.image)} alt={article.imageAlt} loading="eager" decoding="async" fetchPriority="high" width={article.imageWidth || undefined} height={article.imageHeight || undefined} />
+      </picture>
+      <figcaption>
+        {article.visualLabel}
+        {article.imageSourceUrl && (
+          <>
+            {' '}
+            <a href={article.imageSourceUrl} target="_blank" rel="noopener noreferrer">Source and licence</a>
+          </>
+        )}
+      </figcaption>
     </figure>
   );
 }
@@ -84,6 +119,7 @@ function ControlledArticleHtml({ html, visuals = [] }) {
 
 export default function ArticleReader({ article, onClose = () => undefined, standalone = false }) {
   const readerRef = useRef(null);
+  const relatedArticles = useMemo(() => relatedArticlesFor(article), [article]);
 
   useEffect(() => {
     if (!article || standalone) return undefined;
@@ -133,6 +169,7 @@ export default function ArticleReader({ article, onClose = () => undefined, stan
         </header>
 
         <article>
+          {article.imageLead && <ArticleHero article={article} />}
           <div className="ek-article-heading">
             <small>{article.status}</small>
             <h1 id="article-reader-title">{article.title}</h1>
@@ -143,15 +180,13 @@ export default function ArticleReader({ article, onClose = () => undefined, stan
               <div><dt>TOPIC</dt><dd>{article.category}</dd></div>
               {article.publishedAt && <div><dt>PUBLISHED</dt><dd><time dateTime={article.publishedAt}>{new Date(`${article.publishedAt}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })}</time></dd></div>}
             </dl>
+            <div className="ek-article-download-panel" aria-label="Download this article">
+              <div><small>OFFLINE READING</small><strong>Keep the complete illustrated edition.</strong><span>English PDF · sources included · free download</span></div>
+              <a href={articlePdfHref(article)} download={`${article.slug}.pdf`}>DOWNLOAD PDF <b aria-hidden="true">↓</b></a>
+            </div>
           </div>
 
-          <figure className="ek-article-hero">
-            <picture>
-              {article.imageWebp && <source srcSet={assetUrl(article.imageWebp)} type="image/webp" />}
-              <img src={assetUrl(article.image)} alt={article.imageAlt} loading="eager" decoding="async" fetchPriority="high" width={article.imageWidth || undefined} height={article.imageHeight || undefined} />
-            </picture>
-            <figcaption>{article.visualLabel}</figcaption>
-          </figure>
+          {!article.imageLead && <ArticleHero article={article} />}
 
           {article.facts?.length > 0 && (
             <section className="ek-article-project-facts" aria-label="Project facts">
@@ -205,11 +240,31 @@ export default function ArticleReader({ article, onClose = () => undefined, stan
             </ol>
           </section>
 
+          {relatedArticles.length > 0 && (
+            <section className="ek-article-related" aria-labelledby="article-related-title">
+              <small>CONTINUE READING</small>
+              <h2 id="article-related-title">Related architecture stories</h2>
+              <div>
+                {relatedArticles.map((related) => (
+                  <article key={related.slug}>
+                    <a href={`/articles/${related.slug}/`}><img src={assetUrl(related.image)} alt={related.imageAlt} loading="lazy" decoding="async" /></a>
+                    <span>{related.category}</span>
+                    <h3><a href={`/articles/${related.slug}/`}>{related.title}</a></h3>
+                    <p>{related.excerpt}</p>
+                  </article>
+                ))}
+              </div>
+            </section>
+          )}
+
           <footer className="ek-article-footer">
             <p>{article.cta}</p>
-            {standalone
-              ? <a className="ek-reader-footer-link" href="/#articles">Return to Articles ↗</a>
-              : <button type="button" onClick={onClose}>Return to Articles ↗</button>}
+            <div className="ek-article-footer-actions">
+              <a className="ek-reader-footer-link is-download" href={articlePdfHref(article)} download={`${article.slug}.pdf`}>Download PDF ↓</a>
+              {standalone
+                ? <a className="ek-reader-footer-link" href="/#articles">Return to Articles ↗</a>
+                : <button type="button" onClick={onClose}>Return to Articles ↗</button>}
+            </div>
           </footer>
         </article>
       </section>

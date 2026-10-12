@@ -1,6 +1,7 @@
 import { assetUrl } from '../lib/assetUrl.js';
 import { magazines } from '../data/magazines.js';
 import { magazineCategories, publishedMagazineArticles } from '../data/magazineCategories.js';
+import { editorialArticles, editorialPath } from '../data/newsletters.js';
 import './MagazineHub.css';
 
 function ArticleCard({ article, featured = false }) {
@@ -38,6 +39,8 @@ export default function MagazineHub({ category = null }) {
         </a>
         <nav aria-label="Primary navigation">
           <a href="/magazine/" aria-current={!category ? 'page' : undefined}>Magazine</a>
+          <a href="/videos/">Videos</a>
+          <a href="/newsletter/">Newsletter</a>
           <a href="/atlas/">Atlas</a>
           <a href="/#services">Studio</a>
           <a href="/#contact">Contact</a>
@@ -50,6 +53,7 @@ export default function MagazineHub({ category = null }) {
           {category && <a className="wj-magazine-back" href="/magazine/">← All stories</a>}
           <h1 id="wj-magazine-title">{title}</h1>
           <p>{description}</p>
+          {category?.overview?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
           <div className="wj-magazine-intro-foot"><span>{String(articles.length).padStart(2, '0')} published {articles.length === 1 ? 'story' : 'stories'}</span><span>Edited by Farnaz Ghaffarian</span></div>
         </section>
 
@@ -69,6 +73,9 @@ export default function MagazineHub({ category = null }) {
           <a className="wj-magazine-issue-cover" href={`/magazine/${issue.slug}/`} aria-label={`Explore ${issue.title}`}><img src={assetUrl(issue.image)} alt={issue.imageAlt} loading="lazy" decoding="async" /></a>
         </section>}
 
+        {!category && <section className="wj-magazine-stories" aria-label="Analysis and field notes"><div className="wj-magazine-section-title"><span>03 / ANALYSIS & FIELD NOTES</span><a href="/magazine/analysis/">View separate archive ↗</a></div><div className="wj-magazine-grid">{editorialArticles.map((entry) => <article className="wj-magazine-card" key={entry.slug}><a className="wj-magazine-card-image" href={editorialPath(entry)}><img src={assetUrl(entry.image)} alt={entry.imageAlt} loading="lazy" /></a><div className="wj-magazine-card-copy"><span className="wj-magazine-kicker">{entry.format}</span><h2><a href={editorialPath(entry)}>{entry.title}</a></h2><p>{entry.excerpt}</p><div className="wj-magazine-card-foot"><time dateTime={entry.publishedAt}>{entry.publishedAt}</time><a href={editorialPath(entry)}>Read analysis ↗</a></div></div></article>)}</div></section>}
+        {!category && <section className="wj-magazine-crosslink" aria-label="Architecture video library"><div><span className="wj-magazine-kicker">ARCHITECTURE IN MOTION</span><h2>See how it works.</h2><p>Short visual lessons with transcripts, technical notes and related evidence-led reading.</p></div><a href="/videos/">Explore architecture videos <span aria-hidden="true">↗</span></a></section>}
+        {!category && <section className="wj-magazine-crosslink" aria-label="Architecture newsletter"><div><span className="wj-magazine-kicker">THE WORLD ARCH BRIEFING</span><h2>Three stories. One briefing.</h2><p>Fresh architecture reporting in dated editions, with direct sources and a concise editorial lens.</p></div><a href="/newsletter/">Read the latest edition <span aria-hidden="true">↗</span></a></section>}
         <section className="wj-magazine-crosslink" aria-label="Explore more"><div><span className="wj-magazine-kicker">BEYOND THE JOURNAL</span><h2>Architecture in place.</h2><p>Explore buildings and cities through the World Arch Atlas.</p></div><a href="/atlas/">Explore the Atlas <span aria-hidden="true">↗</span></a></section>
       </main>
       <footer className="wj-magazine-footer"><span>© WORLD ARCH JOURNAL</span><nav aria-label="Footer"><a href="/editorial-policy/">Editorial policy</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></nav></footer>

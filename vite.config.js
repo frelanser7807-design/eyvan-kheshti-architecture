@@ -23,6 +23,9 @@ const localApiProxy = {
 };
 
 export default defineConfig({
+  // Resolve from the real project path so builds also work when this checkout
+  // is accessed through the active-site junction used by Codex.
+  root: here,
   plugins: [react()],
   base: process.env.VITE_PUBLIC_BASE || '/',
   build: {

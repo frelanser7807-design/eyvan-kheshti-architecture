@@ -187,7 +187,7 @@ export default function CinematicSite({ content }) {
   const [moreOpen, setMoreOpen] = useState(false);
   const [mediaError, setMediaError] = useState(false);
   const language = 'en';
-  const [soundEnabled, setSoundEnabled] = useState(() => content?.settings?.soundtrackEnabled !== false);
+  const [soundEnabled, setSoundEnabled] = useState(false);
   const videoRef = useRef(null);
   const audioRef = useRef(null);
   const moreRef = useRef(null);
@@ -234,21 +234,6 @@ export default function CinematicSite({ content }) {
   }, [moreOpen]);
 
   useEffect(() => {
-    const preloads = scenes.map((scene) => {
-      const video = document.createElement('video');
-      video.preload = 'metadata';
-      video.muted = true;
-      video.src = scene.src;
-      return video;
-    });
-
-    return () => preloads.forEach((video) => {
-      video.removeAttribute('src');
-      video.load();
-    });
-  }, []);
-
-  useEffect(() => {
     if (sceneIndex < 0 || !videoRef.current) return;
     const video = videoRef.current;
     video.playbackRate = currentScene.playbackRate;
@@ -260,21 +245,6 @@ export default function CinematicSite({ content }) {
     const playPromise = video.play();
     playPromise?.catch?.(() => setPlaying(false));
   }, [sceneIndex]);
-
-  useEffect(() => {
-    if (!isIdle || !videoRef.current) return undefined;
-
-    const video = videoRef.current;
-    const showOpeningPreview = () => {
-      video.pause();
-      video.currentTime = 4.35;
-    };
-
-    if (video.readyState >= 2) showOpeningPreview();
-    else video.addEventListener('loadeddata', showOpeningPreview, { once: true });
-
-    return () => video.removeEventListener('loadeddata', showOpeningPreview);
-  }, [isIdle, currentScene.src]);
 
   const advance = () => {
     if (playing) return;
@@ -433,7 +403,7 @@ export default function CinematicSite({ content }) {
           poster={isIdle ? currentScene.poster : undefined}
           muted
           playsInline
-          preload={sceneIndex <= 0 ? 'auto' : 'metadata'}
+          preload={isIdle ? 'none' : 'metadata'}
           autoPlay={!isIdle}
           onLoadedData={handleLoadedData}
           onPlay={handleVideoPlay}
@@ -465,12 +435,12 @@ export default function CinematicSite({ content }) {
       </header>
 
       <nav className={`ek-quick-links ${sceneIndex > 0 ? 'is-visible' : ''}`} aria-label="Quick access">
-        <button type="button" onClick={() => scrollToSection('projects')}><QuickIcon name="projects" /><span>{copy.projects}</span></button>
+        <button type="button" data-analytics-event="cta_click" data-analytics-label="projects" onClick={() => window.location.assign('/projects/')}><QuickIcon name="projects" /><span>{copy.projects}</span></button>
         <button type="button" onClick={() => scrollToSection('services')}><QuickIcon name="services" /><span>{copy.services}</span></button>
         <button type="button" onClick={() => scrollToSection('tutorials')}><QuickIcon name="tutorials" /><span>{copy.tutorials}</span></button>
         <button type="button" onClick={() => scrollToSection('journal')}><QuickIcon name="journal" /><span>{copy.insights}</span></button>
         <button type="button" onClick={() => scrollToSection('atlas')}><QuickIcon name="atlas" /><span>{copy.atlas}</span></button>
-        <button type="button" onClick={openContact}><QuickIcon name="contact" /><span>{copy.contact}</span></button>
+        <button type="button" data-analytics-event="cta_click" data-analytics-label="contact" onClick={openContact}><QuickIcon name="contact" /><span>{copy.contact}</span></button>
         <span className="ek-more-wrap" ref={moreRef}>
           <button className="ek-more-trigger" type="button" aria-expanded={moreOpen} aria-controls="ek-secondary-menu" onClick={() => setMoreOpen((value) => !value)}><QuickIcon name="more" /><span>More</span></button>
           <aside id="ek-secondary-menu" className={`ek-secondary-menu ${moreOpen ? 'is-open' : ''}`} aria-hidden={!moreOpen}>
@@ -521,6 +491,17 @@ export default function CinematicSite({ content }) {
           <b>{isIdle ? copy.idleTitle : localised(currentScene, 'title', language)}</b>
           {sceneIndex <= 0 && <em>{founderRole} · {founderName}</em>}
         </div>
+
+        {sceneIndex <= 0 && (
+          <aside className="ek-featured-project-entry" aria-label="Featured virtual tour">
+            <a href="/virtual-tours/narbon-villa/">
+              <small>NEW · 360° VIRTUAL TOUR</small>
+              <strong>Narbon Villa</strong>
+              <span>ENTER THE PROJECT <b>↗</b></span>
+            </a>
+            <a className="ek-featured-project-archive" href="/projects/">VIEW ALL PROJECTS</a>
+          </aside>
+        )}
 
         <button className="ek-story-advance" type="button" onClick={advance} disabled={playing}>
           <span>{advanceLabel}</span><i aria-hidden="true">{isFinal && ended ? '↺' : '→'}</i>
