@@ -25,7 +25,6 @@ const title = {
   margin: '0 0 16px',
 };
 const intro = { color: 'var(--muted)', lineHeight: 1.8, maxWidth: '720px', margin: '0 0 12px' };
-const introFa = { color: 'var(--muted)', lineHeight: 2, maxWidth: '720px', margin: '0 0 48px', direction: 'rtl', textAlign: 'right' };
 
 const columns = {
   display: 'grid',
@@ -100,15 +99,11 @@ export default function ContactPage() {
   return (
     <main style={shell}>
       <div style={inner}>
-        <p style={eyebrow}>Contact · تماس</p>
+        <p style={eyebrow}>Contact</p>
         <h1 style={title}>Start your project.</h1>
         <p style={intro}>
           Tell us about your project — a facade, an interior, a set of visuals, or a presentation
           that needs to convince. We reply within 2 working days.
-        </p>
-        <p style={introFa}>
-          درباره پروژه‌تان بگویید؛ نما، فضای داخلی، تصاویر معماری یا پرزنتیشنی که باید قانع کند.
-          ظرف ۲ روز کاری پاسخ می‌دهیم.
         </p>
 
         {channels.length > 0 ? (
