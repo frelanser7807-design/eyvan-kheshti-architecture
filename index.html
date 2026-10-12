@@ -7,6 +7,7 @@
     <meta name="description" content="Explore global architecture, bespoke facade design, spatial design, architectural visualisation, BIM and Revit resources, original magazines and evidence-led research by Farnaz Ghaffarian." />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="application-name" content="WORLD ARCH JOURNAL" />
+    <meta name="p:domain_verify" content="87d0f9c223c0d22ee3bf0003234c8bb8" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_GB" />
     <meta property="og:site_name" content="WORLD ARCH JOURNAL" />
@@ -19,18 +20,12 @@
     <meta name="twitter:image" content="/assets/editorial/issue-00/courtyard-wind-house-cover.jpg" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/manifest.webmanifest" />
-    <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+    <script>
       (() => {
-        const params = new URLSearchParams(window.location.search);
-        const isDriveVerification = params.has('init_marker') && params.has('init_trs');
-        const optionalTrackingAllowed = localStorage.getItem('eyvan_optional_tracking') === 'granted';
-        if (!isDriveVerification && !optionalTrackingAllowed) return;
-
-        const script = document.createElement('script');
-        script.async = true;
-        script.setAttribute('data-cmp-ab', '2');
-        script.src = 'https://emrldco.com/NTc1NjU5.js?t=575659';
-        document.head.appendChild(script);
+        const canonicalHosts = ['worldarchjournal.com', 'www.worldarchjournal.com'];
+        if (canonicalHosts.includes(location.hostname)) return;
+        const robots = document.querySelector('meta[name="robots"]') || document.head.appendChild(Object.assign(document.createElement('meta'), { name: 'robots' }));
+        robots.content = 'noindex, nofollow, noarchive';
       })();
     </script>
     <style>
@@ -45,6 +40,8 @@
         <h1>WORLD ARCH JOURNAL — Architecture Media &amp; Design</h1>
         <p>International architectural design, interior architecture, facade design, visualisation and design direction.</p>
         <p>Founded and creatively directed by Farnaz Ghaffarian.</p>
+        <nav aria-label="Primary sections"><a href="/magazine/">Architecture Magazine</a> · <a href="/videos/">Architecture Videos</a> · <a href="/prompts/">AI Prompt Library</a> · <a href="/atlas/">World Arch Atlas</a> · <a href="/articles/climate-responsive-facades-cooling-design/">Featured Research</a></nav>
+        <nav aria-label="Social profiles"><a href="https://www.instagram.com/worldarchjournalbyfarnaz/">Instagram</a> · <a href="https://www.youtube.com/@WorldArchByFarnaz">YouTube</a> · <a href="https://www.pinterest.com/worldarchbyfarnaz/">Pinterest</a></nav>
         <section aria-label="Architecture services">
           <h2>Architecture Services</h2>
           <ul><li>Architectural Design</li><li>Interior Architecture</li><li>Facade Design</li><li>Architectural Visualisation</li><li>Design Direction</li></ul>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">AI adoption in UK architecture practices rose from 59 percent in 2025 to 74 percent in 2026</title>
+  <desc id="desc">Original World Arch Journal chart based on the RIBA AI Report 2026.</desc>
+  <rect width="1600" height="1000" fill="#071b2b"/>
+  <text x="120" y="145" fill="#f7f2e8" font-family="Georgia,serif" font-size="70">AI adoption reached a tipping point</text>
+  <text x="122" y="205" fill="#c6b89f" font-family="Arial,sans-serif" font-size="25" letter-spacing="5">UK ARCHITECTURE PRACTICES · RIBA 2026</text>
+  <line x1="120" y1="260" x2="1480" y2="260" stroke="#b98b50" stroke-width="2"/>
+  <g font-family="Arial,sans-serif">
+    <text x="160" y="805" fill="#c6b89f" font-size="30">2025</text>
+    <rect x="160" y="390" width="470" height="350" rx="16" fill="#315167"/>
+    <text x="395" y="600" text-anchor="middle" fill="#f7f2e8" font-size="120" font-weight="700">59%</text>
+    <text x="865" y="805" fill="#c6b89f" font-size="30">2026</text>
+    <rect x="865" y="300" width="590" height="440" rx="16" fill="#b98b50"/>
+    <text x="1160" y="565" text-anchor="middle" fill="#071b2b" font-size="140" font-weight="700">74%</text>
+  </g>
+  <text x="120" y="910" fill="#f7f2e8" font-family="Arial,sans-serif" font-size="28">Share reporting AI use in at least some projects</text>
+  <text x="1480" y="910" text-anchor="end" fill="#c6b89f" font-family="Arial,sans-serif" font-size="24">Original chart · Source: RIBA AI Report 2026</text>
+</svg>

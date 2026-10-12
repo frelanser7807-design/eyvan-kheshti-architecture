@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050" role="img" aria-labelledby="title desc">
+  <title id="title">Five governance gates for AI in an architecture practice</title>
+  <desc id="desc">Original World Arch Journal workflow: purpose, data, review, disclosure and record.</desc>
+  <rect width="1600" height="1050" fill="#f2eee6"/>
+  <text x="110" y="130" fill="#0b2437" font-family="Georgia,serif" font-size="68">Five gates before AI output leaves the studio</text>
+  <text x="112" y="190" fill="#705f4c" font-family="Arial,sans-serif" font-size="24" letter-spacing="4">A PRACTICE WORKFLOW, NOT A SOFTWARE CHECKLIST</text>
+  <g font-family="Arial,sans-serif">
+    <g transform="translate(110,280)"><circle cx="70" cy="70" r="70" fill="#0b2437"/><text x="70" y="90" text-anchor="middle" fill="#d9ac68" font-size="54" font-weight="700">1</text><text x="175" y="55" fill="#0b2437" font-size="34" font-weight="700">PURPOSE</text><text x="175" y="100" fill="#4b4b47" font-size="25">Name the decision, audience and acceptable use.</text></g>
+    <g transform="translate(110,440)"><circle cx="70" cy="70" r="70" fill="#173e55"/><text x="70" y="90" text-anchor="middle" fill="#f2eee6" font-size="54" font-weight="700">2</text><text x="175" y="55" fill="#0b2437" font-size="34" font-weight="700">DATA</text><text x="175" y="100" fill="#4b4b47" font-size="25">Check permission, confidentiality and provenance.</text></g>
+    <g transform="translate(110,600)"><circle cx="70" cy="70" r="70" fill="#2d5f69"/><text x="70" y="90" text-anchor="middle" fill="#f2eee6" font-size="54" font-weight="700">3</text><text x="175" y="55" fill="#0b2437" font-size="34" font-weight="700">REVIEW</text><text x="175" y="100" fill="#4b4b47" font-size="25">A competent human verifies facts, geometry and risk.</text></g>
+    <g transform="translate(820,360)"><circle cx="70" cy="70" r="70" fill="#9b7447"/><text x="70" y="90" text-anchor="middle" fill="#071b2b" font-size="54" font-weight="700">4</text><text x="175" y="55" fill="#0b2437" font-size="34" font-weight="700">DISCLOSE</text><text x="175" y="100" fill="#4b4b47" font-size="25">Label synthetic content when law, contract or trust requires it.</text></g>
+    <g transform="translate(820,560)"><circle cx="70" cy="70" r="70" fill="#b98b50"/><text x="70" y="90" text-anchor="middle" fill="#071b2b" font-size="54" font-weight="700">5</text><text x="175" y="55" fill="#0b2437" font-size="34" font-weight="700">RECORD</text><text x="175" y="100" fill="#4b4b47" font-size="25">Keep inputs, versions, reviewer and approved output.</text></g>
+  </g>
+  <path d="M690 350 C760 350 760 430 800 430" fill="none" stroke="#b98b50" stroke-width="5" stroke-dasharray="13 12"/>
+  <path d="M690 670 C760 670 760 630 800 630" fill="none" stroke="#b98b50" stroke-width="5" stroke-dasharray="13 12"/>
+  <text x="110" y="980" fill="#705f4c" font-family="Arial,sans-serif" font-size="24">Original World Arch Journal diagram · Adapt to local law, contracts, insurance and professional duties.</text>
+</svg>

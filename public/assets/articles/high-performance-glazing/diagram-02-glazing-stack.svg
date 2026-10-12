@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Anatomy of a high-performance glazing unit</title>
+  <desc id="desc">Exploded section of panes, low-emissivity coating, gas cavities, spacer, seal and thermally broken frame.</desc>
+  <rect width="1600" height="900" fill="#0d151c"/>
+  <text x="110" y="110" fill="#fff" font-family="Georgia,serif" font-size="60">Performance lives in the stack</text>
+  <text x="110" y="160" fill="#c89550" font-family="Arial,sans-serif" font-size="22" letter-spacing="4">EXPLODED WINDOW SECTION · NOT TO SCALE</text>
+  <g transform="translate(170 235)">
+    <rect x="0" y="0" width="120" height="430" fill="#8bd2e8" fill-opacity=".42" stroke="#d8f3ff" stroke-width="5"/>
+    <rect x="210" y="0" width="120" height="430" fill="#8bd2e8" fill-opacity=".32" stroke="#d8f3ff" stroke-width="5"/>
+    <rect x="420" y="0" width="120" height="430" fill="#8bd2e8" fill-opacity=".24" stroke="#d8f3ff" stroke-width="5"/>
+    <rect x="116" y="0" width="8" height="430" fill="#d7a45e"/>
+    <path d="M125 360h80M335 360h80" stroke="#c89550" stroke-width="16"/>
+    <rect x="-25" y="425" width="590" height="44" rx="10" fill="#c89550"/>
+    <path d="M-60 470h660v110H-60z" fill="#3a434a" stroke="#f3efe7" stroke-width="4"/>
+    <path d="M190 470h160v110H190z" fill="#0d151c" stroke="#c89550" stroke-width="5"/>
+    <text x="0" y="635" fill="#fff" font-family="Arial,sans-serif" font-size="25">THERMALLY BROKEN FRAME</text>
+    <text x="45" y="-25" fill="#fff" font-family="Arial,sans-serif" font-size="22">PANE 1</text><text x="255" y="-25" fill="#fff" font-family="Arial,sans-serif" font-size="22">PANE 2</text><text x="465" y="-25" fill="#fff" font-family="Arial,sans-serif" font-size="22">PANE 3</text>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="26" fill="#fff">
+    <path d="M760 280H560" stroke="#c89550" stroke-width="3"/><circle cx="760" cy="280" r="7" fill="#c89550"/><text x="790" y="288">Low-e surface: position changes solar and thermal behaviour</text>
+    <path d="M760 390H500" stroke="#c89550" stroke-width="3"/><circle cx="760" cy="390" r="7" fill="#c89550"/><text x="790" y="398">Gas cavity: width, fill and seal durability matter</text>
+    <path d="M760 500H470" stroke="#c89550" stroke-width="3"/><circle cx="760" cy="500" r="7" fill="#c89550"/><text x="790" y="508">Warm-edge spacer: affects edge heat flow and condensation</text>
+    <path d="M760 610H505" stroke="#c89550" stroke-width="3"/><circle cx="760" cy="610" r="7" fill="#c89550"/><text x="790" y="618">Frame + installation: part of the result, not a footnote</text>
+  </g>
+  <text x="790" y="720" fill="#d4c5b0" font-family="Arial,sans-serif" font-size="24">Two panes, three panes or switching glass are system choices.</text>
+  <text x="790" y="755" fill="#d4c5b0" font-family="Arial,sans-serif" font-size="24">Compare verified whole-product ratings and project simulations.</text>
+</svg>

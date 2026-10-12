@@ -17,9 +17,15 @@ build*.log
 
 # Local environment values and operating-system files
 .env
+.env.production
 .env.local
 .env.*.local
 !.env.example
+.cloudflare-config/
+.cloudflare-upload-manifest.json
+.wrangler/
+.xdg/
+.headless-*/
 .DS_Store
 Thumbs.db
 

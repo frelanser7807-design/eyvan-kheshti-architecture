@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920" role="img" aria-labelledby="title desc">
+  <title id="title">Biophilic design verification loop</title>
+  <desc id="desc">Six-stage loop from user journey and climate through operation and post-occupancy evaluation.</desc>
+  <rect width="1600" height="920" fill="#0f1514"/>
+  <text x="112" y="116" fill="#d8b777" font-family="Georgia, serif" font-size="30" letter-spacing="7">WORLD ARCH JOURNAL · FIELD NOTE 02</text>
+  <text x="112" y="194" fill="#f4efe5" font-family="Georgia, serif" font-size="58">The verification loop</text>
+  <text x="112" y="244" fill="#a9b2ad" font-family="Arial, sans-serif" font-size="24">Biophilic intent becomes credible when the loop closes after occupation</text>
+  <circle cx="800" cy="568" r="150" fill="#1d2a25" stroke="#557365" stroke-width="3"/>
+  <text x="800" y="545" text-anchor="middle" fill="#f4efe5" font-family="Georgia, serif" font-size="34">Nature contact</text>
+  <text x="800" y="591" text-anchor="middle" fill="#d8b777" font-family="Arial, sans-serif" font-size="22">use · access · duration</text>
+  <text x="800" y="627" text-anchor="middle" fill="#a9b2ad" font-family="Arial, sans-serif" font-size="20">not plant count</text>
+  <g fill="#17201d" stroke="#496157" stroke-width="2">
+    <rect x="170" y="342" width="310" height="118" rx="24"/><rect x="645" y="294" width="310" height="118" rx="24"/>
+    <rect x="1120" y="342" width="310" height="118" rx="24"/><rect x="1120" y="686" width="310" height="118" rx="24"/>
+    <rect x="645" y="736" width="310" height="118" rx="24"/><rect x="170" y="686" width="310" height="118" rx="24"/>
+  </g>
+  <g fill="#f4efe5" font-family="Arial, sans-serif" font-size="25" text-anchor="middle">
+    <text x="325" y="390">1 · User journey</text><text x="325" y="426" fill="#a9b2ad" font-size="19">who, where, how long?</text>
+    <text x="800" y="342">2 · Climate + context</text><text x="800" y="378" fill="#a9b2ad" font-size="19">light, air, ecology, culture</text>
+    <text x="1275" y="390">3 · Spatial design</text><text x="1275" y="426" fill="#a9b2ad" font-size="19">section, view, access, choice</text>
+    <text x="1275" y="734">4 · Technical support</text><text x="1275" y="770" fill="#a9b2ad" font-size="19">soil, water, safety, controls</text>
+    <text x="800" y="784">5 · Operation</text><text x="800" y="820" fill="#a9b2ad" font-size="19">care, replacement, training</text>
+    <text x="325" y="734">6 · Post-occupancy</text><text x="325" y="770" fill="#a9b2ad" font-size="19">observe, measure, improve</text>
+  </g>
+  <g fill="none" stroke="#d8b777" stroke-width="3">
+    <path d="M480 372 C540 320 580 304 640 304"/><path d="M958 304 C1030 305 1070 330 1115 370"/>
+    <path d="M1430 460 C1480 540 1470 620 1430 682"/><path d="M1120 796 C1050 836 1015 842 960 842"/>
+    <path d="M642 842 C565 840 530 820 480 785"/><path d="M170 686 C115 600 120 510 170 460"/>
+  </g>
+  <g fill="#d8b777"><circle cx="640" cy="304" r="8"/><circle cx="1115" cy="370" r="8"/><circle cx="1430" cy="682" r="8"/><circle cx="960" cy="842" r="8"/><circle cx="480" cy="785" r="8"/><circle cx="170" cy="460" r="8"/></g>
+</svg>

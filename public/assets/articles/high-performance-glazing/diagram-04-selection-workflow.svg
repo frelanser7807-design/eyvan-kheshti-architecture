@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Eight-step glazing selection workflow</title>
+  <desc id="desc">Workflow from climate and orientation through comfort, product data, facade integration, controls, mock-up and commissioning.</desc>
+  <rect width="1600" height="900" fill="#0d151c"/>
+  <text x="100" y="105" fill="#fff" font-family="Georgia,serif" font-size="60">Eight gates before the glass order</text>
+  <text x="100" y="155" fill="#c89550" font-family="Arial,sans-serif" font-size="22" letter-spacing="4">DESIGN → EVIDENCE → DELIVERY</text>
+  <path d="M190 465H1410" stroke="#c89550" stroke-width="6"/>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(190 465)"><circle r="70" fill="#f3efe7" stroke="#c89550" stroke-width="7"/><text y="12" font-size="38" fill="#101820">01</text><text y="125" fill="#fff" font-size="24">CLIMATE</text><text y="158" fill="#bfb3a3" font-size="19">weather + code</text></g>
+    <g transform="translate(365 465)"><circle r="70" fill="#101820" stroke="#c89550" stroke-width="7"/><text y="12" font-size="38" fill="#fff">02</text><text y="125" fill="#fff" font-size="24">ORIENTATION</text><text y="158" fill="#bfb3a3" font-size="19">sun + surroundings</text></g>
+    <g transform="translate(540 465)"><circle r="70" fill="#f3efe7" stroke="#c89550" stroke-width="7"/><text y="12" font-size="38" fill="#101820">03</text><text y="125" fill="#fff" font-size="24">COMFORT</text><text y="158" fill="#bfb3a3" font-size="19">surface + glare</text></g>
+    <g transform="translate(715 465)"><circle r="70" fill="#101820" stroke="#c89550" stroke-width="7"/><text y="12" font-size="38" fill="#fff">04</text><text y="125" fill="#fff" font-size="24">METRICS</text><text y="158" fill="#bfb3a3" font-size="19">U · SHGC · VT · air</text></g>
+    <g transform="translate(890 465)"><circle r="70" fill="#f3efe7" stroke="#c89550" stroke-width="7"/><text y="12" font-size="38" fill="#101820">05</text><text y="125" fill="#fff" font-size="24">FRAME</text><text y="158" fill="#bfb3a3" font-size="19">edge + junctions</text></g>
+    <g transform="translate(1065 465)"><circle r="70" fill="#101820" stroke="#c89550" stroke-width="7"/><text y="12" font-size="38" fill="#fff">06</text><text y="125" fill="#fff" font-size="24">CONTROLS</text><text y="158" fill="#bfb3a3" font-size="19">shade + automation</text></g>
+    <g transform="translate(1240 465)"><circle r="70" fill="#f3efe7" stroke="#c89550" stroke-width="7"/><text y="12" font-size="38" fill="#101820">07</text><text y="125" fill="#fff" font-size="24">MOCK-UP</text><text y="158" fill="#bfb3a3" font-size="19">appearance + tests</text></g>
+    <g transform="translate(1410 465)"><circle r="70" fill="#101820" stroke="#c89550" stroke-width="7"/><text y="12" font-size="38" fill="#fff">08</text><text y="125" fill="#fff" font-size="24">VERIFY</text><text y="158" fill="#bfb3a3" font-size="19">commission + tune</text></g>
+  </g>
+  <rect x="100" y="720" width="1400" height="90" rx="45" fill="#c89550"/>
+  <text x="800" y="777" fill="#101820" font-family="Arial,sans-serif" font-size="28" font-weight="700" text-anchor="middle">The winning specification is the complete, verified system—not the darkest sample or the lowest isolated number.</text>
+</svg>

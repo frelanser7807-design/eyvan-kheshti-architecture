@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Information requirements and exchange</title>
+  <desc id="desc">A project information flow from client requirements through model production, checking and approved exchange.</desc>
+  <rect width="1600" height="980" fill="#202321"/>
+  <text x="95" y="115" font-family="Arial,sans-serif" font-size="36" fill="#f2eee6" letter-spacing="4">INFORMATION / NOT JUST FILES</text>
+  <g font-family="Arial,sans-serif" font-size="26" text-anchor="middle">
+    <g fill="#d9b26e"><rect x="100" y="300" width="270" height="190" rx="20"/><text x="235" y="385" fill="#202321">REQUIREMENTS</text><text x="235" y="430" fill="#202321" font-size="20">what / when / for whom</text></g>
+    <g fill="#f2eee6"><rect x="480" y="300" width="270" height="190" rx="20"/><text x="615" y="385" fill="#202321">PRODUCE</text><text x="615" y="430" fill="#202321" font-size="20">model + documents</text></g>
+    <g fill="#f2eee6"><rect x="860" y="300" width="270" height="190" rx="20"/><text x="995" y="385" fill="#202321">CHECK</text><text x="995" y="430" fill="#202321" font-size="20">quality + coordination</text></g>
+    <g fill="#c8784a"><rect x="1240" y="300" width="270" height="190" rx="20"/><text x="1375" y="385" fill="#fffdf8">EXCHANGE</text><text x="1375" y="430" fill="#fffdf8" font-size="20">approved information</text></g>
+  </g>
+  <g stroke="#d9b26e" stroke-width="7" fill="none"><path d="M370 395h105M750 395h105M1130 395h105"/><path d="m455 355 55 40-55 40M835 355l55 40-55 40M1215 355l55 40-55 40"/></g>
+  <path d="M1375 520c0 160-1130 160-1130 0" fill="none" stroke="#c8784a" stroke-width="5" stroke-dasharray="16 16"/>
+  <text x="800" y="780" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" fill="#f2eee6">A common data environment needs status, revision, responsibility and a decision trail.</text>
+</svg>
