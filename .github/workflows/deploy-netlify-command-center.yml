@@ -43,6 +43,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install Chromium for newsletter PDF generation
+        run: npx playwright install --with-deps chromium
+
       - name: Build and verify publication package
         run: |
           npm run build

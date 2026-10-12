@@ -1,7 +1,7 @@
 const http = require('node:http');
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const { chromium } = require('C:/Users/irana/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const { chromium } = require('playwright');
 
 const root = path.resolve(__dirname, '..');
 const dist = path.join(root, 'dist');
@@ -35,7 +35,7 @@ async function targetFor(urlPath) {
   });
   await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
   const port = server.address().port;
-  const browser = await chromium.launch({ channel: 'msedge', headless: true });
+  const browser = await chromium.launch({ headless: true });
   try {
     const page = await browser.newPage({ viewport: { width: 1320, height: 900 } });
     for (const issue of newsletterIssues) {
