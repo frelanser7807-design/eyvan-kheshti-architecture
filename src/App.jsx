@@ -11,6 +11,8 @@ import ProductPage from './components/ProductPage.jsx';
 import CommandCenter from './components/CommandCenter.jsx';
 import PromptLibrary from './components/PromptLibrary.jsx';
 import PromptDetail from './components/PromptDetail.jsx';
+import ServicesPage from './components/ServicesPage.jsx';
+import ContactPage from './components/ContactPage.jsx';
 import { defaultContent } from './data/defaultContent.js';
 import { articleBySlug } from './data/articles.js';
 import { magazineBySlug } from './data/magazines.js';
@@ -39,6 +41,8 @@ function currentRoute() {
     return { name: 'prompt', slug, item: promptById(slug) };
   }
   if (normalizedPath === '/command-center/') return { name: 'command-center' };
+  if (normalizedPath === '/services/') return { name: 'services' };
+  if (normalizedPath === '/contact/') return { name: 'contact' };
   const legalPage = legalPageForPath(window.location.pathname);
   if (legalPage) return { name: 'legal', page: legalPage };
   const localAdminEnabled = import.meta.env.DEV || import.meta.env.VITE_ENABLE_LOCAL_ADMIN === 'true';
@@ -85,6 +89,8 @@ export default function App() {
   if (route.name === 'shop') page = <ProductPage products={(content?.products || []).filter((item) => item.published)} />;
   if (route.name === 'product') page = <ProductPage product={product} missing={!product} />;
   if (route.name === 'command-center') page = <CommandCenter />;
+  if (route.name === 'services') page = <ServicesPage />;
+  if (route.name === 'contact') page = <ContactPage />;
   if (route.name === 'prompt-library') page = <PromptLibrary />;
   if (route.name === 'prompt') page = route.item ? <PromptDetail item={route.item} /> : <ProductPage missing />;
 
