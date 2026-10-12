@@ -43,7 +43,18 @@ jobs:
       - name: Build and verify publication package
         run: |
           npm run build
-          npm run smoke
+          node --input-type=module <<'NODE'
+          import { access, readFile } from 'node:fs/promises';
+          for (const path of ['dist/index.html', 'dist/sitemap.xml', 'dist/newsletter/feed.xml', 'dist/news-sitemap.xml']) {
+            await access(path);
+          }
+          const sitemap = await readFile('dist/sitemap.xml', 'utf8');
+          if (!sitemap.includes('/articles/')) throw new Error('Generated sitemap contains no article pages.');
+          if (!sitemap.includes('/newsletter/')) throw new Error('Generated sitemap contains no newsletter pages.');
+          const feed = await readFile('dist/newsletter/feed.xml', 'utf8');
+          if (!feed.includes('<item>')) throw new Error('Generated newsletter RSS feed has no items.');
+          console.log('Build outputs, article/newsletter sitemap entries and RSS feed are present.');
+          NODE
 
       - name: Deploy preview to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
