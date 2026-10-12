@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Path from study to architectural licensure</title><desc id="desc">Original conceptual diagram showing preparation, practice examination, guidance and professional accountability.</desc>
+  <rect width="1200" height="720" fill="#0c151c"/><path d="M130 520h940" stroke="#293b44" stroke-width="14"/>
+  <g fill="#13232c" stroke="#e4aa65" stroke-width="5"><circle cx="180" cy="520" r="60"/><circle cx="460" cy="520" r="60"/><circle cx="740" cy="520" r="60"/><circle cx="1020" cy="520" r="60"/></g>
+  <path d="M240 520h160M520 520h160M800 520h160" stroke="#e4aa65" stroke-width="6" stroke-dasharray="14 14"/>
+  <g fill="#f7f1e9" font-family="Arial, sans-serif" font-size="26" text-anchor="middle"><text x="180" y="630">LEARN</text><text x="460" y="630">PRACTISE</text><text x="740" y="630">GUIDANCE</text><text x="1020" y="630">ACCOUNTABILITY</text></g>
+  <text x="90" y="125" fill="#f7f1e9" font-family="Georgia, serif" font-size="65">LICENSURE SUPPORT IS</text><text x="90" y="205" fill="#e4aa65" font-family="Georgia, serif" font-size="75">ACCESS INFRASTRUCTURE</text>
+  <text x="92" y="275" fill="#9fb0b8" font-family="Arial, sans-serif" font-size="25">A free study resource can reduce one barrier; it cannot replace jurisdictional requirements or supervised experience.</text>
+</svg>

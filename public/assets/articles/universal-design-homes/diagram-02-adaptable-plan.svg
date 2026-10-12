@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Adaptable ground-floor plan concept</title>
+  <desc id="desc">Diagrammatic home plan showing a level entrance, generous circulation, adaptable room, bathroom and garden access.</desc>
+  <rect width="1600" height="900" fill="#0d151c"/>
+  <text x="100" y="108" fill="#fff" font-family="Georgia,serif" font-size="60">Adaptability is planned space, not future hope</text>
+  <text x="100" y="158" fill="#c89550" font-family="Arial,sans-serif" font-size="22" letter-spacing="4">ILLUSTRATIVE PLAN · NOT A CODE OR CONSTRUCTION DRAWING</text>
+  <g transform="translate(160 230)">
+    <path d="M0 0h980v520H0z" fill="#f3efe7" stroke="#fff" stroke-width="12"/>
+    <path d="M330 0v520M620 0v300M620 300h360M330 275H0" fill="none" stroke="#101820" stroke-width="14"/>
+    <path d="M0 380h45M330 380h45M620 190h45M800 300v45M980 410h-45" stroke="#c89550" stroke-width="34"/>
+    <path d="M20 440h915" stroke="#c89550" stroke-width="8" stroke-dasharray="18 14"/>
+    <circle cx="170" cy="145" r="82" fill="none" stroke="#c89550" stroke-width="5" stroke-dasharray="12 10"/>
+    <circle cx="470" cy="380" r="82" fill="none" stroke="#c89550" stroke-width="5" stroke-dasharray="12 10"/>
+    <circle cx="800" cy="150" r="82" fill="none" stroke="#c89550" stroke-width="5" stroke-dasharray="12 10"/>
+    <g fill="#101820" font-family="Arial,sans-serif" font-size="28" font-weight="700" text-anchor="middle"><text x="165" y="75">FLEX ROOM</text><text x="165" y="105" font-size="20" font-weight="400">work / sleep / care</text><text x="475" y="100">LIVING + KITCHEN</text><text x="800" y="80">BATHROOM</text><text x="800" y="110" font-size="20" font-weight="400">adaptable support zone</text><text x="800" y="420">BEDROOM</text><text x="165" y="410">ENTRY</text></g>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="25" fill="#fff"><text x="1200" y="285">01  Step-free route</text><text x="1200" y="345">02  Turning opportunities</text><text x="1200" y="405">03  Flexible entrance room</text><text x="1200" y="465">04  Reinforcement zones</text><text x="1200" y="525">05  Flush garden threshold</text><text x="1200" y="585">06  Services kept adaptable</text></g>
+  <path d="M1160 635h340" stroke="#c89550" stroke-width="4"/>
+  <text x="1160" y="690" fill="#c9beb0" font-family="Arial,sans-serif" font-size="22">Final dimensions and clearances</text><text x="1160" y="724" fill="#c9beb0" font-family="Arial,sans-serif" font-size="22">must follow local standards and</text><text x="1160" y="758" fill="#c9beb0" font-family="Arial,sans-serif" font-size="22">the resident’s real requirements.</text>
+</svg>

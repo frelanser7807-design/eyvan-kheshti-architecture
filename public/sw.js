@@ -1,5 +1,5 @@
-const CACHE = 'eyvan-kheshti-cinematic-v21';
-const SHELL = ['/', '/manifest.webmanifest', '/favicon.svg'];
+const CACHE = 'world-arch-journal-v28-route-safe-offline';
+const SHELL = ['/', '/offline.html', '/manifest.webmanifest', '/favicon.svg'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(SHELL)));
@@ -10,7 +10,11 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) => Promise.all(
       keys
-        .filter((key) => key.startsWith('meyanfaza-') || (key.startsWith('eyvan-kheshti-') && key !== CACHE))
+        .filter((key) => (
+          key.startsWith('meyanfaza-')
+          || key.startsWith('eyvan-kheshti-')
+          || key.startsWith('world-arch-journal-')
+        ) && key !== CACHE)
         .map((key) => caches.delete(key)),
     )),
   );
@@ -26,7 +30,7 @@ self.addEventListener('fetch', (event) => {
   if (url.pathname.startsWith('/v1/') || event.request.headers.has('range') || destination === 'video' || destination === 'audio') return;
 
   event.respondWith(
-    fetch(event.request)
+    fetch(event.request, event.request.mode === 'navigate' ? { cache: 'no-store' } : undefined)
       .then((response) => {
         if (response.ok && ['document', 'script', 'style', 'font', 'image', 'manifest'].includes(destination)) {
           const copy = response.clone();
@@ -37,7 +41,7 @@ self.addEventListener('fetch', (event) => {
       .catch(async () => {
         const cached = await caches.match(event.request);
         if (cached) return cached;
-        if (event.request.mode === 'navigate') return (await caches.match('/')) || Response.error();
+        if (event.request.mode === 'navigate') return (await caches.match('/offline.html')) || Response.error();
         return Response.error();
       }),
   );

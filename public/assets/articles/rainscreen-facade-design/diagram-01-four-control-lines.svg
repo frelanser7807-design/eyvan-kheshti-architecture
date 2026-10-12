@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Four control lines in a rainscreen facade</title>
+  <desc id="desc">An editorial wall-section diagram showing cladding, a drained cavity, water and air control layers, insulation and structure.</desc>
+  <rect width="1600" height="900" fill="#101514"/>
+  <text x="105" y="105" fill="#d8b777" font-family="Georgia, serif" font-size="28" letter-spacing="7">WORLD ARCH JOURNAL · ENVELOPE NOTE 01</text>
+  <text x="105" y="180" fill="#f4efe5" font-family="Georgia, serif" font-size="58">Four lines of defence</text>
+  <text x="105" y="228" fill="#aeb7b2" font-family="Arial, sans-serif" font-size="23">The outer skin sheds most rain. The inner control layers protect the building.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="105" y="320" width="250" height="450" rx="22" fill="#34291f" stroke="#d8b777" stroke-width="3"/>
+    <text x="230" y="388" fill="#f4efe5" font-size="27" text-anchor="middle">01 · CLADDING</text>
+    <text x="230" y="438" fill="#c8c0b2" font-size="21" text-anchor="middle">deflects rain</text>
+    <path d="M180 505 l50 80 50-80" fill="none" stroke="#d8b777" stroke-width="10"/>
+    <text x="230" y="690" fill="#aeb7b2" font-size="19" text-anchor="middle">open or baffled joints</text>
+
+    <rect x="390" y="320" width="250" height="450" rx="22" fill="#182523" stroke="#5d817e" stroke-width="3"/>
+    <text x="515" y="388" fill="#f4efe5" font-size="27" text-anchor="middle">02 · CAVITY</text>
+    <text x="515" y="438" fill="#b8c9c5" font-size="21" text-anchor="middle">drains + dries</text>
+    <path d="M515 495 v125 m-24-20 24 28 24-28" fill="none" stroke="#77a29d" stroke-width="9"/>
+    <text x="515" y="690" fill="#aeb7b2" font-size="19" text-anchor="middle">clear route to exterior</text>
+
+    <rect x="675" y="320" width="250" height="450" rx="22" fill="#202624" stroke="#87948e" stroke-width="3"/>
+    <text x="800" y="388" fill="#f4efe5" font-size="25" text-anchor="middle">03 · WATER + AIR</text>
+    <text x="800" y="438" fill="#c6cfca" font-size="21" text-anchor="middle">continuous controls</text>
+    <path d="M744 535 h112" stroke="#d8b777" stroke-width="12"/><path d="M744 575 h112" stroke="#7b9e9b" stroke-width="12"/>
+    <text x="800" y="690" fill="#aeb7b2" font-size="19" text-anchor="middle">sealed at transitions</text>
+
+    <rect x="960" y="320" width="250" height="450" rx="22" fill="#24241f" stroke="#8f7955" stroke-width="3"/>
+    <text x="1085" y="388" fill="#f4efe5" font-size="27" text-anchor="middle">04 · INSULATION</text>
+    <text x="1085" y="438" fill="#c8c0b2" font-size="21" text-anchor="middle">limits heat flow</text>
+    <path d="M1015 525 q35-55 70 0 t70 0" fill="none" stroke="#c8a86a" stroke-width="10"/>
+    <text x="1085" y="690" fill="#aeb7b2" font-size="19" text-anchor="middle">fixings checked for bridges</text>
+
+    <rect x="1245" y="320" width="250" height="450" rx="22" fill="#1d2021" stroke="#687277" stroke-width="3"/>
+    <text x="1370" y="388" fill="#f4efe5" font-size="27" text-anchor="middle">05 · STRUCTURE</text>
+    <text x="1370" y="438" fill="#bec5c8" font-size="21" text-anchor="middle">resists design loads</text>
+    <path d="M1305 610 l65-115 65 115 z" fill="none" stroke="#8c989d" stroke-width="9"/>
+    <text x="1370" y="690" fill="#aeb7b2" font-size="19" text-anchor="middle">dry, inspectable substrate</text>
+  </g>
+  <text x="105" y="835" fill="#8f9a95" font-family="Arial, sans-serif" font-size="20">Continuity at edges and openings matters more than a perfect centre-of-wall diagram.</text>
+</svg>

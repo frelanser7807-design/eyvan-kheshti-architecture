@@ -122,4 +122,3 @@ export default function SiteSearch({ content, onNavigate, onOpenArticle, onOpenM
     </div>
   );
 }
-

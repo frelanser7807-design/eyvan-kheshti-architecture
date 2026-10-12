@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">World Arch Journal Architecture Briefing</title>
+  <desc id="desc">Original editorial cover with abstract architecture forms, a warm gold grid and pale serif typography.</desc>
+  <rect width="1600" height="900" fill="#202622"/>
+  <path d="M0 775h1600M910 0v900M1130 0v900M1350 0v900M0 570h1600M0 365h1600" stroke="#9e8c70" stroke-width="1" opacity=".28"/>
+  <path d="M960 710V190h180v520m40 0V325h175v385m35 0V95h135v615" fill="none" stroke="#c9a677" stroke-width="6"/>
+  <path d="M985 445h130m90 40h125m80-205h90" stroke="#c9a677" stroke-width="4" opacity=".8"/>
+  <circle cx="1125" cy="235" r="165" fill="none" stroke="#d3b785" stroke-width="2" opacity=".55"/>
+  <text x="100" y="118" fill="#c9a677" font-family="Arial, sans-serif" font-size="28" letter-spacing="7">WORLD ARCH JOURNAL  /  ISSUE 01</text>
+  <text x="96" y="355" fill="#f0eadf" font-family="Georgia, serif" font-size="104">Architecture</text>
+  <text x="96" y="465" fill="#f0eadf" font-family="Georgia, serif" font-size="104">Briefing</text>
+  <path d="M100 520h490" stroke="#c9a677" stroke-width="4"/>
+  <text x="100" y="585" fill="#d4c6b4" font-family="Arial, sans-serif" font-size="31" letter-spacing="3">BEYOND THE RENDER</text>
+  <text x="100" y="820" fill="#d4c6b4" font-family="Arial, sans-serif" font-size="24" letter-spacing="3">RIBA  /  UNESCO  /  CLIMATE-READY BUILDINGS</text>
+</svg>

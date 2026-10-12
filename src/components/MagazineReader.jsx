@@ -135,4 +135,3 @@ export default function MagazineReader({ magazine, onClose = () => undefined, on
     </div>
   );
 }
-

@@ -1,11 +1,16 @@
 import { useEffect, useMemo, useState } from 'react';
 import { assetUrl } from '../lib/assetUrl.js';
 import { promptCategories, promptItems } from '../data/promptLibrary.js';
+import { trackSiteEvent } from './AnalyticsConsent.jsx';
 import './PromptLibrary.css';
 import './PromptLibraryMobile.css';
+import './PromptEnhancements.css';
 
 export async function copyPromptText(value) {
-  if (navigator.clipboard?.writeText) return navigator.clipboard.writeText(value);
+  if (navigator.clipboard?.writeText) {
+    try { await navigator.clipboard.writeText(value); return; }
+    catch { /* Some embedded browsers deny Clipboard API; try selection fallback. */ }
+  }
   const field = document.createElement('textarea');
   field.value = value;
   field.setAttribute('readonly', '');
@@ -13,8 +18,9 @@ export async function copyPromptText(value) {
   field.style.opacity = '0';
   document.body.appendChild(field);
   field.select();
-  document.execCommand('copy');
+  const copied = document.execCommand('copy');
   field.remove();
+  if (!copied) throw new Error('Clipboard access is unavailable');
 }
 
 export function PromptSiteHeader() {
@@ -30,19 +36,30 @@ export default function PromptLibrary() {
   const urlCategory = new URLSearchParams(window.location.search).get('category');
   const initialCategory = promptCategories.some((item) => item.slug === urlCategory) ? urlCategory : 'all';
   const [active, setActive] = useState(initialCategory);
+  const [query, setQuery] = useState(() => new URLSearchParams(window.location.search).get('q') || '');
   const [copied, setCopied] = useState('');
-  const filtered = useMemo(() => active === 'all' ? promptItems : promptItems.filter((item) => item.category === active), [active]);
+  const filtered = useMemo(() => {
+    const terms = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
+    return promptItems.filter((item) => {
+      if (active !== 'all' && item.category !== active) return false;
+      const haystack = `${item.title} ${item.summary} ${item.tool} ${item.category}`.toLowerCase();
+      return terms.every((term) => haystack.includes(term));
+    });
+  }, [active, query]);
   const freeCount = promptItems.filter((item) => item.access === 'free').length;
   const proCount = promptItems.filter((item) => item.access === 'premium').length;
 
   useEffect(() => {
-    const query = active === 'all' ? '' : `?category=${active}`;
-    window.history.replaceState({}, '', `/prompts/${query}`);
-  }, [active]);
+    const params = new URLSearchParams();
+    if (active !== 'all') params.set('category', active);
+    if (query.trim()) params.set('q', query.trim());
+    window.history.replaceState({}, '', `/prompts/${params.size ? `?${params}` : ''}`);
+  }, [active, query]);
 
   const copyPrompt = async (item) => {
     if (item.access !== 'free' || !item.prompt) return;
     await copyPromptText(item.prompt);
+    trackSiteEvent('prompt_copy', { prompt_id: item.id, prompt_category: item.category, placement: 'prompt_library' });
     setCopied(item.id);
     window.setTimeout(() => setCopied(''), 1600);
   };
@@ -59,6 +76,8 @@ export default function PromptLibrary() {
         <button type="button" className={active === 'all' ? 'is-active' : ''} onClick={() => setActive('all')}>All <span>{promptItems.length}</span></button>
         {promptCategories.map((category) => <button type="button" className={active === category.slug ? 'is-active' : ''} onClick={() => setActive(category.slug)} key={category.slug}>{category.title} <span>{promptItems.filter((item) => item.category === category.slug).length}</span></button>)}
       </nav>
+
+      <div className="prompt-search"><label htmlFor="prompt-search-input">Search the Prompt Lab</label><div><input id="prompt-search-input" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Try: facade, video, website…" /><span>{filtered.length} {filtered.length === 1 ? 'result' : 'results'}</span></div></div>
 
       <section className="prompt-grid" aria-live="polite">
         {filtered.map((item) => {
@@ -81,6 +100,7 @@ export default function PromptLibrary() {
             </article>
           );
         })}
+        {filtered.length === 0 && <div className="prompt-empty"><h2>No matching prompt yet.</h2><p>Try a broader term or browse all categories.</p><button type="button" onClick={() => { setQuery(''); setActive('all'); }}>Show all prompts</button></div>}
       </section>
 
       <section className="prompt-category-notes" aria-label="Prompt category guide">
@@ -92,4 +112,3 @@ export default function PromptLibrary() {
     </main>
   );
 }
-

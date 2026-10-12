@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Eight mass timber design gates</title>
+  <desc id="desc">A sequence of eight decision gates from brief and grid through fire, acoustics, moisture, services, carbon and code quality assurance.</desc>
+  <rect width="1600" height="900" fill="#0f1514"/>
+  <text x="105" y="105" fill="#d8b777" font-family="Georgia, serif" font-size="28" letter-spacing="7">WORLD ARCH JOURNAL · DECISION MAP</text>
+  <text x="105" y="180" fill="#f4efe5" font-family="Georgia, serif" font-size="58">Eight gates before the purchase order</text>
+  <text x="105" y="228" fill="#aeb7b2" font-family="Arial, sans-serif" font-size="23">Resolve them early; fabrication makes late changes expensive.</text>
+  <g font-family="Arial, sans-serif">
+    <path d="M190 420 H1410" stroke="#51493b" stroke-width="6"/>
+    <g fill="#18211f" stroke="#d8b777" stroke-width="3">
+      <circle cx="190" cy="420" r="62"/><circle cx="365" cy="420" r="62"/><circle cx="540" cy="420" r="62"/><circle cx="715" cy="420" r="62"/>
+      <circle cx="890" cy="420" r="62"/><circle cx="1065" cy="420" r="62"/><circle cx="1240" cy="420" r="62"/><circle cx="1410" cy="420" r="62"/>
+    </g>
+    <g fill="#f4efe5" font-size="34" text-anchor="middle">
+      <text x="190" y="432">01</text><text x="365" y="432">02</text><text x="540" y="432">03</text><text x="715" y="432">04</text>
+      <text x="890" y="432">05</text><text x="1065" y="432">06</text><text x="1240" y="432">07</text><text x="1410" y="432">08</text>
+    </g>
+    <g fill="#d8b777" font-size="23" text-anchor="middle">
+      <text x="190" y="535">BRIEF</text><text x="365" y="535">GRID</text><text x="540" y="535">FIRE</text><text x="715" y="535">ACOUSTICS</text>
+      <text x="890" y="535">MOISTURE</text><text x="1065" y="535">SERVICES</text><text x="1240" y="535">CARBON</text><text x="1410" y="535">CODE + QA</text>
+    </g>
+    <g fill="#aeb7b2" font-size="19" text-anchor="middle">
+      <text x="190" y="580">use + exposure</text><text x="365" y="580">span + depth</text><text x="540" y="580">strategy + details</text><text x="715" y="580">assembly + flank</text>
+      <text x="890" y="580">protect + verify</text><text x="1065" y="580">coordinate + cut</text><text x="1240" y="580">measure + disclose</text><text x="1410" y="580">approve + inspect</text>
+    </g>
+    <rect x="215" y="670" width="1170" height="100" rx="22" fill="#24221d" stroke="#6f6045" stroke-width="2"/>
+    <text x="800" y="715" fill="#f4efe5" font-size="27" text-anchor="middle">GO / REVISE / STOP</text>
+    <text x="800" y="752" fill="#b9c1bd" font-size="21" text-anchor="middle">A mass-timber concept advances only when the whole assembly remains credible.</text>
+  </g>
+</svg>

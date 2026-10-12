@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Architecture seen through a cinematic frame</title><desc id="desc">An original conceptual illustration of layered architectural volumes seen through a film frame, not a film still or project photograph.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#11191b"/><stop offset="1" stop-color="#273435"/></linearGradient><linearGradient id="g"><stop stop-color="#d09a54"/><stop offset="1" stop-color="#f3d39b"/></linearGradient></defs>
+  <rect width="1200" height="600" fill="url(#bg)"/><rect x="176" y="128" width="848" height="325" rx="12" fill="#101617" stroke="url(#g)" stroke-width="4"/><rect x="210" y="162" width="780" height="257" fill="#1d292a"/>
+  <path d="M250 398L395 210l132 188M527 398V223l117-60 125 60v175M769 398l95-154 121 154" fill="none" stroke="#ead9ba" stroke-width="4"/><path d="M383 397V276l112-37M644 225v100h116M863 244h103v112H822" fill="none" stroke="#d2a66b" stroke-width="3"/>
+  <path d="M265 195l173 0M265 210l115 0M831 390l124-154" stroke="url(#g)" stroke-width="2" opacity=".75"/><g fill="#f3eee4" font-family="Arial,sans-serif" text-anchor="middle"><text x="600" y="85" font-family="Georgia,serif" font-size="42">A moving image is an invitation</text><text x="600" y="510" font-size="16" fill="#d8bc8b" letter-spacing="2">LIGHT · MATERIAL · SEQUENCE · EMBODIED EXPERIENCE</text></g>
+</svg>

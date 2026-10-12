@@ -142,4 +142,3 @@ const biophilicDesignArchitecture = {
 };
 
 export default biophilicDesignArchitecture;
-

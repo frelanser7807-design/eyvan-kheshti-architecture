@@ -1,7 +1,9 @@
-name: Deploy World Arch Command Center
+name: Deploy World Arch Journal to Cloudflare Pages
 
 on:
   workflow_dispatch:
+  pull_request:
+    branches: [main]
   push:
     branches: [main]
     paths:
@@ -12,6 +14,7 @@ on:
       - "media-parts/**"
       - "scripts/**"
       - "tests/**"
+      - "functions/**"
       - "package.json"
       - "package-lock.json"
       - "vite.config.js"
@@ -22,7 +25,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: world-arch-production
+  group: world-arch-deploy-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -40,9 +43,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install Chromium for newsletter PDF generation
+        run: npx playwright install --with-deps chromium
+
       - name: Build and verify publication package
         run: |
           npm run build
+          node --test tests/newsletter-publication.test.mjs tests/newsletter.test.mjs
+          npm run smoke
           node --input-type=module <<'NODE'
           import { access, readFile } from 'node:fs/promises';
           for (const path of ['dist/index.html', 'dist/sitemap.xml', 'dist/newsletter/feed.xml', 'dist/news-sitemap.xml']) {
@@ -99,14 +107,15 @@ jobs:
               catch (error) { failures.push(String(error)); }
             }
           }));
-          const imagePaths = [...sitemap.matchAll(/<image:loc>(.*?)<\/image:loc>/g)]
-            .slice(0, 12).map((match) => new URL(match[1], origin).pathname);
-          for (const path of imagePaths) {
-            try { await fetchOk(path); }
+          const imageUrls = [...sitemap.matchAll(/<image:loc>(.*?)<\/image:loc>/g)]
+            .slice(0, 12).map((match) => new URL(match[1], origin));
+          for (const imageUrl of imageUrls) {
+            if (imageUrl.hostname === 'worldarchjournal.com') imageUrl.host = new URL(origin).host;
+            try { await fetchOk(imageUrl.href); }
             catch (error) { failures.push(String(error)); }
           }
           if (failures.length) throw new Error(failures.join('\n'));
-          console.log(`Preview verified: ${required.length} page/feed routes and ${imagePaths.length} images.`);
+          console.log(`Preview verified: ${required.length} page/feed routes and ${imageUrls.length} images.`);
           NODE
 
       - name: Deploy verified build to Cloudflare Pages production

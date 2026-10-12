@@ -12,3 +12,22 @@
   line-height: 1.7;
 }
 
+.prompt-detail-quick-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 22px; }
+.prompt-detail-quick-actions button { border: 1px solid #17f1d1; border-radius: 999px; padding: 14px 18px; background: #17f1d1; color: #05100d; font: 800 .75rem Inter,Arial,sans-serif; letter-spacing: .08em; cursor: pointer; }
+.prompt-detail-quick-actions a { color: #b8d6cf; font-size: .78rem; }
+#master-prompt { scroll-margin-top: 110px; }
+
+.prompt-reference-frames { margin: 64px auto; max-width: 1180px; }
+.prompt-reference-frames > header { max-width: 720px; margin-bottom: 24px; }
+.prompt-reference-frames > header small,
+.prompt-reference-frames figcaption { letter-spacing: .12em; text-transform: uppercase; }
+.prompt-reference-frames > div { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.prompt-reference-frames figure { margin: 0; overflow: hidden; border: 1px solid rgba(201, 167, 106, .28); background: #0b0d0d; }
+.prompt-reference-frames img { display: block; width: 100%; aspect-ratio: 9 / 14; object-fit: cover; }
+.prompt-reference-frames figcaption { display: flex; justify-content: space-between; gap: 16px; padding: 16px; font-size: .72rem; }
+.prompt-reference-frames figcaption a { color: #d6b16c; }
+
+@media (max-width: 680px) {
+  .prompt-reference-frames { margin: 40px auto; }
+  .prompt-reference-frames > div { grid-template-columns: 1fr; }
+}

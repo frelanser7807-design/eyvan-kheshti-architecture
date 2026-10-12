@@ -1,0 +1,70 @@
+{
+  "project": "Narbon Villa",
+  "panoramas": [
+    {
+      "photo": 1,
+      "file": "scene-01.jpg",
+      "sourceLocked": true
+    },
+    {
+      "photo": 2,
+      "file": "scene-02.jpg",
+      "sourceLocked": true
+    },
+    {
+      "photo": 5,
+      "file": "scene-05.jpg",
+      "sourceLocked": true
+    },
+    {
+      "photo": 6,
+      "file": "scene-06.jpg",
+      "sourceLocked": true
+    },
+    {
+      "photo": 7,
+      "file": "scene-07.jpg",
+      "sourceLocked": true
+    },
+    {
+      "photo": 10,
+      "file": "scene-10.jpg",
+      "sourceLocked": true
+    },
+    {
+      "photo": 17,
+      "file": "scene-17.jpg",
+      "sourceLocked": true
+    },
+    {
+      "photo": 19,
+      "file": "scene-19.jpg",
+      "sourceLocked": true
+    },
+    {
+      "photo": 21,
+      "file": "scene-21.jpg",
+      "sourceLocked": true
+    },
+    {
+      "photo": 25,
+      "file": "scene-25.jpg",
+      "sourceLocked": true
+    },
+    {
+      "photo": 28,
+      "file": "scene-28.jpg",
+      "sourceLocked": true
+    },
+    {
+      "photo": 29,
+      "file": "scene-29.jpg",
+      "sourceLocked": true
+    },
+    {
+      "photo": 30,
+      "file": "scene-30.jpg",
+      "sourceLocked": true
+    }
+  ]
+}

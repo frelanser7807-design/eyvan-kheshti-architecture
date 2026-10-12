@@ -9,6 +9,29 @@ const remoteMode = import.meta.env.VITE_DATA_MODE === 'remote' && Boolean(apiBas
 
 const clone = (value) => JSON.parse(JSON.stringify(value));
 
+function normalizeSocialLinks(value) {
+  const savedLinks = Array.isArray(value) ? value : [];
+  const savedByKey = new Map(savedLinks.flatMap((item) => [item?.id, item?.platform].filter(Boolean).map((key) => [key, item])));
+  const knownKeys = new Set(defaultContent.brand.socialLinks.flatMap((item) => [item.id, item.platform]));
+  const links = defaultContent.brand.socialLinks.map((fallback) => {
+    const saved = savedByKey.get(fallback.id) || savedByKey.get(fallback.platform) || {};
+    const merged = { ...fallback, ...saved };
+    if (fallback.id === 'linkedin') {
+      merged.url = fallback.url;
+      merged.enabled = true;
+      merged.status = 'active';
+    }
+    if (!String(saved.url || '').trim() && fallback.url) {
+      merged.url = fallback.url;
+      merged.enabled = true;
+      merged.status = fallback.status || 'active';
+    }
+    return merged;
+  });
+  const extras = savedLinks.filter((item) => item?.id && !knownKeys.has(item.id) && !knownKeys.has(item.platform));
+  return [...links, ...extras];
+}
+
 function normalizeContent(value = {}) {
   const savedServices = Array.isArray(value.services) ? value.services : [];
   const savedById = new Map(savedServices.map((service) => [service.id, service]));
@@ -19,7 +42,34 @@ function normalizeContent(value = {}) {
   }));
   const extraServices = savedServices.filter((service) => service?.id && !knownIds.has(service.id));
 
-  const brand = { ...defaultContent.brand, ...(value.brand || {}) };
+  // Keep newly released catalogue items visible when a visitor already has an
+  // older saved copy of the site content in localStorage (or the remote CMS).
+  const savedProducts = Array.isArray(value.products) ? value.products : [];
+  const savedProductsByKey = new Map(
+    savedProducts.flatMap((product) => [product?.id, product?.slug].filter(Boolean).map((key) => [key, product])),
+  );
+  const knownProductKeys = new Set(
+    defaultContent.products.flatMap((product) => [product?.id, product?.slug].filter(Boolean)),
+  );
+  const products = defaultContent.products.map((fallback) => ({
+    ...fallback,
+    ...(savedProductsByKey.get(fallback.id) || savedProductsByKey.get(fallback.slug) || {}),
+  }));
+  const extraProducts = savedProducts.filter(
+    (product) =>
+      product?.id &&
+      !knownProductKeys.has(product.id) &&
+      (!product.slug || !knownProductKeys.has(product.slug)),
+  );
+
+  const savedBrand = value.brand || {};
+  const brand = { ...defaultContent.brand, ...savedBrand };
+  brand.linkedin = defaultContent.brand.linkedin;
+  for (const key of ['whatsapp', 'instagram', 'youtube', 'pinterest']) {
+    if (!String(brand[key] || '').trim()) brand[key] = defaultContent.brand[key];
+  }
+  if (brand.name === 'WORLD ARCH' || brand.name === 'EYVAN KHESHTI') brand.name = defaultContent.brand.name;
+  brand.socialLinks = normalizeSocialLinks(savedBrand.socialLinks);
   if (brand.city === 'LONDON / INTERNATIONAL' && brand.cityFa === 'لندن / بین‌المللی') {
     brand.city = defaultContent.brand.city;
     brand.cityFa = defaultContent.brand.cityFa;
@@ -33,13 +83,17 @@ function normalizeContent(value = {}) {
     services: [...services, ...extraServices],
     tutorials: Array.isArray(value.tutorials) ? value.tutorials : clone(defaultContent.tutorials),
     insights: Array.isArray(value.insights) ? value.insights : clone(defaultContent.insights),
-    products: Array.isArray(value.products) ? value.products : clone(defaultContent.products),
+    guides: Array.isArray(value.guides) ? value.guides : clone(defaultContent.guides),
+    library: Array.isArray(value.library) ? value.library : clone(defaultContent.library),
+    ebooks: Array.isArray(value.ebooks) ? value.ebooks : clone(defaultContent.ebooks),
+    products: [...products, ...extraProducts],
     story: Array.isArray(value.story) ? value.story : clone(defaultContent.story),
     commerce: {
       ...defaultContent.commerce,
       ...(value.commerce || {}),
       providers: Array.isArray(value.commerce?.providers) ? value.commerce.providers : clone(defaultContent.commerce.providers),
     },
+    monetization: { ...defaultContent.monetization, ...(value.monetization || {}) },
     settings: { ...defaultContent.settings, ...(value.settings || {}) },
   };
 }
@@ -114,16 +168,17 @@ export async function deleteSubscriber(id) {
   return null;
 }
 
-export async function submitSubscriber(email) {
+export async function submitSubscriber(email, consent = false, website = '') {
   const normalized = String(email || '').trim().toLowerCase();
   if (!/^\S+@\S+\.\S+$/.test(normalized)) throw new Error('invalid-email');
-  if (remoteMode) return apiRequest('/v1/subscribers', { method: 'POST', body: JSON.stringify({ email: normalized }) });
-  const subscribers = await getSubscribers();
-  const existing = subscribers.find((subscriber) => subscriber.email === normalized);
-  if (existing) return existing;
-  const subscriber = { id: crypto.randomUUID(), email: normalized, status: 'active', createdAt: new Date().toISOString() };
-  localStorage.setItem(SUBSCRIBERS_KEY, JSON.stringify([subscriber, ...subscribers]));
-  return subscriber;
+  if (!consent) throw new Error('consent-required');
+  const response = await fetch('/api/newsletter/subscribe', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email: normalized, consent: true, website: String(website || '') }),
+  });
+  if (!response.ok) throw new Error('newsletter-unavailable');
+  return response.json();
 }
 
 export async function createCheckout(payload) {

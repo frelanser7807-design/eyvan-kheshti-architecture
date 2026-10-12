@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Four checks beyond the image</title><desc id="desc">An original editorial synthesis connecting spatial narrative, everyday use, professional voice and embodied experience to questions that can be checked.</desc>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#11191b"/><stop offset="1" stop-color="#263335"/></linearGradient><linearGradient id="g"><stop stop-color="#d09a54"/><stop offset="1" stop-color="#f3d39b"/></linearGradient></defs>
+  <rect width="1200" height="600" fill="url(#bg)"/><text x="600" y="86" fill="#f3eee4" font-family="Georgia,serif" font-size="42" text-anchor="middle">Four checks beyond the image</text>
+  <g fill="none" stroke="url(#g)" stroke-width="3"><path d="M225 310H975M315 250V370M505 250V370M695 250V370M885 250V370"/></g>
+  <g fill="#202a2b" stroke="#ead9ba" stroke-width="2"><circle cx="315" cy="310" r="60"/><circle cx="505" cy="310" r="60"/><circle cx="695" cy="310" r="60"/><circle cx="885" cy="310" r="60"/></g>
+  <g fill="#f3eee4" font-family="Arial,sans-serif" text-anchor="middle"><text x="315" y="317" font-size="18" letter-spacing="2">INTENT</text><text x="505" y="317" font-size="18" letter-spacing="2">USE</text><text x="695" y="317" font-size="18" letter-spacing="2">VOICE</text><text x="885" y="317" font-size="18" letter-spacing="2">EVIDENCE</text><text x="600" y="455" font-family="Georgia,serif" font-size="25">Who says it? · What is documented? · What can people verify?</text></g>
+</svg>

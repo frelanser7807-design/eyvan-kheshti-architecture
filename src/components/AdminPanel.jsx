@@ -9,8 +9,11 @@ const sections = [
   ['projects', 'پروژه‌ها', '◇'],
   ['tutorials', 'آموزش‌ها', '▷'],
   ['insights', 'مطالب معماری', '≡'],
+  ['guides', 'EYVAN ATLAS', '◎'],
+  ['library', 'آبجکت و متریال', '▦'],
   ['products', 'دوره‌ها و فروش', '$'],
   ['commerce', 'فروش و پرداخت', '¤'],
+  ['monetization', 'افیلیت و AdSense', '◉'],
   ['contact', 'راه‌های ارتباطی', '@'],
   ['leads', 'درخواست‌ها', '↙'],
   ['subscribers', 'اعضای خبرنامه', '✉'],
@@ -84,6 +87,7 @@ export default function AdminPanel({ initialContent }) {
     story: current.story.map((item, itemIndex) => itemIndex === index ? { ...item, [key]: value } : item),
   }));
   const updateCommerce = (key, value) => setContent((current) => ({ ...current, commerce: { ...current.commerce, [key]: value } }));
+  const updateMonetization = (key, value) => setContent((current) => ({ ...current, monetization: { ...current.monetization, [key]: value } }));
   const updatePaymentProvider = (index, key, value) => setContent((current) => ({
     ...current,
     commerce: {
@@ -150,13 +154,14 @@ export default function AdminPanel({ initialContent }) {
     ...current,
     [collection]: [...current[collection], {
       id: `${collection}-${Date.now()}`,
-      title: kind === 'tutorial' ? 'New Tutorial' : kind === 'product' ? 'New Course' : 'New Architecture Note',
-      category: kind === 'tutorial' ? 'Architecture Tutorial' : kind === 'product' ? 'Online Course' : 'Architecture Note',
-      meta: kind === 'tutorial' ? '08 MIN' : kind === 'product' ? 'COMING SOON' : 'EDITORIAL',
+      title: kind === 'tutorial' ? 'New Tutorial' : kind === 'product' ? 'New Course' : kind === 'guide' ? 'New City Guide' : kind === 'library' ? 'New Library Item' : 'New Architecture Note',
+      category: kind === 'tutorial' ? 'Architecture Tutorial' : kind === 'product' ? 'Online Course' : kind === 'guide' ? 'Architecture-led City Guide' : kind === 'library' ? 'Object or Material' : 'Architecture Note',
+      meta: kind === 'tutorial' ? '08 MIN' : kind === 'product' ? 'COMING SOON' : kind === 'guide' ? 'DRAFT' : kind === 'library' ? 'FILE REVIEW REQUIRED' : 'EDITORIAL',
       excerpt: 'Write a short English introduction here.',
       image: '',
       url: '',
       ...(kind === 'product' ? { price: '', currency: 'USD' } : {}),
+      ...(kind === 'library' ? { fileType: '', licence: '' } : {}),
       published: false,
     }],
   }));
@@ -166,7 +171,7 @@ export default function AdminPanel({ initialContent }) {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'eyvan-kheshti-content.json';
+    link.download = 'world-arch-journal-content.json';
     link.click();
     URL.revokeObjectURL(url);
   };
@@ -176,7 +181,7 @@ export default function AdminPanel({ initialContent }) {
     if (!file) return;
     try {
       const next = JSON.parse(await file.text());
-      const requiredCollections = ['projects', 'services', 'tutorials', 'insights', 'products', 'story'];
+      const requiredCollections = ['projects', 'services', 'tutorials', 'insights', 'guides', 'library', 'products', 'story'];
       if (!next.brand || !next.settings || !next.commerce || requiredCollections.some((key) => !Array.isArray(next[key]))) throw new Error('invalid');
       setContent(next);
       setNotice('فایل خوانده شد؛ برای اعمال نهایی «ذخیره تغییرات» را بزنید.');
@@ -193,7 +198,7 @@ export default function AdminPanel({ initialContent }) {
         <div className="admin-login-art" aria-hidden="true"><span /><span /><span /></div>
         <section>
           <a className="admin-back" href="#home">← بازگشت به سایت</a>
-          <p className="admin-kicker">ایوان خشتی / مرکز مدیریت</p>
+          <p className="admin-kicker">ورلد آرک ژورنال / مرکز مدیریت</p>
           <h1>پنل مدیریت پروژه</h1>
           <p>این ورود، فقط برای مشاهدهٔ دموی محلی است. در نسخهٔ تجاری، احراز هویت سروری و سطح دسترسی مدیر فعال می‌شود.</p>
           <div className="demo-access-card"><i>●</i><div><b>محیط امنِ پیش‌نمایش</b><span>هیچ داده‌ای به اینترنت ارسال نمی‌شود.</span></div></div>
@@ -268,7 +273,7 @@ export default function AdminPanel({ initialContent }) {
               <Field label="توضیح معرفی انگلیسی" wide><textarea dir="ltr" rows="4" value={content.brand.heroDescription} onChange={(e) => updateBrand('heroDescription', e.target.value)} /></Field>
               <Field label="توضیح معرفی فارسی" wide><textarea rows="4" value={content.brand.heroDescriptionFa || ''} onChange={(e) => updateBrand('heroDescriptionFa', e.target.value)} /></Field>
               <Field label="شهر"><input value={content.brand.city} onChange={(e) => updateBrand('city', e.target.value)} /></Field>
-              <Field label="زبان پیش‌فرض سایت"><select value={content.settings.defaultLanguage || 'en'} onChange={(e) => setContent((current) => ({ ...current, settings: { ...current.settings, defaultLanguage: e.target.value } }))}><option value="en">انگلیسی</option><option value="fa">فارسی</option></select></Field>
+              <Field label="زبان عمومی سایت"><input value="English — locked for public release" dir="ltr" readOnly /></Field>
             </div>
           </section>
         )}
@@ -398,6 +403,56 @@ export default function AdminPanel({ initialContent }) {
           </section>
         )}
 
+        {active === 'guides' && (
+          <section className="admin-section">
+            <div className="section-title section-title-row"><div><p>Affiliate / EYVAN ATLAS</p><h2>کاتالوگ‌ها و راهنماهای شهری</h2><span>نسخهٔ عمومی انگلیسی است؛ انتشار هر راهنما فقط پس از کنترل منابع، حقوق تصویر و لینک‌های افیلیت انجام می‌شود.</span></div><button className="admin-secondary" onClick={() => addEditorialItem('guides', 'guide')}>+ افزودن راهنما</button></div>
+            <div className="project-editor-list">
+              {content.guides.map((item, index) => (
+                <article className="project-editor" key={item.id}>
+                  <div className="project-editor-index">{String(index + 1).padStart(2, '0')}</div>
+                  <div className="project-editor-fields">
+                    <Field label="عنوان انگلیسی" wide><input dir="ltr" value={item.title} onChange={(e) => updateCollection('guides', index, 'title', e.target.value)} /></Field>
+                    <Field label="عنوان فارسی پشتیبان" wide><input value={item.titleFa || ''} onChange={(e) => updateCollection('guides', index, 'titleFa', e.target.value)} /></Field>
+                    <Field label="دسته‌بندی"><input dir="ltr" value={item.category} onChange={(e) => updateCollection('guides', index, 'category', e.target.value)} /></Field>
+                    <Field label="وضعیت تحقیق"><input dir="ltr" value={item.meta} onChange={(e) => updateCollection('guides', index, 'meta', e.target.value)} /></Field>
+                    <Field label="مسیر تصویر" wide><input dir="ltr" value={item.image} placeholder="/assets/guide.jpg" onChange={(e) => updateCollection('guides', index, 'image', e.target.value)} /></Field>
+                    <Field label="لینک صفحه راهنما" wide><input dir="ltr" value={item.url} placeholder="/atlas/city-guide" onChange={(e) => updateCollection('guides', index, 'url', e.target.value)} /></Field>
+                    <Field label="خلاصه انگلیسی" wide><textarea dir="ltr" rows="3" value={item.excerpt} onChange={(e) => updateCollection('guides', index, 'excerpt', e.target.value)} /></Field>
+                    <Field label="یادداشت فارسی مدیر" wide><textarea rows="3" value={item.excerptFa || ''} onChange={(e) => updateCollection('guides', index, 'excerptFa', e.target.value)} /></Field>
+                  </div>
+                  <label className="publish-toggle"><input type="checkbox" checked={item.published} onChange={(e) => updateCollection('guides', index, 'published', e.target.checked)} /><span /><b>{item.published ? 'نمایش عمومی' : 'پیش‌نویس'}</b></label>
+                  <button className="admin-remove" type="button" onClick={() => removeCollectionItem('guides', index)}>حذف</button>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {active === 'library' && (
+          <section className="admin-section">
+            <div className="section-title section-title-row"><div><p>Downloads</p><h2>کتابخانهٔ آبجکت و متریال</h2><span>فقط فایل‌هایی را منتشر کنید که مالکیت یا مجوز بازتوزیع آن‌ها مشخص باشد.</span></div><button className="admin-secondary" onClick={() => addEditorialItem('library', 'library')}>+ افزودن فایل</button></div>
+            <div className="project-editor-list">
+              {content.library.map((item, index) => (
+                <article className="project-editor" key={item.id}>
+                  <div className="project-editor-index">{String(index + 1).padStart(2, '0')}</div>
+                  <div className="project-editor-fields">
+                    <Field label="عنوان انگلیسی" wide><input dir="ltr" value={item.title} onChange={(e) => updateCollection('library', index, 'title', e.target.value)} /></Field>
+                    <Field label="یادداشت فارسی مدیر" wide><input value={item.titleFa || ''} onChange={(e) => updateCollection('library', index, 'titleFa', e.target.value)} /></Field>
+                    <Field label="دسته‌بندی"><input dir="ltr" value={item.category} onChange={(e) => updateCollection('library', index, 'category', e.target.value)} /></Field>
+                    <Field label="نوع فایل"><input dir="ltr" value={item.fileType || ''} placeholder="ZIP / SKP / OBJ / PDF" onChange={(e) => updateCollection('library', index, 'fileType', e.target.value)} /></Field>
+                    <Field label="نوع مجوز" wide><input dir="ltr" value={item.licence || ''} placeholder="Original / CC0 / Licensed for redistribution" onChange={(e) => updateCollection('library', index, 'licence', e.target.value)} /></Field>
+                    <Field label="مسیر تصویر" wide><input dir="ltr" value={item.image} placeholder="/assets/library/item.jpg" onChange={(e) => updateCollection('library', index, 'image', e.target.value)} /></Field>
+                    <Field label="لینک دانلود" wide><input dir="ltr" value={item.url} placeholder="https://…" onChange={(e) => updateCollection('library', index, 'url', e.target.value)} /></Field>
+                    <Field label="توضیح انگلیسی" wide><textarea dir="ltr" rows="3" value={item.excerpt} onChange={(e) => updateCollection('library', index, 'excerpt', e.target.value)} /></Field>
+                  </div>
+                  <label className="publish-toggle"><input type="checkbox" checked={item.published} onChange={(e) => updateCollection('library', index, 'published', e.target.checked)} /><span /><b>{item.published ? 'نمایش عمومی' : 'پیش‌نویس'}</b></label>
+                  <button className="admin-remove" type="button" onClick={() => removeCollectionItem('library', index)}>حذف</button>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+
         {active === 'contact' && (
           <section className="admin-section admin-form-section">
             <div className="section-title section-title-row"><div><p>تماس با ما</p><h2>راه‌های ارتباطی</h2><span>شبکه‌های اصلی از پیش آماده‌اند و در آینده هر پلتفرم دیگری را نیز می‌توانید اضافه کنید.</span></div><button className="admin-secondary" type="button" onClick={addSocialLink}>+ افزودن پلتفرم</button></div>
@@ -468,6 +523,21 @@ export default function AdminPanel({ initialContent }) {
           </section>
         )}
 
+        {active === 'monetization' && (
+          <section className="admin-section admin-form-section">
+            <div className="section-title"><p>درآمدزایی مسئولانه</p><h2>Affiliate و Google AdSense</h2><span>کد تبلیغ تا احراز شرایط قانونی، تأیید حساب، صفحات حقوقی و CMP غیرفعال می‌ماند.</span></div>
+            <div className="admin-form-grid">
+              <Field label="وضعیت افیلیت"><select value={content.monetization.affiliateEnabled ? 'enabled' : 'disabled'} onChange={(e) => updateMonetization('affiliateEnabled', e.target.value === 'enabled')}><option value="disabled">غیرفعال / بدون لینک تجاری</option><option value="enabled">فعال پس از تأیید برنامه</option></select></Field>
+              <Field label="شفاف‌سازی افیلیت"><select value={content.monetization.affiliateDisclosureEnabled ? 'enabled' : 'disabled'} onChange={(e) => updateMonetization('affiliateDisclosureEnabled', e.target.value === 'enabled')}><option value="enabled">نمایش اجباری</option><option value="disabled">غیرفعال</option></select></Field>
+              <Field label="AdSense Publisher ID" wide><input dir="ltr" value={content.monetization.adsensePublisherId || ''} placeholder="ca-pub-… (بعد از تأیید قانونی)" onChange={(e) => updateMonetization('adsensePublisherId', e.target.value.trim())} /></Field>
+              <Field label="وضعیت AdSense"><select value={content.monetization.adsenseEnabled ? 'enabled' : 'disabled'} onChange={(e) => updateMonetization('adsenseEnabled', e.target.value === 'enabled')}><option value="disabled">غیرفعال و امن</option><option value="enabled">فعال‌سازی فنی پس از تأیید</option></select></Field>
+              <Field label="محل مجاز تبلیغ"><input dir="ltr" value="Journal & EYVAN ATLAS only" readOnly /></Field>
+              <Field label="مدیریت رضایت"><select value={content.monetization.consentPlatform || 'not_configured'} onChange={(e) => updateMonetization('consentPlatform', e.target.value)}><option value="not_configured">هنوز تنظیم نشده</option><option value="google_cmp">Google-certified CMP</option><option value="third_party_cmp">Third-party certified CMP</option></select></Field>
+            </div>
+            <div className="admin-card reset-card"><div><h3>قانون انتشار</h3><p>تبلیغ در ویدئوی سینمایی، منوها، دکمه‌های دانلود، پنجرهٔ تماس و پنل مدیریت نمایش داده نمی‌شود. فعال‌سازی نهایی نیازمند حساب قانونی واجد شرایط و بازبینی سیاست‌های روز Google است.</p></div><span className="admin-status-badge">POLICY GATED</span></div>
+          </section>
+        )}
+
         {active === 'leads' && (
           <section className="admin-section">
             <div className="section-title"><p>ارتباط با مشتری</p><h2>درخواست‌های همکاری</h2><span>در نسخهٔ پیش‌نمایش، درخواست‌ها فقط روی همین مرورگر ذخیره می‌شوند.</span></div>
@@ -509,7 +579,7 @@ export default function AdminPanel({ initialContent }) {
                 <div className="endpoint post"><span>POST</span><code>/v1/subscribers</code></div>
               </article>
               <article className="admin-card sync-card">
-                <div className="phone-mock"><span /><i /><b>ا</b><small>اپ ایوان خشتی</small><em>آمادهٔ همگام‌سازی</em></div>
+                <div className="phone-mock"><span /><i /><b>W</b><small>اپ ورلد آرک ژورنال</small><em>آمادهٔ همگام‌سازی</em></div>
                 <div><p className="eyebrow"><span />مرحلهٔ بعد</p><h3>اتصال بک‌اند واقعی</h3><ul><li>احراز هویت مدیر</li><li>فضای ذخیرهٔ تصاویر و مدل‌ها</li><li>اعلان درخواست‌های تازه در اپ</li><li>همگام‌سازی لحظه‌ای محتوا</li></ul></div>
               </article>
             </div>

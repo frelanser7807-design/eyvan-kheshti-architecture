@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Universal design across changing life stages</title>
+  <desc id="desc">Circular diagram showing one home supporting visitors, children, temporary injury, disability, care and ageing.</desc>
+  <rect width="1600" height="900" fill="#0d151c"/>
+  <text x="105" y="108" fill="#fff" font-family="Georgia,serif" font-size="60">Design for change before change arrives</text>
+  <text x="105" y="158" fill="#c89550" font-family="Arial,sans-serif" font-size="22" letter-spacing="4">ONE HOME · MANY BODIES · MANY MOMENTS</text>
+  <g transform="translate(800 500)" font-family="Arial,sans-serif" text-anchor="middle">
+    <circle r="270" fill="none" stroke="#c89550" stroke-width="16" stroke-dasharray="55 20"/>
+    <circle r="145" fill="#f3efe7"/><text y="-15" fill="#101820" font-size="34" font-weight="700">ADAPTABLE</text><text y="30" fill="#101820" font-size="34" font-weight="700">HOME</text><text y="70" fill="#6f655a" font-size="21">dignity · choice · connection</text>
+    <g fill="#fff" font-size="25" font-weight="700"><text x="0" y="-315">VISITORS</text><text x="275" y="-170">CHILDREN</text><text x="330" y="35">TEMPORARY INJURY</text><text x="245" y="260">DISABILITY</text><text x="0" y="340">AGEING</text><text x="-260" y="260">CARE</text><text x="-340" y="35">WORKING AT HOME</text><text x="-275" y="-170">MULTIGENERATIONAL</text></g>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="23" fill="#c9beb0"><text x="115" y="745">Plan now:</text><text x="115" y="785">structure · routes · service zones · reinforcement · daylight · storage</text><text x="1075" y="745">Adapt later:</text><text x="1075" y="785">fixtures · controls · furniture · support · technology</text></g>
+  <path d="M105 820h1390" stroke="#c89550" stroke-width="3"/>
+</svg>

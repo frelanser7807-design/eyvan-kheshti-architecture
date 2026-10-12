@@ -1,13 +1,14 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import '@fontsource/vazirmatn/300.css';
-import '@fontsource/vazirmatn/400.css';
-import '@fontsource/vazirmatn/500.css';
-import '@fontsource/vazirmatn/600.css';
-import '@fontsource/vazirmatn/700.css';
-import '@fontsource/noto-naskh-arabic/500.css';
-import '@fontsource/noto-naskh-arabic/600.css';
-import '@fontsource/noto-naskh-arabic/700.css';
+// The public release is English-only. Loading only the Latin WOFF2 subsets keeps
+// the cinematic first screen light on mobile; Persian admin copy falls back to
+// the device font until the private WordPress/admin phase is deployed.
+import '@fontsource/cormorant-garamond/latin-400.css';
+import '@fontsource/cormorant-garamond/latin-500.css';
+import '@fontsource/cormorant-garamond/latin-600.css';
+import '@fontsource/inter/latin-400.css';
+import '@fontsource/inter/latin-500.css';
+import '@fontsource/inter/latin-600.css';
 import App from './App.jsx';
 import './styles.css';
 

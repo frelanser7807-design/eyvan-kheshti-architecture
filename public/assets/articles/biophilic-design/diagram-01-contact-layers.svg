@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Three layers of nature contact in biophilic design</title>
+  <desc id="desc">Editorial diagram comparing direct nature, natural analogues and spatial experience.</desc>
+  <rect width="1600" height="900" fill="#101715"/>
+  <text x="110" y="118" fill="#d8b777" font-family="Georgia, serif" font-size="30" letter-spacing="7">WORLD ARCH JOURNAL · FIELD NOTE 01</text>
+  <text x="110" y="192" fill="#f4efe5" font-family="Georgia, serif" font-size="58">Three layers of nature contact</text>
+  <text x="110" y="242" fill="#a9b2ad" font-family="Arial, sans-serif" font-size="24">A working framework—not a checklist of decorative objects</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="110" y="326" width="430" height="396" rx="26" fill="#192520" stroke="#4e6c5f" stroke-width="2"/>
+    <circle cx="170" cy="388" r="24" fill="#85a97d"/>
+    <text x="215" y="398" fill="#f4efe5" font-size="32">Direct nature</text>
+    <text x="154" y="476" fill="#c8d0cc" font-size="25">Daylight · vegetation</text>
+    <text x="154" y="522" fill="#c8d0cc" font-size="25">Air · water · weather</text>
+    <text x="154" y="568" fill="#c8d0cc" font-size="25">Views · season · habitat</text>
+    <line x1="154" y1="616" x2="492" y2="616" stroke="#4e6c5f"/>
+    <text x="154" y="665" fill="#d8b777" font-size="21">Question: can people reach it?</text>
+
+    <rect x="585" y="326" width="430" height="396" rx="26" fill="#24241f" stroke="#776c50" stroke-width="2"/>
+    <circle cx="645" cy="388" r="24" fill="#d8b777"/>
+    <text x="690" y="398" fill="#f4efe5" font-size="32">Natural analogues</text>
+    <text x="629" y="476" fill="#c8d0cc" font-size="25">Material · grain · texture</text>
+    <text x="629" y="522" fill="#c8d0cc" font-size="25">Pattern · colour · variation</text>
+    <text x="629" y="568" fill="#c8d0cc" font-size="25">Legible origin and ageing</text>
+    <line x1="629" y1="616" x2="967" y2="616" stroke="#776c50"/>
+    <text x="629" y="665" fill="#d8b777" font-size="21">Question: is the link honest?</text>
+
+    <rect x="1060" y="326" width="430" height="396" rx="26" fill="#1a2226" stroke="#4f6b76" stroke-width="2"/>
+    <circle cx="1120" cy="388" r="24" fill="#7793a0"/>
+    <text x="1165" y="398" fill="#f4efe5" font-size="32">Spatial experience</text>
+    <text x="1104" y="476" fill="#c8d0cc" font-size="25">Prospect · refuge</text>
+    <text x="1104" y="522" fill="#c8d0cc" font-size="25">Complexity · mystery</text>
+    <text x="1104" y="568" fill="#c8d0cc" font-size="25">Choice · movement · pause</text>
+    <line x1="1104" y1="616" x2="1442" y2="616" stroke="#4f6b76"/>
+    <text x="1104" y="665" fill="#d8b777" font-size="21">Question: how does it feel?</text>
+  </g>
+  <text x="110" y="818" fill="#8d9893" font-family="Arial, sans-serif" font-size="20">Design all three through a real user journey, then verify them after occupation.</text>
+</svg>

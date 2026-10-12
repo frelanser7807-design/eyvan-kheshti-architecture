@@ -3,7 +3,7 @@ const bimVsCadArchitects = {
   slug: 'bim-vs-cad-architects-workflow',
   title: 'BIM vs CAD for Architects: 9 Differences That Change the Workflow',
   seoTitle: 'BIM vs CAD for Architects: 9 Practical Workflow Differences',
-  metaDescription: 'A clear international guide to BIM vs CAD for architects: model logic, information, coordination, documentation, interoperability, skills and when each workflow makes sense.',
+  metaDescription: 'Compare BIM vs CAD for architects: model logic, coordination, documentation, interoperability, skills and the workflow each project needs.',
   category: 'BIM & Revit',
   meta: '13 MIN READ · 5 REAL PHOTOGRAPHS · 4 ORIGINAL DIAGRAMS',
   status: 'INTERNATIONAL DIGITAL PRACTICE GUIDE · 2026',
@@ -134,4 +134,3 @@ const bimVsCadArchitects = {
 };
 
 export default bimVsCadArchitects;
-

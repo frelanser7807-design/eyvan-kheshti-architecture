@@ -28,7 +28,7 @@ a:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
 .kicker { color:var(--accent); font-size:.6rem; font-weight:600; letter-spacing:.14em; }
 .city-copy h2 { margin:50px 0 20px; font:400 clamp(4rem,7vw,7rem)/.85 Georgia,serif; }
 .city-copy p,.atlas-note p { max-width:58ch; color:#5f635d; font-size:.84rem; line-height:1.75; }
-.city-link { margin-top:auto; border-bottom:1px solid var(--ink); padding:36px 0 6px; font-size:.74rem; }
+.city-link { display:inline-block; margin-top:auto; margin-right:16px; border-bottom:1px solid var(--ink); padding:36px 0 6px; font-size:.74rem; }
 .city-copy small { margin-top:28px; color:#7d807a; font-size:.6rem; }
 .city-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:28px; }
 .city-tile { min-width:0; border-bottom:1px solid var(--line); padding-bottom:25px; }

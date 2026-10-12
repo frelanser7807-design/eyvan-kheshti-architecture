@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440" viewBox="0 0 2560 1440">
+  <defs>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#070706" stop-opacity="0.02"/>
+      <stop offset="0.38" stop-color="#090908" stop-opacity="0.24"/>
+      <stop offset="0.58" stop-color="#090908" stop-opacity="0.74"/>
+      <stop offset="1" stop-color="#090908" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="portrait-fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="white"/>
+      <stop offset="0.67" stop-color="white"/>
+      <stop offset="1" stop-color="black" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="portrait-mask">
+      <rect width="1480" height="1440" fill="url(#portrait-fade)"/>
+    </mask>
+    <radialGradient id="glass" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0" stop-color="#1b1a17" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#090908" stop-opacity="0.3"/>
+    </radialGradient>
+    <filter id="soft-shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="16" result="blur"/>
+      <feOffset dy="12" result="offset"/>
+      <feColorMatrix in="offset" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .55 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <image href="world-arch-journal-youtube-bg-v1.png" x="0" y="0" width="2560" height="1440" preserveAspectRatio="xMidYMid slice"/>
+  <image href="../film/posters/founder-hero.jpg" x="-410" y="0" width="2560" height="1440" preserveAspectRatio="xMidYMid slice" mask="url(#portrait-mask)"/>
+  <rect width="2560" height="1440" fill="url(#shade)"/>
+
+  <g opacity="0.72" stroke="#dbc18e" fill="none" stroke-width="2">
+    <path d="M2000 388h330v112h-128v104h184v298h-110v126h-330V806h86V612h-116V472h84z"/>
+    <path d="M2040 440h116v112h-116zm166 0h76v112h-76zm-218 220h166v104h-166zm214-6h132v208h-132zm-146 160h98v148h-98zm146 98h74v68h-74z"/>
+    <path d="M1902 336h508M1870 1080h574M1946 294v836M2382 310v794" opacity="0.34"/>
+    <circle cx="2176" cy="719" r="278" opacity="0.2"/>
+    <circle cx="2176" cy="719" r="216" opacity="0.12"/>
+    <path d="M2176 402v634M1858 719h636" opacity="0.24"/>
+  </g>
+  <g fill="#dbc18e" opacity="0.74">
+    <circle cx="2000" cy="388" r="5"/><circle cx="2330" cy="500" r="5"/><circle cx="1946" cy="902" r="5"/><circle cx="2276" cy="1028" r="5"/>
+  </g>
+
+  <g transform="translate(1112 570)" filter="url(#soft-shadow)">
+    <rect x="0" y="0" width="874" height="300" rx="3" fill="url(#glass)" stroke="#ead9b6" stroke-opacity="0.58"/>
+    <path d="M24 24h68M24 24v68M850 24h-68M850 24v68M24 276h68M24 276v-68M850 276h-68M850 276v-68" stroke="#ead9b6" stroke-width="2" fill="none"/>
+    <image href="world-arch-wa-mark-v1.png" x="58" y="62" width="176" height="176" preserveAspectRatio="xMidYMid meet"/>
+    <line x1="266" y1="58" x2="266" y2="242" stroke="#ead9b6" stroke-opacity="0.34"/>
+    <text x="314" y="132" fill="#f5efe4" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="600" letter-spacing="5">WORLD ARCH</text>
+    <text x="314" y="198" fill="#f5efe4" font-family="Georgia, 'Times New Roman', serif" font-size="42" letter-spacing="8">JOURNAL</text>
+    <text x="316" y="239" fill="#dbc18e" font-family="Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="7">BY FARNAZ · ARCHITECTURE / BIM / PLACES</text>
+  </g>
+</svg>
