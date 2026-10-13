@@ -40,11 +40,20 @@ GOLD = colors.HexColor("#A8793E")
 PAPER = colors.HexColor("#F1ECE3")
 LINE = colors.HexColor("#CFC5B7")
 
-pdfmetrics.registerFont(TTFont("WAJSerif", r"C:\Windows\Fonts\georgia.ttf"))
-pdfmetrics.registerFont(TTFont("WAJSerifBold", r"C:\Windows\Fonts\georgiab.ttf"))
-pdfmetrics.registerFont(TTFont("WAJSerifItalic", r"C:\Windows\Fonts\georgiai.ttf"))
-pdfmetrics.registerFont(TTFont("WAJSans", r"C:\Windows\Fonts\arial.ttf"))
-pdfmetrics.registerFont(TTFont("WAJSansBold", r"C:\Windows\Fonts\arialbd.ttf"))
+def _register_font(name: str, windows_path: str, linux_candidates: list[str]) -> None:
+    candidates = [windows_path, *linux_candidates]
+    for candidate in candidates:
+        if Path(candidate).exists():
+            pdfmetrics.registerFont(TTFont(name, candidate))
+            return
+    raise TTFError(f'No usable font file found for "{name}". Tried: {candidates}')
+
+
+_register_font("WAJSerif", r"C:\Windows\Fonts\georgia.ttf", ["/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf", "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf"])
+_register_font("WAJSerifBold", r"C:\Windows\Fonts\georgiab.ttf", ["/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf", "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"])
+_register_font("WAJSerifItalic", r"C:\Windows\Fonts\georgiai.ttf", ["/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf", "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"])
+_register_font("WAJSans", r"C:\Windows\Fonts\arial.ttf", ["/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"])
+_register_font("WAJSansBold", r"C:\Windows\Fonts\arialbd.ttf", ["/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"])
 
 
 def clean(value: str | None) -> str:
