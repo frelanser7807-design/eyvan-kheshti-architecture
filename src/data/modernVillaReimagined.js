@@ -70,6 +70,7 @@ const modernVillaReimagined = {
 <blockquote>Have a villa project in mind? <a href="https://worldarchjournal.com">Explore our design services</a> or get in touch to discuss how these principles could shape your home.</blockquote>
 
   `,
+  published: true,
 };
 
 export default modernVillaReimagined;

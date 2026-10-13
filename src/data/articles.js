@@ -22,6 +22,7 @@ import apartmentCrossVentilation from './apartmentCrossVentilation.js';
 import apartmentDaylightLayout from './apartmentDaylightLayout.js';
 import birdSafeFacade from './birdSafeFacade.js';
 import inclusiveWayfinding from './inclusiveWayfinding.js';
+import modernVillaReimagined from './modernVillaReimagined.js';
 
 const courtyardWindHouse = {
   id: 'article-courtyard-wind-house-passive-cooling',
@@ -162,7 +163,7 @@ const technicalPilot =
     published: false,
   };
 
-export const articles = [birdSafeFacade, inclusiveWayfinding, apartmentCrossVentilation, apartmentDaylightLayout, wildfireResilientHomes, apartmentAcousticDesign, floodResilientHomes, lowCarbonConcreteEpd, smallApartmentLayout, universalDesignHomes, highPerformanceGlazing, aiArchitecture2026, brutalistArchitecture, urbanHeatStreets, rainscreenFacadeDesign, massTimberArchitecture, passiveHouseVsNetZero, bimVsCadArchitects, biophilicDesignArchitecture, smallCourtyardDesign, prefabVsModularHomes, adaptiveReuseArchitecture, climateResponsiveFacades, courtyardWindHouse, technicalPilot];
+export const articles = [birdSafeFacade, inclusiveWayfinding, apartmentCrossVentilation, apartmentDaylightLayout, wildfireResilientHomes, apartmentAcousticDesign, floodResilientHomes, lowCarbonConcreteEpd, smallApartmentLayout, universalDesignHomes, highPerformanceGlazing, aiArchitecture2026, brutalistArchitecture, urbanHeatStreets, rainscreenFacadeDesign, massTimberArchitecture, passiveHouseVsNetZero, bimVsCadArchitects, biophilicDesignArchitecture, smallCourtyardDesign, prefabVsModularHomes, adaptiveReuseArchitecture, climateResponsiveFacades, courtyardWindHouse, technicalPilot, modernVillaReimagined];
 
 export function articleBySlug(slug) {
   return articles.find((article) => article.slug === slug);
