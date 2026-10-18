@@ -49,7 +49,7 @@ jobs:
       - name: Build and verify publication package
         run: |
           npm run build
-          node --test tests/newsletter-publication.test.mjs tests/newsletter.test.mjs tests/technical-seo.test.mjs tests/illustrated-articles.test.mjs tests/article-rss.test.mjs
+          node --test tests/newsletter-publication.test.mjs tests/newsletter.test.mjs tests/technical-seo.test.mjs tests/illustrated-articles.test.mjs tests/article-rss.test.mjs tests/hosted-payments.test.mjs
           npm run smoke
           node --input-type=module <<'NODE'
           import { access, readFile } from 'node:fs/promises';

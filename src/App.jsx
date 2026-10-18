@@ -16,6 +16,7 @@ import AnalyticsConsent from './components/AnalyticsConsent.jsx';
 import CustomPlanDesignPage from './components/CustomPlanDesignPage.jsx';
 import ProjectsHub from './components/ProjectsHub.jsx';
 import ContactPage from './components/ContactPage.jsx';
+import PaymentsPage from './components/PaymentsPage.jsx';
 import ProjectDetail from './components/ProjectDetail.jsx';
 import VideoLibrary from './components/VideoLibrary.jsx';
 import DesignServicesPage from './components/DesignServicesPage.jsx';
@@ -54,6 +55,7 @@ function currentRoute() {
     return issue ? { name: 'magazine', slug, item: issue } : { name: 'magazine-category', slug, item: magazineCategoryBySlug(slug) };
   }
   if (normalizedPath === '/shop/presentations/') return { name: 'presentation-studio' };
+  if (normalizedPath === '/payments/') return { name: 'payments' };
   if (normalizedPath === '/contact/') return { name: 'contact' };
   if (normalizedPath === '/services/') return { name: 'design-services' };
   if (normalizedPath === '/services/custom-plan-design/') return { name: 'custom-plan-design' };
@@ -143,6 +145,7 @@ export default function App() {
   if (route.name === 'presentation-studio') page = <ProductPage presentationStudio products={(content?.products || []).filter((item) => item.published)} etsyUrl={content?.commerce?.etsyUrl} whatsappUrl={content?.brand?.whatsapp} />;
   if (route.name === 'custom-plan-design') page = <CustomPlanDesignPage brand={content?.brand} />;
   if (route.name === 'contact') page = <ContactPage />;
+  if (route.name === 'payments') page = <PaymentsPage />;
   if (route.name === 'design-services') page = <DesignServicesPage />;
   if (route.name === 'atlas-villa') page = <AtlasVillaCaseStudy />;
   if (route.name === 'projects-hub') page = <ProjectsHub />;

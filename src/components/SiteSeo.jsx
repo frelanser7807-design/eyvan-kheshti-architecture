@@ -8,6 +8,7 @@ import { publishedVideoStories } from '../data/videoStories.js';
 import { watchVideoEntries, watchPagePath } from '../data/watchVideos.js';
 import { atlasVilla } from '../data/atlasVilla.js';
 import { legalPages } from '../data/legalPages.js';
+import { paymentPage } from '../data/paymentSettings.js';
 
 const FALLBACK_SITE_URL = 'https://worldarchjournal.com';
 const DEFAULT_IMAGE = '/assets/editorial/issue-00/courtyard-wind-house-cover.jpg';
@@ -71,6 +72,9 @@ export default function SiteSeo({ content, route }) {
       title = `${legalPages[normalizedPath]?.title || legalTitle} | ${name}`;
       description = legalPages[normalizedPath]?.metaDescription || `${legalTitle} for the WORLD ARCH JOURNAL architecture platform.`;
       if (legalPages[normalizedPath]?.portrait) image = absoluteAsset(siteUrl, legalPages[normalizedPath].portrait.src);
+    } else if (route?.name === 'payments') {
+      title = paymentPage.title;
+      description = paymentPage.description;
     } else if (route?.name === 'magazine-hub') {
       title = `Architecture Magazine | ${name}`;
       description = 'Read original, evidence-led architecture stories on climate design, facades, adaptive reuse and concept studies in World Arch Journal.';
@@ -172,7 +176,7 @@ export default function SiteSeo({ content, route }) {
     setMeta('meta[name="twitter:title"]', { name: 'twitter:title', content: title });
     setMeta('meta[name="twitter:description"]', { name: 'twitter:description', content: description });
     setMeta('meta[name="twitter:image"]', { name: 'twitter:image', content: image });
-    const isThinPreview = route?.name === 'prompt' && item?.access === 'premium';
+    const isThinPreview = route?.name === 'payments' || (route?.name === 'prompt' && item?.access === 'premium');
     setMeta('meta[name="robots"]', { name: 'robots', content: !isCanonicalHost || route?.name === 'admin' || isMissing ? 'noindex, nofollow, noarchive' : isThinPreview ? 'noindex, follow, max-image-preview:large' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' });
 
     let canonical = document.head.querySelector('link[rel="canonical"]');
@@ -220,7 +224,9 @@ export default function SiteSeo({ content, route }) {
       ...(brand.founderName ? { founder: { '@type': 'Person', name: brand.founderName, jobTitle: brand.founderRole || 'Founder & Creative Director' } } : {}),
     };
 
-    if (route?.name === 'video-library') {
+    if (route?.name === 'payments') {
+      structuredData = { '@context': 'https://schema.org', '@type': 'WebPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher };
+    } else if (route?.name === 'video-library') {
       structuredData = { '@context': 'https://schema.org', '@graph': [
         { '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, hasPart: [...publishedVideoStories.map((video) => ({ '@type': 'WebPage', name: video.title, url: `${siteUrl}/videos/${video.slug}/` })), ...watchVideoEntries.map((video) => ({ '@type': 'WebPage', name: video.title, url: `${siteUrl}${watchPagePath(video)}` }))] },
         breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Videos', pathname: '/videos/' }]),

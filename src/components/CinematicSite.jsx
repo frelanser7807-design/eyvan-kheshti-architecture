@@ -449,6 +449,7 @@ export default function CinematicSite({ content }) {
             <button type="button" tabIndex={moreOpen ? 0 : -1} onClick={() => scrollToSection('ebooks')}><QuickIcon name="ebooks" /><span>{copy.ebooks}</span></button>
             <button type="button" tabIndex={moreOpen ? 0 : -1} onClick={() => scrollToSection('app')}><QuickIcon name="app" /><span>Install App</span></button>
             <button type="button" tabIndex={moreOpen ? 0 : -1} onClick={() => scrollToSection('shop')}><QuickIcon name="shop" /><span>Courses &amp; Shop</span></button>
+            <a tabIndex={moreOpen ? 0 : -1} href="/payments/">Payments</a>
             <a tabIndex={moreOpen ? 0 : -1} href="/editorial-policy/">Editorial Policy</a>
             <a tabIndex={moreOpen ? 0 : -1} href="/privacy/">Privacy &amp; Cookies</a>
           </aside>

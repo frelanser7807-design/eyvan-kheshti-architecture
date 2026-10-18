@@ -20,7 +20,7 @@ function requestLink(id) {
 export default function DesignServicesPage() {
   return (
     <main className="design-services-page">
-      <header className="design-services-nav"><a href="/">WORLD ARCH JOURNAL <span>BY FARNAZ</span></a><nav><a href="/projects/">Selected work</a><a href="/services/custom-plan-design/">Project enquiry</a></nav></header>
+      <header className="design-services-nav"><a href="/">WORLD ARCH JOURNAL <span>BY FARNAZ</span></a><nav><a href="/projects/">Selected work</a><a href="/services/custom-plan-design/">Project enquiry</a><a href="/payments/">Payments</a></nav></header>
       <section className="design-services-hero">
         <p className="design-services-eyebrow">DESIGN SERVICES · BY FARNAZ GHAFFARIAN</p>
         <h1>One space, one home,<br /><em>or a complete vision.</em></h1>
