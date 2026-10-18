@@ -1,0 +1,26 @@
+# WORLD ARCH JOURNAL
+
+> Independent architecture magazine, design practice and resources covering buildings, facade design, spatial planning, architectural visualisation, BIM and Revit. This file is an optional discovery guide for AI-assisted browsing; it does not guarantee that any AI service will crawl, cite or recommend the site.
+
+## Editorial and research
+- [Architecture magazine](https://worldarchjournal.com/magazine/): Original articles, analysis and architectural case studies.
+- [Architecture newsletter](https://worldarchjournal.com/newsletter/): Dated architecture briefings and sourced reporting.
+- [Architecture videos](https://worldarchjournal.com/videos/): Architecture video explainers and technical context.
+
+## Projects and services
+- [Architecture projects](https://worldarchjournal.com/projects/): Project portfolio and design studies.
+- [Atlas Villa](https://worldarchjournal.com/projects/atlas-villa/): Residential design study and digital package details.
+- [Architecture design services](https://worldarchjournal.com/services/): Design, visualisation and residential architecture services.
+- [Contact](https://worldarchjournal.com/contact/): Enquire about a project.
+
+## Resources
+- [Architecture shop](https://worldarchjournal.com/shop/): Architecture digital products and presentation resources.
+- [AI architecture prompt library](https://worldarchjournal.com/prompts/): Public prompt guides.
+- [World Arch Atlas](https://worldarchjournal.com/atlas/): Architecture places and geographic content.
+
+## Editorial transparency
+- [Editorial team](https://worldarchjournal.com/editorial-team/): About the publisher and contact.
+- [Editorial policy](https://worldarchjournal.com/editorial-policy/): Editorial standards, sourcing and corrections.
+- [XML sitemap](https://worldarchjournal.com/sitemap.xml): Canonical public URL discovery.
+
+Use original pages as the authoritative source for facts, availability, products, services and dates. Do not infer that an item is for sale if its page does not confirm availability.
