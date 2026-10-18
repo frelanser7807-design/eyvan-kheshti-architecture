@@ -8,6 +8,7 @@ const required = [
   'dist/manifest.webmanifest',
   'dist/sw.js',
   'dist/robots.txt',
+  'dist/llms.txt',
   'dist/offline.html',
   'dist/atlas-sitemap.xml',
   'dist/article-sitemap.xml',
@@ -167,6 +168,18 @@ if (articleReader.includes('dangerouslySetInnerHTML') || !articleReader.includes
 
 const robots = await readFile(join(root, 'dist/robots.txt'), 'utf8');
 if (!robots.includes('OAI-SearchBot') || !robots.includes('Allow: /')) throw new Error('Search crawler policy missing');
+
+const sitemapHost = String(process.env.VITE_SITE_URL || 'https://worldarchjournal.com').replace(/\\/$/, '');
+for (const sitemapFile of ['sitemap.xml', 'article-sitemap.xml', 'video-sitemap.xml', 'atlas-sitemap.xml', 'news-sitemap.xml']) {
+  if (!robots.includes(`Sitemap: ${sitemapHost}/${sitemapFile}`)) throw new Error(`robots.txt does not advertise ${sitemapFile}`);
+  const xml = await readFile(join(root, 'dist', sitemapFile), 'utf8');
+  if (!xml.startsWith('<?xml') || !xml.includes('<urlset')) throw new Error(`Invalid sitemap XML shell: ${sitemapFile}`);
+}
+const llms = await readFile(join(root, 'dist/llms.txt'), 'utf8');
+if (!llms.includes('https://worldarchjournal.com/magazine/') || !llms.includes('https://worldarchjournal.com/projects/')) {
+  throw new Error('AI discovery file lacks canonical navigation links.');
+}
+
 
 const staticArticle = await readFile(join(root, 'dist/articles/courtyard-wind-house-passive-cooling/index.html'), 'utf8');
 if (!staticArticle.includes('"@type":"Article"') || !staticArticle.includes('rel="canonical"') || !staticArticle.includes('og:image:alt')) throw new Error('Dedicated article SEO page is incomplete.');
