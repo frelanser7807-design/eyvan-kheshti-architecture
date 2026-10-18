@@ -342,7 +342,7 @@ export default function EditorialSections({ content, language, onExplore, onOpen
       <footer className="ek-scroll-footer">
         <span>WORLD ARCH by FARNAZ · ARCHITECTURE MEDIA &amp; DESIGN</span>
         {socialLinks.length > 0 && <nav className="ek-social-links" aria-label="Social profiles">{socialLinks.map((item) => <a key={item.id || item.url} href={item.url} target="_blank" rel="me noopener noreferrer">{item.label}</a>)}</nav>}
-        <nav aria-label="Legal"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/affiliate-disclosure/">Affiliate Disclosure</a><a href="/editorial-policy/">Editorial Policy</a><a href="/cookie-settings/">Cookie Settings</a></nav>
+        <nav aria-label="Legal"><a href="/payments/">Payments</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/affiliate-disclosure/">Affiliate Disclosure</a><a href="/editorial-policy/">Editorial Policy</a><a href="/cookie-settings/">Cookie Settings</a></nav>
         <button type="button" onClick={onContact}>{text.contact} ↗</button>
       </footer>
     </div>
