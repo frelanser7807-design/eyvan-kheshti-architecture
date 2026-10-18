@@ -29,6 +29,8 @@ import modernVillaReimagined from './modernVillaReimagined.js';
 const courtyardWindHouse = {
   id: 'article-courtyard-wind-house-passive-cooling',
   slug: 'courtyard-wind-house-passive-cooling',
+  // Earliest preserved published source record: commit f5b727b, 16 September 2026.
+  publishedAt: '2026-09-16',
   title: 'The House After the Grid: Five Passive-Cooling Moves',
   seoTitle: 'Passive Cooling Architecture: 5 Courtyard Design Moves',
   metaDescription: 'Explore five passive-cooling design moves using shade, courtyards, thermal mass, ventilation and adaptive operation in a hot-dry house study.',

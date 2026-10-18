@@ -24,3 +24,7 @@
 /downloads/videos/*
   X-Robots-Tag: noindex, nofollow
   Content-Disposition: attachment
+
+/rss.xml
+  Content-Type: application/rss+xml; charset=utf-8
+  Cache-Control: public, max-age=0, must-revalidate
