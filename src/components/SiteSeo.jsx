@@ -5,6 +5,7 @@ import { promptItems } from '../data/promptLibrary.js';
 import { newsletterIssues, editorialArticles, editorialPath } from '../data/newsletters.js';
 import { projects } from '../data/projects.js';
 import { publishedVideoStories } from '../data/videoStories.js';
+import { watchVideoEntries, watchPagePath } from '../data/watchVideos.js';
 import { atlasVilla } from '../data/atlasVilla.js';
 
 const FALLBACK_SITE_URL = 'https://worldarchjournal.com';
@@ -225,7 +226,7 @@ export default function SiteSeo({ content, route }) {
 
     if (route?.name === 'video-library') {
       structuredData = { '@context': 'https://schema.org', '@graph': [
-        { '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, hasPart: publishedVideoStories.map((video) => ({ '@type': 'VideoObject', name: video.title, description: video.description, thumbnailUrl: [video.thumbnail], uploadDate: video.uploadDate, duration: video.duration, embedUrl: `https://www.youtube-nocookie.com/embed/${video.youtubeId}`, url: `${siteUrl}/videos/${video.slug}/` })) },
+        { '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, hasPart: [...publishedVideoStories.map((video) => ({ '@type': 'WebPage', name: video.title, url: `${siteUrl}/videos/${video.slug}/` })), ...watchVideoEntries.map((video) => ({ '@type': 'WebPage', name: video.title, url: `${siteUrl}${watchPagePath(video)}` }))] },
         breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Videos', pathname: '/videos/' }]),
       ] };
     } else if (route?.name === 'video-story' && item) {
@@ -280,7 +281,6 @@ export default function SiteSeo({ content, route }) {
       structuredData = { '@context': 'https://schema.org', '@graph': [
         creativeWork,
         breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'AI Prompt Library', pathname: '/prompts/' }, { name: item.title, pathname: normalizedPath }]),
-        ...(item.video ? [{ '@type': 'VideoObject', name: `${item.title} example`, description: item.summary, thumbnailUrl: [image], contentUrl: absoluteAsset(siteUrl, item.video), uploadDate: item.publishedAt || '2026-09-26', mainEntityOfPage: canonicalUrl }] : []),
       ] };
     } else if (legalTitle) {
       structuredData = { '@context': 'https://schema.org', '@type': 'WebPage', name: legalTitle, description, url: canonicalUrl, inLanguage: 'en', publisher };
