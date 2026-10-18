@@ -40,7 +40,7 @@ const definitions = [
       'Climate design begins before equipment selection. Orientation, shade, envelope depth, urban surfaces, ventilation paths and the sequence between inside and outside determine how much work a building asks its systems to do.',
       'This archive brings building-scale and street-scale decisions together. Each story identifies the climate assumptions behind a strategy and marks the point where modelling, engineering, code review or measured performance is still required.',
     ],
-    articleSlugs: ['urban-heat-cool-streets-design', 'passive-house-vs-net-zero-architecture', 'small-courtyard-design-light-privacy-cooling', 'climate-responsive-facades-cooling-design', 'courtyard-wind-house-passive-cooling'],
+    articleSlugs: ['balcony-thermal-bridges-slab-edge', 'urban-heat-cool-streets-design', 'passive-house-vs-net-zero-architecture', 'small-courtyard-design-light-privacy-cooling', 'climate-responsive-facades-cooling-design', 'courtyard-wind-house-passive-cooling'],
   },
   {
     slug: 'climate-resilient-homes',
@@ -60,7 +60,7 @@ const definitions = [
       'A low-carbon material claim is only useful when its unit, scope, geography, strength, service life and building-level consequences are visible.',
       'This collection helps architects compare evidence without treating one product label as a complete carbon strategy. Procurement and project claims still require current, product-specific documentation.',
     ],
-    articleSlugs: ['low-carbon-concrete-epd-guide', 'mass-timber-architecture-clt-design-guide', 'prefab-vs-modular-homes', 'rainscreen-facade-design-water-control', 'low-e-triple-glazing-smart-glass-guide'],
+    articleSlugs: ['design-for-disassembly-reversible-buildings', 'low-carbon-concrete-epd-guide', 'mass-timber-architecture-clt-design-guide', 'prefab-vs-modular-homes', 'rainscreen-facade-design-water-control', 'low-e-triple-glazing-smart-glass-guide'],
   },
   {
     slug: 'healthy-adaptable-homes',
@@ -90,7 +90,7 @@ const definitions = [
       'A facade is simultaneously weather control, thermal boundary, daylight filter, maintenance surface and public face. Good design depends on how those roles meet at openings, edges, joints and changes of material.',
       'The stories in this topic translate envelope principles into decisions architects can inspect: drainage paths, cavities, shading, continuity and tolerances. Product choice and final details must still follow local codes, testing and manufacturer guidance.',
     ],
-    articleSlugs: ['low-e-triple-glazing-smart-glass-guide', 'rainscreen-facade-design-water-control', 'climate-responsive-facades-cooling-design'],
+    articleSlugs: ['balcony-thermal-bridges-slab-edge', 'low-e-triple-glazing-smart-glass-guide', 'rainscreen-facade-design-water-control', 'climate-responsive-facades-cooling-design'],
   },
   {
     slug: 'inclusive-design',
@@ -120,7 +120,7 @@ const definitions = [
       'Adaptive reuse starts with an existing structure, but preservation alone is not the objective. The design must decide what carries cultural, spatial and embodied value, what can change safely and what new use can sustain the building over time.',
       'Our coverage connects survey, access, fire strategy, services, material recovery and long-term flexibility. It treats reuse as a design and evidence problem rather than a visual before-and-after story.',
     ],
-    articleSlugs: ['adaptive-reuse-architecture-preserve-value'],
+    articleSlugs: ['design-for-disassembly-reversible-buildings', 'adaptive-reuse-architecture-preserve-value'],
   },
   {
     slug: 'building-systems',
@@ -130,7 +130,7 @@ const definitions = [
       'Building systems influence cost, programme, carbon, tolerances, transport and the freedom to change a project later. Labels such as prefab, modular or mass timber are starting points, not automatic guarantees of speed or sustainability.',
       'This topic compares systems through the decisions that matter before procurement: geometry, interfaces, local capability, certification, logistics and whole-life performance. Claims are tied to sources and their limitations.',
     ],
-    articleSlugs: ['prefab-vs-modular-homes'],
+    articleSlugs: ['design-for-disassembly-reversible-buildings', 'prefab-vs-modular-homes'],
   },
   {
     slug: 'bim-revit',
