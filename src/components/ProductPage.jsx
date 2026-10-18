@@ -1,4 +1,5 @@
 import { assetUrl } from '../lib/assetUrl.js';
+import { watchVideoForSource, watchPagePath } from '../data/watchVideos.js';
 
 function validCheckoutUrl(value) {
   try {
@@ -80,12 +81,14 @@ export default function ProductPage({ product, products = [], missing = false, p
 
   const checkoutUrl = validCheckoutUrl(product.gumroadUrl || product.checkoutUrl || product.url);
   const provider = checkoutProvider(checkoutUrl);
+  const dedicatedWatchPage = watchVideoForSource(`/shop/${product.slug || product.id}/`);
   return (
     <main id="main-content" className="ek-commerce-page">
       <a className="ek-commerce-brand" href="/">WORLD ARCH JOURNAL <small>BY FARNAZ</small></a>
       <article className="ek-product-detail">
         <figure>{product.video ? <video controls muted playsInline preload="metadata" poster={assetUrl(product.image)} aria-label={`${product.title} video preview`}><source src={assetUrl(product.video)} type="video/mp4" />Your browser does not support embedded video.</video> : <img src={assetUrl(product.image)} alt={product.imageAlt || product.title} />}</figure>
         <div><small>{product.category}</small><h1>{product.title}</h1><p>{product.excerpt}</p>
+          {dedicatedWatchPage && <p><a href={watchPagePath(dedicatedWatchPage)}>Watch the dedicated video preview ↗</a></p>}
           {product.price && <strong>{formatPrice(product.price, product.currency)}</strong>}
           {checkoutUrl ? <a className="ek-checkout-button" href={checkoutUrl} target="_blank" rel="noopener noreferrer">Buy securely on {provider} ↗</a> : <span className="ek-checkout-disabled">Checkout opens after final product approval</span>}
           {provider === 'Etsy' && <small className="ek-commerce-note">Payment, download delivery and order support are completed on Etsy. WORLD ARCH JOURNAL does not collect card details.</small>}

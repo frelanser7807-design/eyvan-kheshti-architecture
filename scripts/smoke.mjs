@@ -223,6 +223,16 @@ const videoPage = await readFile(join(root, 'dist/videos/how-stone-arches-carry-
 if (!videoPage.includes('VideoObject') || !videoPage.includes('youtube-nocookie.com/embed/0pE7K9EEYvg') || !videoPage.includes('What the sequence shows')) throw new Error('Architecture video landing page is incomplete.');
 const videoSitemap = await readFile(join(root, 'dist/video-sitemap.xml'), 'utf8');
 if (!videoSitemap.includes('/videos/how-stone-arches-carry-load/') || !videoSitemap.includes('<video:player_loc')) throw new Error('Video sitemap is incomplete.');
+// Dedicated hosted-video watch pages must not be replaced by the SPA's 404 route.
+const { watchVideoEntries, watchPagePath } = await import('../src/data/watchVideos.js');
+for (const video of watchVideoEntries) {
+  const videoPage = await readFile(join(root, 'dist', ...watchPagePath(video).split('/').filter(Boolean), 'index.html'), 'utf8');
+  if (!videoPage.includes('<video controls playsinline') || !videoPage.includes(`src="${video.file}"`)) throw new Error(`Watch page lacks its visible playable video: ${video.slug}`);
+  if (!videoPage.includes(`href="https://worldarchjournal.com${watchPagePath(video)}"`)) throw new Error(`Wrong watch canonical: ${video.slug}`);
+  if (!videoPage.includes('"@type":"VideoObject"') || !videoPage.includes(video.file)) throw new Error(`Watch page lacks video structured data: ${video.slug}`);
+  if (videoPage.includes('<script type="module"') || videoPage.includes('type="module" crossorigin')) throw new Error(`Watch page must not hydrate as an unknown SPA route: ${video.slug}`);
+  if (!videoSitemap.includes(`https://worldarchjournal.com${watchPagePath(video)}`)) throw new Error(`Watch page omitted from video sitemap: ${video.slug}`);
+}
 const articleSitemap = await readFile(join(root, 'dist/article-sitemap.xml'), 'utf8');
 if (!articleSitemap.includes('/articles/ai-in-architecture-2026-adoption-risks-rules/') || !articleSitemap.includes('/magazine/climate-resilient-homes/')) throw new Error('Article topic sitemap is incomplete.');
 if (!robots.includes('article-sitemap.xml') || !robots.includes('video-sitemap.xml')) throw new Error('Robots file must expose article and video sitemaps.');

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { assetUrl } from '../lib/assetUrl.js';
 import { promptCategories, promptItems } from '../data/promptLibrary.js';
+import { watchVideoForSource, watchPagePath } from '../data/watchVideos.js';
 import { copyPromptText, PromptSiteHeader } from './PromptLibrary.jsx';
 import { trackSiteEvent } from './AnalyticsConsent.jsx';
 import './PromptLibrary.css';
@@ -20,6 +21,7 @@ export default function PromptDetail({ item }) {
   const premium = item.access === 'premium';
   const category = promptCategories.find((entry) => entry.slug === item.category);
   const related = promptItems.filter((entry) => entry.id !== item.id && entry.category === item.category).slice(0, 3);
+  const dedicatedWatchPage = watchVideoForSource(`/prompts/${item.id}/`);
   const howToUse = item.howToUse || [
     'Upload a rights-cleared architectural reference image.',
     'Paste the main prompt into your image-to-video tool.',
@@ -44,6 +46,7 @@ export default function PromptDetail({ item }) {
               : <img src={assetUrl(item.image)} alt={`${item.title} prompt preview`} fetchPriority="high" />}
             <span>{premium ? '♛ PRO' : 'FREE'}</span>
           </figure>
+          {dedicatedWatchPage && <p><a href={watchPagePath(dedicatedWatchPage)}>Watch this example on its dedicated video page ↗</a></p>}
           <header><small>{category?.title} · {item.tool}</small><h1>{item.title}</h1><p>{item.summary}</p>{!premium && <div className="prompt-detail-quick-actions"><button type="button" onClick={() => copyValue('primary', item.prompt)}>{copied === 'primary' ? 'COPIED ✓' : copied === 'error-primary' ? 'SELECT PROMPT BELOW' : 'COPY FULL PROMPT'}</button><a href="#master-prompt">View the full prompt ↓</a></div>}</header>
         </div>
         {item.referenceFrames?.length > 0 && (
