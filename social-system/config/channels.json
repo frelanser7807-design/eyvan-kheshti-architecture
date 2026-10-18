@@ -9,18 +9,18 @@
     "studioRole": "Architecture Media & Design",
     "language": "en",
     "instagramUrl": "https://www.instagram.com/worldarchjournalbyfarnaz/",
-    "youtubeUrl": "https://www.youtube.com/@WorldArchByFarnaz",
+    "youtubeUrl": "https://www.youtube.com/@worldarchjournal",
     "whatsappUrl": "https://wa.me/447904600225",
     "pinterestUrl": "https://www.pinterest.com/frelanser7807/",
-    "linkedinUrl": "https://www.linkedin.com/in/frelanser-undefined-585abb436",
+    "linkedinUrl": "https://www.linkedin.com/in/worldarchjournal/",
     "facebookUrl": "https://www.facebook.com/1340272359161613"
   },
   "channels": {
-    "youtube": { "enabled": true, "status": "public_channel_available", "connectionStatus": "connected", "connectionProvider": "composio", "publicUrl": "https://www.youtube.com/@WorldArchByFarnaz", "formats": ["long_video", "short", "community_post"] },
+    "youtube": { "enabled": true, "status": "public_channel_available", "connectionStatus": "connected", "connectionProvider": "composio", "publicUrl": "https://www.youtube.com/@worldarchjournal", "formats": ["long_video", "short", "community_post"] },
     "instagram": { "enabled": true, "status": "business_profile_available", "connectionStatus": "connected", "connectionProvider": "composio", "publicUrl": "https://www.instagram.com/worldarchjournalbyfarnaz/", "requiresProfessionalAccount": true, "formats": ["reel", "carousel", "story"] },
     "facebook": { "enabled": true, "status": "business_page_available", "connectionStatus": "connected", "connectionProvider": "composio", "publicUrl": "https://www.facebook.com/1340272359161613", "formats": ["post", "reel", "story"] },
     "pinterest": { "enabled": true, "status": "public_profile_available", "connectionStatus": "connected", "connectionProvider": "composio", "publicUrl": "https://www.pinterest.com/frelanser7807/", "formats": ["pin", "idea_pin", "board"] },
-    "linkedin": { "enabled": true, "status": "profile_connected_metadata_incomplete", "connectionStatus": "connected", "connectionProvider": "composio", "publicUrl": "https://www.linkedin.com/in/frelanser-undefined-585abb436", "formats": ["article", "document_post", "image_post", "video_post"] },
+    "linkedin": { "enabled": true, "status": "profile_connected_metadata_incomplete", "connectionStatus": "connected", "connectionProvider": "composio", "publicUrl": "https://www.linkedin.com/in/worldarchjournal/", "formats": ["article", "document_post", "image_post", "video_post"] },
     "telegram": { "enabled": false, "status": "channel_and_admin_bot_required", "formats": ["post", "album", "video", "document"] },
     "rubika": { "enabled": false, "status": "official_api_verification_required", "formats": ["post", "video", "document"] },
     "whatsapp": { "enabled": true, "status": "public_contact_available_api_phone_verification_pending", "connectionStatus": "connected", "connectionProvider": "composio", "publicUrl": "https://wa.me/447904600225", "formats": ["conversation", "template_message", "lead_followup"] }

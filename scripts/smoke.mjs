@@ -74,7 +74,7 @@ for (const [pageRoot, pdfRoot, routePrefix] of [
 const html = await readFile(join(root, 'dist/index.html'), 'utf8');
 if (!html.includes('lang="en"') || !html.includes('dir="ltr"')) throw new Error('English metadata missing');
 if (!html.includes('index, follow') || !html.includes('Professional') && !html.includes('Architecture')) throw new Error('SEO shell missing');
-if (defaultContent.brand.linkedin !== 'https://www.linkedin.com/in/farnaz-ghaffarian-architecture/' || defaultContent.brand.socialLinks.find((item) => item.id === 'linkedin')?.url !== defaultContent.brand.linkedin) throw new Error('LinkedIn profile URL is not consistent with the verified public profile.');
+if (defaultContent.brand.linkedin !== 'https://www.linkedin.com/in/worldarchjournal/' || defaultContent.brand.socialLinks.find((item) => item.id === 'linkedin')?.url !== defaultContent.brand.linkedin) throw new Error('LinkedIn profile URL is not consistent with the verified public profile.');
 const contentAdapter = await readFile(join(root, 'src/lib/dataAdapter.js'), 'utf8');
 if (!contentAdapter.includes('brand.linkedin = defaultContent.brand.linkedin') || !contentAdapter.includes("fallback.id === 'linkedin'")) throw new Error('Saved site content can still restore the obsolete LinkedIn URL.');
 const staticAnalytics = await readFile(join(root, 'public/assets/site-analytics-static.js'), 'utf8');
@@ -89,7 +89,7 @@ if (!breadcrumbScript) throw new Error('Static article JSON-LD is missing.');
 const breadcrumbGraph = JSON.parse(breadcrumbScript[1]);
 const breadcrumbList = (breadcrumbGraph['@graph'] || [breadcrumbGraph]).find((item) => item['@type'] === 'BreadcrumbList');
 if (!breadcrumbList || breadcrumbList.itemListElement.length < 2 || breadcrumbList.itemListElement.some((item) => !item.name || !item.item)) throw new Error('Static article breadcrumb contains an unnamed or incomplete item.');
-if (!breadcrumbArticle.includes('farnaz-ghaffarian-architecture/')) throw new Error('Static article publisher schema is missing the verified LinkedIn profile.');
+if (!breadcrumbArticle.includes('worldarchjournal/')) throw new Error('Static article publisher schema is missing the verified LinkedIn profile.');
 
 const app = await readFile(join(root, 'src/App.jsx'), 'utf8');
 if (!app.includes("startsWith('#/admin')")) throw new Error('Admin route missing');
