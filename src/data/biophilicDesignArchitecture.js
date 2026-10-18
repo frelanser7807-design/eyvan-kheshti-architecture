@@ -107,7 +107,7 @@ const biophilicDesignArchitecture = {
     ['FORMAT', 'Evidence-led international architecture guide'],
     ['AUDIENCE', 'Architects, clients, students and facility teams'],
     ['GEOGRAPHY', 'International · Climate and local codes apply'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '23 September 2026'],
     ['VISUAL MIX', '3 licensed photographs · 2 original diagrams'],
   ],
@@ -137,7 +137,7 @@ const biophilicDesignArchitecture = {
   audience: 'Architects, design students, clients and facility teams planning nature-connected buildings',
   cta: 'Use the ten-move checklist to turn biophilic intent into a testable user journey, then explore World Arch Journal’s climate-design library.',
   tags: ['Biophilic Design', 'Wellbeing Architecture', 'Green Architecture', 'Landscape Architecture', 'Post-Occupancy Evaluation'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

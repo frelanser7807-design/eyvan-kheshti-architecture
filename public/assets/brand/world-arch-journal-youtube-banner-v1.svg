@@ -27,7 +27,7 @@
   </defs>
 
   <image href="world-arch-journal-youtube-bg-v1.png" x="0" y="0" width="2560" height="1440" preserveAspectRatio="xMidYMid slice"/>
-  <image href="../film/posters/founder-hero.jpg" x="-410" y="0" width="2560" height="1440" preserveAspectRatio="xMidYMid slice" mask="url(#portrait-mask)"/>
+  <image href="world-arch-wa-mark-v1.png" x="-410" y="0" width="2560" height="1440" preserveAspectRatio="xMidYMid slice" mask="url(#portrait-mask)"/>
   <rect width="2560" height="1440" fill="url(#shade)"/>
 
   <g opacity="0.72" stroke="#dbc18e" fill="none" stroke-width="2">
@@ -49,6 +49,6 @@
     <line x1="266" y1="58" x2="266" y2="242" stroke="#ead9b6" stroke-opacity="0.34"/>
     <text x="314" y="132" fill="#f5efe4" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="600" letter-spacing="5">WORLD ARCH</text>
     <text x="314" y="198" fill="#f5efe4" font-family="Georgia, 'Times New Roman', serif" font-size="42" letter-spacing="8">JOURNAL</text>
-    <text x="316" y="239" fill="#dbc18e" font-family="Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="7">BY FARNAZ · ARCHITECTURE / BIM / PLACES</text>
+    <text x="316" y="239" fill="#dbc18e" font-family="Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="7">ARCHITECTURE / BIM / PLACES</text>
   </g>
 </svg>

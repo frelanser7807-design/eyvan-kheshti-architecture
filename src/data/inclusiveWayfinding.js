@@ -68,7 +68,7 @@ const inclusiveWayfinding = {
     ['PRIMARY KEYWORD', 'Inclusive wayfinding design'],
     ['SECONDARY KEYWORDS', 'Public building navigation · accessible signage · legible routes'],
     ['SEARCH INTENT', 'Spatial planning · signs · user testing'],
-    ['AUTHOR', 'Farnaz Ghaffarian'],
+    ['AUTHOR', 'World Arch Journal'],
     ['PUBLISHED', '11 October 2026'],
     ['VISUAL MIX', '1 AI-assisted editorial image · 3 original diagrams'],
   ],
@@ -94,7 +94,7 @@ const inclusiveWayfinding = {
   audience: 'Architects, access consultants, public-sector clients, facility managers, cultural institutions and civic-building teams',
   cta: 'Choose one public journey and review it at every decision point with first-time visitors and access users before finalising the sign package.',
   tags: ['Inclusive Architecture', 'Wayfinding Design', 'Accessible Signage', 'Public Buildings', 'Universal Design', 'Accessibility'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

@@ -100,7 +100,7 @@ const massTimberArchitecture = {
     ['FORMAT', 'Evidence-led international technical guide'],
     ['AUDIENCE', 'Architects, clients, engineers and students'],
     ['GEOGRAPHY', 'International · Local codes and supply apply'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '26 September 2026'],
     ['VISUAL MIX', '3 licensed photographs · 2 original diagrams'],
   ],
@@ -130,7 +130,7 @@ const massTimberArchitecture = {
   audience: 'Architects, clients, engineers and students evaluating CLT and hybrid mass-timber systems',
   cta: 'Use the eight-gate checklist before committing to CLT, then explore World Arch Journal’s building-systems and climate-design library.',
   tags: ['Mass Timber', 'CLT Architecture', 'Timber Construction', 'Building Systems', 'Low Carbon Design'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

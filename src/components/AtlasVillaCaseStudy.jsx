@@ -4,7 +4,7 @@ import './AtlasVillaCaseStudy.css';
 export default function AtlasVillaCaseStudy() {
   return (
     <main className="atlas-case-page">
-      <header><a href="/">WORLD ARCH JOURNAL <span>BY FARNAZ</span></a><nav><a href="/projects/">Selected work</a><a href="/services/">Design services</a></nav></header>
+      <header><a href="/">WORLD ARCH JOURNAL </a><nav><a href="/projects/">Selected work</a><a href="/services/">Design services</a></nav></header>
       <section className="atlas-case-hero" style={{ '--atlas-cover': `url("${atlasVilla.cover}")` }}>
         <div><small>STUDIO DESIGN STUDY · RESIDENTIAL</small><h1>Atlas Villa</h1><p>{atlasVilla.subtitle}</p><span>{atlasVilla.role}</span></div>
       </section>

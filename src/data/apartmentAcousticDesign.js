@@ -89,7 +89,7 @@ const apartmentAcousticDesign = {
     ['FORMAT', 'Evidence-led international design guide'],
     ['PRIMARY KEYWORD', 'Apartment acoustic design'],
     ['SEARCH INTENT', 'Noise control · details · sound insulation'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '8 October 2026'],
     ['VISUAL MIX', '1 AI-assisted editorial image · 3 original diagrams'],
   ],
@@ -115,7 +115,7 @@ const apartmentAcousticDesign = {
   audience: 'Architects, interior designers, housing developers, contractors, students and apartment owners planning noise-control improvements',
   cta: 'Use the ten details to review one typical apartment plan and section, then confirm project metrics and assemblies with a qualified acoustician.',
   tags: ['Apartment Acoustic Design', 'Sound Insulation', 'Interior Architecture', 'Housing Design', 'Building Performance'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

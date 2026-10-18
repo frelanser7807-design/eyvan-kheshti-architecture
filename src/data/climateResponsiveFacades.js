@@ -99,7 +99,7 @@ const climateResponsiveFacades = {
     ['FORMAT', 'Evidence-led explainer'],
     ['AUDIENCE', 'Architects, designers and building-performance teams'],
     ['GEOGRAPHY', 'International · Climate-specific application required'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '20 September 2026'],
     ['DISCLOSURE', 'AI-assisted hero; original editorial diagrams'],
   ],
@@ -195,7 +195,7 @@ const climateResponsiveFacades = {
   audience: 'Architects, facade designers, students and building-performance professionals',
   cta: 'Explore more evidence-led architecture, original diagrams and climate-design studies across WORLD ARCH JOURNAL.',
   tags: ['Climate-Responsive Facades', 'Facade Design', 'Passive Cooling', 'Building Envelope', 'Sustainable Architecture'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   imageCredit: 'AI-assisted editorial concept directed by WORLD ARCH JOURNAL',
   socialAssets: {
     pinterest: '/assets/articles/climate-responsive-facades/social-pinterest-2x3-v1.webp',

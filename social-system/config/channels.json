@@ -1,12 +1,12 @@
 {
   "version": 2,
   "brand": {
-    "creatorName": "Farnaz Ghaffarian",
+    "creatorName": "World Arch Journal",
     "displayName": "WORLD ARCH JOURNAL",
-    "primaryHandleCandidate": "worldarchjournalbyfarnaz",
-    "fallbackHandleCandidates": ["farnazghaffarian.design", "farnaz.archstudio", "farnaz.bimstudio"],
+    "primaryHandleCandidate": "worldarchjournal",
+    "fallbackHandleCandidates": ["worldarchjournal.design", "worldarchjournal.studio", "worldarchjournal.architecture"],
     "studioName": "WORLD ARCH JOURNAL",
-    "studioRole": "Founder & Creative Director",
+    "studioRole": "Architecture Media & Design",
     "language": "en",
     "instagramUrl": "https://www.instagram.com/worldarchjournalbyfarnaz/",
     "youtubeUrl": "https://www.youtube.com/@WorldArchByFarnaz",

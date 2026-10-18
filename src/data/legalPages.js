@@ -37,7 +37,7 @@ export const legalPages = {
     eyebrow: 'EDITORIAL',
     title: 'Editorial Standards & Corrections',
     lastUpdated: '2026-09-28',
-    intro: 'World Arch Journal is an independent architecture publication by Farnaz Ghaffarian. Its briefing distinguishes verified source information, analysis and visual interpretation.',
+    intro: 'World Arch Journal is an independent architecture publication. Its briefing distinguishes verified source information, analysis and visual interpretation.',
     sections: [
       ['What we publish', 'News analysis explains the significance of dated, attributed announcements; it is not presented as first-hand reporting unless the work includes direct reporting. Field notes and visual explainers are labelled separately. Publication dates describe the page, not the date of an event being discussed.'],
       ['Sources and verification', 'We prefer primary documents and identify the organisation behind each material claim. A single press release is attributed as that organisation’s statement, not independently established fact. We seek independent corroboration for disputed, consequential or technical claims. RSS and other publications are discovery tools, not text to republish.'],
@@ -54,10 +54,10 @@ export const legalPages = {
   '/editorial-team/': {
     eyebrow: 'ABOUT THE PUBLISHER',
     title: 'About World Arch Journal',
-    portrait: { src: '/assets/brand/farnaz-professional-profile-v6.png', srcWebp: '/assets/brand/farnaz-professional-profile-v6.webp', alt: 'Farnaz Ghaffarian, architect, interior designer and founder of World Arch Journal', caption: 'Farnaz Ghaffarian · Architect & Interior Designer', width: 1080, height: 1080 },
+    portrait: { src: '/assets/brand/world-arch-wa-mark-v1.png', alt: 'World Arch Journal logo', caption: 'World Arch Journal · Architecture & Design', width: 1280, height: 1280 },
     lastUpdated: '2026-10-18',
-    metaDescription: 'Meet Farnaz Ghaffarian and World Arch Journal: practical architecture guides, villa and facade design, interiors, landscape concepts, visualisation and BIM.',
-    intro: 'World Arch Journal is an independent architecture publication and design platform founded and edited by Farnaz Ghaffarian, a licensed architect and interior designer with 15 years of professional experience, practising since 2011.',
+    metaDescription: 'Discover World Arch Journal: practical architecture guides, villa and facade design, interiors, landscape concepts, visualisation and BIM.',
+    intro: 'World Arch Journal is an independent architecture publication and design platform exploring residential architecture, interiors, landscape, materials and building science. We connect practical design knowledge with architectural and interior design services.',
     sections: [
       ['Architecture for everyday decisions', 'We publish practical, research-backed guides to residential architecture, connecting design ideas with building science, material choices and everyday use. Our readers are homeowners, builders and fellow architects who want to understand how better buildings are designed.'],
       ['What we cover', [
@@ -65,9 +65,9 @@ export const legalPages = {
         'In-depth explorations of materials, facade systems and sustainable design choices.',
         'Contemporary villa design and case studies from real projects, alongside clearly labelled design concepts.',
       ]],
-      ['Design services', 'Alongside the journal, Farnaz offers architectural and interior design services, including floor plans, villa design, facade design, interiors, landscape concepts, architectural visualisation and BIM/Revit documentation. From individual rooms and facades to coordinated residential projects, each commission is developed around the client’s brief and an agreed scope.'],
+      ['Design services', 'Alongside the journal, World Arch Journal offers architectural and interior design services, including floor plans, villa design, facade design, interiors, landscape concepts, architectural visualisation and BIM/Revit documentation. From individual rooms and facades to coordinated residential projects, each commission is developed around the client’s brief and an agreed scope.'],
       ['Our approach', 'We make architectural knowledge useful beyond the image. Each guide aims to explain the evidence, the design reasoning and the limits of what can be claimed. Sources and visual credits are identified, and conceptual illustrations are distinguished from documented built work.'],
-      ['Editor', 'Farnaz Ghaffarian — Architect & Interior Designer. Founder and editor of World Arch Journal.'],
+      ['Publisher', 'World Arch Journal · Architecture, Interiors, Landscape, Visualisation & BIM.'],
       ['Contact', 'For editorial enquiries, corrections or architecture projects, please get in touch through our contact page.'],
     ],
     links: [

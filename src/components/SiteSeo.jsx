@@ -63,7 +63,7 @@ export default function SiteSeo({ content, route }) {
     const isCanonicalHost = ['worldarchjournal.com', 'www.worldarchjournal.com'].includes(window.location.hostname);
 
     let title = 'WORLD ARCH JOURNAL | Facade, Spatial Design & Visualisation';
-    let description = 'Explore global architecture, bespoke facade design, spatial design, architectural visualisation, BIM and Revit resources, original magazines and evidence-led research by Farnaz Ghaffarian.';
+    let description = 'Explore global architecture, bespoke facade design, spatial design, architectural visualisation, BIM and Revit resources, original magazines and evidence-led research by World Arch Journal.';
     let image = absoluteAsset(siteUrl, DEFAULT_IMAGE);
     let ogType = 'website';
 
@@ -116,14 +116,14 @@ export default function SiteSeo({ content, route }) {
       image = absoluteAsset(siteUrl, '/assets/candidates/office-world/scene-06-material-model-lab-v1.png');
     } else if (route?.name === 'design-services') {
       title = `Architecture & Interior Design Services | ${name}`;
-      description = 'Explore villa and residential design, floor plans, facade design, kitchens, living rooms, bathrooms, courtyards, gardens, roof gardens and coordinated design packages by Farnaz Ghaffarian.';
+      description = 'Explore villa and residential design, floor plans, facade design, kitchens, living rooms, bathrooms, courtyards, gardens, roof gardens and coordinated design packages by World Arch Journal.';
       image = absoluteAsset(siteUrl, atlasVilla.cover);
     } else if (route?.name === 'custom-plan-design') {
       title = `Architecture & Interior Design Project Enquiry | ${name}`;
       description = 'Send a project brief for villa design, floor plans, facade, kitchen, living spaces, bathrooms, gardens, roof gardens, render concepts or a combined architecture package.';
     } else if (route?.name === 'atlas-villa') {
       title = `Atlas Villa — Residential Architecture Design Study | ${name}`;
-      description = 'Explore Atlas Villa, a residential architectural design study by Farnaz Ghaffarian, with selected interior concepts, a ground-floor plan presentation and a link to the digital project package.';
+      description = 'Explore Atlas Villa, a residential architectural design study by World Arch Journal, with selected interior concepts, a ground-floor plan presentation and a link to the digital project package.';
       image = absoluteAsset(siteUrl, atlasVilla.cover);
     } else if (route?.name === 'projects-hub') {
       title = `Immersive Architecture Projects | ${name}`;
@@ -217,7 +217,6 @@ export default function SiteSeo({ content, route }) {
       areaServed: 'International',
       availableLanguage: ['English'],
       serviceType: (content?.services || []).map((service) => service.title),
-      ...(brand.founderName ? { founder: { '@type': 'Person', name: brand.founderName, jobTitle: brand.founderRole || 'Founder & Creative Director' } } : {}),
     };
 
     if (route?.name === 'video-library') {
@@ -237,7 +236,7 @@ export default function SiteSeo({ content, route }) {
     } else if (route?.name === 'custom-plan-design') {
       structuredData = { '@context': 'https://schema.org', '@type': 'ContactPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, about: 'Architecture and interior design project enquiries' };
     } else if (route?.name === 'atlas-villa') {
-      structuredData = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: atlasVilla.title, alternateName: 'Residential architectural design study', description, url: canonicalUrl, image, inLanguage: 'en', creator: { '@type': 'Person', name: 'Farnaz Ghaffarian' }, about: ['Residential architecture', 'Villa design', 'Interior concepts', 'Architectural visualisation'], subjectOf: { '@type': 'Product', name: 'Atlas Villa digital project package', url: atlasVilla.etsyUrl }, publisher };
+      structuredData = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: atlasVilla.title, alternateName: 'Residential architectural design study', description, url: canonicalUrl, image, inLanguage: 'en', creator: { '@type': 'Organization', name: 'World Arch Journal' }, about: ['Residential architecture', 'Villa design', 'Interior concepts', 'Architectural visualisation'], subjectOf: { '@type': 'Product', name: 'Atlas Villa digital project package', url: atlasVilla.etsyUrl }, publisher };
     } else if (route?.name === 'projects-hub') {
       structuredData = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, hasPart: projects.map((project) => ({ '@type': 'CreativeWork', name: project.title, url: `${siteUrl}${project.detailPath}`, image: absoluteAsset(siteUrl, project.cover) })) };
     } else if (route?.name === 'project' && item) {
@@ -253,7 +252,7 @@ export default function SiteSeo({ content, route }) {
     } else if (['newsletter-issue', 'analysis-article'].includes(route?.name) && item) {
       const archivePath = route.name === 'newsletter-issue' ? '/newsletter/' : '/magazine/analysis/';
       structuredData = { '@context': 'https://schema.org', '@graph': [
-        { '@type': route.name === 'newsletter-issue' ? 'NewsArticle' : 'Article', headline: item.title, description, mainEntityOfPage: canonicalUrl, image: [image], author: { '@type': 'Person', name: item.author, url: `${siteUrl}${item.authorUrl}` }, publisher, datePublished: item.publishedAt, ...(item.updatedAt ? { dateModified: item.updatedAt } : {}), articleSection: item.format, inLanguage: 'en', isAccessibleForFree: true },
+        { '@type': route.name === 'newsletter-issue' ? 'NewsArticle' : 'Article', headline: item.title, description, mainEntityOfPage: canonicalUrl, image: [image], author: { '@type': 'Organization', name: item.author, url: `${siteUrl}${item.authorUrl}` }, publisher, datePublished: item.publishedAt, ...(item.updatedAt ? { dateModified: item.updatedAt } : {}), articleSection: item.format, inLanguage: 'en', isAccessibleForFree: true },
         breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: route.name === 'newsletter-issue' ? 'Newsletter' : 'Analysis', pathname: archivePath }, { name: item.title, pathname: normalizedPath }]),
       ] };
     } else if (route?.name === 'magazine-hub' || (route?.name === 'magazine-category' && item)) {
@@ -263,7 +262,7 @@ export default function SiteSeo({ content, route }) {
       structuredData = {
         '@context': 'https://schema.org',
         '@graph': [
-          { '@type': 'Article', headline: item.title, description: item.metaDescription || item.excerpt, mainEntityOfPage: canonicalUrl, image: [image], author: { '@type': 'Person', name: item.author || brand.founderName, url: `${siteUrl}/editorial-team/` }, publisher, articleSection: item.category, keywords: (item.tags || []).join(', '), inLanguage: 'en', isAccessibleForFree: true, ...(item.publishedAt ? { datePublished: item.publishedAt } : {}), ...(item.modifiedAt ? { dateModified: item.modifiedAt } : {}) },
+          { '@type': 'Article', headline: item.title, description: item.metaDescription || item.excerpt, mainEntityOfPage: canonicalUrl, image: [image], author: { '@type': 'Organization', name: item.author || 'World Arch Journal', url: `${siteUrl}/editorial-team/` }, publisher, articleSection: item.category, keywords: (item.tags || []).join(', '), inLanguage: 'en', isAccessibleForFree: true, ...(item.publishedAt ? { datePublished: item.publishedAt } : {}), ...(item.modifiedAt ? { dateModified: item.modifiedAt } : {}) },
           breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Magazine', pathname: '/magazine/' }, { name: item.title, pathname: normalizedPath }]),
           ...(item.faq?.length ? [{ '@type': 'FAQPage', mainEntity: item.faq.map((entry) => ({ '@type': 'Question', name: entry.question, acceptedAnswer: { '@type': 'Answer', text: entry.answer } })) }] : []),
         ],

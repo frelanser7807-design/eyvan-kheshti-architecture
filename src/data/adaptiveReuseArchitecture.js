@@ -99,7 +99,7 @@ const adaptiveReuseArchitecture = {
     ['FORMAT', 'Evidence-led international explainer'],
     ['AUDIENCE', 'Architects, clients, developers and design students'],
     ['GEOGRAPHY', 'International · Local codes and heritage rules apply'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '20 September 2026'],
     ['IMAGE MIX', '5 licensed photographs · 5 diagrams · 1 labelled AI concept'],
   ],
@@ -196,7 +196,7 @@ const adaptiveReuseArchitecture = {
   audience: 'Architects, clients, developers, conservation teams and design students',
   cta: 'Explore more evidence-led architecture, original diagrams and design research across WORLD ARCH JOURNAL.',
   tags: ['Adaptive Reuse', 'Circular Architecture', 'Building Renovation', 'Embodied Carbon', 'Heritage Architecture'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   imageCredit: 'The Car Spy / Wikimedia Commons · CC BY 2.0 · cropped by WORLD ARCH JOURNAL',
   socialAssets: {
     pinterest: '/assets/articles/adaptive-reuse-architecture/social-pinterest-2x3-v1.webp',

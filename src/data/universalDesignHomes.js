@@ -110,7 +110,7 @@ const universalDesignHomes = {
     ['FORMAT', 'Evidence-led international design explainer'],
     ['PRIMARY KEYWORD', 'Universal design homes'],
     ['SEARCH INTENT', 'Ageing in place · accessible housing · room guide'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '6 October 2026'],
     ['VISUAL MIX', '4 original AI-assisted illustrations · 4 original diagrams'],
   ],
@@ -142,7 +142,7 @@ const universalDesignHomes = {
   audience: 'Architects, homeowners, housing providers, students and families planning accessible or age-friendly homes',
   cta: 'Use the twelve-detail framework to audit one complete route through a real home, then verify every dimension with local rules and the people who will use it.',
   tags: ['Universal Design Homes', 'Ageing in Place', 'Accessible Housing', 'Age-Friendly Design', 'Inclusive Architecture', 'Home Adaptation'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

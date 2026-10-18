@@ -54,7 +54,7 @@ export default function MagazineHub({ category = null }) {
           <h1 id="wj-magazine-title">{title}</h1>
           <p>{description}</p>
           {category?.overview?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-          <div className="wj-magazine-intro-foot"><span>{String(articles.length).padStart(2, '0')} published {articles.length === 1 ? 'story' : 'stories'}</span><span>Edited by Farnaz Ghaffarian</span></div>
+          <div className="wj-magazine-intro-foot"><span>{String(articles.length).padStart(2, '0')} published {articles.length === 1 ? 'story' : 'stories'}</span><span>Edited by World Arch Journal</span></div>
         </section>
 
         <nav className="wj-magazine-topics" aria-label="Magazine topics">

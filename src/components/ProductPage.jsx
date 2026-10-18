@@ -48,7 +48,7 @@ export default function ProductPage({ product, products = [], missing = false, p
   if (missing) {
     return (
       <main id="main-content" className="ek-commerce-page ek-commerce-empty">
-        <a className="ek-commerce-brand" href="/">WORLD ARCH JOURNAL <small>BY FARNAZ</small></a>
+        <a className="ek-commerce-brand" href="/">WORLD ARCH JOURNAL </a>
         <section><small>404</small><h1>This page is not available.</h1><p>The requested editorial item is unpublished or does not exist.</p><a href="/">Return to the journal ↗</a></section>
       </main>
     );
@@ -58,7 +58,7 @@ export default function ProductPage({ product, products = [], missing = false, p
     const contactUrl = /^https:\/\/wa\.me\/[0-9]+$/.test(String(whatsappUrl || '')) ? whatsappUrl : '';
     const presentationProducts = products.filter((item) => /presentation|powerpoint|slide/i.test(`${item.category} ${item.title}`));
     return <main id="main-content" className="ek-commerce-page ek-presentation-page">
-      <a className="ek-commerce-brand" href="/">WORLD ARCH JOURNAL <small>BY FARNAZ</small></a>
+      <a className="ek-commerce-brand" href="/">WORLD ARCH JOURNAL </a>
       <nav className="ek-commerce-breadcrumb" aria-label="Breadcrumb"><a href="/shop/">Shop</a><span>/</span><span>Presentation Studio</span></nav>
       <header><small>ARCHITECTURAL COMMUNICATION</small><h1>Presentation Studio</h1><p>Architecture deserves a presentation that explains the idea, not just a beautiful cover. Explore the four formats we are developing for ready-to-edit templates and tailored commissions.</p><div className="ek-commerce-actions">{shopUrl && <a className="ek-checkout-button" href={shopUrl} target="_blank" rel="noopener noreferrer">Browse the Etsy shop ↗</a>}{contactUrl && <a className="ek-commerce-outline" href={contactUrl} target="_blank" rel="noopener noreferrer">Discuss a custom project ↗</a>}</div><small className="ek-commerce-note">Available files, formats and prices are confirmed on each Etsy listing. No on-site checkout is active.</small></header>
       {presentationProducts.length > 0 && <section className="ek-commerce-featured" aria-labelledby="ready-made-templates"><div><small>READY-MADE TEMPLATE</small><h2 id="ready-made-templates">Shop editable presentation templates</h2><p>Review the preview, price and licence on the product page, then complete payment and delivery securely on Etsy.</p></div><div className="ek-commerce-grid">{presentationProducts.map((item) => <ProductCard item={item} key={item.id} />)}</div></section>}
@@ -70,7 +70,7 @@ export default function ProductPage({ product, products = [], missing = false, p
   if (!product) {
     return (
       <main id="main-content" className="ek-commerce-page">
-        <a className="ek-commerce-brand" href="/">WORLD ARCH JOURNAL <small>BY FARNAZ</small></a>
+        <a className="ek-commerce-brand" href="/">WORLD ARCH JOURNAL </a>
         <header><small>CURATED DIGITAL PRODUCTS &amp; SERVICES</small><h1>Architecture Shop</h1><p>Explore architecture presentation formats, original BIM resources, editorial e-books and learning products. Ready-made files will be listed with their actual formats, licences and prices after review; bespoke work begins with a clear brief.</p><div className="ek-commerce-actions"><a className="ek-checkout-button" href="/shop/presentations/">Explore Presentation Studio ↗</a>{shopUrl && <a className="ek-commerce-outline" href={shopUrl} target="_blank" rel="noopener noreferrer">Visit our Etsy shop ↗</a>}</div><small className="ek-commerce-note">Etsy purchases complete on Etsy. This website does not collect card details or process payments.</small></header>
         <section className="ek-commerce-grid" aria-label="Published products">
           {products.length ? products.map((item) => <ProductCard item={item} key={item.id} />) : <article className="ek-commerce-notice"><small>OPENING SOON</small><h2>The catalogue is under review.</h2><p>No purchase or download is active yet.</p></article>}
@@ -84,7 +84,7 @@ export default function ProductPage({ product, products = [], missing = false, p
   const dedicatedWatchPage = watchVideoForSource(`/shop/${product.slug || product.id}/`);
   return (
     <main id="main-content" className="ek-commerce-page">
-      <a className="ek-commerce-brand" href="/">WORLD ARCH JOURNAL <small>BY FARNAZ</small></a>
+      <a className="ek-commerce-brand" href="/">WORLD ARCH JOURNAL </a>
       <article className="ek-product-detail">
         <figure>{product.video ? <video controls muted playsInline preload="metadata" poster={assetUrl(product.image)} aria-label={`${product.title} video preview`}><source src={assetUrl(product.video)} type="video/mp4" />Your browser does not support embedded video.</video> : <img src={assetUrl(product.image)} alt={product.imageAlt || product.title} />}</figure>
         <div><small>{product.category}</small><h1>{product.title}</h1><p>{product.excerpt}</p>

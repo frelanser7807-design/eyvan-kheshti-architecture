@@ -93,7 +93,7 @@ const wildfireResilientHomes = {
     ['FORMAT', 'Evidence-led international design guide'],
     ['PRIMARY KEYWORD', 'Wildfire-resilient home design'],
     ['SEARCH INTENT', 'Planning · details · WUI construction'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '8 October 2026'],
     ['VISUAL MIX', '1 AI-assisted editorial image · 3 original diagrams'],
   ],
@@ -119,7 +119,7 @@ const wildfireResilientHomes = {
   audience: 'Architects, homeowners, developers, landscape designers and project teams working in wildfire-prone regions',
   cta: 'Use the twelve details as a design-review agenda, then verify the complete strategy with the local authority, fire engineer and landscape specialist.',
   tags: ['Wildfire-Resilient Homes', 'WUI Architecture', 'Fire-Resistant Design', 'Climate Resilience', 'Residential Architecture'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

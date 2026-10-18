@@ -7059,3 +7059,7 @@ html[dir="rtl"] .ek-brand > span:last-child { text-align: right; }
 .command-mobile-actions { display:flex; flex-wrap:wrap; gap:9px; }.command-mobile-actions button{border:1px solid rgba(255,255,255,.17);border-radius:999px;padding:11px 15px;background:#eee8dc;color:#111;cursor:pointer}.command-mobile-actions button:disabled{background:transparent;color:#7d8581;cursor:not-allowed}
 @media(max-width:700px){.command-inbox,.command-mobile{border-radius:18px}.command-mobile{grid-template-columns:1fr}.command-mobile small{grid-column:auto}.command-mobile-actions{flex-direction:column}.command-mobile-actions button{width:100%}}
 @media(max-width:600px){.command-voice{grid-template-columns:1fr 1fr}.command-voice span{grid-column:1/-1}}
+
+/* Keep the brand mark fully visible in the opening and publisher card. */
+.ek-film.ek-brand-intro-film { object-fit: contain; background: #050505; }
+.ek-publisher-portrait img { object-fit: contain; padding: 20px; box-sizing: border-box; background: #090909; }

@@ -48,7 +48,7 @@ export default function CustomPlanDesignPage({ brand = {} }) {
 
   return (
     <main className="plan-design-page">
-      <a className="plan-design-brand" href="/">WORLD ARCH JOURNAL <small>BY FARNAZ</small></a>
+      <a className="plan-design-brand" href="/">WORLD ARCH JOURNAL </a>
       <section className="plan-design-hero">
         <div>
           <p className="plan-design-eyebrow">ARCHITECTURE &amp; INTERIOR DESIGN ENQUIRY</p>

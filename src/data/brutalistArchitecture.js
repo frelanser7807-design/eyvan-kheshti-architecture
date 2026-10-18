@@ -88,7 +88,7 @@ const brutalistArchitecture = {
     ['PERIOD', 'Post-war modernism to late-twentieth-century reuse'],
     ['BUILDINGS', '7 documented international case studies'],
     ['PUBLISHED', '5 October 2026'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['VISUAL MIX', '6 licensed photographs · 1 original diagram'],
   ],
   visuals: [
@@ -121,7 +121,7 @@ const brutalistArchitecture = {
   audience: 'Architecture students, designers, travellers, preservation advocates and readers of modern architectural history',
   cta: 'Use the four-question diagram on the next concrete building you visit, then continue with World Arch Journal’s adaptive-reuse guide.',
   tags: ['Brutalism', 'Modern Architecture', 'Architectural History', 'Concrete Architecture', 'Adaptive Reuse'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

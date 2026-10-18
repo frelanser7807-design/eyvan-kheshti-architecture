@@ -106,7 +106,7 @@ const rainscreenFacadeDesign = {
     ['FORMAT', 'Evidence-led international detail guide'],
     ['AUDIENCE', 'Architects, facade teams and students'],
     ['GEOGRAPHY', 'International · Climate and local codes apply'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '26 September 2026'],
     ['VISUAL MIX', '3 licensed photographs · 2 original diagrams'],
   ],
@@ -136,7 +136,7 @@ const rainscreenFacadeDesign = {
   audience: 'Architects, facade consultants, construction teams and students designing drained or ventilated exterior walls',
   cta: 'Use the nine-point review to trace water through every facade transition, then continue with World Arch Journal’s climate-responsive facade guide.',
   tags: ['Rainscreen Facade', 'Facade Design', 'Building Envelope', 'Waterproofing', 'Architectural Details'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

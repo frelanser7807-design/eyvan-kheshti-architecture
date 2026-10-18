@@ -84,7 +84,7 @@ const courtyardWindHouse = {
   facts: [
     ['PROJECT', 'Courtyard Wind House'],
     ['TYPE', 'Original unbuilt concept study'],
-    ['DESIGN', 'World Arch Journal · Farnaz Ghaffarian'],
+    ['DESIGN', 'World Arch Journal'],
     ['LOCATION', 'Hot-dry climate · Site not assigned'],
     ['YEAR', '2026'],
     ['STATUS', 'Research concept · Not simulated or certified'],
@@ -137,7 +137,7 @@ const courtyardWindHouse = {
   audience: 'Architects, design students and readers interested in climate-responsive residential architecture',
   cta: 'Continue through Issue 00 for more evidence-led architecture, drawings and original visual studies.',
   tags: ['Passive Cooling', 'Courtyard House', 'Climate Design', 'Resilience', 'Architecture'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

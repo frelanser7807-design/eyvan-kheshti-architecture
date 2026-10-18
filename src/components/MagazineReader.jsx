@@ -60,7 +60,7 @@ export default function MagazineReader({ magazine, onClose = () => undefined, on
             <div>
               <div className="ek-magazine-logo" aria-label="World Arch Journal">
                 <span><img src={assetUrl('/assets/brand/world-arch-wa-mark-v1.png')} alt="" /></span>
-                <div><strong>WORLD ARCH JOURNAL</strong><em>BY FARNAZ · ARCHITECTURE MEDIA &amp; DESIGN</em></div>
+                <div><strong>WORLD ARCH JOURNAL</strong><em>ARCHITECTURE MEDIA &amp; DESIGN</em></div>
               </div>
               <small>{magazine.status}</small>
               <b>ISSUE {magazine.number}</b>

@@ -148,7 +148,7 @@ function AppInstallCard({ text }) {
     <div className="ek-app-install">
       <div className="ek-app-card">
         <span className="ek-app-mark"><img src={assetUrl('/assets/brand/world-arch-wa-mark-v1.png')} alt="" /></span>
-        <div><strong>WORLD ARCH by FARNAZ</strong><small>ARCHITECTURE MEDIA &amp; DESIGN</small><p>{text.appText}</p></div>
+        <div><strong>WORLD ARCH JOURNAL</strong><small>ARCHITECTURE MEDIA &amp; DESIGN</small><p>{text.appText}</p></div>
         <button type="button" onClick={install} disabled={status === 'installed'}>{status === 'installed' ? text.installed : installPrompt ? text.install : text.installHelp} ↗</button>
         {status === 'help' && <p className="ek-install-help" role="status">Choose the instructions for your phone below. Installation is available from the browser after the site is served over HTTPS.</p>}
       </div>
@@ -340,7 +340,7 @@ export default function EditorialSections({ content, language, onExplore, onOpen
       </section>
 
       <footer className="ek-scroll-footer">
-        <span>WORLD ARCH by FARNAZ · ARCHITECTURE MEDIA &amp; DESIGN</span>
+        <span>WORLD ARCH JOURNAL · ARCHITECTURE MEDIA &amp; DESIGN</span>
         {socialLinks.length > 0 && <nav className="ek-social-links" aria-label="Social profiles">{socialLinks.map((item) => <a key={item.id || item.url} href={item.url} target="_blank" rel="me noopener noreferrer">{item.label}</a>)}</nav>}
         <nav aria-label="Legal"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/affiliate-disclosure/">Affiliate Disclosure</a><a href="/editorial-policy/">Editorial Policy</a><a href="/cookie-settings/">Cookie Settings</a></nav>
         <button type="button" onClick={onContact}>{text.contact} ↗</button>

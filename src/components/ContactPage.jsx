@@ -92,8 +92,8 @@ export default function ContactPage() {
 
   const channels = [
     brand.whatsapp ? { label: 'WhatsApp', href: brand.whatsapp, text: 'Chat on WhatsApp', hint: 'Fastest reply — usually within a day.' } : null,
-    brand.instagram ? { label: 'Instagram', href: brand.instagram, text: '@worldarchjournalbyfarnaz', hint: 'See latest work and send a DM.' } : null,
-    brand.linkedin ? { label: 'LinkedIn', href: brand.linkedin, text: 'Farnaz Ghaffarian', hint: 'For professional enquiries.' } : null,
+    brand.instagram ? { label: 'Instagram', href: brand.instagram, text: 'World Arch Journal', hint: 'See latest work and send a DM.' } : null,
+    brand.linkedin ? { label: 'LinkedIn', href: brand.linkedin, text: 'World Arch Journal', hint: 'For professional enquiries.' } : null,
   ].filter(Boolean);
 
   return (

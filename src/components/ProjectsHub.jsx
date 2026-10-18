@@ -93,7 +93,7 @@ export default function ProjectsHub() {
   return (
     <main className="projects-hub">
       <header className="projects-shell-header">
-        <a href="/" className="projects-brand">WORLD ARCH JOURNAL <span>BY FARNAZ</span></a>
+        <a href="/" className="projects-brand">WORLD ARCH JOURNAL </a>
         <nav><a href="/magazine/">Magazine</a><a href="/newsletter/">Briefing</a><a href="/shop/">Shop</a></nav>
       </header>
       <section className="projects-hero">

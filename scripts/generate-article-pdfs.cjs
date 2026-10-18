@@ -26,24 +26,8 @@ async function targetFor(urlPath) {
   await fs.mkdir(publicOutput, { recursive: true });
   await fs.mkdir(distOutput, { recursive: true });
 
-  const missing = [];
-  for (const article of published) {
-    const filename = `${article.slug}.pdf`;
-    const publicPath = path.join(publicOutput, filename);
-    try {
-      await fs.access(publicPath);
-      await fs.copyFile(publicPath, path.join(distOutput, filename));
-    } catch {
-      missing.push(article);
-    }
-  }
-
-  if (missing.length === 0) {
-    console.log(`All ${published.length} article PDF(s) already present.`);
-    return;
-  }
-
-  console.log(`Generating ${missing.length} missing article PDF(s): ${missing.map((a) => a.slug).join(', ')}`);
+  const missing = published;
+  console.log(`Generating ${missing.length} current article PDF(s).`);
 
   const server = http.createServer(async (request, response) => {
     try {

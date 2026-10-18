@@ -88,7 +88,7 @@ const prefabVsModularHomes = {
     ['FORMAT', 'Evidence-led international buyer and architect guide'],
     ['AUDIENCE', 'Homebuyers, architects, developers and design students'],
     ['GEOGRAPHY', 'International · Local codes, finance and planning apply'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '23 September 2026'],
     ['VISUAL MIX', '4 licensed photographs · 2 original diagrams · 1 labelled AI visual'],
   ],
@@ -119,7 +119,7 @@ const prefabVsModularHomes = {
   audience: 'International homebuyers, architects, developers and design students researching prefabricated housing',
   cta: 'Explore more evidence-led guides in World Arch Journal, then compare the system with your local site, code, climate and long-term brief.',
   tags: ['Prefab Homes', 'Modular Homes', 'Off-Site Construction', 'Building Systems', 'Housing Design'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 
