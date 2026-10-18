@@ -175,6 +175,20 @@ for (const sitemapFile of ['sitemap.xml', 'article-sitemap.xml', 'video-sitemap.
   const xml = await readFile(join(root, 'dist', sitemapFile), 'utf8');
   if (!xml.startsWith('<?xml') || !xml.includes('<urlset')) throw new Error(`Invalid sitemap XML shell: ${sitemapFile}`);
 }
+// A sitemap is an indexable-page inventory, not a list of previews, downloads or redirects.
+const canonicalSitemapXml = await readFile(join(root, 'dist/sitemap.xml'), 'utf8');
+const sitemapUrls = [...canonicalSitemapXml.matchAll(new RegExp('<loc>([^<]+)</loc>', 'g'))].map((match) => match[1]);
+if (!sitemapUrls.length || sitemapUrls.length !== new Set(sitemapUrls).size) throw new Error('Main sitemap is empty or contains duplicate URLs.');
+for (const pageUrl of sitemapUrls) {
+  const parsedUrl = new URL(pageUrl);
+  if (parsedUrl.origin !== sitemapHost || parsedUrl.search || parsedUrl.hash) throw new Error(`Noncanonical URL in sitemap: ${pageUrl}`);
+  if (parsedUrl.pathname !== '/' && !parsedUrl.pathname.endsWith('/')) throw new Error(`Noncanonical trailing slash in sitemap: ${pageUrl}`);
+  const htmlPath = parsedUrl.pathname === '/' ? 'dist/index.html' : `dist${decodeURIComponent(parsedUrl.pathname)}index.html`;
+  const pageHtml = await readFile(join(root, htmlPath), 'utf8').catch(() => { throw new Error(`Sitemap URL lacks a static HTML page: ${pageUrl}`); });
+  if (pageHtml.includes('name="robots" content="noindex') || pageHtml.includes('content="noindex') || pageHtml.includes("content='noindex")) throw new Error(`Noindex page included in sitemap: ${pageUrl}`);
+  if (!pageHtml.includes(`rel="canonical" href="${pageUrl}"`)) throw new Error(`Missing/mismatched canonical link for sitemap page: ${pageUrl}`);
+}
+
 const llms = await readFile(join(root, 'dist/llms.txt'), 'utf8');
 if (!llms.includes('https://worldarchjournal.com/magazine/') || !llms.includes('https://worldarchjournal.com/projects/')) {
   throw new Error('AI discovery file lacks canonical navigation links.');
