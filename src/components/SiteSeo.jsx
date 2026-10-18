@@ -7,6 +7,7 @@ import { projects } from '../data/projects.js';
 import { publishedVideoStories } from '../data/videoStories.js';
 import { watchVideoEntries, watchPagePath } from '../data/watchVideos.js';
 import { atlasVilla } from '../data/atlasVilla.js';
+import { legalPages } from '../data/legalPages.js';
 
 const FALLBACK_SITE_URL = 'https://worldarchjournal.com';
 const DEFAULT_IMAGE = '/assets/editorial/issue-00/courtyard-wind-house-cover.jpg';
@@ -67,8 +68,8 @@ export default function SiteSeo({ content, route }) {
     let ogType = 'website';
 
     if (legalTitle) {
-      title = `${legalTitle} | ${name}`;
-      description = `${legalTitle} for the WORLD ARCH JOURNAL architecture platform.`;
+      title = `${legalPages[normalizedPath]?.title || legalTitle} | ${name}`;
+      description = legalPages[normalizedPath]?.metaDescription || `${legalTitle} for the WORLD ARCH JOURNAL architecture platform.`;
     } else if (route?.name === 'magazine-hub') {
       title = `Architecture Magazine | ${name}`;
       description = 'Read original, evidence-led architecture stories on climate design, facades, adaptive reuse and concept studies in World Arch Journal.';

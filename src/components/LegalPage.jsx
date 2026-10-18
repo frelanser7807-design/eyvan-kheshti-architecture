@@ -14,7 +14,7 @@ export default function LegalPage({ page }) {
         <h1>{page.title}</h1>
         <p className="ek-legal-intro">{page.intro}</p>
         <p className="ek-legal-date">Last updated: <time dateTime={page.lastUpdated || '2026-09-27'}>{new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${page.lastUpdated || '2026-09-27'}T12:00:00Z`))}</time></p>
-        {page.sections.map(([title, body]) => <section key={title}><h2>{title}</h2><p>{body}</p></section>)}
+        {page.sections.map(([title, body]) => <section key={title}><h2>{title}</h2>{Array.isArray(body) ? <ul>{body.map((item) => <li key={item}>{item}</li>)}</ul> : <p>{body}</p>}</section>)}
         {page.links?.length > 0 && <nav aria-label="Related editorial information">{page.links.map((link) => <p key={link.url}><a href={link.url}>{link.label} ↗</a></p>)}</nav>}
       </article>
       <footer><a href="/">Return to the studio</a><span>{page.eyebrow === 'EDITORIAL' || page.eyebrow === 'ABOUT THE PUBLISHER' ? 'Independent publishing. Attributed sources. Transparent corrections.' : 'Legal information will be reviewed again before commercial launch.'}</span></footer>

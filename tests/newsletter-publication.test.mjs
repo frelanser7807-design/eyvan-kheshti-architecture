@@ -85,7 +85,7 @@ test('dated news and analysis have distinct archives, canonicals and permanent l
 
 test('publisher and correction policy are actual pages, not a home-page fallback', async () => {
   assert.match(await read('editorial-policy/index.html'), /Editorial Standards &amp; Corrections/);
-  assert.match(await read('editorial-team/index.html'), /Editorial Team &amp; Contact/);
+  assert.match(await read('editorial-team/index.html'), /About World Arch Journal/);
   const sitemap = await read('sitemap.xml');
   assert.ok(sitemap.includes('/editorial-team/'));
   assert.ok(sitemap.includes('/editorial-policy/'));
