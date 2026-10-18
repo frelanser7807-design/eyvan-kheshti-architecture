@@ -19,3 +19,12 @@ On 18 October 2026, the generated feed containing 27 items was submitted by dire
 The validated bytes exactly matched the build output. SHA-256: `24d66e15e065105108bbe25c5935f1443d17a8d7cd6bcf6ee0e1d1837dfed51a`.
 
 After deployment, validate the public URL again to verify delivery and the self-link at its actual location. The five RSS regressions also check XML escaping, invalid metadata, stable dates/GUIDs, draft exclusion, complete sitemap coverage and discovery in every built HTML page.
+
+## Verified production result — 18 October 2026
+
+- PR #8 merged as `02bd330a31fef995b182d57a1b50faadd7a888be`. Preview run `39154507309` and production run `39154639077` completed successfully.
+- All 16 regression tests and release smoke checks passed in CI. The production workflow verified 101 routes on worldarchjournal.com.
+- A separate live GET of `/rss.xml` returned HTTP 200 and `Content-Type: application/rss+xml; charset=utf-8`. All 27 items were present, and the production bytes exactly matched the SHA-256 of the feed validated before deployment.
+- W3C then validated the public URI `https://worldarchjournal.com/rss.xml` at `2026-10-18T18:34:30.227435`: validity true, zero errors, zero warnings. The direct-input self-location warning is absent at the production URL.
+- Build checks verified the discovery link in all 107 HTML pages. Independent production checks confirmed it on the home page, magazine, two articles, newsletter, Atlas, Istanbul Atlas, offline and services pages. Cloudflare's normal `/offline.html` redirect was followed to its delivered page.
+- No visual design change was introduced. Future builds regenerate the feed from the published article data automatically.
