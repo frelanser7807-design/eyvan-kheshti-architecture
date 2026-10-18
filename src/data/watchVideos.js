@@ -39,7 +39,7 @@ export const watchVideoEntries = [
     description: 'Watch a short video preview of the Almora Villa architectural presentation layout and visual storytelling approach.',
     thumbnail: '/assets/shop/presentations/almora-villa/cover.jpg',
     file: '/assets/shop/presentations/almora-villa/promo.mp4',
-    publishedAt: '2026-10-02',
+    publishedAt: '2026-10-03',
     sourcePath: '/shop/almora-villa-architecture-presentation-template/',
     sourceLabel: 'Almora Villa Presentation Template',
   },
