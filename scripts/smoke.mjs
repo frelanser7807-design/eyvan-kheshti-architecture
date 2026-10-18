@@ -169,7 +169,7 @@ if (articleReader.includes('dangerouslySetInnerHTML') || !articleReader.includes
 const robots = await readFile(join(root, 'dist/robots.txt'), 'utf8');
 if (!robots.includes('OAI-SearchBot') || !robots.includes('Allow: /')) throw new Error('Search crawler policy missing');
 
-const sitemapHost = String(process.env.VITE_SITE_URL || 'https://worldarchjournal.com').replace(new RegExp('/+
+const sitemapHost = new URL(process.env.VITE_SITE_URL || 'https://worldarchjournal.com').origin;
 for (const sitemapFile of ['sitemap.xml', 'article-sitemap.xml', 'video-sitemap.xml', 'atlas-sitemap.xml', 'news-sitemap.xml']) {
   if (!robots.includes(`Sitemap: ${sitemapHost}/${sitemapFile}`)) throw new Error(`robots.txt does not advertise ${sitemapFile}`);
   const xml = await readFile(join(root, 'dist', sitemapFile), 'utf8');
