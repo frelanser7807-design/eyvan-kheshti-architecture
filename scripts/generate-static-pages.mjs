@@ -356,11 +356,14 @@ for (const item of promptItems) {
 }
 
 for (const [pathname, page] of Object.entries(legalPages)) {
-  const sections = page.sections.map(([heading, body]) => `<section><h2>${escapeHtml(heading)}</h2><p>${escapeHtml(body)}</p></section>`).join('');
+  const sections = page.sections.map(([heading, body]) => `<section><h2>${escapeHtml(heading)}</h2>${Array.isArray(body) ? `<ul>${body.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>` : `<p>${escapeHtml(body)}</p>`}</section>`).join('');
   const links = (page.links || []).map((link) => `<li><a href="${escapeHtml(link.url)}">${escapeHtml(link.label)}</a></li>`).join('');
-  const body = `<main class="seo-route-fallback"><a href="/">WORLD ARCH JOURNAL</a><article><header><small>${escapeHtml(page.eyebrow)}</small><h1>${escapeHtml(page.title)}</h1><p>${escapeHtml(page.intro)}</p><p>Last updated: <time datetime="${escapeHtml(page.lastUpdated || '2026-09-27')}">${escapeHtml(page.lastUpdated || '2026-09-27')}</time></p></header>${sections}${links ? `<nav aria-label="Related editorial information"><ul>${links}</ul></nav>` : ''}</article></main>`;
+  const introduction = page.portrait
+    ? `<div class="ek-publisher-intro"><p class="ek-legal-intro">${escapeHtml(page.intro)}</p><figure class="ek-publisher-portrait" style="margin:0"><picture><source srcset="${escapeHtml(page.portrait.srcWebp)}" type="image/webp" /><img src="${escapeHtml(page.portrait.src)}" alt="${escapeHtml(page.portrait.alt)}" width="${page.portrait.width}" height="${page.portrait.height}" decoding="async" /></picture><figcaption>${escapeHtml(page.portrait.caption)}</figcaption></figure></div>`
+    : `<p>${escapeHtml(page.intro)}</p>`;
+  const body = `<main class="seo-route-fallback"><a href="/">WORLD ARCH JOURNAL</a><article><header><small>${escapeHtml(page.eyebrow)}</small><h1>${escapeHtml(page.title)}</h1>${introduction}<p>Last updated: <time datetime="${escapeHtml(page.lastUpdated || '2026-09-27')}">${escapeHtml(page.lastUpdated || '2026-09-27')}</time></p></header>${sections}${links ? `<nav aria-label="Related editorial information"><ul>${links}</ul></nav>` : ''}</article></main>`;
   const schema = { '@context': 'https://schema.org', '@type': 'WebPage', name: page.title, description: page.intro, url: `${siteUrl}${pathname}`, inLanguage: 'en', publisher };
-  await emit(pathname, preparePage({ pathname, title: `${page.title} | ${siteName}`, description: page.intro, image: '/assets/brand/world-arch-wa-mark-v1.png', schema, body }));
+  await emit(pathname, preparePage({ pathname, title: `${page.title} | ${siteName}`, description: page.metaDescription || page.intro, image: page.portrait?.src || '/assets/brand/world-arch-wa-mark-v1.png', schema, body }));
 }
 
 const shopPath = '/shop/';
