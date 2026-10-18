@@ -1,5 +1,6 @@
 import { articles } from '../data/articles.js';
 import { publishedVideoStories } from '../data/videoStories.js';
+import { watchVideoEntries, watchPagePath } from '../data/watchVideos.js';
 import './VideoLibrary.css';
 
 function VideoCard({ video }) {
@@ -14,6 +15,18 @@ function VideoCard({ video }) {
   );
 }
 
+function HostedWatchCard({ video }) {
+  return (
+    <article className="wj-video-card">
+      <a className="wj-video-thumb" href={watchPagePath(video)} aria-label={`Watch ${video.title}`}>
+        <img src={video.thumbnail} alt={`${video.title} video preview`} loading="lazy" />
+        <span aria-hidden="true">▶</span>
+      </a>
+      <div><small>HOSTED VIDEO · WATCH</small><h2><a href={watchPagePath(video)}>{video.title}</a></h2><p>{video.description}</p></div>
+    </article>
+  );
+}
+
 export default function VideoLibrary({ video = null }) {
   const related = video ? articles.filter((article) => article.published && video.relatedArticleSlugs.includes(article.slug)) : [];
   return (
@@ -23,6 +36,7 @@ export default function VideoLibrary({ video = null }) {
         {!video ? <>
           <section className="wj-video-hero"><small>ARCHITECTURE / STRUCTURE / MATERIAL</small><h1>Architecture,<br />explained in motion.</h1><p>Short visual lessons with a readable transcript, related research and a permanent page that search engines can understand.</p></section>
           <section className="wj-video-grid" aria-label="Architecture videos">{publishedVideoStories.map((item) => <VideoCard video={item} key={item.slug} />)}</section>
+          <section className="wj-video-grid" aria-label="Hosted architecture video previews">{watchVideoEntries.map((item) => <HostedWatchCard video={item} key={item.slug} />)}</section>
         </> : <article className="wj-video-story">
           <a className="wj-video-back" href="/videos/">← All videos</a><header><small>{video.category}</small><h1>{video.title}</h1><p>{video.description}</p></header>
           <div className="wj-video-embed"><iframe src={`https://www.youtube-nocookie.com/embed/${video.youtubeId}`} title={video.title} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen /></div>
