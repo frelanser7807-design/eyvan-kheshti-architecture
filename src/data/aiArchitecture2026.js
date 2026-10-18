@@ -90,7 +90,7 @@ const aiArchitecture2026 = {
     ['EVIDENCE', 'RIBA 2026 · Chaos 2026 · EU AI Act'],
     ['AUDIENCE', 'Architects, studios, clients and design students'],
     ['PUBLISHED', '5 October 2026'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['VISUAL MIX', '4 licensed real photographs · 3 original diagrams'],
   ],
   visuals: [
@@ -120,7 +120,7 @@ const aiArchitecture2026 = {
   audience: 'International architects, practice leaders, clients, design students and digital-practice teams',
   cta: 'Download the five-gate logic into your next studio review, then read the BIM versus CAD guide to separate software capability from information responsibility.',
   tags: ['AI in Architecture', 'Architectural Practice', 'Design Technology', 'EU AI Act', 'Professional Ethics'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

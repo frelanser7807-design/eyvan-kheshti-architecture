@@ -68,7 +68,7 @@ const birdSafeFacade = {
     ['PRIMARY KEYWORD', 'Bird-safe facade design'],
     ['SECONDARY KEYWORDS', 'Bird-friendly glass · bird collision reduction · facade retrofit'],
     ['SEARCH INTENT', 'Pattern placement · glass selection · coordination'],
-    ['AUTHOR', 'Farnaz Ghaffarian'],
+    ['AUTHOR', 'World Arch Journal'],
     ['PUBLISHED', '11 October 2026'],
     ['VISUAL MIX', '1 AI-assisted editorial image · 3 original diagrams'],
   ],
@@ -94,7 +94,7 @@ const birdSafeFacade = {
   audience: 'Architects, facade consultants, developers, building owners, lighting designers and conservation-minded clients',
   cta: 'Start with a glass-and-reflection map for one elevation, then coordinate the pattern, lighting and maintenance strategy with the facade team and local ecological guidance.',
   tags: ['Bird-Safe Facades', 'Bird-Friendly Glass', 'Facade Design', 'Building Ecology', 'Lighting Design', 'Retrofit'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

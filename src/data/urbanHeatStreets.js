@@ -86,7 +86,7 @@ const urbanHeatStreets = {
     ['FORMAT', 'Evidence-led international urban design guide'],
     ['FOCUS', 'Pedestrian heat exposure and street-level decisions'],
     ['GEOGRAPHY', 'International · local climate and regulations apply'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '30 September 2026'],
     ['VISUAL', 'Original conceptual image and explanatory street-section diagram'],
   ],
@@ -110,7 +110,7 @@ const urbanHeatStreets = {
   audience: 'Architects, urban designers, landscape architects, students and city decision-makers',
   cta: 'Use the eight-decision checklist to study one real walking route, then explore our climate-responsive architecture articles.',
   tags: ['Urban Heat', 'Cool Streets', 'Urban Design', 'Climate Adaptation', 'Street Trees', 'Public Space'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

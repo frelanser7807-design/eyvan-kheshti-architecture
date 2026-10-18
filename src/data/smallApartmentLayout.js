@@ -100,7 +100,7 @@ const smallApartmentLayout = {
     ['FORMAT', 'Original international residential design guide'],
     ['PRIMARY KEYWORD', 'Small apartment layout'],
     ['SEARCH INTENT', 'Planning · storage · privacy · daylight'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '7 October 2026'],
     ['VISUAL MIX', '2 original AI-assisted illustrations · 3 original diagrams'],
   ],
@@ -128,7 +128,7 @@ const smallApartmentLayout = {
   audience: 'Architects, interior designers, homeowners, developers, students and renters evaluating compact apartment layouts',
   cta: 'Print the eight-step audit, test it against one real household’s daily routine, and revise the plan before choosing finishes or transformable furniture.',
   tags: ['Small Apartment Layout', '45 m² Apartment', 'Compact Living', 'Apartment Storage', 'Residential Privacy', 'Daylight Design'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

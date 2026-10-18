@@ -102,7 +102,7 @@ const lowCarbonConcreteEpd = {
     ['FORMAT', 'Evidence-led international specification guide'],
     ['PRIMARY KEYWORD', 'Low-carbon concrete EPD'],
     ['SEARCH INTENT', 'Comparison · specification · embodied carbon'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '7 October 2026'],
     ['VISUAL MIX', '2 original AI-assisted illustrations · 3 original diagrams'],
   ],
@@ -131,7 +131,7 @@ const lowCarbonConcreteEpd = {
   audience: 'Architects, structural engineers, sustainability consultants, contractors, students and clients comparing lower-carbon concrete options',
   cta: 'Use the seven checks to audit one live concrete schedule, then confirm the target and evidence pathway with the structural engineer, LCA specialist and local suppliers.',
   tags: ['Low-Carbon Concrete', 'Concrete EPD', 'Embodied Carbon', 'Material Specification', 'Life Cycle Assessment', 'Sustainable Architecture'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

@@ -120,7 +120,7 @@ const passiveHouseVsNetZero = {
     ['FORMAT', 'Evidence-led international comparison guide'],
     ['AUDIENCE', 'Architects, clients, students and sustainability teams'],
     ['GEOGRAPHY', 'International · Local standards and grid rules apply'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '24 September 2026'],
     ['VISUAL MIX', '5 licensed real photographs · 1 original comparison diagram'],
   ],
@@ -151,7 +151,7 @@ const passiveHouseVsNetZero = {
   audience: 'International architects, clients, students and sustainability teams comparing Passive House and Net Zero targets',
   cta: 'Continue with the climate-responsive facade guide, then turn the comparison table into a project-specific performance brief.',
   tags: ['Passive House', 'Net Zero Energy', 'Sustainable Architecture', 'Building Performance', 'Energy-Efficient Design'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

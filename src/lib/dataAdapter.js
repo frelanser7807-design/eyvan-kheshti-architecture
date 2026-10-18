@@ -65,6 +65,9 @@ function normalizeContent(value = {}) {
   const savedBrand = value.brand || {};
   const brand = { ...defaultContent.brand, ...savedBrand };
   brand.linkedin = defaultContent.brand.linkedin;
+  for (const key of ['name', 'latinName', 'founderName', 'founderRole', 'heroDescription']) {
+    brand[key] = defaultContent.brand[key];
+  }
   for (const key of ['whatsapp', 'instagram', 'youtube', 'pinterest']) {
     if (!String(brand[key] || '').trim()) brand[key] = defaultContent.brand[key];
   }
@@ -87,7 +90,11 @@ function normalizeContent(value = {}) {
     library: Array.isArray(value.library) ? value.library : clone(defaultContent.library),
     ebooks: Array.isArray(value.ebooks) ? value.ebooks : clone(defaultContent.ebooks),
     products: [...products, ...extraProducts],
-    story: Array.isArray(value.story) ? value.story : clone(defaultContent.story),
+    story: Array.isArray(value.story) ? value.story.map((item) => {
+      if (item.id !== 'arrival') return item;
+      const identity = defaultContent.story.find((story) => story.id === 'arrival');
+      return { ...item, code: identity.code, title: identity.title, lines: clone(identity.lines), text: identity.text };
+    }) : clone(defaultContent.story),
     commerce: {
       ...defaultContent.commerce,
       ...(value.commerce || {}),

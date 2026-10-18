@@ -90,7 +90,7 @@ const floodResilientHomes = {
     ['FORMAT', 'Evidence-led international design guide'],
     ['PRIMARY KEYWORD', 'Flood-resilient home design'],
     ['SEARCH INTENT', 'Planning · details · faster recovery'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '8 October 2026'],
     ['VISUAL MIX', '1 AI-assisted editorial image · 3 original diagrams'],
   ],
@@ -117,7 +117,7 @@ const floodResilientHomes = {
   audience: 'Architects, homeowners, developers, planners, surveyors and project teams working with flood-exposed homes',
   cta: 'Use the ten moves to review one property section and recovery plan, then verify the strategy with the local authority, flood-risk specialist and structural engineer.',
   tags: ['Flood-Resilient Homes', 'Property Flood Resilience', 'Climate Adaptation', 'Residential Architecture', 'Flood-Resistant Design'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

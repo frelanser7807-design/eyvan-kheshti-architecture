@@ -6,7 +6,7 @@ export default function ProjectDetail({ project }) {
   return (
     <main className="project-detail">
       <header className="projects-shell-header is-overlay">
-        <a href="/" className="projects-brand">WORLD ARCH JOURNAL <span>BY FARNAZ</span></a>
+        <a href="/" className="projects-brand">WORLD ARCH JOURNAL </a>
         <nav><a href="/projects/">All Projects</a><a href={project.tourPath}>Enter Tour</a></nav>
       </header>
 

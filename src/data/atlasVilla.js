@@ -2,7 +2,7 @@ export const atlasVilla = {
   slug: 'atlas-villa',
   title: 'Atlas Villa',
   subtitle: 'A residential architectural design study',
-  role: 'Architectural design and visual presentation by Farnaz Ghaffarian',
+  role: 'Architectural design and visual presentation by World Arch Journal',
   description: 'A contemporary villa concept organised around a central courtyard and pool, with warm stone, timber soffits and generous connections between interior rooms and outdoor living.',
   cover: '/assets/projects/atlas-villa/exterior-cover.jpg',
   images: [

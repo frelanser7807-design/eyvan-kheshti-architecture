@@ -1,4 +1,4 @@
-const CACHE = 'world-arch-journal-v28-route-safe-offline';
+const CACHE = 'world-arch-journal-v29-world-arch-journal-identity';
 const SHELL = ['/', '/offline.html', '/manifest.webmanifest', '/favicon.svg'];
 
 self.addEventListener('install', (event) => {

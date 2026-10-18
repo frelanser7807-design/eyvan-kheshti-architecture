@@ -15,7 +15,7 @@ export default function LegalPage({ page }) {
         {page.portrait ? <div className="ek-publisher-intro">
           <p className="ek-legal-intro">{page.intro}</p>
           <figure className="ek-publisher-portrait">
-            <picture><source srcSet={page.portrait.srcWebp} type="image/webp" /><img src={page.portrait.src} alt={page.portrait.alt} width={page.portrait.width} height={page.portrait.height} decoding="async" /></picture>
+            <picture>{page.portrait.srcWebp && <source srcSet={page.portrait.srcWebp} type="image/webp" />}<img src={page.portrait.src} alt={page.portrait.alt} width={page.portrait.width} height={page.portrait.height} decoding="async" /></picture>
             <figcaption>{page.portrait.caption}</figcaption>
           </figure>
         </div> : <p className="ek-legal-intro">{page.intro}</p>}

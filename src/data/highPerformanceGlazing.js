@@ -98,7 +98,7 @@ const highPerformanceGlazing = {
     ['FORMAT', 'Evidence-led international design explainer'],
     ['PRIMARY KEYWORD', 'Low-e vs triple glazing vs smart glass'],
     ['SEARCH INTENT', 'Comparison · specification · facade performance'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '6 October 2026'],
     ['VISUAL MIX', '4 original AI-assisted illustrations · 4 original diagrams'],
   ],
@@ -130,7 +130,7 @@ const highPerformanceGlazing = {
   audience: 'Architects, facade designers, homeowners, students and building-performance teams comparing glazing systems',
   cta: 'Continue with our climate-responsive facade and rainscreen guides, then use this eight-gate workflow to brief your project team.',
   tags: ['Low-E Glass', 'Triple Glazing', 'Smart Glass', 'Window U-Factor', 'SHGC', 'Facade Design', 'Electrochromic Glazing'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

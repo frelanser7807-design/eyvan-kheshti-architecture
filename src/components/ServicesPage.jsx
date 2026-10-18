@@ -52,7 +52,7 @@ export default function ServicesPage() {
         <p style={eyebrow}>Services</p>
         <h1 style={title}>Design services, from first line to final detail.</h1>
         <p style={intro}>
-          Studio work by Farnaz Ghaffarian for real communication needs: explaining a facade
+          Studio work by World Arch Journal for real communication needs: explaining a facade
           decision, organising a spatial proposal, presenting a project to a client, or turning
           technical information into a readable visual narrative.
         </p>

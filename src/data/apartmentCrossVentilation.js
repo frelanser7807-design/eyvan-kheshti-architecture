@@ -77,7 +77,7 @@ const apartmentCrossVentilation = {
     ['FORMAT', 'International apartment-performance guide'],
     ['PRIMARY KEYWORD', 'Cross ventilation in apartments'],
     ['SEARCH INTENT', 'Design method · layout · overheating'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '9 October 2026'],
     ['VISUAL MIX', '5 original explanatory diagrams'],
   ],
@@ -104,7 +104,7 @@ const apartmentCrossVentilation = {
   audience: 'Architects, interior designers, housing developers, students and apartment residents evaluating ventilation strategies',
   cta: 'Use the audit on one real plan, then compare the result with the daylight and acoustic guides in this apartment-performance cluster.',
   tags: ['Small Apartment Layout', 'Apartment Ventilation', 'Cross Ventilation', 'Overheating', 'Passive Cooling', 'Residential Design'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

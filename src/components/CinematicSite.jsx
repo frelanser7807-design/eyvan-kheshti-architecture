@@ -49,13 +49,13 @@ const storyCards = [
 
 const scenes = [
   {
-    id: 'digital-founder',
+    id: 'brand-introduction',
     title: 'Digital Introduction',
     titleFa: 'معرفی دیجیتال',
-    eyebrow: 'THE PRINCIPAL',
+    eyebrow: 'WORLD ARCH JOURNAL',
     eyebrowFa: 'بنیان‌گذار',
-    src: assetUrl('/assets/film/00-digital-founder-intro.mp4'),
-    poster: assetUrl('/assets/film/posters/digital-founder-intro.jpg'),
+    src: assetUrl('/assets/brand/world-arch-journal-intro.mp4'),
+    poster: assetUrl('/assets/brand/world-arch-wa-mark-v1.png'),
     playbackRate: OPENING_PLAYBACK_RATE,
     audioCue: 0,
   },
@@ -65,13 +65,13 @@ const scenes = [
     titleFa: 'ورود',
     eyebrow: 'INTERNATIONAL STUDIO',
     eyebrowFa: 'استودیوی بین‌المللی',
-    src: assetUrl('/assets/film/founder-intro-plus-entrance.mp4'),
-    poster: assetUrl('/assets/film/posters/founder-hero.jpg'),
+    src: assetUrl('/assets/film/lobby-to-studio-clean.mp4'),
+    poster: assetUrl('/assets/brand/world-arch-wa-mark-v1.png'),
     playbackRate: OPENING_PLAYBACK_RATE,
     audioCue: 4.9,
     data: {
       code: '01 / STUDIO IDENTITY',
-      title: 'The Principal',
+      title: 'World Arch Journal',
       lines: ['Creative Direction', 'Architecture · Interiors'],
     },
   },
@@ -196,9 +196,7 @@ export default function CinematicSite({ content }) {
   const copy = interfaceCopy[language] || interfaceCopy.en;
   const currentStory = sceneIndex > 0 ? content?.story?.find((item) => item.id === currentScene.id) : null;
   const brandName = localised(content?.brand, 'name', language) || 'WORLD ARCH JOURNAL';
-  const brandLine = localised(content?.brand, 'latinName', language) || 'BY FARNAZ · ARCHITECTURE MEDIA & DESIGN';
-  const founderName = localised(content?.brand, 'founderName', language) || 'Farnaz Ghaffarian';
-  const founderRole = localised(content?.brand, 'founderRole', language) || 'Founder & Creative Director';
+  const brandLine = localised(content?.brand, 'latinName', language) || 'ARCHITECTURE MEDIA & DESIGN';
   const brandLocation = localised(content?.brand, 'city', language) || 'LONDON / INTERNATIONAL';
   const isIdle = sceneIndex < 0;
   const isFinal = sceneIndex === scenes.length - 1;
@@ -398,7 +396,7 @@ export default function CinematicSite({ content }) {
         <video
           key={currentScene.src}
           ref={videoRef}
-          className="ek-film"
+          className={`ek-film ${currentScene.id === 'brand-introduction' ? 'ek-brand-intro-film' : ''}`}
           src={currentScene.src}
           poster={isIdle ? currentScene.poster : undefined}
           muted
@@ -489,7 +487,7 @@ export default function CinematicSite({ content }) {
         <div className="ek-story-label" aria-live="polite">
           <small>{isIdle ? copy.idleEyebrow : localised(currentScene, 'eyebrow', language)}</small>
           <b>{isIdle ? copy.idleTitle : localised(currentScene, 'title', language)}</b>
-          {sceneIndex <= 0 && <em>{founderRole} · {founderName}</em>}
+          {sceneIndex <= 0 && <em>{brandLine}</em>}
         </div>
 
         {sceneIndex <= 0 && (

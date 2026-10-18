@@ -75,7 +75,7 @@ const apartmentDaylightLayout = {
     ['FORMAT', 'International apartment-performance guide'],
     ['PRIMARY KEYWORD', 'Apartment daylight design'],
     ['SEARCH INTENT', 'Layout · daylight · glare · privacy'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '9 October 2026'],
     ['VISUAL MIX', '5 original explanatory diagrams'],
   ],
@@ -102,7 +102,7 @@ const apartmentDaylightLayout = {
   audience: 'Architects, interior designers, housing developers, students and residents evaluating apartment daylight and layout',
   cta: 'Overlay daylight, ventilation, privacy and noise on one real plan, then revise the layout before increasing glazing.',
   tags: ['Small Apartment Layout', 'Apartment Daylight', 'Residential Design', 'Glare Control', 'Daylight Design', 'Compact Living'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

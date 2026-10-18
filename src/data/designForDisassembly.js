@@ -59,7 +59,7 @@ const designForDisassembly = {
     ],
     [
       "AUTHOR",
-      "Farnaz Ghaffarian"
+      "World Arch Journal"
     ],
     [
       "PUBLISHED",
@@ -168,7 +168,7 @@ const designForDisassembly = {
   },
   "audience": "Architects, design teams, building owners and architecture students",
   "cta": "Use the illustrated questions to prepare a coordinated project review with the appropriate specialists.",
-  "author": "Farnaz Ghaffarian",
+  "author": "World Arch Journal",
   "published": true
 };
 

@@ -103,7 +103,7 @@ const smallCourtyardDesign = {
     ['FORMAT', 'Evidence-led international residential design guide'],
     ['AUDIENCE', 'Architects, homeowners, students and small-site developers'],
     ['GEOGRAPHY', 'International · Climate and local codes apply'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '23 September 2026'],
     ['VISUAL MIX', '3 licensed photographs · 2 original diagrams'],
   ],
@@ -133,7 +133,7 @@ const smallCourtyardDesign = {
   audience: 'Architects, homeowners, students and developers designing compact courtyard housing',
   cta: 'Use the nine-move checklist to test your courtyard in section, then explore World Arch Journal’s climate and passive-design studies.',
   tags: ['Small Courtyard Design', 'Courtyard House', 'Passive Cooling', 'Daylight Design', 'Residential Architecture'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

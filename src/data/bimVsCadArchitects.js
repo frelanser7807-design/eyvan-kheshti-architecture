@@ -95,7 +95,7 @@ const bimVsCadArchitects = {
     ['FORMAT', 'Evidence-led international digital practice guide'],
     ['AUDIENCE', 'Architects, BIM coordinators, students and small studios'],
     ['GEOGRAPHY', 'International · Project standards and appointments apply'],
-    ['EDITORIAL LEAD', 'Farnaz Ghaffarian'],
+    ['EDITORIAL LEAD', 'World Arch Journal'],
     ['PUBLISHED', '24 September 2026'],
     ['VISUAL MIX', '5 licensed real photographs · 4 original diagrams'],
   ],
@@ -129,7 +129,7 @@ const bimVsCadArchitects = {
   audience: 'Architects, BIM coordinators, design students and small studios choosing a proportionate digital workflow',
   cta: 'Use the checklist to define your next project’s information needs before choosing a tool, then explore World Arch Journal’s building-systems library.',
   tags: ['BIM', 'Revit', 'CAD', 'Digital Practice', 'Information Management'],
-  author: 'Farnaz Ghaffarian',
+  author: 'World Arch Journal',
   published: true,
 };
 

@@ -41,16 +41,13 @@ const activeAssets = [
   'assets/candidates/office-world/scene-05-client-presentation-room-v1.png',
   'assets/candidates/office-world/scene-06-material-model-lab-v1.png',
   'assets/candidates/office-world/scene-07-principal-design-desk-v3.png',
-  'assets/film/00-digital-founder-intro.mp4',
-  'assets/film/founder-intro-plus-entrance.mp4',
   'assets/film/lobby-to-studio-clean.mp4',
   'assets/film/chapters/05-presentation-room-clean.mp4',
   'assets/film/chapters/06-material-lab.mp4',
   'assets/film/chapters/07-design-desk.mp4',
-  'assets/film/posters/digital-founder-intro.jpg',
-  'assets/film/posters/founder-hero.jpg',
   'assets/film/site-cinematic-score-v3.wav',
-  'assets/brand/farnaz-professional-profile-v6.png',
+  'assets/brand/world-arch-wa-mark-v1.png',
+  'assets/brand/world-arch-journal-intro.mp4',
 ];
 
 for (const path of required) await access(join(root, path));
@@ -116,7 +113,7 @@ for (const endpoint of ['/v1/site-content', '/v1/leads', '/v1/subscribers', '/v1
 const cinematic = await readFile(join(root, 'src/components/CinematicSite.jsx'), 'utf8');
 if (!cinematic.includes('PRESENTATION_PLAYBACK_RATE = 1.05')) throw new Error('Presentation scene timing regression');
 if (!cinematic.includes('site-cinematic-score-v3.wav')) throw new Error('Soundtrack integration missing');
-if (!cinematic.includes("const language = 'en'") || !cinematic.includes('founderName')) throw new Error('English public founder identity missing');
+if (!cinematic.includes("const language = 'en'") || cinematic.includes('founderName')) throw new Error('English public identity must use the journal brand.');
 if (cinematic.includes('LONDON STUDIO')) throw new Error('Unverified physical studio location must not be published');
 
 for (const key of ['projects', 'services', 'tutorials', 'insights', 'guides', 'library', 'ebooks', 'products', 'story']) {
@@ -128,7 +125,7 @@ for (const sceneId of ['arrival', 'studio', 'works', 'materials', 'practice']) {
   if (!defaultContent.story.some((item) => item.id === sceneId)) throw new Error('Missing cinematic copy for ' + sceneId);
 }
 if (defaultContent.settings.defaultLanguage !== 'en') throw new Error('Public default language must remain English');
-if (!defaultContent.brand.founderName || !defaultContent.brand.founderNameFa) throw new Error('Founder identity is incomplete');
+if (defaultContent.brand.founderName || !defaultContent.brand.founderNameFa) throw new Error('English identity must use the brand while Persian content is preserved.');
 if (defaultContent.brand.name !== 'WORLD ARCH JOURNAL') throw new Error('Public brand name is incomplete');
 for (const platform of ['whatsapp', 'instagram', 'youtube', 'pinterest']) {
   const channel = defaultContent.brand.socialLinks.find((item) => item.platform === platform);
@@ -298,3 +295,27 @@ for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4',
 }
 
 console.log(`Smoke checks passed: ${activeAssets.length} active media and brand files exist, release size is ${distSizeMb.toFixed(2)} MB, cinematic timing and soundtrack are intact, verified social links and the WORLD ARCH JOURNAL identity are present, the public site is English-only, Persian source fields remain available in the admin data, legal pages and API adapters are wired, commercial integrations are off, and private APIs/media are excluded from the PWA shell cache.`);
+
+// Check rendered public copy, metadata and active media after the identity migration.
+const { legalPages } = await import('../src/data/legalPages.js');
+if (legalPages['/editorial-team/'].portrait.src !== '/assets/brand/world-arch-wa-mark-v1.png') throw new Error('Publisher portrait must be the journal logo.');
+async function verifyBrandPages(directory) {
+  for (const entry of await readdir(directory, { withFileTypes: true })) {
+    const file = join(directory, entry.name);
+    if (entry.isDirectory()) await verifyBrandPages(file);
+    else if (entry.name.endsWith('.html')) {
+      const page = await readFile(file, 'utf8');
+      // Existing external account URLs stay valid until the owner can change their handles.
+      const copy = page.replace(/https?:\/\/[^\s"'<>`]+/g, '');
+      if (/Farnaz|Ghaffarian/i.test(copy)) throw new Error(`Personal English name remains in ${file}`);
+      if (/farnaz-professional-profile|posters\/(?:digital-founder-intro|founder-hero)/i.test(page)) throw new Error(`Portrait remains in ${file}`);
+    }
+  }
+}
+await verifyBrandPages(join(root, 'dist'));
+for (const relative of ['assets/brand/farnaz-professional-profile-v6.png', 'assets/brand/farnaz-professional-profile-v6.webp', 'assets/film/00-digital-founder-intro.mp4', 'assets/film/founder-intro-plus-entrance.mp4']) {
+  let exists = true;
+  try { await access(join(root, 'dist', relative)); } catch { exists = false; }
+  if (exists) throw new Error(`Retired personal media is still in the release: ${relative}`);
+}
+console.log('Public brand identity, logo replacement and retired portrait checks passed.');
