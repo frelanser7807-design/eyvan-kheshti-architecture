@@ -10,6 +10,7 @@ import { legalPages } from '../src/data/legalPages.js';
 import { newsletterIssues, editorialArticles, editorialPath } from '../src/data/newsletters.js';
 import { projects } from '../src/data/projects.js';
 import { publishedVideoStories } from '../src/data/videoStories.js';
+import { watchVideoEntries, watchPagePath, watchVideoForSource } from '../src/data/watchVideos.js';
 import { atlasVilla } from '../src/data/atlasVilla.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -209,11 +210,12 @@ for (const magazine of magazines.filter((item) => item.published)) {
 const videosPath = '/videos/';
 const videosDescription = 'Watch concise architecture videos with transcripts, technical notes and related evidence-led reading from World Arch Journal.';
 const videoLinks = publishedVideoStories.map((video) => `<article><img src="${escapeHtml(video.thumbnail)}" alt="${escapeHtml(`${video.title} video cover`)}" /><h2><a href="/videos/${escapeHtml(video.slug)}/">${escapeHtml(video.title)}</a></h2><p>${escapeHtml(video.description)}</p></article>`).join('');
+const watchVideoLinks = watchVideoEntries.map((video) => `<article><a href="${watchPagePath(video)}"><img src="${escapeHtml(video.thumbnail)}" alt="${escapeHtml(video.title)}" loading="lazy" /><h2>${escapeHtml(video.title)}</h2></a><p>${escapeHtml(video.description)}</p></article>`).join('');
 const videosSchema = { '@context': 'https://schema.org', '@graph': [
-  { '@type': 'CollectionPage', name: 'Architecture Videos & Visual Guides', description: videosDescription, url: `${siteUrl}${videosPath}`, inLanguage: 'en', publisher, hasPart: publishedVideoStories.map((video) => ({ '@type': 'VideoObject', name: video.title, description: video.description, thumbnailUrl: [video.thumbnail], uploadDate: video.uploadDate, duration: video.duration, embedUrl: `https://www.youtube-nocookie.com/embed/${video.youtubeId}`, url: `${siteUrl}/videos/${video.slug}/` })) },
+  { '@type': 'CollectionPage', name: 'Architecture Videos & Visual Guides', description: videosDescription, url: `${siteUrl}${videosPath}`, inLanguage: 'en', publisher, hasPart: [...publishedVideoStories.map((video) => ({ '@type': 'WebPage', name: video.title, url: `${siteUrl}/videos/${video.slug}/` })), ...watchVideoEntries.map((video) => ({ '@type': 'WebPage', name: video.title, url: `${siteUrl}${watchPagePath(video)}` }))] },
   breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Videos', pathname: videosPath }]),
 ] };
-const videosBody = `<main class="seo-route-fallback"><a href="/">WORLD ARCH JOURNAL</a><header><small>ARCHITECTURE / STRUCTURE / MATERIAL</small><h1>Architecture, explained in motion.</h1><p>${escapeHtml(videosDescription)}</p></header><section><h2>Video library</h2>${videoLinks}</section></main>`;
+const videosBody = `<main class="seo-route-fallback"><a href="/">WORLD ARCH JOURNAL</a><header><small>ARCHITECTURE / STRUCTURE / MATERIAL</small><h1>Architecture, explained in motion.</h1><p>${escapeHtml(videosDescription)}</p></header><section><h2>Video library</h2>${videoLinks}</section><section><h2>Video previews and architectural motion examples</h2>${watchVideoLinks}</section></main>`;
 await emit(videosPath, preparePage({ pathname: videosPath, title: `Architecture Videos & Visual Guides | ${siteName}`, description: videosDescription, image: publishedVideoStories[0]?.thumbnail || '/assets/editorial/issue-00/courtyard-wind-house-cover.jpg', schema: videosSchema, body: videosBody }));
 
 for (const video of publishedVideoStories) {
@@ -226,6 +228,36 @@ for (const video of publishedVideoStories) {
   const related = articles.filter((article) => article.published && video.relatedArticleSlugs.includes(article.slug)).map((article) => `<li><a href="/articles/${escapeHtml(article.slug)}/">${escapeHtml(article.title)}</a></li>`).join('');
   const body = `<main class="seo-route-fallback"><a href="/videos/">WORLD ARCH JOURNAL / VIDEOS</a><article><header><small>${escapeHtml(video.category)}</small><h1>${escapeHtml(video.title)}</h1><p>${escapeHtml(video.description)}</p></header><figure><a href="https://www.youtube.com/shorts/${escapeHtml(video.youtubeId)}"><img src="${escapeHtml(video.thumbnail)}" alt="${escapeHtml(`${video.title} video cover`)}" /></a><figcaption>Watch the video, then use the accessible sequence below as a concise transcript.</figcaption></figure><section><h2>What the sequence shows</h2><ol>${transcript}</ol></section><aside><strong>Technical note:</strong> ${escapeHtml(video.disclaimer)}</aside>${related ? `<section><h2>Continue reading</h2><ul>${related}</ul></section>` : ''}</article></main>`;
   await emit(pathname, preparePage({ pathname, title: `${video.seoTitle} | ${siteName}`, description: video.description, image: video.thumbnail, imageAlt: `${video.title} video cover`, type: 'video.other', schema, body }));
+}
+
+
+// Dedicated, crawlable video watch pages. The video is the primary visible
+// content rather than a secondary preview on a shop, prompt or home page.
+// These standalone pages intentionally omit the SPA module script: /videos/watch
+// has no client router and would otherwise render the application's 404 view.
+for (const video of watchVideoEntries) {
+  const pathname = watchPagePath(video);
+  const canonical = `${siteUrl}${pathname}`;
+  const schema = { '@context': 'https://schema.org', '@graph': [
+    { '@type': 'WebPage', name: video.title, description: video.description, url: canonical, mainEntity: { '@id': `${canonical}#video` }, inLanguage: 'en', publisher },
+    { '@type': 'VideoObject', '@id': `${canonical}#video`, name: video.title, description: video.description, thumbnailUrl: [absoluteUrl(video.thumbnail)], contentUrl: absoluteUrl(video.file), uploadDate: video.publishedAt, isAccessibleForFree: true, mainEntityOfPage: canonical, publisher },
+    breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Videos', pathname: '/videos/' }, { name: video.title, pathname }]),
+  ] };
+  const body = `<main class="seo-route-fallback wj-watch" id="main-content">
+    <nav aria-label="Video navigation"><a href="/videos/">WORLD ARCH JOURNAL / VIDEO LIBRARY</a></nav>
+    <article><header><small>ARCHITECTURE VIDEO · WATCH</small><h1>${escapeHtml(video.title)}</h1></header>
+    <figure><video controls playsinline preload="metadata" poster="${escapeHtml(video.thumbnail)}" aria-label="${escapeHtml(video.title)}">
+      <source src="${escapeHtml(video.file)}" type="video/mp4" />Your browser does not support embedded video.
+    </video><figcaption>${escapeHtml(video.description)}</figcaption></figure>
+    <section><h2>About this video</h2><p>${escapeHtml(video.description)}</p>
+    <p>This is a visual preview or illustrative motion example, not a construction instruction or engineering specification.</p>
+    <p><a href="${escapeHtml(video.sourcePath)}">Read the related ${escapeHtml(video.sourceLabel)}</a> for the full project or prompt context.</p></section>
+    <nav aria-label="More videos"><a href="/videos/">More architecture videos</a> · <a href="/magazine/">Architecture magazine</a></nav></article></main>`;
+  const watchCss = '<style>.wj-watch{padding-top:2rem}.wj-watch article{width:min(980px,100%);margin:1.2rem auto}.wj-watch header{width:auto;margin:0 0 1.2rem}.wj-watch h1{max-width:24ch;font-size:clamp(2.1rem,4.6vw,4.2rem);line-height:1.05}.wj-watch figure{margin:0}.wj-watch video{display:block;width:100%;max-height:72vh;aspect-ratio:16/9;object-fit:contain;background:#0c0c0d}.wj-watch figcaption{font-size:1rem;line-height:1.65;margin-top:1rem}.wj-watch section{width:auto;margin:2rem 0}.wj-watch nav{margin:1.2rem 0}</style>';
+  const html = preparePage({ pathname, title: `${video.title} | ${siteName}`, description: video.description, image: video.thumbnail, imageAlt: video.title, type: 'video.other', schema, body })
+    .replace(/<script\b(?=[^>]*\btype=["']module["'])[^>]*><\/script>/gi, '')
+    .replace('</head>', `${watchCss}</head>`);
+  await emit(pathname, html);
 }
 
 const projectsPath = '/projects/';
@@ -292,17 +324,19 @@ for (const item of promptItems) {
   const description = `${item.summary} ${item.access === 'free' ? 'Free, copy-ready architecture prompt with practical production settings.' : 'WORLD ARCH PRO prompt collection.'}`;
   const creativeWork = { '@type': 'CreativeWork', name: item.title, description, url: `${siteUrl}${pathname}`, image: absoluteUrl(item.image), inLanguage: 'en', creator: publisher, isAccessibleForFree: item.access === 'free', learningResourceType: 'Prompt', about: item.category, ...(item.referenceFrames?.length ? { associatedMedia: item.referenceFrames.map((frame) => ({ '@type': 'ImageObject', name: frame.label, contentUrl: absoluteUrl(frame.src), caption: frame.alt })) } : {}), ...(item.access === 'free' ? { text: item.prompt } : {}) };
   const breadcrumb = { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'AI Prompt Library', item: `${siteUrl}/prompts/` }, { '@type': 'ListItem', position: 2, name: item.title, item: `${siteUrl}${pathname}` }] };
-  const schema = { '@context': 'https://schema.org', '@graph': [creativeWork, breadcrumb, ...(item.video ? [{ '@type': 'VideoObject', name: `${item.title} example`, description: item.summary, thumbnailUrl: [absoluteUrl(item.image)], contentUrl: absoluteUrl(item.video), uploadDate: item.publishedAt || '2026-09-26', mainEntityOfPage: `${siteUrl}${pathname}` }] : [])] };
+  const schema = { '@context': 'https://schema.org', '@graph': [creativeWork, breadcrumb] };
   const category = promptCategories.find((entry) => entry.slug === item.category);
   const accessBody = item.access === 'free'
     ? `<section><h2>${escapeHtml(item.promptLabel)}</h2><button type="button" data-copy-prompt="prompt-master-text">Copy full prompt</button><p>If your browser blocks copying, select the complete text below.</p><pre id="prompt-master-text" style="white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.7">${escapeHtml(item.prompt)}</pre><h2>${escapeHtml(item.secondaryLabel)}</h2><p>${escapeHtml(item.secondaryPrompt)}</p></section><script defer src="/assets/prompt-copy-fallback.js"></script>`
     : '<section><h2>♛ WORLD ARCH PRO</h2><p>This professional prompt collection is locked. No checkout is active yet.</p><p><a href="/newsletter/#briefing-signup-title">Get the launch notice →</a></p></section>';
+  const watchVideo = watchVideoForSource(pathname);
+  const watchLink = watchVideo ? `<p><a href="${watchPagePath(watchVideo)}">Watch the full-screen video example</a></p>` : '';
   const media = item.video
     ? `<video controls preload="metadata" poster="${escapeHtml(item.image)}"><source src="${escapeHtml(item.video)}" type="video/mp4" />Your browser does not support embedded video.</video>`
     : `<figure><img src="${escapeHtml(item.image)}" alt="${escapeHtml(`${item.title} prompt preview`)}" /></figure>`;
   const frames = item.referenceFrames?.length ? `<section><h2>Start and end frames</h2>${item.referenceFrames.map((frame) => `<figure><img src="${escapeHtml(frame.src)}" alt="${escapeHtml(frame.alt)}" loading="lazy" /><figcaption>${escapeHtml(frame.label)} · <a href="${escapeHtml(frame.src)}" download>Download JPG</a></figcaption></figure>`).join('')}</section>` : '';
   const relatedPrompts = promptItems.filter((entry) => entry.id !== item.id && entry.category === item.category).slice(0, 3).map((entry) => `<li><a href="/prompts/${escapeHtml(entry.id)}/">${escapeHtml(entry.title)}</a> · ${entry.access === 'premium' ? 'PRO' : 'Free'}</li>`).join('');
-  const body = `<main class="seo-route-fallback"><a href="/prompts/">WORLD ARCH JOURNAL / PROMPT LAB</a><article><header><small>${escapeHtml(category?.title || item.category)} · ${item.access === 'premium' ? '♛ PRO' : 'FREE'}</small><h1>${escapeHtml(item.title)}</h1><p>${escapeHtml(item.summary)}</p></header>${media}${frames}${accessBody}${relatedPrompts ? `<section><h2>Related prompts</h2><ul>${relatedPrompts}</ul></section>` : ''}</article></main>`;
+  const body = `<main class="seo-route-fallback"><a href="/prompts/">WORLD ARCH JOURNAL / PROMPT LAB</a><article><header><small>${escapeHtml(category?.title || item.category)} · ${item.access === 'premium' ? '♛ PRO' : 'FREE'}</small><h1>${escapeHtml(item.title)}</h1><p>${escapeHtml(item.summary)}</p></header>${media}${watchLink}${frames}${accessBody}${relatedPrompts ? `<section><h2>Related prompts</h2><ul>${relatedPrompts}</ul></section>` : ''}</article></main>`;
   await emit(pathname, preparePage({ pathname, title: `${item.title} AI Prompt | ${siteName}`, description, image: item.image, imageAlt: `${item.title} prompt preview`, schema, body, robots: item.access === 'premium' ? 'noindex, follow, max-image-preview:large' : undefined }));
 }
 
@@ -337,9 +371,11 @@ for (const product of publishedProducts) {
   const description = product.metaDescription || product.excerpt;
   const productEntity = verifiedCheckout && product.price ? { '@type': 'Product', name: product.title, description, image: [absoluteUrl(product.image)], url: `${siteUrl}${pathname}`, sku: product.id, brand: publisher, offers: { '@type': 'Offer', url: verifiedCheckout, price: product.price, priceCurrency: product.currency || 'USD', availability: 'https://schema.org/InStock', itemCondition: 'https://schema.org/NewCondition' } } : { '@type': 'WebPage', name: product.title, description, url: `${siteUrl}${pathname}`, inLanguage: 'en' };
   const schema = { '@context': 'https://schema.org', '@graph': [productEntity, breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Shop', pathname: '/shop/' }, { name: product.title, pathname }])] };
+  const watchVideo = watchVideoForSource(pathname);
+  const watchLink = watchVideo ? `<p><a href="${watchPagePath(watchVideo)}">Watch the video preview on its dedicated page</a></p>` : '';
   const media = product.video ? `<video controls muted playsinline preload="metadata" poster="${escapeHtml(product.image)}"><source src="${escapeHtml(product.video)}" type="video/mp4" />Your browser does not support embedded video.</video>` : `<figure><img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.imageAlt || product.title)}" /></figure>`;
   const gallery = product.gallery?.length ? `<section><h2>Inside the template</h2>${product.gallery.map((image, index) => `<figure><img src="${escapeHtml(image)}" alt="${escapeHtml(`${product.title} preview ${index + 2}`)}" loading="lazy" /></figure>`).join('')}</section>` : '';
-  const body = `<main class="seo-route-fallback"><a href="/shop/">WORLD ARCH JOURNAL / SHOP</a><article><header><small>${escapeHtml(product.category)}</small><h1>${escapeHtml(product.title)}</h1><p>${escapeHtml(product.excerpt)}</p></header>${media}<p><strong>${escapeHtml(product.currency || 'USD')} ${escapeHtml(product.price || '')}</strong></p>${verifiedCheckout ? `<a href="${escapeHtml(verifiedCheckout)}">Buy securely on ${provider}</a>` : '<p>Checkout opens after final product approval.</p>'}${gallery}<section><h2>What this presentation format is designed to solve</h2><p>An architecture presentation should help a reader understand the project sequence, not simply collect attractive images. Use the editable structure to connect site analysis, concept, plans, sections, materials and final visualisations in a consistent hierarchy. Replace every sample image and project statement with your own verified content before presenting it to a client, tutor or competition jury.</p><p>Check the live Etsy listing for the exact editable file type, slide count, aspect ratio, fonts, licence, delivery contents and current price. The website summary supports discovery; Etsy remains the source of truth for checkout and fulfilment.</p></section><section><h2>Ready-made template or bespoke design?</h2><p>A ready-made template suits projects that already have drawings, renders and written content. Bespoke presentation design is better when the narrative, visual hierarchy or audience still needs to be defined. Custom scope, revisions, delivery date and rights are agreed in writing before payment.</p></section><p><a href="/shop/presentations/">Compare architecture presentation options</a> · <a href="/editorial-team/">Ask about bespoke presentation design</a></p></article></main>`;
+  const body = `<main class="seo-route-fallback"><a href="/shop/">WORLD ARCH JOURNAL / SHOP</a><article><header><small>${escapeHtml(product.category)}</small><h1>${escapeHtml(product.title)}</h1><p>${escapeHtml(product.excerpt)}</p></header>${media}${watchLink}<p><strong>${escapeHtml(product.currency || 'USD')} ${escapeHtml(product.price || '')}</strong></p>${verifiedCheckout ? `<a href="${escapeHtml(verifiedCheckout)}">Buy securely on ${provider}</a>` : '<p>Checkout opens after final product approval.</p>'}${gallery}<section><h2>What this presentation format is designed to solve</h2><p>An architecture presentation should help a reader understand the project sequence, not simply collect attractive images. Use the editable structure to connect site analysis, concept, plans, sections, materials and final visualisations in a consistent hierarchy. Replace every sample image and project statement with your own verified content before presenting it to a client, tutor or competition jury.</p><p>Check the live Etsy listing for the exact editable file type, slide count, aspect ratio, fonts, licence, delivery contents and current price. The website summary supports discovery; Etsy remains the source of truth for checkout and fulfilment.</p></section><section><h2>Ready-made template or bespoke design?</h2><p>A ready-made template suits projects that already have drawings, renders and written content. Bespoke presentation design is better when the narrative, visual hierarchy or audience still needs to be defined. Custom scope, revisions, delivery date and rights are agreed in writing before payment.</p></section><p><a href="/shop/presentations/">Compare architecture presentation options</a> · <a href="/editorial-team/">Ask about bespoke presentation design</a></p></article></main>`;
   await emit(pathname, preparePage({ pathname, title: product.seoTitle || `${product.title} | ${siteName}`, description, image: product.image, imageAlt: product.imageAlt || product.title, type: verifiedCheckout ? 'product' : 'website', schema, body }));
 }
 
@@ -355,6 +391,7 @@ const sitemapRecords = [
   { pathname: '/magazine/', lastmod: '2026-10-05', image: { loc: publishedMagazineArticles[0]?.image, title: 'World Arch Journal architecture magazine' } },
   { pathname: videosPath, lastmod: publishedVideoStories[0]?.uploadDate || '2026-10-09', image: { loc: publishedVideoStories[0]?.thumbnail, title: 'World Arch Journal architecture videos' } },
   ...publishedVideoStories.map((video) => ({ pathname: `/videos/${video.slug}/`, lastmod: video.uploadDate, image: { loc: video.thumbnail, title: video.title }, video: { title: video.title, description: video.description, thumbnail: video.thumbnail, player: `https://www.youtube-nocookie.com/embed/${video.youtubeId}`, uploadDate: video.uploadDate, duration: video.duration } })),
+  ...watchVideoEntries.map((video) => ({ pathname: watchPagePath(video), lastmod: video.publishedAt, image: { loc: video.thumbnail, title: video.title }, video: { title: video.title, description: video.description, thumbnail: video.thumbnail, content: video.file, uploadDate: video.publishedAt } })),
   { pathname: '/newsletter/', lastmod: newsletterIssues[0]?.publishedAt, image: { loc: newsletterIssues[0]?.image, title: newsletterIssues[0]?.title } },
   { pathname: '/magazine/analysis/', lastmod: editorialArticles[0]?.updatedAt || editorialArticles[0]?.publishedAt, image: { loc: editorialArticles[0]?.image, title: editorialArticles[0]?.title } },
   ...[...newsletterIssues, ...editorialArticles].map((issue) => ({ pathname: editorialPath(issue), lastmod: issue.updatedAt || issue.publishedAt, image: { loc: issue.image, title: issue.title, caption: issue.imageAlt } })),
@@ -367,10 +404,10 @@ const sitemapRecords = [
   ...projects.map((project) => ({ pathname: project.detailPath, lastmod: '2026-10-06', image: { loc: project.cover, title: project.title, caption: project.coverAlt } })),
   ...projects.map((project) => ({ pathname: project.tourPath, lastmod: '2026-10-06', image: { loc: project.cover, title: `${project.title} virtual tour`, caption: project.coverAlt } })),
   { pathname: promptsPath, lastmod: '2026-09-27' },
-  ...promptItems.filter((item) => item.access === 'free').map((item) => ({ pathname: `/prompts/${item.id}/`, lastmod: item.modifiedAt || item.publishedAt || '2026-09-27', image: { loc: item.image, title: item.title, caption: item.summary }, video: item.video ? { title: `${item.title} example`, description: item.summary, thumbnail: item.image, content: item.video } : null })),
+  ...promptItems.filter((item) => item.access === 'free').map((item) => ({ pathname: `/prompts/${item.id}/`, lastmod: item.modifiedAt || item.publishedAt || '2026-09-27', image: { loc: item.image, title: item.title, caption: item.summary } })),
   { pathname: shopPath, lastmod: '2026-10-05', image: { loc: publishedProducts[0]?.image, title: 'World Arch Journal architecture shop' } },
   { pathname: presentationPath, lastmod: '2026-10-05', image: { loc: presentationProducts[0]?.image, title: presentationTitle } },
-  ...publishedProducts.map((item) => ({ pathname: `/shop/${item.slug || item.id}/`, lastmod: item.modifiedAt || item.publishedAt, image: { loc: item.image, title: item.title, caption: item.imageAlt || item.excerpt }, video: item.video ? { title: `${item.title} preview`, description: item.metaDescription || item.excerpt, thumbnail: item.image, content: item.video } : null })),
+  ...publishedProducts.map((item) => ({ pathname: `/shop/${item.slug || item.id}/`, lastmod: item.modifiedAt || item.publishedAt, image: { loc: item.image, title: item.title, caption: item.imageAlt || item.excerpt } })),
 ];
 const uniqueRecords = [...new Map(sitemapRecords.map((record) => [record.pathname, record])).values()];
 const atlasPaths = [
