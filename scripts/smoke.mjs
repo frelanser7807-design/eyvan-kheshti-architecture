@@ -221,6 +221,10 @@ for (const expectedPath of ['/atlas/', '/atlas/turkiye/istanbul/', '/atlas/turki
 if (!robots.includes('atlas-sitemap.xml')) throw new Error('Robots file must expose the dedicated Atlas sitemap.');
 const videoPage = await readFile(join(root, 'dist/videos/how-stone-arches-carry-load/index.html'), 'utf8');
 if (!videoPage.includes('VideoObject') || !videoPage.includes('youtube-nocookie.com/embed/0pE7K9EEYvg') || !videoPage.includes('What the sequence shows')) throw new Error('Architecture video landing page is incomplete.');
+const flaggedVideoPage = await readFile(join(root, 'dist/videos/how-stone-arches-carry-load/index.html'), 'utf8');
+if (!flaggedVideoPage.includes('youtube-nocookie.com/embed/') || !flaggedVideoPage.includes('<iframe') || !flaggedVideoPage.includes('rel="canonical"')) {
+  throw new Error('Architecture video permalink needs an embedded, canonical, crawlable watch page.');
+}
 const videoSitemap = await readFile(join(root, 'dist/video-sitemap.xml'), 'utf8');
 if (!videoSitemap.includes('/videos/how-stone-arches-carry-load/') || !videoSitemap.includes('<video:player_loc')) throw new Error('Video sitemap is incomplete.');
 // Dedicated hosted-video watch pages must not be replaced by the SPA's 404 route.
