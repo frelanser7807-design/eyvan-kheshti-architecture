@@ -29,3 +29,14 @@ Eight explanatory SVGs were authored directly in code. They carry conceptual/not
 ## Google indexing
 
 Both canonical HTML pages are public, indexable and included in the existing successful sitemap. PDF copies retain the site's intentional noindex headers. Google Search Console's manual request quota was already exhausted earlier on 18 October; do not repeatedly request or claim submission. Sitemap discovery is available after deployment, but only Google Search Console can confirm actual Google indexing.
+
+## Verified publication outcome
+
+- PR #7 was merged as `8b69452e6777198eece47a3392fe2dfa2d8e6994`.
+- Preview workflow `39119768106` and production workflow `39119927433` completed successfully. All 11 tests and release smoke checks passed. Production verification checked 100 page/feed routes successfully at 10:37 UTC on 18 October 2026.
+- A separate production check confirmed HTTP 200 for both article HTML pages, both generated PDFs, all 12 image-format/diagram asset URLs, the main and article sitemaps, and the magazine (19 checks). Each article has five figures, one H1 and its own canonical. Both PDFs retain the intentional `noindex, nofollow` header.
+- Both URLs were individually inspected in Google Search Console. The Google Index report showed `URL is unknown to Google`, so neither is claimed as indexed.
+- Live tests for both pages reported `URL is available to Google` and `Page can be indexed`: crawl allowed Yes, successful page fetch, indexing allowed Yes, the correct user-declared canonical and one valid Breadcrumbs item. Google-selected canonical is determined only after indexing.
+- Zero new manual Google indexing requests were submitted because the same-day quota was already exhausted. The new URLs are present in the existing sitemaps; no unnecessary sitemap resubmission was performed.
+- A single targeted IndexNow notification containing only the two new URLs received HTTP 200. This acknowledges the notification to participating engines; it is not Google submission or proof of indexing.
+- Production article pages were also opened in the browser; each rendered five figures with no horizontal document overflow at the current desktop viewport. No new claim is made about mobile field performance.
