@@ -54,6 +54,7 @@ export const legalPages = {
   '/editorial-team/': {
     eyebrow: 'ABOUT THE PUBLISHER',
     title: 'About World Arch Journal',
+    portrait: { src: '/assets/brand/farnaz-professional-profile-v6.png', srcWebp: '/assets/brand/farnaz-professional-profile-v6.webp', alt: 'Farnaz Ghaffarian, architect, interior designer and founder of World Arch Journal', caption: 'Farnaz Ghaffarian · Architect & Interior Designer', width: 1080, height: 1080 },
     lastUpdated: '2026-10-18',
     metaDescription: 'Meet Farnaz Ghaffarian and World Arch Journal: practical architecture guides, villa and facade design, interiors, landscape concepts, visualisation and BIM.',
     intro: 'World Arch Journal is an independent architecture publication and design platform founded and edited by Farnaz Ghaffarian, a licensed architect and interior designer with 15 years of professional experience, practising since 2011.',

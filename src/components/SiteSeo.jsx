@@ -70,6 +70,7 @@ export default function SiteSeo({ content, route }) {
     if (legalTitle) {
       title = `${legalPages[normalizedPath]?.title || legalTitle} | ${name}`;
       description = legalPages[normalizedPath]?.metaDescription || `${legalTitle} for the WORLD ARCH JOURNAL architecture platform.`;
+      if (legalPages[normalizedPath]?.portrait) image = absoluteAsset(siteUrl, legalPages[normalizedPath].portrait.src);
     } else if (route?.name === 'magazine-hub') {
       title = `Architecture Magazine | ${name}`;
       description = 'Read original, evidence-led architecture stories on climate design, facades, adaptive reuse and concept studies in World Arch Journal.';
