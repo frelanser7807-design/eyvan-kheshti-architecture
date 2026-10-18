@@ -185,7 +185,8 @@ for (const pageUrl of sitemapUrls) {
   const htmlPath = parsedUrl.pathname === '/' ? 'dist/index.html' : `dist${decodeURIComponent(parsedUrl.pathname)}index.html`;
   const pageHtml = await readFile(join(root, htmlPath), 'utf8').catch(() => { throw new Error(`Sitemap URL lacks a static HTML page: ${pageUrl}`); });
   if (pageHtml.includes('name="robots" content="noindex') || pageHtml.includes('content="noindex') || pageHtml.includes("content='noindex")) throw new Error(`Noindex page included in sitemap: ${pageUrl}`);
-  if (!pageHtml.includes(`rel="canonical" href="${pageUrl}"`)) throw new Error(`Missing/mismatched canonical link for sitemap page: ${pageUrl}`);
+  const canonicalTags = [...pageHtml.matchAll(new RegExp('<link[^>]*rel="canonical"[^>]*>', 'gi'))].map((match) => match[0]);
+  if (!canonicalTags.some((tag) => tag.includes(`href="${pageUrl}"`))) throw new Error(`Missing/mismatched canonical link for sitemap page: ${pageUrl}`);
 }
 const llms = await readFile(join(root, 'dist/llms.txt'), 'utf8');
 if (!llms.includes('https://worldarchjournal.com/magazine/') || !llms.includes('https://worldarchjournal.com/projects/')) {
