@@ -392,15 +392,23 @@ const sitemap = serializeSitemap(uniqueRecords);
 const atlasSitemap = serializeSitemap(atlasRecords);
 const articleSitemap = serializeSitemap(uniqueRecords.filter((record) => record.pathname.startsWith('/articles/') || record.pathname.startsWith('/magazine/')));
 const videoSitemap = serializeSitemap(uniqueRecords.filter((record) => record.video));
-const latestNewsTimestamp = Math.max(...newsletterIssues.map((issue) => Date.parse(`${issue.publishedAt}T23:59:59Z`)).filter(Number.isFinite));
-const eligibleNewsIssues = newsletterIssues.filter((issue) => latestNewsTimestamp - Date.parse(`${issue.publishedAt}T23:59:59Z`) <= 2 * 24 * 60 * 60 * 1000);
+// Google News sitemaps should include only articles from the last two days,
+// relative to the build time, not relative to the newest article in the archive.
+const newsSitemapBuildTime = Date.now();
+const newsWindowMs = 2 * 24 * 60 * 60 * 1000;
+const eligibleNewsIssues = newsletterIssues.filter((issue) => {
+  const publishedAt = Date.parse(issue.feedPublishedAt || `${issue.publishedAt}T12:00:00Z`);
+  return Number.isFinite(publishedAt)
+    && publishedAt <= newsSitemapBuildTime
+    && publishedAt >= newsSitemapBuildTime - newsWindowMs;
+});
 const newsSitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n${eligibleNewsIssues.map((issue) => `  <url><loc>${siteUrl}${editorialPath(issue)}</loc><news:news><news:publication><news:name>${siteName}</news:name><news:language>en</news:language></news:publication><news:publication_date>${escapeXml(issue.publishedAt)}</news:publication_date><news:title>${escapeXml(issue.title)}</news:title></news:news></url>`).join('\n')}\n</urlset>\n`;
 await writeFile(path.join(dist, 'sitemap.xml'), sitemap, 'utf8');
 await writeFile(path.join(dist, 'atlas-sitemap.xml'), atlasSitemap, 'utf8');
 await writeFile(path.join(dist, 'article-sitemap.xml'), articleSitemap, 'utf8');
 await writeFile(path.join(dist, 'video-sitemap.xml'), videoSitemap, 'utf8');
 await writeFile(path.join(dist, 'news-sitemap.xml'), newsSitemap, 'utf8');
-await writeFile(path.join(dist, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /#/admin\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nSitemap: ${siteUrl}/sitemap.xml\nSitemap: ${siteUrl}/article-sitemap.xml\nSitemap: ${siteUrl}/video-sitemap.xml\nSitemap: ${siteUrl}/atlas-sitemap.xml\nSitemap: ${siteUrl}/news-sitemap.xml\n`, 'utf8');
+await writeFile(path.join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nSitemap: ${siteUrl}/sitemap.xml\nSitemap: ${siteUrl}/article-sitemap.xml\nSitemap: ${siteUrl}/video-sitemap.xml\nSitemap: ${siteUrl}/atlas-sitemap.xml\nSitemap: ${siteUrl}/news-sitemap.xml\n`, 'utf8');
 await injectStaticAnalytics(dist);
 
 console.log(`Generated ${articles.filter((item) => item.published).length} article page(s), ${magazines.filter((item) => item.published).length} magazine page(s), ${promptItems.length} prompt page(s), ${publishedProducts.length} product page(s), shop, sitemap and robots.`);
