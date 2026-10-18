@@ -12,6 +12,7 @@ import { projects } from '../src/data/projects.js';
 import { publishedVideoStories } from '../src/data/videoStories.js';
 import { watchVideoEntries, watchPagePath, watchVideoForSource } from '../src/data/watchVideos.js';
 import { atlasVilla } from '../src/data/atlasVilla.js';
+import { createArticleRss, withArticleFeedLink } from './lib/article-rss.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.resolve(process.env.DIST_DIR || path.join(root, 'dist'));
@@ -91,6 +92,16 @@ async function emit(pathname, html) {
   const directory = pathname === '/' ? dist : path.join(dist, ...pathname.split('/').filter(Boolean));
   await mkdir(directory, { recursive: true });
   await writeFile(path.join(directory, 'index.html'), html, 'utf8');
+}
+
+async function injectArticleFeedLinks(directory) {
+  for (const entry of await readdir(directory, { withFileTypes: true })) {
+    const target = path.join(directory, entry.name);
+    if (entry.isDirectory()) await injectArticleFeedLinks(target);
+    else if (entry.isFile() && entry.name.endsWith('.html')) {
+      await writeFile(target, withArticleFeedLink(await readFile(target, 'utf8')), 'utf8');
+    }
+  }
 }
 
 async function injectStaticAnalytics(directory) {
@@ -450,6 +461,8 @@ await writeFile(path.join(dist, 'article-sitemap.xml'), articleSitemap, 'utf8');
 await writeFile(path.join(dist, 'video-sitemap.xml'), videoSitemap, 'utf8');
 await writeFile(path.join(dist, 'news-sitemap.xml'), newsSitemap, 'utf8');
 await writeFile(path.join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nSitemap: ${siteUrl}/sitemap.xml\nSitemap: ${siteUrl}/article-sitemap.xml\nSitemap: ${siteUrl}/video-sitemap.xml\nSitemap: ${siteUrl}/atlas-sitemap.xml\nSitemap: ${siteUrl}/news-sitemap.xml\n`, 'utf8');
+await writeFile(path.join(dist, 'rss.xml'), createArticleRss(articles), 'utf8');
+await injectArticleFeedLinks(dist);
 await injectStaticAnalytics(dist);
 
 console.log(`Generated ${articles.filter((item) => item.published).length} article page(s), ${magazines.filter((item) => item.published).length} magazine page(s), ${promptItems.length} prompt page(s), ${publishedProducts.length} product page(s), shop, sitemap and robots.`);

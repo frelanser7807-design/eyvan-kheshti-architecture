@@ -49,11 +49,11 @@ jobs:
       - name: Build and verify publication package
         run: |
           npm run build
-          node --test tests/newsletter-publication.test.mjs tests/newsletter.test.mjs tests/technical-seo.test.mjs tests/illustrated-articles.test.mjs
+          node --test tests/newsletter-publication.test.mjs tests/newsletter.test.mjs tests/technical-seo.test.mjs tests/illustrated-articles.test.mjs tests/article-rss.test.mjs
           npm run smoke
           node --input-type=module <<'NODE'
           import { access, readFile } from 'node:fs/promises';
-          for (const path of ['dist/index.html', 'dist/sitemap.xml', 'dist/newsletter/feed.xml', 'dist/news-sitemap.xml']) {
+          for (const path of ['dist/index.html', 'dist/sitemap.xml', 'dist/newsletter/feed.xml', 'dist/news-sitemap.xml', 'dist/rss.xml']) {
             await access(path);
           }
           const sitemap = await readFile('dist/sitemap.xml', 'utf8');
@@ -91,13 +91,16 @@ jobs:
             }
             throw lastError ?? new Error(`Preview did not respond: ${path}`);
           };
+          const rssResponse = await fetchOk('/rss.xml');
+          if (!/^application\/rss\+xml(?:;|$)/i.test(rssResponse.headers.get('content-type') || '')) throw new Error('RSS preview has incorrect Content-Type.');
+          if (!(await rssResponse.text()).includes('<rss version="2.0"')) throw new Error('RSS preview did not return the feed.');
           const sitemap = await (await fetchOk('/sitemap.xml')).text();
           const paths = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)]
             .map((match) => new URL(match[1], origin).pathname)
             .filter((path) => path !== '/sitemap.xml');
           if (!paths.some((path) => path.startsWith('/articles/'))) throw new Error('Sitemap contains no articles.');
           if (!paths.some((path) => path.startsWith('/newsletter/'))) throw new Error('Sitemap contains no newsletter issues.');
-          const required = [...new Set(['/', '/newsletter/feed.xml', ...paths])];
+          const required = [...new Set(['/', '/newsletter/feed.xml', '/rss.xml', ...paths])];
           let cursor = 0;
           const failures = [];
           await Promise.all(Array.from({ length: 8 }, async () => {
@@ -147,13 +150,16 @@ jobs:
             }
             throw lastError ?? new Error(`Production route did not respond: ${path}`);
           };
+          const rssResponse = await check('/rss.xml');
+          if (!/^application\/rss\+xml(?:;|$)/i.test(rssResponse.headers.get('content-type') || '')) throw new Error('Production RSS has incorrect Content-Type.');
+          if (!(await rssResponse.text()).includes('<rss version="2.0"')) throw new Error('Production RSS did not return the feed.');
           const sitemap = await (await check('/sitemap.xml')).text();
           const paths = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)]
             .map((match) => new URL(match[1], origin).pathname)
             .filter((path) => path !== '/sitemap.xml');
           if (!paths.some((path) => path.startsWith('/articles/'))) throw new Error('Live sitemap contains no articles.');
           if (!paths.some((path) => path.startsWith('/newsletter/'))) throw new Error('Live sitemap contains no newsletter issues.');
-          const required = [...new Set(['/', '/newsletter/feed.xml', ...paths])];
+          const required = [...new Set(['/', '/newsletter/feed.xml', '/rss.xml', ...paths])];
           let cursor = 0;
           const failures = [];
           await Promise.all(Array.from({ length: 8 }, async () => {
