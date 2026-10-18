@@ -169,7 +169,109 @@ if (articleReader.includes('dangerouslySetInnerHTML') || !articleReader.includes
 const robots = await readFile(join(root, 'dist/robots.txt'), 'utf8');
 if (!robots.includes('OAI-SearchBot') || !robots.includes('Allow: /')) throw new Error('Search crawler policy missing');
 
-const sitemapHost = String(process.env.VITE_SITE_URL || 'https://worldarchjournal.com').replace(/\\/$/, '');
+const sitemapHost = String(process.env.VITE_SITE_URL || 'https://worldarchjournal.com').replace(new RegExp('/+
+for (const sitemapFile of ['sitemap.xml', 'article-sitemap.xml', 'video-sitemap.xml', 'atlas-sitemap.xml', 'news-sitemap.xml']) {
+  if (!robots.includes(`Sitemap: ${sitemapHost}/${sitemapFile}`)) throw new Error(`robots.txt does not advertise ${sitemapFile}`);
+  const xml = await readFile(join(root, 'dist', sitemapFile), 'utf8');
+  if (!xml.startsWith('<?xml') || !xml.includes('<urlset')) throw new Error(`Invalid sitemap XML shell: ${sitemapFile}`);
+}
+const llms = await readFile(join(root, 'dist/llms.txt'), 'utf8');
+if (!llms.includes('https://worldarchjournal.com/magazine/') || !llms.includes('https://worldarchjournal.com/projects/')) {
+  throw new Error('AI discovery file lacks canonical navigation links.');
+}
+
+
+const staticArticle = await readFile(join(root, 'dist/articles/courtyard-wind-house-passive-cooling/index.html'), 'utf8');
+if (!staticArticle.includes('"@type":"Article"') || !staticArticle.includes('rel="canonical"') || !staticArticle.includes('og:image:alt')) throw new Error('Dedicated article SEO page is incomplete.');
+if ((staticArticle.match(/<img /g) || []).length < 5 || !staticArticle.includes('Cooling is often treated')) throw new Error('Dedicated article page is missing its complete visual story or body copy.');
+const staticMagazine = await readFile(join(root, 'dist/magazine/issue-00-the-house-after-the-grid/index.html'), 'utf8');
+if (!staticMagazine.includes('PublicationIssue') || (staticMagazine.match(/<img /g) || []).length < 5) throw new Error('Dedicated magazine page is incomplete.');
+const staticShop = await readFile(join(root, 'dist/shop/index.html'), 'utf8');
+if (!staticShop.includes('CollectionPage') || !staticShop.includes('Interior Design Presentation Template')) throw new Error('Shop must expose the verified published product catalogue.');
+const staticAtlas = await readFile(join(root, 'dist/atlas/index.html'), 'utf8');
+if (!staticAtlas.includes('World Arch Atlas') || !staticAtlas.includes('/downloads/atlas/world-arch-atlas-istanbul-architecture-travel-guide.pdf')) throw new Error('Atlas hub must expose the city catalogue and PDF downloads.');
+for (const atlasPdf of ['world-arch-atlas-istanbul-architecture-travel-guide.pdf', 'world-arch-atlas-antalya-architecture-travel-guide.pdf', 'world-arch-atlas-cappadocia-architecture-travel-guide.pdf']) {
+  const pdfPath = join(root, 'dist/downloads/atlas', atlasPdf);
+  const pdfStat = await stat(pdfPath);
+  if (pdfStat.size < 10000) throw new Error('Atlas PDF is missing or unexpectedly small: ' + atlasPdf);
+}
+const staticPresentationProduct = await readFile(join(root, 'dist/shop/interior-design-presentation-template/index.html'), 'utf8');
+if (!staticPresentationProduct.includes('"@type":"Product"') || !staticPresentationProduct.includes('4586743960') || !staticPresentationProduct.includes('priceCurrency":"GBP"') || !staticPresentationProduct.includes('<video')) throw new Error('Published presentation template is missing verified Etsy checkout, GBP offer schema or video preview.');
+const sitemap = await readFile(join(root, 'dist/sitemap.xml'), 'utf8');
+for (const expectedPath of ['/articles/courtyard-wind-house-passive-cooling/', '/articles/cross-ventilation-apartment-design/', '/articles/apartment-daylight-layout-design/', '/magazine/issue-00-the-house-after-the-grid/', '/prompts/exact-final-frame-architectural-build/', '/shop/', '/shop/interior-design-presentation-template/', '/atlas/turkiye/istanbul/']) {
+  if (!sitemap.includes(expectedPath)) throw new Error('Sitemap is missing: ' + expectedPath);
+}
+const atlasSitemap = await readFile(join(root, 'dist/atlas-sitemap.xml'), 'utf8');
+for (const expectedPath of ['/atlas/', '/atlas/turkiye/istanbul/', '/atlas/turkiye/antalya/', '/atlas/turkiye/cappadocia/']) {
+  if (!atlasSitemap.includes(expectedPath)) throw new Error('Atlas sitemap is missing: ' + expectedPath);
+}
+if (!robots.includes('atlas-sitemap.xml')) throw new Error('Robots file must expose the dedicated Atlas sitemap.');
+const videoPage = await readFile(join(root, 'dist/videos/how-stone-arches-carry-load/index.html'), 'utf8');
+if (!videoPage.includes('VideoObject') || !videoPage.includes('youtube-nocookie.com/embed/0pE7K9EEYvg') || !videoPage.includes('What the sequence shows')) throw new Error('Architecture video landing page is incomplete.');
+const videoSitemap = await readFile(join(root, 'dist/video-sitemap.xml'), 'utf8');
+if (!videoSitemap.includes('/videos/how-stone-arches-carry-load/') || !videoSitemap.includes('<video:player_loc')) throw new Error('Video sitemap is incomplete.');
+const articleSitemap = await readFile(join(root, 'dist/article-sitemap.xml'), 'utf8');
+if (!articleSitemap.includes('/articles/ai-in-architecture-2026-adoption-risks-rules/') || !articleSitemap.includes('/magazine/climate-resilient-homes/')) throw new Error('Article topic sitemap is incomplete.');
+if (!robots.includes('article-sitemap.xml') || !robots.includes('video-sitemap.xml')) throw new Error('Robots file must expose article and video sitemaps.');
+const promptLibrary = await readFile(join(root, 'src/components/PromptLibrary.jsx'), 'utf8');
+if (!promptLibrary.includes('prompt-search-input') || !promptLibrary.includes("trackSiteEvent('prompt_copy'")) throw new Error('Prompt search or copy conversion tracking is missing.');
+const promptDetail = await readFile(join(root, 'src/components/PromptDetail.jsx'), 'utf8');
+if (!promptDetail.includes('Get the launch notice') || !promptDetail.includes('Related prompts')) throw new Error('PRO prompt conversion or related-prompt path is missing.');
+const newsletterPage = await readFile(join(root, 'src/components/NewsletterPage.jsx'), 'utf8');
+if (!newsletterPage.includes('Download PDF') || !newsletterPage.includes('newsletter_signup_success')) throw new Error('Newsletter PDF download or conversion tracking is missing.');
+for (const issueSlug of ['architecture-briefing-2026-10-09', 'architecture-briefing-2026-10-08']) {
+  const newsletterPdf = await stat(join(root, 'dist', 'downloads', 'newsletter', `${issueSlug}.pdf`));
+  if (newsletterPdf.size < 20000) throw new Error(`Newsletter PDF is missing or unexpectedly small: ${issueSlug}`);
+}
+if (!cinematic.includes('FA SOON') || !cinematic.includes("preload={isIdle ? 'none' : 'metadata'}")) throw new Error('Disabled Persian tab or video preload optimisation is missing.');
+if (!cinematic.includes('if (sceneIndex < scenes.length - 1)') || !cinematic.includes('setSceneIndex((value) => value + 1)')) throw new Error('Continuous one-click cinematic playback is missing.');
+
+const serviceWorker = await readFile(join(root, 'dist/sw.js'), 'utf8');
+if (!serviceWorker.includes("startsWith('/v1/')") || !serviceWorker.includes("destination === 'video'") || !serviceWorker.includes("destination === 'audio'") || !serviceWorker.includes("caches.match('/offline.html')")) {
+  throw new Error('Service worker must exclude APIs and streamed media from the shell cache');
+}
+
+async function directorySize(path) {
+  let total = 0;
+  for (const entry of await readdir(path, { withFileTypes: true })) {
+    const target = join(path, entry.name);
+    total += entry.isDirectory() ? await directorySize(target) : (await stat(target)).size;
+  }
+  return total;
+}
+
+async function collectReleaseFiles(path) {
+  const files = [];
+  for (const entry of await readdir(path, { withFileTypes: true })) {
+    const target = join(path, entry.name);
+    if (entry.isDirectory()) files.push(...await collectReleaseFiles(target));
+    else files.push({ path: target, size: (await stat(target)).size });
+  }
+  return files;
+}
+
+const distSizeMb = (await directorySize(join(root, 'dist'))) / (1024 * 1024);
+const releaseFiles = await collectReleaseFiles(join(root, 'dist'));
+const exactFinalFrameVideo = await stat(join(root, 'dist/assets/prompts/exact-final-frame-architectural-build/example-reel.mp4'));
+if (exactFinalFrameVideo.size > 4 * 1024 * 1024) throw new Error('Exact final-frame prompt video exceeds the 4 MB web budget.');
+if (releaseFiles.length > 20000) throw new Error(`Cloudflare Pages file limit exceeded: ${releaseFiles.length} files`);
+const largestReleaseFile = releaseFiles.reduce((largest, file) => file.size > largest.size ? file : largest, { path: '', size: 0 });
+if (largestReleaseFile.size > 25 * 1024 * 1024) throw new Error(`Cloudflare Pages per-file limit exceeded: ${largestReleaseFile.path} (${(largestReleaseFile.size / 1024 / 1024).toFixed(2)} MB)`);
+// This release includes the directly downloadable social video, Atlas guides,
+// newsletter PDFs and prompt examples. Keep a measured ceiling above the
+// verified 230 MB release while enforcing Cloudflare's actual file/count caps.
+if (distSizeMb > 235) throw new Error(`Release package regressed to ${distSizeMb.toFixed(2)} MB`);
+for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
+  try {
+    await access(join(root, 'dist/assets', legacyAsset));
+    throw new Error('Legacy asset leaked into release: ' + legacyAsset);
+  } catch (error) {
+    if (!String(error?.message || '').includes('ENOENT')) throw error;
+  }
+}
+
+console.log(`Smoke checks passed: ${activeAssets.length} active media and brand files exist, release size is ${distSizeMb.toFixed(2)} MB, cinematic timing and soundtrack are intact, verified social links and the WORLD ARCH JOURNAL identity are present, the public site is English-only, Persian source fields remain available in the admin data, legal pages and API adapters are wired, commercial integrations are off, and private APIs/media are excluded from the PWA shell cache.`);
+), '');
 for (const sitemapFile of ['sitemap.xml', 'article-sitemap.xml', 'video-sitemap.xml', 'atlas-sitemap.xml', 'news-sitemap.xml']) {
   if (!robots.includes(`Sitemap: ${sitemapHost}/${sitemapFile}`)) throw new Error(`robots.txt does not advertise ${sitemapFile}`);
   const xml = await readFile(join(root, 'dist', sitemapFile), 'utf8');
