@@ -1,0 +1,50 @@
+{
+  "id": "light-oak",
+  "name": "Light oak",
+  "version": 1,
+  "creator": "World Arch Journal / procedural material authoring",
+  "method": "Original periodic procedural equations sampled at 4096x4096; no raster upscaling or third-party texture input.",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "sourceResolution": "resolution-independent procedural source",
+  "physicalTileMeters": [
+    0.48,
+    0.48
+  ],
+  "flutePitchMeters": 0.02,
+  "heightRangeMeters": [
+    -0.00025,
+    0.00425
+  ],
+  "metallic": 0,
+  "notes": "Designed visualization material. Finish names describe appearance; not a scan or certified commercial product. Maps use UV +V upward. Repeat with linear/mipmap filtering.",
+  "license": "Use and modify these exported maps in personal and commercial design/rendering projects. No manufacturer affiliation or physical-product warranty.",
+  "maps": {
+    "baseColor": {
+      "file": "basecolor-4k.png",
+      "colorSpace": "sRGB"
+    },
+    "roughness": {
+      "file": "roughness-4k.png",
+      "colorSpace": "linear"
+    },
+    "normal": {
+      "file": "normal-opengl-4k.png",
+      "colorSpace": "linear",
+      "convention": "OpenGL +Y"
+    },
+    "height": {
+      "file": "height-16bit-4k.png",
+      "colorSpace": "linear",
+      "bitDepth": 16
+    }
+  },
+  "sha256": {
+    "basecolor-4k.png": "98ee420f181d2da86965be375344d9bbc3708077e9e2bd6d81f1f7279c814a30",
+    "roughness-4k.png": "27dfe2baf6f3c881cd4159f021d11e147b6e03415b66b173fac536894e0c0616",
+    "normal-opengl-4k.png": "64000c144e8e3c3db509cd45adc012c286f61216b3ed8004160b15fb12bd9214",
+    "height-16bit-4k.png": "a1351ee336c7deb2a47049bae27985fdda627177dcf5f9b9e89883a52df892a8"
+  }
+}

@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { collectionProducts, categoryPath, typePath } from '../data/materialCollections.js';
 import { assetUrl } from '../lib/assetUrl.js';
 import { publishedMagazineArticles } from '../data/magazineCategories.js';
 import { promptItems } from '../data/promptLibrary.js';
@@ -56,7 +57,7 @@ export default function SiteSeo({ content, route }) {
     const name = brand.name || 'WORLD ARCH JOURNAL';
     const siteUrl = String(import.meta.env.VITE_SITE_URL || FALLBACK_SITE_URL).replace(/\/$/, '');
     const normalizedPath = window.location.pathname.endsWith('/') ? window.location.pathname : `${window.location.pathname}/`;
-    const canonicalUrl = `${siteUrl}${normalizedPath === '/' ? '' : normalizedPath}`;
+    const canonicalUrl = `${siteUrl}${route?.name === 'material-studio' ? collectionProducts[0].path : normalizedPath === '/' ? '' : normalizedPath}`;
     const legalTitle = legalTitles[normalizedPath];
     const item = route?.item;
     const isMissing = route?.name === 'not-found' || (['article', 'magazine', 'magazine-category', 'product', 'prompt', 'newsletter-issue', 'analysis-article', 'project', 'video-story'].includes(route?.name) && !item);
@@ -114,6 +115,17 @@ export default function SiteSeo({ content, route }) {
       title = `Architecture Presentation Templates & Custom Design | ${name}`;
       description = 'Explore interior and exterior architecture presentation formats, editable slide decks, design boards and social cover systems, plus bespoke presentation design by World Arch Journal.';
       image = absoluteAsset(siteUrl, '/assets/candidates/office-world/scene-06-material-model-lab-v1.png');
+    } else if (route?.name === 'material-studio') {
+      title = `Fluted Wood · 7 Finishes & 4K PBR Maps | ${name}`;
+      description = collectionProducts[0].description;
+      image = absoluteAsset(siteUrl, collectionProducts[0].scene);
+      structuredData = { '@context':'https://schema.org', '@type':'CreativeWork', name:'Original fluted wood', description, url:canonicalUrl, isPartOf:{'@type':'CollectionPage',url:`${siteUrl}/materials/`} };
+    } else if (['material-library','material-collection','material-samples','material-product'].includes(route?.name)) {
+      title = `${route.type?.name || route.category?.name || item?.name || (route.name === 'material-samples' ? 'Licensed 1K Material Samples' : 'Architectural Material Library')} | ${name}`;
+      description = item?.description || (route.name === 'material-collection' && !route.products.length ? 'This material collection is in preparation. Explore our available original fluted wood collection.' : 'Browse architectural materials by family and type. Compare original fluted wood in seven finishes and three room studies, adjust surface lighting and download 4K PBR maps.');
+      image = absoluteAsset(siteUrl,item?.maps?.baseColor || collectionProducts[0].scene);
+      const parts = route.products || collectionProducts;
+      structuredData = { '@context':'https://schema.org', '@graph':[{ '@type':item?'CreativeWork':'CollectionPage', name:title, description, url:canonicalUrl, ...(!item?{hasPart:parts.map(p=>({'@type':'CreativeWork',name:p.name,url:`${siteUrl}${p.path}`}))}:{}) }, breadcrumbSchema([{name:'Material Library',pathname:'/materials/'},...(route.category?[{name:route.category.name,pathname:categoryPath(route.category.id)}]:[]),...(route.type?[{name:route.type.name,pathname:typePath(route.category.id,route.type.id)}]:[])])] };
     } else if (route?.name === 'design-services') {
       title = `Architecture & Interior Design Services | ${name}`;
       description = 'Explore villa and residential design, floor plans, facade design, kitchens, living rooms, bathrooms, courtyards, gardens, roof gardens and coordinated design packages by World Arch Journal.';
@@ -172,7 +184,7 @@ export default function SiteSeo({ content, route }) {
     setMeta('meta[name="twitter:title"]', { name: 'twitter:title', content: title });
     setMeta('meta[name="twitter:description"]', { name: 'twitter:description', content: description });
     setMeta('meta[name="twitter:image"]', { name: 'twitter:image', content: image });
-    const isThinPreview = route?.name === 'prompt' && item?.access === 'premium';
+    const isThinPreview = (route?.name === 'prompt' && item?.access === 'premium') || (route?.name === 'material-collection' && !route.products.length);
     setMeta('meta[name="robots"]', { name: 'robots', content: !isCanonicalHost || route?.name === 'admin' || isMissing ? 'noindex, nofollow, noarchive' : isThinPreview ? 'noindex, follow, max-image-preview:large' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' });
 
     let canonical = document.head.querySelector('link[rel="canonical"]');
@@ -300,3 +312,4 @@ export default function SiteSeo({ content, route }) {
 
   return null;
 }
+

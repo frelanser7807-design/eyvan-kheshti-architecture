@@ -1,0 +1,104 @@
+{
+  "dimensionsVerified": true,
+  "method": "native procedural evaluation",
+  "finishes": [
+    {
+      "id": "natural-oak",
+      "name": "Natural oak",
+      "rgb": [
+        185,
+        139,
+        87
+      ],
+      "size": 29587510,
+      "edgeMeanDifference01": [
+        0.008663375861942768,
+        8.05332456366159e-05
+      ]
+    },
+    {
+      "id": "light-oak",
+      "name": "Light oak",
+      "rgb": [
+        215,
+        188,
+        147
+      ],
+      "size": 30500369,
+      "edgeMeanDifference01": [
+        0.011593326926231384,
+        0.00010776923591038212
+      ]
+    },
+    {
+      "id": "walnut",
+      "name": "Walnut tone",
+      "rgb": [
+        105,
+        68,
+        45
+      ],
+      "size": 28097783,
+      "edgeMeanDifference01": [
+        0.004595173057168722,
+        4.271579746273346e-05
+      ]
+    },
+    {
+      "id": "smoked-oak",
+      "name": "Smoked oak",
+      "rgb": [
+        121,
+        103,
+        84
+      ],
+      "size": 28867433,
+      "edgeMeanDifference01": [
+        0.006492262240499258,
+        6.0350557760102674e-05
+      ]
+    },
+    {
+      "id": "grey-oak",
+      "name": "Grey oak",
+      "rgb": [
+        158,
+        156,
+        145
+      ],
+      "size": 29772213,
+      "edgeMeanDifference01": [
+        0.009675157256424427,
+        8.993805386126041e-05
+      ]
+    },
+    {
+      "id": "charcoal",
+      "name": "Charcoal black",
+      "rgb": [
+        49,
+        47,
+        43
+      ],
+      "size": 27275798,
+      "edgeMeanDifference01": [
+        0.002929949900135398,
+        2.723625766520854e-05
+      ]
+    },
+    {
+      "id": "white",
+      "name": "White wood",
+      "rgb": [
+        226,
+        223,
+        213
+      ],
+      "size": 30976796,
+      "edgeMeanDifference01": [
+        0.013954147696495056,
+        0.00012952796532772481
+      ]
+    }
+  ]
+}

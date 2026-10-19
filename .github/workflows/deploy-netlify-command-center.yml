@@ -50,6 +50,7 @@ jobs:
         run: |
           npm run build
           node --test tests/newsletter-publication.test.mjs tests/newsletter.test.mjs tests/technical-seo.test.mjs tests/illustrated-articles.test.mjs tests/article-rss.test.mjs
+          MATERIAL_TEST_DIST=dist node --test tests/material-collections.test.mjs
           npm run smoke
           node --input-type=module <<'NODE'
           import { access, readFile } from 'node:fs/promises';
@@ -172,3 +173,4 @@ jobs:
           if (failures.length) throw new Error(failures.join('\n'));
           console.log(`Production verified: ${required.length} routes on worldarchjournal.com.`);
           NODE
+

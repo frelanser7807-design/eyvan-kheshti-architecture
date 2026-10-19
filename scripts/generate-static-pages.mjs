@@ -1,4 +1,5 @@
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
+import { emitMaterialCollections, materialCollectionSitemap } from './material-collection-pages.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { articles, relatedArticlesFor } from '../src/data/articles.js';
@@ -298,6 +299,8 @@ const servicesCards = designServices.map(([name, detail, id], index) => `<articl
 const servicesBody = `<main class="seo-route-fallback"><a href="/">WORLD ARCH JOURNAL</a><header><small>DESIGN SERVICES · WORLD ARCH JOURNAL</small><h1>One space, one home, or a complete vision.</h1><p>${escapeHtml(servicesDescription)}</p><p><a href="#service-menu">Explore the services</a></p></header><section id="service-menu"><h2>Architecture & interior design services</h2>${servicesCards}</section><section><h2>One service or a combined scope</h2><p>Choose a single space or combine floor planning, facade, interior and landscape design in one brief. Package contents, revisions, timing and fees are confirmed before work begins. Prices will appear once each package has a final approved scope.</p><p>Engineering, statutory approvals and construction documentation are included only where explicitly agreed and supplied by appropriately qualified professionals.</p><a href="/services/custom-plan-design/">Start a project enquiry</a></section><p><a href="/projects/atlas-villa/">View the Atlas Villa design study</a></p></main>`;
 await emit(servicesPath, preparePage({ pathname: servicesPath, title: `Architecture & Interior Design Services | ${siteName}`, description: servicesDescription, image: atlasVilla.cover, imageAlt: 'Atlas Villa residential architecture design study', schema: { '@context': 'https://schema.org', '@type': 'Service', name: `Architecture and Interior Design Services | ${siteName}`, description: servicesDescription, url: `${siteUrl}${servicesPath}`, provider: publisher, areaServed: 'International', availableLanguage: ['English'], serviceType: designServices.map(([name]) => name) }, body: servicesBody }));
 
+await emitMaterialCollections({ emit, preparePage, escapeHtml, siteUrl, siteName });
+
 const atlasPath = atlasVilla.path;
 const atlasDescription = 'Explore Atlas Villa, a residential architectural design study by World Arch Journal, with selected interior concepts, a ground-floor plan presentation and a link to the digital project package.';
 const atlasBody = `<main class="seo-route-fallback"><a href="/projects/">WORLD ARCH JOURNAL / SELECTED WORK</a><article><header><small>STUDIO DESIGN STUDY · RESIDENTIAL</small><h1>Atlas Villa</h1><p>${escapeHtml(atlasVilla.subtitle)} · ${escapeHtml(atlasVilla.role)}</p></header><figure><img src="${escapeHtml(atlasVilla.cover)}" alt="Atlas Villa contemporary residential architecture design study" /></figure><section><h2>Project overview</h2><p>${escapeHtml(atlasVilla.description)}</p><p>${atlasVilla.tags.map(escapeHtml).join(' · ')}</p></section><section><h2>Selected design images</h2>${atlasVilla.images.map((image) => `<figure><img src="${escapeHtml(image.src)}" alt="${escapeHtml(image.alt)}" loading="lazy" /></figure>`).join('')}</section><section><h2>Digital project package</h2><p>Review the current package contents, file formats, licence, price and delivery details on Etsy.</p><a href="${escapeHtml(atlasVilla.etsyUrl)}" rel="noopener noreferrer">View the Atlas Villa package on Etsy</a></section><p><a href="/services/">Explore architecture and interior design services</a></p></article></main>`;
@@ -398,6 +401,8 @@ for (const product of publishedProducts) {
 }
 
 const sitemapRecords = [
+  { pathname: '/materials/', lastmod: '2026-10-19' },
+  ...materialCollectionSitemap,
   { pathname: '/', lastmod: '2026-10-05', image: { loc: '/assets/editorial/issue-00/courtyard-wind-house-cover.jpg', title: 'World Arch Journal architecture editorial and studio' } },
   ...Object.entries(legalPages).map(([pathname, page]) => ({ pathname, lastmod: page.lastUpdated || '2026-09-27' })),
   ...[
@@ -469,3 +474,4 @@ await injectArticleFeedLinks(dist);
 await injectStaticAnalytics(dist);
 
 console.log(`Generated ${articles.filter((item) => item.published).length} article page(s), ${magazines.filter((item) => item.published).length} magazine page(s), ${promptItems.length} prompt page(s), ${publishedProducts.length} product page(s), shop, sitemap and robots.`);
+

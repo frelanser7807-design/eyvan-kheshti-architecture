@@ -433,6 +433,7 @@ export default function CinematicSite({ content }) {
       </header>
 
       <nav className={`ek-quick-links ${sceneIndex > 0 ? 'is-visible' : ''}`} aria-label="Quick access">
+        <button type="button" data-analytics-event="cta_click" data-analytics-label="material-library" onClick={() => window.location.assign('/materials/')}><QuickIcon name="library" /><span>Material library</span></button>
         <button type="button" data-analytics-event="cta_click" data-analytics-label="projects" onClick={() => window.location.assign('/projects/')}><QuickIcon name="projects" /><span>{copy.projects}</span></button>
         <button type="button" onClick={() => scrollToSection('services')}><QuickIcon name="services" /><span>{copy.services}</span></button>
         <button type="button" onClick={() => scrollToSection('tutorials')}><QuickIcon name="tutorials" /><span>{copy.tutorials}</span></button>
@@ -519,3 +520,4 @@ export default function CinematicSite({ content }) {
     </div>
   );
 }
+

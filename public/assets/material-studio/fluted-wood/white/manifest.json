@@ -1,0 +1,50 @@
+{
+  "id": "white",
+  "name": "White wood",
+  "version": 1,
+  "creator": "World Arch Journal / procedural material authoring",
+  "method": "Original periodic procedural equations sampled at 4096x4096; no raster upscaling or third-party texture input.",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "sourceResolution": "resolution-independent procedural source",
+  "physicalTileMeters": [
+    0.48,
+    0.48
+  ],
+  "flutePitchMeters": 0.02,
+  "heightRangeMeters": [
+    -0.00025,
+    0.00425
+  ],
+  "metallic": 0,
+  "notes": "Designed visualization material. Finish names describe appearance; not a scan or certified commercial product. Maps use UV +V upward. Repeat with linear/mipmap filtering.",
+  "license": "Use and modify these exported maps in personal and commercial design/rendering projects. No manufacturer affiliation or physical-product warranty.",
+  "maps": {
+    "baseColor": {
+      "file": "basecolor-4k.png",
+      "colorSpace": "sRGB"
+    },
+    "roughness": {
+      "file": "roughness-4k.png",
+      "colorSpace": "linear"
+    },
+    "normal": {
+      "file": "normal-opengl-4k.png",
+      "colorSpace": "linear",
+      "convention": "OpenGL +Y"
+    },
+    "height": {
+      "file": "height-16bit-4k.png",
+      "colorSpace": "linear",
+      "bitDepth": 16
+    }
+  },
+  "sha256": {
+    "basecolor-4k.png": "7b12f7256f2ea8daaf8310b57a84c481e33cc158aabef8a8b9180040cfc1f67a",
+    "roughness-4k.png": "d93f75d83b99d9e48e7daa722cd708ee65b5eb99ca97c7fe47a473fbbb5c77de",
+    "normal-opengl-4k.png": "64000c144e8e3c3db509cd45adc012c286f61216b3ed8004160b15fb12bd9214",
+    "height-16bit-4k.png": "a1351ee336c7deb2a47049bae27985fdda627177dcf5f9b9e89883a52df892a8"
+  }
+}
