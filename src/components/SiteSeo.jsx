@@ -119,13 +119,10 @@ export default function SiteSeo({ content, route }) {
       title = `Fluted Wood · 7 Finishes & 4K PBR Maps | ${name}`;
       description = collectionProducts[0].description;
       image = absoluteAsset(siteUrl, collectionProducts[0].scene);
-      structuredData = { '@context':'https://schema.org', '@type':'CreativeWork', name:'Original fluted wood', description, url:canonicalUrl, isPartOf:{'@type':'CollectionPage',url:`${siteUrl}/materials/`} };
     } else if (['material-library','material-collection','material-samples','material-product'].includes(route?.name)) {
       title = `${route.type?.name || route.category?.name || item?.name || (route.name === 'material-samples' ? 'Licensed 1K Material Samples' : 'Architectural Material Library')} | ${name}`;
       description = item?.description || (route.name === 'material-collection' && !route.products.length ? 'This material collection is in preparation. Explore our available original fluted wood collection.' : 'Browse architectural materials by family and type. Compare original fluted wood in seven finishes and three room studies, adjust surface lighting and download 4K PBR maps.');
       image = absoluteAsset(siteUrl,item?.maps?.baseColor || collectionProducts[0].scene);
-      const parts = route.products || collectionProducts;
-      structuredData = { '@context':'https://schema.org', '@graph':[{ '@type':item?'CreativeWork':'CollectionPage', name:title, description, url:canonicalUrl, ...(!item?{hasPart:parts.map(p=>({'@type':'CreativeWork',name:p.name,url:`${siteUrl}${p.path}`}))}:{}) }, breadcrumbSchema([{name:'Material Library',pathname:'/materials/'},...(route.category?[{name:route.category.name,pathname:categoryPath(route.category.id)}]:[]),...(route.type?[{name:route.type.name,pathname:typePath(route.category.id,route.type.id)}]:[])])] };
     } else if (route?.name === 'design-services') {
       title = `Architecture & Interior Design Services | ${name}`;
       description = 'Explore villa and residential design, floor plans, facade design, kitchens, living rooms, bathrooms, courtyards, gardens, roof gardens and coordinated design packages by World Arch Journal.';
@@ -231,7 +228,12 @@ export default function SiteSeo({ content, route }) {
       serviceType: (content?.services || []).map((service) => service.title),
     };
 
-    if (route?.name === 'video-library') {
+    if (route?.name === 'material-studio') {
+      structuredData = { '@context':'https://schema.org', '@type':'CreativeWork', name:'Original fluted wood', description, url:canonicalUrl, isPartOf:{'@type':'CollectionPage',url:`${siteUrl}/materials/`} };
+    } else if (['material-library','material-collection','material-samples','material-product'].includes(route?.name)) {
+      const parts = route.products || collectionProducts;
+      structuredData = { '@context':'https://schema.org', '@graph':[{ '@type':item?'CreativeWork':'CollectionPage', name:title, description, url:canonicalUrl, ...(!item?{hasPart:parts.map(p=>({'@type':'CreativeWork',name:p.name,url:`${siteUrl}${p.path}`}))}:{}) }, breadcrumbSchema([{name:'Material Library',pathname:'/materials/'},...(route.category?[{name:route.category.name,pathname:categoryPath(route.category.id)}]:[]),...(route.type?[{name:route.type.name,pathname:typePath(route.category.id,route.type.id)}]:[])])] };
+    } else if (route?.name === 'video-library') {
       structuredData = { '@context': 'https://schema.org', '@graph': [
         { '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, hasPart: [...publishedVideoStories.map((video) => ({ '@type': 'WebPage', name: video.title, url: `${siteUrl}/videos/${video.slug}/` })), ...watchVideoEntries.map((video) => ({ '@type': 'WebPage', name: video.title, url: `${siteUrl}${watchPagePath(video)}` }))] },
         breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Videos', pathname: '/videos/' }]),
