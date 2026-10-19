@@ -57,7 +57,8 @@ export default function FlutedMaterialPilot() {
   const [downloadState, setDownloadState] = useState('');
   const [busy, setBusy] = useState(false);
   const [quality,setQuality] = useState('4k');
-  const [ultra,setUltra] = useState(null);
+  // Enable higher resolutions only after their complete release passes validation.
+  const ultra = null;
   const dialog = useRef(null);
   const finish = finishes.find(f=>f.id===selected);
   const changeFinish = id => {
@@ -66,7 +67,6 @@ export default function FlutedMaterialPilot() {
     window.history.replaceState(null,'',url);
   };
   useEffect(()=>{ if(expanded) dialog.current?.showModal(); },[expanded]);
-  useEffect(()=>{fetch('/assets/material-studio/fluted-ultra-v2/16k/manifest.json').then(r=>r.ok?r.json():null).then(setUltra).catch(()=>{});},[]);
   const download = async () => {
     if(busy)return;
     const id=selected, name=finish.name;
