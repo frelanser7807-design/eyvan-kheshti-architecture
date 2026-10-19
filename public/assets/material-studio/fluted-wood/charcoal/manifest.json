@@ -1,0 +1,50 @@
+{
+  "id": "charcoal",
+  "name": "Charcoal black",
+  "version": 1,
+  "creator": "World Arch Journal / procedural material authoring",
+  "method": "Original periodic procedural equations sampled at 4096x4096; no raster upscaling or third-party texture input.",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "sourceResolution": "resolution-independent procedural source",
+  "physicalTileMeters": [
+    0.48,
+    0.48
+  ],
+  "flutePitchMeters": 0.02,
+  "heightRangeMeters": [
+    -0.00025,
+    0.00425
+  ],
+  "metallic": 0,
+  "notes": "Designed visualization material. Finish names describe appearance; not a scan or certified commercial product. Maps use UV +V upward. Repeat with linear/mipmap filtering.",
+  "license": "Use and modify these exported maps in personal and commercial design/rendering projects. No manufacturer affiliation or physical-product warranty.",
+  "maps": {
+    "baseColor": {
+      "file": "basecolor-4k.png",
+      "colorSpace": "sRGB"
+    },
+    "roughness": {
+      "file": "roughness-4k.png",
+      "colorSpace": "linear"
+    },
+    "normal": {
+      "file": "normal-opengl-4k.png",
+      "colorSpace": "linear",
+      "convention": "OpenGL +Y"
+    },
+    "height": {
+      "file": "height-16bit-4k.png",
+      "colorSpace": "linear",
+      "bitDepth": 16
+    }
+  },
+  "sha256": {
+    "basecolor-4k.png": "3002a22e3fd4ed5da334c56d8297ebbee5a8350d022e5dff69056fa711853822",
+    "roughness-4k.png": "f8672670504ee73388358cfd409599da426b37a6d6c85be038a7c4ebe6388074",
+    "normal-opengl-4k.png": "64000c144e8e3c3db509cd45adc012c286f61216b3ed8004160b15fb12bd9214",
+    "height-16bit-4k.png": "a1351ee336c7deb2a47049bae27985fdda627177dcf5f9b9e89883a52df892a8"
+  }
+}

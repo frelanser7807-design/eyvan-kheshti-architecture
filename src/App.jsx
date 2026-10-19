@@ -2,6 +2,11 @@ import { lazy, Suspense, useEffect, useState } from 'react';
 import CinematicSite from './components/CinematicSite.jsx';
 import AdminPanel from './components/AdminPanel.jsx';
 import SiteSeo from './components/SiteSeo.jsx';
+import MaterialCollections from './components/MaterialCollections.jsx';
+import MaterialLibraryPage from './components/MaterialLibraryPage.jsx';
+import { materialBySlug } from './data/materialLibrary.js';
+import { collectionRoute, collectionProducts } from './data/materialCollections.js';
+const MaterialStudioPage = lazy(() => import('./components/FlutedMaterialPilot.jsx'));
 import ErrorBoundary from './components/ErrorBoundary.jsx';
 import LegalPage, { legalPageForPath } from './components/LegalPage.jsx';
 import ArticleReader from './components/ArticleReader.jsx';
@@ -55,6 +60,13 @@ function currentRoute() {
   }
   if (normalizedPath === '/shop/presentations/') return { name: 'presentation-studio' };
   if (normalizedPath === '/contact/') return { name: 'contact' };
+  if (normalizedPath === '/material-studio/' || normalizedPath === collectionProducts[0].path) return { name: 'material-studio' };
+  if (normalizedPath === '/materials/') return { name: 'material-library' };
+  if (normalizedPath === '/materials/samples/') return { name: 'material-samples' };
+  const materialCollection = collectionRoute(normalizedPath);
+  if (materialCollection) return materialCollection;
+  const materialMatch = normalizedPath.match(/^\/materials\/([^/]+)\/$/);
+  if (materialMatch) return { name: 'material-product', item: materialBySlug(decodeURIComponent(materialMatch[1])) };
   if (normalizedPath === '/services/') return { name: 'design-services' };
   if (normalizedPath === '/services/custom-plan-design/') return { name: 'custom-plan-design' };
   if (normalizedPath === '/projects/') return { name: 'projects-hub' };
@@ -143,6 +155,10 @@ export default function App() {
   if (route.name === 'presentation-studio') page = <ProductPage presentationStudio products={(content?.products || []).filter((item) => item.published)} etsyUrl={content?.commerce?.etsyUrl} whatsappUrl={content?.brand?.whatsapp} />;
   if (route.name === 'custom-plan-design') page = <CustomPlanDesignPage brand={content?.brand} />;
   if (route.name === 'contact') page = <ContactPage />;
+  if (route.name === 'material-library' || route.name === 'material-collection') page = <MaterialCollections category={route.category} type={route.type} />;
+  if (route.name === 'material-samples') page = <MaterialLibraryPage />;
+  if (route.name === 'material-product') page = route.item ? <MaterialLibraryPage material={route.item} /> : <NotFoundPage />;
+  if (route.name === 'material-studio') page = <Suspense fallback={<main>Loading material collection…</main>}><MaterialStudioPage /></Suspense>;
   if (route.name === 'design-services') page = <DesignServicesPage />;
   if (route.name === 'atlas-villa') page = <AtlasVillaCaseStudy />;
   if (route.name === 'projects-hub') page = <ProjectsHub />;
@@ -165,3 +181,4 @@ export default function App() {
 
   return <ErrorBoundary><SiteSeo content={content} route={resolvedRoute} />{page}<AnalyticsConsent /></ErrorBoundary>;
 }
+
