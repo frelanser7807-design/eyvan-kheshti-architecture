@@ -139,17 +139,16 @@ export default function AboutPage() {
         <div style={founderWrap}>
           <div>
             <p style={paragraph}>
-              World Arch Journal was founded by <strong style={{ color: 'var(--paper)' }}>Farnaz Ghafarian</strong>,
-              an architect and interior designer who has worked independently since 2011 — more
-              than fifteen years of practice across residential design, building facades and
-              interior projects. She is the journal&apos;s founder and editor, and she leads the
-              studio&apos;s design work personally.
+              World Arch Journal was founded by an architect and interior designer who has worked
+              independently since 2011 — more than fifteen years of practice across residential
+              design, building facades and interior projects. The founder is the journal&apos;s
+              editor, and leads the studio&apos;s design work personally.
             </p>
             <p style={paragraph}>
-              Her position is simple: good architecture is not a style, it is a series of correct
-              decisions — about light, structure, materials and the dimensions of everyday life.
-              The journal publishes those decisions in the open; the studio applies them to real
-              projects, remotely and worldwide.
+              The position behind everything published here is simple: good architecture is not a
+              style, it is a series of correct decisions — about light, structure, materials and
+              the dimensions of everyday life. The journal publishes those decisions in the open;
+              the studio applies them to real projects, remotely and worldwide.
             </p>
           </div>
           <figure style={markFigure}>
