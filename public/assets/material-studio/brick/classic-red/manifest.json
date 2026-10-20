@@ -1,0 +1,10 @@
+{
+  "material": "waj-brick-classic-red",
+  "resolution": "4096x4096",
+  "sha256": {
+    "basecolor-4k.png": "3c724cfbb5031291db412f0ef562393a04c4c66c855f6ca979b56ed92c74ad10",
+    "normal-opengl-4k.png": "e8cea0c2903f13bccccfcdeafc2c9c0618717de2b33d94a5b344ff0a37d0ba38",
+    "roughness-4k.png": "f48c17736a1f4b89853f0797fc29358e355f91b10d7d3ecc683bbe82d008cb9c",
+    "height-16bit.png": "14071661a1d1f633f9f4748ed6026497463a7f28d2a7c6edbf2c0e9a3ba9c69e"
+  }
+}
