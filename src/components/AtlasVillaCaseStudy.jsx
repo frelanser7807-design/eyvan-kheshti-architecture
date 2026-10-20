@@ -13,7 +13,8 @@ export default function AtlasVillaCaseStudy() {
         {atlasVilla.images.map((image, index) => <figure className={`atlas-case-image atlas-case-image-${index + 1}`} key={image.src}><img src={image.src} alt={image.alt} loading="lazy" /><figcaption>{['INTERIOR CONCEPT · LIVING', 'INTERIOR CONCEPT · BATHROOM', 'GROUND FLOOR PLAN PRESENTATION'][index]}</figcaption></figure>)}
       </section>
       <section className="atlas-case-package"><div><small>THE DIGITAL PROJECT PACKAGE</small><h2>Explore the complete Atlas Villa package.</h2><p>Open the Etsy listing to review the current package contents, file formats, licence, price and delivery details before purchase.</p></div><a href={atlasVilla.etsyUrl} target="_blank" rel="noopener noreferrer">View package on Etsy <span>↗</span></a></section>
-      <footer><a href="/services/">Explore design services ↗</a><a href="/projects/">Back to selected work</a></footer>
+      <footer><a href="/projects/ajorbaft/">Next design study: Ajorbaft ↗</a><a href="/projects/">Back to selected work</a></footer>
     </main>
   );
 }
+

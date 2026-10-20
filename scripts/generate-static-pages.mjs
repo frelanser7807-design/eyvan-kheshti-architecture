@@ -13,6 +13,7 @@ import { projects } from '../src/data/projects.js';
 import { publishedVideoStories } from '../src/data/videoStories.js';
 import { watchVideoEntries, watchPagePath, watchVideoForSource } from '../src/data/watchVideos.js';
 import { atlasVilla } from '../src/data/atlasVilla.js';
+import { ajorbaft } from '../src/data/ajorbaft.js';
 import { createArticleRss, withArticleFeedLink } from './lib/article-rss.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -277,9 +278,16 @@ for (const video of watchVideoEntries) {
 }
 
 const projectsPath = '/projects/';
-const projectsDescription = 'Explore architecture projects through luxury visual covers, interactive walkthroughs, English plans, design history and downloadable project guides.';
-const projectsBody = `<main class="seo-route-fallback"><a href="/">WORLD ARCH JOURNAL</a><header><small>IMMERSIVE PROJECT ARCHIVE</small><h1>Projects to enter, study and keep.</h1><p>${escapeHtml(projectsDescription)}</p></header><section><h2>Selected immersive projects</h2>${projects.map((project) => `<article><img src="${escapeHtml(project.cover)}" alt="${escapeHtml(project.coverAlt)}" /><h2>${escapeHtml(project.title)}</h2><p>${escapeHtml(project.description)}</p><a href="${escapeHtml(project.detailPath)}">View project</a></article>`).join('')}</section><section><h2>Selected studio design</h2><article><img src="${escapeHtml(atlasVilla.cover)}" alt="Atlas Villa residential architecture design study" /><h2>${escapeHtml(atlasVilla.title)}</h2><p>${escapeHtml(atlasVilla.description)}</p><a href="${escapeHtml(atlasVilla.path)}">View design study</a></article></section></main>`;
-await emit(projectsPath, preparePage({ pathname: projectsPath, title: `Immersive Architecture Projects & Studio Design | ${siteName}`, description: projectsDescription, image: projects[0]?.cover, imageAlt: projects[0]?.coverAlt, schema: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: `Immersive Architecture Projects & Studio Design | ${siteName}`, description: projectsDescription, url: `${siteUrl}${projectsPath}`, inLanguage: 'en', publisher, hasPart: [...projects.map((project) => ({ '@type': 'CreativeWork', name: project.title, url: `${siteUrl}${project.detailPath}`, image: absoluteUrl(project.cover) })), { '@type': 'CreativeWork', name: atlasVilla.title, url: `${siteUrl}${atlasVilla.path}`, image: absoluteUrl(atlasVilla.cover) }] }, body: projectsBody }));
+const projectsDescription = 'Explore Atlas Villa and Ajorbaft residential design studies alongside documented architecture, immersive tours, plans and project guides.';
+const studioProjects = [atlasVilla, ajorbaft];
+const projectsBody = `<main class="seo-route-fallback"><a href="/">WORLD ARCH JOURNAL</a><header><small>ARCHITECTURE & DESIGN STUDIES</small><h1>Projects to enter, study and keep.</h1><p>${escapeHtml(projectsDescription)}</p></header><section><h2>Selected immersive projects</h2>${projects.map((project) => `<article><img src="${escapeHtml(project.cover)}" alt="${escapeHtml(project.coverAlt)}" /><h2>${escapeHtml(project.title)}</h2><p>${escapeHtml(project.description)}</p><a href="${escapeHtml(project.detailPath)}">View project</a></article>`).join('')}</section><section><h2>Selected design studies</h2>${studioProjects.map(project => `<article><img src="${escapeHtml(project.cover)}" alt="${escapeHtml(project.title)} residential design study" /><h2>${escapeHtml(project.title)}</h2><p>${escapeHtml(project.description)}</p><a href="${escapeHtml(project.path)}">View design study</a></article>`).join('')}</section></main>`;
+await emit(projectsPath, preparePage({ pathname: projectsPath, title: `Architecture Projects & Design Studies | ${siteName}`, description: projectsDescription, image: projects[0]?.cover, imageAlt: projects[0]?.coverAlt, schema: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: `Architecture Projects & Design Studies | ${siteName}`, description: projectsDescription, url: `${siteUrl}${projectsPath}`, inLanguage: 'en', publisher, hasPart: [...projects.map((project) => ({ '@type': 'CreativeWork', name: project.title, url: `${siteUrl}${project.detailPath}`, image: absoluteUrl(project.cover) })), ...studioProjects.map(project => ({ '@type': 'CreativeWork', name: project.title, url: `${siteUrl}${project.path}`, image: absoluteUrl(project.cover) }))] }, body: projectsBody }));
+
+const ajorbaftBody = `<main class="seo-route-fallback"><a href="/projects/">WORLD ARCH JOURNAL / PROJECTS</a><article><header><small>RESIDENTIAL DESIGN STUDY</small><h1>Ajorbaft — Triplex Brick Residence</h1><p>${escapeHtml(ajorbaft.description)}</p><p>${escapeHtml(ajorbaft.role)}</p></header><img src="${ajorbaft.cover}" alt="Ajorbaft brick residence exterior design visualisation at night" />${ajorbaft.notes.map(note => `<section><h2>${escapeHtml(note.title)}</h2><p>${escapeHtml(note.text)}</p></section>`).join('')}<section><h2>Selected project images</h2>${ajorbaft.images.map(image => `<figure><img src="${image.src}" alt="${escapeHtml(image.alt)}" loading="lazy" /><figcaption>${escapeHtml(image.caption)}</figcaption></figure>`).join('')}</section><section><h2>Digital project package</h2><p>The complete project package is offered for sale on Etsy. Selected preview images are shown here; paid plans, sections and interior sheets are not free downloads. No payment is collected on this page.</p><a href="/contact/">Ask about the package</a></section><aside><h2>About these images</h2><p>${escapeHtml(ajorbaft.disclosure)}</p></aside><a href="/projects/atlas-villa/">Explore Atlas Villa</a></article></main>`;
+await emit(ajorbaft.path, preparePage({ pathname: ajorbaft.path, title: `Ajorbaft — Triplex Brick Residence | ${siteName}`, description: ajorbaft.description, image: ajorbaft.cover, imageAlt: 'Ajorbaft brick residence design visualisation', schema: { '@context': 'https://schema.org', '@graph': [
+  { '@type': 'CreativeWork', name: ajorbaft.title, alternateName: ajorbaft.subtitle, description: ajorbaft.description, url: `${siteUrl}${ajorbaft.path}`, image: absoluteUrl(ajorbaft.cover), inLanguage: 'en', about: ajorbaft.tags, publisher },
+  breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Projects', pathname: projectsPath }, { name: ajorbaft.title, pathname: ajorbaft.path }]),
+] }, body: ajorbaftBody }));
 
 const servicesPath = '/services/';
 const designServices = [
@@ -401,6 +409,7 @@ for (const product of publishedProducts) {
 }
 
 const sitemapRecords = [
+  { pathname: ajorbaft.path, lastmod: '2026-10-20', image: { loc: ajorbaft.cover, title: 'Ajorbaft Triplex Brick Residence' } },
   { pathname: '/materials/', lastmod: '2026-10-19' },
   ...materialCollectionSitemap,
   { pathname: '/', lastmod: '2026-10-05', image: { loc: '/assets/editorial/issue-00/courtyard-wind-house-cover.jpg', title: 'World Arch Journal architecture editorial and studio' } },
@@ -474,4 +483,5 @@ await injectArticleFeedLinks(dist);
 await injectStaticAnalytics(dist);
 
 console.log(`Generated ${articles.filter((item) => item.published).length} article page(s), ${magazines.filter((item) => item.published).length} magazine page(s), ${promptItems.length} prompt page(s), ${publishedProducts.length} product page(s), shop, sitemap and robots.`);
+
 

@@ -26,6 +26,7 @@ import ProjectDetail from './components/ProjectDetail.jsx';
 import VideoLibrary from './components/VideoLibrary.jsx';
 import DesignServicesPage from './components/DesignServicesPage.jsx';
 import AtlasVillaCaseStudy from './components/AtlasVillaCaseStudy.jsx';
+import AjorbaftCaseStudy from './components/AjorbaftCaseStudy.jsx';
 import { defaultContent } from './data/defaultContent.js';
 import { articleBySlug } from './data/articles.js';
 import { magazineBySlug } from './data/magazines.js';
@@ -73,6 +74,7 @@ function currentRoute() {
   if (normalizedPath === '/services/custom-plan-design/') return { name: 'custom-plan-design' };
   if (normalizedPath === '/projects/') return { name: 'projects-hub' };
   if (normalizedPath === '/projects/atlas-villa/') return { name: 'atlas-villa' };
+  if (normalizedPath === '/projects/ajorbaft/') return { name: 'ajorbaft' };
   const projectMatch = normalizedPath.match(/^\/projects\/([^/]+)\/$/);
   if (projectMatch) return { name: 'project', slug: decodeURIComponent(projectMatch[1]), item: projectBySlug(decodeURIComponent(projectMatch[1])) };
   if (normalizedPath === '/virtual-tours/the-voids-villa/') return { name: 'virtual-tour-the-voids', item: projectBySlug('the-voids-villa') };
@@ -164,6 +166,7 @@ export default function App() {
   if (route.name === 'travertine-studio') page = <Suspense fallback={<main>Loading travertine collection…</main>}><TravertinePanel /></Suspense>;
   if (route.name === 'design-services') page = <DesignServicesPage />;
   if (route.name === 'atlas-villa') page = <AtlasVillaCaseStudy />;
+  if (route.name === 'ajorbaft') page = <AjorbaftCaseStudy />;
   if (route.name === 'projects-hub') page = <ProjectsHub />;
   if (route.name === 'project') page = <ProjectDetail project={route.item} />;
   if (route.name === 'virtual-tour-the-voids') page = (
@@ -184,5 +187,6 @@ export default function App() {
 
   return <ErrorBoundary><SiteSeo content={content} route={resolvedRoute} />{page}<AnalyticsConsent /></ErrorBoundary>;
 }
+
 
 

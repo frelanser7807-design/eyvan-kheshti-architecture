@@ -1,0 +1,16 @@
+.ajorbaft-case-page .atlas-case-hero{background-position:center,center,center 42%}
+.ajorbaft-notes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;padding:24px clamp(24px,6vw,84px) 55px;background:#f2efe8;color:#26251f}
+.ajorbaft-notes small{color:#8b633b;font-size:.75rem;letter-spacing:.15em}
+.ajorbaft-notes h2{font:400 1.9rem/1.1 Georgia,serif}
+.ajorbaft-notes p{font-size:.9rem;line-height:1.85;color:#625b50}
+.ajorbaft-case-page .atlas-case-gallery a{display:block;height:auto}
+.ajorbaft-case-page .atlas-case-intro small{color:#795a32}
+.ajorbaft-case-page .atlas-case-image{align-self:start}
+.ajorbaft-case-page .atlas-case-image img{height:auto;min-height:0;object-fit:contain}
+.ajorbaft-case-page .atlas-case-image-1 img{max-height:none}
+.ajorbaft-case-page .ajorbaft-board{grid-column:1/-1}
+.ajorbaft-case-page .atlas-case-image figcaption{position:static;line-height:1.6;margin:0;font-size:.65rem}
+.ajorbaft-disclosure{padding:32px clamp(24px,9vw,130px);color:#cdc4b6;font-size:.8rem;line-height:1.8;border-bottom:1px solid #42433b}
+.ajorbaft-case-page a:focus-visible{outline:3px solid #ddb87c;outline-offset:5px}
+@media(max-width:720px){.ajorbaft-notes{grid-template-columns:1fr;gap:16px;padding-top:0}.ajorbaft-case-page .atlas-case-hero h1{font-size:clamp(3.5rem,16vw,7rem)}}
+
