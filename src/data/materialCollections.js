@@ -1,7 +1,7 @@
 // Shared navigation model for the library, SEO and future product families.
 // Empty types are catalog structure, never advertised as available products.
 export const collectionCategories = [
-  { id: 'wood', name: 'Wood & timber', description: 'Explore wood-look surfaces by type, then choose a product and finish.', types: [
+  { id: 'wood', name: 'Wood & timber', description: 'Explore wood and timber surfaces by type — fluted panels, flooring and veneers — then compare finishes in room studies and download 4K PBR maps.', types: [
     { id: 'fluted-panels', name: 'Fluted panels' },
     { id: 'thermally-modified-wood', name: 'Thermally modified wood' },
     { id: 'natural-wood', name: 'Natural wood' },
@@ -9,12 +9,12 @@ export const collectionCategories = [
     { id: 'veneers', name: 'Wood veneers' },
     { id: 'engineered-wood', name: 'Engineered wood' },
   ] },
-  { id: 'stone', name: 'Stone & tile', description: 'Stone, tile and mineral surfaces.', types: [{ id: 'natural-stone', name: 'Natural stone' }, { id: 'ceramic-porcelain', name: 'Ceramic & porcelain' }] },
-  { id: 'concrete', name: 'Concrete', description: 'Architectural concrete finishes.', types: [{ id: 'concrete-finishes', name: 'Concrete finishes' }] },
-  { id: 'plaster', name: 'Plaster & paint', description: 'Decorative interior finishes.', types: [{ id: 'plaster-finishes', name: 'Plaster finishes' }] },
-  { id: 'brick', name: 'Brick & cladding', description: 'Masonry and facade surfaces.', types: [{ id: 'brickwork', name: 'Brickwork' }] },
-  { id: 'metal', name: 'Metal', description: 'Architectural metal finishes.', types: [{ id: 'metal-finishes', name: 'Metal finishes' }] },
-  { id: 'fabric', name: 'Textiles', description: 'Textiles for interior visualization.', types: [{ id: 'interior-textiles', name: 'Interior textiles' }] },
+  { id: 'stone', name: 'Stone & tile', description: 'Stone, tile and mineral surfaces — including travertine and natural stone collections — compared in facade studies, with downloadable 4K PBR maps.', types: [{ id: 'natural-stone', name: 'Natural stone' }, { id: 'ceramic-porcelain', name: 'Ceramic & porcelain' }] },
+  { id: 'concrete', name: 'Concrete', description: 'Architectural concrete finishes — boards, textures and surface treatments for interiors and facades, prepared for visualisation and specification.', types: [{ id: 'concrete-finishes', name: 'Concrete finishes' }] },
+  { id: 'plaster', name: 'Plaster & paint', description: 'Decorative interior finishes — plasters, paints and wall coatings for interior visualisation, with tones and textures compared side by side.', types: [{ id: 'plaster-finishes', name: 'Plaster finishes' }] },
+  { id: 'brick', name: 'Brick & cladding', description: 'Masonry and facade surfaces — brickwork, cladding and tile systems for exterior and interior visualisation, compared by finish, tone and texture.', types: [{ id: 'brickwork', name: 'Brickwork' }] },
+  { id: 'metal', name: 'Metal', description: 'Architectural metal finishes — panels, meshes and coatings for facades and interiors, compared by finish, tone and reflectivity.', types: [{ id: 'metal-finishes', name: 'Metal finishes' }] },
+  { id: 'fabric', name: 'Textiles', description: 'Textiles for interior visualisation — upholstery, drapery and soft finishes compared by weave, tone and texture for realistic room studies.', types: [{ id: 'interior-textiles', name: 'Interior textiles' }] },
 ];
 export const collectionProducts = [{
   id: 'fluted-wood', name: 'Original fluted wood', category: 'wood', type: 'fluted-panels',

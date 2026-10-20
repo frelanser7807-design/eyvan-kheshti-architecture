@@ -1,11 +1,13 @@
 import { lazy, Suspense, useEffect, useState } from 'react';
 import CinematicSite from './components/CinematicSite.jsx';
-import AdminPanel from './components/AdminPanel.jsx';
+
 import SiteSeo from './components/SiteSeo.jsx';
 import MaterialCollections from './components/MaterialCollections.jsx';
 import MaterialLibraryPage from './components/MaterialLibraryPage.jsx';
 import { materialBySlug } from './data/materialLibrary.js';
 import { collectionRoute, collectionProducts } from './data/materialCollections.js';
+const AdminPanel = lazy(() => import('./components/AdminPanel.jsx'));
+const CommandCenter = lazy(() => import('./components/CommandCenter.jsx'));
 const MaterialStudioPage = lazy(() => import('./components/FlutedMaterialPilot.jsx'));
 const TravertinePanel = lazy(() => import('./components/TravertinePanel.jsx'));
 import ErrorBoundary from './components/ErrorBoundary.jsx';
@@ -14,7 +16,7 @@ import ArticleReader from './components/ArticleReader.jsx';
 import MagazineReader from './components/MagazineReader.jsx';
 import MagazineHub from './components/MagazineHub.jsx';
 import ProductPage from './components/ProductPage.jsx';
-import CommandCenter from './components/CommandCenter.jsx';
+
 import PromptLibrary from './components/PromptLibrary.jsx';
 import PromptDetail from './components/PromptDetail.jsx';
 import NewsletterPage from './components/NewsletterPage.jsx';
@@ -145,7 +147,7 @@ export default function App() {
   const resolvedRoute = route.name === 'product' ? { ...route, item: product } : route;
 
   let page = <CinematicSite content={content} />;
-  if (route.name === 'admin') page = <AdminPanel initialContent={content} />;
+  if (route.name === 'admin') page = <Suspense fallback={<main>Loading…</main>}><AdminPanel initialContent={content} /></Suspense>;
   if (route.name === 'legal') page = <LegalPage page={route.page} />;
   if (route.name === 'article') page = route.item?.published ? <ArticleReader article={route.item} standalone /> : <ProductPage missing />;
   if (route.name === 'magazine') page = route.item?.published ? <MagazineReader magazine={route.item} standalone /> : <ProductPage missing />;
@@ -187,7 +189,7 @@ export default function App() {
     </Suspense>
   );
   if (route.name === 'product') page = <ProductPage product={product} missing={!product} />;
-  if (route.name === 'command-center') page = <CommandCenter />;
+  if (route.name === 'command-center') page = <Suspense fallback={<main>Loading…</main>}><CommandCenter /></Suspense>;
   if (route.name === 'prompt-library') page = <PromptLibrary />;
   if (route.name === 'prompt') page = route.item ? <PromptDetail item={route.item} /> : <ProductPage missing />;
   if (route.name === 'not-found') page = <NotFoundPage />;

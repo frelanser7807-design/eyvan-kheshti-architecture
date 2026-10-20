@@ -53,7 +53,7 @@ export const legalPages = {
   },
   '/editorial-team/': {
     eyebrow: 'ABOUT THE PUBLISHER',
-    title: 'About World Arch Journal',
+    title: 'About World Arch Journal — Publisher & Editorial Team',
     portrait: { src: '/assets/brand/world-arch-wa-mark-v1.png', alt: 'World Arch Journal logo', caption: 'World Arch Journal · Architecture & Design', width: 1280, height: 1280 },
     lastUpdated: '2026-10-18',
     metaDescription: 'Discover World Arch Journal: practical architecture guides, villa and facade design, interiors, landscape concepts, visualisation and BIM.',
