@@ -8,7 +8,7 @@ export async function emitMaterialCollections({ emit, preparePage, escapeHtml: e
     const pathname=`/materials/${m.slug}/`;
     await emit(pathname,preparePage({pathname,title:`${m.name} PBR Source Sample | ${siteName}`,description:m.description,image:m.maps.baseColor,schema:{'@context':'https://schema.org','@type':'CreativeWork',name:m.name,url:`${siteUrl}${pathname}`,license:'https://creativecommons.org/publicdomain/zero/1.0/'},body:`<main class="seo-route-fallback"><a href="/materials/samples/">Source samples</a><h1>${e(m.name)}</h1><p>${e(m.description)}</p><p>Resolution: ${e(m.resolution)}. Generic sample, not a manufacturer product.</p><img src="${m.maps.baseColor}" alt="${e(m.name)} texture"><h2>Available maps</h2>${Object.entries(m.maps).map(([name,url])=>`<p><a href="${url}" download>${e(name)} · 1K JPG</a></p>`).join('')}<p>Source: <a href="${m.source.url}">${e(m.source.name)} — ${e(m.source.author)}</a>, CC0 1.0.</p></main>`}));
   }
-  const productLinks = products => products.map(p=>`<article><h2><a href="${p.path}">${e(p.name)}</a></h2><p>${e(p.description)}</p><img src="${p.scene}" alt="Fluted wood bedroom visualization" loading="lazy"></article>`).join('');
+  const productLinks = products => products.map(p=>`<article><h2><a href="${p.path}">${e(p.name)}</a></h2><p>${e(p.description)}</p><img src="${p.scene}" alt="${e(p.name)} architectural visualization" loading="lazy"></article>`).join('');
   const pages = [{ path: '/materials/', name: 'Architectural Material Library', description: 'Explore materials by family and type, then compare product finishes in room studies and download available PBR maps.', products: collectionProducts, links: collectionCategories.map(c=>[c.name,categoryPath(c.id)]) }];
   for (const c of collectionCategories) {
     const products = collectionProducts.filter(p=>p.category===c.id);
@@ -26,6 +26,9 @@ export async function emitMaterialCollections({ emit, preparePage, escapeHtml: e
   await emit(p.path,html);
   // Preserve bookmarked demo URLs while consolidating SEO on the product route.
   await emit('/material-studio/',html);
+  for(const stone of collectionProducts.filter(p=>p.category==='stone')){
+    await emit(stone.path,preparePage({pathname:stone.path,title:`${stone.name} · ${stone.finishes} Colors & 4K PBR Maps | ${siteName}`,description:stone.description,image:stone.scene,schema:{'@context':'https://schema.org','@type':'CreativeWork',name:stone.name,description:stone.description,url:`${siteUrl}${stone.path}`},body:`<main class="seo-route-fallback"><nav><a href="/materials/">Material library</a><a href="/materials/category/stone/">Stone</a></nav><h1>${e(stone.name)}</h1><p>${e(stone.description)}</p><img src="${stone.scene}" alt="Travertine villa facade visualization"><h2>Five color studies</h2><p>Ivory, classic cream, warm sand, silver grey and walnut brown. Three exterior facade illustrations with fixed scene lighting.</p><h2>Downloads</h2><p>Original procedural 4096 × 4096 PNG maps: base color, OpenGL normal, roughness and 16-bit height. Digital repeat 1200 × 1200 mm. Not a quarry scan or certified physical product. Native software files and 16K maps are not included.</p></main>`}));
+  }
 }
 
 export const materialCollectionSitemap = [
@@ -37,3 +40,4 @@ export const materialCollectionSitemap = [
   ]),
   {pathname:'/materials/samples/',lastmod:'2026-10-19'},
 ];
+

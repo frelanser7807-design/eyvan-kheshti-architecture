@@ -7,6 +7,7 @@ import MaterialLibraryPage from './components/MaterialLibraryPage.jsx';
 import { materialBySlug } from './data/materialLibrary.js';
 import { collectionRoute, collectionProducts } from './data/materialCollections.js';
 const MaterialStudioPage = lazy(() => import('./components/FlutedMaterialPilot.jsx'));
+const TravertinePanel = lazy(() => import('./components/TravertinePanel.jsx'));
 import ErrorBoundary from './components/ErrorBoundary.jsx';
 import LegalPage, { legalPageForPath } from './components/LegalPage.jsx';
 import ArticleReader from './components/ArticleReader.jsx';
@@ -60,6 +61,7 @@ function currentRoute() {
   }
   if (normalizedPath === '/shop/presentations/') return { name: 'presentation-studio' };
   if (normalizedPath === '/contact/') return { name: 'contact' };
+  if (normalizedPath === '/materials/stone/natural-stone/travertine/') return { name: 'travertine-studio' };
   if (normalizedPath === '/material-studio/' || normalizedPath === collectionProducts[0].path) return { name: 'material-studio' };
   if (normalizedPath === '/materials/') return { name: 'material-library' };
   if (normalizedPath === '/materials/samples/') return { name: 'material-samples' };
@@ -159,6 +161,7 @@ export default function App() {
   if (route.name === 'material-samples') page = <MaterialLibraryPage />;
   if (route.name === 'material-product') page = route.item ? <MaterialLibraryPage material={route.item} /> : <NotFoundPage />;
   if (route.name === 'material-studio') page = <Suspense fallback={<main>Loading material collection…</main>}><MaterialStudioPage /></Suspense>;
+  if (route.name === 'travertine-studio') page = <Suspense fallback={<main>Loading travertine collection…</main>}><TravertinePanel /></Suspense>;
   if (route.name === 'design-services') page = <DesignServicesPage />;
   if (route.name === 'atlas-villa') page = <AtlasVillaCaseStudy />;
   if (route.name === 'projects-hub') page = <ProjectsHub />;
@@ -181,4 +184,5 @@ export default function App() {
 
   return <ErrorBoundary><SiteSeo content={content} route={resolvedRoute} />{page}<AnalyticsConsent /></ErrorBoundary>;
 }
+
 
