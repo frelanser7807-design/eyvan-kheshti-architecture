@@ -22,7 +22,14 @@ export const collectionProducts = [{
   image: '/assets/material-studio/fluted-wood/natural-oak/preview.webp',
   scene: '/assets/material-studio/fluted-scenes-v1/bedroom.png',
   description: 'Seven wood-look finish studies across a bedroom, kitchen island and TV wall, with interactive surface lighting and downloadable 4K PBR maps.',
-  finishes: 7,
+  finishes: 7, contexts: '3 room studies', label: 'WOOD / FLUTED PANELS',
+},{
+  id:'travertine',name:'Vein-cut travertine',category:'stone',type:'natural-stone',
+  path:'/materials/stone/natural-stone/travertine/',
+  image:'/assets/material-studio/travertine/ivory/preview.webp',
+  scene:'/assets/material-studio/travertine/scenes/villa.png',
+  description:'Five travertine color studies across three exterior facades, with interactive surface lighting and original 4K PBR maps.',
+  finishes:5,contexts:'3 facade studies',label:'STONE / TRAVERTINE',
 }];
 export const categoryPath = id => `/materials/category/${id}/`;
 export const typePath = (category, type) => `${categoryPath(category)}${type}/`;
@@ -35,3 +42,4 @@ export function collectionRoute(pathname) {
   const products = collectionProducts.filter(item => item.category === category.id && (!type || item.type === type.id));
   return { name: 'material-collection', category, type, products };
 }
+
