@@ -134,6 +134,9 @@ export default function SiteSeo({ content, route }) {
     } else if (route?.name === 'custom-plan-design') {
       title = `Architecture & Interior Design Project Enquiry | ${name}`;
       description = 'Send a project brief for villa design, floor plans, facade, kitchen, living spaces, bathrooms, gardens, roof gardens, render concepts or a combined architecture package.';
+    } else if (route?.name === 'about') {
+      title = `About World Arch Journal | ${name}`;
+      description = 'World Arch Journal is an independent architecture journal and remote design studio founded by architect Farnaz Ghafarian — evidence-led guides and briefings, plus floor plans, facades and interiors designed for clients worldwide.';
     } else if (route?.name === 'atlas-villa') {
       title = `Atlas Villa — Residential Architecture Design Study | ${name}`;
       description = 'Explore Atlas Villa, a residential architectural design study by World Arch Journal, with selected interior concepts, a ground-floor plan presentation and a link to the digital project package.';
@@ -255,6 +258,8 @@ export default function SiteSeo({ content, route }) {
       structuredData = { '@context': 'https://schema.org', '@type': 'Service', name: title, description, url: canonicalUrl, image, provider: publisher, areaServed: 'International', availableLanguage: ['English'], serviceType: ['Villa and residential design', 'Floor plan design', 'Facade design', 'Kitchen design', 'Living and reception design', 'Bathroom design', 'Courtyard and garden design', 'Roof garden design', 'Architectural visualisation'] };
     } else if (route?.name === 'custom-plan-design') {
       structuredData = { '@context': 'https://schema.org', '@type': 'ContactPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, about: 'Architecture and interior design project enquiries' };
+    } else if (route?.name === 'about') {
+      structuredData = { '@context': 'https://schema.org', '@type': 'AboutPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, mainEntity: { '@type': 'Organization', name, url: siteUrl, logo: publisher.logo, founder: { '@type': 'Person', name: 'Farnaz Ghafarian', jobTitle: 'Architect & Interior Designer' } } };
     } else if (route?.name === 'atlas-villa') {
       structuredData = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: atlasVilla.title, alternateName: 'Residential architectural design study', description, url: canonicalUrl, image, inLanguage: 'en', creator: { '@type': 'Organization', name: 'World Arch Journal' }, about: ['Residential architecture', 'Villa design', 'Interior concepts', 'Architectural visualisation'], subjectOf: { '@type': 'Product', name: 'Atlas Villa digital project package', url: atlasVilla.etsyUrl }, publisher };
     } else if (route?.name === 'projects-hub') {

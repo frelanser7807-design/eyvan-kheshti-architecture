@@ -839,7 +839,7 @@ export default function VirtualTourPage() {
             <div>
               <button type="button" onClick={() => { setCompleted(false); goTo('arrival', 'backward'); }}>RESTART THE TOUR</button>
               <button type="button" data-analytics-event="cta_click" data-analytics-label="voids_plans_open" onClick={() => { setCompleted(false); openDiagram(); }}>EXPLORE PLANS &amp; SECTIONS</button>
-              <a href="/articles/">EXPLORE ARCHITECTURE ARTICLES</a>
+              <a href="/magazine/">EXPLORE ARCHITECTURE ARTICLES</a>
               <a href="/#contact">ORDER A CUSTOM VIRTUAL TOUR</a>
               <button type="button" onClick={shareResult}>SHARE YOUR SCORE</button>
             </div>
