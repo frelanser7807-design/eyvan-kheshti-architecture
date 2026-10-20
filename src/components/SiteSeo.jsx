@@ -146,12 +146,12 @@ export default function SiteSeo({ content, route }) {
       description = 'Explore architecture projects through luxury visual covers, interactive walkthroughs, English plans, design history and downloadable project guides.';
       image = absoluteAsset(siteUrl, projects[0]?.cover);
     } else if (route?.name === 'project' && item) {
-      title = `${item.title}: 3D Tour, Plans & Project Guide | ${name}`;
+      title = `${item.title}: ${item.titleSuffix || '3D Tour, Plans & Project Guide'} | ${name}`;
       description = item.description;
       image = absoluteAsset(siteUrl, item.cover);
-    } else if (['virtual-tour-the-voids', 'virtual-tour-narbon'].includes(route?.name) && item) {
+    } else if (['virtual-tour-the-voids', 'virtual-tour-narbon', 'virtual-tour-safadasht'].includes(route?.name) && item) {
       title = `${item.title} Virtual Architecture Tour | ${name}`;
-      description = `Enter an interactive spatial tour of ${item.title} in ${item.location}, with project context and links to drawings and the complete architecture guide.`;
+      description = item.tourMetaDescription || `Enter an interactive spatial tour of ${item.title} in ${item.location}, with project context and links to drawings and the complete architecture guide.`;
       image = absoluteAsset(siteUrl, item.cover);
     } else if (route?.name === 'shop') {
       title = `Architecture Shop | ${name}`;
@@ -265,8 +265,8 @@ export default function SiteSeo({ content, route }) {
     } else if (route?.name === 'projects-hub') {
       structuredData = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, hasPart: projects.map((project) => ({ '@type': 'CreativeWork', name: project.title, url: `${siteUrl}${project.detailPath}`, image: absoluteAsset(siteUrl, project.cover) })) };
     } else if (route?.name === 'project' && item) {
-      structuredData = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: item.title, description, url: canonicalUrl, image, inLanguage: 'en', creator: { '@type': 'Organization', name: item.studio }, locationCreated: { '@type': 'Place', name: item.location }, associatedMedia: [{ '@type': 'MediaObject', contentUrl: `${siteUrl}${item.tourPath}`, encodingFormat: 'text/html' }, { '@type': 'DigitalDocument', contentUrl: `${siteUrl}${item.guidePath}`, encodingFormat: 'application/pdf' }], publisher };
-    } else if (['virtual-tour-the-voids', 'virtual-tour-narbon'].includes(route?.name) && item) {
+      structuredData = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: item.title, description, url: canonicalUrl, image, inLanguage: 'en', creator: { '@type': 'Organization', name: item.studio }, locationCreated: { '@type': 'Place', name: item.location }, associatedMedia: [{ '@type': 'MediaObject', contentUrl: `${siteUrl}${item.tourPath}`, encodingFormat: 'text/html' }, ...(item.guidePath ? [{ '@type': 'DigitalDocument', contentUrl: `${siteUrl}${item.guidePath}`, encodingFormat: 'application/pdf' }] : [])], publisher };
+    } else if (['virtual-tour-the-voids', 'virtual-tour-narbon', 'virtual-tour-safadasht'].includes(route?.name) && item) {
       structuredData = { '@context': 'https://schema.org', '@graph': [
         { '@type': 'CreativeWork', name: `${item.title} Virtual Architecture Tour`, description, url: canonicalUrl, image, inLanguage: 'en', about: { '@type': 'ArchitecturalStructure', name: item.title, address: item.location }, creator: publisher, isPartOf: { '@type': 'CreativeWork', name: item.title, url: `${siteUrl}${item.detailPath}` } },
         breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Projects', pathname: '/projects/' }, { name: item.title, pathname: item.detailPath }, { name: 'Virtual tour', pathname: normalizedPath }]),

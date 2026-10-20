@@ -21,7 +21,7 @@ export function ProjectCoverGrid({ compact = false }) {
       <article className="project-cover-card project-cover-atlas">
         <img src={atlasVilla.cover} alt="Atlas Villa residential architecture design study" loading="lazy" decoding="async" />
         <span className="project-cover-shade" />
-        <span className="project-cover-number">03</span>
+        <span className="project-cover-number">{String(projects.length + 1).padStart(2, '0')}</span>
         <span className="project-cover-brand"><i />WORLD <b>ARCH</b><i /><em>JOURNAL</em></span>
         <div className="project-cover-copy">
           <small>SELECTED STUDIO DESIGN</small>
@@ -32,7 +32,7 @@ export function ProjectCoverGrid({ compact = false }) {
       </article>
       <article className="project-cover-card is-coming">
         <span className="project-cover-shade" />
-        <span className="project-cover-number">04</span>
+        <span className="project-cover-number">{String(projects.length + 2).padStart(2, '0')}</span>
         <span className="project-cover-brand"><i />WORLD <b>ARCH</b><i /><em>JOURNAL</em></span>
         <span className="project-cover-copy"><strong>Next Project</strong><small>IMMERSIVE PROJECT</small><em>COMING SOON</em></span>
       </article>
@@ -65,7 +65,7 @@ export function HomeVirtualToursShowcase() {
                 {project.features.map((feature) => <i key={feature}>{feature}</i>)}
               </span>
               <div className="home-virtual-tour-actions">
-                <a className="is-primary" href={project.tourPath}>ENTER 360° TOUR <b aria-hidden="true">↗</b></a>
+                <a className="is-primary" href={project.tourPath}>{project.tourEnterLabel || 'ENTER 360° TOUR'} <b aria-hidden="true">↗</b></a>
                 <a href={project.detailPath}>PLANS, PHOTOS &amp; PDF <b aria-hidden="true">↓</b></a>
               </div>
             </div>
@@ -75,7 +75,7 @@ export function HomeVirtualToursShowcase() {
       <article className="home-design-study-card">
         <img src={atlasVilla.cover} alt="Atlas Villa residential architecture design study" loading="lazy" decoding="async" />
         <div className="home-design-study-copy">
-          <small>03 · SELECTED STUDIO DESIGN</small>
+          <small>{String(projects.length + 1).padStart(2, '0')} · SELECTED STUDIO DESIGN</small>
           <h3>Atlas Villa</h3>
           <p>Residential architecture · Interior concepts · Visualisation</p>
           <div className="home-virtual-tour-features">{atlasVilla.tags.slice(0, 3).map((tag) => <i key={tag}>{tag}</i>)}</div>

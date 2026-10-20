@@ -39,6 +39,7 @@ import { videoStoryBySlug } from './data/videoStories.js';
 
 const VirtualTourPage = lazy(() => import('./components/VirtualTourPage.jsx'));
 const NarbonVirtualTourPage = lazy(() => import('./components/NarbonVirtualTourPage.jsx'));
+const SafadashtVirtualTourPage = lazy(() => import('./components/SafadashtVirtualTourPage.jsx'));
 
 function currentRoute() {
   const normalizedPath = window.location.pathname.endsWith('/') ? window.location.pathname : `${window.location.pathname}/`;
@@ -79,6 +80,7 @@ function currentRoute() {
   if (projectMatch) return { name: 'project', slug: decodeURIComponent(projectMatch[1]), item: projectBySlug(decodeURIComponent(projectMatch[1])) };
   if (normalizedPath === '/virtual-tours/the-voids-villa/') return { name: 'virtual-tour-the-voids', item: projectBySlug('the-voids-villa') };
   if (normalizedPath === '/virtual-tours/narbon-villa/') return { name: 'virtual-tour-narbon', item: projectBySlug('narbon-villa') };
+  if (normalizedPath === '/virtual-tours/villa-safadasht/') return { name: 'virtual-tour-safadasht', item: projectBySlug('villa-safadasht') };
   const productMatch = normalizedPath.match(/^\/shop\/([^/]+)\/$/);
   if (productMatch) return { name: 'product', slug: decodeURIComponent(productMatch[1]) };
   if (normalizedPath === '/shop/') return { name: 'shop' };
@@ -177,6 +179,11 @@ export default function App() {
   if (route.name === 'virtual-tour-narbon') page = (
     <Suspense fallback={<main className="vt-loading"><span>WORLD ARCH JOURNAL</span><p>Preparing Narbon Villa…</p></main>}>
       <NarbonVirtualTourPage />
+    </Suspense>
+  );
+  if (route.name === 'virtual-tour-safadasht') page = (
+    <Suspense fallback={<main className="vt-loading"><span>WORLD ARCH JOURNAL</span><p>Preparing Villa Safadasht…</p></main>}>
+      <SafadashtVirtualTourPage />
     </Suspense>
   );
   if (route.name === 'product') page = <ProductPage product={product} missing={!product} />;
