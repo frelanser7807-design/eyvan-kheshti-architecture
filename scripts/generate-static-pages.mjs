@@ -31,6 +31,13 @@ const escapeHtml = (value = '') => String(value).replace(/[&<>"']/g, (char) => (
 const escapeXml = escapeHtml;
 const editorialDate = (value) => new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${value}T12:00:00Z`));
 const plainText = (value = '') => String(value).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+const metaDescription = (value = '') => {
+  const text = plainText(value);
+  if (text.length <= 158) return text;
+  const cut = text.slice(0, 158);
+  const lastSpace = cut.lastIndexOf(' ');
+  return (lastSpace > 100 ? cut.slice(0, lastSpace) : cut).replace(/[\s,;:—–-]+$/, '');
+};
 const absoluteUrl = (value = '') => /^https?:\/\//i.test(value) ? value : `${siteUrl}${String(value).startsWith('/') ? value : `/${value}`}`;
 const normalizedPath = (value) => value.endsWith('/') ? value : `${value}/`;
 const verifiedCheckoutUrl = (value = '') => {
@@ -70,18 +77,19 @@ function preparePage({ pathname, title, description, image, imageAlt, type = 'we
     .replace(/<style>\.seo-route-fallback[\s\S]*?<\/style>\s*/gi, '')
     .replace(/<title>[\s\S]*?<\/title>/i, `<title>${escapeHtml(title)}</title>`)
     .replace(/<div id="root">[\s\S]*?<\/div>/i, `<div id="root">${body}</div>`);
-  html = replaceMeta(html, 'description', description);
+  const metaDesc = metaDescription(description);
+  html = replaceMeta(html, 'description', metaDesc);
   html = replaceMeta(html, 'robots', robots);
   html = replaceMeta(html, 'og:type', type, 'property');
   html = replaceMeta(html, 'og:site_name', siteName, 'property');
   html = replaceMeta(html, 'og:title', title, 'property');
-  html = replaceMeta(html, 'og:description', description, 'property');
+  html = replaceMeta(html, 'og:description', metaDesc, 'property');
   html = replaceMeta(html, 'og:image', absoluteUrl(image), 'property');
   html = replaceMeta(html, 'og:image:alt', imageAlt || `${siteName} editorial`, 'property');
   html = replaceMeta(html, 'og:url', canonical, 'property');
   html = replaceMeta(html, 'twitter:card', 'summary_large_image');
   html = replaceMeta(html, 'twitter:title', title);
-  html = replaceMeta(html, 'twitter:description', description);
+  html = replaceMeta(html, 'twitter:description', metaDesc);
   html = replaceMeta(html, 'twitter:image', absoluteUrl(image));
   html = html.replace('</head>', '    <style>.article-download-link{display:inline-flex;align-items:center;gap:.5rem;padding:.8rem 1rem;border:1px solid #826541;color:#3f3020;font-weight:700;text-decoration:none}.article-download-link:hover{background:#e7ddcf}</style>\n  </head>');
   html = html.replace('</head>', `    <link rel="canonical" href="${escapeHtml(canonical)}" />\n    ${pathname.startsWith('/newsletter/') ? `<link rel="alternate" type="application/rss+xml" title="World Arch Journal briefing" href="${siteUrl}/newsletter/feed.xml" />` : ''}\n    ${preloadImage ? `<link rel="preload" as="image" href="${escapeHtml(preloadImage)}" data-static-preload fetchpriority="high" />` : ''}\n    <script type="application/ld+json" data-static-schema>${JSON.stringify(schema).replace(/</g, '\\u003c')}</script>\n    <style>.seo-route-fallback{min-height:100vh;padding:5vw 8vw 8vw;background:#eeeae2;color:#23231f;font-family:Arial,sans-serif}.seo-route-fallback>a{color:#6c4f2e}.seo-route-fallback header,.seo-route-fallback article,.seo-route-fallback section{width:min(900px,100%);margin:4rem auto}.seo-route-fallback h1{max-width:17ch;font:400 clamp(2.8rem,7vw,6.5rem)/.92 Georgia,serif}.seo-route-fallback h2{font:400 clamp(1.8rem,4vw,3.2rem)/1 Georgia,serif}.seo-route-fallback p,.seo-route-fallback li{line-height:1.75}.seo-route-fallback figure{margin:2rem 0}.seo-route-fallback img{width:100%;height:auto}.seo-route-fallback small{letter-spacing:.14em;color:#826541}.seo-route-fallback nav{display:flex;gap:1rem;flex-wrap:wrap}</style>\n  </head>`);
@@ -310,6 +318,12 @@ const contactDescription = 'Start your architecture or interior design project w
 const contactBody = `<main class="seo-route-fallback"><a href="/">WORLD ARCH JOURNAL</a><header><small>CONTACT</small><h1>Start your project.</h1><p>${escapeHtml(contactDescription)}</p></header><section><h2>Design enquiries</h2><p>Share your project brief — villa and residential design, floor plans, facades, interiors and coordinated design packages.</p><p><a href="/services/">Explore design services</a></p><p><a href="/projects/">View selected projects</a></p></section></main>`;
 await emit(contactPath, preparePage({ pathname: contactPath, title: `Contact | ${siteName}`, description: contactDescription, schema: { '@context': 'https://schema.org', '@type': 'ContactPage', name: `Contact | ${siteName}`, url: `${siteUrl}${contactPath}` }, body: contactBody }));
 
+// Static SEO fallback for the custom plan design enquiry route (client route renders CustomPlanDesignPage).
+const customPlanPath = '/services/custom-plan-design/';
+const customPlanDescription = 'Start a custom plan design enquiry — floor plans, facades, kitchens, bathrooms, courtyards, roof gardens, villa design and combined design packages.';
+const customPlanBody = `<main class="seo-route-fallback"><a href="/services/">WORLD ARCH JOURNAL / DESIGN SERVICES</a><header><small>PROJECT ENQUIRY</small><h1>Start your design enquiry.</h1><p>${escapeHtml(customPlanDescription)}</p></header><section id="request"><h2>Choose a service</h2><ul>${designServices.map(([name, detail, id]) => `<li><a href="/services/custom-plan-design/?service=${encodeURIComponent(id)}#request">${escapeHtml(name)}</a> — ${escapeHtml(detail)}</li>`).join('')}</ul><p>Package contents, revisions, timing and fees are confirmed in writing before work begins.</p><p><a href="/services/">Explore all design services</a> · <a href="/contact/">Contact the studio</a></p></section></main>`;
+await emit(customPlanPath, preparePage({ pathname: customPlanPath, title: `Architecture & Interior Design Project Enquiry | ${siteName}`, description: customPlanDescription, image: atlasVilla.cover, imageAlt: 'Atlas Villa residential architecture design study', schema: { '@context': 'https://schema.org', '@graph': [{ '@type': 'WebPage', name: `Architecture & Interior Design Project Enquiry | ${siteName}`, description: customPlanDescription, url: `${siteUrl}${customPlanPath}`, inLanguage: 'en', publisher }, breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Design Services', pathname: servicesPath }, { name: 'Project Enquiry', pathname: customPlanPath }])] }, body: customPlanBody }));
+
 // Static SEO fallback for the about route (client route renders AboutPage).
 const aboutPath = '/about/';
 const aboutDescription = 'World Arch Journal is an independent architecture journal and remote design studio founded by an architect and interior designer with more than fifteen years of independent practice — evidence-led guides and briefings, plus floor plans, facades and interiors designed for clients worldwide.';
@@ -436,6 +450,7 @@ const sitemapRecords = [
   ...magazines.filter((item) => item.published).map((item) => ({ pathname: `/magazine/${item.slug}/`, lastmod: item.modifiedAt || item.publishedAt, image: { loc: item.image, title: item.title, caption: item.imageAlt } })),
   { pathname: projectsPath, lastmod: '2026-10-06', image: { loc: projects[0]?.cover, title: 'World Arch Journal immersive architecture projects' } },
   { pathname: servicesPath, lastmod: '2026-10-11', image: { loc: atlasVilla.cover, title: 'Architecture and interior design services by World Arch Journal' } },
+  { pathname: '/services/custom-plan-design/', lastmod: '2026-10-20', image: { loc: atlasVilla.cover, title: 'Architecture and interior design project enquiry' } },
   { pathname: atlasPath, lastmod: '2026-10-11', image: { loc: atlasVilla.cover, title: 'Atlas Villa residential architecture design study' } },
   ...projects.map((project) => ({ pathname: project.detailPath, lastmod: '2026-10-06', image: { loc: project.cover, title: project.title, caption: project.coverAlt } })),
   ...projects.map((project) => ({ pathname: project.tourPath, lastmod: '2026-10-06', image: { loc: project.cover, title: `${project.title} virtual tour`, caption: project.coverAlt } })),
