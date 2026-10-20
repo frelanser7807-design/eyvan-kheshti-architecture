@@ -22,6 +22,7 @@ import AnalyticsConsent from './components/AnalyticsConsent.jsx';
 import CustomPlanDesignPage from './components/CustomPlanDesignPage.jsx';
 import ProjectsHub from './components/ProjectsHub.jsx';
 import ContactPage from './components/ContactPage.jsx';
+import AboutPage from './components/AboutPage.jsx';
 import ProjectDetail from './components/ProjectDetail.jsx';
 import VideoLibrary from './components/VideoLibrary.jsx';
 import DesignServicesPage from './components/DesignServicesPage.jsx';
@@ -61,6 +62,7 @@ function currentRoute() {
   }
   if (normalizedPath === '/shop/presentations/') return { name: 'presentation-studio' };
   if (normalizedPath === '/contact/') return { name: 'contact' };
+  if (normalizedPath === '/about/') return { name: 'about' };
   if (normalizedPath === '/materials/stone/natural-stone/travertine/') return { name: 'travertine-studio' };
   if (normalizedPath === '/material-studio/' || normalizedPath === collectionProducts[0].path) return { name: 'material-studio' };
   if (normalizedPath === '/materials/') return { name: 'material-library' };
@@ -157,6 +159,7 @@ export default function App() {
   if (route.name === 'presentation-studio') page = <ProductPage presentationStudio products={(content?.products || []).filter((item) => item.published)} etsyUrl={content?.commerce?.etsyUrl} whatsappUrl={content?.brand?.whatsapp} />;
   if (route.name === 'custom-plan-design') page = <CustomPlanDesignPage brand={content?.brand} />;
   if (route.name === 'contact') page = <ContactPage />;
+  if (route.name === 'about') page = <AboutPage />;
   if (route.name === 'material-library' || route.name === 'material-collection') page = <MaterialCollections category={route.category} type={route.type} />;
   if (route.name === 'material-samples') page = <MaterialLibraryPage />;
   if (route.name === 'material-product') page = route.item ? <MaterialLibraryPage material={route.item} /> : <NotFoundPage />;
