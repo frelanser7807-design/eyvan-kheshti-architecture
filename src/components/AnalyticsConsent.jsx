@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 const CONSENT_KEY = 'world_arch_analytics_consent_v1';
-const MEASUREMENT_ID = String(import.meta.env.VITE_GA_MEASUREMENT_ID || '').trim();
+const MEASUREMENT_ID = String(import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-KWCNH012H1').trim();
 const CLARITY_PROJECT_ID = String(import.meta.env.VITE_CLARITY_PROJECT_ID || '').trim();
 const ATTRIBUTION_KEY = 'world_arch_attribution_v1';
 
