@@ -115,6 +115,10 @@ export default function SiteSeo({ content, route }) {
       title = `Architecture Presentation Templates & Custom Design | ${name}`;
       description = 'Explore interior and exterior architecture presentation formats, editable slide decks, design boards and social cover systems, plus bespoke presentation design by World Arch Journal.';
       image = absoluteAsset(siteUrl, '/assets/candidates/office-world/scene-06-material-model-lab-v1.png');
+    } else if (route?.name === 'brick-studio') {
+      title = `Clay Brick · 5 Colors & 4K PBR Maps | ${name}`;
+      description = 'Compare five clay brick color studies across three exterior facades. Explore surface lighting and download original 4K PBR maps.';
+      image = absoluteAsset(siteUrl, '/assets/material-studio/brick/scenes/villa.png');
     } else if (route?.name === 'travertine-studio') {
       title = `Travertine · 5 Colors & 4K PBR Maps | ${name}`;
       description = 'Compare five travertine color studies across three exterior facades. Explore surface lighting and download original 4K PBR maps.';
@@ -232,7 +236,9 @@ export default function SiteSeo({ content, route }) {
       serviceType: (content?.services || []).map((service) => service.title),
     };
 
-    if (route?.name === 'travertine-studio') {
+    if (route?.name === 'brick-studio') {
+      structuredData = {'@context':'https://schema.org','@type':'CreativeWork',name:'Clay brick',description,url:canonicalUrl};
+    } else if (route?.name === 'travertine-studio') {
       structuredData = {'@context':'https://schema.org','@type':'CreativeWork',name:'Vein-cut travertine',description,url:canonicalUrl};
     } else if (route?.name === 'material-studio') {
       structuredData = { '@context':'https://schema.org', '@type':'CreativeWork', name:'Original fluted wood', description, url:canonicalUrl, isPartOf:{'@type':'CollectionPage',url:`${siteUrl}/materials/`} };
