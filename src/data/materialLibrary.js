@@ -65,7 +65,7 @@ export const materialLibrary = [
     availableMaps: ['Base color', 'OpenGL normal', 'Roughness'], missingMaps: ['Displacement / height', 'Ambient occlusion'], relatedProducts: ['concrete-floor-worn-001'], publicationStatus: 'published-sample', updatedAt: '2026-10-12',
   },
   {
-    id: 'concrete-floor-worn-001', slug: 'concrete-floor-worn-001', visualizerMaterialId: 'soft-concrete', name: 'Concrete Floor Worn 001', family: 'concrete', materialFamily: 'concrete',
+    id: 'concrete-floor-worn-001', slug: 'concrete-floor-worn-001', visualizerMaterialId: 'soft-concrete', name: 'Concrete Floor Worn 001', seoTitle: 'Concrete Floor Worn PBR Sample', family: 'concrete', materialFamily: 'concrete',
     familyLabel: 'Concrete', applications: ['floor', 'wall'], colorFamily: 'Cool neutral',
     manufacturer: null, productCode: null, interiorExterior: ['interior'], finish: null, texture: 'Worn concrete sample',
     dimensions: null, thickness: null, layingPatterns: [], origin: null, technicalAttributes: {}, certifications: [], technicalSheets: [], officialProductUrl: null, gallery: [],

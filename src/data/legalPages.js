@@ -2,6 +2,7 @@ export const legalPages = {
   '/privacy/': {
     eyebrow: 'LEGAL',
     title: 'Privacy Policy',
+    metaDescription: 'How World Arch Journal handles cookies, contact-form messages, privacy choices and embedded services — and the rights you keep over your data.',
     intro: 'This policy explains the limited information World Arch Journal may receive through this website and how it is handled.',
     sections: [
       ['Information you provide', 'If you submit a project enquiry or newsletter request, we may receive the name, contact detail and message you choose to provide. Do not send payment details, passwords or confidential project records through a public form.'],
@@ -15,6 +16,7 @@ export const legalPages = {
   '/terms/': {
     eyebrow: 'LEGAL',
     title: 'Terms of Use',
+    metaDescription: 'The terms that govern use of the World Arch Journal website, its editorial content, project material and digital resources.',
     intro: 'These terms govern access to the public information and portfolio material on this website.',
     sections: [
       ['Informational use', 'Published articles, city guides and project material are provided for general information and inspiration. They are not a substitute for project-specific architectural, engineering, legal, financial, travel, safety or accessibility advice.'],
@@ -26,6 +28,7 @@ export const legalPages = {
   '/affiliate-disclosure/': {
     eyebrow: 'TRANSPARENCY',
     title: 'Affiliate Disclosure',
+    metaDescription: 'How World Arch Journal labels affiliate links, sponsorships and partner relationships — and how editorial independence is protected.',
     intro: 'No affiliate links are active in the current preview. Future commercial relationships will be labelled clearly.',
     sections: [
       ['How affiliate links may work', 'A future WORLD ARCH ATLAS guide may include a clearly identified link to a third-party hotel, experience, transport or design product. World Arch Journal may receive a commission after a qualifying action without changing the user-facing price.'],

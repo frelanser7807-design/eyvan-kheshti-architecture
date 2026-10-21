@@ -9,7 +9,6 @@ const sectionEntries = [
   { title: 'Magazine', detail: 'Curated architecture issues and editorial dossiers', target: 'journal', view: 'magazines', keywords: 'magazine issue editorial architecture publication climate design' },
   { title: 'Articles', detail: 'Source-grounded long-form architecture reading', target: 'articles', view: 'articles', keywords: 'article articles research sources bim revit climate interoperability' },
   { title: 'BIM Object Library', detail: 'Future free essentials and premium parametric packs', target: 'objects', view: 'library', keywords: 'library object objects revit bim free essentials premium parametric pack family families download material texture' },
-  { title: 'Architecture E-Books', detail: 'Coming soon with free previews and future complete editions', target: 'ebooks', view: 'ebooks', keywords: 'ebook ebooks e-book book books architecture edition pdf free preview paid digital publication' },
   { title: 'EYVAN ATLAS', detail: 'Architecture-led city and travel guides', target: 'atlas', view: 'guides', keywords: 'atlas travel city guide dubai turkey qatar egypt hotel restaurant catalog brochure' },
   { title: 'Install App', detail: 'Install World Arch Journal on your phone', target: 'app', keywords: 'app mobile install download android iphone pwa' },
   { title: 'Courses & Shop', detail: 'Digital products and courses', target: 'shop', view: 'products', keywords: 'shop store buy course product download' },
@@ -26,7 +25,6 @@ function contentEntries(content) {
     ['tutorials', 'tutorials', 'tutorials', 'Tutorial'],
     ['guides', 'atlas', 'guides', 'EYVAN ATLAS'],
     ['library', 'objects', 'library', 'Library'],
-    ['ebooks', 'ebooks', 'ebooks', 'Architecture E-Book'],
     ['products', 'shop', 'products', 'Shop'],
   ];
   const managedEntries = groups.flatMap(([collection, target, view, kind]) => (content?.[collection] || [])

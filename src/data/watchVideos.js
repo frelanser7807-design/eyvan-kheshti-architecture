@@ -36,7 +36,7 @@ export const watchVideoEntries = [
   {
     slug: 'almora-villa-presentation-template',
     title: 'Almora Villa Architecture Presentation — Video Preview',
-    description: 'Watch a short video preview of the Almora Villa architectural presentation layout and visual storytelling approach.',
+    description: 'Watch a short video preview of the Almora Villa architectural presentation — its layout, visual storytelling and 20-slide villa project sequence.',
     thumbnail: '/assets/shop/presentations/almora-villa/cover.jpg',
     file: '/assets/shop/presentations/almora-villa/promo.mp4',
     publishedAt: '2026-10-03',
@@ -46,7 +46,7 @@ export const watchVideoEntries = [
   {
     slug: 'world-arch-journal-digital-introduction',
     title: 'World Arch Journal — Digital Introduction',
-    description: 'Watch a short cinematic introduction to the visual identity and architectural direction of World Arch Journal.',
+    description: 'Watch a short cinematic introduction to the visual identity, editorial voice and architectural direction of World Arch Journal.',
     thumbnail: '/assets/brand/world-arch-wa-mark-v1.png',
     file: '/assets/brand/world-arch-journal-intro.mp4',
     publishedAt: '2026-10-18',

@@ -2,7 +2,7 @@ export const videoStories = [
   {
     slug: 'how-stone-arches-carry-load',
     title: 'How Stone Arches Carry Load',
-    seoTitle: 'How Stone Arches Carry Load: A Visual Architecture Guide',
+    seoTitle: 'How Stone Arches Carry Load',
     description: 'A concise visual guide to centering, voussoirs, the keystone and the compression path that allows a masonry arch to stand.',
     category: 'Structures Explained',
     youtubeId: '0pE7K9EEYvg',

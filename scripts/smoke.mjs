@@ -116,7 +116,7 @@ if (!cinematic.includes('site-cinematic-score-v3.wav')) throw new Error('Soundtr
 if (!cinematic.includes("const language = 'en'") || cinematic.includes('founderName')) throw new Error('English public identity must use the journal brand.');
 if (cinematic.includes('LONDON STUDIO')) throw new Error('Unverified physical studio location must not be published');
 
-for (const key of ['projects', 'services', 'tutorials', 'insights', 'guides', 'library', 'ebooks', 'products', 'story']) {
+for (const key of ['projects', 'services', 'tutorials', 'insights', 'guides', 'library', 'products', 'story']) {
   if (!Array.isArray(defaultContent[key])) throw new Error('Missing content collection: ' + key);
   const ids = defaultContent[key].map((item) => item.id);
   if (ids.length !== new Set(ids).size) throw new Error('Duplicate content id in ' + key);
@@ -141,15 +141,13 @@ if (cinematic.includes('ek-menu-trigger') || cinematic.includes('studio-menu')) 
 if (!cinematic.includes("sceneIndex > 0 ? 'is-visible' : ''")) throw new Error('Floating navigation must remain hidden through video one and begin on video two.');
 if (!cinematic.includes('<SiteSearch') || !cinematic.includes('sceneIndex <= 0')) throw new Error('Opening smart site search is missing.');
 if (!cinematic.includes("window.location.assign('/projects/')")) throw new Error('Missing projects hub navigation target.');
-for (const target of ['services', 'tutorials', 'journal', 'objects', 'ebooks', 'atlas', 'app', 'shop']) {
+for (const target of ['services', 'tutorials', 'journal', 'objects', 'atlas', 'app', 'shop']) {
   if (!cinematic.includes(`scrollToSection('${target}')`)) throw new Error('Missing floating navigation target: ' + target);
 }
 const editorial = await readFile(join(root, 'src/components/EditorialSections.jsx'), 'utf8');
 if (!editorial.includes('beforeinstallprompt') || !editorial.includes('Add to Home Screen') || !editorial.includes('BIM Object Library')) throw new Error('Installable app guide or download library is incomplete.');
-if (!editorial.includes('Architecture E-Books') || !editorial.includes('No price, purchase or download is active yet.')) throw new Error('Architecture e-books preview boundary is missing.');
 if (!editorial.includes('Architecture Magazine') || !editorial.includes('onOpenMagazine')) throw new Error('Magazine section is not connected.');
 if (!editorial.includes('Read full article') || !editorial.includes('onOpenArticle')) throw new Error('Articles section is not connected.');
-if (defaultContent.ebooks.some((item) => item.price || item.url)) throw new Error('Architecture e-books must not expose pricing or downloads before launch.');
 if (defaultContent.library.some((item) => item.url)) throw new Error('BIM library downloads must remain inactive in this preview.');
 if (!defaultContent.library.some((item) => item.accessTier === 'free') || !defaultContent.library.some((item) => item.accessTier === 'premium')) throw new Error('BIM freemium tiers are incomplete.');
 const articleData = await readFile(join(root, 'src/data/articles.js'), 'utf8');
