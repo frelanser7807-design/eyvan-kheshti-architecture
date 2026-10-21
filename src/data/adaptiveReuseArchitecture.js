@@ -94,6 +94,7 @@ const adaptiveReuseArchitecture = {
     <h2 id="conclusion">Preservation is not the opposite of invention</h2>
     <p>Adaptive reuse is most convincing when the intervention neither disappears into imitation nor overwhelms the inherited building. It reads what is present, protects the values that matter and introduces only the new capacity required for another useful life. Survey, programme, structure, heritage, environmental performance and services become one design problem.</p>
     <p>The result may be quieter than a replacement building, but it can be richer: old material remains legible, new work is accountable, and future change is anticipated. Preservation then becomes an active form of invention—one measured not by how little architecture changes, but by how intelligently value continues.</p>
+    <p><strong>Continue exploring:</strong> reuse is a running story in the briefing — the <a href="/newsletter/architecture-briefing-2026-10-09/">9 October edition</a> follows conservation training and learning-by-repair, and our library's <a href="/materials/">material collections</a> are specified with second lives in mind — and the <a href="/newsletter/architecture-briefing-2026-10-11/">11 October briefing</a> follows a Tehran cinema brought back the same way.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international explainer'],

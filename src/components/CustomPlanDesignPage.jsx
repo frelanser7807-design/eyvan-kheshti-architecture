@@ -103,6 +103,7 @@ export default function CustomPlanDesignPage({ brand = {} }) {
           </form>
         )}
       </section>
+      <section className="plan-design-related"><small>PREPARE YOUR BRIEF</small><h2>Reading from the journal</h2><ul><li><a href="/articles/accessory-dwelling-units-complete-guide/">Accessory dwelling units: rules, costs and layouts</a></li><li><a href="/articles/small-apartment-layout-storage-privacy-daylight/">Small apartment layout: storage, privacy and daylight</a></li><li><a href="/articles/modern-villa-reimagined-7-design-principles/">Modern villa, reimagined: seven design principles</a></li><li><a href="/articles/prefab-vs-modular-homes/">Prefab or modular homes? The honest comparison</a></li><li><a href="/projects/">Selected projects and project files</a></li></ul></section>
     </main>
   );
 }

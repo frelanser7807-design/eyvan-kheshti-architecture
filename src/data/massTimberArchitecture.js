@@ -95,6 +95,8 @@ const massTimberArchitecture = {
     <h2>A material choice becomes a delivery strategy</h2>
     <p>Mass timber is most convincing when it is neither romanticised nor forced. Use CLT where two-way panel action, prefabrication or exposed soffits create value. Use glulam where a legible frame is efficient. Use concrete or steel where mass, stiffness, fire resistance, concentrated force or supply makes them the better choice.</p>
     <p>The essential work happens before fabrication: align the grid, fire concept, acoustic assembly, moisture plan, service model, connection logic, carbon method and approval route. Once those eight decisions agree, mass timber can become more than an image of innovation. It can become a coherent, inspectable and durable architecture.</p>
+  
+    <p><strong>Continue exploring:</strong> timber at interior scale is in the material library: the <a href="/materials/wood/fluted-panels/fluted-wood/">original fluted wood collection</a> publishes seven finish studies with downloadable 4K PBR maps for visualisation.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international technical guide'],

@@ -23,6 +23,11 @@ export const collectionProducts = [{
   scene: '/assets/material-studio/fluted-scenes-v1/bedroom.png',
   description: 'Seven wood-look finish studies across a bedroom, kitchen island and TV wall, with interactive surface lighting and downloadable 4K PBR maps.',
   finishes: 7, contexts: '3 room studies', label: 'WOOD / FLUTED PANELS',
+  relatedLinks: [
+    { label: 'Mass timber architecture: the CLT design guide', url: '/articles/mass-timber-architecture-clt-design-guide/' },
+    { label: 'Apartment acoustic design: quieter homes', url: '/articles/apartment-acoustic-design/' },
+    { label: 'Sibling panel: vein-cut travertine facade studies', url: '/materials/stone/natural-stone/travertine/' },
+  ],
 },{
   id:'travertine',name:'Vein-cut travertine',category:'stone',type:'natural-stone',
   path:'/materials/stone/natural-stone/travertine/',
@@ -30,6 +35,13 @@ export const collectionProducts = [{
   scene:'/assets/material-studio/travertine/scenes/villa.png',
   description:'Five travertine color studies across three exterior facades, with interactive surface lighting and original 4K PBR maps.',
   finishes:5,contexts:'3 facade studies',label:'STONE / TRAVERTINE',
+  relatedLinks:[
+    { label: 'Climate-responsive facades and passive cooling', url: '/articles/climate-responsive-facades-cooling-design/' },
+    { label: 'Rainscreen facade design and water control', url: '/articles/rainscreen-facade-design-water-control/' },
+    { label: 'Project: The Voids Villa — courtyards in brick and stone', url: '/projects/the-voids-villa/' },
+    { label: 'Sibling panel: original fluted wood room studies', url: '/materials/wood/fluted-panels/fluted-wood/' },
+    { label: 'Sibling panel: porcelain stoneware room studies', url: '/materials/stone/ceramic-porcelain/porcelain-stoneware/' },
+  ],
 },{
   id:'porcelain-stoneware',name:'Porcelain stoneware',category:'stone',type:'ceramic-porcelain',
   path:'/materials/stone/ceramic-porcelain/porcelain-stoneware/',
@@ -37,6 +49,12 @@ export const collectionProducts = [{
   scene:'/assets/material-studio/ceramic-porcelain/scenes/kitchen.png',
   description:'Five porcelain stoneware finish studies across a kitchen, bathroom and living room, with interactive surface lighting and original 4K PBR maps.',
   finishes:5,contexts:'3 room studies',label:'STONE / CERAMIC & PORCELAIN',
+  relatedLinks:[
+    { label: 'Small apartment layout: storage, privacy and daylight', url: '/articles/small-apartment-layout-storage-privacy-daylight/' },
+    { label: 'Accessory dwelling units: the complete guide', url: '/articles/accessory-dwelling-units-complete-guide/' },
+    { label: 'Sibling panel: vein-cut travertine facade studies', url: '/materials/stone/natural-stone/travertine/' },
+    { label: 'Sibling panel: original fluted wood room studies', url: '/materials/wood/fluted-panels/fluted-wood/' },
+  ],
 }];
 export const categoryPath = id => `/materials/category/${id}/`;
 export const typePath = (category, type) => `${categoryPath(category)}${type}/`;

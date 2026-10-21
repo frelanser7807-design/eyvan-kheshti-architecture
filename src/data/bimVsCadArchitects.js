@@ -90,6 +90,8 @@ const bimVsCadArchitects = {
     <h2>Beyond the software label</h2>
     <p>BIM does not replace architectural judgement, and CAD does not prevent rigorous design. The decisive difference is whether the project treats information as a coordinated, purposeful resource or as a set of isolated representations. Start with the client’s decisions, define the information needed for them, choose the lightest reliable workflow, and test exchanges before the deadline makes them expensive.</p>
     <p>For a small studio, that may mean drawing in CAD today and building a deliberately limited BIM model tomorrow. For a multidisciplinary project, it may mean setting information requirements before opening the authoring tool. In both cases, the best workflow is the one that makes responsibility visible and keeps the building’s information useful after the image has been issued.</p>
+  
+    <p><strong>Continue exploring:</strong> the tooling story continues in our <a href="/newsletter/architecture-briefing-2026-10-08/">8 October briefing</a>, which covers Graphisoft's 2026 portfolio and the arrival of AI assistants inside the modelling workflow.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international digital practice guide'],

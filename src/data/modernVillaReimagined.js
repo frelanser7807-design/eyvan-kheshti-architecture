@@ -69,6 +69,8 @@ const modernVillaReimagined = {
 <p>Whether you are an architect refining a scheme or a homeowner about to commission one, the question to keep asking is simple: does every decision serve the way people will actually live here, ten years from now as well as today? Answer that honestly, and the villa designs itself.</p>
 <blockquote>Have a villa project in mind? <a href="https://worldarchjournal.com">Explore our design services</a> or get in touch to discuss how these principles could shape your home.</blockquote>
 
+  
+    <p><strong>See the principles built:</strong> <a href="/projects/the-voids-villa/">The Voids Villa</a> organises a home around courtyards and light, <a href="/projects/narbon-villa/">Narbon Villa</a> grows from an inherited orchard, and <a href="/projects/villa-safadasht/">Villa Safadasht</a> suspends its private rooms above a garden passage — each with plans and a project guide. To apply the same principles to your own plot, start with the studio's <a href="/services/">villa design services</a>.</p>
   `,
   published: true,
 };

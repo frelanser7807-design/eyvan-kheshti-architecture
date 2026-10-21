@@ -63,6 +63,8 @@ const birdSafeFacade = {
       <li><strong>Plan operation:</strong> assign responsibility for controls, inspections, repairs and post-occupancy monitoring.</li>
     </ol>
     <p>The key design shift is simple: treat glass as an ecological interface, not an invisible void. A facade schedule that records pattern coverage, test basis, lighting strategy and maintenance responsibility is more useful than a generic “bird-safe” note—and far more credible than an unverified claim.</p>
+  
+    <p><strong>Continue exploring:</strong> glass choices are coordinated, not isolated — facade and interior design, including glazing strategy, is part of our <a href="/services/">design services</a>, and the performance side of the same panes is covered in our guide to <a href="/articles/low-e-triple-glazing-smart-glass-guide/">low-E triple glazing and smart glass</a>.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international facade design guide'],

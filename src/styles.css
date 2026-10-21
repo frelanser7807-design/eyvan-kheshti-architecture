@@ -7063,3 +7063,9 @@ html[dir="rtl"] .ek-brand > span:last-child { text-align: right; }
 /* Keep the brand mark fully visible in the opening and publisher card. */
 .ek-film.ek-brand-intro-film { object-fit: contain; background: #050505; }
 .ek-publisher-portrait img { object-fit: contain; padding: 20px; box-sizing: border-box; background: #090909; }
+.project-related { padding: clamp(40px,6vw,80px) clamp(20px,8vw,120px); background: #141615; }
+.project-related small { color: var(--project-gold); font-size: .55rem; letter-spacing: .24em; }
+.project-related h2 { margin: 14px 0 18px; font: 400 clamp(1.6rem,3.4vw,2.6rem)/1.05 Georgia,serif; color: #f3eee5; }
+.project-related ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.project-related a { color: #e5d1b0; text-decoration: none; border-bottom: 1px solid rgba(229,209,176,.35); }
+.project-related a:hover { color: #f0d4a3; }

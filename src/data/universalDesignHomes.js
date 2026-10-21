@@ -105,6 +105,8 @@ const universalDesignHomes = {
     <p>After occupation, review the route, bathroom, kitchen, controls, lighting, temperature and outdoor access with residents. Record workarounds: a door wedged open, a chair placed in a corridor, blinds kept closed, storage left unused or a room avoided. Workarounds are evidence that the design and daily life are misaligned.</p>
     <p>Track adaptations and their disruption. If future rails require complete wall reconstruction or a bedroom conversion blocks the only social space, the home was less adaptable than the drawings suggested. Feed the findings into the next brief.</p>
     <p>The best universal-design home is not frozen around one imagined user. It is legible, generous and technically prepared for change. Its inclusive features belong to the architecture from the beginning—and remain useful whether or not a resident ever calls them accessibility features.</p>
+  
+    <p><strong>Continue exploring:</strong> adapting a home for later life is residential design work our studio undertakes remotely — see the <a href="/services/">design services</a> — and our <a href="/newsletter/architecture-briefing-2026-10-07/">7 October briefing</a> follows the wider question of who gets to learn, build and enter.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international design explainer'],

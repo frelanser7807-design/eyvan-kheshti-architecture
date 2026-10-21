@@ -94,6 +94,8 @@ const climateResponsiveFacades = {
     <h2 id="conclusion">The most responsive facade is the one that earns its complexity</h2>
     <p>Climate-responsive design is not a visual style. It is a chain of decisions that begins with exposure and ends with measured operation. Orientation and external shade often do the first, most durable work. Glazing, ventilation, buffer zones and opaque layers extend that response. Controls connect the envelope to weather and people.</p>
     <p>Complexity is justified only when it solves a defined problem better than a simpler alternative. A facade earns the word “responsive” when its states are climate-specific, testable, maintainable and understandable—then verified after the photographs are taken.</p>
+  
+    <p><strong>Continue exploring:</strong> these facade principles are built into <a href="/projects/narbon-villa/">Narbon Villa</a>, a climatic pavilion in hot Kerman — and the surfaces themselves can be compared in the <a href="/materials/stone/natural-stone/travertine/">travertine facade studies</a>.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led explainer'],

@@ -115,6 +115,8 @@ const passiveHouseVsNetZero = {
     <h2>One project, two useful questions</h2>
     <p>Passive House and Net Zero are strongest when they do different work. Passive House disciplines demand, comfort, envelope continuity, ventilation and construction quality. Net Zero extends the brief into renewable supply and annual operational balance. Neither automatically proves low embodied carbon, hourly grid alignment, climate resilience or perfect occupant experience.</p>
     <p>The architectural opportunity lies in sequence: reduce, detail, test, commission, generate and measure. When each claim has a boundary and each target has evidence, sustainability becomes more than a badge. It becomes a building that can explain how it performs—and what remains to improve.</p>
+  
+    <p><strong>Continue exploring:</strong> targets are only as honest as their measurement — our <a href="/newsletter/architecture-briefing-2026-09-30/">30 September briefing</a> is built around that question, from EPDs to post-occupancy evidence.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international comparison guide'],

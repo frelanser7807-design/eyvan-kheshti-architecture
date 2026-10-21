@@ -70,6 +70,8 @@ const apartmentDaylightLayout = {
       <li><strong>Verify locally</strong> against current planning, building, energy and housing requirements.</li>
     </ol>
     <p>Better daylight rarely comes from one dramatic gesture. It comes from assigning the façade carefully, limiting unnecessary depth, drawing obstructions honestly and giving occupants control. Once those decisions are visible, window size becomes one calibrated variable rather than the whole design strategy.</p>
+  
+    <p><strong>Continue exploring:</strong> daylight deep in a plan is also the organising idea of <a href="/projects/the-voids-villa/">The Voids Villa</a>, where connected courtyards pull light into the middle of the house; its project file includes the full drawing set.</p>
   `,
   facts: [
     ['FORMAT', 'International apartment-performance guide'],

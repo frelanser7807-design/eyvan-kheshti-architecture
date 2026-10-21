@@ -97,6 +97,8 @@ const lowCarbonConcreteEpd = {
       <li><strong>Reconcile delivery.</strong> Use final quantities and accepted product records to report the as-built position honestly.</li>
     </ol>
     <p>The useful question is not “Is this concrete green?” It is: <em>lower than what, for the same job, across which boundary, based on whose verified data, and was that product actually delivered?</em> When those answers stay attached to the number, an EPD becomes a design and procurement instrument rather than a badge.</p>
+  
+    <p><strong>Continue exploring:</strong> specification numbers only matter when they reach the drawing — our <a href="/newsletter/architecture-briefing-2026-09-30/">30 September briefing</a> is devoted to measuring what buildings claim, and the <a href="/materials/">material library</a> publishes the surface data behind our own product studies.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international specification guide'],

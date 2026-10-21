@@ -85,6 +85,8 @@ const floodResilientHomes = {
     <h2 id="checklist">The 10-move checklist</h2>
     <p>Review: site avoidance; mapped flow routes; elevated occupied floors; safe access; a defined structural resistance threshold; coordinated low-level openings; drainage and drying access; flood-damage-resistant materials; raised services and recoverable joinery; and a maintainable runoff-reduction landscape. Every move should be tied to a named risk, responsible professional and inspection plan.</p>
     <p>Resilient design is not the absence of water. It is a clear sequence that protects life, limits structural damage and shortens the path back to a safe home. The most credible drawing is therefore not only the flood-day section; it is also the recovery-day plan.</p>
+  
+    <p><strong>Continue exploring:</strong> water at the threshold is a detailing problem before it is a disaster — the field note <a href="/magazine/analysis/water-at-the-threshold/">The Water Line</a> traces the drainage decisions that decide whether a terrace door survives its first storm. The method is hazard-by-hazard, as in the companion guide to <a href="/articles/wildfire-resilient-home-design/">wildfire-resilient homes</a>.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international design guide'],

@@ -84,6 +84,8 @@ const aiArchitecture2026 = {
     <p><strong>Week 3: write the minimum policy.</strong> List approved tools, prohibited information, mandatory review, disclosure language and recordkeeping. Include a route for exceptions.</p>
     <p><strong>Week 4: review evidence.</strong> Keep the pilot only if it improves the whole workflow after checking. Stop tasks that create impressive output but excessive correction, unclear rights or weak decisions.</p>
     <p>The competitive advantage is not the largest collection of AI subscriptions. It is a practice that learns faster while keeping its evidence, authorship and duty of care intact. In 2026, speed without governance is not innovation; it is deferred risk.</p>
+  
+    <p><strong>Continue exploring:</strong> our <a href="/newsletter/architecture-briefing-2026-10-08/">8 October briefing</a> tracks the same shift from the software side, including Graphisoft's AI portfolio announcements and what they mean for practice.</p>
   `,
   facts: [
     ['FORMAT', 'International practice analysis'],

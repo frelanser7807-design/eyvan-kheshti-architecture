@@ -63,6 +63,8 @@ const inclusiveWayfinding = {
       <li><strong>Plan upkeep:</strong> assign responsibility for signs, routes, announcements, maps and construction changes.</li>
     </ol>
     <p>The strongest wayfinding system is often quieter: fewer but better decisions, a route that makes sense, and information that arrives before uncertainty. Signs matter, but their job is to reinforce an understandable building—not compensate for one that refuses to explain itself.</p>
+  
+    <p><strong>Continue exploring:</strong> access is a design brief, not an afterthought — our <a href="/newsletter/architecture-briefing-2026-10-07/">7 October briefing</a> asks who gets to learn, build and enter, and the September analysis <a href="/magazine/analysis/architecture-briefing-september-2026/">Beyond the Render</a> examines what public buildings owe the people who use them.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international public-building guide'],
