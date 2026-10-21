@@ -8,7 +8,7 @@ const birdSafeFacade = {
   meta: '12 MIN READ · 3 ORIGINAL DIAGRAMS',
   status: 'INTERNATIONAL DESIGN GUIDE · 2026',
   excerpt: 'Reflective and transparent glazing can conceal a collision hazard. This guide translates bird-friendly design research into a coordinated facade workflow for new buildings and retrofits—without treating one pattern or rule as universal.',
-  image: '/assets/articles/bird-safe-facade-design/hero.png',
+  image: '/assets/articles/bird-safe-facade-design/hero.webp',
   imageWebp: '/assets/articles/bird-safe-facade-design/hero.webp',
   imageWidth: 1536,
   imageHeight: 1024,
