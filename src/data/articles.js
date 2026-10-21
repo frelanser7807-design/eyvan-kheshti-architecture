@@ -42,6 +42,10 @@ const courtyardWindHouse = {
   excerpt: 'Courtyard Wind House is an original, unbuilt design study asking a direct question: when mechanical cooling pauses, which architectural decisions can still slow heat, move air and preserve a more habitable interior?',
   image: '/assets/editorial/issue-00/courtyard-wind-house-cover.jpg',
   imageAlt: 'Exterior concept view of Courtyard Wind House with a shaded colonnade, water court and wind-catcher',
+  cover: '/assets/articles/courtyard-wind-house-passive-cooling/cover.webp',
+  coverAlt: 'World Arch Journal cover: Courtyard Wind House, Passive Cooling — a courtyard house with a wind-catcher tower, shaded colonnades and a central water court with airflow arrows',
+  coverWidth: 800,
+  coverHeight: 1200,
   visualLabel: 'FIG. 01 · ORIGINAL CONCEPT VISUALISATION · WORLD ARCH JOURNAL, 2026',
   contentHtml: `
     <p>Cooling is often treated as equipment added after the architecture has been decided. Courtyard Wind House begins from the opposite direction. It is a fictional, unbuilt study for a hot-dry climate in which shade, wall depth, air paths and the sequence from room to courtyard are treated as the first cooling system. Mechanical systems may still be necessary, but they are no longer asked to correct every spatial decision.</p>
