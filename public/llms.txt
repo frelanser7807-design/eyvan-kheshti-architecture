@@ -1,26 +1,52 @@
-# WORLD ARCH JOURNAL
+# World Arch Journal
 
-> Independent architecture magazine, design practice and resources covering buildings, facade design, spatial planning, architectural visualisation, BIM and Revit. This file is an optional discovery guide for AI-assisted browsing; it does not guarantee that any AI service will crawl, cite or recommend the site.
+> World Arch Journal (worldarchjournal.com) is an English-language, web-native architecture journal: the practical, evidence-led journal for better existing homes — retrofit, daylight, spatial redesign and low-carbon residential architecture — plus a free materials library with downloadable PBR textures.
 
-## Editorial and research
-- [Architecture magazine](https://worldarchjournal.com/magazine/): Original articles, analysis and architectural case studies.
-- [Architecture newsletter](https://worldarchjournal.com/newsletter/): Dated architecture briefings and sourced reporting.
-- [Architecture videos](https://worldarchjournal.com/videos/): Architecture video explainers and technical context.
+World Arch Journal publishes original, fully sourced and illustrated articles on climate-responsive design, facades, courtyards, biophilic design, adaptive reuse, low-carbon materials and digital practice (BIM/AI), written for homeowners, architects and designers. Every article carries named sources, image credits and Article structured data. The site also documents architecture projects and publishes a regular architecture briefing (newsletter).
 
-## Projects and services
-- [Architecture projects](https://worldarchjournal.com/projects/): Project portfolio and design studies.
-- [Atlas Villa](https://worldarchjournal.com/projects/atlas-villa/): Residential design study and digital package details.
-- [Architecture design services](https://worldarchjournal.com/services/): Design, visualisation and residential architecture services.
-- [Contact](https://worldarchjournal.com/contact/): Enquire about a project.
+## Magazine and articles
 
-## Resources
-- [Architecture shop](https://worldarchjournal.com/shop/): Architecture digital products and presentation resources.
-- [AI architecture prompt library](https://worldarchjournal.com/prompts/): Public prompt guides.
-- [World Arch Atlas](https://worldarchjournal.com/atlas/): Architecture places and geographic content.
+- [Magazine](https://worldarchjournal.com/magazine/): all editorial articles and topic sections
+- [Climate Design](https://worldarchjournal.com/magazine/climate-design/): passive cooling, ventilation, daylight and thermal performance
+- [Facades](https://worldarchjournal.com/magazine/facades/): facade systems, rainscreens and bird-safe glazing
+- [Courtyard Design](https://worldarchjournal.com/magazine/courtyard-design/): small courtyards, light, privacy and cooling
+- [Low-Carbon Materials](https://worldarchjournal.com/magazine/low-carbon-materials/): mass timber, disassembly and material reuse
+- [Architectural History & Styles](https://worldarchjournal.com/magazine/architectural-history-styles/): styles and movements, including Brutalism
+- [AI & Digital Practice](https://worldarchjournal.com/magazine/ai-digital-practice/): BIM vs CAD and AI in architecture
+- [Latest articles](https://worldarchjournal.com/articles/): the full article index
 
-## Editorial transparency
-- [Editorial team](https://worldarchjournal.com/editorial-team/): About the publisher and contact.
-- [Editorial policy](https://worldarchjournal.com/editorial-policy/): Editorial standards, sourcing and corrections.
-- [XML sitemap](https://worldarchjournal.com/sitemap.xml): Canonical public URL discovery.
+## Materials library
 
-Use original pages as the authoritative source for facts, availability, products, services and dates. Do not infer that an item is for sale if its page does not confirm availability.
+- [Materials](https://worldarchjournal.com/materials/): interactive material panels — colours and finishes applied live to room visualisations
+- [Travertine](https://worldarchjournal.com/materials/stone/natural-stone/travertine/): natural stone panel with free 4K and 16K PBR texture downloads
+- [Ceramic and porcelain](https://worldarchjournal.com/materials/stone/ceramic-porcelain/porcelain-stoneware/): porcelain stoneware panel with real-scan PBR texture downloads
+- [Fluted wood](https://worldarchjournal.com/materials/wood/fluted-panels/fluted-wood/): fluted wood panel with free texture downloads
+
+## Projects
+
+- [Projects](https://worldarchjournal.com/projects/): documented architecture projects and project studies
+- [Atlas](https://worldarchjournal.com/atlas/): place-based architecture atlas
+- [Virtual tours](https://worldarchjournal.com/virtual-tours/): true-360 walk-through tours of documented projects
+
+## Services and resources
+
+- [Architecture design services](https://worldarchjournal.com/services/): design, visualisation and residential architecture services
+- [AI architecture prompt library](https://worldarchjournal.com/prompts/): public prompt guides for architects
+- [Architecture shop](https://worldarchjournal.com/shop/): architecture digital products and presentation resources
+- [Contact](https://worldarchjournal.com/contact/): enquire about a project
+
+## About and policies
+
+- [About](https://worldarchjournal.com/about/): what World Arch Journal is and who publishes it
+- [Editorial policy](https://worldarchjournal.com/editorial-policy/): sourcing, credits and corrections standards
+- [Editorial team](https://worldarchjournal.com/editorial-team/): the people behind the journal
+- [XML sitemap](https://worldarchjournal.com/sitemap.xml): canonical public URL discovery
+
+## Newsletter
+
+- [Newsletter](https://worldarchjournal.com/newsletter/): the World Arch Journal architecture briefing — original summaries and analysis with links to sources
+
+## Optional
+
+- [Videos](https://worldarchjournal.com/videos/): short architecture explainers and visual guides
+- [RSS feed](https://worldarchjournal.com/rss.xml): latest articles as published
