@@ -511,3 +511,5 @@ await injectStaticAnalytics(dist);
 
 console.log(`Generated ${articles.filter((item) => item.published).length} article page(s), ${magazines.filter((item) => item.published).length} magazine page(s), ${promptItems.length} prompt page(s), ${publishedProducts.length} product page(s), shop, sitemap and robots.`);
 
+
+// Deploy trigger 2026-10-21: redeploy after the Safadasht tour takedown merge (its deploy run was superseded by a late parent-commit run). No behaviour change.
