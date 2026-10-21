@@ -24,7 +24,7 @@ export default function MineralMaterialPanel({ material }) {
     if (!globalThis.crypto?.subtle) { setStatus('For verified downloads, open this page over HTTPS.'); return; }
     setBusy(true); setStatus(`Preparing and checking the ${tier.toUpperCase()} maps…`);
     try {
-      const response = await fetch(`${root}${selected}/${tier === '16k' ? 'manifest-16k.json' : 'manifest.json'}`);
+      const response = await fetch(`${root}${selected}/${tier === '16k' ? 'manifest-16k.json' : 'manifest.json'}`, {cache:'no-store'});
       if (!response.ok) throw new Error('Manifest unavailable');
       const manifest = await response.json();
       const files = [];
@@ -32,7 +32,7 @@ export default function MineralMaterialPanel({ material }) {
         if (file.parts) {
           const chunks = [];
           for (const part of file.parts) {
-            const result = await fetch(part.url);
+            const result = await fetch(`${part.url}?v=${part.sha256}`);
             if (!result.ok) throw new Error('Map part unavailable');
             const data = new Uint8Array(await result.arrayBuffer());
             const hash = [...new Uint8Array(await crypto.subtle.digest('SHA-256', data))].map((value) => value.toString(16).padStart(2, '0')).join('');
@@ -42,7 +42,7 @@ export default function MineralMaterialPanel({ material }) {
           files.push({ name: file.name, data: chunks });
           continue;
         }
-        const result = await fetch(file.url);
+        const result = await fetch(`${file.url}?v=${file.sha256}`);
         if (!result.ok) throw new Error('Map unavailable');
         const data = new Uint8Array(await result.arrayBuffer());
         const hash = [...new Uint8Array(await crypto.subtle.digest('SHA-256', data))].map((value) => value.toString(16).padStart(2, '0')).join('');
