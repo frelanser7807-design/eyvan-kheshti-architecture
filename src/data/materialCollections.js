@@ -30,6 +30,13 @@ export const collectionProducts = [{
   scene:'/assets/material-studio/travertine/scenes/villa.png',
   description:'Five travertine color studies across three exterior facades, with interactive surface lighting and original 4K PBR maps.',
   finishes:5,contexts:'3 facade studies',label:'STONE / TRAVERTINE',
+},{
+  id:'porcelain-stoneware',name:'Porcelain stoneware',category:'stone',type:'ceramic-porcelain',
+  path:'/materials/stone/ceramic-porcelain/porcelain-stoneware/',
+  image:'/assets/material-studio/ceramic-porcelain/alpine-white/preview.webp',
+  scene:'/assets/material-studio/ceramic-porcelain/scenes/kitchen.png',
+  description:'Five porcelain stoneware finish studies across a kitchen, bathroom and living room, with interactive surface lighting and original 4K PBR maps.',
+  finishes:5,contexts:'3 room studies',label:'STONE / CERAMIC & PORCELAIN',
 }];
 export const categoryPath = id => `/materials/category/${id}/`;
 export const typePath = (category, type) => `${categoryPath(category)}${type}/`;
