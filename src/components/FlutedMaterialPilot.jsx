@@ -112,6 +112,7 @@ export default function FlutedMaterialPilot() {
         <a className="fp-consult" href="/services/">Discuss a material palette <span>↗</span></a>
       </aside>
     </div>
+    <section className="fp-related"><span>RELATED READING</span><h2>Timber, acoustics and warm interiors</h2><ul><li><a href="/articles/mass-timber-architecture-clt-design-guide/">Mass timber architecture: the CLT design guide</a></li><li><a href="/articles/apartment-acoustic-design/">Apartment acoustic design: quieter homes</a></li><li><a href="/materials/stone/natural-stone/travertine/">Sibling panel: vein-cut travertine facade studies</a></li></ul></section>
     <footer className="fp-footer"><span>WORLD ARCH JOURNAL · ORIGINAL MATERIAL COLLECTION</span><a href="/materials/">Explore the material library ↗</a></footer>
     <dialog ref={dialog} className="fp-dialog" onCancel={()=>setExpanded(null)} onClick={e=>{if(e.target===e.currentTarget){dialog.current.close();setExpanded(null);}}}><button type="button" className="fp-close" aria-label="Close enlarged image" onClick={()=>{dialog.current.close();setExpanded(null);}}>×</button>{expanded && <Scene scene={expanded} finish={finish} original={original}/>}</dialog>
   </main>;

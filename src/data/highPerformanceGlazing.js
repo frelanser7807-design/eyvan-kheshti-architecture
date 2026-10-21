@@ -93,6 +93,8 @@ const highPerformanceGlazing = {
       <li><strong>Commission and tune.</strong> Verify sensors, zones, overrides, alarms and the handover plan for any dynamic system.</li>
     </ol>
     <p>The most advanced product is not automatically the most responsible choice. Good glazing design makes the trade-offs visible, gives each number a purpose and carries the logic from early simulation to the final perimeter seal.</p>
+  
+    <p><strong>Continue exploring:</strong> glazing performance is visible in built work: <a href="/projects/villa-safadasht/">Villa Safadasht</a> wraps its public wing in floor-to-ceiling glass behind a deep protective passage, and its project file shows how the section manages the sun that the glass admits. One more duty the same panes owe the city is covered in our guide to <a href="/articles/bird-safe-facade-design/">bird-safe facade design</a>.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international design explainer'],

@@ -45,6 +45,7 @@ export default function DesignServicesPage() {
       <section className="design-services-scope-note">
         <small>BEFORE WE BEGIN</small><p>Every proposal confirms the project scope, supplied information, deliverables, revision allowance, timing and fee. Engineering, statutory approvals and construction documentation are included only when explicitly agreed and provided by appropriately qualified professionals.</p>
       </section>
+      <section className="design-services-related"><small>RELATED READING</small><h2>From the journal</h2><ul><li><a href="/articles/modern-villa-reimagined-7-design-principles/">Modern villa, reimagined: seven design principles</a></li><li><a href="/articles/accessory-dwelling-units-complete-guide/">Accessory dwelling units: the complete guide</a></li><li><a href="/articles/small-apartment-layout-storage-privacy-daylight/">Small apartment layout: storage, privacy and daylight</a></li><li><a href="/projects/">Selected projects and project files</a></li></ul></section>
       <footer className="design-services-footer"><a href="/projects/atlas-villa/">See the Atlas Villa design study ↗</a><a href="/">Return to World Arch Journal</a></footer>
     </main>
   );

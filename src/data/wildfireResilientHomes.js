@@ -88,6 +88,8 @@ const wildfireResilientHomes = {
     <h2 id="checklist">The 12-detail checklist</h2>
     <p>Before tender, confirm: roof assembly; edge and ridge closures; maintainable gutters; accepted ember-resistant vents; enclosed eaves; protected window assemblies; continuous ignition-resistant wall details; robust deck junctions; interrupted fences and attachments; a low-fuel immediate zone; managed wider vegetation; and coordinated emergency access. Then ask one final question: can the owner realistically keep every measure working?</p>
     <p>Wildfire resilience is strongest when it is quiet. The house can still be open, warm and connected to landscape. The difference is that every attractive element—roof line, terrace, window, garden and pergola—has also been examined as part of a possible ignition sequence.</p>
+  
+    <p><strong>Continue exploring:</strong> the non-combustible skin is where wildfire design becomes material choice — compare the <a href="/materials/stone/natural-stone/travertine/">travertine facade studies</a> for stone cladding behaviour and format, and read the companion guide to <a href="/articles/flood-resilient-home-design/">flood-resilient homes</a> for the hazard-by-hazard method.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international design guide'],

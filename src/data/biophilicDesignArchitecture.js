@@ -102,6 +102,8 @@ const biophilicDesignArchitecture = {
     <h2>Beyond the green image</h2>
     <p>The strongest biophilic architecture does not ask plants to carry the whole idea. It brings daylight, air, landscape, material, season and spatial choice into a coherent daily experience. It gives living systems enough depth and support to survive, then checks whether occupants can actually use them.</p>
     <p>Begin with the person’s route, design the section, fund maintenance and define what will be measured after opening. When those decisions align, biophilic design becomes more than a visual language. It becomes a durable relationship between architecture, people and the living world.</p>
+  
+    <p><strong>Continue exploring:</strong> biophilic principles are easiest to read in a real landscape: <a href="/projects/narbon-villa/">Narbon Villa</a> keeps its orchard, watercourse and old garden wall as the architecture itself — walk the project file and drawings.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international architecture guide'],

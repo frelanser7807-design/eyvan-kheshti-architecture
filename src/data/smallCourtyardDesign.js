@@ -98,6 +98,8 @@ const smallCourtyardDesign = {
     <h2 id="conclusion">Design the courtyard as a room and a climate</h2>
     <p>The small courtyard is powerful because it can do more than one job in one place. It can make a compact home feel outward-looking, organise circulation, protect privacy and moderate light and air. Its value comes from relationships, not decoration.</p>
     <p>Start with the section, define a complete environmental path and make every edge useful. Then test the result against climate, neighbours, maintenance and daily life. When those layers align, a small courtyard stops being a gap in the plan and becomes the room that explains the house.</p>
+  
+    <p><strong>Continue exploring:</strong> the courtyard at villa scale is documented in <a href="/projects/the-voids-villa/">The Voids Villa project file</a> — three levels of connected courts with the full drawing set — and you can stand inside it in the <a href="/virtual-tours/the-voids-villa/">360° tour</a>.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international residential design guide'],

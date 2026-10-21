@@ -84,6 +84,8 @@ const apartmentAcousticDesign = {
       <li><strong>Inspect and test.</strong> Preserve evidence of concealed work and verify the completed building where required.</li>
     </ol>
     <p>A quiet home is a performance outcome, not a visual style. Timber slats, curtains and rugs can contribute to comfort inside a room, but the decisive architecture is often invisible: a separated structure, an unbroken barrier, a sealed edge and a service route that never touches the bedroom wall.</p>
+  
+    <p><strong>Continue exploring:</strong> fluted timber wall panels are one of the finishes that can soften a hard, echoing room — compare seven finishes in the <a href="/materials/wood/fluted-panels/fluted-wood/">original fluted wood collection</a>, with room studies and downloadable maps for your own visualisations.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international design guide'],

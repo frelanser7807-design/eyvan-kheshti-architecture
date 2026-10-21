@@ -59,7 +59,11 @@ export const newsletterIssue = {
   ],
   related: [
     { label: 'Watch the terrace threshold animation and copy the free prompt', url: '/prompts/terrace-threshold-waterproofing-drainage/' },
-    { label: 'Read our guide to rainscreen facade water control', url: '/articles/rainscreen-facade-design-water-control/' }
+    { label: 'Read our guide to rainscreen facade water control', url: '/articles/rainscreen-facade-design-water-control/' },
+    { label: 'Read the companion guide to balcony thermal bridges', url: '/articles/balcony-thermal-bridges-slab-edge/' },
+    { label: 'From the briefing: 5 October — Housing, Thresholds and Shared Ground', url: '/newsletter/architecture-briefing-2026-10-05/' },
+    { label: 'Read the companion guide to flood-resilient homes', url: '/articles/flood-resilient-home-design/' },
+    { label: 'From the archive: the 29 September briefing — architecture beyond the object', url: '/newsletter/architecture-briefing-2026-09-29/' }
   ]
 };
 
@@ -140,7 +144,10 @@ export const newsletterNewsIssue = {
   ],
   related: [
     { label: 'Explore the original World Arch Journal architecture magazine', url: '/magazine/' },
-    { label: 'Read our analysis of passive design and cooling', url: '/articles/climate-responsive-facades-cooling-design/' }
+    { label: 'Read our analysis of passive design and cooling', url: '/articles/climate-responsive-facades-cooling-design/' },
+    { label: 'Latest dated briefing: 21 October — Openings, Heritage and Who Decides', url: '/newsletter/architecture-briefing-2026-10-21/' },
+    { label: 'Read our guide to adaptive reuse architecture', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
+    { label: 'The briefing that followed: 1 October — Who Gets Space, and Who Gets to Use It?', url: '/newsletter/architecture-briefing-2026-10-01/' }
   ]
 };
 
@@ -216,7 +223,8 @@ export const dailyBriefing = {
   related: [
     { label: 'Go deeper: awards, heritage and climate readiness — our separate analysis', url: '/magazine/analysis/architecture-briefing-september-2026/' },
     { label: 'Field note: water control at a terrace door', url: '/magazine/analysis/water-at-the-threshold/' },
-    { label: 'Explore all original architecture articles', url: '/magazine/' }
+    { label: 'Explore all original architecture articles', url: '/magazine/' },
+    { label: 'Next edition: 30 September — Measure, Reuse, Belong', url: '/newsletter/architecture-briefing-2026-09-30/' }
   ]
 };
 
@@ -288,7 +296,11 @@ export const september30Briefing = {
   related: [
     { label: 'Our original guide to adaptive reuse and what to retain', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
     { label: 'Read the urban heat design article with its original editorial visual', url: '/articles/urban-heat-cool-streets-design/' },
-    { label: 'Explore our separate architecture analysis archive', url: '/magazine/analysis/' }
+    { label: 'Explore our separate architecture analysis archive', url: '/magazine/analysis/' },
+    { label: 'Previous edition: 29 September — Architecture Beyond the Object', url: '/newsletter/architecture-briefing-2026-09-29/' },
+    { label: 'Next edition: 1 October — Who Gets Space, and Who Gets to Use It?', url: '/newsletter/architecture-briefing-2026-10-01/' },
+    { label: 'Read our EPD guide to low-carbon concrete', url: '/articles/low-carbon-concrete-epd-guide/' },
+    { label: 'Passive house or net zero? Read the comparison', url: '/articles/passive-house-vs-net-zero-architecture/' }
   ]
 };
 
@@ -364,7 +376,9 @@ export const october2Briefing = {
   related: [
     { label: 'Our original guide to adaptive reuse and what to retain', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
     { label: 'Read our original urban heat and cool-streets analysis', url: '/articles/urban-heat-cool-streets-design/' },
-    { label: 'Browse every dated architecture briefing', url: '/newsletter/' }
+    { label: 'Browse every dated architecture briefing', url: '/newsletter/' },
+    { label: 'Previous edition: 1 October — Who Gets Space, and Who Gets to Use It?', url: '/newsletter/architecture-briefing-2026-10-01/' },
+    { label: 'Next edition: 5 October — Housing, Thresholds and Shared Ground', url: '/newsletter/architecture-briefing-2026-10-05/' }
   ]
 };
 
@@ -440,7 +454,9 @@ export const october1Briefing = {
   related: [
     { label: 'Our original guide to adaptive reuse and what to retain', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
     { label: 'Our original analysis of awards, heritage and climate readiness', url: '/magazine/analysis/architecture-briefing-september-2026/' },
-    { label: 'Read all dated architecture editions', url: '/newsletter/' }
+    { label: 'Read all dated architecture editions', url: '/newsletter/' },
+    { label: 'Previous edition: 30 September — Measure, Reuse, Belong', url: '/newsletter/architecture-briefing-2026-09-30/' },
+    { label: 'Next edition: 2 October — What Makes a City Project Public?', url: '/newsletter/architecture-briefing-2026-10-02/' }
   ]
 };
 
@@ -553,7 +569,10 @@ export const october9Briefing = {
     { label: 'Read our independent guide to adaptive reuse architecture', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
     { label: 'Explore universal design and inclusive homes', url: '/articles/universal-design-homes-ageing-in-place/' },
     { label: 'Browse architecture projects and virtual tours', url: '/projects/' },
-    { label: 'Browse every dated architecture briefing', url: '/newsletter/' }
+    { label: 'Browse every dated architecture briefing', url: '/newsletter/' },
+    { label: 'Previous edition: 8 October — From Design Intelligence to Public Value', url: '/newsletter/architecture-briefing-2026-10-08/' },
+    { label: 'Next edition: 11 October — Architecture as Story, Stillness and Shared Voice', url: '/newsletter/architecture-briefing-2026-10-11/' },
+    { label: 'Read our guide to design for disassembly and reversible buildings', url: '/articles/design-for-disassembly-reversible-buildings/' }
   ]
 };
 
@@ -686,7 +705,10 @@ export const october21Briefing = {
     { label: 'Read our independent guide to adaptive reuse architecture', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
     { label: 'Explore urban heat and cooler street design', url: '/articles/urban-heat-cool-streets-design/' },
     { label: 'Read our guide to inclusive wayfinding in public buildings', url: '/articles/inclusive-wayfinding-public-buildings/' },
-    { label: 'Browse every dated architecture briefing', url: '/newsletter/' }
+    { label: 'Browse every dated architecture briefing', url: '/newsletter/' },
+    { label: 'Previous edition: 11 October — Architecture as Story, Stillness and Shared Voice', url: '/newsletter/architecture-briefing-2026-10-11/' },
+    { label: 'Read the guide: Frank Lloyd Wright, organic architecture and the houses you can still visit', url: '/articles/frank-lloyd-wright-organic-architecture-guide/' },
+    { label: 'Read our history of Brutalist architecture and its landmark buildings', url: '/articles/brutalist-architecture-history-features-buildings/' }
   ]
 };
 
@@ -795,7 +817,9 @@ export const october11Briefing = {
     { label: 'Read our guide to adaptive reuse and what to retain', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
     { label: 'Explore universal design for homes and ageing in place', url: '/articles/universal-design-homes-ageing-in-place/' },
     { label: 'Explore projects and virtual tours', url: '/projects/' },
-    { label: 'Browse every dated architecture briefing', url: '/newsletter/' }
+    { label: 'Browse every dated architecture briefing', url: '/newsletter/' },
+    { label: 'Previous edition: 9 October — Reuse, Learning, Arrival and Living Knowledge', url: '/newsletter/architecture-briefing-2026-10-09/' },
+    { label: 'Next edition: 21 October — Openings, Heritage and Who Decides', url: '/newsletter/architecture-briefing-2026-10-21/' }
   ]
 };
 
@@ -888,7 +912,10 @@ export const october8Briefing = {
     { label: 'Read our independent guide to AI governance in architecture', url: '/articles/ai-in-architecture-2026-adoption-risks-rules/' },
     { label: 'Read our adaptive reuse architecture guide', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
     { label: 'Explore interactive architecture projects and virtual tours', url: '/projects/' },
-    { label: 'Browse every dated architecture briefing', url: '/newsletter/' }
+    { label: 'Browse every dated architecture briefing', url: '/newsletter/' },
+    { label: 'Previous edition: 7 October — Who Gets to Learn, Build and Enter?', url: '/newsletter/architecture-briefing-2026-10-07/' },
+    { label: 'Next edition: 9 October — Reuse, Learning, Arrival and Living Knowledge', url: '/newsletter/architecture-briefing-2026-10-09/' },
+    { label: 'BIM or CAD? Read the workflow comparison', url: '/articles/bim-vs-cad-architects-workflow/' }
   ]
 };
 
@@ -981,7 +1008,9 @@ export const october7Briefing = {
   related: [
     { label: 'Read our independent guide to AI governance in architecture', url: '/articles/ai-in-architecture-2026-adoption-risks-rules/' },
     { label: 'Explore universal design for ageing in place', url: '/articles/universal-design-homes-ageing-in-place/' },
-    { label: 'Browse every dated architecture briefing', url: '/newsletter/' }
+    { label: 'Browse every dated architecture briefing', url: '/newsletter/' },
+    { label: 'Previous edition: 5 October — Housing, Thresholds and Shared Ground', url: '/newsletter/architecture-briefing-2026-10-05/' },
+    { label: 'Next edition: 8 October — From Design Intelligence to Public Value', url: '/newsletter/architecture-briefing-2026-10-08/' }
   ]
 };
 
@@ -1073,7 +1102,10 @@ export const october5Briefing = {
   related: [
     { label: 'Read our climate-responsive facade guide', url: '/articles/climate-responsive-facades-cooling-design/' },
     { label: 'Read our adaptive reuse architecture guide', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
-    { label: 'Browse every dated architecture briefing', url: '/newsletter/' }
+    { label: 'Browse every dated architecture briefing', url: '/newsletter/' },
+    { label: 'Previous edition: 2 October — What Makes a City Project Public?', url: '/newsletter/architecture-briefing-2026-10-02/' },
+    { label: 'Next edition: 7 October — Who Gets to Learn, Build and Enter?', url: '/newsletter/architecture-briefing-2026-10-07/' },
+    { label: 'Read the complete guide to accessory dwelling units (ADUs)', url: '/articles/accessory-dwelling-units-complete-guide/' }
   ]
 };
 

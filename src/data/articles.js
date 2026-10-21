@@ -82,6 +82,8 @@ const courtyardWindHouse = {
     <h2>The house after the grid</h2>
     <p>Passive design should not be romanticised as a substitute for engineering, public infrastructure or safe mechanical cooling. Its value is that it gives architecture useful work to do before power is consumed and after a system is interrupted. Shade becomes a room. Air movement becomes a plan. Material thickness becomes time. The courtyard becomes an environmental choice rather than an image.</p>
     <p>Courtyard Wind House is therefore less a finished answer than a disciplined beginning. It shows how a project can be published attractively while keeping the line between visual possibility and verified performance visible. That line is central to this magazine: inspire first, document carefully, and never allow the confidence of the page to exceed the strength of the evidence.</p>
+  
+    <p><strong>Continue exploring:</strong> the courtyard as climatic device is documented at full scale in <a href="/projects/the-voids-villa/">The Voids Villa project file</a>, whose connected courts, brick voids and sunken pool level apply the same five moves — step inside via the <a href="/virtual-tours/the-voids-villa/">360° tour</a>.</p>
   `,
   facts: [
     ['PROJECT', 'Courtyard Wind House'],

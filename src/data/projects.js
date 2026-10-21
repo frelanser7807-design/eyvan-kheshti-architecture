@@ -35,6 +35,13 @@ export const projects = [
     ],
     sourceUrl: 'https://caoi.ir/en/projects/item/1938-the-voids-koohsar-karaj-asnow-design-construct.html',
     secondarySourceUrl: 'https://www.archdaily.com/1022881/the-voids-villa-asnow-design-and-construct',
+    relatedLinks: [
+      { label: 'Small courtyard design: light, privacy and cooling', url: '/articles/small-courtyard-design-light-privacy-cooling/' },
+      { label: 'The House After the Grid: five passive-cooling moves', url: '/articles/courtyard-wind-house-passive-cooling/' },
+      { label: 'Apartment daylight and layout design', url: '/articles/apartment-daylight-layout-design/' },
+      { label: 'Brickwork and masonry in the material library', url: '/materials/category/brick/brickwork/' },
+      { label: 'Commission a villa design', url: '/services/' },
+    ],
   },
   {
     id: 'narbon-villa',
@@ -101,6 +108,13 @@ export const projects = [
     gallery: [1, 2, 5, 10, 19, 21, 28, 29].map((number) => `/assets/projects/narbon-villa/photos/photo-${String(number).padStart(2, '0')}.webp`),
     sourceUrl: 'https://www.caoi.ir/en/projects/item/1855-narbon-villa-kerman-gera-studio.html',
     secondarySourceUrl: 'https://www.archdaily.com/1008367/narbon-villa-gera-studio-architects',
+    relatedLinks: [
+      { label: 'Biophilic design: architecture and wellbeing', url: '/articles/biophilic-design-architecture-wellbeing/' },
+      { label: 'Climate-responsive facades and passive cooling', url: '/articles/climate-responsive-facades-cooling-design/' },
+      { label: 'Urban heat: designing cooler streets', url: '/articles/urban-heat-cool-streets-design/' },
+      { label: 'Cross-ventilation in apartment design', url: '/articles/cross-ventilation-apartment-design/' },
+      { label: 'Commission a villa design', url: '/services/' },
+    ],
   },
   {
     id: 'villa-safadasht',
@@ -158,6 +172,11 @@ export const projects = [
     ],
     representationNote: 'This tour is built from the project’s published photographs (Ali Daghigh & Abdolreza Bassiri). The 360° canvases are editorial montages composed from those photographs, and the plans are schematic World Arch Journal readings of the documented layout; the experience is an editorial spatial study and must not be treated as a measured survey.',
     sourceUrl: 'https://architizer.com/projects/villa-safadasht/',
+    relatedLinks: [
+      { label: 'Modern villa, reimagined: seven design principles', url: '/articles/modern-villa-reimagined-7-design-principles/' },
+      { label: 'Low-E triple glazing and smart glass guide', url: '/articles/low-e-triple-glazing-smart-glass-guide/' },
+      { label: 'Commission a villa design', url: '/services/' },
+    ],
   },
 ];
 

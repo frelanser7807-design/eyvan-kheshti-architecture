@@ -82,6 +82,8 @@ const brutalistArchitecture = {
     <p>Demolition also carries environmental and cultural costs. Retaining a large concrete frame may preserve substantial embodied energy, but carbon alone does not settle the decision. A credible assessment must examine structural condition, hazardous materials, accessibility, operational performance, adaptability and the value communities attach to the place.</p>
     <p>The seven examples resist one conclusion. Unité turns section into collective housing; the Barbican builds a landscape; Boston City Hall gives government a legible form; Habitat makes modularity spatial; Geisel makes structure emblematic; the National Theatre turns circulation into public stage; SESC Pompéia joins rough new construction to careful reuse.</p>
     <p>Brutalism is therefore best understood as a set of architectural commitments, not a preset. Read how the building is made, how people move, who the institution serves and whether care has kept the public promise alive. Only then decide what the concrete means.</p>
+  
+    <p><strong>Continue exploring:</strong> Brutalism begins with concrete, so compare the real thing in the library's <a href="/materials/category/concrete/concrete-finishes/">concrete finishes</a> collection, and read our <a href="/newsletter/architecture-briefing-2026-10-21/">21 October briefing</a> on the heritage fights now deciding which modern landmarks survive.</p>
   `,
   facts: [
     ['FORMAT', 'International architectural history guide'],

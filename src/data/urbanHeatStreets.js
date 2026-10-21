@@ -81,6 +81,8 @@ const urbanHeatStreets = {
       <tr><td>Evaluation</td><td>How will results and trade-offs be checked?</td><td>Comparable before-and-after protocol</td></tr>
     </tbody></table>
     <p>The urban street is a climate section in motion. Its success depends on shade in the right place, living infrastructure that lasts, surfaces that do not create new harm, and measurements tied to people's actual exposure. The best first question is not “How many degrees cooler will this rendering be?” but “Whose journey improves, and how will we know?”</p>
+  
+    <p><strong>Continue exploring:</strong> the courtyard is the domestic version of the shaded street — <a href="/projects/narbon-villa/">Narbon Villa</a> sinks its arrival court below orchard level to hold cool air, and its project file documents the section in drawings. The city-scale version of the same question — what public space owes its citizens — runs through our <a href="/newsletter/architecture-briefing-2026-10-02/">2 October briefing</a>.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international urban design guide'],

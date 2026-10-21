@@ -66,6 +66,12 @@ export default function ProjectDetail({ project }) {
         <div>{project.gallery.map((image, index) => <button type="button" key={image} onClick={() => setZoomed([`Project photograph ${index + 1}`, image])}><img src={image} alt={`${project.title} documented project view ${index + 1}`} loading="lazy" /></button>)}</div>
       </section>}
 
+      {project.relatedLinks?.length > 0 && <section className="project-related">
+        <small>RELATED READING</small>
+        <h2>Continue in the journal</h2>
+        <ul>{project.relatedLinks.map((link) => <li key={link.url}><a href={link.url}>{link.label}</a></li>)}</ul>
+      </section>}
+
       <section className="project-sources">
         <small>RESEARCH &amp; REPRESENTATION NOTE</small>
         <p>{project.representationNote || 'Project facts and the architects’ stated design intentions were checked against the original project archive and a secondary architecture publication. The 360 tour uses source-locked photographs with AI-assisted peripheral completion and must not be treated as a measured survey.'}</p>

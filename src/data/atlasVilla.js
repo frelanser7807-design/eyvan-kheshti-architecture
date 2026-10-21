@@ -11,6 +11,11 @@ export const atlasVilla = {
     { src: '/assets/projects/atlas-villa/ground-floor-plan.jpg', alt: 'Atlas Villa ground floor plan presentation sheet' },
   ],
   tags: ['VILLA DESIGN', 'SPATIAL PLANNING', 'INTERIOR CONCEPT', 'ARCHITECTURAL VISUALISATION'],
+  relatedLinks: [
+    { label: 'Modern villa, reimagined: seven design principles', url: '/articles/modern-villa-reimagined-7-design-principles/' },
+    { label: 'Small courtyard design: light, privacy and cooling', url: '/articles/small-courtyard-design-light-privacy-cooling/' },
+    { label: 'Accessory dwelling units: the complete guide', url: '/articles/accessory-dwelling-units-complete-guide/' },
+  ],
   etsyUrl: 'https://www.etsy.com/listing/4592112843',
   path: '/projects/atlas-villa/',
 };

@@ -83,6 +83,8 @@ const prefabVsModularHomes = {
     <h2 id="conclusion">The best prefab decision is specific</h2>
     <p>There is no universal winner between modular, panelised, kit-based and conventional construction. Volumetric modules can be powerful where repetition, programme and site disruption dominate. Panels can balance factory precision with spatial flexibility. Kits can unlock difficult locations. Conventional or hybrid construction may remain better where late change, unusual geometry or local craft is central.</p>
     <p>The useful question is not “Are prefab homes better?” It is “Which work should happen in a factory, which work should happen on this site, and how will the two remain accountable to one design?” Once that question is answered with evidence, prefab becomes a method rather than a promise.</p>
+  
+    <p><strong>Continue exploring:</strong> off-site construction is also the fastest route to a backyard home — our <a href="/articles/accessory-dwelling-units-complete-guide/">ADU guide</a> prices the options, and factory-built homes are designed through the same <a href="/services/custom-plan-design/">project enquiry</a> as any other commission.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international buyer and architect guide'],

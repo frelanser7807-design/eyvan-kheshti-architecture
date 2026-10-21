@@ -95,6 +95,8 @@ const smallApartmentLayout = {
       <li><strong>Verify the essentials.</strong> Check local space, accessibility, fire, ventilation, daylight and energy requirements with qualified professionals.</li>
     </ol>
     <p>A convincing small apartment is not one that photographs as empty. It is one that remains calm after coats, laundry, laptops, groceries, guests and private moments arrive. Good planning makes ordinary life visible early—then gives it enough light, storage, separation and freedom to change.</p>
+  
+    <p><strong>Continue exploring:</strong> the same compact-living logic scales down to the garden: our <a href="/articles/accessory-dwelling-units-complete-guide/">complete guide to accessory dwelling units</a> covers the rules and costs, and if you are planning a small home of your own, the studio's <a href="/services/custom-plan-design/">project enquiry</a> is where layouts like these are drawn properly.</p>
   `,
   facts: [
     ['FORMAT', 'Original international residential design guide'],
