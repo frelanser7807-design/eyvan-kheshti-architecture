@@ -1,3 +1,4 @@
+import { mineralMaterials, mineralRoot } from './mineralMaterials.js';
 // Shared navigation model for the library, SEO and future product families.
 // Empty types are catalog structure, never advertised as available products.
 export const collectionCategories = [
@@ -55,7 +56,16 @@ export const collectionProducts = [{
     { label: 'Sibling panel: vein-cut travertine facade studies', url: '/materials/stone/natural-stone/travertine/' },
     { label: 'Sibling panel: original fluted wood room studies', url: '/materials/wood/fluted-panels/fluted-wood/' },
   ],
-}];
+}, ...mineralMaterials.map((material) => ({
+  ...material,
+  image: `${mineralRoot}${material.id}/${material.finishes[0].id}/preview.webp`,
+  scene: `${mineralRoot}${material.id}/${material.finishes[0].id}/preview.webp`,
+  finishes: material.finishes.length,
+  contexts: 'Interactive surface studio',
+  titleSuffix: '4K + 16K tiled maps',
+  modifiedAt: '2026-10-21',
+  relatedLinks: material.reading,
+}))];
 export const categoryPath = id => `/materials/category/${id}/`;
 export const typePath = (category, type) => `${categoryPath(category)}${type}/`;
 export function collectionRoute(pathname) {

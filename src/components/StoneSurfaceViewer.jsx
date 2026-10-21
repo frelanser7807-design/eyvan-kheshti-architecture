@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import './MaterialSurfaceViewer.css';
 
-export default function StoneSurfaceViewer({finish,root='/assets/material-studio/travertine/',filePrefix='waj-travertine',sceneNoun='facade',mapUrls=null}) {
+export default function StoneSurfaceViewer({finish,root='/assets/material-studio/travertine/',filePrefix='waj-travertine',sceneNoun='facade',mapUrls=null,note=null}) {
   const ROOT=root;
   const host=useRef(null), engine=useRef(null);
   const [angle,setAngle]=useState(-45),[power,setPower]=useState(3),[shape,setShape]=useState('sphere');
@@ -51,12 +51,12 @@ export default function StoneSurfaceViewer({finish,root='/assets/material-studio
   };
   return <section className="fp-viewer" aria-label="Interactive material and lighting">
     <div className="fp-viewer-top"><span>LIVE MATERIAL STUDY</span><div role="group" aria-label="Preview shape">{['sphere','panel'].map(s=><button type="button" key={s} aria-pressed={shape===s} onClick={()=>setShape(s)}>{s==='sphere'?'Sphere':'Panel'}</button>)}</div></div>
-    <div className="fp-webgl" ref={host} role="img" aria-label={`${finish.name} ${shape}, adjustable studio light`}/>
+    <div style={{position:'relative'}}><div className="fp-webgl" ref={host} role="img" aria-label={`${finish.name} ${shape}, adjustable studio light`}/>{error && <img src={mapUrls?.[0] || `${ROOT}${finish.id}/preview.webp`} alt={`${finish.name} flat surface preview`} style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover'}}/>}</div>
     <p className="fp-viewer-status" role="status">{error||(!ready?'Loading surface maps…':`${finish.name} · real-time PBR lighting`)}</p>
     <label>Light direction <output>{angle}°</output><input aria-label="Light direction" type="range" min="-180" max="180" step="1" value={angle} onChange={e=>setAngle(Number(e.target.value))}/></label>
     <label>Light intensity <output>{power.toFixed(1)}</output><input aria-label="Light intensity" type="range" min="0" max="6" step=".1" value={power} onChange={e=>setPower(Number(e.target.value))}/></label>
     <div className="fp-viewer-actions"><button type="button" onClick={()=>{setAngle(-45);setPower(3);}}>Reset light</button><button type="button" disabled={!ready||saving} onClick={save}>{saving?'Rendering…':`Download ${shape} PNG · 4K ↓`}</button></div>
-    <small>Lighting adjusts this material preview. The three {sceneNoun} studies retain their original lighting.</small>
+    <small>{note || <>Lighting adjusts this material preview. The three {sceneNoun} studies retain their original lighting.</>}</small>
   </section>;
 }
 

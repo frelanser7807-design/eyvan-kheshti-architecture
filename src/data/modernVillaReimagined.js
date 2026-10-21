@@ -15,7 +15,11 @@ const modernVillaReimagined = {
   coverWidth: 800,
   coverHeight: 1200,
   publishedAt: '2026-10-11',
-  modifiedAt: '2026-10-11',
+  modifiedAt: '2026-10-21',
+  author: 'World Arch Journal',
+  scope: 'A conceptual design guide. Climate, structure, accessibility, building regulations and energy performance require project-specific assessment.',
+  tags: ['villa design', 'daylight', 'passive design', 'materials', 'adaptability'],
+  evidence: [],
   contentHtml: `
 <h2>Introduction: Why the Villa Needs Rethinking</h2>
 <p>The villa, as an architectural type, has survived centuries of reinvention. From the Roman countryside estates to Palladio's symmetrical masterpieces and the glass-box experiments of the mid-twentieth century, each era has redefined what it means to dwell well on a single plot of land. Today, the modern villa faces a new set of pressures: rising land costs, climate uncertainty, the permanent arrival of remote work, and homeowners who expect their houses to function as offices, gyms, retreats, and entertainment venues simultaneously.</p>

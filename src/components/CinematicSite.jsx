@@ -421,6 +421,7 @@ export default function CinematicSite({ content }) {
         </button>
 
         <nav className="ek-nav" aria-label="Primary navigation">
+          <a className="ek-material-nav" href="/materials/">Materials</a>
           <button className="ek-language is-disabled" type="button" disabled aria-disabled="true" title="Persian edition coming soon">
             <b>EN</b><span>/</span><i>FA SOON</i>
           </button>

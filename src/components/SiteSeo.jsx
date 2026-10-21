@@ -124,6 +124,10 @@ export default function SiteSeo({ content, route }) {
       title = `Architecture Presentation Templates | ${name}`;
       description = 'Explore interior and exterior architecture presentation formats, editable slide decks, design boards and social cover systems, plus bespoke presentation design by World Arch Journal.';
       image = absoluteAsset(siteUrl, '/assets/candidates/office-world/scene-06-material-model-lab-v1.png');
+    } else if (route?.name === 'mineral-studio') {
+      title = `${item.name} · 4K & 16K Material Maps | ${name}`;
+      description = item.description;
+      image = absoluteAsset(siteUrl, `/assets/material-studio/mineral/${item.id}/${item.finishes[0].id}/preview.webp`);
     } else if (route?.name === 'travertine-studio') {
       title = `Travertine · 5 Colors & 4K PBR Maps | ${name}`;
       description = 'Compare five travertine color studies across three exterior facades. Explore surface lighting and download original 4K PBR maps.';
@@ -251,7 +255,9 @@ export default function SiteSeo({ content, route }) {
       serviceType: (content?.services || []).map((service) => service.title),
     };
 
-    if (route?.name === 'ceramic-studio') {
+    if (route?.name === 'mineral-studio') {
+      structuredData = { '@context':'https://schema.org', '@type':'CreativeWork', name:item.name, description, url:canonicalUrl, image, creator:publisher, isPartOf:{'@type':'CollectionPage',url:`${siteUrl}/materials/`} };
+    } else if (route?.name === 'ceramic-studio') {
       structuredData = {'@context':'https://schema.org','@type':'CreativeWork',name:'Porcelain stoneware',description,url:canonicalUrl};
     } else if (route?.name === 'travertine-studio') {
       structuredData = {'@context':'https://schema.org','@type':'CreativeWork',name:'Vein-cut travertine',description,url:canonicalUrl};

@@ -1,4 +1,4 @@
-import { createElement, Fragment, useEffect, useMemo, useRef } from 'react';
+import { createElement, Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import { assetUrl } from '../lib/assetUrl.js';
 import { relatedArticlesFor } from '../data/articles.js';
 
@@ -126,7 +126,40 @@ function ControlledArticleHtml({ html, visuals = [] }) {
   );
 }
 
-export default function ArticleReader({ article, onClose = () => undefined, standalone = false }) {
+const articleRequests = new Map();
+
+export default function ArticleReader(props) {
+  const { article } = props;
+  const [loaded, setLoaded] = useState(null);
+  const [failed, setFailed] = useState(false);
+  useEffect(() => {
+    let active = true;
+    setFailed(false);
+    if (!article || typeof article.contentHtml === 'string') return undefined;
+    const slug = article.slug;
+    if (!articleRequests.has(slug)) {
+      const request = fetch(assetUrl(article.contentUrl))
+        .then((response) => {
+          if (!response.ok) throw new Error('Article unavailable');
+          return response.json();
+        })
+        .then((value) => {
+          if (value.slug !== slug || typeof value.contentHtml !== 'string') throw new Error('Invalid article');
+          return value;
+        })
+        .catch((error) => { articleRequests.delete(slug); throw error; });
+      articleRequests.set(slug, request);
+    }
+    articleRequests.get(slug).then((value) => active && setLoaded(value)).catch(() => active && setFailed(true));
+    return () => { active = false; };
+  }, [article]);
+  if (!article) return null;
+  const complete = typeof article.contentHtml === 'string' ? article : loaded?.slug === article.slug ? loaded : null;
+  if (!complete) return <section className="seo-route-fallback" aria-live="polite"><h1>{article.title}</h1><p>{failed ? 'The article could not be loaded. Please reload this page to try again.' : 'Loading the article…'}</p><a href="/magazine/">Return to the magazine</a>{props.onClose && <button type="button" onClick={props.onClose}>Close</button>}</section>;
+  return <ResolvedArticleReader {...props} article={complete} />;
+}
+
+function ResolvedArticleReader({ article, onClose = () => undefined, standalone = false }) {
   const readerRef = useRef(null);
   const relatedArticles = useMemo(() => relatedArticlesFor(article), [article]);
 
@@ -227,7 +260,7 @@ export default function ArticleReader({ article, onClose = () => undefined, stan
           <section className="ek-article-faq" aria-labelledby="article-faq-title">
             <small>COMMON QUESTIONS</small>
             <h2 id="article-faq-title">Frequently asked questions</h2>
-            {article.faq.map((item) => (
+            {(article.faq || []).map((item) => (
               <details key={item.question}>
                 <summary>{item.question}</summary>
                 <p>{item.answer}</p>
@@ -240,7 +273,7 @@ export default function ArticleReader({ article, onClose = () => undefined, stan
             <h2 id="article-sources-title">Evidence and source notes</h2>
             <p>Claims are scoped to the cited material. Each note includes the limitation recorded during editorial review.</p>
             <ol>
-              {article.evidence.map((source) => (
+              {(article.evidence || []).map((source) => (
                 <li key={source.source_url}>
                   <a href={safeHref(source.source_url)} target="_blank" rel="noopener noreferrer">{source.publisher} ↗</a>
                   <p>{source.claim}</p>

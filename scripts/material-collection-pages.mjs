@@ -1,3 +1,4 @@
+import { mineralMaterials, mineralRoot } from '../src/data/mineralMaterials.js';
 import { collectionCategories, collectionProducts, categoryPath, typePath } from '../src/data/materialCollections.js';
 import { materialLibrary } from '../src/data/materialLibrary.js';
 
@@ -26,6 +27,11 @@ export async function emitMaterialCollections({ emit, preparePage, escapeHtml: e
   await emit(p.path,html);
   // Preserve bookmarked demo URLs while consolidating SEO on the product route.
   await emit('/material-studio/',html);
+  for (const material of mineralMaterials) {
+    const image = `${mineralRoot}${material.id}/${material.finishes[0].id}/preview.webp`;
+    const body = `<main class="seo-route-fallback"><nav><a href="/materials/">Material library</a><a href="${categoryPath(material.category)}">${e(material.category)}</a></nav><h1>${e(material.name)}</h1><p>${e(material.description)}</p><img src="${image}" alt="${e(material.name)} original procedural surface preview"><h2>Five finish studies</h2><ul>${material.finishes.map(f => `<li>${e(f.name)} — <a href="${mineralRoot}${material.id}/${f.id}/basecolor-4k.png" download>4K base color map</a></li>`).join('')}</ul><h2>Interactive surface studio</h2><p>Compare the material on a sphere or panel with adjustable studio-light direction and intensity. The browser preview uses 1K maps; full 4096 × 4096 maps are included in each downloadable pack.</p><h2>Downloadable PBR maps</h2><p>Base color, OpenGL normal, roughness and 16-bit height. Digital repeat: ${e(material.repeat)}. The panel assembles a ZIP after SHA-256 verification of all four maps. The 16K edition is 16384 × 16384 px, created from 4 × 4 seamless source repeats with a 4800 × 4800 mm digital repeat. It adds no new scan detail. Both 4K source maps and the 16K tiled edition are available from the panel. Native modelling files are not included.</p><p>Original procedural World Arch Journal studies, not physical-product scans. Free for personal and commercial visualisation; do not resell the maps as a standalone texture pack.</p><h2>Application and limitations</h2><p>${e(material.application)}</p><h2>Related reading</h2><ul>${material.reading.map(link => `<li><a href="${link.url}">${e(link.label)}</a></li>`).join('')}</ul></main>`;
+    await emit(material.path, preparePage({pathname:material.path,title:`${material.name} · 4K & 16K Material Maps | ${siteName}`,description:material.description,image,schema:{'@context':'https://schema.org','@type':'CreativeWork',name:material.name,description:material.description,url:`${siteUrl}${material.path}`,image:`${siteUrl}${image}`,isPartOf:{'@type':'CollectionPage',url:`${siteUrl}/materials/`}},body}));
+  }
   const stoneCopy={
     travertine:{alt:'Travertine villa facade visualization',studies:'<h2>Five color studies</h2><p>Ivory, classic cream, warm sand, silver grey and walnut brown. Three exterior facade illustrations with fixed scene lighting.</p>',downloads:'<h2>Downloads</h2><p>Original procedural 4096 × 4096 PNG maps: base color, OpenGL normal, roughness and 16-bit height. Digital repeat 1200 × 1200 mm. Not a quarry scan or certified physical product. Native software files and 16K maps are not included.</p>'},
     'porcelain-stoneware':{alt:'Scanned ceramic and stone tile kitchen visualization',studies:'<h2>Five finish studies</h2><p>Ivory marble, warm greige ceramic, Cartago grey marble, graphite stone and terracotta — real photogrammetry scans of physical tile surfaces (CC0). Three interior room studies — a kitchen, a bathroom and a living room — with the actual scanned textures on the slab surfaces.</p>',downloads:'<h2>Downloads</h2><p>Real photogrammetry-scanned PBR maps — base color, OpenGL normal, roughness, height and ambient occlusion — captured from physical tile surfaces and released under CC0. Web edition 4096 × 4096; the native scans (up to 16384 × 16384) and a 16K edition prepared from the original scans are hosted on Google Drive. Generic scanned materials, not manufacturer-certified products.</p>'},
@@ -38,7 +44,7 @@ export async function emitMaterialCollections({ emit, preparePage, escapeHtml: e
 
 export const materialCollectionSitemap = [
   ...materialLibrary.map(p=>({pathname:`/materials/${p.slug}/`,lastmod:'2026-10-19'})),
-  ...collectionProducts.map(p=>({pathname:p.path,lastmod:'2026-10-19',image:{loc:p.scene,title:p.name}})),
+  ...collectionProducts.map(p=>({pathname:p.path,lastmod:p.modifiedAt||'2026-10-19',image:{loc:p.scene,title:p.name}})),
   ...collectionCategories.filter(c=>collectionProducts.some(p=>p.category===c.id)).flatMap(c=>[
     {pathname:categoryPath(c.id),lastmod:'2026-10-19'},
     ...c.types.filter(t=>collectionProducts.some(p=>p.category===c.id && p.type===t.id)).map(t=>({pathname:typePath(c.id,t.id),lastmod:'2026-10-19'})),
