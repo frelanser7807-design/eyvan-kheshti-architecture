@@ -43,11 +43,11 @@ export const collectionProducts = [{
     { label: 'Sibling panel: porcelain stoneware room studies', url: '/materials/stone/ceramic-porcelain/porcelain-stoneware/' },
   ],
 },{
-  id:'porcelain-stoneware',name:'Porcelain stoneware',category:'stone',type:'ceramic-porcelain',
+  id:'porcelain-stoneware',name:'Scanned ceramic & stone tiles',category:'stone',type:'ceramic-porcelain',
   path:'/materials/stone/ceramic-porcelain/porcelain-stoneware/',
-  image:'/assets/material-studio/ceramic-porcelain/alpine-white/preview.webp',
-  scene:'/assets/material-studio/ceramic-porcelain/scenes/kitchen.png',
-  description:'Five porcelain stoneware finish studies across a kitchen, bathroom and living room, with interactive surface lighting and original 4K PBR maps.',
+  image:'/assets/material-studio/ceramic-porcelain/ivory-marble/preview.jpg',
+  scene:'/assets/material-studio/ceramic-porcelain/scenes/kitchen-ivory-marble.jpg',
+  description:'Five real scanned tile finishes — marble, ceramic, stone and terracotta (CC0 photogrammetry) — across a kitchen, bathroom and living room, with interactive surface lighting and downloadable PBR maps up to 16K.',titleSuffix:'4K–16K PBR Maps',
   finishes:5,contexts:'3 room studies',label:'STONE / CERAMIC & PORCELAIN',
   relatedLinks:[
     { label: 'Small apartment layout: storage, privacy and daylight', url: '/articles/small-apartment-layout-storage-privacy-daylight/' },

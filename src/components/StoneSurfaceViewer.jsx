@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import './MaterialSurfaceViewer.css';
 
-export default function StoneSurfaceViewer({finish,root='/assets/material-studio/travertine/',filePrefix='waj-travertine',sceneNoun='facade'}) {
+export default function StoneSurfaceViewer({finish,root='/assets/material-studio/travertine/',filePrefix='waj-travertine',sceneNoun='facade',mapUrls=null}) {
   const ROOT=root;
   const host=useRef(null), engine=useRef(null);
   const [angle,setAngle]=useState(-45),[power,setPower]=useState(3),[shape,setShape]=useState('sphere');
@@ -31,7 +31,7 @@ export default function StoneSurfaceViewer({finish,root='/assets/material-studio
   useEffect(()=>{
     const e=engine.current;if(!e)return;let cancelled=false;setReady(false);setError('');
     const loader=new THREE.TextureLoader(),loaded=[];
-    Promise.all([`${ROOT}${finish.id}/basecolor-4k.png`,`${ROOT}shared/normal-opengl-4k.png`,`${ROOT}shared/roughness-4k.png`].map(url=>loader.loadAsync(url).then(t=>{loaded.push(t);return t;}))).then(([color,normal,roughness])=>{
+    Promise.all((mapUrls||[`${ROOT}${finish.id}/basecolor-4k.png`,`${ROOT}shared/normal-opengl-4k.png`,`${ROOT}shared/roughness-4k.png`]).map(url=>loader.loadAsync(url).then(t=>{loaded.push(t);return t;}))).then(([color,normal,roughness])=>{
       if(cancelled){loaded.forEach(t=>t.dispose());return;}
       color.colorSpace=THREE.SRGBColorSpace;
       for(const texture of loaded){texture.wrapS=texture.wrapT=THREE.RepeatWrapping;texture.anisotropy=Math.min(8,e.renderer.capabilities.getMaxAnisotropy());}

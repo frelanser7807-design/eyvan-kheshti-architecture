@@ -1,3 +1,6 @@
+# SUPERSEDED 2026-10-21 — the ceramic & porcelain panel now uses real
+# photogrammetry scans (Poly Haven / ambientCG, CC0). Do NOT run: it would
+# regenerate the rejected procedural assets. Kept for history only.
 """Original periodic procedural porcelain stoneware maps, directly sampled
 at 4096 x 4096. Not an upscale, manufacturer scan, or a certified physical
 product. Finish names describe color studies of real porcelain stoneware

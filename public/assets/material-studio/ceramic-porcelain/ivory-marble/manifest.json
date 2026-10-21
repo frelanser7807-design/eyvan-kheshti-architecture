@@ -1,0 +1,31 @@
+{
+  "id": "porcelain-stoneware-ivory-marble",
+  "name": "Ivory marble \u2014 real photogrammetry-scanned tile material (4K web edition)",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "nativeResolution": [
+    8192,
+    8192
+  ],
+  "method": "Photogrammetry scan of a physical tile surface, distributed by Poly Haven as Marble 01 (marble_01). The 4K web edition maps are the library's own 4096 x 4096 scans, re-encoded once at high quality for web distribution \u2014 no procedural generation, no enlargement, no detail added. The complete native-resolution pack (including the ambient-occlusion map) and a 16K edition prepared from the original scan are hosted on Google Drive (links in the panel).",
+  "source": {
+    "library": "Poly Haven",
+    "asset": "Marble 01 (marble_01)",
+    "url": "https://polyhaven.com/a/marble_01",
+    "license": "CC0 1.0 Universal (public domain)"
+  },
+  "tileMeters": [
+    1.5,
+    1.5
+  ],
+  "normalConvention": "OpenGL +Y",
+  "license": "CC0 1.0 Universal (public domain) \u2014 free for personal and commercial use, including redistribution.",
+  "sha256": {
+    "basecolor-4k.jpg": "5a7003f70ee34168bd30d10aa43928c0605f85a58a61d633b6f1ac0af6ed5d6f",
+    "normal-opengl-4k.jpg": "425438047f09b445e327c399accd7be8417c6c674e7c742b19538c08b56fe6d1",
+    "roughness-4k.jpg": "ace210d167186643d89a4d328fcbbdad2a9e703f19e8bed6dfe32f584b922f9a",
+    "height-4k.jpg": "5a7f259a5b5e870437234c18c1504a5faa94e6745208220426288c39f141064f"
+  }
+}
