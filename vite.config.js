@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import { articleClientBundle } from './scripts/lib/article-client-bundle.mjs';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
@@ -26,7 +27,7 @@ export default defineConfig({
   // Resolve from the real project path so builds also work when this checkout
   // is accessed through the active-site junction used by Codex.
   root: here,
-  plugins: [react()],
+  plugins: [react(), articleClientBundle()],
   base: process.env.VITE_PUBLIC_BASE || '/',
   build: {
     manifest: true,

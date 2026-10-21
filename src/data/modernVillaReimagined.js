@@ -15,7 +15,16 @@ const modernVillaReimagined = {
   coverWidth: 800,
   coverHeight: 1200,
   publishedAt: '2026-10-11',
-  modifiedAt: '2026-10-11',
+  modifiedAt: '2026-10-21',
+  author: 'World Arch Journal',
+  scope: 'A conceptual design guide. Climate, structure, accessibility, building regulations and energy performance require project-specific assessment.',
+  tags: ['villa design', 'daylight', 'passive design', 'materials', 'adaptability'],
+  evidence: [],
+  faq: [
+    { question: 'What makes a modern villa design work well?', answer: 'A considered villa combines site-specific daylight and shading, clear circulation, usable outdoor space, durable materials and rooms that can adapt as household needs change.' },
+    { question: 'Should daylight be considered before the floor plan?', answer: 'Study orientation, seasonal sun and shading early, alongside the room brief. Test the resulting layout for daylight, glare and overheating rather than assuming that more glazing always improves the home.' },
+    { question: 'How can a villa adapt to changing family needs?', answer: 'Separate permanent structure from adaptable partitions, coordinate service routes and consider how a ground-floor study could become an accessible bedroom. Structural and regulatory decisions require local professional review.' },
+  ],
   contentHtml: `
 <h2>Introduction: Why the Villa Needs Rethinking</h2>
 <p>The villa, as an architectural type, has survived centuries of reinvention. From the Roman countryside estates to Palladio's symmetrical masterpieces and the glass-box experiments of the mid-twentieth century, each era has redefined what it means to dwell well on a single plot of land. Today, the modern villa faces a new set of pressures: rising land costs, climate uncertainty, the permanent arrival of remote work, and homeowners who expect their houses to function as offices, gyms, retreats, and entertainment venues simultaneously.</p>

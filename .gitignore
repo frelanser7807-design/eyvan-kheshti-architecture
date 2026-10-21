@@ -58,3 +58,6 @@ public/assets/film/chapters/05-presentation-room-clean.mp4
 
 # Local Netlify folder
 .netlify
+
+# Reproducible 4K mineral maps are generated during the build.
+/public/assets/material-studio/mineral/

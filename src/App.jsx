@@ -1,11 +1,13 @@
 import { lazy, Suspense, useEffect, useState } from 'react';
-import CinematicSite from './components/CinematicSite.jsx';
+const CinematicSite = lazy(() => import('./components/CinematicSite.jsx'));
 
 import SiteSeo from './components/SiteSeo.jsx';
-import MaterialCollections from './components/MaterialCollections.jsx';
-import MaterialLibraryPage from './components/MaterialLibraryPage.jsx';
+const MaterialCollections = lazy(() => import('./components/MaterialCollections.jsx'));
+const MaterialLibraryPage = lazy(() => import('./components/MaterialLibraryPage.jsx'));
 import { materialBySlug } from './data/materialLibrary.js';
 import { collectionRoute, collectionProducts } from './data/materialCollections.js';
+import { mineralByPath } from './data/mineralMaterials.js';
+const MineralMaterialPanel = lazy(() => import('./components/MineralMaterialPanel.jsx'));
 const AdminPanel = lazy(() => import('./components/AdminPanel.jsx'));
 const CommandCenter = lazy(() => import('./components/CommandCenter.jsx'));
 const MaterialStudioPage = lazy(() => import('./components/FlutedMaterialPilot.jsx'));
@@ -13,23 +15,23 @@ const TravertinePanel = lazy(() => import('./components/TravertinePanel.jsx'));
 const CeramicPorcelainPanel = lazy(() => import('./components/CeramicPorcelainPanel.jsx'));
 import ErrorBoundary from './components/ErrorBoundary.jsx';
 import LegalPage, { legalPageForPath } from './components/LegalPage.jsx';
-import ArticleReader from './components/ArticleReader.jsx';
-import MagazineReader from './components/MagazineReader.jsx';
-import MagazineHub from './components/MagazineHub.jsx';
-import ProductPage from './components/ProductPage.jsx';
+const ArticleReader = lazy(() => import('./components/ArticleReader.jsx'));
+const MagazineReader = lazy(() => import('./components/MagazineReader.jsx'));
+const MagazineHub = lazy(() => import('./components/MagazineHub.jsx'));
+const ProductPage = lazy(() => import('./components/ProductPage.jsx'));
 
-import PromptLibrary from './components/PromptLibrary.jsx';
-import PromptDetail from './components/PromptDetail.jsx';
-import NewsletterPage from './components/NewsletterPage.jsx';
+const PromptLibrary = lazy(() => import('./components/PromptLibrary.jsx'));
+const PromptDetail = lazy(() => import('./components/PromptDetail.jsx'));
+const NewsletterPage = lazy(() => import('./components/NewsletterPage.jsx'));
 import AnalyticsConsent from './components/AnalyticsConsent.jsx';
-import CustomPlanDesignPage from './components/CustomPlanDesignPage.jsx';
-import ProjectsHub from './components/ProjectsHub.jsx';
-import ContactPage from './components/ContactPage.jsx';
-import AboutPage from './components/AboutPage.jsx';
-import ProjectDetail from './components/ProjectDetail.jsx';
-import VideoLibrary from './components/VideoLibrary.jsx';
-import DesignServicesPage from './components/DesignServicesPage.jsx';
-import AtlasVillaCaseStudy from './components/AtlasVillaCaseStudy.jsx';
+const CustomPlanDesignPage = lazy(() => import('./components/CustomPlanDesignPage.jsx'));
+const ProjectsHub = lazy(() => import('./components/ProjectsHub.jsx'));
+const ContactPage = lazy(() => import('./components/ContactPage.jsx'));
+const AboutPage = lazy(() => import('./components/AboutPage.jsx'));
+const ProjectDetail = lazy(() => import('./components/ProjectDetail.jsx'));
+const VideoLibrary = lazy(() => import('./components/VideoLibrary.jsx'));
+const DesignServicesPage = lazy(() => import('./components/DesignServicesPage.jsx'));
+const AtlasVillaCaseStudy = lazy(() => import('./components/AtlasVillaCaseStudy.jsx'));
 import { defaultContent } from './data/defaultContent.js';
 import { articleBySlug } from './data/articles.js';
 import { magazineBySlug } from './data/magazines.js';
@@ -71,6 +73,8 @@ function currentRoute() {
   if (normalizedPath === '/materials/stone/ceramic-porcelain/porcelain-stoneware/') return { name: 'ceramic-studio' };
   if (normalizedPath === '/material-studio/' || normalizedPath === collectionProducts[0].path) return { name: 'material-studio' };
   if (normalizedPath === '/materials/') return { name: 'material-library' };
+  const mineral = mineralByPath(normalizedPath);
+  if (mineral) return { name: 'mineral-studio', item: mineral };
   if (normalizedPath === '/materials/samples/') return { name: 'material-samples' };
   const materialCollection = collectionRoute(normalizedPath);
   if (materialCollection) return materialCollection;
@@ -168,6 +172,7 @@ export default function App() {
   if (route.name === 'about') page = <AboutPage />;
   if (route.name === 'material-library' || route.name === 'material-collection') page = <MaterialCollections category={route.category} type={route.type} />;
   if (route.name === 'material-samples') page = <MaterialLibraryPage />;
+  if (route.name === 'mineral-studio') page = <Suspense fallback={<main>Loading material studio…</main>}><MineralMaterialPanel material={route.item} /></Suspense>;
   if (route.name === 'material-product') page = route.item ? <MaterialLibraryPage material={route.item} /> : <NotFoundPage />;
   if (route.name === 'material-studio') page = <Suspense fallback={<main>Loading material collection…</main>}><MaterialStudioPage /></Suspense>;
   if (route.name === 'travertine-studio') page = <Suspense fallback={<main>Loading travertine collection…</main>}><TravertinePanel /></Suspense>;
@@ -197,5 +202,5 @@ export default function App() {
   if (route.name === 'prompt') page = route.item ? <PromptDetail item={route.item} /> : <ProductPage missing />;
   if (route.name === 'not-found') page = <NotFoundPage />;
 
-  return <ErrorBoundary><SiteSeo content={content} route={resolvedRoute} />{page}<AnalyticsConsent /></ErrorBoundary>;
+  return <ErrorBoundary><SiteSeo content={content} route={resolvedRoute} /><Suspense fallback={<main className="seo-route-fallback"><p>Loading World Arch Journal…</p></main>}>{page}</Suspense><AnalyticsConsent /></ErrorBoundary>;
 }
