@@ -45,6 +45,12 @@ def chunk(out, kind, data):
     out.write(struct.pack('>I', len(data)) + kind + data + struct.pack('>I', zlib.crc32(kind + data) & 0xffffffff))
 
 def tiled_png(source, target, name):
+    record_path = target / f'{name}.json'
+    source_hash = hashlib.sha256(source.read_bytes()).hexdigest()
+    if record_path.exists():
+        cached = json.loads(record_path.read_text())
+        if cached.get('source_sha256') == source_hash and all((PUBLIC / part['url'].lstrip('/')).exists() and hashlib.sha256((PUBLIC / part['url'].lstrip('/')).read_bytes()).hexdigest() == part['sha256'] for part in cached['parts']):
+            return cached
     with Image.open(source) as image:
         if image.mode in ('I;16', 'I;16B', 'I'):
             pixels = np.asarray(image, dtype='>u2')
@@ -69,7 +75,13 @@ def tiled_png(source, target, name):
         previous = row
     chunk(out, b'IDAT', compressor.flush())
     chunk(out, b'IEND', b'')
-    return out.finish()
+    record = {**out.finish(), 'source_sha256': source_hash}
+    record_path.write_text(json.dumps(record, indent=2))
+    return record
+
+for source in ROOT.glob('*/*/*.png'):
+    with Image.open(source) as check:
+        check.verify()
 
 for family in ('exposed-concrete', 'microcement'):
     folder = ROOT / family

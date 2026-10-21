@@ -16,6 +16,13 @@ FAMILIES = {
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
+def save_png(image, path):
+    temporary = path.with_suffix('.png.tmp')
+    image.save(temporary, format='PNG')
+    with Image.open(temporary) as check:
+        check.load()
+    temporary.replace(path)
+
 def generate(family, finishes, seed):
     folder = ROOT / family
     shared = folder / 'shared'
@@ -44,10 +51,10 @@ def generate(family, finishes, seed):
     hy = (np.roll(height, -1, 0) - np.roll(height, 1, 0)) * 5
     length = np.sqrt(hx * hx + hy * hy + 1)
     normal = np.stack((-hx / length, hy / length, 1 / length), axis=-1)
-    Image.fromarray(np.uint8(np.clip((normal * .5 + .5) * 255, 0, 255))).save(shared / 'normal-opengl-4k.png')
+    save_png(Image.fromarray(np.uint8(np.clip((normal * .5 + .5) * 255, 0, 255))), shared / 'normal-opengl-4k.png')
     roughness = np.uint8(np.clip((.78 if family == 'exposed-concrete' else .62) + field * .07 + grain * .015, 0, 1) * 255)
-    Image.fromarray(roughness).save(shared / 'roughness-4k.png')
-    Image.fromarray(np.uint16(np.round(np.clip(height + .5, 0, 1) * 8191) * 8)).save(shared / 'height-4k.png')
+    save_png(Image.fromarray(roughness), shared / 'roughness-4k.png')
+    save_png(Image.fromarray(np.uint16(np.round(np.clip(height + .5, 0, 1) * 8191) * 8)), shared / 'height-4k.png')
     # A small GPU preview avoids uploading 4K textures to mobile just to browse.
     for filename in ['normal-opengl', 'roughness']:
         with Image.open(shared / f'{filename}-4k.png') as im:
@@ -58,7 +65,7 @@ def generate(family, finishes, seed):
         variation = field * 10 + grain * 1.6 + height * 18
         color = np.uint8(np.clip(np.array(rgb, dtype=np.float32)[None,None,:] + variation[:,:,None], 0, 255))
         image = Image.fromarray(color)
-        image.save(target / 'basecolor-4k.png')
+        save_png(image, target / 'basecolor-4k.png')
         image.resize((1024,1024), Image.Resampling.LANCZOS).save(target / 'preview.webp', quality=88)
         files = {'basecolor-4k.png': target / 'basecolor-4k.png', **{name: shared / name for name in ['normal-opengl-4k.png','roughness-4k.png','height-4k.png']}}
         manifest = {'family': family, 'finish': finish, 'resolution': [4096,4096], 'repeat_mm': [1200,1200], 'normal_convention': 'OpenGL', 'height': '16-bit relative displacement; choose strength for the scene', 'provenance': 'Original World Arch Journal procedural visualisation study; not a physical product or scan.', 'license': 'Free for personal and commercial visualisation; do not resell the maps as a standalone texture pack.', 'files': [{'name': name, 'url': '/' + str(p.relative_to(ROOT.parents[2])), 'sha256': digest(p)} for name,p in files.items()]}
