@@ -3,7 +3,7 @@ import * as THREE from 'three';
 import './MaterialSurfaceViewer.css';
 
 const ROOT='/assets/material-studio/brick/';
-export default function StoneSurfaceViewer({finish}) {
+export default function BrickSurfaceViewer({finish}) {
   const host=useRef(null), engine=useRef(null);
   const [angle,setAngle]=useState(-45),[power,setPower]=useState(3),[shape,setShape]=useState('sphere');
   const [ready,setReady]=useState(false),[error,setError]=useState(''),[saving,setSaving]=useState(false);
@@ -31,7 +31,7 @@ export default function StoneSurfaceViewer({finish}) {
   useEffect(()=>{
     const e=engine.current;if(!e)return;let cancelled=false;setReady(false);setError('');
     const loader=new THREE.TextureLoader(),loaded=[];
-    Promise.all([`${ROOT}${finish.id}/basecolor-4k.png`,`${ROOT}shared/normal-opengl-4k.png`,`${ROOT}shared/roughness-4k.png`].map(url=>loader.loadAsync(url).then(t=>{loaded.push(t);return t;}))).then(([color,normal,roughness])=>{
+    Promise.all([`${ROOT}${finish.id}/display.webp`,`${ROOT}shared/normal-opengl-display.png`,`${ROOT}shared/roughness-display.png`].map(url=>loader.loadAsync(url).then(t=>{loaded.push(t);return t;}))).then(([color,normal,roughness])=>{
       if(cancelled){loaded.forEach(t=>t.dispose());return;}
       color.colorSpace=THREE.SRGBColorSpace;
       for(const texture of loaded){texture.wrapS=texture.wrapT=THREE.RepeatWrapping;texture.anisotropy=Math.min(8,e.renderer.capabilities.getMaxAnisotropy());}
@@ -56,7 +56,7 @@ export default function StoneSurfaceViewer({finish}) {
     <label>Light direction <output>{angle}°</output><input aria-label="Light direction" type="range" min="-180" max="180" step="1" value={angle} onChange={e=>setAngle(Number(e.target.value))}/></label>
     <label>Light intensity <output>{power.toFixed(1)}</output><input aria-label="Light intensity" type="range" min="0" max="6" step=".1" value={power} onChange={e=>setPower(Number(e.target.value))}/></label>
     <div className="fp-viewer-actions"><button type="button" onClick={()=>{setAngle(-45);setPower(3);}}>Reset light</button><button type="button" disabled={!ready||saving} onClick={save}>{saving?'Rendering…':`Download ${shape} PNG · 4K ↓`}</button></div>
-    <small>Lighting adjusts this material preview. The three facade studies retain their original lighting.</small>
+    <small>Lightweight 1K display maps keep this viewer responsive. The ZIP contains original 4K maps. A 4K PNG export is a rendered preview, not a texture map.</small>
   </section>;
 }
 

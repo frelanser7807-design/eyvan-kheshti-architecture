@@ -8,7 +8,7 @@ export const brickFinishes=[
  {id:'charcoal',name:'Charcoal blue',rgb:[78,76,84]},
 ];
 export const brickScenes=[
- {id:'villa',name:'The garden villa',surface:'Main garden facade',mask:'M56 0H1147V1022H56Z M169 148H320V504H169Z M470 148H592V504H470Z M800 623H930V1018H800Z'},
- {id:'entrance',name:'The urban entrance',surface:'Street entrance facade',mask:'M0 0H1254V1147H0Z M25 6H115V1109H25Z M1051 6H1144V1106H1051Z M414 690H712V1118H414Z'},
- {id:'courtyard',name:'The courtyard pavilion',surface:'Courtyard-facing brick wall',mask:'M31 0H1166V1085H31Z M420 385H708V1041H420Z'},
+ {id:'villa',name:'The garden villa',surface:'Upper-storey masonry color study',mask:'M109 143H1136V530H109Z M208 231H446V500H208Z M596 231H714V500H596Z M852 231H1071V500H852Z'},
+ {id:'entrance',name:'The urban entrance',surface:'Upper entrance masonry color study',mask:'M0 0H1240V550H0Z M147 278H296V550H147Z M958 278H1106V550H958Z M465 359H790V550H465Z'},
+ {id:'courtyard',name:'The courtyard pavilion',surface:'Central brick frieze color study',mask:'M345 96H1080V326H345Z'},
 ];
