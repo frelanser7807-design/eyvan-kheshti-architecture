@@ -24,7 +24,7 @@ const apartmentCrossVentilation = {
     ['audit', 'A 20-minute drawing audit'],
   ],
   contentHtml: `
-    <p><strong>Cross ventilation is a route, not a window count.</strong> Outdoor air must enter through a usable opening, pass through occupied space and leave through another opening under a pressure difference. If a closed bedroom door, deep internal corridor or sealed façade interrupts that route, two attractive windows may still produce weak ventilation.</p>
+    <p><strong>Cross ventilation is a route, not a window count.</strong> Outdoor air must enter through a usable opening, pass through occupied space and leave through another opening under a pressure difference. If a closed bedroom door, deep internal corridor or sealed façade interrupts that route, two attractive windows may still produce weak ventilation. When the route does work, the home also gains the moving air, scent and seasonal sound that <a href="/articles/biophilic-design-architecture-wellbeing/">biophilic design architects</a> treat as materials in their own right.</p>
     <p>This guide turns the principle into nine apartment-design moves. It is international editorial guidance, not a code shortcut or a promise of comfort. Wind, temperature, humidity, outdoor air quality, noise, fire safety, security and occupant behaviour all change the result. A real project needs local regulations and project-specific environmental analysis.</p>
 
     <h2 id="definition">What cross ventilation really means</h2>
