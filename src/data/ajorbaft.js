@@ -4,7 +4,7 @@ export const ajorbaft = {
   path: '/projects/ajorbaft/',
   cover: '/assets/projects/ajorbaft/exterior-night.jpg',
   description: 'A residential design presentation exploring red-brick screens, planted outdoor rooms and warm interior spaces. Discover the Ajorbaft triplex residence through selected exterior views, a courtyard sequence and an interior presentation board.',
-  role: 'Project presentation supplied by Farnaz Ghaffarian',
+  role: 'Project presentation · WORLD ARCH JOURNAL',
   tags: ['RESIDENTIAL DESIGN', 'BRICK FACADE', 'COURTYARD', 'INTERIOR SPACES'],
   images: [
     { src: '/assets/projects/ajorbaft/courtyard.jpg', alt: 'Ajorbaft brick-lined courtyard with timber decking, planting and glazed roof panels', caption: 'COURTYARD · LIGHT AND PLANTING' },
