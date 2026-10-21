@@ -36,6 +36,10 @@
 .wj-magazine-card-image picture, .wj-magazine-card-image img { display: block; width: 100%; height: 100%; }
 .wj-magazine-card-image img { object-fit: cover; transition: transform .5s ease; }
 .wj-magazine-card-image:hover img { transform: scale(1.025); }
+.wj-magazine-card-image.has-cover { position: relative; background: #20211f; }
+.wj-magazine-card-image.has-cover .wj-magazine-card-backdrop { position: absolute; inset: 0; object-fit: cover; filter: blur(26px) brightness(.7) saturate(1.05); transform: scale(1.25); }
+.wj-magazine-card-image.has-cover:hover .wj-magazine-card-backdrop { transform: scale(1.25); }
+.wj-magazine-card-image.has-cover .wj-magazine-card-cover { position: relative; object-fit: contain; }
 .wj-magazine-card.is-featured { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(320px, .65fr); border-bottom: 1px solid var(--wj-line); }
 .wj-magazine-card.is-featured .wj-magazine-card-image { min-height: 480px; aspect-ratio: 1.48; }
 .wj-magazine-card-copy { min-width: 0; }
@@ -47,7 +51,7 @@
 .wj-magazine-card-foot { display: flex; justify-content: space-between; gap: 18px; align-items: end; margin-top: auto; padding-top: 35px; color: #757971; font-size: .61rem; }
 .wj-magazine-card-foot a { border-bottom: 1px solid var(--wj-ink); padding-bottom: 5px; color: var(--wj-ink); white-space: nowrap; }
 .wj-magazine-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; margin: 34px 0 0; }
-.wj-magazine-grid .wj-magazine-card-image { aspect-ratio: 1.54; }
+.wj-magazine-grid .wj-magazine-card-image { aspect-ratio: 4 / 5; }
 .wj-magazine-grid .wj-magazine-card-copy { padding: 24px 0 32px; border-bottom: 1px solid var(--wj-line); }
 .wj-magazine-grid .wj-magazine-card h2 { max-width: 17ch; font-size: clamp(2rem, 3vw, 3.15rem); }
 .wj-magazine-grid .wj-magazine-card p { max-width: 58ch; }

@@ -10,6 +10,10 @@ const modernVillaReimagined = {
   excerpt: 'Seven evidence-led design principles that separate a thoughtfully designed modern villa from an expensive one — from daylight strategy and material honesty to energy performance and the choreography of arrival.',
   image: '/assets/articles/modern-villa-reimagined/villa-cover.jpg',
   imageAlt: 'Modern villa exterior with clean lines and natural materials',
+  cover: '/assets/articles/modern-villa-reimagined-7-design-principles/cover.webp',
+  coverAlt: 'World Arch Journal cover: Modern Villa Reimagined, 7 design principles — timeless homes for a better way of living, a stone and glass villa with a pool at dusk',
+  coverWidth: 800,
+  coverHeight: 1200,
   publishedAt: '2026-10-11',
   modifiedAt: '2026-10-11',
   contentHtml: `

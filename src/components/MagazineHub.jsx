@@ -7,11 +7,18 @@ import './MagazineHub.css';
 function ArticleCard({ article, featured = false }) {
   return (
     <article className={`wj-magazine-card${featured ? ' is-featured' : ''}`}>
-      <a className="wj-magazine-card-image" href={`/articles/${article.slug}/`} aria-label={`Read ${article.title}`}>
-        <picture>
-          {article.imageWebp && <source srcSet={assetUrl(article.imageWebp)} type="image/webp" />}
-          <img src={assetUrl(article.image)} alt={article.imageAlt} loading={featured ? 'eager' : 'lazy'} decoding="async" width={article.imageWidth || 1600} height={article.imageHeight || 900} />
-        </picture>
+      <a className={`wj-magazine-card-image${article.cover ? ' has-cover' : ''}`} href={`/articles/${article.slug}/`} aria-label={`Read ${article.title}`}>
+        {article.cover ? (
+          <>
+            <img className="wj-magazine-card-backdrop" src={assetUrl(article.cover)} alt="" aria-hidden="true" loading="lazy" decoding="async" />
+            <img className="wj-magazine-card-cover" src={assetUrl(article.cover)} alt={article.coverAlt || article.imageAlt} loading={featured ? 'eager' : 'lazy'} decoding="async" width={article.coverWidth || 900} height={article.coverHeight || 1350} />
+          </>
+        ) : (
+          <picture>
+            {article.imageWebp && <source srcSet={assetUrl(article.imageWebp)} type="image/webp" />}
+            <img src={assetUrl(article.image)} alt={article.imageAlt} loading={featured ? 'eager' : 'lazy'} decoding="async" width={article.imageWidth || 1600} height={article.imageHeight || 900} />
+          </picture>
+        )}
       </a>
       <div className="wj-magazine-card-copy">
         <span className="wj-magazine-kicker">{article.category}</span>
