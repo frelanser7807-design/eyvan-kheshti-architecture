@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import './MaterialSurfaceViewer.css';
 
-const ROOT='/assets/material-studio/travertine/';
-export default function StoneSurfaceViewer({finish}) {
+export default function StoneSurfaceViewer({finish,root='/assets/material-studio/travertine/',filePrefix='waj-travertine',sceneNoun='facade'}) {
+  const ROOT=root;
   const host=useRef(null), engine=useRef(null);
   const [angle,setAngle]=useState(-45),[power,setPower]=useState(3),[shape,setShape]=useState('sphere');
   const [ready,setReady]=useState(false),[error,setError]=useState(''),[saving,setSaving]=useState(false);
@@ -45,7 +45,7 @@ export default function StoneSurfaceViewer({finish}) {
     const e=engine.current;if(!e||!ready||saving)return;setSaving(true);
     try{
       const previousRatio=e.renderer.getPixelRatio();e.renderer.setPixelRatio(1);e.renderer.setSize(4096,4096,false);e.draw();
-      e.renderer.domElement.toBlob(blob=>{if(blob){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`waj-travertine-${finish.id}-${shape}-4k.png`;a.click();setTimeout(()=>URL.revokeObjectURL(url),30000);}else setError('The preview export failed. Please try again.');setSaving(false);},'image/png');
+      e.renderer.domElement.toBlob(blob=>{if(blob){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`${filePrefix}-${finish.id}-${shape}-4k.png`;a.click();setTimeout(()=>URL.revokeObjectURL(url),30000);}else setError('The preview export failed. Please try again.');setSaving(false);},'image/png');
       e.renderer.setPixelRatio(previousRatio);e.resize();
     }catch{setSaving(false);setError('This device could not export a 4K preview. Material map downloads are still available.');e.resize();}
   };
@@ -56,7 +56,7 @@ export default function StoneSurfaceViewer({finish}) {
     <label>Light direction <output>{angle}°</output><input aria-label="Light direction" type="range" min="-180" max="180" step="1" value={angle} onChange={e=>setAngle(Number(e.target.value))}/></label>
     <label>Light intensity <output>{power.toFixed(1)}</output><input aria-label="Light intensity" type="range" min="0" max="6" step=".1" value={power} onChange={e=>setPower(Number(e.target.value))}/></label>
     <div className="fp-viewer-actions"><button type="button" onClick={()=>{setAngle(-45);setPower(3);}}>Reset light</button><button type="button" disabled={!ready||saving} onClick={save}>{saving?'Rendering…':`Download ${shape} PNG · 4K ↓`}</button></div>
-    <small>Lighting adjusts this material preview. The three facade studies retain their original lighting.</small>
+    <small>Lighting adjusts this material preview. The three {sceneNoun} studies retain their original lighting.</small>
   </section>;
 }
 
