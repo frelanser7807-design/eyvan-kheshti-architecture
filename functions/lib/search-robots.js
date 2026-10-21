@@ -1,0 +1,2 @@
+// Shared by the build and Worker so robots.txt cannot drift between serving paths.
+export const searchRobots = "User-agent: *\nAllow: /\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: ChatGPT-User\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\nUser-agent: Perplexity-User\nAllow: /\n\nSitemap: https://worldarchjournal.com/sitemap.xml\nSitemap: https://worldarchjournal.com/article-sitemap.xml\nSitemap: https://worldarchjournal.com/video-sitemap.xml\nSitemap: https://worldarchjournal.com/atlas-sitemap.xml\nSitemap: https://worldarchjournal.com/news-sitemap.xml\n";

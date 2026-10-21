@@ -2,6 +2,17 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import worker from '../functions/newsletter-worker.js';
 import { canonicalRedirect } from '../functions/lib/site-host.js';
+import { searchRobots } from '../functions/lib/search-robots.js';
+
+test('the production Worker serves explicit search permissions without depending on assets', async () => {
+  const response = await worker.fetch(new Request('https://worldarchjournal.com/robots.txt'), {});
+  assert.equal(response.status, 200);
+  assert.equal(await response.text(), searchRobots);
+  assert.match(searchRobots, /User-agent: OAI-SearchBot\nAllow: \//);
+  assert.match(searchRobots, /User-agent: ChatGPT-User\nAllow: \//);
+  const head = await worker.fetch(new Request('https://worldarchjournal.com/robots.txt', { method: 'HEAD' }), {});
+  assert.equal(await head.text(), '');
+});
 
 test('production aliases redirect permanently to the same page and query on .com', () => {
   for (const host of ['www.worldarchjournal.com', 'world-arch-journal.pages.dev', 'world-arch-journal-by-farnaz.netlify.app']) {

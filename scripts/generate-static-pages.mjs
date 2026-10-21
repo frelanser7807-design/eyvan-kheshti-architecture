@@ -1,3 +1,4 @@
+import { searchRobots } from '../functions/lib/search-robots.js';
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import { emitMaterialCollections, materialCollectionSitemap } from './material-collection-pages.mjs';
 import path from 'node:path';
@@ -507,7 +508,7 @@ await writeFile(path.join(dist, 'atlas-sitemap.xml'), atlasSitemap, 'utf8');
 await writeFile(path.join(dist, 'article-sitemap.xml'), articleSitemap, 'utf8');
 await writeFile(path.join(dist, 'video-sitemap.xml'), videoSitemap, 'utf8');
 await writeFile(path.join(dist, 'news-sitemap.xml'), newsSitemap, 'utf8');
-await writeFile(path.join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: ChatGPT-User\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\nUser-agent: Perplexity-User\nAllow: /\n\nSitemap: ${siteUrl}/sitemap.xml\nSitemap: ${siteUrl}/article-sitemap.xml\nSitemap: ${siteUrl}/video-sitemap.xml\nSitemap: ${siteUrl}/atlas-sitemap.xml\nSitemap: ${siteUrl}/news-sitemap.xml\n`, 'utf8');
+await writeFile(path.join(dist, 'robots.txt'), searchRobots, 'utf8');
 await writeFile(path.join(dist, 'rss.xml'), createArticleRss(articles), 'utf8');
 await injectArticleFeedLinks(dist);
 await injectStaticAnalytics(dist);
