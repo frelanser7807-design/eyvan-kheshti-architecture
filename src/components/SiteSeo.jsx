@@ -127,6 +127,10 @@ export default function SiteSeo({ content, route }) {
       title = `Travertine · 5 Colors & 4K PBR Maps | ${name}`;
       description = 'Compare five travertine color studies across three exterior facades. Explore surface lighting and download original 4K PBR maps.';
       image = absoluteAsset(siteUrl, '/assets/material-studio/travertine/scenes/villa.png');
+    } else if (route?.name === 'ceramic-studio') {
+      title = `Porcelain Stoneware · 5 Finishes & 4K PBR Maps | ${name}`;
+      description = 'Compare five porcelain stoneware finish studies across a kitchen, bathroom and living room. Explore surface lighting and download original 4K PBR maps.';
+      image = absoluteAsset(siteUrl, '/assets/material-studio/ceramic-porcelain/scenes/kitchen.png');
     } else if (route?.name === 'material-studio') {
       title = `Fluted Wood · 7 Finishes & 4K PBR Maps | ${name}`;
       description = collectionProducts[0].description;
@@ -244,7 +248,9 @@ export default function SiteSeo({ content, route }) {
       serviceType: (content?.services || []).map((service) => service.title),
     };
 
-    if (route?.name === 'travertine-studio') {
+    if (route?.name === 'ceramic-studio') {
+      structuredData = {'@context':'https://schema.org','@type':'CreativeWork',name:'Porcelain stoneware',description,url:canonicalUrl};
+    } else if (route?.name === 'travertine-studio') {
       structuredData = {'@context':'https://schema.org','@type':'CreativeWork',name:'Vein-cut travertine',description,url:canonicalUrl};
     } else if (route?.name === 'material-studio') {
       structuredData = { '@context':'https://schema.org', '@type':'CreativeWork', name:'Original fluted wood', description, url:canonicalUrl, isPartOf:{'@type':'CollectionPage',url:`${siteUrl}/materials/`} };
