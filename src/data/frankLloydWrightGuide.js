@@ -13,7 +13,7 @@ export default {
   "imageWidth": 1440,
   "imageHeight": 945,
   "imageAlt": "Fallingwater by Frank Lloyd Wright, its concrete terraces cantilevered over the waterfall at Bear Run, Pennsylvania",
-  "visualLabel": "FIG. 01 · FALLINGWATER (1935–39), BEAR RUN, PENNSYLVANIA · PHOTO: CAROL M. HIGHSMITH / WIKIMEDIA COMMONS, PUBLIC DOMAIN · RESIZED.",
+  "visualLabel": "FIG. 01 · FALLINGWATER (1935–39), BEAR RUN, PENNSYLVANIA · PHOTO: CAROL M. HIGHSMITH / WIKIMEDIA COMMONS, PUBLIC DOMAIN · RESIZED. Source: \"Fallingwater 2007\" by Carol M. Highsmith, via Wikimedia Commons — Public domain.",
   "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fallingwater_2007.jpg",
   "publishedAt": "2026-10-21",
   "modifiedAt": "2026-10-21",
@@ -87,7 +87,7 @@ export default {
     {
       "src": "/assets/articles/frank-lloyd-wright-organic-architecture-guide/wright-portrait.jpg",
       "alt": "Black-and-white portrait photograph of Frank Lloyd Wright in later life, wearing a suit and tie",
-      "caption": "Frank Lloyd Wright in 1954, five years before his death — by then the most famous architect in America. \"Frank Lloyd Wright portrait\" by New York World-Telegram and the Sun staff photographer Al Ravenna, public domain, via Wikimedia Commons",
+      "caption": "Frank Lloyd Wright in 1954, five years before his death — by then the most famous architect in America. Source: \"Frank Lloyd Wright portrait\" by Al Ravenna (New York World-Telegram and the Sun), via Wikimedia Commons — Public domain.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_portrait.jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 0,
@@ -98,7 +98,7 @@ export default {
     {
       "src": "/assets/articles/frank-lloyd-wright-organic-architecture-guide/home-and-studio-oak-park.jpg",
       "alt": "Frank Lloyd Wright's Home and Studio in Oak Park, Illinois, with dark shingled walls and the studio entrance",
-      "caption": "The Home and Studio in Oak Park (begun 1889), Wright's first laboratory for the open plan and the integrated interior. \"Frank Lloyd Wright – Oak Park, IL – Home and Studio (6)\" by Bmzuckerman, CC BY 4.0, via Wikimedia Commons",
+      "caption": "The Home and Studio in Oak Park (begun 1889), Wright's first laboratory for the open plan and the integrated interior. Source: \"Frank Lloyd Wright - Oak Park, IL - Home and Studio (6)\" by Bmzuckerman, via Wikimedia Commons — CC BY 4.0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_-_Oak_Park,_IL_-_Home_and_Studio_(6).jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 1,
@@ -109,7 +109,7 @@ export default {
     {
       "src": "/assets/articles/frank-lloyd-wright-organic-architecture-guide/robie-house-exterior.jpg",
       "alt": "The Robie House in Chicago, showing its long horizontal brick volumes and dramatically cantilevered roof",
-      "caption": "The Frederick C. Robie House, Chicago (1909–10) — the Prairie masterpiece, its living level floating on hidden steel. \"Frederick C. Robie House, Chicago, IL\" by w_lemay, CC BY-SA 2.0, via Wikimedia Commons",
+      "caption": "The Frederick C. Robie House, Chicago (1909–10) — the Prairie masterpiece, its living level floating on hidden steel. Source: \"Frederick C. Robie House, Woodlawn Avenue and 58th Street, Hyde Park, Chicago, IL - 54214023795\" by w_lemay, via Wikimedia Commons — CC BY-SA 2.0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frederick_C._Robie_House,_Woodlawn_Avenue_and_58th_Street,_Hyde_Park,_Chicago,_IL_-_54214023795.jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 2,
@@ -120,7 +120,7 @@ export default {
     {
       "src": "/assets/articles/frank-lloyd-wright-organic-architecture-guide/unity-temple-exterior.jpg",
       "alt": "Unity Temple in Oak Park, a monumental cubist building of exposed concrete",
-      "caption": "Unity Temple, Oak Park (1905–08): poured concrete turned into monumental modern composition on a small budget. \"Oak Park Il Unity Temple9\" by IvoShandor, CC BY 2.5, via Wikimedia Commons",
+      "caption": "Unity Temple, Oak Park (1905–08): poured concrete turned into monumental modern composition on a small budget. Source: \"Oak Park Il Unity Temple9\" by IvoShandor, via Wikimedia Commons — CC BY 2.5.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oak_Park_Il_Unity_Temple9.jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 2,
@@ -131,7 +131,7 @@ export default {
     {
       "src": "/assets/articles/frank-lloyd-wright-organic-architecture-guide/fallingwater-living-room.jpg",
       "alt": "Fallingwater's living room, with stone walls, a broad window wall and built-in seating",
-      "caption": "Inside Fallingwater: stone quarried on site, warm wood and glass corners that dissolve the wall between room and forest. \"Fallingwater interior\" by Eritak, CC BY-SA 3.0, via Wikimedia Commons",
+      "caption": "Inside Fallingwater: stone quarried on site, warm wood and glass corners that dissolve the wall between room and forest. Source: \"Fallingwater interior\" by Eritak, via Wikimedia Commons — CC BY-SA 3.0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fallingwater_interior.JPG",
       "sourceLabel": "Source and licence",
       "afterSection": 3,
@@ -142,7 +142,7 @@ export default {
     {
       "src": "/assets/articles/frank-lloyd-wright-organic-architecture-guide/jacobs-house-usonian.jpg",
       "alt": "The Jacobs House in Madison, Wisconsin, a low brick Usonian house with a carport under a shallow roof",
-      "caption": "Jacobs House I, Madison (1936–37) — the first Usonian house, built for about $5,500 with slab heating and a carport. \"Herbert and Katherine Jacobs House I, Madison, WI\" by w_lemay, CC BY-SA 2.0, via Wikimedia Commons",
+      "caption": "Jacobs House I, Madison (1936–37) — the first Usonian house, built for about $5,500 with slab heating and a carport. Source: \"Herbert and Katherine Jacobs House I, Toepfer Avenue and Birch Avenue, Westmorland, Madison, WI - 52788026764\" by w_lemay, via Wikimedia Commons — CC BY-SA 2.0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Herbert_and_Katherine_Jacobs_House_I,_Toepfer_Avenue_and_Birch_Avenue,_Westmorland,_Madison,_WI_-_52788026764.jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 4,
@@ -153,7 +153,7 @@ export default {
     {
       "src": "/assets/articles/frank-lloyd-wright-organic-architecture-guide/pope-leighey-house.jpg",
       "alt": "The Pope–Leighey House, a small brick Usonian house photographed for the Historic American Buildings Survey",
-      "caption": "The Pope–Leighey House (1939–41), now at Woodlawn, Virginia — Usonian economy refined into elegance. \"Pope-Leighey House – North east facade\" by HABS (photographer unknown), public domain, via Wikimedia Commons",
+      "caption": "The Pope–Leighey House (1939–41), now at Woodlawn, Virginia — Usonian economy refined into elegance. Source: \"Pope-Leighey House - North east facade - HABS VA,30-FALCH,2-10\" by HABS (photographer unknown), via Wikimedia Commons — Public domain.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pope-Leighey_House_-_North_east_facade_-_HABS_VA,30-FALCH,2-10.jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 4,
@@ -164,7 +164,7 @@ export default {
     {
       "src": "/assets/articles/frank-lloyd-wright-organic-architecture-guide/guggenheim-exterior.jpg",
       "alt": "The Solomon R. Guggenheim Museum in New York, its white concrete spiral rising above Fifth Avenue",
-      "caption": "The Solomon R. Guggenheim Museum, New York (1943–59) — the inverted ziggurat that made the museum a sculpture. \"Frank Lloyd Wright – New York, NY – Solomon R. Guggenheim Museum (A)\" by Bmzuckerman, CC BY 4.0, via Wikimedia Commons",
+      "caption": "The Solomon R. Guggenheim Museum, New York (1943–59) — the inverted ziggurat that made the museum a sculpture. Source: \"Frank Lloyd Wright - New York, NY - Solomon R. Guggenheim Museum (A)\" by Bmzuckerman, via Wikimedia Commons — CC BY 4.0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_-_New_York,_NY_-_Solomon_R._Guggenheim_Museum_(A).jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 5,
@@ -175,7 +175,7 @@ export default {
     {
       "src": "/assets/articles/frank-lloyd-wright-organic-architecture-guide/guggenheim-ramp-interior.jpg",
       "alt": "Inside the Guggenheim Museum, looking across the stacked curves of the continuous exhibition ramp",
-      "caption": "The Guggenheim's rotunda: one continuous ramp from skylight to ground floor, art on the slope, space in the middle. \"Solomon-R-Guggenheim-Museum-Levels\" by Evan-Amos, public domain, via Wikimedia Commons",
+      "caption": "The Guggenheim's rotunda: one continuous ramp from skylight to ground floor, art on the slope, space in the middle. Source: \"Solomon-R-Guggenheim-Museum-Levels\" by Evan-Amos, via Wikimedia Commons — Public domain.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Solomon-R-Guggenheim-Museum-Levels.jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 5,
@@ -186,7 +186,7 @@ export default {
     {
       "src": "/assets/articles/frank-lloyd-wright-organic-architecture-guide/taliesin-exterior.jpg",
       "alt": "Taliesin in Wisconsin, low stone and plaster wings wrapping around the brow of a green hill",
-      "caption": "Taliesin, Spring Green, Wisconsin (begun 1911) — home, studio and school composed along the brow of the hill. \"Taliesin – exterior\" by P. Hughes, CC BY-SA 4.0, via Wikimedia Commons",
+      "caption": "Taliesin, Spring Green, Wisconsin (begun 1911) — home, studio and school composed along the brow of the hill. Source: \"Taliesin - exterior\" by P. Hughes, via Wikimedia Commons — CC BY-SA 4.0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taliesin_-_exterior.jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 6,
@@ -197,7 +197,7 @@ export default {
     {
       "src": "/assets/articles/frank-lloyd-wright-organic-architecture-guide/taliesin-west.jpg",
       "alt": "Taliesin West in the Arizona desert, with rugged stone walls, canvas roofs and mountains behind",
-      "caption": "Taliesin West, Scottsdale, Arizona (begun 1937) — desert masonry of local rock, built by Wright's Fellowship. \"TaliesinWest03\" by Greg O'Beirne, CC BY 2.5, via Wikimedia Commons",
+      "caption": "Taliesin West, Scottsdale, Arizona (begun 1937) — desert masonry of local rock, built by Wright's Fellowship. Source: \"TaliesinWest03 gobeirne\" by Greg O'Beirne, via Wikimedia Commons — CC BY 2.5.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:TaliesinWest03_gobeirne.jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 6,
@@ -208,7 +208,7 @@ export default {
     {
       "src": "/assets/articles/frank-lloyd-wright-organic-architecture-guide/ennis-house.jpg",
       "alt": "The Ennis House in Los Angeles, a monumental house built of patterned concrete textile blocks",
-      "caption": "The Ennis House, Los Angeles (1924) — the largest of Wright's textile-block houses, its concrete blocks patterned after Maya ornament. \"Ennis House 1\" by Codera23, CC BY-SA 4.0, via Wikimedia Commons",
+      "caption": "The Ennis House, Los Angeles (1924) — the largest of Wright's textile-block houses, its concrete blocks patterned after Maya ornament. Source: \"Ennis House 1\" by Codera23, via Wikimedia Commons — CC BY-SA 4.0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ennis_House_1.jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 7,
@@ -219,7 +219,7 @@ export default {
     {
       "src": "/assets/articles/frank-lloyd-wright-organic-architecture-guide/johnson-wax-headquarters.jpg",
       "alt": "The Johnson Wax Headquarters in Racine, Wisconsin, streamlined brick walls with the Research Tower behind",
-      "caption": "Johnson Wax Headquarters, Racine (1936–39): a streamlined brick fortress whose Great Workroom still hosts the company — and free public tours. \"Frank Lloyd Wright – Racine, WI – Johnson Wax Headquarters (A)\" by Bmzuckerman, CC BY 4.0, via Wikimedia Commons",
+      "caption": "Johnson Wax Headquarters, Racine (1936–39): a streamlined brick fortress whose Great Workroom still hosts the company — and free public tours. Source: \"Frank Lloyd Wright - Racine, WI - Johnson Wax Headquarters (A)\" by Bmzuckerman, via Wikimedia Commons — CC BY 4.0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_-_Racine,_WI_-_Johnson_Wax_Headquarters_(A).jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 8,
