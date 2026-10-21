@@ -40,23 +40,42 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "Cappadocia Architecture & Travel Guide",
-        "url": "https://worldarchjournal.com/atlas/turkiye/cappadocia/",
-        "about": { "@type": "Place", "name": "Cappadocia, Türkiye" },
-        "isPartOf": {
-          "@type": "WebSite",
-          "name": "World Arch Journal",
-          "url": "https://worldarchjournal.com/"
-        },
-        "author": { "@type": "Organization", "name": "World Arch Journal" },
-        "publisher": {
-          "@type": "Organization",
-          "name": "World Arch Journal",
-          "url": "https://worldarchjournal.com/"
-        },
-        "dateModified": "2026-10-08",
-        "inLanguage": "en"
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "name": "Cappadocia Architecture & Travel Guide",
+            "url": "https://worldarchjournal.com/atlas/turkiye/cappadocia/",
+            "about": { "@type": "Place", "name": "Cappadocia, Türkiye" },
+            "isPartOf": {
+              "@type": "WebSite",
+              "name": "World Arch Journal",
+              "url": "https://worldarchjournal.com/"
+            },
+            "author": { "@type": "Organization", "name": "World Arch Journal" },
+            "publisher": {
+              "@type": "Organization",
+              "name": "World Arch Journal",
+              "url": "https://worldarchjournal.com/"
+            },
+            "dateModified": "2026-10-21",
+            "inLanguage": "en"
+          },
+          {
+            "@type": "TouristDestination",
+            "name": "Cappadocia, Türkiye",
+            "description": "An architecture-led Cappadocia guide to Göreme, Uçhisar, rock-cut spaces and underground settlements, with routes, map and planning notes.",
+            "url": "https://worldarchjournal.com/atlas/turkiye/cappadocia/",
+            "touristType": ["Architecture travellers", "Cultural travellers"]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "World Arch Journal", "item": "https://worldarchjournal.com/" },
+              { "@type": "ListItem", "position": 2, "name": "World Arch Atlas", "item": "https://worldarchjournal.com/atlas/" },
+              { "@type": "ListItem", "position": 3, "name": "Cappadocia" }
+            ]
+          }
+        ]
       }
     </script>
   </head>
@@ -83,7 +102,7 @@
         />
         <div class="hero-content">
           <span class="eyebrow">WORLD ARCH ATLAS / TÜRKIYE / 03</span>
-          <h1>Cappadocia</h1>
+          <h1>Cappadocia Architecture &amp; Travel Guide</h1>
           <p>
             A landscape where architecture is carved, inhabited and inseparable
             from the geology around it.
@@ -298,12 +317,16 @@
           </p>
           <a href="/atlas/">← All Atlas guides</a>
         </section>
+        <nav class="atlas-more" aria-label="Continue exploring World Arch Journal">
+          <p>Continue exploring: <a href="/magazine/">Magazine</a> · <a href="/projects/">Projects &amp; virtual tours</a> · <a href="/materials/">Material library</a> · <a href="/services/">Design services</a> · <a href="/newsletter/">Daily briefing</a></p>
+        </nav>
       </div>
     </main>
     <footer>
       <span>© WORLD ARCH JOURNAL</span>
       <nav aria-label="Footer">
         <a href="/magazine/">Magazine</a> · <a href="/atlas/">Atlas</a> ·
+        <a href="/affiliate-disclosure/">Affiliate disclosure</a> ·
         <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a>
       </nav>
     </footer>
