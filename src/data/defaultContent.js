@@ -20,7 +20,7 @@ export const defaultContent = {
     phone: '',
     whatsapp: 'https://wa.me/447904600225',
     telegram: '',
-    instagram: 'https://www.instagram.com/worldarchjournalbyfarnaz/',
+    instagram: 'https://www.instagram.com/worldarchjournal/',
     facebook: 'https://www.facebook.com/1340272359161613',
     youtube: 'https://www.youtube.com/@worldarchjournal',
     linkedin: 'https://www.linkedin.com/in/worldarchjournal/',
@@ -28,7 +28,7 @@ export const defaultContent = {
     socialLinks: [
       { id: 'whatsapp', platform: 'whatsapp', label: 'WhatsApp', url: 'https://wa.me/447904600225', enabled: true },
       { id: 'telegram', platform: 'telegram', label: 'Telegram', url: '', enabled: true },
-      { id: 'instagram', platform: 'instagram', label: 'Instagram', url: 'https://www.instagram.com/worldarchjournalbyfarnaz/', enabled: true },
+      { id: 'instagram', platform: 'instagram', label: 'Instagram', url: 'https://www.instagram.com/worldarchjournal/', enabled: true },
       { id: 'facebook', platform: 'facebook', label: 'Facebook', url: 'https://www.facebook.com/1340272359161613', enabled: true },
       { id: 'youtube', platform: 'youtube', label: 'YouTube', url: 'https://www.youtube.com/@worldarchjournal', enabled: true },
       { id: 'linkedin', platform: 'linkedin', label: 'LinkedIn', url: 'https://www.linkedin.com/in/worldarchjournal/', enabled: true, status: 'active' },
