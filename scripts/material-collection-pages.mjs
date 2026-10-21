@@ -26,8 +26,13 @@ export async function emitMaterialCollections({ emit, preparePage, escapeHtml: e
   await emit(p.path,html);
   // Preserve bookmarked demo URLs while consolidating SEO on the product route.
   await emit('/material-studio/',html);
+  const stoneCopy={
+    travertine:{alt:'Travertine villa facade visualization',studies:'<h2>Five color studies</h2><p>Ivory, classic cream, warm sand, silver grey and walnut brown. Three exterior facade illustrations with fixed scene lighting.</p>'},
+    'porcelain-stoneware':{alt:'Porcelain stoneware kitchen visualization',studies:'<h2>Five finish studies</h2><p>Alpine white, warm greige, silver grey, graphite and terracotta. Three interior room illustrations — a kitchen, a bathroom and a living room — with fixed scene lighting.</p>'},
+  };
   for(const stone of collectionProducts.filter(p=>p.category==='stone')){
-    await emit(stone.path,preparePage({pathname:stone.path,title:`${stone.name} · ${stone.finishes} Colors & 4K PBR Maps | ${siteName}`,description:stone.description,image:stone.scene,schema:{'@context':'https://schema.org','@type':'CreativeWork',name:stone.name,description:stone.description,url:`${siteUrl}${stone.path}`},body:`<main class="seo-route-fallback"><nav><a href="/materials/">Material library</a><a href="/materials/category/stone/">Stone</a></nav><h1>${e(stone.name)}</h1><p>${e(stone.description)}</p><img src="${stone.scene}" alt="Travertine villa facade visualization"><h2>Five color studies</h2><p>Ivory, classic cream, warm sand, silver grey and walnut brown. Three exterior facade illustrations with fixed scene lighting.</p><h2>Downloads</h2><p>Original procedural 4096 × 4096 PNG maps: base color, OpenGL normal, roughness and 16-bit height. Digital repeat 1200 × 1200 mm. Not a quarry scan or certified physical product. Native software files and 16K maps are not included.</p></main>`}));
+    const copy=stoneCopy[stone.id]||stoneCopy.travertine;
+    await emit(stone.path,preparePage({pathname:stone.path,title:`${stone.name} · ${stone.finishes} Colors & 4K PBR Maps | ${siteName}`,description:stone.description,image:stone.scene,schema:{'@context':'https://schema.org','@type':'CreativeWork',name:stone.name,description:stone.description,url:`${siteUrl}${stone.path}`},body:`<main class="seo-route-fallback"><nav><a href="/materials/">Material library</a><a href="/materials/category/stone/">Stone</a></nav><h1>${e(stone.name)}</h1><p>${e(stone.description)}</p><img src="${stone.scene}" alt="${copy.alt}">${copy.studies}<h2>Downloads</h2><p>Original procedural 4096 × 4096 PNG maps: base color, OpenGL normal, roughness and 16-bit height. Digital repeat 1200 × 1200 mm. Not a quarry scan or certified physical product. Native software files and 16K maps are not included.</p></main>`}));
   }
 }
 

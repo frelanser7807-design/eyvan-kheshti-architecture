@@ -1,0 +1,22 @@
+{
+  "id": "porcelain-stoneware-silver-grey",
+  "name": "Silver Grey porcelain stoneware study",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "method": "Original periodic procedural material sampled directly at 4096 x 4096; no image enlargement.",
+  "tileMeters": [
+    1.2,
+    1.2
+  ],
+  "normalConvention": "OpenGL +Y",
+  "heightBitDepth": 16,
+  "license": "Original digital material for personal and commercial visualization. Not a manufacturer scan or specification.",
+  "sha256": {
+    "basecolor-4k.png": "8b56be23d7c81dc23eebca8f9e7f75aa3c391c0268f9f88ec1a5ab58503d1c08",
+    "normal-opengl-4k.png": "07ac65439070435f7d97bf9df15d64f1b31209e96348a8aada60e7561ad9b4df",
+    "roughness-4k.png": "bd121f616e61d457616821bdad6b045a451d40b0091ce9024662981021f2d99e",
+    "height-16bit-4k.png": "65469da20379577fd334828fd2dfbc50bc596441b876a575b753f2a4bd1474c6"
+  }
+}
