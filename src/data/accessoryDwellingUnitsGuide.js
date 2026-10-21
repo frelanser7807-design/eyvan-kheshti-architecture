@@ -13,7 +13,7 @@ export default {
   "imageWidth": 1440,
   "imageHeight": 1080,
   "imageAlt": "A detached backyard cottage ADU with wooden cladding, a pergola terrace and a picket fence",
-  "visualLabel": "FIG. 01 · A DETACHED BACKYARD COTTAGE (ADU) WITH ITS OWN TERRACE AND ENTRANCE · PHOTO: TINY HOME GIRL / WIKIMEDIA COMMONS, CC BY-SA 4.0 · RESIZED.",
+  "visualLabel": "FIG. 01 · A DETACHED BACKYARD COTTAGE (ADU) WITH ITS OWN TERRACE AND ENTRANCE · PHOTO: TINY HOME GIRL / WIKIMEDIA COMMONS, CC BY-SA 4.0 · RESIZED. Source: \"Nostalgia Cottage\" by Tiny Home Girl, via Wikimedia Commons — CC BY-SA 4.0.",
   "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nostalgia_Cottage_.jpg",
   "publishedAt": "2026-10-21",
   "modifiedAt": "2026-10-21",
@@ -83,7 +83,7 @@ export default {
     {
       "src": "/assets/articles/accessory-dwelling-units-complete-guide/casitas-row.jpg",
       "alt": "A row of small, colourful casita homes with wooden cladding and bright doors under a blue sky",
-      "caption": "Small homes, full lives: a row of compact casitas shows the scale at which an ADU sits comfortably in a neighbourhood. \"A Row of Customized Casitas\" by GrowTheWorld9, CC BY-SA 4.0, via Wikimedia Commons",
+      "caption": "Small homes, full lives: a row of compact casitas shows the scale at which an ADU sits comfortably in a neighbourhood. Source: \"A Row of Customized Casitas\" by GrowTheWorld9, via Wikimedia Commons — CC BY-SA 4.0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Row_of_Customized_Casitas.jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 0,
@@ -94,7 +94,7 @@ export default {
     {
       "src": "/assets/articles/accessory-dwelling-units-complete-guide/portland-small-house-snow.jpg",
       "alt": "A small house in Portland, Oregon, under snow, with a deep porch and a mature tree in front",
-      "caption": "Portland, Oregon was an early ADU pioneer — small homes on ordinary lots are part of the streetscape. \"Small house during January 2016 Oregon snowfall\" by Tomas Quinones, CC BY-SA 2.0, via Wikimedia Commons",
+      "caption": "Portland, Oregon was an early ADU pioneer — small homes on ordinary lots are part of the streetscape. Source: \"Small house during January 2016 Oregon snowfall\" by Tomas Quinones, via Wikimedia Commons — CC BY-SA 2.0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Small_house_during_January_2016_Oregon_snowfall.jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 0,
@@ -105,7 +105,7 @@ export default {
     {
       "src": "/assets/articles/accessory-dwelling-units-complete-guide/adu-types-diagram.png",
       "alt": "Diagram showing six accessory dwelling unit types: detached, attached, interior upper level, interior lower level, above garage and garage conversion",
-      "caption": "The ADU family at a glance: detached, attached, interior (upper and lower level), above-garage and garage conversion. \"Accessory Dwelling Unit Examples\" by Cole Jackson (Joiedevivre123321), CC0, via Wikimedia Commons",
+      "caption": "The ADU family at a glance: detached, attached, interior (upper and lower level), above-garage and garage conversion. Source: \"Accessory Dwelling Unit Examples\" by Cole Jackson (Joiedevivre123321), via Wikimedia Commons — CC0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Accessory_Dwelling_Unit_Examples.png",
       "sourceLabel": "Source and licence",
       "afterSection": 1,
@@ -116,7 +116,7 @@ export default {
     {
       "src": "/assets/articles/accessory-dwelling-units-complete-guide/timber-framing-construction.jpg",
       "alt": "Timber frame of a house under construction, showing posts, beams and roof structure before cladding",
-      "caption": "A site-built ADU starts as a frame: the stage where position, plumbing runs and window sizes are still cheap to change. \"Modern timber framing in Pritzenhagen, Germany\" by Sebastian Wallroth, public domain, via Wikimedia Commons",
+      "caption": "A site-built ADU starts as a frame: the stage where position, plumbing runs and window sizes are still cheap to change. Source: \"Modern timber framing in pritzenhagen germany\" by Sebastian Wallroth, via Wikimedia Commons — Public domain.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Modern_timber_framing_in_pritzenhagen_germany.JPG",
       "sourceLabel": "Source and licence",
       "afterSection": 2,
@@ -127,7 +127,7 @@ export default {
     {
       "src": "/assets/articles/accessory-dwelling-units-complete-guide/tiny-house-village-seattle.jpg",
       "alt": "A tiny house village in Seattle with rows of small colourful houses behind a fence",
-      "caption": "Seattle's Nickelsville tiny house village — the small-footprint end of the housing spectrum, made possible by deliberate rule changes. \"Nickelsville Northlake Tiny House Village 01\" by Joe Mabel, CC BY-SA 4.0, via Wikimedia Commons",
+      "caption": "Seattle's Nickelsville tiny house village — the small-footprint end of the housing spectrum, made possible by deliberate rule changes. Source: \"Nickelsville Northlake Tiny House Village 01\" by Joe Mabel, via Wikimedia Commons — CC BY-SA 4.0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nickelsville_Northlake_Tiny_House_Village_01.jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 3,
@@ -138,7 +138,7 @@ export default {
     {
       "src": "/assets/articles/accessory-dwelling-units-complete-guide/modular-home-delivery.jpg",
       "alt": "Factory-built modular homes arriving on trailers for installation in Joplin, Missouri",
-      "caption": "Modular units arriving on site in Joplin, Missouri: factory construction compresses the on-site phase to weeks. \"First FEMA modular homes arrive in Joplin\" by the Kansas City District, U.S. Army Corps of Engineers, public domain, via Wikimedia Commons",
+      "caption": "Modular units arriving on site in Joplin, Missouri: factory construction compresses the on-site phase to weeks. Source: \"First FEMA modular homes arrive in Joplin (5968502346)\" by Kansas City District, U.S. Army Corps of Engineers, via Wikimedia Commons — Public domain.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:First_FEMA_modular_homes_arrive_in_Joplin_(5968502346).jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 4,
@@ -149,7 +149,7 @@ export default {
     {
       "src": "/assets/articles/accessory-dwelling-units-complete-guide/prefab-module-crane.jpg",
       "alt": "A prefabricated building module with large windows being lifted by a crane against a blue sky",
-      "caption": "The prefab moment of truth: a finished module on the crane. Street access and lifting room must be proven before the factory route is chosen. \"Prefabricated home office\" by Joecd, CC BY-SA 4.0, via Wikimedia Commons",
+      "caption": "The prefab moment of truth: a finished module on the crane. Street access and lifting room must be proven before the factory route is chosen. Source: \"Prefabricated home office\" by Joecd, via Wikimedia Commons — CC BY-SA 4.0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prefabricated_home_office.jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 4,
@@ -160,7 +160,7 @@ export default {
     {
       "src": "/assets/articles/accessory-dwelling-units-complete-guide/studio-apartment-interior.jpg",
       "alt": "A bright studio apartment interior with a combined living and sleeping space, kitchen and large windows",
-      "caption": "One room, well judged: a studio interior where daylight, a calm palette and built-in storage do the work of extra metres. \"Studio apartment in Finland\" by Aaaatu, CC BY-SA 4.0, via Wikimedia Commons",
+      "caption": "One room, well judged: a studio interior where daylight, a calm palette and built-in storage do the work of extra metres. Source: \"Studio apartment in Finland\" by Aaaatu, via Wikimedia Commons — CC BY-SA 4.0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Studio_apartment_in_Finland.jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 5,
@@ -171,7 +171,7 @@ export default {
     {
       "src": "/assets/articles/accessory-dwelling-units-complete-guide/modern-small-house-hillside.jpg",
       "alt": "A modern small house with large glass windows set above a garage on a rocky hillside",
-      "caption": "An above-garage home with a glazed gable — small footprint, big view, and complete privacy from the main house. \"Nice tiny homes-2\" by Wikideas1, CC0, via Wikimedia Commons",
+      "caption": "An above-garage home with a glazed gable — small footprint, big view, and complete privacy from the main house. Source: \"Nice tiny homes-2\" by Wikideas1, via Wikimedia Commons — CC0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nice_tiny_homes-2.jpg",
       "sourceLabel": "Source and licence",
       "afterSection": 5,
@@ -182,7 +182,7 @@ export default {
     {
       "src": "/assets/articles/accessory-dwelling-units-complete-guide/timber-framing-detail.jpg",
       "alt": "Close view of a timber house frame under construction, showing the roof structure from below",
-      "caption": "Most ADU stalls are paper stalls — permits, fees and utility checks — not construction problems. Feasibility first, framing second. \"Modern timber framing in Pritzenhagen, Germany (002)\" by Sebastian Wallroth, public domain, via Wikimedia Commons",
+      "caption": "Most ADU stalls are paper stalls — permits, fees and utility checks — not construction problems. Feasibility first, framing second. Source: \"Modern timber framing in pritzenhagen germany 002\" by Sebastian Wallroth, via Wikimedia Commons — Public domain.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Modern_timber_framing_in_pritzenhagen_germany_002.JPG",
       "sourceLabel": "Source and licence",
       "afterSection": 7,
