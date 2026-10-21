@@ -446,6 +446,7 @@ export default function CinematicSite({ content }) {
             <button type="button" tabIndex={moreOpen ? 0 : -1} onClick={() => scrollToSection('objects')}><QuickIcon name="library" /><span>{copy.library}</span></button>
             <button type="button" tabIndex={moreOpen ? 0 : -1} onClick={() => scrollToSection('app')}><QuickIcon name="app" /><span>Install App</span></button>
             <button type="button" tabIndex={moreOpen ? 0 : -1} onClick={() => scrollToSection('shop')}><QuickIcon name="shop" /><span>Courses &amp; Shop</span></button>
+            <a tabIndex={moreOpen ? 0 : -1} href="/atlas/">World Arch Atlas</a>
             <a tabIndex={moreOpen ? 0 : -1} href="/about/">About</a>
             <a tabIndex={moreOpen ? 0 : -1} href="/editorial-policy/">Editorial Policy</a>
             <a tabIndex={moreOpen ? 0 : -1} href="/privacy/">Privacy &amp; Cookies</a>
@@ -507,7 +508,7 @@ export default function CinematicSite({ content }) {
 
         <div className="ek-story-progress" aria-label={`Scene ${progress}`}>{progress}</div>
 
-        <footer className="ek-footer"><span>{brandLocation}</span><span>{copy.concept}</span></footer>
+        <footer className="ek-footer"><span>{brandLocation}</span><span><a href="/atlas/">World Arch Atlas · City guides</a></span><span>{copy.concept}</span></footer>
       </main>
       </div>
 

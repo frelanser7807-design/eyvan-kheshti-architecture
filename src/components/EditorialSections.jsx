@@ -287,7 +287,7 @@ export default function EditorialSections({ content, language, onExplore, onOpen
       </section>
 
 <section id="atlas" className="ek-editorial-section ek-atlas-band" aria-labelledby="atlas-title">
-        <header><small>07</small><h2 id="atlas-title">{text.atlas}</h2><button type="button" onClick={() => window.location.assign('/atlas/')}>{text.viewAll} ↗</button></header>
+        <header><small>07</small><h2 id="atlas-title">{text.atlas}</h2><a href="/atlas/">{text.viewAll} ↗</a></header>
         <div className="ek-atlas-copy"><p>{text.atlasText}</p><span>{text.disclosure}</span></div>
         <PreviewCards items={guides} language={language} />
       </section>

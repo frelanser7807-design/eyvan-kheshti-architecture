@@ -40,23 +40,42 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "Cappadocia Architecture & Travel Guide",
-        "url": "https://worldarchjournal.com/atlas/turkiye/cappadocia/",
-        "about": { "@type": "Place", "name": "Cappadocia, Türkiye" },
-        "isPartOf": {
-          "@type": "WebSite",
-          "name": "World Arch Journal",
-          "url": "https://worldarchjournal.com/"
-        },
-        "author": { "@type": "Organization", "name": "World Arch Journal" },
-        "publisher": {
-          "@type": "Organization",
-          "name": "World Arch Journal",
-          "url": "https://worldarchjournal.com/"
-        },
-        "dateModified": "2026-10-08",
-        "inLanguage": "en"
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "name": "Cappadocia Architecture & Travel Guide",
+            "url": "https://worldarchjournal.com/atlas/turkiye/cappadocia/",
+            "about": { "@type": "Place", "name": "Cappadocia, Türkiye" },
+            "isPartOf": {
+              "@type": "WebSite",
+              "name": "World Arch Journal",
+              "url": "https://worldarchjournal.com/"
+            },
+            "author": { "@type": "Organization", "name": "World Arch Journal" },
+            "publisher": {
+              "@type": "Organization",
+              "name": "World Arch Journal",
+              "url": "https://worldarchjournal.com/"
+            },
+            "dateModified": "2026-10-21",
+            "inLanguage": "en"
+          },
+          {
+            "@type": "TouristDestination",
+            "name": "Cappadocia, Türkiye",
+            "description": "An architecture-led Cappadocia guide to Göreme, Uçhisar, rock-cut spaces and underground settlements, with routes, map and planning notes.",
+            "url": "https://worldarchjournal.com/atlas/turkiye/cappadocia/",
+            "touristType": ["Architecture travellers", "Cultural travellers"]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "World Arch Journal", "item": "https://worldarchjournal.com/" },
+              { "@type": "ListItem", "position": 2, "name": "World Arch Atlas", "item": "https://worldarchjournal.com/atlas/" },
+              { "@type": "ListItem", "position": 3, "name": "Cappadocia" }
+            ]
+          }
+        ]
       }
     </script>
   </head>
@@ -67,7 +86,7 @@
       <nav aria-label="Primary navigation">
         <a href="/magazine/">Magazine</a
         ><a href="/atlas/" aria-current="page">Atlas</a
-        ><a href="/#services">Studio</a><a href="#routes">Routes</a
+        ><a href="/#services">Studio</a><a href="#routes">Routes</a><a href="#one-day">One day</a>
         ><a href="#map">Map</a>
       </nav>
     </header>
@@ -83,7 +102,7 @@
         />
         <div class="hero-content">
           <span class="eyebrow">WORLD ARCH ATLAS / TÜRKIYE / 03</span>
-          <h1>Cappadocia</h1>
+          <h1>Cappadocia Architecture &amp; Travel Guide</h1>
           <p>
             A landscape where architecture is carved, inhabited and inseparable
             from the geology around it.
@@ -254,6 +273,30 @@
             >
           </p>
         </section>
+        <section class="section" id="one-day" aria-labelledby="one-day-title">
+          <p class="eyebrow">04 / DAY TOUR · TRAVEL PROGRAMME</p>
+          <h2 id="one-day-title">One day in Cappadocia, hour by hour.</h2>
+          <p>The guide's close reading becomes a full day: carved space in the morning, settlement and landscape in the afternoon, the underground towns held for a second day as the regional study recommends. Times are indicative — museum queues, terrain and balloon weather all vary, so confirm access live before you set out.</p>
+          <ol class="itinerary">
+            <li><strong>Sunrise · Balloons over Göreme</strong> — watch from a town viewpoint, or fly if you booked well ahead; flights are weather-dependent.</li>
+            <li><strong>09:00 · Göreme Open-Air Museum</strong> — the rock-cut religious spaces at the centre of the guide; arrive early for queues and soft light.</li>
+            <li><strong>12:30 · Göreme town</strong> — lunch, then compare carved rooms with later built fabric on the walk through town.</li>
+            <li><strong>14:30 · Valley paths &amp; Pigeon Valley</strong> — openings, slopes and landform define the walk toward Uçhisar.</li>
+            <li><strong>16:30 · Uçhisar</strong> — climb to the settlement's high point for the region's visual geography in one panorama.</li>
+            <li><strong>Evening · Sunset over the valleys</strong> — end the day above the fairy chimneys as the light turns.</li>
+            <li><strong>Day two · Kaymaklı or Derinkuyu</strong> — choose one underground town, as the guide advises, and study its vertical circulation and enclosure.</li>
+          </ol>
+          <h3>Watch the city</h3>
+          <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/C-6YDw1Dmtc" title="Cappadocia video tour" loading="lazy" style="aspect-ratio:16/9;width:100%;height:auto;border:0" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+          <p class="video-credit">Video: <a href="https://www.youtube.com/watch?v=C-6YDw1Dmtc" target="_blank" rel="noreferrer">3 Days Cappadocia Adventure | Hot Air Balloons &amp; Beautiful Views</a> on YouTube — Göreme, Uçhisar and the Open-Air Museum.</p>
+          <h3>Plan &amp; book</h3>
+          <ul class="plan-book">
+            <li><a href="https://www.booking.com/searchresults.html?ss=Cappadocia" target="_blank" rel="sponsored nofollow noopener">Find stays in Cappadocia on Booking.com</a></li>
+            <li><a href="https://muze.gov.tr/muze-detay?DistId=grm&amp;SectionId=grm01" target="_blank" rel="noreferrer">Official museum information &amp; tickets (Türkiye Museums)</a></li>
+          </ul>
+          <p class="affiliate-note">Partner links are being connected to our accounts; until activation they open the provider's public search for this city. When affiliate tagging goes live it will be labelled here and in our <a href="/affiliate-disclosure/">affiliate disclosure</a>.</p>
+        </section>
+
         <section class="sources" aria-labelledby="sources-title">
           <span class="section-tag"
             >SOURCES / LAST EDITORIAL REVIEW: OCTOBER 2026</span
@@ -298,12 +341,16 @@
           </p>
           <a href="/atlas/">← All Atlas guides</a>
         </section>
+        <nav class="atlas-more" aria-label="Continue exploring World Arch Journal">
+          <p>Continue exploring: <a href="/magazine/">Magazine</a> · <a href="/projects/">Projects &amp; virtual tours</a> · <a href="/materials/">Material library</a> · <a href="/services/">Design services</a> · <a href="/newsletter/">Daily briefing</a></p>
+        </nav>
       </div>
     </main>
     <footer>
       <span>© WORLD ARCH JOURNAL</span>
       <nav aria-label="Footer">
         <a href="/magazine/">Magazine</a> · <a href="/atlas/">Atlas</a> ·
+        <a href="/affiliate-disclosure/">Affiliate disclosure</a> ·
         <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a>
       </nav>
     </footer>
