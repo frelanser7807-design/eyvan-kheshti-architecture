@@ -6,14 +6,13 @@ World Arch Journal publishes original, fully sourced and illustrated articles on
 
 ## Magazine and articles
 
-- [Magazine](https://worldarchjournal.com/magazine/): all editorial articles and topic sections
+- [Magazine](https://worldarchjournal.com/magazine/): all editorial articles and topic sections — the full article index, newest first
 - [Climate Design](https://worldarchjournal.com/magazine/climate-design/): passive cooling, ventilation, daylight and thermal performance
 - [Facades](https://worldarchjournal.com/magazine/facades/): facade systems, rainscreens and bird-safe glazing
 - [Courtyard Design](https://worldarchjournal.com/magazine/courtyard-design/): small courtyards, light, privacy and cooling
 - [Low-Carbon Materials](https://worldarchjournal.com/magazine/low-carbon-materials/): mass timber, disassembly and material reuse
 - [Architectural History & Styles](https://worldarchjournal.com/magazine/architectural-history-styles/): styles and movements, including Brutalism
 - [AI & Digital Practice](https://worldarchjournal.com/magazine/ai-digital-practice/): BIM vs CAD and AI in architecture
-- [Latest articles](https://worldarchjournal.com/articles/): the full article index
 
 ## Materials library
 
@@ -26,7 +25,9 @@ World Arch Journal publishes original, fully sourced and illustrated articles on
 
 - [Projects](https://worldarchjournal.com/projects/): documented architecture projects and project studies
 - [Atlas](https://worldarchjournal.com/atlas/): place-based architecture atlas
-- [Virtual tours](https://worldarchjournal.com/virtual-tours/): true-360 walk-through tours of documented projects
+- [The Voids villa — virtual tour](https://worldarchjournal.com/virtual-tours/the-voids-villa/): true-360 walk-through tour of a documented project
+- [Narbon villa — virtual tour](https://worldarchjournal.com/virtual-tours/narbon-villa/): true-360 walk-through tour of a documented project
+- [Villa Safadasht — virtual tour](https://worldarchjournal.com/virtual-tours/villa-safadasht/): true-360 walk-through tour of a documented project
 
 ## Services and resources
 
