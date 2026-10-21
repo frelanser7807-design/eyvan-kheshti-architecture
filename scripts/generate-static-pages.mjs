@@ -18,7 +18,8 @@ import { createArticleRss, withArticleFeedLink } from './lib/article-rss.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.resolve(process.env.DIST_DIR || path.join(root, 'dist'));
 const indexPath = path.join(dist, 'index.html');
-const siteUrl = String(process.env.VITE_SITE_URL || 'https://worldarchjournal.com').replace(/\/$/, '');
+// All public metadata stays on the production domain, including preview builds.
+const siteUrl = 'https://worldarchjournal.com';
 const gaMeasurementId = String(process.env.VITE_GA_MEASUREMENT_ID || 'G-KWCNH012H1').trim();
 const clarityProjectId = String(process.env.VITE_CLARITY_PROJECT_ID || '').trim();
 const siteName = 'WORLD ARCH JOURNAL';
@@ -132,6 +133,7 @@ async function injectStaticAnalytics(directory) {
 
 const publisher = {
   '@type': 'Organization',
+  '@id': `${siteUrl}/#organization`,
   name: siteName,
   url: siteUrl,
   logo: { '@type': 'ImageObject', url: absoluteUrl('/assets/brand/world-arch-wa-mark-v1.png') },
@@ -140,20 +142,20 @@ const publisher = {
 
 const homeDescription = 'Explore global architecture, bespoke facade design, spatial design, architectural visualisation, BIM and Revit resources, original magazines and evidence-led research by World Arch Journal.';
 const homeSchema = { '@context': 'https://schema.org', '@graph': [
-  { '@type': 'WebSite', name: siteName, url: siteUrl, inLanguage: 'en', publisher },
+  { '@type': 'WebSite', '@id': `${siteUrl}/#website`, name: siteName, url: siteUrl, inLanguage: 'en', publisher },
   { '@type': 'ProfessionalService', name: siteName, url: siteUrl, description: homeDescription, image: absoluteUrl('/assets/editorial/issue-00/courtyard-wind-house-cover.jpg'), areaServed: 'International', availableLanguage: ['English'], sameAs: publisher.sameAs, serviceType: defaultContent.services.map((service) => service.title) },
 ] };
 const homeArticleLinks = articles.filter((item) => item.published).slice(0, 6).map((item) => `<li><a href="/articles/${escapeHtml(item.slug)}/">${escapeHtml(item.title)}</a><p>${escapeHtml(item.excerpt)}</p></li>`).join('');
 const homeServiceLinks = defaultContent.services.map((service) => `<li><strong>${escapeHtml(service.title)}</strong> — ${escapeHtml(service.description || service.excerpt || '')}</li>`).join('');
 const homeBody = `<main class="seo-route-fallback"><header><small>WORLD ARCH JOURNAL · ARCHITECTURE / INTERIORS / LANDSCAPE / BIM / PLACES</small><h1>Architecture, evidence and design services by World Arch Journal</h1><p>${escapeHtml(homeDescription)}</p><nav><a href="/magazine/">Read the magazine</a><a href="/videos/">Watch architecture videos</a><a href="/newsletter/">Latest architecture briefing</a><a href="/atlas/">World Arch Atlas city guides</a><a href="/shop/">Architecture shop</a><a href="/editorial-team/">Publisher and contact</a></nav></header><section><h2>Latest evidence-led architecture stories</h2><p>World Arch Journal publishes original guides, field notes and concept studies that distinguish sourced facts, editorial analysis and unverified design propositions. Every substantial story includes an author, source notes, image credits and a clear scope.</p><ol>${homeArticleLinks}</ol></section><section><h2>Architecture and presentation services</h2><p>Studio work is developed for real communication needs: explaining a facade decision, organising a spatial proposal, presenting a project to a client or turning technical information into a readable visual narrative.</p><ul>${homeServiceLinks}</ul></section><section><h2>World Arch Atlas: architecture-led city guides</h2><p>City guides that read Istanbul, Antalya and Cappadocia through their buildings, neighbourhoods and walking routes — a curated architecture edit, half-day routes and a downloadable PDF guide for each city.</p><ul><li><a href="/atlas/turkiye/istanbul/">Istanbul architecture &amp; travel guide</a></li><li><a href="/atlas/turkiye/antalya/">Antalya architecture &amp; travel guide</a></li><li><a href="/atlas/turkiye/cappadocia/">Cappadocia architecture &amp; travel guide</a></li></ul><p><a href="/atlas/">Explore the World Arch Atlas</a></p></section><section><h2>Continue with the journal</h2><p>Read the <a href="/newsletter/">latest dated briefing</a>, browse <a href="/magazine/analysis/">analysis and field notes</a>, watch <a href="/videos/">architecture explained in motion</a>, explore <a href="/prompts/">free architecture prompts</a> or review <a href="/shop/presentations/">presentation templates and bespoke design</a>.</p></section></main>`;
-await emit('/', preparePage({ pathname: '/', title: 'WORLD ARCH JOURNAL | Facade, Spatial Design & Visualisation', description: homeDescription, image: '/assets/editorial/issue-00/courtyard-wind-house-cover.jpg', schema: homeSchema, body: homeBody }));
+await emit('/', preparePage({ pathname: '/', title: 'Architecture Magazine & Design Services | World Arch Journal', description: homeDescription, image: '/assets/editorial/issue-00/courtyard-wind-house-cover.jpg', schema: homeSchema, body: homeBody }));
 
 for (const article of articles.filter((item) => item.published)) {
   const pathname = `/articles/${article.slug}/`;
   const articleSchema = {
     '@context': 'https://schema.org',
     '@graph': [
-      { '@type': 'Article', headline: article.title, description: article.metaDescription || article.excerpt, mainEntityOfPage: `${siteUrl}${pathname}`, image: [absoluteUrl(article.cover || article.image)], author: { '@type': 'Organization', name: article.author || 'World Arch Journal', url: `${siteUrl}/editorial-team/` }, publisher, articleSection: article.category, keywords: (article.tags || []).join(', '), inLanguage: 'en', isAccessibleForFree: true, ...(article.publishedAt ? { datePublished: article.publishedAt } : {}), ...(article.modifiedAt ? { dateModified: article.modifiedAt } : {}) },
+      { '@type': 'Article', headline: article.title, description: article.metaDescription || article.excerpt, mainEntityOfPage: `${siteUrl}${pathname}`, image: [absoluteUrl(article.cover || article.image)], author: { '@type': 'Organization', name: article.author || 'World Arch Journal', url: `${siteUrl}/editorial-team/` }, publisher, articleSection: article.category, keywords: (article.tags || []).join(', '), citation: (article.evidence || []).map((source) => source.source_url).filter(Boolean), inLanguage: 'en', isAccessibleForFree: true, ...(article.publishedAt ? { datePublished: article.publishedAt } : {}), ...(article.modifiedAt ? { dateModified: article.modifiedAt } : {}) },
       breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Magazine', pathname: '/magazine/' }, { name: article.title, pathname }]),
       ...(article.faq?.length ? [{ '@type': 'FAQPage', mainEntity: article.faq.map((item) => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) }] : []),
     ],
@@ -505,7 +507,7 @@ await writeFile(path.join(dist, 'atlas-sitemap.xml'), atlasSitemap, 'utf8');
 await writeFile(path.join(dist, 'article-sitemap.xml'), articleSitemap, 'utf8');
 await writeFile(path.join(dist, 'video-sitemap.xml'), videoSitemap, 'utf8');
 await writeFile(path.join(dist, 'news-sitemap.xml'), newsSitemap, 'utf8');
-await writeFile(path.join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nSitemap: ${siteUrl}/sitemap.xml\nSitemap: ${siteUrl}/article-sitemap.xml\nSitemap: ${siteUrl}/video-sitemap.xml\nSitemap: ${siteUrl}/atlas-sitemap.xml\nSitemap: ${siteUrl}/news-sitemap.xml\n`, 'utf8');
+await writeFile(path.join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: ChatGPT-User\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\nUser-agent: Perplexity-User\nAllow: /\n\nSitemap: ${siteUrl}/sitemap.xml\nSitemap: ${siteUrl}/article-sitemap.xml\nSitemap: ${siteUrl}/video-sitemap.xml\nSitemap: ${siteUrl}/atlas-sitemap.xml\nSitemap: ${siteUrl}/news-sitemap.xml\n`, 'utf8');
 await writeFile(path.join(dist, 'rss.xml'), createArticleRss(articles), 'utf8');
 await injectArticleFeedLinks(dist);
 await injectStaticAnalytics(dist);

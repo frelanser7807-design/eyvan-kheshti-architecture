@@ -9,6 +9,18 @@
   included_files = ["netlify/functions/article-publishing-v1.md", "agent-system/src/*.mjs"]
 
 [[redirects]]
+  from = "https://world-arch-journal-by-farnaz.netlify.app/*"
+  to = "https://worldarchjournal.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://world-arch-journal-by-farnaz.netlify.app/*"
+  to = "https://worldarchjournal.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/api/agent-manager"
   to = "/.netlify/functions/agent-manager"
   status = 200
