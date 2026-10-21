@@ -22,6 +22,14 @@ function setMeta(selector, attributes) {
   Object.entries(attributes).forEach(([key, value]) => element.setAttribute(key, String(value)));
 }
 
+function clampMetaDescription(value = '') {
+  const text = String(value).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  if (text.length <= 158) return text;
+  const cut = text.slice(0, 158);
+  const lastSpace = cut.lastIndexOf(' ');
+  return (lastSpace > 100 ? cut.slice(0, lastSpace) : cut).replace(/[\s,;:—–-]+$/, '');
+}
+
 function socialUrl(value) {
   const candidate = String(value || '').trim();
   if (!/^https?:\/\//i.test(candidate)) return '';
@@ -174,6 +182,7 @@ export default function SiteSeo({ content, route }) {
       description = 'The requested WORLD ARCH JOURNAL page is not available.';
     }
 
+    description = clampMetaDescription(description);
     document.title = title;
     setMeta('meta[name="description"]', { name: 'description', content: description });
     setMeta('meta[property="og:type"]', { property: 'og:type', content: ogType });
