@@ -70,6 +70,7 @@ export default function SiteSeo({ content, route }) {
     const item = route?.item;
     const isMissing = route?.name === 'not-found' || (['article', 'magazine', 'magazine-category', 'product', 'prompt', 'newsletter-issue', 'analysis-article', 'project', 'video-story'].includes(route?.name) && !item);
     const isCanonicalHost = ['worldarchjournal.com', 'www.worldarchjournal.com'].includes(window.location.hostname);
+    const tourComingSoon = ['virtual-tour-the-voids', 'virtual-tour-narbon', 'virtual-tour-safadasht'].includes(route?.name) && item?.tourLive === false;
 
     let title = 'WORLD ARCH JOURNAL | Facade, Spatial Design & Visualisation';
     let description = 'Explore global architecture, bespoke facade design, spatial design, architectural visualisation, BIM and Revit resources, original magazines and evidence-led research by World Arch Journal.';
@@ -162,7 +163,7 @@ export default function SiteSeo({ content, route }) {
       description = item.description;
       image = absoluteAsset(siteUrl, item.cover);
     } else if (['virtual-tour-the-voids', 'virtual-tour-narbon', 'virtual-tour-safadasht'].includes(route?.name) && item) {
-      title = `${item.title} Virtual Architecture Tour | ${name}`;
+      title = tourComingSoon ? `${item.title} Virtual Tour — Coming Soon | ${name}` : `${item.title} Virtual Architecture Tour | ${name}`;
       description = item.tourMetaDescription || `Enter an interactive spatial tour of ${item.title} in ${item.location}, with project context and links to drawings and the complete architecture guide.`;
       image = absoluteAsset(siteUrl, item.cover);
     } else if (route?.name === 'shop') {
@@ -202,7 +203,7 @@ export default function SiteSeo({ content, route }) {
     setMeta('meta[name="twitter:description"]', { name: 'twitter:description', content: description });
     setMeta('meta[name="twitter:image"]', { name: 'twitter:image', content: image });
     const isThinPreview = (route?.name === 'prompt' && item?.access === 'premium') || (route?.name === 'material-collection' && !route.products.length);
-    setMeta('meta[name="robots"]', { name: 'robots', content: !isCanonicalHost || route?.name === 'admin' || isMissing ? 'noindex, nofollow, noarchive' : isThinPreview ? 'noindex, follow, max-image-preview:large' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' });
+    setMeta('meta[name="robots"]', { name: 'robots', content: !isCanonicalHost || route?.name === 'admin' || isMissing || tourComingSoon ? 'noindex, nofollow, noarchive' : isThinPreview ? 'noindex, follow, max-image-preview:large' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' });
 
     let canonical = document.head.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -280,12 +281,17 @@ export default function SiteSeo({ content, route }) {
     } else if (route?.name === 'projects-hub') {
       structuredData = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, hasPart: projects.map((project) => ({ '@type': 'CreativeWork', name: project.title, url: `${siteUrl}${project.detailPath}`, image: absoluteAsset(siteUrl, project.cover) })) };
     } else if (route?.name === 'project' && item) {
-      structuredData = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: item.title, description, url: canonicalUrl, image, inLanguage: 'en', creator: { '@type': 'Organization', name: item.studio }, locationCreated: { '@type': 'Place', name: item.location }, associatedMedia: [{ '@type': 'MediaObject', contentUrl: `${siteUrl}${item.tourPath}`, encodingFormat: 'text/html' }, ...(item.guidePath ? [{ '@type': 'DigitalDocument', contentUrl: `${siteUrl}${item.guidePath}`, encodingFormat: 'application/pdf' }] : [])], publisher };
+      structuredData = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: item.title, description, url: canonicalUrl, image, inLanguage: 'en', creator: { '@type': 'Organization', name: item.studio }, locationCreated: { '@type': 'Place', name: item.location }, associatedMedia: [...(item.tourLive === false ? [] : [{ '@type': 'MediaObject', contentUrl: `${siteUrl}${item.tourPath}`, encodingFormat: 'text/html' }]), ...(item.guidePath ? [{ '@type': 'DigitalDocument', contentUrl: `${siteUrl}${item.guidePath}`, encodingFormat: 'application/pdf' }] : [])], publisher };
     } else if (['virtual-tour-the-voids', 'virtual-tour-narbon', 'virtual-tour-safadasht'].includes(route?.name) && item) {
-      structuredData = { '@context': 'https://schema.org', '@graph': [
-        { '@type': 'CreativeWork', name: `${item.title} Virtual Architecture Tour`, description, url: canonicalUrl, image, inLanguage: 'en', about: { '@type': 'ArchitecturalStructure', name: item.title, address: item.location }, creator: publisher, isPartOf: { '@type': 'CreativeWork', name: item.title, url: `${siteUrl}${item.detailPath}` } },
-        breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Projects', pathname: '/projects/' }, { name: item.title, pathname: item.detailPath }, { name: 'Virtual tour', pathname: normalizedPath }]),
-      ] };
+      structuredData = tourComingSoon
+        ? { '@context': 'https://schema.org', '@graph': [
+          { '@type': 'WebPage', name: title, description, url: canonicalUrl, image, inLanguage: 'en', isPartOf: { '@type': 'CreativeWork', name: item.title, url: `${siteUrl}${item.detailPath}` }, publisher },
+          breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Projects', pathname: '/projects/' }, { name: item.title, pathname: item.detailPath }, { name: 'Virtual tour — coming soon', pathname: normalizedPath }]),
+        ] }
+        : { '@context': 'https://schema.org', '@graph': [
+          { '@type': 'CreativeWork', name: `${item.title} Virtual Architecture Tour`, description, url: canonicalUrl, image, inLanguage: 'en', about: { '@type': 'ArchitecturalStructure', name: item.title, address: item.location }, creator: publisher, isPartOf: { '@type': 'CreativeWork', name: item.title, url: `${siteUrl}${item.detailPath}` } },
+          breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Projects', pathname: '/projects/' }, { name: item.title, pathname: item.detailPath }, { name: 'Virtual tour', pathname: normalizedPath }]),
+        ] };
     } else if (['newsletter-hub', 'analysis-hub'].includes(route?.name)) {
       const entries = route.name === 'analysis-hub' ? editorialArticles : newsletterIssues;
       structuredData = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, hasPart: entries.map((issue) => ({ '@type': 'Article', name: issue.title, url: `${siteUrl}${editorialPath(issue)}` })) };

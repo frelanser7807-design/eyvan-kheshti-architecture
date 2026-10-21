@@ -58,14 +58,16 @@ export function HomeVirtualToursShowcase() {
             <img src={project.cover} alt={project.coverAlt} loading={index ? 'lazy' : 'eager'} decoding="async" />
             <span className="home-virtual-tour-veil" aria-hidden="true" />
             <div className="home-virtual-tour-copy">
-              <span className="home-virtual-tour-kicker">{String(index + 1).padStart(2, '0')} · LIVE VIRTUAL TOUR</span>
+              <span className="home-virtual-tour-kicker">{String(index + 1).padStart(2, '0')} · {project.tourLive === false ? 'VIRTUAL TOUR IN REBUILD' : 'LIVE VIRTUAL TOUR'}</span>
               <h3>{project.title}</h3>
               <p>{project.location} · {project.studio}</p>
               <span className="home-virtual-tour-features">
                 {project.features.map((feature) => <i key={feature}>{feature}</i>)}
               </span>
               <div className="home-virtual-tour-actions">
-                <a className="is-primary" href={project.tourPath}>{project.tourEnterLabel || 'ENTER 360° TOUR'} <b aria-hidden="true">↗</b></a>
+                {project.tourLive === false
+                  ? <a className="is-primary" href={project.detailPath}>VIEW PROJECT FILE <b aria-hidden="true">↗</b></a>
+                  : <a className="is-primary" href={project.tourPath}>{project.tourEnterLabel || 'ENTER 360° TOUR'} <b aria-hidden="true">↗</b></a>}
                 <a href={project.detailPath}>PLANS, PHOTOS &amp; PDF <b aria-hidden="true">↓</b></a>
               </div>
             </div>

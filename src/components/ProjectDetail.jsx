@@ -3,11 +3,12 @@ import { useState } from 'react';
 export default function ProjectDetail({ project }) {
   const [zoomed, setZoomed] = useState(null);
   if (!project) return <main className="project-missing"><h1>Project not found.</h1><a href="/projects/">Return to projects</a></main>;
+  const tourLive = project.tourLive !== false;
   return (
     <main className="project-detail">
       <header className="projects-shell-header is-overlay">
         <a href="/" className="projects-brand">WORLD ARCH JOURNAL </a>
-        <nav><a href="/projects/">All Projects</a><a href={project.tourPath}>Enter Tour</a></nav>
+        <nav><a href="/projects/">All Projects</a>{tourLive && <a href={project.tourPath}>Enter Tour</a>}</nav>
       </header>
 
       <section className="project-detail-hero">
@@ -17,7 +18,9 @@ export default function ProjectDetail({ project }) {
           <small>{project.type} · {project.year}</small>
           <h1>{project.title}</h1>
           <p>{project.location}</p>
-          <a href={project.tourPath}>{project.tourCta || 'ENTER THE 3D EXPERIENCE'} <b>↗</b></a>
+          {tourLive
+            ? <a href={project.tourPath}>{project.tourCta || 'ENTER THE 3D EXPERIENCE'} <b>↗</b></a>
+            : project.guidePath && <a href={project.guidePath} download>DOWNLOAD THE PDF GUIDE <b>↓</b></a>}
         </div>
       </section>
 
@@ -48,9 +51,9 @@ export default function ProjectDetail({ project }) {
       </section>}
 
       <section className="project-actions">
-        <div><small>EXPLORE &amp; DOWNLOAD / {project.questions?.length ? '04' : '03'}</small><h2>Walk it. Read it. Study it.</h2></div>
+        <div><small>EXPLORE &amp; DOWNLOAD / {project.questions?.length ? '04' : '03'}</small><h2>{tourLive ? 'Walk it. Read it. Study it.' : 'Read it. Study it. Keep it.'}</h2></div>
         <div>
-          <a className="is-primary" href={project.tourPath}><span>01</span><b>{project.tourActionLabel || 'Open the interactive 3D tour'}</b><em>WALK ↗</em></a>
+          {tourLive && <a className="is-primary" href={project.tourPath}><span>01</span><b>{project.tourActionLabel || 'Open the interactive 3D tour'}</b><em>WALK ↗</em></a>}
           {project.guidePath && <a href={project.guidePath} download><span>02</span><b>Download the English project guide</b><em>PDF ↓</em></a>}
           {project.drawingPackPath && <a href={project.drawingPackPath} download><span>03</span><b>Download the English drawing pack</b><em>ZIP ↓</em></a>}
         </div>
