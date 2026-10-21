@@ -106,7 +106,7 @@ const rainscreenFacadeDesign = {
     <p>The durable rainscreen is rarely the one with the most complicated cladding. It is the one whose control layers can be traced, built, inspected and repaired. Its openings drain outward, its cavity stays clear, its brackets respect heat and water, and its fire strategy does not cancel its moisture strategy.</p>
     <p>Start with the whole-wall section, then spend design time at parapets, corners, windows, balconies, podiums and bases. When every transition answers where water goes next, the facade becomes more than a visual skin. It becomes a resilient enclosure.</p>
   
-    <p><strong>Continue exploring:</strong> a rainscreen is a layered promise; the terrace threshold makes the same promise in miniature — read <a href="/magazine/analysis/water-at-the-threshold/">The Water Line</a> — and compare cladding surfaces in the <a href="/materials/stone/natural-stone/travertine/">travertine facade studies</a>.</p>
+    <p><strong>Continue exploring:</strong> a rainscreen is a layered promise; the terrace threshold makes the same promise in miniature — read <a href="/magazine/analysis/water-at-the-threshold/">The Water Line</a> — and compare cladding surfaces in the <a href="/materials/stone/natural-stone/travertine/">travertine facade studies</a> — or, for the thermal half of the envelope story, work through our <a href="/articles/climate-responsive-facades-cooling-design/">climate responsive facade</a> guide.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international detail guide'],
