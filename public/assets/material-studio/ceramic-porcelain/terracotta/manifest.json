@@ -1,22 +1,31 @@
 {
   "id": "porcelain-stoneware-terracotta",
-  "name": "Terracotta porcelain stoneware study",
+  "name": "Terracotta \u2014 real photogrammetry-scanned tile material (4K web edition)",
   "resolution": [
     4096,
     4096
   ],
-  "method": "Original periodic procedural material sampled directly at 4096 x 4096; no image enlargement.",
+  "nativeResolution": [
+    8192,
+    8192
+  ],
+  "method": "Photogrammetry scan of a physical tile surface, distributed by Poly Haven as Terracotta Floor Tiles (terracotta_floor_tiles). The 4K web edition maps are the library's own 4096 x 4096 scans, re-encoded once at high quality for web distribution \u2014 no procedural generation, no enlargement, no detail added. The complete native-resolution pack (including the ambient-occlusion map) and a 16K edition prepared from the original scan are hosted on Google Drive (links in the panel).",
+  "source": {
+    "library": "Poly Haven",
+    "asset": "Terracotta Floor Tiles (terracotta_floor_tiles)",
+    "url": "https://polyhaven.com/a/terracotta_floor_tiles",
+    "license": "CC0 1.0 Universal (public domain)"
+  },
   "tileMeters": [
-    1.2,
-    1.2
+    2.1,
+    2.1
   ],
   "normalConvention": "OpenGL +Y",
-  "heightBitDepth": 16,
-  "license": "Original digital material for personal and commercial visualization. Not a manufacturer scan or specification.",
+  "license": "CC0 1.0 Universal (public domain) \u2014 free for personal and commercial use, including redistribution.",
   "sha256": {
-    "basecolor-4k.png": "5fd2074db3109f86a9dfdbb20f844ffa57e0baabdbd88e279c564c03c4db9acc",
-    "normal-opengl-4k.png": "07ac65439070435f7d97bf9df15d64f1b31209e96348a8aada60e7561ad9b4df",
-    "roughness-4k.png": "bd121f616e61d457616821bdad6b045a451d40b0091ce9024662981021f2d99e",
-    "height-16bit-4k.png": "65469da20379577fd334828fd2dfbc50bc596441b876a575b753f2a4bd1474c6"
+    "basecolor-4k.jpg": "6e22e9180ba8fa43c370d21d8a987aff3639ac1fab37f533cbb6e885090c5881",
+    "normal-opengl-4k.jpg": "14a7847535e52014be24dc8acc8328dc3ecf71c3f4b6b8bf248c4f7603341b99",
+    "roughness-4k.jpg": "7d023b7e265ec2d348c338aa3a5f56d99c4b386b07aebc1fbc0b1bde6c6df21c",
+    "height-4k.jpg": "9da6293774b30800ec60f7b6204706d01f130bcf703e2ef4ac2193659eb067d2"
   }
 }

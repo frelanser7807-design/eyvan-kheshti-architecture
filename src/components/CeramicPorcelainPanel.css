@@ -2,3 +2,8 @@
 .cp-controls .fp-viewer-status{min-height:2em}
 @media(max-width:800px){.cp-layout{display:flex;flex-direction:column;gap:12px}.cp-controls{display:contents}.cp-controls>*,.cp-gallery{width:100%}.cp-gallery{order:1}.cp-controls .fp-viewer{order:2}.cp-download{order:3}.cp-controls details{order:4}.cp-swatches{margin-bottom:35px}.cp-controls h1{margin:0}.cp-lead{margin:8px 0}.cp-selected{margin:10px 0}}
 
+
+/* Real-scan rebuild (2026-10-21): per-finish room studies + live source line */
+.cp-room img{width:100%;height:auto;display:block}
+.cp-source{margin-top:14px;font-size:.85rem;line-height:1.55;opacity:.85}
+.cp-source a{color:inherit;text-decoration:underline}

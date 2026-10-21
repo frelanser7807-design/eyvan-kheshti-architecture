@@ -1,22 +1,31 @@
 {
   "id": "porcelain-stoneware-graphite",
-  "name": "Graphite porcelain stoneware study",
+  "name": "Graphite stone tile \u2014 real photogrammetry-scanned tile material (4K web edition)",
   "resolution": [
     4096,
     4096
   ],
-  "method": "Original periodic procedural material sampled directly at 4096 x 4096; no image enlargement.",
+  "nativeResolution": [
+    8192,
+    8192
+  ],
+  "method": "Photogrammetry scan of a physical tile surface, distributed by ambientCG as Tiles138. The 4K web edition maps are the library's own 4096 x 4096 scans, re-encoded once at high quality for web distribution \u2014 no procedural generation, no enlargement, no detail added. The complete native-resolution pack (including the ambient-occlusion map) and a 16K edition prepared from the original scan are hosted on Google Drive (links in the panel). Tile coverage for this set is an estimate from the scanned tile count.",
+  "source": {
+    "library": "ambientCG",
+    "asset": "Tiles138",
+    "url": "https://ambientcg.com/a/Tiles138",
+    "license": "CC0 1.0 Universal (public domain)"
+  },
   "tileMeters": [
-    1.2,
-    1.2
+    1.6,
+    1.6
   ],
   "normalConvention": "OpenGL +Y",
-  "heightBitDepth": 16,
-  "license": "Original digital material for personal and commercial visualization. Not a manufacturer scan or specification.",
+  "license": "CC0 1.0 Universal (public domain) \u2014 free for personal and commercial use, including redistribution.",
   "sha256": {
-    "basecolor-4k.png": "2e2592fc165b9c62b178da8c5078d1c5e812b9e89950c5806d61f688be3f726a",
-    "normal-opengl-4k.png": "07ac65439070435f7d97bf9df15d64f1b31209e96348a8aada60e7561ad9b4df",
-    "roughness-4k.png": "bd121f616e61d457616821bdad6b045a451d40b0091ce9024662981021f2d99e",
-    "height-16bit-4k.png": "65469da20379577fd334828fd2dfbc50bc596441b876a575b753f2a4bd1474c6"
+    "basecolor-4k.jpg": "3c908332c37a9527000c5213b89cba385bac739b568bfa58cc382e1398d5c303",
+    "normal-opengl-4k.jpg": "5c1351335d312da3b06ea9d892f3d3845ec9e44d1623f07033c3187232b7b70f",
+    "roughness-4k.jpg": "419c0952331cd8635de8f7431fb2fad07cebda48c0c130ec586fa3f5c8cde23a",
+    "height-4k.jpg": "8ba6de75b1359f3e0434f05a89354257adb550f4a0c34fae3abce4102ff6d53d"
   }
 }

@@ -1,14 +1,29 @@
 export const ceramicPath='/materials/stone/ceramic-porcelain/porcelain-stoneware/';
 export const ceramicRoot='/assets/material-studio/ceramic-porcelain/';
 export const ceramicFinishes=[
- {id:'alpine-white',name:'Alpine white',rgb:[228,219,203]},
- {id:'warm-greige',name:'Warm greige',rgb:[201,190,171]},
- {id:'silver-grey',name:'Silver grey',rgb:[169,171,168]},
- {id:'graphite',name:'Graphite',rgb:[92,92,95]},
- {id:'terracotta',name:'Terracotta',rgb:[176,124,96]},
+ {id:'ivory-marble',name:'Ivory marble',material:'Marble tile',nativeRes:8192,coverage:[1500,1500],
+  maps:{basecolor:'basecolor-4k.jpg',normal:'normal-opengl-4k.jpg',roughness:'roughness-4k.jpg',height:'height-4k.jpg'},
+  source:{library:'Poly Haven',asset:'Marble 01 (marble_01)',url:'https://polyhaven.com/a/marble_01',license:'CC0 1.0 Universal (public domain)'},
+  driveNative:null,drive16k:null},
+ {id:'warm-greige',name:'Warm greige ceramic',material:'Ceramic tile',nativeRes:16384,coverage:[1900,1900],
+  maps:{basecolor:'basecolor-4k.jpg',normal:'normal-opengl-4k.jpg',roughness:'roughness-4k.jpg',height:'height-4k.jpg'},
+  source:{library:'Poly Haven',asset:'Interior Tiles (interior_tiles)',url:'https://polyhaven.com/a/interior_tiles',license:'CC0 1.0 Universal (public domain)'},
+  driveNative:null,drive16k:null},
+ {id:'cartago-grey',name:'Cartago grey marble',material:'Marble tile',nativeRes:16384,coverage:[800,800],
+  maps:{basecolor:'basecolor-4k.jpg',normal:'normal-opengl-4k.jpg',roughness:'roughness-4k.jpg',height:'height-4k.jpg'},
+  source:{library:'Poly Haven',asset:'Grey Cartago 01 (grey_cartago_01)',url:'https://polyhaven.com/a/grey_cartago_01',license:'CC0 1.0 Universal (public domain)'},
+  driveNative:null,drive16k:null},
+ {id:'graphite',name:'Graphite stone tile',material:'Stone tile',nativeRes:8192,coverage:[1600,1600],
+  maps:{basecolor:'basecolor-4k.jpg',normal:'normal-opengl-4k.jpg',roughness:'roughness-4k.jpg',height:'height-4k.jpg'},
+  source:{library:'ambientCG',asset:'Tiles138',url:'https://ambientcg.com/a/Tiles138',license:'CC0 1.0 Universal (public domain)'},
+  driveNative:null,drive16k:null},
+ {id:'terracotta',name:'Terracotta',material:'Terracotta tile',nativeRes:8192,coverage:[2100,2100],
+  maps:{basecolor:'basecolor-4k.jpg',normal:'normal-opengl-4k.jpg',roughness:'roughness-4k.jpg',height:'height-4k.jpg'},
+  source:{library:'Poly Haven',asset:'Terracotta Floor Tiles (terracotta_floor_tiles)',url:'https://polyhaven.com/a/terracotta_floor_tiles',license:'CC0 1.0 Universal (public domain)'},
+  driveNative:null,drive16k:null},
 ];
 export const ceramicScenes=[
- {id:'kitchen',name:'The slab kitchen',surface:'Backsplash wall and island front',mask:'M120 82H1135V370H120Z M120 546H1135V720H120Z M98 803H1066V1198H98Z',exclude:['M150 600H295V722H150Z','M408 642H448V722H408Z','M562 600H628V724H562Z']},
- {id:'bathroom',name:'The stone bathroom',surface:'Wall and floor slabs',mask:'M0 20H82V1018H0Z M82 250H1254V1012H82Z M0 1012H1254V1254H0Z',exclude:['M765 550a145 145 0 1 0 290 0a145 145 0 1 0-290 0','M730 742H1150V1072H730Z','M38 838C40 792 96 820 210 816L548 816C606 816 626 844 623 892C618 968 592 1098 486 1101L186 1101C82 1098 44 962 38 838Z']},
- {id:'living',name:'The gallery living room',surface:'Media wall and floor slabs',mask:'M157 44H1254V900H157Z M0 900H1254V1254H0Z',exclude:['M152 596H384V824H152Z','M460 672H1059V822H460Z','M157 796H1100V906H157Z']},
+ {id:'kitchen',name:'The slab kitchen',surface:'Backsplash wall and island front'},
+ {id:'bathroom',name:'The stone bathroom',surface:'Wall and floor slabs'},
+ {id:'living',name:'The gallery living room',surface:'Media wall and floor slabs'},
 ];
