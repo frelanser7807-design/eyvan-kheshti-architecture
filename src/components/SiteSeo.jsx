@@ -63,7 +63,7 @@ export default function SiteSeo({ content, route }) {
   useEffect(() => {
     const brand = content?.brand || {};
     const name = brand.name || 'WORLD ARCH JOURNAL';
-    const siteUrl = String(import.meta.env.VITE_SITE_URL || FALLBACK_SITE_URL).replace(/\/$/, '');
+    const siteUrl = FALLBACK_SITE_URL;
     const normalizedPath = window.location.pathname.endsWith('/') ? window.location.pathname : `${window.location.pathname}/`;
     const canonicalUrl = `${siteUrl}${route?.name === 'material-studio' ? collectionProducts[0].path : normalizedPath === '/' ? '' : normalizedPath}`;
     const legalTitle = legalTitles[normalizedPath];
@@ -72,7 +72,7 @@ export default function SiteSeo({ content, route }) {
     const isCanonicalHost = ['worldarchjournal.com', 'www.worldarchjournal.com'].includes(window.location.hostname);
     const tourComingSoon = ['virtual-tour-the-voids', 'virtual-tour-narbon', 'virtual-tour-safadasht'].includes(route?.name) && item?.tourLive === false;
 
-    let title = 'WORLD ARCH JOURNAL | Facade, Spatial Design & Visualisation';
+    let title = 'Architecture Magazine & Design Services | World Arch Journal';
     let description = 'Explore global architecture, bespoke facade design, spatial design, architectural visualisation, BIM and Revit resources, original magazines and evidence-led research by World Arch Journal.';
     let image = absoluteAsset(siteUrl, DEFAULT_IMAGE);
     let ogType = 'website';
@@ -219,6 +219,7 @@ export default function SiteSeo({ content, route }) {
       .filter(Boolean))];
     const publisher = {
       '@type': 'Organization',
+      '@id': `${siteUrl}/#organization`,
       name,
       url: siteUrl,
       logo: { '@type': 'ImageObject', url: absoluteAsset(siteUrl, '/assets/brand/world-arch-wa-mark-v1.png') },
@@ -308,7 +309,7 @@ export default function SiteSeo({ content, route }) {
       structuredData = {
         '@context': 'https://schema.org',
         '@graph': [
-          { '@type': 'Article', headline: item.title, description: item.metaDescription || item.excerpt, mainEntityOfPage: canonicalUrl, image: [image], author: { '@type': 'Organization', name: item.author || 'World Arch Journal', url: `${siteUrl}/editorial-team/` }, publisher, articleSection: item.category, keywords: (item.tags || []).join(', '), inLanguage: 'en', isAccessibleForFree: true, ...(item.publishedAt ? { datePublished: item.publishedAt } : {}), ...(item.modifiedAt ? { dateModified: item.modifiedAt } : {}) },
+          { '@type': 'Article', headline: item.title, description: item.metaDescription || item.excerpt, mainEntityOfPage: canonicalUrl, image: [image], author: { '@type': 'Organization', name: item.author || 'World Arch Journal', url: `${siteUrl}/editorial-team/` }, publisher, articleSection: item.category, keywords: (item.tags || []).join(', '), citation: (item.evidence || []).map((source) => source.source_url).filter(Boolean), inLanguage: 'en', isAccessibleForFree: true, ...(item.publishedAt ? { datePublished: item.publishedAt } : {}), ...(item.modifiedAt ? { dateModified: item.modifiedAt } : {}) },
           breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Magazine', pathname: '/magazine/' }, { name: item.title, pathname: normalizedPath }]),
           ...(item.faq?.length ? [{ '@type': 'FAQPage', mainEntity: item.faq.map((entry) => ({ '@type': 'Question', name: entry.question, acceptedAnswer: { '@type': 'Answer', text: entry.answer } })) }] : []),
         ],
@@ -331,6 +332,13 @@ export default function SiteSeo({ content, route }) {
       ] };
     } else if (legalTitle) {
       structuredData = { '@context': 'https://schema.org', '@type': 'WebPage', name: legalTitle, description, url: canonicalUrl, inLanguage: 'en', publisher };
+    }
+
+    if (normalizedPath === '/' && !isMissing) {
+      structuredData = { '@context': 'https://schema.org', '@graph': [
+        { '@type': 'WebSite', '@id': `${siteUrl}/#website`, name, url: siteUrl, inLanguage: 'en', publisher },
+        structuredData,
+      ] };
     }
 
     let script = document.head.querySelector('script[data-eyvan-schema], script[data-static-schema]');
