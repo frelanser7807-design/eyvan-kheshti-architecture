@@ -30,7 +30,6 @@ import ProjectDetail from './components/ProjectDetail.jsx';
 import VideoLibrary from './components/VideoLibrary.jsx';
 import DesignServicesPage from './components/DesignServicesPage.jsx';
 import AtlasVillaCaseStudy from './components/AtlasVillaCaseStudy.jsx';
-import SafadashtTourComingSoon from './components/SafadashtTourComingSoon.jsx';
 import { defaultContent } from './data/defaultContent.js';
 import { articleBySlug } from './data/articles.js';
 import { magazineBySlug } from './data/magazines.js';
@@ -43,6 +42,7 @@ import { videoStoryBySlug } from './data/videoStories.js';
 
 const VirtualTourPage = lazy(() => import('./components/VirtualTourPage.jsx'));
 const NarbonVirtualTourPage = lazy(() => import('./components/NarbonVirtualTourPage.jsx'));
+const SafadashtVirtualTourPage = lazy(() => import('./components/SafadashtVirtualTourPage.jsx'));
 
 function currentRoute() {
   const normalizedPath = window.location.pathname.endsWith('/') ? window.location.pathname : `${window.location.pathname}/`;
@@ -186,7 +186,11 @@ export default function App() {
       <NarbonVirtualTourPage />
     </Suspense>
   );
-  if (route.name === 'virtual-tour-safadasht') page = <SafadashtTourComingSoon />;
+  if (route.name === 'virtual-tour-safadasht') page = (
+    <Suspense fallback={<main className="vt-loading"><span>WORLD ARCH JOURNAL</span><p>Preparing Villa Safadasht…</p></main>}>
+      <SafadashtVirtualTourPage />
+    </Suspense>
+  );
   if (route.name === 'product') page = <ProductPage product={product} missing={!product} />;
   if (route.name === 'command-center') page = <Suspense fallback={<main>Loading…</main>}><CommandCenter /></Suspense>;
   if (route.name === 'prompt-library') page = <PromptLibrary />;
