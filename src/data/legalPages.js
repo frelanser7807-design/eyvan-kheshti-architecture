@@ -60,7 +60,7 @@ export const legalPages = {
     portrait: { src: '/assets/brand/world-arch-wa-mark-v1.png', alt: 'World Arch Journal logo', caption: 'World Arch Journal · Architecture & Design', width: 1280, height: 1280 },
     lastUpdated: '2026-10-18',
     metaDescription: 'Discover World Arch Journal: practical architecture guides, villa and facade design, interiors, landscape concepts, visualisation and BIM.',
-    intro: 'World Arch Journal is an independent architecture publication and design platform exploring residential architecture, interiors, landscape, materials and building science. We connect practical design knowledge with architectural and interior design services.',
+    intro: 'About World Arch Journal: an independent architecture publication and design platform exploring residential architecture, interiors, landscape, materials and building science. We connect practical design knowledge with architectural and interior design services.',
     sections: [
       ['Architecture for everyday decisions', 'We publish practical, research-backed guides to residential architecture, connecting design ideas with building science, material choices and everyday use. Our readers are homeowners, builders and fellow architects who want to understand how better buildings are designed.'],
       ['What we cover', [
