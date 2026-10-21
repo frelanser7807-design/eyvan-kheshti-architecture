@@ -113,7 +113,7 @@ export default function SiteSeo({ content, route }) {
     } else if (route?.name === 'article' && item) {
       title = item.seoTitle || `${item.title} | ${name}`;
       description = item.metaDescription || item.excerpt;
-      image = absoluteAsset(siteUrl, item.image);
+      image = absoluteAsset(siteUrl, item.cover || item.image);
       ogType = 'article';
     } else if (route?.name === 'magazine' && item) {
       title = `${item.title} | ${name}`;
@@ -196,7 +196,7 @@ export default function SiteSeo({ content, route }) {
     setMeta('meta[property="og:title"]', { property: 'og:title', content: title });
     setMeta('meta[property="og:description"]', { property: 'og:description', content: description });
     setMeta('meta[property="og:image"]', { property: 'og:image', content: image });
-    setMeta('meta[property="og:image:alt"]', { property: 'og:image:alt', content: item?.imageAlt || `${name} architecture editorial` });
+    setMeta('meta[property="og:image:alt"]', { property: 'og:image:alt', content: item?.cover && item?.coverAlt ? item.coverAlt : (item?.imageAlt || `${name} architecture editorial`) });
     setMeta('meta[property="og:url"]', { property: 'og:url', content: canonicalUrl });
     setMeta('meta[name="twitter:card"]', { name: 'twitter:card', content: 'summary_large_image' });
     setMeta('meta[name="twitter:title"]', { name: 'twitter:title', content: title });

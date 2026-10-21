@@ -66,6 +66,15 @@ function EditorialFigure({ visual }) {
   );
 }
 
+function ArticleCover({ article }) {
+  return (
+    <figure className="ek-article-cover">
+      <img src={assetUrl(article.cover)} alt={article.coverAlt || article.imageAlt} loading="eager" decoding="async" width={article.coverWidth || 900} height={article.coverHeight || 1350} />
+      <figcaption>Cover · World Arch Journal</figcaption>
+    </figure>
+  );
+}
+
 function ArticleHero({ article }) {
   return (
     <figure className="ek-article-hero">
@@ -169,6 +178,7 @@ export default function ArticleReader({ article, onClose = () => undefined, stan
         </header>
 
         <article>
+          {article.cover && <ArticleCover article={article} />}
           {article.imageLead && <ArticleHero article={article} />}
           <div className="ek-article-heading">
             <small>{article.status}</small>
