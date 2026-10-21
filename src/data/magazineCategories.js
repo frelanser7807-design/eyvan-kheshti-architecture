@@ -20,7 +20,7 @@ const definitions = [
       'Architectural style becomes useful when it helps us read how a building was made, occupied and understood—not when it reduces history to a visual filter.',
       'This archive uses documented buildings and licensed images to connect form with social ambition, construction, preservation and contemporary relevance.',
     ],
-    articleSlugs: ['brutalist-architecture-history-features-buildings'],
+    articleSlugs: ['brutalist-architecture-history-features-buildings', 'frank-lloyd-wright-organic-architecture-guide'],
   },
   {
     slug: 'biophilic-design',
@@ -70,7 +70,7 @@ const definitions = [
       'A healthy home is shaped by ordinary spatial decisions: what can be heard, how daylight reaches deep rooms, whether circulation remains dignified and how the plan responds as daily life changes.',
       'These guides translate broad principles into room-scale questions while keeping individual needs, local standards and professional assessment in view.',
     ],
-    articleSlugs: ['apartment-acoustic-design', 'small-apartment-layout-storage-privacy-daylight', 'universal-design-homes-ageing-in-place', 'biophilic-design-architecture-wellbeing', 'small-courtyard-design-light-privacy-cooling'],
+    articleSlugs: ['apartment-acoustic-design', 'small-apartment-layout-storage-privacy-daylight', 'universal-design-homes-ageing-in-place', 'biophilic-design-architecture-wellbeing', 'small-courtyard-design-light-privacy-cooling', 'accessory-dwelling-units-complete-guide'],
   },
   {
     slug: 'courtyard-design',
@@ -130,7 +130,7 @@ const definitions = [
       'Building systems influence cost, programme, carbon, tolerances, transport and the freedom to change a project later. Labels such as prefab, modular or mass timber are starting points, not automatic guarantees of speed or sustainability.',
       'This topic compares systems through the decisions that matter before procurement: geometry, interfaces, local capability, certification, logistics and whole-life performance. Claims are tied to sources and their limitations.',
     ],
-    articleSlugs: ['design-for-disassembly-reversible-buildings', 'prefab-vs-modular-homes'],
+    articleSlugs: ['design-for-disassembly-reversible-buildings', 'prefab-vs-modular-homes', 'accessory-dwelling-units-complete-guide'],
   },
   {
     slug: 'bim-revit',
