@@ -30,6 +30,13 @@ export const collectionProducts = [{
   scene:'/assets/material-studio/travertine/scenes/villa.png',
   description:'Five travertine color studies across three exterior facades, with interactive surface lighting and original 4K PBR maps.',
   finishes:5,contexts:'3 facade studies',label:'STONE / TRAVERTINE',
+},{
+  id:'brick',name:'Clay brick',category:'brick',type:'brickwork',
+  path:'/materials/brick/brickwork/brick/',
+  image:'/assets/material-studio/brick/classic-red/preview.webp',
+  scene:'/assets/material-studio/brick/scenes/villa.png',
+  description:'Five clay brick color studies across three exterior facades, with interactive surface lighting and original 4K PBR maps.',
+  finishes:5,contexts:'3 facade studies',label:'BRICK / CLAY BRICK',
 }];
 export const categoryPath = id => `/materials/category/${id}/`;
 export const typePath = (category, type) => `${categoryPath(category)}${type}/`;

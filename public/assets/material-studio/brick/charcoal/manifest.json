@@ -1,0 +1,21 @@
+{
+  "id": "waj-brick-charcoal",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "method": "Original periodic procedural masonry, directly sampled at 4096 x 4096; no enlargement or manufacturer scan.",
+  "tileMeters": [
+    1.2,
+    1.2
+  ],
+  "normalConvention": "OpenGL +Y",
+  "heightBitDepth": 16,
+  "license": "Personal and commercial visualization permitted. Not a certified physical product.",
+  "sha256": {
+    "basecolor-4k.png": "87018980cf3617eb6c4e9bd99872e7c09673e3cf4efb14bff8fa981d7baf0acf",
+    "normal-opengl-4k.png": "8b2a2c96f1b5ea3103fe9e57bc95103c6860f2e6b373ecbce935fbd33417f4f7",
+    "roughness-4k.png": "aa6f29cf42b694b7e15e36f3d76bef4db371b3a93a26c0d1b54fb16b15f09e6e",
+    "height-16bit.png": "83d7b4b89f29b8dc09fbfdcb8a4a70929090360064402e948dd626dbba4b7c09"
+  }
+}
