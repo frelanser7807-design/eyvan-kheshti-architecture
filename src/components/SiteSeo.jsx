@@ -150,7 +150,7 @@ export default function SiteSeo({ content, route }) {
       title = `About World Arch Journal | ${name}`;
       description = 'World Arch Journal is an independent architecture journal and remote design studio — evidence-led guides, briefings, floor plans, facades and interiors.';
     } else if (route?.name === 'atlas-villa') {
-      title = `Atlas Villa — Residential Architecture Design Study | ${name}`;
+      title = `Atlas Villa — Residential Design Study | ${name}`;
       description = 'Explore Atlas Villa, a residential architectural design study by World Arch Journal, with selected interior concepts, a ground-floor plan presentation and a link to the digital project package.';
       image = absoluteAsset(siteUrl, atlasVilla.cover);
     } else if (route?.name === 'projects-hub') {
