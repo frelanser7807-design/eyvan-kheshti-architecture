@@ -30,8 +30,9 @@ test('modern villa FAQ is present in crawler-visible HTML and matches its schema
   const blocks = [...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map((match) => JSON.parse(match[1]));
   const faq = blocks.flatMap((block) => block['@graph'] || [block]).find((block) => block['@type'] === 'FAQPage');
   assert.equal(faq.mainEntity.length, article.faq.length);
+  const escaped = (text) => text.replace(/[&<>"']/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   for (const entry of article.faq) {
-    assert.ok(html.includes(`<summary>${entry.question}</summary>`));
-    assert.ok(html.includes(`<p>${entry.answer}</p>`));
+    assert.ok(html.includes(`<summary>${escaped(entry.question)}</summary>`));
+    assert.ok(html.includes(`<p>${escaped(entry.answer)}</p>`));
   }
 });

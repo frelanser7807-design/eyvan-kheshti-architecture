@@ -20,11 +20,6 @@ const modernVillaReimagined = {
   scope: 'A conceptual design guide. Climate, structure, accessibility, building regulations and energy performance require project-specific assessment.',
   tags: ['villa design', 'daylight', 'passive design', 'materials', 'adaptability'],
   evidence: [],
-  faq: [
-    { question: 'What makes a modern villa design work well?', answer: 'A considered villa combines site-specific daylight and shading, clear circulation, usable outdoor space, durable materials and rooms that can adapt as household needs change.' },
-    { question: 'Should daylight be considered before the floor plan?', answer: 'Study orientation, seasonal sun and shading early, alongside the room brief. Test the resulting layout for daylight, glare and overheating rather than assuming that more glazing always improves the home.' },
-    { question: 'How can a villa adapt to changing family needs?', answer: 'Separate permanent structure from adaptable partitions, coordinate service routes and consider how a ground-floor study could become an accessible bedroom. Structural and regulatory decisions require local professional review.' },
-  ],
   contentHtml: `
 <h2>Introduction: Why the Villa Needs Rethinking</h2>
 <p>The villa, as an architectural type, has survived centuries of reinvention. From the Roman countryside estates to Palladio's symmetrical masterpieces and the glass-box experiments of the mid-twentieth century, each era has redefined what it means to dwell well on a single plot of land. Today, the modern villa faces a new set of pressures: rising land costs, climate uncertainty, the permanent arrival of remote work, and homeowners who expect their houses to function as offices, gyms, retreats, and entertainment venues simultaneously.</p>
@@ -85,6 +80,32 @@ const modernVillaReimagined = {
   
     <p><strong>See the principles built:</strong> <a href="/projects/the-voids-villa/">The Voids Villa</a> organises a home around courtyards and light, <a href="/projects/narbon-villa/">Narbon Villa</a> grows from an inherited orchard, and <a href="/projects/villa-safadasht/">Villa Safadasht</a> suspends its private rooms above a garden passage — each with plans and a project guide. To apply the same principles to your own plot, start with the studio's <a href="/services/">villa design services</a>.</p>
   `,
+  faq: [
+    {
+      question: "What defines a modern villa today?",
+      answer: "A modern villa is no longer defined by size or expensive finishes. It earns its value through intelligent planning, environmental responsiveness and a plan shaped around how people actually live — serving as home, office and retreat at once — rather than through square footage alone."
+    },
+    {
+      question: "Why should daylight be planned before the room layout in a villa?",
+      answer: "Because daylight governs mood, energy consumption, the perception of space and even property value. The article recommends mapping the sun's path for the specific site first, placing living spaces to harvest morning and midday light, and shading south-facing glazing externally with overhangs, brise-soleil or planting. Homes designed around passive solar principles routinely cut artificial lighting demand by a third or more."
+    },
+    {
+      question: "What is a compressed core in villa design?",
+      answer: "A compressed core gathers the service functions — staircase, bathrooms, storage and plant rooms — into one compact central or lateral block, freeing the perimeter for continuous, adaptable living space. It shortens plumbing and duct runs and removes wasted corridors: any hallway longer than about two metres that serves no daylight or storage function is a sign the core has not been compressed enough."
+    },
+    {
+      question: "Which materials work best in a modern villa?",
+      answer: "A limited palette of three or four primary materials, each used honestly and consistently, so stone reads as stone, timber as timber and concrete as concrete. The article suggests letting one material, such as a travertine wall, run from exterior to interior so the boundary dissolves, and choosing finishes that age gracefully — because every material decision is also a maintenance decision."
+    },
+    {
+      question: "How can a villa be designed to adapt as a family's needs change?",
+      answer: "By separating the permanent from the provisional: a robust structural shell with a lightweight, reconfigurable interior. Minimise load-bearing internal walls, consolidate wet services so kitchens and bathrooms can be relocated without structural surgery, and allow generous floor-to-ceiling heights — so a ground-floor study today can become an accessible bedroom tomorrow."
+    },
+    {
+      question: "How can energy performance be made part of a villa's design instead of hidden?",
+      answer: "By designing the systems in from the first sketch rather than bolting them on: photovoltaic arrays integrated into the roof geometry, a green roof treated as a fifth facade, and a simple energy display showing consumption, generation and indoor air quality. Occupants who can see their energy feedback consistently use less energy, and the data lets architects verify the design performs as intended."
+    }
+  ],
   published: true,
 };
 
