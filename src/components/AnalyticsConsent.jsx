@@ -38,7 +38,11 @@ function loadGoogleAnalytics() {
     ad_personalization: 'denied',
     wait_for_update: 500,
   });
-  updateGoogleConsent('granted');
+  // Advanced consent mode: the tag loads for every visitor with storage
+  // denied by default. Until the visitor grants consent, Google receives
+  // only cookieless pings and no analytics cookies are set. A stored
+  // 'granted' choice is re-applied before the first page view.
+  if (localStorage.getItem(CONSENT_KEY) === 'granted') updateGoogleConsent('granted');
   window.gtag('config', MEASUREMENT_ID, {
     anonymize_ip: true,
     allow_google_signals: false,
@@ -87,8 +91,9 @@ export default function AnalyticsConsent() {
   const [open, setOpen] = useState(() => !localStorage.getItem(CONSENT_KEY));
 
   useEffect(() => {
+    loadGoogleAnalytics();
     if (choice === 'granted') {
-      loadGoogleAnalytics();
+      updateGoogleConsent('granted');
       loadMicrosoftClarity();
     }
     if (choice === 'denied') {
