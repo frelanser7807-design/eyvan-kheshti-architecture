@@ -9,6 +9,7 @@ const apartmentCrossVentilation = {
   status: 'APARTMENT PERFORMANCE CLUSTER · 2026',
   excerpt: 'Cross ventilation is not achieved by adding more windows. It depends on pressure, a complete air path and an operating plan that still works when noise, heat, smoke or security keeps openings closed.',
   image: '/assets/articles/apartment-cross-ventilation/hero-air-path.png',
+  imageWebp: '/assets/articles/apartment-cross-ventilation/hero-air-path.webp',
   imageWidth: 1600,
   imageHeight: 900,
   imageAlt: 'Original apartment section diagram showing a complete cross-ventilation path between opposite facades',

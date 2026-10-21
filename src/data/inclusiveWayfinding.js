@@ -9,6 +9,7 @@ const inclusiveWayfinding = {
   status: 'INTERNATIONAL DESIGN GUIDE · 2026',
   excerpt: 'Good wayfinding is built into the route, thresholds, landmarks and information hierarchy—not solved by adding a sign at every junction. A practical guide for inclusive civic, cultural and public interiors.',
   image: '/assets/articles/inclusive-wayfinding-public-buildings/hero.png',
+  imageWebp: '/assets/articles/inclusive-wayfinding-public-buildings/hero.webp',
   imageWidth: 1536,
   imageHeight: 1024,
   imageAlt: 'Bright civic library lobby with clear destinations, a tactile route and visitors with different mobility needs',

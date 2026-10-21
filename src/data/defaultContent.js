@@ -226,23 +226,6 @@ export const defaultContent = {
       published: true,
     },
   ],
-  ebooks: [
-    {
-      id: 'architecture-ebooks-opening',
-      title: 'Architecture E-Books',
-      titleFa: 'ای‌بوک‌های معماری',
-      category: 'WORLD ARCH Editions',
-      categoryFa: 'انتشارات معماری جهانی',
-      meta: 'COMING SOON',
-      excerpt: 'Original architecture editions are in development. Selected pages or chapters are planned as free previews, with complete editions offered as future paid downloads after editorial, rights, delivery and payment checks. Nothing is for sale yet.',
-      excerptFa: 'ای‌بوک‌های اصیل معماری در حال توسعه‌اند؛ بخش‌هایی از هر کتاب به‌صورت پیش‌نمایش رایگان و نسخهٔ کامل در آینده پس از کنترل محتوایی، حقوقی، تحویل و پرداخت عرضه می‌شود. هنوز فروشی فعال نیست.',
-      image: '/assets/candidates/office-world/scene-05-client-presentation-room-v1.png',
-      url: '',
-      availability: 'coming_soon',
-      accessModel: 'free_preview_future_paid_full_edition',
-      published: true,
-    },
-  ],
   products: [
     {
       id: 'interior-design-presentation-template',
@@ -288,7 +271,7 @@ export const defaultContent = {
         '/assets/shop/presentations/almora-villa/gallery-07.jpg',
       ],
       checkoutUrl: 'https://www.etsy.com/uk/listing/4587670228/architecture-presentation-template?click_key=bb0ea10c615be26a0168d769cd08eb22023bcedb%3A4587670228&click_sum=a90c5aed&sr_prefetch=1&pf_from=shop_home&ref=shop_home_active_1&dd=1',
-      seoTitle: 'Architecture Presentation Template | 20 Editable PowerPoint Slides',
+      seoTitle: 'Almora Villa Presentation Template | 20 Slides',
       metaDescription: 'Editable 20-slide architecture PowerPoint template for villa projects, with site analysis, plans, sections, renders and material palettes. Buy on Etsy for £5.',
       publishedAt: '2026-10-03',
       modifiedAt: '2026-10-03',

@@ -94,11 +94,11 @@ export default function SiteSeo({ content, route }) {
       ogType = 'video.other';
     } else if (route?.name === 'newsletter-hub') {
       title = `Architecture Newsletter | ${name}`;
-      description = 'Dated architecture news editions with fresh reporting, direct source links and original editorial commentary.';
+      description = 'Dated architecture news editions with fresh reporting, direct source links and original editorial commentary — plus long-form analysis and field notes.';
       image = absoluteAsset(siteUrl, newsletterIssues[0].image);
     } else if (route?.name === 'analysis-hub') {
       title = `Architecture Analysis & Field Notes | ${name}`;
-      description = 'Independent long-form architecture analysis and practical building field notes, separate from the daily news briefing.';
+      description = 'Independent long-form architecture analysis and practical building field notes from World Arch Journal, separate from the daily news briefing.';
       image = absoluteAsset(siteUrl, editorialArticles[0].image);
     } else if (['newsletter-issue', 'analysis-article'].includes(route?.name) && item) {
       title = item.seoTitle;
@@ -120,7 +120,7 @@ export default function SiteSeo({ content, route }) {
       image = absoluteAsset(siteUrl, item.image);
       ogType = 'article';
     } else if (route?.name === 'presentation-studio') {
-      title = `Architecture Presentation Templates & Custom Design | ${name}`;
+      title = `Architecture Presentation Templates | ${name}`;
       description = 'Explore interior and exterior architecture presentation formats, editable slide decks, design boards and social cover systems, plus bespoke presentation design by World Arch Journal.';
       image = absoluteAsset(siteUrl, '/assets/candidates/office-world/scene-06-material-model-lab-v1.png');
     } else if (route?.name === 'travertine-studio') {
@@ -144,7 +144,7 @@ export default function SiteSeo({ content, route }) {
       description = 'Send a project brief for villa design, floor plans, facade, kitchen, living spaces, bathrooms, gardens, roof gardens, render concepts or a combined architecture package.';
     } else if (route?.name === 'about') {
       title = `About World Arch Journal | ${name}`;
-      description = 'World Arch Journal is an independent architecture journal and remote design studio founded by an architect and interior designer with more than fifteen years of independent practice — evidence-led guides and briefings, plus floor plans, facades and interiors designed for clients worldwide.';
+      description = 'World Arch Journal is an independent architecture journal and remote design studio — evidence-led guides, briefings, floor plans, facades and interiors.';
     } else if (route?.name === 'atlas-villa') {
       title = `Atlas Villa — Residential Architecture Design Study | ${name}`;
       description = 'Explore Atlas Villa, a residential architectural design study by World Arch Journal, with selected interior concepts, a ground-floor plan presentation and a link to the digital project package.';
@@ -163,7 +163,7 @@ export default function SiteSeo({ content, route }) {
       image = absoluteAsset(siteUrl, item.cover);
     } else if (route?.name === 'shop') {
       title = `Architecture Shop | ${name}`;
-      description = 'Explore architecture presentation formats, digital resources, original BIM and Revit files and editorial e-books by World Arch Journal, with a clear link to the Etsy shop.';
+      description = 'Explore architecture presentation formats, digital resources and original BIM and Revit files by World Arch Journal, with a clear link to the Etsy shop.';
     } else if (route?.name === 'product' && item) {
       title = item.seoTitle || `${item.title} | ${name}`;
       description = item.metaDescription || item.excerpt;

@@ -2,7 +2,7 @@ const modernVillaReimagined = {
   id: 'article-modern-villa-reimagined',
   slug: 'modern-villa-reimagined-7-design-principles',
   title: 'The Modern Villa Reimagined: 7 Design Principles for Contemporary Living',
-  seoTitle: 'The Modern Villa Reimagined: 7 Design Principles for Contemporary Living',
+  seoTitle: 'Modern Villa Reimagined: 7 Design Principles',
   metaDescription: '7 design principles for the modern villa: daylight planning, material honesty, energy performance, flexibility and arrival sequence.',
   category: 'Design Principles',
   meta: '9 MIN READ',

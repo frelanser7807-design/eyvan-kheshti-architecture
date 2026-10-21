@@ -14,7 +14,6 @@ export const projects = [
     detailPath: '/projects/the-voids-villa/',
     tourPath: '/virtual-tours/the-voids-villa/',
     guidePath: '/downloads/the-voids-villa-project-guide.pdf',
-    drawingPackPath: '/downloads/the-voids-villa-english-drawing-pack.zip',
     features: ['3D WALK', '360 TOUR', 'PLANS', 'PDF GUIDE'],
     facts: [
       ['Location', 'Koohsar, Karaj, Iran'],
@@ -52,7 +51,6 @@ export const projects = [
     detailPath: '/projects/narbon-villa/',
     tourPath: '/virtual-tours/narbon-villa/',
     guidePath: '/downloads/narbon-villa-project-guide.pdf',
-    drawingPackPath: '/downloads/narbon-villa-english-drawing-pack.zip',
     features: ['360 TOUR', 'REAL PHOTOS', 'PLANS', 'PDF GUIDE'],
     introHeading: 'An orchard pavilion cut by air, sky and memory.',
     intro: 'Narbon Villa begins with an inherited landscape rather than a freestanding object. The design preserves the old garden edge, establishes a cooler sunken threshold and distributes movement through two deep sky rifts that join the orchard, interior rooms and roof.',
