@@ -599,7 +599,7 @@ export const october21Briefing = {
         'Our reading: the claim to test is not the silhouette but the invitation. A cultural building earns the word “public” in the hours when nothing is staged — who crosses the roof, who can afford to linger, and how the landscape is maintained. Opening announcements cannot answer that; the first season’s patterns of use will.'
       ],
       source: { label: 'ArchDaily — Snøhetta’s Shanghai Grand Opera House opens, 19 October 2026', url: 'https://www.archdaily.com/1187067/snohettas-shanghai-grand-opera-house-opens-with-a-sweeping-roof-and-panoramic-river-views' },
-      corroboratingSources: [{ label: 'Designboom — Snøhetta’s Shanghai Grand Opera House opens in China, 20 October 2026', url: 'https://www.designboom.com/architecture/snohetta-shanghai-grand-opera-house-spiraling-staircase-public-rooftop/?utm_source=designboom+daily&utm_medium=email&utm_campaign=sn%C3%B8hetta+unveils+completed+shanghai+grand+opera+house+with+spiraling+public+rooftop&utm_cat=articles' }]
+      corroboratingSources: [{ label: 'Designboom — Snøhetta’s Shanghai Grand Opera House opens in China, 20 October 2026', url: 'https://www.designboom.com/architecture/snohetta-shanghai-grand-opera-house-spiraling-staircase-public-rooftop/' }]
     },
     {
       kind: 'news',
@@ -680,7 +680,7 @@ export const october21Briefing = {
   ],
   sources: [
     { label: 'ArchDaily — Snøhetta’s Shanghai Grand Opera House opens, 19 October 2026', url: 'https://www.archdaily.com/1187067/snohettas-shanghai-grand-opera-house-opens-with-a-sweeping-roof-and-panoramic-river-views' },
-    { label: 'Designboom — Snøhetta’s Shanghai Grand Opera House opens in China, 20 October 2026', url: 'https://www.designboom.com/architecture/snohetta-shanghai-grand-opera-house-spiraling-staircase-public-rooftop/?utm_source=designboom+daily&utm_medium=email&utm_campaign=sn%C3%B8hetta+unveils+completed+shanghai+grand+opera+house+with+spiraling+public+rooftop&utm_cat=articles' },
+    { label: 'Designboom — Snøhetta’s Shanghai Grand Opera House opens in China, 20 October 2026', url: 'https://www.designboom.com/architecture/snohetta-shanghai-grand-opera-house-spiraling-staircase-public-rooftop/' },
     { label: 'ArchDaily — Wang Shu and Lu Wenyu on the 2027 Venice Architecture Biennale, 20 October 2026', url: 'https://www.archdaily.com/1187187/architecture-must-return-to-its-essence-wang-shu-and-lu-wenyu-on-the-2027-venice-architecture-biennale' },
     { label: 'La Biennale di Venezia — 2027 Architecture Exhibition: curators, title and dates', url: 'https://biennale.com/venice-architecture.html' },
     { label: 'ArchDaily — Frank Lloyd Wright’s Taliesin West closes after fatal accident, 20 October 2026', url: 'https://www.archdaily.com/1187183/frank-lloyd-wrights-taliesin-west-closes-after-fatal-accident' },
