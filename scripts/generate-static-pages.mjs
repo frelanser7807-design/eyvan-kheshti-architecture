@@ -338,7 +338,7 @@ for (const project of projects) {
   const facts = project.facts.map(([label, value]) => `<li><strong>${escapeHtml(label)}:</strong> ${escapeHtml(value)}</li>`).join('');
   const drawings = project.drawings.map(([label, image]) => `<figure><img src="${escapeHtml(image)}" alt="${escapeHtml(`${project.title} ${label}`)}" loading="lazy" /><figcaption>${escapeHtml(label)} · English editorial redraw</figcaption></figure>`).join('');
   const projectLinks = [
-    `<a href="${escapeHtml(project.tourPath)}">Enter the interactive tour</a>`,
+    ...(project.tourLive === false ? [] : [`<a href="${escapeHtml(project.tourPath)}">Enter the interactive tour</a>`]),
     ...(project.guidePath ? [`<a href="${escapeHtml(project.guidePath)}">Download PDF guide</a>`] : []),
     ...(project.drawingPackPath ? [`<a href="${escapeHtml(project.drawingPackPath)}">Download English drawing pack</a>`] : []),
   ].join(' · ');
@@ -346,6 +346,12 @@ for (const project of projects) {
   const schema = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: project.title, description: project.description, url: `${siteUrl}${pathname}`, image: absoluteUrl(project.cover), inLanguage: 'en', creator: { '@type': 'Organization', name: project.studio }, locationCreated: { '@type': 'Place', name: project.location }, publisher };
   await emit(pathname, preparePage({ pathname, title: `${project.title}: ${project.titleSuffix || '3D Tour, Plans & Project Guide'} | ${siteName}`, description: project.description, image: project.cover, imageAlt: project.coverAlt, schema, body }));
 
+  if (project.tourLive === false) {
+    const comingSoonDescription = project.tourMetaDescription || `The ${project.title} virtual tour is being rebuilt and returns soon. The complete project file — plans, drawings and the PDF project guide — is open now.`;
+    const comingSoonSchema = { '@context': 'https://schema.org', '@type': 'WebPage', name: `${project.title} Virtual Tour — Coming Soon`, description: comingSoonDescription, url: `${siteUrl}${project.tourPath}`, image: absoluteUrl(project.cover), inLanguage: 'en', isPartOf: { '@type': 'CreativeWork', name: project.title, url: `${siteUrl}${project.detailPath}` }, publisher };
+    const comingSoonBody = `<main class="seo-route-fallback"><a href="${escapeHtml(project.detailPath)}">WORLD ARCH JOURNAL / ${escapeHtml(project.title)}</a><article><header><small>VIRTUAL TOUR · IN REBUILD</small><h1>${escapeHtml(project.title)} virtual tour — coming soon</h1><p>${escapeHtml(comingSoonDescription)}</p></header><figure><img src="${escapeHtml(project.cover)}" alt="${escapeHtml(project.coverAlt)}" width="1600" height="900" fetchpriority="high" /></figure><p>This tour is being rebuilt and will return only when it meets the journal's quality standard. Until then, the complete project file is open.</p><p><a href="${escapeHtml(project.detailPath)}">Read the complete project file</a>${project.guidePath ? ` · <a href="${escapeHtml(project.guidePath)}">Download the project guide</a>` : ''}</p></article></main>`;
+    await emit(project.tourPath, preparePage({ pathname: project.tourPath, title: `${project.title} Virtual Tour — Coming Soon | ${siteName}`, description: comingSoonDescription, image: project.cover, imageAlt: project.coverAlt, schema: comingSoonSchema, body: comingSoonBody, preloadImage: project.cover, robots: 'noindex, follow, max-image-preview:large' }));
+  } else {
   const tourDescription = project.tourMetaDescription || `Enter an interactive spatial tour of ${project.title} in ${project.location}, with project context and links to drawings and the complete architecture guide.`;
   const tourSchema = { '@context': 'https://schema.org', '@graph': [
     { '@type': 'CreativeWork', name: `${project.title} Virtual Architecture Tour`, description: tourDescription, url: `${siteUrl}${project.tourPath}`, image: absoluteUrl(project.cover), inLanguage: 'en', about: { '@type': 'ArchitecturalStructure', name: project.title, address: project.location }, creator: publisher, isPartOf: { '@type': 'CreativeWork', name: project.title, url: `${siteUrl}${project.detailPath}` } },
@@ -353,6 +359,7 @@ for (const project of projects) {
   ] };
   const tourBody = `<main class="seo-route-fallback"><a href="${escapeHtml(project.detailPath)}">WORLD ARCH JOURNAL / ${escapeHtml(project.title)}</a><article><header><small>INTERACTIVE ARCHITECTURE TOUR</small><h1>${escapeHtml(project.title)} virtual tour</h1><p>${escapeHtml(tourDescription)}</p></header><figure><img src="${escapeHtml(project.cover)}" alt="${escapeHtml(project.coverAlt)}" width="1600" height="900" fetchpriority="high" /></figure><p>This experience is an editorial spatial interpretation. Use the project page for verified credits, source links, plans and context.</p><p><a href="${escapeHtml(project.detailPath)}">Read the complete project file</a>${project.guidePath ? ` · <a href="${escapeHtml(project.guidePath)}">Download the project guide</a>` : ''}</p></article></main>`;
   await emit(project.tourPath, preparePage({ pathname: project.tourPath, title: `${project.title} Virtual Architecture Tour | ${siteName}`, description: tourDescription, image: project.cover, imageAlt: project.coverAlt, schema: tourSchema, body: tourBody, preloadImage: project.cover }));
+  }
 }
 
 const promptsPath = '/prompts/';
@@ -454,7 +461,7 @@ const sitemapRecords = [
   { pathname: '/services/custom-plan-design/', lastmod: '2026-10-20', image: { loc: atlasVilla.cover, title: 'Architecture and interior design project enquiry' } },
   { pathname: atlasPath, lastmod: '2026-10-11', image: { loc: atlasVilla.cover, title: 'Atlas Villa residential architecture design study' } },
   ...projects.map((project) => ({ pathname: project.detailPath, lastmod: '2026-10-06', image: { loc: project.cover, title: project.title, caption: project.coverAlt } })),
-  ...projects.map((project) => ({ pathname: project.tourPath, lastmod: '2026-10-06', image: { loc: project.cover, title: `${project.title} virtual tour`, caption: project.coverAlt } })),
+  ...projects.filter((project) => project.tourLive !== false).map((project) => ({ pathname: project.tourPath, lastmod: '2026-10-06', image: { loc: project.cover, title: `${project.title} virtual tour`, caption: project.coverAlt } })),
   { pathname: promptsPath, lastmod: '2026-09-27' },
   ...promptItems.filter((item) => item.access === 'free').map((item) => ({ pathname: `/prompts/${item.id}/`, lastmod: item.modifiedAt || item.publishedAt || '2026-09-27', image: { loc: item.image, title: item.title, caption: item.summary } })),
   { pathname: shopPath, lastmod: '2026-10-05', image: { loc: publishedProducts[0]?.image, title: 'World Arch Journal architecture shop' } },
