@@ -568,11 +568,13 @@ export const october21Briefing = {
   author: 'World Arch Journal',
   authorUrl: '/editorial-team/',
   publishedAt: '2026-10-21',
+  updatedAt: '2026-10-21',
   feedPublishedAt: '2026-10-21T06:15:00Z',
   sourcesCheckedAt: '2026-10-21',
-  image: '/assets/editorial/newsletter/briefing-2026-10-21.svg',
-  imageAlt: 'Original editorial diagram of a sweeping public roofline above a river, linking openings, heritage and public decision-making',
-  imageCredit: 'World Arch Journal original editorial diagram for this edition; not a photograph or depiction of a reported project.',
+  image: '/assets/editorial/newsletter/briefing-2026-10-21-cover.jpg',
+  imageAlt: 'The Musée d’Orsay beside the Seine in Paris at dusk, seen from the Pont Royal',
+  imageCredit: 'The Musée d’Orsay’s Seine facade in Paris — the surface carrying Jenny Holzer’s ÉCLAIRÉ projections in story 05. Photo: Pierre Blaché via Wikimedia Commons, CC0 1.0.',
+  imageAttribution: { creator: 'Pierre Blaché', sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pont_Royal_and_Mus%C3%A9e_d%27Orsay,_Paris_10_July_2020.jpg', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/', licenseLabel: 'CC0 1.0' },
   analysisSummary: 'Editorial lens: this week’s stories treat architecture as a public trust — who a building serves, who keeps it safe and who gets to decide its future.',
   intro: 'This edition selects six reports published on 19–21 October 2026 and checked on 21 October. ArchDaily and Designboom both report the Shanghai opening; La Biennale di Venezia’s own pages confirm the 2027 exhibition’s curators, title and dates; election figures are those reported by Architectural Record. “Our reading” is independent commentary, not on-site reporting. Estimated reading time: eight minutes.',
   corrections: [],
@@ -605,9 +607,7 @@ export const october21Briefing = {
       kind: 'news',
       heading: '02 / Venice Biennale 2027 curators: architecture must return to its essence',
       sourcePublishedAt: '2026-10-20',
-      illustration: '/assets/editorial/newsletter/briefing-2026-10-21-biennale.svg',
-      illustrationAlt: 'Original editorial diagram of building blocks being assembled by hand, as a symbol of making',
-      illustrationCredit: 'World Arch Journal original diagram for this edition; a symbol of construction and craft, not a project image.',
+      photo: { src: '/assets/editorial/newsletter/briefing-2026-10-21-ningbo-museum.jpg', alt: 'The Ningbo Museum in China, its sloped facade of recycled tiles and bricks above a timber terrace', caption: 'Ningbo Museum, China, designed by Wang Shu and Lu Wenyu’s Amateur Architecture Studio — the 2027 Biennale curators’ own built work, shown as context for their exhibition. Photo: xiquinhosilva via Wikimedia Commons, CC BY 4.0.', sourceUrl: 'https://commons.wikimedia.org/wiki/File:Ningbo_Museum_-_55495801930.jpg', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/', licenseLabel: 'CC BY 4.0' },
       paragraphs: [
         'In an interview published on 20 October, Wang Shu and Lu Wenyu set out their curatorial vision for the 20th International Architecture Exhibition of La Biennale di Venezia. Titled “Do Architecture – For the Possibility of Coexistence Facing a Real Reality”, the exhibition runs from 8 May to 21 November 2027 across the Giardini, the Arsenale and venues throughout Venice. The curators argue that architecture has drifted from lived reality through abstraction, commercialisation and digitalisation, and call for a return to materials, construction, local knowledge and direct experience — the ground their own Amateur Architecture Studio, founded in 1997, has worked on for three decades. La Biennale’s own pages confirm the curators, the title and the dates; the title itself was first announced in May 2026, so the interview is an elaboration, not the announcement.',
         'Our reading: “return to essence” is easy to print and hard to curate. The useful question for 2027 is which exhibits demonstrate making — full-scale construction, repair, reuse — rather than merely describing it. If the show holds itself to that test, it could reset what a biennale gallery is for.'
@@ -619,9 +619,7 @@ export const october21Briefing = {
       kind: 'news',
       heading: '03 / Taliesin West closes after a fatal accident',
       sourcePublishedAt: '2026-10-20',
-      illustration: '/assets/editorial/newsletter/briefing-2026-10-21-taliesin.svg',
-      illustrationAlt: 'Original editorial diagram of low desert roof planes crossed by wind lines',
-      illustrationCredit: 'World Arch Journal original diagram for this edition; not a depiction of Taliesin West.',
+      photo: { src: '/assets/editorial/newsletter/briefing-2026-10-21-taliesin-west.jpg', alt: 'Taliesin West in Scottsdale, Arizona, with its triangular pool, red roofs and desert stone walls', caption: 'Taliesin West, Scottsdale, Arizona — Frank Lloyd Wright’s winter home and studio. Photo: Greg O’Beirne via Wikimedia Commons, CC BY 2.5.', sourceUrl: 'https://commons.wikimedia.org/wiki/File:TaliesinWest03_gobeirne.jpg', licenseUrl: 'https://creativecommons.org/licenses/by/2.5/', licenseLabel: 'CC BY 2.5' },
       paragraphs: [
         'Taliesin West, Frank Lloyd Wright’s winter home and studio in Scottsdale, Arizona, is closed to the public until further notice, ArchDaily reported on 20 October. A visitor died on 16 October after strong winds dislodged roofing material during a walking tour; the Scottsdale Fire Department describes the incident as weather-related, and an investigation is under way. Architectural Record identifies the visitor as Rogério Renato Mateucci, 55, rector of the Pontifical Catholic University of Paraná in Brazil. The Frank Lloyd Wright Foundation, which manages the property, confirmed the closure and said it would share no further details while officials complete their work.',
         'Our reading: historic houses open to the public carry two duties at once — preservation, and the safety of every visitor on every day, including days of extreme weather. The responsible sequence is the one now under way: close, investigate, publish the findings. Commentary should wait for the investigators’ evidence rather than speculate about a building that is also a workplace and a place of mourning.'
@@ -632,9 +630,7 @@ export const october21Briefing = {
       kind: 'news',
       heading: '04 / Riken Yamamoto loses his bid for mayor of Yokohama',
       sourcePublishedAt: '2026-10-20',
-      illustration: '/assets/editorial/newsletter/briefing-2026-10-21-yamamoto.svg',
-      illustrationAlt: 'Original editorial diagram linking a neighbourhood service hub to a ballot box',
-      illustrationCredit: 'World Arch Journal original diagram for this edition; not a depiction of any building or campaign material.',
+      photo: { src: '/assets/editorial/newsletter/briefing-2026-10-21-yamamoto-hotakubo.jpg', alt: 'Hotakubo housing in Kumamoto, Japan — concrete housing blocks with curved roofs around a planted courtyard', caption: 'Hotakubo housing in Kumamoto, designed by Riken Yamamoto: community housing of the kind his Yokohama platform proposed; his earlier built work, not campaign material. Photo: Yoit via Wikimedia Commons, CC0 1.0.', sourceUrl: 'https://commons.wikimedia.org/wiki/File:%E7%86%8A%E6%9C%AC%E7%9C%8C%E5%96%B6%E4%BF%9D%E7%94%B0%E7%AA%AA%E7%AC%AC%E4%B8%80%E5%9B%A3%E5%9C%B0_03.jpg', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/', licenseLabel: 'CC0 1.0' },
       paragraphs: [
         'Riken Yamamoto, the 81-year-old Pritzker Prize laureate, has lost his bid to become mayor of Yokohama, Architectural Record reported on 20 October. Running as an independent in the special election held on 18 October, he proposed “neighbourhood association salons” that would consolidate public services, together with a free minibus and taxi network. He finished seventh with just over 49,000 votes; the winner, lawyer Atsumi Harasawa, took about 552,200. The election followed the resignation of the previous mayor, after an investigation confirmed he had verbally abused staff.',
         'Our reading: architects often argue that consolidating everyday services into walkable neighbourhood hubs is a spatial policy before it is a political one. Yokohama’s result does not settle that argument — local campaigns turn on trust, organisation and timing — but it marks a rare, measurable test of whether design thinking about community infrastructure can be translated into a democratic mandate.'
@@ -645,9 +641,7 @@ export const october21Briefing = {
       kind: 'news',
       heading: '05 / Jenny Holzer turns the Musée d’Orsay into a page of history',
       sourcePublishedAt: '2026-10-19',
-      illustration: '/assets/editorial/newsletter/briefing-2026-10-21-holzer.svg',
-      illustrationAlt: 'Original editorial diagram of lines of text projected across a classical museum facade',
-      illustrationCredit: 'World Arch Journal original diagram for this edition; not a photograph of the Musée d’Orsay or of the exhibition.',
+      photo: { src: '/assets/editorial/newsletter/briefing-2026-10-21-orsay.jpg', alt: 'The Musée d’Orsay in Paris seen from the Pont Royal across the Seine', caption: 'The Musée d’Orsay from the Pont Royal, Paris — the Seine-facing facade carrying Holzer’s ÉCLAIRÉ projections on the evenings of 18–22 October. Photo: Gerda Arendt via Wikimedia Commons, CC0 1.0.', sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_d%27Orsay,_Paris,_from_Pont_Royal.jpg', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/', licenseLabel: 'CC0 1.0' },
       paragraphs: [
         'Jenny Holzer’s exhibition J’ai Vu (I Saw) opened on 20 October at the Musée d’Orsay in Paris, Designboom reported on 19 October. The former Gare d’Orsay railway station becomes a surface for language: ÉCLAIRÉ, a series of monumental light projections on the Seine-facing facade, runs on the evenings of 18–22 October and draws on roughly 250 excerpts by 34 authors, including Van Gogh, Cézanne, Flaubert and Zola. Inside, LED text installations move through four galleries, and 19 engraved stone works — 17 benches and two columns — slow the same words down. Across the exhibition, more than 750 texts from 424 sources and 73 authors are cited.',
         'Our reading: the exhibition sets two attitudes to heritage side by side — projection, which is temporary and reversible, and engraving, which is permanent. On a protected facade, that distinction matters more than the spectacle. Light lets a historic building speak for five evenings and then hands it back unchanged.'
