@@ -137,6 +137,7 @@ const publisher = {
   '@id': `${siteUrl}/#organization`,
   name: siteName,
   url: siteUrl,
+  description: 'World Arch Journal is an English-language online architecture magazine publishing evidence-led articles, analysis and field notes on architecture, interiors and cities, alongside architecture and interior design services offered remotely worldwide.',
   logo: { '@type': 'ImageObject', url: absoluteUrl('/assets/brand/world-arch-wa-mark-v1.png') },
   sameAs: [defaultContent.brand.youtube, defaultContent.brand.instagram, defaultContent.brand.facebook, defaultContent.brand.linkedin, defaultContent.brand.pinterest, defaultContent.brand.whatsapp].filter(Boolean),
 };

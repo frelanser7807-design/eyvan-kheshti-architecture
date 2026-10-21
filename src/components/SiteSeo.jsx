@@ -222,6 +222,7 @@ export default function SiteSeo({ content, route }) {
       '@id': `${siteUrl}/#organization`,
       name,
       url: siteUrl,
+      description: 'World Arch Journal is an English-language online architecture magazine publishing evidence-led articles, analysis and field notes on architecture, interiors and cities, alongside architecture and interior design services offered remotely worldwide.',
       logo: { '@type': 'ImageObject', url: absoluteAsset(siteUrl, '/assets/brand/world-arch-wa-mark-v1.png') },
       ...(sameAs.length ? { sameAs } : {}),
     };
