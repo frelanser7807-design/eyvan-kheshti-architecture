@@ -19,3 +19,13 @@ test('blocked browser storage preserves consent in memory without breaking tag s
   assert.equal(nodes.length, 1, 'tag must not be initialized twice');
   assert.ok(window.dataLayer.some((args) => args[0] === 'event' && args[1] === 'material_test'));
 });
+
+
+test('an article without optional tags cannot crash the homepage before analytics starts', async () => {
+  const source = (await readFile('src/components/SiteSearch.jsx', 'utf8')).split('export default function SiteSearch')[0].replace(/^import .*;\s*$/gm, '');
+  const context = { articles: [{ published:true, title:'A villa guide', excerpt:'Planning a home', category:'Architecture' }], magazines:[] };
+  vm.createContext(context);
+  const entries = vm.runInContext(source + '\ncontentEntries({});', context);
+  assert.equal(entries.length, 1);
+  assert.ok(entries[0].keywords.includes('A villa guide'));
+});

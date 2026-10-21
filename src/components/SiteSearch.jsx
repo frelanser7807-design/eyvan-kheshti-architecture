@@ -44,7 +44,7 @@ function contentEntries(content) {
     view: 'articles',
     kind: 'Article',
     article,
-    keywords: [article.title, article.excerpt, article.category, article.tags.join(' ')].join(' '),
+    keywords: [article.title, article.excerpt, article.category, (Array.isArray(article.tags) ? article.tags : []).join(' ')].join(' '),
   }));
   const magazineEntries = magazines.filter((magazine) => magazine.published).map((magazine) => ({
     title: magazine.title,
