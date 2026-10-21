@@ -1,3 +1,5 @@
+import frankLloydWrightGuide from './frankLloydWrightGuide.js';
+import accessoryDwellingUnitsGuide from './accessoryDwellingUnitsGuide.js';
 import balconyThermalBridges from './balconyThermalBridges.js';
 import designForDisassembly from './designForDisassembly.js';
 import pilotPackage from '../../agent-system/examples/pilot-article-package.json' with { type: 'json' };
@@ -167,7 +169,7 @@ const technicalPilot =
     published: false,
   };
 
-export const articles = [balconyThermalBridges, designForDisassembly, birdSafeFacade, inclusiveWayfinding, apartmentCrossVentilation, apartmentDaylightLayout, wildfireResilientHomes, apartmentAcousticDesign, floodResilientHomes, lowCarbonConcreteEpd, smallApartmentLayout, universalDesignHomes, highPerformanceGlazing, aiArchitecture2026, brutalistArchitecture, urbanHeatStreets, rainscreenFacadeDesign, massTimberArchitecture, passiveHouseVsNetZero, bimVsCadArchitects, biophilicDesignArchitecture, smallCourtyardDesign, prefabVsModularHomes, adaptiveReuseArchitecture, climateResponsiveFacades, courtyardWindHouse, technicalPilot, modernVillaReimagined];
+export const articles = [frankLloydWrightGuide, accessoryDwellingUnitsGuide, balconyThermalBridges, designForDisassembly, birdSafeFacade, inclusiveWayfinding, apartmentCrossVentilation, apartmentDaylightLayout, wildfireResilientHomes, apartmentAcousticDesign, floodResilientHomes, lowCarbonConcreteEpd, smallApartmentLayout, universalDesignHomes, highPerformanceGlazing, aiArchitecture2026, brutalistArchitecture, urbanHeatStreets, rainscreenFacadeDesign, massTimberArchitecture, passiveHouseVsNetZero, bimVsCadArchitects, biophilicDesignArchitecture, smallCourtyardDesign, prefabVsModularHomes, adaptiveReuseArchitecture, climateResponsiveFacades, courtyardWindHouse, technicalPilot, modernVillaReimagined];
 
 export function articleBySlug(slug) {
   return articles.find((article) => article.slug === slug);
