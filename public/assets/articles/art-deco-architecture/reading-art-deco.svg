@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Six signs of Art Deco architecture</title>
+  <desc id="desc">Original World Arch Journal diagram: stepped profile, sunburst, chevron, streamline curve, vertical fin and geometric ornament.</desc>
+  <rect width="1600" height="1000" fill="#e9e4da"/>
+  <text x="110" y="135" fill="#151817" font-family="Georgia,serif" font-size="72">Art Deco speaks in signs</text>
+  <text x="112" y="200" fill="#665f55" font-family="Arial,sans-serif" font-size="25" letter-spacing="4">SIX MOTIFS TO LOOK FOR ON ANY FACADE</text>
+  <g font-family="Arial,sans-serif">
+    <g transform="translate(110,290)">
+      <rect width="433" height="300" fill="#1b2528"/>
+      <g fill="#d7ad72">
+        <rect x="166" y="46" width="100" height="128"/>
+        <rect x="126" y="86" width="180" height="88" fill="#c79a58"/>
+        <rect x="86" y="126" width="260" height="48" fill="#a87f45"/>
+      </g>
+      <text x="36" y="222" fill="#d7ad72" font-size="26">01 · STEPPED PROFILE</text>
+      <text x="36" y="262" fill="#fffaf0" font-size="24">Setbacks climb like a ziggurat</text>
+    </g>
+    <g transform="translate(583,290)">
+      <rect width="433" height="300" fill="#394246"/>
+      <g stroke="#d7ad72" stroke-width="7" stroke-linecap="round">
+        <line x1="216" y1="168" x2="216" y2="52"/>
+        <line x1="216" y1="168" x2="140" y2="66"/>
+        <line x1="216" y1="168" x2="292" y2="66"/>
+        <line x1="216" y1="168" x2="96" y2="118"/>
+        <line x1="216" y1="168" x2="336" y2="118"/>
+        <line x1="216" y1="168" x2="76" y2="168"/>
+        <line x1="216" y1="168" x2="356" y2="168"/>
+      </g>
+      <path d="M 156 168 A 60 60 0 0 1 276 168 Z" fill="#d7ad72"/>
+      <text x="36" y="222" fill="#d7ad72" font-size="26">02 · SUNBURST</text>
+      <text x="36" y="262" fill="#fffaf0" font-size="24">Rays of a new, electric dawn</text>
+    </g>
+    <g transform="translate(1056,290)">
+      <rect width="433" height="300" fill="#1b2528"/>
+      <g fill="none" stroke="#d7ad72" stroke-width="9" stroke-linejoin="round">
+        <polyline points="66,80 116,130 166,80 216,130 266,80 316,130 366,80"/>
+        <polyline points="66,140 116,190 166,140 216,190 266,140 316,190 366,140" opacity="0.65"/>
+      </g>
+      <text x="36" y="222" fill="#d7ad72" font-size="26">03 · CHEVRON &amp; ZIGZAG</text>
+      <text x="36" y="262" fill="#fffaf0" font-size="24">Energy drawn as a lightning rhythm</text>
+    </g>
+    <g transform="translate(110,630)">
+      <rect width="433" height="300" fill="#394246"/>
+      <g fill="none" stroke="#d7ad72" stroke-width="8" stroke-linecap="round">
+        <path d="M 56 84 H 300 A 44 44 0 0 1 344 128"/>
+        <path d="M 56 122 H 318" opacity="0.8"/>
+        <path d="M 56 160 H 318" opacity="0.55"/>
+      </g>
+      <circle cx="344" cy="84" r="7" fill="#d7ad72"/>
+      <text x="36" y="222" fill="#d7ad72" font-size="26">04 · STREAMLINE CURVE</text>
+      <text x="36" y="262" fill="#fffaf0" font-size="24">Corners rounded like a ship or a train</text>
+    </g>
+    <g transform="translate(583,630)">
+      <rect width="433" height="300" fill="#1b2528"/>
+      <g fill="#d7ad72">
+        <rect x="196" y="30" width="40" height="150"/>
+        <rect x="156" y="70" width="120" height="110" fill="#c79a58"/>
+        <rect x="116" y="110" width="200" height="70" fill="#a87f45"/>
+        <rect x="206" y="44" width="20" height="26" fill="#1b2528"/>
+        <rect x="206" y="84" width="20" height="26" fill="#1b2528"/>
+        <rect x="206" y="124" width="20" height="26" fill="#1b2528"/>
+      </g>
+      <text x="36" y="222" fill="#d7ad72" font-size="26">05 · VERTICAL FIN</text>
+      <text x="36" y="262" fill="#fffaf0" font-size="24">A centre line pulls the eye upward</text>
+    </g>
+    <g transform="translate(1056,630)">
+      <rect width="433" height="300" fill="#394246"/>
+      <g fill="none" stroke="#d7ad72" stroke-width="7">
+        <path d="M 216 178 L 276 100 L 216 40 L 156 100 Z"/>
+        <path d="M 216 152 L 252 100 L 216 64 L 180 100 Z" opacity="0.7"/>
+        <circle cx="216" cy="100" r="10" fill="#d7ad72" stroke="none"/>
+        <line x1="96" y1="178" x2="336" y2="178"/>
+      </g>
+      <text x="36" y="222" fill="#d7ad72" font-size="26">06 · GEOMETRIC ORNAMENT</text>
+      <text x="36" y="262" fill="#fffaf0" font-size="24">Flowers and fountains, redrawn by ruler</text>
+    </g>
+  </g>
+</svg>

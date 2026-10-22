@@ -17,6 +17,7 @@ import passiveHouseVsNetZero from './passiveHouseVsNetZero.js';
 import urbanHeatStreets from './urbanHeatStreets.js';
 import aiArchitecture2026 from './aiArchitecture2026.js';
 import brutalistArchitecture from './brutalistArchitecture.js';
+import artDecoArchitecture from './artDecoArchitecture.js';
 import highPerformanceGlazing from './highPerformanceGlazing.js';
 import universalDesignHomes from './universalDesignHomes.js';
 import lowCarbonConcreteEpd from './lowCarbonConcreteEpd.js';
@@ -177,7 +178,7 @@ const technicalPilot =
     published: false,
   };
 
-export const articles = [dataCentresGoodArchitecture, solarFacadesBipvDecisions, frankLloydWrightGuide, accessoryDwellingUnitsGuide, balconyThermalBridges, designForDisassembly, birdSafeFacade, inclusiveWayfinding, apartmentCrossVentilation, apartmentDaylightLayout, wildfireResilientHomes, apartmentAcousticDesign, floodResilientHomes, lowCarbonConcreteEpd, smallApartmentLayout, universalDesignHomes, highPerformanceGlazing, aiArchitecture2026, brutalistArchitecture, urbanHeatStreets, rainscreenFacadeDesign, massTimberArchitecture, passiveHouseVsNetZero, bimVsCadArchitects, biophilicDesignArchitecture, smallCourtyardDesign, prefabVsModularHomes, adaptiveReuseArchitecture, climateResponsiveFacades, courtyardWindHouse, technicalPilot, modernVillaReimagined];
+export const articles = [dataCentresGoodArchitecture, solarFacadesBipvDecisions, frankLloydWrightGuide, accessoryDwellingUnitsGuide, balconyThermalBridges, designForDisassembly, birdSafeFacade, inclusiveWayfinding, apartmentCrossVentilation, apartmentDaylightLayout, wildfireResilientHomes, apartmentAcousticDesign, floodResilientHomes, lowCarbonConcreteEpd, smallApartmentLayout, universalDesignHomes, highPerformanceGlazing, aiArchitecture2026, brutalistArchitecture, artDecoArchitecture, urbanHeatStreets, rainscreenFacadeDesign, massTimberArchitecture, passiveHouseVsNetZero, bimVsCadArchitects, biophilicDesignArchitecture, smallCourtyardDesign, prefabVsModularHomes, adaptiveReuseArchitecture, climateResponsiveFacades, courtyardWindHouse, technicalPilot, modernVillaReimagined];
 
 export function articleBySlug(slug) {
   return articles.find((article) => article.slug === slug);
