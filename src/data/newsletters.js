@@ -1,3 +1,5 @@
+import { october22Briefing } from './newsletter20261022.js';
+
 export const newsletterIssue = {
   slug: 'water-at-the-threshold',
   format: 'Technical field note',
@@ -1109,5 +1111,5 @@ export const october5Briefing = {
   ]
 };
 
-export const newsletterIssues = [october21Briefing, october11Briefing, october9Briefing, october8Briefing, october7Briefing, october5Briefing, october2Briefing, october1Briefing, september30Briefing, dailyBriefing];
+export const newsletterIssues = [october22Briefing, october21Briefing, october11Briefing, october9Briefing, october8Briefing, october7Briefing, october5Briefing, october2Briefing, october1Briefing, september30Briefing, dailyBriefing];
 export const editorialPath = (entry) => entry.format === 'Daily briefing' ? `/newsletter/${entry.slug}/` : `/magazine/analysis/${entry.slug}/`;
