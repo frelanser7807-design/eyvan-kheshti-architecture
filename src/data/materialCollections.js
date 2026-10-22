@@ -1,3 +1,4 @@
+import { materialScenes } from './materialScenes.js';
 import { mineralMaterials, mineralRoot } from './mineralMaterials.js';
 // Shared navigation model for the library, SEO and future product families.
 // Empty types are catalog structure, never advertised as available products.
@@ -59,7 +60,7 @@ export const collectionProducts = [{
 }, ...mineralMaterials.map((material) => ({
   ...material,
   image: `${mineralRoot}${material.id}/${material.finishes[0].id}/preview.webp`,
-  scene: `${mineralRoot}${material.id}/${material.finishes[0].id}/preview.webp`,
+  scene: materialScenes[material.id]?.[0].src || `${mineralRoot}${material.id}/${material.finishes[0].id}/preview.webp`,
   finishes: material.finishes.length,
   contexts: 'Interactive surface studio',
   titleSuffix: '4K + 16K tiled maps',

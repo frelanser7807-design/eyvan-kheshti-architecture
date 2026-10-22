@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { mineralRoot } from '../data/mineralMaterials.js';
+import MaterialSceneGallery from './MaterialSceneGallery.jsx';
+import { materialScenes } from '../data/materialScenes.js';
 import StoneSurfaceViewer from './StoneSurfaceViewer.jsx';
 import { zipMaterialFiles } from '../lib/materialZip.js';
 import './MineralMaterialPanel.css';
@@ -61,7 +63,7 @@ export default function MineralMaterialPanel({ material }) {
   return <main className="mp-page" id="main-content">
     <header className="mp-header"><a href="/">WORLD ARCH JOURNAL</a><a href="/materials/">Material Library ↗</a></header>
     <nav className="mp-breadcrumb" aria-label="Breadcrumb"><a href="/materials/">Materials</a><span>/</span><a href={`/materials/category/${material.category}/`}>{material.category === 'metal' ? 'Metal' : material.category === 'concrete' ? 'Concrete' : 'Plaster & paint'}</a><span>/</span><span aria-current="page">{material.name}</span></nav>
-    <div className="mp-layout"><section className="mp-studio"><figure className="mp-surface"><img src={preview} width="1024" height="1024" alt={`${finish.name} ${material.name.toLowerCase()} seamless surface study`} fetchPriority="high"/><figcaption><span>THE SURFACE, UP CLOSE</span><b>{finish.name}</b><small>Original procedural material · 1200 × 1200 mm digital repeat</small></figcaption></figure>
+    <div className="mp-layout"><section className="mp-studio">{materialScenes[material.id] && <MaterialSceneGallery material={material} finish={finish} onSelect={select} disabled={busy}/>}<details className="mp-source-map" open={!materialScenes[material.id]}><summary>Inspect the seamless source map</summary><figure className="mp-surface"><img src={preview} width="1024" height="1024" alt={`${finish.name} ${material.name.toLowerCase()} seamless surface study`} fetchPriority="high"/><figcaption><span>THE SURFACE, UP CLOSE</span><b>{finish.name}</b><small>Original procedural material · 1200 × 1200 mm digital repeat</small></figcaption></figure></details>
       <div className="mp-about"><small>DESIGNED FOR YOUR MATERIAL PALETTE</small><h2>A quiet surface.<br/>A considered finish.</h2><p>{material.application}</p><p>The flat preview and studio viewer use the same material maps. These are digital finish studies, not site photographs, quarry scans or certified manufacturer samples.</p></div>
       <section className="mp-reading"><h2>Materials in context</h2>{material.reading.map((link) => <a key={link.url} href={link.url}>{link.label} ↗</a>)}<a href="/materials/">Explore all material collections ↗</a></section>
     </section><aside className="mp-controls"><small className="mp-eyebrow">{material.label}</small><h1>{material.name}.</h1><p className="mp-lead">Explore the tone.<br/>Read the surface.</p><p>{material.description}</p><h2>Choose your finish</h2><div className="mp-swatches" role="group" aria-label={`${material.name} finishes`}>{material.finishes.map((item) => <button key={item.id} type="button" disabled={busy} aria-pressed={selected === item.id} aria-label={`Select ${item.name}`} onClick={() => select(item.id)}><span style={{ backgroundColor: item.color, backgroundImage: `url(${root}${item.id}/preview.webp)` }}>{selected === item.id ? '✓' : ''}</span><small>{item.name}</small></button>)}</div>
