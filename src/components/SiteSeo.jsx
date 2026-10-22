@@ -136,10 +136,6 @@ export default function SiteSeo({ content, route }) {
       title = `Porcelain Stoneware · 5 Finishes & 4K PBR Maps | ${name}`;
       description = 'Compare five porcelain stoneware finish studies across a kitchen, bathroom and living room. Explore surface lighting and download original 4K PBR maps.';
       image = absoluteAsset(siteUrl, '/assets/material-studio/ceramic-porcelain/scenes/kitchen.png');
-    } else if (route?.name === 'wood-studio') {
-      title = `Wood Flooring · 5 Finishes & 4K PBR Maps | ${name}`;
-      description = 'Compare five scanned wood flooring finish studies across a living room, bedroom and hallway & entry. Explore surface lighting and download real CC0 scan maps.';
-      image = absoluteAsset(siteUrl, '/assets/material-studio/wood-flooring/scenes/living-european-oak.jpg');
     } else if (route?.name === 'material-studio') {
       title = `Fluted Wood · 7 Finishes & 4K PBR Maps | ${name}`;
       description = collectionProducts[0].description;
@@ -263,8 +259,6 @@ export default function SiteSeo({ content, route }) {
       structuredData = { '@context':'https://schema.org', '@type':'CreativeWork', name:item.name, description, url:canonicalUrl, image, creator:publisher, isPartOf:{'@type':'CollectionPage',url:`${siteUrl}/materials/`} };
     } else if (route?.name === 'ceramic-studio') {
       structuredData = {'@context':'https://schema.org','@type':'CreativeWork',name:'Porcelain stoneware',description,url:canonicalUrl};
-    } else if (route?.name === 'wood-studio') {
-      structuredData = {'@context':'https://schema.org','@type':'CreativeWork',name:'Scanned wood flooring',description,url:canonicalUrl};
     } else if (route?.name === 'travertine-studio') {
       structuredData = {'@context':'https://schema.org','@type':'CreativeWork',name:'Vein-cut travertine',description,url:canonicalUrl};
     } else if (route?.name === 'material-studio') {

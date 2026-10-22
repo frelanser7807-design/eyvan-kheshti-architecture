@@ -57,17 +57,6 @@ export const collectionProducts = [{
     { label: 'Sibling panel: vein-cut travertine facade studies', url: '/materials/stone/natural-stone/travertine/' },
     { label: 'Sibling panel: original fluted wood room studies', url: '/materials/wood/fluted-panels/fluted-wood/' },
   ],
-},{
-  id:'scanned-wood-flooring',name:'Scanned wood flooring',category:'wood',type:'wood-flooring',
-  path:'/materials/wood/wood-flooring/scanned-wood-flooring/',
-  image:'/assets/material-studio/wood-flooring/european-oak/preview.jpg',
-  scene:'/assets/material-studio/wood-flooring/scenes/living-european-oak.jpg',
-  description:'Five real scanned wood flooring finishes — oak, pine, walnut and reclaimed timber (CC0 photogrammetry) — across a living room, bedroom and hallway & entry, with interactive surface lighting and downloadable PBR maps up to 16K.',titleSuffix:'4K–16K PBR Maps',
-  finishes:5,contexts:'3 room studies',label:'WOOD / WOOD FLOORING',
-  relatedLinks:[
-    { label: 'Sibling panel: original fluted wood room studies', url: '/materials/wood/fluted-panels/fluted-wood/' },
-    { label: 'Sibling panel: porcelain stoneware room studies', url: '/materials/stone/ceramic-porcelain/porcelain-stoneware/' },
-  ],
 }, ...mineralMaterials.map((material) => ({
   ...material,
   image: `${mineralRoot}${material.id}/${material.finishes[0].id}/preview.webp`,
