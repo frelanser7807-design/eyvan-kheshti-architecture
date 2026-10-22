@@ -18,7 +18,7 @@ const universalDesignHomes = {
   imageAlt: 'Original editorial illustration of a warm contemporary universal-design home with a level entrance, broad circulation, accessible bathroom and garden connection',
   visualLabel: 'FIG. 01 · AN AGE-FRIENDLY HOME WITHOUT AN INSTITUTIONAL CHARACTER · ORIGINAL AI-ASSISTED EDITORIAL ILLUSTRATION, WORLD ARCH JOURNAL 2026.',
   publishedAt: '2026-10-06',
-  modifiedAt: '2026-10-06',
+  modifiedAt: '2026-10-22',
   toc: [
     ['meaning', 'Universal design, accessibility and ageing in place'],
     ['journey', '1. Protect the complete journey'],
@@ -135,6 +135,8 @@ const universalDesignHomes = {
     { question: 'Can an existing home be adapted for ageing in place?', answer: 'Often yes, but priorities depend on structure, levels, bathroom geometry, services and the resident. Begin with the complete journey and highest-consequence barriers, then phase immediate, enabling and future work.' },
     { question: 'Does a step-free entrance make a home accessible?', answer: 'It is essential for many users but not sufficient. Internal routes, bathroom and kitchen use, controls, sensory conditions, safety and outdoor access must work as a connected system.' },
     { question: 'Are the dimensions in this article a building code?', answer: 'No. The diagrams are conceptual. Use the locally adopted accessibility and building requirements, and consult the known resident and qualified specialists.' },
+    { question: 'What are the 7 principles of universal design?', answer: 'Equitable use; flexibility in use; simple and intuitive use; perceptible information; tolerance for error; low physical effort; and size and space for approach and use. This guide translates them into residential decisions — entrances, plans, kitchens, bathrooms, light and gardens — that do not look institutional.' },
+    { question: 'What is ageing in place?', answer: 'Living in your own home safely and independently as you age, rather than moving to institutional care. Design makes it possible: a step-free entrance, a complete bathroom and bedroom on the entry level, reachable controls and storage, and adaptability designed in before it is urgently needed.' },
   ],
   evidence: [
     { publisher: 'World Health Organization', source_url: 'https://www.who.int/publications/i/item/9789241550376', claim: 'WHO housing and health guidelines address accessibility, injury hazards, crowding and safe indoor temperatures as health issues.', limitations: 'Global health guidance; it does not provide a complete project code or individual design assessment.' },
