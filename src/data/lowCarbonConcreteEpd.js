@@ -18,7 +18,7 @@ const lowCarbonConcreteEpd = {
   imageAlt: 'Original editorial materials studio with concrete samples, aggregate, a structural model and abstract carbon assessment charts',
   visualLabel: 'FIG. 01 · CONCRETE MATERIAL AND EPD REVIEW STUDIO · ORIGINAL AI-ASSISTED EDITORIAL ILLUSTRATION, WORLD ARCH JOURNAL 2026.',
   publishedAt: '2026-10-07',
-  modifiedAt: '2026-10-07',
+  modifiedAt: '2026-10-22',
   toc: [
     ['quick-answer', 'The quick answer'],
     ['declared-unit', '1. Match the declared unit'],
@@ -124,6 +124,8 @@ const lowCarbonConcreteEpd = {
     { question: 'Can two concrete EPD numbers be compared directly?', answer: 'Only when key conditions align, including declared unit, strength and performance, life-cycle modules, calculation rules, data period and geographic relevance.' },
     { question: 'Should architects specify a cement-replacement percentage?', answer: 'A prescriptive percentage may restrict viable solutions. Many teams instead set a verified embodied-carbon outcome while retaining all technical requirements, then work with the engineer and supplier on the mix.' },
     { question: 'Is the lowest GWP per cubic metre always the best structural choice?', answer: 'No. Total material quantity, structural efficiency, service life, programme and performance also matter. Compare complete structural options as well as product intensity.' },
+    { question: 'What is an EPD (environmental product declaration)?', answer: 'A standardised, third-party-verified report of a product environmental impacts across stated life-cycle stages, prepared under shared product category rules. For concrete it is the document behind any low-carbon claim — which is why this guide reads it through seven checks before trusting the headline number.' },
+    { question: 'What does GWP mean in a concrete EPD?', answer: 'Global warming potential: the climate impact of the declared unit, expressed in kilograms of CO2-equivalent. In most concrete EPDs the production stages dominate it, which is why cement content, replacements and transport distance matter — and why GWP per cubic metre must still be read against the whole structure, as the checks above show.' },
   ],
   evidence: [
     { publisher: 'Global Cement and Concrete Association', source_url: 'https://gccaepd.org/blog/lcr', claim: 'Introduces 2026 global low-carbon ratings for concrete based on GWP per cubic metre and concrete strength, using EPD-reported data.', limitations: 'Industry framework; project teams must still verify EPD scope, local supply and technical compliance.' },

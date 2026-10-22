@@ -27,7 +27,7 @@ const designForDisassembly = {
   "imageAlt": "AI-assisted concept of a timber and steel workplace showing separate facade panels and an exposed services bay",
   "visualLabel": "FIG. 01 · ORIGINAL AI-ASSISTED CONCEPT VISUAL · NOT A DOCUMENTED BUILT PROJECT · WORLD ARCH JOURNAL, 2026.",
   "publishedAt": "2026-10-18",
-  "modifiedAt": "2026-10-18",
+  "modifiedAt": "2026-10-22",
   "toc": [
     [
       "four-kinds-of-change",
@@ -132,6 +132,14 @@ const designForDisassembly = {
     {
       "question": "Does disassembly always reduce carbon?",
       "answer": "No universal saving can be promised. Compare a credible baseline and state service life, quantities, recovery scenarios and assessment boundaries."
+    },
+    {
+      "question": "What are the principles of design for disassembly?",
+      "answer": "Separate the building into layers with different lifespans; use reversible, accessible connections instead of adhesives and composites that cannot be separated; standardise components; and record everything in material passports, so a future team can identify, reach and reuse each part."
+    },
+    {
+      "question": "What is a reversible building?",
+      "answer": "A building designed so its parts can be taken apart in the reverse order of assembly without destroying them: connections are mechanical and reachable, layers are independent, and the documentation states what everything is. Reversibility is what turns future demolition into future supply."
     }
   ],
   "evidence": [
