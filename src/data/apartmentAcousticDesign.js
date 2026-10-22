@@ -18,7 +18,7 @@ const apartmentAcousticDesign = {
   imageAlt: 'Original editorial apartment interior with acoustic zoning, layered glazing and absorptive timber wall',
   visualLabel: 'FIG. 01 · ACOUSTICALLY CONSIDERED APARTMENT INTERIOR · ORIGINAL AI-ASSISTED EDITORIAL ILLUSTRATION, WORLD ARCH JOURNAL 2026.',
   publishedAt: '2026-10-08',
-  modifiedAt: '2026-10-08',
+  modifiedAt: '2026-10-22',
   toc: [
     ['quick-answer', 'The quick answer'],
     ['three-problems', 'Three different acoustic problems'],
@@ -48,7 +48,7 @@ const apartmentAcousticDesign = {
 
     <h2 id="planning">1–2. Solve the adjacency plan first</h2>
     <h3>1. Stack compatible rooms</h3>
-    <p>Place bedrooms beside or above bedrooms where possible, and keep lifts, refuse rooms, garages, plant and late-night circulation away from quiet spaces. Use wardrobes, storage, bathrooms or corridors as buffers. In repeated housing, one early adjacency decision is multiplied across every floor; it deserves the same attention as façade orientation.</p>
+    <p>Place bedrooms beside or above bedrooms where possible, and keep lifts, refuse rooms, garages, plant and late-night circulation away from quiet spaces. Use wardrobes, storage, bathrooms or corridors as buffers. In repeated housing, one early adjacency decision is multiplied across every floor; it deserves the same attention as façade orientation. The same adjacency logic opens our <a href="/articles/small-apartment-layout-storage-privacy-daylight/">small apartment layout</a> guide, where zoning by activity also decides daylight and storage.</p>
     <h3>2. Put noisy equipment on an isolation strategy</h3>
     <p>Locate pumps, fans, condensers and laundry equipment where vibration can be controlled and maintained. Allow space for inertia bases, resilient mounts, flexible connectors and access. Equipment that is squeezed against a bedroom wall may be impossible to correct later without disrupting structure or services.</p>
 
@@ -64,7 +64,7 @@ const apartmentAcousticDesign = {
     <h3>6. Specify door leaves, frames and seals together</h3>
     <p>A heavy door with a large undercut remains a poor acoustic barrier. Coordinate the leaf, frame, perimeter seals, threshold, closer, ironmongery and ventilation strategy. Where transfer air is needed, use a designed acoustic path rather than cutting an uncontrolled gap beneath a bedroom door.</p>
     <h3>7. Select glazing for the actual noise spectrum</h3>
-    <p>More panes do not automatically mean better acoustic performance. Glass thickness, asymmetry, laminate, cavity depth, frame, trickle vents and installation all matter. Traffic, rail and aircraft have different frequency content. Use a competent acoustic assessment to set the façade requirement, then ensure ventilation can be achieved without asking occupants to open the window during the noisiest periods.</p>
+    <p>More panes do not automatically mean better acoustic performance. Glass thickness, asymmetry, laminate, cavity depth, frame, trickle vents and installation all matter. Traffic, rail and aircraft have different frequency content. Use a competent acoustic assessment to set the façade requirement, then ensure ventilation can be achieved without asking occupants to open the window during the noisiest periods. The performance numbers behind those glazing choices are compared in our <a href="/articles/low-e-triple-glazing-smart-glass-guide/">low-E, triple glazing and smart glass</a> guide.</p>
 
     <h2 id="services">8–9. Stop services becoming hidden sound bridges</h2>
     <h3>8. Coordinate penetrations before the wall is built</h3>
@@ -110,6 +110,8 @@ const apartmentAcousticDesign = {
     { question: 'What is the difference between airborne and impact sound?', answer: 'Airborne sound begins in air, such as speech or traffic. Impact sound begins with contact on a building element, such as footsteps on a floor.' },
     { question: 'Is triple glazing always quieter?', answer: 'No. Acoustic performance depends on glass thicknesses, asymmetry, laminate, cavity, frame, vents, seals and installation, as well as the source spectrum.' },
     { question: 'Why can a tested wall fail on site?', answer: 'Gaps, penetrations, rigid bridges and flanking paths can reduce the performance of the complete construction compared with a controlled laboratory assembly.' },
+    { question: 'How can I reduce noise in my apartment?', answer: 'In this guide order: plan first — put quiet rooms beside quiet rooms and buffer them with storage and bathrooms; then complete assemblies — mass, separation and sealed junctions in walls, floors and doors; control flanking paths and services; and verify the built result. Soft finishes and acoustic panels absorb echo inside a room, but they come last and cannot soundproof a weak assembly.' },
+    { question: 'What is flanking sound transmission?', answer: 'Sound that travels around a separating wall or floor — through continuous structure, junctions, cavities, ducts and façades — instead of directly through it. Flanking is the main reason a laboratory-rated partition underperforms in a finished apartment, and why junctions deserve as much design attention as the wall itself.' },
   ],
   evidence: [
     { publisher: 'World Health Organization', source_url: 'https://www.who.int/europe/publications/i/item/9789289053563', claim: 'Environmental noise is a public-health issue linked to health and wellbeing impacts and requires evidence-based protection.', limitations: 'Public-health guidance; it does not specify a project wall or façade assembly.' },
