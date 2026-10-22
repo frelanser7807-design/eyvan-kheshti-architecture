@@ -23,7 +23,7 @@ const indexPath = path.join(dist, 'index.html');
 // All public metadata stays on the production domain, including preview builds.
 const siteUrl = 'https://worldarchjournal.com';
 const gaMeasurementId = String(process.env.VITE_GA_MEASUREMENT_ID || 'G-KWCNH012H1').trim();
-const clarityProjectId = String(process.env.VITE_CLARITY_PROJECT_ID || '').trim();
+const clarityProjectId = String(process.env.VITE_CLARITY_PROJECT_ID || 'yuhqthxem8').trim();
 const siteName = 'WORLD ARCH JOURNAL';
 const template = await readFile(indexPath, 'utf8');
 if (template.includes('data-static-schema')) {
