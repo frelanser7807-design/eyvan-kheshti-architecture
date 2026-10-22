@@ -18,7 +18,7 @@ const prefabVsModularHomes = {
   imageAlt: 'Editorial visual of a timber volumetric module being lifted onto prepared concrete foundations beside an installed module',
   visualLabel: 'FIG. 01 · MODULAR INSTALLATION SEQUENCE · AI-ASSISTED EDITORIAL VISUAL DIRECTED FOR WORLD ARCH JOURNAL, 2026',
   publishedAt: '2026-09-23',
-  modifiedAt: '2026-09-23',
+  modifiedAt: '2026-10-22',
   toc: [
     ['prefab-not-product', 'Prefab is a family, not a single product'],
     ['legal-words', 'Why the words matter legally'],
@@ -113,6 +113,8 @@ const prefabVsModularHomes = {
     { question: 'Are prefab homes always cheaper and faster?', answer: 'No. Factory production can reduce site time and improve repetition, but total cost and programme also include design, approvals, foundations, transport, cranes, utilities, commissioning and changes.' },
     { question: 'Can prefab homes be energy efficient?', answer: 'Yes, but the method does not guarantee performance. Insulation, airtightness, thermal bridges, windows, shading, ventilation, site joints and commissioning still determine the result.' },
     { question: 'What should I verify before paying a deposit?', answer: 'Verify legal classification, site approval, code pathway, complete scope and exclusions, inspections, warranty, lender and insurer acceptance, delivery route, foundation responsibility and evidence from comparable completed projects.' },
+    { question: 'How long does it take to build a prefab or modular home?', answer: 'Usually less time on site than conventional construction, because factory production runs in parallel with foundations and site works. The honest total still includes design, approvals, the factory slot, transport, cranes, utility connections and commissioning — the sequence this guide breaks down — so compare complete programmes, not factory weeks alone.' },
+    { question: 'Are modular homes built to the same building codes as site-built homes?', answer: 'Generally yes: modular homes are built to the same state and local codes as site-built homes and are inspected during factory production as well as on site. Manufactured homes are the exception — in the United States they follow the federal HUD Code instead — which is why the classification check in this guide comes before any deposit.' },
   ],
   evidence: [
     { publisher: 'US Department of Housing and Urban Development', source_url: 'https://www.hud.gov/hud-partners/manufactured-home-resources', claim: 'Defines US manufactured homes as HUD Code dwellings on a permanent chassis and distinguishes their federal certification route.', limitations: 'US-specific legal definition; it should not be applied to other countries.' },
