@@ -11,8 +11,8 @@ const unusedReleaseAssets = [
   'dist/assets/brand/farnaz-profile-from-video-02-v1.jpg',
   'dist/assets/brand/world-arch-journal-youtube-banner-v1.jpg',
   'dist/assets/brand/world-arch-journal-youtube-banner-preview-v1.jpg',
-  'dist/assets/film/00-digital-founder-intro.mp4',
-  'dist/assets/film/founder-intro-plus-entrance.mp4',
+  // The two founder films are no longer pruned: the owner-approved homepage
+  // v4.4 (2026-10-22) uses them as its hero and mid-page story band.
   'dist/assets/film/posters/digital-founder-intro.jpg',
   'dist/assets/film/posters/founder-hero.jpg',
   'dist/assets/film/site-cinematic-score-v2.wav',
