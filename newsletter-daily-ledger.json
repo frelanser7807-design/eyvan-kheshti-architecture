@@ -75,6 +75,16 @@
       "deploymentId": "3b1bb838-e86d-474c-8bbf-8beff10c1d95",
       "verifiedAt": "2026-10-09T13:46:22Z",
       "evidence": "newsletter-dated-publication-20261009.md"
+    },
+    {
+      "key": "waj-newsletter:2026-10-22:Asia-Tehran",
+      "status": "published",
+      "slug": "architecture-briefing-2026-10-22",
+      "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-22/",
+      "firstPublishedAt": "2026-10-22T08:58:10Z",
+      "deploymentId": "39750607928",
+      "verifiedAt": "2026-10-22T09:05:00Z",
+      "evidence": "daily-articles-newsletter cron run 2026-10-22: 5 fresh stories (Dezeen, designboom, ArchDaily x2, AJ), all with licensed photos + Our reading; deploy run #153 SUCCESS; live 200 + sitemap + canonical + archive verified"
     }
   ]
 }
