@@ -161,7 +161,3 @@
   .wj-hub-timeline-list { grid-template-columns: 1fr; }
   .wj-hub-method { padding: 36px 22px 42px; }
 }
-
-/* Site redesign Phase 1: services CTA in the magazine header */
-.wj-magazine-cta { background: #c9a35c; color: #1c1a17 !important; border-radius: 99px; padding: 9px 16px !important; border-bottom: 0 !important; font-weight: 600; white-space: nowrap; }
-.wj-magazine-cta:hover { background: #d8b477; }
