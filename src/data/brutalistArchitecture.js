@@ -19,7 +19,7 @@ const brutalistArchitecture = {
   visualLabel: 'FIG. 01 · BARBICAN ESTATE, LONDON · PHOTO: JULIAN HERZOG / WIKIMEDIA COMMONS, CC BY 4.0 · RESIZED.',
   imageSourceUrl: 'https://commons.wikimedia.org/wiki/File:Barbican_Estate_Frobisher_Crescent_City_of_London_2026_06.jpg',
   publishedAt: '2026-10-05',
-  modifiedAt: '2026-10-05',
+  modifiedAt: '2026-10-22',
   toc: [
     ['definition', 'What Brutalism actually means'],
     ['how-to-read', 'How to read a Brutalist building'],
@@ -87,7 +87,7 @@ const brutalistArchitecture = {
     <p>The seven examples resist one conclusion. Unité turns section into collective housing; the Barbican builds a landscape; Boston City Hall gives government a legible form; Habitat makes modularity spatial; Geisel makes structure emblematic; the National Theatre turns circulation into public stage; SESC Pompéia joins rough new construction to careful reuse.</p>
     <p>Brutalism is therefore best understood as a set of architectural commitments, not a preset. Read how the building is made, how people move, who the institution serves and whether care has kept the public promise alive. Only then decide what the concrete means.</p>
   
-    <p><strong>Continue exploring:</strong> Brutalism begins with concrete, so compare the real thing in the library's <a href="/materials/category/concrete/concrete-finishes/">concrete finishes</a> collection, and read our <a href="/newsletter/architecture-briefing-2026-10-21/">21 October briefing</a> on the heritage fights now deciding which modern landmarks survive. For the wider archive this guide belongs to — timelines, side-by-side style comparisons and the materials behind each movement — browse the <a href="/magazine/architectural-history-styles/">Architectural History &amp; Styles hub</a>.</p>
+    <p><strong>Continue exploring:</strong> Brutalism begins with concrete, so compare the real thing in the library's <a href="/materials/category/concrete/concrete-finishes/">concrete finishes</a> collection, and read our <a href="/newsletter/architecture-briefing-2026-10-21/">21 October briefing</a> on the heritage fights now deciding which modern landmarks survive. For the wider archive this guide belongs to — timelines, side-by-side style comparisons and the materials behind each movement — browse the <a href="/magazine/architectural-history-styles/">Architectural History &amp; Styles hub</a>. The generation before the concrete giants — all chrome, glamour and machine-age optimism — is covered in our <a href="/articles/art-deco-architecture-history-features-buildings/">Art Deco architecture</a> guide.</p>
   `,
   facts: [
     ['FORMAT', 'International architectural history guide'],
@@ -112,6 +112,7 @@ const brutalistArchitecture = {
     { question: 'When was Brutalism most influential?', answer: 'Its major international period ran broadly from the 1950s through the 1970s, although important related work continued later and many buildings are now being adapted.' },
     { question: 'Why do people dislike Brutalist buildings?', answer: 'Monumental scale, weathered surfaces, difficult entrances, urban-renewal histories and poor maintenance can create real problems. Taste cannot be separated from access, use and stewardship.' },
     { question: 'Should Brutalist buildings always be preserved?', answer: 'Not automatically. Decisions should consider cultural value, community use, structural condition, carbon, accessibility, adaptability and the feasibility of responsible repair.' },
+    { question: 'What are the main characteristics of Brutalist architecture?', answer: 'Béton brut — raw, board-formed concrete — left exposed; large monolithic volumes assembled from repetitive modular bays; deep window reveals and strong shadow; sculptural, sometimes fortress-like forms; and a civic ambition: housing, universities and cultural buildings designed as social monuments. Not every concrete building qualifies — the material honesty and the social programme are part of the definition.' },
   ],
   evidence: [
     { publisher: 'Barbican Centre', source_url: 'https://www.barbican.org.uk/our-story/architecture/our-building', claim: 'Documents the Barbican’s designers, city-within-a-city concept, residential scale and Grade II listing.', limitations: 'Institutional history; conservation decisions require current statutory and technical evidence.' },

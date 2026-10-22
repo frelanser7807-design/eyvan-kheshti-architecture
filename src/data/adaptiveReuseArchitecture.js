@@ -19,7 +19,7 @@ const adaptiveReuseArchitecture = {
   imageAlt: 'Tate Modern in London, a former power station adapted as an art museum',
   visualLabel: 'FIG. 01 · TATE MODERN, LONDON · PHOTO: THE CAR SPY / WIKIMEDIA COMMONS, CC BY 2.0 · CROPPED',
   publishedAt: '2026-09-20',
-  modifiedAt: '2026-09-20',
+  modifiedAt: '2026-10-22',
   toc: [
     ['reuse-before-replace', 'Why reuse should be tested before replacement'],
     ['survey-before-design', '1. Survey the building before drawing the intervention'],
@@ -78,7 +78,7 @@ const adaptiveReuseArchitecture = {
     <p>Digital survey and BIM can support coordination, but model precision should match evidence. A point cloud records visible surfaces; it does not reveal every void or capacity. Mark assumed geometry, inspection dates and responsibility. For related envelope decisions, the <a href="/articles/climate-responsive-facades-cooling-design/">climate-responsive facade guide</a> shows how shading, glazing, ventilation and controls can be coordinated rather than specified as separate products.</p>
 
     <h2 id="whole-life-comparison">8. Compare whole-life outcomes, not first impressions</h2>
-    <p>A reused building may look materially modest while containing intensive strengthening, temporary works and new systems. A replacement building may promise low operational energy while releasing large emissions through demolition and new structure. Whole-life comparison makes both visible by considering upfront materials, construction, operation, maintenance, replacement and end-of-life scenarios.</p>
+    <p>A reused building may look materially modest while containing intensive strengthening, temporary works and new systems. A replacement building may promise low operational energy while releasing large emissions through demolition and new structure. Whole-life comparison makes both visible by considering upfront materials, construction, operation, maintenance, replacement and end-of-life scenarios. The complementary discipline — designing new buildings so their own end of life stays reversible — is covered in our <a href="/articles/design-for-disassembly-reversible-buildings/">design for disassembly</a> guide.</p>
     <p>The <a href="https://www.architecture2030.org/caretool/">CARE Tool</a> was developed to compare the embodied, operational and avoided carbon consequences of reuse, retrofit and replacement at early design stages. The UK government’s 2026 <a href="https://www.gov.uk/government/publications/whole-life-carbon-management">Whole Life Carbon Management handbook</a> likewise frames carbon as a decision variable across the project life cycle. These tools support decisions; they do not replace project-specific quantities, energy models or professional assessment.</p>
     <table>
       <thead><tr><th>Decision</th><th>Evidence required</th><th>Common blind spot</th></tr></thead>
@@ -186,6 +186,7 @@ const adaptiveReuseArchitecture = {
     { question: 'Is adaptive reuse always lower carbon than building new?', answer: 'No. Retaining foundations and structure can avoid major material impacts, but strengthening, operational energy, replacement cycles and study period must be included in a like-for-like whole-life comparison.' },
     { question: 'Should new additions imitate the historic building?', answer: 'Not necessarily. New work should be compatible with the retained character while remaining identifiable. The appropriate degree of contrast depends on significance, context and local heritage requirements.' },
     { question: 'Can BIM or a point cloud replace a building survey?', answer: 'No. They can organise measured visible information, but concealed conditions, material performance, structural capacity and hazards require investigation and specialist verification.' },
+    { question: 'What is an example of adaptive reuse architecture?', answer: 'Tate Modern in London — the former Bankside power station, whose turbine hall became its defining public room. This article also examines Coal Drops Yard, De Hallen and the Vienna gasometers: in each, the retained structure is not a constraint but the identity of the new building.' },
     { question: 'Are all images in this article photographs?', answer: 'No. Five visuals are licensed photographs of real buildings or renovation work, five are original editorial diagrams, and one is a clearly labelled AI-assisted concept.' },
   ],
   evidence: [
