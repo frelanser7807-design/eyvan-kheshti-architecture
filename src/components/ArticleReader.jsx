@@ -1,5 +1,6 @@
 import { createElement, Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import { assetUrl } from '../lib/assetUrl.js';
+import { prepareArticleHtml } from '../lib/articleSections.js';
 import { relatedArticlesFor } from '../data/articles.js';
 
 const allowedTags = new Set(['p', 'h2', 'h3', 'strong', 'em', 'blockquote', 'ul', 'ol', 'li', 'table', 'thead', 'tbody', 'tr', 'th', 'td', 'a']);
@@ -162,6 +163,7 @@ export default function ArticleReader(props) {
 function ResolvedArticleReader({ article, onClose = () => undefined, standalone = false }) {
   const readerRef = useRef(null);
   const relatedArticles = useMemo(() => relatedArticlesFor(article), [article]);
+  const preparedArticle = useMemo(() => prepareArticleHtml(article.contentHtml), [article.contentHtml]);
 
   useEffect(() => {
     if (!article || standalone) return undefined;
@@ -240,17 +242,17 @@ function ResolvedArticleReader({ article, onClose = () => undefined, standalone 
             </section>
           )}
 
-          {article.toc?.length > 0 && (
+          {preparedArticle.sections.length > 0 && (
             <nav className="ek-article-toc" aria-labelledby="article-toc-title">
               <small>IN THIS ARTICLE</small>
               <h2 id="article-toc-title">Contents</h2>
               <ol>
-                {article.toc.map(([id, label]) => <li key={id}><a href={`#${id}`}>{label}</a></li>)}
+                {preparedArticle.sections.map(({ id, label }) => <li key={id}><a href={`#${id}`}>{label}</a></li>)}
               </ol>
             </nav>
           )}
 
-          <ControlledArticleHtml html={article.contentHtml} visuals={article.visuals} />
+          <ControlledArticleHtml html={preparedArticle.html} visuals={article.visuals} />
 
           <aside className="ek-article-boundary" aria-label="Article scope">
             <small>SCOPE</small>
