@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" role="img" aria-label="Diagram of the Doric, Ionic and Corinthian classical orders">
+  <rect x="0" y="0" width="640" height="430" fill="#f4f0e6"/>
+  <g stroke="#23231f" stroke-width="3" fill="none" stroke-linecap="round">
+    <!-- entablature -->
+    <line x1="60" y1="70" x2="580" y2="70"/>
+    <line x1="60" y1="88" x2="580" y2="88" stroke-width="1.6"/>
+    <!-- DORIC -->
+    <path d="M110 118 h80 M118 118 v14 h64 v-14" />
+    <path d="M126 132 L134 330 M174 132 L166 330" />
+    <path d="M138 150 V318 M150 150 V318 M162 150 V318" stroke-width="1.4"/>
+    <line x1="112" y1="330" x2="188" y2="330"/>
+    <!-- IONIC -->
+    <path d="M282 112 a16 16 0 1 1 16 16 a11 11 0 1 0 -11 -11" stroke="#a07f3c"/>
+    <path d="M358 112 a16 16 0 1 0 -16 16 a11 11 0 1 1 11 -11" stroke="#a07f3c"/>
+    <path d="M298 132 L306 330 M342 132 L334 330" />
+    <path d="M312 150 V318 M324 150 V318 M336 150 V318" stroke-width="1.4"/>
+    <path d="M292 330 h56 M288 342 h64"/>
+    <!-- CORINTHIAN -->
+    <path d="M452 128 q10 -22 22 -6 q4 -18 14 -18 q10 0 14 18 q12 -16 22 6 q-12 10 -24 2 q-12 8 -24 0 q-12 8 -24 -2z" stroke="#a07f3c"/>
+    <path d="M466 140 L472 330 M514 140 L508 330" />
+    <path d="M480 158 V318 M490 158 V318 M500 158 V318" stroke-width="1.4"/>
+    <path d="M458 330 h64 M454 342 h72"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="16" fill="#23231f" text-anchor="middle">
+    <text x="320" y="48">Entablature</text>
+    <text x="150" y="378">DORIC</text>
+    <text x="320" y="378" fill="#a07f3c">IONIC</text>
+    <text x="490" y="378" fill="#a07f3c">CORINTHIAN</text>
+    <text x="150" y="402" font-size="12.5" fill="#5f635d">plain capital, no base</text>
+    <text x="320" y="402" font-size="12.5" fill="#5f635d">volute scrolls, on a base</text>
+    <text x="490" y="402" font-size="12.5" fill="#5f635d">acanthus-leaf capital</text>
+  </g>
+</svg>
