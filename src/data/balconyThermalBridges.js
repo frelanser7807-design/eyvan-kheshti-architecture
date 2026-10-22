@@ -27,7 +27,7 @@ const balconyThermalBridges = {
   "imageAlt": "AI-assisted concept of an apartment facade with projecting balconies and warm interiors at winter dusk",
   "visualLabel": "FIG. 01 · ORIGINAL AI-ASSISTED CONCEPT VISUAL · NOT A DOCUMENTED BUILT PROJECT · WORLD ARCH JOURNAL, 2026.",
   "publishedAt": "2026-10-18",
-  "modifiedAt": "2026-10-18",
+  "modifiedAt": "2026-10-22",
   "toc": [
     [
       "read-the-edge",
@@ -128,6 +128,14 @@ const balconyThermalBridges = {
     {
       "question": "Are these diagrams construction details?",
       "answer": "No. They are original conceptual explanations. Structural design, thermal modelling, water control and local requirements need project-specific review."
+    },
+    {
+      "question": "What is a thermal bridge?",
+      "answer": "A thermal bridge is a localised path where heat flows through a building envelope faster than through the surrounding construction — typically where structure, fixings or geometry interrupt the insulation layer. It raises heat loss and can cool interior surfaces enough to risk condensation and mould."
+    },
+    {
+      "question": "How can thermal bridging at a balcony be reduced?",
+      "answer": "Three architectural arrangements are compared in this guide: accept and assess a continuous projecting slab, connect the balcony through an engineered structural thermal break, or support the balcony externally so most structure stays outside the insulation. None is universally best — the choice depends on loads, geometry, threshold design and the assessed psi or chi values."
     }
   ],
   "evidence": [
