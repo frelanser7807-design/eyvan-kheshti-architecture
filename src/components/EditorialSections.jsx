@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { assetUrl } from '../lib/assetUrl.js';
 import { articles } from '../data/articles.js';
 import { magazines } from '../data/magazines.js';
-import { projects as studioProjects } from '../data/projects.js';
 import { promptCategories, promptItems } from '../data/promptLibrary.js';
 import { HomeVirtualToursShowcase } from './ProjectsHub.jsx';
 
@@ -169,39 +168,10 @@ export default function EditorialSections({ content, language, onExplore, onOpen
   const socialLinks = (content?.brand?.socialLinks || [])
     .filter((item) => item.enabled !== false && /^https?:\/\//i.test(item.url || ''));
   const featuredMagazine = magazines.find((item) => item.published);
-  const publishedArticles = articles.filter((item) => item.published);
-  const discoveryMagazine = publishedArticles[0];
-  const discoveryHistory = publishedArticles.find((item) => item.slug === 'art-deco-architecture-history-features-buildings') || discoveryMagazine;
-  const discoveryTour = studioProjects[0];
   const adsenseReady = content?.monetization?.adsenseEnabled === true && /^ca-pub-\d{10,}$/.test(content?.monetization?.adsensePublisherId || '');
 
   return (
     <div className={`ek-scroll-site ${language === 'fa' ? 'is-fa' : ''}`} dir={language === 'fa' ? 'rtl' : 'ltr'}>
-      <section className="ek-discovery" aria-labelledby="discovery-title">
-        <header className="ek-discovery-head">
-          <small>START EXPLORING</small>
-          <h2 id="discovery-title">Everything, one click from here.</h2>
-        </header>
-        <div className="ek-discovery-grid">
-          <a className="ek-discovery-card" href="/magazine/">
-            <span className="ek-discovery-media"><img src={assetUrl(discoveryMagazine?.image)} alt={discoveryMagazine?.imageAlt || 'Latest magazine story cover'} loading="lazy" decoding="async" /></span>
-            <span className="ek-discovery-body"><small>MAGAZINE</small><h3>The Magazine</h3><p>Evidence-led architecture stories — villas, cooling, small homes and materials in use.</p><span className="ek-discovery-go">READ THE STORIES →</span></span>
-          </a>
-          <a className="ek-discovery-card" href="/magazine/architectural-history-styles/">
-            <span className="ek-discovery-media"><img src={assetUrl(discoveryHistory?.image)} alt={discoveryHistory?.imageAlt || 'Architectural history cover'} loading="lazy" decoding="async" /></span>
-            <span className="ek-discovery-body"><small>HISTORY</small><h3>Architecture History</h3><p>Art Deco, Brutalism, Gothic — learn to read any building&rsquo;s style in five signs.</p><span className="ek-discovery-go">ENTER THE HUB →</span></span>
-          </a>
-          <a className="ek-discovery-card" href="/materials/">
-            <span className="ek-discovery-media"><img src={assetUrl('/assets/material-studio/travertine/ivory/preview.webp')} alt="Travertine stone material preview" loading="lazy" decoding="async" /></span>
-            <span className="ek-discovery-body"><small>MATERIALS</small><h3>Materials Library</h3><p>Real scans, room scenes and texture packs — ceramic, travertine and fluted wood.</p><span className="ek-discovery-go">EXPLORE MATERIALS →</span></span>
-          </a>
-          <a className="ek-discovery-card" href="/projects/">
-            <span className="ek-discovery-media"><img src={assetUrl(discoveryTour?.cover)} alt={discoveryTour?.coverAlt || 'Virtual tour cover'} loading="lazy" decoding="async" /></span>
-            <span className="ek-discovery-body"><small>VIRTUAL TOURS</small><h3>Virtual Tours</h3><p>Step inside real spaces in 360° — The Voids and Narbon, panorama by panorama.</p><span className="ek-discovery-go">ENTER A TOUR →</span></span>
-          </a>
-        </div>
-      </section>
-
       <section className="ek-scroll-intro" aria-labelledby="scroll-intro-title">
         <small>00 / {text.eyebrow}</small>
         <h2 id="scroll-intro-title">{text.title}</h2>
@@ -335,18 +305,10 @@ export default function EditorialSections({ content, language, onExplore, onOpen
       </section>
 
       <footer className="ek-scroll-footer">
-        <div className="ek-footer-cols">
-          <nav aria-label="Read"><h4>Read</h4><a href="/magazine/">Magazine</a><a href="/magazine/architectural-history-styles/">Architecture History</a><a href="/newsletter/">Newsletter</a><a href="/videos/">Videos</a></nav>
-          <nav aria-label="Explore"><h4>Explore</h4><a href="/materials/">Materials Library</a><a href="/projects/">Virtual Tours</a><a href="/atlas/">Atlas</a><a href="/projects/">Projects</a></nav>
-          <nav aria-label="Studio"><h4>Studio</h4><a href="/services/">Design Services</a><a href="/contact/">Contact</a><a href="/about/">About</a><a href="/editorial-team/">Editorial Team</a></nav>
-          <nav aria-label="Shop"><h4>Shop</h4><a href="/shop/">All Products</a><a href="/shop/presentations/">Templates</a><a href="/prompts/">Prompt Packs</a></nav>
-        </div>
-        <div className="ek-footer-base">
-          <span>WORLD ARCH JOURNAL · ARCHITECTURE MEDIA &amp; DESIGN</span>
-          {socialLinks.length > 0 && <nav className="ek-social-links" aria-label="Social profiles">{socialLinks.map((item) => <a key={item.id || item.url} href={item.url} target="_blank" rel="me noopener noreferrer">{item.label}</a>)}</nav>}
-          <nav aria-label="Legal"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/affiliate-disclosure/">Affiliate Disclosure</a><a href="/editorial-policy/">Editorial Policy</a><a href="/cookie-settings/">Cookie Settings</a></nav>
-          <button type="button" onClick={onContact}>{text.contact} ↗</button>
-        </div>
+        <span>WORLD ARCH JOURNAL · ARCHITECTURE MEDIA &amp; DESIGN</span>
+        {socialLinks.length > 0 && <nav className="ek-social-links" aria-label="Social profiles">{socialLinks.map((item) => <a key={item.id || item.url} href={item.url} target="_blank" rel="me noopener noreferrer">{item.label}</a>)}</nav>}
+        <nav aria-label="Legal"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/affiliate-disclosure/">Affiliate Disclosure</a><a href="/editorial-policy/">Editorial Policy</a><a href="/cookie-settings/">Cookie Settings</a></nav>
+        <button type="button" onClick={onContact}>{text.contact} ↗</button>
       </footer>
     </div>
   );

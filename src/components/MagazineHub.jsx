@@ -167,13 +167,11 @@ export default function MagazineHub({ category = null }) {
         </a>
         <nav aria-label="Primary navigation">
           <a href="/magazine/" aria-current={!category ? 'page' : undefined}>Magazine</a>
-          <a href="/materials/">Materials</a>
-          <a href="/magazine/architectural-history-styles/">History</a>
-          <a href="/projects/">Virtual Tours</a>
-          <a href="/atlas/">Atlas</a>
+          <a href="/videos/">Videos</a>
           <a href="/newsletter/">Newsletter</a>
-          <a href="/shop/">Shop</a>
-          <a className="wj-magazine-cta" href="/services/">Design Services</a>
+          <a href="/atlas/">Atlas</a>
+          <a href="/#services">Studio</a>
+          <a href="/#contact">Contact</a>
         </nav>
       </header>
 

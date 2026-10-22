@@ -40,7 +40,7 @@ export default function NewsletterPage({ article = false, issue = newsletterIssu
     }
   }
   return <div className="wj-newsletter-page">
-    <header className="wj-newsletter-nav"><a className="wj-newsletter-brand" href="/"><img src={assetUrl('/assets/brand/world-arch-wa-mark-v1.png')} alt="" width="34" height="34" /> WORLD ARCH JOURNAL</a><nav aria-label="Primary"><a href="/magazine/">Magazine</a><a href="/materials/">Materials</a><a href="/magazine/architectural-history-styles/">History</a><a href="/projects/">Virtual Tours</a><a href="/atlas/">Atlas</a><a href="/newsletter/">Newsletter</a><a href="/shop/">Shop</a><a className="wj-newsletter-cta" href="/services/">Design Services</a></nav></header>
+    <header className="wj-newsletter-nav"><a className="wj-newsletter-brand" href="/"><img src={assetUrl('/assets/brand/world-arch-wa-mark-v1.png')} alt="" width="34" height="34" /> WORLD ARCH JOURNAL</a><nav aria-label="Primary"><a href="/magazine/">Magazine</a><a href="/newsletter/">Newsletter</a><a href="/prompts/">Prompt Lab</a></nav></header>
     <main className="wj-newsletter-main" id="main-content">
       <a className="wj-newsletter-back" href={article ? archivePath : '/magazine/'}>← {article ? (isAnalysis ? 'Analysis archive' : 'Dated editions') : 'Magazine'}</a>
       <div className="wj-newsletter-kicker">{isAnalysis ? 'WORLD ARCH / ANALYSIS & FIELD NOTES' : 'THE WORLD ARCH BRIEFING'} · {article ? issue.format.toUpperCase() : 'INDEPENDENT ARCHITECTURE JOURNALISM'}</div>

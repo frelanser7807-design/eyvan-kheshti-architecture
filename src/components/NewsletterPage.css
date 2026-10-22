@@ -30,6 +30,3 @@
 .wj-newsletter-byline{margin:18px 0 20px}
 .wj-newsletter-page .wj-newsletter-main>figure{margin-top:20px}
 @media(max-width:650px){.wj-newsletter-main{padding-top:20px}.wj-newsletter-kicker{margin-top:22px}.wj-newsletter-page h1{font-size:clamp(2.7rem,11vw,4rem)}}
-.wj-newsletter-nav nav{flex-wrap:wrap;align-items:center;justify-content:flex-end}
-.wj-newsletter-cta{background:#caa46e;color:#151914!important;padding:9px 15px;border-radius:99px;font-weight:700;text-decoration:none;white-space:nowrap}
-.wj-newsletter-cta:hover{background:#d8b477}
