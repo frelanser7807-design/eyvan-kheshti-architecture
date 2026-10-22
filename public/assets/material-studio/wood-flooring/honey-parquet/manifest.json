@@ -1,0 +1,31 @@
+{
+  "id": "wood-flooring-honey-parquet",
+  "name": "Honey oak parquet \u2014 real photogrammetry-scanned wood flooring material (4K web edition)",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "nativeResolution": [
+    8192,
+    8192
+  ],
+  "method": "Photogrammetry scan of a physical wood surface, distributed by Poly Haven as Laminate Floor (laminate_floor). The 4K web edition maps are the library's own 4096 x 4096 scans, re-encoded once at high quality for web distribution \u2014 no procedural generation, no enlargement, no detail added. Tile coverage is an estimate from the scanned board layout. The complete native-resolution pack (including the ambient-occlusion map) and a 16K edition prepared from the original scan are planned for Google Drive hosting (links in the panel).",
+  "source": {
+    "library": "Poly Haven",
+    "asset": "Laminate Floor (laminate_floor)",
+    "url": "https://polyhaven.com/a/laminate_floor",
+    "license": "CC0 1.0 Universal (public domain)"
+  },
+  "tileMeters": [
+    1.5,
+    1.5
+  ],
+  "normalConvention": "OpenGL +Y",
+  "license": "CC0 1.0 Universal (public domain) \u2014 free for personal and commercial use, including redistribution.",
+  "sha256": {
+    "basecolor-4k.jpg": "c58c52eb6742ba41d9c3eb984c8b56ccafe23f4b0af1e2b30399fbf6f720df71",
+    "normal-opengl-4k.jpg": "b45c5618662289cbf1402a3c70fb153847bf55f36bd9c1fc7fa039572be34b55",
+    "roughness-4k.jpg": "03c6cfef18aeefd0a694e15a2bb0dac138d4d4474cc62f90fd324970496ae678",
+    "height-4k.jpg": "07ae69013561098805a9275d4078a0fab2c88ec36f15b2107743d9056d0965ee"
+  }
+}

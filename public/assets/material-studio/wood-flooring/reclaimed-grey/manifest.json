@@ -1,0 +1,31 @@
+{
+  "id": "wood-flooring-reclaimed-grey",
+  "name": "Reclaimed grey oak \u2014 real photogrammetry-scanned wood flooring material (4K web edition)",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "nativeResolution": [
+    8192,
+    8192
+  ],
+  "method": "Photogrammetry scan of a physical wood surface, distributed by Poly Haven as Rough Wood (rough_wood). The 4K web edition maps are the library's own 4096 x 4096 scans, re-encoded once at high quality for web distribution \u2014 no procedural generation, no enlargement, no detail added. Tile coverage is an estimate from the scanned board layout. The complete native-resolution pack (including the ambient-occlusion map) and a 16K edition prepared from the original scan are planned for Google Drive hosting (links in the panel).",
+  "source": {
+    "library": "Poly Haven",
+    "asset": "Rough Wood (rough_wood)",
+    "url": "https://polyhaven.com/a/rough_wood",
+    "license": "CC0 1.0 Universal (public domain)"
+  },
+  "tileMeters": [
+    2.0,
+    2.0
+  ],
+  "normalConvention": "OpenGL +Y",
+  "license": "CC0 1.0 Universal (public domain) \u2014 free for personal and commercial use, including redistribution.",
+  "sha256": {
+    "basecolor-4k.jpg": "7446f1ae5f8a37099b9536af4c23110698118b93ad7a7d90c7e6379ebfc84281",
+    "normal-opengl-4k.jpg": "9cdb1dc3df59a2a3530f90f8cfeb08205c4caa36cac539b0ec0b3d6f31eabd4b",
+    "roughness-4k.jpg": "d78c367647b9cedaebe34ecfab2d96635c0862afc7481ebd08ec089d0f6b3902",
+    "height-4k.jpg": "a6317c7f26254c12f1d6575071447f602d313be6fd41a8c329297b3c26939fb4"
+  }
+}

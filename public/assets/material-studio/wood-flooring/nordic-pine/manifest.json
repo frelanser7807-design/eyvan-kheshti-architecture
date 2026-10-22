@@ -1,0 +1,31 @@
+{
+  "id": "wood-flooring-nordic-pine",
+  "name": "Nordic pine \u2014 real photogrammetry-scanned wood flooring material (4K web edition)",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "nativeResolution": [
+    8192,
+    8192
+  ],
+  "method": "Photogrammetry scan of a physical wood surface, distributed by Poly Haven as Wooden Planks (wooden_planks). The 4K web edition maps are the library's own 4096 x 4096 scans, re-encoded once at high quality for web distribution \u2014 no procedural generation, no enlargement, no detail added. Tile coverage is an estimate from the scanned board layout. The complete native-resolution pack (including the ambient-occlusion map) and a 16K edition prepared from the original scan are planned for Google Drive hosting (links in the panel).",
+  "source": {
+    "library": "Poly Haven",
+    "asset": "Wooden Planks (wooden_planks)",
+    "url": "https://polyhaven.com/a/wooden_planks",
+    "license": "CC0 1.0 Universal (public domain)"
+  },
+  "tileMeters": [
+    2.4,
+    2.4
+  ],
+  "normalConvention": "OpenGL +Y",
+  "license": "CC0 1.0 Universal (public domain) \u2014 free for personal and commercial use, including redistribution.",
+  "sha256": {
+    "basecolor-4k.jpg": "8e7e145f4d8c6aed72b89b1b8f63098a6c485e7fc1875fb3b59c1ccb7175973a",
+    "normal-opengl-4k.jpg": "72ee9d416c979c7061fdbb3f7feaac4572acf17a959fd73cb36f552ed23c31bf",
+    "roughness-4k.jpg": "dbd105fce5b71e3a527d235990c994755b93348cf62509a536ae3823102a8aa2",
+    "height-4k.jpg": "e2ce9fc18fde885b821e1621cd9c59f8a87e156804d191a3dc1dd6f409359c13"
+  }
+}
