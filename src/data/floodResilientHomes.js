@@ -18,7 +18,7 @@ const floodResilientHomes = {
   imageAlt: 'Original editorial view of a raised flood-resilient home beside a planted rain garden and permeable approach',
   visualLabel: 'FIG. 01 · ELEVATED LIVING, RECOVERABLE LOWER ZONE AND WATER-SENSITIVE LANDSCAPE · ORIGINAL AI-ASSISTED EDITORIAL ILLUSTRATION, WORLD ARCH JOURNAL 2026.',
   publishedAt: '2026-10-08',
-  modifiedAt: '2026-10-08',
+  modifiedAt: '2026-10-22',
   toc: [
     ['quick-answer', 'The quick answer'],
     ['hierarchy', 'Use the correct hierarchy'],
@@ -60,7 +60,7 @@ const floodResilientHomes = {
     <h3>5. Coordinate every low-level opening</h3>
     <p>Doors, air bricks, vents, drains, service penetrations and party-wall junctions form one boundary. Passive measures are generally more reliable than components that must be found and installed during a warning. Backflow protection, self-closing vents or certified barriers still require inspection and maintenance.</p>
     <h3>6. Provide drainage, sumps and drying access</h3>
-    <p>Water should be able to leave without remaining trapped behind linings or under floors. Detail falls, drainage routes and pumps where appropriate, but provide safe access for maintenance. Avoid sealed cavities that cannot be inspected. Plan how wet materials will be removed, how air will circulate and where contaminated water can be handled safely.</p>
+    <p>Water should be able to leave without remaining trapped behind linings or under floors. Detail falls, drainage routes and pumps where appropriate, but provide safe access for maintenance. Avoid sealed cavities that cannot be inspected. Plan how wet materials will be removed, how air will circulate and where contaminated water can be handled safely. At the scale of a single wall, the same expect-water-and-give-it-an-exit philosophy is the <a href="/articles/rainscreen-facade-design-water-control/">rainscreen facade</a> strategy.</p>
 
     <h2 id="recover">7–9. Design interiors and services for faster recovery</h2>
     <h3>7. Specify flood-damage-resistant materials below the design level</h3>
@@ -90,7 +90,7 @@ const floodResilientHomes = {
     <p>Review: site avoidance; mapped flow routes; elevated occupied floors; safe access; a defined structural resistance threshold; coordinated low-level openings; drainage and drying access; flood-damage-resistant materials; raised services and recoverable joinery; and a maintainable runoff-reduction landscape. Every move should be tied to a named risk, responsible professional and inspection plan.</p>
     <p>Resilient design is not the absence of water. It is a clear sequence that protects life, limits structural damage and shortens the path back to a safe home. The most credible drawing is therefore not only the flood-day section; it is also the recovery-day plan.</p>
   
-    <p><strong>Continue exploring:</strong> water at the threshold is a detailing problem before it is a disaster — the field note <a href="/magazine/analysis/water-at-the-threshold/">The Water Line</a> traces the drainage decisions that decide whether a terrace door survives its first storm. The method is hazard-by-hazard, as in the companion guide to <a href="/articles/wildfire-resilient-home-design/">wildfire-resilient homes</a>.</p>
+    <p><strong>Continue exploring:</strong> water at the threshold is a detailing problem before it is a disaster — the field note <a href="/magazine/analysis/water-at-the-threshold/">The Water Line</a> traces the drainage decisions that decide whether a terrace door survives its first storm. The method is hazard-by-hazard, as in the companion guide to <a href="/articles/wildfire-resilient-home-design/">wildfire-resilient homes</a>. For the heat side of the same adaptation brief, see our <a href="/articles/climate-responsive-facades-cooling-design/">climate responsive facade</a> strategies.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international design guide'],
@@ -111,6 +111,8 @@ const floodResilientHomes = {
     { question: 'Should every flood-prone home be sealed completely?', answer: 'No. Excluding water can create damaging pressure differences. The safe resistance depth and strategy require project-specific structural assessment.' },
     { question: 'Which materials are flood resilient?', answer: 'Suitability depends on flood duration, contamination, assembly and local rules. Materials below the design level should resist unacceptable damage and be cleanable, dryable or readily replaceable.' },
     { question: 'Can a rain garden protect a house from every flood?', answer: 'No. It can help manage local runoff when correctly sized and maintained, but it does not replace regional flood management or a verified building strategy.' },
+    { question: 'How do you design a house to withstand flooding?', answer: 'In the order this guide works through: first avoid exposure in siting and layout; then elevate the programme and protect life; manage water, openings and pressure — resisting entry only within safe structural limits; use flood-resilient materials below the design level; raise services; and design interiors that can be cleaned, dried and reoccupied quickly.' },
+    { question: 'Should a house in a flood zone be elevated?', answer: 'Elevation is one of the strongest strategies where structure, access and planning allow, because it lifts the occupied floor above the design flood level entirely. It is not the only one: where elevation is impossible, controlled water entry with recoverable construction may be safer than sealing a building beyond its structural limit.' },
   ],
   evidence: [
     { publisher: 'Federal Emergency Management Agency', source_url: 'https://www.fema.gov/sites/default/files/documents/fema_tb_2_flood_damage-resistant_materials_requirements_01-22-2025.pdf', claim: 'The 2025 Technical Bulletin 2 provides updated guidance on flood-damage-resistant structural and finish materials below the Base Flood Elevation.', limitations: 'U.S. NFIP context; local codes and professional assessment govern other jurisdictions.' },
