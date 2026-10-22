@@ -304,10 +304,13 @@ if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new
 // to accommodate the standing daily program. Raised 260 -> 267 on 2026-10-22 for
 // the owner-approved homepage v4.4: its two founder films (5.45 MB, previously
 // pruned) plus Playfair fonts and homepage covers measure 260.27 MB total.
+// Raised 267 -> 272 on 2026-10-23 for the owner-ordered Architectural History
+// educational atlas: 47 licensed Wikimedia Commons photographs (~3.9 MB at
+// web widths, q68) plus 3 authored SVG diagrams in public/assets/history-hub/.
 // NOTE: at ~16 MB/day this gate needs a
 // sustainable model (per-article budget or growth allowance) — revisit soon.
-if (distSizeMb - materialSizeMb > 267) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 267 MB`);
+if (distSizeMb - materialSizeMb > 272) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 272 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));

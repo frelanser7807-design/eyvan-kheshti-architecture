@@ -34,16 +34,193 @@ function hubArticleFor(entry) {
   return entry?.articleSlug ? publishedMagazineArticles.find((article) => article.slug === entry.articleSlug) || null : null;
 }
 
-function HubLaneCard({ entry, lane }) {
+function HubFigure({ image, className = '' }) {
+  if (!image) return null;
+  return (
+    <figure className={`wj-hub-figure ${className}`}>
+      <img src={assetUrl(image.src)} alt={image.alt} loading="lazy" decoding="async" />
+      <figcaption>{image.credit}</figcaption>
+    </figure>
+  );
+}
+
+function HubStudy({ study }) {
+  const facts = study.facts || {};
+  return (
+    <article className="wj-hub-study" id={`study-${study.id}`} aria-labelledby={`wj-study-${study.id}`}>
+      <header className="wj-hub-study-head">
+        <span className="wj-magazine-kicker">Field study</span>
+        <h3 id={`wj-study-${study.id}`}>{study.title}</h3>
+        <dl className="wj-hub-facts">
+          {facts.period && <div><dt>Period</dt><dd>{facts.period}</dd></div>}
+          {facts.geography && <div><dt>Geography</dt><dd>{facts.geography}</dd></div>}
+          {facts.types && <div><dt>Building types</dt><dd>{facts.types}</dd></div>}
+        </dl>
+        {facts.note && <p className="wj-hub-fact-note">{facts.note}</p>}
+      </header>
+      <HubFigure image={study.images.hero} className="wj-hub-study-hero" />
+      <div className="wj-hub-study-body">
+        <h4>How it emerged</h4>
+        {study.context.map((paragraph) => <p key={paragraph.slice(0, 32)}>{paragraph}</p>)}
+        <h4>Five signs to check</h4>
+        <p className="wj-hub-signs-intro">One sign alone never decides the style — let the five vote together.</p>
+        <ol className="wj-hub-signs">
+          {study.signs.map((sign, index) => (
+            <li key={sign.name}>
+              <HubFigure image={study.images[sign.img]} />
+              <div>
+                <h5><span aria-hidden="true">{index + 1}.</span> {sign.name}</h5>
+                <p>{sign.look}</p>
+                <p className="wj-hub-sign-limit"><strong>Limit:</strong> {sign.limit}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+        {study.diagram && (
+          <figure className="wj-hub-figure wj-hub-diagram">
+            <img src={assetUrl(study.diagram.src)} alt={study.diagram.caption} loading="lazy" decoding="async" />
+            <figcaption>{study.diagram.caption} {study.diagram.credit}.</figcaption>
+          </figure>
+        )}
+        <h4>Materials &amp; construction</h4>
+        <p>{study.materials}</p>
+        <p className="wj-hub-materials-note">Historic practice is described first; modern equivalents are named separately — the two layers are never merged.</p>
+        <h4>Documented examples</h4>
+        <ul className="wj-hub-examples">
+          {study.examples.map((example) => (
+            <li key={example.name}>
+              <strong>{example.name}</strong> — {example.place}, {example.date}. {example.look}
+              {' '}<a href={example.sourceUrl} target="_blank" rel="noopener noreferrer">Source: {example.sourceName} ↗</a>
+            </li>
+          ))}
+        </ul>
+        <aside className="wj-hub-lesson"><span>Lesson for today</span><p>{study.lesson}</p></aside>
+        <p className="wj-hub-sources">Sources: {study.sources.map((source, index) => (
+          <span key={source.url}>{index > 0 ? ' · ' : ''}<a href={source.url} target="_blank" rel="noopener noreferrer">{source.name}</a></span>
+        ))}</p>
+        {study.deepRead && <p className="wj-hub-deepread"><a href={study.deepRead}>Read the full guide to {study.title} <span aria-hidden="true">↗</span></a></p>}
+      </div>
+    </article>
+  );
+}
+
+function HubCompare({ comparison }) {
+  return (
+    <article className="wj-hub-compare" id={`compare-${comparison.id}`} aria-labelledby={`wj-compare-${comparison.id}`}>
+      <h3 id={`wj-compare-${comparison.id}`}>{comparison.title}</h3>
+      <p className="wj-hub-compare-intro">{comparison.intro}</p>
+      <div className="wj-hub-compare-heads">
+        {[comparison.left, comparison.right].map((side) => (
+          <div key={side.name}>
+            <HubFigure image={side.img} />
+            <h4>{side.name}</h4>
+            <p>{side.traits}</p>
+          </div>
+        ))}
+      </div>
+      <div className="wj-hub-compare-table" role="table" aria-label={`${comparison.title} compared detail by detail`}>
+        {comparison.rows.map((row) => (
+          <div className="wj-hub-compare-row" role="row" key={row.detail}>
+            <span className="wj-hub-compare-detail" role="rowheader">{row.detail}</span>
+            <p role="cell"><strong>{comparison.left.name}:</strong> {row.left}</p>
+            <p role="cell"><strong>{comparison.right.name}:</strong> {row.right}</p>
+          </div>
+        ))}
+      </div>
+      <p><strong>What they share:</strong> {comparison.shared}</p>
+      <p><strong>Exceptions:</strong> {comparison.exceptions}</p>
+      <p className="wj-hub-sources">Sources: {comparison.sources.map((source, index) => (
+        <span key={source.url}>{index > 0 ? ' · ' : ''}<a href={source.url} target="_blank" rel="noopener noreferrer">{source.name}</a></span>
+      ))}</p>
+    </article>
+  );
+}
+
+function HubMethodStudy({ methodStudy }) {
+  return (
+    <section className="wj-hub-section" id="history-method-study" aria-labelledby="wj-hub-method-study-title">
+      <div className="wj-magazine-section-title"><span>GUIDED METHOD</span><span>The pillar study</span></div>
+      <h2 id="wj-hub-method-study-title" className="wj-hub-heading">How to identify a building's style.</h2>
+      <p className="wj-hub-blurb">The five-sign method, worked through step by step on one real facade: {methodStudy.facade.name}, {methodStudy.facade.place}. Read each sign, then check what it can — and cannot — prove.</p>
+      <HubFigure image={methodStudy.facade.img} className="wj-hub-method-figure" />
+      <ol className="wj-hub-method-steps">
+        {methodStudy.steps.map((step, index) => (
+          <li key={step.sign}>
+            <h3><span aria-hidden="true">{index + 1}.</span> {step.sign}</h3>
+            <p><strong>Observe:</strong> {step.observe}</p>
+            <p><strong>Conclude:</strong> {step.conclude}</p>
+          </li>
+        ))}
+      </ol>
+      <aside className="wj-hub-lesson"><span>Verdict</span><p>{methodStudy.verdict}</p></aside>
+      <h3 className="wj-hub-subhead">Three mistakes to avoid</h3>
+      <ul className="wj-hub-mistakes">
+        {methodStudy.mistakes.map((mistake) => <li key={mistake.slice(0, 28)}>{mistake}</li>)}
+      </ul>
+    </section>
+  );
+}
+
+function HubCaseStudy({ caseStudy }) {
+  return (
+    <section className="wj-hub-section" id="history-case-study" aria-labelledby="wj-hub-case-title">
+      <div className="wj-magazine-section-title"><span>CASE STUDY</span><span>One building, read closely</span></div>
+      <h2 id="wj-hub-case-title" className="wj-hub-heading">{caseStudy.building.name}.</h2>
+      <p className="wj-hub-blurb">{caseStudy.building.date} · Source: <a href={caseStudy.building.sourceUrl} target="_blank" rel="noopener noreferrer">{caseStudy.building.sourceName} ↗</a></p>
+      <p className="wj-hub-case-intro">{caseStudy.intro}</p>
+      <HubFigure image={caseStudy.images.full} className="wj-hub-study-hero" />
+      <HubFigure image={caseStudy.images.detail} />
+      <ol className="wj-hub-case-beats">
+        {caseStudy.beats.map((beat) => (
+          <li key={beat.detail}>
+            <h3>{beat.detail}</h3>
+            <p>{beat.explanation}</p>
+          </li>
+        ))}
+      </ol>
+      <aside className="wj-hub-lesson"><span>Lesson for today</span><p>{caseStudy.lesson}</p></aside>
+      <p className="wj-hub-sources">Sources: {caseStudy.sources.map((source, index) => (
+        <span key={source.url}>{index > 0 ? ' · ' : ''}<a href={source.url} target="_blank" rel="noopener noreferrer">{source.name}</a></span>
+      ))}</p>
+    </section>
+  );
+}
+
+function HubFaq({ faq }) {
+  return (
+    <section className="wj-hub-section" id="history-faq" aria-labelledby="wj-hub-faq-title">
+      <div className="wj-magazine-section-title"><span>QUESTIONS</span><span>Answered from the studies</span></div>
+      <h2 id="wj-hub-faq-title" className="wj-hub-heading">Frequently asked questions.</h2>
+      <div className="wj-hub-faq-list">
+        {faq.map((item) => (
+          <details key={item.question}>
+            <summary>{item.question}</summary>
+            <p>{item.answer}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function HubLaneCard({ entry, lane, study = null }) {
   const article = hubArticleFor(entry);
   if (!article) {
     return (
       <article className="wj-hub-card wj-hub-prep">
+        {study && (
+          <a className="wj-magazine-card-image has-cover" href={`#study-${study.id}`} aria-label={`Read the study: ${study.title}`}>
+            <img className="wj-magazine-card-backdrop" src={assetUrl(study.images.hero.src)} alt="" aria-hidden="true" loading="lazy" decoding="async" />
+            <img className="wj-magazine-card-cover" src={assetUrl(study.images.hero.src)} alt={study.images.hero.alt} loading="lazy" decoding="async" />
+          </a>
+        )}
         <span className="wj-magazine-kicker">{lane.title}</span>
         <h3>{entry.title}</h3>
         {entry.period && <p className="wj-hub-period">{entry.period}</p>}
         <p>{entry.learn}</p>
-        <span className="wj-hub-soon">In preparation</span>
+        {study
+          ? <a className="wj-hub-studylink" href={`#study-${study.id}`}>Read the study <span aria-hidden="true">↓</span></a>
+          : <a className="wj-hub-studylink" href="#history-method-study">Open the comparison studies <span aria-hidden="true">↓</span></a>}
       </article>
     );
   }
@@ -107,27 +284,50 @@ function HistoryHubSections({ hub }) {
         <ul className="wj-hub-timeline-list">
           {hub.timeline.map((entry) => {
             const article = hubArticleFor(entry);
+            const timelineStudyIds = { Romanesque: 'romanesque', Gothic: 'gothic', Baroque: 'baroque-rococo', Rococo: 'baroque-rococo', Victorian: 'victorian', 'Art Nouveau': 'art-nouveau', Modernism: 'modernism-international-style' };
+            const studyId = timelineStudyIds[entry.label];
             return (
               <li key={entry.label}>
                 <strong>{entry.label}</strong>
                 <span>{entry.period}</span>
-                {article ? <a href={`/articles/${article.slug}/`}>Read the guide <span aria-hidden="true">↗</span></a> : <em>In preparation</em>}
+                {article ? <a href={`/articles/${article.slug}/`}>Read the guide <span aria-hidden="true">↗</span></a> : studyId ? <a href={`#study-${studyId}`}>Read the study <span aria-hidden="true">↓</span></a> : <em>In preparation</em>}
               </li>
             );
           })}
         </ul>
       </section>
 
-      {hub.lanes.map((lane, laneIndex) => (
-        <section className="wj-hub-section" id={lane.id} key={lane.id} aria-labelledby={`wj-hub-lane-${lane.id}`}>
-          <div className="wj-magazine-section-title"><span>{String(laneIndex + 3).padStart(2, '0')} / {lane.kicker}</span><span>{lane.aside}</span></div>
-          <h2 id={`wj-hub-lane-${lane.id}`} className="wj-hub-heading">{lane.title}</h2>
-          <p className="wj-hub-blurb">{lane.blurb}</p>
-          <div className="wj-magazine-grid wj-hub-grid">
-            {lane.entries.map((entry) => <HubLaneCard entry={entry} lane={lane} key={entry.articleSlug || entry.title} />)}
-          </div>
-        </section>
-      ))}
+      {hub.lanes.map((lane, laneIndex) => {
+        const studyFor = (entry) => (hub.studies || []).find((study) => study.id === entry.id) || null;
+        const isComparisons = lane.id === 'history-comparisons';
+        return (
+          <section className="wj-hub-section" id={lane.id} key={lane.id} aria-labelledby={`wj-hub-lane-${lane.id}`}>
+            <div className="wj-magazine-section-title"><span>{String(laneIndex + 3).padStart(2, '0')} / {lane.kicker}</span><span>{lane.aside}</span></div>
+            <h2 id={`wj-hub-lane-${lane.id}`} className="wj-hub-heading">{lane.title}</h2>
+            <p className="wj-hub-blurb">{lane.blurb}</p>
+            {isComparisons ? (
+              <>
+                {(hub.comparisons || []).map((comparison) => <HubCompare comparison={comparison} key={comparison.id} />)}
+                <p className="wj-hub-compare-method-note">The third study in this lane — <a href="#history-method-study">how to identify a building's style</a> — is the guided method section below, worked through on one real facade.</p>
+              </>
+            ) : (
+              <>
+                <div className="wj-magazine-grid wj-hub-grid">
+                  {lane.entries.map((entry) => <HubLaneCard entry={entry} lane={lane} study={studyFor(entry)} key={entry.articleSlug || entry.title} />)}
+                </div>
+                {lane.entries.map((entry) => {
+                  const study = studyFor(entry);
+                  return study ? <HubStudy study={study} key={study.id} /> : null;
+                })}
+              </>
+            )}
+          </section>
+        );
+      })}
+
+      {hub.methodStudy && <HubMethodStudy methodStudy={hub.methodStudy} />}
+      {hub.caseStudy && <HubCaseStudy caseStudy={hub.caseStudy} />}
+      {hub.faq && <HubFaq faq={hub.faq} />}
 
       <section className="wj-hub-section wj-hub-method" aria-labelledby="wj-hub-method-title">
         <span className="wj-magazine-kicker">{hub.method.kicker}</span>

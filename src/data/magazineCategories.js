@@ -1,4 +1,5 @@
 import { articles } from './articles.js';
+import { historyStudies, historyComparisons, historyMethod, historyCaseStudy, historyFaq } from './historyAtlas.js';
 
 // A topic only becomes a public landing page after it has a real article.
 const definitions = [
@@ -15,13 +16,19 @@ const definitions = [
   {
     slug: 'architectural-history-styles',
     title: 'Architectural History & Styles',
-    description: 'Built history read through material, structure, public life and critical evidence — styles, movements and landmark buildings explained for designers.',
+    seoTitle: 'Architectural Styles & History — An Educational Atlas for Identifying Buildings',
+    description: 'An educational atlas of architectural history: identify styles by their five signs, compare neighbouring movements side by side, and read the elements, materials and building types behind them. Documented buildings, licensed images and named institutional sources throughout.',
     overview: [
-      'Architectural style becomes useful when it helps us read how a building was made, occupied and understood—not when it reduces history to a visual filter.',
-      'This archive uses documented buildings and licensed images to connect form with social ambition, construction, preservation and contemporary relevance.',
+      'This is not a parade of dates. The atlas teaches a skill: how to look at a building and name what made it — the arch that carries it, the wall that lights it, the material that limits and expresses it.',
+      'Every entry follows the same discipline: identification facts, the world the style grew from, five signs to check on the street, the materials and construction underneath, documented examples with their sources named, and one lesson worth carrying into contemporary design.',
     ],
     articleSlugs: ['brutalist-architecture-history-features-buildings', 'art-deco-architecture-history-features-buildings', 'frank-lloyd-wright-organic-architecture-guide'],
     hub: {
+      studies: historyStudies,
+      comparisons: historyComparisons,
+      methodStudy: historyMethod,
+      caseStudy: historyCaseStudy,
+      faq: historyFaq,
       promise: 'Architectural history for understanding buildings — and the design decisions we make today. Not a parade of dates: a working archive for reading facades, structures and materials, and for carrying their lessons into contemporary practice.',
       timelineSpan: [950, 2000],
       startHere: [
@@ -63,15 +70,15 @@ const definitions = [
           title: 'Styles & movements',
           blurb: 'What each movement believed, how it was built, and the signs that identify it in the street. Guides open in clusters — a style arrives with the comparison that sharpens it.',
           entries: [
-            { articleSlug: 'brutalist-architecture-history-features-buildings', title: 'Brutalism', period: 'c. 1952–1979', learn: 'Why raw concrete became a public language — seven buildings, from Marseille to São Paulo, that make the case.' },
-            { articleSlug: 'art-deco-architecture-history-features-buildings', title: 'Art Deco', period: 'c. 1910–1939', learn: 'Geometry, glamour and the machine age: stepped massing, stylised ornament and the Jazz Age city.' },
-            { articleSlug: 'frank-lloyd-wright-organic-architecture-guide', title: 'Frank Lloyd Wright & organic architecture', learn: 'How Wright grew buildings from landscape, material and the open plan — and what organic architecture really claimed.' },
-            { title: 'Art Nouveau', period: 'c. 1890–1910', learn: 'The whiplash line in iron, glass and tile — a total style that tried to make every detail grow.' },
-            { title: 'Gothic', period: 'c. 1140–1500', learn: 'Pointed arches, rib vaults and walls of glass: how structure learned to become light.' },
-            { title: 'Romanesque', period: 'c. 1000–1150', learn: 'Round arches and massive walls — the grounded architecture that Gothic learned to lift.' },
-            { title: 'Baroque & Rococo', period: 'c. 1600–1770', learn: "Movement, theatre and ornament: the Baroque's public drama and Rococo's intimate turn, read as one cluster." },
-            { title: 'Modernism & the International Style', period: 'c. 1900–1965', learn: 'Function, white walls and a promised new world — what modernism kept, and what it threw away.' },
-            { title: 'Victorian architecture', period: '1837–1901', learn: 'An era rather than a style: revival upon revival, new industry, new suburbs and the decorated house.' },
+            { id: 'brutalism', articleSlug: 'brutalist-architecture-history-features-buildings', title: 'Brutalism', period: 'c. 1952–1979', learn: 'Why raw concrete became a public language — seven buildings, from Marseille to São Paulo, that make the case.' },
+            { id: 'art-deco', articleSlug: 'art-deco-architecture-history-features-buildings', title: 'Art Deco', period: 'c. 1910–1939', learn: 'Geometry, glamour and the machine age: stepped massing, stylised ornament and the Jazz Age city.' },
+            { id: 'frank-lloyd-wright', articleSlug: 'frank-lloyd-wright-organic-architecture-guide', title: 'Frank Lloyd Wright & organic architecture', learn: 'How Wright grew buildings from landscape, material and the open plan — and what organic architecture really claimed.' },
+            { id: 'art-nouveau', title: 'Art Nouveau', period: 'c. 1890–1910', learn: 'The whiplash line in iron, glass and tile — a total style that tried to make every detail grow.' },
+            { id: 'gothic', title: 'Gothic', period: 'c. 1140–1500', learn: 'Pointed arches, rib vaults and walls of glass: how structure learned to become light.' },
+            { id: 'romanesque', title: 'Romanesque', period: 'c. 1000–1150', learn: 'Round arches and massive walls — the grounded architecture that Gothic learned to lift.' },
+            { id: 'baroque-rococo', title: 'Baroque & Rococo', period: 'c. 1600–1770', learn: "Movement, theatre and ornament: the Baroque's public drama and Rococo's intimate turn, read as one cluster." },
+            { id: 'modernism-international-style', title: 'Modernism & the International Style', period: 'c. 1900–1965', learn: 'Function, white walls and a promised new world — what modernism kept, and what it threw away.' },
+            { id: 'victorian', title: 'Victorian architecture', period: '1837–1901', learn: 'An era rather than a style: revival upon revival, new industry, new suburbs and the decorated house.' },
           ],
         },
         {
@@ -81,10 +88,10 @@ const definitions = [
           title: 'Elements & structure',
           blurb: 'Styles change; the problems do not. This lane studies the parts that carry, span, shelter and admit light — the layer where history becomes construction.',
           entries: [
-            { title: 'Arch, vault & flying buttress', learn: 'Three devices that carried stone higher, opened the wall and let Gothic interiors fill with glass.' },
-            { title: 'The dome', learn: 'Spanning the sacred and the civic — masonry shells, coffering, and the long road to iron and glass.' },
-            { title: 'Columns & orders', learn: 'The classical orders as a grammar of proportion — and the many deliberate ways builders broke it.' },
-            { title: 'Light in historic buildings', learn: 'Before electricity, light was structure: clerestories, oculi, courtyards and walls of glass.' },
+            { id: 'arch-vault-flying-buttress', title: 'Arch, vault & flying buttress', learn: 'Three devices that carried stone higher, opened the wall and let Gothic interiors fill with glass.' },
+            { id: 'the-dome', title: 'The dome', learn: 'Spanning the sacred and the civic — masonry shells, coffering, and the long road to iron and glass.' },
+            { id: 'columns-orders', title: 'Columns & orders', learn: 'The classical orders as a grammar of proportion — and the many deliberate ways builders broke it.' },
+            { id: 'light-in-historic-buildings', title: 'Light in historic buildings', learn: 'Before electricity, light was structure: clerestories, oculi, courtyards and walls of glass.' },
           ],
         },
         {
@@ -94,8 +101,8 @@ const definitions = [
           title: 'Building types',
           blurb: 'A style describes how a building looks; a type describes what it is for. This lane follows the enduring programmes across the centuries that dressed them.',
           entries: [
-            { title: 'Medieval castles & fortifications', learn: 'Walls, keeps and gatehouses: fortification as a building type — and the domestic life arranged inside it.' },
-            { title: 'The historic house', learn: 'Hall, corridor, villa, suburb: how the private house changed as privacy and comfort were invented.' },
+            { id: 'medieval-castles', title: 'Medieval castles & fortifications', learn: 'Walls, keeps and gatehouses: fortification as a building type — and the domestic life arranged inside it.' },
+            { id: 'the-historic-house', title: 'The historic house', learn: 'Hall, corridor, villa, suburb: how the private house changed as privacy and comfort were invented.' },
           ],
         },
         {
@@ -105,9 +112,9 @@ const definitions = [
           title: 'Comparisons',
           blurb: 'Identification is a comparative skill. Each study sets two close styles in one frame, on the same details, so the difference can be seen rather than memorised.',
           entries: [
-            { title: 'Art Deco vs Art Nouveau', learn: 'Curve against geometry: telling the two most confused styles of the early 1900s apart at a glance.' },
-            { title: 'Gothic vs Romanesque', learn: 'Pointed against round — the arch, the vault and the wall in one field comparison of medieval neighbours.' },
-            { title: "How to identify a building's style", learn: "The section's field guide: the five-sign method worked through on real facades, step by step." },
+            { id: 'art-deco-vs-art-nouveau', title: 'Art Deco vs Art Nouveau', learn: 'Curve against geometry: telling the two most confused styles of the early 1900s apart at a glance.' },
+            { id: 'gothic-vs-romanesque', title: 'Gothic vs Romanesque', learn: 'Pointed against round — the arch, the vault and the wall in one field comparison of medieval neighbours.' },
+            { id: 'identify-style-method', title: "How to identify a building's style", learn: "The section's field guide: the five-sign method worked through on real facades, step by step." },
           ],
         },
       ],
