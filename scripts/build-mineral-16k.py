@@ -83,7 +83,7 @@ for source in ROOT.glob('*/*/*.png'):
     with Image.open(source) as check:
         check.verify()
 
-for family in ('exposed-concrete', 'microcement'):
+for family in ('exposed-concrete', 'microcement', 'aluminium-composite'):
     folder = ROOT / family
     shared = [tiled_png(folder / 'shared' / filename, folder / '16k/shared', filename.replace('4k','16k')) for filename in ('normal-opengl-4k.png', 'roughness-4k.png', 'height-4k.png')]
     for manifest_path in sorted(folder.glob('*/manifest.json')):

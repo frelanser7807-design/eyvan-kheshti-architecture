@@ -30,5 +30,20 @@ export const mineralMaterials = [
     ],
     reading: [{ label: 'Small apartment planning and material continuity', url: '/articles/small-apartment-layout-storage-privacy-daylight/' }, { label: 'Villa design: a considered material palette', url: '/articles/modern-villa-reimagined-7-design-principles/' }],
   },
+  {
+    id: 'aluminium-composite', name: 'Aluminium composite', category: 'metal', type: 'composite-panels',
+    path: '/materials/metal/composite-panels/aluminium-composite/',
+    label: 'FACADE FINISHES / ALUMINIUM COMPOSITE', repeat: '1200 × 1200 mm',
+    description: 'Five satin-coated aluminium composite finish studies, adjustable studio lighting, original 4K PBR maps and 16K seamless tiled editions for facade visualisation.',
+    application: 'Illustrative coated aluminium composite panel surfaces. These maps represent the coating only; model panel joints, folds and fixings separately. Core composition, fire classification, cavity barriers, wind loading and installation require a tested manufacturer system and project-specific design.',
+    finishes: [
+      { id: 'pearl-white', name: 'Pearl white', color: '#e4e3dd', rgb: [228,227,221] },
+      { id: 'silver-grey', name: 'Silver grey', color: '#b8bcc0', rgb: [184,188,192] },
+      { id: 'champagne', name: 'Champagne', color: '#bcae91', rgb: [188,174,145] },
+      { id: 'bronze', name: 'Bronze', color: '#88705a', rgb: [136,112,90] },
+      { id: 'anthracite', name: 'Anthracite', color: '#454b50', rgb: [69,75,80] },
+    ],
+    reading: [{ label: 'Rainscreen facades and water control', url: '/articles/rainscreen-facade-design-water-control/' }, { label: 'Climate-responsive facade design', url: '/articles/climate-responsive-facades-cooling-design/' }],
+  },
 ];
 export const mineralByPath = (pathname) => mineralMaterials.find((material) => material.path === pathname);

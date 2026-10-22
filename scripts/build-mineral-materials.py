@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1] / 'public/assets/material-studio/mine
 SIZE = 4096
 FAMILIES = {
     'exposed-concrete': [('natural-grey', (165,164,156)), ('warm-grey', (179,170,154)), ('light-cement', (206,206,196)), ('sandstone', (188,169,140)), ('graphite', (99,103,98))],
+    'aluminium-composite': [('pearl-white', (228,227,221)), ('silver-grey', (184,188,192)), ('champagne', (188,174,145)), ('bronze', (136,112,90)), ('anthracite', (69,75,80))],
     'microcement': [('warm-ivory', (222,214,196)), ('soft-greige', (182,175,162)), ('clay', (187,150,129)), ('sage', (164,173,156)), ('charcoal', (104,107,103))],
 }
 
@@ -47,12 +48,17 @@ def generate(family, finishes, seed):
             offsets = np.arange(-radius, radius + 1)
             radial = np.maximum(0, 1 - (offsets[:, None] ** 2 + offsets[None, :] ** 2) / radius ** 2)
             height[np.ix_((cy + offsets) % SIZE, (cx + offsets) % SIZE)] -= radial * .22
+    if family == 'aluminium-composite':
+        # Fine coating grain, without plaster-like trowel bands or panel joints.
+        height = grain * .004
     hx = (np.roll(height, -1, 1) - np.roll(height, 1, 1)) * 5
     hy = (np.roll(height, -1, 0) - np.roll(height, 1, 0)) * 5
     length = np.sqrt(hx * hx + hy * hy + 1)
     normal = np.stack((-hx / length, hy / length, 1 / length), axis=-1)
     save_png(Image.fromarray(np.uint8(np.clip((normal * .5 + .5) * 255, 0, 255))), shared / 'normal-opengl-4k.png')
     roughness = np.uint8(np.clip((.78 if family == 'exposed-concrete' else .62) + field * .07 + grain * .015, 0, 1) * 255)
+    if family == 'aluminium-composite':
+        roughness = np.uint8(np.clip(.34 + grain * .025, 0, 1) * 255)
     save_png(Image.fromarray(roughness), shared / 'roughness-4k.png')
     save_png(Image.fromarray(np.uint16(np.round(np.clip(height + .5, 0, 1) * 8191) * 8)), shared / 'height-4k.png')
     # A small GPU preview avoids uploading 4K textures to mobile just to browse.
@@ -63,6 +69,8 @@ def generate(family, finishes, seed):
         target = folder / finish
         target.mkdir(exist_ok=True)
         variation = field * 10 + grain * 1.6 + height * 18
+        if family == 'aluminium-composite':
+            variation = grain * 1.5
         color = np.uint8(np.clip(np.array(rgb, dtype=np.float32)[None,None,:] + variation[:,:,None], 0, 255))
         image = Image.fromarray(color)
         save_png(image, target / 'basecolor-4k.png')
@@ -72,7 +80,8 @@ def generate(family, finishes, seed):
         (target / 'manifest.json').write_text(json.dumps(manifest, indent=2))
     print(f'Generated {family}: {len(finishes)} finishes and verified 4K maps')
 
-for seed, (family, finishes) in enumerate(FAMILIES.items(), start=912):
+for seed, family in enumerate(('exposed-concrete', 'microcement', 'aluminium-composite'), start=912):
+    finishes = FAMILIES[family]
     generate(family, finishes, seed)
 
 # Finalise manifests only after every surface has been written. This is also

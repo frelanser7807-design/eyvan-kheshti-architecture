@@ -14,7 +14,7 @@ export const collectionCategories = [
   { id: 'concrete', name: 'Concrete', description: 'Architectural concrete finishes — boards, textures and surface treatments for interiors and facades, prepared for visualisation and specification.', types: [{ id: 'concrete-finishes', name: 'Concrete finishes' }] },
   { id: 'plaster', name: 'Plaster & paint', description: 'Decorative interior finishes — plasters, paints and wall coatings for interior visualisation, with tones and textures compared side by side.', types: [{ id: 'plaster-finishes', name: 'Plaster finishes' }] },
   { id: 'brick', name: 'Brick & cladding', description: 'Masonry and facade surfaces — brickwork, cladding and tile systems for exterior and interior visualisation, compared by finish, tone and texture.', types: [{ id: 'brickwork', name: 'Brickwork' }] },
-  { id: 'metal', name: 'Metal', description: 'Architectural metal finishes — panels, meshes and coatings for facades and interiors, compared by finish, tone and reflectivity.', types: [{ id: 'metal-finishes', name: 'Metal finishes' }] },
+  { id: 'metal', name: 'Metal', description: 'Architectural metal finishes — panels, meshes and coatings for facades and interiors, compared by finish, tone and reflectivity.', types: [{ id: 'metal-finishes', name: 'Metal finishes' }, { id: 'composite-panels', name: 'Aluminium composite panels' }] },
   { id: 'fabric', name: 'Textiles', description: 'Textiles for interior visualisation — upholstery, drapery and soft finishes compared by weave, tone and texture for realistic room studies.', types: [{ id: 'interior-textiles', name: 'Interior textiles' }] },
 ];
 export const collectionProducts = [{
@@ -63,7 +63,7 @@ export const collectionProducts = [{
   finishes: material.finishes.length,
   contexts: 'Interactive surface studio',
   titleSuffix: '4K + 16K tiled maps',
-  modifiedAt: '2026-10-21',
+  modifiedAt: material.id === 'aluminium-composite' ? '2026-10-22' : '2026-10-21',
   relatedLinks: material.reading,
 }))];
 export const categoryPath = id => `/materials/category/${id}/`;
