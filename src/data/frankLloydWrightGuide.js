@@ -20,7 +20,7 @@ export default {
   "visualLabel": "FIG. 01 · FALLINGWATER (1935–39), BEAR RUN, PENNSYLVANIA · PHOTO: CAROL M. HIGHSMITH / WIKIMEDIA COMMONS, PUBLIC DOMAIN · RESIZED. Source: \"Fallingwater 2007\" by Carol M. Highsmith, via Wikimedia Commons — Public domain.",
   "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fallingwater_2007.jpg",
   "publishedAt": "2026-10-21",
-  "modifiedAt": "2026-10-21",
+  "modifiedAt": "2026-10-22",
   "toc": [
     [
       "a-life-in-brief",
@@ -253,6 +253,10 @@ export default {
     {
       "question": "Why is Fallingwater built over the waterfall instead of facing it?",
       "answer": "The Kaufmann family expected a house with a view of their waterfall. Wright placed the house directly over the falls so the family would live with the sound of the water and feel it beneath the floors — the defining gesture of organic architecture, putting the building inside the landscape rather than in front of it."
+    },
+    {
+      "question": "Where is Fallingwater located?",
+      "answer": "At Bear Run in the Laurel Highlands of Pennsylvania, south-east of Pittsburgh. Wright designed it for the Kaufmann family as a weekend house; today it is a museum and a UNESCO World Heritage Site, and the most visited of all his buildings."
     }
   ],
   "evidence": [
