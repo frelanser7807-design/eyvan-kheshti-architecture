@@ -49,24 +49,12 @@ const storyCards = [
 
 const scenes = [
   {
-    id: 'brand-introduction',
-    title: 'Digital Introduction',
-    titleFa: 'معرفی دیجیتال',
-    eyebrow: 'WORLD ARCH JOURNAL',
-    eyebrowFa: 'بنیان‌گذار',
-    src: assetUrl('/assets/brand/world-arch-journal-intro.mp4'),
-    poster: assetUrl('/assets/brand/world-arch-wa-mark-v1.png'),
-    playbackRate: OPENING_PLAYBACK_RATE,
-    audioCue: 0,
-  },
-  {
     id: 'arrival',
     title: 'Arrival',
     titleFa: 'ورود',
     eyebrow: 'INTERNATIONAL STUDIO',
     eyebrowFa: 'استودیوی بین‌المللی',
     src: assetUrl('/assets/film/lobby-to-studio-clean.mp4'),
-    poster: assetUrl('/assets/brand/world-arch-wa-mark-v1.png'),
     playbackRate: OPENING_PLAYBACK_RATE,
     audioCue: 4.9,
     data: {
@@ -404,7 +392,7 @@ export default function CinematicSite({ content }) {
         <video
           key={currentScene.src}
           ref={videoRef}
-          className={`ek-film ${currentScene.id === 'brand-introduction' ? 'ek-brand-intro-film' : ''}`}
+          className="ek-film"
           src={currentScene.src}
           poster={sceneIndex === 0 ? currentScene.poster : undefined}
           muted
@@ -417,7 +405,7 @@ export default function CinematicSite({ content }) {
           onEnded={handleEnded}
           onError={handleMediaError}
         />
-        {mediaError && <div className="ek-media-fallback" style={{ backgroundImage: `url(${currentScene.poster})` }} aria-label="The scene is shown as a still image because the video could not be loaded" />}
+        {mediaError && <div className="ek-media-fallback" style={currentScene.poster ? { backgroundImage: `url(${currentScene.poster})` } : undefined} aria-label="The scene is shown as a still image because the video could not be loaded" />}
         <audio ref={audioRef} src={assetUrl('/assets/film/site-cinematic-score-v3.wav?v=mobile-performance-v1')} preload="none" />
         <div className="ek-grade" />
         <div className="ek-grain" />
