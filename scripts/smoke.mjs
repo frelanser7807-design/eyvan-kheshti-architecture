@@ -291,23 +291,20 @@ if (stoneSizeMb > 112) throw new Error(`Travertine assets exceed 112 MB: ${stone
 // Measured CI-generated ceramic porcelain assets: 76.53 MiB; 84 MiB allowance.
 const ceramicSizeMb = (await directorySize(join(root, 'dist/assets/material-studio/ceramic-porcelain'))) / (1024 * 1024);
 if (ceramicSizeMb > 84) throw new Error(`Ceramic porcelain assets exceed 84 MB: ${ceramicSizeMb.toFixed(2)} MB`);
-// Measured CI-generated wood flooring assets: 56.16 MiB; 64 MiB allowance.
-const woodSizeMb = (await directorySize(join(root, 'dist/assets/material-studio/wood-flooring'))) / (1024 * 1024);
-if (woodSizeMb > 64) throw new Error(`Wood flooring assets exceed 64 MB: ${woodSizeMb.toFixed(2)} MB`);
 // New concrete and microcement packs include on-demand 16K tiled editions.
 // Keep their download budget separate from the unchanged legacy library.
 const mineralSizeMb = (await directorySize(join(root, 'dist/assets/material-studio/mineral'))) / (1024 * 1024);
 const compositeSizeMb = (await directorySize(join(root, 'dist/assets/material-studio/mineral/aluminium-composite'))) / (1024 * 1024);
 if (compositeSizeMb > 420) throw new Error(`Composite downloads exceed 420 MB: ${compositeSizeMb.toFixed(2)} MB`);
 if (mineralSizeMb - compositeSizeMb > 950) throw new Error(`Concrete/microcement downloads exceed 950 MB: ${(mineralSizeMb - compositeSizeMb).toFixed(2)} MB`);
-if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb - woodSizeMb > 90) throw new Error('Existing material assets exceed their unchanged 90 MB budget');
+if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new Error('Existing material assets exceed their unchanged 90 MB budget');
 // Non-material budget: measured 232.8 MB at origin/main (30d2840) before the daily
 // content program's first run; one optimized daily batch (2 illustrated articles +
 // 1 newsletter, images at 1400px/q72) adds ~16 MB. Raised 235 -> 260 on 2026-10-22
 // to accommodate the standing daily program. NOTE: at ~16 MB/day this gate needs a
 // sustainable model (per-article budget or growth allowance) — revisit soon.
 if (distSizeMb - materialSizeMb > 260) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; wood flooring ${woodSizeMb.toFixed(2)} / 64 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 260 MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 260 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));

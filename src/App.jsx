@@ -13,7 +13,6 @@ const CommandCenter = lazy(() => import('./components/CommandCenter.jsx'));
 const MaterialStudioPage = lazy(() => import('./components/FlutedMaterialPilot.jsx'));
 const TravertinePanel = lazy(() => import('./components/TravertinePanel.jsx'));
 const CeramicPorcelainPanel = lazy(() => import('./components/CeramicPorcelainPanel.jsx'));
-const WoodFlooringPanel = lazy(() => import('./components/WoodFlooringPanel.jsx'));
 import ErrorBoundary from './components/ErrorBoundary.jsx';
 import LegalPage, { legalPageForPath } from './components/LegalPage.jsx';
 const ArticleReader = lazy(() => import('./components/ArticleReader.jsx'));
@@ -72,7 +71,6 @@ function currentRoute() {
   if (normalizedPath === '/about/') return { name: 'about' };
   if (normalizedPath === '/materials/stone/natural-stone/travertine/') return { name: 'travertine-studio' };
   if (normalizedPath === '/materials/stone/ceramic-porcelain/porcelain-stoneware/') return { name: 'ceramic-studio' };
-  if (normalizedPath === '/materials/wood/wood-flooring/scanned-wood-flooring/') return { name: 'wood-studio' };
   if (normalizedPath === '/material-studio/' || normalizedPath === collectionProducts[0].path) return { name: 'material-studio' };
   if (normalizedPath === '/materials/') return { name: 'material-library' };
   const mineral = mineralByPath(normalizedPath);
@@ -179,7 +177,6 @@ export default function App() {
   if (route.name === 'material-studio') page = <Suspense fallback={<main>Loading material collection…</main>}><MaterialStudioPage /></Suspense>;
   if (route.name === 'travertine-studio') page = <Suspense fallback={<main>Loading travertine collection…</main>}><TravertinePanel /></Suspense>;
   if (route.name === 'ceramic-studio') page = <Suspense fallback={<main>Loading porcelain stoneware collection…</main>}><CeramicPorcelainPanel /></Suspense>;
-  if (route.name === 'wood-studio') page = <Suspense fallback={<main>Loading wood flooring collection…</main>}><WoodFlooringPanel /></Suspense>;
   if (route.name === 'design-services') page = <DesignServicesPage />;
   if (route.name === 'atlas-villa') page = <AtlasVillaCaseStudy />;
   if (route.name === 'projects-hub') page = <ProjectsHub />;
