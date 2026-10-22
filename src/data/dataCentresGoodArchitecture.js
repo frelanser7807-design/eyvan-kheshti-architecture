@@ -22,6 +22,10 @@ const dataCentresGoodArchitecture = {
   "imageAlt": "Data-centre campus at Eemshaven surrounded by wind turbines at dusk",
   "visualLabel": "FIG. 01 · DATA-CENTRE CAMPUS AND WIND TURBINES, EEMSHAVEN · PHOTO: WVDP / WIKIMEDIA COMMONS · CC0.",
   "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Google_data_center_and_wind_turbines_in_Eemshaven.jpg",
+  "cover": "/assets/covers/article-data-centres.jpg",
+  "coverAlt": "World Arch Journal cover: Can Data Centres Be Good Architecture? — design, sustainability and human impact, over a data-centre building at dusk",
+  "coverWidth": 1024,
+  "coverHeight": 1536,
   "publishedAt": "2026-10-22",
   "modifiedAt": "2026-10-22",
   "toc": [

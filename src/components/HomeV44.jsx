@@ -69,27 +69,27 @@ const projects = [
     num: '01',
     title: 'Narbon Villa',
     meta: 'Private Residence · Virtual Tour · 2026',
-    src: 'Image: World Arch Journal virtual tour',
-    cover: '/assets/projects/narbon-villa/cover.jpg',
-    alt: 'Narbon Villa garden approach',
+    src: 'Cover: World Arch Journal',
+    cover: '/assets/covers/tour-narbon.jpg',
+    alt: 'Narbon Villa — World Arch Journal project cover',
     href: '/projects/narbon-villa/',
   },
   {
     num: '02',
     title: 'The Voids',
     meta: 'Private Residence · Virtual Tour · 2026',
-    src: 'Image: World Arch Journal virtual tour',
-    cover: '/assets/virtual-tours/the-voids/01-arrival.jpg',
-    alt: 'The Voids Villa arrival view',
+    src: 'Cover: World Arch Journal',
+    cover: '/assets/covers/tour-voids.jpg',
+    alt: 'The Voids — World Arch Journal project cover',
     href: '/projects/the-voids-villa/',
   },
   {
     num: '03',
     title: 'Ajorbaft Triplex Villa',
     meta: 'Triplex Villa · Design Project · 2026',
-    src: 'Image: World Arch Journal studio archive',
-    cover: '/assets/projects/ajorbaft-triplex-villa/cover.jpg',
-    alt: 'Ajorbaft Triplex Villa woven-brick facade at night',
+    src: 'Cover: World Arch Journal',
+    cover: '/assets/covers/project-ajorbaft.jpg',
+    alt: 'Ajorbaft Villa — World Arch Journal project cover',
     href: '/projects/',
   },
 ];
@@ -99,7 +99,7 @@ const deckArticles = [
     slug: 'modern-villa-reimagined-7-design-principles',
     kicker: 'Design',
     title: 'Modern Villa Design Reimagined: 7 Principles for Contemporary Living',
-    cover: '/assets/articles/modern-villa-reimagined-7-design-principles/cover.webp',
+    cover: '/assets/covers/article-modern-villa.jpg',
     alt: 'Modern Villa Reimagined article cover',
     source: 'Cover: World Arch Journal',
   },
@@ -107,34 +107,34 @@ const deckArticles = [
     slug: 'accessory-dwelling-units-complete-guide',
     kicker: 'Guides',
     title: 'Accessory Dwelling Units (ADUs): The Complete Guide to Costs, Types, Rules and Design',
-    cover: '/assets/articles/accessory-dwelling-units-complete-guide/cover.webp',
+    cover: '/assets/covers/article-adu.jpg',
     alt: 'Accessory Dwelling Units complete guide cover',
-    source: 'Cover image: Wikimedia Commons',
+    source: 'Cover: World Arch Journal',
   },
   {
     slug: 'data-centres-good-architecture',
     kicker: 'Technology',
     title: 'Can Data Centres Be Good Architecture?',
-    cover: '/assets/articles/data-centres-good-architecture/hero.jpg',
-    alt: 'Data-centre campus and wind turbines at Eemshaven',
-    source: 'Cover image: Wikimedia Commons',
+    cover: '/assets/covers/article-data-centres.jpg',
+    alt: 'Can Data Centres Be Good Architecture? article cover',
+    source: 'Cover: World Arch Journal',
     centre: true,
   },
   {
     slug: 'solar-facades-bipv-decisions',
     kicker: 'Facades',
     title: 'Solar Facades: 9 Decisions Before Putting Photovoltaics on Your Building',
-    cover: '/assets/articles/solar-facades-bipv-decisions/hero.jpg',
-    alt: 'The coloured solar facade of Copenhagen International School',
-    source: 'Cover image: Wikimedia Commons',
+    cover: '/assets/covers/article-solar-facades.jpg',
+    alt: 'Solar Facades article cover',
+    source: 'Cover: World Arch Journal',
   },
   {
     slug: 'art-deco-architecture-history-features-buildings',
     kicker: 'History',
     title: 'Art Deco Architecture Explained: The Style That Sold the Machine Age',
-    cover: '/assets/articles/art-deco-architecture-history-features-buildings/cover.webp',
+    cover: '/assets/covers/article-art-deco.jpg',
     alt: 'Art Deco Architecture Explained article cover',
-    source: 'Cover image: Wikimedia Commons',
+    source: 'Cover: World Arch Journal',
   },
 ];
 
@@ -298,8 +298,8 @@ export default function HomeV44({ content }) {
             </div>
             <div className="hv-mat">
               <div>
-                <img className="hv-sample" src={assetUrl('/assets/homepage/materials-sample.jpg')} alt="Travertine villa facade — sample render from the World Arch Journal material lab" loading="lazy" decoding="async" />
-                <div className="hv-src">Sample render: World Arch Journal material lab</div>
+                <img className="hv-sample" src={assetUrl('/assets/covers/materials-stone-travertine.jpg')} alt="Natural stone and travertine — World Arch Journal materials cover" loading="lazy" decoding="async" />
+                <div className="hv-src">Cover: World Arch Journal material lab</div>
               </div>
               <div className="hv-finishes">
                 {finishes.map((finish) => (
@@ -338,7 +338,7 @@ export default function HomeV44({ content }) {
             <p className="hv-sub">Two slower ways in: full virtual tours of the studio's own houses, and the Atlas — one city's walking guide at a time.</p>
             <div className="hv-explore">
               <div className="hv-door hv-door-tour">
-                <img className="hv-door-bg" src={assetUrl('/assets/homepage/tours-voids.jpg')} alt="" aria-hidden="true" loading="lazy" decoding="async" />
+                <img className="hv-door-bg hv-door-bg-fit" src={assetUrl('/assets/covers/tour-voids.jpg')} alt="" aria-hidden="true" loading="lazy" decoding="async" />
                 <div className="hv-door-shade" aria-hidden="true" />
                 <div className="hv-door-in">
                   <div className="hv-door-k">Virtual Tour · 360°</div>
@@ -349,7 +349,7 @@ export default function HomeV44({ content }) {
                 </div>
               </div>
               <div className="hv-door hv-door-atlas">
-                <img className="hv-door-bg" src={assetUrl('/assets/homepage/atlas-cover.jpg')} alt="" aria-hidden="true" loading="lazy" decoding="async" />
+                <img className="hv-door-bg hv-door-bg-fit" src={assetUrl('/assets/covers/atlas-cities.jpg')} alt="" aria-hidden="true" loading="lazy" decoding="async" />
                 <div className="hv-door-shade" aria-hidden="true" />
                 <div className="hv-door-in">
                   <div className="hv-tag">World Arch Atlas</div>

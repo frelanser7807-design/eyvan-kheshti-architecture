@@ -22,6 +22,10 @@ const solarFacadesBipvDecisions = {
   "imageAlt": "Coloured solar panels forming the sea-green photovoltaic facade of Copenhagen International School on a bright day",
   "visualLabel": "FIG. 01 · THE COLOURED SOLAR FACADE OF COPENHAGEN INTERNATIONAL SCHOOL · PHOTO: Marta Victoria / WIKIMEDIA COMMONS · CC BY-SA 4.0.",
   "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Copenhagen_International_School_(solar_fa%C3%A7ade).jpg",
+  "cover": "/assets/covers/article-solar-facades.jpg",
+  "coverAlt": "World Arch Journal cover: Can a Facade Generate Power? Solar Facades — 9 decisions before putting photovoltaics on your building, over a photovoltaic facade",
+  "coverWidth": 1024,
+  "coverHeight": 1536,
   "publishedAt": "2026-10-22",
   "modifiedAt": "2026-10-22",
   "toc": [
