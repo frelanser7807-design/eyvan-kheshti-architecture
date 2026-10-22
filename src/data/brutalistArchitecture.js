@@ -87,7 +87,7 @@ const brutalistArchitecture = {
     <p>The seven examples resist one conclusion. Unité turns section into collective housing; the Barbican builds a landscape; Boston City Hall gives government a legible form; Habitat makes modularity spatial; Geisel makes structure emblematic; the National Theatre turns circulation into public stage; SESC Pompéia joins rough new construction to careful reuse.</p>
     <p>Brutalism is therefore best understood as a set of architectural commitments, not a preset. Read how the building is made, how people move, who the institution serves and whether care has kept the public promise alive. Only then decide what the concrete means.</p>
   
-    <p><strong>Continue exploring:</strong> Brutalism begins with concrete, so compare the real thing in the library's <a href="/materials/category/concrete/concrete-finishes/">concrete finishes</a> collection, and read our <a href="/newsletter/architecture-briefing-2026-10-21/">21 October briefing</a> on the heritage fights now deciding which modern landmarks survive.</p>
+    <p><strong>Continue exploring:</strong> Brutalism begins with concrete, so compare the real thing in the library's <a href="/materials/category/concrete/concrete-finishes/">concrete finishes</a> collection, and read our <a href="/newsletter/architecture-briefing-2026-10-21/">21 October briefing</a> on the heritage fights now deciding which modern landmarks survive. For the wider archive this guide belongs to — timelines, side-by-side style comparisons and the materials behind each movement — browse the <a href="/magazine/architectural-history-styles/">Architectural History &amp; Styles hub</a>.</p>
   `,
   facts: [
     ['FORMAT', 'International architectural history guide'],

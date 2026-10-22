@@ -102,3 +102,62 @@
 @media (prefers-reduced-motion: reduce) {
   .wj-magazine-card-image img { transition: none; }
 }
+
+/* --- Architectural History hub (category hub sections) --- */
+.wj-magazine-intro > p.wj-hub-promise { color: var(--wj-ink); border-left: 2px solid var(--wj-accent); padding-left: 22px; }
+.wj-hub-section { width: min(1320px, calc(100% - 48px)); margin: 0 auto; padding-bottom: 92px; }
+.wj-hub-heading { margin: 0 0 18px; font: 400 clamp(2.4rem, 4.6vw, 4.3rem)/.95 'Cormorant Garamond', Georgia, serif; letter-spacing: -.02em; }
+.wj-hub-blurb { max-width: 62ch; margin: 0; color: #5f635d; font-size: .9rem; line-height: 1.75; }
+
+.wj-hub-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 34px; list-style: none; margin: 36px 0 0; padding: 0; }
+.wj-hub-steps li { border-top: 1px solid var(--wj-ink); padding-top: 20px; }
+.wj-hub-step-num { font: 400 2.7rem/1 'Cormorant Garamond', Georgia, serif; color: var(--wj-accent); }
+.wj-hub-steps h3 { margin: 16px 0 10px; font: 400 1.75rem/1.05 'Cormorant Garamond', Georgia, serif; letter-spacing: -.015em; }
+.wj-hub-steps p { margin: 0 0 18px; color: #5f635d; font-size: .84rem; line-height: 1.7; }
+.wj-hub-steps a { border-bottom: 1px solid var(--wj-ink); padding-bottom: 4px; font-size: .72rem; }
+
+.wj-hub-timeline { margin-top: 30px; border-top: 1px solid var(--wj-line); }
+.wj-hub-tl-row { display: grid; grid-template-columns: 190px minmax(0, 1fr) 112px; align-items: center; gap: 16px; padding: 9px 0; border-bottom: 1px solid var(--wj-line); }
+.wj-hub-tl-label { font-size: .78rem; font-weight: 600; letter-spacing: .03em; }
+.wj-hub-tl-track { position: relative; display: block; height: 14px; background: #e5e0d3; }
+.wj-hub-tl-bar { position: absolute; top: 0; height: 100%; background: #bab2a1; }
+.wj-hub-tl-bar.is-live { background: var(--wj-ink); }
+.wj-hub-tl-period { color: #6c706b; font-size: .7rem; text-align: right; white-space: nowrap; }
+.wj-hub-timeline-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 44px; list-style: none; margin: 24px 0 0; padding: 0; font-size: .82rem; }
+.wj-hub-timeline-list li { display: flex; align-items: baseline; gap: 10px; border-bottom: 1px dotted var(--wj-line); padding: 8px 0; }
+.wj-hub-timeline-list span { color: #6c706b; }
+.wj-hub-timeline-list a { margin-left: auto; border-bottom: 1px solid var(--wj-ink); font-size: .72rem; white-space: nowrap; }
+.wj-hub-timeline-list em { margin-left: auto; color: var(--wj-accent); font-size: .64rem; font-style: normal; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; white-space: nowrap; }
+
+.wj-hub-grid { margin-top: 30px; }
+.wj-hub-card h3 { margin: 20px 0 14px; font: 400 clamp(1.9rem, 3vw, 2.9rem)/.98 'Cormorant Garamond', Georgia, serif; letter-spacing: -.02em; }
+.wj-hub-card h3 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 5px; }
+.wj-hub-prep { display: flex; flex-direction: column; border: 1px solid var(--wj-line); background: #e9e4d8; padding: 26px 24px 30px; }
+.wj-hub-prep h3 { margin: 16px 0 10px; font: 400 clamp(1.7rem, 2.4vw, 2.3rem)/1 'Cormorant Garamond', Georgia, serif; letter-spacing: -.02em; }
+.wj-hub-prep p { margin: 0; color: #5f635d; font-size: .84rem; line-height: 1.7; }
+.wj-hub-prep .wj-hub-period { margin-bottom: 10px; color: var(--wj-accent); font-size: .7rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
+.wj-hub-soon { margin-top: auto; padding-top: 28px; color: var(--wj-accent); font-size: .62rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; }
+
+.wj-hub-method { background: #1d2220; color: #ede7dc; padding: clamp(38px, 6vw, 78px); }
+.wj-hub-method h2 { margin: 26px 0 18px; font: 400 clamp(2.4rem, 4.4vw, 4rem)/.95 'Cormorant Garamond', Georgia, serif; letter-spacing: -.02em; }
+.wj-hub-method p { max-width: 68ch; margin: 0; color: #c3c6c0; font-size: .86rem; line-height: 1.85; }
+
+.wj-hub-bridge { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(280px, .85fr); gap: 44px; align-items: start; }
+.wj-hub-bridge h2 { margin: 15px 0 12px; font: 400 clamp(2.6rem, 4.6vw, 4.6rem)/.92 'Cormorant Garamond', Georgia, serif; letter-spacing: -.02em; }
+.wj-hub-bridge p { max-width: 60ch; margin: 0; color: #5f635d; font-size: .86rem; line-height: 1.8; }
+.wj-hub-links { display: grid; gap: 10px; list-style: none; margin: 8px 0 0; padding: 0; }
+.wj-hub-links a { display: flex; align-items: center; justify-content: space-between; gap: 14px; border: 1px solid var(--wj-line); padding: 15px 18px; font-size: .78rem; transition: background .2s ease, color .2s ease, border-color .2s ease; }
+.wj-hub-links a:hover { border-color: var(--wj-ink); background: var(--wj-ink); color: var(--wj-paper); }
+
+@media (max-width: 840px) {
+  .wj-hub-steps { grid-template-columns: 1fr; gap: 26px; }
+  .wj-hub-bridge { grid-template-columns: 1fr; gap: 28px; }
+}
+
+@media (max-width: 620px) {
+  .wj-hub-section { width: calc(100% - 36px); padding-bottom: 70px; }
+  .wj-hub-tl-row { grid-template-columns: 104px minmax(0, 1fr); }
+  .wj-hub-tl-period { display: none; }
+  .wj-hub-timeline-list { grid-template-columns: 1fr; }
+  .wj-hub-method { padding: 36px 22px 42px; }
+}
