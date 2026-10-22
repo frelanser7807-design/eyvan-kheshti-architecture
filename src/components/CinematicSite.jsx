@@ -172,7 +172,7 @@ function QuickIcon({ name }) {
 }
 
 export default function CinematicSite({ content }) {
-  const [sceneIndex, setSceneIndex] = useState(-1);
+  const [sceneIndex, setSceneIndex] = useState(0);
   const [loaded, setLoaded] = useState(true);
   const [playing, setPlaying] = useState(false);
   const [ended, setEnded] = useState(false);
@@ -264,9 +264,18 @@ export default function CinematicSite({ content }) {
   };
 
   const restart = () => {
-    videoRef.current?.pause?.();
-    setSceneIndex(-1);
-    setPlaying(false);
+    const video = videoRef.current;
+    video?.pause?.();
+    if (sceneIndex === 0 && video) {
+      // Already on the opening scene: rewind and replay it in place.
+      video.currentTime = 0;
+      setPlaying(true);
+      video.play()?.catch?.(() => setPlaying(false));
+    } else {
+      // The scene effect restarts playback when the index changes.
+      setSceneIndex(0);
+      setPlaying(false);
+    }
     setEnded(false);
     setCardsVisible(false);
     setExploreOpen(false);
@@ -364,7 +373,7 @@ export default function CinematicSite({ content }) {
     setEnded(true);
     if (sceneIndex === 0) setCardsVisible(true);
 
-    // One deliberate visitor click starts the complete cinematic journey.
+    // The cinematic journey starts automatically on page load.
     // Each finished chapter advances to the next one automatically; the
     // editorial page remains available only after the final chapter.
     if (sceneIndex < scenes.length - 1) {
@@ -397,7 +406,7 @@ export default function CinematicSite({ content }) {
           ref={videoRef}
           className={`ek-film ${currentScene.id === 'brand-introduction' ? 'ek-brand-intro-film' : ''}`}
           src={currentScene.src}
-          poster={isIdle ? currentScene.poster : undefined}
+          poster={sceneIndex === 0 ? currentScene.poster : undefined}
           muted
           playsInline
           preload={isIdle ? 'none' : 'metadata'}
