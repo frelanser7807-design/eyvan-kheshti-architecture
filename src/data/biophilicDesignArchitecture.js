@@ -18,7 +18,7 @@ const biophilicDesignArchitecture = {
   imageAlt: 'PARKROYAL on Pickering in Singapore with planted terraces integrated into the building mass',
   visualLabel: 'FIG. 01 · PARKROYAL ON PICKERING, SINGAPORE · PHOTO: BASILE MORIN / WIKIMEDIA COMMONS, CC BY-SA 4.0 · RESIZED',
   publishedAt: '2026-09-23',
-  modifiedAt: '2026-09-23',
+  modifiedAt: '2026-10-22',
   toc: [
     ['definition', 'What biophilic design actually means'],
     ['move-1', '1. Begin with experience, not objects'],
@@ -49,7 +49,7 @@ const biophilicDesignArchitecture = {
     <blockquote>Biophilic design begins when nature contact is distributed through daily life—not concentrated in the photograph.</blockquote>
 
     <h2 id="move-2">2. Make daylight useful</h2>
-    <p>Daylight is a direct natural experience, but more glass is not the same as better light. Useful daylight needs direction, duration and control. It should reveal time without creating disabling glare, excess contrast or overheating. External shading, light shelves, deep reveals, translucent layers and interior reflectance can distribute light more carefully than an exposed curtain wall.</p>
+    <p>Daylight is a direct natural experience, but more glass is not the same as better light. Useful daylight needs direction, duration and control. It should reveal time without creating disabling glare, excess contrast or overheating. External shading, light shelves, deep reveals, translucent layers and interior reflectance can distribute light more carefully than an exposed curtain wall. The layout decisions behind that distribution are worked through in our <a href="/articles/apartment-daylight-layout-design/">apartment daylight and layout guide</a>.</p>
     <p>Map daylight against tasks and occupancy. Quiet work may need stable, diffuse light; circulation can tolerate more variation; a social space may benefit from a patch of moving sun. Include blinds or screens that occupants can understand and adjust. Pair qualitative experience with daylight, glare and overheating analysis appropriate to the project.</p>
 
     <h2 id="move-3">3. Frame a living view</h2>
@@ -63,7 +63,7 @@ const biophilicDesignArchitecture = {
 
     <h2 id="move-5">5. Connect air, sound and water</h2>
     <p>Nature contact is multisensory. Operable openings can carry temperature change, breeze, scent and sound, while sheltered thresholds allow people to experience rain without exposure. Water may provide sound, reflection and local cooling, but it also brings water use, hygiene, maintenance and safety obligations.</p>
-    <p>Use these elements only where the context supports them. Outdoor air may be polluted, noisy, humid or unsafe during smoke events. Water features can become stagnant or inaccessible. Mechanical and passive systems need a clear operating sequence so users know when natural ventilation is beneficial and when filtered or conditioned air is necessary.</p>
+    <p>Use these elements only where the context supports them. Outdoor air may be polluted, noisy, humid or unsafe during smoke events. Water features can become stagnant or inaccessible. Mechanical and passive systems need a clear operating sequence so users know when natural ventilation is beneficial and when filtered or conditioned air is necessary. The apartment-scale version of that operating sequence is our guide to <a href="/articles/cross-ventilation-apartment-design/">cross ventilation in apartments</a>.</p>
 
     <h2 id="move-6">6. Give occupants control</h2>
     <p>Control changes an environmental feature into a usable resource. A user who can move a blind, open a safe window, choose a shaded seat or step into a garden can respond to personal comfort and attention. A sealed green atrium that is visible but inaccessible offers a different—and often narrower—experience.</p>
@@ -107,7 +107,7 @@ const biophilicDesignArchitecture = {
     <p>The strongest biophilic architecture does not ask plants to carry the whole idea. It brings daylight, air, landscape, material, season and spatial choice into a coherent daily experience. It gives living systems enough depth and support to survive, then checks whether occupants can actually use them.</p>
     <p>Begin with the person’s route, design the section, fund maintenance and define what will be measured after opening. When those decisions align, biophilic design becomes more than a visual language. It becomes a durable relationship between architecture, people and the living world.</p>
   
-    <p><strong>Continue exploring:</strong> biophilic principles are easiest to read in a real landscape: <a href="/projects/narbon-villa/">Narbon Villa</a> keeps its orchard, watercourse and old garden wall as the architecture itself — walk the project file and drawings.</p>
+    <p><strong>Continue exploring:</strong> biophilic principles are easiest to read in a real landscape: <a href="/projects/narbon-villa/">Narbon Villa</a> keeps its orchard, watercourse and old garden wall as the architecture itself — walk the project file and drawings. The same contact with living systems drives our <a href="/articles/small-courtyard-design-light-privacy-cooling/">courtyard house design</a> guide and the <a href="/articles/climate-responsive-facades-cooling-design/">climate responsive facade</a> strategies that keep planted buildings comfortable.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international architecture guide'],
@@ -130,6 +130,7 @@ const biophilicDesignArchitecture = {
     { question: 'Does biophilic design improve health and productivity?', answer: 'Research reports promising associations in several settings, but methods and outcomes vary. No architectural feature guarantees a medical, psychological or productivity result.' },
     { question: 'What is the most important first step?', answer: 'Map where different users spend time and define the nature experience each place should provide before selecting plants, materials or visual motifs.' },
     { question: 'How should a green wall be evaluated?', answer: 'Check light, species, water, drainage, energy, nutrients, fire and façade requirements, safe maintenance access, replacement rates and the value it provides to actual occupants.' },
+    { question: 'What are the principles of biophilic design?', answer: 'Recurring direct contact with living systems — daylight, fresh air, water, views and planting; indirect cues such as natural materials and organic patterns; spatial experiences of prospect and refuge; occupant control over those conditions; and post-occupancy measurement, so the design is judged by what people actually experience rather than by a plant count.' },
   ],
   evidence: [
     { publisher: 'Discover Cities / Springer Nature', source_url: 'https://link.springer.com/article/10.1007/s44274-026-00580-z', claim: 'A 2026 open-access review maps biophilic design approaches, reported outcomes and evidence gaps across the built environment.', limitations: 'Broad review with heterogeneous methods and contexts; it does not establish a universal causal effect.' },
