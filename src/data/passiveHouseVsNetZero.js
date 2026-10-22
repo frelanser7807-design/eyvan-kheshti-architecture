@@ -18,7 +18,7 @@ const passiveHouseVsNetZero = {
   imageAlt: 'The first completed passive house in Oslo, Norway, designed by Ratio arkitekter and Stein Stoknes',
   visualLabel: 'FIG. 01 · PASSIVE HOUSE, LADEVEIEN, OSLO · PHOTO: STEIN STOKNES / WIKIMEDIA COMMONS, CC BY 3.0 · RESIZED.',
   publishedAt: '2026-09-24',
-  modifiedAt: '2026-09-24',
+  modifiedAt: '2026-10-22',
   toc: [
     ['short-answer', 'The short answer'],
     ['passive-house', 'What Passive House measures'],
@@ -120,7 +120,7 @@ const passiveHouseVsNetZero = {
     <p>Passive House and Net Zero are strongest when they do different work. Passive House disciplines demand, comfort, envelope continuity, ventilation and construction quality. Net Zero extends the brief into renewable supply and annual operational balance. Neither automatically proves low embodied carbon, hourly grid alignment, climate resilience or perfect occupant experience.</p>
     <p>The architectural opportunity lies in sequence: reduce, detail, test, commission, generate and measure. When each claim has a boundary and each target has evidence, sustainability becomes more than a badge. It becomes a building that can explain how it performs—and what remains to improve.</p>
   
-    <p><strong>Continue exploring:</strong> targets are only as honest as their measurement — our <a href="/newsletter/architecture-briefing-2026-09-30/">30 September briefing</a> is built around that question, from EPDs to post-occupancy evidence.</p>
+    <p><strong>Continue exploring:</strong> targets are only as honest as their measurement — our <a href="/newsletter/architecture-briefing-2026-09-30/">30 September briefing</a> is built around that question, from EPDs to post-occupancy evidence. The junction that most often breaks the fabric-first promise is detailed in our <a href="/articles/balcony-thermal-bridges-slab-edge/">balcony thermal bridges</a> guide, and the generation side of the balance is worked through in our <a href="/articles/solar-facades-bipv-decisions/">solar facades</a> decisions guide.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international comparison guide'],
@@ -145,6 +145,7 @@ const passiveHouseVsNetZero = {
     { question: 'Are Passive House and passive solar design the same?', answer: 'No. Passive solar design is a broader architectural strategy. Passive House is a defined performance and certification standard that can use passive-solar principles where they suit the climate.' },
     { question: 'Which target is better for a new architecture project?', answer: 'They answer different questions. Passive House is strongest for demand, comfort and envelope quality; Net Zero is strongest for a defined annual energy balance. Many projects benefit from pursuing both in sequence.' },
     { question: 'Does either label guarantee Net Zero Carbon?', answer: 'No. Energy, operational carbon and embodied carbon are different scopes. Carbon claims need a stated methodology, emissions factors, life-cycle boundary and verification.' },
+    { question: 'What is the difference between net zero energy and net zero carbon?', answer: 'Net zero energy balances energy: over a year, the building generates as much as it uses. Net zero carbon balances emissions — operational carbon, and in whole-life definitions embodied carbon too — reduced as far as possible, with any remainder offset or removed. A building can be net zero energy without being net zero carbon, which is why the scope of any claim must be stated.' },
   ],
   evidence: [
     { publisher: 'Passive House Institute', source_url: 'https://passivehouse.com/en/home/building-certification/', claim: 'Defines five Passive House principles, certification quality control and Classic, Plus and Premium renewable-energy classes.', limitations: 'Criteria and tools are versioned; projects must use the current documents and an authorised certifier.' },
