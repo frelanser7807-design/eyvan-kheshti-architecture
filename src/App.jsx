@@ -1,5 +1,5 @@
 import { lazy, Suspense, useEffect, useState } from 'react';
-const CinematicSite = lazy(() => import('./components/CinematicSite.jsx'));
+const HomeV44 = lazy(() => import('./components/HomeV44.jsx'));
 
 import SiteSeo from './components/SiteSeo.jsx';
 const MaterialCollections = lazy(() => import('./components/MaterialCollections.jsx'));
@@ -152,7 +152,7 @@ export default function App() {
     : null;
   const resolvedRoute = route.name === 'product' ? { ...route, item: product } : route;
 
-  let page = <CinematicSite content={content} />;
+  let page = <HomeV44 content={content} />;
   if (route.name === 'admin') page = <Suspense fallback={<main>Loading…</main>}><AdminPanel initialContent={content} /></Suspense>;
   if (route.name === 'legal') page = <LegalPage page={route.page} />;
   if (route.name === 'article') page = route.item?.published ? <ArticleReader article={route.item} standalone /> : <ProductPage missing />;
