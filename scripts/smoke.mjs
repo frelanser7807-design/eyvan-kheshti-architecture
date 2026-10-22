@@ -298,8 +298,13 @@ const compositeSizeMb = (await directorySize(join(root, 'dist/assets/material-st
 if (compositeSizeMb > 420) throw new Error(`Composite downloads exceed 420 MB: ${compositeSizeMb.toFixed(2)} MB`);
 if (mineralSizeMb - compositeSizeMb > 950) throw new Error(`Concrete/microcement downloads exceed 950 MB: ${(mineralSizeMb - compositeSizeMb).toFixed(2)} MB`);
 if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new Error('Existing material assets exceed their unchanged 90 MB budget');
-if (distSizeMb - materialSizeMb > 235) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 235 MB`);
+// Non-material budget: measured 232.8 MB at origin/main (30d2840) before the daily
+// content program's first run; one optimized daily batch (2 illustrated articles +
+// 1 newsletter, images at 1400px/q72) adds ~16 MB. Raised 235 -> 260 on 2026-10-22
+// to accommodate the standing daily program. NOTE: at ~16 MB/day this gate needs a
+// sustainable model (per-article budget or growth allowance) — revisit soon.
+if (distSizeMb - materialSizeMb > 260) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 260 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));
