@@ -18,7 +18,7 @@ const massTimberArchitecture = {
   imageAlt: 'Mjøstårnet mass timber tower in Brumunddal, Norway, photographed at its opening',
   visualLabel: 'FIG. 01 · MJØSTÅRNET, BRUMUNDDAL · PHOTO: NINARUNDSVEEN / WIKIMEDIA COMMONS, CC BY-SA 4.0 · STRAIGHTENED BY THILO PARG · RESIZED',
   publishedAt: '2026-09-26',
-  modifiedAt: '2026-09-26',
+  modifiedAt: '2026-10-22',
   toc: [
     ['definition', 'What mass timber is—and is not'],
     ['decision-1', '1. Match product to span and grid'],
@@ -100,7 +100,7 @@ const massTimberArchitecture = {
     <p>Mass timber is most convincing when it is neither romanticised nor forced. Use CLT where two-way panel action, prefabrication or exposed soffits create value. Use glulam where a legible frame is efficient. Use concrete or steel where mass, stiffness, fire resistance, concentrated force or supply makes them the better choice.</p>
     <p>The essential work happens before fabrication: align the grid, fire concept, acoustic assembly, moisture plan, service model, connection logic, carbon method and approval route. Once those eight decisions agree, mass timber can become more than an image of innovation. It can become a coherent, inspectable and durable architecture.</p>
   
-    <p><strong>Continue exploring:</strong> timber at interior scale is in the material library: the <a href="/materials/wood/fluted-panels/fluted-wood/">original fluted wood collection</a> publishes seven finish studies with downloadable 4K PBR maps for visualisation.</p>
+    <p><strong>Continue exploring:</strong> timber at interior scale is in the material library: the <a href="/materials/wood/fluted-panels/fluted-wood/">original fluted wood collection</a> publishes seven finish studies with downloadable 4K PBR maps for visualisation. For the carbon comparison architects run alongside timber, see our <a href="/articles/low-carbon-concrete-epd-guide/">low-carbon concrete and EPD</a> guide — and for connections designed to come apart again at end of life, our <a href="/articles/design-for-disassembly-reversible-buildings/">design for disassembly</a> guide.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international technical guide'],
@@ -123,6 +123,7 @@ const massTimberArchitecture = {
     { question: 'Can CLT floors be left exposed?', answer: 'Often, but the choice affects fire, acoustics, services and lighting. A bare panel is not a complete floor assembly, so toppings, resilient layers or other measures may still be needed above.' },
     { question: 'What is the biggest construction risk?', answer: 'Unmanaged moisture is a major risk. Delivery, temporary protection, drainage, drying and verified moisture content before covering should be written into the contract and programme.' },
     { question: 'Is mass timber always lower carbon than concrete or steel?', answer: 'Not automatically. The answer depends on forestry, manufacture, transport, hybrid materials, service life, replacements and end-of-life assumptions assessed at equivalent building performance.' },
+    { question: 'What is CLT (cross-laminated timber)?', answer: 'CLT is a structural panel made by gluing boards in alternating perpendicular layers, so the panel carries loads in two directions and can form floors, walls and roofs. It is the most common mass-timber product, usually combined with glulam beams and columns in the hybrid structures this guide works through.' },
   ],
   evidence: [
     { publisher: 'WoodWorks – Wood Products Council', source_url: 'https://www.woodworks.org/mass-timber-technical-reference-guide/', claim: 'The Mass Timber Technical Reference Guide coordinates design topics including structure, fire, acoustics, moisture, specifications and code standards.', limitations: 'US-focused industry guidance; project teams must verify local codes, products and professional responsibilities.' },
