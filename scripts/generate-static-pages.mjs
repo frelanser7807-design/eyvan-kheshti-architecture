@@ -215,12 +215,29 @@ ${newsletterIssues.map((issue) => `<item><title>${escapeXml(issue.title)}</title
 `;
 await writeFile(path.join(dist, 'newsletter', 'feed.xml'), briefingFeed, 'utf8');
 
-for (const landing of [{ pathname: '/magazine/', title: 'Architecture Magazine', description: 'Read original, evidence-led architecture stories on climate design, facades, adaptive reuse and concept studies in World Arch Journal.', articles: publishedMagazineArticles, overview: [] }, ...magazineCategories.map((category) => ({ pathname: `/magazine/${category.slug}/`, title: `${category.title} Articles`, description: category.description, overview: category.overview || [], articles: category.articles }))]) {
+function hubFallbackHtml(hub) {
+  const resolve = (entry) => (entry.articleSlug ? publishedMagazineArticles.find((article) => article.slug === entry.articleSlug) : null);
+  const steps = hub.startHere.map((step, index) => `<li><strong>${index + 1}. ${escapeHtml(step.title)}</strong><p>${escapeHtml(step.text)}</p></li>`).join('');
+  const timeline = hub.timeline.map((entry) => {
+    const article = resolve(entry);
+    return `<li><strong>${escapeHtml(entry.label)}</strong> · ${escapeHtml(entry.period)} · ${article ? `<a href="/articles/${escapeHtml(article.slug)}/">Read the guide</a>` : 'In preparation'}</li>`;
+  }).join('');
+  const lanes = hub.lanes.map((lane) => `<section><h3>${escapeHtml(lane.title)}</h3><p>${escapeHtml(lane.blurb)}</p><ul>${lane.entries.map((entry) => {
+    const article = resolve(entry);
+    return article
+      ? `<li><a href="/articles/${escapeHtml(article.slug)}/">${escapeHtml(entry.title || article.title)}</a><p>${escapeHtml(entry.learn)}</p></li>`
+      : `<li>${escapeHtml(entry.title)}${entry.period ? ` · ${escapeHtml(entry.period)}` : ''} — in preparation<p>${escapeHtml(entry.learn)}</p></li>`;
+  }).join('')}</ul></section>`).join('');
+  const bridgeLinks = hub.bridge.links.map((link) => `<li><a href="${escapeHtml(link.href)}">${escapeHtml(link.label)}</a></li>`).join('');
+  return `<section><h2>Start here</h2><ol>${steps}</ol></section><section><h2>Timeline</h2><ul>${timeline}</ul></section>${lanes}<section><h2>${escapeHtml(hub.method.title)}</h2><p>${escapeHtml(hub.method.text)}</p></section><section><h2>${escapeHtml(hub.bridge.title)}</h2><p>${escapeHtml(hub.bridge.text)}</p><ul>${bridgeLinks}</ul></section>`;
+}
+
+for (const landing of [{ pathname: '/magazine/', title: 'Architecture Magazine', description: 'Read original, evidence-led architecture stories on climate design, facades, adaptive reuse and concept studies in World Arch Journal.', articles: publishedMagazineArticles, overview: [] }, ...magazineCategories.map((category) => ({ pathname: `/magazine/${category.slug}/`, title: `${category.title} Articles`, description: category.description, overview: category.overview || [], articles: category.articles, hub: category.hub || null }))]) {
   const image = landing.articles[0]?.image || '/assets/editorial/issue-00/courtyard-wind-house-cover.jpg';
   const links = landing.articles.map((article) => `<li><a href="/articles/${escapeHtml(article.slug)}/">${escapeHtml(article.title)}</a><p>${escapeHtml(article.excerpt)}</p></li>`).join('');
   const categories = magazineCategories.map((category) => `<a href="/magazine/${escapeHtml(category.slug)}/">${escapeHtml(category.title)}</a>`).join(' · ');
   const overview = landing.overview.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('');
-  const body = `<main class="seo-route-fallback"><a href="/">WORLD ARCH JOURNAL</a><header><small>ARCHITECTURE / IDEAS / EVIDENCE</small><h1>${escapeHtml(landing.title)}</h1><p>${escapeHtml(landing.description)}</p>${overview}</header><nav aria-label="Magazine topics"><a href="/magazine/">All stories</a> · ${categories}</nav><section><h2>Published stories</h2><ol>${links}</ol></section>${landing.pathname === '/magazine/' ? `<section><h2>Analysis and field notes</h2><p><a href="/magazine/analysis/">Separate analysis archive</a> · <a href="/newsletter/">Latest dated newsletter</a> · <a href="/atlas/">World Arch Atlas city guides</a></p><ol>${editorialArticles.map((entry) => `<li><a href="${editorialPath(entry)}">${escapeHtml(entry.title)}</a><p>${escapeHtml(entry.excerpt)}</p></li>`).join('')}</ol></section>` : ''}</main>`;
+  const body = `<main class="seo-route-fallback"><a href="/">WORLD ARCH JOURNAL</a><header><small>ARCHITECTURE / IDEAS / EVIDENCE</small><h1>${escapeHtml(landing.title)}</h1><p>${escapeHtml(landing.description)}</p>${overview}${landing.hub?.promise ? `<p>${escapeHtml(landing.hub.promise)}</p>` : ''}</header><nav aria-label="Magazine topics"><a href="/magazine/">All stories</a> · ${categories}</nav><section><h2>Published stories</h2><ol>${links}</ol></section>${landing.pathname === '/magazine/' ? `<section><h2>Analysis and field notes</h2><p><a href="/magazine/analysis/">Separate analysis archive</a> · <a href="/newsletter/">Latest dated newsletter</a> · <a href="/atlas/">World Arch Atlas city guides</a></p><ol>${editorialArticles.map((entry) => `<li><a href="${editorialPath(entry)}">${escapeHtml(entry.title)}</a><p>${escapeHtml(entry.excerpt)}</p></li>`).join('')}</ol></section>` : ''}${landing.hub ? hubFallbackHtml(landing.hub) : ''}</main>`;
   const schema = { '@context': 'https://schema.org', '@graph': [
     { '@type': 'CollectionPage', name: landing.title, description: landing.description, url: `${siteUrl}${landing.pathname}`, inLanguage: 'en', publisher, hasPart: landing.articles.map((article) => ({ '@type': 'Article', name: article.title, url: `${siteUrl}/articles/${article.slug}/` })) },
     breadcrumbSchema(landing.pathname === '/magazine/' ? [{ name: 'Home', pathname: '/' }, { name: 'Magazine', pathname: '/magazine/' }] : [{ name: 'Home', pathname: '/' }, { name: 'Magazine', pathname: '/magazine/' }, { name: landing.title, pathname: landing.pathname }]),
