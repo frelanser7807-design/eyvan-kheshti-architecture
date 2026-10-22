@@ -19,7 +19,7 @@ const aiArchitecture2026 = {
   visualLabel: 'FIG. 01 · ARCHITECTURE STUDIO WORKFLOW · PHOTO: TIMA MIROSHNICHENKO / PEXELS · FREE TO USE. CONTEXTUAL IMAGE; NO AI USE IS IMPLIED.',
   imageSourceUrl: 'https://www.pexels.com/photo/person-people-building-laptop-6615097/',
   publishedAt: '2026-10-05',
-  modifiedAt: '2026-10-05',
+  modifiedAt: '2026-10-22',
   toc: [
     ['tipping-point', 'The 2026 tipping point'],
     ['useful-now', 'Where AI is useful now'],
@@ -31,12 +31,13 @@ const aiArchitecture2026 = {
     ['roadmap', 'A 30-day practice roadmap'],
   ],
   contentHtml: `
+    <p><strong>AI in architecture</strong> means using machine-learning systems to assist design work — summarising meetings, generating early imagery, searching precedents, classifying information and exploring options — while architects keep authorship and professional responsibility. By 2026 the tools are ordinary: RIBA reports 74% of surveyed UK practices use AI on at least some projects. The dividing line between practices is no longer adoption, but governance.</p>
     <p>Artificial intelligence is no longer a side experiment in architecture. It is being used to summarise meetings, draft text, organise precedents, generate early imagery, write scripts, classify information and explore options. That does not make the technology mature, reliable or neutral. It means that practices need a clearer operating model than “try the tool and see what happens”.</p>
     <p>The strongest 2026 evidence comes with an important boundary. The <a href="https://www.riba.org/work/insights-and-resources/ai-report/">RIBA AI Report 2026</a> measures UK architectural practice, while the <a href="https://www.chaos.com/ai-in-architecture-report-2026">Chaos AI in Architecture Report 2026</a> surveys a broader but differently composed professional sample. Neither report represents every country, office size or project type. Together, however, they show the same direction: adoption is moving faster than governance.</p>
     <p>This article is an international practice guide, not legal advice and not a prediction that AI will replace architectural authorship. It asks a more useful question: which tasks can be accelerated without allowing synthetic confidence to exceed verified knowledge?</p>
 
     <h2 id="tipping-point">The 2026 tipping point</h2>
-    <p>RIBA reports that 74% of surveyed UK practices use AI on at least some projects, up from 59% in 2025. That fifteen-point rise matters because adoption is no longer confined to a small group of technical specialists. The tools are becoming ordinary enough to influence deadlines, staffing, client expectations and the visual language of competitions.</p>
+    <p>RIBA reports that 74% of surveyed UK practices use AI on at least some projects, up from 59% in 2025. That fifteen-point rise matters because adoption is no longer confined to a small group of technical specialists. The tools are becoming ordinary enough to influence deadlines, staffing, client expectations and the visual language of competitions. They are also reshaping the built environment itself: the computing demand behind these systems is driving a new generation of <a href="/articles/data-centres-good-architecture/">data centre architecture</a>, examined in our latest explainer.</p>
     <p>Adoption is not the same as transformation. A studio using an assistant to format notes and a practice connecting models, specifications and internal knowledge are both counted as users, but they have very different capabilities and risks. Percentage alone cannot tell us whether the output improved design quality, reduced rework or merely produced more material to review.</p>
     <p>The practical conclusion is to measure tasks, not enthusiasm. Record where AI is used, time saved, corrections required, information exposed, reviewer seniority and whether the result reached a client or statutory submission. Without that record, a practice cannot distinguish real productivity from displaced checking time.</p>
 
@@ -89,7 +90,7 @@ const aiArchitecture2026 = {
     <p><strong>Week 4: review evidence.</strong> Keep the pilot only if it improves the whole workflow after checking. Stop tasks that create impressive output but excessive correction, unclear rights or weak decisions.</p>
     <p>The competitive advantage is not the largest collection of AI subscriptions. It is a practice that learns faster while keeping its evidence, authorship and duty of care intact. In 2026, speed without governance is not innovation; it is deferred risk.</p>
   
-    <p><strong>Continue exploring:</strong> our <a href="/newsletter/architecture-briefing-2026-10-08/">8 October briefing</a> tracks the same shift from the software side, including Graphisoft's AI portfolio announcements and what they mean for practice.</p>
+    <p><strong>Continue exploring:</strong> our <a href="/newsletter/architecture-briefing-2026-10-08/">8 October briefing</a> tracks the same shift from the software side, including Graphisoft's AI portfolio announcements and what they mean for practice. For the software foundation underneath the same question, our <a href="/articles/bim-vs-cad-architects-workflow/">BIM versus CAD workflow guide</a> separates tool capability from information responsibility.</p>
   `,
   facts: [
     ['FORMAT', 'International practice analysis'],
@@ -109,11 +110,14 @@ const aiArchitecture2026 = {
   ],
   scope: 'This article is general international editorial guidance. It is not legal, insurance, cybersecurity, employment, code-compliance or professional-regulation advice. RIBA findings primarily describe surveyed UK practices; Chaos uses a different international sample. Verify the rules and duties applying to each project and jurisdiction.',
   faq: [
+    { question: 'What is artificial intelligence in architecture?', answer: 'The use of machine-learning systems to assist architectural work: drafting and summarising text, generating early design imagery, searching precedents and office knowledge, classifying information and exploring options. It describes assistance with tasks, not a replacement for professional authorship — a competent person remains responsible for every issued decision.' },
     { question: 'How many architecture practices use AI in 2026?', answer: 'RIBA reports that 74% of surveyed UK practices use AI in at least some projects. The figure should not be treated as a global adoption rate.' },
     { question: 'Can architects use AI-generated images for clients or planning?', answer: 'They can be useful for clearly labelled exploration, but the practice should check contracts, platform rules and local law and must not present an unverified synthetic image as built or technically resolved evidence.' },
     { question: 'Does the EU AI Act require every AI image to be labelled?', answer: 'Article 50 creates transparency duties for certain synthetic or manipulated content, but the exact obligation depends on the provider, deployer and use. Obtain current legal advice for a specific workflow.' },
     { question: 'What is the safest first AI task for a small studio?', answer: 'Start with a low-consequence, reversible task such as formatting internal notes, then measure correction time and keep a human reviewer.' },
     { question: 'Can AI check building codes?', answer: 'It can help locate or organise questions, but the governing current code, jurisdiction and competent professional must verify the conclusion before it affects a project.' },
+    { question: 'Can AI replace architects?', answer: 'Not on the evidence in this article. AI accelerates tasks — notes, imagery, search, options — but it cannot take professional responsibility, verify a code conclusion, or judge whether a plausible-looking detail can actually be built. RIBA’s 2026 reporting shows expectations of staff reductions alongside worries about lost early-career learning; the practices that benefit are those that govern the tools, not those that hand over authorship.' },
+    { question: 'How does AI improve sustainability in architectural projects?', answer: 'Mainly by widening and speeding the option search: testing massing, orientation and material variants early, when carbon decisions are cheapest to change, and by retrieving performance evidence from project libraries. The gains are real only when a reviewer verifies the model — an unverified simulation can make an unsustainable design look efficient.' },
   ],
   evidence: [
     { publisher: 'Royal Institute of British Architects', source_url: 'https://www.riba.org/work/insights-and-resources/ai-report/', claim: 'RIBA reports AI use by 74% of surveyed UK practices in 2026, compared with 59% in 2025.', limitations: 'UK professional-practice survey; it is not a global census and self-reported use spans very different tasks.' },

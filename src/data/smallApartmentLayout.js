@@ -2,8 +2,8 @@ const smallApartmentLayout = {
   id: 'article-small-apartment-layout',
   slug: 'small-apartment-layout-storage-privacy-daylight',
   title: 'Small Apartment Layout: 12 Moves for Storage, Privacy and Daylight',
-  seoTitle: 'Small Apartment Layout: 12 Moves for 35–60 m² Homes',
-  metaDescription: 'Plan a small apartment with 12 practical moves for daylight, storage, privacy, circulation and adaptable daily life—without relying on space-saving gimmicks.',
+  seoTitle: 'Small Apartment Layout Ideas: 12 Moves for 35–60 m² Homes',
+  metaDescription: 'Small apartment layout ideas that work: 12 planning moves for daylight, storage, privacy and adaptable daily life in 35–60 m² homes — no gimmicks.',
   category: 'Residential Design',
   meta: '16 MIN READ · 5 ORIGINAL VISUALS',
   status: 'INTERNATIONAL SMALL-HOME DESIGN GUIDE · 2026',
@@ -18,7 +18,7 @@ const smallApartmentLayout = {
   imageAlt: 'Original warm 45 square metre apartment with full-height storage, sliding translucent partition, compact kitchen and clear daylight zone',
   visualLabel: 'FIG. 01 · ORIGINAL 45 M² DAYLIGHT-FIRST APARTMENT STUDY · AI-ASSISTED EDITORIAL ILLUSTRATION, WORLD ARCH JOURNAL 2026.',
   publishedAt: '2026-10-07',
-  modifiedAt: '2026-10-07',
+  modifiedAt: '2026-10-22',
   toc: [
     ['prototype', 'The 45 m² prototype'],
     ['daylight', 'Moves 1–3: protect daylight'],
@@ -30,6 +30,7 @@ const smallApartmentLayout = {
   ],
   contentHtml: `
     <p><strong>A small apartment is not a large home with every room miniaturised.</strong> It is a different planning problem. Light comes from fewer edges, storage competes with living space, one room may support four activities, and the view from the front door can expose the entire home. The answer is not a catalogue of folding gadgets. It is a hierarchy: protect the best daylight, consolidate fixed services, create degrees of privacy and leave at least one zone free enough to change.</p>
+    <p>The small apartment layout ideas that work are planning moves, not gadgets: give the window to the longest daily activity, concentrate storage in one measured full-height spine, break the entrance-to-bed sightline, and keep one deliberately loose zone that can change as life does. The twelve moves below develop each of those decisions.</p>
     <p>This guide uses an original 45 m² editorial prototype to explain twelve moves that also apply to many homes between roughly 35 and 60 m². The area is a design study, not an international minimum. Space, accessibility, fire safety, ventilation, structure and habitability rules differ by jurisdiction. The aim is to provide a clear method that can be tested against a real household and local standards.</p>
 
     <h2 id="prototype">The 45 m² prototype: three bands, one clear idea</h2>
@@ -48,7 +49,7 @@ const smallApartmentLayout = {
     <h2 id="daylight">Moves 1–3: protect daylight before styling the room</h2>
     <h3>1. Give the window to the longest daily activity</h3>
     <p>Place the living, dining or work zone—not a wall of wardrobes—where daylight and the outward view are strongest. A room can borrow light through a translucent or glazed partition, but it cannot fully recover a window that has been blocked by deep joinery. Begin with the daily schedule: who is home in the morning, who works remotely, where meals happen and when privacy is needed.</p>
-    <p>Research on microapartments consistently identifies maximising daylight as a common design strategy. That does not mean maximising glass. Large unshaded glazing can add glare, overheating and privacy problems, as our <a href="/articles/low-e-triple-glazing-smart-glass-guide/">high-performance glazing guide</a> explains. The target is useful daylight with control, not the largest possible window.</p>
+    <p>Research on microapartments consistently identifies maximising daylight as a common design strategy. That does not mean maximising glass. Large unshaded glazing can add glare, overheating and privacy problems, as our <a href="/articles/low-e-triple-glazing-smart-glass-guide/">high-performance glazing guide</a> explains. The target is useful daylight with control, not the largest possible window. Our <a href="/articles/apartment-daylight-layout-design/">apartment daylight and layout guide</a> works through the window-by-window decisions behind that target.</p>
     <h3>2. Keep the first 1.5 metres visually light</h3>
     <p>Near the main window, favour low furniture, open floor and surfaces that distribute light. The 1.5-metre dimension is a design prompt, not a code: test the actual room depth, sill and solar conditions. Moving a tall refrigerator, wardrobe or solid partition away from the glass can improve the perceived reach of daylight more than adding a mirror.</p>
     <h3>3. Filter light instead of sealing it off</h3>
@@ -122,6 +123,9 @@ const smallApartmentLayout = {
     { question: 'Should a small apartment always be open plan?', answer: 'No. Open space can help daylight and flexibility, but households may need visual and acoustic privacy. Sliding or translucent layers can create choices without permanently dividing the home.' },
     { question: 'What is the most useful small-apartment storage strategy?', answer: 'A measured, concentrated storage spine is often more effective than many scattered cabinets. Store objects by frequency and preserve the best daylight and circulation.' },
     { question: 'Do transformable beds and tables always save space?', answer: 'Only when they are comfortable, safe and easy enough to use daily. Draw each element open, test circulation and make sure the apartment still works when the mechanism is not moved.' },
+    { question: 'What furniture works best in a compact apartment layout?', answer: 'Furniture drawn in its active position: pieces that earn two jobs — a window bench with storage, a partition holding a desk on one side and a wardrobe on the other, a peninsula that genuinely works as a dining table. Avoid mechanisms you must move five objects to use; they stay in their last position.' },
+    { question: 'What storage works best for renters in a small apartment?', answer: 'Storage by frequency rather than by room: daily objects between knee and shoulder height near the activity, weekly items higher or deeper, seasonal pieces in the least convenient zones. For renters, one generous freestanding wardrobe or utility unit usually beats many small cabinets — and it leaves with you.' },
+    { question: 'What colour palette helps a small apartment feel larger?', answer: 'A calm, light palette on the surfaces that receive daylight, so the window zone stays visually open — but colour cannot substitute for planning. Low furniture near the glass, unobstructed sightlines and controlled contrast do more for perceived space than paint alone.' },
   ],
   evidence: [
     { publisher: 'World Health Organization', source_url: 'https://www.who.int/publications/i/item/9789241550376', claim: 'Connects housing conditions with health and provides guidance concerning crowding, temperature, injury and accessibility.', limitations: 'Global health guidance; it does not prescribe this apartment plan or a universal floor-area threshold.' },

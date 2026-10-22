@@ -2,8 +2,8 @@ const climateResponsiveFacades = {
   id: 'article-climate-responsive-facades-cooling-design',
   slug: 'climate-responsive-facades-cooling-design',
   title: 'Climate-Responsive Facades: 7 Strategies for Better Cooling',
-  seoTitle: 'Climate-Responsive Facades: 7 Cooling Strategies',
-  metaDescription: 'Learn seven climate-responsive facade strategies for shade, glazing, ventilation and controls—plus a practical workflow for lower-cooling buildings today.',
+  seoTitle: 'Climate Responsive Architecture: 7 Facade Cooling Strategies',
+  metaDescription: 'Climate responsive architecture starts at the facade: seven strategies for shade, glazing, ventilation, cavities and controls that cut cooling demand.',
   category: 'Facade Design & Building Performance',
   meta: '11 MIN READ · 11 ORIGINAL VISUALS',
   status: 'EVIDENCE-LED EXPLAINER · 2026',
@@ -19,7 +19,7 @@ const climateResponsiveFacades = {
   imageAlt: 'Conceptual mid-rise building with deep external shading, operable fins and planted terraces in a hot sunny climate',
   visualLabel: 'FIG. 01 · AI-ASSISTED EDITORIAL CONCEPT — NOT A BUILT PROJECT · WORLD ARCH JOURNAL, 2026',
   publishedAt: '2026-09-20',
-  modifiedAt: '2026-09-20',
+  modifiedAt: '2026-10-22',
   toc: [
     ['facade-as-system', 'What a climate-responsive facade actually does'],
     ['start-with-climate', '1. Start with climate, orientation and exposure'],
@@ -33,6 +33,7 @@ const climateResponsiveFacades = {
     ['design-checklist', 'A practical design checklist'],
   ],
   contentHtml: `
+    <p><strong>Climate responsive architecture</strong> designs a building around its local sun, wind, temperature and air quality, so the envelope does the cooling work before machines are needed. Its main principles are consistent across climates: start with orientation, stop solar gains outside the glass, calibrate glazing instead of maximising it, give air a complete path, slow heat through the opaque envelope, and make controls legible to the people who use the building.</p>
     <p>A facade meets the climate before any thermostat does. It receives solar radiation, filters daylight, resists wind and rain, exchanges heat with the air and determines whether an occupant can open a window without sacrificing comfort or safety. When these tasks are coordinated, the envelope can reduce the hours and intensity at which mechanical cooling is needed. When they are not, even efficient equipment is forced to compensate for avoidable heat gain.</p>
     <p>The stakes are growing. The <a href="https://www.iea.org/reports/space-cooling-2">International Energy Agency</a> warns that space-cooling energy use could more than double by 2050 without stronger action, and places passive design alongside efficient equipment and changes in behaviour. Yet “climate-responsive” is often reduced to a green wall, a patterned screen or a moving facade shown in a dramatic rendering. None of those elements guarantees performance by itself.</p>
     <p>This explainer sets out seven strategies that can be tested in real projects. It is written for early design decisions rather than product selection. The diagrams are original editorial illustrations, and the opening image is an AI-assisted concept—not a photograph of a built building. The aim is to make the design logic visible while keeping the boundary between evidence and representation clear.</p>
@@ -58,12 +59,12 @@ const climateResponsiveFacades = {
     <p>Begin with the useful view and daylight aperture, then size the glass around it. Place opaque insulated areas where they do more environmental work than another pane. Model glare and daylight together with cooling loads, and specify the complete installed assembly rather than centre-of-glass values. The most disciplined facade is rarely the one with the most glass.</p>
 
     <h2 id="design-air-path">4. Give natural ventilation a complete air path</h2>
-    <p>An operable window is an opening; ventilation is a controlled route. Air needs a pressure difference, an inlet, a path across occupied space and an outlet. Cross-ventilation uses pressure differences between facades. Stack ventilation uses height and temperature differences to draw warmer air upward. Atriums, courtyards and high-level vents can support the route, but only when their geometry and operation are verified.</p>
+    <p>An operable window is an opening; ventilation is a controlled route. Air needs a pressure difference, an inlet, a path across occupied space and an outlet. Cross-ventilation uses pressure differences between facades. Stack ventilation uses height and temperature differences to draw warmer air upward. Atriums, <a href="/articles/small-courtyard-design-light-privacy-cooling/">courtyard house design</a> and high-level vents can support the route, but only when their geometry and operation are verified.</p>
     <p>The path must also be safe. Outdoor humidity, pollution, smoke, noise, insects, security, rain and fire compartments can limit when natural ventilation should operate. A mixed-mode building therefore needs explicit states: closed and mechanically conditioned, open for natural ventilation, and a transition mode that avoids simultaneous cooling and open windows. Bedrooms, schools and workplaces may require different limits and user controls.</p>
     <p>The courtyard principles explored in our <a href="/articles/courtyard-wind-house-passive-cooling/">Courtyard Wind House concept study</a> show how a plan can create more than one orientation and a shaded pressure zone. The article also makes the essential caveat: airflow shown by arrows is a hypothesis until local wind data, computational analysis or physical testing confirms it.</p>
 
     <h2 id="use-buffer-zones">5. Use cavities and buffer zones selectively</h2>
-    <p>Double-skin facades, winter gardens, shaded verandas and ventilated rainscreens all create an intermediate zone between outdoors and occupied space. This buffer can protect operable openings, precondition air, reduce wind pressure or carry solar-control devices. It can also trap unwanted heat if exhaust paths, shading and control logic are poorly designed.</p>
+    <p>Double-skin facades, winter gardens, shaded verandas and <a href="/articles/rainscreen-facade-design-water-control/">ventilated rainscreens</a> all create an intermediate zone between outdoors and occupied space. This buffer can protect operable openings, precondition air, reduce wind pressure or carry solar-control devices. It can also trap unwanted heat if exhaust paths, shading and control logic are poorly designed.</p>
     <p>A cavity should have a declared job. Is it a weather-protected ventilation path, an acoustic buffer, a thermal chimney, a maintenance zone or a seasonal conservatory? Its depth, inlet and outlet areas, fire stopping, cleaning access and drainage follow from that purpose. The answer should be legible in plan and section, not only in a facade elevation.</p>
     <p>Because double skins add material and construction complexity, teams should compare them with simpler alternatives: external shading on a conventional high-performance wall, a recessed window, or a shaded balcony. The responsive option is the one that solves the climate problem with the least operational burden—not necessarily the one with the most layers.</p>
 
@@ -91,7 +92,7 @@ const climateResponsiveFacades = {
     <p>Publish limits as carefully as successes. Simulation is not measurement; a concept image is not a built result; a component value is not whole-building performance. This distinction is central to the editorial method used throughout <a href="/magazine/issue-00-the-house-after-the-grid/">WORLD ARCH JOURNAL Issue 00</a>: the confidence of the page should never exceed the strength of the evidence.</p>
 
     <h2 id="design-checklist">A practical design checklist</h2>
-    <p><strong>Climate:</strong> Use a reliable weather file and identify cooling, humidity, glare, pollution and extreme-event risks. <strong>Orientation:</strong> map each elevation by hour and season. <strong>Load reduction:</strong> test massing, opaque area and external shade before specifying active facade technology. <strong>Glazing:</strong> coordinate U-factor, SHGC, visible transmittance, frame and installation. <strong>Air:</strong> draw complete inlet-to-outlet routes and the conditions under which they close.</p>
+    <p><strong>Climate:</strong> Use a reliable weather file and identify cooling, humidity, glare, pollution and extreme-event risks. <strong>Orientation:</strong> map each elevation by hour and season. <strong>Load reduction:</strong> test massing, opaque area and external shade before specifying active facade technology such as <a href="/articles/solar-facades-bipv-decisions/">solar facades</a>. <strong>Glazing:</strong> coordinate U-factor, SHGC, visible transmittance, frame and installation. <strong>Air:</strong> draw complete inlet-to-outlet routes and the conditions under which they close.</p>
     <p><strong>Envelope continuity:</strong> trace insulation, airtightness, water and fire lines at every junction. <strong>Controls:</strong> write a plain-language sequence for automated and manual states. <strong>Maintenance:</strong> provide safe access to fins, cavities, actuators and drainage. <strong>Verification:</strong> commission the system and compare measured operation with the model. <strong>Communication:</strong> publish drawings, assumptions, credits and limitations so readers can distinguish architecture from marketing.</p>
     <p>Teams developing an actual commission can connect these checks to our <a href="/#services">facade and spatial-design services</a> and future <a href="/#objects">BIM object library</a>. The value of the workflow is cumulative: each decision reduces uncertainty before the next layer is added.</p>
 
@@ -183,11 +184,14 @@ const climateResponsiveFacades = {
   ],
   scope: 'This article is educational editorial guidance, not project-specific engineering advice. The opening image is an AI-assisted concept and does not depict a real building. Diagrams show principles rather than construction details. Local climate analysis, codes, simulation, product data and qualified professional review remain necessary.',
   faq: [
+    { question: 'What are the main principles of climate responsive architecture?', answer: 'Design for the actual climate file, not a generic one: orient the building and its openings for sun and wind, stop solar gains outside the glass, calibrate glazing by orientation, give natural ventilation a complete inlet-to-outlet path, slow heat through continuous insulation and thermal mass, and make controls understandable so occupants keep the system working.' },
     { question: 'What makes a facade climate-responsive?', answer: 'It responds to a defined local exposure—sun, temperature, wind, moisture and air quality—through testable envelope states such as shade, insulation, controlled openings or adaptive systems.' },
     { question: 'Do climate-responsive facades have to move?', answer: 'No. Fixed overhangs, orientation, glazing ratios and continuous insulation can be highly responsive when they are designed for the local climate. Movement is useful only when changing conditions justify the added complexity.' },
     { question: 'Is a double-skin facade always more energy efficient?', answer: 'No. Performance depends on climate, cavity geometry, shading, ventilation, controls and maintenance. A double skin can trap heat or add unnecessary material if its purpose is unclear.' },
     { question: 'Can natural ventilation replace air-conditioning?', answer: 'Sometimes and only for suitable hours and conditions. Humidity, outdoor temperature, pollution, smoke, noise, security and programme requirements may require a mixed-mode or fully mechanical strategy.' },
     { question: 'Are the images in this article photographs of a real project?', answer: 'No. The hero is clearly labelled as an AI-assisted editorial concept. The remaining visuals are original explanatory diagrams created for this article.' },
+    { question: 'Does climate responsive architecture eliminate air conditioning?', answer: 'No — it reduces how often and how hard mechanical cooling must run. In suitable hours, shading, ventilation and mass can carry comfort entirely; in extreme heat, humidity, pollution or smoke, a mixed-mode or mechanical system is still needed. The credible claim is lower cooling demand, not zero equipment.' },
+    { question: 'How do courtyards help climate responsive buildings?', answer: 'A courtyard gives a deep plan a second, shaded orientation: it can host the cool side of a ventilation path, protect openings from direct sun and create a tempered outdoor room. It only performs when its section, openings and air path are designed — an enclosed court with no outlet can trap heat instead.' },
   ],
   evidence: [
     { publisher: 'International Energy Agency', source_url: 'https://www.iea.org/reports/space-cooling-2', claim: 'Passive design, efficient equipment and behavioural change are important to moderating the growth of cooling demand.', limitations: 'Global analysis; it does not predict savings for a specific facade or project.' },
