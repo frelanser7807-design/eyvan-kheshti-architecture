@@ -20,7 +20,7 @@ const definitions = [
       'Architectural style becomes useful when it helps us read how a building was made, occupied and understood—not when it reduces history to a visual filter.',
       'This archive uses documented buildings and licensed images to connect form with social ambition, construction, preservation and contemporary relevance.',
     ],
-    articleSlugs: ['brutalist-architecture-history-features-buildings', 'frank-lloyd-wright-organic-architecture-guide'],
+    articleSlugs: ['brutalist-architecture-history-features-buildings', 'art-deco-architecture-history-features-buildings', 'frank-lloyd-wright-organic-architecture-guide'],
   },
   {
     slug: 'biophilic-design',
