@@ -2,8 +2,8 @@ const urbanHeatStreets = {
   id: 'article-urban-heat-cool-streets-design',
   slug: 'urban-heat-cool-streets-design',
   title: 'Urban Heat Island Design: 8 Ways to Cool City Streets',
-  seoTitle: 'Urban Heat Design: 8 Decisions for Cooler Streets',
-  metaDescription: 'An evidence-led guide to urban heat design: shade, trees, surfaces, building edges, equity and measurement for cooler, more usable streets.',
+  seoTitle: 'Urban Heat Island: 8 Design Decisions for Cooler Streets',
+  metaDescription: 'An evidence-led guide to urban heat island design: shade, trees, surfaces, building edges, equity and measurement for cooler, more usable streets.',
   category: 'Climate & Resilient Architecture',
   meta: '11 MIN READ · ORIGINAL EDITORIAL VISUALS',
   status: 'INTERNATIONAL DESIGN GUIDE · 2026',
@@ -19,7 +19,7 @@ const urbanHeatStreets = {
   imageLead: true,
   visualLabel: 'FIG. 01 · ORIGINAL AI-ASSISTED EDITORIAL VISUAL · CONCEPT SCENE, NOT A DOCUMENTED PROJECT',
   publishedAt: '2026-09-30',
-  modifiedAt: '2026-09-30',
+  modifiedAt: '2026-10-22',
   toc: [
     ['street-heat', 'Why the street is a design problem'],
     ['decision-1', '1. Start with exposure, not an average'],
@@ -86,7 +86,7 @@ const urbanHeatStreets = {
     </tbody></table>
     <p>The urban street is a climate section in motion. Its success depends on shade in the right place, living infrastructure that lasts, surfaces that do not create new harm, and measurements tied to people's actual exposure. The best first question is not “How many degrees cooler will this rendering be?” but “Whose journey improves, and how will we know?”</p>
   
-    <p><strong>Continue exploring:</strong> the courtyard is the domestic version of the shaded street — <a href="/projects/narbon-villa/">Narbon Villa</a> sinks its arrival court below orchard level to hold cool air, and its project file documents the section in drawings. The city-scale version of the same question — what public space owes its citizens — runs through our <a href="/newsletter/architecture-briefing-2026-10-02/">2 October briefing</a>.</p>
+    <p><strong>Continue exploring:</strong> the courtyard is the domestic version of the shaded street — <a href="/projects/narbon-villa/">Narbon Villa</a> sinks its arrival court below orchard level to hold cool air, and its project file documents the section in drawings. The city-scale version of the same question — what public space owes its citizens — runs through our <a href="/newsletter/architecture-briefing-2026-10-02/">2 October briefing</a>. The planting logic behind the shade is the same one applied at building scale in our <a href="/articles/biophilic-design-architecture-wellbeing/">biophilic design</a> guide.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international urban design guide'],
@@ -101,9 +101,11 @@ const urbanHeatStreets = {
   ],
   scope: 'This is original general editorial guidance. The street section is a conceptual diagram, not a measured project, simulation, specification or guarantee of cooling. Local climate, accessibility, maintenance, water, structural and public-health requirements need professional review.',
   faq: [
+    { question: 'What is the urban heat island effect?', answer: 'The tendency of built-up areas to run measurably hotter than their rural surroundings — by day, because dark surfaces and waste heat store and release energy, and especially at night, when that stored heat keeps air temperatures high. The effect is strongest on exposed pavements and in districts with the least tree cover, which is why this guide treats it as a design and equity problem, not only a weather fact.' },
     { question: 'Can a cool roof alone make a street comfortable?', answer: 'No. A cool roof can reduce heat transfer into a building and contribute to heat-island mitigation, but people on an exposed pavement still need direct shade and a safe, usable route.' },
     { question: 'Are cool pavements always better than trees?', answer: 'No. Different measures affect surfaces, air and human radiant exposure differently. Compare them for the specific climate, site, water supply, glare, maintenance and walking route.' },
     { question: 'How should a city measure whether a street is cooler?', answer: 'Define the objective and compare representative locations at relevant times using a consistent protocol. Separate surface-temperature readings from near-ground air temperature and observed user experience.' },
+    { question: 'How can cities reduce the urban heat island effect?', answer: 'Shade first — trees and arcades over the routes people actually walk; then lighter, permeable surfaces; protected and connected canopy; building edges that shade rather than radiate; and water used where it is sustainable. This guide sequences those moves and insists on measuring air temperature and user experience, not surface temperature alone.' },
   ],
   evidence: [
     { publisher: 'IPCC, AR6 Working Group II', source_url: 'https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-6/', claim: 'Urban vegetation reduces heat through shade and evapotranspiration; impact varies by climate, form, placement, water and maintenance.', limitations: 'Global assessment; does not predict a result for the illustrative street section.' },
