@@ -18,7 +18,7 @@ const apartmentDaylightLayout = {
   imageAlt: 'Original apartment section diagram showing useful daylight, glare and room depth',
   visualLabel: 'FIG. 01 · DAYLIGHT IS SHAPED BY SECTION, DEPTH AND OBSTRUCTION—not GLASS AREA ALONE · ORIGINAL WORLD ARCH JOURNAL DIAGRAM, 2026.',
   publishedAt: '2026-10-09',
-  modifiedAt: '2026-10-09',
+  modifiedAt: '2026-10-22',
   toc: [
     ['problem', 'Why bigger windows are not the first answer'],
     ['moves', 'Eight layout decisions'],
@@ -97,6 +97,8 @@ const apartmentDaylightLayout = {
     { question: 'Can a bedroom rely on borrowed light?', answer: 'Borrowed light may improve brightness, but it does not automatically satisfy requirements for daylight, outlook, ventilation, privacy or fire safety. Check the current local rules.' },
     { question: 'What should be modelled in a daylight study?', answer: 'Include the actual site, neighbouring obstructions, balconies, frames, reveals, glazing properties, shading and realistic surface reflectance, then state the metric and assumptions.' },
     { question: 'How can a small apartment share daylight?', answer: 'Protect the main window zone, keep tall storage away from it, simplify circulation and use controlled translucent or glazed internal layers where privacy and acoustics allow.' },
+    { question: 'How does room depth affect daylight in an apartment?', answer: 'Useful daylight falls quickly with distance from the window — the deeper the room, the more its far zone depends on borrowed light, pale surfaces and an unobstructed section. That is why this guide puts the longest daily activity nearest the glass and treats depth, not window size, as the first layout decision.' },
+    { question: 'Can shading improve daylight rather than reduce it?', answer: 'Yes, when the problem is glare rather than quantity. External shade, deep reveals and adjustable blinds cut the contrast that forces occupants to close everything, so the shutter stays open for more hours and the room receives steadier, more useful light.' },
   ],
   evidence: [
     { publisher: 'European standard EN 17037', source_url: 'https://www.evs.ee/en/evs-en-17037-2019-a1-2021-consolidated', claim: 'Structures daylight assessment around daylight provision, view out, sunlight exposure and glare.', limitations: 'Standard access and national application vary; it does not validate any diagram or prescribe a universal apartment solution.' },

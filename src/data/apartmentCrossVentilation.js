@@ -19,7 +19,7 @@ const apartmentCrossVentilation = {
   imageAlt: 'Original apartment section diagram showing a complete cross-ventilation path between opposite facades',
   visualLabel: 'FIG. 01 · COMPLETE AIR PATH THROUGH AN APARTMENT · ORIGINAL WORLD ARCH JOURNAL DIAGRAM, 2026; NOT A PERFORMANCE SIMULATION.',
   publishedAt: '2026-10-09',
-  modifiedAt: '2026-10-09',
+  modifiedAt: '2026-10-22',
   toc: [
     ['definition', 'What cross ventilation really means'],
     ['moves', 'Nine design moves'],
@@ -100,6 +100,8 @@ const apartmentCrossVentilation = {
     { question: 'Can a single-aspect apartment be naturally ventilated?', answer: 'It may receive single-sided ventilation, but effectiveness usually falls with room depth and weak wind or temperature differences. A project-specific assessment and reliable mechanical strategy may still be required.' },
     { question: 'Does cross ventilation prevent overheating?', answer: 'Not by itself. Solar gain, outdoor temperature, humidity, thermal mass, internal gains, opening usability and night conditions all matter.' },
     { question: 'Should internal doors stay open for cross ventilation?', answer: 'Only if privacy, acoustics, fire safety and the operating plan allow it. Transfer openings or mechanical alternatives may be needed, subject to local requirements.' },
+    { question: 'What is the difference between cross ventilation and stack ventilation?', answer: 'Cross ventilation is wind-driven: pressure differences push air horizontally from openings on one facade, through the plan and out of openings on another. Stack ventilation is buoyancy-driven: warm air rises and escapes at height, drawing cooler air in below. Many good plans combine both — cross flow for occupied hours, a stack path for still, hot nights.' },
+    { question: 'How can I improve cross ventilation in an existing apartment?', answer: 'Start with the route, not the windows: keep internal doors or transoms open where privacy and fire rules allow, avoid blocking the inlet-to-outlet path with tall furniture, open high and low openings together at night, and use insect screens and secure night latches so the route can stay open. If the flat is single-aspect, a ceiling or wall fan extends the hours the partial path feels useful.' },
   ],
   evidence: [
     { publisher: 'UK Government — Approved Document O', source_url: 'https://www.gov.uk/government/publications/overheating-approved-document-o', claim: 'Provides England-specific guidance for limiting solar gains and removing excess heat, including a defined simplified-method treatment of cross ventilation.', limitations: 'Applies to relevant new residential buildings in England; it is not an international code or a calculation for any apartment shown here.' },
