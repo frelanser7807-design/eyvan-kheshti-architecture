@@ -5146,7 +5146,7 @@ html[dir="rtl"] .ek-brand > span:last-child { text-align: right; }
 }
 
 .ek-brand > span:last-child { display: grid; gap: 4px; }
-.ek-brand b { font-family: Georgia, serif; font-size: .88rem; font-weight: 400; letter-spacing: .16em; }
+.ek-brand b { font-family: 'Cormorant Garamond', Georgia, serif; font-size: .88rem; font-weight: 500; letter-spacing: .16em; }
 .ek-brand small { color: var(--ek-dim); font-size: .42rem; letter-spacing: .24em; }
 
 .ek-nav { display: flex; align-items: center; gap: 28px; }
@@ -5574,9 +5574,9 @@ html[dir="rtl"] .ek-brand > span:last-child { text-align: right; }
 }
 
 .ek-story-label b {
-  font-family: Georgia, serif;
+  font-family: 'Cormorant Garamond', Georgia, serif;
   font-size: clamp(.72rem, 1.2vw, 1.08rem);
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: .045em;
 }
 
@@ -5670,9 +5670,9 @@ html[dir="rtl"] .ek-brand > span:last-child { text-align: right; }
 }
 
 .ek-scene-data strong {
-  font-family: Georgia, serif;
+  font-family: 'Cormorant Garamond', Georgia, serif;
   font-size: clamp(1rem, 1.55vw, 1.42rem);
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: .035em;
 }
 
@@ -5818,6 +5818,8 @@ html[dir="rtl"] .ek-brand > span:last-child { text-align: right; }
   height: 100svh;
   min-height: 560px;
   overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .ek-quick-links {
