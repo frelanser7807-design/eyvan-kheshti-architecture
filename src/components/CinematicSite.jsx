@@ -184,12 +184,14 @@ export default function CinematicSite({ content }) {
   const [activeArticle, setActiveArticle] = useState(null);
   const [activeMagazine, setActiveMagazine] = useState(null);
   const [moreOpen, setMoreOpen] = useState(false);
+  const [directoryOpen, setDirectoryOpen] = useState(false);
   const [mediaError, setMediaError] = useState(false);
   const language = 'en';
   const [soundEnabled, setSoundEnabled] = useState(false);
   const videoRef = useRef(null);
   const audioRef = useRef(null);
   const moreRef = useRef(null);
+  const directoryRef = useRef(null);
 
   const currentScene = scenes[Math.max(sceneIndex, 0)];
   const copy = interfaceCopy[language] || interfaceCopy.en;
@@ -229,6 +231,18 @@ export default function CinematicSite({ content }) {
       window.removeEventListener('pointerdown', closeOnOutside);
     };
   }, [moreOpen]);
+
+  useEffect(() => {
+    if (!directoryOpen) return undefined;
+    const closeOnKey = (event) => event.key === 'Escape' && setDirectoryOpen(false);
+    const closeOnOutside = (event) => !directoryRef.current?.contains(event.target) && setDirectoryOpen(false);
+    window.addEventListener('keydown', closeOnKey);
+    window.addEventListener('pointerdown', closeOnOutside);
+    return () => {
+      window.removeEventListener('keydown', closeOnKey);
+      window.removeEventListener('pointerdown', closeOnOutside);
+    };
+  }, [directoryOpen]);
 
   useEffect(() => {
     if (sceneIndex < 0 || !videoRef.current) return;
@@ -273,6 +287,7 @@ export default function CinematicSite({ content }) {
     setActiveArticle(null);
     setActiveMagazine(null);
     setMoreOpen(false);
+    setDirectoryOpen(false);
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
@@ -421,7 +436,44 @@ export default function CinematicSite({ content }) {
         </button>
 
         <nav className="ek-nav" aria-label="Primary navigation">
-          <a className="ek-material-nav" href="/materials/">Materials</a>
+          <span className="ek-nav-links">
+            <a href="/magazine/">Magazine</a>
+            <a className="ek-material-nav" href="/materials/">Materials</a>
+            <a href="/magazine/architectural-history-styles/">History</a>
+            <a href="/projects/">Virtual Tours</a>
+            <a href="/atlas/">Atlas</a>
+            <a href="/newsletter/">Newsletter</a>
+            <a href="/shop/">Shop</a>
+          </span>
+          <a className="ek-services-cta" href="/services/">Design Services</a>
+          <span className="ek-directory-wrap" ref={directoryRef}>
+            <button className="ek-directory-button" type="button" aria-expanded={directoryOpen} aria-controls="ek-directory-panel" onClick={() => setDirectoryOpen((value) => !value)}>
+              <span>Menu</span><i aria-hidden="true">☰</i>
+            </button>
+            <div id="ek-directory-panel" className={`ek-directory-panel ${directoryOpen ? 'is-open' : ''}`} aria-hidden={!directoryOpen}>
+              <div className="ek-directory-group">
+                <h3>Read</h3>
+                <a href="/magazine/" tabIndex={directoryOpen ? 0 : -1}>Magazine</a>
+                <a href="/magazine/architectural-history-styles/" tabIndex={directoryOpen ? 0 : -1}>Architecture History</a>
+                <a href="/newsletter/" tabIndex={directoryOpen ? 0 : -1}>Newsletter</a>
+                <a href="/videos/" tabIndex={directoryOpen ? 0 : -1}>Videos</a>
+              </div>
+              <div className="ek-directory-group">
+                <h3>Explore</h3>
+                <a href="/materials/" tabIndex={directoryOpen ? 0 : -1}>Materials Library</a>
+                <a href="/projects/" tabIndex={directoryOpen ? 0 : -1}>Virtual Tours</a>
+                <a href="/atlas/" tabIndex={directoryOpen ? 0 : -1}>Atlas</a>
+                <a href="/projects/" tabIndex={directoryOpen ? 0 : -1}>Projects</a>
+              </div>
+              <div className="ek-directory-group">
+                <h3>Studio</h3>
+                <a href="/services/" tabIndex={directoryOpen ? 0 : -1}>Design Services</a>
+                <a href="/contact/" tabIndex={directoryOpen ? 0 : -1}>Contact</a>
+                <a href="/about/" tabIndex={directoryOpen ? 0 : -1}>About</a>
+                <a href="/shop/" tabIndex={directoryOpen ? 0 : -1}>Shop</a>
+              </div>
+            </div>
+          </span>
           <button className="ek-language is-disabled" type="button" disabled aria-disabled="true" title="Persian edition coming soon">
             <b>EN</b><span>/</span><i>FA SOON</i>
           </button>
