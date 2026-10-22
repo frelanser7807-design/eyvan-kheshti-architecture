@@ -11,10 +11,14 @@ const universalDesignHomes = {
   image: '/assets/articles/universal-design-homes/universal-design-homes-hero.webp',
   imageWidth: 1536,
   imageHeight: 1024,
+  cover: '/assets/articles/universal-design-homes-ageing-in-place/cover.webp',
+  coverAlt: 'World Arch Journal cover: Design for All Ages, how universal design creates homes you can live in for a lifetime — a step-free open-plan home with a wheelchair user looking onto the terrace',
+  coverWidth: 800,
+  coverHeight: 1200,
   imageAlt: 'Original editorial illustration of a warm contemporary universal-design home with a level entrance, broad circulation, accessible bathroom and garden connection',
   visualLabel: 'FIG. 01 · AN AGE-FRIENDLY HOME WITHOUT AN INSTITUTIONAL CHARACTER · ORIGINAL AI-ASSISTED EDITORIAL ILLUSTRATION, WORLD ARCH JOURNAL 2026.',
   publishedAt: '2026-10-06',
-  modifiedAt: '2026-10-06',
+  modifiedAt: '2026-10-22',
   toc: [
     ['meaning', 'Universal design, accessibility and ageing in place'],
     ['journey', '1. Protect the complete journey'],
@@ -74,7 +78,7 @@ const universalDesignHomes = {
     <h2 id="sensory">6. Design light, contrast and acoustics</h2>
     <p>Inclusive housing is not only about wheelchair geometry. Vision, hearing, balance, memory, fatigue and sensory processing shape how a home is experienced. Bring in useful daylight while controlling glare and overheating. Our <a href="/articles/low-e-triple-glazing-smart-glass-guide/">high-performance glazing guide</a> explains why visible light, solar gain and comfort must be designed together.</p>
     <p>Create visual contrast at meaningful edges: doors, handles, stairs, switches and changes of level. Avoid high-gloss floors that can read as wet or reflective voids. Use even lighting on circulation routes and allow residents to control task and ambient light separately. Night lighting should guide movement without flooding the whole home.</p>
-    <p>Acoustics affect orientation and communication. Reduce long reverberant paths, separate noisy plant from bedrooms and provide quiet retreat. Visual alarms, hearing-support systems or smart alerts may be appropriate, but they should be selected with the resident rather than added as a generic technology package.</p>
+    <p>Acoustics affect orientation and communication. Reduce long reverberant paths, separate noisy plant from bedrooms and provide quiet retreat. The underlying discipline is <a href="/articles/apartment-acoustic-design/">acoustic zoning</a>: giving every sound a planned place. Visual alarms, hearing-support systems or smart alerts may be appropriate, but they should be selected with the resident rather than added as a generic technology package.</p>
 
     <h2 id="outdoors">7. Keep outdoor life within reach</h2>
     <p>A balcony or garden is only an amenity if it can be reached and used. Coordinate flush or low thresholds with drainage, door tracks, waterproofing and maintenance. Provide shade, seating with backs and arms where useful, a firm route and space beside the chair for a mobility device or companion.</p>
@@ -105,6 +109,8 @@ const universalDesignHomes = {
     <p>After occupation, review the route, bathroom, kitchen, controls, lighting, temperature and outdoor access with residents. Record workarounds: a door wedged open, a chair placed in a corridor, blinds kept closed, storage left unused or a room avoided. Workarounds are evidence that the design and daily life are misaligned.</p>
     <p>Track adaptations and their disruption. If future rails require complete wall reconstruction or a bedroom conversion blocks the only social space, the home was less adaptable than the drawings suggested. Feed the findings into the next brief.</p>
     <p>The best universal-design home is not frozen around one imagined user. It is legible, generous and technically prepared for change. Its inclusive features belong to the architecture from the beginning—and remain useful whether or not a resident ever calls them accessibility features.</p>
+  
+    <p><strong>Continue exploring:</strong> adapting a home for later life is residential design work our studio undertakes remotely — see the <a href="/services/">design services</a> — and our <a href="/newsletter/architecture-briefing-2026-10-07/">7 October briefing</a> follows the wider question of who gets to learn, build and enter.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international design explainer'],
@@ -129,6 +135,8 @@ const universalDesignHomes = {
     { question: 'Can an existing home be adapted for ageing in place?', answer: 'Often yes, but priorities depend on structure, levels, bathroom geometry, services and the resident. Begin with the complete journey and highest-consequence barriers, then phase immediate, enabling and future work.' },
     { question: 'Does a step-free entrance make a home accessible?', answer: 'It is essential for many users but not sufficient. Internal routes, bathroom and kitchen use, controls, sensory conditions, safety and outdoor access must work as a connected system.' },
     { question: 'Are the dimensions in this article a building code?', answer: 'No. The diagrams are conceptual. Use the locally adopted accessibility and building requirements, and consult the known resident and qualified specialists.' },
+    { question: 'What are the 7 principles of universal design?', answer: 'Equitable use; flexibility in use; simple and intuitive use; perceptible information; tolerance for error; low physical effort; and size and space for approach and use. This guide translates them into residential decisions — entrances, plans, kitchens, bathrooms, light and gardens — that do not look institutional.' },
+    { question: 'What is ageing in place?', answer: 'Living in your own home safely and independently as you age, rather than moving to institutional care. Design makes it possible: a step-free entrance, a complete bathroom and bedroom on the entry level, reachable controls and storage, and adaptability designed in before it is urgently needed.' },
   ],
   evidence: [
     { publisher: 'World Health Organization', source_url: 'https://www.who.int/publications/i/item/9789241550376', claim: 'WHO housing and health guidelines address accessibility, injury hazards, crowding and safe indoor temperatures as health issues.', limitations: 'Global health guidance; it does not provide a complete project code or individual design assessment.' },

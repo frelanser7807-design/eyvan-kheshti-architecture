@@ -9,7 +9,7 @@ const copy = {
   en: {
     eyebrow: 'BEYOND THE FILM',
     title: 'Architecture, knowledge and places.',
-    intro: 'Explore selected work, studio services, original editorial research, architecture e-books and carefully staged digital resources.',
+    intro: 'Explore selected work, studio services, original editorial research and carefully staged digital resources.',
     projects: 'Selected Projects',
     services: 'Studio Services',
     tutorials: 'Tutorials',
@@ -23,7 +23,6 @@ const copy = {
     articlesText: 'Source-grounded, long-form reading for architects, BIM teams and design professionals. Articles are kept separate from shorter studio journal notes.',
     readArticle: 'Read full article',
     library: 'BIM Object Library',
-    ebooks: 'Architecture E-Books',
     atlas: 'WORLD ARCH ATLAS',
     app: 'World Arch Journal App',
     shop: 'Courses & Shop',
@@ -31,13 +30,6 @@ const copy = {
     shopText: 'Courses, digital catalogues and architectural resources will appear here after pricing, delivery and payment checks are complete.',
     libraryText: 'A freemium library in development: practical BIM essentials will form the free entry collection, while advanced parametric families are planned as future premium packs.',
     libraryUnavailable: 'No BIM file, download or checkout is active in this preview.',
-    ebooksText: 'Original architecture editions are being developed for focused reading, reference and practice.',
-    ebooksStatus: 'COMING SOON',
-    ebookPreview: 'Free preview',
-    ebookPreviewText: 'Selected pages or chapters will be available to read before choosing a complete edition.',
-    ebookFull: 'Complete edition',
-    ebookFullText: 'Full e-books are planned as paid digital releases after editorial, rights, delivery and payment checks.',
-    ebookUnavailable: 'No price, purchase or download is active yet.',
     appText: 'Install this website as a lightweight app for faster access to projects, tutorials, guides and future commission updates.',
     install: 'Install / Download app',
     installed: 'App installed',
@@ -65,7 +57,6 @@ const copy = {
     articlesText: 'مطالب بلند و منبع‌محور برای معماران، تیم‌های BIM و متخصصان طراحی؛ جدا از یادداشت‌های کوتاه ژورنال استودیو.',
     readArticle: 'مطالعهٔ مقاله',
     library: 'کتابخانهٔ آبجکت BIM',
-    ebooks: 'ای‌بوک‌های معماری',
     atlas: 'اطلس معماری جهان',
     app: 'اپلیکیشن ورلد آرک ژورنال',
     shop: 'دوره‌ها و فروشگاه',
@@ -73,13 +64,6 @@ const copy = {
     shopText: 'دوره‌ها، کاتالوگ‌های دیجیتال و منابع معماری پس از تأیید قیمت، شیوهٔ تحویل و پرداخت در این بخش قرار می‌گیرند.',
     libraryText: 'کتابخانه‌ای فریمیوم در حال توسعه: ملزومات کاربردی BIM در بخش رایگان و فمیلی‌های پارامتریک پیشرفته در بسته‌های حرفه‌ای آینده قرار می‌گیرند.',
     libraryUnavailable: 'در این پیش‌نمایش هنوز فایل BIM، دانلود یا پرداختی فعال نیست.',
-    ebooksText: 'نسخه‌های اصیل معماری برای مطالعه، مرجع و کار حرفه‌ای در حال توسعه‌اند.',
-    ebooksStatus: 'به‌زودی',
-    ebookPreview: 'پیش‌نمایش رایگان',
-    ebookPreviewText: 'صفحات یا فصل‌های منتخب پیش از انتخاب نسخهٔ کامل برای مطالعه در دسترس قرار می‌گیرند.',
-    ebookFull: 'نسخهٔ کامل',
-    ebookFullText: 'ای‌بوک کامل پس از کنترل محتوایی، حقوقی، تحویل و پرداخت به‌عنوان محصول دیجیتال عرضه خواهد شد.',
-    ebookUnavailable: 'هنوز قیمت، خرید یا دانلودی فعال نیست.',
     appText: 'این وب‌سایت را برای دسترسی سریع‌تر به پروژه‌ها، آموزش‌ها، راهنماها و به‌روزرسانی‌های آینده به‌صورت اپ نصب کنید.',
     install: 'نصب اپ',
     installed: 'اپ نصب شده',
@@ -180,11 +164,9 @@ export default function EditorialSections({ content, language, onExplore, onOpen
   const tutorials = (content?.tutorials || []).filter((item) => item.published);
   const guides = (content?.guides || []).filter((item) => item.published);
   const library = (content?.library || []).filter((item) => item.published);
-  const ebooks = (content?.ebooks || []).filter((item) => item.published);
   const products = (content?.products || []).filter((item) => item.published);
   const socialLinks = (content?.brand?.socialLinks || [])
     .filter((item) => item.enabled !== false && /^https?:\/\//i.test(item.url || ''));
-  const featuredEbook = ebooks[0];
   const featuredMagazine = magazines.find((item) => item.published);
   const adsenseReady = content?.monetization?.adsenseEnabled === true && /^ca-pub-\d{10,}$/.test(content?.monetization?.adsensePublisherId || '');
 
@@ -304,36 +286,19 @@ export default function EditorialSections({ content, language, onExplore, onOpen
         </div>
       </section>
 
-      <section id="ebooks" className="ek-editorial-section ek-ebooks-band" aria-labelledby="ebooks-title">
-        <header><small>07</small><h2 id="ebooks-title">{text.ebooks}</h2><button type="button" onClick={() => onExplore('ebooks')}>{text.viewAll} ↗</button></header>
-        <div className="ek-ebooks-preview">
-          <div className="ek-ebook-cover" aria-hidden="true"><small>WORLD ARCH EDITIONS</small><b>ARCHITECTURE<br />E-BOOKS</b><span>{text.ebooksStatus}</span></div>
-          <div className="ek-ebook-plan">
-            <small>{featuredEbook?.meta || text.ebooksStatus}</small>
-            <h3>{featuredEbook ? localised(featuredEbook, 'title', language) : text.ebooks}</h3>
-            <p>{featuredEbook ? localised(featuredEbook, 'excerpt', language) : text.ebooksText}</p>
-            <div className="ek-ebook-access">
-              <article><span>01</span><div><b>{text.ebookPreview}</b><p>{text.ebookPreviewText}</p></div></article>
-              <article><span>02</span><div><b>{text.ebookFull}</b><p>{text.ebookFullText}</p></div></article>
-            </div>
-            <em>{text.ebookUnavailable}</em>
-          </div>
-        </div>
-      </section>
-
-      <section id="atlas" className="ek-editorial-section ek-atlas-band" aria-labelledby="atlas-title">
-        <header><small>08</small><h2 id="atlas-title">{text.atlas}</h2><button type="button" onClick={() => window.location.assign('/atlas/')}>{text.viewAll} ↗</button></header>
+<section id="atlas" className="ek-editorial-section ek-atlas-band" aria-labelledby="atlas-title">
+        <header><small>07</small><h2 id="atlas-title">{text.atlas}</h2><a href="/atlas/">{text.viewAll} ↗</a></header>
         <div className="ek-atlas-copy"><p>{text.atlasText}</p><span>{text.disclosure}</span></div>
         <PreviewCards items={guides} language={language} />
       </section>
 
       <section id="app" className="ek-editorial-section ek-app-band" aria-labelledby="app-title">
-        <header><small>09</small><h2 id="app-title">{text.app}</h2></header>
+        <header><small>08</small><h2 id="app-title">{text.app}</h2></header>
         <AppInstallCard text={text} />
       </section>
 
       <section id="shop" className="ek-editorial-section ek-shop-band" aria-labelledby="shop-title">
-        <header><small>10</small><h2 id="shop-title">{text.shop}</h2><a href="/shop/">{text.viewAll} ↗</a></header>
+        <header><small>09</small><h2 id="shop-title">{text.shop}</h2><a href="/shop/">{text.viewAll} ↗</a></header>
         <p>{text.shopText}</p>
         <p><a href="/shop/presentations/">Explore presentation templates and custom cover design ↗</a></p>
         {products.length > 0 && <PreviewCards items={products} language={language} />}

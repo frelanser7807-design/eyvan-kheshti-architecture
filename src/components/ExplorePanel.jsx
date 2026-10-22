@@ -11,7 +11,6 @@ const views = [
   ['magazines', 'Magazine', 'مجلهٔ معماری'],
   ['guides', 'EYVAN ATLAS', 'ایوان اطلس'],
   ['library', 'BIM Library', 'کتابخانهٔ BIM'],
-  ['ebooks', 'Architecture E-Books', 'ای‌بوک‌های معماری'],
   ['products', 'Courses & Shop', 'دوره‌ها و فروشگاه'],
 ];
 
@@ -73,7 +72,6 @@ export default function ExplorePanel({ open, onClose, content, initialView = 'pr
     ],
     guides: (content?.guides || []).filter((item) => item.published),
     library: (content?.library || []).filter((item) => item.published),
-    ebooks: (content?.ebooks || []).filter((item) => item.published),
     products: (content?.products || []).filter((item) => item.published),
   }), [content]);
 
@@ -153,9 +151,7 @@ export default function ExplorePanel({ open, onClose, content, initialView = 'pr
         <div className="ek-library-grid">
           {items.map((item, index) => {
             const href = safeHref(item.url);
-            const inactiveLabel = active === 'ebooks'
-              ? copy.comingSoon
-              : active === 'library'
+            const inactiveLabel = active === 'library'
                 ? (item.accessTier === 'premium' ? copy.premiumPlanned : copy.freePlanned)
                 : active === 'products'
                   ? copy.comingSoon

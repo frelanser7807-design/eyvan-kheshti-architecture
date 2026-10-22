@@ -1,19 +1,28 @@
 const modernVillaReimagined = {
   id: 'article-modern-villa-reimagined',
   slug: 'modern-villa-reimagined-7-design-principles',
-  title: 'The Modern Villa Reimagined: 7 Design Principles for Contemporary Living',
-  seoTitle: 'The Modern Villa Reimagined: 7 Design Principles for Contemporary Living',
-  metaDescription: '7 design principles for the modern villa: daylight planning, material honesty, energy performance, flexibility and arrival sequence.',
+  title: 'Modern Villa Design Reimagined: 7 Principles for Contemporary Living',
+  seoTitle: 'Modern Villa Design: 7 Principles for Contemporary Living',
+  metaDescription: 'Modern villa design explained: seven principles for daylight-first planning, honest materials, visible energy performance and flexible, adaptable homes.',
   category: 'Design Principles',
   meta: '9 MIN READ',
   status: 'WORLD ARCH JOURNAL · 2026',
   excerpt: 'Seven evidence-led design principles that separate a thoughtfully designed modern villa from an expensive one — from daylight strategy and material honesty to energy performance and the choreography of arrival.',
   image: '/assets/articles/modern-villa-reimagined/villa-cover.jpg',
-  imageAlt: 'Modern villa exterior with clean lines and natural materials',
+  imageAlt: 'Exterior of a modern villa design with clean lines and natural materials',
+  cover: '/assets/articles/modern-villa-reimagined-7-design-principles/cover.webp',
+  coverAlt: 'World Arch Journal cover: Modern Villa Reimagined, 7 design principles — timeless homes for a better way of living, a stone and glass villa with a pool at dusk',
+  coverWidth: 800,
+  coverHeight: 1200,
   publishedAt: '2026-10-11',
-  modifiedAt: '2026-10-11',
+  modifiedAt: '2026-10-22',
+  author: 'World Arch Journal',
+  scope: 'A conceptual design guide. Climate, structure, accessibility, building regulations and energy performance require project-specific assessment.',
+  tags: ['villa design', 'daylight', 'passive design', 'materials', 'adaptability'],
+  evidence: [],
   contentHtml: `
 <h2>Introduction: Why the Villa Needs Rethinking</h2>
+<p><strong>Modern villa design</strong> is the practice of planning a contemporary home around daylight, honest materials, energy performance and adaptability — not around square footage or expensive finishes. The seven principles in this guide — light first, a compressed core, a designed threshold, truthful materials, a flexible structure, visible performance and a choreographed arrival — are what separate a well-designed modern villa from a merely expensive one.</p>
 <p>The villa, as an architectural type, has survived centuries of reinvention. From the Roman countryside estates to Palladio's symmetrical masterpieces and the glass-box experiments of the mid-twentieth century, each era has redefined what it means to dwell well on a single plot of land. Today, the modern villa faces a new set of pressures: rising land costs, climate uncertainty, the permanent arrival of remote work, and homeowners who expect their houses to function as offices, gyms, retreats, and entertainment venues simultaneously.</p>
 <p>This convergence has made generic luxury obsolete. A contemporary villa can no longer justify itself through square footage or expensive finishes alone. It must earn its keep through intelligent planning, environmental responsiveness, and a genuine understanding of how people actually live. The seven principles below distil what separates a thoughtfully designed modern villa from an expensive one. They draw on current practice across the UK, continental Europe, and North America, and they apply whether you are commissioning a bespoke home or refining a design already on the drawing board.</p>
 
@@ -29,11 +38,11 @@ const modernVillaReimagined = {
 
 <h2>3. Design the Threshold Between Inside and Out</h2>
 <p>The boundary between interior and exterior is where a villa either succeeds or fails. Too many designs treat the garden as leftover space around the building, connected by a sliding door that is closed for eleven months of the year. A reimagined villa treats the threshold as a designed sequence: terrace, loggia, overhang, or winter garden that mediates between conditioned interior and open landscape.</p>
-<p>In temperate climates like Britain's or the Pacific Northwest's, a covered outdoor room effectively adds a season to the house. With a roof, a windbreak, and an outdoor heat source, a terrace becomes usable from March to November rather than June to August. In hotter regions, deep verandas and shaded courtyards cool incoming air before it reaches the interior, reducing mechanical cooling loads.</p>
+<p>In temperate climates like Britain's or the Pacific Northwest's, a covered outdoor room effectively adds a season to the house. With a roof, a windbreak, and an outdoor heat source, a terrace becomes usable from March to November rather than June to August. In hotter regions, deep verandas and <a href="/articles/small-courtyard-design-light-privacy-cooling/">shaded courtyards</a> cool incoming air before it reaches the interior, reducing mechanical cooling loads.</p>
 <p>Detail this zone as carefully as any interior room. Specify the same quality of flooring, lighting, and furniture outdoors as in, choose planting for year-round structure rather than summer colour alone, and ensure the threshold is visible from the main living spaces so it is used, not forgotten. A villa's most memorable moments almost always happen at its edge.</p>
 
 <h2>4. Let Materials Tell the Truth</h2>
-<p>Contemporary villa design has largely abandoned applied decoration, and rightly so. But the absence of ornament places greater responsibility on materials themselves. Stone should read as stone, timber as timber, concrete as concrete. When a material is honest about what it is, the building gains a quiet authority that no amount of styling can replicate.</p>
+<p>Contemporary villa design has largely abandoned applied decoration, and rightly so. But the absence of ornament places greater responsibility on materials themselves. Stone should read as stone, timber as timber, concrete as concrete — the ethic <a href="/articles/brutalist-architecture-history-features-buildings/">brutalist architecture</a> once pushed to monumental scale. When a material is honest about what it is, the building gains a quiet authority that no amount of styling can replicate.</p>
 <p>This principle has practical consequences. Choose a limited palette — three or four primary materials — and use each one consistently across the project. Let a travertine wall run from exterior to interior so the boundary dissolves. Allow board-marked concrete to show its making. Specify timber that will silver gracefully rather than demanding annual maintenance. Every material decision is also a maintenance decision, and the most sustainable building is the one that ages well without constant intervention.</p>
 <p>Honesty also extends to junctions. Where two materials meet, the detail should express the meeting rather than hiding it with trim. A shadow gap between wall and ceiling, a recessed skirting, a cleanly expressed steel connection — these small decisions signal the difference between a building that was designed and one that was merely assembled.</p>
 
@@ -44,7 +53,7 @@ const modernVillaReimagined = {
 
 <h2>6. Make Energy Performance Visible, Not Hidden</h2>
 <p>High-performance envelopes, heat pumps, and solar arrays are now standard in quality villa construction across Europe and increasingly in North America. The design opportunity that remains underexploited is making this performance legible — to the occupants, who will operate the building better when they understand it, and to visitors, for whom visible sustainability has become a marker of quality.</p>
-<p>This does not mean bolting panels onto the roof as an afterthought. It means integrating photovoltaic arrays into the roof geometry from the first sketch, expressing a green roof as a fifth façade, or designing a glazed solar chimney that is both a ventilation device and an architectural feature. When performance systems are designed rather than hidden, they enrich the architecture instead of compromising it.</p>
+<p>This does not mean bolting panels onto the roof as an afterthought. It means integrating <a href="/articles/solar-facades-bipv-decisions/">photovoltaic arrays</a> into the roof geometry from the first sketch, expressing a green roof as a fifth façade, or designing a glazed solar chimney that is both a ventilation device and an architectural feature. When performance systems are designed rather than hidden, they enrich the architecture instead of compromising it.</p>
 <p>Equally important is the feedback loop. A simple, well-designed energy display — showing consumption, generation, and indoor air quality — turns abstract performance into daily awareness. Occupants of homes with visible energy feedback consistently use less energy than those without, and the data helps architects verify that their designs perform as intended.</p>
 
 <h2>7. Curate the Arrival Sequence</h2>
@@ -69,7 +78,43 @@ const modernVillaReimagined = {
 <p>Whether you are an architect refining a scheme or a homeowner about to commission one, the question to keep asking is simple: does every decision serve the way people will actually live here, ten years from now as well as today? Answer that honestly, and the villa designs itself.</p>
 <blockquote>Have a villa project in mind? <a href="https://worldarchjournal.com">Explore our design services</a> or get in touch to discuss how these principles could shape your home.</blockquote>
 
+  
+    <p><strong>See the principles built:</strong> <a href="/projects/the-voids-villa/">The Voids Villa</a> organises a home around courtyards and light, <a href="/projects/narbon-villa/">Narbon Villa</a> grows from an inherited orchard, and <a href="/projects/villa-safadasht/">Villa Safadasht</a> suspends its private rooms above a garden passage — each with plans and a project guide. To apply the same principles to your own plot, start with the studio's <a href="/services/">villa design services</a>.</p>
   `,
+  faq: [
+    {
+      question: "What defines a modern villa today?",
+      answer: "A modern villa is no longer defined by size or expensive finishes. It earns its value through intelligent planning, environmental responsiveness and a plan shaped around how people actually live — serving as home, office and retreat at once — rather than through square footage alone."
+    },
+    {
+      question: "Why should daylight be planned before the room layout in a villa?",
+      answer: "Because daylight governs mood, energy consumption, the perception of space and even property value. The article recommends mapping the sun's path for the specific site first, placing living spaces to harvest morning and midday light, and shading south-facing glazing externally with overhangs, brise-soleil or planting. Homes designed around passive solar principles routinely cut artificial lighting demand by a third or more."
+    },
+    {
+      question: "What is a compressed core in villa design?",
+      answer: "A compressed core gathers the service functions — staircase, bathrooms, storage and plant rooms — into one compact central or lateral block, freeing the perimeter for continuous, adaptable living space. It shortens plumbing and duct runs and removes wasted corridors: any hallway longer than about two metres that serves no daylight or storage function is a sign the core has not been compressed enough."
+    },
+    {
+      question: "Which materials work best in a modern villa?",
+      answer: "A limited palette of three or four primary materials, each used honestly and consistently, so stone reads as stone, timber as timber and concrete as concrete. The article suggests letting one material, such as a travertine wall, run from exterior to interior so the boundary dissolves, and choosing finishes that age gracefully — because every material decision is also a maintenance decision."
+    },
+    {
+      question: "How can a villa be designed to adapt as a family's needs change?",
+      answer: "By separating the permanent from the provisional: a robust structural shell with a lightweight, reconfigurable interior. Minimise load-bearing internal walls, consolidate wet services so kitchens and bathrooms can be relocated without structural surgery, and allow generous floor-to-ceiling heights — so a ground-floor study today can become an accessible bedroom tomorrow."
+    },
+    {
+      question: "How can energy performance be made part of a villa's design instead of hidden?",
+      answer: "By designing the systems in from the first sketch rather than bolting them on: photovoltaic arrays integrated into the roof geometry, a green roof treated as a fifth facade, and a simple energy display showing consumption, generation and indoor air quality. Occupants who can see their energy feedback consistently use less energy, and the data lets architects verify the design performs as intended."
+    },
+    {
+      question: "What is the difference between modern and traditional villa design?",
+      answer: "A traditional villa organises rooms symmetrically around formal axes and applies historical ornament. Modern villa design plans from the sun, the section and daily life outward: open, adaptable living space, honest materials and integrated energy systems instead of applied decoration. It also separates a durable structural shell from a reconfigurable interior, so the house can change as the family does."
+    },
+    {
+      question: "What are the must-have outdoor features in a modern villa?",
+      answer: "A designed threshold rather than a leftover garden: a covered terrace, loggia or veranda that extends the living season, planting chosen for year-round structure, and an arrival sequence that moves from street to front door through a private court or garden. In hot climates, shaded courtyards and deep overhangs also cool the air before it reaches the interior."
+    }
+  ],
   published: true,
 };
 

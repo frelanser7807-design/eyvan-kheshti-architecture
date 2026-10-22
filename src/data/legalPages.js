@@ -2,6 +2,7 @@ export const legalPages = {
   '/privacy/': {
     eyebrow: 'LEGAL',
     title: 'Privacy Policy',
+    metaDescription: 'How World Arch Journal handles cookies, contact-form messages, privacy choices and embedded services — and the rights you keep over your data.',
     intro: 'This policy explains the limited information World Arch Journal may receive through this website and how it is handled.',
     sections: [
       ['Information you provide', 'If you submit a project enquiry or newsletter request, we may receive the name, contact detail and message you choose to provide. Do not send payment details, passwords or confidential project records through a public form.'],
@@ -15,6 +16,7 @@ export const legalPages = {
   '/terms/': {
     eyebrow: 'LEGAL',
     title: 'Terms of Use',
+    metaDescription: 'The terms that govern use of the World Arch Journal website, its editorial content, project material and digital resources.',
     intro: 'These terms govern access to the public information and portfolio material on this website.',
     sections: [
       ['Informational use', 'Published articles, city guides and project material are provided for general information and inspiration. They are not a substitute for project-specific architectural, engineering, legal, financial, travel, safety or accessibility advice.'],
@@ -26,6 +28,7 @@ export const legalPages = {
   '/affiliate-disclosure/': {
     eyebrow: 'TRANSPARENCY',
     title: 'Affiliate Disclosure',
+    metaDescription: 'How World Arch Journal labels affiliate links, sponsorships and partner relationships — and how editorial independence is protected.',
     intro: 'No affiliate links are active in the current preview. Future commercial relationships will be labelled clearly.',
     sections: [
       ['How affiliate links may work', 'A future WORLD ARCH ATLAS guide may include a clearly identified link to a third-party hotel, experience, transport or design product. World Arch Journal may receive a commission after a qualifying action without changing the user-facing price.'],
@@ -53,11 +56,11 @@ export const legalPages = {
   },
   '/editorial-team/': {
     eyebrow: 'ABOUT THE PUBLISHER',
-    title: 'About World Arch Journal',
+    title: 'Publisher & Editorial Team',
     portrait: { src: '/assets/brand/world-arch-wa-mark-v1.png', alt: 'World Arch Journal logo', caption: 'World Arch Journal · Architecture & Design', width: 1280, height: 1280 },
     lastUpdated: '2026-10-18',
     metaDescription: 'Discover World Arch Journal: practical architecture guides, villa and facade design, interiors, landscape concepts, visualisation and BIM.',
-    intro: 'World Arch Journal is an independent architecture publication and design platform exploring residential architecture, interiors, landscape, materials and building science. We connect practical design knowledge with architectural and interior design services.',
+    intro: 'About World Arch Journal: an independent architecture publication and design platform exploring residential architecture, interiors, landscape, materials and building science. We connect practical design knowledge with architectural and interior design services.',
     sections: [
       ['Architecture for everyday decisions', 'We publish practical, research-backed guides to residential architecture, connecting design ideas with building science, material choices and everyday use. Our readers are homeowners, builders and fellow architects who want to understand how better buildings are designed.'],
       ['What we cover', [

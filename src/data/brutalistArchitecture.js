@@ -11,11 +11,15 @@ const brutalistArchitecture = {
   image: '/assets/articles/brutalist-architecture/barbican-estate.jpg',
   imageWidth: 1920,
   imageHeight: 1440,
+  cover: '/assets/articles/brutalist-architecture-history-features-buildings/cover.webp',
+  coverAlt: 'World Arch Journal cover: Brutalism, Ugly or Unforgettable? 7 buildings that challenge how we see architecture — a monumental concrete brutalist building',
+  coverWidth: 800,
+  coverHeight: 1200,
   imageAlt: 'Frobisher Crescent and planted public space at the Barbican Estate in London',
   visualLabel: 'FIG. 01 · BARBICAN ESTATE, LONDON · PHOTO: JULIAN HERZOG / WIKIMEDIA COMMONS, CC BY 4.0 · RESIZED.',
   imageSourceUrl: 'https://commons.wikimedia.org/wiki/File:Barbican_Estate_Frobisher_Crescent_City_of_London_2026_06.jpg',
   publishedAt: '2026-10-05',
-  modifiedAt: '2026-10-05',
+  modifiedAt: '2026-10-22',
   toc: [
     ['definition', 'What Brutalism actually means'],
     ['how-to-read', 'How to read a Brutalist building'],
@@ -75,13 +79,15 @@ const brutalistArchitecture = {
     <h2 id="sesc">7. SESC Pompéia, São Paulo: Brutalism through reuse</h2>
     <p>Lina Bo Bardi began SESC Pompéia in 1977 and the complex developed over the following decade. The Instituto Bardi records how an existing factory was retained and adapted for theatre, library, studios, dining and shared activity, while new exposed-concrete towers housed sports, circulation and water storage.</p>
     <p>This is Brutalism without tabula rasa. Existing industrial sheds hold informal communal life; new towers are deliberately rough and unmistakably contemporary; aerial bridges cross the gap between them. The architecture distinguishes old from new while allowing both to serve one social institution.</p>
-    <p>SESC Pompéia broadens the movement’s legacy. Material directness can support reuse rather than demolition. Monumentality can frame play rather than authority. The most important “finish” is the evidence of people using the building. Its relevance today lies as much in adaptive reuse and social programme as in expressive concrete.</p>
+    <p>SESC Pompéia broadens the movement’s legacy. Material directness can support reuse rather than demolition. Monumentality can frame play rather than authority. The most important “finish” is the evidence of people using the building. Its relevance today lies as much in <a href="/articles/adaptive-reuse-architecture-preserve-value/">adaptive reuse strategies</a> and social programme as in expressive concrete.</p>
 
     <h2 id="legacy">Preservation, carbon and a contested legacy</h2>
     <p>Brutalist buildings are difficult conservation cases. Their concrete may be integral to structure, weather protection and appearance at once. Repairs that ignore aggregate, colour, formwork texture or moisture can create a patchwork that accelerates future problems. Energy upgrades can improve comfort while damaging proportions or trapping moisture if treated as a generic overcladding exercise.</p>
     <p>Demolition also carries environmental and cultural costs. Retaining a large concrete frame may preserve substantial embodied energy, but carbon alone does not settle the decision. A credible assessment must examine structural condition, hazardous materials, accessibility, operational performance, adaptability and the value communities attach to the place.</p>
     <p>The seven examples resist one conclusion. Unité turns section into collective housing; the Barbican builds a landscape; Boston City Hall gives government a legible form; Habitat makes modularity spatial; Geisel makes structure emblematic; the National Theatre turns circulation into public stage; SESC Pompéia joins rough new construction to careful reuse.</p>
     <p>Brutalism is therefore best understood as a set of architectural commitments, not a preset. Read how the building is made, how people move, who the institution serves and whether care has kept the public promise alive. Only then decide what the concrete means.</p>
+  
+    <p><strong>Continue exploring:</strong> Brutalism begins with concrete, so compare the real thing in the library's <a href="/materials/category/concrete/concrete-finishes/">concrete finishes</a> collection, and read our <a href="/newsletter/architecture-briefing-2026-10-21/">21 October briefing</a> on the heritage fights now deciding which modern landmarks survive. For the wider archive this guide belongs to — timelines, side-by-side style comparisons and the materials behind each movement — browse the <a href="/magazine/architectural-history-styles/">Architectural History &amp; Styles hub</a>. The generation before the concrete giants — all chrome, glamour and machine-age optimism — is covered in our <a href="/articles/art-deco-architecture-history-features-buildings/">Art Deco architecture</a> guide.</p>
   `,
   facts: [
     ['FORMAT', 'International architectural history guide'],
@@ -106,6 +112,7 @@ const brutalistArchitecture = {
     { question: 'When was Brutalism most influential?', answer: 'Its major international period ran broadly from the 1950s through the 1970s, although important related work continued later and many buildings are now being adapted.' },
     { question: 'Why do people dislike Brutalist buildings?', answer: 'Monumental scale, weathered surfaces, difficult entrances, urban-renewal histories and poor maintenance can create real problems. Taste cannot be separated from access, use and stewardship.' },
     { question: 'Should Brutalist buildings always be preserved?', answer: 'Not automatically. Decisions should consider cultural value, community use, structural condition, carbon, accessibility, adaptability and the feasibility of responsible repair.' },
+    { question: 'What are the main characteristics of Brutalist architecture?', answer: 'Béton brut — raw, board-formed concrete — left exposed; large monolithic volumes assembled from repetitive modular bays; deep window reveals and strong shadow; sculptural, sometimes fortress-like forms; and a civic ambition: housing, universities and cultural buildings designed as social monuments. Not every concrete building qualifies — the material honesty and the social programme are part of the definition.' },
   ],
   evidence: [
     { publisher: 'Barbican Centre', source_url: 'https://www.barbican.org.uk/our-story/architecture/our-building', claim: 'Documents the Barbican’s designers, city-within-a-city concept, residential scale and Grade II listing.', limitations: 'Institutional history; conservation decisions require current statutory and technical evidence.' },

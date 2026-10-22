@@ -10,7 +10,7 @@ await bundle.close();
 
 await writeFile(path.join(dist, '_routes.json'), JSON.stringify({
   version: 1,
-  include: ['/api/newsletter/*'],
+  include: ['/*'],
   exclude: [],
 }));
 

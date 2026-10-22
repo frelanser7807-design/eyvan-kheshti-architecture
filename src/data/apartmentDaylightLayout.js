@@ -11,10 +11,14 @@ const apartmentDaylightLayout = {
   image: '/assets/articles/apartment-daylight-layout/hero-daylight-section.png',
   imageWidth: 1600,
   imageHeight: 900,
+  cover: '/assets/articles/apartment-daylight-layout-design/cover.webp',
+  coverAlt: 'World Arch Journal cover: Apartment Daylight Layout Design, brighter homes for a healthier, happier life — a sunlit open-plan apartment with floor-to-ceiling windows and a daylight floor-plan diagram',
+  coverWidth: 800,
+  coverHeight: 1200,
   imageAlt: 'Original apartment section diagram showing useful daylight, glare and room depth',
   visualLabel: 'FIG. 01 · DAYLIGHT IS SHAPED BY SECTION, DEPTH AND OBSTRUCTION—not GLASS AREA ALONE · ORIGINAL WORLD ARCH JOURNAL DIAGRAM, 2026.',
   publishedAt: '2026-10-09',
-  modifiedAt: '2026-10-09',
+  modifiedAt: '2026-10-22',
   toc: [
     ['problem', 'Why bigger windows are not the first answer'],
     ['moves', 'Eight layout decisions'],
@@ -27,7 +31,7 @@ const apartmentDaylightLayout = {
     <p>This guide sets out eight decisions to make before simply increasing glazing. It does not assign a universal daylight target. Standards, planning policy and assessment methods vary, and climate changes the balance between light, heat and glare. The goal is a traceable design process that can later be verified with the method required for the project.</p>
 
     <h2 id="problem">Why bigger windows are not the first answer</h2>
-    <p>Useful daylight depends on sky visibility, orientation, external obstruction, balcony depth, window geometry, room depth and surface reflectance. The European standard EN 17037 structures assessment around daylight provision, view out, sunlight exposure and glare. That is valuable because it prevents one number from standing in for the full experience, but its application and national annexes must be checked in the relevant jurisdiction.</p>
+    <p>Useful daylight depends on sky visibility, orientation, external obstruction, balcony depth, window geometry, room depth and surface reflectance. The European standard EN 17037 structures assessment around daylight provision, view out, sunlight exposure and glare. That is valuable because it prevents one number from standing in for the full experience, but its application and national annexes must be checked in the relevant jurisdiction. View out, in particular, is where daylight planning meets the territory of <a href="/articles/biophilic-design-architecture-wellbeing/">biophilic design architects</a>: a planned connection to sky, weather and season.</p>
     <p>Window area also affects heat loss, solar gain, privacy, acoustics and façade cost. The right question is not “How much glass can we add?” but “Where is light needed, what blocks it, how will it be controlled, and what else changes when the opening changes?” Our <a href="/articles/low-e-triple-glazing-smart-glass-guide/">high-performance glazing guide</a> examines that envelope trade-off in more detail.</p>
 
     <h2 id="moves">Eight layout decisions before bigger windows</h2>
@@ -55,7 +59,7 @@ const apartmentDaylightLayout = {
 
     <h2 id="cluster">Daylight, ventilation, privacy and acoustics form one cluster</h2>
     <p>Moving a bedroom to the façade may improve daylight and natural ventilation while exposing it to street noise. Opening an internal glazed partition may share light while weakening privacy. Adding a deep balcony may reduce overheating while darkening the room. These are not failures; they are trade-offs that must be evaluated together.</p>
-    <p>Continue with <a href="/articles/cross-ventilation-apartment-design/">Cross Ventilation in Apartments</a> to map the complete air path, and use the <a href="/articles/apartment-acoustic-design/">apartment acoustic design guide</a> before adding transfer openings or placing quiet rooms on a noisy edge. For a broader compact-home strategy, the <a href="/articles/small-courtyard-design-guide/">small courtyard guide</a> shows how section, enclosure and privacy influence environmental quality.</p>
+    <p>Continue with <a href="/articles/cross-ventilation-apartment-design/">Cross Ventilation in Apartments</a> to map the complete air path, and use the <a href="/articles/apartment-acoustic-design/">apartment acoustic design guide</a> before adding transfer openings or placing quiet rooms on a noisy edge. For a broader compact-home strategy, the <a href="/articles/small-courtyard-design-light-privacy-cooling/">small courtyard guide</a> shows how section, enclosure and privacy influence environmental quality.</p>
     <p>A strong concept sheet should therefore overlay at least four maps: useful daylight, direct sun and glare risk, potential air paths, and noise/privacy exposure. The overlay reveals where one environmental improvement creates a new problem. Resolve the conflict in plan and section before relying on products.</p>
 
     <h2 id="audit">A daylight-first apartment plan audit</h2>
@@ -70,6 +74,8 @@ const apartmentDaylightLayout = {
       <li><strong>Verify locally</strong> against current planning, building, energy and housing requirements.</li>
     </ol>
     <p>Better daylight rarely comes from one dramatic gesture. It comes from assigning the façade carefully, limiting unnecessary depth, drawing obstructions honestly and giving occupants control. Once those decisions are visible, window size becomes one calibrated variable rather than the whole design strategy.</p>
+  
+    <p><strong>Continue exploring:</strong> daylight deep in a plan is also the organising idea of <a href="/projects/the-voids-villa/">The Voids Villa</a>, where connected courtyards pull light into the middle of the house; its project file includes the full drawing set.</p>
   `,
   facts: [
     ['FORMAT', 'International apartment-performance guide'],
@@ -91,6 +97,8 @@ const apartmentDaylightLayout = {
     { question: 'Can a bedroom rely on borrowed light?', answer: 'Borrowed light may improve brightness, but it does not automatically satisfy requirements for daylight, outlook, ventilation, privacy or fire safety. Check the current local rules.' },
     { question: 'What should be modelled in a daylight study?', answer: 'Include the actual site, neighbouring obstructions, balconies, frames, reveals, glazing properties, shading and realistic surface reflectance, then state the metric and assumptions.' },
     { question: 'How can a small apartment share daylight?', answer: 'Protect the main window zone, keep tall storage away from it, simplify circulation and use controlled translucent or glazed internal layers where privacy and acoustics allow.' },
+    { question: 'How does room depth affect daylight in an apartment?', answer: 'Useful daylight falls quickly with distance from the window — the deeper the room, the more its far zone depends on borrowed light, pale surfaces and an unobstructed section. That is why this guide puts the longest daily activity nearest the glass and treats depth, not window size, as the first layout decision.' },
+    { question: 'Can shading improve daylight rather than reduce it?', answer: 'Yes, when the problem is glare rather than quantity. External shade, deep reveals and adjustable blinds cut the contrast that forces occupants to close everything, so the shutter stays open for more hours and the room receives steadier, more useful light.' },
   ],
   evidence: [
     { publisher: 'European standard EN 17037', source_url: 'https://www.evs.ee/en/evs-en-17037-2019-a1-2021-consolidated', claim: 'Structures daylight assessment around daylight provision, view out, sunlight exposure and glare.', limitations: 'Standard access and national application vary; it does not validate any diagram or prescribe a universal apartment solution.' },

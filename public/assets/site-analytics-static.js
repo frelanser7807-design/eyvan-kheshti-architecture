@@ -42,7 +42,10 @@
       ad_personalization: 'denied',
       wait_for_update: 500,
     });
-    updateConsent('granted');
+    // Advanced consent mode: load for every visitor with storage denied by
+    // default (cookieless pings only, no analytics cookies) until consent is
+    // granted. A stored 'granted' choice is re-applied before the page view.
+    if (localStorage.getItem(consentKey) === 'granted') updateConsent('granted');
     window.gtag('config', measurementId, {
       anonymize_ip: true,
       allow_google_signals: false,
@@ -140,6 +143,7 @@
     localStorage.setItem(consentKey, value);
     if (value === 'granted') {
       loadAnalytics();
+      updateConsent('granted');
       loadClarity();
     } else {
       updateConsent('denied');
@@ -150,8 +154,8 @@
 
   addStyles();
   const choice = localStorage.getItem(consentKey);
+  loadAnalytics();
   if (choice === 'granted') {
-    loadAnalytics();
     loadClarity();
     showTrigger();
   } else if (choice === 'denied') {

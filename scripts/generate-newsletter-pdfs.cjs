@@ -19,7 +19,7 @@ async function targetFor(urlPath) {
 }
 
 (async () => {
-  const { newsletterIssues } = await import('../src/data/newsletters.js');
+  const { newsletterIssues, editorialArticles, editorialPath } = await import('../src/data/newsletters.js');
   await fs.mkdir(publicOutput, { recursive: true });
   await fs.mkdir(distOutput, { recursive: true });
   const server = http.createServer(async (request, response) => {
@@ -47,6 +47,21 @@ async function targetFor(urlPath) {
       const tempPath = path.join(distOutput, filename);
       await page.pdf({ path: tempPath, format: 'A4', printBackground: true, displayHeaderFooter: true, margin: { top: '18mm', right: '14mm', bottom: '20mm', left: '14mm' }, headerTemplate: '<div style="width:100%;font:8px Arial;color:#7b6a50;padding:0 14mm;letter-spacing:.12em">WORLD ARCH JOURNAL · THE WORLD ARCH BRIEFING</div>', footerTemplate: '<div style="width:100%;display:flex;justify-content:space-between;font:8px Arial;color:#777;padding:0 14mm"><span>worldarchjournal.com</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>' });
       await fs.copyFile(tempPath, path.join(publicOutput, filename));
+    }
+    for (const issue of editorialArticles) {
+      try {
+        const url = `http://127.0.0.1:${port}${editorialPath(issue)}`;
+        await page.goto(url, { waitUntil: 'networkidle' });
+        await page.locator('.wj-newsletter-page article').waitFor();
+        await page.addStyleTag({ content: `@page{size:A4;margin:16mm 14mm 18mm}html,body,.wj-newsletter-page{background:#f2eee6!important}.skip-link,.wj-newsletter-nav,.wj-newsletter-footer,.wj-newsletter-signup,.wa-consent,.wa-privacy-trigger,.wj-newsletter-byline a[download]{display:none!important}.wj-newsletter-main{width:100%!important;padding:0!important}.wj-newsletter-back{display:none!important}.wj-newsletter-kicker{margin-top:0!important}.wj-newsletter-page h1{font-size:42px!important}.wj-newsletter-page figure,.wj-newsletter-copy section,.wj-newsletter-copy aside{break-inside:avoid}.wj-newsletter-page figure img{max-height:155mm!important}.wj-newsletter-copy{width:100%!important}.wj-newsletter-copy p,.wj-newsletter-copy li{font-size:10.5pt!important;line-height:1.62!important}a{color:inherit!important}.wj-newsletter-report{border-top:1px solid #bbb;padding-top:12px}` });
+        const filename = `${issue.slug}.pdf`;
+        const tempPath = path.join(distOutput, filename);
+        await page.pdf({ path: tempPath, format: 'A4', printBackground: true, displayHeaderFooter: true, margin: { top: '18mm', right: '14mm', bottom: '20mm', left: '14mm' }, headerTemplate: '<div style="width:100%;font:8px Arial;color:#7b6a50;padding:0 14mm;letter-spacing:.12em">WORLD ARCH JOURNAL · THE WORLD ARCH BRIEFING</div>', footerTemplate: '<div style="width:100%;display:flex;justify-content:space-between;font:8px Arial;color:#777;padding:0 14mm"><span>worldarchjournal.com</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>' });
+        await fs.copyFile(tempPath, path.join(publicOutput, filename));
+        console.log(`Generated editorial PDF: ${filename}`);
+      } catch (error) {
+        console.warn(`WARNING: editorial PDF generation failed for ${issue.slug} (non-fatal):`, error && error.message ? error.message : error);
+      }
     }
     console.log(`Generated ${newsletterIssues.length} downloadable newsletter PDF(s).`);
   } finally {

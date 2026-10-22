@@ -1,5 +1,9 @@
+import frankLloydWrightGuide from './frankLloydWrightGuide.js';
+import accessoryDwellingUnitsGuide from './accessoryDwellingUnitsGuide.js';
 import balconyThermalBridges from './balconyThermalBridges.js';
 import designForDisassembly from './designForDisassembly.js';
+import dataCentresGoodArchitecture from './dataCentresGoodArchitecture.js';
+import solarFacadesBipvDecisions from './solarFacadesBipvDecisions.js';
 import pilotPackage from '../../agent-system/examples/pilot-article-package.json' with { type: 'json' };
 import climateResponsiveFacades from './climateResponsiveFacades.js';
 import adaptiveReuseArchitecture from './adaptiveReuseArchitecture.js';
@@ -13,6 +17,7 @@ import passiveHouseVsNetZero from './passiveHouseVsNetZero.js';
 import urbanHeatStreets from './urbanHeatStreets.js';
 import aiArchitecture2026 from './aiArchitecture2026.js';
 import brutalistArchitecture from './brutalistArchitecture.js';
+import artDecoArchitecture from './artDecoArchitecture.js';
 import highPerformanceGlazing from './highPerformanceGlazing.js';
 import universalDesignHomes from './universalDesignHomes.js';
 import lowCarbonConcreteEpd from './lowCarbonConcreteEpd.js';
@@ -33,16 +38,21 @@ const courtyardWindHouse = {
   publishedAt: '2026-09-16',
   title: 'The House After the Grid: Five Passive-Cooling Moves',
   seoTitle: 'Passive Cooling Architecture: 5 Courtyard Design Moves',
-  metaDescription: 'Explore five passive-cooling design moves using shade, courtyards, thermal mass, ventilation and adaptive operation in a hot-dry house study.',
+  metaDescription: 'Passive cooling design in practice: five moves — shade, a windcatcher, courtyards, thermal mass and night ventilation — in a hot-dry courtyard house study.',
   category: 'Climate & Resilient Architecture',
   meta: '12 MIN READ · 5 ORIGINAL VISUALS',
   status: 'WORLD ARCH JOURNAL CONCEPT STUDY · ISSUE 00',
   excerpt: 'Courtyard Wind House is an original, unbuilt design study asking a direct question: when mechanical cooling pauses, which architectural decisions can still slow heat, move air and preserve a more habitable interior?',
   image: '/assets/editorial/issue-00/courtyard-wind-house-cover.jpg',
   imageAlt: 'Exterior concept view of Courtyard Wind House with a shaded colonnade, water court and wind-catcher',
+  cover: '/assets/articles/courtyard-wind-house-passive-cooling/cover.webp',
+  coverAlt: 'World Arch Journal cover: Courtyard Wind House, Passive Cooling — a courtyard house with a wind-catcher tower, shaded colonnades and a central water court with airflow arrows',
+  coverWidth: 800,
+  coverHeight: 1200,
   visualLabel: 'FIG. 01 · ORIGINAL CONCEPT VISUALISATION · WORLD ARCH JOURNAL, 2026',
   contentHtml: `
     <p>Cooling is often treated as equipment added after the architecture has been decided. Courtyard Wind House begins from the opposite direction. It is a fictional, unbuilt study for a hot-dry climate in which shade, wall depth, air paths and the sequence from room to courtyard are treated as the first cooling system. Mechanical systems may still be necessary, but they are no longer asked to correct every spatial decision.</p>
+    <p><strong>Passive cooling</strong> means keeping a building comfortable by design rather than by machinery: shade that stops heat before it enters, walls with enough mass to slow it, a courtyard that shades and breathes, and openings arranged so air can complete a route through the plan. The five moves below show how one unbuilt house study assembles those principles — and what would still need testing before anyone could claim they work.</p>
     <p>The question is timely. The International Energy Agency identifies passive design, behaviour and more efficient equipment as essential to moderating the growth of cooling demand. Recent research also examines “passive survivability”: how long a building can remain tolerable when extreme heat and a power outage overlap. This article does not claim that the concept shown here has been simulated or certified. Instead, it turns established principles into an architectural test bed and states clearly what would still need to be verified.</p>
 
     <h2>A concept study, not a performance claim</h2>
@@ -50,16 +60,16 @@ const courtyardWindHouse = {
     <p>These are design hypotheses, not guaranteed outcomes. The <a href="https://www.energy.gov/sites/prod/files/guide_to_passive_solar_home_design.pdf">U.S. Department of Energy’s passive-solar design guide</a> emphasises that orientation, room arrangement, glazing, thermal mass and landscape must respond to climate. That dependence matters: a strategy useful in a dry climate with a large day-night temperature swing may be ineffective or unsafe in a hot-humid location. The final building would require a real site, weather data, envelope specifications, occupancy assumptions, code review and dynamic thermal analysis.</p>
 
     <h2>01 — Delay the heat before trying to remove it</h2>
-    <p>The first move is sectional. Roofs extend beyond the glass line; the veranda becomes a deep inhabitable buffer rather than a decorative strip. Screens form a second line of defence, catching direct sun before it reaches the inner façade. Openings are recessed so the wall itself becomes a shading device. Each layer reduces the amount of solar radiation that the interior must later absorb or reject.</p>
+    <p>The first move is sectional. Roofs extend beyond the glass line; the veranda becomes a deep inhabitable buffer rather than a decorative strip. Screens form a second line of defence, catching direct sun before it reaches the inner façade. It is the layered logic of a <a href="/articles/climate-responsive-facades-cooling-design/">climate responsive facade</a>, assembled from section and shade rather than machinery. Openings are recessed so the wall itself becomes a shading device. Each layer reduces the amount of solar radiation that the interior must later absorb or reject.</p>
     <p>Thermal mass is used with equal caution. Heavy walls can moderate short temperature swings because heat moves through them over time, but mass does not make heat disappear. The Department of Energy’s guidance on <a href="https://www.energy.gov/cmei/buildings/zeb-technologies-passive-design-techniques">passive design techniques</a> notes that mass is most useful when exterior cycles and interior conditions allow stored heat to be balanced or released. In this concept, the walls are therefore paired with night ventilation and external shading. Without cool enough nights, controlled air change or an appropriate envelope build-up, mass can retain unwanted heat.</p>
 
     <h2>02 — Give air a complete route through the plan</h2>
-    <p>A window is not a ventilation strategy by itself. Air needs an inlet, a path through occupied space and an outlet. Courtyard Wind House uses the central court as a shared pressure and shade zone: rooms can open toward it while selected openings connect to the outer edge. The plan keeps most occupied spaces relatively shallow, avoiding deep rooms that depend on a single façade.</p>
+    <p>A window is not a ventilation strategy by itself. Air needs an inlet, a path through occupied space and an outlet. Courtyard Wind House uses the central court as a shared pressure and shade zone: rooms can open toward it while selected openings connect to the outer edge. The plan keeps most occupied spaces relatively shallow, avoiding deep rooms that depend on a single façade. The same complete-route logic governs <a href="/articles/cross-ventilation-apartment-design/">cross ventilation in apartments</a>, where the path matters more than the window count.</p>
     <p>The <a href="https://www.wbdg.org/resources/natural-ventilation">Whole Building Design Guide</a> describes natural ventilation as a pressure-driven circuit and stresses the placement of both supply and exhaust openings. It also warns that climate, humidity, smoke, outdoor air quality, security and fire separation can limit when windows or high-level exhaust paths should operate. The wind-catcher in the drawings is therefore a spatial proposition, not a universal device. Its geometry, intake direction, acoustic behaviour, weather protection and fire strategy would all need project-specific engineering.</p>
 
     <h2>03 — Let the courtyard work as climatic space</h2>
     <p>The court is deliberately narrow enough to receive moving shade from the surrounding walls and screens. Trees are positioned as spatial anchors rather than a decorative perimeter. A linear water element is included as a visual and microclimatic study, but the design does not assume that evaporation is free: water availability, maintenance, humidity and local regulation would decide whether it is responsible or useful.</p>
-    <p>More importantly, the courtyard gives every major room a second orientation and creates a sequence of thermal choices. On a mild morning, doors may open fully. At the hottest time, screens and deep reveals protect the inner edge. At night, selected openings could support a purge cycle if outdoor conditions are cooler and safe. Architecture becomes adjustable through ordinary elements—doors, shutters, curtains and thresholds—rather than through a single spectacular gesture.</p>
+    <p>More importantly, the courtyard gives every major room a second orientation and creates a sequence of thermal choices. On a mild morning, doors may open fully. At the hottest time, screens and deep reveals protect the inner edge. At night, selected openings could support a purge cycle if outdoor conditions are cooler and safe. Architecture becomes adjustable through ordinary elements—doors, shutters, curtains and thresholds—rather than through a single spectacular gesture. For the plan-level decisions behind a court like this, see our <a href="/articles/small-courtyard-design-light-privacy-cooling/">courtyard house design</a> guide.</p>
 
     <h2>04 — Design for the night as carefully as the photograph</h2>
     <p>Many passive-cooling images celebrate bright daylight, yet the critical reset may happen after sunset. In climates with a meaningful diurnal swing, night ventilation can release heat accumulated in the building fabric. The section therefore connects low openings, shaded circulation and the proposed high exhaust tower. Bedrooms face small planted courts so that privacy and air movement can be studied together.</p>
@@ -80,6 +90,8 @@ const courtyardWindHouse = {
     <h2>The house after the grid</h2>
     <p>Passive design should not be romanticised as a substitute for engineering, public infrastructure or safe mechanical cooling. Its value is that it gives architecture useful work to do before power is consumed and after a system is interrupted. Shade becomes a room. Air movement becomes a plan. Material thickness becomes time. The courtyard becomes an environmental choice rather than an image.</p>
     <p>Courtyard Wind House is therefore less a finished answer than a disciplined beginning. It shows how a project can be published attractively while keeping the line between visual possibility and verified performance visible. That line is central to this magazine: inspire first, document carefully, and never allow the confidence of the page to exceed the strength of the evidence.</p>
+  
+    <p><strong>Continue exploring:</strong> the courtyard as climatic device is documented at full scale in <a href="/projects/the-voids-villa/">The Voids Villa project file</a>, whose connected courts, brick voids and sunken pool level apply the same five moves — step inside via the <a href="/virtual-tours/the-voids-villa/">360° tour</a>.</p>
   `,
   facts: [
     ['PROJECT', 'Courtyard Wind House'],
@@ -121,6 +133,9 @@ const courtyardWindHouse = {
   ],
   scope: 'Courtyard Wind House is an original, unbuilt editorial concept. The visuals are AI-assisted design studies directed for World Arch Journal. No thermal simulation, construction documentation, certification or site-specific engineering has been completed.',
   faq: [
+    { question: 'What is passive cooling in architecture?', answer: 'Designing a building so it stays comfortable with little or no mechanical cooling: shade that intercepts heat before it reaches glass, thermal mass that slows temperature swings, openings arranged for a complete ventilation route, and elements — courtyards, screens, shutters — that occupants can adjust through the day. Its performance always depends on the local climate.' },
+    { question: 'How does a windcatcher (badgir) cool a house?', answer: 'A windcatcher is a tower that catches air at height, where wind is stronger and cleaner, and delivers it down into the rooms; with leeward openings or a second shaft it can also work in reverse, pulling warm air up and out. In Courtyard Wind House it is drawn as a possible high-level exhaust route — a spatial proposition that would need project-specific engineering.' },
+    { question: 'Can a house stay comfortable without air conditioning in a hot climate?', answer: 'Sometimes, for some hours — and that qualification is the honest answer. In a hot-dry climate with cool nights, shade, mass and night ventilation can carry much of the load; in extreme heat, humidity or an outage, passive measures slow the rise rather than guaranteeing comfort. This study states clearly what would need modelling before any performance claim.' },
     { question: 'Is Courtyard Wind House a built project?', answer: 'No. It is an original unbuilt concept created to demonstrate a climate-aware design and editorial workflow.' },
     { question: 'Do the passive strategies guarantee comfort during an outage?', answer: 'No. Their value depends on climate, duration, envelope performance, occupancy and operation. A real project requires modelling, code review and professional engineering.' },
     { question: 'Are the plans available for construction?', answer: 'No. The drawing is an explanatory concept image, not a measured or coordinated construction document.' },
@@ -167,7 +182,7 @@ const technicalPilot =
     published: false,
   };
 
-export const articles = [balconyThermalBridges, designForDisassembly, birdSafeFacade, inclusiveWayfinding, apartmentCrossVentilation, apartmentDaylightLayout, wildfireResilientHomes, apartmentAcousticDesign, floodResilientHomes, lowCarbonConcreteEpd, smallApartmentLayout, universalDesignHomes, highPerformanceGlazing, aiArchitecture2026, brutalistArchitecture, urbanHeatStreets, rainscreenFacadeDesign, massTimberArchitecture, passiveHouseVsNetZero, bimVsCadArchitects, biophilicDesignArchitecture, smallCourtyardDesign, prefabVsModularHomes, adaptiveReuseArchitecture, climateResponsiveFacades, courtyardWindHouse, technicalPilot, modernVillaReimagined];
+export const articles = [dataCentresGoodArchitecture, solarFacadesBipvDecisions, frankLloydWrightGuide, accessoryDwellingUnitsGuide, balconyThermalBridges, designForDisassembly, birdSafeFacade, inclusiveWayfinding, apartmentCrossVentilation, apartmentDaylightLayout, wildfireResilientHomes, apartmentAcousticDesign, floodResilientHomes, lowCarbonConcreteEpd, smallApartmentLayout, universalDesignHomes, highPerformanceGlazing, aiArchitecture2026, brutalistArchitecture, artDecoArchitecture, urbanHeatStreets, rainscreenFacadeDesign, massTimberArchitecture, passiveHouseVsNetZero, bimVsCadArchitects, biophilicDesignArchitecture, smallCourtyardDesign, prefabVsModularHomes, adaptiveReuseArchitecture, climateResponsiveFacades, courtyardWindHouse, technicalPilot, modernVillaReimagined];
 
 export function articleBySlug(slug) {
   return articles.find((article) => article.slug === slug);

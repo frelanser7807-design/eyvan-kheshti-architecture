@@ -11,10 +11,14 @@ const highPerformanceGlazing = {
   image: '/assets/articles/high-performance-glazing/high-performance-glazing-hero.webp',
   imageWidth: 1536,
   imageHeight: 1024,
+  cover: '/assets/articles/low-e-triple-glazing-smart-glass-guide/cover.webp',
+  coverAlt: 'World Arch Journal cover: Which Glass Keeps Your Home Comfortable All Year? A complete guide to Low-E, triple glazing and smart glass — three glazing units compared on a windowsill',
+  coverWidth: 800,
+  coverHeight: 1200,
   imageAlt: 'Original editorial cutaway comparing low-e insulated glazing, triple glazing and darkened electrochromic smart glass in a contemporary facade',
   visualLabel: 'FIG. 01 · LOW-E, TRIPLE AND ELECTROCHROMIC GLAZING STUDY · ORIGINAL AI-ASSISTED EDITORIAL ILLUSTRATION, WORLD ARCH JOURNAL 2026.',
   publishedAt: '2026-10-06',
-  modifiedAt: '2026-10-06',
+  modifiedAt: '2026-10-22',
   toc: [
     ['quick-answer', 'The quick answer'],
     ['metrics', '1. Read four metrics together'],
@@ -93,6 +97,8 @@ const highPerformanceGlazing = {
       <li><strong>Commission and tune.</strong> Verify sensors, zones, overrides, alarms and the handover plan for any dynamic system.</li>
     </ol>
     <p>The most advanced product is not automatically the most responsible choice. Good glazing design makes the trade-offs visible, gives each number a purpose and carries the logic from early simulation to the final perimeter seal.</p>
+  
+    <p><strong>Continue exploring:</strong> glazing performance is visible in built work: <a href="/projects/villa-safadasht/">Villa Safadasht</a> wraps its public wing in floor-to-ceiling glass behind a deep protective passage, and its project file shows how the section manages the sun that the glass admits. One more duty the same panes owe the city is covered in our guide to <a href="/articles/bird-safe-facade-design/">bird-safe facade design</a>. When the glass itself is asked to generate power, the same decisions return as <a href="/articles/solar-facades-bipv-decisions/">solar facade (BIPV)</a> choices.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international design explainer'],
@@ -117,6 +123,8 @@ const highPerformanceGlazing = {
     { question: 'Does low-e glass make a room dark?', answer: 'Not necessarily. Low-e coatings are available with different solar and visible-light properties. Compare visible transmittance, colour and glare alongside U-factor and SHGC.' },
     { question: 'Can smart glass replace exterior shading?', answer: 'Sometimes it can reduce reliance on blinds or fixed shading, but the answer depends on orientation, darkest state, controls, glare, privacy and the building brief. Model and mock up the complete strategy.' },
     { question: 'Which window number matters most?', answer: 'There is no single universal winner. Read whole-product U-factor, SHGC, visible transmittance and air leakage together, then test them against climate, orientation and use.' },
+    { question: 'What is low-E glass?', answer: 'Low-emissivity glass carries a microscopically thin metallic coating that reflects long-wave heat radiation while admitting daylight. Placed on the right surface of an insulated unit, it keeps winter heat in or summer heat out — which is why the coating position, not just its presence, belongs in the specification.' },
+    { question: 'What is the difference between low-E and triple glazing?', answer: 'They solve different problems and are often combined. Low-E is a coating on one pane; triple glazing adds a third pane and a second cavity, improving insulation and inner-surface comfort. A low-E double unit can outperform an uncoated triple unit on solar control while losing on U-factor — compare whole-window values, not ingredient lists.' },
   ],
   evidence: [
     { publisher: 'U.S. Department of Energy', source_url: 'https://www.energy.gov/energysaver/window-types-and-technologies', claim: 'Explains insulated glazing, low-emissivity coatings, spectrally selective glass, gas fills and spacers.', limitations: 'General U.S. consumer guidance; it does not prescribe a project-specific glazing build-up.' },

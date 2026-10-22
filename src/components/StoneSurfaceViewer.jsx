@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import './MaterialSurfaceViewer.css';
 
-const ROOT='/assets/material-studio/travertine/';
-export default function StoneSurfaceViewer({finish}) {
+export default function StoneSurfaceViewer({finish,root='/assets/material-studio/travertine/',filePrefix='waj-travertine',sceneNoun='facade',mapUrls=null,note=null}) {
+  const ROOT=root;
   const host=useRef(null), engine=useRef(null);
   const [angle,setAngle]=useState(-45),[power,setPower]=useState(3),[shape,setShape]=useState('sphere');
   const [ready,setReady]=useState(false),[error,setError]=useState(''),[saving,setSaving]=useState(false);
@@ -31,7 +31,7 @@ export default function StoneSurfaceViewer({finish}) {
   useEffect(()=>{
     const e=engine.current;if(!e)return;let cancelled=false;setReady(false);setError('');
     const loader=new THREE.TextureLoader(),loaded=[];
-    Promise.all([`${ROOT}${finish.id}/basecolor-4k.png`,`${ROOT}shared/normal-opengl-4k.png`,`${ROOT}shared/roughness-4k.png`].map(url=>loader.loadAsync(url).then(t=>{loaded.push(t);return t;}))).then(([color,normal,roughness])=>{
+    Promise.all((mapUrls||[`${ROOT}${finish.id}/basecolor-4k.png`,`${ROOT}shared/normal-opengl-4k.png`,`${ROOT}shared/roughness-4k.png`]).map(url=>loader.loadAsync(url).then(t=>{loaded.push(t);return t;}))).then(([color,normal,roughness])=>{
       if(cancelled){loaded.forEach(t=>t.dispose());return;}
       color.colorSpace=THREE.SRGBColorSpace;
       for(const texture of loaded){texture.wrapS=texture.wrapT=THREE.RepeatWrapping;texture.anisotropy=Math.min(8,e.renderer.capabilities.getMaxAnisotropy());}
@@ -45,18 +45,18 @@ export default function StoneSurfaceViewer({finish}) {
     const e=engine.current;if(!e||!ready||saving)return;setSaving(true);
     try{
       const previousRatio=e.renderer.getPixelRatio();e.renderer.setPixelRatio(1);e.renderer.setSize(4096,4096,false);e.draw();
-      e.renderer.domElement.toBlob(blob=>{if(blob){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`waj-travertine-${finish.id}-${shape}-4k.png`;a.click();setTimeout(()=>URL.revokeObjectURL(url),30000);}else setError('The preview export failed. Please try again.');setSaving(false);},'image/png');
+      e.renderer.domElement.toBlob(blob=>{if(blob){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`${filePrefix}-${finish.id}-${shape}-4k.png`;a.click();setTimeout(()=>URL.revokeObjectURL(url),30000);}else setError('The preview export failed. Please try again.');setSaving(false);},'image/png');
       e.renderer.setPixelRatio(previousRatio);e.resize();
     }catch{setSaving(false);setError('This device could not export a 4K preview. Material map downloads are still available.');e.resize();}
   };
   return <section className="fp-viewer" aria-label="Interactive material and lighting">
     <div className="fp-viewer-top"><span>LIVE MATERIAL STUDY</span><div role="group" aria-label="Preview shape">{['sphere','panel'].map(s=><button type="button" key={s} aria-pressed={shape===s} onClick={()=>setShape(s)}>{s==='sphere'?'Sphere':'Panel'}</button>)}</div></div>
-    <div className="fp-webgl" ref={host} role="img" aria-label={`${finish.name} ${shape}, adjustable studio light`}/>
+    <div style={{position:'relative'}}><div className="fp-webgl" ref={host} role="img" aria-label={`${finish.name} ${shape}, adjustable studio light`}/>{error && <img src={mapUrls?.[0] || `${ROOT}${finish.id}/preview.webp`} alt={`${finish.name} flat surface preview`} style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover'}}/>}</div>
     <p className="fp-viewer-status" role="status">{error||(!ready?'Loading surface maps…':`${finish.name} · real-time PBR lighting`)}</p>
     <label>Light direction <output>{angle}°</output><input aria-label="Light direction" type="range" min="-180" max="180" step="1" value={angle} onChange={e=>setAngle(Number(e.target.value))}/></label>
     <label>Light intensity <output>{power.toFixed(1)}</output><input aria-label="Light intensity" type="range" min="0" max="6" step=".1" value={power} onChange={e=>setPower(Number(e.target.value))}/></label>
     <div className="fp-viewer-actions"><button type="button" onClick={()=>{setAngle(-45);setPower(3);}}>Reset light</button><button type="button" disabled={!ready||saving} onClick={save}>{saving?'Rendering…':`Download ${shape} PNG · 4K ↓`}</button></div>
-    <small>Lighting adjusts this material preview. The three facade studies retain their original lighting.</small>
+    <small>{note || <>Lighting adjusts this material preview. The three {sceneNoun} studies retain their original lighting.</>}</small>
   </section>;
 }
 

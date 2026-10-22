@@ -4,6 +4,8 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const unusedReleaseAssets = [
+  // The live article already serves this WebP through <picture>; retain one copy.
+  'dist/assets/articles/bird-safe-facade-design/hero.png',
   'dist/assets/brand/farnaz-professional-profile-v6.png',
   'dist/assets/brand/farnaz-professional-profile-v6.webp',
   'dist/assets/brand/farnaz-profile-from-video-02-v1.jpg',

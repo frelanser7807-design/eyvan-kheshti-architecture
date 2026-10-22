@@ -1,9 +1,11 @@
+import { october22Briefing } from './newsletter20261022.js';
+
 export const newsletterIssue = {
   slug: 'water-at-the-threshold',
   format: 'Technical field note',
   topic: 'Building details',
   title: 'The Water Line: Five Decisions Before a Terrace Door Detail',
-  seoTitle: 'Terrace Door Waterproofing and Drainage: 5 Design Decisions | World Arch Journal',
+  seoTitle: 'Terrace Door Waterproofing: Five Decisions | World Arch Journal',
   description: 'An architect-led field note on terrace door waterproofing, threshold drainage, thermal continuity and what an AI construction animation cannot verify.',
   excerpt: 'A beautiful linear drain is not a water strategy. Trace the whole path—from paving to outfall—before the threshold is built.',
   author: 'World Arch Journal',
@@ -59,7 +61,11 @@ export const newsletterIssue = {
   ],
   related: [
     { label: 'Watch the terrace threshold animation and copy the free prompt', url: '/prompts/terrace-threshold-waterproofing-drainage/' },
-    { label: 'Read our guide to rainscreen facade water control', url: '/articles/rainscreen-facade-design-water-control/' }
+    { label: 'Read our guide to rainscreen facade water control', url: '/articles/rainscreen-facade-design-water-control/' },
+    { label: 'Read the companion guide to balcony thermal bridges', url: '/articles/balcony-thermal-bridges-slab-edge/' },
+    { label: 'From the briefing: 5 October — Housing, Thresholds and Shared Ground', url: '/newsletter/architecture-briefing-2026-10-05/' },
+    { label: 'Read the companion guide to flood-resilient homes', url: '/articles/flood-resilient-home-design/' },
+    { label: 'From the archive: the 29 September briefing — architecture beyond the object', url: '/newsletter/architecture-briefing-2026-09-29/' }
   ]
 };
 
@@ -68,8 +74,8 @@ export const newsletterNewsIssue = {
   format: 'News analysis',
   topic: 'Global architecture',
   title: 'Beyond the Render: Awards, Heritage and Climate Readiness',
-  seoTitle: 'Architecture Analysis: RIBA, UNESCO and Climate Readiness | World Arch Journal',
-  description: 'Independent architecture analysis of the RIBA International Prize shortlist, UNESCO’s Aalto Works inscription and climate-ready buildings, with primary-source links.',
+  seoTitle: 'RIBA, UNESCO and Climate Readiness | World Arch Journal',
+  description: 'Independent architecture analysis of the RIBA International Prize shortlist, UNESCO’s Aalto Works inscription and climate-ready buildings.',
   excerpt: 'A global prize shortlist, a World Heritage decision and a climate-readiness call point to one question: what lasting value does architecture create beyond its image?',
   author: 'World Arch Journal',
   authorUrl: '/editorial-team/',
@@ -140,7 +146,10 @@ export const newsletterNewsIssue = {
   ],
   related: [
     { label: 'Explore the original World Arch Journal architecture magazine', url: '/magazine/' },
-    { label: 'Read our analysis of passive design and cooling', url: '/articles/climate-responsive-facades-cooling-design/' }
+    { label: 'Read our analysis of passive design and cooling', url: '/articles/climate-responsive-facades-cooling-design/' },
+    { label: 'Latest dated briefing: 21 October — Openings, Heritage and Who Decides', url: '/newsletter/architecture-briefing-2026-10-21/' },
+    { label: 'Read our guide to adaptive reuse architecture', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
+    { label: 'The briefing that followed: 1 October — Who Gets Space, and Who Gets to Use It?', url: '/newsletter/architecture-briefing-2026-10-01/' }
   ]
 };
 
@@ -152,8 +161,8 @@ export const dailyBriefing = {
   format: 'Daily briefing',
   topic: 'Global architecture news',
   title: '29 September: Architecture Beyond the Object',
-  seoTitle: 'Architecture News, 29 September 2026: Moussavi, New York & Oslo | World Arch Journal',
-  description: 'Fresh architecture news: Farshid Moussavi’s Soane Medal, New York’s Architectural League and the Oslo Triennale. Dated sources and original editorial commentary.',
+  seoTitle: 'Architecture News, 29 September 2026 | World Arch Journal',
+  description: 'Fresh architecture news: Farshid Moussavi’s Soane Medal, New York’s Architectural League and the Oslo Triennale, with original analysis.',
   excerpt: 'Three fresh reports, one wider question: who shapes architecture’s public conversation, and how can materials move beyond the exhibition?',
   author: 'World Arch Journal',
   authorUrl: '/editorial-team/',
@@ -216,7 +225,8 @@ export const dailyBriefing = {
   related: [
     { label: 'Go deeper: awards, heritage and climate readiness — our separate analysis', url: '/magazine/analysis/architecture-briefing-september-2026/' },
     { label: 'Field note: water control at a terrace door', url: '/magazine/analysis/water-at-the-threshold/' },
-    { label: 'Explore all original architecture articles', url: '/magazine/' }
+    { label: 'Explore all original architecture articles', url: '/magazine/' },
+    { label: 'Next edition: 30 September — Measure, Reuse, Belong', url: '/newsletter/architecture-briefing-2026-09-30/' }
   ]
 };
 
@@ -225,8 +235,8 @@ export const september30Briefing = {
   format: 'Daily briefing',
   topic: 'Global architecture news',
   title: '30 September: Measure, Reuse, Belong',
-  seoTitle: 'Architecture News, 30 September 2026: Carbon, Reuse & Social Interiors | World Arch Journal',
-  description: 'An independently edited architecture briefing on the AIA 2030 report, a Quito housing renovation and award-winning social interiors, with original analysis and direct sources.',
+  seoTitle: 'Architecture News, 30 September 2026 | World Arch Journal',
+  description: 'An independently edited architecture briefing on the AIA 2030 report, a Quito housing renovation and award-winning social interiors.',
   excerpt: 'A carbon benchmark, an existing house and two student proposals reveal three different ways to ask whether a design creates lasting value.',
   author: 'World Arch Journal',
   authorUrl: '/editorial-team/',
@@ -288,7 +298,11 @@ export const september30Briefing = {
   related: [
     { label: 'Our original guide to adaptive reuse and what to retain', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
     { label: 'Read the urban heat design article with its original editorial visual', url: '/articles/urban-heat-cool-streets-design/' },
-    { label: 'Explore our separate architecture analysis archive', url: '/magazine/analysis/' }
+    { label: 'Explore our separate architecture analysis archive', url: '/magazine/analysis/' },
+    { label: 'Previous edition: 29 September — Architecture Beyond the Object', url: '/newsletter/architecture-briefing-2026-09-29/' },
+    { label: 'Next edition: 1 October — Who Gets Space, and Who Gets to Use It?', url: '/newsletter/architecture-briefing-2026-10-01/' },
+    { label: 'Read our EPD guide to low-carbon concrete', url: '/articles/low-carbon-concrete-epd-guide/' },
+    { label: 'Passive house or net zero? Read the comparison', url: '/articles/passive-house-vs-net-zero-architecture/' }
   ]
 };
 
@@ -297,7 +311,7 @@ export const october2Briefing = {
   format: 'Daily briefing',
   topic: 'Global architecture news',
   title: '2 October: What Makes a City Project Public?',
-  seoTitle: 'Architecture News, 2 October 2026: London, Archtober & San Francisco | World Arch Journal',
+  seoTitle: 'Architecture News, 2 October 2026 | World Arch Journal',
   description: 'Independent architecture news on a London mixed-use planning submission, New York\'s Archtober programme and San Francisco\'s proposed Fifty at First tower.',
   excerpt: 'A planning submission, a public architecture festival and a proposed skyline project test three different meanings of public value.',
   author: 'World Arch Journal',
@@ -364,7 +378,9 @@ export const october2Briefing = {
   related: [
     { label: 'Our original guide to adaptive reuse and what to retain', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
     { label: 'Read our original urban heat and cool-streets analysis', url: '/articles/urban-heat-cool-streets-design/' },
-    { label: 'Browse every dated architecture briefing', url: '/newsletter/' }
+    { label: 'Browse every dated architecture briefing', url: '/newsletter/' },
+    { label: 'Previous edition: 1 October — Who Gets Space, and Who Gets to Use It?', url: '/newsletter/architecture-briefing-2026-10-01/' },
+    { label: 'Next edition: 5 October — Housing, Thresholds and Shared Ground', url: '/newsletter/architecture-briefing-2026-10-05/' }
   ]
 };
 
@@ -373,8 +389,8 @@ export const october1Briefing = {
   format: 'Daily briefing',
   topic: 'Global architecture news',
   title: '1 October: Who Gets Space, and Who Gets to Use It?',
-  seoTitle: 'Architecture News, 1 October 2026: Housing, Domestic Futures & Public Access | World Arch Journal',
-  description: 'An independently edited architecture briefing on Luxembourg\'s 2027 Venice Pavilion, LACMA\'s domestic-futures exhibition and New York\'s Archtober tours, with dated sources and original analysis.',
+  seoTitle: 'Architecture News, 1 October 2026 | World Arch Journal',
+  description: 'An independently edited architecture briefing on Luxembourg’s 2027 Venice Pavilion, LACMA’s domestic-futures exhibition and New York’s Archtober tours.',
   excerpt: 'Three current cultural programmes ask how living space is distributed, how domestic futures are imagined and who can encounter architecture first-hand.',
   author: 'World Arch Journal',
   authorUrl: '/editorial-team/',
@@ -440,7 +456,9 @@ export const october1Briefing = {
   related: [
     { label: 'Our original guide to adaptive reuse and what to retain', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
     { label: 'Our original analysis of awards, heritage and climate readiness', url: '/magazine/analysis/architecture-briefing-september-2026/' },
-    { label: 'Read all dated architecture editions', url: '/newsletter/' }
+    { label: 'Read all dated architecture editions', url: '/newsletter/' },
+    { label: 'Previous edition: 30 September — Measure, Reuse, Belong', url: '/newsletter/architecture-briefing-2026-09-30/' },
+    { label: 'Next edition: 2 October — What Makes a City Project Public?', url: '/newsletter/architecture-briefing-2026-10-02/' }
   ]
 };
 
@@ -449,8 +467,8 @@ export const october9Briefing = {
   format: 'Daily briefing',
   topic: 'Global architecture news',
   title: '9 October: Reuse, Learning, Arrival and Living Knowledge',
-  seoTitle: 'Architecture News, 9 October 2026: Reuse, Schools & Public Space | World Arch Journal',
-  description: 'Four fresh architecture stories on adaptive reuse, an arts school in Houston, Sydney’s new airport and earthen heritage conservation, with original diagrams and independent analysis.',
+  seoTitle: 'Architecture News, 9 October 2026 | World Arch Journal',
+  description: 'Four architecture stories on adaptive reuse, a Houston arts school, Sydney’s new airport and earthen heritage conservation, with original analysis.',
   excerpt: 'A reused workplace, a music-and-arts school, a new airport and earthen heritage practice ask how architecture can carry value forward.',
   author: 'World Arch Journal',
   authorUrl: '/editorial-team/',
@@ -553,7 +571,146 @@ export const october9Briefing = {
     { label: 'Read our independent guide to adaptive reuse architecture', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
     { label: 'Explore universal design and inclusive homes', url: '/articles/universal-design-homes-ageing-in-place/' },
     { label: 'Browse architecture projects and virtual tours', url: '/projects/' },
-    { label: 'Browse every dated architecture briefing', url: '/newsletter/' }
+    { label: 'Browse every dated architecture briefing', url: '/newsletter/' },
+    { label: 'Previous edition: 8 October — From Design Intelligence to Public Value', url: '/newsletter/architecture-briefing-2026-10-08/' },
+    { label: 'Next edition: 11 October — Architecture as Story, Stillness and Shared Voice', url: '/newsletter/architecture-briefing-2026-10-11/' },
+    { label: 'Read our guide to design for disassembly and reversible buildings', url: '/articles/design-for-disassembly-reversible-buildings/' }
+  ]
+};
+
+export const october21Briefing = {
+  slug: 'architecture-briefing-2026-10-21',
+  format: 'Daily briefing',
+  topic: 'Global architecture news',
+  title: '21 October: Openings, Heritage and Who Decides',
+  seoTitle: 'Architecture News, 21 October 2026 | World Arch Journal',
+  description: 'Six architecture stories with independent analysis: Snøhetta’s Shanghai Grand Opera House opens, Venice Biennale 2027 takes shape and Taliesin West pauses.',
+  excerpt: 'An opera house that gives its roof to the city, a landmark closed while investigators work and an architect who asked voters for a mandate ask what buildings owe the public.',
+  author: 'World Arch Journal',
+  authorUrl: '/editorial-team/',
+  publishedAt: '2026-10-21',
+  updatedAt: '2026-10-21',
+  feedPublishedAt: '2026-10-21T06:15:00Z',
+  sourcesCheckedAt: '2026-10-21',
+  image: '/assets/editorial/newsletter/briefing-2026-10-21-cover.jpg',
+  imageAlt: 'The Musée d’Orsay beside the Seine in Paris at dusk, seen from the Pont Royal',
+  imageCredit: 'The Musée d’Orsay’s Seine facade in Paris — the surface carrying Jenny Holzer’s ÉCLAIRÉ projections in story 05. Photo: Pierre Blaché via Wikimedia Commons, CC0 1.0.',
+  imageAttribution: { creator: 'Pierre Blaché', sourceUrl: 'https://commons.wikimedia.org/wiki/File:Pont_Royal_and_Mus%C3%A9e_d%27Orsay,_Paris_10_July_2020.jpg', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/', licenseLabel: 'CC0 1.0' },
+  analysisSummary: 'Editorial lens: this week’s stories treat architecture as a public trust — who a building serves, who keeps it safe and who gets to decide its future.',
+  intro: 'This edition selects six reports published on 19–21 October 2026 and checked on 21 October. ArchDaily and Designboom both report the Shanghai opening; La Biennale di Venezia’s own pages confirm the 2027 exhibition’s curators, title and dates; election figures are those reported by Architectural Record. “Our reading” is independent commentary, not on-site reporting. Estimated reading time: eight minutes.',
+  corrections: [],
+  editorialAnalysis: {
+    thesis: 'Read together, this week’s stories describe architecture as a public trust. A performance venue is designed as open landscape; a landmark closes while investigators work; an architect asks voters for a mandate; an artist borrows a museum facade for five evenings; and a road barrier is asked to serve the public in a second life. The common question is not form but obligation.',
+    questions: [
+      'Access: which parts of a “public” building are genuinely open, to whom, and at what times?',
+      'Stewardship: what evidence shows that a heritage site is being kept safe as well as preserved?',
+      'Decision-making: when architects seek public office or public commissions, how are their promises tested?',
+      'Temporariness: what should temporary interventions leave behind — documentation, skills, or nothing at all?'
+    ],
+    limit: 'This issue is based on publisher reporting and institutional pages checked on 21 October 2026. It does not independently verify construction quality at the Shanghai Grand Opera House, the circumstances under investigation at Taliesin West, the administration of the Yokohama election, or visitor outcomes at the Musée d’Orsay exhibition.'
+  },
+  sections: [
+    {
+      kind: 'news',
+      heading: '01 / Snøhetta’s Shanghai Grand Opera House opens to the city',
+      sourcePublishedAt: '2026-10-19',
+      illustration: '/assets/editorial/newsletter/briefing-2026-10-21-opera.svg',
+      illustrationAlt: 'Original editorial diagram of a spiralling public ramp above a riverbank',
+      illustrationCredit: 'World Arch Journal original diagram for this edition; not a depiction of the Shanghai Grand Opera House.',
+      paragraphs: [
+        'Snøhetta’s Shanghai Grand Opera House officially opened on 17 October 2026 on the Huangpu River in Shanghai’s Expo Houtan district, ArchDaily reported on 19 October. The 146,786-square-metre building, designed with ECADI, Theatre Projects and Nagata Acoustics after a 2016 international competition, brings together three performance venues with a combined capacity of 4,200 seats, alongside rehearsal, production and education spaces. Its sweeping roof and spiral staircase are conceived as public landscape, open to visitors whether or not they hold a ticket. Photographs published with the reports are by Yumeng Zhu.',
+        'Our reading: the claim to test is not the silhouette but the invitation. A cultural building earns the word “public” in the hours when nothing is staged — who crosses the roof, who can afford to linger, and how the landscape is maintained. Opening announcements cannot answer that; the first season’s patterns of use will.'
+      ],
+      source: { label: 'ArchDaily — Snøhetta’s Shanghai Grand Opera House opens, 19 October 2026', url: 'https://www.archdaily.com/1187067/snohettas-shanghai-grand-opera-house-opens-with-a-sweeping-roof-and-panoramic-river-views' },
+      corroboratingSources: [{ label: 'Designboom — Snøhetta’s Shanghai Grand Opera House opens in China, 20 October 2026', url: 'https://www.designboom.com/architecture/snohetta-shanghai-grand-opera-house-spiraling-staircase-public-rooftop/' }]
+    },
+    {
+      kind: 'news',
+      heading: '02 / Venice Biennale 2027 curators: architecture must return to its essence',
+      sourcePublishedAt: '2026-10-20',
+      photo: { src: '/assets/editorial/newsletter/briefing-2026-10-21-ningbo-museum.jpg', alt: 'The Ningbo Museum in China, its sloped facade of recycled tiles and bricks above a timber terrace', caption: 'Ningbo Museum, China, designed by Wang Shu and Lu Wenyu’s Amateur Architecture Studio — the 2027 Biennale curators’ own built work, shown as context for their exhibition. Photo: xiquinhosilva via Wikimedia Commons, CC BY 4.0.', sourceUrl: 'https://commons.wikimedia.org/wiki/File:Ningbo_Museum_-_55495801930.jpg', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/', licenseLabel: 'CC BY 4.0' },
+      paragraphs: [
+        'In an interview published on 20 October, Wang Shu and Lu Wenyu set out their curatorial vision for the 20th International Architecture Exhibition of La Biennale di Venezia. Titled “Do Architecture – For the Possibility of Coexistence Facing a Real Reality”, the exhibition runs from 8 May to 21 November 2027 across the Giardini, the Arsenale and venues throughout Venice. The curators argue that architecture has drifted from lived reality through abstraction, commercialisation and digitalisation, and call for a return to materials, construction, local knowledge and direct experience — the ground their own Amateur Architecture Studio, founded in 1997, has worked on for three decades. La Biennale’s own pages confirm the curators, the title and the dates; the title itself was first announced in May 2026, so the interview is an elaboration, not the announcement.',
+        'Our reading: “return to essence” is easy to print and hard to curate. The useful question for 2027 is which exhibits demonstrate making — full-scale construction, repair, reuse — rather than merely describing it. If the show holds itself to that test, it could reset what a biennale gallery is for.'
+      ],
+      source: { label: 'ArchDaily — “Architecture Must Return to Its Essence”: Wang Shu and Lu Wenyu on the 2027 Venice Architecture Biennale, 20 October 2026', url: 'https://www.archdaily.com/1187187/architecture-must-return-to-its-essence-wang-shu-and-lu-wenyu-on-the-2027-venice-architecture-biennale' },
+      corroboratingSources: [{ label: 'La Biennale di Venezia — 2027 Architecture Exhibition: curators, title and dates', url: 'https://biennale.com/venice-architecture.html' }]
+    },
+    {
+      kind: 'news',
+      heading: '03 / Taliesin West closes after a fatal accident',
+      sourcePublishedAt: '2026-10-20',
+      photo: { src: '/assets/editorial/newsletter/briefing-2026-10-21-taliesin-west.jpg', alt: 'Taliesin West in Scottsdale, Arizona, with its triangular pool, red roofs and desert stone walls', caption: 'Taliesin West, Scottsdale, Arizona — Frank Lloyd Wright’s winter home and studio. Photo: Greg O’Beirne via Wikimedia Commons, CC BY 2.5.', sourceUrl: 'https://commons.wikimedia.org/wiki/File:TaliesinWest03_gobeirne.jpg', licenseUrl: 'https://creativecommons.org/licenses/by/2.5/', licenseLabel: 'CC BY 2.5' },
+      paragraphs: [
+        'Taliesin West, Frank Lloyd Wright’s winter home and studio in Scottsdale, Arizona, is closed to the public until further notice, ArchDaily reported on 20 October. A visitor died on 16 October after strong winds dislodged roofing material during a walking tour; the Scottsdale Fire Department describes the incident as weather-related, and an investigation is under way. Architectural Record identifies the visitor as Rogério Renato Mateucci, 55, rector of the Pontifical Catholic University of Paraná in Brazil. The Frank Lloyd Wright Foundation, which manages the property, confirmed the closure and said it would share no further details while officials complete their work.',
+        'Our reading: historic houses open to the public carry two duties at once — preservation, and the safety of every visitor on every day, including days of extreme weather. The responsible sequence is the one now under way: close, investigate, publish the findings. Commentary should wait for the investigators’ evidence rather than speculate about a building that is also a workplace and a place of mourning.'
+      ],
+      source: { label: 'ArchDaily — Frank Lloyd Wright’s Taliesin West closes after fatal accident, 20 October 2026', url: 'https://www.archdaily.com/1187183/frank-lloyd-wrights-taliesin-west-closes-after-fatal-accident' }
+    },
+    {
+      kind: 'news',
+      heading: '04 / Riken Yamamoto loses his bid for mayor of Yokohama',
+      sourcePublishedAt: '2026-10-20',
+      photo: { src: '/assets/editorial/newsletter/briefing-2026-10-21-yamamoto-hotakubo.jpg', alt: 'Hotakubo housing in Kumamoto, Japan — concrete housing blocks with curved roofs around a planted courtyard', caption: 'Hotakubo housing in Kumamoto, designed by Riken Yamamoto: community housing of the kind his Yokohama platform proposed; his earlier built work, not campaign material. Photo: Yoit via Wikimedia Commons, CC0 1.0.', sourceUrl: 'https://commons.wikimedia.org/wiki/File:%E7%86%8A%E6%9C%AC%E7%9C%8C%E5%96%B6%E4%BF%9D%E7%94%B0%E7%AA%AA%E7%AC%AC%E4%B8%80%E5%9B%A3%E5%9C%B0_03.jpg', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/', licenseLabel: 'CC0 1.0' },
+      paragraphs: [
+        'Riken Yamamoto, the 81-year-old Pritzker Prize laureate, has lost his bid to become mayor of Yokohama, Architectural Record reported on 20 October. Running as an independent in the special election held on 18 October, he proposed “neighbourhood association salons” that would consolidate public services, together with a free minibus and taxi network. He finished seventh with just over 49,000 votes; the winner, lawyer Atsumi Harasawa, took about 552,200. The election followed the resignation of the previous mayor, after an investigation confirmed he had verbally abused staff.',
+        'Our reading: architects often argue that consolidating everyday services into walkable neighbourhood hubs is a spatial policy before it is a political one. Yokohama’s result does not settle that argument — local campaigns turn on trust, organisation and timing — but it marks a rare, measurable test of whether design thinking about community infrastructure can be translated into a democratic mandate.'
+      ],
+      source: { label: 'Architectural Record — Japanese Pritzker laureate Riken Yamamoto loses bid for mayor of Yokohama, 20 October 2026', url: 'https://www.architecturalrecord.com/articles/18481-japanese-pritzker-laureate-riken-yamamoto-loses-bid-for-mayor-of-yokohama' }
+    },
+    {
+      kind: 'news',
+      heading: '05 / Jenny Holzer turns the Musée d’Orsay into a page of history',
+      sourcePublishedAt: '2026-10-19',
+      photo: { src: '/assets/editorial/newsletter/briefing-2026-10-21-orsay.jpg', alt: 'The Musée d’Orsay in Paris seen from the Pont Royal across the Seine', caption: 'The Musée d’Orsay from the Pont Royal, Paris — the Seine-facing facade carrying Holzer’s ÉCLAIRÉ projections on the evenings of 18–22 October. Photo: Gerda Arendt via Wikimedia Commons, CC0 1.0.', sourceUrl: 'https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_d%27Orsay,_Paris,_from_Pont_Royal.jpg', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/', licenseLabel: 'CC0 1.0' },
+      paragraphs: [
+        'Jenny Holzer’s exhibition J’ai Vu (I Saw) opened on 20 October at the Musée d’Orsay in Paris, Designboom reported on 19 October. The former Gare d’Orsay railway station becomes a surface for language: ÉCLAIRÉ, a series of monumental light projections on the Seine-facing facade, runs on the evenings of 18–22 October and draws on roughly 250 excerpts by 34 authors, including Van Gogh, Cézanne, Flaubert and Zola. Inside, LED text installations move through four galleries, and 19 engraved stone works — 17 benches and two columns — slow the same words down. Across the exhibition, more than 750 texts from 424 sources and 73 authors are cited.',
+        'Our reading: the exhibition sets two attitudes to heritage side by side — projection, which is temporary and reversible, and engraving, which is permanent. On a protected facade, that distinction matters more than the spectacle. Light lets a historic building speak for five evenings and then hands it back unchanged.'
+      ],
+      source: { label: 'Designboom — Jenny Holzer’s J’ai Vu lights up Musée d’Orsay in Paris, 19 October 2026', url: 'https://www.designboom.com/art/jenny-holzer-musee-dorsay-paris-monumental-light-projections-engraved-stone-exhibition-jai-vu/' }
+    },
+    {
+      kind: 'news',
+      heading: '06 / Dutch Design Week: traffic barriers become public seating',
+      sourcePublishedAt: '2026-10-21',
+      illustration: '/assets/editorial/newsletter/briefing-2026-10-21-seating.svg',
+      illustrationAlt: 'Original editorial diagram of a red-and-white road barrier reinterpreted as a public bench',
+      illustrationCredit: 'World Arch Journal original diagram for this edition; not a product photograph.',
+      paragraphs: [
+        'At Dutch Design Week in Eindhoven, the STOP! collection turns the Netherlands’ familiar red-and-white aluminium road barriers into public seating, Designboom reported on 21 October. The barriers are among the most standardised objects on Dutch streets; the project adapts their frames and striped boards into benches, keeping the visual language of road safety while changing the instruction from “keep out” to “sit down”.',
+        'Our reading: reuse works here because the object is already everywhere, durable and instantly readable. The open questions are the unglamorous ones — fixings, comfort, resistance to vandalism, and who maintains street furniture once a design-week audience goes home. As a prototype, though, it makes a serious point lightly: the city’s spare parts are a design resource.'
+      ],
+      source: { label: 'Designboom — Red-and-white aluminium safety barriers convert into public seating at Dutch Design Week, 21 October 2026', url: 'https://www.designboom.com/design/red-white-aluminum-safety-barriers-public-seating-dutch-design-week-martins-mezulis-13_0663_tsx/' }
+    },
+    {
+      heading: 'The editor’s test: what do buildings owe the public?',
+      illustration: '/assets/editorial/newsletter/briefing-2026-10-21-synthesis.svg',
+      illustrationAlt: 'Original editorial diagram asking who may enter, who keeps a building safe and who decides',
+      illustrationCredit: 'World Arch Journal original editorial synthesis; a set of questions, not measured findings about the projects.',
+      paragraphs: [
+        'These six items carry different kinds of evidence: an opening announcement, a curatorial interview, an accident report still under investigation, an election result, an exhibition report and a design-week prototype. They should not be read as equals. Together, though, they suggest one practical discipline for readers of architecture news: for every headline project, ask who may enter it, who keeps it safe, and who decided it should exist.',
+        'Our reading: access, stewardship and decision-making are the three tests that survive after the photographs fade. An opera house roof, a closed landmark, a ballot box, a projected facade and a borrowed barrier all pass or fail on those terms — not on the strength of their images.'
+      ]
+    }
+  ],
+  sources: [
+    { label: 'ArchDaily — Snøhetta’s Shanghai Grand Opera House opens, 19 October 2026', url: 'https://www.archdaily.com/1187067/snohettas-shanghai-grand-opera-house-opens-with-a-sweeping-roof-and-panoramic-river-views' },
+    { label: 'Designboom — Snøhetta’s Shanghai Grand Opera House opens in China, 20 October 2026', url: 'https://www.designboom.com/architecture/snohetta-shanghai-grand-opera-house-spiraling-staircase-public-rooftop/' },
+    { label: 'ArchDaily — Wang Shu and Lu Wenyu on the 2027 Venice Architecture Biennale, 20 October 2026', url: 'https://www.archdaily.com/1187187/architecture-must-return-to-its-essence-wang-shu-and-lu-wenyu-on-the-2027-venice-architecture-biennale' },
+    { label: 'La Biennale di Venezia — 2027 Architecture Exhibition: curators, title and dates', url: 'https://biennale.com/venice-architecture.html' },
+    { label: 'ArchDaily — Frank Lloyd Wright’s Taliesin West closes after fatal accident, 20 October 2026', url: 'https://www.archdaily.com/1187183/frank-lloyd-wrights-taliesin-west-closes-after-fatal-accident' },
+    { label: 'Architectural Record — Riken Yamamoto loses bid for mayor of Yokohama, 20 October 2026', url: 'https://www.architecturalrecord.com/articles/18481-japanese-pritzker-laureate-riken-yamamoto-loses-bid-for-mayor-of-yokohama' },
+    { label: 'Designboom — Jenny Holzer’s J’ai Vu lights up Musée d’Orsay, 19 October 2026', url: 'https://www.designboom.com/art/jenny-holzer-musee-dorsay-paris-monumental-light-projections-engraved-stone-exhibition-jai-vu/' },
+    { label: 'Designboom — Safety barriers convert into public seating at Dutch Design Week, 21 October 2026', url: 'https://www.designboom.com/design/red-white-aluminum-safety-barriers-public-seating-dutch-design-week-martins-mezulis-13_0663_tsx/' }
+  ],
+  related: [
+    { label: 'Read our independent guide to adaptive reuse architecture', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
+    { label: 'Explore urban heat and cooler street design', url: '/articles/urban-heat-cool-streets-design/' },
+    { label: 'Read our guide to inclusive wayfinding in public buildings', url: '/articles/inclusive-wayfinding-public-buildings/' },
+    { label: 'Browse every dated architecture briefing', url: '/newsletter/' },
+    { label: 'Previous edition: 11 October — Architecture as Story, Stillness and Shared Voice', url: '/newsletter/architecture-briefing-2026-10-11/' },
+    { label: 'Read the guide: Frank Lloyd Wright, organic architecture and the houses you can still visit', url: '/articles/frank-lloyd-wright-organic-architecture-guide/' },
+    { label: 'Read our history of Brutalist architecture and its landmark buildings', url: '/articles/brutalist-architecture-history-features-buildings/' }
   ]
 };
 
@@ -562,8 +719,8 @@ export const october11Briefing = {
   format: 'Daily briefing',
   topic: 'Global architecture news',
   title: '11 October: Architecture as Story, Stillness and Shared Voice',
-  seoTitle: 'Architecture News, 11 October 2026: Libeskind, Compact Living & UIA | World Arch Journal',
-  description: 'Four recent architecture stories and independent analysis on Daniel Libeskind, a compact Mexico City interior, the UIA profession and an architectural documentary.',
+  seoTitle: 'Architecture News, 11 October 2026 | World Arch Journal',
+  description: 'Four architecture stories and independent analysis on Daniel Libeskind, a compact Mexico City interior, the UIA profession and an architect’s archive.',
   excerpt: 'A spatial narrative, a compact hospitality interior and a call to represent the profession ask where architecture finds its public value.',
   author: 'World Arch Journal',
   authorUrl: '/editorial-team/',
@@ -662,7 +819,9 @@ export const october11Briefing = {
     { label: 'Read our guide to adaptive reuse and what to retain', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
     { label: 'Explore universal design for homes and ageing in place', url: '/articles/universal-design-homes-ageing-in-place/' },
     { label: 'Explore projects and virtual tours', url: '/projects/' },
-    { label: 'Browse every dated architecture briefing', url: '/newsletter/' }
+    { label: 'Browse every dated architecture briefing', url: '/newsletter/' },
+    { label: 'Previous edition: 9 October — Reuse, Learning, Arrival and Living Knowledge', url: '/newsletter/architecture-briefing-2026-10-09/' },
+    { label: 'Next edition: 21 October — Openings, Heritage and Who Decides', url: '/newsletter/architecture-briefing-2026-10-21/' }
   ]
 };
 
@@ -671,8 +830,8 @@ export const october8Briefing = {
   format: 'Daily briefing',
   topic: 'Global architecture news',
   title: '8 October: From Design Intelligence to Public Value',
-  seoTitle: 'Architecture News, 8 October 2026: BIM AI, Public Space & Adaptive Reuse | World Arch Journal',
-  description: 'Fresh architecture news on Graphisoft\'s 2026 BIM and AI portfolio, stadium public space, adaptive-reuse education and BIG\'s circular Dymak HQ, with original visual analysis.',
+  seoTitle: 'Architecture News, 8 October 2026 | World Arch Journal',
+  description: 'Fresh architecture news on Graphisoft’s 2026 BIM and AI portfolio, stadium public space, adaptive-reuse education and BIG’s circular Dymak HQ.',
   excerpt: 'Four fresh stories ask how a new tool, a public realm, a school brief and a circular workplace can produce value that remains visible after launch day.',
   author: 'World Arch Journal',
   authorUrl: '/editorial-team/',
@@ -755,7 +914,10 @@ export const october8Briefing = {
     { label: 'Read our independent guide to AI governance in architecture', url: '/articles/ai-in-architecture-2026-adoption-risks-rules/' },
     { label: 'Read our adaptive reuse architecture guide', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
     { label: 'Explore interactive architecture projects and virtual tours', url: '/projects/' },
-    { label: 'Browse every dated architecture briefing', url: '/newsletter/' }
+    { label: 'Browse every dated architecture briefing', url: '/newsletter/' },
+    { label: 'Previous edition: 7 October — Who Gets to Learn, Build and Enter?', url: '/newsletter/architecture-briefing-2026-10-07/' },
+    { label: 'Next edition: 9 October — Reuse, Learning, Arrival and Living Knowledge', url: '/newsletter/architecture-briefing-2026-10-09/' },
+    { label: 'BIM or CAD? Read the workflow comparison', url: '/articles/bim-vs-cad-architects-workflow/' }
   ]
 };
 
@@ -764,8 +926,8 @@ export const october7Briefing = {
   format: 'Daily briefing',
   topic: 'Global architecture news',
   title: '7 October: Who Gets to Learn, Build and Enter?',
-  seoTitle: 'Architecture News, 7 October 2026: Licensure, Robots & Open Buildings | World Arch Journal',
-  description: 'Fresh architecture news on AIA licensure support, autonomous construction robotics, Open House Hobart and healthcare design, with dated sources and independent analysis.',
+  seoTitle: 'Architecture News, 7 October 2026 | World Arch Journal',
+  description: 'Fresh architecture news on AIA licensure support, autonomous construction robotics, Open House Hobart and healthcare design, with dated sources.',
   excerpt: 'Four fresh announcements ask the same practical question: what turns access, automation and public programming into accountable architecture?',
   author: 'World Arch Journal',
   authorUrl: '/editorial-team/',
@@ -848,7 +1010,9 @@ export const october7Briefing = {
   related: [
     { label: 'Read our independent guide to AI governance in architecture', url: '/articles/ai-in-architecture-2026-adoption-risks-rules/' },
     { label: 'Explore universal design for ageing in place', url: '/articles/universal-design-homes-ageing-in-place/' },
-    { label: 'Browse every dated architecture briefing', url: '/newsletter/' }
+    { label: 'Browse every dated architecture briefing', url: '/newsletter/' },
+    { label: 'Previous edition: 5 October — Housing, Thresholds and Shared Ground', url: '/newsletter/architecture-briefing-2026-10-05/' },
+    { label: 'Next edition: 8 October — From Design Intelligence to Public Value', url: '/newsletter/architecture-briefing-2026-10-08/' }
   ]
 };
 
@@ -857,8 +1021,8 @@ export const october5Briefing = {
   format: 'Daily briefing',
   topic: 'Global architecture news',
   title: '5 October: Housing, Thresholds and Shared Ground',
-  seoTitle: 'Architecture News, 5 October 2026: Housing, Zumthor and Adaptive Space | World Arch Journal',
-  description: 'Fresh architecture news on World Architecture Day, Fondation Beyeler’s Zumthor expansion and a movable pavilion between Accra and New York, with original analysis.',
+  seoTitle: 'Architecture News, 5 October 2026 | World Arch Journal',
+  description: 'Fresh architecture news on World Architecture Day, Fondation Beyeler’s Zumthor expansion and a movable pavilion between Accra and New York.',
   excerpt: 'Today’s stories ask how architecture turns a public promise into a place: through adequate housing, shared cultural ground and structures that adapt to where they land.',
   author: 'World Arch Journal',
   authorUrl: '/editorial-team/',
@@ -940,9 +1104,12 @@ export const october5Briefing = {
   related: [
     { label: 'Read our climate-responsive facade guide', url: '/articles/climate-responsive-facades-cooling-design/' },
     { label: 'Read our adaptive reuse architecture guide', url: '/articles/adaptive-reuse-architecture-preserve-value/' },
-    { label: 'Browse every dated architecture briefing', url: '/newsletter/' }
+    { label: 'Browse every dated architecture briefing', url: '/newsletter/' },
+    { label: 'Previous edition: 2 October — What Makes a City Project Public?', url: '/newsletter/architecture-briefing-2026-10-02/' },
+    { label: 'Next edition: 7 October — Who Gets to Learn, Build and Enter?', url: '/newsletter/architecture-briefing-2026-10-07/' },
+    { label: 'Read the complete guide to accessory dwelling units (ADUs)', url: '/articles/accessory-dwelling-units-complete-guide/' }
   ]
 };
 
-export const newsletterIssues = [october11Briefing, october9Briefing, october8Briefing, october7Briefing, october5Briefing, october2Briefing, october1Briefing, september30Briefing, dailyBriefing];
+export const newsletterIssues = [october22Briefing, october21Briefing, october11Briefing, october9Briefing, october8Briefing, october7Briefing, october5Briefing, october2Briefing, october1Briefing, september30Briefing, dailyBriefing];
 export const editorialPath = (entry) => entry.format === 'Daily briefing' ? `/newsletter/${entry.slug}/` : `/magazine/analysis/${entry.slug}/`;

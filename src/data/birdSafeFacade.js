@@ -8,13 +8,18 @@ const birdSafeFacade = {
   meta: '12 MIN READ · 3 ORIGINAL DIAGRAMS',
   status: 'INTERNATIONAL DESIGN GUIDE · 2026',
   excerpt: 'Reflective and transparent glazing can conceal a collision hazard. This guide translates bird-friendly design research into a coordinated facade workflow for new buildings and retrofits—without treating one pattern or rule as universal.',
-  image: '/assets/articles/bird-safe-facade-design/hero.png',
+  image: '/assets/articles/bird-safe-facade-design/hero.webp',
+  imageWebp: '/assets/articles/bird-safe-facade-design/hero.webp',
   imageWidth: 1536,
   imageHeight: 1024,
+  cover: '/assets/articles/bird-safe-facade-design/cover.webp',
+  coverAlt: 'World Arch Journal cover: Can Birds See Your Building? The hidden danger of reflective glass, a practical guide to bird-safe facades — a bird flying toward a fritted glass facade',
+  coverWidth: 800,
+  coverHeight: 1200,
   imageAlt: 'Contemporary public building with a bird-safe facade, visible external glazing pattern and planted landscape',
   visualLabel: 'FIG. 01 · MAKE GLAZING LEGIBLE TO BIRDS FROM THE OUTSIDE · ORIGINAL AI-ASSISTED EDITORIAL VISUAL, WORLD ARCH JOURNAL, 2026.',
   publishedAt: '2026-10-11',
-  modifiedAt: '2026-10-11',
+  modifiedAt: '2026-10-22',
   toc: [
     ['why-glass', 'Why glass becomes a collision risk'],
     ['design-principles', 'Four facade design principles'],
@@ -62,6 +67,8 @@ const birdSafeFacade = {
       <li><strong>Plan operation:</strong> assign responsibility for controls, inspections, repairs and post-occupancy monitoring.</li>
     </ol>
     <p>The key design shift is simple: treat glass as an ecological interface, not an invisible void. A facade schedule that records pattern coverage, test basis, lighting strategy and maintenance responsibility is more useful than a generic “bird-safe” note—and far more credible than an unverified claim.</p>
+  
+    <p><strong>Continue exploring:</strong> glass choices are coordinated, not isolated — facade and interior design, including glazing strategy, is part of our <a href="/services/">design services</a>, and the performance side of the same panes is covered in our guide to <a href="/articles/low-e-triple-glazing-smart-glass-guide/">low-E triple glazing and smart glass</a>. The wider envelope strategy behind those choices — shade, cavities, ventilation and controls — is set out in our <a href="/articles/climate-responsive-facades-cooling-design/">climate responsive facade</a> guide.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international facade design guide'],
@@ -83,6 +90,8 @@ const birdSafeFacade = {
     { question: 'Where should bird-deterrent patterns be placed?', answer: 'Conservation guidance commonly recommends placement on the exterior-facing surface so the pattern is visible despite reflections. Confirm the exact surface and assembly with the tested product specification.' },
     { question: 'Does the 2 × 2 rule apply everywhere?', answer: 'No. It is a commonly cited ABC rule of thumb for pattern spacing, not a universal regulation. Verify current guidance, test evidence, context and local requirements.' },
     { question: 'Can a bird-friendly facade also reduce glare?', answer: 'Some treatments may change glare or reflectance, but those outcomes depend on material and viewing conditions. Evaluate bird visibility, daylight, glare, thermal performance and appearance separately.' },
+    { question: 'Can an existing glass facade be retrofitted to be bird-safe?', answer: 'Yes — retrofit is often the highest-value move, because the riskiest panes can be treated first: external markers or films at fly-through and reflection hotspots, screens, and reduced nighttime lighting. Prioritise by risk mapping rather than treating every pane at once, and confirm the tested assembly before specifying.' },
+    { question: 'What is bird-safe glass?', answer: 'Glass that birds can perceive as a barrier: patterned, fritted, etched or UV-reflective glazing whose visible cues sit on the exterior-facing surface and meet tested spacing guidance. It is a property of the whole assembly and its placement, not a coating claim — the same pane in a fly-through corridor can remain hazardous.' },
   ],
   evidence: [
     { publisher: 'American Bird Conservancy', source_url: 'https://abcbirds.org/strategies/solutions-for-homes/', claim: 'Bird-visible patterns can reduce collisions when correctly sized, spaced and applied to the outside surface of glass; the page explains the commonly referenced 2 × 2 rule.', limitations: 'Home guidance and rule of thumb; verify the current recommendation and any product-specific test basis for a larger project.' },

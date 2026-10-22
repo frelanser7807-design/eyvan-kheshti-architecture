@@ -128,14 +128,14 @@ const scenes = [
 const interfaceCopy = {
   en: {
     soundOn: 'SOUND ON', soundOff: 'SOUND OFF', menu: 'MENU', directory: 'STUDIO DIRECTORY',
-    projects: 'Projects', services: 'Services', tutorials: 'Tutorials', articles: 'Articles', insights: 'Magazine', prompts: 'AI Prompt Library', library: 'BIM Object Library', atlas: 'WORLD ARCH ATLAS', ebooks: 'Architecture E-Books', courses: 'Courses & Shop', shop: 'Shop', contact: 'Contact',
+    projects: 'Projects', services: 'Services', tutorials: 'Tutorials', articles: 'Articles', insights: 'Magazine', prompts: 'AI Prompt Library', library: 'BIM Object Library', atlas: 'WORLD ARCH ATLAS', courses: 'Courses & Shop', shop: 'Shop', contact: 'Contact',
     idleEyebrow: 'INTERACTIVE ARCHITECTURE EXPERIENCE', idleTitle: 'A Studio Built Around Ideas',
     begin: 'Click to Begin', playing: 'Now Playing', continue: 'Click to Continue', explore: 'Explore the Studio',
     whatWeDo: 'WHAT WE DO', concept: 'CONCEPT EXPERIENCE · 2026',
   },
   fa: {
     soundOn: 'صدا روشن', soundOff: 'صدا خاموش', menu: 'منو', directory: 'فهرست استودیو',
-    projects: 'پروژه‌ها', services: 'خدمات', tutorials: 'آموزش‌ها', articles: 'مقاله‌ها', insights: 'مجله معماری', prompts: 'کتابخانهٔ پرامپ AI', library: 'کتابخانهٔ BIM', atlas: 'اطلس معماری جهانی', ebooks: 'ای‌بوک‌های معماری', courses: 'دوره‌ها و فروشگاه', shop: 'فروشگاه', contact: 'ارتباط با ما',
+    projects: 'پروژه‌ها', services: 'خدمات', tutorials: 'آموزش‌ها', articles: 'مقاله‌ها', insights: 'مجله معماری', prompts: 'کتابخانهٔ پرامپ AI', library: 'کتابخانهٔ BIM', atlas: 'اطلس معماری جهانی', courses: 'دوره‌ها و فروشگاه', shop: 'فروشگاه', contact: 'ارتباط با ما',
     idleEyebrow: 'تجربهٔ تعاملی معماری', idleTitle: 'استودیویی شکل‌گرفته پیرامون ایده‌ها',
     begin: 'برای شروع کلیک کنید', playing: 'در حال پخش', continue: 'برای ادامه کلیک کنید', explore: 'ورود به استودیو',
     whatWeDo: 'خدمات ما', concept: 'تجربهٔ مفهومی · ۲۰۲۶',
@@ -162,7 +162,6 @@ function QuickIcon({ name }) {
     journal: <><path d="M5 4h12a2 2 0 012 2v14H7a2 2 0 01-2-2V4z" /><path d="M8 8h8M8 12h8M8 16h5" /></>,
     prompts: <><path d="M4 6h16v12H4z" /><path d="M7 10h7M7 14h5M17 9v6" /></>,
     library: <><path d="M4 5h5v14H4zM10 5h5v14h-5zM16 7l4-1 2 13-4 1z" /></>,
-    ebooks: <><path d="M5 4h10a4 4 0 014 4v12H9a4 4 0 00-4-4V4z" /><path d="M9 8h6M9 11h6" /></>,
     atlas: <><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18" /></>,
     app: <><rect x="7" y="2" width="10" height="20" rx="2" /><path d="M10 5h4M11 18h2" /></>,
     shop: <><path d="M5 8h14l-1 13H6L5 8zM9 10V6a3 3 0 016 0v4" /></>,
@@ -422,6 +421,7 @@ export default function CinematicSite({ content }) {
         </button>
 
         <nav className="ek-nav" aria-label="Primary navigation">
+          <a className="ek-material-nav" href="/materials/">Materials</a>
           <button className="ek-language is-disabled" type="button" disabled aria-disabled="true" title="Persian edition coming soon">
             <b>EN</b><span>/</span><i>FA SOON</i>
           </button>
@@ -445,9 +445,10 @@ export default function CinematicSite({ content }) {
           <aside id="ek-secondary-menu" className={`ek-secondary-menu ${moreOpen ? 'is-open' : ''}`} aria-hidden={!moreOpen}>
             <button type="button" tabIndex={moreOpen ? 0 : -1} onClick={() => window.location.assign('/prompts/')}><QuickIcon name="prompts" /><span>{copy.prompts}</span></button>
             <button type="button" tabIndex={moreOpen ? 0 : -1} onClick={() => scrollToSection('objects')}><QuickIcon name="library" /><span>{copy.library}</span></button>
-            <button type="button" tabIndex={moreOpen ? 0 : -1} onClick={() => scrollToSection('ebooks')}><QuickIcon name="ebooks" /><span>{copy.ebooks}</span></button>
             <button type="button" tabIndex={moreOpen ? 0 : -1} onClick={() => scrollToSection('app')}><QuickIcon name="app" /><span>Install App</span></button>
             <button type="button" tabIndex={moreOpen ? 0 : -1} onClick={() => scrollToSection('shop')}><QuickIcon name="shop" /><span>Courses &amp; Shop</span></button>
+            <a tabIndex={moreOpen ? 0 : -1} href="/atlas/">World Arch Atlas</a>
+            <a tabIndex={moreOpen ? 0 : -1} href="/about/">About</a>
             <a tabIndex={moreOpen ? 0 : -1} href="/editorial-policy/">Editorial Policy</a>
             <a tabIndex={moreOpen ? 0 : -1} href="/privacy/">Privacy &amp; Cookies</a>
           </aside>
@@ -508,7 +509,7 @@ export default function CinematicSite({ content }) {
 
         <div className="ek-story-progress" aria-label={`Scene ${progress}`}>{progress}</div>
 
-        <footer className="ek-footer"><span>{brandLocation}</span><span>{copy.concept}</span></footer>
+        <footer className="ek-footer"><span>{brandLocation}</span><span><a href="/atlas/">World Arch Atlas · City guides</a></span><span>{copy.concept}</span></footer>
       </main>
       </div>
 

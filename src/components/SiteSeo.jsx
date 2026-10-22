@@ -23,6 +23,14 @@ function setMeta(selector, attributes) {
   Object.entries(attributes).forEach(([key, value]) => element.setAttribute(key, String(value)));
 }
 
+function clampMetaDescription(value = '') {
+  const text = String(value).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  if (text.length <= 158) return text;
+  const cut = text.slice(0, 158);
+  const lastSpace = cut.lastIndexOf(' ');
+  return (lastSpace > 100 ? cut.slice(0, lastSpace) : cut).replace(/[\s,;:—–-]+$/, '');
+}
+
 function socialUrl(value) {
   const candidate = String(value || '').trim();
   if (!/^https?:\/\//i.test(candidate)) return '';
@@ -56,15 +64,16 @@ export default function SiteSeo({ content, route }) {
   useEffect(() => {
     const brand = content?.brand || {};
     const name = brand.name || 'WORLD ARCH JOURNAL';
-    const siteUrl = String(import.meta.env.VITE_SITE_URL || FALLBACK_SITE_URL).replace(/\/$/, '');
+    const siteUrl = FALLBACK_SITE_URL;
     const normalizedPath = window.location.pathname.endsWith('/') ? window.location.pathname : `${window.location.pathname}/`;
     const canonicalUrl = `${siteUrl}${route?.name === 'material-studio' ? collectionProducts[0].path : normalizedPath === '/' ? '' : normalizedPath}`;
     const legalTitle = legalTitles[normalizedPath];
     const item = route?.item;
     const isMissing = route?.name === 'not-found' || (['article', 'magazine', 'magazine-category', 'product', 'prompt', 'newsletter-issue', 'analysis-article', 'project', 'video-story'].includes(route?.name) && !item);
     const isCanonicalHost = ['worldarchjournal.com', 'www.worldarchjournal.com'].includes(window.location.hostname);
+    const tourComingSoon = ['virtual-tour-the-voids', 'virtual-tour-narbon', 'virtual-tour-safadasht'].includes(route?.name) && item?.tourLive === false;
 
-    let title = 'WORLD ARCH JOURNAL | Facade, Spatial Design & Visualisation';
+    let title = 'Architecture Magazine & Design Services | World Arch Journal';
     let description = 'Explore global architecture, bespoke facade design, spatial design, architectural visualisation, BIM and Revit resources, original magazines and evidence-led research by World Arch Journal.';
     let image = absoluteAsset(siteUrl, DEFAULT_IMAGE);
     let ogType = 'website';
@@ -87,11 +96,11 @@ export default function SiteSeo({ content, route }) {
       ogType = 'video.other';
     } else if (route?.name === 'newsletter-hub') {
       title = `Architecture Newsletter | ${name}`;
-      description = 'Dated architecture news editions with fresh reporting, direct source links and original editorial commentary.';
+      description = 'Dated architecture news editions with fresh reporting, direct source links and original editorial commentary — plus long-form analysis and field notes.';
       image = absoluteAsset(siteUrl, newsletterIssues[0].image);
     } else if (route?.name === 'analysis-hub') {
       title = `Architecture Analysis & Field Notes | ${name}`;
-      description = 'Independent long-form architecture analysis and practical building field notes, separate from the daily news briefing.';
+      description = 'Independent long-form architecture analysis and practical building field notes from World Arch Journal, separate from the daily news briefing.';
       image = absoluteAsset(siteUrl, editorialArticles[0].image);
     } else if (['newsletter-issue', 'analysis-article'].includes(route?.name) && item) {
       title = item.seoTitle;
@@ -105,7 +114,7 @@ export default function SiteSeo({ content, route }) {
     } else if (route?.name === 'article' && item) {
       title = item.seoTitle || `${item.title} | ${name}`;
       description = item.metaDescription || item.excerpt;
-      image = absoluteAsset(siteUrl, item.image);
+      image = absoluteAsset(siteUrl, item.cover || item.image);
       ogType = 'article';
     } else if (route?.name === 'magazine' && item) {
       title = `${item.title} | ${name}`;
@@ -113,13 +122,21 @@ export default function SiteSeo({ content, route }) {
       image = absoluteAsset(siteUrl, item.image);
       ogType = 'article';
     } else if (route?.name === 'presentation-studio') {
-      title = `Architecture Presentation Templates & Custom Design | ${name}`;
+      title = `Architecture Presentation Templates | ${name}`;
       description = 'Explore interior and exterior architecture presentation formats, editable slide decks, design boards and social cover systems, plus bespoke presentation design by World Arch Journal.';
       image = absoluteAsset(siteUrl, '/assets/candidates/office-world/scene-06-material-model-lab-v1.png');
+    } else if (route?.name === 'mineral-studio') {
+      title = `${item.name} · 4K & 16K Material Maps | ${name}`;
+      description = item.description;
+      image = absoluteAsset(siteUrl, `/assets/material-studio/mineral/${item.id}/${item.finishes[0].id}/preview.webp`);
     } else if (route?.name === 'travertine-studio') {
       title = `Travertine · 5 Colors & 4K PBR Maps | ${name}`;
       description = 'Compare five travertine color studies across three exterior facades. Explore surface lighting and download original 4K PBR maps.';
       image = absoluteAsset(siteUrl, '/assets/material-studio/travertine/scenes/villa.png');
+    } else if (route?.name === 'ceramic-studio') {
+      title = `Porcelain Stoneware · 5 Finishes & 4K PBR Maps | ${name}`;
+      description = 'Compare five porcelain stoneware finish studies across a kitchen, bathroom and living room. Explore surface lighting and download original 4K PBR maps.';
+      image = absoluteAsset(siteUrl, '/assets/material-studio/ceramic-porcelain/scenes/kitchen.png');
     } else if (route?.name === 'material-studio') {
       title = `Fluted Wood · 7 Finishes & 4K PBR Maps | ${name}`;
       description = collectionProducts[0].description;
@@ -139,8 +156,11 @@ export default function SiteSeo({ content, route }) {
       title = `Ajorbaft — Triplex Brick Residence | ${name}`;
       description = ajorbaft.description;
       image = absoluteAsset(siteUrl, ajorbaft.cover);
+    } else if (route?.name === 'about') {
+      title = `About World Arch Journal | ${name}`;
+      description = 'World Arch Journal is an independent architecture journal and remote design studio — evidence-led guides, briefings, floor plans, facades and interiors.';
     } else if (route?.name === 'atlas-villa') {
-      title = `Atlas Villa — Residential Architecture Design Study | ${name}`;
+      title = `Atlas Villa — Residential Design Study | ${name}`;
       description = 'Explore Atlas Villa, a residential architectural design study by World Arch Journal, with selected interior concepts, a ground-floor plan presentation and a link to the digital project package.';
       image = absoluteAsset(siteUrl, atlasVilla.cover);
     } else if (route?.name === 'projects-hub') {
@@ -148,16 +168,16 @@ export default function SiteSeo({ content, route }) {
       description = 'Explore Atlas Villa and Ajorbaft residential design studies alongside documented architecture, immersive tours, plans and project guides.';
       image = absoluteAsset(siteUrl, projects[0]?.cover);
     } else if (route?.name === 'project' && item) {
-      title = `${item.title}: 3D Tour, Plans & Project Guide | ${name}`;
+      title = `${item.title}: ${item.titleSuffix || '3D Tour, Plans & Project Guide'} | ${name}`;
       description = item.description;
       image = absoluteAsset(siteUrl, item.cover);
-    } else if (['virtual-tour-the-voids', 'virtual-tour-narbon'].includes(route?.name) && item) {
-      title = `${item.title} Virtual Architecture Tour | ${name}`;
-      description = `Enter an interactive spatial tour of ${item.title} in ${item.location}, with project context and links to drawings and the complete architecture guide.`;
+    } else if (['virtual-tour-the-voids', 'virtual-tour-narbon', 'virtual-tour-safadasht'].includes(route?.name) && item) {
+      title = tourComingSoon ? `${item.title} Virtual Tour — Coming Soon | ${name}` : `${item.title} Virtual Architecture Tour | ${name}`;
+      description = item.tourMetaDescription || `Enter an interactive spatial tour of ${item.title} in ${item.location}, with project context and links to drawings and the complete architecture guide.`;
       image = absoluteAsset(siteUrl, item.cover);
     } else if (route?.name === 'shop') {
       title = `Architecture Shop | ${name}`;
-      description = 'Explore architecture presentation formats, digital resources, original BIM and Revit files and editorial e-books by World Arch Journal, with a clear link to the Etsy shop.';
+      description = 'Explore architecture presentation formats, digital resources and original BIM and Revit files by World Arch Journal, with a clear link to the Etsy shop.';
     } else if (route?.name === 'product' && item) {
       title = item.seoTitle || `${item.title} | ${name}`;
       description = item.metaDescription || item.excerpt;
@@ -176,6 +196,7 @@ export default function SiteSeo({ content, route }) {
       description = 'The requested WORLD ARCH JOURNAL page is not available.';
     }
 
+    description = clampMetaDescription(description);
     document.title = title;
     setMeta('meta[name="description"]', { name: 'description', content: description });
     setMeta('meta[property="og:type"]', { property: 'og:type', content: ogType });
@@ -184,14 +205,14 @@ export default function SiteSeo({ content, route }) {
     setMeta('meta[property="og:title"]', { property: 'og:title', content: title });
     setMeta('meta[property="og:description"]', { property: 'og:description', content: description });
     setMeta('meta[property="og:image"]', { property: 'og:image', content: image });
-    setMeta('meta[property="og:image:alt"]', { property: 'og:image:alt', content: item?.imageAlt || `${name} architecture editorial` });
+    setMeta('meta[property="og:image:alt"]', { property: 'og:image:alt', content: item?.cover && item?.coverAlt ? item.coverAlt : (item?.imageAlt || `${name} architecture editorial`) });
     setMeta('meta[property="og:url"]', { property: 'og:url', content: canonicalUrl });
     setMeta('meta[name="twitter:card"]', { name: 'twitter:card', content: 'summary_large_image' });
     setMeta('meta[name="twitter:title"]', { name: 'twitter:title', content: title });
     setMeta('meta[name="twitter:description"]', { name: 'twitter:description', content: description });
     setMeta('meta[name="twitter:image"]', { name: 'twitter:image', content: image });
     const isThinPreview = (route?.name === 'prompt' && item?.access === 'premium') || (route?.name === 'material-collection' && !route.products.length);
-    setMeta('meta[name="robots"]', { name: 'robots', content: !isCanonicalHost || route?.name === 'admin' || isMissing ? 'noindex, nofollow, noarchive' : isThinPreview ? 'noindex, follow, max-image-preview:large' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' });
+    setMeta('meta[name="robots"]', { name: 'robots', content: !isCanonicalHost || route?.name === 'admin' || isMissing || tourComingSoon ? 'noindex, nofollow, noarchive' : isThinPreview ? 'noindex, follow, max-image-preview:large' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' });
 
     let canonical = document.head.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -207,8 +228,10 @@ export default function SiteSeo({ content, route }) {
       .filter(Boolean))];
     const publisher = {
       '@type': 'Organization',
+      '@id': `${siteUrl}/#organization`,
       name,
       url: siteUrl,
+      description: 'World Arch Journal is an English-language online architecture magazine publishing evidence-led articles, analysis and field notes on architecture, interiors and cities, alongside architecture and interior design services offered remotely worldwide.',
       logo: { '@type': 'ImageObject', url: absoluteAsset(siteUrl, '/assets/brand/world-arch-wa-mark-v1.png') },
       ...(sameAs.length ? { sameAs } : {}),
     };
@@ -237,7 +260,11 @@ export default function SiteSeo({ content, route }) {
       serviceType: (content?.services || []).map((service) => service.title),
     };
 
-    if (route?.name === 'travertine-studio') {
+    if (route?.name === 'mineral-studio') {
+      structuredData = { '@context':'https://schema.org', '@type':'CreativeWork', name:item.name, description, url:canonicalUrl, image, creator:publisher, isPartOf:{'@type':'CollectionPage',url:`${siteUrl}/materials/`} };
+    } else if (route?.name === 'ceramic-studio') {
+      structuredData = {'@context':'https://schema.org','@type':'CreativeWork',name:'Porcelain stoneware',description,url:canonicalUrl};
+    } else if (route?.name === 'travertine-studio') {
       structuredData = {'@context':'https://schema.org','@type':'CreativeWork',name:'Vein-cut travertine',description,url:canonicalUrl};
     } else if (route?.name === 'material-studio') {
       structuredData = { '@context':'https://schema.org', '@type':'CreativeWork', name:'Original fluted wood', description, url:canonicalUrl, isPartOf:{'@type':'CollectionPage',url:`${siteUrl}/materials/`} };
@@ -265,17 +292,24 @@ export default function SiteSeo({ content, route }) {
         { '@type': 'CreativeWork', name: ajorbaft.title, alternateName: ajorbaft.subtitle, description, url: canonicalUrl, image, inLanguage: 'en', about: ajorbaft.tags, publisher },
         breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Projects', pathname: '/projects/' }, { name: ajorbaft.title, pathname: ajorbaft.path }]),
       ] };
+    } else if (route?.name === 'about') {
+      structuredData = { '@context': 'https://schema.org', '@type': 'AboutPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, mainEntity: { '@type': 'Organization', name, url: siteUrl, logo: publisher.logo } };
     } else if (route?.name === 'atlas-villa') {
       structuredData = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: atlasVilla.title, alternateName: 'Residential architectural design study', description, url: canonicalUrl, image, inLanguage: 'en', creator: { '@type': 'Organization', name: 'World Arch Journal' }, about: ['Residential architecture', 'Villa design', 'Interior concepts', 'Architectural visualisation'], subjectOf: { '@type': 'Product', name: 'Atlas Villa digital project package', url: atlasVilla.etsyUrl }, publisher };
     } else if (route?.name === 'projects-hub') {
       structuredData = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, hasPart: [...projects.map((project) => ({ '@type': 'CreativeWork', name: project.title, url: `${siteUrl}${project.detailPath}`, image: absoluteAsset(siteUrl, project.cover) })), ...[atlasVilla, ajorbaft].map(project => ({ '@type': 'CreativeWork', name: project.title, url: `${siteUrl}${project.path}`, image: absoluteAsset(siteUrl, project.cover) }))] };
     } else if (route?.name === 'project' && item) {
-      structuredData = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: item.title, description, url: canonicalUrl, image, inLanguage: 'en', creator: { '@type': 'Organization', name: item.studio }, locationCreated: { '@type': 'Place', name: item.location }, associatedMedia: [{ '@type': 'MediaObject', contentUrl: `${siteUrl}${item.tourPath}`, encodingFormat: 'text/html' }, { '@type': 'DigitalDocument', contentUrl: `${siteUrl}${item.guidePath}`, encodingFormat: 'application/pdf' }], publisher };
-    } else if (['virtual-tour-the-voids', 'virtual-tour-narbon'].includes(route?.name) && item) {
-      structuredData = { '@context': 'https://schema.org', '@graph': [
-        { '@type': 'CreativeWork', name: `${item.title} Virtual Architecture Tour`, description, url: canonicalUrl, image, inLanguage: 'en', about: { '@type': 'ArchitecturalStructure', name: item.title, address: item.location }, creator: publisher, isPartOf: { '@type': 'CreativeWork', name: item.title, url: `${siteUrl}${item.detailPath}` } },
-        breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Projects', pathname: '/projects/' }, { name: item.title, pathname: item.detailPath }, { name: 'Virtual tour', pathname: normalizedPath }]),
-      ] };
+      structuredData = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: item.title, description, url: canonicalUrl, image, inLanguage: 'en', creator: { '@type': 'Organization', name: item.studio }, locationCreated: { '@type': 'Place', name: item.location }, associatedMedia: [...(item.tourLive === false ? [] : [{ '@type': 'MediaObject', contentUrl: `${siteUrl}${item.tourPath}`, encodingFormat: 'text/html' }]), ...(item.guidePath ? [{ '@type': 'DigitalDocument', contentUrl: `${siteUrl}${item.guidePath}`, encodingFormat: 'application/pdf' }] : [])], publisher };
+    } else if (['virtual-tour-the-voids', 'virtual-tour-narbon', 'virtual-tour-safadasht'].includes(route?.name) && item) {
+      structuredData = tourComingSoon
+        ? { '@context': 'https://schema.org', '@graph': [
+          { '@type': 'WebPage', name: title, description, url: canonicalUrl, image, inLanguage: 'en', isPartOf: { '@type': 'CreativeWork', name: item.title, url: `${siteUrl}${item.detailPath}` }, publisher },
+          breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Projects', pathname: '/projects/' }, { name: item.title, pathname: item.detailPath }, { name: 'Virtual tour — coming soon', pathname: normalizedPath }]),
+        ] }
+        : { '@context': 'https://schema.org', '@graph': [
+          { '@type': 'CreativeWork', name: `${item.title} Virtual Architecture Tour`, description, url: canonicalUrl, image, inLanguage: 'en', about: { '@type': 'ArchitecturalStructure', name: item.title, address: item.location }, creator: publisher, isPartOf: { '@type': 'CreativeWork', name: item.title, url: `${siteUrl}${item.detailPath}` } },
+          breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Projects', pathname: '/projects/' }, { name: item.title, pathname: item.detailPath }, { name: 'Virtual tour', pathname: normalizedPath }]),
+        ] };
     } else if (['newsletter-hub', 'analysis-hub'].includes(route?.name)) {
       const entries = route.name === 'analysis-hub' ? editorialArticles : newsletterIssues;
       structuredData = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, hasPart: entries.map((issue) => ({ '@type': 'Article', name: issue.title, url: `${siteUrl}${editorialPath(issue)}` })) };
@@ -292,7 +326,7 @@ export default function SiteSeo({ content, route }) {
       structuredData = {
         '@context': 'https://schema.org',
         '@graph': [
-          { '@type': 'Article', headline: item.title, description: item.metaDescription || item.excerpt, mainEntityOfPage: canonicalUrl, image: [image], author: { '@type': 'Organization', name: item.author || 'World Arch Journal', url: `${siteUrl}/editorial-team/` }, publisher, articleSection: item.category, keywords: (item.tags || []).join(', '), inLanguage: 'en', isAccessibleForFree: true, ...(item.publishedAt ? { datePublished: item.publishedAt } : {}), ...(item.modifiedAt ? { dateModified: item.modifiedAt } : {}) },
+          { '@type': 'Article', headline: item.title, description: item.metaDescription || item.excerpt, mainEntityOfPage: canonicalUrl, image: [image], author: { '@type': 'Organization', name: item.author || 'World Arch Journal', url: `${siteUrl}/editorial-team/` }, publisher, articleSection: item.category, keywords: (item.tags || []).join(', '), citation: (item.evidence || []).map((source) => source.source_url).filter(Boolean), inLanguage: 'en', isAccessibleForFree: true, ...(item.publishedAt ? { datePublished: item.publishedAt } : {}), ...(item.modifiedAt ? { dateModified: item.modifiedAt } : {}) },
           breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Magazine', pathname: '/magazine/' }, { name: item.title, pathname: normalizedPath }]),
           ...(item.faq?.length ? [{ '@type': 'FAQPage', mainEntity: item.faq.map((entry) => ({ '@type': 'Question', name: entry.question, acceptedAnswer: { '@type': 'Answer', text: entry.answer } })) }] : []),
         ],
@@ -315,6 +349,13 @@ export default function SiteSeo({ content, route }) {
       ] };
     } else if (legalTitle) {
       structuredData = { '@context': 'https://schema.org', '@type': 'WebPage', name: legalTitle, description, url: canonicalUrl, inLanguage: 'en', publisher };
+    }
+
+    if (normalizedPath === '/' && !isMissing) {
+      structuredData = { '@context': 'https://schema.org', '@graph': [
+        { '@type': 'WebSite', '@id': `${siteUrl}/#website`, name, url: siteUrl, inLanguage: 'en', publisher },
+        structuredData,
+      ] };
     }
 
     let script = document.head.querySelector('script[data-eyvan-schema], script[data-static-schema]');

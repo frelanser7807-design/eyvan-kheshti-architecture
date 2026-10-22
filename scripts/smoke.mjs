@@ -116,7 +116,7 @@ if (!cinematic.includes('site-cinematic-score-v3.wav')) throw new Error('Soundtr
 if (!cinematic.includes("const language = 'en'") || cinematic.includes('founderName')) throw new Error('English public identity must use the journal brand.');
 if (cinematic.includes('LONDON STUDIO')) throw new Error('Unverified physical studio location must not be published');
 
-for (const key of ['projects', 'services', 'tutorials', 'insights', 'guides', 'library', 'ebooks', 'products', 'story']) {
+for (const key of ['projects', 'services', 'tutorials', 'insights', 'guides', 'library', 'products', 'story']) {
   if (!Array.isArray(defaultContent[key])) throw new Error('Missing content collection: ' + key);
   const ids = defaultContent[key].map((item) => item.id);
   if (ids.length !== new Set(ids).size) throw new Error('Duplicate content id in ' + key);
@@ -141,15 +141,13 @@ if (cinematic.includes('ek-menu-trigger') || cinematic.includes('studio-menu')) 
 if (!cinematic.includes("sceneIndex > 0 ? 'is-visible' : ''")) throw new Error('Floating navigation must remain hidden through video one and begin on video two.');
 if (!cinematic.includes('<SiteSearch') || !cinematic.includes('sceneIndex <= 0')) throw new Error('Opening smart site search is missing.');
 if (!cinematic.includes("window.location.assign('/projects/')")) throw new Error('Missing projects hub navigation target.');
-for (const target of ['services', 'tutorials', 'journal', 'objects', 'ebooks', 'atlas', 'app', 'shop']) {
+for (const target of ['services', 'tutorials', 'journal', 'objects', 'atlas', 'app', 'shop']) {
   if (!cinematic.includes(`scrollToSection('${target}')`)) throw new Error('Missing floating navigation target: ' + target);
 }
 const editorial = await readFile(join(root, 'src/components/EditorialSections.jsx'), 'utf8');
 if (!editorial.includes('beforeinstallprompt') || !editorial.includes('Add to Home Screen') || !editorial.includes('BIM Object Library')) throw new Error('Installable app guide or download library is incomplete.');
-if (!editorial.includes('Architecture E-Books') || !editorial.includes('No price, purchase or download is active yet.')) throw new Error('Architecture e-books preview boundary is missing.');
 if (!editorial.includes('Architecture Magazine') || !editorial.includes('onOpenMagazine')) throw new Error('Magazine section is not connected.');
 if (!editorial.includes('Read full article') || !editorial.includes('onOpenArticle')) throw new Error('Articles section is not connected.');
-if (defaultContent.ebooks.some((item) => item.price || item.url)) throw new Error('Architecture e-books must not expose pricing or downloads before launch.');
 if (defaultContent.library.some((item) => item.url)) throw new Error('BIM library downloads must remain inactive in this preview.');
 if (!defaultContent.library.some((item) => item.accessTier === 'free') || !defaultContent.library.some((item) => item.accessTier === 'premium')) throw new Error('BIM freemium tiers are incomplete.');
 const articleData = await readFile(join(root, 'src/data/articles.js'), 'utf8');
@@ -290,9 +288,23 @@ const materialSizeMb = (await directorySize(join(root, 'dist/assets/material-stu
 // Measured CI-generated travertine assets: 110.11 MiB; 112 MiB allowance.
 const stoneSizeMb = (await directorySize(join(root, 'dist/assets/material-studio/travertine'))) / (1024 * 1024);
 if (stoneSizeMb > 112) throw new Error(`Travertine assets exceed 112 MB: ${stoneSizeMb.toFixed(2)} MB`);
-if (materialSizeMb - stoneSizeMb > 90) throw new Error('Existing material assets exceed their unchanged 90 MB budget');
-if (distSizeMb - materialSizeMb > 235) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 235 MB`);
+// Measured CI-generated ceramic porcelain assets: 76.53 MiB; 84 MiB allowance.
+const ceramicSizeMb = (await directorySize(join(root, 'dist/assets/material-studio/ceramic-porcelain'))) / (1024 * 1024);
+if (ceramicSizeMb > 84) throw new Error(`Ceramic porcelain assets exceed 84 MB: ${ceramicSizeMb.toFixed(2)} MB`);
+// New concrete and microcement packs include on-demand 16K tiled editions.
+// Keep their download budget separate from the unchanged legacy library.
+const mineralSizeMb = (await directorySize(join(root, 'dist/assets/material-studio/mineral'))) / (1024 * 1024);
+const compositeSizeMb = (await directorySize(join(root, 'dist/assets/material-studio/mineral/aluminium-composite'))) / (1024 * 1024);
+if (compositeSizeMb > 420) throw new Error(`Composite downloads exceed 420 MB: ${compositeSizeMb.toFixed(2)} MB`);
+if (mineralSizeMb - compositeSizeMb > 950) throw new Error(`Concrete/microcement downloads exceed 950 MB: ${(mineralSizeMb - compositeSizeMb).toFixed(2)} MB`);
+if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new Error('Existing material assets exceed their unchanged 90 MB budget');
+// Non-material budget: measured 232.8 MB at origin/main (30d2840) before the daily
+// content program's first run; one optimized daily batch (2 illustrated articles +
+// 1 newsletter, images at 1400px/q72) adds ~16 MB. Raised 235 -> 260 on 2026-10-22
+// to accommodate the standing daily program. NOTE: at ~16 MB/day this gate needs a
+// sustainable model (per-article budget or growth allowance) — revisit soon.
+if (distSizeMb - materialSizeMb > 260) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 260 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));

@@ -224,6 +224,27 @@ a:focus-visible {
   font-size: 0.8rem;
   color: #656b64;
 }
+.photo-essay figure {
+  margin: 0 0 3.5rem;
+}
+.photo-essay figure:last-of-type {
+  margin-bottom: 0;
+}
+.photo-essay img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.photo-essay figcaption {
+  font-size: 0.8rem;
+  color: #656b64;
+  margin-top: 12px;
+  max-width: 76ch;
+  line-height: 1.6;
+}
+.photo-essay figcaption a {
+  color: inherit;
+}
 .sources {
   padding: 60px 0;
 }

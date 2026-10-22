@@ -1,9 +1,22 @@
 import { useEffect, useState } from 'react';
 
 const CONSENT_KEY = 'world_arch_analytics_consent_v1';
-const MEASUREMENT_ID = String(import.meta.env.VITE_GA_MEASUREMENT_ID || '').trim();
-const CLARITY_PROJECT_ID = String(import.meta.env.VITE_CLARITY_PROJECT_ID || '').trim();
+const MEASUREMENT_ID = String(import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-KWCNH012H1').trim();
+const CLARITY_PROJECT_ID = String(import.meta.env.VITE_CLARITY_PROJECT_ID || 'yuhqthxem8').trim();
 const ATTRIBUTION_KEY = 'world_arch_attribution_v1';
+
+// Some browsers disable storage even on public pages. Analytics and the consent
+// dialog must not take down the application when persistence is unavailable.
+const memoryStorage = new Map();
+function stored(kind, key, value) {
+  const memoryKey = `${kind}:${key}`;
+  if (value !== undefined) memoryStorage.set(memoryKey, value);
+  try {
+    const storage = window[kind];
+    if (value !== undefined) storage.setItem(key, value);
+    return storage.getItem(key) ?? memoryStorage.get(memoryKey) ?? null;
+  } catch { return memoryStorage.get(memoryKey) ?? null; }
+}
 
 function captureAttribution() {
   const params = new URLSearchParams(window.location.search);
@@ -12,7 +25,7 @@ function captureAttribution() {
     .filter(([, value]) => value));
   if (!Object.keys(campaign).length) return null;
   const payload = { ...campaign, landing_page: window.location.pathname, captured_at: new Date().toISOString() };
-  localStorage.setItem(ATTRIBUTION_KEY, JSON.stringify(payload));
+  stored('localStorage', ATTRIBUTION_KEY, JSON.stringify(payload));
   return payload;
 }
 
@@ -38,20 +51,25 @@ function loadGoogleAnalytics() {
     ad_personalization: 'denied',
     wait_for_update: 500,
   });
-  updateGoogleConsent('granted');
+  // Advanced consent mode: the tag loads for every visitor with storage
+  // denied by default. Until the visitor grants consent, Google receives
+  // only cookieless pings and no analytics cookies are set. A stored
+  // 'granted' choice is re-applied before the first page view.
+  if (stored('localStorage', CONSENT_KEY) === 'granted') updateGoogleConsent('granted');
   window.gtag('config', MEASUREMENT_ID, {
     anonymize_ip: true,
     allow_google_signals: false,
     send_page_view: true,
   });
   const attribution = captureAttribution();
-  if (attribution && sessionStorage.getItem(`${ATTRIBUTION_KEY}_sent`) !== 'true') {
+  if (attribution && stored('sessionStorage', `${ATTRIBUTION_KEY}_sent`) !== 'true') {
     window.gtag('event', 'campaign_landing', attribution);
-    sessionStorage.setItem(`${ATTRIBUTION_KEY}_sent`, 'true');
+    stored('sessionStorage', `${ATTRIBUTION_KEY}_sent`, 'true');
   }
   const script = document.createElement('script');
   script.id = 'world-arch-ga4';
   script.async = true;
+  script.onerror = () => script.remove();
   script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(MEASUREMENT_ID)}`;
   document.head.appendChild(script);
 }
@@ -78,17 +96,18 @@ function loadMicrosoftClarity() {
 }
 
 export function trackSiteEvent(name, parameters = {}) {
-  if (localStorage.getItem(CONSENT_KEY) !== 'granted' || typeof window.gtag !== 'function') return;
+  if (stored('localStorage', CONSENT_KEY) !== 'granted' || typeof window.gtag !== 'function') return;
   window.gtag('event', name, parameters);
 }
 
 export default function AnalyticsConsent() {
-  const [choice, setChoice] = useState(() => localStorage.getItem(CONSENT_KEY) || 'unset');
-  const [open, setOpen] = useState(() => !localStorage.getItem(CONSENT_KEY));
+  const [choice, setChoice] = useState(() => stored('localStorage', CONSENT_KEY) || 'unset');
+  const [open, setOpen] = useState(() => !stored('localStorage', CONSENT_KEY));
 
   useEffect(() => {
+    loadGoogleAnalytics();
     if (choice === 'granted') {
-      loadGoogleAnalytics();
+      updateGoogleConsent('granted');
       loadMicrosoftClarity();
     }
     if (choice === 'denied') {
@@ -161,7 +180,7 @@ export default function AnalyticsConsent() {
   if (!MEASUREMENT_ID && !CLARITY_PROJECT_ID) return null;
 
   const saveChoice = (value) => {
-    localStorage.setItem(CONSENT_KEY, value);
+    stored('localStorage', CONSENT_KEY, value);
     setChoice(value);
     setOpen(false);
   };

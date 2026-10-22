@@ -1,9 +1,9 @@
 const smallCourtyardDesign = {
   id: 'article-small-courtyard-design',
   slug: 'small-courtyard-design-light-privacy-cooling',
-  title: 'Small Courtyard Design: 9 Moves for Light, Privacy and Cooling',
-  seoTitle: 'Small Courtyard Design: Light, Privacy & Cooling',
-  metaDescription: 'Small courtyard design explained through nine architectural moves for daylight, privacy, ventilation, planting and year-round comfort.',
+  title: 'Courtyard House Design: 9 Moves for Light, Privacy and Cooling',
+  seoTitle: 'Courtyard House Design: Light, Privacy & Cooling',
+  metaDescription: 'Courtyard house design for small plots: nine moves for daylight, privacy, ventilation, planting and cooling — proportions, sections and materials.',
   category: 'Courtyard Design',
   meta: '15 MIN READ · 5 EDITORIAL VISUALS',
   status: 'INTERNATIONAL DESIGN GUIDE · 2026',
@@ -11,10 +11,14 @@ const smallCourtyardDesign = {
   image: '/assets/articles/small-courtyard-design/courtyard-house-thailand.jpg',
   imageWidth: 960,
   imageHeight: 1164,
+  cover: '/assets/articles/small-courtyard-design-light-privacy-cooling/cover.webp',
+  coverAlt: 'World Arch Journal cover: Small Courtyard, Big Impact — can a compact courtyard bring more light, more privacy and natural cooling? Discover 9 smart design moves inside — a planted courtyard with a water rill',
+  coverWidth: 800,
+  coverHeight: 1200,
   imageAlt: 'Compact courtyard house in Thailand with layered balconies, planting and shaded openings',
   visualLabel: 'FIG. 01 · COURTYARD HOUSE, THAILAND · ONG-ARD ARCHITECTS / WIKIMEDIA COMMONS, CC BY-SA 3.0 · RESIZED',
   publishedAt: '2026-09-23',
-  modifiedAt: '2026-09-23',
+  modifiedAt: '2026-10-22',
   toc: [
     ['why-now', 'Why small courtyards are back'],
     ['move-1', '1. Set the courtyard’s job'],
@@ -29,6 +33,7 @@ const smallCourtyardDesign = {
     ['checklist', 'The compact-courtyard checklist'],
   ],
   contentHtml: `
+    <p><strong>Courtyard house design</strong> organises a home around an open-air court, so the rooms gain daylight, privacy and moving air from the middle of the plan instead of relying on the street frontage alone. On a small plot it works when the court is designed in section — its height, width, openings and planting treated as a microclimate — rather than left over as unused space between rooms.</p>
     <p>Small courtyards are returning to the centre of residential design because they answer several pressures at once: tighter plots, demand for privacy, limited street frontage and a renewed interest in outdoor rooms. Houzz reported that US searches for “small courtyards” rose 63% year over year in its 2026 emerging summer trends data. The number signals interest, not a universal solution. A courtyard only earns its area when it improves the rooms around it.</p>
     <p>The most successful compact courtyards are not miniature gardens inserted after the plan is finished. They are environmental and spatial devices. They can bring daylight to deep plans, create a protected view, support ventilation, establish a private centre and make circulation feel larger than its measured width. The same enclosure can also trap heat, noise, moisture or polluted air when its geometry and openings are poorly resolved.</p>
     <p>This guide translates research and precedent into nine design moves. It is international editorial guidance rather than a substitute for local daylight, fire, ventilation, drainage, accessibility or planning requirements. Climate, neighbours and the actual dimensions of the site must lead every decision.</p>
@@ -56,7 +61,7 @@ const smallCourtyardDesign = {
     <h2 id="move-4">4. Build a complete air path</h2>
     <p>An open courtyard does not guarantee ventilation. Air needs an inlet, a route through occupied space and an outlet driven by pressure or temperature difference. A sealed street facade with every room opening only to a sheltered court may produce weak cross-flow. An unprotected opening can also bring traffic pollution, smoke, noise or security risk.</p>
     <p>Map arrows through the whole dwelling and test them against prevailing winds, surrounding buildings and stack effect. High-level vents can release warm air; opposite openings can support cross-ventilation; ceiling fans can extend comfort at lower air speeds. Every operable element needs safe control during rain, heat, poor outdoor air or absence.</p>
-    <p>A study of courtyard housing across climates found that design variants changed thermal comfort and utility outcomes, reinforcing that the court is not a universal passive-cooling device. For a detailed envelope workflow, pair this article with our <a href="/articles/climate-responsive-facades-cooling-design/">climate-responsive facade guide</a>.</p>
+    <p>A study of courtyard housing across climates found that design variants changed thermal comfort and utility outcomes, reinforcing that the court is not a universal passive-cooling device. Our <a href="/articles/courtyard-wind-house-passive-cooling/">courtyard passive-cooling house study</a> applies the same complete air path to a whole dwelling. For a detailed envelope workflow, pair this article with our <a href="/articles/climate-responsive-facades-cooling-design/">climate-responsive facade guide</a>.</p>
 
     <h2 id="move-5">5. Put thresholds to work</h2>
     <p>The richest courtyard plans are made from thresholds rather than a hard line between inside and outside. A covered gallery, deep doorway, window seat, bench, step or sliding screen lets the court expand and contract with weather. These intermediate zones create shade, store shoes, frame planting and give people somewhere to pause without occupying the centre.</p>
@@ -98,6 +103,8 @@ const smallCourtyardDesign = {
     <h2 id="conclusion">Design the courtyard as a room and a climate</h2>
     <p>The small courtyard is powerful because it can do more than one job in one place. It can make a compact home feel outward-looking, organise circulation, protect privacy and moderate light and air. Its value comes from relationships, not decoration.</p>
     <p>Start with the section, define a complete environmental path and make every edge useful. Then test the result against climate, neighbours, maintenance and daily life. When those layers align, a small courtyard stops being a gap in the plan and becomes the room that explains the house.</p>
+  
+    <p><strong>Continue exploring:</strong> the courtyard at villa scale is documented in <a href="/projects/the-voids-villa/">The Voids Villa project file</a> — three levels of connected courts with the full drawing set — and you can stand inside it in the <a href="/virtual-tours/the-voids-villa/">360° tour</a>. The same light-first logic shapes our guide to <a href="/articles/modern-villa-reimagined-7-design-principles/">modern villa design</a>.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international residential design guide'],
@@ -115,11 +122,14 @@ const smallCourtyardDesign = {
   ],
   scope: 'This article is general editorial guidance, not project-specific architectural, engineering, planning, fire, accessibility or environmental advice. Performance depends on climate, context, dimensions, materials, operation and local regulation.',
   faq: [
+    { question: 'What are the benefits of a courtyard house?', answer: 'A courtyard gives deep or narrow plans a second orientation: daylight and ventilation reach the middle of the home, rooms gain a private outlook that does not depend on the street, and the court works at once as an outdoor room, a circulation organiser and a cooling device. The trade-off is floor area — the court earns it only when it improves the rooms around it.' },
+    { question: 'Can courtyard house plans work on small lots?', answer: 'Yes. Compact courts are often most valuable on tight, overlooked plots, where they turn the house inward without making it dark. Even a two-metre light court can transform a deep plan when its section is designed for sky view and air movement; what fails on a small lot is a leftover void with no defined job.' },
     { question: 'What is the best size for a small courtyard?', answer: 'There is no universal minimum or ideal size. The useful dimension depends on building height, latitude, climate, required daylight, ventilation, privacy, access and surrounding rooms. Test the section rather than copying one ratio.' },
     { question: 'Can a small courtyard cool a house?', answer: 'It can support shade, night cooling and ventilation in suitable climates, but it can also trap heat or still air. Performance depends on geometry, openings, mass, planting, surfaces and the complete airflow path.' },
     { question: 'How do you bring light into rooms around a narrow courtyard?', answer: 'Prioritise sky view, pale non-dazzling surfaces, clerestories, high-level glazing, borrowed light and careful room depth. Check glare and privacy rather than simply adding glass.' },
     { question: 'Which plants work best in a courtyard?', answer: 'Choose plants from measured sun, shade, wind, root volume and irrigation conditions. Mature canopy and maintenance access matter more than appearance in a mood board.' },
     { question: 'Does a courtyard need a water feature?', answer: 'No. Water may add sound and support evaporative cooling in some dry climates, but it brings maintenance, hygiene, safety and water-use questions. It should have a defined purpose.' },
+    { question: 'What is the difference between an atrium and a courtyard?', answer: 'A courtyard is open to the sky; an atrium is a similar internal void covered by a glazed roof. The open courtyard ventilates freely and cools through shade, convection and the night sky, while the covered atrium admits light but needs deliberate venting so it does not trap heat.' },
   ],
   evidence: [
     { publisher: 'Houzz', source_url: 'https://blog.houzz.com/2026-u-s-houzz-emerging-summer-trends-report/', claim: 'Reported a 63% year-over-year rise in US searches for “small courtyards” in early 2026.', limitations: 'Platform search trend, not a population survey or measure of completed construction.' },

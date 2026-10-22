@@ -88,7 +88,6 @@ function normalizeContent(value = {}) {
     insights: Array.isArray(value.insights) ? value.insights : clone(defaultContent.insights),
     guides: Array.isArray(value.guides) ? value.guides : clone(defaultContent.guides),
     library: Array.isArray(value.library) ? value.library : clone(defaultContent.library),
-    ebooks: Array.isArray(value.ebooks) ? value.ebooks : clone(defaultContent.ebooks),
     products: [...products, ...extraProducts],
     story: Array.isArray(value.story) ? value.story.map((item) => {
       if (item.id !== 'arrival') return item;

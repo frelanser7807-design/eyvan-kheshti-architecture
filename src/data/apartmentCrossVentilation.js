@@ -9,12 +9,17 @@ const apartmentCrossVentilation = {
   status: 'APARTMENT PERFORMANCE CLUSTER · 2026',
   excerpt: 'Cross ventilation is not achieved by adding more windows. It depends on pressure, a complete air path and an operating plan that still works when noise, heat, smoke or security keeps openings closed.',
   image: '/assets/articles/apartment-cross-ventilation/hero-air-path.png',
+  imageWebp: '/assets/articles/apartment-cross-ventilation/hero-air-path.webp',
   imageWidth: 1600,
   imageHeight: 900,
+  cover: '/assets/articles/cross-ventilation-apartment-design/cover.webp',
+  coverAlt: 'World Arch Journal cover: Cross Ventilation in Apartment Design, natural airflow for healthier, cooler homes — blue airflow arrows moving through an open-plan apartment living room',
+  coverWidth: 800,
+  coverHeight: 1200,
   imageAlt: 'Original apartment section diagram showing a complete cross-ventilation path between opposite facades',
   visualLabel: 'FIG. 01 · COMPLETE AIR PATH THROUGH AN APARTMENT · ORIGINAL WORLD ARCH JOURNAL DIAGRAM, 2026; NOT A PERFORMANCE SIMULATION.',
   publishedAt: '2026-10-09',
-  modifiedAt: '2026-10-09',
+  modifiedAt: '2026-10-22',
   toc: [
     ['definition', 'What cross ventilation really means'],
     ['moves', 'Nine design moves'],
@@ -23,7 +28,7 @@ const apartmentCrossVentilation = {
     ['audit', 'A 20-minute drawing audit'],
   ],
   contentHtml: `
-    <p><strong>Cross ventilation is a route, not a window count.</strong> Outdoor air must enter through a usable opening, pass through occupied space and leave through another opening under a pressure difference. If a closed bedroom door, deep internal corridor or sealed façade interrupts that route, two attractive windows may still produce weak ventilation.</p>
+    <p><strong>Cross ventilation is a route, not a window count.</strong> Outdoor air must enter through a usable opening, pass through occupied space and leave through another opening under a pressure difference. If a closed bedroom door, deep internal corridor or sealed façade interrupts that route, two attractive windows may still produce weak ventilation. When the route does work, the home also gains the moving air, scent and seasonal sound that <a href="/articles/biophilic-design-architecture-wellbeing/">biophilic design architects</a> treat as materials in their own right.</p>
     <p>This guide turns the principle into nine apartment-design moves. It is international editorial guidance, not a code shortcut or a promise of comfort. Wind, temperature, humidity, outdoor air quality, noise, fire safety, security and occupant behaviour all change the result. A real project needs local regulations and project-specific environmental analysis.</p>
 
     <h2 id="definition">What cross ventilation really means</h2>
@@ -72,6 +77,8 @@ const apartmentCrossVentilation = {
       <li><strong>Verify locally</strong> with the project engineer and current regulations.</li>
     </ol>
     <p>The most honest ventilation diagram contains conditions and boundaries, not only blue arrows. Cross ventilation can make an apartment more adaptable and reduce reliance on cooling during suitable weather, but it succeeds only when architecture, climate, systems and daily life describe the same operable route.</p>
+  
+    <p><strong>Continue exploring:</strong> air paths are clearest in section. The <a href="/projects/narbon-villa/">Narbon Villa project file</a> documents a house whose two sky rifts pull daylight and air through every level — open its drawings to see the strategy at full scale.</p>
   `,
   facts: [
     ['FORMAT', 'International apartment-performance guide'],
@@ -93,6 +100,8 @@ const apartmentCrossVentilation = {
     { question: 'Can a single-aspect apartment be naturally ventilated?', answer: 'It may receive single-sided ventilation, but effectiveness usually falls with room depth and weak wind or temperature differences. A project-specific assessment and reliable mechanical strategy may still be required.' },
     { question: 'Does cross ventilation prevent overheating?', answer: 'Not by itself. Solar gain, outdoor temperature, humidity, thermal mass, internal gains, opening usability and night conditions all matter.' },
     { question: 'Should internal doors stay open for cross ventilation?', answer: 'Only if privacy, acoustics, fire safety and the operating plan allow it. Transfer openings or mechanical alternatives may be needed, subject to local requirements.' },
+    { question: 'What is the difference between cross ventilation and stack ventilation?', answer: 'Cross ventilation is wind-driven: pressure differences push air horizontally from openings on one facade, through the plan and out of openings on another. Stack ventilation is buoyancy-driven: warm air rises and escapes at height, drawing cooler air in below. Many good plans combine both — cross flow for occupied hours, a stack path for still, hot nights.' },
+    { question: 'How can I improve cross ventilation in an existing apartment?', answer: 'Start with the route, not the windows: keep internal doors or transoms open where privacy and fire rules allow, avoid blocking the inlet-to-outlet path with tall furniture, open high and low openings together at night, and use insect screens and secure night latches so the route can stay open. If the flat is single-aspect, a ceiling or wall fan extends the hours the partial path feels useful.' },
   ],
   evidence: [
     { publisher: 'UK Government — Approved Document O', source_url: 'https://www.gov.uk/government/publications/overheating-approved-document-o', claim: 'Provides England-specific guidance for limiting solar gains and removing excess heat, including a defined simplified-method treatment of cross ventilation.', limitations: 'Applies to relevant new residential buildings in England; it is not an international code or a calculation for any apartment shown here.' },

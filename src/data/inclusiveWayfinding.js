@@ -9,12 +9,17 @@ const inclusiveWayfinding = {
   status: 'INTERNATIONAL DESIGN GUIDE · 2026',
   excerpt: 'Good wayfinding is built into the route, thresholds, landmarks and information hierarchy—not solved by adding a sign at every junction. A practical guide for inclusive civic, cultural and public interiors.',
   image: '/assets/articles/inclusive-wayfinding-public-buildings/hero.png',
+  imageWebp: '/assets/articles/inclusive-wayfinding-public-buildings/hero.webp',
   imageWidth: 1536,
   imageHeight: 1024,
+  cover: '/assets/articles/inclusive-wayfinding-public-buildings/cover.webp',
+  coverAlt: 'World Arch Journal cover: Inclusive Wayfinding in Public Buildings, clearer spaces for everyone — a wheelchair user following tactile paving past a large multilingual direction totem in a public lobby',
+  coverWidth: 800,
+  coverHeight: 1200,
   imageAlt: 'Bright civic library lobby with clear destinations, a tactile route and visitors with different mobility needs',
   visualLabel: 'FIG. 01 · MAKE THE DESTINATION AND NEXT DECISION LEGIBLE BEFORE A VISITOR NEEDS HELP · ORIGINAL AI-ASSISTED EDITORIAL VISUAL, WORLD ARCH JOURNAL, 2026.',
   publishedAt: '2026-10-11',
-  modifiedAt: '2026-10-11',
+  modifiedAt: '2026-10-22',
   toc: [
     ['route-first', 'Start with the route, not the sign'],
     ['four-layers', 'Four layers of inclusive wayfinding'],
@@ -62,6 +67,8 @@ const inclusiveWayfinding = {
       <li><strong>Plan upkeep:</strong> assign responsibility for signs, routes, announcements, maps and construction changes.</li>
     </ol>
     <p>The strongest wayfinding system is often quieter: fewer but better decisions, a route that makes sense, and information that arrives before uncertainty. Signs matter, but their job is to reinforce an understandable building—not compensate for one that refuses to explain itself.</p>
+  
+    <p><strong>Continue exploring:</strong> access is a design brief, not an afterthought — our <a href="/newsletter/architecture-briefing-2026-10-07/">7 October briefing</a> asks who gets to learn, build and enter, and the September analysis <a href="/magazine/analysis/architecture-briefing-september-2026/">Beyond the Render</a> examines what public buildings owe the people who use them. The residential counterpart — homes that stay usable across a lifetime — is our <a href="/articles/universal-design-homes-ageing-in-place/">universal design homes</a> guide.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international public-building guide'],
@@ -83,6 +90,8 @@ const inclusiveWayfinding = {
     { question: 'Should every directional sign include Braille?', answer: 'Requirements depend on jurisdiction and sign type. For example, the U.S. ADA Standards require tactile characters and Braille for specified permanent room and space identifiers, while directional signs are generally visual under the cited guide. Confirm local rules.' },
     { question: 'Can colour alone be used to identify building zones?', answer: 'It should not carry the only identifying information. Pair colour with names, symbols, spatial cues and sufficient contrast so visitors are not dependent on hue alone.' },
     { question: 'When should wayfinding be tested?', answer: 'During design development and after opening, with first-time visitors and people with varied access needs completing real journeys in realistic operating conditions.' },
+    { question: 'What are the principles of wayfinding design?', answer: 'Plan the route before the signs: a legible plan people can read at a glance; landmarks that confirm position; consistent decision points where information arrives before the turn, not after; layered information — visual, tactile and audible — that never relies on colour alone; and testing with first-time users, including people with access needs.' },
+    { question: 'Why is wayfinding important in public buildings?', answer: 'Because independence is access. Clear routes let every visitor — including blind, low-vision, neurodivergent and first-time users — reach services without asking for help, reduce missed appointments and crowding at information desks, and make evacuation calmer and safer.' },
   ],
   evidence: [
     { publisher: 'U.S. Access Board', source_url: 'https://www.access-board.gov/ada/guides/chapter-7-signs/', claim: 'Explains ADA sign requirements, including tactile and Braille requirements for specified permanent room identifiers and visual requirements for directional and information signs.', limitations: 'U.S. ADA guidance; not an international rule and not a substitute for the current adopted standard, local code or project-specific access advice.' },

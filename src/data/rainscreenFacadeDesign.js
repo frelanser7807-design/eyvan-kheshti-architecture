@@ -11,10 +11,14 @@ const rainscreenFacadeDesign = {
   image: '/assets/articles/rainscreen-facade-design/sevilla-ventilated-facade.jpg',
   imageWidth: 1920,
   imageHeight: 1421,
+  cover: '/assets/articles/rainscreen-facade-design-water-control/cover.webp',
+  coverAlt: 'World Arch Journal cover: Looks Waterproof. But Is It? 9 hidden details behind a rainscreen facade — a cutaway through a rainscreen cladding cavity in the rain',
+  coverWidth: 800,
+  coverHeight: 1200,
   imageAlt: 'Ventilated facade of the Red Eléctrica de España building in Seville by Mariano Bayón',
   visualLabel: 'FIG. 01 · RED ELÉCTRICA DE ESPAÑA, SEVILLE · PHOTO: IVANILLICH16 / WIKIMEDIA COMMONS, CC BY 4.0 · RESIZED',
   publishedAt: '2026-09-26',
-  modifiedAt: '2026-09-26',
+  modifiedAt: '2026-10-22',
   toc: [
     ['principle', 'What a rainscreen actually does'],
     ['detail-1', '1. Design for water that gets behind'],
@@ -101,6 +105,8 @@ const rainscreenFacadeDesign = {
     <h2>Design the interfaces, not only the facade pattern</h2>
     <p>The durable rainscreen is rarely the one with the most complicated cladding. It is the one whose control layers can be traced, built, inspected and repaired. Its openings drain outward, its cavity stays clear, its brackets respect heat and water, and its fire strategy does not cancel its moisture strategy.</p>
     <p>Start with the whole-wall section, then spend design time at parapets, corners, windows, balconies, podiums and bases. When every transition answers where water goes next, the facade becomes more than a visual skin. It becomes a resilient enclosure.</p>
+  
+    <p><strong>Continue exploring:</strong> a rainscreen is a layered promise; the terrace threshold makes the same promise in miniature — read <a href="/magazine/analysis/water-at-the-threshold/">The Water Line</a> — and compare cladding surfaces in the <a href="/materials/stone/natural-stone/travertine/">travertine facade studies</a> — or, for the thermal half of the envelope story, work through our <a href="/articles/climate-responsive-facades-cooling-design/">climate responsive facade</a> guide. And where the facade meets a projecting slab, the junction rules change again — see our guide to <a href="/articles/balcony-thermal-bridges-slab-edge/">balcony thermal bridges</a>.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international detail guide'],
@@ -123,6 +129,7 @@ const rainscreenFacadeDesign = {
     { question: 'How wide should a rainscreen cavity be?', answer: 'There is no universal dimension. The required clear depth depends on cladding, joints, exposure, drainage and ventilation intent, subframing, tolerances, fire barriers and local standards.' },
     { question: 'Where do rainscreen facades usually leak?', answer: 'Risk is highest at transitions: window heads and sills, parapets, corners, balconies, penetrations, bases and interfaces with roofs or podium waterproofing.' },
     { question: 'Does an open-jointed rainscreen need a waterproof membrane?', answer: 'It needs a continuous, project-appropriate water-control layer behind the cladding because open joints and imperfect interfaces allow rain to enter the cavity.' },
+    { question: 'What is the difference between a rainscreen and a ventilated facade?', answer: 'A rainscreen is the water-management strategy: an outer cladding that intercepts most rain, a drained and vented cavity, and a continuous inner water-control layer. A ventilated facade is one way to build it — cladding on a subframe with a ventilated cavity behind. Not every ventilated cladding is detailed as a rainscreen, and a rainscreen need not be pressure-equalized; the terms describe different layers of the same assembly.' },
   ],
   evidence: [
     { publisher: 'Whole Building Design Guide', source_url: 'https://www.wbdg.org/resources/mold-and-moisture-dynamics?r=env_wall', claim: 'WBDG describes rainscreens as cladding, air cavity, drainage plane and airtight support wall working through multiple moisture-shedding paths.', limitations: 'General US federal guidance; products, details and regulatory requirements remain project-specific.' },

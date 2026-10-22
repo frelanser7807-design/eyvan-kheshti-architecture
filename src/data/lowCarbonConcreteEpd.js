@@ -11,10 +11,14 @@ const lowCarbonConcreteEpd = {
   image: '/assets/articles/low-carbon-concrete-epd-guide/low-carbon-concrete-epd-hero.webp',
   imageWidth: 1536,
   imageHeight: 1024,
+  cover: '/assets/articles/low-carbon-concrete-epd-guide/cover.webp',
+  coverAlt: 'World Arch Journal cover: Low-Carbon Concrete, a practical EPD guide — concrete sample blocks and an Environmental Product Declaration chart in front of a concrete house',
+  coverWidth: 800,
+  coverHeight: 1200,
   imageAlt: 'Original editorial materials studio with concrete samples, aggregate, a structural model and abstract carbon assessment charts',
   visualLabel: 'FIG. 01 · CONCRETE MATERIAL AND EPD REVIEW STUDIO · ORIGINAL AI-ASSISTED EDITORIAL ILLUSTRATION, WORLD ARCH JOURNAL 2026.',
   publishedAt: '2026-10-07',
-  modifiedAt: '2026-10-07',
+  modifiedAt: '2026-10-22',
   toc: [
     ['quick-answer', 'The quick answer'],
     ['declared-unit', '1. Match the declared unit'],
@@ -52,7 +56,7 @@ const lowCarbonConcreteEpd = {
 
     <h2 id="performance">2. Hold strength and performance constant</h2>
     <p>Carbon should not be lowered by quietly changing the job the material must do. Compare alternatives that satisfy the same verified structural, fire, durability, workability, curing and architectural-finish requirements. A mix for a lightly loaded internal element is not a fair benchmark for a marine exposure, a transfer structure or a fast-cycle precast operation.</p>
-    <p>At the same time, do not freeze unnecessary constraints. Very high early strength, narrow cement-content limits, an assumed percentage of supplementary cementitious material or a cosmetic colour requirement can reduce the supplier’s room to optimise a mix. MECLA’s low-carbon concrete guide recommends setting an embodied-carbon target while maintaining technical performance, and warns against relying only on a prescribed percentage of cement replacement. That is a useful international principle even though its compliance references are Australian.</p>
+    <p>At the same time, do not freeze unnecessary constraints. Very high early strength, narrow cement-content limits, an assumed percentage of supplementary cementitious material or a cosmetic colour requirement can reduce the supplier’s room to optimise a mix. MECLA’s low-carbon concrete guide recommends setting an embodied-carbon target while maintaining technical performance, and warns against relying only on a prescribed percentage of cement replacement. That is a useful international principle even though its compliance references are Australian. Embodied carbon is, after all, only one side of the ledger that <a href="/articles/passive-house-vs-net-zero-architecture/">net zero architects</a> must balance against operational energy.</p>
     <p>The best specification separates outcomes from means. State the required performance, define the carbon metric and boundary, then invite compliant proposals. Let the structural engineer, contractor and supplier review programme and testing implications early enough for trial mixes. A lower-carbon option discovered after the formwork cycle has been fixed may be rejected because the programme cannot absorb a different strength-development curve.</p>
 
     <h2 id="boundary">3. Read the life-cycle boundary</h2>
@@ -97,6 +101,8 @@ const lowCarbonConcreteEpd = {
       <li><strong>Reconcile delivery.</strong> Use final quantities and accepted product records to report the as-built position honestly.</li>
     </ol>
     <p>The useful question is not “Is this concrete green?” It is: <em>lower than what, for the same job, across which boundary, based on whose verified data, and was that product actually delivered?</em> When those answers stay attached to the number, an EPD becomes a design and procurement instrument rather than a badge.</p>
+  
+    <p><strong>Continue exploring:</strong> specification numbers only matter when they reach the drawing — our <a href="/newsletter/architecture-briefing-2026-09-30/">30 September briefing</a> is devoted to measuring what buildings claim, and the <a href="/materials/">material library</a> publishes the surface data behind our own product studies.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international specification guide'],
@@ -118,6 +124,8 @@ const lowCarbonConcreteEpd = {
     { question: 'Can two concrete EPD numbers be compared directly?', answer: 'Only when key conditions align, including declared unit, strength and performance, life-cycle modules, calculation rules, data period and geographic relevance.' },
     { question: 'Should architects specify a cement-replacement percentage?', answer: 'A prescriptive percentage may restrict viable solutions. Many teams instead set a verified embodied-carbon outcome while retaining all technical requirements, then work with the engineer and supplier on the mix.' },
     { question: 'Is the lowest GWP per cubic metre always the best structural choice?', answer: 'No. Total material quantity, structural efficiency, service life, programme and performance also matter. Compare complete structural options as well as product intensity.' },
+    { question: 'What is an EPD (environmental product declaration)?', answer: 'A standardised, third-party-verified report of a product environmental impacts across stated life-cycle stages, prepared under shared product category rules. For concrete it is the document behind any low-carbon claim — which is why this guide reads it through seven checks before trusting the headline number.' },
+    { question: 'What does GWP mean in a concrete EPD?', answer: 'Global warming potential: the climate impact of the declared unit, expressed in kilograms of CO2-equivalent. In most concrete EPDs the production stages dominate it, which is why cement content, replacements and transport distance matter — and why GWP per cubic metre must still be read against the whole structure, as the checks above show.' },
   ],
   evidence: [
     { publisher: 'Global Cement and Concrete Association', source_url: 'https://gccaepd.org/blog/lcr', claim: 'Introduces 2026 global low-carbon ratings for concrete based on GWP per cubic metre and concrete strength, using EPD-reported data.', limitations: 'Industry framework; project teams must still verify EPD scope, local supply and technical compliance.' },

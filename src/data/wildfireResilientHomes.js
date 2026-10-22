@@ -11,10 +11,14 @@ const wildfireResilientHomes = {
   image: '/assets/articles/wildfire-resilient-home-design/wildfire-home-hero.webp',
   imageWidth: 1536,
   imageHeight: 1024,
+  cover: '/assets/articles/wildfire-resilient-home-design/cover.webp',
+  coverAlt: 'World Arch Journal cover: The Fire Is Not at Your Door. The Embers Are. 12 architectural details that reduce ignition risk — a house with wildfire burning on the ridge behind it',
+  coverWidth: 800,
+  coverHeight: 1200,
   imageAlt: 'Original editorial view of a contemporary wildfire-resilient home with a metal roof and low-fuel landscape',
   visualLabel: 'FIG. 01 · WILDFIRE-RESILIENT HOUSE AND MANAGED LANDSCAPE · ORIGINAL AI-ASSISTED EDITORIAL ILLUSTRATION, WORLD ARCH JOURNAL 2026.',
   publishedAt: '2026-10-08',
-  modifiedAt: '2026-10-08',
+  modifiedAt: '2026-10-22',
   toc: [
     ['quick-answer', 'The quick answer'],
     ['exposure', 'Design for exposure, not style'],
@@ -88,6 +92,8 @@ const wildfireResilientHomes = {
     <h2 id="checklist">The 12-detail checklist</h2>
     <p>Before tender, confirm: roof assembly; edge and ridge closures; maintainable gutters; accepted ember-resistant vents; enclosed eaves; protected window assemblies; continuous ignition-resistant wall details; robust deck junctions; interrupted fences and attachments; a low-fuel immediate zone; managed wider vegetation; and coordinated emergency access. Then ask one final question: can the owner realistically keep every measure working?</p>
     <p>Wildfire resilience is strongest when it is quiet. The house can still be open, warm and connected to landscape. The difference is that every attractive element—roof line, terrace, window, garden and pergola—has also been examined as part of a possible ignition sequence.</p>
+  
+    <p><strong>Continue exploring:</strong> the non-combustible skin is where wildfire design becomes material choice — compare the <a href="/materials/stone/natural-stone/travertine/">travertine facade studies</a> for stone cladding behaviour and format, and read the companion guide to <a href="/articles/flood-resilient-home-design/">flood-resilient homes</a> for the hazard-by-hazard method. For the heat-load side of the same envelope brief, see our <a href="/articles/climate-responsive-facades-cooling-design/">climate responsive facade</a> strategies.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international design guide'],
@@ -108,6 +114,8 @@ const wildfireResilientHomes = {
     { question: 'What is the most important wildfire design detail?', answer: 'There is no single detail. Ember-resistant openings, a robust roof and a low-fuel immediate zone must work as a coordinated system.' },
     { question: 'Is a metal roof enough for a wildfire-resilient home?', answer: 'No. The complete roof assembly, edges, gaps, underlay, penetrations, gutters and nearby fuel all matter.' },
     { question: 'Does defensible space mean removing every tree?', answer: 'Not necessarily. It means reducing dangerous fuel continuity through site-specific spacing, pruning, material choices and maintenance with qualified local advice.' },
+    { question: 'What is the home ignition zone?', answer: 'The area immediately around the house where fuels decide whether embers find a start. This guide treats it as a low-fuel immediate zone — non-combustible surfaces, interrupted fences and attachments, no stored fuel against the walls — backed by managed vegetation further out. Most home ignitions begin here, not in the flame front.' },
+    { question: 'What are the best building materials for a wildfire-resilient home?', answer: 'Non-combustible and ignition-resistant assemblies: metal, tile or rated composite roofs with closed edges; stone, fibre-cement or rendered cladding; enclosed eaves; ember-resistant vents; and multi-pane tempered windows. The material is only half the answer — gaps, junctions and maintenance decide whether the assembly performs.' },
   ],
   evidence: [
     { publisher: 'National Institute of Standards and Technology', source_url: 'https://www.nist.gov/el/fire/resources/hazard-mitigation-methodology-hmm/how-fire-spreads-wui/how-do-structures-survive', claim: 'Structure survival depends on balancing wildfire exposure with structure hardening; baseline ember resistance is essential.', limitations: 'U.S. research framework; local codes and project exposure still govern design.' },

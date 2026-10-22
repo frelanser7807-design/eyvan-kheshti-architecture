@@ -1,0 +1,31 @@
+{
+  "id": "porcelain-stoneware-cartago-grey",
+  "name": "Cartago grey marble \u2014 real photogrammetry-scanned tile material (4K web edition)",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "nativeResolution": [
+    16384,
+    16384
+  ],
+  "method": "Photogrammetry scan of a physical tile surface, distributed by Poly Haven as Grey Cartago 01 (grey_cartago_01). The 4K web edition maps are the library's own 4096 x 4096 scans, re-encoded once at high quality for web distribution \u2014 no procedural generation, no enlargement, no detail added. The complete native-resolution pack (including the ambient-occlusion map) and a 16K edition prepared from the original scan are hosted on Google Drive (links in the panel).",
+  "source": {
+    "library": "Poly Haven",
+    "asset": "Grey Cartago 01 (grey_cartago_01)",
+    "url": "https://polyhaven.com/a/grey_cartago_01",
+    "license": "CC0 1.0 Universal (public domain)"
+  },
+  "tileMeters": [
+    0.8,
+    0.8
+  ],
+  "normalConvention": "OpenGL +Y",
+  "license": "CC0 1.0 Universal (public domain) \u2014 free for personal and commercial use, including redistribution.",
+  "sha256": {
+    "basecolor-4k.jpg": "b53d49c229e7f02939dfbe9f557f3b8a84abaa295ba41f15ae23b6697c17b76f",
+    "normal-opengl-4k.jpg": "d9233dea51ff1059642d5850d191166e4aeb0ab5f49747a371c28ff96c3d56ff",
+    "roughness-4k.jpg": "af8566813816dfd4fcf3e3515d10a0ac5380a5140a410df6baf6177106c42cb5",
+    "height-4k.jpg": "ee5711d8cfe2b9d34e136e1c53a3612a28a7a805df84794fa07cb9e90ccfce66"
+  }
+}

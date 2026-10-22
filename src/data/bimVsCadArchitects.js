@@ -11,11 +11,15 @@ const bimVsCadArchitects = {
   image: '/assets/articles/bim-vs-cad/photos/architecture-studio-plans.jpg',
   imageWidth: 1800,
   imageHeight: 1200,
+  cover: '/assets/articles/bim-vs-cad-architects-workflow/cover.webp',
+  coverAlt: 'World Arch Journal cover: BIM vs CAD, Which Really Saves You Time? A practical guide for architects and designers — two monitors comparing 2D CAD drawings with a 3D BIM model',
+  coverWidth: 800,
+  coverHeight: 1200,
   imageAlt: 'Architecture studio wall displaying drawings and models during a coordinated design workflow',
   visualLabel: 'FIG. 01 · ARCHITECTURE STUDIO WORKFLOW · PHOTO: TIMA MIROSHNICHENKO / PEXELS · FREE TO USE',
   imageSourceUrl: 'https://www.pexels.com/photo/person-people-building-laptop-6615097/',
   publishedAt: '2026-09-24',
-  modifiedAt: '2026-09-24',
+  modifiedAt: '2026-10-22',
   toc: [
     ['definition', 'What CAD and BIM actually describe'],
     ['difference-1', '1. Drawing objects versus building objects'],
@@ -90,6 +94,8 @@ const bimVsCadArchitects = {
     <h2>Beyond the software label</h2>
     <p>BIM does not replace architectural judgement, and CAD does not prevent rigorous design. The decisive difference is whether the project treats information as a coordinated, purposeful resource or as a set of isolated representations. Start with the client’s decisions, define the information needed for them, choose the lightest reliable workflow, and test exchanges before the deadline makes them expensive.</p>
     <p>For a small studio, that may mean drawing in CAD today and building a deliberately limited BIM model tomorrow. For a multidisciplinary project, it may mean setting information requirements before opening the authoring tool. In both cases, the best workflow is the one that makes responsibility visible and keeps the building’s information useful after the image has been issued.</p>
+  
+    <p><strong>Continue exploring:</strong> the tooling story continues in our <a href="/newsletter/architecture-briefing-2026-10-08/">8 October briefing</a>, which covers Graphisoft's 2026 portfolio and the arrival of AI assistants inside the modelling workflow. The layer now arriving on top of both workflows is assessed in our <a href="/articles/ai-in-architecture-2026-adoption-risks-rules/">AI in architecture</a> guide, and the information discipline behind models that stay useful at end of life is covered in our <a href="/articles/design-for-disassembly-reversible-buildings/">design for disassembly</a> guide.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international digital practice guide'],
@@ -116,6 +122,8 @@ const bimVsCadArchitects = {
     { question: 'Should every project use BIM?', answer: 'No. The method should match project scale, coordination risk, information requirements, team capability and handover needs. CAD remains appropriate for many focused drawing tasks.' },
     { question: 'Does IFC guarantee perfect interoperability?', answer: 'No. IFC supports open exchange, but each project should test real objects, properties, classifications, geometry and receiving software before relying on an export.' },
     { question: 'What should a small studio do first?', answer: 'Define the decisions and deliverables that need coordination, create a modest information standard, test one real project exchange and expand only when the benefit is clear.' },
+    { question: 'What is BIM (building information modelling)?', answer: 'A process for creating and managing structured information about a building across its life: geometry connected to properties, classifications, relationships and documents, shared between the team through agreed standards. The model is the visible part; the information management around it is what makes BIM different from drawing.' },
+    { question: 'What is the difference between BIM and CAD?', answer: 'CAD organises drawings — lines and objects on sheets. BIM organises information — a coordinated model from which drawings, schedules and quantities are generated and kept consistent. That difference changes coordination, documentation, interoperability and the skills a project needs, which is what the nine comparisons in this guide work through.' },
   ],
   evidence: [
     { publisher: 'Autodesk', source_url: 'https://www.autodesk.com/solutions/revit-vs-autocad', claim: 'CAD focuses on precise 2D and 3D drawings while BIM provides a data-rich approach connected to a building lifecycle.', limitations: 'Vendor guidance; it does not replace a project-specific workflow evaluation.' },

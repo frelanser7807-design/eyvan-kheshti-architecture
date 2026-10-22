@@ -90,6 +90,30 @@ GUIDES = [
         "notes": "Exposed paths and carved interiors are not uniformly accessible. Check museum access, trail conditions and weather locally; underground spaces can be narrow or steep.",
         "sources": ["UNESCO: Göreme National Park and the Rock Sites of Cappadocia", "GoTürkiye: See Cappadocia", "Türkiye Museums: Göreme Open-Air Museum"],
     },
+    {
+        "slug": "dubai",
+        "country": "uae",
+        "country_label": "UAE",
+        "title": "Dubai Architecture & Travel Guide",
+        "subtitle": "A creek trading town and a vertical metropolis, read at two speeds.",
+        "number": "04",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Burj_Khalifa_Night_View_01.jpg/1280px-Burj_Khalifa_Night_View_01.jpg",
+        "credit": "Cover photo: Sergei Gussev / Wikimedia Commons / CC BY 2.0",
+        "lens": "Supertall · Vernacular · Futurist",
+        "places": [
+            ("Al Fahidi Historical Neighbourhood", "Study the barjeel wind towers: how a pre-electric city caught the breeze, and how coral stone, gypsum and shaded lanes compose the street."),
+            ("Dubai Creek by abra", "Cross on the wooden boats and read the working waterfront: dhows, trading logic, the waterline that explains the city’s position."),
+            ("Burj Khalifa", "SOM’s buttressed core and Y-shaped plan rise 828 metres in spiralling setbacks drawn from regional geometry."),
+            ("Museum of the Future", "Killa Design’s 77-metre torus on Sheikh Zayed Road — the facade is Arabic calligraphy, the message written on the building."),
+            ("Dubai Frame", "A 150-metre frame in Zabeel Park that stages old and new Dubai as two composed views — one side each."),
+        ],
+        "routes": [
+            ("Creek walking loop", "Begin in Al Fahidi before the heat builds, cross the Creek by abra, then work through the Deira souks on foot. Allow about three hours for an exterior-focused loop, more with museum stops."),
+            ("Sheikh Zayed Road & Downtown", "Take the Metro Red Line along the city’s spine: Museum of the Future, then Dubai Frame at Zabeel Park, then on to Burj Khalifa and Downtown for the evening. Use the metro between districts — the highway scale defeats walking."),
+        ],
+        "notes": "October to April is the walking season. Plan outdoor routes for morning and evening and keep midday for interiors — this is a city designed around shade and air-conditioning, and your itinerary should be too.",
+        "sources": ["Visit Dubai: official visitor information", "Burj Khalifa: official site", "Museum of the Future: official site", "SOM: Burj Khalifa project"],
+    },
 ]
 
 
@@ -135,7 +159,7 @@ def build_guide(guide):
 
     story = []
     cover = fetch_cover(guide["image"], guide["slug"])
-    story.append(p(f"WORLD ARCH ATLAS / TÜRKIYE / {guide['number']}", styles["Kicker"]))
+    story.append(p(f"WORLD ARCH ATLAS / {guide.get('country_label', 'TÜRKIYE')} / {guide['number']}", styles["Kicker"]))
     story.append(p(guide["title"], styles["TitleWA"]))
     story.append(p(guide["subtitle"], styles["Sub"]))
     if cover:
@@ -169,7 +193,7 @@ def build_guide(guide):
     story.append(p("04 / PRACTICAL NOTES", styles["Kicker"]))
     story.append(p("Use the live page for links and updates.", styles["H2WA"]))
     story.append(p("Opening hours, access, weather, transport, trail conditions and venue policies can change. Re-check the official source before travelling. The web edition contains live Google Maps links and the current source list.", styles["BodyWA"]))
-    story.append(p(f"Open the live guide: https://worldarchjournal.com/atlas/turkiye/{guide['slug']}/", styles["QuoteWA"]))
+    story.append(p(f"Open the live guide: https://worldarchjournal.com/atlas/{guide.get('country', 'turkiye')}/{guide['slug']}/", styles["QuoteWA"]))
     story.append(PageBreak())
 
     story.append(p("05 / RESEARCH NOTES", styles["Kicker"]))
