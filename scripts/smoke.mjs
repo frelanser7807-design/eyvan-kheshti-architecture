@@ -301,10 +301,13 @@ if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new
 // Non-material budget: measured 232.8 MB at origin/main (30d2840) before the daily
 // content program's first run; one optimized daily batch (2 illustrated articles +
 // 1 newsletter, images at 1400px/q72) adds ~16 MB. Raised 235 -> 260 on 2026-10-22
-// to accommodate the standing daily program. NOTE: at ~16 MB/day this gate needs a
+// to accommodate the standing daily program. Raised 260 -> 267 on 2026-10-22 for
+// the owner-approved homepage v4.4: its two founder films (5.45 MB, previously
+// pruned) plus Playfair fonts and homepage covers measure 260.27 MB total.
+// NOTE: at ~16 MB/day this gate needs a
 // sustainable model (per-article budget or growth allowance) — revisit soon.
-if (distSizeMb - materialSizeMb > 260) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 260 MB`);
+if (distSizeMb - materialSizeMb > 267) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 267 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));
@@ -333,7 +336,11 @@ async function verifyBrandPages(directory) {
   }
 }
 await verifyBrandPages(join(root, 'dist'));
-for (const relative of ['assets/brand/farnaz-professional-profile-v6.png', 'assets/brand/farnaz-professional-profile-v6.webp', 'assets/film/00-digital-founder-intro.mp4', 'assets/film/founder-intro-plus-entrance.mp4']) {
+// The founder films (00-digital-founder-intro, founder-intro-plus-entrance) left
+// this retired list on 2026-10-22: the owner approved homepage v4.4, whose hero
+// and story band are those films. The portrait images stay retired, and the
+// personal-name ban above is unchanged.
+for (const relative of ['assets/brand/farnaz-professional-profile-v6.png', 'assets/brand/farnaz-professional-profile-v6.webp']) {
   let exists = true;
   try { await access(join(root, 'dist', relative)); } catch { exists = false; }
   if (exists) throw new Error(`Retired personal media is still in the release: ${relative}`);
