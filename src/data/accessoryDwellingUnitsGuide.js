@@ -20,7 +20,7 @@ export default {
   "visualLabel": "FIG. 01 · A DETACHED BACKYARD COTTAGE (ADU) WITH ITS OWN TERRACE AND ENTRANCE · PHOTO: TINY HOME GIRL / WIKIMEDIA COMMONS, CC BY-SA 4.0 · RESIZED. Source: \"Nostalgia Cottage\" by Tiny Home Girl, via Wikimedia Commons — CC BY-SA 4.0.",
   "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nostalgia_Cottage_.jpg",
   "publishedAt": "2026-10-21",
-  "modifiedAt": "2026-10-21",
+  "modifiedAt": "2026-10-22",
   "toc": [
     [
       "what-is-an-adu",
@@ -198,6 +198,10 @@ export default {
   "scope": "A homeowner's planning guide, not legal or financial advice. Rules use California's state framework as the worked example; ADU law is local and changes frequently — verify every figure with your own city before spending on design.",
   "faq": [
     {
+      "question": "What is an accessory dwelling unit?",
+      "answer": "An accessory dwelling unit (ADU) is a complete, self-contained small home built on the same lot as an existing house — in a backyard, above a garage, inside a converted basement or attached to the main building. It has its own kitchen, bathroom, sleeping space and entrance, and it usually cannot be sold separately from the main property. Depending on where you live it may be called a granny flat, in-law unit, backyard cottage, carriage house, garden suite or casita."
+    },
+    {
       "question": "Do I need a permit to build an ADU?",
       "answer": "Yes. Every ADU needs building, electrical and plumbing permits, even in states with streamlined ADU laws. What reform laws change is the process — in California most ADUs are approved ministerially by staff rather than through a public hearing. An unpermitted unit causes serious problems with insurance, financing and resale."
     },
@@ -216,6 +220,10 @@ export default {
     {
       "question": "Does building an ADU raise my property taxes?",
       "answer": "In most US states the new unit's value is added to your assessment while the existing house keeps its current basis — in California, for example, an ADU does not trigger reassessment of the main home under Proposition 13. The exact treatment is local; ask your county assessor before you build."
+    },
+    {
+      "question": "How big can an ADU be?",
+      "answer": "Most ADUs fall between 400 and 1,200 square feet, and the legal maximum is set locally. California guarantees homeowners the right to build an ADU of at least 850 square feet — 1,000 square feet for a two-bedroom unit — with side and rear setbacks of no more than four feet. A junior ADU (JADU) created inside the existing house is capped at 500 square feet."
     }
   ],
   "evidence": [
