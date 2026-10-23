@@ -296,6 +296,10 @@ export const historyStudies = [
       { name: "UNESCO World Heritage Centre", url: "https://whc.unesco.org/en/list/1321/" },
       { name: "RIBA", url: "https://www.architecture.com/" }
     ],
+    deepPage: "/magazine/architectural-history-styles/brutalism/",
+    pdf: "/downloads/history/brutalism.pdf",
+    bookCover: "/assets/history-deep/brutalism/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/brutalism/read/",
     images: {
       hero: { src: `${H}/brutalism-hero.jpg`, alt: "Boston City Hall, stepped inverted pyramid of precast concrete over an open brick plaza", credit: "Photo: Sean P Bender, via Wikimedia Commons (CC BY-SA 3.0)" },
       detail1: { src: `${H}/brutalism-detail1.jpg`, alt: "Barbican Estate concrete towers and podium in London", credit: "Photo: Todd Huffman, via Wikimedia Commons (CC BY 2.0)" },
