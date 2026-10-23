@@ -68,7 +68,7 @@ export default function SiteSeo({ content, route }) {
     const canonicalUrl = `${siteUrl}${route?.name === 'material-studio' ? collectionProducts[0].path : normalizedPath === '/' ? '' : normalizedPath}`;
     const legalTitle = legalTitles[normalizedPath];
     const item = route?.item;
-    const isMissing = route?.name === 'not-found' || (['article', 'magazine', 'magazine-category', 'history-deep', 'product', 'prompt', 'newsletter-issue', 'analysis-article', 'project', 'video-story'].includes(route?.name) && !item);
+    const isMissing = route?.name === 'not-found' || (['article', 'magazine', 'magazine-category', 'history-deep', 'history-read', 'product', 'prompt', 'newsletter-issue', 'analysis-article', 'project', 'video-story'].includes(route?.name) && !item);
     const isCanonicalHost = ['worldarchjournal.com', 'www.worldarchjournal.com'].includes(window.location.hostname);
     const tourComingSoon = ['virtual-tour-the-voids', 'virtual-tour-narbon', 'virtual-tour-safadasht'].includes(route?.name) && item?.tourLive === false;
 
@@ -114,6 +114,11 @@ export default function SiteSeo({ content, route }) {
       title = item.seoTitle;
       description = item.metaDescription;
       image = absoluteAsset(siteUrl, item.images[item.hero]?.src);
+      ogType = 'article';
+    } else if (route?.name === 'history-read' && item) {
+      title = `Read ${item.bookTitle} | ${name}`;
+      description = `Read ${item.bookTitle} free on this page in the World Arch Journal page-flip reader — ${item.readerPages} pages, no signup. Print quality in the PDF edition.`;
+      image = absoluteAsset(siteUrl, item.cover);
       ogType = 'article';
     } else if (route?.name === 'article' && item) {
       title = item.seoTitle || `${item.title} | ${name}`;
@@ -280,6 +285,11 @@ export default function SiteSeo({ content, route }) {
       structuredData = { '@context': 'https://schema.org', '@graph': [
         { '@type': 'VideoObject', name: item.title, description: item.description, thumbnailUrl: [item.thumbnail], uploadDate: item.uploadDate, duration: item.duration, embedUrl: `https://www.youtube-nocookie.com/embed/${item.youtubeId}`, contentUrl: `https://www.youtube.com/shorts/${item.youtubeId}`, mainEntityOfPage: canonicalUrl, publisher },
         breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Videos', pathname: '/videos/' }, { name: item.title, pathname: normalizedPath }]),
+      ] };
+    } else if (route?.name === 'history-read' && item) {
+      structuredData = { '@context': 'https://schema.org', '@graph': [
+        { '@type': 'Book', name: item.bookTitle, description, url: canonicalUrl, image, inLanguage: 'en', bookFormat: 'https://schema.org/EBook', isPartOf: { '@type': 'BookSeries', name: item.series }, author: publisher, publisher, datePublished: item.publishedAt, numberOfPages: item.readerPages, associatedMedia: { '@type': 'MediaObject', contentUrl: `${siteUrl}${item.pdf}`, encodingFormat: 'application/pdf', name: `${item.bookTitle} — complete guide (PDF)` } },
+        breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Magazine', pathname: '/magazine/' }, { name: 'Architectural History Styles', pathname: item.hubPath }, { name: item.title, pathname: item.path }, { name: 'Read the book', pathname: normalizedPath }]),
       ] };
     } else if (route?.name === 'history-deep' && item) {
       structuredData = { '@context': 'https://schema.org', '@graph': [
