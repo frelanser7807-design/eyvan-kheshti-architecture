@@ -144,6 +144,16 @@ function HubCompare({ comparison }) {
       <p className="wj-hub-sources">Sources: {comparison.sources.map((source, index) => (
         <span key={source.url}>{index > 0 ? ' · ' : ''}<a href={source.url} target="_blank" rel="noopener noreferrer">{source.name}</a></span>
       ))}</p>
+      {comparison.deepPage && (
+        <div className="wj-hub-book">
+          {comparison.bookCover && <BookCover3D src={comparison.bookCover} title={comparison.title} className="wj-hub-bookcover" />}
+          <div className="wj-hub-booklinks">
+            <a className="wj-hub-book-read" href={comparison.deepPage}>Read the complete history <span aria-hidden="true">→</span></a>
+            {comparison.readPath && <a className="wj-hub-book-read" href={comparison.readPath}>Read the book <span aria-hidden="true">→</span></a>}
+            {comparison.pdf && <a className="wj-hub-book-pdf" href={`${comparison.deepPage}#get-the-book`}>Download the book (PDF)</a>}
+          </div>
+        </div>
+      )}
     </article>
   );
 }
