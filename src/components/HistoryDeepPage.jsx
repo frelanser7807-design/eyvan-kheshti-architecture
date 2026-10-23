@@ -26,7 +26,7 @@ function DownloadGate({ page }) {
     <section className="wj-deep-gate" id="get-the-book" aria-labelledby="wj-gate-title">
       <span className="wj-magazine-kicker">The book · PDF edition</span>
       <h2 id="wj-gate-title">Get the PDF — join The World Arch Briefing</h2>
-      <p className="wj-deep-gate-file"><strong>art-nouveau.pdf</strong> — {page.bookTitle} · {page.series}, Book {page.bookNumber} · {page.readerPages} pages · PDF</p>
+      <p className="wj-deep-gate-file"><strong>{page.pdf.split('/').pop()}</strong> — {page.bookTitle} · {page.series}, Book {page.bookNumber} · {page.readerPages} pages · PDF</p>
       {status === 'success' ? (
         <div className="wj-deep-gate-success">
           <p role="status">Check your inbox for a confirmation link to complete your subscription.</p>

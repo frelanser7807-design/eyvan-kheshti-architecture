@@ -73,6 +73,10 @@ export const historyStudies = [
       { name: "Smarthistory — Gothic architecture: an introduction", url: "https://smarthistory.org/gothic-architecture-an-introduction/" },
       { name: "Historic England", url: "https://historicengland.org.uk/" }
     ],
+    deepPage: "/magazine/architectural-history-styles/gothic/",
+    pdf: "/downloads/history/gothic.pdf",
+    bookCover: "/assets/history-deep/gothic/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/gothic/read/",
     images: {
       hero: { src: `${H}/gothic-hero.jpg`, alt: "West facade of Chartres Cathedral with two contrasting spires, three sculpted portals and rose window", credit: "Photo: Nina Aldin Thune, via Wikimedia Commons (CC BY 2.5)" },
       detail1: { src: `${H}/gothic-detail1.jpg`, alt: "Chartres nave interior with pointed arcades, rib vaults and tall stained-glass clerestory", credit: "Photo: Stephen Taber, via Wikimedia Commons (CC BY-SA 4.0)" },
