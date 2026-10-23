@@ -13773,6 +13773,1427 @@ export const historyDeepPages = [
     "Robert McCarter, Frank Lloyd Wright: Architect (Phaidon Press, London, 1997) — Phaidon's global monograph with the complete buildings chronology compiled by Bruce Brooks Pfeiffer. The most serviceable single-volume survey in print, lucid on the works and generous with plans and photographs.",
     "Frank Lloyd Wright, An Autobiography (Longmans, Green, New York, 1932) — The primary source in his own words: unreliable on dates, matchless on intentions, and the indispensable record of how Wright wished his life — Froebel blocks, Sullivan, Taliesin and all — to be understood."
   ]
+},
+{
+  "id": "the-dome",
+  "series": "Architectural History Series",
+  "bookNumber": 11,
+  "title": "The Dome",
+  "bookTitle": "The Dome: A Complete History",
+  "cover": "/assets/history-deep/the-dome/book-cover.jpg",
+  "coverCredit": "Cover artwork © World Arch Journal",
+  "readPath": "/magazine/architectural-history-styles/the-dome/read/",
+  "readerPages": 105,
+  "readerBase": "/assets/history-deep/the-dome/pages/",
+  "subtitle": "From corbelled Mycenaean tholoi and Roman concrete to the floating dome of Hagia Sophia, the tiled crowns of Persia, Brunelleschi's Florence, iron, reinforced concrete and Fuller's geodesics: three thousand years of building a heaven in compression over a single gathered room beneath it, still enduring today.",
+  "path": "/magazine/architectural-history-styles/the-dome/",
+  "hubPath": "/magazine/architectural-history-styles/",
+  "hubStudyId": "the-dome",
+  "pdf": "/downloads/history/the-dome.pdf",
+  "seoTitle": "The Dome: A Complete History — Book | World Arch Journal",
+  "metaDescription": "The Dome: A Complete History — Book 11 of the World Arch Journal Architectural History Series. From the corbelled tholos of Mycenae and the Pantheon's concrete sphere to Hagia Sophia's pendentives, the domes of Persia and Sinan, Brunelleschi's double shell, St Peter's and St Paul's, iron, thin-shell concrete and Fuller's geodesic geometry. With timeline, gazetteer, glossary and bibliography.",
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "hero": "pantheonInterior",
+  "frontispiece": "hagiaSophiaInterior",
+  "plates": [
+    [
+      "pantheonInterior",
+      "The Pantheon, Rome, c. 125 CE",
+      "The greatest surviving dome of the ancient world, seen from below: five rings of coffers step up a shell that thins from some six metres at its base to little more than one at the crown, where the open oculus — the building's only window — pours a disc of sunlight that travels the room like a sundial. The span, 43.3 metres, would not be exceeded in masonry for thirteen centuries."
+    ],
+    [
+      "hagiaSophiaInterior",
+      "Hagia Sophia, Istanbul, 537",
+      "Anthemius and Isidore set a dome of about 31 metres on four pendentives over a square nave, and cut forty windows into the shell's foot so that the great cupola seems, in Procopius's words, suspended from heaven by a golden chain. Rebuilt steeper after the earthquake of 557, it remains the defining interior of the Byzantine world."
+    ],
+    [
+      "domeOfRock",
+      "Dome of the Rock, Jerusalem, 691–692",
+      "The first monument of Islam: a timber dome of about 20 metres, gilded without and painted within, raised on a drum over the Rock at the centre of an octagonal shrine. Abd al-Malik's builders answered the domes of Christian Jerusalem with one of their own — and set the type of the qubba for a thousand years."
+    ],
+    [
+      "lotfollahInterior",
+      "Sheikh Lotfollah Mosque, Isfahan, 1603–1619",
+      "A single shell of brick clothed inside in arabesque faience that dissolves from turquoise medallion to lemon at the crown, where the light from the lattice windows draws a peacock's tail across the dome. The royal chapel of Shah Abbas has no minarets and no courtyard: the dome itself is the whole building, and the whole argument."
+    ],
+    [
+      "selimiyeInterior",
+      "Selimiye Mosque, Edirne, 1568–1574",
+      "Sinan's masterpiece, by his own account: a dome of 31.28 metres — a fraction wider than Hagia Sophia's — carried not on massive walls but on eight piers, so that the interior reads as one unbroken volume of stone and light, with the müezzin's gallery floating beneath the centre. The Ottoman dome here reaches its classical rest."
+    ],
+    [
+      "florenceDome",
+      "Florence Cathedral, the Dome, 1420–1436",
+      "Brunelleschi's double shell over the octagonal crossing: two domes, one inside the other, joined by ribs and climbed by stairs between, built without full centring in herringbone brick and locked by chains of stone and iron. It still defines Florence — the largest masonry dome ever raised, and the Renaissance's founding feat of engineering."
+    ],
+    [
+      "stPetersDome",
+      "St Peter's Basilica, Rome, dome completed 1590",
+      "Michelangelo's dome, finished by Giacomo della Porta with a slightly raised profile: 41.47 metres across, double-shelled, ribbed, and crowned by the lantern over the apostle's tomb. Bramante had imagined a Pantheon lifted on vaults; what rose instead became the model — and the measure — for every dome of Catholic and classical Europe."
+    ],
+    [
+      "stPaulsInterior",
+      "St Paul's Cathedral, London, 1675–1710",
+      "Wren's triple dome: a painted inner hemisphere for the eye, a hidden brick cone doing the structural work and carrying the lantern, and a timber-and-lead outer silhouette for the city. From the Whispering Gallery the device reads as one serene shell — the most ingenious dome section of the Baroque, devised by a professor of astronomy."
+    ]
+  ],
+  "plates2": [
+    [
+      "atreusTholos",
+      "Treasury of Atreus, Mycenae, c. 1250 BCE",
+      "The greatest of the Mycenaean tholos tombs: a corbelled dome of 14.5 metres, its courses of cut stone each oversailing the last, entered by a dromos and a doorway whose lintel weighs some 120 tons. Not a true dome — nothing here is a voussoir — but three thousand years ago it was already the shape of gathered, vaulted darkness."
+    ],
+    [
+      "santaCostanza",
+      "Santa Costanza, Rome, c. 350",
+      "Constantina's mausoleum-church: a dome of about 22.5 metres carried on twelve pairs of granite columns, ringed by a barrel-vaulted ambulatory whose mosaics of vines and vintages survive. Here the imperial tomb-dome becomes a Christian church without changing its geometry — the rotunda baptised."
+    ],
+    [
+      "stMarks",
+      "St Mark's Basilica, Venice, consecrated 1094",
+      "Five domes on pendentives over a Greek cross, modelled on Constantinople's Church of the Holy Apostles: lead-clad timber shells outside, gold mosaic within. Venice, trading with Byzantium, imported its domes as it imported its relics — and made the Byzantine crown the silhouette of the lagoon."
+    ],
+    [
+      "gurEAmir",
+      "Gur-e Amir, Samarkand, 1403–1404",
+      "Timur's tomb: a ribbed, melon-profiled double dome of turquoise and blue tile on a tall cylindrical drum, its flutes catching the Central Asian light. The Persian dome — squinch-born, double-shelled, glazed — here reaches the exuberance that Safavid Isfahan would refine."
+    ],
+    [
+      "invalides",
+      "Dôme des Invalides, Paris, 1680s–1706",
+      "Jules Hardouin-Mansart's gilded dome for Louis XIV's hospital-church of soldiers: a classical rotunda of superimposed orders rising to the most conspicuous silhouette in Paris. Napoleon sleeps beneath it now; the dome was always a monument to the state wearing the dress of a church."
+    ],
+    [
+      "usCapitol",
+      "United States Capitol, Washington, dome 1855–1866",
+      "Thomas U. Walter's cast-iron dome — some 4,000 tons of iron painted to pass for stone, raised during a civil war as a deliberate act of faith in the Union. The Roman form, industrialised: proof that by the nineteenth century a dome could be manufactured, shipped and bolted together."
+    ],
+    [
+      "palazzetto",
+      "Palazzetto dello Sport, Rome, 1956–1957",
+      "Pier Luigi Nervi's little sports palace, photographed in 1960: a ribbed concrete dome about 59 metres across and only centimetres thick, its weight gathered into splayed Y-shaped buttresses around the arena. Where the Pantheon spent six metres of concrete at the haunch, the thin shell spends shape instead of mass — the dome reinvented by geometry."
+    ],
+    [
+      "biosphere",
+      "United States Pavilion, Expo 67, Montreal, 1967",
+      "Buckminster Fuller's geodesic sphere, 76 metres across and three-quarters complete, built with Shoji Sadao: a triangulated skin in which strength comes from division, not substance. Burned of its acrylic skin in 1976, the lattice survives as the Biosphère — the geodesic idea's most famous monument."
+    ],
+    [
+      "millenniumDome",
+      "Millennium Dome, London, 1999",
+      "Richard Rogers's great white canopy: a cable-net of glass-fibre fabric slung from twelve 100-metre masts, 365 metres across — a dome as image rather than shell, the largest single roof on earth at its opening. It asks honestly what a dome is for, once structure no longer needs the form."
+    ],
+    [
+      "louvreAbuDhabi",
+      "Louvre Abu Dhabi, 2017",
+      "Jean Nouvel's dome: 180 metres across, eight superimposed layers of geometric stars in steel and aluminium, floating over the museum's white city of galleries. Sunlight filters through as a slow rain of light — the muqarnas and the mashrabiyya recomputed, and the oldest idea in this book made new."
+    ]
+  ],
+  "platesCaption": "Plates I · The Great Domes: Rome, Istanbul, Jerusalem, Isfahan, Edirne, Florence, the Vatican, London",
+  "plates2Caption": "Plates II · Before and After Masonry: Mycenae, Rome, Venice, Samarkand, Paris, Washington, Rome, Montreal, London, Abu Dhabi",
+  "parts": [
+    [
+      0,
+      "Part I",
+      "Origins and the Roman Breakthrough",
+      "Before the true dome there was the corbelled vault, patient and dark; then Rome mixed concrete, dared the great spans and, in the Pantheon, set a sphere of stone and light over a rotunda — the achievement every later dome would measure itself against."
+    ],
+    [
+      4,
+      "Part II",
+      "Byzantium and Islam: The Dome Between Empires",
+      "The pendentive lets a dome float over a square; the squinch turns the corner by another road. Between Constantinople, Jerusalem, Bukhara, Samarkand, Isfahan and Edirne, two faiths and a dozen cultures make the dome the crown of the sacred city."
+    ],
+    [
+      9,
+      "Part III",
+      "The Renaissance and Baroque: The Dome as Crown of the City",
+      "Florence solves the unsplannable span with a double shell and a goldsmith's ingenuity; St Peter's answers for Christendom; Venice, Paris and London raise domes that are as much city silhouette as church roof."
+    ],
+    [
+      14,
+      "Part IV",
+      "Iron, Shell and Geometry: The Modern Dome — and How to Read It",
+      "Iron ribs, glass, spun concrete and triangulated geometry shrink the shell from metres to centimetres and the span races past anything masonry allowed. The book closes with the construction geometry itself — and the five signs that let any reader read a dome in the street."
+    ]
+  ],
+  "seriesList": "Book 11 · The Dome: A Complete History — this volume. Also available: Book 1 · Art Nouveau: A Complete History · Book 2 · Gothic Architecture: A Complete History · Book 3 · Medieval Castles & Fortifications: A Complete History · Book 4 · Baroque & Rococo Architecture: A Complete History · Book 5 · Romanesque Architecture: A Complete History · Book 6 · Modernism & the International Style: A Complete History · Book 7 · Victorian Architecture: A Complete History · Book 8 · Art Deco: A Complete History · Book 9 · Brutalism: A Complete History · Book 10 · Frank Lloyd Wright: A Complete History. In preparation: The Arch, Vault & Flying Buttress · and the remaining studies of the atlas, in the journal's demand order.",
+  "images": {
+    "pantheonInterior": {
+      "src": "/assets/history-deep/the-dome/pantheonInterior.jpg",
+      "alt": "Interior of the Pantheon in Rome, looking up at the coffered dome and central oculus",
+      "credit": "Photo: T. Le Berre, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_oculus_of_the_Rome_Pantheon.jpg",
+      "title": "Pantheon interior, Rome"
+    },
+    "pantheonExterior": {
+      "src": "/assets/history-deep/the-dome/pantheonExterior.jpg",
+      "alt": "The Pantheon in Rome from the front, showing the portico and rotunda",
+      "credit": "Photo: Rabax63, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pantheon_Rom_1_cropped.jpg",
+      "title": "Pantheon exterior, Rome"
+    },
+    "pantheonOculus": {
+      "src": "/assets/history-deep/the-dome/pantheonOculus.jpg",
+      "alt": "The oculus at the top of the Pantheon dome in Rome, with a shaft of daylight entering the rotunda",
+      "credit": "Photo: NormanB, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rome_-_Pantheon_-_Oculus_Sunbeam_0627.jpg",
+      "title": "The Pantheon oculus, Rome"
+    },
+    "atreusTholos": {
+      "src": "/assets/history-deep/the-dome/atreusTholos.jpg",
+      "alt": "Interior of the Treasury of Atreus at Mycenae, the corbelled tholos burial chamber",
+      "credit": "Photo: Carlos M Prieto, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Treasury_of_Atreus,_13th_century_BC_royal_tholos_tomb_near_Mycenae-interior.jpg",
+      "title": "Treasury of Atreus interior, Mycenae"
+    },
+    "minervaMedica": {
+      "src": "/assets/history-deep/the-dome/minervaMedica.jpg",
+      "alt": "The Temple of Minerva Medica in Rome, a late Roman domed ruin",
+      "credit": "Photo: user:Lalupa, via Wikimedia Commons (Public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esquilino_-_tempio_di_Minerva_medica_-_Horti_liciniani_2059.JPG",
+      "title": "Temple of Minerva Medica, Rome"
+    },
+    "santaCostanza": {
+      "src": "/assets/history-deep/the-dome/santaCostanza.jpg",
+      "alt": "Interior of Santa Costanza in Rome, showing the dome carried on paired columns around the ambulatory",
+      "credit": "Photo: José Luiz, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dome_interior_-_Santa_Costanza_-_Rome_2016.jpg",
+      "title": "Santa Costanza interior, Rome"
+    },
+    "splitDome": {
+      "src": "/assets/history-deep/the-dome/splitDome.jpg",
+      "alt": "Interior dome of the Cathedral of Saint Domnius in Split, the former mausoleum of Diocletian",
+      "credit": "Photo: TimeTravelRome, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mausoleum_of_Diocletian_-_Cathedral_of_St._Domnius_-_51388985164.jpg",
+      "title": "Cathedral dome, Split"
+    },
+    "hagiaSophiaExterior": {
+      "src": "/assets/history-deep/the-dome/hagiaSophiaExterior.jpg",
+      "alt": "Hagia Sophia in Istanbul from the outside, showing the dome and minarets",
+      "credit": "Photo: Arild Vågen, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Mars_2013.jpg",
+      "title": "Hagia Sophia exterior, Istanbul"
+    },
+    "hagiaSophiaInterior": {
+      "src": "/assets/history-deep/the-dome/hagiaSophiaInterior.jpg",
+      "alt": "Interior of Hagia Sophia in Istanbul, looking toward the apse under the main dome",
+      "credit": "Photo: Ronan Reinart, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Interior_Panorama.jpg",
+      "title": "Hagia Sophia interior, Istanbul"
+    },
+    "pendentiveDiagram": {
+      "src": "/assets/history-deep/the-dome/pendentiveDiagram.jpg",
+      "alt": "Diagram of a pendentive, the triangular spherical section that carries a dome over a square bay",
+      "credit": "Photo: hu:User:Totya, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pendentive_and_Dome.png",
+      "title": "Pendentive diagram"
+    },
+    "squinchDiagram": {
+      "src": "/assets/history-deep/the-dome/squinchDiagram.jpg",
+      "alt": "A squinch, an arch built across the corner of a square bay to support a dome",
+      "credit": "Photo: Pearson Scott Foresman, via Wikimedia Commons (Public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Squinch_(PSF).png",
+      "title": "Squinch"
+    },
+    "stMarks": {
+      "src": "/assets/history-deep/the-dome/stMarks.jpg",
+      "alt": "St Mark's Basilica in Venice, showing its five domes",
+      "credit": "Photo: Acediscovery, via Wikimedia Commons (CC BY 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Domes-St-Marks-Basilica-Venice-2009.jpg",
+      "title": "St Mark's Basilica, Venice"
+    },
+    "hosiosLoukas": {
+      "src": "/assets/history-deep/the-dome/hosiosLoukas.jpg",
+      "alt": "Interior of the main church at Hosios Loukas in Greece, looking up at the dome and its mosaics",
+      "credit": "Photo: Hans A. Rosbach, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hosios_Loukas_Katholikon_(Dome)_-_Pantocrator_03.jpg",
+      "title": "Hosios Loukas, Greece"
+    },
+    "domeOfRock": {
+      "src": "/assets/history-deep/the-dome/domeOfRock.jpg",
+      "alt": "The Dome of the Rock in Jerusalem, exterior view of the octagonal shrine and gilded dome",
+      "credit": "Photo: Godot13, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem-2013-Temple_Mount-Dome_of_the_Rock_%26_Chain_02.jpg",
+      "title": "Dome of the Rock, Jerusalem"
+    },
+    "domeOfRockInterior": {
+      "src": "/assets/history-deep/the-dome/domeOfRockInterior.jpg",
+      "alt": "Interior of the Dome of the Rock in Jerusalem, around the Rock",
+      "credit": "Photo: Lazhar Neftien from Toulouse, France, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_Dome_of_the_Rock_5.jpg",
+      "title": "Dome of the Rock interior, Jerusalem"
+    },
+    "gonbadQabus": {
+      "src": "/assets/history-deep/the-dome/gonbadQabus.jpg",
+      "alt": "The Gonbad-e Qabus tower in Iran, a tall brick tomb tower with a conical roof",
+      "credit": "Photo: Farzaaaad2000, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gonbad-e_Qabus_tower2017-1.jpg",
+      "title": "Gonbad-e Qabus, Iran"
+    },
+    "soltaniyeh": {
+      "src": "/assets/history-deep/the-dome/soltaniyeh.jpg",
+      "alt": "The Dome of Soltaniyeh in Iran, the mausoleum of Oljeitu",
+      "credit": "Photo: Fulvio Spada from Torino, Italy, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oljeitu_Mausoleum_(Gonbad-e_Soltaniyeh),_Soltaniyeh_(5110139183).jpg",
+      "title": "Dome of Soltaniyeh, Iran"
+    },
+    "gurEAmir": {
+      "src": "/assets/history-deep/the-dome/gurEAmir.jpg",
+      "alt": "The Gur-e Amir mausoleum in Samarkand, with its ribbed dome",
+      "credit": "Photo: Adam Harangozó, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gur-e_Amir_in_Samarkand.jpg",
+      "title": "Gur-e Amir, Samarkand"
+    },
+    "bibiKhanym": {
+      "src": "/assets/history-deep/the-dome/bibiKhanym.jpg",
+      "alt": "The Bibi Khanym Mosque in Samarkand, showing its main dome and portal",
+      "credit": "Photo: Bgag, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bibi-Khanym_Mosque,_Samarkand.jpg",
+      "title": "Bibi Khanym Mosque, Samarkand"
+    },
+    "shahMosque": {
+      "src": "/assets/history-deep/the-dome/shahMosque.jpg",
+      "alt": "The dome of the Shah Mosque, also called the Imam Mosque, in Isfahan",
+      "credit": "Photo: Amir Pashaei, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shah_Mosque_(Isfahan).jpg",
+      "title": "Shah Mosque, Isfahan"
+    },
+    "lotfollahInterior": {
+      "src": "/assets/history-deep/the-dome/lotfollahInterior.jpg",
+      "alt": "Interior of the dome of Sheikh Lotfollah Mosque in Isfahan, with its central medallion and arabesque patterns",
+      "credit": "Photo: Phillip Maiwald (Nikopol), via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Isfahan_Lotfollah_mosque_ceiling_symmetric.jpg",
+      "title": "Sheikh Lotfollah dome interior, Isfahan"
+    },
+    "suleymaniye": {
+      "src": "/assets/history-deep/the-dome/suleymaniye.jpg",
+      "alt": "The Suleymaniye Mosque in Istanbul from the outside, showing Sinan's dome and minarets",
+      "credit": "Photo: Hunanuk, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C3%BCleymaniyeMosqueIstanbul.jpg",
+      "title": "Suleymaniye Mosque, Istanbul"
+    },
+    "selimiyeExterior": {
+      "src": "/assets/history-deep/the-dome/selimiyeExterior.jpg",
+      "alt": "The Selimiye Mosque in Edirne from the outside, showing the main dome and four minarets",
+      "credit": "Photo: Dosseman, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edirne_Selimiye_Mosque_Exterior_NW_corner_in_2017_3147.jpg",
+      "title": "Selimiye Mosque exterior, Edirne"
+    },
+    "selimiyeInterior": {
+      "src": "/assets/history-deep/the-dome/selimiyeInterior.jpg",
+      "alt": "Interior of the Selimiye Mosque in Edirne, looking up at the main dome",
+      "credit": "Photo: Tarikkaanmuslu, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_dome,_Selimiye_Mosque,_Edirne_-_Tarik_Kaan_Muslu.jpg",
+      "title": "Selimiye Mosque interior, Edirne"
+    },
+    "florenceDome": {
+      "src": "/assets/history-deep/the-dome/florenceDome.jpg",
+      "alt": "The dome of Florence Cathedral, designed by Filippo Brunelleschi, seen from the outside",
+      "credit": "Photo: George M. Groutas, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Florence,_Duomo_di_Firenze.jpg",
+      "title": "Florence Cathedral dome"
+    },
+    "florenceInterior": {
+      "src": "/assets/history-deep/the-dome/florenceInterior.jpg",
+      "alt": "View up into the dome of Florence Cathedral, painted with frescoes begun by Giorgio Vasari",
+      "credit": "Photo: Maksim Sokolov, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_dome_of_the_Florence_Cathedral_(Interior).jpg",
+      "title": "Florence Cathedral dome interior"
+    },
+    "florenceSection": {
+      "src": "/assets/history-deep/the-dome/florenceSection.jpg",
+      "alt": "Wooden model of Brunelleschi's dome for Florence Cathedral, showing the profile and double-shell form of the dome",
+      "credit": "Photo: sailko, via Wikimedia Commons (CC BY 2.5)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Filippo_brunelleschi_(attr.)_modello_ligneo_per_la_cupola_e_le_tribune.JPG",
+      "title": "Model of Brunelleschi's dome, Florence"
+    },
+    "stPetersDome": {
+      "src": "/assets/history-deep/the-dome/stPetersDome.jpg",
+      "alt": "St Peter's Basilica in Rome, showing Michelangelo's dome",
+      "credit": "Photo: Christoph Strässler, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dome_of_St._Peter%27s_Basilica_seen_from_the_Vatican_Museum,_Rome,_Italy.jpg",
+      "title": "St Peter's dome, Rome"
+    },
+    "stPetersInterior": {
+      "src": "/assets/history-deep/the-dome/stPetersInterior.jpg",
+      "alt": "Interior of St Peter's Basilica in Rome, looking up into the dome",
+      "credit": "Photo: John Samuel, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dome_of_Saint_Peter%27s_Basilica_(interior)_05.jpg",
+      "title": "St Peter's interior dome, Rome"
+    },
+    "salute": {
+      "src": "/assets/history-deep/the-dome/salute.jpg",
+      "alt": "Santa Maria della Salute in Venice, at the entrance to the Grand Canal",
+      "credit": "Photo: kallerna, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_Santa_Maria_della_Salute_Venice_2.jpg",
+      "title": "Santa Maria della Salute, Venice"
+    },
+    "invalides": {
+      "src": "/assets/history-deep/the-dome/invalides.jpg",
+      "alt": "The Dome of Les Invalides in Paris",
+      "credit": "Photo: Medium69 (William Crochot), via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_des_Invalides_-_20150801_16h09_(10630).jpg",
+      "title": "Dome des Invalides, Paris"
+    },
+    "stPaulsExterior": {
+      "src": "/assets/history-deep/the-dome/stPaulsExterior.jpg",
+      "alt": "St Paul's Cathedral in London from the outside, showing Wren's dome",
+      "credit": "Photo: Julian Herzog (Website), via Wikimedia Commons (CC BY 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Paul%27s_Cathedral_Dome_2020_Exterior_Ground.jpg",
+      "title": "St Paul's Cathedral exterior, London"
+    },
+    "stPaulsInterior": {
+      "src": "/assets/history-deep/the-dome/stPaulsInterior.jpg",
+      "alt": "Interior of St Paul's Cathedral in London, looking up toward the dome and Whispering Gallery",
+      "credit": "Photo: Diliff, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Paul%27s_Cathedral_Interior_Dome_3,_London,_UK_-_Diliff.jpg",
+      "title": "St Paul's Cathedral interior, London"
+    },
+    "pantheonParis": {
+      "src": "/assets/history-deep/the-dome/pantheonParis.jpg",
+      "alt": "The Pantheon in Paris from the outside, showing its dome and portico",
+      "credit": "Photo: Maksim Sokolov (maxergon.com), via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panth%C3%A9on_de_Paris_in_July_2022_(2).jpg",
+      "title": "Pantheon, Paris"
+    },
+    "stIsaacs": {
+      "src": "/assets/history-deep/the-dome/stIsaacs.jpg",
+      "alt": "St Isaac's Cathedral in Saint Petersburg, showing its gilded dome",
+      "credit": "Photo: Florstein (Telegram:WikiPhoto.Space), via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint_Isaac%27s_Cathedral_in_SPB.jpeg",
+      "title": "St Isaac's Cathedral, St Petersburg"
+    },
+    "usCapitol": {
+      "src": "/assets/history-deep/the-dome/usCapitol.jpg",
+      "alt": "The United States Capitol in Washington, D.C., showing its dome",
+      "credit": "Photo: Diliff, via Wikimedia Commons (CC BY 2.5)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_Capitol_dome_Jan_2006.jpg",
+      "title": "US Capitol, Washington, D.C."
+    },
+    "jahrhunderthalle": {
+      "src": "/assets/history-deep/the-dome/jahrhunderthalle.jpg",
+      "alt": "The Centennial Hall, or Jahrhunderthalle, in Wroclaw, a reinforced-concrete domed hall",
+      "credit": "Photo: Fred Romero from Paris, France, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wroc%C5%82aw_-_Hala_Stulecia_(6).jpg",
+      "title": "Centennial Hall, Wroclaw"
+    },
+    "biosphere": {
+      "src": "/assets/history-deep/the-dome/biosphere.jpg",
+      "alt": "The Montreal Biosphere, Buckminster Fuller's geodesic dome built for Expo 67",
+      "credit": "Photo: Maela Ohana, via Wikimedia Commons (CC BY 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montreal_Biosphere_Environment_Museum.jpg",
+      "title": "Montreal Biosphere"
+    },
+    "edenProject": {
+      "src": "/assets/history-deep/the-dome/edenProject.jpg",
+      "alt": "The Eden Project in Cornwall, showing its geodesic biome enclosures",
+      "credit": "Photo: Jürgen Matern, via Wikimedia Commons (CC BY-SA 2.5)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eden_Project_geodesic_domes_panorama.jpg",
+      "title": "Eden Project, Cornwall"
+    },
+    "reichstagDome": {
+      "src": "/assets/history-deep/the-dome/reichstagDome.jpg",
+      "alt": "Interior of the glass dome of the Reichstag in Berlin, designed by Norman Foster",
+      "credit": "Photo: Ank Kumar, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reichstag_Dome,_Berlin_(Ank_Kumar)_08.jpg",
+      "title": "Reichstag dome interior, Berlin"
+    },
+    "millenniumDome": {
+      "src": "/assets/history-deep/the-dome/millenniumDome.jpg",
+      "alt": "The Millennium Dome, now The O2, in London",
+      "credit": "Photo: Lewis Hulbert, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_O2,_Greenwich,_London.jpg",
+      "title": "Millennium Dome, London"
+    },
+    "atreusDoorway": {
+      "src": "/assets/history-deep/the-dome/atreusDoorway.jpg",
+      "alt": "Entrance to the Treasury of Atreus at Mycenae, with its doorway and large lintel block",
+      "credit": "Photo: Ken Russell Salvador, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Treasury_of_Atreus_Entrance_Mycenae.jpg",
+      "title": "Treasury of Atreus doorway, Mycenae"
+    },
+    "palazzetto": {
+      "src": "/assets/history-deep/the-dome/palazzetto.jpg",
+      "alt": "The Palazzetto dello Sport in Rome from the outside, showing Pier Luigi Nervi's concrete dome carried on Y-shaped buttresses",
+      "credit": "Photo: FOTO:Fortepan — ID 58007: Adományozó/Donor: Varga, Pierre., via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palazzetto_dello_Sport_sportcsarnok._Fortepan_58007.jpg",
+      "title": "Palazzetto dello Sport, Rome"
+    },
+    "losManantiales": {
+      "src": "/assets/history-deep/the-dome/losManantiales.jpg",
+      "alt": "Los Manantiales restaurant in Xochimilco, Mexico City, Felix Candela's thin-shell concrete roof",
+      "credit": "Photo: Dge, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Restaurante_Los_Manantiales_07.jpg",
+      "title": "Los Manantiales, Xochimilco"
+    },
+    "louvreAbuDhabi": {
+      "src": "/assets/history-deep/the-dome/louvreAbuDhabi.jpg",
+      "alt": "Interior under the dome of Louvre Abu Dhabi, where light filters through the layered dome",
+      "credit": "Photo: Francesco Bini, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Louvre_abu_dhabi,_interno,_cortile_coperto_01.jpg",
+      "title": "Louvre Abu Dhabi dome interior"
+    }
+  },
+  "standfirst": "No other form has served so many faiths, empires and technologies, or outlasted so many of them. The dome began as a roof corbelled over a tomb, became in Rome a concrete heaven pierced by a single eye, learned in Byzantium and Islam to float on pendentives, squinches and muqarnas, and was reinvented in Renaissance Florence by a goldsmith who refused to use centring. It crowned mosques, cathedrals, capitols and exhibition halls in brick, stone, tile, iron and glass, thinned in the twentieth century to a concrete shell a few centimetres thick, and dissolved at last into a lattice of triangles. This complete history follows that single idea across three millennia, explains the thrust and counter-thrust that keep it standing, and teaches the reader to read any dome — its transition, its drum, its coffers, its light — at a glance.",
+  "intro": [
+    "The dome is one of architecture's oldest ideas and its most persistent. Long before the true arch was understood, builders in the Aegean were corbelling rings of stone inward, course upon course, until a beehive vault closed over a royal tomb; the Treasury of Atreus at Mycenae, raised around 1250 BCE, still stands. Rome gave the form its first great engineering — concrete cast over timber centring, lightened as it rose — and its first great meaning, in the Pantheon, where a perfect hemisphere rests on a cylinder of equal height. Every later culture that wanted a room to feel gathered, centred and set apart returned to the same geometry: Byzantine churches, Islamic mosques and tombs, Renaissance cathedrals, Baroque chapels, parliamentary chambers and, eventually, planetaria, sports halls and greenhouses all begin from a circle carried into the air and held there, against gravity, by geometry alone.",
+    "That persistence has a structural price, and this book never separates the poetry from the physics. A dome is a compression shell: its weight travels down through the curve as a continuous push, and at the springing that push turns outward as thrust, trying to burst the supporting walls apart. Everything inventive in the dome's history is an answer to that base problem — massive Roman walls, Byzantine pendentives and half-domes, chains and tension rings hidden in the masonry, double shells that separate the dome seen from inside from the silhouette seen against the sky, ribs that gather the load, drums that lift and steady the crown. The symbolic load is just as real. A dome makes its interior a cosmos in miniature, its crown a heaven, its centre a place of assembly, judgement or prayer, which is why states as well as faiths have claimed it.",
+    "The chapters that follow proceed chronologically but argue by building, moving from the ancient world through Rome and Byzantium, the Islamic lands, the Renaissance and Baroque, and the iron, concrete and geodesic revolutions of the modern age, with a closing field guide for reading domes in person. The account is an original synthesis, written for this series from the buildings themselves and from modern scholarship, above all E. B. Smith's foundational study of the dome as an idea, Marder and Wilson Jones on the Pantheon, Mark Wilson Jones on the principles of Roman design, and Jacques Heyman on the structural behaviour of masonry. Where measurements, dates or attributions are contested, the text says so; where a dome's fame rests on legend — a chain, an egg, a whispered secret — the legend is given as legend, and the fabric is allowed the last word."
+  ],
+  "keyFacts": [
+    [
+      "Period",
+      "From corbelled Bronze Age tholoi of around 1250 BCE to the present day: perfected in Roman concrete by the second century CE, transformed in Byzantium and the Islamic world, reinvented in Renaissance Italy, industrialised in iron and steel in the nineteenth century, and thinned to shells and geodesic lattices in the twentieth."
+    ],
+    [
+      "Where",
+      "Worldwide, with decisive chapters in Greece, Rome, Constantinople, Jerusalem, Central Asia and Persia, then Italy, France and England, and in the modern age the United States and Germany. The form travelled with empire, faith and trade, and was localised everywhere in brick, stone, tile, timber, iron, concrete and glass."
+    ],
+    [
+      "Signature",
+      "A curved compression shell carried over a circular, square or polygonal room, resolved at its base by a drum, pendentives or squinches, and finished with a lantern or oculus. Its profile — hemisphere, pointed, bulbous, conical or shallow saucer — is its fastest identifier, and its interior, a single centred volume lit from the crown, is its unmistakable experience."
+    ],
+    [
+      "Key figures",
+      "Anthemius of Tralles · Isidore of Miletus · Sinan · Filippo Brunelleschi · Donato Bramante · Michelangelo · Christopher Wren · Jules Hardouin-Mansart · Jacques-Germain Soufflot · Pier Luigi Nervi · Buckminster Fuller — mathematicians, goldsmiths, painters, court architects and engineers who, between them, solved the transition, the double shell, the iron frame and the geodesic lattice."
+    ],
+    [
+      "Landmark buildings",
+      "The Pantheon in Rome, still the largest unreinforced concrete dome ever built; Hagia Sophia in Istanbul; the Dome of the Rock in Jerusalem; the Gur-e Amir in Samarkand; Florence Cathedral; the Selimiye Mosque in Edirne; St Peter's in the Vatican; St Paul's in London; and, in the modern age, the Palazzetto dello Sport and the Eden Project."
+    ],
+    [
+      "Legacy",
+      "The dome supplied the default image of sacred and civic authority for two thousand years — mosque, cathedral, capitol, mausoleum, law court — and its engineering seeded modern shell and space-frame construction. Even where contemporary architects avoid its symbolism, they inherit its mathematics every time a large, column-free, daylit interior is required."
+    ]
+  ],
+  "timeline": [
+    [
+      "c. 1250 BCE",
+      "The Treasury of Atreus at Mycenae is corbelled in stone rings over a circular burial chamber, the largest clear span of the Bronze Age and proof that the dome idea precedes the true arch by more than a thousand years."
+    ],
+    [
+      "1st century BCE – 1st century CE",
+      "Roman builders at Baiae and around the Bay of Naples cast some of the first large concrete domes, including the so-called Temple of Mercury, learning to lighten the mix with pumice as the vault rises."
+    ],
+    [
+      "c. 125 CE",
+      "The Pantheon in Rome is completed under Hadrian: a coffered concrete hemisphere 43.3 metres across, pierced by an open oculus, a span no builder would exceed in masonry for well over a thousand years."
+    ],
+    [
+      "c. 350 CE",
+      "Santa Costanza in Rome, built as an imperial mausoleum, carries a dome on twelve paired columns with an encircling barrel-vaulted ambulatory — the rotunda type that will serve baptisteries, chapels and tombs for centuries."
+    ],
+    [
+      "537 CE",
+      "Hagia Sophia in Constantinople is dedicated, its dome of about 31 metres carried on pendentives over a vast nave; when the shallow first dome partly falls after an earthquake, it is rebuilt steeper and the church is rededicated in 562."
+    ],
+    [
+      "691–692 CE",
+      "The Dome of the Rock in Jerusalem is completed, an octagon crowned by a gilded timber dome over the sacred rock — the oldest surviving monument of Islamic architecture and the model for generations of domed shrines."
+    ],
+    [
+      "c. 943 CE",
+      "The Samanid Mausoleum in Bukhara is completed in baked brick: a cube carried to a hemisphere by squinches, its walls woven into geometric brick patterns that are structure, ornament and inscription at once."
+    ],
+    [
+      "1312 CE",
+      "The mausoleum of Oljaytu at Soltaniyeh in Persia is finished with the world's largest brick dome of its age, an early and daring double shell rising over an octagonal chamber."
+    ],
+    [
+      "1404 CE",
+      "The Gur-e Amir in Samarkand, Timur's mausoleum, raises a ribbed, melon-profiled outer dome in turquoise tile on a tall drum — the silhouette that will define Timurid and, in time, Mughal architecture."
+    ],
+    [
+      "1436 CE",
+      "Brunelleschi's dome for Florence Cathedral is completed, a double shell of herringbone brick spanning about 42 metres and built without full timber centring; its marble lantern is finished after his death, in 1471."
+    ],
+    [
+      "1575 CE",
+      "Sinan completes the Selimiye Mosque in Edirne, its dome of 31.28 metres carried on eight piers with a clarity its architect regarded, in his eighties, as his masterpiece."
+    ],
+    [
+      "1590 CE",
+      "The dome of St Peter's in the Vatican, designed by Michelangelo and completed by Giacomo della Porta with a slightly raised profile, is finished — a double shell in masonry that fixes the Renaissance dome as an image of authority."
+    ],
+    [
+      "1619 CE",
+      "The Sheikh Lotfollah Mosque in Isfahan is completed, its dome changing pattern from medallion to arabesque as it rises and its tiles shifting colour with the light — Safavid surface art at its most refined."
+    ],
+    [
+      "1706 CE",
+      "Les Invalides in Paris is completed to Jules Hardouin-Mansart's design, its triple-shelled dome and gilded lantern giving the French monarchy a mausoleum-church of Roman scale in a classical idiom."
+    ],
+    [
+      "1710 CE",
+      "St Paul's Cathedral in London is completed: Christopher Wren's triple structure of inner dome, hidden brick cone and outer timber-and-lead silhouette resolves, in one building, the competing claims of interior, structure and skyline."
+    ],
+    [
+      "1811 CE",
+      "The Halle aux Blés in Paris receives an iron dome by François-Joseph Bélanger, among the first great metal domes, proving that a frame of slender iron ribs could replace masonry mass."
+    ],
+    [
+      "1866 CE",
+      "The cast-iron dome of the United States Capitol in Washington is completed, its painted and gilded ironwork demonstrating that the dome of state could now be manufactured, shipped and assembled as industry."
+    ],
+    [
+      "1913 CE",
+      "Max Berg's Jahrhunderthalle in Breslau opens with a reinforced-concrete dome 65 metres across, the largest span yet achieved, as concrete and steel together displace the masonry tradition."
+    ],
+    [
+      "1954 CE",
+      "Buckminster Fuller patents the geodesic dome, a lattice of triangles that distributes stress through the whole surface and can enclose the greatest volume with the least material."
+    ],
+    [
+      "1957 CE",
+      "Pier Luigi Nervi's Palazzetto dello Sport in Rome is completed, a ribbed reinforced-concrete shell 60 metres across cast in prefabricated units — proof that a modern dome could be both economical and beautiful."
+    ],
+    [
+      "1967 CE",
+      "Fuller's geodesic sphere for the United States Pavilion at Expo 67 in Montreal rises 76 metres high, the transparent emblem of a dome reconceived as lightweight, demountable and planetary."
+    ],
+    [
+      "1999 CE",
+      "The Reichstag in Berlin reopens under Norman Foster's glass dome, a public spiral ramp replacing the lost nineteenth-century cupola — the dome recast as a symbol of transparent government."
+    ],
+    [
+      "2001 CE",
+      "The Eden Project in Cornwall opens, its interlocking geodesic biomes of steel and inflated foil sheltering artificial climates in the largest plant enclosure of its kind."
+    ],
+    [
+      "2017 CE",
+      "Louvre Abu Dhabi opens beneath Jean Nouvel's vast layered dome, 180 metres across, whose stacked geometric screens filter the Gulf sun into a shifting rain of light over a museum city."
+    ]
+  ],
+  "chapters": [
+    {
+      "id": "before-the-dome",
+      "numeral": "I",
+      "title": "Before the Dome: Corbelled Vaults, Tholoi and the Treasury of Atreus",
+      "sections": [
+        {
+          "heading": "How Corbelling Works",
+          "figure": "atreusTholos",
+          "paras": [
+            "A corbelled vault is built without ever spanning a void in the manner of a true arch. Each successive course of stone projects slightly beyond the course below it, oversailing inwards until the opposing sides meet or can be closed by a single capstone. The result looks like a dome from inside, and it is often called a false dome for that reason. Structurally it behaves very differently. Each ring is a complete horizontal course in compression, stable in itself once laid, and it needs no centring and no mortar strong in tension to hold it while building proceeds. Each course, once closed, locks itself in place by its own weight alone.",
+            "That simplicity explains both its longevity and its limits. Because every course must cantilever only a little, the profile tends to be tall and pointed, more beehive than hemisphere, and the diameter is constrained by the length and strength of the stones available. Builders compensated by making walls massively thick, so the oversailing courses were counterweighted by solid masonry behind them. Weight travels downwards through the wall rather than outwards as thrust, which is an advantage on weak ground, but the interior volume won is small compared with the material consumed to win it. The profile, the thickness and the span are therefore inseparable in any corbelled design.",
+            "Corbelling appears wherever dry stone or mud brick was the ordinary medium and timber for centring was scarce. It requires patience and accurate dressing, not a new material or a new theory of structure. For that reason it should not be treated as a primitive attempt that failed. It was a complete solution within its own logic, refined over thousands of years, and in some regions it remained the preferred way to roof a round chamber long after true arches and vaults were known elsewhere in the same world. Its endurance in remote districts, long after antiquity, proves how satisfying that solution could be."
+          ]
+        },
+        {
+          "heading": "From Newgrange to the Mycenaean Tholoi",
+          "paras": [
+            "Among the earliest surviving examples is the passage tomb at Newgrange in Ireland, built about 3200 BCE. Its central chamber is roofed by a corbelled vault rising about six metres above the floor, formed of flat stones laid in overlapping rings and still remarkably watertight after five thousand years. The builders understood the principle thoroughly, grading the stones and packing the joints so that rainwater was shed outwards. Newgrange proves that corbelling was mastered in Neolithic Europe, far from any later classical tradition, as part of a monumental architecture of earth and stone. Its cruciform plan of passage and chambers shows planning of a high order too.",
+            "In the Aegean, corbelling achieved its most ambitious ancient form in the tholos tombs of Mycenaean Greece, built mainly between about 1500 and 1100 BCE. A tholos is a circular chamber, usually sunk into a hillside and approached by an open passage called a dromos, then covered by an earthen mound. Dozens survive around Mycenae and across the Peloponnese, in Messenia and in Thessaly. Their scale grows over time, suggesting competitive display between ruling families as much as funerary need. The dead were placed within, and the mound proclaimed dynastic continuity to everyone passing the citadel below. Rich grave goods, long since looted, once confirmed the royal status of those buried.",
+            "The form was not confined to mainland Greece. Round corbelled buildings spread widely around the Mediterranean, adapted to local materials and purposes. On Crete, circular tombs of the Early Bronze Age used similar techniques on a smaller scale. In Iberia and southern France, corbelled dry-stone huts and tombs continued the tradition for millennia. The persistence of the type shows how portable the idea was. Any community with suitable stone and a tradition of careful dry walling could reproduce it, without written theory, simply by handing the craft from one generation of masons to the next. The technique travelled by demonstration and memory, not by drawing, treatise or written rule."
+          ]
+        },
+        {
+          "heading": "The Treasury of Atreus and the Limits of Stone",
+          "figure": "atreusDoorway",
+          "paras": [
+            "The Treasury of Atreus at Mycenae, dated to about 1250 BCE, is the masterpiece of the type. Despite its traditional name it was a royal tomb, not a storehouse. Its chamber measures about 14.5 metres in diameter and about 13.5 metres in height, a volume unmatched in masonry for well over a thousand years afterwards. The courses of conglomerate stone are cut and laid with extraordinary precision, rising in a smooth curve to a single capstone. A smaller side chamber, probably for the principal burial, was cut into the rock beside the main space. Visitors still feel its scale bodily, standing where its builders intended awe to begin.",
+            "The entrance is as impressive as the chamber itself. A doorway about five metres high is spanned by a great lintel, whose inner block weighs about 120 tons and remains among the heaviest stones ever placed in Greek architecture. Above the lintel sits an open relieving triangle, a device that diverts the weight of masonry above away from the lintel and onto the jambs. The triangle was originally covered by a decorated slab. The facade was further enriched with half-columns and patterned stone in contrasting colours, fragments of which are now held in museums in Athens and London. Such stones could only be moved with ramps, rollers, levers and very large organised gangs.",
+            "Sardinian nuraghi extend the story. These massive Bronze Age towers, built from about 1800 BCE onwards, contain corbelled chambers stacked one above another within a single truncated cone of basalt or granite. They show corbelling used not for tombs alone but for defended, inhabited structures. Yet the limit was always the same. A corbelled vault cannot open a wide, low, hemispherical space, nor carry large openings in its sides. To do that, builders would need a material that could be cast as one continuous shell and a geometry that channelled thrust deliberately. That different idea, requiring casting, centring and confidence in a continuous material unknown here, belongs to Rome."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rome-learns-to-span",
+      "numeral": "II",
+      "title": "Rome Learns to Span: Concrete, Centring and the First True Domes",
+      "sections": [
+        {
+          "heading": "Concrete Changes Everything",
+          "figure": "pantheonExterior",
+          "paras": [
+            "The Roman dome begins with a material, not a shape. Opus caementicium, Roman concrete, combined a lime mortar with aggregate and, crucially in central Italy, pozzolana, a volcanic ash from around Puteoli and the Bay of Naples. Mixed with lime and water, pozzolana produced a mortar that set hard, resisted water and even gained strength under damp conditions. Poured or packed between facings of brick or stone, the concrete core hardened into an artificial rock. Walls and vaults could therefore be built as continuous masses rather than assembled from individually cut voussoirs, and that continuity made large curved shells practical. Without pozzolana, Roman vaulting at this scale would have remained an unrealised ambition.",
+            "Concrete alone was not enough. A dome must be held in its final shape until the mortar sets, which required timber centring, a temporary wooden structure built to the intended profile and strong enough to carry wet concrete and workmen. Building centring for a large span was a major work of carpentry in itself, consuming forests of timber and skilled labour. Roman builders learned to keep formwork in place, to reuse it, and to lighten shells with coffers and recesses formed directly in the timber mould. The visible surface of a Roman vault is therefore also a record of the timber structure that made it. Centring therefore deserves counting among the great hidden structures of Roman architecture itself.",
+            "Once cast, the shell behaved as a monolith. Thrust could be met by thickening the base, by embedding the springing within massive walls, or by adding relieving arches inside the concrete to direct loads onto chosen supports. Builders graded their aggregate by weight, using heavy stone low down and lighter material near the crown, a refinement that later reached perfection in the Pantheon. This was empirical knowledge, won by trial, collapse and correction over generations, not derived from calculation. Yet by the first century BCE it had produced something entirely new in architecture: a true dome of considerable span. Failures taught as much as successes, though the written record preserves only the successes."
+          ]
+        },
+        {
+          "heading": "Baiae, Pompeii and the Baths",
+          "paras": [
+            "The earliest surviving large concrete domes cluster around the Bay of Naples, close to the pozzolana quarries and to wealthy patrons who wanted novel bath buildings. At Baiae, the domed rotunda traditionally called the Temple of Mercury spans about 21.5 metres and is generally dated to the late first century BCE. It is among the earliest surviving concrete domes of great size. The building was in fact part of a bath complex, its dome pierced by a central oculus and its walls opened by large windows that lit the water below and vented steam from the heated room. Its hemispherical profile, partly buried today, was already close to the later classical ideal.",
+            "Smaller domes became routine in bath architecture throughout the Roman world. At Pompeii, the caldaria and tepidaria of the Stabian and Forum Baths were roofed with domes and semi-domes that kept heat in, shed condensation towards the walls and allowed a controlled opening at the crown. Baths were ideal laboratories for vaulting. They needed fire-resistant roofs, tolerated massive enclosing walls, and were rebuilt often enough for builders to experiment. Techniques proved in a bathhouse, where failure was embarrassing rather than catastrophic, could then be risked at larger scale in halls, tombs and imperial palaces across the empire. Mortar that set under steam and heat made these rooms especially suitable proving grounds.",
+            "A dome also solved a practical problem of planning. A circular room has no awkward corners, can be heated evenly, and reads as a single unified space under one centre. Roman architects exploited that unity, setting domed rotundas within rectangular blocks of service rooms that buttressed the shell invisibly. From outside, many early domes are barely visible, hidden behind parapets and tiled roofs. The drama was reserved for the interior, where the visitor stepped from low passages into a tall, centrally lit volume. That contrast between a plain exterior and an astonishing interior became a lasting Roman habit in domed design. The bather experienced the dome, not the engineer, and that experience drove further patronage."
+          ]
+        },
+        {
+          "heading": "Nero, Agrippa and the Imperial Dome",
+          "paras": [
+            "The most brilliant early experiment was the Octagonal Room of Nero's Domus Aurea in Rome, built after the great fire of 64 CE. The room is neither round nor square but octagonal, its concrete dome rising from eight sides that dissolve, through ingenious geometry, into a circular opening at the crown. Radial chambers open off each side, some lit by shafts that wash the walls with indirect light. The design, associated with the engineers Severus and Celer named by Tacitus, turned a dining room into a piece of cosmic theatre, its oculus standing for the sun around which the space revolved. Ancient writers report that the palace was designed to evoke the heavens themselves in motion.",
+            "In the Campus Martius, Marcus Agrippa built the first Pantheon about 27 to 25 BCE, a temple associated with Augustus and the deified Julius Caesar. Its exact form is debated, because Hadrian's later rebuilding replaced it almost entirely, but recent scholarship argues that Agrippa's building already included a rotunda, perhaps roofed in timber rather than concrete. What matters is the ambition of the site and name. Pantheon, meaning of all the gods, announced a building that gathered many cults under one roof, an idea that a single unifying dome would later express with unrivalled clarity and power. The name itself survived the fire, the rebuilding and the centuries that followed it.",
+            "By the early empire the dome had become an imperial instrument. It crowned the ruler's audience halls, baths and mausolea, and its geometry carried associations with the vault of heaven and the order of the cosmos. To dine, bathe or be buried beneath a dome was to occupy the centre of a miniature universe, with the emperor as its ordering presence. That symbolic charge explains why emperors invested so heavily in ever larger spans. Engineering and ideology advanced together, each justifying the other, until a successor of Augustus and Nero could commission the greatest dome of the ancient world on the Pantheon site. Every subsequent emperor inherited both the technique and the expectation that he would use it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pantheon",
+      "numeral": "III",
+      "title": "The Pantheon: A Sphere You Can Stand Inside",
+      "sections": [
+        {
+          "heading": "Hadrian's Rotunda",
+          "figure": "pantheonInterior",
+          "paras": [
+            "The Pantheon that stands in Rome today was built under the emperor Hadrian, about 118 to 128 CE, on the site of Agrippa's earlier temple. Hadrian characteristically retained Agrippa's original dedication inscription on the new portico, which misled scholars for centuries about the building's date. Only brick stamps, recording the years of manufacture pressed into the bricks themselves, revealed the Hadrianic date securely in the nineteenth century. The new building was wholly different in conception, a vast domed rotunda fronted by a traditional Corinthian portico of Egyptian granite columns with monolithic shafts. The choice announced continuity with Augustus while replacing his building almost completely in fact.",
+            "The governing idea is geometric and can be felt at once on entering. The interior diameter of the rotunda is 43.3 metres, and the height from floor to oculus is the same, so that a perfect sphere could be inscribed within the space, touching floor, walls and crown. The dome is a true hemisphere set on a cylindrical drum of equal height. Modern scholarship, notably the work of Mark Wilson Jones, has shown how Roman designers set out such buildings using simple proportional rules and a standardised geometry, achieving this precision without the analytical mathematics a modern engineer might expect them to have used. Standing at the centre, a visitor senses that proportion immediately, without needing any measurement.",
+            "The portico remains the building's enduring puzzle. It sits awkwardly against the rotunda, joined by an intermediate block whose pediment outline can still be seen above the present one, higher on the facade. The evidence suggests the portico was intended to be taller, with longer monolithic column shafts, about fifteen metres rather than the twelve actually used, and that a supply failure forced a redesign during construction. Far from diminishing the building, the flaw is precious evidence. It shows a vast imperial project adapting in real time to the logistics of quarrying and shipping stone across the Mediterranean world. Imperial projects elsewhere show the same pattern of design adjusted to quarrying and transport."
+          ]
+        },
+        {
+          "heading": "A Shell That Grows Lighter as It Rises",
+          "paras": [
+            "The dome is not a uniform shell. At its base it is about 6.4 metres thick, and it thins progressively to about 1.2 metres at the crown around the oculus. Roman builders achieved this in part through the external step-rings that rise up the back of the dome, adding weight and depth low down where hoop stresses demand it. Inside, five rows of coffers, twenty-eight to each row, cut deep recesses into the shell. The coffers delight the eye, but they also remove material and weight exactly where the structure can spare it, while stiffening the surface like a folded plate. Each coffer is framed by stepped mouldings that catch light and deepen the shadow within.",
+            "Weight was controlled within the concrete itself by grading the aggregate. In the drum and the lowest part of the dome the mix contains heavy travertine and brick. Higher up, builders substituted lighter volcanic tuff, and in the highest zone around the oculus they used pumice, the frothy volcanic stone light enough to float on water. The shell therefore grows literally lighter as it rises, reducing the load its own base must carry and limiting outward thrust. It is a sophisticated, graded material, designed course by course, and it explains how so large a span could stand without reinforcement of any kind. No modern engineer, asked to span this distance in unreinforced concrete, would proceed lightly today.",
+            "The drum that carries this shell is equally considered. From inside it reads as a solid cylinder, but its thickness is hollowed by alternating rectangular and semicircular niches, and by chambers within the wall that reduce weight while concentrating loads onto eight massive piers between them. Brick relieving arches embedded in the concrete transfer the dome's thrust down through those piers to the foundations, a wide ring of concrete stepped out beneath the building. Cracks appeared even in antiquity as the drum settled unevenly, yet the system held. The Pantheon has now carried its dome, the largest unreinforced concrete dome in the world, for about nineteen centuries. That the cracks stabilised rather than spread is the clearest proof the system worked well."
+          ]
+        },
+        {
+          "heading": "Light, Survival and Influence",
+          "figure": "pantheonOculus",
+          "paras": [
+            "The only source of natural light is the oculus, a circular opening about 8.7 metres across at the crown, entirely open to the sky. Through it a shaft of sunlight moves across the coffers and floor through the day like the beam of a sundial, marking the hours and seasons within a space that otherwise excludes the outside world. Rain falls through the oculus too, as visitors still discover, and drains away through small holes in the slightly convex marble floor. The building accepts weather into its perfect geometry, joining heaven and earth in the most literal way available to architecture. At noon the disc of light climbs the wall and rests upon the doorway itself.",
+            "The Pantheon survives because it was given a second life. In 609 CE the Byzantine emperor Phocas presented the building to Pope Boniface IV, who consecrated it as the church of Santa Maria ad Martyres, and it has remained in continuous use ever since. Conversion protected it from the quarrying that destroyed most ancient Roman monuments, though not from all loss. Its bronze roof tiles were stripped in the seventh century, and Bernini later added, and posterity removed, small bell towers to the portico. Raphael is buried here, as are kings of united Italy, beneath the dome he studied and loved. Continuous worship, more than any repair campaign, is what carried the building safely through.",
+            "No dome has been more influential. Brunelleschi measured its lessons before building in Florence, Michelangelo is said to have remarked that the Pantheon was designed by angels not men, and its combination of portico and rotunda was copied from Palladio's villas to Jefferson's Virginia and to capitols, museums and university halls across the modern world. Yet copies capture the image, not the achievement. The original remains unsurpassed in its unity of idea, a sphere you can stand inside, built in cast stone by an empire at the height of its confidence and craft. The Pantheon thus remains both a model to copy and a standard impossible to equal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "later-empire",
+      "numeral": "IV",
+      "title": "Domes of the Later Empire: Baths, Tombs and the First Churches",
+      "sections": [
+        {
+          "heading": "Baths and the Temple of Minerva Medica",
+          "figure": "santaCostanza",
+          "paras": [
+            "In the later empire the dome became the standard crown for the grandest heated rooms. The caldaria of the imperial thermae, the great public baths of Caracalla and Diocletian in Rome, were covered by high vaults and domes that gathered steam, returned condensation to the walls and gave the bathers a sense of almost outdoor space while they remained indoors. Bath domes could be opened with adjustable bronze discs at the crown, according to ancient descriptions, letting attendants regulate heat and light. Engineering here served comfort and spectacle together, in buildings that were palaces for the whole population of the capital. Bronze, marble and coloured stone completed rooms intended to overwhelm the senses completely daily.",
+            "The most inventive late Roman dome covers the building in Rome long misnamed the Temple of Minerva Medica, in fact probably a garden pavilion or nymphaeum of about 320 CE, perhaps within the Horti Liciniani. It is ten-sided, spanning about 25 metres, and its concrete dome is carried on ten piers with tall arched windows opened between them, flooding the interior with light to a degree earlier builders would have feared. Brick ribs were built into the shell, concentrating its loads, and lightweight materials kept the crown thin. Much of the dome stood until 1828, when the surviving upper portion finally fell. Its fall, recorded in the nineteenth century, was mourned by architects across Europe at once.",
+            "At Split, on the Dalmatian coast, Diocletian built his retirement palace about 305 CE with a circular mausoleum at its ceremonial heart. Its dome, brick-faced and coffered with radiating patterns, rises over an interior ringed by two tiers of columns, while the exterior remains a massive octagon of stone. The tomb, like the Pantheon later, survived through conversion, becoming the cathedral of Split in the seventh century. The type is significant. The emperor's domed tomb proclaimed an eternal, heaven-roofed dwelling, and Christian successors could adopt the same form for saints and martyrs with little change of architectural language. Palace and tomb together announced that the retired emperor intended authority beyond death itself."
+          ]
+        },
+        {
+          "heading": "Santa Costanza and the Imperial Mausoleum",
+          "paras": [
+            "Santa Costanza in Rome, built about 350 CE as a mausoleum for Constantina, daughter of Constantine, refines the imperial tomb into something new. Its dome, about 22.5 metres across, does not rest on a solid drum at all. It is carried on twelve pairs of granite columns, set radially in couples beneath twelve great arches, so that the central space is encircled by a ring of paired supports. Beyond them runs an ambulatory covered by a barrel vault, whose mosaics of vines, birds and vintage scenes are the finest of their period to survive in the city of Rome. The sarcophagus of Constantina, now in the Vatican Museums, copies the vault mosaics closely in carved form.",
+            "The effect is of a dome floating above a colonnade, lit by twelve windows in the drum between the arches. Weight is divided between the column ring and the thick outer wall, which absorbs thrust through the ambulatory vault acting as a continuous buttress. Two huge porphyry sarcophagi, one of them Constantina's own, originally stood in niches within this luminous ring. The building became a church, dedicated to Saint Constance, and its plan, a central domed space wrapped by a circular passage, offered Christian architects a ready model for buildings that needed movement around a sacred centre. Light falling through those windows moves around the colonnade, animating the mosaics throughout the day.",
+            "Such rotundas answered new liturgical needs. Pilgrims had to circulate around a tomb or relic without disturbing prayer at the centre, and the ambulatory solved the problem elegantly. Baptisteries made similar demands, since candidates processed around the font. The Lateran Baptistery in Rome, rebuilt under Sixtus III in the fifth century on Constantinian foundations, took an octagonal form with a domed centre carried on porphyry columns. In Jerusalem, the Rotunda of the Holy Sepulchre, consecrated in 335, sheltered Christ's tomb beneath a great domed or conical roof, fixing the centrally planned martyrium at the heart of Christian building forever afterwards. Both buildings show how readily Christian ritual occupied forms first devised for imperial commemoration."
+          ]
+        },
+        {
+          "heading": "The Dome Becomes Sacred",
+          "figure": "minervaMedica",
+          "paras": [
+            "By 400 the dome had completed a long migration of meaning. Invented for baths, dining rooms and imperial display, it had become the recognised sign of the sacred centre, the place where heaven touched earth. Its associations were ready-made for Christian use. Scripture described heaven as a vault, the Psalms spoke of God stretching out the heavens like a tent, and a dome over an altar, font or tomb made that imagery visible in masonry. Worshippers standing beneath it were placed, symbolically, at the centre of a divinely ordered cosmos with Christ enthroned above them. Builders gave that sign practical form in brick, concrete, marble and increasingly in gold mosaic.",
+            "The change also altered how domes were decorated. Pagan rotundas had used coffers and coloured marble, but Christian domes invited imagery, first mosaics of vines, stars and crosses, and in time the great figures of Christ Pantocrator that would dominate Byzantine art. The shell became a picture surface, a heaven populated above the congregation. Because mosaic is heavy and costly, its use testifies to the dome's new status. Patrons spent most where meaning concentrated, at the crown of the building, reversing the bathhouse logic in which expenditure had served the body rather than the soul of the worshipper. The Pantocrator dome of later centuries grows directly from this changed understanding of surface.",
+            "Yet the later Roman dome remained limited in one respect. It still required a round or polygonal support beneath it, a drum or ring of columns shaped like the dome itself. Set a dome on a square room and the geometry failed, leaving gaps at the corners that Roman builders filled clumsily or avoided altogether. Cracking that problem, how to carry a circular dome over a square bay, was the great structural challenge inherited by the early Byzantine world. Its solution in sixth-century Constantinople would transform architecture as profoundly as concrete itself had done five centuries before in Italy. Roman builders had occasionally used pendentive-like forms, but never systematically or at great scale."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hagia-sophia",
+      "numeral": "V",
+      "title": "Hagia Sophia: The Dome on Pendentives",
+      "sections": [
+        {
+          "heading": "Justinian's Commission",
+          "figure": "hagiaSophiaExterior",
+          "paras": [
+            "Hagia Sophia rose from a catastrophe. In January 532 the Nika riot swept Constantinople, factional violence between rival circus parties turned against the emperor Justinian, and much of the city centre, including the previous church of Hagia Sophia, was burned. Justinian, having crushed the revolt with great bloodshed, resolved to rebuild on a scale that would assert his restored authority and surpass every church yet built. Work began within weeks of the fire, in February 532. The new church, dedicated not to a saint but to Holy Wisdom, Hagia Sophia in Greek, was to be the ceremonial heart of a Christian empire. Rebuilding grandly was also an act of theological and political defiance after disaster.",
+            "The men Justinian chose were unusual. Anthemius of Tralles and Isidore of Miletus were not master masons formed in a building lodge but scholars, mathematicians and writers on geometry and mechanics, sometimes called mechanikoi. Anthemius had written on conic sections and burning mirrors, Isidore on vaulting and the works of Archimedes. Their appointment reflects the nature of the problem. No existing church combined a vast congregational basilica with a dome of this size, and no craft tradition alone could guarantee success. Justinian was, in effect, commissioning research, a building designed from geometry outward, then entrusted to a huge workforce to realise at unprecedented speed. Their writings show a culture that treated building as applied geometry in practice.",
+            "The speed remains astonishing. In under six years the church was substantially complete, and Justinian dedicated it in December 537. Procopius, the historian of Justinian's reign, claims the emperor supervised details personally and solved problems on site, including a famous episode in which he directed the widening of an arch. Legend later said Justinian entered the finished church and declared that he had surpassed Solomon, builder of the Temple in Jerusalem. Whether or not he spoke the words, they capture the intention. Hagia Sophia was meant to outdo both the Jewish Temple and the pagan Pantheon in a single Christian monument. The dedication in December 537 opened a building unlike any church built before it."
+          ]
+        },
+        {
+          "heading": "The Pendentive Solved",
+          "paras": [
+            "The central problem was geometric. Hagia Sophia's main space is essentially square, defined by four colossal piers, yet its dome is circular. The solution is the pendentive. Four great arches rise between the piers, one on each side of the square, and in each corner a spherical triangle, the pendentive, curves upward from the pier to meet the circular base of the dome. Imagine a larger dome cut by four vertical planes into a square: the curved triangular fragments remaining at the corners are the pendentives. They translate the circle of the dome into the square of the plan with perfect continuity of surface. Four pendentives, four arches and one continuous cornice thus resolve circle into square elegantly.",
+            "In principle the device had appeared before, in smaller and less complete forms, but at Hagia Sophia it was executed at monumental scale and as the organising idea of a whole building. The dome, about 31 metres across, appears to grow directly out of the arches and piers, so loads flow down four clear paths to the ground while the spaces between remain open. East and west, the composition extends through great semi-domes of equal diameter, which receive the main dome's thrust along its axis and cascade it down through smaller semi-domes and exedrae to the outer walls in a flowing hierarchy of curved surfaces. The semi-domes also double the apparent length of the domed space from below dramatically.",
+            "North and south, where no semi-domes could be placed, the great arches are filled by tympanum walls pierced with windows, and the thrust is met by massive external buttress piers, enlarged repeatedly in later centuries. The system worked, but only just. The first dome was built unusually shallow, which increased its outward thrust, and the structure spread and cracked from the beginning, requiring ties and repairs even before a major earthquake tested it. The building's biography is one of continuous adjustment, a daring equilibrium maintained by successive generations who understood, better than its first builders could, exactly how close to the limit it stood. Procopius and later writers already describe anxious inspections and remedial measures in place early on."
+          ]
+        },
+        {
+          "heading": "Collapse, Rebuilding and the Suspended Dome",
+          "figure": "hagiaSophiaInterior",
+          "paras": [
+            "In December 557 an earthquake shook Constantinople and weakened the dome and its eastern semi-dome, which collapsed in May 558, crashing onto the altar and ambo below. Justinian commissioned Isidore the Younger, nephew of the original Isidore, to rebuild. His new dome, rededicated in 562, was made steeper, raised by about six metres, with its curvature increased so that thrust travelled more nearly downwards. He also strengthened the supporting arches and piers. The profile familiar today, a ribbed dome of forty segments carried about 55.6 metres above the floor, is essentially his, the most consequential repair in architectural history. The church was reconsecrated in 562, with Justinian now an old man present at the ceremony.",
+            "The rebuilt dome preserves the building's most celebrated effect. Around its base runs a ring of forty closely spaced windows, set between the forty ribs, so that the dome's supporting ring is dissolved into light. Seen from below on a bright day, the dome seems detached from the building, hovering over the church. Procopius wrote that it appears suspended from heaven by a golden chain, and that the interior is not lit by the sun from outside but generates its own radiance within. Sixteen centuries of visitors, Christian and Muslim alike, have testified that the description is barely an exaggeration of the experience. Forty windows and forty ribs give the crown a measured, almost musical rhythm throughout.",
+            "Later centuries worked to keep the dome standing. Byzantine emperors added buttresses after further earthquakes, and Sinan, the great Ottoman architect, undertook a comprehensive stabilisation in the sixteenth century, adding massive external buttresses and flying supports after the building became a mosque in 1453. It served as a mosque for nearly five centuries, then as a museum, and is now a mosque again, its mosaics partly veiled in worship. Through every change of use the dome has remained the point. Hagia Sophia taught the world that a dome could crown not a rotunda but a great longitudinal hall, and architecture never returned to the old limitation. Its survival is therefore not an accident but a record of unceasing, knowledgeable maintenance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "byzantium-after",
+      "numeral": "VI",
+      "title": "Byzantium After Justinian: The Cross-in-Square and the Venetian Echo",
+      "sections": [
+        {
+          "heading": "The Cross-in-Square Church",
+          "figure": "stMarks",
+          "paras": [
+            "After Justinian, Byzantine architecture turned inward and downward in scale. The empire that had built Hagia Sophia lost territory, wealth and population, and its churches became smaller, more numerous and more closely tied to monastic and parish life. The characteristic middle Byzantine plan is the cross-in-square, also called the quincunx. Nine bays are arranged in a square, the central bay carrying a dome on a tall drum, the four bays at the corners often carrying smaller domes or vaults, and the arms of the cross between them covered by barrel vaults. The whole composition can be read at a glance, inside and out. Earlier experiments in Constantinople and the provinces prepared the type over several generations gradually.",
+            "The type solved several problems at once. Its supports, usually four columns or piers, divide the congregation's space from the sanctuary in the eastern arm while keeping the dome directly over the liturgical centre. The system is inherently stable, each vault buttressing its neighbours, and it can be built in brick by local workshops without imperial resources. Proportions grew more vertical over time. Drums became taller and narrower, pierced by many windows, so that the dome appeared to rise in stages above roofs of cascading semi-domes and apses, an external silhouette as carefully composed as the interior it crowned and lit. From outside, the church reads as a pyramid of roofs rising inevitably towards heaven.",
+            "Decoration completed the system. Byzantine theology mapped the church as an image of the cosmos, and the dome received the figure of Christ Pantocrator, Christ the Ruler of All, gazing down from the crown, with angels, prophets, apostles and evangelists ranked in descending zones through the building. The worshipper could read the whole of salvation history by lifting the eyes from floor to dome. In the cross-in-square church, structure, space and image became one programme, economical enough for a provincial monastery yet rich enough to serve as the empire's enduring architectural legacy long after its political power had waned. Even the smallest example therefore carries a complete cosmology in miniature for its congregation."
+          ]
+        },
+        {
+          "heading": "Hosios Loukas, Daphni and the Squinch",
+          "paras": [
+            "Two mainland Greek monasteries show the type at its finest. At Hosios Loukas in Boeotia, the larger church, built in the early eleventh century, carries its wide dome, about nine metres across, not on pendentives but on squinches, arches thrown across the corners of the square bay that transform it first into an octagon and then into a circle. The squinch, with deep roots in Sasanian Persian building, offered an alternative geometry to the pendentive, and middle Byzantine builders used both, sometimes in the same region. Beneath the dome, mosaics on gold ground fill the squinches and walls with saints of extraordinary refinement. Its cloisonne masonry, brick set in stone frames, clothes the exterior in patterned richness throughout.",
+            "At Daphni, outside Athens, the monastery church of about 1100 uses the same squinch system beneath a dome about eight metres across, but is famed above all for one image, the great Christ Pantocrator in the dome itself. Stern, monumental and worked in mosaic of exceptional quality, it is among the supreme achievements of Byzantine art. The architecture serves the image with complete discipline. Tall drum windows light the gold tesserae so that the figure glows against the day, while the church below stays comparatively dim. Structure here has become the frame for a single overwhelming vision of divine rule over the gathered community. Few single images in medieval art command a whole interior with such complete authority.",
+            "As the type matured, domes multiplied. The five-dome scheme, one central dome with four smaller domes over the corner bays, gave even modest churches a richly modelled roofline and a symbolic programme, Christ surrounded by the four evangelists. The lost church of the Holy Apostles in Constantinople, rebuilt by Justinian with five domes on a cruciform plan, stood behind many such designs, and its influence travelled far beyond the empire's shrinking borders. Through trade, diplomacy and shared faith, the domed cross-in-square and its five-dome relatives entered the architecture of Venice, Norman Sicily, Serbia and ultimately the lands of Rus. Churches with five domes thus quote a lost imperial original that everyone understood immediately."
+          ]
+        },
+        {
+          "heading": "St Mark's and the Travelling Dome",
+          "figure": "hosiosLoukas",
+          "paras": [
+            "Venice received the Byzantine dome most completely at St Mark's. Begun in 1063 and consecrated in 1094, the ducal church was modelled explicitly on the Holy Apostles in Constantinople. Its plan is a Greek cross, each arm and the crossing crowned by a dome on pendentives, five domes in all, the central one the largest. Raised on tall drums and later clothed in the bulbous outer shells and lanterns seen today, they gave the Venetian skyline its most recognisable silhouette. Inside, more than eight thousand square metres of gold mosaic turn the domes into a glowing heaven above the tomb of Saint Mark below. The five domes were built in brick over pendentives, following Constantinopolitan practice very closely indeed.",
+            "St Mark's was a statement of independence as much as devotion. Venice traded with Byzantium, fought it, and in 1204 helped to sack Constantinople itself, bringing home bronze horses, enamels and relics that enriched the church. The domes proclaimed that Venice, formally subject to no empire, had inherited both Byzantine splendour and apostolic authority through Saint Mark. Elsewhere on the frontier, Norman kings in Sicily combined Byzantine domes and mosaics with Latin plans and Islamic craftsmanship, notably at Cefalu and Monreale, while in the Islamic world the dome on pendentives or squinches, long familiar from earlier practice, continued in mosques and mausolea in dialogue with Byzantine example. Spoils displayed in the church turned that inheritance into visible, public Venetian civic propaganda.",
+            "Further north and east the type kept travelling. Serbian churches of the twelfth and thirteenth centuries, such as Studenica, joined the Byzantine domed cross-in-square to Romanesque carved stonework. In the lands of Rus, builders adopted the domed church in brick and stone, raising tall drums over cathedrals at Kiev, Novgorod and Vladimir. From those beginnings Russian practice developed its own forms, and the famous onion profile belongs mainly to later centuries, a separate story beyond this chapter. What Justinian's architects began had become a common language, spoken with local accents from the Adriatic to the steppe, wherever rulers sought heaven in masonry. Each region changed the proportions, materials and decoration while preserving the recognisable central idea."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dome-of-the-rock",
+      "numeral": "VII",
+      "title": "The Dome of the Rock and the First Domes of Islam",
+      "sections": [
+        {
+          "heading": "Jerusalem 691–692: the first monument of Islam",
+          "figure": "domeOfRock",
+          "paras": [
+            "On the great raised platform of the Haram al-Sharif in Jerusalem stands the oldest surviving monument of Islam, raised in 691–692 under the Umayyad caliph Abd al-Malik. It is not a mosque but a shrine: an octagonal building wrapped in two ambulatories, at whose centre, beneath a gilded wooden dome about twenty metres across, lies the Rock from which, in later Muslim tradition, the Prophet Muhammad ascended to heaven. The site itself was charged with memory — the platform of the Jewish Temple, long ruined, and holy ground to Christians too — and the caliph's building claimed it in a new language of permanence: glazed, gilded and inscribed.",
+            "The dome itself is timber, not masonry: a double wooden structure carried on a tall cylindrical drum pierced by windows, resting in turn on a ring of piers and columns that open onto the inner ambulatory. The craftsmen were drawn from the conquered worlds the caliph now ruled — Byzantine and Sasanian-trained hands among them — and the building's vocabulary is late antique: marble revetment, carved capitals, and above all mosaic, acres of gold-ground vine scroll, jewels and crowns spreading across the inner walls. Nothing in it yet reads as a distinctively Islamic style; it is the splendour of the eastern Roman world redirected, its imagery aniconic, its message carried by ornament and text.",
+            "Jerusalem in 691 was already a city of domes, and the new shrine spoke directly into that skyline. A few hundred metres away rose the great rotunda of the Holy Sepulchre, the domed church over Christ's tomb that had crowned Christian Jerusalem for three and a half centuries; Abd al-Malik's dome, taller and gilded, answered it across the rooftops. Around the drum runs the building's longest voice: a mosaic inscription band of about 240 metres, drawn from and echoing the Quran, proclaiming God's unity and addressing the People of the Book with pointed courtesy. The dome was thus proclamation as much as shelter — architecture as public theology, legible from every approach to the city."
+          ]
+        },
+        {
+          "heading": "Survival, tiles and the afterlife of a shrine",
+          "figure": "domeOfRockInterior",
+          "paras": [
+            "The shrine has been repaired again and again — after earthquakes, under Abbasid and Fatimid caliphs, and as a church in Crusader hands, when it was rededicated as the Templum Domini — yet its plan and dome survive essentially as built. Its most visible later layer is Ottoman: in the 1550s Sultan Suleiman the Magnificent had the exterior mosaics, ruined by weather, replaced with the brilliant glazed tiles that still sheath the octagon, their blues and turquoises renewed in later centuries from the kilns of Kütahya and Jerusalem itself. Inside, the Umayyad mosaics endure, so the building carries both faces of Islamic ornament: the gold garden within, the coloured ceramic skin without.",
+            "From this beginning grew one of the great building types of Islam: the qubba, the domed structure that gives the type its Arabic name and marks a tomb, a shrine or a sacred spot. Domed mausolea multiplied from Cairo to Samarkand — over the tombs of saints and sultans, at the corners of mosques and madrasas — and almost all of them look back, knowingly or not, to Jerusalem: a dome on an octagon or a drum, raised to be read from far off, honouring what lies beneath by lifting a hemisphere of heaven above it. The Dome of the Rock fixed the grammar before Islam had an architecture of its own.",
+            "The wider Umayyad world confirms how central the dome already was. In the courtyard of the Great Mosque of Damascus rises the Dome of the Treasury, a small domed pavilion carried on slender columns, traditionally said to have guarded the community's funds above the reach of thieves. Far east in the Jordanian steppe, the bath house of Qusayr Amra — a caliph's desert lodge of about the 720s–740s — caps its caldarium with a small hemisphere painted inside with the constellations: the earliest surviving painted dome of heaven, a zodiac wheeling over the bather, drawn from late antique star maps. Between treasury and bath, shrine and pleasure, the dome had become Islam's signature in every register."
+          ]
+        },
+        {
+          "heading": "What the first Islamic dome established",
+          "paras": [
+            "Why a dome, and why first? The geometry itself preached. Between the square of the earth and the circle of heaven, the octagon mediates — and in the Dome of the Rock that mediation is the plan: earthly walls rising through an eight-sided figure to a perfect round vault. For a young faith defining itself against older monotheisms on their own ground, the dome offered an image of cosmic order and divine unity that needed no figure and no idol. Later centuries would load the form with funerary and royal meanings, but here at the origin it is almost purely declarative: one God, one heaven, one community gathered under a single unbroken curve.",
+            "Every age has left a layer. The Fatimid caliph al-Zahir rebuilt the shrine after the earthquake of 1015, and his inscriptions share the drum with Abd al-Malik's; Saladin, retaking Jerusalem in 1187, purged its Crusader fittings and restored its Islamic inscriptions; Ottoman sultans re-tiled, re-gilded and re-carpeted it for four centuries. In the 1990s the dome was re-gilded once more, funded by King Hussein of Jordan, who sold a house in London, by his own account, to pay for the gold. Few buildings on earth have been so continuously maintained at the centre of so contested a city.",
+            "Its legacy is double. Within Islam it founded the domed shrine and, by extension, the domed tomb that would flower from Bukhara to Delhi; the chapters that follow trace that line eastward into Persia, where brick and the squinch give the type its structural genius. Within the wider world, the gilded hemisphere over the Rock became the very silhouette of Jerusalem, drawn on maps, coins and pilgrims' souvenirs for thirteen centuries. When later builders — Ottoman, Mughal, even Crusader — raised a dome to say that heaven touched earth here, they were quoting, whether they knew it or not, a caliph's proclamation of 692."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "persia",
+      "numeral": "VIII",
+      "title": "Persia: The Squinch, the Double Shell and the Timurid Flowering",
+      "sections": [
+        {
+          "heading": "The squinch: Persia's answer to the square",
+          "figure": "gurEAmir",
+          "paras": [
+            "Every domed tradition must solve the same riddle: a dome is a circle, a room is a square. Persia's answer, the squinch, is among the most consequential inventions in building history. At the Palace of Ardashir at Firuzabad, raised in the third century CE by the founder of the Sasanian Empire, the corners of a square chamber carry small arches thrown diagonally across the angle; each squinch cuts off a corner, turning the square into an octagon, and further smaller arches bring the support close enough to a circle for the dome to spring. The device is structural honesty made visible — the load's path can be read at a glance in the chamber below.",
+            "Seven centuries later the squinch became the medium of a masterpiece. The Samanid Mausoleum at Bukhara, built in the early tenth century for the founder of a Persianate dynasty, is a cube of baked brick crowned by a hemisphere — and nothing about it is plain. Its bricks are laid in a woven, basket-like pattern of shifting relief that makes the walls seem textile; inside, the transition is a net of intersecting arches in which squinch answers squinch in three dimensions, the geometry flowering as it climbs. Dome, cube and patterned brick fuse into a single thought: structure and ornament are the same thing, done in one material.",
+            "Under the Seljuks the Persian dome learned refinement. The north dome chamber of the Friday Mosque at Isfahan, built in 1088–1089 under the vizier Taj al-Mulk, sets a dome of about twenty metres on a ring of sixteen arched niches with a precision of proportion that mathematicians still plot; its brickwork is flawless, its profile calm. The Ilkhanids who followed the Mongol conquest pushed the type larger, taller and more coloured, wrapping squinches in muqarnas — the stalactite vaulting that dissolves a corner into a honeycomb of small cells — and pointing the dome's silhouette into the elegant ogee-tinged curves that became Persia's skyline signature."
+          ]
+        },
+        {
+          "heading": "Soltaniyeh: the great brick double shell",
+          "paras": [
+            "The climax of the medieval Persian dome stands in the north-west, at Soltaniyeh, the capital founded by the Ilkhan Öljeitü. His mausoleum, built between about 1302 and 1312, carries a dome of roughly 24.5 metres span on an octagonal chamber ringed by a gallery — a double-shell construction in brick, its inner and outer skins separated and stiffened, which keeps the profile soaring while the structure stays light. It ranks among the largest brick domes ever raised, and its scale is frankly imperial: a converted ruler, Sunni then Shia by turns, building himself a monument to out-argue every dynasty before him.",
+            "Eight slender turrets, like minarets, pin the octagon's corners, and around the dome ran a skin of turquoise and dark-blue faience — much now lost or renewed — that turned the vast brick mass into a jewel visible across the plain. Inside, two storeys of galleries open toward the tomb chamber, so the dome crowns a vertical festival of space rather than a sealed vault. Whether Soltaniyeh's double shell later informed Florence is a debated question that this history will revisit; what is certain is the priority: Persia built big in double-shell brick a full century before Brunelleschi, and did so at a span Europe would not match until the Renaissance.",
+            "Soltaniyeh also perfected the Persian profile. Its dome is not a hemisphere but a pointed, slightly ogee curve — a shape with structural logic, since a steeper rise directs thrust more downward into the walls, less outward against them — and an unmistakable silhouette, swelling gently before it sharpens to the crown. Brick made it possible: laid in diminishing courses, brick can follow a drawn curve that cut stone would resist. The monument has suffered — earthquakes, plundered tiles, centuries as a quarry and a landmark — and its restoration continues, but the essential gesture survives intact: the largest room of the Iranian Middle Ages, gathered under one poised brick sky."
+          ]
+        },
+        {
+          "heading": "Samarkand and Isfahan: the turquoise centuries",
+          "figure": "lotfollahInterior",
+          "paras": [
+            "With Timur, the dome acquired a new theatricality. At Samarkand his architects set domes on tall cylindrical drums and ribbed them like melons, so that the silhouette ripples and catches light along every rib. The Gur-e Amir, Timur's own mausoleum of 1403–1404, wears a fluted turquoise dome over a drum banded with monumental inscriptions in brick; the nearby Bibi Khanym mosque raised ribbed domes on a scale meant to announce an empire gathered from half of Asia. The tall drum matters structurally as well as visually: it lifts the dome's springing, concentrates the silhouette, and turns the crown of the building into a beacon over the city's roofs.",
+            "Safavid Isfahan refined the type into poetry. Across the great maydan from the royal mosque stands the Sheikh Lotfollah Mosque (1603–1619), Shah Abbas's private chapel, its dome a single shell of extraordinary subtlety: inside, an arabesque medallion at the crown unwinds in ever-smaller spirals toward the walls, its tiles shifting from turquoise to lemon as the light moves, and at the very centre sits the famous peacock, its tail formed by sun entering the grille above the door. The Shah Mosque's own dome chamber nearby answers with scale and echo — a single clap returning, by the traditional count, sevenfold beneath the crown.",
+            "What unites Bukhara's woven brick and Isfahan's medallions is colour's gradual conquest of the dome. Tile mosaic and haft-rang — seven-colour — tilework let Persian builders glaze the outer shell in the turquoise and deep blue that became the signature of whole cities: from the road, a Persian town announces itself by its domes, blue-green eggs above the mud-brick roofscape, before a single minaret is read. The dome in Persia is thus never only structure. It is geometry solved at the corner, engineering in the double shell, painting on the sky — and the most durable civic logo an Iranian city has ever possessed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sinan",
+      "numeral": "IX",
+      "title": "Sinan: The Ottoman Dome Brought to Rest",
+      "sections": [
+        {
+          "heading": "The chief architect and his apprenticeship in stone",
+          "figure": "suleymaniye",
+          "paras": [
+            "Mimar Sinan (about 1488–1588) holds a record no other architect approaches: chief royal architect to three Ottoman sultans for roughly fifty years, with more than three hundred works — mosques, bridges, aqueducts, baths, tombs, caravanserais — credited to his office in the official lists. Recruited as a youth through the devşirme levy and trained as a Janissary engineer, he learned structure in war: bridges thrown over Balkan rivers, siege works, roads. When he took charge of the imperial building programme in 1538 or 1539, he brought a soldier's clarity to the empire's central problem — how to crown a vast prayer hall with a dome that would neither crack nor fall.",
+            "His apprenticeship in the grand manner, by the tradition he himself shaped, is the Şehzade Mosque in Istanbul (1543–1548), built for Süleyman's beloved son Mehmed, dead at twenty-one. Here Sinan first set a central dome on four piers with a semi-dome answering it on all four sides — a perfectly balanced cross of vaults, the dome's thrust caught and countered equally in every direction. The plan is serene but static: four equal exhalations around a centre. Sinan had proven the system works; the rest of his career is the story of making it move, opening the balance into procession, hierarchy and light.",
+            "Behind every design stood one building: Hagia Sophia, nine centuries old when Sinan was born, its 31-metre dome still the measure of the possible and a standing warning — it leaned, cracked and shed its mosaics, kept upright by generations of repairs. Sinan studied it as an engineer studies a rival's bridge. He was charged with its care, shored its dome with buttress towers of his own, and understood precisely where its thrusts went astray. His imperial mosques are, in one sense, a fifty-year commentary on that church: the same ambition of a single vast domed space, re-engineered so the structure stands quiet, its forces resolved rather than merely endured."
+          ]
+        },
+        {
+          "heading": "Süleymaniye and Selimiye: the dome brought to rest",
+          "figure": "selimiyeInterior",
+          "paras": [
+            "The Süleymaniye Mosque (1550–1557), Süleyman's own foundation crowning Istanbul's third hill, takes Hagia Sophia's scheme — dome, two great semi-domes on the main axis, tiers of smaller exedrae — and clarifies it into calm. The dome spans 26.5 metres, smaller than its model's, and that restraint is the point: piers are regular, buttresses are gathered into four elegant towers at the dome's corners, and the thrust line runs cleanly from crown to ground. Where Hagia Sophia improvises, the Süleymaniye decides. From the Golden Horn its silhouette — dome, semi-domes, four minarets — stacks in a single pyramidal composition, the empire's order rendered as skyline.",
+            "Then, in his eighties, Sinan surpassed the master. The Selimiye at Edirne (1568–1574/75), which he called his masterpiece, carries a single dome 31.28 metres across — a span just exceeding Hagia Sophia's — on eight piers, without the forest of semi-domes that earlier schemes needed. The eight supports stand in a ring, linked by arches and muqarnas squinches, so the dome seems to float on a crown of light; the walls between the piers open into galleries and windows. It is the Ottoman dome brought to rest: one gesture, fully resolved, the load distributed with an evenness that reads, from the prayer hall floor, as effortlessness.",
+            "Beneath the Selimiye's exact centre stands the müezzin gallery, a small raised platform on slender columns — a placement found in no other great mosque, putting the singers at the acoustic and geometric heart of the building, directly under the dome's crown. Around it the interior unfolds with unusual openness: Iznik tiles of the finest period glow at the mihrab, calligraphy rings the piers, and the light, admitted in stacked tiers of windows, models the vaults without glare. Sinan's old age produced not a bigger machine but a clearer one; visitors from the Venetian ambassadors onward have struggled to say why the space feels inevitable. The answer is arithmetic, patiently become architecture."
+          ]
+        },
+        {
+          "heading": "The külliye and the cascade: dome as social order",
+          "paras": [
+            "A Sinan mosque is never only a mosque. Each imperial foundation anchors a külliye, a charitable complex in which the domed prayer hall presides over madrasas, a hospital, a soup kitchen feeding hundreds daily, baths, a caravanserai and rows of shops whose rents endow the whole. The Süleymaniye's complex fills its hilltop with terraced courtyards and lesser domes, an entire district of welfare and learning organised around one great hemisphere. The dome thus crowns a social contract: the sultan's piety converted into schools, meals and medicine, and the skyline of domes — great and small, stone and lead — is the visible chart of an empire's obligations.",
+            "From outside, the system declares itself as a cascade. The great dome sheds its presence downward through semi-domes, then through smaller exedrae and turret-capped buttresses, each tier halving the scale until the composition meets the courtyard walls — weight and geometry stepping down together, so that the eye reads the structure's work as ornament. The domes are masonry at their cores, sheathed in lead, their profiles slightly pointed in the Persian manner Sinan inherited through Anatolia. Nothing is hidden and nothing is decoration alone: the famous Ottoman skyline, that clustered ascent of grey hemispheres, is simply the load diagram of a prayer hall, drawn at the scale of a city.",
+            "Sinan fixed the classical Ottoman manner for three centuries: after him, imperial mosques repeat his grammar — dome, semi-domes, pencil minarets, cascade — with diminishing invention but undiminished competence, from the Blue Mosque to the nineteenth century. His real legacy is a method. He treated the dome not as a shape to be decorated but as a problem in statics to be solved so completely that the solution could be beautiful: weight accounted, light admitted, sound carried, ceremony housed. In an art often told as a sequence of styles, Sinan stands for something rarer — rationalism with a long memory, engineering that ends, at Edirne, in something close to serenity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brunelleschi",
+      "numeral": "X",
+      "title": "Brunelleschi's Dome: The Double Shell over Florence",
+      "sections": [
+        {
+          "heading": "The open crossing and the competition of 1418",
+          "figure": "florenceDome",
+          "paras": [
+            "Florence Cathedral had a hole at its heart for two generations. The great octagonal crossing, fixed in scale by the cathedral's fourteenth-century plan, stood open to the sky from the 1380s onward — some 42 metres across, wider than any dome yet built in the West, and by the usual account too wide to vault on traditional timber centring, which would have demanded a forest of scaffolding no one could supply or trust. The city had committed itself, in a famous act of civic optimism, to a dome it did not yet know how to build; the drum rose, the decades passed, and the problem waited for its engineer.",
+            "In 1418 the cathedral works held a competition for the dome's construction, and the man who effectively won it was no master mason but a goldsmith: Filippo Brunelleschi (1377–1446), trained in the exacting small-scale world of the goldsmith's bench, veteran of the Baptistery doors contest, and already notorious for the perspective demonstrations that announced the Renaissance. His proposal — to vault the crossing without full centring, the dome supporting itself course by course as it rose — struck many as madness. Appointed in 1420 alongside Lorenzo Ghiberti, his old rival, Brunelleschi set about proving the idea with models, machines and patience.",
+            "Later tradition could not resist polishing the story. Vasari tells how Brunelleschi, refusing to show his model to the judges, challenged his rivals to make an egg stand upright on a marble slab, then settled the matter himself by crushing its base — whereupon the judges protested that anyone could have done that, and received the famous retort that they would likewise know how to build the dome, once they had seen his model. It is best read as legend, a parable of ingenuity told by a century that wanted its geniuses theatrical; the documented Brunelleschi — secretive, litigious, endlessly inventive — is quite interesting enough without it."
+          ]
+        },
+        {
+          "heading": "Two shells, herringbone brick and the ox-hoist",
+          "figure": "florenceSection",
+          "paras": [
+            "Built between 1420 and 1436, the dome is in fact two domes. An inner shell of greater thickness carries the structure; a lighter outer shell, rising to a more pointed profile, sheds the weather and gives the silhouette its lift; and the two are laced together by twenty-four ribs — eight great ones at the octagon's corners and sixteen smaller — with horizontal connectors, so the whole behaves as one hollow, self-bracing organism. Between the shells Brunelleschi threaded staircases, 463 steps of them, by which workmen climbed — and tourists still climb — inside the very thickness of the vault, inspecting its anatomy in the cool dark as they ascend.",
+            "The brickwork itself is the second invention. Courses of brick are laid not flat throughout but in a herringbone pattern — spinapesce, fishbone — in which vertical bricks key each ring into the next, locking the fresh course against slipping while its mortar sets, so every completed ring is a rigid, self-supporting band and the rising dome becomes its own scaffolding. Around the structure Brunelleschi wound chains of stone and iron, and one of timber, to take the outward thrust the octagon's corners could not. The result, of about four million bricks, weighs far less than a solid vault of its span — and weight, for a dome, is destiny.",
+            "None of it could rise without new machines, and Brunelleschi the goldsmith obliged. His great ox-driven hoist lifted loads of stone and brick up the drum's face on a platform, its revolutionary reversible gear letting the team raise or lower the load without unyoking the oxen and turning them — a clutch mechanism centuries ahead of common practice. Cranes on the growing dome swung materials into place; a horizontal screw positioned them. The cathedral works became a theatre of invention watched by all Florence, and the dome's steady climb — a few courses a year, season by season — was less a building site than a public argument that the thing could be done."
+          ]
+        },
+        {
+          "heading": "Consecration, lantern and the emblem of a city",
+          "paras": [
+            "The dome was closed and the cathedral consecrated in 1436, with Guillaume Dufay's motet Nuper rosarum flores composed for the ceremony, its proportions said to mirror the building's own. Brunelleschi then won the competition for the lantern, the marble turret that caps the oculus and locks the ribs' crown like a keystone; built to his design after his death in 1446, it was completed in 1461, and in 1471 Verrocchio's workshop set the gilded copper ball and cross upon it. The lantern is functional as well as symbolic: its weight pins the dome's summit, pre-stressing the very point where the shells most want to spread.",
+            "Florence knew what it had. The dome — la Cupola — became the city's emblem at once, the standard against which Florentines measured themselves, painted into every view and printed, eventually, on everything. Technically, the double shell passed into the permanent repertoire: St Peter's in Rome would adopt it within a century, and its logic of separating weather-skin from structure-skin runs down to modern construction. Just as consequentially, the dome re-founded an idea of authorship. A named engineer, neither cleric nor guild mason in the old sense, had solved by reason a problem precedent declared impossible — and the solution, not the patron, is what the city celebrated.",
+            "Seen from the hills at Fiesole, the dome still performs its first miracle: it makes a medieval city read as a Renaissance one. Its span, about 42 metres, just yields to the Pantheon's — but the Pantheon sits low on a massive rotunda, while Brunelleschi's dome is lifted on a tall drum above a dense city, a brick mountain raised without, by the standard account, a single great timber centre beneath it. That is the Renaissance claim in built form: that the ancients could be matched and even outdone, not by copying their works, but by recovering their confidence that geometry, patiently interrogated, answers honest questions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "st-peters",
+      "numeral": "XI",
+      "title": "St Peter's: Bramante, Michelangelo and the Dome of Christendom",
+      "sections": [
+        {
+          "heading": "Bramante's cross and Michelangelo's model",
+          "figure": "stPetersDome",
+          "paras": [
+            "St Peter's dome began as an act of scaling-up. In 1502–1503 Donato Bramante built the Tempietto in Rome, a tiny circular martyrium — drum, dome, colonnade — that scholars read as his essay in the perfect centralised church. When Julius II resolved to rebuild St Peter's itself, Bramante's plan of 1506 set a vast Greek cross under a dome on the Tempietto's logic: a hemisphere over the apostle's tomb, ringed by four smaller domes, the whole a piece of geometry large enough to contain Christendom's mother church. The crossing piers he built proved too slight for what followed, a warning his successors spent decades correcting.",
+            "After Bramante's death the project drifted through the hands of Raphael, Peruzzi and Sangallo, its plan oscillating between cross and basilica. In 1546 the aged Michelangelo took charge, and swept the accretions away: he returned to a compact centralised plan, thickened the crossing piers, and designed a dome of pure profile on a high drum ringed by paired columns and buttressing aedicules. His great wooden model, made in 1558–1561 and still preserved in the Vatican, fixes the intention: a hemispherical inner vault, its outer profile already lifting toward the pointed — authority enough, after his death in 1564, to hold his successors to the design.",
+            "Michelangelo worked in full knowledge of Florence. As a young man he had studied Brunelleschi's dome, and tradition gives him the sculptor's farewell before leaving for Rome: that he would build the Pantheon's dome raised in the air — or, in the Florentine version, a sister to the Cupola, larger but not more beautiful. The anecdotes are unverifiable and perfect: they state the real programme. St Peter's dome would marry Rome's two inheritances, the Pantheon's hemisphere and Florence's double-shell engineering, and raise them over the tomb of the Prince of the Apostles at a scale neither predecessor had attempted — 41.47 metres of clear span."
+          ]
+        },
+        {
+          "heading": "Raised 1588–1590: della Porta, Fontana and the iron rings",
+          "figure": "stPetersInterior",
+          "paras": [
+            "The dome was finally raised a generation after Michelangelo's death, in one of the great sprints of building history. Under Sixtus V, Giacomo della Porta and the engineer Domenico Fontana took the work in hand in 1588 and closed the vault by 1590 — tradition says with crews labouring in relays day and night. Della Porta, following or adjusting the master's intention, gave the outer profile a distinctly pointed, raised curve, more Gothic in lift than the model's hemisphere. The change, debated ever since, has its structural sense: a steeper profile sheds thrust more downward, and on a drum of that height, prudence was a form of fidelity.",
+            "Like Florence's, the dome is a double shell in brick, its two skins bound by sixteen ribs and by the spiral stair threaded between them, and it was the largest masonry dome of its age — the Pantheon still exceeds it in span, but the Pantheon is concrete cast on a rotunda, not brick raised on a drum high above a crossing. The lantern followed in 1593, and with it the silhouette Rome still reads from every hill: drum, ribbed hemisphere rising to a point, lantern, ball and cross, the whole climbing about 136 metres from the basilica floor. Michelangelo's church had at last its crown.",
+            "The dome's afterlife has been an education in iron. Cracks appeared in the vault within decades — meridional fissures, the classic symptom of a dome's base spreading — and successive popes girdled it with additional iron chains, five by the 1740s. When alarm peaked, Benedict XIV commissioned the mathematician Giovanni Poleni, whose analysis of 1748 hung a chain loaded with weights in the dome's own profile: the hanging chain, inverted, traces the line of thrust, and Poleni showed the dome's thrust line stayed within its masonry. His verdict — monitor, add a chain, do not panic — stands as the founding document of modern structural assessment."
+          ]
+        },
+        {
+          "heading": "The dome of Christendom, and Guarini's answer",
+          "paras": [
+            "The meaning was as calculated as the structure. Rising over the tomb of St Peter in the decades of the Counter-Reformation, the dome declared that the Roman Church — challenged, divided, reforming itself at Trent — remained the universal church, its claim written in the most universal of forms. Beneath it, Bernini's bronze baldacchino twists upward in answering spirals, tying high altar to vault in a single vertical axis from martyr's grave to heaven's image. Print by print, the ribbed hemisphere became the logo of an institution: to draw St Peter's dome was to draw the papacy, and every Catholic dome after it, from Bavaria to Mexico, quotes the reference from that day to this.",
+            "Yet the Baroque mind could not leave the dome a settled form. In Turin, the Theatine priest-mathematician Guarino Guarini built the church of San Lorenzo (1668–1687) with a dome that abandons the shell altogether: eight great ribs interlace like the vaults of Islamic Córdoba or a Gothic star, crossing to weave an octagon of light at the crown, the masonry between them dissolved into windows. His Chapel of the Holy Shroud, behind Turin Cathedral, stacks tier on tier of open arches into a conical basket of stone that seems to burn upward — a dome drawn as a diagram of forces and prayers, structure become pure intelligence at play.",
+            "Between Rome and Turin the seventeenth-century dome found its two poles. St Peter's fixed the authoritative image — hemispherical, ribbed, lanterned, institutional — against which all later domes, Catholic and Protestant alike, would define themselves by homage or by argument. Guarini showed the same form dissolving into mathematics, a net of ribs and light that points beyond the Baroque toward the engineered structures of a later age. The next chapter follows the authoritative line north and west, to the three great capitals where the dome became the crown of states: plague-vowed Venice, the Paris of the Sun King's heirs, and Wren's London, answering Rome in a Protestant accent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "baroque-crowns",
+      "numeral": "XII",
+      "title": "Baroque Crowns: Venice, Paris and London",
+      "sections": [
+        {
+          "heading": "Venice: the Salute and the silhouette of deliverance",
+          "paras": [
+            "Venice built its great dome out of a vow. When plague tore through the city in 1630, killing about a third of its people, the Senate vowed a church to the Virgin as deliverer, and the young Baldassarre Longhena won the commission for Santa Maria della Salute, built between 1631 and 1687 at the very mouth of the Grand Canal. His design is an octagon — the Virgin's crown, Venetians read it — ringed by chapels and crowned by a dome on a tall, windowed drum, with a second smaller dome over the sanctuary: a silhouette composed for water, to be seen arriving by boat, as every visitor still arrives.",
+            "The Salute's most famous flourish is structural. Around the great dome, Longhena set enormous scroll buttresses — the orecchioni, big ears, Venetians call them — volutes that catch the dome's thrust and carry it down to the octagon's corners while giving the exterior its rolling, almost marine rhythm. Inside, the octagon opens in a measured grey-and-white classicism, the dome's light falling on a pavement of coloured marble geometry, with the high altar staged beneath the second dome like a shrine within the shrine. The whole church is a piece of urban theatre with a serious plot: a city displaying, in stone, the exact shape of its gratitude.",
+            "The vow is still kept. Each November, for the feast of the Salute, Venice lays a pontoon bridge of boats across the Grand Canal and the city walks to Longhena's church on water, as it has for nearly four centuries — the dome presiding over a ritual that predates and outlasts any single doge. In the canon of domes the Salute's claim is not size, for its span is modest, but placement: no dome in Europe so completely is its city's portrait. Turned toward the lagoon, doubled in every calm reflection, it taught the Baroque a lesson the northern capitals were listening for: a dome is a skyline's signature."
+          ]
+        },
+        {
+          "heading": "Paris: the gilded dome of the Invalides",
+          "figure": "invalides",
+          "paras": [
+            "Paris answered with height and gold. The Dôme des Invalides, designed by Jules Hardouin-Mansart and built from the 1680s to completion in 1706, crowns the royal chapel of Louis XIV's great hospital for veteran soldiers. Its dome — in truth a triple-layered construction on a drum of paired columns and tall windows — rises about 107 metres, the tallest church silhouette in Paris, its outer shell timber-framed and sheathed in lead, then gilded until it burns above the Left Bank. Every order is correct, every profile classical; but the message is dynastic. A king who styled himself the sun raised a little heaven of gold over the men who had fought his wars.",
+            "Beneath the gold, the interior is a lesson in layers. The inner dome is cut open at its crown, so the eye passes through an oculus into a second, frescoed dome above — Charles de La Fosse's apotheosis of Saint Louis floats in that upper light — and the device, borrowed from Roman Baroque experiment, makes the architecture seem to levitate. History gave the building a tenant its founder never imagined: in 1861 the remains of Napoleon were laid in a vast red porphyry sarcophagus in the open crypt below the dome. The Sun King's chapel of veterans became the shrine of the Emperor, and the gilded dome now signs both reigns at once.",
+            "The Invalides had a Parisian elder sister. The Val-de-Grâce, begun in 1645 to fulfil Anne of Austria's vow for a son — the future Louis XIV — raised the city's first great Baroque dome, its frescoed cupola by Pierre Mignard still glowing above the choir. Together the two churches naturalised the Roman dome in French classical dress: stricter in ornament than Rome, taller in aspiration, and frankly an instrument of state. The line runs straight to the Panthéon's dome at the century's end — and across the Channel, where an architect-mathematician was already rethinking the whole problem from first principles, with consequences Paris would study in its turn."
+          ]
+        },
+        {
+          "heading": "London: Wren's triple dome",
+          "figure": "stPaulsInterior",
+          "paras": [
+            "London's answer is the most ingenious of the three. Christopher Wren — astronomer, mathematician, and architect of the rebuilt City after the Great Fire — crowned St Paul's Cathedral (1675–1710) not with one dome but with three. Inside, the worshipper sees a serene hemispherical dome of brick, 30.8 metres across, painted in grisaille. Above it, invisible, stands a steep brick cone that does the real work, carrying the heavy stone lantern. And over the cone, a timber-framed outer dome, sheathed in lead, draws the tall silhouette London knows — a shape owing nothing to structure, composed purely for the skyline and the weather.",
+            "Wren thought in curves of force. With Robert Hooke he knew the principle Hooke published as a Latin anagram in 1675: as hangs the flexible line, so, inverted, stands the rigid arch — the catenary, the shape a hanging chain assumes, is the ideal profile of an arch or dome in pure compression. The cone's steep profile, and the chains Wren embedded at the dome's base, belong to that thinking. The building keeps a lighter marvel at the drum's gallery: the Whispering Gallery, where a whisper against the wall travels the curve and arrives, clear as speech, to a listener on the far side — acoustics as the dome's party trick.",
+            "St Paul's is best read as an argument with Rome conducted in classical grammar. Wren, who admired St Peter's and studied French building on his one journey abroad, gave Protestant London a dome of comparable authority — but rationalised, its wonders explained by geometry rather than asserted by splendour, its silhouette classical rather than triumphalist. Three capitals, three answers: Venice's dome of gratitude on the water, Paris's dome of dynastic gold, London's triple dome of reasoned show. The Baroque crowned the dome's long history by making it the inevitable crest of a capital city — an expectation the modern age inherited, and would test in iron, glass and concrete."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nation-domes",
+      "numeral": "XIII",
+      "title": "Domes of the Nation: The Panthéon, St Isaac's and the Iron Capitol",
+      "sections": [
+        {
+          "heading": "Paris: A Temple for Great Men",
+          "figure": "pantheonParis",
+          "paras": [
+            "In 1758 work began in Paris on a church that would become a national temple. Jacques-Germain Soufflot designed the Panthéon for the hill of Sainte-Geneviève, and he wanted two apparently incompatible things at once: the gravity of a classical Roman dome and the lightness of a Gothic cathedral. Where earlier domes sat on massive walls, his rises from a ring of slender columns, so that the load seems to float above a colonnade. The building declared that reason, engineering and national memory could share a single roof, and it did so before France had settled what nation it was becoming. Soufflot studied both Gothic structure and Roman precedent for years, and his correspondence shows a designer reasoning from first principles about thrust, weight and support rather than copying any single model from the past.",
+            "The structure was daring to the point of anxiety. Soufflot thinned the piers, opened the drum with generous windows and stacked three shells one inside another, each doing different work. Cracks appeared while the building was still rising, and critics accused him of sacrificing safety to elegance; iron cramps and ties were threaded through the masonry to hold it together. Later engineers, notably Émiland Gauthey and then Jean Rondelet, studied the damage, strengthened the supports and published their findings, turning one troubled building into a founding text of modern structural analysis. The debate also filled the newspapers, because Paris understood that the argument was not only about one church but about whether calculation or tradition would govern building in the future.",
+            "Revolution changed the building's purpose without changing its silhouette. In 1791 the church became the Panthéon, a mausoleum for the great men of France, and Voltaire and Rousseau were carried there in triumph. Windows were blocked to suit a tomb's solemnity, then reopened when the building swung back to worship under Napoleon and the restored monarchy. That restless history is the point: the dome no longer crowned an altar or a throne but an idea, the nation itself, and every regime since has had to decide whose memory deserves shelter beneath it."
+          ]
+        },
+        {
+          "heading": "St Petersburg: Iron Beneath the Gilding",
+          "paras": [
+            "On the banks of the Neva, St Isaac's Cathedral took forty years to build, from 1818 to 1858, to designs by the French architect Auguste de Montferrand. Its great dome, gilded until it catches the pale northern light from far across the city, spans about 25.5 metres internally and was among the first large domes framed in cast iron. The choice was practical as much as symbolic: iron ribs could be cast, raised and bolted in a cold climate where masonry seasons were short, and the frame carried an outer skin far lighter than solid stone. Montferrand, trained as a draughtsman rather than an engineer, learned the new material on the job, consulting founders and testing castings as the work rose slowly above the square.",
+            "The construction reads like an industrial epic staged inside a church. Granite columns for the porticoes were quarried in Finland, shipped by barge and raised with timber scaffolding and capstans worked by hundreds of men. Inside the dome, a frescoed ceiling hangs below the iron frame, so worshippers see painted angels rather than rivets, while the space between shells hides stairs and structure. Montferrand published lavish accounts of the works, and the cathedral's machinery of lifting and casting became as famous as its mosaics, its malachite and its lapis lazuli.",
+            "St Isaac's was an imperial building, commissioned by tsars and crowned by an Orthodox cross, yet its methods pointed away from the old world of the mason's yard. Iron founders, not stonecutters, had made its crowning element, and they had made it from repeatable parts. When the cathedral was finished, its dome joined a European conversation in which span, weight and cost were becoming engineering questions before they were artistic ones. The gilding said eternity; the iron underneath said industry, and the nineteenth century would increasingly listen to the iron."
+          ]
+        },
+        {
+          "heading": "Washington: An Iron Crown for a Republic",
+          "figure": "usCapitol",
+          "paras": [
+            "The dome that now defines Washington replaced a lower timber one as the United States Capitol grew longer wings in the 1850s. Thomas U. Walter, the Capitol's architect, designed a cast-iron replacement, built between 1855 and 1866, and its figures still startle: about 4,041 tons of iron, roughly 8.9 million pounds, assembled piece by piece high above the city. Every plate and rib was painted a stone colour, so the most industrial object in America presents itself in the dress of classical masonry, a deliberate fiction everyone agreed to believe.",
+            "Work continued through the Civil War, and President Lincoln is said to have insisted on it, arguing that if people saw the Capitol rising they would know the Union intended to go on. Cranes powered first by steam lifted iron castings from the foundry to the staging, and in December 1863 the Statue of Freedom was set on the tholos as guns saluted. Inside the eye of the dome, Constantino Brumidi painted The Apotheosis of Washington, showing the first president enthroned among goddesses and allegories, a republic borrowing heaven's imagery while denying it had kings. Brumidi, an Italian exile who had painted in Rome, worked lying on scaffolding high above the rotunda floor, and his fresco, finished in 1865, still rewards a long, neck-craning look.",
+            "After Washington, the dome became the American default. State capitols from California to Wisconsin raised iron or stone domes over their legislative chambers, and courthouses and city halls followed, until a domed silhouette simply meant public authority. The meaning had inverted since St Peter's: this crown belonged not to a monarch or a priesthood but, in theory, to citizens governing themselves. Yet the form kept its older magic of gathering and elevation, which is why photographs of protest, inauguration and mourning in America so often reach for that white profile against the sky."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iron-glass",
+      "numeral": "XIV",
+      "title": "Iron, Glass and the Great Span: The Nineteenth Century",
+      "sections": [
+        {
+          "heading": "Paris Learns to Build in Iron",
+          "paras": [
+            "The Halle aux Blés, the Paris corn exchange, lost its timber dome to fire in 1802, and the replacement made history. Between 1806 and 1811 the architect François-Joseph Bélanger covered the circular courtyard with a dome of cast-iron ribs glazed with glass, spanning about 38 metres. It was among the first great iron structures anywhere, earlier than the famous railway sheds by a generation. Grain merchants traded beneath a web of metal and daylight, in a building whose roof weighed a fraction of the masonry vault its footprint would once have required. The building itself was old, a circular exchange of the 1760s, which makes the point neatly: a modern roof could be threaded through a classical shell without disturbing the commerce below.",
+            "Iron changed what a dome was made of, and therefore what it could mean. Masonry domes are carved, laid and buttressed by craftsmen working in compression alone; an iron dome is manufactured, its identical ribs cast in a foundry, transported, and bolted together by erectors. Glass between the ribs admitted light without the structural penalty of a heavy lantern, and the whole assembly could, in principle, be unbolted and moved. The corn exchange later became the Bourse de Commerce, but its iron cupola survived every change of use, a founding artefact of industrial building hiding in plain sight.",
+            "Engineers learned quickly that iron also brought new dangers and new disciplines. Cast iron is strong in compression but brittle, and it behaves badly in fire unless protected, a lesson the century's burned theatres and warehouses taught repeatedly. Temperature movement had to be allowed for, joints designed, and corrosion fought with paint forever after. The dome's history from this point is double: architects drew the profiles, but foundries, rolling mills and eventually steelworks set the limits of the possible, and every increase in span can be read as a chapter in the history of metallurgy."
+          ]
+        },
+        {
+          "heading": "Reading Under Iron and Glass",
+          "paras": [
+            "When the British Museum built its Reading Room in the 1850s, it placed a dome over the scholars of an empire. Designed by Sydney Smirke and opened in 1857 in the museum's courtyard, the room spans about 42.7 metres, or 140 feet. Its makers boasted, with some relish, that this was two feet wider than the Pantheon in Rome. The comparison was deliberate and a little cheeky: a library for readers, built in iron, glass and papier-mâché panels, had quietly outspanned the greatest masonry dome of antiquity in the middle of London. The room sat in the quadrangle like a ship in a bottle, its dome visible above the museum roofs, and Londoners quickly adopted it as a symbol of learning open to all.",
+            "The Reading Room worked because iron permitted a drum pierced by twenty great windows and a ceiling of gilded ribs radiating like spokes. Desks fanned out below in the same geometry, so the plan of scholarship followed the structure of the roof, and generations of writers, exiles and revolutionaries worked in its circular calm. Karl Marx researched there; so did countless less famous readers, all equal, at least in principle, beneath the dome. A room for books had become a demonstration that the span race now served institutions of knowledge as readily as churches or thrones.",
+            "Across Europe, reading rooms, markets, baths and railway termini adopted the iron dome or its cousin the iron vault wherever a large crowd needed shelter and light. The type spread because it was economical: repetitive parts, fast erection and no need for the immense buttressing of masonry. Yet something was quietly lost. A masonry dome is a single carved mass whose forces a visitor can almost feel; an iron dome is an assembly, closer to a machine or a ship. The nineteenth century accepted the bargain, trading mass for span, and rarely looked back. Glass roofs needed armies of glaziers and painters, and their maintenance bills became a standing lesson that lightness in structure is never the same thing as cheapness in upkeep over a century."
+          ]
+        },
+        {
+          "heading": "From Exhibition Vault to Concrete Bowl",
+          "figure": "jahrhunderthalle",
+          "paras": [
+            "The great exhibitions turned span into spectacle. For the Paris exhibition of 1889, the Galerie des Machines stretched about 111 metres in a single vaulted span, a record that stood for decades. Honesty matters here: it was a vault, not a dome, a vast arched shed rather than a surface of double curvature. But it belonged to the same race, run by the same engineers with the same steel, and visitors who walked its length understood intuitively that the old limits had gone. Its demolition in 1910 remains one of architecture's great acts of forgetfulness.",
+            "The succession of materials completed itself in Breslau, now Wrocław, where Max Berg built the Jahrhunderthalle, the Centennial Hall, between 1911 and 1913. Its ribbed dome of reinforced concrete spans about 65 metres, then the largest such structure in the world, raised to mark the centenary of Prussia's call to arms against Napoleon. Concrete poured around steel reinforcement could be at once structure and surface, fireproof and mouldable, and Berg left its ribs frankly visible inside, ringed with stepped tiers of windows that flood the arena with even, shadowless light. The hall seated thousands for concerts, rallies and exhibitions, and its survival through siege and the city's change of nation and name has made it a monument far beyond its original programme.",
+            "Stand back and the century tells a clean story with untidy edges: stone gave way to brick, brick to iron, and iron to reinforced concrete, each material lighter for its strength than the last. The dome's span roughly doubled while its weight per metre collapsed, and the skills changed from the mason's lodge to the drawing office and the testing laboratory. What did not change was the appetite. Nations, cities and exhibitions still wanted one great room under one great roof, and each new material was promptly asked to provide it at a size its predecessor could not reach."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thin-shell",
+      "numeral": "XV",
+      "title": "The Thin Shell: Nervi, Candela and the Concrete Flower",
+      "sections": [
+        {
+          "heading": "Shape Instead of Mass",
+          "paras": [
+            "A thin shell is a dome that has been put on a diet of geometry. Instead of resisting loads by sheer thickness, it carries them through its curved surface, the way an eggshell or a bicycle helmet does, so that concrete only a few centimetres thick can span distances that once demanded metres of masonry. The comparison is one of orders of magnitude: where the Pantheon's haunches are measured in metres of Roman concrete, a modern shell may work at about six centimetres. Stiffness comes from shape, and the engineer's art becomes the art of choosing the right curve.",
+            "The mathematics arrived before the buildings. Membrane theory let engineers calculate how forces flow through a curved surface, and pioneers in Germany and Spain in the 1920s and 1930s tested shells over planetariums, markets and hangars. Eduardo Torroja in Spain covered a market in Algeciras and a racecourse grandstand in Madrid with daring concrete canopies, proving that elegance and economy could coincide. After the Second World War, with steel scarce and labour initially cheap, the shell offered poor countries and rebuilding nations a way to roof big spaces with remarkably little material. Reinforced concrete suited the shell perfectly, because the steel within it could take the modest tensions at edges and supports while the concrete skin itself worked almost entirely in its preferred compression.",
+            "The catch was always the formwork. A shell is cheap in concrete and expensive in carpentry, since every curve must first be built in timber before it can be cast in stone-like material. The great shell builders were therefore as much inventors of construction method as of form, devising reusable moulds, prefabricated pieces and tilting gantries. When their methods worked, the results seemed miraculous: roofs like leaves, vaults like sails. When the carpentry cost more than the concrete saved, the same shapes became luxuries, and the story of the shell is the story of that shifting balance."
+          ]
+        },
+        {
+          "heading": "Nervi and the Prefabricated Flower",
+          "figure": "palazzetto",
+          "paras": [
+            "Pier Luigi Nervi turned the shell into a system. For the Palazzetto dello Sport in Rome, built in 1956 and 1957 with the architect Annibale Vitellozzi for the coming Olympics, he designed a ribbed dome about 59 metres across whose surface is assembled from prefabricated coffers of ferrocement, a mesh-reinforced mortar he had perfected in boat hulls and warehouses. The diamond coffers were cast on the ground, lifted into place on light scaffolding, and stitched together with poured ribs, so the dome grew like a tiled pavement in the air, each piece identical and each joint structural.",
+            "Look at the Palazzetto from outside and the structure tells its own story. Slender Y-shaped piers lean around the perimeter, gathering the dome's thrusts and carrying them to the ground in a rhythm that is part engineering, part dance. Inside, the coffered ceiling needs no decoration because the pattern of forces is the decoration, a honeycomb of concrete ribs darkening towards the central oculus. Nervi insisted that correct structure, honestly expressed, could not be ugly, and in this small stadium, still in use, he made the argument more persuasively than any manifesto. Players and spectators still praise the building's acoustics and intimacy, qualities that follow directly from the shallow curve of the dome and the smallness of the arena it was designed to cover.",
+            "Two years later Nervi repeated the trick at full scale in the Palazzo dello Sport, also in Rome, spanning considerably more with the same family of prefabricated parts and a calm, circular arena beneath. American and European firms queued to license his patents, and his hangars, exhibition halls and cathedrals of sport spread the ribbed concrete dome across three continents. Nervi's real invention was not a shape but a marriage: design and construction in one pair of hands, the engineer as contractor, so that beauty survived contact with the building site because the same mind controlled both."
+          ]
+        },
+        {
+          "heading": "Candela and the Mexican Hypars",
+          "figure": "losManantiales",
+          "paras": [
+            "In Mexico, Félix Candela found a different curve. The hyperbolic paraboloid, a saddle surface ruled by straight lines, could be formed with straight timber boards yet behave like a doubly curved shell, and Candela built hypars by the hundred: churches, factories, markets and bandstands. His masterpiece is the Los Manantiales restaurant at Xochimilco, built in 1958 with the architects Joaquín and Fernando Álvarez Ordóñez and the de la Mora brothers. Eight hypar petals meet as a groined vault, a concrete flower about four centimetres thick at its edges, floating above diners among the canals and gardens.",
+            "Candela worked by intuition sharpened on mathematics, often calculating on the understanding that the shape, properly chosen, forgives approximate analysis. Swiss engineer Heinz Isler took another path, finding forms by hanging cloth and freezing it, then measuring the inverted result, and his shells in Switzerland bulge with an organic ease no equation would suggest. Between Candela's ruled geometry and Isler's hanging models, the shell era displayed a rare pluralism: many routes to the same insight, that a roof can be a surface in equilibrium rather than a pile of material at rest. Candela, who had arrived in Mexico as a refugee from the Spanish Civil War, built an entire practice on that insight, and his shells still stand over restaurants, churches and factories across the country.",
+            "By the 1970s the shells had largely faded, undone less by failure than by economics. Formwork labour grew expensive, building codes grew cautious, a few high-profile collapses and leaks soured clients, and steel space frames offered similar spans without wet trades. Yet the idea never died. Computing revived it: software that models curved surfaces, mills formwork by robot and optimises every rib has brought thin concrete and gridshells back to competitions and airports. The flower of Xochimilco, restored after earthquake damage, now reads less like an ending and more like an early chapter. What returned with computing was not nostalgia for the 1950s but the shell's original promise, that the most elegant structure is the one that asks the earth for the least material in return."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geodesic",
+      "numeral": "XVI",
+      "title": "The Geodesic Dome: Fuller's Geometry of Enough",
+      "sections": [
+        {
+          "heading": "Triangulating the Sphere",
+          "paras": [
+            "A geodesic dome divides a sphere into triangles, and triangles are geometry's honest brokers: they cannot wobble, rack or fold without changing the length of their sides. R. Buckminster Fuller grasped that subdividing a sphere this way distributes stress through the whole surface, so that the more finely the sphere is divided, the stronger and lighter the structure becomes relative to its size. It inverted the mason's logic completely. Mass was no longer safety; pattern was. A dome of struts and skin could enclose the maximum volume with the minimum of material, which Fuller preached as an ethical as much as an engineering principle.",
+            "Credit, however, must be shared backwards. The first geodesic dome was built in Jena in the 1920s, where Walther Bauersfeld, chief engineer of the Zeiss optical works, devised a triangulated shell to carry a planetarium projector's dome on a factory roof. Fuller, arriving at the idea independently in America, patented his version in 1954 and, crucially, understood publicity as a structural material. He lectured tirelessly, coined the vocabulary, and placed domes with the United States Marines, the Air Force and industry, so that his name, fairly or not, became permanently welded to the geometry itself. Bauersfeld's dome, by contrast, stayed a specialist's secret in the optical literature for decades, and only patient historical work has restored the Jena planetarium to its proper place at the head of the story.",
+            "The geodesic dome also changed who could build a dome. Its parts are short, straight and identical in families, light enough for two people to lift, and they bolt together following the pattern rather than the craftsman's judgement. Students, soldiers and communes raised domes from kits and salvage in days. Fuller dreamed of climate-controlling whole cities under vast spheres and spoke of doing vastly more with vastly less. The cities never came, but the proposition survived every disappointment: that intelligence, applied to geometry, might substitute for tonnage, and that shelter is a design problem before it is a materials problem."
+          ]
+        },
+        {
+          "heading": "Montreal and the Cold War Sphere",
+          "figure": "biosphere",
+          "paras": [
+            "The geodesic dome's finest hour came at Expo 67 in Montreal, where the United States Pavilion, designed by Fuller with Shoji Sadao, rose as a three-quarter sphere about 76 metres across on an island in the St Lawrence River. Its acrylic skin was fitted with motorised shades that tracked the sun, and inside, visitors rode a monorail through displays of American creativity crowned by Apollo hardware. After the fair the skin burned in 1976, but the steel skeleton survived, later reclad as the Biosphère, an environmental museum whose bare lattice remains the purest large geodesic most people will ever see.",
+            "Context gave the Montreal dome its charge. Exhibitions were Cold War theatre, and the American answer to Soviet heavy industry was a bubble of geometry so light it seemed to have landed rather than been built. The United States had already sent geodesic pavilions to trade fairs from Kabul to Moscow, where the dome itself argued that American technology meant ingenuity rather than mass. Fuller, an eccentric in a dark suit lecturing about Spaceship Earth, became an unlikely instrument of statecraft, and his sphere over Montreal briefly made a structural system into a national self-portrait. The Soviet pavilion nearby answered with heavy stone and heroic statuary, so visitors could read the Cold War in section, one superpower building in mass, the other in mathematics and held breath.",
+            "The same dome, shrunk to backyard scale, became the emblem of the counterculture that opposed everything Expo stood for. At Drop City in Colorado and communes across America, young builders raised domes from car roofs and scrap timber, following patterns published in the Whole Earth Catalog. Most leaked, many sagged, and all expressed the same conviction as the pavilion: that a better geometry could underpin a better life. Few building forms have served both a superpower and its dropouts within a single decade, and the geodesic's double career remains its most telling historical feature."
+          ]
+        },
+        {
+          "heading": "From Drop City to Cornwall",
+          "figure": "edenProject",
+          "paras": [
+            "Florida gave the geodesic its most polished monument in 1982, when Spaceship Earth opened at Epcot: a complete sphere about 50 metres across, raised on legs above the park, carrying visitors on a slow ride through the history of communication. Clad in faceted aluminium panels, it is technically a pair of geodesic structures joined at the equator, and it works as both building and logo, instantly legible from an aeroplane. The dome had become pure sign, a trademark you can walk inside, which Fuller, who coined the phrase the ride illustrates, would surely have appreciated. Generations of schoolchildren can draw it from memory, which is more than most architecture achieves.",
+            "The Eden Project in Cornwall, designed by Grimshaw and opened in 2001, shows the geometry still evolving. In a flooded china-clay pit stand interlocking geodesic biomes, the largest conservatories of their kind, whose panels follow a hex-tri-hex pattern of hexagons, triangles and pentagons. The cladding is not glass but cushions of ETFE foil, inflated with air, feather-light and strong, so the structure beneath can be correspondingly slender. Rainforest and Mediterranean landscapes grow under a skin that weighs about one per cent of the glass it replaces, a thoroughly Fullerian bargain struck with twenty-first-century materials.",
+            "The criticisms are real and should be kept. Geodesic domes leak at their many joints, waste the corners where walls meet curve, confuse furniture and acoustics, and can focus sound and heat in unwelcome ways. Housing learned these lessons and largely walked away. Yet the idea persists wherever maximum enclosure for minimum weight is the honest brief: in greenhouses, radomes, theatres, disaster shelters and exhibition halls. Fuller's geometry of enough survives not as the universal dwelling he prophesied, but as a permanent option in the engineer's repertoire, awaiting each generation's rediscovery. That pattern of forgetting and return is itself a Fullerian lesson, since a good geometry, once published, costs nothing to store and can wait patiently in books until materials and budgets catch up again."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-a-dome-stands",
+      "numeral": "XVII",
+      "title": "How a Dome Stands: Pendentive, Squinch, Drum, Rib and Ring",
+      "sections": [
+        {
+          "heading": "The Shell in Compression",
+          "paras": [
+            "Begin with the forces, because everything else in this book is their consequence. In a dome, weight flows downwards along the meridians, the lines running from crown to base like the seams of a peeled orange, and along each meridian the shell behaves like an arch turned through every compass direction at once. Near the crown these forces are compressive and benign. Lower down, a second family appears: hoop forces, running around the parallels, which press inward near the top but stretch into tension towards the base, exactly where a masonry dome can least afford to be pulled apart.",
+            "That tension explains the dome's characteristic ailments and remedies. Masonry domes crack along their meridians as the base tries to spread, and builders answered with chains: rings of stone, iron or timber buried in the fabric to take the pull the masonry could not. Florence Cathedral carries chains of stone and timber within its double shell; St Peter's was gripped by iron chains after alarming cracks in the eighteenth century. Mass helped too, since a heavy haunch over the springing holds the profile down, which is why old domes thicken towards their feet and thin towards the light.",
+            "The French engineer Jacques Heyman gave this practical wisdom a modern theorem. A masonry dome, he argued, stands if any surface of thrust can be found that fits within its thickness and balances the loads, because the material's real strength is ample and its real weakness is only geometry: it must never be asked to pull. This safe theorem dignifies the old masters' intuition. The Pantheon's survival, with walls about six metres thick at the haunch thinning dramatically above, is not luck but fit: somewhere inside that generous section, the thrust has always found a comfortable road to the ground. Medieval and Renaissance builders, who had no such theorem, worked to the same rule through proportion and precedent, thickening where their fathers' buildings had cracked and thinning where they had stood unmarked for centuries."
+          ]
+        },
+        {
+          "heading": "From Square to Circle",
+          "figure": "pendentiveDiagram",
+          "paras": [
+            "Rooms are square and domes are round, and reconciling the two is the oldest problem in this history. The pendentive solves it with pure geometry: imagine a hemisphere whose base circle is inscribed in the square, then cut away everything outside the walls, and the four curved triangles that remain, rising from the corners to the circle, are pendentives. They gather the dome's weight onto four points, so the walls between can open into arches and exedrae. Perfected in late Roman and Byzantine practice, the device reached its summit at Hagia Sophia, whose dome floats on pendentives above a square naos.",
+            "The squinch solves the same problem by masonry instinct rather than geometry. Across each corner of the square room, the builder throws a small arch, a half-cone or a cluster of corbels, turning the square into an octagon, and the octagon, by further squinches or by its nearness to roundness, can carry a circular dome. The device is older than the pendentive and belongs first to Sasanian Persia, where palaces such as Sarvestan raised domes over square halls centuries before Byzantium. Where the pendentive is a continuous surface, the squinch is a visible step, and buildings often confess their ancestry by which step they took.",
+            "Muqarnas, the stalactite work of Islamic architecture, is among other things the squinch made ornamental: tiers of small niches multiplying the corner transition until geometry becomes honeycomb. The intermediate octagon, meanwhile, became a style in its own right, from Persian tomb towers to the great octagonal crossing beneath Florence's dome. Stand inside any domed room and look first at the corners. Whether the transition flows like a sail or steps like a staircase tells you which tradition taught the builders, and often which empire paid the bill, before you have read a single inscription."
+          ]
+        },
+        {
+          "heading": "Drum, Rib, Shell and Lantern",
+          "figure": "squinchDiagram",
+          "paras": [
+            "Between dome and room stands the drum, or tambour: a cylindrical or polygonal wall that lifts the shell for height and presence and, crucially, admits windows around its base. Those windows do structural mischief, cutting the ring where hoop tension bites, so drums are buttressed, chained and thickened in compensation; Hagia Sophia's forty ribs run down between forty windows, making the dome seem to rest on light itself. Ribs themselves divide into the structural, which genuinely channel thrust, and the applied, which merely draw the eye along forces they do not carry, and telling them apart is a basic act of reading.",
+            "Many great domes are double, and the reasons are practical poetry. An inner shell at a comfortable ceiling height and an outer shell at a heroic urban profile can each be right if they are allowed to differ, with the gap between them hiding stairs, structure and weatherproofing. Florence's dome pioneered the type in masonry; St Paul's in London hid a brick cone between its inner dome and outer timber silhouette, the cone doing the heavy lifting for the lantern. Coffering, as in the Pantheon, is the same intelligence applied to surface: hollow out the shell's pattern, save weight, and gain grandeur for free.",
+            "Every dome must also be built before it can stand, which means centring: timber formwork that carries the unfinished shell until the ring closes and the structure becomes self-supporting. The lantern that crowns so many domes is therefore more than decoration. It is a keystone-cap, a compression plug closing the crown, and a light valve, washing the interior from above while its weight helps stabilise the eye of the dome. The open oculus of the Pantheon makes the same point by subtraction: removing the crown removes the heaviest, weakest point of a solid shell and leaves a compression ring, lit by the sky. Read together, lantern and oculus close the argument of this chapter: the crown of a dome is not a leftover to be capped but the place where structure, light and meaning are negotiated most tightly."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "numeral": "XVIII",
+      "title": "Reading the Dome: Five Signs and the Domes of Today",
+      "sections": [
+        {
+          "heading": "A Method for Looking",
+          "paras": [
+            "This history has equipped you with a method, and it begins outside, on foot. Walk right around the building before you enter, because a dome is a public claim made to the whole city, and its profile against the sky, its drum, its silhouette and its lantern announce what the institution within wants to be believed about itself. Note what the dome is made of, or pretends to be made of, and how high it rides above its neighbours. A dome that dominates a skyline and one that hides until the doorstep are making opposite arguments in the same ancient language, and both know it. Take a photograph if it helps, because the profile you record from the street is the building's own chosen portrait, the view its patrons paid for and its architect composed most carefully.",
+            "Inside, find the transition first. Look to the corners and ask how the circle was conjured from the square: flowing pendentives, stepping squinches, an honest octagon or a modern ring beam hiding the trick altogether. Then read the profile from springing to crown, steep or shallow, ribbed or smooth, and look for the light logic, since every dome rations light deliberately: an open oculus, a ring of windows at the base, a lantern, or glass doing the work that masonry once refused. Light from above is never accidental in these buildings; it is theology, politics or retail, made visible.",
+            "Finally, ask what gathers beneath. Every dome is an argument about assembly, a claim that the people or objects under it form one body: a congregation, a parliament, a nation's dead, a market crowd, a collection of readers or plants. The five signs this book has taught, of transition, profile, material, light and gathering, are simply prompts for that question in its several forms. Test the argument against the building's behaviour. Does the space feel gathered or merely covered? The distance between the dome's claim and its performance is where honest criticism begins, and it is measurable in any domed room on earth."
+          ]
+        },
+        {
+          "heading": "Glass, Fabric and Computed Stars",
+          "figure": "reichstagDome",
+          "paras": [
+            "When Norman Foster rebuilt the Reichstag in Berlin, reopening in 1999, he placed a glass cupola where the bombed original dome had stood, and inverted its meaning. A mirrored cone at its heart bounces daylight down into the debating chamber while carrying used air upwards, and the public climbs spiral ramps around it, looking down on their legislators through the glass. The dome of the state, once the crown that subjects admired from below, became a lantern citizens patrol from above. Transparency here is not a metaphor loosely attached to architecture; it is the plan, the section and the visiting route.",
+            "London's Millennium Dome, designed by Richard Rogers and opened for the year 2000, demands an honest description. For all its name, it is not a shell at all but a cable-net roof of glass-fibre fabric, hung from twelve leaning masts and spanning about 365 metres, a tent of record size rather than a dome in the structural sense this book has traced. That is precisely its interest. By 1999 the image of the dome, a single vast enclosure signifying national celebration, had become so valuable that it was worth borrowing for a structure that works in tension, the exact opposite of the compression masonry with which the story began.",
+            "Stadium roofs and climate enclosures extend the same negotiation between image and structure. Retractable roofs over arenas, inflated membranes over courts and vast glazed gridshells over stations all borrow the dome's promise of one weather-defying room at civic scale, while working by cables, air pressure or bending timber. The honest ones show their means, as the Reichstag cone shows its mirrors; the dishonest ones wear a dome's face over an ordinary shed. Your five signs will sort them quickly: follow the forces, find the transition, and ask whether the profile is drawn by structure or by branding."
+          ]
+        },
+        {
+          "heading": "What the Dome Still Means",
+          "figure": "louvreAbuDhabi",
+          "paras": [
+            "The Louvre Abu Dhabi, designed by Jean Nouvel and opened in 2017, gathers the threads of this whole history into one roof. Its dome spans about 180 metres and is built from eight superimposed layers of metal stars, thousands of unique geometric pieces, through which sunlight filters in moving patches that the architects call a rain of light. Below it, white gallery boxes and plazas stand like a medina under a computed sky. The muqarnas principle, geometry multiplying small units into a cosmic surface, has here been handed to the algorithm, and the result is recognisably a descendant of the squinch-builders' art.",
+            "So the dome's meanings have accumulated rather than replaced one another. It remains heaven drawn by geometry, the oldest of its claims, legible alike in a mosque, a cathedral and a museum that borrows both their calms. It remains the state's favourite diagram of unity, and the market's, from corn exchanges to shopping atria to arenas sponsored like soft drinks. And it has acquired a new charge for the age of climate: the dome as planet, a single fragile enclosure whose air, light and weather must be managed as one system, an image Spaceship Earth prepared and every glazed biome now repeats. The planet under one roof is no longer only a metaphor, since engineers now genuinely model domed enclosures as small atmospheres whose temperature, humidity and light are budgeted like a spacecraft's stores.",
+            "After about three thousand years, builders keep returning to the form that has no corners, and the reasons are finally simple. A dome covers the most with the least, gathers a crowd into a single visible whole, lifts the eye along a curve that every culture reads as aspiration, and turns structure itself into symbol without asking permission from either. Empires, republics, engineers and communes have all found their own arguments inside the same hemisphere. Stand under one that works, in Rome, Istanbul, Isfahan or Abu Dhabi, and the argument is still being made, in compression, light and air, directly overhead."
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [
+    [
+      "Anthemius of Tralles and Isidore of Miletus (6th century CE)",
+      "A mathematician from Tralles and a physicist from Miletus, commissioned by Justinian to rebuild Hagia Sophia. Neither was an architect in the modern sense, and that was the point: only geometry could carry a dome of about 31 metres on pendentives over an open nave, and hold it there."
+    ],
+    [
+      "Sinan (c. 1488/90–1588)",
+      "Chief royal architect of the Ottoman Empire for half a century and builder of more than three hundred works. From the Şehzade to the Süleymaniye and finally the Selimiye at Edirne, he refined the domed mosque into a system of half-domes, buttresses and weight turrets of unmatched lucidity."
+    ],
+    [
+      "Filippo Brunelleschi (1377–1446)",
+      "Florentine goldsmith, clockmaker and pioneer of linear perspective who won the competition for Florence Cathedral's dome and invented the machines to build it. His double shell, herringbone brickwork and ox-hoist solved a span of about 42 metres that had defeated builders for a generation."
+    ],
+    [
+      "Donato Bramante (1444–1514)",
+      "The architect who brought the High Renaissance to Rome. His Tempietto revived the classical tholos, and his first project for St Peter's — a Greek cross crowned by a Pantheon-like dome on a drum — set the ambition, if not the final form, of the greatest church in Christendom."
+    ],
+    [
+      "Michelangelo (1475–1564)",
+      "Sculptor and painter who took charge of St Peter's at the age of seventy-one and left its dome designed, modelled and begun. His double shell on a high, buttressed drum, completed after his death with a raised profile, became the pattern for domes of state and faith across Europe."
+    ],
+    [
+      "Christopher Wren (1632–1723)",
+      "Astronomer, mathematician and architect of St Paul's Cathedral and the City churches after the Great Fire of London. His triple dome at St Paul's — inner cupola, structural brick cone, outer lead silhouette — is the most intellectually elegant answer ever given to the dome's competing demands."
+    ],
+    [
+      "Jacques-Germain Soufflot (1713–1780)",
+      "Architect of the Panthéon in Paris, who studied the domes of Rome and London and sought Gothic lightness with classical form. His triple-shelled dome on slender supports pushed masonry daring so far that cracks, reinforcements and controversy followed the building for decades."
+    ],
+    [
+      "Pier Luigi Nervi (1891–1979)",
+      "Italian engineer who made reinforced concrete sing. By prefabricating ribbed units and casting them into continuous shells, he built domes such as the Palazzetto dello Sport that are at once structure, ceiling pattern and ornament — the coffers of the Pantheon reinvented in a modern material."
+    ],
+    [
+      "Félix Candela (1910–1997)",
+      "Spanish-born, Mexican-based builder of thin-shell concrete, famous for hyperbolic paraboloids rather than domes in the strict sense. His shells only a few centimetres thick, cast on timber formwork by skilled labour, showed a whole generation that curvature itself, correctly chosen, is strength."
+    ],
+    [
+      "Buckminster Fuller (1895–1983)",
+      "American inventor who patented the geodesic dome in 1954 and promoted it as a planetary technology: maximum enclosure for minimum weight, buildable anywhere. His Expo 67 sphere made the lattice dome, rather than the masonry vault, the twentieth century's popular image of the form."
+    ],
+    [
+      "Jean Nouvel (born 1945)",
+      "French architect whose Louvre Abu Dhabi, opened in 2017, spreads a flat, layered dome 180 metres across over an entire museum district. Its stacked geometric screens turn the historic problem of the crown — how to admit light without heat or glare — into the building's whole poetic system."
+    ]
+  ],
+  "fiveSigns": [
+    {
+      "name": "The transition: pendentive or squinch",
+      "img": "pendentiveDiagram",
+      "look": "Stand in the centre and look up at the corners where the dome meets the room below. If the space is square, something must mediate between four walls and a circle, and that mediator is the dome's most revealing detail. A pendentive is a smooth spherical triangle that curves down into each corner, carrying the dome's ring as if the whole vault were one continuous sphere cut by the walls — the Byzantine solution, perfected at Hagia Sophia. A squinch is an arch, a half-cone or a stepped cluster of small arches thrown across the corner itself — the Sasanian and Islamic solution, often elaborated into tiers of muqarnas. Count the devices, follow how their geometry gathers the load, and note whether the transition is left plain or made the building's chief ornament.",
+      "limit": "The distinction is real but not absolute: many domes combine both devices, later restorations can rebuild a transition in a different logic, and some circular or polygonal rooms need no transition at all. Treat the sign as a question — how does the circle land? — rather than a label, and check it carefully against the plan, the materials and the masonry breaks before naming a date or a culture from this single feature alone."
+    },
+    {
+      "name": "Drum and lantern: the lifted crown",
+      "img": "florenceDome",
+      "look": "Look at how the dome leaves its supports. In many great examples it does not spring directly from the pendentives or the cornice but is lifted on a drum — a cylindrical or polygonal wall, often pierced by windows, that raises the crown, steepens the external silhouette and floods the interior with a ring of light just below the vault. Above, look for the lantern: the small, windowed turret that caps the oculus, admits a controlled shaft of daylight, sheds rain, and gives the exterior its finishing exclamation mark, cross, crescent or finial. Note the drum's height against the dome's own rise, whether it is buttressed by volutes or half-domes, and whether the lantern is structural masonry, timber or metal — its weight presses down and usefully stiffens the crown.",
+      "limit": "A tall drum is not automatically later or grander: the Pantheon has none, and some of the boldest modern shells also spring almost from the ground. Drums crack, lean and are rebuilt, and lanterns are frequently replacements in a lighter material. Read the drum and lantern as evidence of intention — lift, light and silhouette — not as a simple measure of ambition, of engineering daring, or of date on their own."
+    },
+    {
+      "name": "Coffers, ribs and pattern: the shell made legible",
+      "img": "pantheonInterior",
+      "look": "Read the inner surface as a diagram of the structure. Coffers — the recessed panels stepped into the Pantheon's concrete — reduce weight high in the shell where it can least be carried, and their diminishing rows measure the curve for the eye. Ribs do the opposite work visually: they gather the surface into meridians, whether as the structural brick ribs hidden inside Florence's double shell, the exposed interlacing ribs of Islamic vaults, or the double rib, inner and outer, that gives the Gur-e Amir its melon profile. Elsewhere pattern takes over: tile, mosaic, painted stars or muqarnas cells that either follow the geometry honestly or deliberately dissolve it. Ask in every case whether the surface is lightening, stiffening, measuring or merely decorating the shell — in the best domes it is doing several at once.",
+      "limit": "Surface is the easiest element to renew and the hardest to date: coffers are recut, mosaics replaced, tilework restored and painted schemes wholly invented by later centuries. A decorated interior may conceal a shell of a quite different age or structure. Use coffers, ribs and pattern to understand how a dome wants to be read, then test that reading carefully against the exterior profile, the materials, and the surviving fabric at the springing itself."
+    },
+    {
+      "name": "Light at the crown: oculus and the ring of windows",
+      "img": "hagiaSophiaInterior",
+      "look": "Follow the light, because a dome organises it more completely than any other roof. At the Pantheon a single unglazed oculus, nine metres across, throws a moving disc of sun around the interior and admits the rain to a floor drained for it — the building is a sundial as well as a temple. Hagia Sophia instead rings the base of its dome with forty windows, so the vault seems detached and floating on light; Renaissance and Baroque domes concentrate brightness in the lantern; Islamic domes diffuse it through pierced screens and glazed tile. Visit, if you can, at different hours, watch where the brightest surface sits, and note whether the crown is the source of light or merely its reflector.",
+      "limit": "Light is the most altered of all a dome's effects: oculi are glazed, windows blocked or reopened, interiors relit electrically and surfaces cleaned or darkened by centuries of smoke. What feels miraculous may be a restorer's decision, and what feels gloomy may be a temporary covering. Judge the intended effect from the openings themselves — their number, size and position — not only from the atmosphere on the day of a visit."
+    },
+    {
+      "name": "Profile: hemisphere, point, onion or shell",
+      "img": "domeOfRock",
+      "look": "Step well back and draw the silhouette in your mind. A true hemisphere declares Rome and its Renaissance heirs. A slightly pointed profile shifts the thrust downward, eases the structure and suits brick construction from Seljuk tombs to Sinan's mosques. The bulbous, ribbed onion of Timurid Samarkand and later Mughal and Russian building is silhouette as heraldry, often a light outer shell raised on a tall drum purely for the skyline. A shallow saucer suggests Roman concrete, iron or a modern shell; a steep cone or a tall, faceted cap suggests timber, lead or a Baroque taste for verticality. Compare the outer profile with the inner one: where they diverge, there are two shells, and the space between them is a building within the building.",
+      "limit": "Profile tempts instant cultural labelling and often misleads: pointed domes occur far outside the Islamic world, onion domes were rebuilt onto earlier drums, and weatherproof coverings in lead, tile or copper can thicken or alter an original line. Silhouette also changes with viewpoint and distance. Use it as the first hypothesis a dome offers, then confirm or correct it with the transition, the drum and the materials before assigning origin or date."
+    }
+  ],
+  "gazetteer": [
+    [
+      "Rome — Pantheon",
+      "The essential dome. Enter from the piazza, pass the granite portico and stand on the central floor disc as the sunbeam from the 43.3-metre dome's oculus crosses the coffers. Look for the relieving arches in the wall outside, the stepped rings, and the drainage holes at your feet."
+    ],
+    [
+      "Istanbul — Hagia Sophia",
+      "Read the dome from the nave floor first — forty windows dissolving its base — then from the galleries, where the pendentives, half-domes and buttresses explain themselves. The building of 532–537, rededicated in 562 after its first dome fell, is a structural argument you can walk through."
+    ],
+    [
+      "Jerusalem — Dome of the Rock",
+      "Approach across the platform and circle the octagon before entering: gilded dome, turquoise tile and marble revetment compose an exterior meant to be read from the whole city. Inside, mosaics, carved rock and the double ambulatory preserve the seventh-century shrine's original spatial idea."
+    ],
+    [
+      "Bukhara — Samanid Mausoleum",
+      "A small building to visit slowly. Circle the baked-brick cube at different hours as its woven patterns change with raking light, then go inside to watch the squinches turn square to circle in tiers of brick — a complete domed system at the scale of a single room."
+    ],
+    [
+      "Samarkand — Gur-e Amir",
+      "Come first for the skyline: the ribbed turquoise outer dome on its inscribed drum over Timur's mausoleum. Inside, the quieter inner dome, the jade cenotaph and the crypt below separate the monument's public silhouette from its private, funerary reality."
+    ],
+    [
+      "Edirne — Selimiye Mosque",
+      "Sinan's masterpiece repays a seat on the central axis beneath the 31.28-metre dome, where eight piers, the muezzin's platform and a fountain compose one unified volume. Visit the museum in the complex for Sinan's drawings and models, then walk the terrace to read the buttressing."
+    ],
+    [
+      "Isfahan — Shah Mosque and Sheikh Lotfollah",
+      "Take the pair together on Naqsh-e Jahan Square: the Shah Mosque for scale, tile-clad domes and the famous peacock revealed in the light beneath the central dome, Sheikh Lotfollah opposite for intimacy — a single chamber whose arabesques rotate and change colour as the day moves."
+    ],
+    [
+      "Florence — Cathedral of Santa Maria del Fiore",
+      "Climb between Brunelleschi's two shells — 463 steps through the herringbone brickwork, past the hoist machinery's story — to the lantern for the city view the dome was built to command. From the Baptistery and the museum, models and the surviving winch explain how it rose without centring."
+    ],
+    [
+      "Vatican City — St Peter's Basilica",
+      "Read Michelangelo's dome from three distances: across the Tiber for the silhouette, from the square for its conversation with Bernini's colonnade, and from the gallery and roof on the dome climb, where the double shell and its chains become tangible. The Vatican Museums model shows the intended profile."
+    ],
+    [
+      "London — St Paul's Cathedral",
+      "Whisper across the Whispering Gallery, then climb on to the Stone and Golden Galleries to see the outer dome's leaded timber, the brick cone that carries the lantern, and the painted inner cupola far below — Wren's triple construction revealed in a single ascent."
+    ],
+    [
+      "Paris — Panthéon and Les Invalides",
+      "Visit as a pair across the city: Soufflot's Panthéon for the daring of a triple dome on slender, luminous supports, restored and reinforced over centuries, and Hardouin-Mansart's Invalides for the opposite virtue — triple shells staged as painted heavens above Napoleon's tomb, French classicism at its most theatrical."
+    ]
+  ],
+  "glossary": [
+    [
+      "Centring",
+      "The temporary timber framework on which an arch, vault or masonry dome is built, removed once the structure stands alone. Avoiding it — as Brunelleschi did — was a decisive economy and a famous boast."
+    ],
+    [
+      "Coffer",
+      "A recessed panel stepped into a vault or dome's inner surface. Coffers lighten the shell, articulate its curvature in light and shadow, and, at the Pantheon, diminish in size as the dome rises and thins."
+    ],
+    [
+      "Compression",
+      "The pushing force that stone, brick and concrete resist best. Domes and vaults are shaped to keep loads travelling as compression, since masonry is strong under a push and weak under a pull."
+    ],
+    [
+      "Dome",
+      "A vault of curved profile carried over a circular, square or polygonal plan, working as a compression shell. The term covers masonry hemispheres, timber cupolas, metal frames, concrete shells and geodesic lattices alike."
+    ],
+    [
+      "Double shell",
+      "A dome built as two separate vaults — an inner ceiling and an outer weatherproof silhouette — with space between for stairs and structure. Each shell takes its ideal shape, at the cost of building twice."
+    ],
+    [
+      "Drum (tambour)",
+      "The cylindrical or polygonal wall that raises a dome above its supports or roofline. A drum lifts the crown for silhouette and interior height, and its windows can ring the dome's base with light."
+    ],
+    [
+      "Geodesic dome",
+      "A dome whose surface is a lattice of triangles approximating a sphere, patented by Fuller in 1954. Stresses spread through the whole network, so large enclosures can be built from short, light, identical parts."
+    ],
+    [
+      "Herringbone brickwork",
+      "Brick laid in alternating vertical and horizontal courses, the vertical bricks locking each new ring against sliding on the rising curve. Brunelleschi used the pattern to build Florence's dome in self-supporting rings without full centring."
+    ],
+    [
+      "Lantern",
+      "The small windowed turret crowning a dome over its oculus. It admits light, vents air, sheds weather and finishes the silhouette, while its weight helps close and stiffen the dome's crown."
+    ],
+    [
+      "Muqarnas",
+      "Stalactite-like tiers of small cells used across Islamic architecture to fill pendentives, squinches and vaults. Muqarnas dissolves a hard geometric transition into a honeycomb that catches light and conceals where one form becomes another."
+    ],
+    [
+      "Oculus",
+      "The circular opening at a dome's crown, open to the sky at the Pantheon and usually lantern-capped elsewhere. It lightens the crown and becomes the interior's sun and focal point."
+    ],
+    [
+      "Pendentive",
+      "A spherical triangle carrying a dome on a circular ring over a square bay, curving down to a point at each corner. Perfected at Hagia Sophia, it is the most elegant dome transition."
+    ],
+    [
+      "Rib",
+      "A projecting or structural band following a dome's meridian or interlacing across its surface. Ribs can gather load, stiffen a shell, conceal its construction joints, or exist purely to make its geometry visible and splendid."
+    ],
+    [
+      "Rotunda",
+      "A circular building, or a circular domed room within one. From Roman temples and mausolea through Renaissance chapels to parliamentary chambers, the rotunda is the dome's natural companion and its commonest plan."
+    ],
+    [
+      "Squinch",
+      "An arch, half-cone or stepped niche across the internal corner of a square room, carrying a dome above it. The standard transition in Sasanian and much Islamic building, often multiplied into muqarnas tiers."
+    ],
+    [
+      "Tension ring",
+      "A ring of iron, timber or reinforced concrete at a dome's base, or a chain hidden in its masonry, resisting outward thrust as a pull — the work a massive wall would do by weight."
+    ],
+    [
+      "Thin-shell",
+      "A modern concrete structure whose strength comes from curvature rather than mass, often only a few centimetres thick. Nervi and Candela showed a correctly shaped shell could span widely at a fraction of masonry's weight."
+    ],
+    [
+      "Tholos",
+      "A circular building, and in this book specifically the corbelled beehive tombs of the Mycenaean world. The tholos is the dome's Bronze Age ancestor, built by stacking rather than by the true arch."
+    ],
+    [
+      "Thrust",
+      "The outward and downward push a dome or vault exerts on its supports. Every dome design negotiates with thrust: carry it to the ground, buttress it, or tie it back with a ring or chain."
+    ]
+  ],
+  "sources": [
+    {
+      "name": "Smarthistory — The Pantheon",
+      "url": "https://smarthistory.org/pantheon/"
+    },
+    {
+      "name": "Smarthistory — Hagia Sophia, Istanbul",
+      "url": "https://smarthistory.org/hagia-sophia-istanbul/"
+    },
+    {
+      "name": "UNESCO World Heritage Centre — Historic Areas of Istanbul (List 356)",
+      "url": "https://whc.unesco.org/en/list/356/"
+    },
+    {
+      "name": "UNESCO World Heritage Centre — Historic Centre of Florence (List 174)",
+      "url": "https://whc.unesco.org/en/list/174/"
+    },
+    {
+      "name": "UNESCO World Heritage Centre — Selimiye Mosque and its Social Complex (List 1366)",
+      "url": "https://whc.unesco.org/en/list/1366/"
+    },
+    {
+      "name": "The Metropolitan Museum of Art — Heilbrunn Timeline of Art History",
+      "url": "https://www.metmuseum.org/toah/"
+    }
+  ],
+  "bibliography": [
+    "Smith, Earl Baldwin. The Dome: A Study in the History of Ideas. Princeton Monographs in Art and Archaeology 25. Princeton: Princeton University Press, 1950.",
+    "Marder, Tod A., and Mark Wilson Jones (eds.). The Pantheon: From Antiquity to the Present. Cambridge: Cambridge University Press, 2015.",
+    "Jones, Mark Wilson. Principles of Roman Architecture. New Haven and London: Yale University Press, 2000.",
+    "Heyman, Jacques. The Stone Skeleton: Structural Engineering of Masonry Architecture. Cambridge: Cambridge University Press, 1995."
+  ]
 }
 ];
 
