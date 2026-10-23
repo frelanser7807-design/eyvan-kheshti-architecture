@@ -6679,6 +6679,8 @@ html[dir="rtl"] .ek-brand > span:last-child { text-align: right; }
 .ek-article-toc h2 { margin: 12px 0 22px; font: 400 clamp(2rem, 4vw, 3rem)/1 Georgia, serif; }
 .ek-article-toc ol { display: grid; grid-template-columns: 1fr 1fr; gap: 11px 32px; margin: 0; padding: 0 0 0 20px; }
 .ek-article-toc a { color: #4b4943; font-size: .8rem; line-height: 1.5; text-decoration-color: #b19a78; text-underline-offset: 3px; }
+.waj-preferred-source-note { margin: 44px 0 0; color: #6f6a5e; font-size: .82rem; line-height: 1.7; }
+.waj-preferred-source-note a { color: #6c4f2e; overflow-wrap: anywhere; }
 .ek-article-footer { display: flex; justify-content: space-between; gap: 28px; align-items: center; margin-top: 68px; padding-top: 28px; border-top: 1px solid #bdb5aa; }
 .ek-article-footer p { max-width: 58ch; margin: 0; color: #555149; font-family: Georgia, serif; line-height: 1.65; }
 .ek-article-footer button { flex: 0 0 auto; border: 1px solid #33332f; border-radius: 999px; padding: 13px 17px; background: #1b1d1b; color: #f3eee5; font-size: .52rem; letter-spacing: .1em; text-transform: uppercase; cursor: pointer; }

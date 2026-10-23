@@ -302,6 +302,8 @@ function ResolvedArticleReader({ article, onClose = () => undefined, standalone 
             </section>
           )}
 
+          <p className="waj-preferred-source-note">📌 Never miss a story — add World Arch Journal as your preferred source on Google: <a href="https://www.google.com/preferences/source?q=worldarchjournal.com" target="_blank" rel="noopener noreferrer">https://www.google.com/preferences/source?q=worldarchjournal.com</a></p>
+
           <footer className="ek-article-footer">
             <p>{article.cta}</p>
             <div className="ek-article-footer-actions">
