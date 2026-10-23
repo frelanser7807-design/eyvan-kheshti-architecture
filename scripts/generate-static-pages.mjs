@@ -450,7 +450,7 @@ for (const item of promptItems) {
   const frames = item.referenceFrames?.length ? `<section><h2>Start and end frames</h2>${item.referenceFrames.map((frame) => `<figure><img src="${escapeHtml(frame.src)}" alt="${escapeHtml(frame.alt)}" loading="lazy" /><figcaption>${escapeHtml(frame.label)} · <a href="${escapeHtml(frame.src)}" download>Download JPG</a></figcaption></figure>`).join('')}</section>` : '';
   const relatedPrompts = promptItems.filter((entry) => entry.id !== item.id && entry.category === item.category).slice(0, 3).map((entry) => `<li><a href="/prompts/${escapeHtml(entry.id)}/">${escapeHtml(entry.title)}</a> · ${entry.access === 'premium' ? 'PRO' : 'Free'}</li>`).join('');
   const body = `<main class="seo-route-fallback"><a href="/prompts/">WORLD ARCH JOURNAL / PROMPT LAB</a><article><header><small>${escapeHtml(category?.title || item.category)} · ${item.access === 'premium' ? '♛ PRO' : 'FREE'}</small><h1>${escapeHtml(item.title)}</h1><p>${escapeHtml(item.summary)}</p></header>${media}${watchLink}${frames}${accessBody}${relatedPrompts ? `<section><h2>Related prompts</h2><ul>${relatedPrompts}</ul></section>` : ''}</article></main>`;
-  await emit(pathname, preparePage({ pathname, title: `${item.title} AI Prompt | ${siteName}`, description, image: item.image, imageAlt: `${item.title} prompt preview`, schema, body, robots: item.access === 'premium' ? 'noindex, follow, max-image-preview:large' : undefined }));
+  await emit(pathname, preparePage({ pathname, title: `${item.title} AI Prompt | ${siteName}`, description, image: item.image, imageAlt: `${item.title} prompt preview`, schema, body }));
 }
 
 for (const [pathname, page] of Object.entries(legalPages)) {
@@ -527,7 +527,7 @@ const sitemapRecords = [
   ...projects.map((project) => ({ pathname: project.detailPath, lastmod: '2026-10-06', image: { loc: project.cover, title: project.title, caption: project.coverAlt } })),
   ...projects.filter((project) => project.tourLive !== false).map((project) => ({ pathname: project.tourPath, lastmod: '2026-10-06', image: { loc: project.cover, title: `${project.title} virtual tour`, caption: project.coverAlt } })),
   { pathname: promptsPath, lastmod: '2026-09-27' },
-  ...promptItems.filter((item) => item.access === 'free').map((item) => ({ pathname: `/prompts/${item.id}/`, lastmod: item.modifiedAt || item.publishedAt || '2026-09-27', image: { loc: item.image, title: item.title, caption: item.summary } })),
+  ...promptItems.map((item) => ({ pathname: `/prompts/${item.id}/`, lastmod: item.modifiedAt || item.publishedAt || '2026-09-27', image: { loc: item.image, title: item.title, caption: item.summary } })),
   { pathname: shopPath, lastmod: '2026-10-05', image: { loc: publishedProducts[0]?.image, title: 'World Arch Journal architecture shop' } },
   { pathname: presentationPath, lastmod: '2026-10-05', image: { loc: presentationProducts[0]?.image, title: presentationTitle } },
   ...publishedProducts.map((item) => ({ pathname: `/shop/${item.slug || item.id}/`, lastmod: item.modifiedAt || item.publishedAt, image: { loc: item.image, title: item.title, caption: item.imageAlt || item.excerpt } })),
