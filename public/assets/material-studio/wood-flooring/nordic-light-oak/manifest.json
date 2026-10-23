@@ -1,0 +1,31 @@
+{
+  "id": "wood-flooring-nordic-light-oak",
+  "name": "Nordic light oak - real photogrammetry-scanned wood flooring material (4K pack + 16K edition)",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "nativeResolution": [
+    8192,
+    8192
+  ],
+  "method": "Photogrammetry scan of a physical wood surface, distributed by Poly Haven as Laminate Floor 02 (laminate_floor_02), released under CC0. This pack contains the library's own 4096 x 4096 edition of the scan exactly as published by the library - no procedural generation, no enlargement, no detail added. The 16K edition (16384 x 16384) is prepared from the original 8192 x 8192 scan only: the genuine scan seamlessly tiled 2 x 2 - no new surface detail is invented. Both packs are hosted on Google Drive (World Arch Journal - Material Packs) because of their file size. Tile coverage is an estimate from the scanned board layout.",
+  "source": {
+    "library": "Poly Haven",
+    "asset": "Laminate Floor 02 (laminate_floor_02)",
+    "url": "https://polyhaven.com/a/laminate_floor_02",
+    "license": "CC0 1.0 Universal (public domain)"
+  },
+  "tileMeters": [
+    1.6,
+    1.6
+  ],
+  "normalConvention": "OpenGL +Y",
+  "license": "CC0 1.0 Universal (public domain) - free for personal and commercial use, including redistribution.",
+  "sha256": {
+    "basecolor-4k.jpg": "9138b055cea1d8ac0e5c19ee588cf2d402cf42e61cbdacf9c77d5cc69667aff0",
+    "normal-opengl-4k.jpg": "541f10b5f2256918230eb980c4d9c275a3fd3ea00d541a2ac3e07283d0d1637a",
+    "roughness-4k.jpg": "0a01b6f5481eb3eb537b8e7371a847177b95e44724f5fe2f1091e7ef87e8fb9e",
+    "height-4k.jpg": "6d2330a69c10e6a2a67345b2fc644448069ebd2f1135971a635cc5c04420a08c"
+  }
+}
