@@ -17,7 +17,7 @@ test('client SEO executes on material routes without initialization errors',asyn
     const nodes=[];
     const existingSchema={dataset:{},textContent:'{}',removeAttribute(){}};
     const document={head:{querySelector:s=>s.startsWith('script[')?existingSchema:null,querySelectorAll:()=>[],appendChild:n=>nodes.push(n)},createElement:tag=>({tag,dataset:{},setAttribute(k,v){this[k]=v;}})};
-    const context={document,window:{location:{pathname,hostname:'worldarchjournal.com'}},URL,useEffect:f=>f(),assetUrl:v=>v,collectionProducts,categoryPath,typePath};
+    const context={document,window:{location:{pathname,hostname:'worldarchjournal.com'}},URL,useEffect:f=>f(),assetUrl:v=>v,collectionCategories,collectionProducts,categoryPath,typePath};
     vm.createContext(context);
     vm.runInContext(`${source}\nSiteSeo({content:{brand:{name:'WORLD ARCH JOURNAL'}},route:${JSON.stringify(route)}});`,context);
     const schema=JSON.parse(existingSchema.textContent);const main=schema['@graph']?.[0]||schema;
