@@ -3,6 +3,7 @@ import BookCover3D from './BookCover3D.jsx';
 import { magazines } from '../data/magazines.js';
 import { magazineCategories, publishedMagazineArticles } from '../data/magazineCategories.js';
 import { editorialArticles, editorialPath } from '../data/newsletters.js';
+import ProductPage from './ProductPage.jsx';
 import './MagazineHub.css';
 
 function ArticleCard({ article, featured = false }) {
@@ -362,7 +363,9 @@ function HistoryHubSections({ hub }) {
   );
 }
 
-export default function MagazineHub({ category = null }) {
+export default function MagazineHub({ categorySlug = null }) {
+  const category = categorySlug ? magazineCategories.find((topic) => topic.slug === categorySlug) || null : null;
+  if (categorySlug && !category) return <ProductPage missing />;
   const articles = category ? category.articles : publishedMagazineArticles;
   const [lead, ...rest] = articles;
   const issue = magazines.find((item) => item.published);

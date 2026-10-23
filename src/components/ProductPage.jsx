@@ -86,7 +86,7 @@ export default function ProductPage({ product, products = [], missing = false, p
     <main id="main-content" className="ek-commerce-page">
       <a className="ek-commerce-brand" href="/">WORLD ARCH JOURNAL </a>
       <article className="ek-product-detail">
-        <figure>{product.video ? <video controls muted playsInline preload="metadata" poster={assetUrl(product.image)} aria-label={`${product.title} video preview`}><source src={assetUrl(product.video)} type="video/mp4" />Your browser does not support embedded video.</video> : <img src={assetUrl(product.image)} alt={product.imageAlt || product.title} />}</figure>
+        <figure>{product.video ? <video controls muted playsInline preload="none" poster={assetUrl(product.image)} aria-label={`${product.title} video preview`}><source src={assetUrl(product.video)} type="video/mp4" />Your browser does not support embedded video.</video> : <img src={assetUrl(product.image)} alt={product.imageAlt || product.title} />}</figure>
         <div><small>{product.category}</small><h1>{product.title}</h1><p>{product.excerpt}</p>
           {dedicatedWatchPage && <p><a href={watchPagePath(dedicatedWatchPage)}>Watch the dedicated video preview ↗</a></p>}
           {product.price && <strong>{formatPrice(product.price, product.currency)}</strong>}

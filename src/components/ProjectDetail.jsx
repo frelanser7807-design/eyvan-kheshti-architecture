@@ -1,6 +1,8 @@
 import { useState } from 'react';
+import { projectBySlug } from '../data/projects.js';
 
-export default function ProjectDetail({ project }) {
+export default function ProjectDetail({ slug }) {
+  const project = projectBySlug(slug);
   const [zoomed, setZoomed] = useState(null);
   if (!project) return <main className="project-missing"><h1>Project not found.</h1><a href="/projects/">Return to projects</a></main>;
   const tourLive = project.tourLive !== false;

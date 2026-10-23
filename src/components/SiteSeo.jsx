@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
 import { collectionProducts, categoryPath, typePath } from '../data/materialCollections.js';
 import { assetUrl } from '../lib/assetUrl.js';
-import { publishedMagazineArticles } from '../data/magazineCategories.js';
-import { promptItems } from '../data/promptLibrary.js';
+import { magazineCategoryBySlug, publishedMagazineArticles } from '../data/magazineCategories.js';
+import { promptById, promptItems } from '../data/promptLibrary.js';
 import { newsletterIssues, editorialArticles, editorialPath } from '../data/newsletters.js';
-import { projects } from '../data/projects.js';
+import { projects, projectBySlug } from '../data/projects.js';
 import { publishedVideoStories } from '../data/videoStories.js';
 import { watchVideoEntries, watchPagePath } from '../data/watchVideos.js';
 import { atlasVilla } from '../data/atlasVilla.js';
@@ -61,13 +61,45 @@ const legalTitles = {
 
 export default function SiteSeo({ content, route }) {
   useEffect(() => {
+    // Detail routes no longer carry a pre-resolved item in the route object;
+    // resolve it here from the same datasets the page components use.
+    const routeItem = route?.item
+      || (route?.name === 'magazine-category' ? magazineCategoryBySlug(route.slug) || null : null)
+      || (route?.name === 'prompt' ? promptById(route.slug) || null : null)
+      || (route?.name === 'project' || (typeof route?.name === 'string' && route.name.startsWith('virtual-tour-')) ? projectBySlug(route.slug) || null : null);
+    // The browser article catalog omits faq/evidence, so for article routes
+    // the full payload (the same JSON ArticleReader loads) is fetched first
+    // and the metadata below is applied with it, keeping the JSON-LD
+    // complete. Every other route applies immediately.
+    if (route?.name === 'article' && routeItem && routeItem.faq === undefined && routeItem.contentUrl) {
+      let active = true;
+      fetch(assetUrl(routeItem.contentUrl))
+        .then((response) => (response.ok ? response.json() : null))
+        .then((payload) => {
+          if (active && payload?.slug === routeItem.slug) applySeo({ ...routeItem, faq: payload.faq, evidence: payload.evidence });
+        })
+        .catch(() => undefined);
+      return () => { active = false; };
+    }
+    // The book dataset is not part of the route object either; load it on
+    // demand for the history deep-dive and book-reader routes only.
+    if ((route?.name === 'history-deep' || route?.name === 'history-read') && !route?.item && route?.slug) {
+      let active = true;
+      import('../data/historyDeep.js')
+        .then((module) => { if (active) applySeo(module.historyDeepById(route.slug) || null); })
+        .catch(() => undefined);
+      return () => { active = false; };
+    }
+    applySeo(routeItem);
+    return undefined;
+
+    function applySeo(item) {
     const brand = content?.brand || {};
     const name = brand.name || 'WORLD ARCH JOURNAL';
     const siteUrl = FALLBACK_SITE_URL;
     const normalizedPath = window.location.pathname.endsWith('/') ? window.location.pathname : `${window.location.pathname}/`;
     const canonicalUrl = `${siteUrl}${route?.name === 'material-studio' ? collectionProducts[0].path : normalizedPath === '/' ? '' : normalizedPath}`;
     const legalTitle = legalTitles[normalizedPath];
-    const item = route?.item;
     const isMissing = route?.name === 'not-found' || (['article', 'magazine', 'magazine-category', 'history-deep', 'history-read', 'product', 'prompt', 'newsletter-issue', 'analysis-article', 'project', 'video-story'].includes(route?.name) && !item);
     const isCanonicalHost = ['worldarchjournal.com', 'www.worldarchjournal.com'].includes(window.location.hostname);
     const tourComingSoon = ['virtual-tour-the-voids', 'virtual-tour-narbon', 'virtual-tour-safadasht'].includes(route?.name) && item?.tourLive === false;
@@ -377,6 +409,7 @@ export default function SiteSeo({ content, route }) {
     script.removeAttribute('data-static-schema');
     script.dataset.eyvanSchema = 'true';
     script.textContent = JSON.stringify(structuredData);
+    }
   }, [content, route]);
 
   return null;

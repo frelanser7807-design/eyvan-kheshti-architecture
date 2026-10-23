@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import { assetUrl } from '../lib/assetUrl.js';
 import { submitSubscriber } from '../lib/dataAdapter.js';
+import { historyDeepById } from '../data/historyDeep.js';
 import BookCover3D from './BookCover3D.jsx';
+import ProductPage from './ProductPage.jsx';
 import './MagazineHub.css';
 import './HistoryDeepPage.css';
 
@@ -68,7 +70,7 @@ function ChapterSection({ page, section }) {
   );
 }
 
-export default function HistoryDeepPage({ page }) {
+function HistoryDeepPageView({ page }) {
   const hero = page.images[page.hero];
   return (
     <div className="wj-magazine-page wj-deep-page">
@@ -255,4 +257,10 @@ export default function HistoryDeepPage({ page }) {
       <footer className="wj-magazine-footer"><span>© WORLD ARCH JOURNAL</span><nav aria-label="Footer"><a href="/editorial-policy/">Editorial policy</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></nav></footer>
     </div>
   );
+}
+
+export default function HistoryDeepPage({ slug }) {
+  const page = historyDeepById(slug);
+  if (!page) return <ProductPage missing />;
+  return <HistoryDeepPageView page={page} />;
 }
