@@ -369,11 +369,11 @@ if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new
 // Raised 630 -> 675 on 2026-10-23 for Book 9 of the Architectural History
 // Series (Brutalism deep page + book PDF): 47 licensed Wikimedia Commons
 // photographs plus the temporary series cover (~15.6 MB) in
-// public/assets/history-deep/brutalism/, the generated 78-page book PDF
+// public/assets/history-deep/brutalism/, the generated 96-page book PDF
 // (~12.8 MB) in public/downloads/history/ and the flipbook reader's page
-// images (78 pages at reading resolution, ~9.7 MB) in the same folder —
-// a measured addition of ~39.0 MB for this book (post-prune dist total
-// 664.92 MB against the 675 MB cap).
+// images (96 pages at reading resolution, ~11.9 MB) in the same folder —
+// a measured addition of ~41.2 MB for this book (post-prune dist total
+// 667.00 MB against the 675 MB cap).
 // Raised 304 -> 312 on 2026-10-23 after CI measured 310.74 MB: the sandbox
 // cannot run the full Playwright PDF pipeline (/tmp-constrained), so local
 // dist under-measures by the CI-generated history book PDF (~7.3 MB) plus
