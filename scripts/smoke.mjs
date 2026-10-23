@@ -390,8 +390,15 @@ if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new
 // bundle variance. 312 covers the approved daily batch with the gate intact.
 // NOTE: at ~16 MB/day this gate needs a
 // sustainable model (per-article budget or growth allowance) — revisit soon.
-if (distSizeMb - materialSizeMb > 709) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 709 MB`);
+// Raised 709 -> 753 on 2026-10-23 for Book 11 of the Architectural History
+// Series (The Dome deep page + book PDF): 45 licensed Wikimedia
+// Commons photographs plus the temporary series cover (~16.1 MB) in
+// public/assets/history-deep/the-dome/, the generated 105-page book PDF
+// (~12.4 MB) in public/downloads/history/ and the flipbook reader's page
+// images (105 pages at reading resolution, ~15.6 MB) in the same folder —
+// a measured addition of ~43.4 MB for this book.
+if (distSizeMb - materialSizeMb > 753) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 753 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));

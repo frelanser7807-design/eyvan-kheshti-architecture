@@ -405,6 +405,10 @@ export const historyStudies = [
       { name: "UNESCO World Heritage Centre", url: "https://whc.unesco.org/en/list/174/" },
       { name: "UNESCO World Heritage Centre", url: "https://whc.unesco.org/en/list/356/" }
     ],
+    deepPage: "/magazine/architectural-history-styles/the-dome/",
+    pdf: "/downloads/history/the-dome.pdf",
+    bookCover: "/assets/history-deep/the-dome/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/the-dome/read/",
     images: {
       hero: { src: `${H}/dome-hero.jpg`, alt: "Coffered dome and open oculus of the Pantheon in Rome", credit: "Photo: T. Le Berre, via Wikimedia Commons (CC BY-SA 4.0)" },
       detail1: { src: `${H}/dome-detail1.jpg`, alt: "Dome on pendentives above the nave of Hagia Sophia", credit: "Photo: Ronan Reinart, via Wikimedia Commons (CC BY-SA 3.0)" },
