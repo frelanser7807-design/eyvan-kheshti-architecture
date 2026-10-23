@@ -447,6 +447,10 @@ export const historyStudies = [
       { name: "Smarthistory", url: "https://smarthistory.org/the-pantheon/" },
       { name: "Smarthistory", url: "https://smarthistory.org/colosseum-rome/" }
     ],
+    deepPage: "/magazine/architectural-history-styles/columns-classical-orders/",
+    pdf: "/downloads/history/columns-classical-orders.pdf",
+    bookCover: "/assets/history-deep/columns-classical-orders/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/columns-classical-orders/read/",
     images: {
       hero: { src: `${H}/columns-hero.jpg`, alt: "Stacked orders framing the arcades of the Colosseum in Rome", credit: "Photo: Wilfredor, via Wikimedia Commons (CC0)" },
       detail1: { src: `${H}/columns-detail1.jpg`, alt: "Doric columns of the Parthenon in Athens", credit: "Photo: George E. Koronaios, via Wikimedia Commons (CC BY-SA 4.0)" },
