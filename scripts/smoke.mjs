@@ -420,8 +420,15 @@ if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new
 // the flipbook reader's page images (105 pages at reading resolution,
 // ~12.2 MB) in the same folder — a measured addition of ~58.7 MB for
 // this book.
-if (distSizeMb - materialSizeMb > 923) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 923 MB`);
+// Raised 923 -> 969 on 2026-10-23 for Book 15 of the Architectural History
+// Series (The Historic House deep page + book PDF): 43 licensed Wikimedia
+// Commons photographs plus the owner's final series cover (~16.2 MB)
+// in public/assets/history-deep/the-historic-house/, the generated 105-page
+// book PDF (~16.8 MB) in public/downloads/history/ and the flipbook reader's
+// page images (105 pages at reading resolution, ~13 MB) in the same
+// folder — a measured addition of ~45.2 MB for this book.
+if (distSizeMb - materialSizeMb > 969) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 969 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));
