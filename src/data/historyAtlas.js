@@ -36,6 +36,8 @@ export const historyStudies = [
       { name: "Victoria and Albert Museum — Art Nouveau", url: "https://www.vam.ac.uk/articles/art-nouveau" },
       { name: "Smarthistory — Art Nouveau", url: "https://smarthistory.org/art-nouveau/" }
     ],
+    deepPage: "/magazine/architectural-history-styles/art-nouveau/",
+    pdf: "/downloads/history/art-nouveau.pdf",
     images: {
       hero: { src: `${H}/art-nouveau-hero.jpg`, alt: "Full facade of Casa Batlló in Barcelona with undulating stone, mosaic tile and mask-like balconies", credit: "Photo: Jaume Meneses, via Wikimedia Commons (CC BY-SA 2.0)" },
       detail1: { src: `${H}/art-nouveau-detail1.jpg`, alt: "Cast-iron Paris Métro entrance by Guimard with curling plant-like supports and amber glass canopy", credit: "Photo: Moonik, via Wikimedia Commons (CC BY-SA 3.0)" },

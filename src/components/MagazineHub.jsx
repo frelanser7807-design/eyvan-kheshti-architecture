@@ -99,6 +99,12 @@ function HubStudy({ study }) {
           <span key={source.url}>{index > 0 ? ' · ' : ''}<a href={source.url} target="_blank" rel="noopener noreferrer">{source.name}</a></span>
         ))}</p>
         {study.deepRead && <p className="wj-hub-deepread"><a href={study.deepRead}>Read the full guide to {study.title} <span aria-hidden="true">↗</span></a></p>}
+        {study.deepPage && (
+          <p className="wj-hub-booklinks">
+            <a className="wj-hub-book-read" href={study.deepPage}>Read the complete history <span aria-hidden="true">→</span></a>
+            {study.pdf && <a className="wj-hub-book-pdf" href={study.pdf} download>Download the complete guide (PDF)</a>}
+          </p>
+        )}
       </div>
     </article>
   );

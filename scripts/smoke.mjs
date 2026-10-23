@@ -307,10 +307,14 @@ if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new
 // Raised 267 -> 272 on 2026-10-23 for the owner-ordered Architectural History
 // educational atlas: 47 licensed Wikimedia Commons photographs (~3.9 MB at
 // web widths, q68) plus 3 authored SVG diagrams in public/assets/history-hub/.
+// Raised 272 -> 288 on 2026-10-23 for Book 1 of the owner-ordered Architectural
+// History Series (Art Nouveau deep page + book PDF): 35 further licensed
+// Wikimedia Commons photographs (~7.1 MB) in public/assets/history-deep/ plus
+// the generated 98-page book PDF (~7.0 MB) in public/downloads/history/.
 // NOTE: at ~16 MB/day this gate needs a
 // sustainable model (per-article budget or growth allowance) — revisit soon.
-if (distSizeMb - materialSizeMb > 272) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 272 MB`);
+if (distSizeMb - materialSizeMb > 288) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 288 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));
