@@ -11046,7 +11046,7 @@ export const historyDeepPages = [
   "cover": "/assets/history-deep/brutalism/book-cover.jpg",
   "coverCredit": "Cover artwork © World Arch Journal",
   "readPath": "/magazine/architectural-history-styles/brutalism/read/",
-  "readerPages": 78,
+  "readerPages": 96,
   "readerBase": "/assets/history-deep/brutalism/pages/",
   "subtitle": "How raw concrete became the conscience of post-war architecture — from Le Corbusier's Unité and the Capitol at Chandigarh to the Smithsons, Boston City Hall, Tokyo's Metabolists, the monuments of Yugoslavia and the Paulista school — and how the most hated style of the twentieth century was demolished, defended and finally reappraised.",
   "path": "/magazine/architectural-history-styles/brutalism/",
@@ -11060,27 +11060,99 @@ export const historyDeepPages = [
   "hero": "uniteMarseille",
   "frontispiece": "chandigarhAssembly",
   "plates": [
-    "chandigarhAssembly",
-    "uniteMarseille",
-    "hunstanton",
-    "parkHill",
-    "barbican",
-    "nakagin",
-    "spomenikTjentiste"
-  ],
+    [
+        "chandigarhAssembly",
+        "The Palace of Assembly, Chandigarh, 1962",
+        "Le Corbusier's parliament for the Punjab: a great portico shell \u2014 part bull's horn, part cooling tower \u2014 before a brise-soleil facade, the Assembly chamber rising through the roof as a hyperboloid tower. B\u00e9ton brut carrying the full dignity of a state, in a climate that made its shade a necessity before it was a symbol."
+    ],
+    [
+        "uniteMarseille",
+        "Unit\u00e9 d'habitation, Marseille, 1952",
+        "The founding artefact: 337 homes in a concrete frame on pilotis, an internal street of shops, a roof of sculptural furniture above the city. Every brutalist argument begins here \u2014 the material left rough from its shuttering, the section drawn like a village stood on end, the sun broken by the deep loggia grid."
+    ],
+    [
+        "hunstanton",
+        "Hunstanton School, Norfolk, 1954",
+        "The first canonical New Brutalist building, and not concrete at all: Alison and Peter Smithson's secondary school in brick, steel and glass, its services exposed, its water tank worn like a badge, its plan a diagram of the institution it serves. The ethic preceded the material it is named for."
+    ],
+    [
+        "parkHill",
+        "Park Hill, Sheffield, 1961",
+        "The streets in the sky at full scale: 995 flats in a serpentine slab climbing the hill above Sheffield station, its access decks wide enough for a milk float, its pubs and shops woven into the frame. Demolition's candidate for a generation; listed in 1998; now the reappraisal's largest test, still running."
+    ],
+    [
+        "barbican",
+        "The Barbican Estate, London, 1965\u201376",
+        "The British megastructure entire: 2,000 flats in towers and terraces over a podium of gardens, lakes and an arts centre, built for the City of London on its bomb sites in pick-hammered concrete of Roman gravity. The welfare state's wealthier cousin \u2014 and the standing disproof that concrete housing must fail."
+    ],
+    [
+        "nakagin",
+        "Nakagin Capsule Tower, Tokyo, 1972",
+        "Metabolism's one complete icon: 140 prefabricated capsules, each a whole dwelling of 4 by 2.5 metres, bolted to two concrete service towers in Ginza \u2014 designed to be unbolted and replaced every 25 years. The replacement never came; demolished in 2022, its capsules survive in the world's museums."
+    ],
+    [
+        "spomenikTjentiste",
+        "The Sutjeska Monument, Tjenti\u0161te, 1971",
+        "Miodrag \u017divkovi\u0107's twin concrete wings crash together over the valley where the partisans broke the Axis encirclement in 1943. Yugoslavia's spomeniks \u2014 abstract, sculptural, sited in open country \u2014 are Brutalism's sacred branch grown wild: national memory cast in the material, without a single carved soldier."
+    ]
+],
   "plates2": [
-    "bostonCityHall",
-    "nationalTheatre",
-    "sescPompeia",
-    "laTourette",
-    "habitat67",
-    "trellick",
-    "stPeters",
-    "geisel",
-    "genex",
-    "alexandraRoad",
-    "druzhba"
-  ],
+    [
+        "bostonCityHall",
+        "Boston City Hall, 1968",
+        "The American manifesto: Kallmann, McKinnell & Knowles's competition-winning city hall, its programme legible in its massing \u2014 brick terraces, a fins register for the public counters, the council chamber swelling out of the top floor like a held breath. Instantly famous, instantly hated, and now refurbished and fought over no longer."
+    ],
+    [
+        "nationalTheatre",
+        "The National Theatre, London, 1976",
+        "Denys Lasdun's civic summit: three theatres composed as a landscape of strata above the Thames, its board-marked concrete shuttered in Douglas fir and left unplaned, glowing like geology in raking light. Called a nuclear power station by a prince; voted, twice, among London's favourite buildings by its public."
+    ],
+    [
+        "sescPompeia",
+        "SESC Pomp\u00e9ia, S\u00e3o Paulo, 1986",
+        "Lina Bo Bardi's conversion of a factory into the city's favourite leisure centre: rough concrete towers, aerial walkways, a sports block like a fortress with red-shuttered holes for windows. Brutalism as popular theatre \u2014 crowded, joyful, unbeautiful by every classical measure, and beloved beyond almost any building in Brazil."
+    ],
+    [
+        "laTourette",
+        "Sainte-Marie de La Tourette, 1960",
+        "Le Corbusier's Dominican monastery near Lyon: a concrete box on rough pilotis above a meadow, its church lit by cannons of coloured light, its monks' cells screened by Iannis Xenakis's rhythmic glazing. The sacred manner at its most austere \u2014 and the proof that b\u00e9ton brut could pray."
+    ],
+    [
+        "habitat67",
+        "Habitat 67, Montreal, 1967",
+        "Moshe Safdie's stacked city: 354 prefabricated concrete boxes piled into a stepped pyramid for Expo 67, 158 homes each with its roof garden \u2014 the Unit\u00e9's idea industrialised and loosened into a hillside. Continuously and expensively inhabited ever since: the megastructure that was never blamed for poverty."
+    ],
+    [
+        "trellick",
+        "Trellick Tower, London, 1972",
+        "Ern\u0151 Goldfinger's heroic slab in North Kensington: flats in one tower, lifts, stairs and boiler flues in another, joined by glazed bridges every third floor \u2014 the type's purest diagram, in bush-hammered concrete of classical severity. Listed, gentrified and loved; its name now sells the flats it once struggled to let."
+    ],
+    [
+        "stPeters",
+        "St Peter's Seminary, Cardross, 1966",
+        "Gillespie, Kidd & Coia's masterpiece and Scotland's most famous modern ruin: a seminary of layered concrete terraces and a ziggurat of study cells, abandoned by 1987 and dissolving picturesquely into its woods. Stabilised now as a cultural landscape \u2014 its decay curated rather than cured, the 'as found' ethic arriving at preservation itself."
+    ],
+    [
+        "geisel",
+        "Geisel Library, San Diego, 1970",
+        "William Pereira's concrete lantern for the University of California: reading floors stacked and cantilevered on sixteen branching piers, named now for Dr Seuss. The heroic manner's late flowering into pure emblem \u2014 proof that monumental concrete could be witty, weightless-looking and adored from the day it opened."
+    ],
+    [
+        "genex",
+        "Genex Tower, Belgrade, 1980",
+        "The Western City Gate of Belgrade: two concrete slabs \u2014 offices and flats \u2014 joined by a bridge and a revolving restaurant, corporate brutalism as national billboard. Yugoslavia's 'third way' gave its concrete a confidence distinct from the Soviet bloc's: more sculptural, more various, open to both worlds at once."
+    ],
+    [
+        "alexandraRoad",
+        "Alexandra Road Estate, London, 1978",
+        "Neave Brown's answer to the tower: 520 maisonettes in one stepped concrete ziggurat along a Camden railway cutting, every flat with its terrace, every roof the next home's garden \u2014 low-rise at skyscraper density. The road British housing did not take, designed by an architect who lived in his own work."
+    ],
+    [
+        "druzhba",
+        "Druzhba Sanatorium, Yalta, 1985",
+        "The late Soviet manner at its most fantastic: a ring of trade-union holiday flats \u2014 a concrete cog of teeth-like balconies \u2014 carried on three cylindrical towers above the pines of the Crimea. The socialist world's dream life, built once at full stretch in its last decade, in the same raw material as London's council housing."
+    ]
+],
   "platesCaption": "Plates I · The Canon: Chandigarh, Marseille, Hunstanton, Park Hill, the Barbican, Ginza, Tjentište",
   "plates2Caption": "Plates II · The World in Concrete: Boston, London, São Paulo, Éveux, Montreal, Cardross, La Jolla, Belgrade, Camden, Yalta",
   "parts": [
