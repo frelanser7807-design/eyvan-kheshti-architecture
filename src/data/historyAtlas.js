@@ -485,6 +485,10 @@ export const historyStudies = [
       { name: "Smarthistory", url: "https://smarthistory.org/chartres-cathedral/" },
       { name: "UNESCO World Heritage Centre", url: "https://whc.unesco.org/en/list/81/" }
     ],
+    deepPage: "/magazine/architectural-history-styles/light-in-historic-buildings/",
+    pdf: "/downloads/history/light-in-historic-buildings.pdf",
+    bookCover: "/assets/history-deep/light-in-historic-buildings/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/light-in-historic-buildings/read/",
     images: {
       hero: { src: `${H}/light-hero.jpg`, alt: "Stained glass walls of the upper chapel of Sainte-Chapelle in Paris", credit: "Photo: Didier B (Sam67fr), via Wikimedia Commons (CC BY-SA 2.5)" },
       detail1: { src: `${H}/dome-hero.jpg`, alt: "Shaft of light from the oculus of the Pantheon", credit: "Photo: T. Le Berre, via Wikimedia Commons (CC BY-SA 4.0)" },
