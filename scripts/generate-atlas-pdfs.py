@@ -114,6 +114,30 @@ GUIDES = [
         "notes": "October to April is the walking season. Plan outdoor routes for morning and evening and keep midday for interiors — this is a city designed around shade and air-conditioning, and your itinerary should be too.",
         "sources": ["Visit Dubai: official visitor information", "Burj Khalifa: official site", "Museum of the Future: official site", "SOM: Burj Khalifa project"],
     },
+    {
+        "slug": "baku",
+        "country": "azerbaijan",
+        "country_label": "AZERBAIJAN",
+        "title": "Baku Architecture & Travel Guide",
+        "subtitle": "A walled medieval city on the Caspian shore, and the theatrical skyline rising behind it.",
+        "number": "05",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/HEIDAR_ALIYEV_CENTER_WIDE_ANGLE.%D7%96%D7%95%D7%95%D7%99%D7%AA_%D7%A8%D7%97%D7%91%D7%94_%D7%9E%D7%A8%D7%9B%D7%96_%D7%94%D7%99%D7%99%D7%93%D7%A8_%D7%90%D7%9C%D7%99%D7%99%D7%91.jpg/1280px-HEIDAR_ALIYEV_CENTER_WIDE_ANGLE.%D7%96%D7%95%D7%95%D7%99%D7%AA_%D7%A8%D7%97%D7%91%D7%94_%D7%9E%D7%A8%D7%9B%D7%96_%D7%94%D7%99%D7%99%D7%93%D7%A8_%D7%90%D7%9C%D7%99%D7%99%D7%91.jpg",
+        "credit": "Cover photo: Avisadehh / Wikimedia Commons / CC0",
+        "lens": "Medieval · Oil-Boom · Parametric",
+        "places": [
+            ("Icherisheher (Old City)", "Enter through the Double Gates and read the walled fabric: stone lanes, bathhouses, caravanserais and carved wooden balconies composing a complete medieval town."),
+            ("Maiden Tower (Qız Qalası)", "The twelfth-century stone cylinder at the Old City's edge — part watchtower, part enduring mystery. Climb it for the panorama over the bay and the rooftops."),
+            ("Palace of the Shirvanshahs", "The fifteenth-century palace complex at the city's high point — Divankhana, mosque, mausoleum and baths in honey-coloured stone."),
+            ("Heydar Aliyev Center", "Zaha Hadid's 2012 landmark: one continuous surface folding from plaza to roof without a straight line. Study the plaza first; the building is the landscape."),
+            ("Flame Towers", "Three flame-shaped towers on the hill above the bay, their LED facades running fire animations after dark — the second oil age's city symbol."),
+        ],
+        "routes": [
+            ("Old City walking loop", "Enter through the Double Gates, climb to the Shirvanshahs' Palace first, then descend through the lanes to the Maiden Tower and out along the walls. Allow around two and a half hours, more with interiors."),
+            ("Boulevard to Highland Park", "Walk the Caspian promenade from the Carpet Museum past the Baku Eye and Little Venice, then ride the funicular to the Highland Park terrace for the bay panorama. Time the top of the hill for the hour before sunset."),
+        ],
+        "notes": "Baku is the City of Winds: the khazri blows off the Caspian and can turn a boulevard walk into an exposed one. Spring and autumn are the walking seasons. Use the guide as an architecture-led framework and confirm opening hours and access with each venue.",
+        "sources": ["UNESCO: Walled City of Baku with the Shirvanshah's Palace and Maiden Tower", "Azerbaijan Travel: official visitor information", "Zaha Hadid Architects: Heydar Aliyev Centre"],
+    },
 ]
 
 
@@ -168,7 +192,7 @@ def build_guide(guide):
         story.append(im)
         story.append(p(guide["credit"], styles["SmallWA"]))
     story.append(Spacer(1, 4 * mm))
-    facts = [[p("ARCHITECTURAL LENS", styles["Kicker"]), p("GUIDE STATUS", styles["Kicker"]), p("WEB EDITION", styles["Kicker"])], [p(guide["lens"], styles["BodyWA"]), p("Editorial guide · reviewed 08 October 2026", styles["BodyWA"]), p(f"worldarchjournal.com/atlas/turkiye/{guide['slug']}/", styles["BodyWA"])]]
+    facts = [[p("ARCHITECTURAL LENS", styles["Kicker"]), p("GUIDE STATUS", styles["Kicker"]), p("WEB EDITION", styles["Kicker"])], [p(guide["lens"], styles["BodyWA"]), p("Editorial guide · reviewed 08 October 2026", styles["BodyWA"]), p(f"worldarchjournal.com/atlas/{guide.get('country', 'turkiye')}/{guide['slug']}/", styles["BodyWA"])]]
     t = Table(facts, colWidths=[58 * mm, 58 * mm, 58 * mm])
     t.setStyle(TableStyle([("BOX", (0, 0), (-1, -1), 0.5, LINE), ("INNERGRID", (0, 0), (-1, -1), 0.5, LINE), ("BACKGROUND", (0, 0), (-1, 0), PAPER), ("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 8), ("RIGHTPADDING", (0, 0), (-1, -1), 8), ("TOPPADDING", (0, 0), (-1, -1), 7), ("BOTTOMPADDING", (0, 0), (-1, -1), 7)]))
     story.append(t)
