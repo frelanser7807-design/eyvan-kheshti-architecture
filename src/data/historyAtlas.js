@@ -559,6 +559,10 @@ export const historyStudies = [
       { name: "Historic England", url: "https://historicengland.org.uk/listing/the-list/list-entry/1003011" },
       { name: "UNESCO World Heritage Centre", url: "https://whc.unesco.org/en/list/428/" }
     ],
+    deepPage: "/magazine/architectural-history-styles/the-historic-house/",
+    pdf: "/downloads/history/the-historic-house.pdf",
+    bookCover: "/assets/history-deep/the-historic-house/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/the-historic-house/read/",
     images: {
       hero: { src: `${H}/house-hero.jpg`, alt: "Great hall and towers of the fortified manor house at Stokesay", credit: "Photo: DeFacto, via Wikimedia Commons (CC BY-SA 4.0)" },
       detail1: { src: `${H}/house-detail1.jpg`, alt: "Atrium of a Roman domus at Pompeii", credit: "Photo: Carole Raddato, via Wikimedia Commons (CC BY-SA 2.0)" },

@@ -19494,6 +19494,1463 @@ export const historyDeepPages = [
     "Rasmussen, Steen Eiler. Experiencing Architecture. Cambridge, MA: MIT Press, 1959.",
     "Baker, Nick, and Koen Steemers. Daylight Design of Buildings. London: James & James, 2002."
   ]
+},
+{
+  "id": "the-historic-house",
+  "series": "Architectural History Series",
+  "bookNumber": 15,
+  "title": "The Historic House",
+  "bookTitle": "The Historic House: A Complete History",
+  "cover": "/assets/history-deep/the-historic-house/book-cover.jpg",
+  "coverCredit": "Cover artwork © World Arch Journal",
+  "readPath": "/magazine/architectural-history-styles/the-historic-house/read/",
+  "readerPages": 105,
+  "readerBase": "/assets/history-deep/the-historic-house/pages/",
+  "subtitle": "From the roof-entered rooms of Çatalhöyük and the atrium houses of Pompeii to the medieval hall house, Palladio's villas, Hardwick Hall, the Amsterdam canal house, the Georgian terrace, the servant-run Victorian villa, the Arts and Crafts revival and the open-plan modern house — how the house has been planned, serviced and kept across five thousand years, and the five signs that read a historic house in any street.",
+  "path": "/magazine/architectural-history-styles/the-historic-house/",
+  "hubPath": "/magazine/architectural-history-styles/",
+  "hubStudyId": "the-historic-house",
+  "pdf": "/downloads/history/the-historic-house.pdf",
+  "seoTitle": "The Historic House: A Complete History — Book | World Arch Journal",
+  "metaDescription": "The Historic House: A Complete History — Book 15 of the World Arch Journal Architectural History Series. From the roof-entered rooms of Çatalhöyük and the atrium houses of Pompeii to the medieval hall house, Palladio's villas, Hardwick Hall, the Amsterdam canal house, the Georgian terrace, the servant-run Victorian villa, the Arts and Crafts revival, the suburb and the open-plan modern house — with five signs for reading any historic house. Timeline, gazetteer, glossary and bibliography.",
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "hero": "hardwick",
+  "frontispiece": "vettiiAtrium",
+  "plates": [
+    [
+      "pompeiiFaun",
+      "The Atrium of the House of the Ceii, Pompeii, 1st century CE",
+      "Stand in the atrium and the whole Roman house explains itself. Rain fell through the compluvium — the opening in the roof — into the impluvium, the shallow marble basin at your feet, and was stored in a cistern below: the house drank its own roof-water. Around this court of light and weather stood the rooms of public life: the tablinum where the master received his morning crowd of clients, the alae for the ancestor portraits, the cubicula at the edges. The street door aligned with the tablinum so that a passer-by saw straight through the house to its seat of authority — privacy, in the domus, was staged, not sealed."
+    ],
+    [
+      "stokesayHall",
+      "The Great Hall, Stokesay Castle, Shropshire, c. 1285–1294",
+      "Lawrence of Ludlow, a rich wool merchant, built Stokesay as a fortified manor, and its great hall is the medieval house in one room: tall traceried windows, an open timber roof, a dais at one end for the lord's table and a screens passage at the other, through which servants carried food from a detached kitchen. There was no chimney and, originally, no ceiling — smoke from a central hearth found its own way out. Beside the hall stands the solar block, the family's private retreat: the whole future of the house is in that pairing of one public room and one private one."
+    ],
+    [
+      "siheyuan",
+      "A Siheyuan Compound from Above, Beijing",
+      "From the air the siheyuan is a diagram of a family. Grey-tiled roofs step around a rectangular court in strict hierarchy: the main hall on the north side, facing south, for the head of the household; reversed rooms opposite for juniors; east and west wings for sons and their families; a back-row building for daughters and servants. A screen wall behind the gate blocks the view — and the spirits — from the street. Thousands of these compounds made the fabric of Beijing's hutongs; read one from above and you have read the Confucian household itself, built in plan."
+    ],
+    [
+      "villaRotonda",
+      "Villa Rotonda (Villa Almerico Capra), Vicenza, begun 1566",
+      "Palladio's most famous house is a paradox: a villa with almost no farm, a square block with four identical temple fronts, a domed circular hall at its heart. Built for a retired papal official, Paolo Almerico, it was less a working estate than a belvedere — a house composed purely to be looked at and to look from, each portico framing a different view of the Vicentine hills. Its plan, published in the Quattro Libri of 1570, became the most copied house design in history: the ancestor of country houses from England to Virginia."
+    ],
+    [
+      "hardwick",
+      "Hardwick Hall, Derbyshire, 1590–1597",
+      "\"Hardwick Hall, more glass than wall,\" said the rhyme, and the facade proves it: six storeys of windows rising between stone towers, crowned with the initials ES for Elizabeth, Countess of Shrewsbury — Bess of Hardwick, who built the house in her seventies as the seat of a dynasty. Robert Smythson gave her a plan of revolutionary clarity, a great hall turned through the house's axis, and a top floor of state rooms lit like a lantern. It is the prodigy house perfected: display so complete that the building itself is the boast."
+    ],
+    [
+      "amsterdamCanals",
+      "Canal Houses on the Herengracht, Amsterdam, 17th century",
+      "Amsterdam taxed its canal plots by width, so the canal house grew tall, thin and deep: a merchant's warehouse, office and palace stacked in a strip sometimes only a few metres wide. The gable — stepped, pointed, bell-shaped — is the house's public face and its hoist: a beam projects from the top floor to lift goods and furniture past the narrow stair. Behind the sober brick front, the Golden Age interior blazed with marble, tiles and paintings. The type taught Europe that a bourgeois house could be both a machine for trade and a work of art."
+    ],
+    [
+      "royalCrescent",
+      "The Royal Crescent, Bath, 1767–1774",
+      "Thirty houses stand behind John Wood the Younger's single sweeping facade — a palace front of 114 Ionic columns stretched along a crescent — and behind the facade, chaos: each house was built by a different speculator, to its own depth, plan and roofline, and the backs are a jumble that the front forbids you to suspect. The Royal Crescent is the Georgian terrace as theatre: architecture as the scenery of a polite society, and the clearest proof in this book that a house's public face and private plan are two different documents."
+    ],
+    [
+      "hotelSoubise",
+      "The Cour d'Honneur of the Hôtel de Soubise, Paris, from 1705",
+      "The Parisian hôtel particulier solved the townhouse's oldest problem — how to be grand in a crowded city — by turning inward: a high wall and porte-cochère on the street, then a cour d'honneur ringed by stables and services, then the corps de logis, and behind it, invisible from the street, a garden. At the Hôtel de Soubise the courtyard colonnade performs the transition from public Paris to private ceremony; within, Boffrand's apartments of the 1730s distribute parade and comfort into separate suites — the art of distribution that every European townhouse afterwards imitated."
+    ]
+  ],
+  "plates2": [
+    [
+      "blickling",
+      "Blickling Hall, Norfolk, 1616–1627 and after",
+      "Blickling began as a Jacobean prodigy house for the Lord Chief Justice, Sir Henry Hobart, built within the moated rectangle of an older Tudor house; the south front, with its turrets and long windows, still speaks Jacobean. But the house's meaning changed around it: Georgian squirearchy, Regency remodelling, Victorian house parties, a tenancy by Lord Lothian, whose bequest made it one of the National Trust's defining country houses. Blickling is the country house as palimpsest — the layered document this book's last chapters teach the reader to open."
+    ],
+    [
+      "servantsBells",
+      "A Servants' Bell Board, Judges' Lodgings, Lancaster",
+      "In the service corridor of the Judges' Lodgings hang the house's nerves: a row of spring bells on a board, each labelled with the initials of the room it serves, each with its own tone and its own crank-and-wire line running through walls and floors to a pull beside a fireplace or a bed. The board made labour visible as sound — a ring in the morning room meant a servant rising from the basement, crossing the house unseen by the back stairs, and arriving as if by magic. The bell board is the Victorian house's truest plan: two households, one building, connected by wire."
+    ],
+    [
+      "redHouse",
+      "The Red House, Bexleyheath, 1859–1860",
+      "Philip Webb designed the Red House for William Morris as a friend builds for a friend: honest red brick, steep roofs, windows placed where rooms needed them rather than where a facade wanted them, and a plan grown from use — hall, studio, drawing room opening to a garden that Morris called part of the house. Furnishing it created Morris's firm and, in time, the Arts and Crafts movement. Against the stucco villa and the servant machine, the Red House proposes the house as a work of art made by hand — the most influential small house of the nineteenth century."
+    ],
+    [
+      "blackwell",
+      "The Main Hall, Blackwell, Bowness-on-Windermere, 1898–1900",
+      "M.H. Baillie Scott built Blackwell for a Manchester brewer as a holiday house above Windermere, and its Main Hall is the medieval great hall reborn as a living room: panelled walls, a galleried landing, window seats in the light — and at its heart an inglenook, a room within the room, where a fire burns inside an alcove of seats. Every craft is present and accounted for: carving, plasterwork, stained glass, ironwork. Blackwell is the Arts and Crafts interior complete, the hall come home from the castle to the family house."
+    ],
+    [
+      "schroder",
+      "The Rietveld Schröder House, Utrecht, 1924",
+      "Truus Schröder-Schräder commissioned Gerrit Rietveld to build her a house without walls as the world understood them: downstairs is almost conventional, but the upper floor is a single room that sliding and folding partitions divide, by day or night, into living space and bedrooms. Planes of white, grey and primary colour, steel windows that open around corners, furniture designed as part of the architecture — the house is De Stijl built at domestic scale. It stands at the end of a street of ordinary brick houses in Utrecht like a sentence in a new language."
+    ],
+    [
+      "farnsworth",
+      "The Farnsworth House, Plano, Illinois, 1945–1951",
+      "Mies van der Rohe reduced the house to its limit: eight white steel columns, a travertine terrace, a glass box, one wooden core containing hearth, kitchen and bathrooms. Dr Edith Farnsworth's weekend house has no corridor, no attic, no privacy from the Fox River meadow it floats above — and a perfection of proportion that made it, with the Villa Savoye, one of the two canonical modern houses. The lineage that began at Çatalhöyük with a room of platforms ends, for one dazzling moment, in a room made of almost nothing."
+    ],
+    [
+      "haveli",
+      "Patwon ki Haveli, Jaisalmer, from 1805",
+      "The Patwa merchants, rich on brocade and opium-era trade routes, built their haveli in Jaisalmer's golden sandstone as five joined houses for five sons — and covered every surface with carving: jharokha balconies, lattice screens, arches and brackets cut until the stone reads as lace. Behind the facade lies the type's other half, the courtyard, organising light, air and the separation of family and business, women's rooms above and merchants' offices below. The haveli is the courtyard house of Book IV wearing jewellery — and proof that the type thrives wherever climate and privacy demand it."
+    ],
+    [
+      "shirakawa",
+      "A Gasshō-zukuri Farmhouse, Shirakawa-go",
+      "In the snow country of the Japanese Alps, farmhouses raise roofs like hands pressed together in prayer — gasshō-zukuri, sixty degrees of thatch, built without a single nail, steep enough to shed metres of snow. The vast attic, warmed by the hearth smoke rising from the irori below, housed the silkworms that were the village's wealth. Re-thatching such a roof takes a village: the yui, the cooperative labour party of neighbours, is part of the architecture. Shirakawa-go's houses survive because the community, not just the family, is their building material."
+    ]
+  ],
+  "platesCaption": "Plates I · The Early and Planned House — Pompeii, Stokesay, Beijing, Vicenza, Derbyshire, Amsterdam, Bath, Paris",
+  "plates2Caption": "Plates II · The Serviced, Modern and Kept House — Norfolk, Lancaster, Bexleyheath, Windermere, Utrecht, Illinois, Jaisalmer, Shirakawa-go",
+  "parts": [
+    [
+      0,
+      "Part I",
+      "First Houses: Hearth, Hall and Court",
+      "Before the house had a style it had a problem: how to shelter a household, manage fire, water and waste, receive guests and keep private life private. The Neolithic room, the Roman domus, the medieval hall and the courtyard houses of three continents are four permanent answers, and every later house in this book is a negotiation among them."
+    ],
+    [
+      4,
+      "Part II",
+      "The Planned House: Order and Display",
+      "Between 1400 and 1800 the house becomes a designed object: theorised by Alberti, perfected by Palladio, speculated into terraces by Georgian builders and refined into ceremony in the Parisian hôtel. Plan and facade learn to speak of rank — and the standard plans invented here house the West for centuries."
+    ],
+    [
+      9,
+      "Part III",
+      "The Serviced House: Comfort and Separation",
+      "The nineteenth-century house is a machine staffed by servants: bells, back stairs, basement kitchens and graded rooms. This part follows the villa and the country house at full stretch, the Arts and Crafts reaction against them, the suburb that democratised the type, and the modern house that abolished the servants and redrew the plan around their absence."
+    ],
+    [
+      14,
+      "Part IV",
+      "Keeping and Reading the House",
+      "The last part turns from making houses to understanding them: the slow inventions of comfort and privacy, the houses of the wider world, the preservation movement that saved the historic house from demolition and neglect, and a closing field chapter — the five signs by which any historic house can be read in the street."
+    ]
+  ],
+  "seriesList": "Book 15 · The Historic House: A Complete History — this volume. Also available: Book 1 · Art Nouveau; Book 2 · Gothic Architecture; Book 3 · Medieval Castles & Fortifications; Book 4 · Baroque & Rococo; Book 5 · Romanesque Architecture; Book 6 · Modernism & the International Style; Book 7 · Victorian Architecture; Book 8 · Art Deco; Book 9 · Brutalism; Book 10 · Frank Lloyd Wright; Book 11 · The Dome; Book 12 · Arch, Vault & Flying Buttress; Book 13 · Columns & the Classical Orders; Book 14 · Light in Historic Buildings. In preparation: Art Deco vs Art Nouveau · Gothic vs Romanesque · How to Identify a Building's Style · Persian Architecture · Ancient Rome · Ancient Egypt · Byzantine Architecture · Ancient Greece · Renaissance Architecture · Neoclassical Architecture · Islamic Architecture · Bauhaus · Mid-Century Modern Architecture · Japanese Architecture · Chinese Architecture · Indian Architecture · Postmodern Architecture.",
+  "images": {
+    "amsterdamCanals": {
+      "src": "/assets/history-deep/the-historic-house/amsterdamCanals.jpg",
+      "alt": "Canal houses along the Herengracht in Amsterdam, with a bridge and a boat",
+      "credit": "Photo: Michielverbeek, via Wikimedia Commons (CC BY 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amsterdam,_Herengracht_80tm84_RM1725%2B6_-_Herenstraat_IMG_3425_2024-06-24_13.12.jpg",
+      "title": "Canal houses on the Herengracht, Amsterdam"
+    },
+    "bayleaf": {
+      "src": "/assets/history-deep/the-historic-house/bayleaf.jpg",
+      "alt": "Bayleaf, a Wealden hall house of about 1405–30, timber-framed with a jettied front, at the Weald & Downland Museum",
+      "credit": "Photo: A J Paxton, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bayleaf_Farmstead,_Weald_%5E_Downland_Museum_-_geograph.org.uk_-_7005028.jpg",
+      "title": "Bayleaf, a Wealden hall house"
+    },
+    "blackwell": {
+      "src": "/assets/history-deep/the-historic-house/blackwell.jpg",
+      "alt": "The Main Hall of Blackwell at Bowness-on-Windermere, panelled and galleried",
+      "credit": "Photo: Rob Farrow, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blackwell_-_Main_Hall_-_geograph.org.uk_-_546778.jpg",
+      "title": "The Main Hall, Blackwell"
+    },
+    "blickling": {
+      "src": "/assets/history-deep/the-historic-house/blickling.jpg",
+      "alt": "The south-west facade of Blickling Hall in Norfolk, red brick with stone dressings and turrets",
+      "credit": "Photo: DeFacto, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blickling_Hall_-_south-west_facade.jpg",
+      "title": "Blickling Hall, Norfolk"
+    },
+    "bloomsbury": {
+      "src": "/assets/history-deep/the-historic-house/bloomsbury.jpg",
+      "alt": "A white stucco terrace on Belgrave Square in London",
+      "credit": "Photo: Stephen Richards, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:North-west_terrace_of_Belgrave_Square_-_geograph.org.uk_-_1514960.jpg",
+      "title": "A Georgian square terrace: Belgrave Square, London"
+    },
+    "brownstones": {
+      "src": "/assets/history-deep/the-historic-house/brownstones.jpg",
+      "alt": "A block of brownstone row houses in Park Slope, Brooklyn, photographed in 1973",
+      "credit": "Photo: Danny Lyon, via Wikimedia Commons (Public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BLOCK_OF_BROWNSTONE_RESIDENCES_IN_PARK_SLOPE_OF_BROOKLYN_NEW_YORK_CITY._BROOKLYN_REMAINS_ONE_OF_AMERICA%27S_BEST..._-_NARA_-_555920.jpg",
+      "title": "Brownstones in Park Slope, Brooklyn (1973)"
+    },
+    "catalhoyuk": {
+      "src": "/assets/history-deep/the-historic-house/catalhoyuk.jpg",
+      "alt": "A reconstructed Çatalhöyük room in the Museum of Anatolian Civilizations, Ankara: raised platforms, a hearth and bull heads set into the wall",
+      "credit": "Photo: Dosseman, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations_%C3%87atalh%C3%B6y%C3%BCk_reconstructed_room_in_2011_05.jpg",
+      "title": "A house room at Çatalhöyük, reconstructed"
+    },
+    "cordobaPatio": {
+      "src": "/assets/history-deep/the-historic-house/cordobaPatio.jpg",
+      "alt": "A Córdoba patio at festival time, its white walls covered with flower pots",
+      "credit": "Photo: xavier.estruch, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patio_cordob%C3%A9s_(7155649863).jpg",
+      "title": "A festival patio, Córdoba"
+    },
+    "egyptModel": {
+      "src": "/assets/history-deep/the-historic-house/egyptModel.jpg",
+      "alt": "An ancient Egyptian limestone model of a house, with columns and a roof stair",
+      "credit": "Photo: The Metropolitan Museum of Art, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Model_of_a_house_MET_DP341926.jpg",
+      "title": "Model of an Egyptian house"
+    },
+    "farnsworth": {
+      "src": "/assets/history-deep/the-historic-house/farnsworth.jpg",
+      "alt": "The Farnsworth House at Plano, Illinois: a glass pavilion raised on a travertine terrace",
+      "credit": "Photo: Paul R. Burley, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farnsworth_House_Plano-9995.jpg",
+      "title": "The Farnsworth House, Plano"
+    },
+    "gardenSuburb": {
+      "src": "/assets/history-deep/the-historic-house/gardenSuburb.jpg",
+      "alt": "Houses along Hampstead Way in Hampstead Garden Suburb, London",
+      "credit": "Photo: David Howard, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hampstead_Way,_Hampstead_Garden_Suburb_-_geograph.org.uk_-_5453931.jpg",
+      "title": "Hampstead Garden Suburb, London"
+    },
+    "geffryeRoom": {
+      "src": "/assets/history-deep/the-historic-house/geffryeRoom.jpg",
+      "alt": "A 1790s period room at the Museum of the Home in London, set as a dining room",
+      "credit": "Photo: James E. Petts, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1790s_period_room_-_23889096736.jpg",
+      "title": "A 1790s period room, Museum of the Home"
+    },
+    "hardwick": {
+      "src": "/assets/history-deep/the-historic-house/hardwick.jpg",
+      "alt": "Hardwick Hall in Derbyshire seen from its garden, a many-windowed stone house between high hedges",
+      "credit": "Photo: Mike Peel, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Hardwick_Hall_2024_009.jpg",
+      "title": "Hardwick Hall, Derbyshire"
+    },
+    "haveli": {
+      "src": "/assets/history-deep/the-historic-house/haveli.jpg",
+      "alt": "The carved sandstone facade of Patwon ki Haveli rising among the houses of Jaisalmer",
+      "credit": "Photo: Ashwin Kumar, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patwon_Ki_Haveli_-_26140771308.jpg",
+      "title": "Patwon ki Haveli, Jaisalmer"
+    },
+    "hotelSoubise": {
+      "src": "/assets/history-deep/the-historic-house/hotelSoubise.jpg",
+      "alt": "The cour d'honneur of the Hôtel de Soubise in Paris, colonnaded on three sides",
+      "credit": "Photo: Guilhem Vellut, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Courtyard,_H%C3%B4tel_de_Soubise,_Paris_9_June_2017.jpg",
+      "title": "The Hôtel de Soubise courtyard, Paris"
+    },
+    "longGallery": {
+      "src": "/assets/history-deep/the-historic-house/longGallery.jpg",
+      "alt": "The Long Gallery at Hardwick Hall, with its state canopy and portraits",
+      "credit": "Photo: Lewis Clarke, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bolsover_District_,_Hardwick_Hall_-_Long_Gallery_-_geograph.org.uk_-_5976273.jpg",
+      "title": "The Long Gallery, Hardwick Hall"
+    },
+    "longleat": {
+      "src": "/assets/history-deep/the-historic-house/longleat.jpg",
+      "alt": "Longleat House in Wiltshire seen across its park",
+      "credit": "Photo: Derek Voller, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Longleat_House,_Wiltshire_-_geograph.org.uk_-_4038982.jpg",
+      "title": "Longleat House, Wiltshire"
+    },
+    "machiya": {
+      "src": "/assets/history-deep/the-historic-house/machiya.jpg",
+      "alt": "A machiya-lined street in Gion, Kyoto, at night",
+      "credit": "Photo: lumoplank, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Streets_of_Gion,_Kyoto_-_Gion7709.jpg",
+      "title": "Gion, Kyoto, at night"
+    },
+    "ostiaInsula": {
+      "src": "/assets/history-deep/the-historic-house/ostiaInsula.jpg",
+      "alt": "The brick street front of the House of Diana, an insula apartment block at Ostia Antica",
+      "credit": "Photo: Jean-Pierre Dalbéra, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_maison_de_Diane_(Ostia_Antica)_(5900777253).jpg",
+      "title": "The House of Diana insula, Ostia"
+    },
+    "palazzoMedici": {
+      "src": "/assets/history-deep/the-historic-house/palazzoMedici.jpg",
+      "alt": "The courtyard of the Palazzo Medici Riccardi in Florence, seen from below",
+      "credit": "Photo: Julian Lupyan, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palazzo_Medici_Riccardi,_Inner_Fa%C3%A7ade,_Florence,_Italy.jpg",
+      "title": "The courtyard of Palazzo Medici, Florence"
+    },
+    "penshurstHall": {
+      "src": "/assets/history-deep/the-historic-house/penshurstHall.jpg",
+      "alt": "The Baron's Hall at Penshurst Place: screens passage, minstrels' gallery and long tables",
+      "credit": "Photo: Marathon, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:In_the_Baron%27s_Hall_at_Penshurst_Place_-_geograph.org.uk_-_5460448.jpg",
+      "title": "The Baron's Hall, Penshurst Place"
+    },
+    "pompeiiFaun": {
+      "src": "/assets/history-deep/the-historic-house/pompeiiFaun.jpg",
+      "alt": "The columned atrium of the House of the Ceii at Pompeii, open to the sky at the compluvium",
+      "credit": "Photo: Mary Harrsch, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pompeii_columned_atrium_with_impluvium_House_of_the_Ceii_Pompeii_(circa_2005).jpg",
+      "title": "The atrium of the House of the Ceii, Pompeii"
+    },
+    "pompeiiGarden": {
+      "src": "/assets/history-deep/the-historic-house/pompeiiGarden.jpg",
+      "alt": "The peristyle garden of the House of the Vettii at Pompeii, with its colonnade and planting",
+      "credit": "Photo: Gary Todd, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_of_the_Vettii_(Pompeii),_Peristyle_(9809081996).jpg",
+      "title": "The peristyle garden, House of the Vettii"
+    },
+    "redHouse": {
+      "src": "/assets/history-deep/the-historic-house/redHouse.jpg",
+      "alt": "The Red House at Bexleyheath, William Morris's house by Philip Webb, seen from the garden",
+      "credit": "Photo: Tony Hisgett, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_House_home_of_William_Morris_(1).jpg",
+      "title": "The Red House, Bexleyheath"
+    },
+    "riad": {
+      "src": "/assets/history-deep/the-historic-house/riad.jpg",
+      "alt": "The courtyard of a Marrakech riad, planted with palms and open to the sky",
+      "credit": "Photo: calflier001, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAD_LALLA_KHITI_MARRAKECH_MOROCCO_APRIL_2013_(8713893422).jpg",
+      "title": "A riad courtyard, Marrakech"
+    },
+    "royalCrescent": {
+      "src": "/assets/history-deep/the-historic-house/royalCrescent.jpg",
+      "alt": "The Royal Crescent at Bath: thirty houses behind one curving classical facade",
+      "credit": "Photo: Kevin Pearson, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Crescent_in_Bath_-_geograph.org.uk_-_7845942.jpg",
+      "title": "The Royal Crescent, Bath"
+    },
+    "royalCrescentInterior": {
+      "src": "/assets/history-deep/the-historic-house/royalCrescentInterior.jpg",
+      "alt": "The entrance hall and staircase of 1 Bedford Square, London, in a black-and-white photograph",
+      "credit": "Photo: Georgian Boy 1776, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_Bedford_Square,_London,_entrance_hall_and_staircase.jpg",
+      "title": "Hall and staircase, 1 Bedford Square"
+    },
+    "schroder": {
+      "src": "/assets/history-deep/the-historic-house/schroder.jpg",
+      "alt": "The Rietveld Schröder House in Utrecht: white planes, steel windows and primary colour",
+      "credit": "Photo: Husky, via Wikimedia Commons (CC BY 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rietveld_Schr%C3%B6derhuis_HayKranen-20.JPG",
+      "title": "The Rietveld Schröder House, Utrecht"
+    },
+    "semiDetached": {
+      "src": "/assets/history-deep/the-historic-house/semiDetached.jpg",
+      "alt": "A 1930s art deco semi-detached house in Norfolk, white-rendered with a green-tiled roof",
+      "credit": "Photo: Kolforn, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:-2022-02-25_1930%27s_Art_deco_semi_detached_house,_Cliff_Road,_Norfolk,_England.JPG",
+      "title": "A 1930s semi-detached house"
+    },
+    "servantsBells": {
+      "src": "/assets/history-deep/the-historic-house/servantsBells.jpg",
+      "alt": "A servants' bell board at the Judges' Lodgings, Lancaster: spring bells labelled with the rooms they serve",
+      "credit": "Photo: Clem Rutter, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Judges%27_Lodgings_2014_GLAM_Kitchen_2584c.JPG",
+      "title": "A servants' bell board, Lancaster"
+    },
+    "shirakawa": {
+      "src": "/assets/history-deep/the-historic-house/shirakawa.jpg",
+      "alt": "The steep thatched roof of a gasshō-zukuri farmhouse at Shirakawa-go",
+      "credit": "Photo: Zairon, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shirakawa_Gassho-zukuri_23.jpg",
+      "title": "A gasshō-zukuri farmhouse, Shirakawa-go"
+    },
+    "siheyuan": {
+      "src": "/assets/history-deep/the-historic-house/siheyuan.jpg",
+      "alt": "The grey-tiled roofs and courtyards of siheyuan compounds in Beijing, seen from above",
+      "credit": "Photo: Yongxin Ge, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Siheyuan_fukan.JPG",
+      "title": "Siheyuan compounds from above, Beijing"
+    },
+    "skansen": {
+      "src": "/assets/history-deep/the-historic-house/skansen.jpg",
+      "alt": "A red-painted wooden farmhouse at Skansen, Stockholm's open-air museum",
+      "credit": "Photo: Pudelek, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skansen,_Stockholm_(by_Pudelek)_3.JPG",
+      "title": "A farmhouse at Skansen, Stockholm"
+    },
+    "skaraBrae": {
+      "src": "/assets/history-deep/the-historic-house/skaraBrae.jpg",
+      "alt": "House 7 at Skara Brae in Orkney, seen from above: stone dresser, box beds and central hearth",
+      "credit": "Photo: Anne Burgess, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_Interior_-_geograph.org.uk_-_5889138.jpg",
+      "title": "House 7, Skara Brae"
+    },
+    "stokesayHall": {
+      "src": "/assets/history-deep/the-historic-house/stokesayHall.jpg",
+      "alt": "The great hall of Stokesay Castle, with its tall windows and timber roof",
+      "credit": "Photo: Michael Garlick, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stokesay_Castle_Great_Hall_1_-_geograph.org.uk_-_5738738.jpg",
+      "title": "The great hall, Stokesay Castle"
+    },
+    "vanLoon": {
+      "src": "/assets/history-deep/the-historic-house/vanLoon.jpg",
+      "alt": "The kitchen of the Museum Van Loon, a canal house of 1672 in Amsterdam",
+      "credit": "Photo: Remi Mathis, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Museum_Van_Loon_-_kitchen.JPG",
+      "title": "The kitchen, Museum Van Loon"
+    },
+    "vettiiAtrium": {
+      "src": "/assets/history-deep/the-historic-house/vettiiAtrium.jpg",
+      "alt": "The peristyle court of the House of Menander at Pompeii, ringed by stone columns",
+      "credit": "Photo: Commonists, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_Casa_del_Menandro_(Pompeii).jpg",
+      "title": "The peristyle of the House of Menander, Pompeii"
+    },
+    "victorianKitchen": {
+      "src": "/assets/history-deep/the-historic-house/victorianKitchen.jpg",
+      "alt": "The kitchen of the Glessner House in Chicago, with its great range under a copper hood",
+      "credit": "Photo: w_lemay, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kitchen,_Glessner_House,_Prairie_Avenue_and_18th_Street,_Near_South_Side,_Chicago,_IL.jpg",
+      "title": "The Glessner House kitchen, Chicago"
+    },
+    "victorianVilla": {
+      "src": "/assets/history-deep/the-historic-house/victorianVilla.jpg",
+      "alt": "Towerhirst, a Victorian villa in Sneyd Park, Bristol, with decorative bargeboards and a tower",
+      "credit": "Photo: Robert Cutts, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Towerhirst,_Seawalls_Road,_Sneyd_Park,_Bristol_(8550239911).jpg",
+      "title": "A Victorian villa: Towerhirst, Bristol"
+    },
+    "villaBarbaro": {
+      "src": "/assets/history-deep/the-historic-house/villaBarbaro.jpg",
+      "alt": "The temple front of the Villa Barbaro at Maser, by Andrea Palladio",
+      "credit": "Photo: Oursana, via Wikimedia Commons (Public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palladio_Villa_Barbaro_Maser.jpg",
+      "title": "Villa Barbaro, Maser"
+    },
+    "villaRotonda": {
+      "src": "/assets/history-deep/the-historic-house/villaRotonda.jpg",
+      "alt": "The entrance front and steps of the Villa Rotonda at Vicenza",
+      "credit": "Photo: Valentina Sardone, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villa_Almerico_Capra_Andrea_Palladio_Vicenza_giugno_2017.jpg",
+      "title": "Villa Rotonda, Vicenza"
+    },
+    "villaSavoye": {
+      "src": "/assets/history-deep/the-historic-house/villaSavoye.jpg",
+      "alt": "Inside the Villa Savoye at Poissy: the salon, a chaise longue and the ramp beyond",
+      "credit": "Photo: jeanbaptisteparis, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villa_Savoye_(8237925975).jpg",
+      "title": "Inside the Villa Savoye, Poissy"
+    },
+    "voyseyHouse": {
+      "src": "/assets/history-deep/the-historic-house/voyseyHouse.jpg",
+      "alt": "Moor Crag at Windermere, a house by C.F.A. Voysey, in a period photograph",
+      "credit": "Photo: Unknown, via Wikimedia Commons (Public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moorcrag,_Windermere.jpg",
+      "title": "Moor Crag, Windermere (period photograph)"
+    }
+  },
+  "standfirst": "The house is the oldest building type and the one we read worst. Churches announce themselves; palaces explain themselves; but the house, which must receive guests without exposing private life, house servants without displaying them, and show status to a street it keeps at arm's length, hides its workings behind a composed face. This complete history opens the type up. It begins with the first true houses — the platformed rooms of Çatalhöyük, entered by ladder from the roof, and the stone-furnished houses of Skara Brae — and with the Roman domus, which arranged a whole society around an atrium open to the sky. It follows the medieval hall house, where one great room was the household, and the courtyard houses of China, the Islamic world and Spain, which turned the same diagram outward-in on three continents. It traces the planned house of the Renaissance and the Georgian age — Alberti's theory, Palladio's villas, Bess of Hardwick's glass prodigy, the Amsterdam canal house, the Bath terrace, the Parisian hôtel — and the serviced house of the nineteenth century, run by bells and back stairs, against which Morris, Voysey and Lutyens rebelled in the name of the hall and the hearth. It closes with the suburb and the modern open plan, the preservation movement that saved the historic house, and the five signs by which any example can be read from the street.",
+  "intro": [
+    "A house must do in small compass what larger buildings spread out. It has to shelter a household and its goods; manage heat, water, smoke and waste; admit tradesmen and receive guests; separate family from servants, parents from children, display from sleep — and present a face to the street that says exactly as much about its owners as they wish, and no more. Every historic plan is an answer to that bundle of demands, and the answers change as the demands do. When service is plentiful and privacy is not yet prized, the answer is the medieval hall: one tall room where the household eats, works and receives together, warmed by a fire in the middle of the floor. When a Roman patron's morning crowd of clients is the engine of his career, the answer is the domus: a courtyard of reception wrapped in a blank street wall. When land is dear and speculation builds, the answer is the Georgian terrace, a standard plan repeated behind a uniform facade a hundred times over.",
+    "Two quiet revolutions run under the whole story, and this book keeps returning to them. The first is the slow invention of privacy and comfort — the corridor, which lets a room be entered without passing through another; the specialised bedroom, dining room and bathroom; piped water, the water closet, central heating; each an architectural event as consequential as any style. The second is the rise and fall of domestic service. For centuries the great house was two houses interleaved — the family's rooms and the servants' rooms, joined by bells, back stairs and speaking tubes — and when the servants left, after 1918, the plan of every house in the West had to be reinvented for a household that cooked, cleaned and answered its own door. The modern open plan is unintelligible without that disappearance.",
+    "This is Book 15 of the Architectural History Series, and it is built to be used. Its eighteen chapters give the full history — the Neolithic and ancient house, Rome, the medieval hall, the courtyard world, the Renaissance and Georgian planned house, the Dutch and Parisian townhouse, the Victorian villa and country house, the Arts and Crafts revival, the suburb, the modern house, the houses of Japan, India and the wider world, and the movement that preserved them. The closing field chapter distils the argument into five signs — the courtyard or atrium plan, the great hall, the uniform terrace facade, separated services, and the chimney and staircase — each stated as something the reader can look for, each with its limit honestly given. A reader who finishes this book will never again walk down a street of old houses without reading them."
+  ],
+  "keyFacts": [
+    [
+      "Period",
+      "From the Neolithic settlement of Çatalhöyük, around 7100 BCE, and the stone village of Skara Brae, around 3180 BCE, through the Egyptian and Greek house, the Roman domus and insula, the medieval hall house, the courtyard houses of China, the Islamic world and Spain, the Renaissance palazzo and villa, the prodigy houses of Elizabethan England, the Dutch canal house, the Georgian terrace and the Parisian hôtel, the Victorian villa and country house, the Arts and Crafts revival, the garden suburb and the council house, to the open-plan modern house and the preservation era that runs from 1877 to the present."
+    ],
+    [
+      "Where",
+      "Worldwide. The decisive chapters stand in Anatolia and Orkney, at Pompeii and Ostia, in Shropshire and Derbyshire, in Beijing, Fez and Córdoba, in Florence and the Veneto, in Amsterdam, Bath, London and Paris, in Kyoto and Jaisalmer — and end in Utrecht, Illinois and the suburbs of every industrial city."
+    ],
+    [
+      "Signature",
+      "A gradient from public to private, planned and serviced: rooms arranged from the street or court through reception to retreat, with service — kitchen, scullery, servants' rooms — pushed to a basement, a rear wing or across a yard, and reached by its own stair. Read the gradient and the services before the ornament, and the house of any period declares its date, its class and its way of life."
+    ],
+    [
+      "Key figures",
+      "Leon Battista Alberti, theorist of the house · Andrea Palladio · Elizabeth of Shrewsbury (Bess of Hardwick) and Robert Smythson · John Wood the Younger, builder of Bath's crescents · William Morris · C.F.A. Voysey · Edwin Lutyens · Le Corbusier · and the historians Mark Girouard and Witold Rybczynski, who taught us to read the house as social evidence."
+    ],
+    [
+      "Landmark buildings",
+      "Çatalhöyük, Anatolia; Skara Brae, Orkney; the House of the Faun and the House of the Vettii, Pompeii; Stokesay Castle, Shropshire; Penshurst Place, Kent; the siheyuan of Beijing; Palazzo Medici, Florence; Villa Rotonda and Villa Barbaro, the Veneto; Hardwick Hall, Derbyshire; the Herengracht canal houses, Amsterdam; the Royal Crescent, Bath; the Hôtel de Soubise, Paris; the Red House, Bexleyheath; Blackwell, Windermere; the Rietveld Schröder House, Utrecht; the Farnsworth House, Illinois; Patwon ki Haveli, Jaisalmer."
+    ],
+    [
+      "Legacy",
+      "The historic house is the seed of almost every later building type: the hotel, the apartment house, the office and the school all descend from its plans. Its inventions — the corridor, the bathroom, the serviced flat, the open plan — are the furniture of modern life, and its preservation, from Skansen's rescued farmhouses to the National Trust's country houses, invented the heritage movement itself."
+    ]
+  ],
+  "timeline": [
+    [
+      "c. 7100 BCE",
+      "Çatalhöyük, Anatolia: a town of houses without streets, entered by ladders from the roofs, their rooms platformed for sleeping, working and burial — the earliest fully domestic architecture to survive in bulk."
+    ],
+    [
+      "c. 3180 BCE",
+      "Skara Brae, Orkney: stone-built houses with stone dressers, box beds, hearths and drains — a complete fitted interior five thousand years old."
+    ],
+    [
+      "2nd century BCE",
+      "The House of the Faun, Pompeii: the domus at full stretch — two atria, two peristyles, a private bath suite — the Roman town house as a machine for receiving clients and displaying wealth."
+    ],
+    [
+      "79 CE",
+      "Vesuvius buries Pompeii and Herculaneum, preserving the Roman house — plan, paintings, furniture, gardens — as the type's complete fossil record."
+    ],
+    [
+      "c. 100–200 CE",
+      "Ostia's insulae rise four and five storeys: brick apartment blocks with shops below and flats above — the multi-family house of the Roman majority."
+    ],
+    [
+      "c. 1285–1294",
+      "Stokesay Castle, Shropshire: a fortified manor whose great hall, solar block and detached kitchen state the medieval house plan entire."
+    ],
+    [
+      "1341",
+      "The Baron's Hall at Penshurst Place, Kent: the open hall at its grandest, with screens passage, minstrels' gallery and central hearth."
+    ],
+    [
+      "c. 1405–1430",
+      "Bayleaf and its fellow Wealden houses: the timber-framed hall house perfected, its jettied fronts lining the streets of south-eastern towns."
+    ],
+    [
+      "1444 onwards",
+      "Palazzo Medici, Florence: Michelozzo's palazzo orders the great town house — rusticated floors, courtyard, chapel — for the Renaissance city."
+    ],
+    [
+      "1566 onwards",
+      "Palladio begins the Villa Rotonda: the villa becomes an ideal type, published in the Quattro Libri (1570) and copied worldwide for three centuries."
+    ],
+    [
+      "1590–1597",
+      "Hardwick Hall, Derbyshire: Bess of Hardwick and Robert Smythson build the prodigy house perfected — more glass than wall."
+    ],
+    [
+      "1613 onwards",
+      "Amsterdam lays out its canal ring: the tall, narrow canal house becomes northern Europe's bourgeois standard."
+    ],
+    [
+      "1705 onwards",
+      "The Hôtel de Soubise, Paris: the hôtel particulier — courtyard, corps de logis, garden — and the French art of distribution reach maturity."
+    ],
+    [
+      "1767–1774",
+      "The Royal Crescent, Bath: John Wood the Younger stretches one palace facade across thirty speculative houses."
+    ],
+    [
+      "1774",
+      "The London Building Act grades houses into rates and standardises their construction — the Georgian terrace becomes a regulated product."
+    ],
+    [
+      "1859–1860",
+      "The Red House, Bexleyheath: Philip Webb builds for William Morris the seed-house of the Arts and Crafts movement."
+    ],
+    [
+      "1877",
+      "Morris founds the Society for the Protection of Ancient Buildings: the historic house acquires defenders, and a doctrine — repair, not restoration."
+    ],
+    [
+      "1891",
+      "Skansen opens in Stockholm: Artur Hazelius's open-air museum rescues threatened farmhouses by moving them — preservation by relocation."
+    ],
+    [
+      "1895",
+      "The National Trust is founded in Britain; its country-house scheme of the 1930s–40s will save the type at national scale."
+    ],
+    [
+      "1898",
+      "Ebenezer Howard publishes the garden city idea; Letchworth (1903) and Hampstead Garden Suburb (1907) turn the cottage into policy."
+    ],
+    [
+      "1919",
+      "The Addison Act promises homes fit for heroes: the council house brings the planned small house to the whole population."
+    ],
+    [
+      "1924",
+      "The Rietveld Schröder House, Utrecht: one room, sliding walls — the open plan announced in a single small house."
+    ],
+    [
+      "1928–1931",
+      "Villa Savoye, Poissy: Le Corbusier's five points remake the villa for the machine age."
+    ],
+    [
+      "1945–1951",
+      "The Farnsworth House, Illinois: Mies van der Rohe reduces the house to columns, glass and a core — the type's modern limit."
+    ]
+  ],
+  "chapters": [
+    {
+      "id": "first-houses",
+      "numeral": "I",
+      "title": "First Houses: From Shelter to Household",
+      "sections": [
+        {
+          "heading": "The house before history",
+          "figure": "catalhoyuk",
+          "paras": [
+            "Around 7100 BCE, on the Konya plain in what is now Turkey, a farming community built one of the earliest true settlements we know: Çatalhöyük, a dense honeycomb of mudbrick houses packed wall to wall across a mound, with no streets, no lanes and no public square between them. Excavated by James Mellaart in the 1960s and studied anew under Ian Hodder from the 1990s, the town held perhaps several thousand people, yet its plan contained nothing but houses — and that concentration of houses is precisely what makes it the starting point of this book. It lasted, rebuilt level upon level, for more than a thousand years. Its two mounds, east and west, grew as generation after generation rebuilt its houses on the same ground.",
+            "Each house was entered from above. A ladder rose through an opening in the flat roof, which served as doorway, chimney and lightwell at once; the roofscape above the rooms was the settlement's street, workplace and social ground. Below, a single main room held a hearth or oven, raised platforms along the walls for sitting, working and sleeping, and burials beneath the floor. Storage rooms adjoined it, holding the grain, tools and obsidian on which the household depended. There was no palace, temple or separate civic building to set the house in context — the household itself was the institution from which the town was assembled. Movement between houses happened overhead, across a continuous roofscape shared by neighbours and kin.",
+            "What turns shelter into a house is already visible here: repetition with variation, a hearth kept in one place, platforms assigned to recurring tasks, ancestors kept literally within the floor, and walls repainted and replastered generation after generation. The Çatalhöyük house was rebuilt on the same footprint many times, its paintings of hunts, vultures and geometric patterns renewed, its dead accumulated below. Long before writing, the house had become architecture's most durable idea — a fixed interior, maintained by a family, in which daily life, memory and identity were stored together, room by room, and handed on like an inheritance. The house, in short, precedes the city, the temple and the palace in the history of building."
+          ]
+        },
+        {
+          "heading": "Skara Brae and the stone village",
+          "figure": "skaraBrae",
+          "paras": [
+            "At the other edge of the Neolithic world, on the Bay of Skaill in Orkney, a storm in 1850 stripped the dunes from Skara Brae, a village built around 3180 BCE and occupied for several centuries. Because Orkney has little timber, its builders worked in stone, and stone survives where wood and mudbrick vanish. The result is the best-preserved prehistoric village in northern Europe: a cluster of houses linked by covered passages, each house a single substantial room entered through a low doorway that could be barred from inside. The passages themselves were roofed and drained, a covered street system in miniature. One later building in the group, larger and plainer, seems to have served as a communal workshop.",
+            "Inside, the room is furnished in stone, and the furniture is unmistakably domestic. A great dresser of upright slabs faces the door, made to display the household's prized vessels; box beds, edged with stone uprights and once filled with bedding of heather or skins, flank the walls; a central square hearth is set into the floor; stone tanks sunk in the floor may have held water or fishing bait. Cupboards and cells are built into the thickness of the walls. Nothing here is makeshift: this is a complete interior, designed as a set of permanent fittings for cooking, sleeping, storing and showing. Even the beds are placed with their openings toward the hearth's warmth, a settled practical logic.",
+            "Skara Brae also disposes of its waste. Drains run beneath the village, among the earliest domestic drainage known in Britain, connecting houses to a system that carried refuse toward the sea. Taken together — dresser, beds, hearth, drains, lockable door — the village shows the house fully formed three thousand years before Rome: private, serviced and furnished, its plan answering needs that would remain recognisable in every chapter of this book. When rising seas and shifting sands ended occupation, the sand that buried Skara Brae also preserved it, fittings and all, for the storm of 1850 to uncover. Its excavation made domestic prehistory visible in a way no written record ever could."
+          ]
+        },
+        {
+          "heading": "Egypt and Greece: the house in the first cities",
+          "figure": "egyptModel",
+          "paras": [
+            "In Egypt, the house entered the planned town. At Amarna, the short-lived capital founded by Akhenaten in the fourteenth century BCE, the workmen's village was laid out in regular rows of small mudbrick houses, each with a courtyard, a living room, bedrooms and a kitchen, its flat roof reached by a stair and used for work and sleep in the heat. Larger Amarna villas added columned halls, bathrooms and granaries within a walled plot. Model houses buried as grave goods confirm the type: thick walls against the heat, small high windows, an open court as the working heart of the home. In the workmen's village, the uniformity of the little houses also speaks of homes supplied, all at once, by an employer.",
+            "Greece gave the courtyard house its enduring vocabulary. Its ancestor is the megaron, the Mycenaean hall with central hearth, four columns and porch, entered on its axis through a single doorway. By the classical period the town house had turned inward around a court: at Olynthus, destroyed in 348 BCE and excavated house by house, whole blocks follow one pattern — a court with a portico on its north side, the pastas, or a columned porch, the prostas, opening toward the sun, with living rooms behind it and an andron, the men's dining room, set apart near the entrance with its floor raised for couches. Whole streets of such houses survive in the excavation record at Olynthus, regular as a modern terrace.",
+            "The Greeks called both house and household the oikos, and the word carries the argument of this chapter. The oikos was a family, its slaves and dependants, its stores, land and gods — an economic and moral unit of which the building was only the shell, and the management of which Xenophon thought a fit subject for philosophy. From Çatalhöyük's platforms to the pastas houses of Olynthus, the early house is never merely a container for sleeping. It is the smallest complete society, arranged around fire and court, and every later form in this book is a variation on that completeness. The word itself survives in economy — originally, precisely, the management of this unit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roman-domus",
+      "numeral": "II",
+      "title": "The Roman Domus: A City in Miniature",
+      "sections": [
+        {
+          "heading": "Anatomy of the domus",
+          "figure": "pompeiiFaun",
+          "paras": [
+            "The Roman domus was a town house turned inward, presenting a nearly blank wall to the street and arranging its life around internal courts. The visitor entered through the fauces, a narrow passage from the street door, and stepped into the atrium, a tall hall open to the sky through the compluvium, a sloping roof aperture that shed rainwater into the impluvium, the shallow basin set into the floor beneath it, from which household water was drawn. Around this cool, echoing space stood the cubicula, small chambers used for sleeping and retreat, and at its sides the alae, open wings for the display of ancestral portraits. Shops, let separately, often lined the street frontage, so the house earned rent from its own facade.",
+            "At the far end, aligned with the entrance so the house declared itself in a single view, lay the tablinum, the master's reception and record room, flanked by passages to the garden beyond. The axis was deliberate. Each morning the atrium staged the salutatio, the formal dawn reception at which clients gathered to greet their patron, receive favours and be seen in his company, in numbers that announced his influence to the street. The house was therefore a reception machine as much as a dwelling: its central space measured the owner's standing by the crowd it could hold, and its portraits and archives proclaimed his lineage. A Roman's address, quite literally, was a statement of his political weight in the city.",
+            "The grandest surviving example is the House of the Faun at Pompeii, built in the second century BCE and occupying an entire city block. It has two atria and two peristyle gardens, its own baths and a famous treasure: the mosaic of Alexander at the Battle of Issus, laid in its exedra and now preserved in Naples, the finest mosaic to survive from antiquity. The Faun shows the domus at full stretch — part residence, part gallery, part office — a plan so adaptable that it remained the Mediterranean's model of the dignified town house for centuries, imitated wherever Rome's way of life took root. Its very name in the sources honours the bronze faun that stood in its impluvium."
+          ]
+        },
+        {
+          "heading": "Pompeii and Herculaneum: the house preserved",
+          "figure": "pompeiiGarden",
+          "paras": [
+            "Later Roman taste moved the centre of domestic life from the atrium to the peristyle, a colonnaded garden court borrowed from Greece. Around its planted, fountain-cooled enclosure opened the rooms that mattered most in daily life, above all the triclinium, the dining room where guests reclined on three couches around a low table and dined for hours through the evening. The garden was not ornamental surplus: it brought light, air and greenery into the depth of the plot, and its planting, statuary and water were composed to be seen from the dining couches and the reception rooms arranged around it. In winter the peristyle caught the sun; in summer its colonnades gave a shaded circuit of cool air.",
+            "The walls of these rooms carried painting of extraordinary sophistication, classified since the nineteenth century into four Pompeian styles, from imitation marble panelling through illusionistic architecture and delicate ornament to intricate theatrical fantasies. The House of the Vettii, home of two wealthy freedmen brothers, preserves the full effect in rooms reopened after long conservation: a peristyle of statues and fountains, dining rooms painted with friezes of cupids at work and mythological panels of high finish. Such houses were galleries their owners lived inside, and the painting was inseparable from the architecture it clothed and visually enlarged. Even the garden's plantings were painted continuing onto the walls, dissolving the boundary between real and depicted nature.",
+            "All of this survives because of catastrophe. The eruption of Vesuvius in 79 CE buried Pompeii in ash and Herculaneum in a surge of volcanic material that carbonised timber and sealed upper floors, killing their inhabitants and preserving their world. Excavation since the eighteenth century has recovered not idealised ruins but working houses — furniture, graffiti, loaves still in ovens, shop counters, gaming pieces and household shrines. No other episode in archaeology gives the historian of the house so complete a cross-section of one society's domestic life, preserved at the scale of the street, the room and the object in the hand. Herculaneum, excavated with greater difficulty through harder material, adds upper storeys and timber that Pompeii lost."
+          ]
+        },
+        {
+          "heading": "The insula: Rome's other house",
+          "figure": "ostiaInsula",
+          "paras": [
+            "The domus belonged to a minority. Most inhabitants of Rome lived in the insula, the apartment block: a multi-storey building of rented rooms and flats, often with shops and workshops at street level and dwellings stacked above them, floor upon floor. Ancient writers treated insulae with alarm — Juvenal jokes grimly about fires and collapsing upper floors in a city of timber and haste — and the emperors repeatedly legislated on their height and construction. Yet the type was the true urban house of the empire, housing the shopkeepers, clerks, craftsmen and labourers who made up the city's population. After the great fire of 64 CE, Nero's building rules imposed fire-resistant materials and wider streets on new blocks.",
+            "The best evidence survives not in Rome itself but at Ostia, the imperial port, where second-century brick insulae stand several storeys high and whole streets can still be walked. Their planning is rational and repetitive: a courtyard or lightwell at the centre, stairs serving groups of flats, larger apartments with several rooms and painted walls on the lower floors, smaller and simpler lettings as the stairs climbed and the light and water grew harder to reach. Buildings such as those around the Horrea Epagathiana, the great warehouse complex, show housing, storage and commerce interlocked in one dense urban fabric of brick, concrete and timber. Some Ostian flats were spacious and well decorated, proof that apartment living carried no single social stamp.",
+            "The insula corrects any account of Roman housing built on Pompeii alone. It had no atrium, no peristyle and often no private kitchen or bath; its tenants fetched water from fountains, bought cooked food from street stalls and used the public baths. What it offered was location — rooms in the city, near work, at a rent. In that bargain, and in its division of a single building among many households under one owner, the insula is recognisably the ancestor of the modern apartment house, and Rome's second, more prophetic answer to the question of how a city dwells. The domus displayed a family; the insula, more quietly, housed a population."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medieval-hall",
+      "numeral": "III",
+      "title": "The Medieval Hall House",
+      "sections": [
+        {
+          "heading": "The open hall",
+          "figure": "penshurstHall",
+          "paras": [
+            "For most of the Middle Ages, the English great house consisted essentially of one room: the hall. It rose the full height of the building, open to the rafters, with a fire burning on a hearth at its centre and the smoke finding its way out through a louvre in the roof. Everyone in the household ate there, and many slept there; business, justice, feasting and ceremony all took place within the same smoky volume, from dawn business to the evening's entertainment. The hall was not one room among others — it was the house, and everything else in the building was an addition to it. Lords who built otherwise still kept a hall, because hospitality without one was scarcely imaginable.",
+            "The supreme surviving example is the great hall of Penshurst Place in Kent, built in 1341 for the merchant-financier Sir John de Pulteney, who served as Lord Mayor of London and lent money to kings. It retains its central hearth, its vast timber roof and its original floor, an interior of a scale and completeness that later subdivision destroyed almost everywhere else. Standing in it explains the medieval household at a glance: a single tall space in which rank was expressed by position — who sat near the fire, who at the high table, who below the salt — rather than by separate rooms. The salt itself, a great standing vessel, marked the line between honour and the rest.",
+            "The open hall was a social engine with the fire at its centre. Its height was functional as well as impressive, giving smoke a reservoir above the occupants' heads before it drifted slowly to the louvre; its draughts were notorious and accepted as the price of the arrangement. When, centuries later, the chimney and the ceiling divided this volume into smaller, warmer, private rooms, something real was gained and something equally real — the household gathered entire in one space, from lord to scullion — was lost for good. The rest of this chapter traces the hall's slow subdivision into the modern plan. Its smoke-blackened rafters are, in many a later house, the last trace of that first arrangement."
+          ]
+        },
+        {
+          "heading": "Hall, screens and solar",
+          "figure": "stokesayHall",
+          "paras": [
+            "By the thirteenth century the hall had acquired a fixed internal geography. At its low end stood the screens passage, an entry corridor screened from the hall by a timber partition pierced by doorways, often with a spere, a fixed spur wall projecting from the side, to kill the draught from the doors and hide the comings and goings of servants. Beyond the screens lay the service rooms — the buttery for drink, the pantry for bread, and the kitchen, frequently a separate building for fear of fire — connected to the hall by the passage but kept firmly at the household's humbler end. The two doors of the passage, to buttery and pantry, became a standard joke of the medieval stage.",
+            "At the opposite, high end, a raised dais carried the high table, lit by a great window and backed by a hanging or canopy that marked the lord's seat. Behind or above it stood the chamber block: the solar, the family's private withdrawing room, with the principal bedchamber, placed over a ground-floor store or parlour and reached by its own stair. Stokesay Castle in Shropshire, built between about 1285 and 1294 by the wool merchant Laurence of Ludlow, preserves the whole arrangement in a fortified manor: a fine hall with tall windows, a solar block at its end, a moat and a gatehouse added in the following century. Its licence to crenellate, granted in 1281, reminds us that even a merchant's house wore the forms of war.",
+            "Stokesay's completeness is its lesson. Hall, screens, service rooms and solar are not separate inventions but one diagram of rank, drawn in plan and enforced at every meal: honour at the dais, service at the screens, privacy retreating upward and away from the public room. That diagram governed English houses for three hundred years, from castles to farmhouses, and its vocabulary — hall, pantry, buttery, solar — survived in house agents' language long after the plan dissolved. To read a medieval plan is to read a seating plan, and the additions that eventually dissolved the hall were all present, in embryo, at its two ends. Privacy, in the medieval house, is first an upper room at the far end of the hall."
+          ]
+        },
+        {
+          "heading": "Timber frames and Wealden houses",
+          "figure": "bayleaf",
+          "paras": [
+            "Below the level of the great house, later medieval England built in timber, and built superbly. Two framing systems dominate: the cruck frame, in which pairs of great curved blades rise from the ground to form an A-shape carrying the roof, and the box frame, a post-and-beam skeleton of sills, posts and wall plates infilled with wattle and daub or, later, brick. In towns and prosperous villages, upper floors were jettied, projecting beyond the wall below on the ends of the joists — gaining precious space, shedding rainwater from the wall face and advertising the carpenter's skill in the street frontage. Jettying also threw the upper wall's weight outward, a display of structural confidence as much as of wealth.",
+            "The characteristic product of the south-east is the Wealden house, a type of the fifteenth and early sixteenth centuries: a hall in the centre, floored chambers in bays at both ends, and the whole roof carried across in one sweep, the hall's front wall recessed beneath the overhang so the building reads as a single broad composition of roof and frame. Bayleaf, built around 1405 to 1430 in Kent and now re-erected at the Weald and Downland Museum, is the textbook example — hall, solar and service ends legible at a glance, its frame a demonstration of mature carpentry at the moment of the yeoman farmer's prosperity. Houses like Bayleaf were built by farmers grown rich on wool, grain and careful marriages.",
+            "The Wealden house also marks the hall's approaching end. Through the later Middle Ages, chimneys — first inserted awkwardly into existing halls, then planned from the start as great brick stacks — carried smoke away in a flue instead of the open roof, and a chimney made a ceiling possible: the hall could be floored over, gaining a great chamber above and losing its height, its louvre and its communal smoke. By 1600 the open hall survived mainly as an entrance and a memory, kept for ceremony in colleges and inns of court, and the private, heated, ceilinged room had become the house's future. Warmth and privacy, once luxuries of the solar, were on their way to every room."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "courtyard-world",
+      "numeral": "IV",
+      "title": "The Courtyard House Around the World",
+      "sections": [
+        {
+          "heading": "The siheyuan of northern China",
+          "figure": "siheyuan",
+          "paras": [
+            "The courtyard is the world's most persistent house plan, and its most disciplined expression is the siheyuan of northern China: a walled rectangular compound in which single-storey buildings stand on all four sides of an open court, their doors and windows facing inward and their blank backs to the street. In Beijing the type housed everyone from artisans in a single court to princes in compounds of many, growing by repetition — one court for a modest family, courts in sequence for a great household — so that the city's residential districts were a fabric of walls, grey tiled roofs and trees rising from hidden courtyards. Beijing's hutongs, the lanes between the compounds, are the negative of this positive of courts.",
+            "Within the walls, position was meaning. The compound is ordered on a north–south axis, entered from the south-east through a gate with a screen wall behind it that shields the interior from direct view and, in traditional belief, from ill fortune. The main hall stands on the northern side, facing south into the sun, and belongs to the senior generation; eastern and western side rooms house younger generations in descending order of seniority; the southern rooms, facing north, served guests, study or servants. Generation, status and orientation coincide exactly: to give a visitor his room was to state his place in the family. Even the kitchen had its assigned, inauspicious corner, governed by its own god, the stove god.",
+            "This order was understood as cosmological as well as social. The siheyuan is laid out according to the principles of feng shui, aligning the household with the cardinal directions, the seasonal winds and the movement of the sun, and sheltering the court from the bitter northern winter while admitting low southern light to the main hall. The courtyard itself is garden, lightwell, ventilation shaft and ceremonial space in one, the setting for weddings, funerals and the daily work of the household. Few house types anywhere bind climate, ritual and family structure so completely into a single rectangle of wall and sky. The trees planted in the court were chosen as carefully as the rooms around it."
+          ]
+        },
+        {
+          "heading": "The dar and the riad",
+          "figure": "riad",
+          "paras": [
+            "In the cities of Morocco, the courtyard house reaches a comparable refinement under different pressures. The dar, the urban townhouse, and its grander garden form, the riad, present an almost blank wall to the narrow streets of Fez and Marrakech: a single guarded doorway, few or no external windows, nothing of the family's wealth or inner life visible from outside. Privacy here is architectural law, shaped by Islamic ideals of domestic seclusion and by the practical need to defend the interior against heat, dust, noise and the public gaze of the street, all at the same time. The richer the house, the more complete this discretion: wealth in the medina is measured indoors.",
+            "Pass the doorway and turn through the bent entrance passage, which denies any straight view inward, and the house inverts itself. Around a central courtyard — open to the sky, often with a fountain at its centre and orange trees planted at its corners — open the reception rooms on each side, their wide doorways framed by carved plaster and cedarwood. The surfaces are the glory of the type: zellij, geometric mosaics of individually cut tile, laid across floors and dados; tadelakt, polished waterproof plaster, in baths and basins; carved stucco and painted cedar above. Ornament concentrates where the family lives, facing inward, unseen by the street. Upper rooms, reached by narrow stairs, housed the family in winter; the court rooms served the summer.",
+            "The courtyard is also a machine for climate. Its tall walls shade the court for most of the day while the sun strikes the upper rooms; cool air settles in the court at night and is drawn through the surrounding rooms as the day heats; the fountain adds the sound and the cooling evaporation of moving water. In Marrakech's heat and Fez's dense, airless fabric, the type sustains a comfortable interior without any mechanical aid, and has done so for centuries of continuous use. Blank wall, bent entry, glowing court: the Moroccan house is the courtyard principle carried to its most complete expression of privacy. Many riads, restored in recent decades, now receive guests — but the plan needs no alteration to do so."
+          ]
+        },
+        {
+          "heading": "The patio house",
+          "figure": "cordobaPatio",
+          "paras": [
+            "The Mediterranean patio house descends in a direct line from the Roman domus of Chapter II: the peristyle court, carried into Islamic al-Andalus and refined there, survived the Christian reconquest of Spain and became the organising centre of the Spanish house. In Córdoba, houses arrange themselves around patios that are planted, paved and fountain-cooled, screened from the street by a passage and opened to the sky; the city's annual festival of the patios, when private courtyards are thrown open and judged for their flowers, continues a civic culture of the court that is many centuries old and now formally celebrated, inscribed by UNESCO on its list of intangible heritage in 2012.",
+            "The patio performs the same work as the siheyuan's court and the riad's courtyard, in a different society and under a different faith. It is the house's lung and lightwell, its garden and its reception space, the place where work is done, children play, washing dries and guests are received without entering the family's inner rooms. Around it, galleries shade the walls and connect the chambers; above it, the life of the house orientates itself through the day. Climate explains much of the form's persistence — a shaded court is a reservoir of cool air — but so does sociability: the patio is a room without a roof, furnished like one. Its well or fountain, its pots and its shade, are tended as seriously as any interior.",
+            "Spain carried the type across the Atlantic, and the colonial patio house became the standard dwelling of Latin America's cities for three centuries: a street facade of doors and grilled windows, a first patio for reception and work, inner patios for the family, stables and stores at the rear, rooms in sequence around them. From Mexico to Peru, the plan adapted to earthquakes, local materials and new climates while keeping its Roman diagram intact beneath the variations. The courtyard house is thus not one tradition but a world system, reinvented wherever sun, density and the desire for an inward-looking family life coincide. It remains, across four continents, the strongest alternative the house has produced to building outward."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renaissance-villa",
+      "numeral": "V",
+      "title": "The Renaissance Palazzo and Villa",
+      "sections": [
+        {
+          "heading": "Alberti and the theory of the house",
+          "figure": "villaBarbaro",
+          "paras": [
+            "The Renaissance was the first age since Rome to write systematically about the house. Leon Battista Alberti's De re aedificatoria, completed around 1452 and printed in 1485, the first architectural treatise of the modern age, treats domestic building with the seriousness earlier ages reserved for temples: the house is the origin of the city, the family its first society, and its plan must express rank, use and decorum in correct proportion. Alberti distinguishes the great urban palace from the villa in the country and gives both a theory — rooms graded by privacy, circulation separated by status, the whole composed as a small, well-governed state in masonry. Alberti's own earlier writings on the family had already made the household a subject of moral philosophy.",
+            "The urban palazzo that theory describes was a transformation of the medieval fortress-palace of the Italian communes. Its street facade, once defensive and irregular, became an ordered composition in superimposed storeys: a rusticated ground floor, its heavy stonework signalling strength, housing entrance, offices and stores; above it the piano nobile, the principal floor, with the tallest windows and finest detail, where the family received and displayed itself; lesser floors above for the household and dependants. A great cornice capped the composition and cast a defining shadow, and at its centre an open courtyard gave light and air to the rooms of the deep plot. The graduated facade — rough below, smooth above — taught rank in a single glance from the street.",
+            "What Alberti supplied, and Vitruvius had not, was a social mathematics for the house: every room's size, position and ornament derived from the rank of its use and its user, and nothing left to mere convenience or chance. That discipline — decorum made visible in plan and elevation — is the Renaissance house's real invention, more durable than any order, rustication or ornament it employed. It taught Europe to plan a house as a hierarchy that could be read from the street and felt in the sequence of its rooms, and it governs the palazzo and the villa alike in the two sections that follow. Decorum, not comfort, is the Renaissance plan's first principle, and comfort follows where it may."
+          ]
+        },
+        {
+          "heading": "The Florentine palazzo",
+          "figure": "palazzoMedici",
+          "paras": [
+            "The type's founding example is the Palazzo Medici in Florence, begun in 1444 to the design of Michelozzo for Cosimo de' Medici, founder of the family's political fortune. Tradition holds that Cosimo rejected a grander design by Brunelleschi as too ostentatious for a citizen of a republic — a revealing decision, for the palazzo's power lies in its calibration. Its three storeys diminish in rustication as they rise, from massive rough blocks at the street to smooth ashlar at the top; its windows are regular, its cornice bold, its whole manner magnificent without appearing to try, and therefore all the more imposing. Building began while Florence watched, and the watching was part of the design's effect.",
+            "Behind the facade, the plan is a complete institution. An open courtyard, arcaded on columns, gives access to the ground-floor offices of the Medici bank, where the business of half of Europe was transacted; a garden lies beyond, a rarity in the dense city; the piano nobile above contains the family's apartments and the small, exquisite chapel painted by Benozzo Gozzoli with the procession of the Magi, the Medici themselves portrayed among the kings. The palazzo is simultaneously bank, fortress, warehouse, chapel and stage, and its architecture holds those functions in a single legible order without allowing any one of them to break the facade's composure. The family lived, worked, banked and worshipped without leaving its own walls for weeks at a time.",
+            "The Palazzo Medici set the Florentine pattern for a generation: the Palazzo Rucellai applied Alberti's pilaster orders to the facade in a learned grid, and the Palazzo Strozzi pushed rustication and scale to their monumental limit in open rivalry. But the Medici palace remains the measure of the type because it understood its own paradox so exactly. A private house that behaved like a public building, built by a banking family that ruled a republic while denying that it did, it made domestic architecture an instrument of statecraft — and every great house that appears later in this book inherits something of that ambition. Enlarged by later generations, the palace still keeps Michelozzo's measure at its core."
+          ]
+        },
+        {
+          "heading": "Palladio and the villa",
+          "figure": "villaRotonda",
+          "paras": [
+            "In the Venetian terraferma, the country house took the Renaissance's other great form: the working villa. As Venice invested its capital in mainland agriculture in the sixteenth century, its patricians built farm-villas that were at once estate centres — with barns, dovecotes, granaries and stables in long flanking wings, the barchesse — and retreats for the villeggiatura, the cultivated season of leisure in the country. Andrea Palladio, whose Quattro Libri of 1570 published the type to the world in measured plates, made the villa his masterpiece form, joining utility and beauty in one symmetrical composition of house, wings and landscape. The villa's owner was at once farmer, landlord and philosopher, and the building says so.",
+            "Two villas state the range of his achievement. The Villa Barbaro at Maser, built for Daniele and Marcantonio Barbaro around 1560, spreads its working wings wide from a temple-fronted centre and contains frescoes by Veronese that turn its rooms into painted landscapes peopled by the family itself. The Villa Rotonda, begun in 1566 for the retired papal official Paolo Almerico, abandons farming altogether: a square block crowned by a dome, with an identical temple portico on all four faces and a circular central hall, set on a hilltop above Vicenza to command views in every direction — a belvedere in the form of a temple, and the most copied house in the world. Palladio published its design in the Quattro Libri while it was still being completed.",
+            "Palladio's rooms are proportioned by harmonic ratios, the simple musical consonances applied to length, width and height, so that a villa is, in his own account, composed like music and tuned like an instrument. The afterlife of that idea is unmatched among house types: through Inigo Jones it reached England in the seventeenth century, through English pattern books and Thomas Jefferson it reached America, and the temple-fronted, symmetrically planned villa became the world's default image of the dignified country house. No architect of domestic building has ever been imitated so widely, in so many climates, or for so long. His villas remain working presences in the Veneto landscape, not museum pieces set apart from it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prodigy-houses",
+      "numeral": "VI",
+      "title": "Prodigy Houses: The English Great House",
+      "sections": [
+        {
+          "heading": "Hardwick Hall: more glass than wall",
+          "figure": "hardwick",
+          "paras": [
+            "In the 1590s, England's courtiers built houses of a size and splendour intended less for living than for being seen, and the greatest of them is Hardwick Hall in Derbyshire. Its builder was Elizabeth, Countess of Shrewsbury — Bess of Hardwick — widowed four times, enriched by each marriage, and by 1590 among the richest and most determined patrons in the kingdom, a survivor of four reigns. Beside the old hall where she was born, she raised a new house between 1590 and 1597 to the design of Robert Smythson, the most inventive mason-architect of the English Renaissance, and she built it at speed, in her seventies. The old hall beside it she kept and remodelled, so the two houses still stand side by side.",
+            "Hardwick's fame rests on its windows. The proverb runs 'Hardwick Hall, more glass than wall', and the facade proves it amply: three storeys of ever-taller windows, bay upon bay of leaded glass rising through the full height of the house, in an age when glass was a luxury and a whole wall of it was a statement of wealth as legible as gold plate on a table. The plan behind the glass is equally bold — a compact, symmetrical block with the hall turned sideways across the entrance front, a decisive break with medieval custom, freeing the upper floors for a procession of state rooms of mounting grandeur and light. The windows grow taller floor by floor, so the facade itself climbs toward ceremony.",
+            "Above the parapet, in open strapwork stone, stand Bess's initials, ES, repeated along the skyline in great letters like a signature written in the air. It is one of the most confident gestures in English architecture: the house as monogram, legible from across the park. Hardwick was also a dynastic argument — Bess's granddaughter Arbella Stuart had a claim to the throne through her descent — built in stone and glass at a scale meant to be read from the road by everyone who passed. The prodigy house, as these buildings are called, begins here as architecture doing the work of a claim. Bess outlived the building's completion by eleven years, dying in 1608 at about eighty-seven."
+          ]
+        },
+        {
+          "heading": "The state rooms and the long gallery",
+          "figure": "longGallery",
+          "paras": [
+            "The Elizabethan great house was planned as a progress. The visitor, and above all the sovereign, moved through a graded sequence of rooms — entrance hall, great chamber, withdrawing chamber, bedchamber — each smaller, richer and more exclusive than the last, so that how far a guest penetrated the sequence measured exactly his standing with the owner, and stopping him at the right door was a fine art. At Hardwick the sequence climbs as it refines, culminating on the second floor in state rooms of exceptional height and light, prepared at full splendour for a royal visit that, in the event, Elizabeth never made to Hardwick itself. The rooms waited, furnished and ready, for a guest who was also an argument.",
+            "The sequence's characteristic room is the long gallery, the prodigy house's own invention and glory. Hardwick's gallery runs the full length of the east front, some fifty metres, hung with portraits and tapestries and lit by windows on both sides, so that the company walked in light above the park. The gallery served for exercise in wet weather — walking was the prescribed recreation of the leisured — for music, for conversation and for the display of the family's lineage in paint, generation by generation. It is a room for being seen in company, the social counterpart of the portrait it housed, and no other culture produced quite its equivalent. At Hardwick the countess's own apartments open off it, so the gallery was thoroughfare as well as showpiece.",
+            "All this display had one supreme purpose: to receive the monarch on progress. Each summer Elizabeth travelled in state through the southern and midland counties, lodged and feasted by her courtiers at ruinous expense for weeks at a time, and the great houses of the age were built as stages for those visits — accommodation, in effect, for a travelling court of hundreds. To house the queen well was to buy favour and office; to house her inadequately was dangerous to a career. The state rooms and galleries of the prodigy houses are therefore best read as political instruments, sized throughout to an audience of one. A single successful visit could repay, in favour, the entire cost of building."
+          ]
+        },
+        {
+          "heading": "Longleat and the prodigy generation",
+          "figure": "longleat",
+          "paras": [
+            "Hardwick was the summit of a generation rather than a beginning. Its first monument is Longleat in Wiltshire, built from 1568 by Sir John Thynne on the site of a dissolved Augustinian priory, and among the first English houses to present a fully classical, symmetrical facade to the world — bay windows in regular ranks, the classical orders stacked correctly by storey, the medieval hall concealed within a composition of Renaissance discipline and calm. Robert Smythson worked at Longleat as a young mason on its building, and the line from its assured facade to Hardwick's audacity is, in large part, the line of his own career. Longleat was visited and praised by Elizabeth on progress in 1574, while still unfinished.",
+            "The generation's other giants share the type's logic and its appetite. Wollaton Hall in Nottinghamshire, built in the 1580s for Sir Francis Willoughby from the profits of his coal mines, raises a fantasy of towers, pavilions and strapwork above a prospect room at its centre, visible for miles. Burghley House in Lincolnshire, built over three decades by William Cecil, Lord Burghley, Elizabeth's chief minister and the most powerful commoner in England, wraps its courtyards in turrets and obelisks at a scale closer to a royal palace than a subject's house. Each was built by a new man or a rising family, and each announces, in permanence, an arrival that was in fact recent. Coal, office and marriage settlements paid for these palaces; the palaces then advertised the payment.",
+            "The prodigy houses did not long outlive their politics. James I's reign shifted taste and patronage toward the courtly classicism that Inigo Jones would import from Palladio's Italy, and the Civil War a generation later ended the world of progresses that had built them. But as a demonstration of what the house can be made to do — display lineage, stage power, receive a state within its walls and sign its owner's name along the skyline — they remain unmatched in Britain. The country house's later centuries, which this book follows next, are all in some measure a reply to their example. Longleat, Hardwick, Wollaton and Burghley all survive — the generation's wager on stone has outlasted its politics."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dutch-house",
+      "numeral": "VII",
+      "title": "The Dutch Canal House and the Bourgeois Interior",
+      "sections": [
+        {
+          "heading": "Narrow plots, tall houses",
+          "figure": null,
+          "paras": [
+            "In 1613 Amsterdam began the great canal ring — the Herengracht, Keizersgracht and Prinsengracht — that still defines the city, and the plots along the new water were sold narrow. The city's taxes bit on frontage: the wider a house faced the canal, the more it cost, so builders bought the least street they could and stretched the house backward instead. A typical merchant's plot might be seven or eight metres wide and run four to six rooms deep, the rooms climbing four or five storeys above a basement, with a garden, a yard house and sometimes a second small house behind.",
+            "The consequences climb the facade. Because the stairs inside were steep and the rooms stacked, furniture and goods could not conveniently travel by them, so the gable carries a hoisting beam — the hijsbalk — projecting over the street, from which a rope and pulley lift chests, barrels and pianos to the floor where they belong. The house leans very slightly forward, by design, so that loads swing clear of the windows below. The gable itself became the house's signature: first stepped, then the bell and the elegant neck gable of the later seventeenth century, each a piece of civic jewellery on a narrow front.",
+            "The merchant lived inside his business. The front rooms of the ground floor were office and counting house; the warehouse was the house itself, goods stored in the attic lofts and the cellar, samples on show in the voorhuis. Only the richest removed trade entirely to a separate pakhuis elsewhere in the city. For the great majority the canal house was a total institution — home, office, warehouse and advertisement in one tall narrow slice — and its plan, worked out under the pressure of taxation and water, proved extraordinarily durable: canal houses of 1650 and of 1750 differ in their gables, not in their bones. The whole structure stood, moreover, on a forest of timber piles driven through the soft ground to the firm sand below — a hidden foundation as standardised as the plan above it, and the reason the houses lean and settle as picturesquely as they do."
+          ]
+        },
+        {
+          "heading": "The Golden Age interior",
+          "figure": "amsterdamCanals",
+          "paras": [
+            "Enter by the front door — the figure shows the canal houses themselves, ranked along the water — and you are in the voorhuis, the front house: a marble-floored hall, half reception room and half showroom, where visitors were received, business transacted and the household's best possessions displayed. Behind it, up a few steps, lay the binnenkamer, the inner room, warmer and more private, and behind that the kitchen court and the garden. The section is a gradient of publicity, from the street-facing room where the world was admitted to the family rooms at the back where it was not.",
+            "The Dutch interior we know best is the one the Dutch themselves painted. Johannes Vermeer and Pieter de Hooch, working in Delft in the 1650s and 1660s, recorded these rooms with an almost documentary fidelity: the tall windows with their small panes, the black-and-white marble or chequered tile floors, the maps on the walls, the linen cupboard, the Delft tiles skirting the hearth and lining the fireback in blue and white. Because the paintings were made for the same class that lived in the houses, they are evidence as much as art — a photographic archive before photography.",
+            "Two obsessions govern the painted rooms: light and cleanliness. The windows are large, the curtains drawn back, the floors scrubbed, the brass polished, the tiles glazed — a domestic hygiene that foreign visitors remarked on with amazement, and that the paintings turn into a moral quality, the visible order of a household well governed. Display was the other half of the ethic: paintings crowded the walls, Chinese porcelain filled the cupboards, and the voorhuis functioned as a permanent exhibition of solvency. The bourgeois interior, here at its birth, was already a portrait of its owner. De Hooch's courtyards and Vermeer's quiet rooms alike place their figures in this geography of front and back, public and private — the paintings assume a reader who knows exactly which room he is looking into, and what it means to be received there."
+          ]
+        },
+        {
+          "heading": "A house to be looked into",
+          "figure": "vanLoon",
+          "paras": [
+            "The canal house survives as a museum with unusual completeness, because the type itself became the exhibit. Museum Van Loon, on the Keizersgracht, is a patrician house of 1672, built for the painter Ferdinand Bol and later home to the Van Loon family, bankers to the city; it opened to the public in the 1970s with its rooms furnished as the centuries left them. Visitors climb the same stair, pass the same sequence of rooms, and read the house as its builders intended — a document you walk through rather than look at.",
+            "The old gradient of publicity still reads clearly. The kitchens are below, in the basement storey, where the cooking was done and the servants worked; the formal reception rooms rise above, the great saloon on the piano nobile with its garden view; the family lived between. Behind the house the formal garden runs to the coach house on the next canal. Every level declares its rank in ceiling height, in marble, in the quality of light — the social order of the household written into the section, legible to any visitor who climbs from cellar to attic.",
+            "That legibility is why the Dutch house matters beyond Holland. The canal house was Europe's first great bourgeois type: urban, mercantile, privacy-loving, comfort-loving, economical of land and lavish within. Its habits — the specialised room, the displayed interior, the house as the portrait of a family's standing — were exported wherever Dutch trade and Dutch prints travelled, to London and Hamburg, to New Amsterdam and Cape Town. The modern idea that a house should express its owner's inner life begins, arguably, in these tall narrow rooms above the water. It is fitting that so many canal houses now serve as museums: the type was always, in a sense, on display — built to be looked into, and content to be."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "georgian-terrace",
+      "numeral": "VIII",
+      "title": "The Georgian Terrace: The Speculative Standard",
+      "sections": [
+        {
+          "heading": "The speculative machine",
+          "figure": "bloomsbury",
+          "paras": [
+            "Georgian London was not designed; it was leased. The great aristocratic estates — Bedford, Grosvenor, Cavendish — owned the land of the expanding West End and let it out on building leases, typically of ninety-nine years, to speculative builders who took a street or a square at a time, built the houses at their own risk and sold the sub-leases for what the market would bear. The duke's ground rent was secured; the builder's profit depended on speed and saleability; the architecture was the residue of that bargain, and it produced the most uniform urban housing Europe has ever known.",
+            "Uniformity, crucially, was not imposed by an architect. It was written into the lease covenants — houses to be of a stated rate, fronts of brick, heights aligned, railings and areas to a pattern — and underwritten by law: the London Building Act of 1774 classified houses into rates, prescribed party-wall construction and window sizes, and banned the projecting wooden cornices that spread fire. The result, visible in the figure's square, is the Bloomsbury manner: a whole district of decent, fire-resistant, nearly identical houses, built by tradesmen to a standard nobody had to design because everybody already knew it.",
+            "Bedford Square, built between 1775 and 1783 on the Bedford estate, is the system's showpiece and the best-preserved Georgian square in London: four terraces of tall brick houses, their central houses dressed with stucco and Coade stone ornament, every front disciplined to the collective composition. No single hand designed it — the square is usually credited to the builder Thomas Leverton's circle, but its quality is systemic, not personal. The speculative machine's triumph was precisely this: good architecture as a default setting, attainable by any competent builder working inside the rules. When the lease finally fell in, the houses reverted to the estate, which is why so many London squares survive as coherent compositions: the machine that built them also, in the end, preserved them."
+          ]
+        },
+        {
+          "heading": "Bath and the Royal Crescent",
+          "figure": "royalCrescent",
+          "paras": [
+            "At Bath the speculative terrace was raised to theatre. John Wood the Elder had laid out the Circus in the 1750s; his son, John Wood the Younger, answered it between 1767 and 1774 with the Royal Crescent: thirty houses swept into a single elliptical arc on a hillside above the Avon valley, fronted by one continuous palace facade of Ionic columns on a rusticated ground floor, 114 columns in all, running unbroken across every party wall. From the lawn below, there is no terrace at all — only a great classical palace, curved like a Roman amphitheatre turned inside out.",
+            "The buyers purchased the facade and a plot; what they built behind it was their own affair. Walk around the back of the Crescent and the palace dissolves into thirty separate jumbled houses — different heights, different windows, yards, mews stables, additions accreted over two centuries — because the lease governed only the show side. The Crescent is scenery in the most literal sense: a painted front of communal grandeur behind which private life proceeded unscripted. Georgian urbanism understood, and cheerfully exploited, the distinction between the public face and the private mess.",
+            "It worked because the purchasers were buying an address as much as a house. A buyer at the Crescent acquired a share in the finest facade in England, a view over the royal lawn, and neighbours guaranteed by the price to be of his own class. The terrace as a form was a social instrument: it pooled architectural ambition across thirty purses, and returned to each owner a grandeur none could have afforded alone. That bargain — collective splendour, private economy — is the whole secret of the Georgian street, from Bath's crescents to the humblest London square. No. 1 Royal Crescent, restored and opened as a museum, lets the visitor test the bargain from inside: the state rooms behind the great facade are fine, but it is the facade itself — shared, indivisible, magnificent — that the residents were really buying."
+          ]
+        },
+        {
+          "heading": "Inside the standard plan",
+          "figure": "royalCrescentInterior",
+          "paras": [
+            "Behind the standard facade lay a standard plan, analysed definitively by the architectural historian Stefan Muthesius in his study of the English terraced house. Its elements repeat from Bloomsbury to Bath with the regularity of a type: a front door, often reached across the open area that lights the basement, opening into an entrance hall with the staircase rising immediately beside it; two principal rooms on each floor, one to the front and one to the back, the larger sometimes extended by a closet wing over the yard; and the same arrangement, floor upon floor, to the attics.",
+            "The vertical zoning was as fixed as the plan. In the basement, reached by its own steps from the street area and by the back stairs within, were the kitchen, scullery, housekeeper's or butler's room and the servants' hall. The ground floor held the dining room and the hall; the first floor, the drawing room — the famous piano nobile, with the tallest windows and the finest ceiling; bedrooms above, servants in the attics under the roof. Behind the house, across a small yard, ran the mews: stabling and coach houses with grooms' rooms above, served by their own lane, so that horses and traffic never used the front street.",
+            "The sash window and the stucco front completed the type's externals: the sliding sash, counterweighted and near-flush with the wall after the 1774 Act, gave every room its tall, evenly lit openings; stucco, painted to imitate stone, dressed the ground floor or whole fronts where budgets allowed. It is easy to call the result monotonous, and contemporaries sometimes did. But the standard plan housed a class for a century because it was genuinely good: light, fire-safe, serviceable, adaptable — a machine for middle-class life, refined by ten thousand repetitions into something close to perfection of its kind. It survived, too: the London terrace was adapted to flats, to offices, to hotels, and back to houses again, its plan flexing to each new use without ever quite losing the shape Muthesius described. Few standard plans in the history of housing have served so many lives so well for so long."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "townhouse-abroad",
+      "numeral": "IX",
+      "title": "The Townhouse Abroad",
+      "sections": [
+        {
+          "heading": "The hôtel particulier",
+          "figure": null,
+          "paras": [
+            "The French answer to the townhouse was the hôtel particulier, and it reversed the English arrangement. Where the London terrace put its best face to the street and its rooms behind it, the Parisian hôtel turned a blank, discreet wall to the public way and hid its splendour inside. The formula is summed in its classic description: entre cour et jardin — between court and garden. A screen of buildings, often containing stables, kitchens and servants' rooms, closed the street; through a porte-cochère the visitor entered a cour d'honneur; and across the court stood the corps de logis, the main house, its ceremonial front facing inward to the gravel, its garden front facing flowers and trees.",
+            "The plan was an essay in graduated privacy. The street saw nothing but a wall and a gate; the court admitted carriages, tradesmen and the merely tolerated; the corps de logis received the world in ascending degrees of favour, from the vestibule to the innermost cabinet. In a city of spies, rivals and creditors, discretion was a form of wealth: the hôtel's architecture protected the family's life from the street absolutely, while staging it, for the admitted, with a formality the English terrace never attempted.",
+            "The type governed Parisian building for two centuries, from the Marais of the seventeenth century to the great hôtels of the Faubourg Saint-Germain, and its influence travelled with French architects and French pattern-books to every court in Europe. German Residenzen, Russian palaces in St Petersburg, even the great houses of colonial cities adapted the sequence of court, corps de logis and garden. Of all the townhouse types in this book, the hôtel was the most intellectually articulated — a whole theory of society, drawn in plan. The Revolution scattered the type's owners, and many hôtels became ministries, embassies and museums — uses for which their graduated, ceremonial plans turned out to be as well suited as they had been for princes."
+          ]
+        },
+        {
+          "heading": "Hôtel de Soubise and the art of distribution",
+          "figure": "hotelSoubise",
+          "paras": [
+            "The Hôtel de Soubise in the Marais shows the type at its most refined. The Prince and Princess de Soubise acquired the old Hôtel de Clisson in 1700 and rebuilt it from 1705 to designs by Pierre-Alexis Delamair, who set the new corps de logis between its court and garden in the approved manner. A generation later, in the 1730s, the architect Germain Boffrand remodelled the state apartments for the Princess — and those interiors, in the early Rococo taste Boffrand did so much to define, became the most famous rooms in Europe.",
+            "What Boffrand practised, and published, was the art the French called distribution: the planning of an apartment as a sequence of rooms each fitted to its exact social function. The appartement de parade was for show — antechamber, state bedroom, salon, cabinet — a ceremonial enfilade in which furniture stood against the walls and nobody truly lived. Behind or beside it ran the appartement de commodité, the apartment of convenience: smaller rooms, a real bedroom, a dressing room, a cabinet for work, arranged for comfort and privacy rather than display. The great house, in other words, contained two houses: the theatre and the home.",
+            "The oval Salon de la Princesse at Soubise, with its light boiseries, its mirrors and its paintings by Natoire set into the panelling, is the surviving jewel of the system — and a manifesto. Comfort here is not the absence of formality but its perfection: rooms scaled to conversation, seats built into the plan, warmth, light and privacy engineered as carefully as the facade. French distribution set the standard against which all Europe measured a plan; when eighteenth-century writers anywhere discuss convenience in a house, they are speaking, whether they know it or not, in Boffrand's language. Boffrand set the doctrine down in his Livre d'architecture of 1745, one of the first treatises to treat the planning of rooms — their shapes, sizes and successions — as the architect's central art, prior even to the orders and the facade."
+          ]
+        },
+        {
+          "heading": "The American row house",
+          "figure": "brownstones",
+          "paras": [
+            "Across the Atlantic, the terrace idea was naturalised as the row house, and adapted to a republic. The first American rows — in Boston, Philadelphia, New York and Baltimore — were built in the Federal manner: brick fronts, delicate doorcases with fanlights, the London plan of hall, stair and two rooms a floor translated almost intact. Greek Revival rows followed in the 1830s and 1840s, their doorways dressed with columns and their marble or granite steps asserting a classical dignity the young republic took as its civic costume.",
+            "New York then gave the type its most distinctive local form: the brownstone. From the 1840s to the end of the century, whole districts of Manhattan and Brooklyn — the streets in the figure are typical — were built up in rows fronted with a chocolate-brown sandstone, quarried in New Jersey and Connecticut, that could be carved into rich Italianate ornament at modest cost. The brownstone front gave a speculative row the air of a palazzo; behind it, the plan remained the old London one, adapted to narrower lots and American habits of service.",
+            "The brownstone's signature is its section. The house is entered not at street level but up a high stoop — a word New York borrowed from the Dutch stoep — to the parlour floor, the piano nobile, with its tall windows and high ceilings. Below, half sunk and reached by steps down from the pavement, lies the English basement: dining room, kitchen and servants' world, with its own door under the stoop. It is the Georgian terrace re-sectioned for a city of high land values and democratic pretensions — grandeur above the street, labour below it, in a row house a working family could aspire to rent. Most brownstones were, in fact, built for single families of the prosperous middle class and only later subdivided into apartments — a second life the robust plan absorbed as readily as the London terrace had done. Today whole Brooklyn and Harlem streetscapes of brownstones survive under landmark protection, prized as the most complete nineteenth-century streets in America — the speculative row become, in its turn, a treasure to be conserved."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "victorian-villa",
+      "numeral": "X",
+      "title": "The Victorian Villa: Family Above, Servants Below",
+      "sections": [
+        {
+          "heading": "The villa ideal",
+          "figure": null,
+          "paras": [
+            "The nineteenth century invented a new dream house and a new word to live in it by: the villa. The idea descended from the Roman villa rustica and its Renaissance revivals, but its Victorian form was something new — a detached or semi-detached house of moderate size, in a garden, in a suburb, occupied by one family of the professional or commercial middle class. The railways and the omnibuses made the suburb possible; rising incomes made it desirable; and the villa, neither town house nor country seat, became the standard setting of respectable family life from London to Melbourne.",
+            "The villa was moralised from the start. John Ruskin, the century's most influential critic of domestic architecture, taught that a house was the visible expression of its owner's character — that honest materials, hand-worked ornament and a plan fitted to family life were moral acts, and that shoddy, showy building was a kind of lying. A generation of villa builders absorbed the lesson in diluted form: the pointed gable, the honest brick, the stained glass in the hall window were not merely fashions but claims about the family inside. The house had become a sermon its inhabitants preached about themselves.",
+            "Architecturally the villa freed the plan. Released from the terrace's party walls, the house could spread, turn wings to the sun, set its entrance at the side, group its rooms around a hall of almost any shape. Pattern-books — J.C. Loudon's Encyclopaedia of Cottage, Farm and Villa Architecture of 1833 above all — offered hundreds of designs at every price, and builders' merchants supplied the parts. The result was variety within a strict social grammar: however picturesque the exterior, the interior of the mid-Victorian villa obeyed rules as rigid as any Georgian covenant, and far more intimate in what they governed. Loudon's encyclopaedia, running to well over a thousand pages of designs, specifications and prices, put those rules into the hands of any builder or client in the English-speaking world — the villa was the first house type to be distributed, quite literally, by the printed page."
+          ]
+        },
+        {
+          "heading": "A plan of separation",
+          "figure": "victorianVilla",
+          "paras": [
+            "The Victorian villa — the figure shows a characteristic exterior, detached in its garden — was planned as a system of separations. Its public rooms were graded by gender and by hour. The dining room, dark, heavy and masculine, belonged to the evening and to the ritual of dinner, after which the gentlemen remained with the wine. The drawing room, lighter, more delicate, more expensively furnished, was the ladies' territory and the house's showpiece, used for calls and the evening. Between them, in the larger villa, lay the morning room, where the mistress ran the household and the family took informal meals — the house's working office disguised as a sitting room.",
+            "Children were separated too. The day nursery and night nursery, usually on the first or second floor, formed a small world of their own under the nursemaid's rule, from which children descended to the drawing room at appointed hours, washed and dressed, to be seen. The villa's plan, read carefully, is a timetable and a hierarchy at once: every member of the household assigned rooms by age, sex and station, and every hour of the day assigned its proper room. Domestic architecture had never before encoded so much of a family's social order into its walls.",
+            "Behind the family's rooms ran the second circulation that made the first possible: the back stairs. A tradesman's entrance, a servants' corridor, a separate flight from basement to attics meant that coal could be carried, slops emptied, beds made and meals served by people the family rooms were designed never to show in transit. The villa's celebrated privacy was thus a managed illusion, dependent on an architecture of concealment — two houses interlocked, each complete, each pretending the other was barely there. The next section opens the hidden one. Even the villa's visitors were processed by the plan: the morning caller left a card in the hall and was admitted no further unless the mistress was 'at home' — a phrase that meant, precisely, available in the drawing room, whatever her actual whereabouts in the house."
+          ]
+        },
+        {
+          "heading": "Bells, back stairs and the hidden house",
+          "figure": "servantsBells",
+          "paras": [
+            "The hidden house announced itself on one object: the servant bell board, usually mounted in the basement corridor or the kitchen passage, and shown in the figure. Each bell was labelled with the room it served — Drawing Room, Dining Room, Mr Smith's Dressing Room, Nursery — and connected by a wire run through the house's walls, worked by a pull beside each fireplace and bed. When a bell rang, its indicator trembled and pointed; the board was, in the strictest sense, the villa's nervous system, the single place where the whole family's demands on its servants registered at once.",
+            "The servants' domain was a second house fitted inside the first. Below stairs: the kitchen, scullery, servants' hall, housekeeper's room, butler's pantry, wine cellar, coal cellar, boot room. Above: the attics, divided into small bedrooms for the maids, reached by the back stairs, cold in winter and hot in summer. Between the two, on the family floors, ran the corridors and landings the servants used at set hours, when the family was elsewhere. A well-run villa of the 1880s might employ a cook, housemaids, a parlourmaid, a nursemaid and a man — five salaries spent on making domestic labour invisible.",
+            "Mark Girouard, whose scholarship on the English house underlies much of this part of the book, taught historians to read these service worlds as seriously as the state rooms. The bell board, the back stair, the basement area are not footnotes to the villa; they are half its plan and most of its cost. The Victorian family house, for all its rhetoric of the home as a refuge from work, was itself a workplace — a small factory of cleanliness, cooking and care, staffed around the clock. Its architecture of separation was the honest diagram of that fact. When domestic service collapsed after the First World War, the diagram became a puzzle: the bell boards, back stairs and attics of the villa survive in thousands of houses today, eloquent fossils of a labour system their present occupants can barely imagine."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "country-house-machine",
+      "numeral": "XI",
+      "title": "The Country House as a Machine for Living In",
+      "sections": [
+        {
+          "heading": "The house party",
+          "figure": null,
+          "paras": [
+            "By the Edwardian decade the English country house had settled into its final, most elaborate social form: the house party. From Friday to Monday — the weekend itself was a country-house invention — a dozen or twenty guests descended on a great house for shooting, hunting, racing or simply for the politics and marriages that such gatherings arranged. Mark Girouard's Life in the English Country House remains the classic account of how these houses were actually used, and its central insight is that the country house was not a home in the modern sense at all: it was an institution, run on hotel lines, for the entertainment of a class.",
+            "The plan adapted to the institution. Great houses grew bachelor wings and bachelors' corridors, where single men were lodged apart from the family floors, with their own staircase and their own route to the smoking room and the billiard room — the male territory, thick with leather, guns and tobacco, that no lady entered uninvited. Guest suites multiplied, each with its dressing room; the great hall, dead as a living space since the seventeenth century, was revived as a general sitting and tea room, a lounge in which the party could assemble between the expeditions of the day.",
+            "Running the machine took an army. A large Edwardian house might employ thirty or forty indoor and outdoor servants, marshalled by the house steward and the housekeeper, and the guests brought their own valets and ladies' maids to swell the servants' hall. Meals were operations: breakfast a buffet lasting hours, luncheon, tea, and a dinner of many courses served to twenty in full evening dress. The country house at its zenith consumed wealth on a scale that only land, coal and empire could sustain — which is why, when those revenues faltered after 1918, the machine stopped so quickly. Girouard's account, drawing on memoirs, letters and household books, recovered the house party as a working system — timetables, hierarchies, unwritten rules — rather than the backdrop of nostalgia it had become in fiction and film."
+          ]
+        },
+        {
+          "heading": "Service wings and technology",
+          "figure": "blickling",
+          "paras": [
+            "A machine needs its engine room, and the country house kept its own at a calculated distance. The service court — kitchen wing, laundry, brewhouse, dairy, stables, coach houses, sawmill, gas house — was grouped in its own yard, usually screened from the family's windows by planting, and connected to the house by a single corridor or an underground passage. Blickling Hall in Norfolk, in the figure, shows the family's face: a Jacobean great house of the 1620s, built for Sir Henry Hobart, its red brick and turrets the very image of the old English seat. Behind that face, the working buildings accumulated for three centuries.",
+            "Technology arrived at the great house unevenly, and the layering is the fascination. A house might have a bathroom suite of the 1890s fed by a hydraulic ram, a kitchen range of the 1850s, candles in the servants' attics and electric light — from its own generating plant in the stable yard — in the state rooms. Gas came to some houses early and to others never; hot water circulated where an enterprising agent installed it; water closets multiplied slowly, one technological stratum over another, because rebuilding a working household's plumbing was a disruption no housekeeper welcomed.",
+            "The result, by 1914, was a palimpsest: a Jacobean shell containing a Victorian service machine, lit by Edwardian electricity, heated by Georgian fireplaces and a modern boiler alike. Blickling, given to the National Trust in 1940 among the first great houses to pass into its care, preserves exactly this layering. To walk from its long gallery to its old kitchens is to walk through three centuries of answers to the same questions — how to feed, warm, light and clean a small town that happened to be one family's house. The layering also explains the country house's notorious inefficiency: each generation added its comforts without removing its predecessors', so that old houses carry their technologies the way geology carries strata."
+          ]
+        },
+        {
+          "heading": "The Victorian kitchen",
+          "figure": "victorianKitchen",
+          "paras": [
+            "At the centre of the service machine stood the great kitchen, and its plan was a hierarchy in rooms. The kitchen itself — tall, tiled or stone-flagged, lit by high windows — was the cook's kingdom, dominated by the range: a great cast-iron apparatus of ovens, hotplates and boilers, blackleaded daily, on which a dinner for twenty could be produced. Around it lay the specialised satellites: the scullery for washing up and preparing vegetables, the larder for raw meat, the pastry room, the still room for preserves and cakes, each with its own temperature, its own smells and its own staff.",
+            "The personnel were graded as exactly as the rooms. At the head, in a large house, the cook — in grand establishments a French chef — ruled the kitchen staff: kitchen maids in ascending order, the scullery maid at the bottom, whose day began before dawn with the range and ended with the last washing-up. Across the passage sat the housekeeper in her own room, keeper of the stores, the linen and the china, taking tea with the upper servants in a parody of the drawing room above. The kitchen's social order mirrored the family's precisely; that was understood to be necessary, and it was reproduced in houses of every size.",
+            "The best evidence survives where kitchens were preserved rather than modernised. At Audley End in Essex, the service wing of the 1880s — kitchen, scullery, larders, laundry, dairy — was kept intact when the family's fortunes declined, and is now presented as a document of labour: the range, the dressers, the rows of copper, the roster of the vanished staff. Such survivals have changed what visitors come to a country house to see. The great kitchen, once the room no guest entered, is now understood as the house's true engine room — and its history is the history of the work that made the leisure upstairs possible. The room order mattered practically as well as socially: raw and cooked food travelled separate routes, smells were kept from the state rooms by distance and doors, and the cold larder's northerly aspect was a technology in itself, refrigeration by orientation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arts-crafts",
+      "numeral": "XII",
+      "title": "Arts and Crafts: The Return of the Hall",
+      "sections": [
+        {
+          "heading": "Morris and the Red House",
+          "figure": "redHouse",
+          "paras": [
+            "The reaction against the Victorian villa began in a house built for love and art. In 1859 William Morris, twenty-five years old, newly married and possessed of an income from mining shares, commissioned his friend Philip Webb to design him a house at Bexleyheath, then a village in Kent. The Red House, built in 1859–60 and named for its honest red brick — a deliberate rejection of the stucco that coated respectable suburbia — was planned not from a pattern-book facade but from the inside out: an L-shaped plan of rooms fitted to the life the Morrises meant to live, roofed steeply, its windows placed where the rooms wanted them.",
+            "Every decision reversed the speculative norm. The brick was left bare because brick was the material; the plan grew from use, its irregular outline the honest diagram of the rooms within; the well, the orchard, the garden Webb and Morris laid out together were treated as part of the architecture. Morris called it, in a famous phrase, a house that was itself a work of art — and furnishing it became the founding act of his career. Finding nothing in the shops worthy of the house, Morris and his circle painted the furniture, embroidered the hangings, designed the wallpapers themselves. From that furnishing campaign, in 1861, Morris & Co. was born.",
+            "Morris lived at the Red House for only five years — the commute to London defeated him, and money ran short — but the house's influence outran its author's residence by a century. It demonstrated that a modern house could be serious without being classical, comfortable without being upholstered in the Victorian manner, and beautiful by construction rather than by applied ornament. The Arts and Crafts movement, and through it much of the domestic architecture of the next hundred years, begins in this red-brick L among the Kent orchards. Webb himself never disowned the experiment: he remained Morris's architect and friend for life, and the Red House's lessons — plan from use, build honestly, let the inside govern the outside — run through all his later country houses."
+          ]
+        },
+        {
+          "heading": "Voysey and Baillie Scott",
+          "figure": "voyseyHouse",
+          "paras": [
+            "The next generation turned Morris's example into a profession. C.F.A. Voysey, the most distinctive of the Arts and Crafts architects, built houses of an instantly recognisable character: walls of roughcast or local stone, long sweeping roofs that come down low over the upper windows, buttresses that taper as they rise, long bands of casements with green-painted ironwork, and everywhere a simplicity that was the product of ferocious refinement — Voysey designed the furniture, the fabrics, even the door hinges, so that nothing in his houses breaks the spell. The Orchard at Chorleywood in Hertfordshire, built in 1899–1900 for himself and his wife, is his type in miniature: a small house of complete artistic unity.",
+            "Inside the Voysey house, a revolution of plan was under way, shared with his contemporary M.H. Baillie Scott: the return of the hall as a living room. In the Victorian villa the hall had shrunk to a passage with pretensions — a place to wait, to leave cards, to pass through. Voysey and Baillie Scott made it the house's heart again: a low-ceilinged, fire-lit room, often with an inglenook by the hearth, from which the other rooms opened and into which the family's daily life flowed. It was a deliberate archaism — the medieval hall revived — and a deliberate liberation, dissolving the Victorian grading of rooms by hour and gender.",
+            "Baillie Scott preached the new plan in print, in his book Houses and Gardens of 1906, and built it across Britain and Germany. His houses open room into room, use screens and sliding partitions where the Victorians used doors and corridors, and treat the garden as another room of the plan. Between them, Voysey's unity of design and Baillie Scott's open, hall-centred planning reset the English house's course: the twentieth-century home, at its best, is their invention. Both men, notably, built chiefly for clients of moderate means — professional men, artists, retired officers — because the new plan worked at small scale: the living hall gave a modest house a generosity that the Victorian box of graded parlours could not afford."
+          ]
+        },
+        {
+          "heading": "The inglenook and the honest interior",
+          "figure": "blackwell",
+          "paras": [
+            "The emblem of the new interior is the inglenook: a small recess beside a great fireplace, with seats built in on either side of the hearth — a room within a room, sized for two or three people and a fire. Its ancestry is the farmhouse chimney corner, and its Arts and Crafts revival was a manifesto in miniature. Against the Victorian drawing room, formal, symmetrical and furnished for display, the inglenook proposes intimacy, asymmetry and furniture that is part of the architecture: you do not arrange it, you inhabit it. Around the hearth, in Baillie Scott's phrase-making, the house recovered a centre older than any style.",
+            "Blackwell, the house Baillie Scott built in 1898–1900 above Windermere for the Manchester brewer Sir Edward Holt, is the movement's surviving masterpiece, preserved almost entire. Its great hall rises through two storeys, panelled, minstrel-galleried, with an inglenook of cathedral scale; its White Drawing Room is one of the most beautiful interiors in England, a pale, linear space of slender columns and carved friezes where the craft revival meets the first intimations of Art Nouveau. Every fitting — door handles, light fittings, the peacock frieze, the stained glass by Shrigley and Hunt — was designed for its place. Nothing was bought off the shelf, because the shelf was the enemy.",
+            "The line from Blackwell to the modern house is direct. The open plan, the living hall, the built-in seat and the fitted cupboard, the honest material and the garden room: all the furniture of twentieth-century domesticity was sketched in these craft interiors, dressed in oak and roughcast. The Arts and Crafts house was a protest against the machine age made by hand; the paradox of its triumph is that the machine age adopted its plan wholesale, and mass-produced it. The hall had returned — and this time it stayed, becoming the living room in which the modern family, servants gone, does everything at once. Blackwell itself, after decades as a school and offices, was restored and opened to the public at the turn of the twenty-first century — the craft interior become, like the canal house and the Crescent before it, a museum of its own way of life."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "small-house",
+      "numeral": "XIII",
+      "title": "The Small House and the Suburb",
+      "sections": [
+        {
+          "heading": "Garden cities and garden suburbs",
+          "figure": "gardenSuburb",
+          "paras": [
+            "Ebenezer Howard published To-morrow: A Peaceful Path to Real Reform in 1898, and in it proposed a new kind of settlement: a town of limited size, perhaps thirty-two thousand people, set within its own agricultural belt, its land held in trust so that rising values funded the community that created them. Reissued in 1902 as Garden Cities of To-morrow, the book answered the Victorian city's smoke and crowding with a diagram. Town and country, Howard argued, were two magnets, each with its drawbacks; his third magnet, town-country, would draw people into the advantages of both. It was social reform drawn as a plan. Howard, a shorthand writer with no training in architecture, spent the rest of his life promoting the scheme, and died in 1928 at Letchworth, the first garden city.",
+            "In 1903 the diagram became ground. First Garden City Limited bought some 3,800 acres in Hertfordshire and founded Letchworth, with Barry Parker and Raymond Unwin as its architects. Their layout kept the old trees and lanes, grouped cottages in closes around greens, and held densities low; a Cheap Cottages Exhibition in 1905 drew crowds to see how decently a cottage could be built for little money. Industry was zoned apart from the houses, the green belt was real farmland, and the whole experiment — mocked as a crank's utopia — became the most influential town plan of the twentieth century. Letchworth still thrives. Its population today stands at roughly thirty-three thousand, close to the size Howard himself prescribed.",
+            "Hampstead Garden Suburb, begun in 1907 on the edge of Hampstead Heath, took the suburb half of Howard's idea and perfected it. Henrietta Barnett, its founder, wanted rich and poor living together in one beautiful place; Unwin laid out curving streets and quiet closes, and Edwin Lutyens set the Central Square with two churches and the Institute. The houses wore the cottage aesthetic as policy: steep tile roofs, tile-hanging, gables, hedges rather than fences, every street a composed picture. Reached by the new tube to Golders Green, it proved a suburb could be architecture — and garden-suburb principles flowed into planning practice worldwide. Hampstead's own rules reached down to fruit trees and the size of name boards: the suburb was a moral programme as much as a design."
+          ]
+        },
+        {
+          "heading": "The semi and the speculative suburb",
+          "figure": "semiDetached",
+          "paras": [
+            "Between the wars England built houses at a rate never matched before or since — some four million new homes, most of them private ventures by speculative builders. Their standard product was the semi-detached house: two dwellings joined at a party wall, each with its own front door, porch, bay window and garden front and back. The semi halved the cost of the detached villa while keeping its promise — a house touching a neighbour on one side only, standing in its own plot, on its own street, behind its own hedge. It was the compromise that built a civilisation of suburbs. By the 1930s whole districts of semis stretched for miles along the new roads and railways running out of every large town.",
+            "The interwar plan settled into a formula that millions still live in. Upstairs: three bedrooms and — at last, ordinary — a bathroom with a plumbed bath and a water closet, ending the tin bath before the fire and the privy down the yard. Downstairs: a front parlour kept for best, a living room for daily life, a kitchen or scullery, often a larder and a hall with the stairs rising from it. Outside: pebble-dash, tile-hanging, mock-Tudor beams, a little stained glass in the door. The fittings were modest and the standards revolutionary: light, air, water and a garden, for clerks. In the cheapest houses a separate water closet might still stand in the yard, but the direction of travel was settled.",
+            "The semi needed cheap land and transport, and both arrived together. The Metropolitan Railway marketed the suburbs along its line out into Buckinghamshire as Metroland — a dream of country living sold with season tickets. New arterial roads, broad bypasses with wide verges, filled up with ribbon development of semis, until the Restriction of Ribbon Development Act of 1935 tried to curb the sprawl. Building societies and cheap mortgages turned tenants into owner-occupiers within a generation. Count every historic type honestly, by numbers built and lives housed, and the interwar semi is the most successful house in British history. The type travelled, too: adapted to local timbers and climates, the semi became the standard suburb house across much of the English-speaking world."
+          ]
+        },
+        {
+          "heading": "Council houses and the mass house",
+          "figure": null,
+          "paras": [
+            "War brought the state into housing. In 1918 Lloyd George promised habitations fit for the heroes who had won the war, and the Housing, Town Planning, &c. Act of 1919 — the Addison Act — made the promise law: local councils received subsidies to build, and decent housing became, for the first time, a duty of government rather than a matter of charity or market. The new homes were to be working-class houses at standards reformers had demanded for fifty years, and the state accepted the Tudor Walters Report of 1918 as its pattern book. It was a remarkable promise, made in a winter of demobilisation and debt.",
+            "The Tudor Walters standards were generous: low densities of about twelve houses to the acre, wide streets, gardens front and back, and inside, three bedrooms, a parlour, a living room, a scullery and a fixed bath — in houses built by the thousand. The early estates applied them in the garden-suburb manner, cottages in closes around greens. London's Becontree estate at Dagenham grew into the largest public housing estate in the world, with some twenty-six thousand homes. Council houses of the 1920s were often better planned and better built than the speculators' semis up the road. Their architects worked to the report as to a brief, and it showed.",
+            "The lesson had been learned the hard way, through the terrace. Mass housing need not mean mean housing: given standards, subsidy and the suburb's toolkit of gardens and greens, the state could house ordinary families decently at scale. That is why this history gives the small house its own part. The historic house, counted by the million, is not the manor or the villa but the cottage, the terrace, the semi and the council house — the ordinary dwelling, built in rows and estates, in which nearly everyone in the past actually lived, and in which the nation's domestic history is stored."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modern-house",
+      "numeral": "XIV",
+      "title": "The Modern House: The Open Plan",
+      "sections": [
+        {
+          "heading": "The house unboxed",
+          "figure": null,
+          "paras": [
+            "Modernism began in the house by taking it apart. The Victorian plan — a box of separate rooms off a corridor, each with its own fireplace, its function and its rank — was dismantled piece by piece. Structure came first: where columns or a frame carry the loads, walls stop being structure and become mere partitions, free to slide, curve or vanish altogether. Le Corbusier codified the liberation in his Five Points of 1926: the free plan and the free facade follow from the frame, and the corridor-and-rooms house, load-bearing and cellular, was made obsolete at a stroke. The box did not disappear; it was opened — and the open plan, spaces flowing into one another under a single ceiling, became the modern house's signature.",
+            "The new programme was health. In the age of tuberculosis, light, air and sun were medicine: flat roofs became sun terraces, walls were painted white or tiled to be washed down, windows widened into ribbons, and balconies opened like the decks of sanatoria and ocean liners — the two building types modernism most admired. Dust-trapping ornament, heavy curtains and dark corners were condemned as dirt. The fitted kitchen followed the same logic: Margarete Schütte-Lihotzky's Frankfurt Kitchen of 1926, installed in some ten thousand flats, planned cooking as a measured, hygienic workflow in a room little bigger than a railway galley. Fresh air was prescribed like a drug: sleeping balconies and roof terraces were drawn into ordinary flats as faithfully as into villas.",
+            "Underneath the aesthetics lay a social fact: the servants had gone. Domestic service, the largest employer of women before 1914, drained away after the First World War, and the house had to run without the hidden labour that had made the old plan work — no back stairs, no bell board, no one to carry coal and water to every room. The modern plan answers with labour-saving: kitchen opening towards dining space, built-in storage throughout, central heating, hot water on tap. The housewife, in the modernists' phrase, became the operator of a machine for living in. The servantless house was also a smaller house: with no staff to accommodate, the dwelling shrank to the family and its machines."
+          ]
+        },
+        {
+          "heading": "Utrecht: the Schröder House",
+          "figure": "schroder",
+          "paras": [
+            "The most radical small house of the century stands at the end of a Utrecht terrace. In 1924 the cabinet-maker and architect Gerrit Rietveld built it for Truus Schröder-Schräder, a widow with three children, who asked for a house without preconceptions and collaborated on every detail. From the street it reads as an abstract composition — planes of white and grey, primary colour carried on the steel, windows that turn corners — the De Stijl painting walked off the canvas and become a dwelling at 50 Prins Hendriklaan. Schröder lived there for the rest of her long life. The commission was a true partnership, client and architect arguing every rail, shelf and colour into its place.",
+            "Upstairs is the miracle: a single open floor that becomes rooms at need. Sliding and revolving panels divide the space at night into bedrooms for mother and children, each with its fold-down bed and washbasin, and open by day into one flowing room. Cupboards, beds and tables are built in, designed like furniture because for Rietveld furniture and architecture were one craft; the famous corner window opens its corner away entirely, dissolving the box that every modernist was trying to escape. Nothing in the room is hidden, and nothing in it is spare. Even the small things work: beds fold out of cupboards, and taps and switches stand where a hand expects to find them.",
+            "The ground floor is more conventional — kitchen, studio, rooms of an ordinary kind — which makes the upper floor's freedom read as a choice rather than a necessity. Schröder received visitors upstairs for sixty years, working the panels like a captain demonstrating her ship; she died in the house in 1985, and it is now a museum, restored towards the year of its making, and a World Heritage Site since 2000. It remains the purest demonstration that a plan is not a fixed thing but a set of possibilities, arranged and rearranged by the people living inside it."
+          ]
+        },
+        {
+          "heading": "Villa Savoye and the glass house",
+          "figure": "villaSavoye",
+          "paras": [
+            "If the Schröder House is modernism improvised, the Villa Savoye at Poissy (1928–31) is modernism composed. Le Corbusier and Pierre Jeanneret raised the Five Points into one white object: a box on pilotis in a meadow outside Paris, a weekend house for a wealthy family, reached by car — the turning circle of the entrance floor is drawn by the sweep of a car's steering. Ribbon windows light the free plan; a ramp climbs gently through the house to a roof garden and solarium, where curved screen walls frame the landscape like the deck of a ship. The house was a manifesto that could be lived in — at weekends, by a family arriving from Paris.",
+            "The line ends, logically, in glass. The Farnsworth House at Plano, Illinois — designed by Mies van der Rohe in 1945 and built in 1949–51 for Dr Edith Farnsworth — is a single transparent room set between two travertine platforms and hung from eight steel columns. Kitchen, bathroom and fireplace are gathered into a wooden core; everything else is view. It is the villa reduced to its essence, and its limit case: privacy, heating and cooling all strained against the idea, and patron and architect ended in litigation. A limit case is still a case — the house states the modern villa's terms with unmatched clarity.",
+            "These were country houses, and their ancestry is this series' oldest story: the villa, the retreat from the city in which a civilisation rehearses how it wishes to live, descends from Book V's Renaissance villas through the Picturesque countryside to Poissy and Plano. Wright's Prairie houses belong to the same family by a parallel American line; readers will find them in this series' Frank Lloyd Wright volume, where they anchor his story. The modern villa changed the materials and dissolved the walls, but the type — the pleasure house in the landscape, one family's argument with nature — it left intact. The villa had survived its own dissolution — which is what types, unlike styles, are for."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comfort-privacy",
+      "numeral": "XV",
+      "title": "Comfort and Privacy: The Social Inventions",
+      "sections": [
+        {
+          "heading": "The invention of the corridor",
+          "figure": null,
+          "paras": [
+            "It is hard to imagine a house without a corridor, but for most of history there was none. In the medieval and early modern house, rooms opened into rooms: to reach the chamber you crossed the parlour, to reach the parlour you crossed the hall, and everyone — family, guests, servants, children — passed through everyone else's space. Beds stood in rooms that were also passages. Privacy, in the modern sense of a room of one's own with a door that closes on the world, was physically impossible, however much it might be wished for. Even the word private then had a narrower scope: it meant withdrawal for prayer or counsel, not a general right to be alone in one's own room.",
+            "The corridor appears in English great houses in the later seventeenth century — an unglamorous strip of space that carried traffic past doors instead of through rooms. It costs floor area and buys something priceless: each room gains its own door onto common ground, to be entered and left at will. In grand houses the system doubled: a corridor for the family, back stairs and service passages for the servants, so that the two populations of the house could coexist largely unseen. By the eighteenth century the corridor was standard equipment, repeated in every terrace and villa built thereafter. Its partner invention was the back stair: narrow, steep service circulation down which coal, water and slops could travel invisibly.",
+            "Witold Rybczynski's Home: A Short History of an Idea (1986) made the case that this was the moment comfort was invented — not a technology but an arrangement: the gradual separation of rooms, people and functions that let domestic life become private, informal and at ease. Against the corridor stands the enfilade, the formal sequence of aligned doors in the state apartments of palaces, splendid for ceremony and hopeless for privacy. Two plans, two social worlds: the enfilade performs rank in public; the corridor withdraws from it. The history of the house since 1700 is largely the corridor's victory. Comfort, on this account, is a social invention before it is a technical one; the next two sections test the claim against rooms and against services."
+          ]
+        },
+        {
+          "heading": "Rooms for one purpose",
+          "figure": "geffryeRoom",
+          "paras": [
+            "Rooms with single purposes are inventions, and they have dates. The bedroom, as a room used only for sleeping, spreads as beds leave the parlour and the great chamber divides into specialised chambers. The dining room is an eighteenth-century creation: before it, households ate in the hall, the parlour or the great chamber, at tables set up and cleared away; the dedicated dining room, its sideboard permanent and its ritual fixed, belongs first to great houses and by the mid-nineteenth century to the ordinary villa. Each specialisation is a small rise in the standard of life, bought room by room. The withdrawing room — in time shortened to drawing room — belongs to the same family: a room to withdraw into, away from the table and its lingering smells.",
+            "What the great house invented, the middling house adopted and the cottage envied. The sequence runs through this book: the parlour descends from the solar, the study from the closet, the nursery from the attics, and the bathroom — last and most expensive of all — from nothing, a room that existed nowhere before the nineteenth century because its machines did not. Houses can be dated by their room lists almost as surely as by their mouldings: count the specialised rooms and you have counted the household's income and ambitions together. The plan grows by division, like a cell. Pattern books and housekeeping manuals then carried each new room's plan, furniture and etiquette down the social scale along with the room itself.",
+            "The evidence survives assembled in London's Museum of the Home — the former Geffrye Museum — where a sequence of period rooms, from a hall of 1630 through Georgian parlours and Victorian drawing rooms to a loft apartment of 1998, walks the visitor through four centuries of these inventions. A period room is a document you can stand inside: its furniture, textiles and objects are researched to a date, and the changes accumulate visibly from room to room — more privacy, more comfort, more things. The figure shows one such room: an interior arranged not as fantasy but as testimony."
+          ]
+        },
+        {
+          "heading": "Water, heat and light",
+          "figure": null,
+          "paras": [
+            "Piped water reached ordinary houses slowly, town by town, from the mid-nineteenth century, and the water closet came slower still. Valve closets had been patented in the eighteenth century — Alexander Cummings in 1775, Joseph Bramah in 1778 — yet cost, unreliable drainage and a genuine dread of sewer gas kept the earth closet and the privy competitive for a hundred years. London's Great Stink of 1858 forced the issue; Bazalgette's great sewers followed. Only when water and drainage arrived together could the fixed bath, the upstairs water closet and the modern bathroom exist at all. By 1914 a new suburban house without a bathroom was already hard to sell; once the pipes arrived, the revolution took barely a generation.",
+            "Heat tells the same long story. The Roman hypocaust — hot air moving beneath a raised floor — was forgotten for a millennium, and Europe warmed itself at open fires that roasted one side of the body while the other froze. Stoves improved matters slowly; true central heating returned in the nineteenth century, first in institutions and great houses, its hot-water and warm-air systems and then its radiators spreading downwards, until by the mid-twentieth century whole-house warmth was ordinary. Its effect on the plan was profound: rooms no longer needed to cluster round a single hearth, and every room became usable all winter. Before central heating, the geography of a winter evening was a ring of chairs around one fire; after it, the whole house lay open.",
+            "Light completes the trio: candle and oil, then coal gas — brighter, hotter, sootier, and piped like water — then electricity from the 1880s, clean and instant, common in new houses between the wars. Together the services quietly dictate the modern plan. Bathrooms stack above kitchens to share the pipes; a water closet claims its corner; the chimney breast, the boiler cupboard and the meter under the stairs appear as plan furniture. Comfort was the house's quiet revolution: not a style at all, but the steady arrival of water, warmth and light at the turn of a tap or a switch."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wider-world",
+      "numeral": "XVI",
+      "title": "Houses of the Wider World",
+      "sections": [
+        {
+          "heading": "Japan: machiya and minka",
+          "figure": "machiya",
+          "paras": [
+            "Kyoto's machiya is the Japanese merchant's answer to an expensive street. Because plots were taxed by their width of frontage, merchants built narrow and deep — houses only a few metres wide running far back from the street, nicknamed unagi no nedoko, eel's beds. The front room is the shop, opening wide to the street; behind it a passage of beaten earth, the doma, runs the length of the plot past the living rooms to a tiny courtyard garden, the tsubo-niwa; and at the very back stands the kura, the fireproof storehouse of thick earthen walls, where the family's wealth and records slept. Behind the shop, room follows room in strict order of increasing privacy, the family's tatami rooms raised a step above the beaten earth of the passage.",
+            "The minka, the farmhouse of the Japanese countryside, works to the opposite rhythm: broad, low and communal, under a great thatch or tile roof. Its heart is the irori, a sunken hearth in the floor where the fire never quite goes out — cooking, heating, lighting and presiding over family life at once, much as the open hearth did in Europe's hall houses. Beside the raised living floors lies the doma, an earthen-floored workspace for tools and stores; the rooms above boards are floored with tatami. Farm and dwelling share one roof, divided by a floor of earth and a floor of mats. The great roof timbers are left exposed, and the hearth's smoke blackens them over the decades to a deep gloss that a farmer reads as the house's pedigree.",
+            "Both house types are built of timber to a shared measure. The ken — about 1.82 metres — modules the spacing of the posts, and the tatami mat, roughly one ken by half a ken, modules the rooms, so that a room is counted in mats: four and a half, six, eight. Partitions are not walls but screens — shoji of paper, fusuma of painted board — sliding aside to merge rooms or closing to divide them. The Japanese house thus achieved, centuries before Utrecht, the flexible plan: by lightness rather than machinery, and with fire its constant companion and enemy. Fire was the standing catastrophe of wooden towns: Kyoto burned and rebuilt its machiya streets again and again — one reason the kura is built to survive the flames."
+          ]
+        },
+        {
+          "heading": "Farmhouses of the mountains",
+          "figure": "shirakawa",
+          "paras": [
+            "High in the mountains of Gifu and Toyama prefectures, where the snow lies metres deep through the winter, the villages of Shirakawa-go and Gokayama keep a farmhouse type found nowhere else. The gassho-zukuri house — the name means hands joined in prayer — lifts a thatched roof at a pitch of some sixty degrees, steep enough to shed the wet mountain snow before its weight can crush the frame. The roof is the house: a vast dark cap under which several floors are stacked, the frame held together without nails, its beams lashed with straw rope and wooden pegs. At Ogimachi, the largest of the Shirakawa villages, more than a hundred such houses survive, several still sheltering the large extended families the type was designed to hold.",
+            "The roof's size is explained by what lived inside it. The upper floors, open to the smoke of the irori hearth below, were worked as silkworm nurseries: tray upon tray of worms on shelves, warmed by the rising heat and fed on mulberry leaves, in an industry that paid the mountain villages' taxes. The smoke did double service, curing the thatch against insects and rot as it passed slowly through — a house fumigated by its own hearth, year after year. Below, the family's rooms and the stable shared the building, and the warmth of cattle helped in the hardest winters of Honshu. The roof was, in effect, the farm's factory floor, and the house beneath it was planned from the ridge downwards.",
+            "Such a roof cannot be kept by one family. Re-thatching, needed every few decades, is done by yui, the village's system of mutual labour: hundreds of neighbours gather, and strip and re-lay an entire roof in a day or two, the cost repaid in kind when the next roof falls due. The gassho house is therefore maintained by a community, not an owner — its survival a social contract renewed on the rooftops. Designated a World Heritage Site in 1995, Shirakawa-go still runs on yui: the houses are lived in, and the village, not the museum, is their keeper."
+          ]
+        },
+        {
+          "heading": "The haveli and the merchant's court",
+          "figure": "haveli",
+          "paras": [
+            "At the edge of the Thar Desert, the merchants of Jaisalmer built their wealth into the town's facades. The haveli is the great merchant house of northern India, and Jaisalmer's finest are the Patwon ki Haveli, a cluster of five houses begun in 1805 by Guman Chand Patwa, a banker and trader whose family fortune came from finance and the caravan trade. Each house rises several storeys in the local golden sandstone, its front a dense field of carved balconies, brackets and screens — architecture as advertisement for credit, every carved inch certifying that the family's promises were good. Patwa's five sons each took one house of the cluster, which is why the haveli reads from the street as a terrace of small palaces.",
+            "The carving is not mere display. The projecting jharokha balconies and pierced stone jali screens shade the rooms behind them, stir what air moves in the desert heat, and let the women of the house observe the street unseen. Stone lace does the work that glass and curtains do elsewhere. Inside, the rooms are painted and mirrored, their ceilings rich with pattern; the haveli turns its plainest face to its own court and its jewellery to the street, where reputation was made. Ornament here is climate control, privacy and publicity, all cut from one yellow stone. In the desert noon the screens are the facade's working machinery, and much of their beauty is a by-product of shade.",
+            "Yet the haveli's plan is an old friend. Behind the facade, life is organised around a central courtyard — light well, air shaft, family theatre and secure open-air room in one — with the principal rooms ranged around it and the inner apartments placed for privacy. The reader has met this plan before: it is the courtyard family traced in Book IV's chapter, kin to the Roman atrium house, the Islamic courtyard house and the Chinese siheyuan. Three continents, one diagram: rooms around a void, the sky as the house's innermost room. The haveli simply builds that room in sandstone, and locks it with a carved door."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saving-houses",
+      "numeral": "XVII",
+      "title": "Saving the Historic House",
+      "sections": [
+        {
+          "heading": "The invention of preservation",
+          "figure": null,
+          "paras": [
+            "Preservation had to be invented, and its inventors were reacting against restoration. In 1877 William Morris founded the Society for the Protection of Ancient Buildings, provoked by architects who restored medieval churches by scraping away their later fabric in pursuit of an imagined purity. The society's manifesto proposed the anti-scrape: repair, do not restore; prop a wall rather than rebuild it; let a building show its whole age. Aimed at churches, its doctrine — old fabric is evidence, and evidence must not be falsified — became in time the charter for saving houses too. The society's method was practical as much as polemical: survey, record, repair in like materials, and argue for the building in public while argument still had time to work.",
+            "The National Trust, founded in 1895 by Octavia Hill, Robert Hunter and Hardwicke Rawnsley, began with coastline and small places; great houses came to it later, and reluctantly. The breakthrough was legal: the National Trust Act of 1937 let owners hand over a house together with an endowment, free of tax, the family often remaining in residence while the Trust took the title. James Lees-Milne, secretary of the Trust's Country Houses Committee from 1936, toured Britain through the war years persuading owners and recording great houses in his diaries. Under the scheme, the country house became, formally, heritage. Not every transfer was a triumph — some houses arrived stripped and some endowments proved too small — but the scheme saved scores of houses that the demolition gangs would otherwise have taken.",
+            "The change of mind these bodies effected is easy to miss precisely because it is now common sense. In 1800 an old house was simply an inconvenient one, to be refaced, enlarged or pulled down without sentiment; by 1950 a growing public held that a great house was a document and a work of art held in trust, whose loss impoverished everyone. Morris's society and Hill's Trust stand at the head of every listing system, conservation area and rescue campaign in this chapter: houses became heritage when people first learned to argue that they were. The argument carried a democratic edge: what belonged to everyone could no longer be treated as one owner's rubbish."
+          ]
+        },
+        {
+          "heading": "The open-air museum",
+          "figure": "skansen",
+          "paras": [
+            "One way to save a house is to move it. Artur Hazelius, who had been collecting Sweden's vanishing folk culture for the Nordic Museum, opened Skansen in Stockholm in 1891 — the world's first open-air museum. Farmhouses, cottages, a church, workshops and a town quarter were dismantled across Sweden, carried to a hill above the city and re-erected among suitable plants and animals, then furnished and peopled with staff in costume. Hazelius's insight was that a building is a document like a plough or a ballad — and, like them, it is readable only whole. Hazelius called his hill a museum of the nation's memory; later critics have called it a beautiful fiction, and both descriptions fit.",
+            "The idea travelled. Open-air museums rose across Europe and America, and Britain followed with the Weald & Downland Open Air Museum in Sussex — founded in 1967 and opened at Singleton in 1970 — which rescues vernacular buildings condemned by demolition or decay, records them timber by timber, and rebuilds them on its downland site. Its collection is this book's cast in person: a market hall, a hall house, cottages, workshops, a watermill. For buildings whose sites could not be saved, the museum is a lifeboat — and the rescue itself teaches how the houses were made. Its founder Roy Armstrong had spent years watching Sussex buildings fall; the museum began as one man's refusal to watch any longer.",
+            "The gains are real — fabric, craft knowledge, whole interiors that would otherwise be landfill — and so are the losses. A moved house keeps its timbers and loses its ground: its plot, its orientation, its neighbours, its parish, the whole web of use that made it a place rather than an object. A farmhouse in a museum is preserved and orphaned at once. The open-air museum is therefore best understood as surgery, not storage: justified when the alternative is death, performed with full records, and never mistaken for the unbroken life of a house still standing where it was built. A moved house at least keeps its evidence legible, which is more than can be said for a photograph of a demolished one."
+          ]
+        },
+        {
+          "heading": "Loss, rescue and the lived-in house",
+          "figure": "bayleaf",
+          "paras": [
+            "The rescue services were needed because the losses were vast. In the middle decades of the twentieth century the English country house fell at a rate without precedent: death duties, maintenance costs, war damage and requisitioning, and a market that valued land above architecture, brought down roughly one in five of them — over a thousand demolished across the century, the peak in the 1950s, when houses came down several in a month. Whole counties lost their principal seats; the rubble was sold for hardcore, the parks ploughed or built over. The roll of the lost includes houses once as famous as any now standing, their names surviving only in the street plans of the suburbs that replaced them.",
+            "The turning point had a date: 1974, when the Victoria and Albert Museum mounted The Destruction of the Country House, organised by John Harris, Marcus Binney and Roy Strong. Its room of destruction listed the lost houses name by name, and the exhibition scandalised the public into policy: SAVE Britain's Heritage was founded the following year, listing and grants were strengthened, and the demolition slowed to a trickle. It remains the classic proof that an exhibition — evidence, well displayed — can change what a nation permits itself to destroy. The argument it made in 1974 has never since been wholly lost.",
+            "The figure shows the rescue at its most complete. Bayleaf is a late medieval Wealden hall house from Kent, dismantled in 1968 when its site was threatened by the Bough Beech reservoir and re-erected at the Weald & Downland Museum, where it stands furnished as the home of a prosperous Tudor yeoman family. Bayleaf survives because it was moved — and its lesson completes the argument of this chapter: a house is saved not by embalming but by use, repair and understanding. The houses that live longest are the houses still lived in, altered carefully and read closely. Its hall is heated, furnished and in daily use — a document still being written in."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "numeral": "XVIII",
+      "title": "Reading a Historic House: The Five Signs",
+      "sections": [
+        {
+          "heading": "Plan before ornament",
+          "figure": null,
+          "paras": [
+            "Here is the method this book has used throughout, stated plainly at the end. Read the plan before the ornament. A plan is a diagram of how life was lived: begin with the gradient from public to private — hall to parlour to chamber, front of house to back, ground floor to upper floor — and note every threshold on the way: doors, locks, changes of level, the stair that only the family used and the stair built for servants. The gradient is the household's constitution, drawn in walls. Ornament, by contrast, is only the clothes that constitution wore in a given decade. Where the gradient is steep — many doors, many locks — the household was formal and staffed; where it is shallow, life was shared and informal.",
+            "Read the services second. Water, waste, heat and light leave the clearest evidence in any house: the stack where the pipes run, the fireplace in every room of a house built before central heating, the scullery's position, the bell board beside the kitchen door. Services explain a plan's changes better than taste does — the bathroom appears where the pipes can reach, not where a designer dreamed. Only then read the skin: the facade, its style, its dates lettered in mouldings and datestones. Style labels come last because, of the three, they explain least. A datestone can flatter, added in a later fashioning; a pipe run, a flue and the wear on a stair tread rarely lie.",
+            "For a house is a building type before it is a style. The hall house, the terrace, the villa, the semi: types persist for centuries while styles wash over them — Georgian brick laid over a timber frame, Tudor beams applied by the sheet to a 1930s semi. Mistaking the dress for the body is the beginner's error: dating a house by its prettiest feature, or naming it by the style of its porch. Hold the order firm — plan, services, skin; type first, then date, then decoration — and the house will begin to give up its evidence in the right sequence. This is why two houses in identical Georgian dress on the same street can be a century apart in everything that actually matters."
+          ]
+        },
+        {
+          "heading": "Five signs in the street",
+          "figure": null,
+          "paras": [
+            "The five signs, then, as a street-level checklist. First, the courtyard or atrium plan: rooms arranged around a void, betrayed outside by a near-blank facade and a roofline that turns inward — the oldest sign in this book, from Pompeii to Jaisalmer. Second, the great hall: a tall volume speaking through tall windows, a steep roof and a great chimney — the medieval house announcing its communal heart. Third, the uniform terrace facade: many houses wearing one architectural face, the sign of the speculative city and its building leases. The pavement gives the first signs cheaply: height, chimneys and roofline can all be read on any walk, before a single door is knocked.",
+            "Fourth, separated services: a house whose working parts have been pushed apart from its living parts — kitchen wing, back stairs, scullery, tradesmen's entrance, the railed area before a London basement — announcing the servant-run household and its careful invisibilities. Fifth, the chimney and the staircase: stacks placed on gables or party walls map the fireplaces within, while a stair window, a turn in the roof or a tower on the facade marks the house's vertical artery. Together, the five signs will place most houses in their type and their century from the pavement. A worn tradesmen's gate in the area railings can restore the fourth sign even to a house whose interior has been gutted and refitted.",
+            "Alone, though, each sign can lie, and the honest reader says so. A courtyard may be only a light-well; a hall's tall volume may hide an inserted floor; a uniform facade conceals a dozen different interiors; chimneys survive long after the fireplaces below them are blocked and cold. The signs are questions, not verdicts: each must be confirmed by the others, and by the plan wherever a door stands open. Read together they corroborate; read singly they flatter guesswork. A street read this way — sign against sign, house against house — stops being scenery and becomes an archive that cross-examines itself. The discipline is not pedantry: it is what keeps enthusiasm from inventing the past it went out to find."
+          ]
+        },
+        {
+          "heading": "The house as document",
+          "figure": "stokesayHall",
+          "paras": [
+            "Finally, read the alterations, for a house's changes are its longest document. A blocked doorway records a plan that failed, or a family that changed; an inserted floor across a hall records the arrival of privacy and of chimneys; a stair moved, a wing added, a roofline scarred into a gable where an earlier roof ran — each is stratigraphy, the building archaeologist's layers. Nothing in an old house is meaningless: the scar is evidence, the patch is a date, and the awkward junction is usually the exact spot where two centuries meet. Read in sequence, the alterations write the household's biography — marriages, money, servants gained and lost, children, decline, rescue — in carpentry and brick.",
+            "The figure closes the book where much of it began, in a great hall. Stokesay Castle in Shropshire — a fortified manor house built in the 1280s and 1290s by the wool merchant Laurence of Ludlow — keeps its hall almost as it was roofed: tall windows, an open timber roof, the lord's end and the service end legible at a glance. Stand in it and apply the method: the plan speaks first, the services second, the ornament last. Seven centuries of this book's argument are standing in one room, waiting to be read in order. Few rooms in England make the method feel less like study and more like recognition.",
+            "This history ends, properly, in the reader's own street. Every town keeps its archive standing: the hall house behind the shopfront, the terrace behind the render, the semi behind the hedge, the council estate whose plan embodies a promise made in 1919. Go out and read them with the five signs — plan before ornament, services before skin, type before style — confirming each sign against its neighbours as you go. The historic house is not a rarity in a museum. It is the building opposite, and it has been waiting, patiently, to be read. Start with the house you live in: it is the document you are best placed to read, and the likeliest to surprise you."
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [
+    [
+      "Leon Battista Alberti (1404–1472)",
+      "The first theorist of the house. In De re aedificatoria and his book on the family, Alberti treated the house as a small city and the city as a great house: rooms graded by dignity, service kept from ceremony, the plan answerable to the household's order. Every planned house since — palazzo, villa, terrace — works in his shadow."
+    ],
+    [
+      "Andrea Palladio (1508–1580)",
+      "The villa's codifier. Palladio's farm-villas of the Veneto joined working agriculture to temple-fronted state rooms in rooms proportioned by musical ratios, and his Quattro Libri (1570) carried the type across the world — the most influential house designs ever published."
+    ],
+    [
+      "Elizabeth of Shrewsbury, 'Bess of Hardwick' (1527–1608)",
+      "The great builder-patron of Elizabethan England. Four marriages made Bess one of the richest people in the kingdom; two houses — Chatsworth and, supremely, Hardwick Hall — made her its most ambitious domestic patron, building in her seventies a glass palace signed with her own initials."
+    ],
+    [
+      "Robert Smythson (c. 1535–1614)",
+      "Master mason of Longleat, Wollaton and Hardwick, and the first English architect of houses whose name we know. Smythson's plans — symmetrical, ingeniously circulated, glazed to the edge of possibility — turned the prodigy house into architecture."
+    ],
+    [
+      "John Wood the Younger (1728–1782)",
+      "The builder of the Royal Crescent and the Assembly Rooms at Bath. Wood understood the terrace as theatre: a single classical composition let by the house, its splendour collective and its costs shared — the speculative facade as civic art."
+    ],
+    [
+      "William Morris (1834–1896)",
+      "Designer, poet and the historic house's double agent: the Red House made him the Arts and Crafts movement's founder, and the SPAB, founded in 1877, made him preservation's prophet. Morris taught the modern world both how to build a house by hand and why old houses must not be scraped."
+    ],
+    [
+      "C.F.A. Voysey (1857–1941)",
+      "The small house's master. Voysey's roughcast walls, long roofs, heart-shaped hinges and halls made living rooms brought the Arts and Crafts house to the professional classes — and, through his influence on the garden suburb and the semi, to almost everyone else."
+    ],
+    [
+      "Edwin Lutyens (1869–1944)",
+      "The country house's last great architect. From Munstead Wood (built for Gertrude Jekyll) to Castle Drogo, Lutyens fused vernacular craft, classical planning and unmatched spatial theatre — the serviced great house perfected on the eve of its extinction."
+    ],
+    [
+      "Le Corbusier (1887–1965)",
+      "The modern house's propagandist. The Villa Savoye's five points — pilotis, free plan, free facade, ribbon window, roof garden — dismantled the corridor-house of centuries and proposed the dwelling as a machine for living in; every open plan since argues with him."
+    ],
+    [
+      "Mark Girouard (1931–2023)",
+      "The historic house's historian. Life in the English Country House (1978) taught readers to see the great house as social machinery — its plans read as diagrams of power, service and pleasure — and set the method this book follows: the house as evidence, read whole."
+    ]
+  ],
+  "fiveSigns": [
+    {
+      "name": "Courtyard or atrium plan",
+      "look": "Look for rooms arranged around an open court that supplies light, air and water while the street facade stays closed or nearly so. The Roman domus states the type in its purest form: a blank wall to the street, an entrance passage, then the atrium — compluvium above, impluvium below — and beyond it the peristyle garden, the house's rooms graded around the two courts from the public tablinum to the private chambers. The same diagram, rebuilt in local materials, runs from the siheyuan of Beijing to the riads of Fez and the patio houses of Córdoba and colonial Spanish America: a house that turns its back to the city and its face to its own sky. Wherever you find a great house with almost no street windows but a blaze of light inside, suspect the courtyard plan before you see it.",
+      "limit": "Courtyards also occur in palaces, inns, monasteries and caravanserais, so a court alone does not make a house; and a lightwell in a later terrace or tenement is a servant of the same need, not the type itself. Confirm the sign by the plan's gradient — reception rooms on the court, services at its edges — not by the open space alone.",
+      "img": "riad"
+    },
+    {
+      "name": "The great hall",
+      "look": "Look for one tall main room that was once the whole social house: a hearth or great fireplace, a screens passage at the low end where food entered from the kitchen, and the lord's dais and private chamber at the high end. At Stokesay the hall still rises through two storeys to its timber roof, lit by tall windows; at Penshurst the Baron's Hall keeps its screens, its minstrels' gallery and its central hearth-space. The hall's traces survive subdivision: a room of double height in a house of ordinary ceilings, a roof of cathedral scale over a farmhouse, screens-passage doors surviving in a corridor, or a dais step under a later floor. Where the hall was ceiled over — as most were, in the sixteenth and seventeenth centuries — the inserted floor and the great chimney that made it possible are themselves the evidence.",
+      "limit": "Many halls were subdivided, ceiled or wholly absorbed, and communal halls also served guilds, colleges and inns. A tall room is a sign, not a proof: read it with the screens passage, the chamber block and the service end before calling a house a hall house.",
+      "img": "stokesayHall"
+    },
+    {
+      "name": "The uniform terrace facade",
+      "look": "Look for a row of houses sharing one composed classical facade — identical heights, window rhythms and ornament, often a whole crescent, square or crescent-front of stucco or stone — with individual houses hidden behind it. The Royal Crescent at Bath is the type at its most theatrical: thirty houses, one palace front, and backs as irregular as the front is serene. The sign reads in the joints: party walls and separate front doors divide what the eye takes for a single palace; chimney stacks count the houses the facade conceals; and at the back, each house declares its true depth, plan and date. The uniform facade is a planning condition and a speculation strategy as much as a taste — uniformity by lease covenant and building act, not by a single architect's hand.",
+      "limit": "Uniformity may be imposed by a ground landlord or an act of Parliament rather than chosen, and a genuinely single palace or institution can mimic a terrace from the street. Count doors, stacks and downpipes, and always walk round the back before deciding what the facade is hiding.",
+      "img": "royalCrescent"
+    },
+    {
+      "name": "Separated services",
+      "look": "Look for the second, hidden house: kitchen, scullery, larder and servants' rooms placed in a basement, a rear wing or across a yard, and reached by a separate stair or corridor that never crosses the family's rooms. Its instruments are the bell board in the service corridor, each bell labelled with the room it serves; the back stairs, steep and unheated, rising from basement to attic bedrooms; the area — the sunken yard before a basement kitchen — and the tradesmen's entrance, distinct from the front door. In the great country houses the separation becomes a whole service court: kitchen court, laundry, brewhouse, stables, each at a hygienic distance. The plan of a serviced house is a social diagram, and the separation is the surest single sign of a house built to be run by other people's labour.",
+      "limit": "Small houses could not afford full separation — a cottage or a small terrace may show only a scullery and a closet stair — and many service wings have been demolished or converted, leaving the family's house to be misread as the whole. Absence of a service wing in a grand house is itself evidence: look for its scars, its blocked doors and its orphaned bell wires.",
+      "img": "servantsBells"
+    },
+    {
+      "name": "Chimney and staircase",
+      "look": "Look for masonry chimney stacks rising through the plan and a stair that has become a place, not just a passage. The chimney is the house's moderniser: when flues replace the open hearth, smoke no longer needs the hall's full height, floors can be inserted, upper rooms become private chambers, and the stack — on a gable, a ridge or the spine of the plan — maps exactly which rooms were heated and therefore lived in. The staircase does the same work vertically: from ladder and mural stair to the dog-leg in its own compartment, then to the Georgian stair hall lit from above and the Victorian separation of front stair and back stair. Count stacks and read stairs, and the house's internal hierarchy — which floors mattered, which rooms were warmed, which routes were hidden — stands revealed.",
+      "limit": "Stacks and stairs are the elements most often inserted, moved or rebuilt: a fine staircase may be a century younger than its house, and a stack may serve a single inserted fireplace. Date the sign by its materials and junction with the older fabric, not by its presence alone.",
+      "img": "hardwick"
+    }
+  ],
+  "gazetteer": [
+    [
+      "Pompeii, Italy — the domus entire",
+      "Walk the House of the Faun for scale and the House of the Vettii for paint and garden; then stand in the atrium of the House of the Ceii (Plate I) and watch rain, in season, fall through the compluvium exactly as it did two thousand years ago."
+    ],
+    [
+      "Stokesay Castle, Shropshire — the hall house",
+      "The most complete fortified manor in England: great hall, solar block, moat and a timber gatehouse of 1640s fancy. Read the hall first, then find the service end and the family's retreat — the medieval plan in one visit."
+    ],
+    [
+      "Weald & Downland Living Museum, Singleton — rescued houses",
+      "Bayleaf and fifty other threatened buildings, dismantled and re-erected in a Sussex valley: the open-air museum as ark. Go to test this book's fifth chapter — what is saved, and what is lost, when a house is moved."
+    ],
+    [
+      "Beijing, China — the hutongs",
+      "Walk the hutong lanes around the Drum Tower and read the grey roofs from above where you can: whole districts of siheyuan compounds, screen walls behind the gates, the courtyard city surviving inside the modern one."
+    ],
+    [
+      "Florence, Italy — Palazzo Medici Riccardi",
+      "Michelozzo's courtyard and the Gozzoli chapel above it: the Renaissance palazzo as fortress, bank and stage. Compare the graded rustication of the facade with the houses around it — the type announcing its rank."
+    ],
+    [
+      "The Veneto, Italy — Palladio's villas",
+      "Villa Rotonda for the ideal, Villa Barbaro at Maser for the working farm dressed as a temple, Veronese's rooms within. The UNESCO-listed villas still stand in their farmland: see them from the road, as travellers have for four centuries."
+    ],
+    [
+      "Hardwick Hall, Derbyshire — the prodigy house",
+      "The National Trust keeps Bess's house with its state rooms at the top and the Long Gallery running the length of the east front. Arrive across the park and count the windows; the rhyme was a measurement, not a metaphor."
+    ],
+    [
+      "Amsterdam, Netherlands — Museum Van Loon",
+      "A canal house of 1672 kept whole: reception rooms, garden, coach house and the kitchen in this book's plates. The Herengracht outside is the type at urban scale — walk the Golden Bend after."
+    ],
+    [
+      "Bath, England — No. 1 Royal Crescent",
+      "The crescent's corner house, furnished as a Georgian interior of 1776–96: facade outside, standard plan within, servants' rooms below. Then walk behind the crescent and read the backs — the facade's necessary lie."
+    ],
+    [
+      "Paris, France — Hôtel de Soubise",
+      "Now France's national archives, with Boffrand's state apartments visitable in the museum rooms: cour d'honneur, corps de logis, garden front. The Marais around it is the hôtel's native quarter — read the street walls for porte-cochères."
+    ],
+    [
+      "Bexleyheath, London — the Red House",
+      "Morris's house, kept by the National Trust: Webb's brick, the garden Morris treated as a room, the settle and the painted ceiling. Small, and the most consequential house in this book per square metre."
+    ],
+    [
+      "Utrecht, Netherlands — Rietveld Schröder House",
+      "Book the tour and watch the upper floor transform: walls slide, corners open, one room becomes five. The modern house's founding experiment, preserved by the Centraal Museum at the end of an ordinary brick street."
+    ],
+    [
+      "Jaisalmer, India — Patwon ki Haveli",
+      "Five merchants' houses in golden sandstone, carved like lace, above the lanes of the old city. Read facade against courtyard as this book teaches: display to the street, family life turned inward."
+    ],
+    [
+      "Stockholm, Sweden — Skansen",
+      "Hazelius's open-air museum on Djurgården: farmhouses and town houses from every Swedish province, moved and re-peopled. The place where the preservation of houses — not monuments — began."
+    ]
+  ],
+  "glossary": [
+    [
+      "Atrium",
+      "The central court of the Roman domus, open to the sky at the compluvium, with the impluvium basin below it to catch rain; the house's reception room and light-well in one."
+    ],
+    [
+      "Peristyle",
+      "A colonnaded court or garden, in the domus placed beyond the atrium and ringed by the family's finer rooms."
+    ],
+    [
+      "Tablinum",
+      "The master's reception room of the domus, set between atrium and peristyle on the house's axis of honour."
+    ],
+    [
+      "Insula",
+      "A Roman multi-storey block of rented flats, usually with shops at street level; the home of the urban majority."
+    ],
+    [
+      "Hall house",
+      "A medieval house organised around one tall communal hall, with service rooms at one end and private chambers at the other."
+    ],
+    [
+      "Screens passage",
+      "The screened corridor at the low end of a medieval hall, separating hall from buttery, pantry and kitchen, with the minstrels' gallery often above it."
+    ],
+    [
+      "Solar",
+      "The lord's private chamber block of a medieval house, withdrawn from the hall — the seed of all later private rooms."
+    ],
+    [
+      "Dais",
+      "The raised platform at the high end of a hall, under a canopy, where the lord's table stood."
+    ],
+    [
+      "Jetty",
+      "The projection of an upper timber-framed floor beyond the wall below, a signature of medieval town houses."
+    ],
+    [
+      "Siheyuan",
+      "The Chinese courtyard house: rooms on four sides of a rectangular court, ordered by generation and status behind a screen wall."
+    ],
+    [
+      "Riad",
+      "A Moroccan courtyard house (strictly, one with a garden court), its splendour turned inward from a blank street wall."
+    ],
+    [
+      "Palazzo",
+      "The Italian great town house: a palace of graded floors around a courtyard, rusticated below, ceremonial at the piano nobile."
+    ],
+    [
+      "Piano nobile",
+      "The principal floor of a palazzo, villa or terrace, raised above the ground floor and given the tallest windows and richest rooms."
+    ],
+    [
+      "Long gallery",
+      "The long first-floor room of the Elizabethan and Jacobean house, for exercise, music and portraits."
+    ],
+    [
+      "State rooms",
+      "The formal sequence of reception rooms in a great house — hall, saloon, drawing room, state bedchamber — arranged for ceremony and progresses."
+    ],
+    [
+      "Terrace",
+      "A row of houses built as one composition to a uniform design, sharing party walls — the Georgian city's standard product."
+    ],
+    [
+      "Sash window",
+      "The vertically sliding, counterweighted window of the Georgian and Victorian house; its glazing bars date it."
+    ],
+    [
+      "Area",
+      "The sunken open yard before a terrace's basement, giving the kitchen light and a separate tradesmen's access."
+    ],
+    [
+      "Mews",
+      "The stables and coach houses, later grooms' dwellings, in a lane behind a terrace — now houses themselves."
+    ],
+    [
+      "Hôtel particulier",
+      "The French great townhouse: corps de logis between entrance courtyard and garden, its rooms distributed for parade and for comfort."
+    ],
+    [
+      "Brownstone",
+      "The New York row house faced in brown sandstone, with a high stoop and parlour floor — the terrace translated."
+    ],
+    [
+      "Back stairs",
+      "The servants' stair of a serviced house, hidden from the family's rooms and linking basement to attics."
+    ],
+    [
+      "Inglenook",
+      "A fireside alcove — a small room within a room around the hearth — revived by the Arts and Crafts house."
+    ],
+    [
+      "Machiya",
+      "The Japanese merchant townhouse: narrow street frontage, shop before, storehouses and court behind, rooms laid with tatami."
+    ],
+    [
+      "Minka",
+      "The Japanese vernacular farmhouse, its great roof carried on timber posts around an earth-floored doma and an irori hearth."
+    ],
+    [
+      "Haveli",
+      "The north Indian merchant's courtyard house, its carved facade screening family rooms around a court."
+    ]
+  ],
+  "sources": [
+    {
+      "name": "UNESCO World Heritage Centre — Pompeii (List 829)",
+      "url": "https://whc.unesco.org/en/list/829/"
+    },
+    {
+      "name": "UNESCO World Heritage Centre — City of Vicenza and the Palladian Villas of the Veneto (List 712)",
+      "url": "https://whc.unesco.org/en/list/712/"
+    },
+    {
+      "name": "UNESCO World Heritage Centre — City of Bath (List 428)",
+      "url": "https://whc.unesco.org/en/list/428/"
+    },
+    {
+      "name": "UNESCO World Heritage Centre — Amsterdam Canal Ring (List 1349)",
+      "url": "https://whc.unesco.org/en/list/1349/"
+    },
+    {
+      "name": "National Trust — houses and collections research",
+      "url": "https://www.nationaltrust.org.uk/"
+    },
+    {
+      "name": "Historic England — the National Heritage List for England",
+      "url": "https://historicengland.org.uk/listing/the-list/"
+    }
+  ],
+  "bibliography": [
+    "Girouard, Mark. Life in the English Country House: A Social and Architectural History. New Haven: Yale University Press, 1978.",
+    "Girouard, Mark. The Victorian Country House. Oxford: Clarendon Press, 1971.",
+    "Rybczynski, Witold. Home: A Short History of an Idea. New York: Viking, 1986.",
+    "Muthesius, Stefan. The English Terraced House. New Haven: Yale University Press, 1982.",
+    "Summerson, John. Georgian London. London: Pleiades Books, 1945.",
+    "Ackerman, James S. The Villa: Form and Ideology of Country Houses. Princeton, NJ: Princeton University Press, 1990.",
+    "McAlester, Virginia Savage. A Field Guide to American Houses. New York: Alfred A. Knopf, 1984.",
+    "Oliver, Paul (editor). Encyclopedia of Vernacular Architecture of the World. Cambridge: Cambridge University Press, 1997."
+  ]
 }
 ];
 
