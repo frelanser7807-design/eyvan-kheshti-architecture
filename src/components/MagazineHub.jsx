@@ -1,4 +1,5 @@
 import { assetUrl } from '../lib/assetUrl.js';
+import BookCover3D from './BookCover3D.jsx';
 import { magazines } from '../data/magazines.js';
 import { magazineCategories, publishedMagazineArticles } from '../data/magazineCategories.js';
 import { editorialArticles, editorialPath } from '../data/newsletters.js';
@@ -100,10 +101,14 @@ function HubStudy({ study }) {
         ))}</p>
         {study.deepRead && <p className="wj-hub-deepread"><a href={study.deepRead}>Read the full guide to {study.title} <span aria-hidden="true">↗</span></a></p>}
         {study.deepPage && (
-          <p className="wj-hub-booklinks">
-            <a className="wj-hub-book-read" href={study.deepPage}>Read the complete history <span aria-hidden="true">→</span></a>
-            {study.pdf && <a className="wj-hub-book-pdf" href={study.pdf} download>Download the complete guide (PDF)</a>}
-          </p>
+          <div className="wj-hub-book">
+            {study.bookCover && <BookCover3D src={study.bookCover} title={study.title} className="wj-hub-bookcover" />}
+            <div className="wj-hub-booklinks">
+              <a className="wj-hub-book-read" href={study.deepPage}>Read the complete history <span aria-hidden="true">→</span></a>
+              {study.readPath && <a className="wj-hub-book-read" href={study.readPath}>Read the book <span aria-hidden="true">→</span></a>}
+              {study.pdf && <a className="wj-hub-book-pdf" href={`${study.deepPage}#get-the-book`}>Download the book (PDF)</a>}
+            </div>
+          </div>
         )}
       </div>
     </article>

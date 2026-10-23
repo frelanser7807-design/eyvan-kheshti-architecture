@@ -51,7 +51,11 @@ const BOOK_CSS = `
 @page { size: A4; background: #f7f1e3; }
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
-body { background: #f7f1e3; color: #241d12; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 13pt; line-height: 1.72; }
+body { background: #f7f1e3; color: #221c15; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 13pt; line-height: 1.72; }
+.coverpage { page-break-after: always; background: #0a0908; height: 256mm; display: flex; align-items: center; justify-content: center; }
+.coverpage img { max-width: 100%; max-height: 250mm; object-fit: contain; }
+figure img { border: .3mm solid #c6a15b; padding: 1.2mm; background: #fbf6e9; }
+.antique { border: .5mm solid #c6a15b; outline: .25mm solid #c6a15b; outline-offset: -2.4mm; padding: 9mm 8mm; }
 .sign { page-break-inside: avoid; margin-bottom: 5mm; }
 .sign h3 { margin-top: 2mm; }
 img { max-width: 100%; }
@@ -74,7 +78,8 @@ img { max-width: 100%; }
 .titlepage dt { font-family: Inter, Arial, sans-serif; font-size: 7.5pt; letter-spacing: .22em; text-transform: uppercase; color: #8c6a45; margin-top: 4.5mm; }
 .titlepage dd { margin: 1mm 0 0; }
 .titlepage .colophon { margin-top: 16mm; font-size: 9.5pt; color: #6d5c3d; line-height: 1.65; }
-.toc { page-break-after: always; }
+.toc { page-break-before: always; page-break-after: always; }
+.toc li { padding: 1.7mm 0; }
 .toc h2, .refsec > h2 { font-family: 'Playfair Display', Georgia, serif; font-weight: 600; font-size: 19pt; margin: 0 0 7mm; }
 .toc ol { list-style: none; margin: 0; padding: 0; }
 .toc li { display: flex; gap: 4mm; padding: 2.1mm 0; border-bottom: .18mm dotted #b9a678; font-size: 11.5pt; }
@@ -201,15 +206,7 @@ function bookHtml(page, fontsCss, baseUrl) {
   const credits = Object.values(page.images).map((image) => `<li>${esc(image.title)} — ${esc(image.credit)}. ${esc(image.sourceUrl)}</li>`).join('');
   const facts = page.keyFacts.map(([label, value]) => `<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>`).join('');
   return `<!doctype html><html lang="en"><head><meta charset="utf-8" /><base href="${baseUrl}" /><title>${esc(page.bookTitle)} — World Arch Journal</title><style>${fontsCss}\n${BOOK_CSS}</style></head><body>
-<section class="cover">
-  <div class="masthead">WORLD ARCH JOURNAL</div>
-  <div class="rule"></div>
-  <div class="series">${esc(page.series)}</div>
-  <h1>${esc(page.title)}</h1>
-  <p class="subtitle">${esc(page.subtitle)}</p>
-  <figure><img src="${esc(hero.src)}" alt="${esc(hero.alt)}" /><figcaption>${esc(hero.credit)}</figcaption></figure>
-  <div class="bookno">BOOK ${page.bookNumber}</div>
-</section>
+<section class="coverpage"><img src="${esc(page.cover)}" alt="${esc(page.bookTitle)} — book cover" /></section>
 <section class="frontispiece">${figureHtml(page, 'tasselStair')}</section>
 <section class="titlepage">
   <div class="series">${esc(page.series)} · Book ${page.bookNumber}</div>
@@ -217,19 +214,19 @@ function bookHtml(page, fontsCss, baseUrl) {
   <p class="subtitle">${esc(page.subtitle)}</p>
   <div class="rule"></div>
   <dl>${facts}</dl>
-  <p class="colophon">First published ${esc(page.publishedAt)} by World Arch Journal.<br />Web edition: ${SITE}${esc(page.path)}<br />© World Arch Journal. All rights reserved.<br />Free for personal reading and study; no redistribution or resale.<br />Photographs are reproduced from Wikimedia Commons under the licences<br />stated in the illustration credits.</p>
+  <p class="colophon">First published ${esc(page.publishedAt)} by World Arch Journal.<br />Written and edited by World Arch Journal.<br />Web edition: ${SITE}${esc(page.path)}<br />© World Arch Journal 2026. All rights reserved.<br />Free for personal reading and study; no redistribution or resale.<br />Cover artwork © World Arch Journal.<br />Photographs are reproduced from Wikimedia Commons under the licences<br />stated in the illustration credits.</p>
 </section>
 <section class="refsec"><h2>The Book at a Glance</h2><p>${esc(page.standfirst)}</p><dl>${facts}</dl></section>
 <section class="toc"><h2>Contents</h2><ol>${tocItems}</ol></section>
 <section class="illuslist"><h2>List of Illustrations</h2><ol>${Object.values(page.images).map((image) => `<li>${esc(image.title)} — ${esc(image.credit)}</li>`).join('')}</ol></section>
 <section class="preface"><h2 style="font-family:'Playfair Display',Georgia,serif;font-size:19pt;margin:0 0 7mm">Introduction</h2>${page.intro.map((paragraph) => `<p>${esc(paragraph)}</p>`).join('')}</section>
 ${chapters}
-<section class="refsec"><h2>Timeline: The Style in Dates</h2><dl>${timeline}</dl></section>
+<section class="refsec antique"><h2>Timeline: The Style in Dates</h2><dl>${timeline}</dl></section>
 <section class="refsec"><h2>Gazetteer: Where to See the Style</h2><dl>${page.gazetteer.map(([place, text]) => `<div><dt>${esc(place)}</dt><dd>${esc(text)}</dd></div>`).join('')}</dl></section>
 <section class="refsec"><h2>Key Figures</h2><dl>${figures}</dl></section>
 <section class="refsec"><h2>Glossary</h2><dl>${glossary}</dl></section>
 <section class="refsec"><h2>Sources &amp; Bibliography</h2><h3>Sources consulted</h3><ul>${page.sources.map((source) => `<li>${esc(source.name)} — ${esc(source.url)}</li>`).join('')}</ul><h3>Bibliography</h3><ul>${page.bibliography.map((entry) => `<li>${esc(entry)}</li>`).join('')}</ul></section>
-<section class="refsec"><h2>Illustration Credits</h2><p>All photographs are reproduced from Wikimedia Commons under the licences stated below. No image has been cropped; each is shown whole, as published by its author.</p><ul>${credits}</ul><div class="endmark">· END OF BOOK ${page.bookNumber} ·</div></section>
+<section class="refsec"><h2>Illustration Credits</h2><p>Cover: artwork © World Arch Journal (a design, not a period photograph). All photographs are reproduced from Wikimedia Commons under the licences stated below. No image has been cropped; each is shown whole, as published by its author.</p><ul>${credits}</ul><div class="endmark">· END OF BOOK ${page.bookNumber} ·</div></section>
 <section class="refsec"><h2>The Architectural History Series</h2><p>World Arch Journal's Architectural History Series gives every style and building type of the journal's history atlas its own complete book: the full history, the materials honestly told, the key buildings in depth, and the field method that lets the reader identify the style in the street. Each book is published first as a free web edition with a downloadable PDF on worldarchjournal.com.</p><p>Book 1 · Art Nouveau: The Complete History — this volume. In preparation: Gothic · Castles &amp; Fortified Architecture · Baroque &amp; Rococo · Romanesque · Modernism &amp; the International Style · Victorian Architecture · Art Deco · Brutalism · Renaissance · Neoclassical · Ancient Rome · and the remaining studies of the atlas, in the journal's demand order.</p><p>Read the whole series as it appears at ${SITE}${esc(page.hubPath)}</p></section>
 </body></html>`;
 }

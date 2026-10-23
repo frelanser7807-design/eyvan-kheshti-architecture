@@ -19,6 +19,7 @@ const ArticleReader = lazy(() => import('./components/ArticleReader.jsx'));
 const MagazineReader = lazy(() => import('./components/MagazineReader.jsx'));
 const MagazineHub = lazy(() => import('./components/MagazineHub.jsx'));
 const HistoryDeepPage = lazy(() => import('./components/HistoryDeepPage.jsx'));
+const BookReaderPage = lazy(() => import('./components/BookReaderPage.jsx'));
 import { historyDeepById } from './data/historyDeep.js';
 const ProductPage = lazy(() => import('./components/ProductPage.jsx'));
 
@@ -62,6 +63,11 @@ function currentRoute() {
   if (analysisMatch) return { name: 'analysis-article', item: editorialArticles.find((issue) => issue.slug === decodeURIComponent(analysisMatch[1])) };
   const newsletterMatch = normalizedPath.match(/^\/newsletter\/([^/]+)\/$/);
   if (newsletterMatch) return { name: 'newsletter-issue', item: newsletterIssues.find((issue) => issue.slug === decodeURIComponent(newsletterMatch[1])) };
+  const historyReadMatch = normalizedPath.match(/^\/magazine\/architectural-history-styles\/([^/]+)\/read\/$/);
+  if (historyReadMatch) {
+    const slug = decodeURIComponent(historyReadMatch[1]);
+    return { name: 'history-read', slug, item: historyDeepById(slug) };
+  }
   const historyDeepMatch = normalizedPath.match(/^\/magazine\/architectural-history-styles\/([^/]+)\/$/);
   if (historyDeepMatch) {
     const slug = decodeURIComponent(historyDeepMatch[1]);
@@ -173,6 +179,7 @@ export default function App() {
   if (route.name === 'newsletter-issue') page = route.item ? <NewsletterPage article issue={route.item} /> : <ProductPage missing />;
   if (route.name === 'magazine-category') page = route.item ? <MagazineHub category={route.item} /> : <ProductPage missing />;
   if (route.name === 'history-deep') page = route.item ? <HistoryDeepPage page={route.item} /> : <ProductPage missing />;
+  if (route.name === 'history-read') page = route.item ? <BookReaderPage page={route.item} /> : <ProductPage missing />;
   if (route.name === 'shop') page = <ProductPage products={(content?.products || []).filter((item) => item.published)} etsyUrl={content?.commerce?.etsyUrl} />;
   if (route.name === 'presentation-studio') page = <ProductPage presentationStudio products={(content?.products || []).filter((item) => item.published)} etsyUrl={content?.commerce?.etsyUrl} whatsappUrl={content?.brand?.whatsapp} />;
   if (route.name === 'custom-plan-design') page = <CustomPlanDesignPage brand={content?.brand} />;

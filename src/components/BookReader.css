@@ -1,0 +1,41 @@
+/* Self-hosted flipbook reader. */
+.wj-reader-page { background: #141210; }
+.wj-reader-main { width: min(1120px, calc(100% - 40px)); margin: 0 auto; padding: 26px 0 70px; color: #efe7d6; }
+.wj-reader-crumb { display: flex; gap: 8px; flex-wrap: wrap; font-size: .74rem; color: #b9ac90; }
+.wj-reader-crumb a { border-bottom: 1px solid #6d5f43; padding-bottom: 2px; }
+.wj-reader-title { margin: 16px 0 6px; font: 400 clamp(2rem, 5vw, 3.4rem)/1.02 'Cormorant Garamond', Georgia, serif; color: #f5edd9; }
+.wj-reader-sub { margin: 0 0 24px; color: #b9ac90; font-size: .86rem; }
+.wj-reader-book { position: relative; margin: 0 auto; user-select: none; -webkit-user-select: none; touch-action: pan-y; }
+.wj-reader-book.is-spread { width: min(1060px, 96vw); }
+.wj-reader-spread { position: relative; display: flex; background: #0c0a08; padding: 10px; border: 1px solid #3a3226; box-shadow: 0 30px 70px rgba(0, 0, 0, .55); }
+.wj-reader-leaf { flex: 1 1 50%; min-width: 0; background: #f7f1e3; line-height: 0; }
+.wj-reader-leaf img { width: 100%; height: auto; display: block; }
+.wj-reader-leaf.is-left { box-shadow: inset -18px 0 24px -18px rgba(60, 45, 20, .45); }
+.wj-reader-leaf.is-right { box-shadow: inset 18px 0 24px -18px rgba(60, 45, 20, .45); }
+.wj-reader-blank { aspect-ratio: 0.707; background: linear-gradient(160deg, #171410, #100e0b); }
+.wj-reader-flip { position: absolute; top: 10px; bottom: 10px; width: calc(50% - 10px); transform-style: preserve-3d; z-index: 5; pointer-events: none; }
+.wj-reader-flip.is-next { left: 50%; transform-origin: left center; animation: wj-flip-next .64s cubic-bezier(.3, .6, .3, 1) forwards; }
+.wj-reader-flip.is-prev { left: 10px; transform-origin: right center; animation: wj-flip-prev .64s cubic-bezier(.3, .6, .3, 1) forwards; }
+@keyframes wj-flip-next { from { transform: rotateY(0deg); } to { transform: rotateY(-180deg); } }
+@keyframes wj-flip-prev { from { transform: rotateY(0deg); } to { transform: rotateY(180deg); } }
+.wj-reader-flip-face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; background: #f7f1e3; line-height: 0; overflow: hidden; }
+.wj-reader-flip-face img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.wj-reader-flip-face.is-back { transform: rotateY(180deg); }
+.wj-reader-flip.is-next .wj-reader-flip-face.is-front { box-shadow: inset -22px 0 30px -20px rgba(60, 45, 20, .5); }
+.wj-reader-flip.is-prev .wj-reader-flip-face.is-front { box-shadow: inset 22px 0 30px -20px rgba(60, 45, 20, .5); }
+.wj-reader-zone { position: absolute; top: 0; bottom: 0; width: 11%; background: transparent; border: 0; cursor: pointer; z-index: 6; }
+.wj-reader-zone.is-prev { left: 0; }
+.wj-reader-zone.is-next { right: 0; }
+.wj-reader-zone:disabled { cursor: default; }
+.wj-reader-single { width: min(560px, 94vw); margin: 0 auto; background: #0c0a08; padding: 8px; border: 1px solid #3a3226; box-shadow: 0 24px 55px rgba(0, 0, 0, .5); line-height: 0; }
+.wj-reader-single img { width: 100%; height: auto; display: block; }
+.wj-reader-controls { display: flex; align-items: center; justify-content: space-between; gap: 16px; width: min(1060px, 96vw); margin: 20px auto 0; }
+.wj-reader-controls button { min-height: 44px; border: 1px solid #c6a15b; border-radius: 99px; background: transparent; color: #f0e5cb; padding: 0 22px; font-size: .8rem; font-weight: 600; letter-spacing: .05em; cursor: pointer; }
+.wj-reader-controls button:disabled { opacity: .35; cursor: default; }
+.wj-reader-controls button:not(:disabled):hover { background: rgba(198, 161, 91, .16); }
+.wj-reader-count { color: #b9ac90; font-size: .78rem; letter-spacing: .08em; }
+.wj-reader-progress { width: min(1060px, 96vw); height: 3px; margin: 14px auto 0; background: #33302a; }
+.wj-reader-progress span { display: block; height: 100%; background: #c6a15b; transition: width .4s ease; }
+.wj-reader-foot { margin: 26px 0 6px; text-align: center; font-size: .86rem; }
+.wj-reader-foot a { border-bottom: 1px solid #c6a15b; padding-bottom: 3px; color: #f0e5cb; }
+.wj-reader-note { text-align: center; color: #8d8168; font-size: .72rem; margin: 0; }

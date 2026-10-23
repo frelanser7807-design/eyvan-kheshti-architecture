@@ -1,6 +1,51 @@
+import { useState } from 'react';
 import { assetUrl } from '../lib/assetUrl.js';
+import { submitSubscriber } from '../lib/dataAdapter.js';
+import BookCover3D from './BookCover3D.jsx';
 import './MagazineHub.css';
 import './HistoryDeepPage.css';
+
+function DownloadGate({ page }) {
+  const [status, setStatus] = useState('idle');
+  async function submit(event) {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const values = new FormData(form);
+    setStatus('saving');
+    try {
+      await submitSubscriber(values.get('email'), values.get('consent') === 'yes', values.get('website'));
+      form.reset();
+      setStatus('success');
+    } catch {
+      setStatus('error');
+    }
+  }
+  return (
+    <section className="wj-deep-gate" id="get-the-book" aria-labelledby="wj-gate-title">
+      <span className="wj-magazine-kicker">The book · PDF edition</span>
+      <h2 id="wj-gate-title">Get the PDF — join The World Arch Briefing</h2>
+      <p className="wj-deep-gate-file"><strong>art-nouveau.pdf</strong> — {page.bookTitle} · {page.series}, Book {page.bookNumber} · {page.readerPages} pages · PDF</p>
+      {status === 'success' ? (
+        <div className="wj-deep-gate-success">
+          <p role="status">Check your inbox for a confirmation link to complete your subscription.</p>
+          <a className="wj-deep-download" href={page.pdf} download>Download the book (PDF)</a>
+        </div>
+      ) : (
+        <form className="wj-deep-gate-form" onSubmit={submit}>
+          <label htmlFor="wj-gate-email">Email address</label>
+          <div className="wj-deep-gate-row">
+            <input id="wj-gate-email" type="email" name="email" autoComplete="email" required placeholder="you@example.com" />
+            <button type="submit" disabled={status === 'saving'}>{status === 'saving' ? 'Joining…' : 'Join & get the PDF'}</button>
+          </div>
+          <label className="wj-deep-gate-consent"><input type="checkbox" name="consent" value="yes" required /> I agree to receive The World Arch Briefing. See our <a href="/privacy/">privacy policy</a>.</label>
+          <input className="wj-deep-gate-trap" name="website" tabIndex="-1" autoComplete="off" aria-hidden="true" />
+          {status === 'error' && <p role="alert" className="wj-deep-gate-error">We could not process this request. Please try again.</p>}
+        </form>
+      )}
+      <p className="wj-deep-gate-terms">Free for personal use; no redistribution or resale. © World Arch Journal. Reading the book online is always free, with no signup — <a href={page.readPath}>open the reader</a>.</p>
+    </section>
+  );
+}
 
 function DeepFigure({ page, imageKey, eager = false }) {
   const image = page.images[imageKey];
@@ -58,10 +103,25 @@ export default function HistoryDeepPage({ page }) {
             <p className="wj-deep-subtitle">{page.subtitle}</p>
             <p className="wj-deep-standfirst">{page.standfirst}</p>
             <div className="wj-deep-actions">
-              <a className="wj-deep-download" href={page.pdf} download>Download the complete guide (PDF)</a>
+              <a className="wj-deep-download" href={page.readPath}>Read the book</a>
+              <a className="wj-deep-readlink" href="#get-the-book">Download the book (PDF)</a>
               <span className="wj-deep-meta">Published {page.publishedAt} · {page.chapters.length} chapters · Free to read</span>
             </div>
           </header>
+
+          <section className="wj-deep-bookshow" aria-label="The book">
+            <BookCover3D src={page.cover} title={page.bookTitle} className="wj-deep-bookcover" />
+            <div className="wj-deep-bookshow-copy">
+              <span className="wj-magazine-kicker">{page.series} · Book {page.bookNumber}</span>
+              <h2>The book</h2>
+              <p>This page is the web edition of the World Arch Journal book. Read it here in the page-flip reader, chapter by chapter below, or take the print-quality PDF.</p>
+              <div className="wj-deep-actions">
+                <a className="wj-deep-download" href={page.readPath}>Read the book</a>
+                <a className="wj-deep-readlink" href="#get-the-book">Get the PDF</a>
+              </div>
+              <p className="wj-deep-meta">{page.readerPages} pages · {Object.keys(page.images).length} credited illustrations · {page.coverCredit}</p>
+            </div>
+          </section>
 
           {hero && (
             <figure className="wj-deep-hero">
@@ -183,8 +243,10 @@ export default function HistoryDeepPage({ page }) {
             </ul>
           </section>
 
+          <DownloadGate page={page} />
+
           <footer className="wj-deep-foot">
-            <a className="wj-deep-download" href={page.pdf} download>Download the complete guide (PDF)</a>
+            <a className="wj-deep-download" href={page.readPath}>Read the book</a>
             <a className="wj-deep-back" href={page.hubPath}>← Back to Architectural History Styles</a>
             <p>© World Arch Journal. {page.series}, Book {page.bookNumber}. The printed edition of this book is the PDF above; this page is its web edition.</p>
           </footer>
