@@ -176,6 +176,10 @@ export const historyStudies = [
       { name: "Smarthistory", url: "https://smarthistory.org/" },
       { name: "Victoria and Albert Museum", url: "https://www.vam.ac.uk/" }
     ],
+    deepPage: "/magazine/architectural-history-styles/baroque-rococo/",
+    pdf: "/downloads/history/baroque-rococo.pdf",
+    bookCover: "/assets/history-deep/baroque-rococo/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/baroque-rococo/read/",
     images: {
       hero: { src: `${H}/baroque-hero.jpg`, alt: "Bernini colonnade embracing St Peter's Square in Vatican City", credit: "Photo: Jean-Pol GRANDMONT, via Wikimedia Commons (CC BY-SA 3.0)" },
       detail1: { src: `${H}/baroque-detail1.jpg`, alt: "Hall of Mirrors at Versailles showing integrated painting, light and gilding", credit: "Photo: Myrabella, via Wikimedia Commons (CC BY-SA 3.0)" },

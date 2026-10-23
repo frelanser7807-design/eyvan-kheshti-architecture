@@ -3700,6 +3700,1373 @@ export const historyDeepPages = [
       "Arnold J. Taylor, Studies in Castles and Castle-Building, Hambledon Press, London, 1985 — the collected papers of the historian of Edward I's Welsh castles, including the documentary reconstruction of Master James of St George and the Savoy connection.",
       "D. J. Cathcart King, The Castle in England and Wales: An Interpretative History, Croom Helm, London, 1988 — a lifetime's fieldwork distilled: the military engineer's reading, plan by plan, and a standing corrective to purely social accounts."
     ]
+  },
+  {
+    "id": "baroque-rococo",
+    "series": "Architectural History Series",
+    "bookNumber": 4,
+    "title": "Baroque & Rococo",
+    "bookTitle": "Baroque & Rococo: A Complete History",
+    "cover": "/assets/history-deep/baroque-rococo/book-cover.jpg",
+    "coverCredit": "Cover artwork © World Arch Journal",
+    "readPath": "/magazine/architectural-history-styles/baroque-rococo/read/",
+    "readerPages": 97,
+    "readerBase": "/assets/history-deep/baroque-rococo/pages/",
+    "subtitle": "From the colonnades of Bernini's Rome to the pastel salons of Paris, the pilgrimage churches of Bavaria and the gilded facades of two colonial empires: how the Baroque learned to seize the senses, how the Rococo shrank its drama to the scale of a single room — and how to read both in the buildings that survive.",
+    "path": "/magazine/architectural-history-styles/baroque-rococo/",
+    "hubPath": "/magazine/architectural-history-styles/",
+    "hubStudyId": "baroque-rococo",
+    "pdf": "/downloads/history/baroque-rococo.pdf",
+    "seoTitle": "Baroque & Rococo: A Complete History of the Architecture of Drama and Delight | World Arch Journal",
+    "metaDescription": "Baroque & Rococo: the complete history — Bernini and Borromini in Rome, Versailles and the Louvre, Vienna's Karlskirche, Bavaria's pilgrimage churches, the Rococo salon and the colonial Americas, with a five-sign field guide to reading both styles.",
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "hero": "stPetersSquare",
+    "frontispiece": "santIgnazioCeiling",
+    "plates": [
+      [
+        "stPetersSquare",
+        "St Peter's Square from the dome",
+        "From the roof of the basilica the plan explains itself: two colonnades, four columns deep, reach out from the church and gather the trapezoid and the oval of the piazza into one embrace. Bernini called them the motherly arms of the Church, reaching to receive Catholics and to reunite the separated. Everything the Baroque wanted to do to a crowd, this square does."
+      ],
+      [
+        "cornaro",
+        "The Cornaro Chapel, Santa Maria della Vittoria",
+        "Bernini stages the Ecstasy of Saint Teresa as theatre: the saint and the angel float on clouds inside a blaze of gilt rays, lit from a window hidden above the frame, while members of the Cornaro family watch the vision from carved box seats at either side. Sculpture, architecture, painting and concealed light are composed as one work — the bel composto, in a single chapel."
+      ],
+      [
+        "sanCarlino",
+        "San Carlo alle Quattro Fontane, Rome",
+        "Borromini's facade, finished after his death by his nephew, rolls across its tiny street corner in waves — concave, convex, concave — its columns, niches and entablature bending with the wall. No straight line survives at eye level. The whole front is a single gesture of controlled unease, built from the geometry of two equilateral triangles."
+      ],
+      [
+        "santIgnazioCeiling",
+        "The ceiling of Sant'Ignazio, Rome",
+        "Andrea Pozzo painted the worldwide mission of the Jesuits across a fictive architecture that continues the church's real columns and cornices into the sky. A marble disc in the nave floor marks the one point where the illusion locks: stand there, and the painted heaven stands upright around you, its saints ascending on a draught of glory."
+      ],
+      [
+        "salute",
+        "Santa Maria della Salute, Venice",
+        "Baldassare Longhena answered the plague vow of 1630 with an octagon crowned by a great dome and steadied by scroll buttresses that curl like unfurled sails. The church is engineered as urban scenery: its steps pour toward the Grand Canal, and its silhouette closes the view from St Mark's basin like the last chord of the city."
+      ],
+      [
+        "sanLorenzoDome",
+        "The dome of San Lorenzo, Turin",
+        "Guarino Guarini laced his dome with interpenetrating arches learned from Islamic and Gothic geometry, so that the structure itself becomes the ornament and the lantern hangs in a woven star of light. A Theatine priest who published on mathematics built the Baroque's most intellectual ceiling — a dome you read like a proof."
+      ],
+      [
+        "vierzehnheiligen",
+        "The ceiling of Vierzehnheiligen, Franconia",
+        "Above Balthasar Neumann's interlocking ovals, the vault dissolves into fresco, stucco and light, and the pilgrimage altar of the Fourteen Holy Helpers stands not against a wall but in the middle of the space, where the ovals cross. When the Rococo stucco was finished, the engineering had become tenderness: the German late Baroque's most moving room."
+      ]
+    ],
+    "plates2": [
+      [
+        "versaillesMirrors",
+        "The Hall of Mirrors, Versailles",
+        "Seventeen arched windows open on the garden; seventeen arches opposite answer them with mirror glass — three hundred and fifty-seven plates of it, from the royal manufacture founded to break Venice's monopoly. Between Hardouin-Mansart's architecture and Le Brun's painted ceiling of Louis XIV's triumphs, this became the room in which Europe measured itself for a century."
+      ],
+      [
+        "karlskirche",
+        "The Karlskirche, Vienna",
+        "Johann Bernhard Fischer von Erlach composed the Emperor Charles VI's plague vow out of the whole history of architecture: a Roman temple portico, two triumphal columns wound with reliefs in imitation of Trajan's, minaret-like pavilions and a great dome behind. It is a thesis about empire and ancestry disguised as a parish church — and, by night, Vienna's most theatrical silhouette."
+      ],
+      [
+        "blenheim",
+        "Blenheim Palace from the water terraces",
+        "John Vanbrugh built the nation's gift to the Duke of Marlborough as a fortress of the imagination: towers, bastions and a roofline like a fortified town. The English Baroque at its most swaggering is also, beneath the mass, meticulously ordered — Nicholas Hawksmoor's planning hand steadied the playwright's vision for thirty years."
+      ],
+      [
+        "winterPalace",
+        "The Winter Palace, St Petersburg",
+        "Bartolomeo Rastrelli stretched the Empress Elizabeth's palace across Palace Square in turquoise, white and gold: columns by the hundred, statues pacing the skyline, window frames changing their dress from floor to floor. Built in the 1750s, a generation after Paris had moved on, it is the Baroque's largest facade and its most unrepentant."
+      ],
+      [
+        "ouroPreto",
+        "The portal of São Francisco de Assis, Ouro Preto",
+        "The Aleijadinho — Antônio Francisco Lisboa, carving with tools strapped to hands ruined by disease — cut this soapstone portal for a gold-mining town in the Brazilian hills: medallion, angels and seraphim in a relief of impossible softness. The colonial Baroque ends here, translated into something no European model could predict."
+      ],
+      [
+        "soubise",
+        "The Salon de la Princesse, Hôtel de Soubise",
+        "Germain Boffrand's oval salon keeps the Baroque's love of the curve and drops everything else: no colossal order, no drama of mass — mirrors set between the windows, paintings by the century's best hands let into pale boiserie, ornament running like foam along every junction. The Rococo room is architecture re-scaled to conversation."
+      ],
+      [
+        "wuerzburgStair",
+        "The staircase of the Würzburg Residenz",
+        "Balthasar Neumann threw a single vault, eighteen by thirty metres, across the staircase hall without one intermediate support — the engineers of Paris, consulted, said it would stand; it has stood through a firestorm. Tiepolo then covered it with the largest fresco in the world: the four continents bringing their homage to Würzburg, while the stair climbs beneath in three ceremonial flights."
+      ]
+    ],
+    "parts": [
+      [
+        0,
+        "Part I",
+        "Rome Invents the Baroque",
+        "What the Baroque is and why it begins in Rome: the city replanned as an argument, St Peter's completed, and the two rival geniuses — Bernini and Borromini — who set the terms in which Europe would build for a century."
+      ],
+      [
+        3,
+        "Part II",
+        "The Roman Century",
+        "The Roman century at its fullest stretch: the painted heavens of the Gesù and Sant'Ignazio, the carved south of Naples, Lecce and Sicily, Guarini's and Juvarra's Turin, Venice's Salute and the Bourbon colossus at Caserta."
+      ],
+      [
+        9,
+        "Part III",
+        "Europe Translates the Baroque",
+        "The style translated by its inheritors: France disciplines it at Versailles, Spain encrusts it and exports it to the Americas, Austria and Germany compose it into abbeys and pilgrimage churches, England restrains it, Russia magnifies it — and the Rococo turns the whole manner inward, toward the room."
+      ],
+      [
+        14,
+        "Part IV",
+        "The Rococo Turn, the Reading, the Afterlife",
+        "The equipment and the ending: how to read both styles in the field by their five signs, how their scenographic cities work, how taste buried them as insults — and how scholarship and conservation dug them up again as masters."
+      ]
+    ],
+    "seriesList": "Book 4 · Baroque & Rococo: A Complete History — this volume. Also available: Book 1 · Art Nouveau: A Complete History · Book 2 · Gothic Architecture: A Complete History · Book 3 · Medieval Castles & Fortifications: A Complete History. In preparation: Romanesque · Modernism & the International Style · Victorian Architecture · Art Deco · Brutalism · and the remaining studies of the atlas, in the journal's demand order.",
+    "images": {
+      "amalienburg": {
+        "src": "/assets/history-deep/baroque-rococo/amalienburg.jpg",
+        "alt": "The Amalienburg hunting lodge at Nymphenburg, Munich — Cuvilliés' pale-pink Rococo pavilion of 1734–39",
+        "credit": "Photo: Flocci Nivis, via Wikimedia Commons (CC BY 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230209_Amalienburg_Nymphenburg.jpg",
+        "title": "The Amalienburg, Nymphenburg"
+      },
+      "baldacchino": {
+        "src": "/assets/history-deep/baroque-rococo/baldacchino.jpg",
+        "alt": "Bernini's Baldacchino in St Peter's, Rome — four twisted bronze columns carrying the canopy over the high altar",
+        "credit": "Photo: Diego Delso, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_San_Pedro,_Ciudad_del_Vaticano,_2022-09-17,_DD_37-39_HDR.jpg",
+        "title": "The Baldacchino, St Peter's"
+      },
+      "barberiniCeiling": {
+        "src": "/assets/history-deep/baroque-rococo/barberiniCeiling.jpg",
+        "alt": "Pietro da Cortona's Allegory of Divine Providence across the ceiling of Palazzo Barberini, Rome",
+        "credit": "Photo: Livioandronico2013, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allegory_of_Divine_Providence_and_Barberini_Power_(Cortona)_in_Palazzo_Barberini_(Roma).jpg",
+        "title": "The Barberini ceiling"
+      },
+      "blenheim": {
+        "src": "/assets/history-deep/baroque-rococo/blenheim.jpg",
+        "alt": "Blenheim Palace, Oxfordshire, from the water terraces — Vanbrugh and Hawksmoor's English Baroque monument",
+        "credit": "Photo: DeFacto, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blenheim_Palace_from_the_Water_Terraces_October_2016.jpg",
+        "title": "Blenheim Palace"
+      },
+      "caserta": {
+        "src": "/assets/history-deep/baroque-rococo/caserta.jpg",
+        "alt": "The Royal Palace of Caserta from the air, its park axis running to the great waterfall",
+        "credit": "Photo: Carsten Steger, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_Palace_of_Caserta_(view_from_the_south).jpg",
+        "title": "Caserta from the air"
+      },
+      "catherinePalace": {
+        "src": "/assets/history-deep/baroque-rococo/catherinePalace.jpg",
+        "alt": "The Catherine Palace at Tsarskoye Selo — Rastrelli's three-hundred-metre facade of turquoise, white and gold",
+        "credit": "Photo: Florstein, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catherine_Palace_in_Tsarskoe_Selo.jpg",
+        "title": "The Catherine Palace"
+      },
+      "cornaro": {
+        "src": "/assets/history-deep/baroque-rococo/cornaro.jpg",
+        "alt": "The Cornaro Chapel in Santa Maria della Vittoria, Rome — Bernini's Ecstasy of Saint Teresa in its theatre of marble and hidden light",
+        "credit": "Photo: Livioandronico2013, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cornaro_chapel_in_Santa_Maria_della_Vittoria_in_Rome_HDR.jpg",
+        "title": "The Cornaro Chapel"
+      },
+      "ilGesuCeiling": {
+        "src": "/assets/history-deep/baroque-rococo/ilGesuCeiling.jpg",
+        "alt": "The Triumph of the Name of Jesus by Giovanni Battista Gaulli across the nave vault of Il Gesù, Rome",
+        "credit": "Photo: Alessio Damato, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_gesu_ceiling_hdr.jpg",
+        "title": "The Gesù ceiling"
+      },
+      "ilGesuNave": {
+        "src": "/assets/history-deep/baroque-rococo/ilGesuNave.jpg",
+        "alt": "The nave of Il Gesù, Rome — the wide preaching space Vignola gave the Jesuits, aimed at its gilded altar",
+        "credit": "Photo: Fczarnowski, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiesa_il_Gesu_-Roma_fc09.jpg",
+        "title": "Inside Il Gesù"
+      },
+      "karlskirche": {
+        "src": "/assets/history-deep/baroque-rococo/karlskirche.jpg",
+        "alt": "The Karlskirche, Vienna, by night — Fischer von Erlach's dome between temple portico and triumphal columns",
+        "credit": "Photo: Diego Delso, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Carlos_Borromeo,_Viena,_Austria,_2020-01-31,_DD_164-166_HDR.jpg",
+        "title": "The Karlskirche by night"
+      },
+      "lecce": {
+        "src": "/assets/history-deep/baroque-rococo/lecce.jpg",
+        "alt": "The facade of Santa Croce, Lecce, carved in the city's soft golden limestone",
+        "credit": "Photo: Benjamin Smith, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lecce_-_Santa_Croce_-_01.jpg",
+        "title": "Santa Croce, Lecce"
+      },
+      "louvreColonnade": {
+        "src": "/assets/history-deep/baroque-rococo/louvreColonnade.jpg",
+        "alt": "Perrault's Colonnade, the east front of the Louvre, Paris",
+        "credit": "Photo: Fred Romero, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_Palais_du_Louvre,_Colonnade_de_Perrault,_9_December_2016.jpg",
+        "title": "The Louvre Colonnade"
+      },
+      "melk": {
+        "src": "/assets/history-deep/baroque-rococo/melk.jpg",
+        "alt": "Melk Abbey above the Danube — Prandtauer's church front between its two towers",
+        "credit": "Photo: Uoaei1, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stift_Melk_Westseite_01.jpg",
+        "title": "Melk Abbey"
+      },
+      "nancyStanislas": {
+        "src": "/assets/history-deep/baroque-rococo/nancyStanislas.jpg",
+        "alt": "Place Stanislas, Nancy, by night — Héré's royal square behind its gilded gates",
+        "credit": "Photo: Krzysztof Golik, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:6-14_place_Stanislas_in_Nancy_01.jpg",
+        "title": "Place Stanislas by night"
+      },
+      "noto": {
+        "src": "/assets/history-deep/baroque-rococo/noto.jpg",
+        "alt": "Noto Cathedral, Sicily — the golden Baroque townscape rebuilt after the earthquake of 1693",
+        "credit": "Photo: VanSky Studio, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_San_Nicol%C3%B2,_Noto,_Sicily.jpg",
+        "title": "Noto Cathedral"
+      },
+      "ouroPreto": {
+        "src": "/assets/history-deep/baroque-rococo/ouroPreto.jpg",
+        "alt": "The portal of São Francisco de Assis, Ouro Preto — soapstone carving by the Aleijadinho",
+        "credit": "Photo: Ricardo André Frantz, via Wikimedia Commons (CC BY 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aleijadinho_-_Portada_da_Igreja_de_S%C3%A3o_Francisco_de_Ouro_Preto.jpg",
+        "title": "The Aleijadinho's portal, Ouro Preto"
+      },
+      "palazzoMadamaStair": {
+        "src": "/assets/history-deep/baroque-rococo/palazzoMadamaStair.jpg",
+        "alt": "Juvarra's staircase hall at Palazzo Madama, Turin — a double stair washed in light",
+        "credit": "Photo: Marie-Lan Taÿ Pamart, via Wikimedia Commons (CC BY 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_staircase_Palazzo_Madama.jpg",
+        "title": "The Palazzo Madama staircase"
+      },
+      "piazzaNavona": {
+        "src": "/assets/history-deep/baroque-rococo/piazzaNavona.jpg",
+        "alt": "Piazza Navona, Rome — Bernini's Fountain of the Four Rivers before Borromini's Sant'Agnese",
+        "credit": "Photo: Alvesgaspar, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fontana_dei_Quattro_Fiumi_(Piazza_Navona)_September_2015-1.jpg",
+        "title": "Piazza Navona"
+      },
+      "sagrario": {
+        "src": "/assets/history-deep/baroque-rococo/sagrario.jpg",
+        "alt": "The Sagrario Metropolitano, Mexico City — Lorenzo Rodríguez's Churrigueresque facade of 1749–68",
+        "credit": "Photo: Luisalvaz, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fachada_lateral_del_Sagrario_metropolitano_de_la_Ciudad_de_M%C3%A9xico_03.jpg",
+        "title": "The Sagrario, Mexico City"
+      },
+      "salute": {
+        "src": "/assets/history-deep/baroque-rococo/salute.jpg",
+        "alt": "Santa Maria della Salute, Venice — Longhena's votive church at the mouth of the Grand Canal",
+        "credit": "Photo: Wolfgang Moroder, via Wikimedia Commons (CC BY 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_Santa_Maria_della_Salute_Dorsoduro_Venezia.jpg",
+        "title": "The Salute, Venice"
+      },
+      "sanCarlino": {
+        "src": "/assets/history-deep/baroque-rococo/sanCarlino.jpg",
+        "alt": "The undulating facade of San Carlo alle Quattro Fontane, Rome — Borromini's wall in motion",
+        "credit": "Photo: Architas, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Carlo_alle_Quattro_Fontane_-_Front.jpg",
+        "title": "San Carlino's facade"
+      },
+      "sanCarlinoDome": {
+        "src": "/assets/history-deep/baroque-rococo/sanCarlinoDome.jpg",
+        "alt": "The coffered oval dome of San Carlo alle Quattro Fontane, shrinking toward its lantern",
+        "credit": "Photo: Nhartmannphotos, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Carlo_alle_Quattro_Fontane_1,_Rome.jpg",
+        "title": "The dome of San Carlino"
+      },
+      "sanLorenzoDome": {
+        "src": "/assets/history-deep/baroque-rococo/sanLorenzoDome.jpg",
+        "alt": "Guarini's dome in San Lorenzo, Turin — interlaced ribs weaving a star of light",
+        "credit": "Photo: Elisa Marianini, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guarino_Guarini_cupola_san_Lorenzo.jpg",
+        "title": "Guarini's dome, San Lorenzo"
+      },
+      "santIgnazioCeiling": {
+        "src": "/assets/history-deep/baroque-rococo/santIgnazioCeiling.jpg",
+        "alt": "Andrea Pozzo's ceiling in Sant'Ignazio, Rome — the church's architecture continued into heaven",
+        "credit": "Photo: Wilfredor, via Wikimedia Commons (CC0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Triumph_of_St._Ignatius_of_Loyola,_ceiling_fresco_by_Andrea_Pozzo.jpg",
+        "title": "Pozzo's ceiling, Sant'Ignazio"
+      },
+      "santIvo": {
+        "src": "/assets/history-deep/baroque-rococo/santIvo.jpg",
+        "alt": "The spiral lantern of Sant'Ivo alla Sapienza, Rome — Borromini's corkscrew crown",
+        "credit": "Photo: MM; derivative work by Wilfredor, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:RomaSIvoSapienzaCupola_edited.jpg",
+        "title": "The lantern of Sant'Ivo"
+      },
+      "soubise": {
+        "src": "/assets/history-deep/baroque-rococo/soubise.jpg",
+        "alt": "The Salon de la Princesse at the Hôtel de Soubise, Paris — Boffrand's oval Rococo room of mirrors and pale boiserie",
+        "credit": "Photo: NonOmnisMoriar, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salon_de_la_princesse_hotel_de_soubise.jpg",
+        "title": "The Salon de la Princesse"
+      },
+      "spanishSteps": {
+        "src": "/assets/history-deep/baroque-rococo/spanishSteps.jpg",
+        "alt": "The Spanish Steps, Rome — a scenographic stair climbing to Trinità dei Monti",
+        "credit": "Photo: Perituss, via Wikimedia Commons (CC0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spanish_Steps_2014.jpg",
+        "title": "The Spanish Steps"
+      },
+      "stAndreaQuirinale": {
+        "src": "/assets/history-deep/baroque-rococo/stAndreaQuirinale.jpg",
+        "alt": "Inside the dome of Sant'Andrea al Quirinale, Rome — Bernini's oval church for the Jesuit novitiate",
+        "credit": "Photo: Livioandronico2013, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sant%27Andrea_al_Quirinale_-_Dome.jpg",
+        "title": "Sant'Andrea al Quirinale"
+      },
+      "stPauls": {
+        "src": "/assets/history-deep/baroque-rococo/stPauls.jpg",
+        "alt": "The west front of St Paul's Cathedral, London — Wren's classical screen between two Baroque towers",
+        "credit": "Photo: JackPeasePhotography, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Paul%27s_Cathedral_%E2%80%93_West_front.jpg",
+        "title": "St Paul's west front"
+      },
+      "stPetersFacade": {
+        "src": "/assets/history-deep/baroque-rococo/stPetersFacade.jpg",
+        "alt": "Maderno's facade of St Peter's, Rome, with Michelangelo's dome behind",
+        "credit": "Photo: Alvesgaspar, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg",
+        "title": "The facade of St Peter's"
+      },
+      "stPetersSquare": {
+        "src": "/assets/history-deep/baroque-rococo/stPetersSquare.jpg",
+        "alt": "St Peter's Square from the dome — Bernini's colonnades embracing the piazza and its obelisk",
+        "credit": "Photo: Adam Lusch, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Peter%27s_Square_(52460857983).jpg",
+        "title": "St Peter's Square from above"
+      },
+      "stupinigi": {
+        "src": "/assets/history-deep/baroque-rococo/stupinigi.jpg",
+        "alt": "The Palazzina di Stupinigi near Turin — Juvarra's hunting palace spread along its axis",
+        "credit": "Photo: Paris Orlando, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Palazzina_di_caccia_of_Stupinigi.jpg",
+        "title": "Stupinigi"
+      },
+      "superga": {
+        "src": "/assets/history-deep/baroque-rococo/superga.jpg",
+        "alt": "The Basilica of Superga above Turin — Juvarra's votive church and Savoy mausoleum",
+        "credit": "Photo: Paris Orlando, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_di_Superga_(Turin).jpg",
+        "title": "Superga"
+      },
+      "trevi": {
+        "src": "/assets/history-deep/baroque-rococo/trevi.jpg",
+        "alt": "The Trevi Fountain, Rome — a cliff of travertine and water at the end of the ancient aqueduct",
+        "credit": "Photo: Diego Delso, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fuente_de_Trevi,_Roma,_Italia,_2022-09-15,_DD_02.jpg",
+        "title": "The Trevi Fountain"
+      },
+      "vaux": {
+        "src": "/assets/history-deep/baroque-rococo/vaux.jpg",
+        "alt": "Vaux-le-Vicomte — the château Le Vau, Le Brun and Le Nôtre composed as one work",
+        "credit": "Photo: Jebulon, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vaux_le_vicomte_1.jpg",
+        "title": "Vaux-le-Vicomte"
+      },
+      "versaillesMirrors": {
+        "src": "/assets/history-deep/baroque-rococo/versaillesMirrors.jpg",
+        "alt": "The Hall of Mirrors, Versailles — the gallery whose mirrors answer the garden windows",
+        "credit": "Photo: Myrabella, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_Versailles_Galerie_des_Glaces.jpg",
+        "title": "The Hall of Mirrors"
+      },
+      "vierzehnheiligen": {
+        "src": "/assets/history-deep/baroque-rococo/vierzehnheiligen.jpg",
+        "alt": "The ceiling of Vierzehnheiligen, Franconia — fresco and stucco dissolving the vault above Neumann's oval plan",
+        "credit": "Photo: Ermell, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vierzehnheiligen_3070582_HDR.jpg",
+        "title": "The Vierzehnheiligen ceiling"
+      },
+      "wieskirche": {
+        "src": "/assets/history-deep/baroque-rococo/wieskirche.jpg",
+        "alt": "The Wieskirche at Steingaden — the Zimmermann brothers' pilgrimage church of light and white stucco",
+        "credit": "Photo: pipimaru, via Wikimedia Commons (CC BY-SA 2.1)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wieskirche_rococo_interior.jpg",
+        "title": "Inside the Wieskirche"
+      },
+      "winterPalace": {
+        "src": "/assets/history-deep/baroque-rococo/winterPalace.jpg",
+        "alt": "The Winter Palace, St Petersburg, from Palace Square — Rastrelli's facade for the Empress Elizabeth",
+        "credit": "Photo: Matthias Süßen, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winter_Palace-2025-09-msu---2712.jpg",
+        "title": "The Winter Palace"
+      },
+      "wuerzburgStair": {
+        "src": "/assets/history-deep/baroque-rococo/wuerzburgStair.jpg",
+        "alt": "The staircase of the Würzburg Residenz — Neumann's unsupported vault beneath Tiepolo's ceiling of the Four Continents",
+        "credit": "Photo: Edelseider, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Treppenhaus_der_W%C3%BCrzburger_Residenz_mit_Deckenfresko_von_Tiepolo_2017.jpg",
+        "title": "The Würzburg staircase"
+      },
+      "zacatecas": {
+        "src": "/assets/history-deep/baroque-rococo/zacatecas.jpg",
+        "alt": "Zacatecas Cathedral, Mexico — its carved facade of pink cantera stone",
+        "credit": "Photo: AlejandroLinaresGarcia, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zacatecas001.jpg",
+        "title": "Zacatecas Cathedral"
+      },
+      "zwiefalten": {
+        "src": "/assets/history-deep/baroque-rococo/zwiefalten.jpg",
+        "alt": "Inside Zwiefalten Minster — columns, fresco and stucco in the Swabian late Baroque",
+        "credit": "Photo: PiotrMig, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_Zwiefalten_Minster,_Nave.jpg",
+        "title": "Zwiefalten Minster"
+      }
+    },
+    "standfirst": "The Baroque was the first truly global style of architecture, and the first to be designed, quite deliberately, as an experience: a church that overwhelms, a palace that stages its prince, a square that gathers a crowd into a single gesture. This complete history follows it from Counter-Reformation Rome through the Rome of Bernini and Borromini, out to Versailles, Vienna, St Petersburg, Mexico City and Ouro Preto, and watches it soften, at the end, into the Rococo — the same intelligence of space and ornament turned intimate. It teaches the reader, chapter by chapter, to recognise the Baroque's moving walls, painted heavens and scenographic cities, and to tell them from the lighter, asymmetrical world of the Rococo that followed.",
+    "intro": [
+      "This book tells the whole story of Baroque and Rococo architecture, from the rebuilding of Rome after the Council of Trent to the moment, around 1760, when a new generation renamed the recent past an embarrassment and set about replacing it. The narrative chapters begin in Rome, where the style was invented as an instrument of persuasion by a Church and a papacy that had learned to think theatrically, and where two rivals — Gian Lorenzo Bernini, the sculptor who organised space like a stage, and Francesco Borromini, the mason who bent it like music — set the terms in which Europe would build for a century. From Rome the story follows the style's translations: disciplined in France into the classicism of Versailles, exuberant in Spain and exported to the Americas, structural and visionary in Turin, dissolved into light and stucco in the churches of Austria and Bavaria, restrained in Protestant England, and stretched to its most opulent in the St Petersburg of the empresses. A full chapter belongs to the Rococo, the style's intimate second act, and the closing chapters teach the reader to identify both manners in the field, walk their scenographic cities, and judge what they still have to teach.",
+      "A word of honesty about words. Neither 'Baroque' nor 'Rococo' is a name the seventeenth century gave itself: both began as insults — barroco, probably from the Portuguese word for a misshapen pearl, flung at the style by the classicising critics who buried it; rococo, a Parisian joke of the 1790s fusing rocaille and baroque, aimed at the decoration of the previous generation. The architects in this book called their work modern, Roman, French or simply correct. Dates on the cover describe the style's creative life in its heartlands, roughly 1600 to 1760; on Europe's edges and across the oceans the Baroque was still being built, gloriously, decades after Paris had moved on, and the text says so where it matters. The Rococo is treated here as what it was: not a separate style with a separate birth, but the Baroque's own late phase in the interior — lighter, smaller, asymmetrical — centred on France and southern Germany.",
+      "The sources for a history of this span are of three kinds, and the book keeps them distinct. First, the buildings themselves, surveyed, restored and argued over by generations of scholars, remain the primary evidence; where a structural or a spatial claim is made, it follows the measured literature and the surviving fabric. Second, the documents of practice: treatises and pattern books, the accounts of Bernini's biographers Baldinucci and Domenico Bernini, Borromini's drawings at the Albertina, the building accounts of Versailles and the great German residences. Third, the modern scholarship credited in the bibliography, above all Rudolf Wittkower's Art and Architecture in Italy, 1600–1750, which returned the Italian Baroque to serious history, Christian Norberg-Schulz's great Electa surveys, and Anthony Blunt's Baroque and Rococo, alongside the institutional resources listed in the sources — the Metropolitan Museum's Heilbrunn Timeline and the UNESCO listings among them. The text itself is an original synthesis written for this series: the facts are the common property of the discipline; the words, the selection and the judgements are this book's own."
+    ],
+    "keyFacts": [
+      [
+        "Period",
+        "Baroque c. 1600–1750 in its European heartlands, later on the peripheries and in the colonies; Rococo c. 1720–1770, overlapping the late Baroque it grew from"
+      ],
+      [
+        "Where",
+        "Born in Rome; carried to France, Spain, Austria, Germany, England, Russia and — by empire and mission — to Latin America, Goa and the Philippines"
+      ],
+      [
+        "Signature",
+        "Space organised as drama: oval and undulating plans, walls that advance and recede, colossal orders, ceilings opened to painted heavens, and architecture, sculpture and painting fused into one persuasive whole — the bel composto"
+      ],
+      [
+        "Key figures",
+        "Gian Lorenzo Bernini; Francesco Borromini; Pietro da Cortona; Andrea Pozzo; Guarino Guarini; Filippo Juvarra; Louis Le Vau; Jules Hardouin-Mansart; Johann Bernhard Fischer von Erlach; Balthasar Neumann; Christopher Wren; Bartolomeo Rastrelli"
+      ],
+      [
+        "Landmark buildings",
+        "St Peter's Square, Rome (1656–67); San Carlo alle Quattro Fontane (1634–67); the Hall of Mirrors, Versailles (1678–84); the Karlskirche, Vienna (1716–37); the Würzburg Residenz staircase (1737–44); the Catherine Palace, Tsarskoye Selo (1752–56)"
+      ],
+      [
+        "Ended by",
+        "No single blow: archaeology and Enlightenment taste recast its licence as bad manners, Winckelmann and the excavations at Pompeii armed a plainer classicism, and the word 'baroque' itself survived as the insult that buried it — until Wölfflin dug it up as a category in 1888"
+      ]
+    ],
+    "timeline": [
+      [
+        "1545–63",
+        "The Council of Trent reforms the Catholic Church and, in its final sessions, commends images as instruments of teaching and devotion. The Baroque is the architecture of that decision: art conscripted to persuade the senses toward faith."
+      ],
+      [
+        "1568",
+        "Building begins on Il Gesù in Rome, the Jesuits' mother church, to designs by Vignola with a facade by Giacomo della Porta. Its wide, single-naved plan, built for preaching to crowds, becomes the most copied church type of the Catholic world."
+      ],
+      [
+        "1585–90",
+        "Pope Sixtus V and his architect Domenico Fontana re-plan Rome: straight streets cut between the great basilicas, obelisks raised as waymarks — the Vatican obelisk moved in 1586 in the century's most famous feat of engineering — and fountains set where the new streets arrive."
+      ],
+      [
+        "c. 1612",
+        "Carlo Maderno completes the facade of St Peter's, extending Michelangelo's church into a longitudinal basilica. The broad, columned front — criticised ever since for hiding the dome — fixes the public face of Roman Baroque."
+      ],
+      [
+        "1624–33",
+        "Bernini's Baldacchino rises over the high altar of St Peter's: four twisted bronze columns, cast partly from the Pantheon's portico, carrying a canopy that makes sculpture do the work of architecture at the crossing of the largest church in Christendom."
+      ],
+      [
+        "1634",
+        "Borromini begins San Carlo alle Quattro Fontane, the little church — it would fit inside one pier of St Peter's, contemporaries said — whose undulating facade and oval dome announce that a wall need never be straight again."
+      ],
+      [
+        "1656–67",
+        "Bernini lays out St Peter's Square: two semicircular colonnades, four columns deep, gathering the crowd into what he called the motherly arms of the Church. Rome's greatest room is outdoors."
+      ],
+      [
+        "1661",
+        "Louis XIV visits the new château of Vaux-le-Vicomte, built for his finance minister by Le Vau, Le Brun and Le Nôtre — and arrests the minister within the month. The team is transferred to Versailles, and the French Baroque becomes an instrument of the state."
+      ],
+      [
+        "1667–70",
+        "The east front of the Louvre in Paris is built to Claude Perrault's design: a long, flat colonnade of paired columns that pointedly refuses Roman movement. France declares its Baroque will be classical, measured and its own."
+      ],
+      [
+        "1675",
+        "Christopher Wren begins St Paul's Cathedral in London, rebuilt after the Great Fire. Raised over thirty-five years, it gives Protestant England a Baroque of restrained mass and brilliant planning rather than Roman illusion."
+      ],
+      [
+        "1678–84",
+        "Jules Hardouin-Mansart and Charles Le Brun build the Hall of Mirrors at Versailles: seventeen windows answered by seventeen arches of mirror glass, the garden turned into light and carried indoors — the most influential room of the century."
+      ],
+      [
+        "1691–94",
+        "Andrea Pozzo paints the ceiling of Sant'Ignazio in Rome, extending the church's architecture into a painted heaven on a single, calculated point of view. Quadratura — perspective painting as building — reaches its theoretical and visual summit."
+      ],
+      [
+        "1693",
+        "An earthquake destroys the Val di Noto in south-eastern Sicily. The rebuilding, over the next half-century, gives Europe its most complete Baroque townscape: Noto, Ragusa, Modica and Catania in golden limestone."
+      ],
+      [
+        "1716",
+        "Johann Bernhard Fischer von Erlach begins the Karlskirche in Vienna, vowed by the Emperor Charles VI during the plague. Its dome, temple portico and two triumphal columns compose an encyclopaedia of architecture into a single imperial church."
+      ],
+      [
+        "1720",
+        "Balthasar Neumann, a former artillery officer, begins work at the Würzburg Residenz. Its staircase hall — a single unsupported vault the width of a ballroom — will carry the largest ceiling fresco in the world, painted by Tiepolo in 1752–53."
+      ],
+      [
+        "c. 1737",
+        "In Paris, Germain Boffrand completes the Salon de la Princesse at the Hôtel de Soubise: an oval room of mirrors, pale boiserie and dissolving ornament. The Rococo has its manifesto — the Baroque's drama, miniaturised for conversation."
+      ],
+      [
+        "1743–54",
+        "Neumann builds the pilgrimage church of Vierzehnheiligen in Franconia, its plan a dance of interlocking ovals around the altar of the Fourteen Holy Helpers — the German late Baroque at its most spatial and its most tender."
+      ],
+      [
+        "1755",
+        "Winckelmann publishes his Thoughts on the Imitation of Greek Works, arming the new classicism; on 1 November an earthquake destroys Lisbon, and the Marquis of Pombal rebuilds its centre on a rational grid. The age of taste turns against the age of wonder."
+      ],
+      [
+        "1756",
+        "Bartolomeo Rastrelli completes the Catherine Palace at Tsarskoye Selo for the Empress Elizabeth: three hundred metres of turquoise, white and gold. Within a decade the next empress, Catherine the Great, will call it whipped cream and build against it."
+      ],
+      [
+        "1888",
+        "Heinrich Wölfflin publishes Renaissance und Barock in Munich, taking the critics' insult and making it a category of art history. The Baroque begins its second life — as this book's subject."
+      ]
+    ],
+    "chapters": [
+      {
+        "id": "an-architecture-of-persuasion",
+        "numeral": "I",
+        "title": "An Architecture of Persuasion",
+        "sections": [
+          {
+            "heading": "A word that began as an insult",
+            "figure": "stPetersSquare",
+            "paras": [
+              "Stand in St Peter's Square at eight in the morning, before the crowds, and you are standing inside the Baroque's own explanation of itself. The colonnades do not enclose the space so much as gather it; the obelisk does not mark a point so much as organise a field; the facade across the far end is not a wall but a destination. Nothing here is neutral. Every element has been sized, spaced and lit to act upon a person — to make a pilgrim feel received by something larger than himself and persuaded, before a word is spoken, of the power and the welcome of the institution that built it. That is the Baroque: architecture practised as persuasion.",
+              "The style did not call itself that. Baroque is a word its enemies gave it — probably from barroco, the Portuguese jewellers' term for a pearl of irregular shape, pressed into service by eighteenth-century critics who found the art of the previous century deformed, excessive and irrational. The architects of the seventeenth century used other words: they spoke of building in the modern manner, in the Roman manner, correctly, magnificently. When Heinrich Wölfflin published Renaissance und Barock in 1888 and turned the insult into a category, he defined the style by its opponents' complaints refined into principles: movement instead of repose, mass and weight handled as drama, forms that blur and merge rather than stand clear, light used as an actor rather than a condition. Two and a half centuries of abuse had, between them, written a fair description.",
+              "This book uses the word in Wölfflin's redeemed sense, for the architecture built across Catholic and then Protestant Europe — and exported far beyond Europe — between about 1600 and about 1750, with its late, lightened phase, the Rococo, running from about 1720 to 1770 inside it. The dates are heartland dates. In Rome the manner is fully formed by the 1630s; in Bavaria its greatest churches are of the 1740s; in Brazil and Russia it is still rising, gloriously, in the 1760s and beyond. Styles do not keep railway time, and the Baroque least of all: it travelled at the speed of orders, courts and silver fleets."
+            ]
+          },
+          {
+            "heading": "The ingredients: movement, mass, light",
+            "paras": [
+              "The Baroque's first ingredient is movement — real and implied. Plans abandon the static symmetries of circle and square for the oval, the wave and the interlocking curve, shapes that have a direction and a tempo. Walls, the element Renaissance architecture had kept flat and legible, begin to advance and recede, to swell toward the street and retreat from it, carrying their columns and entablatures with them like a body turning. The second ingredient is mass handled dramatically: the colossal order binding two storeys into one gesture, domes stacked on drums and crowned with lanterns, stone made to look simultaneously heavier and more buoyant than it is. The third is light — not the even illumination of a Renaissance interior but light directed, concealed, coloured and timed: a hidden window over an altarpiece, a gilded blaze above a cornice, a shaft falling exactly where the ceremony needs it.",
+              "Above all, the Baroque refuses the separation of the arts. Its characteristic invention is what Bernini's circle called the bel composto, the beautiful compound: a chapel in which sculpture performs inside an architecture of coloured marble, under a frescoed heaven, lit by a window you cannot see, while painted and sculpted witnesses lean from the walls to watch with you. Painting, quadratura, extends the building upward in fictive architecture until the real vault is indistinguishable from the imagined one. Stucco, cheap and fast, lets every junction foam into ornament. The aim is a single overwhelming impression — meraviglia, wonder — delivered to a body standing in a designed spot, and the measure of the style is that the spot is always designed too."
+            ]
+          },
+          {
+            "heading": "Why then, why there",
+            "paras": [
+              "The Baroque was born in Rome because Rome had three things no other city could match: a programme, a purse and a past. The programme came from the Council of Trent (1545–63), the Catholic Church's answer to the Reformation, which in its final sessions affirmed the power of images to teach and move the faithful — and thereby commissioned, in effect, a century of seductive sacred art. The new orders, above all the Jesuits, built for preaching, for processions, for the conversion of the senses; the popes, elected monarchs competing with the courts of Europe, rebuilt their capital as the theatre of that claim. The purse was the revenue of the largest institution in Europe, spent by families — Barberini, Borghese, Chigi, Pamphilj — who treated Rome as a board on which to advertise a reign of a few years in stone meant to last forever. The past was antiquity itself underfoot: the Baroque's columns and domes quote imperial Rome at full volume, and its planners cut their streets between the monuments of both Romes, pagan and Christian, as if to stitch them into one argument.",
+              "From Rome the style spread along the two great networks of the century: the Church — its orders, missions and pilgrim roads carried the manner to Naples and Sicily, to Bavaria and Bohemia, to Mexico, Peru, Brazil, Goa and the Philippines — and the courts, where absolutist princes from Versailles to St Petersburg recognised in the Roman Baroque a ready-made language of power and improved it with their own accents. It met resistance and translation in equal measure: France disciplined it into classicism, England restrained it into geometry, Spain encrusted it, Germany dissolved it into light. Those translations are the subject of the chapters that follow. But everything begins here, in the city that taught architecture to persuade."
+            ]
+          },
+          {
+            "heading": "The shape of this book",
+            "paras": [
+              "The chapters that follow are arranged as the style itself travelled: Rome first — its replanning, its completion of St Peter's, its two rival geniuses, its painted heavens — then the Italian courts and the south; then France, Spain and the colonial world, Austria and Germany, England and Russia; then the Rococo turn; then three chapters of equipment for the reader — how to identify the styles in the field, how their scenographic cities work, and how the whole manner fell and rose again. Buildings recur deliberately: the great ones are visited at the moment of their making and revisited as evidence when the argument needs them. Read straight through, the book is a history; read with the reading chapter open beside you, it is a field guide; the two uses are intended to end in the same place — standing in a Baroque room, knowing what it is doing to you, and enjoying it anyway."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rome-rebuilt",
+        "numeral": "II",
+        "title": "Rome Rebuilt: The Scenographic City",
+        "sections": [
+          {
+            "heading": "Sixtus V and the Christian city",
+            "figure": "piazzaNavona",
+            "paras": [
+              "The Baroque begins as town planning. When Felice Peretti ascended the papal throne as Sixtus V in 1585, Rome was a shrunken city camped in the ruins of an imperial one: its hundred thousand inhabitants huddled along the Tiber's bend while the hills — covered in vineyards, ruins and the great pilgrimage basilicas — stood nearly empty. In five years Sixtus and his architect-engineer Domenico Fontana redrew the capital. Straight streets were cut across the hills linking the basilicas — Santa Maria Maggiore to the Lateran, to Santa Croce, to the Colosseum, to the northern gate — so that the pilgrim's Rome became a legible system of routes between shrines. At the nodes of the system Fontana set the city's ancient obelisks, re-erected on new bases and crowned with crosses: Egyptian trophies conscripted as signposts of the Christian city.",
+              "The engineering was itself a spectacle. The Vatican obelisk — some 25 metres of red granite, the only one in Rome still standing where the Romans had put it — was lowered, carried and raised before St Peter's in 1586 by 900 men and 75 horses working to Fontana's machines, in a silence enforced on pain of death, legend says, until a sailor's cry to wet the ropes saved the lift. Sixtus intended the lesson: the Church commanded the techniques, the antiquities and the future of the city at once. Water followed the streets: the restored Acqua Felice aqueduct brought fountains to the hills, and where the water arrived, building followed. Almost everything the next century did in Rome — every axis Bernini terminated, every piazza that gathered a crowd — works inside Sixtus's armature."
+            ]
+          },
+          {
+            "heading": "Streets, obelisks, water",
+            "paras": [
+              "The new Rome was a machine for ceremony. Its streets were not traffic conveniences but processional routes, designed to be read at walking pace by crowds moving between stations of devotion; its obelisks and columns — Trajan's and Marcus Aurelius's re-crowned with statues of Peter and Paul — gave the eye a chain of vertical accents by which to navigate a city still largely unbuilt between its monuments. Baroque planners everywhere learned the device: the long straight vista closed by a vertical accent, the street as a sentence with the punctuation at the end. Versailles, Karlsruhe, St Petersburg and Washington all descend from the diagram Sixtus drew across the Roman hills.",
+              "The system had a Baroque flaw built into its glory: it was composed for movement and effect, not for the convenience of the quarters it cut through, and the Rome of ordinary housing filled in slowly and haphazardly behind the ceremonial fronts. But as an idea — the capital as a staged whole, legible at a glance, its monuments connected into one persuasive composition — it is the foundation on which the century built."
+            ]
+          },
+          {
+            "heading": "The pilgrim's Rome becomes a stage",
+            "figure": "spanishSteps",
+            "paras": [
+              "The seventeenth century furnished Sixtus's armature with set pieces. Piazza Navona, the elongated stadium of Domitian preserved as a marketplace, was remade under Innocent X Pamphilj as his family's front garden: Bernini's Fountain of the Four Rivers (1648–51) raised its obelisk over a grotto of river gods, and Borromini's concave facade of Sant'Agnese closed the western side — rival geniuses facing each other across the most theatrical room in Rome. The story that Bernini's river god shields his eyes from the imminent collapse of Borromini's church is too good to be true and too good to drop: the fountain was finished before the facade was begun, but the anecdote records a real condition — in Baroque Rome, architecture was public theatre, and its feuds were part of the show.",
+              "The habit of staging the city outlived its makers. The Spanish Steps (1723–25), Francesco de Sanctis's great bifurcating stair from the Piazza di Spagna to the French church of Trinità dei Monti, is urban design as pure scenography — a stair that is really a terraced piazza for watching Rome watch itself. The Trevi Fountain (1732–62), Nicola Salvi's palace facade dissolved into cliff and cascade where an ancient aqueduct surfaces, ends the tradition at full volume: the city's infrastructure, its water, turned into the last act of a play."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "st-peters-completed",
+        "numeral": "III",
+        "title": "St Peter's Completed",
+        "sections": [
+          {
+            "heading": "Maderno's nave and the facade Rome argued about",
+            "figure": "stPetersFacade",
+            "paras": [
+              "The church that the Baroque inherited was a ruin of intentions: Bramante's and Michelangelo's Greek-cross St Peter's stood complete as a crossing and dome but unusable as the seat of papal ceremony, which needed a long nave for processions and congregations. Between 1607 and 1612 Carlo Maderno — the Ticinese architect who had already finished the facade of Santa Susanna, Rome's first fully Baroque church front — extended the church eastward by three bays and closed it with the great facade: eight colossal columns and four pilasters carrying an attic inscribed, in letters two metres high, with the name of Paul V Borghese. Rome has argued about it ever since. The facade is too wide for its height, the critics said then and say now; from the square it fills the view and hides the dome behind it, so that Michelangelo's cupola — the building's crown — only reveals itself as you back away across the Tiber. All true, and all the price of the bargain every Baroque patron struck: the institution's name on the front, the architect's masterpiece behind.",
+              "Inside, Maderno's extension changed the experience of the church from a single overwhelming centrality to a Baroque sequence: a barrel-vaulted nave of gilded stucco and colossal piers carrying the eye in stages toward the distant crossing, where the dome's light falls and where the next reign would place the building's burning point. The longitudinal St Peter's is less perfect than Michelangelo's and more usable — a preaching and processional machine of overwhelming scale. The Baroque chose theatre over diagram, and the choice is the style's first principle."
+            ]
+          },
+          {
+            "heading": "The crossing crowned: the Baldacchino",
+            "figure": "baldacchino",
+            "paras": [
+              "In 1624 the twenty-five-year-old Gian Lorenzo Bernini, already the most famous sculptor in Europe, was commissioned by Urban VIII Barberini to make the furnishing that would crown the crossing: a baldachin over the high altar, directly beneath the dome and above the tomb of St Peter. What he built between 1624 and 1633 defied every category. It is the size of a palace — its four twisted columns rise some twenty metres, the whole structure nearly twenty-nine — yet it is furniture: a canopy, the honorific cloth of state made permanent. The columns, bronze cast in sections (some of the metal notoriously stripped from the Pantheon's portico, prompting the pasquinade that what the barbarians did not do, the Barberini did), twist upward in the Solomonic spiral associated with the Temple in Jerusalem and with the columns of the old basilica; putti swarm among vines and the Barberini bees; volutes and angels lift a canopy that dissolves into a cross.",
+              "The Baldacchino's audacity is structural as well as symbolic: it had to read as light and provisional — a processional canopy caught mid-ceremony — at a scale where any error of proportion would be crushing. Bernini solved it by designing in the round and in motion, for a viewer approaching down Maderno's nave; the columns' twist sets the whole bronze turning slowly as you advance. It remains the High Baroque's manifesto in metal: architecture, sculpture and liturgy fused, the arts indistinguishable, the effect calculated to the metre."
+            ]
+          },
+          {
+            "heading": "The square that embraces",
+            "paras": [
+              "The last piece was the setting. The space before the facade had been a shapeless slope of lanes; Alexander VII Chigi commissioned Bernini in 1656 to make it a square worthy of the church and capable of holding the crowds of the great feasts. Bernini's solution, built by 1667, is the most famous urban room in Europe: a trapezoidal forecourt that corrects the facade's width by perspective, opening into two semicircular colonnades — 284 Doric columns in four rows, carrying 140 statues of saints — that reach out from the church like, in his own reported words, the motherly arms of the Church, to receive Catholics, confirm them in their faith, and embrace the separated to reunite them. Sixtus V's obelisk stands at the centre; twin fountains mark the foci of the ellipse; from two discs set in the paving, the four rows of columns align into one — the designer's signature hidden in the pavement for the curious.",
+              "What Bernini invented here is larger than a square. It is the idea that exterior space can be composed with the same completeness as an interior — furnished, lit, proportioned, given a liturgy of movement — and that a crowd can be shaped by architecture into a single body with a single feeling. Versailles' courtyards, Nancy's squares, the Capitol's approaches all descend from this oval. Rome's Baroque begins with Sixtus's streets; it achieves its classic statement when the streets deliver you, at last, into these arms."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bernini",
+        "numeral": "IV",
+        "title": "Bernini: The Sculptor Who Built",
+        "sections": [
+          {
+            "heading": "The pope's artist",
+            "figure": "cornaro",
+            "paras": [
+              "Gian Lorenzo Bernini (1598–1680) dominated Roman art for sixty years with a completeness no architect has matched since: sculptor of the century's defining marbles, designer of its fountains, squares and chapels, impresario of its ceremonies, and courtier to eight popes. Trained in the workshop of his father Pietro, a Mannerist sculptor, he was a prodigy whose early groups — the Apollo and Daphne, the David — announced the Baroque in marble before he had built a wall. His architecture grows from that sculptor's training: he thinks of buildings as figures in action, of spaces as gestures, of light as a material to be modelled. Where his rival Borromini began from geometry, Bernini began from the body and the eye.",
+              "His method was the bel composto, and his clients understood that they were buying not objects but effects: a chapel, a fountain, a square conceived as one impression. It made him indispensable and it made enemies; the history of Roman Baroque is in part the record of his ascendancy and of the single great failure — Paris, 1665, where his designs for the Louvre were set aside for a Frenchman's colonnade — that taught Europe's courts to want the Roman manner made by their own hands."
+            ]
+          },
+          {
+            "heading": "The Cornaro Chapel: theatre of the sacred",
+            "paras": [
+              "The chapel in Santa Maria della Vittoria that Cardinal Federico Cornaro commissioned in 1647 as his burial place contains the Baroque's most famous single work: the Ecstasy of Saint Teresa (1647–52). Teresa of Ávila, the Spanish Carmelite mystic canonised in 1622, had described a vision in which an angel pierced her heart with a golden dart, leaving her, in her words, utterly consumed by the love of God. Bernini carves the moment in white marble and suspends it — saint and angel on a cloud, drapery convulsed — above the altar, inside an architecture of coloured marbles: an aedicule whose broken pediment and paired columns frame the vision like a proscenium. Behind the marble, gilt-bronze rays pour down; above, frescoed angels open a stucco heaven; and the light that models the saint falls from a window concealed in the vault, so that the illumination itself seems miraculous.",
+              "The masterstroke is the audience Bernini carves for the miracle. In relief panels on the side walls, members of the Cornaro family — cardinals and doges, dead and living — lean from theatre boxes, gesturing and debating the vision like spectators at a play. The chapel collapses every distance: between the saint and heaven, between the event and its witnesses, between their century and yours. You do not look at the Cornaro Chapel; you take your seat in it. That complete fusion — architecture as stage, sculpture as actor, light as effect, the worshipper as audience — is the High Baroque in one room, and nothing in European art had done it before."
+            ]
+          },
+          {
+            "heading": "Sant'Andrea: the pearl on the Quirinal",
+            "figure": "stAndreaQuirinale",
+            "paras": [
+              "Against the Cornaro's theatre, set the oval. Sant'Andrea al Quirinale (1658–70), built for the Jesuit novitiate across from the papal palace, was the church Bernini himself loved best — his son and biographer Domenico reports that the old man would sit in it for his consolation, calling it his pearl. The plan is a transverse oval: you enter on the short axis, so the space opens sideways like arms, and the eye travels a curved wall of chapels toward an altar lit from a hidden source within a semicircular apse, where gilded stucco angels swoop above Guillaume Courtois's Martyrdom of St Andrew and the glory of rays gathers the light. Marble revetment in rose and grey, a coffered dome ribbed toward its lantern: every surface is calm, and the calm is engineered as precisely as the Cornaro's storm.",
+              "Sant'Andrea proves the range of the Baroque's central device. The oval is not a shape but an instrument: it directs attention without walls to stop it, gathers a congregation around a focus, and lets structure, ornament and light arrive at the eye as one chord. Borromini had built ovals before Bernini; Bernini made the type serene, and between the two of them the oval became the Baroque's signature in plan — the circle set in motion, perfection persuaded to move."
+            ]
+          },
+          {
+            "heading": "The old master of Rome",
+            "paras": [
+              "The catalogue of Bernini's Roman works is a syllabus of the style: the Scala Regia (1663–66), the Vatican's ceremonial stair, where a narrowing barrel vault and shrinking columns correct a difficult site into a perspective of effortless grandeur; the Cathedra Petri (1657–66), the gilded bronze throne in St Peter's apse, backlit by an amber window of the Holy Spirit in alabaster — the bel composto as the west end of the whole basilica; the Fountain of the Four Rivers; the elephant carrying an obelisk outside Santa Maria sopra Minerva; the church of Ariccia and the collegiate planning of Castel Gandolfo for the Chigi. Sculptor, architect, urbanist and stage manager, he treated Rome as a single commission.",
+              "His reputation survived even its disasters. The bell towers he added to Maderno's facade cracked and were demolished in 1646 amid public humiliation — his enemies, Borromini's party among them, made the most of it — and his eclipse under Innocent X lasted only until the pope saw the model of the Four Rivers fountain and showered him with the Navona commission anyway. When he died in 1680, at eighty-one, Rome understood that an age had ended. The Baroque he left behind was no longer his: it belonged to Europe, and to his rival's stranger posterity."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "borromini",
+        "numeral": "V",
+        "title": "Borromini: Geometry Set Dancing",
+        "sections": [
+          {
+            "heading": "The mason from Ticino",
+            "figure": "sanCarlino",
+            "paras": [
+              "Francesco Borromini (1599–1667) began at the opposite pole of the Roman art world from Bernini: an immigrant stonemason from Bissone in Ticino, born Francesco Castelli, who arrived in Rome in 1619 and cut stone at St Peter's under his kinsman Carlo Maderno. He learned the building trade from the scaffold up — carving, drafting, setting out — and the knowledge never left his architecture: Borromini designs like a man who will have to build the thing, in brick and stucco, with his own hands' knowledge of what a wall can do. His patrons were the religious orders — the Spanish Trinitarians, the Oratorians, the Sapienza — rather than the papal court, and his career is the obverse of Bernini's: fewer triumphs, deeper buildings.",
+              "The two men began as collaborators. Borromini worked under Bernini on the Baldacchino and at Palazzo Barberini, and the disputes over credit and payment that ended the partnership seeded the century's great artistic feud — Bernini's party brilliant, courtly, everywhere; Borromini solitary, suspicious, hoarding his drawings. The rivalry is usually told as temperament, but it is also a difference of architecture: Bernini composes for the eye of a spectator; Borromini constructs for the mind of a geometer. Rome, miraculously, got both at once."
+            ]
+          },
+          {
+            "heading": "San Carlino: a church the size of a pier",
+            "figure": "sanCarlinoDome",
+            "paras": [
+              "San Carlo alle Quattro Fontane — San Carlino, little St Charles, to the Romans — was commissioned in 1634 by the Spanish Trinitarians for a tight corner site, and contemporaries marvelled that the whole church would fit inside one of the four piers of St Peter's dome. On this postage stamp Borromini built the Baroque's most radical interior. The plan is generated from two equilateral triangles sharing a base, their points softened into a longitudinal lozenge whose walls curve in a continuous rhythm: convex at the ends, concave at the sides, the entablature running unbroken around the room like a ribbon, sixteen columns standing in the folds. Above, the oval dome's coffers — crosses, octagons, lozenges — shrink as they rise toward a lantern that pours light down the geometry. Nothing in the church is decoration applied to structure; the ornament is the structure's own arithmetic made visible.",
+              "The facade, built in 1665–67 at the very end of Borromini's life and finished by his nephew Bernardo after his death, carries the interior's rhythm into the street: three bays that billow — concave, convex, concave — across both storeys, the cornice breaking and rolling with them. It is the first facade in Europe whose whole surface moves as one wave, and every undulating front of the next century, from Guarini to the architects of Prague and Bavaria, descends from this small, fierce invention. Borromini left drawings and a written account of the church, the Opus Architectonicum, published long after his death: he knew exactly what he had done, and that Rome had not yet caught up."
+            ]
+          },
+          {
+            "heading": "Sant'Ivo and the spiral",
+            "figure": "santIvo",
+            "paras": [
+              "At the Sapienza, the university of Rome, Borromini built his other masterpiece inside a courtyard by Giacomo della Porta: Sant'Ivo (1642–60), the church of Saint Ives, patron of lawyers. The plan is a geometry lesson disguised as a puzzle — two equilateral triangles superimposed to form a six-pointed star, its points alternately rounded into apses and cut into concave niches, so the wall advances and retreats around the room in a single woven rhythm. Above the star, the dome rises in six segments to a lantern that is itself a small temple; and above that, the famous spire: a spiral ramp winding up to a flaming crown, part Tower of Babel, part snail, part the beacon of wisdom the university required. No silhouette in Rome is stranger, and none is more logical once the plan is understood.",
+              "Sant'Ivo shows Borromini's difference from every contemporary. Where Bernini's spaces address the feelings directly, Borromini's address the intelligence and reach the feelings through it: you delight in Sant'Ivo the way you delight in a proof, because the beauty and the construction are the same fact. His materials confess the same ethic — white stucco and brick, modelled with a mason's economy, gilding refused: the architecture must persuade by form alone."
+            ]
+          },
+          {
+            "heading": "The Lateran, the Oratory, and the end",
+            "paras": [
+              "The commissions of the 1640s and 50s spread his manner across Rome. For the Oratorians he built the Oratorio dei Filippini (1637–1650s) beside Santa Maria in Vallicella, its brick facade curving like the page of a book — he said he had imagined the building as a body with arms open to embrace everyone. For Innocent X he remodelled the nave of St John Lateran (1646–49), framing the ancient basilica's relics in a sequence of aedicules and giving the old church a Baroque pulse without touching its venerable bones; and in Piazza Navona he took over Sant'Agnese in Agone (1653–57), setting its concave facade and twin towers — completed by others after quarrels and dismissals — across the square from Bernini's fountain. Even his disappointments were fertile: Sant'Agnese's drum and towers, as built by his successors, still carry his design into the most public room in Rome.",
+              "The end was bleak. Commissions thinned, patrons died, and Borromini's melancholy — contemporaries called it his dark humour — deepened into paranoia; he burned drawings and papers, and in August 1667, after a night of sleeplessness, he fell on his sword and died of the wound days later, forgiving everyone, his confessor recorded, and asking pardon of all. Rome buried him beside Maderno in San Giovanni dei Fiorentini, in an unmarked grave. The verdict of the next century belonged to Bernini's manner, domesticated; the verdict of the twentieth belonged, astonishingly, to Borromini — the modernists recognised in his white, geometric, undulating walls a mind like their own. Of the two rivals, it was the mason who turned out to be the prophet."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-painted-heaven",
+        "numeral": "VI",
+        "title": "The Painted Heaven: Fresco and Quadratura",
+        "sections": [
+          {
+            "heading": "The mother church",
+            "figure": "ilGesuNave",
+            "paras": [
+              "The church that taught Catholic Europe how to build for the new age was Il Gesù, the Jesuits' mother church in Rome: begun in 1568 to designs by Vignola, its facade completed by Giacomo della Porta in the 1570s. The plan is a piece of rhetoric — a single wide nave, unaisled, so that nothing stands between the preacher and the crowd; side chapels instead of aisles, each a self-contained altar for private devotion; a shallow transept and a domed crossing gathering the space at the altar. Every Jesuit church from Munich to Mexico City repeats the diagram, and through the order's colleges and missions the Gesù's plan became the most widely built church type on earth.",
+              "What the Gesù's first century lacked was its finish: the nave's barrel vault waited a hundred years for the painter who could complete the argument. When Giovanni Battista Gaulli — il Baciccio — took the commission in the 1670s, the church received the ceiling that turned a preaching hall into a vision."
+            ]
+          },
+          {
+            "heading": "Gaulli and the opened vault",
+            "figure": "ilGesuCeiling",
+            "paras": [
+              "Gaulli's Triumph of the Name of Jesus (1676–79) broke the ceiling open. The fresco occupies the centre of the vault not as a framed picture but as a rupture: the blessed ascend in a vortex of golden light around the monogram of Christ, while the damned — painted and stucco figures modelled by Bernini's pupil Antonio Raggi — tumble out of the picture's frame altogether and fall in three dimensions toward the nave floor. The boundary between painting, sculpture and architecture, which the Renaissance had kept tidy, is deliberately violated at the exact point where heaven meets earth. Stand beneath it and the church's real architecture seems to be the lower storey of a building whose upper storeys are glory.",
+              "The device — quadratura, the painted continuation of real architecture into fictive space, populated by figures who escape their frames — became the Baroque ceiling's universal language, from Cortona's Roman saloons to the pilgrimage churches of Bavaria. It demanded a new kind of painter: part artist, part geometer, part stage engineer, calculating a fictive building that would read correctly from one privileged point on the floor below and seduce from every other."
+            ]
+          },
+          {
+            "heading": "Cortona at the Palazzo Barberini",
+            "figure": "barberiniCeiling",
+            "paras": [
+              "The secular heaven came first in date and set the sacred one its task. Pietro da Cortona, painter and architect both, covered the saloon ceiling of Palazzo Barberini between 1633 and 1639 with the Allegory of Divine Providence and Barberini Power: a swarming Olympus in which the Barberini bees and laurel, the arms of Urban VIII, are woven into the government of the universe. Where earlier ceilings had set framed pictures into compartments, Cortona dissolves the frame: the whole vault is one continuous vision, figures cascading through a sky that the room's real cornice barely contains. The Barberini ceiling is the High Baroque fresco's founding document — the moment painting annexed architecture's largest surface and refused ever to give it back.",
+              "Cortona the architect built the same energy in stone: the church of Santi Luca e Martina (begun 1634) with its swelling, bi-convex facade, and the portico of Santa Maria della Pace (1656–57), a convex semicircle of columns squeezed into a tiny piazza so that the church seems to lean out and address the street. Painter and architect in one person, he is the bel composto's second father — and his ceiling made the Barberini, for one generation, the artistic court of Europe."
+            ]
+          },
+          {
+            "heading": "Pozzo and the science of illusion",
+            "figure": "santIgnazioCeiling",
+            "paras": [
+              "The painted heaven's theorist and supreme practitioner was a Jesuit brother. Andrea Pozzo (1642–1709) entered the order as a lay brother, painted his way across northern Italy, and arrived in Rome to decorate Sant'Ignazio, the Jesuit college church whose dome had never been built for want of money. Pozzo solved the missing dome twice: first with a fictive one — a perspective painting on flat canvas (1685), still in place, which from the marked point in the nave reads as a coffered cupola — and then, between 1691 and 1694, with the ceiling that is quadratura's summit: the Allegory of the Missionary Work of the Society of Jesus, in which the church's real architecture is painted onward into a second, fictive church, through whose open roof St Ignatius ascends into a paradise populated by the peoples of the four continents to whom the order carried its missions.",
+              "Pozzo then did the thing that spread the method across the world: he published it. His Perspectiva pictorum et architectorum (1693–1700), a practical manual of perspective for painters and architects in two volumes of engraved plates, was translated and reprinted for a century, and carried the Roman ceiling to Vienna, to the German courts, to the Jesuit missions of China — Pozzo's own pupils painted quadratura at the imperial court in Beijing. The Baroque's most immaterial achievement, a painted sky, travelled as a book of instructions: illusion, systematised, became exportable."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-southern-exuberance",
+        "numeral": "VII",
+        "title": "The South: Naples, Lecce, Sicily",
+        "sections": [
+          {
+            "heading": "Naples: capital of a viceroyalty",
+            "paras": [
+              "Naples was the Baroque's biggest city — the Spanish monarchy's Italian capital, crowded with nobles, orders and confraternities, all building in competition within a dense medieval fabric. Space was too scarce for Roman vistas; Neapolitan Baroque went vertical and interior instead: church facades squeezed between palaces blaze with marble intarsia, and the city's characteristic invention is domestic — the open staircase, the scala aperta, which Ferdinando Sanfelice (1675–1748) turned into the courtyard's theatre: flights that double back on themselves in full view, so that the daily business of a palazzo becomes a ballet on intersecting ramps (his own Palazzo Sanfelice and the Palazzo dello Spagnolo, both of the 1730s, are the famous survivals).",
+              "The city's church architecture is dominated by Cosimo Fanzago (1591–1678), carver-architect whose workshop set the Neapolitan taste for two-colour marble revetment — white and grey-green geometry inlaid like embroidery — from the Certosa di San Martino above the city to the Guglia di San Gennaro (begun 1636), the first of Naples' votive obelisk-spires, a Baroque exclamation raised in thanks for deliverance from the eruption of Vesuvius in 1631. In Naples the style's Roman rhetoric meets a local genius for surface: everything is nearer, denser and more jewelled, and the drama is compressed into interiors that open like fans behind plain street doors."
+            ]
+          },
+          {
+            "heading": "Lecce: carved in golden stone",
+            "figure": "lecce",
+            "paras": [
+              "At the heel of Italy, Lecce built its Baroque out of a material that invited excess: pietra leccese, a soft, honey-coloured limestone that cuts like cheese when quarried and hardens in the air, letting carvers undercut fruit, cherubs, caryatids and entire bestiaries with the freedom of woodwork. The city's showpiece is the Basilica di Santa Croce, begun in 1549 and finished only in 1695, its facade a three-tiered tapestry of columns, rose window and teeming relief, largely the work of the local dynasty of sculptor-architects headed by Giuseppe Zimbalo (1620–1710) — 'lo Zingarello', the little gypsy, the Romans of the south called him. Across the old town, the cathedral closes the Piazza del Duomo, an enclosed square entered through a narrow passage — a Baroque urban room as complete as any in Rome, hidden behind a modest gate.",
+              "Lecce matters to this history because it disproves the idea that the Baroque was a court style exported from capitals. Here is a provincial city, at the empire's edge, evolving its own dialect of the manner over a century and a half, in a stone so obliging that ornament could attempt anything — and the dialect is coherent, confident and unmistakably of its place. The Baroque's empire was an empire of local materials and local hands; Lecce is the proof."
+            ]
+          },
+          {
+            "heading": "Sicily rebuilt: the Val di Noto",
+            "figure": "noto",
+            "paras": [
+              "On 11 January 1693 the most violent earthquake in Italian history destroyed the south-east of Sicily: some forty towns ruined, tens of thousands dead, whole communities buried in the limestone gorges of the Val di Noto. The rebuilding, directed by the Spanish viceroy and the local aristocracy over the following half-century, is the Baroque's most complete urban legacy: eight towns — Noto, Ragusa, Modica, Catania, Caltagirone, Militello, Palazzolo and Scicli — rebuilt or refaced in a golden late Baroque so consistent that UNESCO lists them as a single monument. Old sites were sometimes abandoned for new ones: Noto rose afresh on a gentler slope, planned on a grid and crowned by its cathedral (begun 1694, its facade finished in the 1770s) above a great stair.",
+              "The master of the rebuilding was Rosario Gagliardi (1698–1762), a local architect who never left Sicily and learned the Roman manner from treatises and prints — and improved it. His San Giorgio at Modica climbs its hill on a staircase that is half street, half altar approach; his San Giorgio at Ragusa Ibla sets a convex, three-storey facade-tower above a theatrical stair, the church crowning the old town like a tiara. In Catania, Giovanni Battista Vaccarini gave the cathedral a facade of Roman grandeur and set its ancient lava elephant to carry an obelisk in the square. Sicily's rebuilding is the Baroque's last collective masterpiece: a whole landscape remade in the style a full century after Bernini, by men who had never seen Rome — from drawings, memory and stone."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "turin-and-piedmont",
+        "numeral": "VIII",
+        "title": "Turin: Guarini and Juvarra",
+        "sections": [
+          {
+            "heading": "The Savoy laboratory",
+            "paras": [
+              "Turin is the Baroque planned as a state. The dukes of Savoy, having made the city their capital in 1563, rebuilt it across the seventeenth century as a grid of arcaded streets and uniform palaces — a small, disciplined Rome in the north, advertising a dynasty with imperial ambitions. The stage was set by Ascanio Vitozzi's Piazza Castello and the Castellamonte dynasty of court architects; but what makes Turin essential to this book is that twice, in succession, the Savoy court employed the most original architectural mind in Europe. First Guarino Guarini, the Theatine priest-mathematician; then Filippo Juvarra, the Sicilian goldsmith's son. Between them they make Turin the Baroque's laboratory — the place where the style's two deepest tendencies, structure and scenography, were each pushed to their limit."
+            ]
+          },
+          {
+            "heading": "Guarini: the mathematician of light",
+            "figure": "sanLorenzoDome",
+            "paras": [
+              "Guarino Guarini (1624–1683) was a priest of the Theatine order, a published philosopher and mathematician, and the most daring structural designer of the century. His church of San Lorenzo in Turin (1668–87) hides behind a conventional palace front; inside, the dome is a revelation: eight great ribs interlace across the octagon, weaving smaller and smaller openings as they rise, so that the structure dissolves into a star-shaped cage of light — geometry learned, Guarini acknowledged, from the Islamic and Gothic domes of Spain, and pushed beyond either. Over the ducal chapel of the Holy Shroud (1667–90) he raised a still stranger cone: tier upon tier of segmental arches stacked into a dark, perforated pyramid, a dome like a woven basket silhouetted against its own windows.",
+              "Guarini's Palazzo Carignano (begun 1679) gives Turin the facade Borromini dreamed of, executed in brick: a great undulating wall for a princely palace, its centre swelling toward the piazza. His treatise Architettura civile, published fifty years after his death (1737), spread his stereotomy — the science of cutting stone for impossible vaults — across Europe, and his projects reached from Paris (where his Sainte-Anne-la-Royale was built and later demolished) to Lisbon and Prague. Guarini is the Baroque's intellectual extreme: proof that the style's emotion could be generated by pure construction, without one gilded cherub."
+            ]
+          },
+          {
+            "heading": "Juvarra: scenography at the scale of a kingdom",
+            "figure": "palazzoMadamaStair",
+            "paras": [
+              "Filippo Juvarra (1678–1736) trained as a goldsmith in Messina, learned stage design in Rome, and arrived in Turin in 1714 to become the most travelled architect in Europe. His Palazzo Madama staircase (1718–21) announces the manner: a double flight mounting inside a hall glazed on three sides, pure scenography — architecture composed as a view, flooded with light, its steps wide enough for ceremony. Staircases became his signature because the age's true ritual was arrival, and Juvarra choreographed arrival better than anyone: at the hunting palace of Stupinigi (1729–33) the approach, the oval central salon crowned by its bronze stag, and the gardens' axes compose a single crescendo.",
+              "On the hill where Vittorio Amedeo II had watched the siege of Turin in 1706, Juvarra built the vowed basilica of Superga (1717–31): a domed temple-church fronted by a classical portico, with the Savoy kings' mausoleum in its crypt — Rome's Pantheon and St Peter's reconciled on a Piedmontese hilltop, visible from the whole plain. He ended as court architect in Madrid, dying there in 1736 with the new royal palace on his drawing board. Guarini had made Turin the Baroque's laboratory of structure; Juvarra made it the clearing-house from which the style, refined and scenographic, was exported to the courts of the eighteenth century."
+            ]
+          },
+          {
+            "heading": "Superga and Stupinigi: the dynasty in two buildings",
+            "figure": "superga",
+            "paras": [
+              "Read together, Superga and Stupinigi state the two terms of the late Italian Baroque. Superga is the style as public religion and dynastic myth: temple front, dome, twin towers, a crypt of kings — the Savoy presenting themselves, from their hill, as the equals of emperors. Stupinigi is the style as pleasure, a hunting casino whose saloon is an oval of mirrors and stucco deer. Between the mausoleum and the hunting lodge the whole programme of the Baroque court is contained — power and delight, staged by the same hand, with the same complete confidence that architecture is the art of arranging what men feel."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "venice-and-caserta",
+        "numeral": "IX",
+        "title": "Venice and the Bourbon South",
+        "sections": [
+          {
+            "heading": "Venice: the Salute",
+            "figure": "salute",
+            "paras": [
+              "Venice accepted the Baroque on its own terms. In October 1630, with the plague killing a third of the city, the Senate vowed a church to the Virgin of Health — Santa Maria della Salute — at the entrance to the Grand Canal, and the competition was won by the young Baldassare Longhena (1598–1682), who spent the remaining fifty years of his life building it (1631–87). The design is a piece of urban theatre before it is a church: an octagonal rotunda crowned by an enormous dome, its silhouette steadied by great scroll buttresses that curl around the drum like the volutes of a capital enlarged to city scale, and approached by a wide flight of steps that pours down to the water. On the feast of the Salute a pontoon bridge still crosses the canal to those steps, and Venice processes into the church it built against death.",
+              "Longhena's palace facades on the Grand Canal — Ca' Pesaro, Ca' Rezzonico — wear the Baroque more discreetly: rusticated water storeys, serried windows, classical orders held in Venetian equilibrium. The republic that had invented Renaissance decorum never let the new style shout; even the Salute, for all its scenographic genius, keeps a Palladian composure in its proportions. Venetian Baroque is the style at its most courteous — and the Salute's dome, closing the view from St Mark's, is nonetheless pure persuasion."
+            ]
+          },
+          {
+            "heading": "Caserta: the Italian Versailles",
+            "figure": "caserta",
+            "paras": [
+              "The Italian Baroque's last monumental statement stands in the Bourbon south. In 1752 Charles of Bourbon, king of Naples, began a palace at Caserta to out-measure Versailles: Luigi Vanvitelli (1700–1773), son of the view-painter Gaspar van Wittel, designed a rectangle 247 by 184 metres around four courtyards, some 1,200 rooms, a chapel, a theatre, and behind it a park axis three kilometres long, fed by an aqueduct built for the purpose, ending in a waterfall beneath the hills. The great staircase — a triple flight under a vaulted hall, choreographed like Juvarra's and scaled like a railway station of marble — is the Italian Baroque's farewell performance: scenography undiminished, but the ornament already cooling toward the neoclassical order of Vanvitelli's facades.",
+              "Caserta closes the Italian story as St Peter's Square opened it: with architecture deployed, at colossal scale and cost, as the portrait of a state. Between the two stands a century and a half in which Italy taught Europe how buildings persuade — and then, having taught, watched its pupils build the style's futures in capitals richer than its own."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "france-the-classical-answer",
+        "numeral": "X",
+        "title": "France: The Classical Answer",
+        "sections": [
+          {
+            "heading": "Vaux-le-Vicomte: the ensemble that cost a freedom",
+            "figure": "vaux",
+            "paras": [
+              "The French Baroque was born in a single act of theft. Between 1656 and 1661 the finance minister Nicolas Fouquet rebuilt his château at Vaux-le-Vicomte with a team no patron had assembled before: Louis Le Vau the architect, Charles Le Brun the painter-decorator, André Le Nôtre the gardener. For the first time in France, house, interiors and garden were conceived as one work — the garden's axis running from the château's oval salon through parterres, canals and grottoes to a distant statue of Hercules; the salon itself an oval dome of a kind Italy would have recognised. On 17 August 1661 Fouquet entertained the young Louis XIV at a fête of legendary splendour. Within a month Fouquet was arrested — he spent the rest of his life in prison — and the king had taken over the team entire: Le Vau, Le Brun and Le Nôtre were set to work at Versailles.",
+              "Vaux's lesson is the French Baroque's constitution. The style here was never the Church's or the cities': it was the crown's. What in Italy had been the rhetoric of competing families and orders became in France a department of state, administered by the surintendance des bâtiments, with Le Brun as its minister of taste — and its product was not drama but order made visible: the king's reason, extended to the horizon."
+            ]
+          },
+          {
+            "heading": "The Louvre Colonnade: France declares itself",
+            "figure": "louvreColonnade",
+            "paras": [
+              "In 1665 Louis XIV summoned Bernini himself to Paris to design the Louvre's east front — and then built, in 1667–70, the design of a committee of Frenchmen instead: Le Vau, Le Brun and the physician-amateur Claude Perrault. The Colonnade, as built, is one of the great facades of Europe and a manifesto against its Roman rival: a long screen of paired Corinthian columns standing free of the wall behind, flat-roofed, its centre a temple front, its movement nil and its clarity absolute. Where Bernini's Louvre projects had swept in curves and colossal sculpture, Perrault's front declares that French architecture will be classical, rational and measured — the Baroque disciplined by rule. The episode fixed a national manner: France took the Baroque's scale, its planning and its appetite for glory, and refused its licence.",
+              "Yet the discipline was a style, not an absence of one. The Colonnade's paired columns, its shadowed gallery, its serene repetition are as calculated an effect as any Roman wave; and the French classical Baroque — baroque français — would prove the more exportable product: within a generation every court in Europe was building palaces that were Versailles in plan and the Louvre in elevation."
+            ]
+          },
+          {
+            "heading": "Versailles: the palace as state",
+            "figure": "versaillesMirrors",
+            "paras": [
+              "Versailles began as Louis XIII's hunting lodge; his son made it the seat of government (the court moved in 1682) and the largest palace in Europe. Le Vau wrapped the old château in a new envelope (1668–71); Jules Hardouin-Mansart (1646–1708), architect of the palace's maturity, tripled its length, raised the north and south wings, and in 1678–84 replaced the garden terrace with the Hall of Mirrors: seventy-three metres of gallery where seventeen windows onto Le Nôtre's gardens are answered by seventeen arches carrying 357 mirrors — the product of the royal mirror manufacture founded to break Venice's monopoly — and Le Brun painted the vault with the king's victories and reforms. Ambassadors processed down its length to the throne at the salon of War; the treaty ending the First World War would be signed in it two and a half centuries later.",
+              "Around the palace Hardouin-Mansart and his office — the largest architectural practice in Europe — built a complete courtly world: the Orangerie, the stables, the Grand Trianon in pink marble (1687), the chapel (finished 1710), and in Paris the dome of the Invalides (1677–1706) and the Place Vendôme. Versailles' real export was not a style but a system: the enfilade plan, the axis, the graded approach from town to court to garden, the whole machine for converting architecture into hierarchy. Every palace in this book's later chapters — Caserta, Schönbrunn, Würzburg, the Winter Palace — is an answer to it."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "spain-and-the-empire",
+        "numeral": "XI",
+        "title": "Spain and the Colonial World",
+        "sections": [
+          {
+            "heading": "Spain: severity and its discontents",
+            "paras": [
+              "Spain came late and reluctantly to the Baroque. The Escorial's granite severity — the Herreran style of Philip II's monastery-palace — set a national taste for unadorned mass that the seventeenth century only slowly unlearned: Madrid's Plaza Mayor (1617–19) and the early Baroque churches keep classical discipline under a tightening skin of brick and slate. The release, when it came, was explosive and characteristically Spanish: it happened on surfaces. Alonso Cano's facade for Granada Cathedral (1667) is still a classical composition, but in the next generation the Churriguera family and their rivals turned the retablo — the great gilded altarpiece that was Spain's native monumental art — outward onto the facade. José Benito de Churriguera's altarpiece for San Esteban in Salamanca (1693) gave the manner its name: Churrigueresque, coined by critics for whom it meant everything overdone.",
+              "The style's instruments were the estípite — a pilaster shaped like an inverted obelisk, narrow at the base, swelling upward in stacked sections — and a horror of empty wall. Narciso Tomé's Transparente in Toledo Cathedral (1721–32) is its mystical extreme: a window cut secretly through the vault pours daylight onto a marble and bronze altarpiece of the Virgin, sculpture and painting lit like a vision, architecture engineering a miracle of light. Alberto de Churriguera's Plaza Mayor at Salamanca (1729–55) shows the manner's civic face — a whole square of golden sandstone, uniformly arcaded, the Baroque as town hall. Spanish Baroque is the Roman style re-thought by a culture of altarpieces and gold: less interested in space than in blaze."
+            ]
+          },
+          {
+            "heading": "New Spain: the Baroque of silver",
+            "figure": "sagrario",
+            "paras": [
+              "Across the Atlantic the style found its richest soil. The silver of Zacatecas and Guanajuato paid for churches in which Spanish models were rebuilt by indigenous and mestizo masons whose carved inheritance — and whose hands — filled the new facades with a flora no European pattern book contained. In Mexico the Sagrario Metropolitano (1749–68), the parish church attached to Mexico City's cathedral and designed by Lorenzo Rodríguez, is the Churrigueresque's American masterpiece: two facades that are pure estípite screens, tiered, encrusted and organised like altarpieces, built in grey cantera stone beside the cathedral's red tezontle walls. Puebla added its own ingredients — Talavera tile revetment and the Rosary Chapel of Santo Domingo (1690), a gilded stucco heaven that is the Americas' closest answer to Gaulli's Rome.",
+              "The colonial Baroque was never a copy at one remove. Distance, materials — pink cantera, red volcanic tezontle, soapstone, tile — and the hands of craftsmen trained in other traditions bent the imported manner into regional schools (the so-called mestizo Baroque of the Andes, the carved portals of Arequipa and the Altiplano) that Spain itself could not have produced. An honest history must say plainly what made it possible: conquest, mission and forced labour, as well as faith and craft. The churches are beautiful; they are also instruments of an empire, and their splendour was part of their function."
+            ]
+          },
+          {
+            "heading": "The silver cities",
+            "figure": "zacatecas",
+            "paras": [
+              "Zacatecas Cathedral (1730–60), raised in the pink stone of the mining city it served, carries the Mexican manner in its most sculptural form: a facade composed as a single carved altarpiece three storeys high, its columns and niches disappearing under relief, flanked — unusually — by one tower only until the second was added in the twentieth century. At Taxco, the church of Santa Prisca (1751–58), built by the silver magnate José de la Borda, wraps its twin towers and facade in the same pink stone and the same encrusted carving; at Guanajuato and Morelia the manner runs on into the Rococo's lighter key. The mining frontier, of all places, produced the Baroque's most carverly architecture — the retablo style freed from the altar and set to work on whole cities of silver."
+            ]
+          },
+          {
+            "heading": "Brazil: the Aleijadinho",
+            "figure": "ouroPreto",
+            "paras": [
+              "Brazil received the style late and made it last longest. In the gold towns of Minas Gerais — Ouro Preto above all, a city of churches folded into steep hills — the Portuguese Baroque and then the Rococo were rebuilt in local stone through the later eighteenth century, a generation after Europe had turned classical. The crowning figure is Antônio Francisco Lisboa (1738–1814), called o Aleijadinho, the little cripple: a mixed-race master carver and architect who, as disease destroyed his hands and feet, worked with tools strapped to his stumps. His church of São Francisco de Assis at Ouro Preto (1766–94) curves its facade between two round towers in a plan of pure Rococo grace, and its soapstone portal — the medallion of St Francis borne by angels — is the colonial Baroque's most tender carving; at Congonhas his twelve soapstone Prophets (1800–05) stand in a courtyard above the town like a company of actors taking their places. Europe's styles end many histories; in Brazil they were translated, at the last, into a master's own language."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-catholic-north",
+        "numeral": "XII",
+        "title": "The Catholic North: Vienna, the Abbeys, the Pilgrimage Churches",
+        "sections": [
+          {
+            "heading": "Vienna and the imperial style",
+            "figure": "karlskirche",
+            "paras": [
+              "After the relief of Vienna in 1683, the Austrian Habsburgs rebuilt their capital as the bulwark and showpiece of Catholic Europe, and the Baroque north of the Alps found its first capital. The imperial architect was Johann Bernhard Fischer von Erlach (1656–1723), trained in Rome in Bernini's circle, whose Karlskirche (1716–37) — vowed by the Emperor Charles VI during the plague of 1713 and finished by his son Joseph Emanuel — is the most learned facade of the century: a Greek temple portico, a Roman dome, and two freestanding columns wound with reliefs of St Charles's life in imitation of Trajan's Column, flanked by pavilions with a flavour of the minaret. Fischer, who in 1721 published the Entwurff einer historischen Architectur — the first illustrated history of world architecture — built his church as an anthology: empire claiming descent from all antiquity at once.",
+              "Around Vienna the imperial style ramified: Fischer's Salzburg churches and the first Schönbrunn; Johann Lukas von Hildebrandt's Belvedere (1714–23), built for Prince Eugene as a garden palace in two parts across a slope, and the church of the Piarists; a ring of aristocratic palais. Austrian Baroque is Roman drama re-composed with encyclopaedic learning and a lighter, more decorative hand — the bridge between Rome and the German lands."
+            ]
+          },
+          {
+            "heading": "The monasteries: Melk and the Danube",
+            "figure": "melk",
+            "paras": [
+              "The Austrian Baroque's most complete surviving organism is a monastery. Melk Abbey, commanding a rock above the Danube, was rebuilt between 1702 and 1736 by Jakob Prandtauer (1660–1726), a mason-architect of Fischer's generation: the abbey church's facade surges between two towers over a terrace like the prow of a ship, and inside, fresco, stucco and gilding carry the Counter-Reformation's argument at full strength — while the same building contains a marble hall for imperial visits and a library for twelve thousand books. The great abbeys — Melk, Göttweig, Klosterneuburg, St Florian — were states in miniature: landowner, school, brewery, court and church in one, and their rebuilding in these decades is the monastic Baroque's golden age, financed by pilgrim offerings and Danube tolls.",
+              "Prandtauer's generation naturalised the style in the north: stone gave way to frescoed plaster, Italian stucco-workers — the Carlone and their kin — travelled the abbey circuit, and a recognisably Austrian manner emerged, sunnier and more decorative than Rome's, engineered for northern light. The road from Melk leads directly to Bavaria and Franconia, where the manner reaches its spatial climax."
+            ]
+          },
+          {
+            "heading": "Pilgrimage: Vierzehnheiligen",
+            "figure": "vierzehnheiligen",
+            "paras": [
+              "The pilgrimage church is the Catholic north's characteristic building — the Baroque's economics of grace made architecture: a shrine, a wonder-working image, a road of pilgrims, and offerings enough to build like princes. Its supreme example is Vierzehnheiligen in Franconia (1743–72), raised where a shepherd had seen visions of the Christ child with the Fourteen Holy Helpers. Balthasar Neumann's plan is the late Baroque's most beautiful piece of spatial engineering: a Latin cross whose arms and nave are built from interlocking ovals, so that the church is one continuous woven space; and at its crossing, where the ovals interpenetrate, stands the Gnadenaltar, the altar of the Helpers — not against the sanctuary wall, as custom demanded (the scandalised chapter objected; Neumann built on, and posterity vindicated him), but in the middle of the room, beneath the vault's crown of fresco and stucco.",
+              "Vierzehnheiligen proves that the late Baroque in the north was not decadence. A century after San Carlino, the oval — Borromini's geometry of devotion — is still generating new buildings of the first rank, now bathed in a lighter, whiter, more tender atmosphere. That atmosphere has a name, and its own chapter: the Rococo."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "courts-of-the-north",
+        "numeral": "XIII",
+        "title": "Protestant North and Imperial East: Wren's London, Rastrelli's Petersburg",
+        "sections": [
+          {
+            "heading": "London rebuilt: Christopher Wren",
+            "figure": "stPauls",
+            "paras": [
+              "The Great Fire of September 1666 gave England what Rome's popes had needed a century of patronage to achieve: a capital to rebuild. The task fell to a thirty-four-year-old professor of astronomy. Christopher Wren (1632–1723) had visited Paris in 1665 — he met Bernini there during the Louvre affair and studied the French classical manner at first hand — and his St Paul's Cathedral (1675–1710) is the Baroque translated into a Protestant, geometrical key: a Latin cross plan of lucid clarity, a classical west front with coupled columns, and above the crossing the most ingenious dome of the age, in fact three structures in one — an inner masonry dome painted by Thornhill, a hidden brick cone that does the engineering, and an outer timber dome clad in lead that gives London its silhouette. Si monumentum requiris, circumspice, reads his memorial in the crypt: if you seek his monument, look around you.",
+              "Around the cathedral Wren's office rebuilt fifty-one City churches, each a small essay in the same clear thinking — steeples composed like classical obelisks for the skyline, interiors galleried for preaching. The English Baroque never imported Rome's illusionism: no quadratura heavens open over Anglican congregations. Its drama is structural and urban — mass, skyline and light — and its patron was not a court but a city rebuilding its trade. Wren is the proof that the Baroque was a family of related solutions, not a single Roman export."
+            ]
+          },
+          {
+            "heading": "Vanbrugh, Hawksmoor and the military sublime",
+            "figure": "blenheim",
+            "paras": [
+              "The next English generation turned the manner heroic. John Vanbrugh (1664–1726), a playwright with no architectural training, and Nicholas Hawksmoor (c. 1661–1736), Wren's brilliant pupil, built Castle Howard (from 1699) and then Blenheim Palace (1705–22): the nation's and Queen Anne's gift to John Churchill, Duke of Marlborough, victor of the battle that gave the palace its name. Blenheim is the English Baroque's monument — a fortress-palace of colossal massing, its towers and courts arranged like a army in stone, its skyline a city in itself. The work consumed its patrons in quarrels over money, drove Vanbrugh to resign in 1716 (Hawksmoor completed it), and remains the point where the English style achieves Roman scale by entirely un-Roman means: weight, silhouette and theatre of mass rather than illusion.",
+              "Hawksmoor's own London churches of 1714–29 — Christ Church Spitalfields, St George's Bloomsbury with its stepped-pyramid steeple, St Mary Woolnoth — push the manner toward a brooding originality that the twentieth century would rediscover with astonishment; and at Greenwich the Royal Hospital (from 1696), Wren and Hawksmoor together staged the English Baroque at urban scale along the Thames, twin domes framing the Queen's House like a proscenium. Protestant England had taken the Catholic style and made it — the highest compliment one culture can pay another — unmistakably its own."
+            ]
+          },
+          {
+            "heading": "St Petersburg: the Baroque at full volume",
+            "figure": "winterPalace",
+            "paras": [
+              "The style's eastern career began as an import of state. Peter the Great founded St Petersburg in 1703 on conquered marshland at the Baltic's edge and imported architects as he imported shipwrights: the first, Petrine Baroque — Domenico Trezzini's Peter and Paul Cathedral (1712–33) with its needle spire — is Dutch and Lutheran in accent, a westernising manifesto. Under Peter's daughter the Empress Elizabeth the manner reached its final and most opulent flowering in the work of one man. Bartolomeo Rastrelli (1700–1771), brought to Russia as a boy by his sculptor father in Peter's service, built for Elizabeth the Smolny Cathedral (from 1748), the palaces of Peterhof and — between 1752 and 1756 — the Catherine Palace at Tsarskoye Selo: a facade more than three hundred metres long in turquoise, white and gold, its church dome and five gilded cupolas riding the roofline like a crown.",
+              "The Winter Palace (1754–62), his last and largest work, contains the Baroque's whole biography in one building: a Roman sense of scale, a French plan, German decorative schooling and a Russian indifference to expense, raised in the 1750s — a decade after Paris had begun to dismantle exactly this world. Catherine the Great, ascending in 1762, found the style her predecessor's palace embodied already old-fashioned — the famous dismissal of Rastrelli's manner as whipped cream belongs to her court's taste, if not to her own pen — and built against it in the new classical manner. The Baroque's career in Russia thus runs its whole European course, compressed into sixty years: import, naturalisation, apotheosis, dismissal."
+            ]
+          },
+          {
+            "heading": "The Catherine Palace: a facade as long as a street",
+            "figure": "catherinePalace",
+            "paras": [
+              "Stand before the Catherine Palace and the late Baroque's logic is complete. The facade does what Bernini's colonnade did, at the scale of a palace rather than a square: it organises an enormous length into rhythm — white columns and pilasters against turquoise walls, gilded window-dressings changing pattern from floor to floor, statues along the parapet conducting the eye to the gilded onion dome of the palace church. It is persuasion by repetition and splendour, the palace as a piece of state music played very loud. That a style born in the Rome of the 1600s should find its loudest voice on the Gulf of Finland in the 1750s is the whole story of this book in one view."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-rococo-turn",
+        "numeral": "XIV",
+        "title": "The Rococo Turn",
+        "sections": [
+          {
+            "heading": "Paris: the invention of intimacy",
+            "figure": "soubise",
+            "paras": [
+              "When Louis XIV died in 1715, the court abandoned Versailles for Paris, and architecture changed its scale. The great aristocratic hôtels of the Marais and the Faubourg Saint-Germain were refitted for a life of conversation, music and intrigue, and the Baroque's grandeurs shrank to the dimensions of the salon. The manner that resulted — the Rococo, though nobody called it that yet — kept the curve and dropped the colossus: its generating ornament, the rocaille, runs in asymmetrical C and S scrolls over panelled walls (boiserie) painted ivory and pale gold; mirrors multiply light between the windows; paintings by Watteau, Boucher and Fragonard — Watteau's fêtes galantes are the style's soul in paint — are let into the panelling as if the wall itself were dreaming.",
+              "The manifesto room is Germain Boffrand's Salon de la Princesse at the Hôtel de Soubise in Paris (c. 1735–40), built for the Princesse de Soubise: an oval dressed in white and gold, its corners dissolved, its ceiling a pale sky, Natoire's story of Psyche unfolding in panels around the walls. The designer Juste-Aurèle Meissonnier gave the manner its theory in engraved designs of cheerful, doctrinaire asymmetry — the genre pittoresque — in which no scroll answers another. The Rococo is sometimes described as the Baroque decayed; it is better described as the Baroque privatised — the same intelligence of space, movement and ornament, turned from the persuasion of crowds to the delight of a dozen people in a room."
+            ]
+          },
+          {
+            "heading": "The Rococo at court: the Amalienburg",
+            "figure": "amalienburg",
+            "paras": [
+              "The manner's German capital was Munich, and its agent one of the century's most remarkable careers. François de Cuvilliés (1695–1768), a Walloon of tiny stature, served the Bavarian elector Max Emanuel as court dwarf — and was educated, at his patron's expense, as an architect in Paris. The Amalienburg (1734–39), the hunting lodge he built in the Nymphenburg park for the Electress Maria Amalia, is the Rococo's perfect small masterpiece: a single storey of pale pink stucco outside, and inside a circular Hall of Mirrors where Johann Baptist Zimmermann's silvered stucco — hunting trophies, reeds, water birds — dissolves wall, ceiling and light into one shimmering surface. Cuvilliés' Residenztheater in Munich (1751–53) did the same for a public room; his engraved pattern books carried the manner to every small court in Germany.",
+              "Note the direction of travel. The Baroque had moved from church to palace; the Rococo moves from palace to pavilion, from the hall of state to the hunting lodge, the garden casino, the room for music after supper. Scale is its meaning: the style of an aristocracy amusing itself, built — in Bavaria above all — with a craftsman's seriousness that the frivolity of the programme only half conceals."
+            ]
+          },
+          {
+            "heading": "The Bavarian pilgrimage churches",
+            "figure": "wieskirche",
+            "paras": [
+              "The Rococo's surprise is that its most profound buildings are village churches. In 1738 tears were seen on a figure of the Scourged Saviour in a Bavarian meadow; the pilgrimage that followed built, on the Wies ('the meadow') near Steingaden, the church of the Wies (1745–54) by Dominikus Zimmermann, with frescoes by his brother Johann Baptist. The plan is a simple oval; the interior is a single chord of light — white stucco like foam, fresco opening the ceiling to a rainbowed heaven, every ornament fluent and weightless — an effect of such joy that the church seems less built than exhaled. UNESCO lists it, rightly, among the world's treasures; it cost a peasant pilgrimage's pennies.",
+              "At Zwiefalten (1738–65), Johann Michael Fischer — the south German Baroque's great church-builder — set a pilgrimage minster of twin-towered gravity outside and dissolved its interior in the same light: frescoed vaults by Franz Joseph Spiegler, stucco by the Feuchtmayer workshop, altars arriving like apparitions down the nave. The Munich Asamkirche (1733–46), built by the brothers Asam as their private church beside their own house, shows the hinge between the manners: Baroque drama of the most theatrical kind, compressed to Rococo scale. The German pilgrimage churches are where the two styles of this book are hardest to separate — and where their union produced, in the 1740s and 50s, the most original sacred architecture in Europe."
+            ]
+          },
+          {
+            "heading": "Würzburg: the last great room",
+            "figure": "wuerzburgStair",
+            "paras": [
+              "The Rococo's climax, and the late Baroque's farewell, is a staircase. The prince-bishops of Würzburg — the Schönborn family, the century's great architectural patrons — began their Residenz in 1720 under the young Balthasar Neumann, and its staircase hall (vaulted 1737–44) is the largest ceremonial room of the age: a single flight dividing into two, climbing around an open well beneath a vault eighteen by thirty metres that Neumann threw across the space without a single intermediate support. Parisian engineers, consulted by the sceptical, pronounced it feasible; when Würzburg burned in March 1945 the vault — carrying Giovanni Battista Tiepolo's fresco of the Four Continents (1752–53), the largest ceiling painting in the world — held, and the staircase survived as the room's own proof.",
+              "Everything the two styles knew is in this hall: Baroque scale and structural daring, Rococo lightness of ornament, the bel composto completed by a Venetian painter working for a Franconian bishop in a German palace. With it the narrative of this book closes where it should — at the top of the stairs, in the 1750s, with the manner complete and the reaction already gathering in Paris. What remained was to bury it, and then, in time, to dig it up again."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading",
+        "numeral": "XV",
+        "title": "Reading Baroque and Rococo: A Field Method",
+        "sections": [
+          {
+            "heading": "Begin with the standpoint",
+            "figure": "trevi",
+            "paras": [
+              "Every Baroque interior was composed for a body in a place. The first act of reading is therefore to find the standpoint: the door axis, the centre of the nave, the marble disc in Sant'Ignazio's floor where the painted architecture locks upright, the landing of a staircase where the fresco resolves. Stand there. The Baroque will do the rest — this is a style that seizes the eye and walks it, by light, by curve, by graded ornament, to the point it has prepared: the altar, the throne, the portrait, the door to the garden. If a room leaves your eye wandering at random, suspect a later reordering, a lost furnishing, or a building that was never Baroque to begin with.",
+              "Then read the building in the order the style itself composes: plan first, because the Baroque thinks in plans — look for the oval, the interlocking curves, the wave in the wall, the enfilade's straight shot of doors. Wall second: does the surface advance and recede, does the order bend or break, is the entablature allowed to run straight? Ceiling third: the Baroque interior is crowned, and the crown tells you the building's theology or its politics. Ornament last, and closest: its weight, its symmetry and its scale distinguish the two manners of this book more reliably than any date."
+            ]
+          },
+          {
+            "heading": "Baroque or Rococo? The field test",
+            "paras": [
+              "Apply the five signs set out below, and one distinction will do most of the work. The Baroque persuades in public: colossal scale, symmetrical composition, heavy ornament, spaces built for crowds and ceremonies — the square, the state room, the great church. The Rococo delights in private: human scale, deliberate asymmetry, ornament thin as icing, spaces built for conversation — the salon, the pavilion, the pilgrimage church at its most tender. A facade of 1740 and a facade of 1680 may share every motif; the question is what the motifs are doing. Are the scrolls marching in step, carrying a colossal order's weight? Baroque. Have they slipped their symmetry and gone to play along the junctions of a small pale room? Rococo.",
+              "Two warnings complete the method. First, restoration lies: many Baroque interiors were repainted, regilt or 'completed' in the nineteenth century, and the colours that shout loudest are often the youngest thing in the room. Second, the styles overlap in time and in single buildings — Vierzehnheiligen's plan is late Baroque, its stucco is Rococo, and both descriptions are true at once. The five signs are not a machine for labels; they are a way of looking slowly, in the right order, at buildings that were designed to be looked at exactly so."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-scenographic-city",
+        "numeral": "XVI",
+        "title": "The Scenographic City",
+        "sections": [
+          {
+            "heading": "The city as a sequence of rooms",
+            "figure": "stPetersSquare",
+            "paras": [
+              "The Baroque's largest works are cities. Its planners thought of urban space exactly as its architects thought of interiors: as a sequence of composed rooms, each with a standpoint, a climax and a controlled reveal, connected by axes that function like enfilades at street scale. Rome supplied the grammar — Sixtus V's obelisk-marked routes, Bernini's piazza as an embracing interior without a roof — and the elements recur everywhere: the long straight street closed by a vertical accent; the square treated as a furnished room, its facades a single architecture, its fountain or obelisk the centrepiece; the church front as scenery, angled to close a vista rather than to face a compass point. To walk a Baroque city is to be processed, gently and continuously, by design.",
+              "The scenographic city is also a political diagram. In the capital of an absolute prince, the axes run from the palace; in the papal city, between the shrines; in the commercial city — Amsterdam's canals are the bourgeois exception that proves the rule — the set pieces thin out. Read a Baroque plan and you read a constitution: who is at the centre, what the routes connect, which monuments the views are arranged to glorify."
+            ]
+          },
+          {
+            "heading": "The royal square: Nancy",
+            "figure": "nancyStanislas",
+            "paras": [
+              "The manner's most gracious urban room belongs to its last phase. Stanisław Leszczyński, twice king of Poland and twice exiled, ended as Duke of Lorraine, and between 1751 and 1755 his architect Emmanuel Héré built him at Nancy the square that bears his name: a royal place of perfect classical composure — uniform facades, a statue of the king's son-in-law Louis XV at its centre — joined to the older town by a triumphal arch and closed by screens of gilded wrought iron, Jean Lamour's gates, in which the Rococo's scrollwork is executed at the scale of a city gate and blazes with gold. Town hall, museum and theatre take their places in the composition like courtiers.",
+              "Place Stanislas is the scenographic city grown polite: the same control of standpoint, axis and reveal as St Peter's Square, exercised in iron lace and limestone for a pensioned king in a provincial capital. UNESCO lists it with its two companion squares as a single ensemble — the Baroque city's farewell, and arguably its most civilised sentence."
+            ]
+          },
+          {
+            "heading": "Catastrophe and the grid: Lisbon, 1755",
+            "paras": [
+              "The age of the scenographic city ended, symbolically, in rubble. On the morning of 1 November 1755 an earthquake, a tsunami and a fire destroyed the centre of Lisbon — the Portuguese capital, whose Terreiro do Paço had been the Baroque waterfront square of the Atlantic world. The Marquis of Pombal's rebuilding, the Baixa, is a manifesto against everything this book has celebrated: a grid of identical streets, facades standardised by regulation, construction rationalised around an anti-seismic timber cage, the gaiola. Ornament was waste; the future was administration. And yet the Baixa keeps the Baroque's deepest lesson — it is still a composed whole, square, axis and riverfront arranged as one design. The Enlightenment did not stop staging cities; it changed the play. St Petersburg, laid out on Baroque axes in these same decades, and the neoclassical capitals that follow, all inherit the scenographic city's machinery — with the scrolls filed off."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-fall",
+        "numeral": "XVII",
+        "title": "The Fall: How the Baroque Became an Insult",
+        "sections": [
+          {
+            "heading": "The critics' century",
+            "paras": [
+              "The reaction began, as reactions do, among the young. From the 1740s a generation of artists and critics across Europe concluded that the art of their grandfathers was corrupt: archaeology gave them their weapon. The excavations at Herculaneum (from 1738) and Pompeii (from 1748) put a plainer antiquity before the public than the Baroque had ever quoted; Johann Joachim Winckelmann's Thoughts on the Imitation of Greek Works (1755) and his History of Ancient Art (1764) made 'noble simplicity and quiet grandeur' the programme of the future and everything Baroque its antithesis — noisy, fleshy, dishonest. Marc-Antoine Laugier's Essay on Architecture (1753) reduced good building to a primitive hut of columns and beams, in which the undulating wall and the broken pediment were simply crimes. In Paris the goût à la grecque of the 1750s, and Jacques-Germain Soufflot's Sainte-Geneviève (begun 1757) — the future Panthéon — built the new taste at monumental scale.",
+              "Language did the rest. Baroque, the misshapen pearl, entered the dictionaries as a term of abuse for the bizarre and the overcharged; rococo, a pun of the 1790s, dismissed the lighter manner as frippery. Catherine the Great's court applied the verdict in Russia, finding Rastrelli's turquoise palaces — by repute, whipped cream — fit only to be refaced; in Bavaria and Austria the pilgrimage churches were whitewashed by Josephinist reformers who found their stucco heavens superstitious as well as unfashionable. The styles did not die everywhere at once: the colonial Americas and the Catholic countryside built on for decades, and the theatre and the opera house never really gave up the Baroque's machinery of effect. But in the capitals of taste, by 1770, the game was over."
+            ]
+          },
+          {
+            "heading": "What the reaction kept",
+            "paras": [
+              "The victors kept more than they admitted. Neoclassicism denounced the Baroque's ornament and preserved its planning entire: Ange-Jacques Gabriel's Place de la Concorde in Paris (1755–63) is a Baroque royal square in classical dress; his Petit Trianon (1762–68) uses the pavilion scale the Rococo had perfected. The enfilade, the axis, the graded approach, the square as a furnished room — all survived the purge, because they were never ornaments but instruments. What was lost was the upper storey of the Baroque world: the painted heavens were not renewed, the stucco workshops dispersed, and a hundred palace and church interiors were stripped, repainted or left to damp in the nineteenth century's indifference. The survival of the great rooms this book has described — the Cornaro Chapel, the Würzburg staircase, the Wies — is nearer to accident than to custody, and the conservation chapters of our own time are part of the style's biography."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-return",
+        "numeral": "XVIII",
+        "title": "The Return: The Baroque Rediscovered",
+        "sections": [
+          {
+            "heading": "Wölfflin and the rehabilitation",
+            "paras": [
+              "The recovery began with a twenty-four-year-old Swiss scholar. Heinrich Wölfflin's Renaissance und Barock (1888) dared to treat the insult as a subject: to ask not whether the Baroque was degenerate but what it was — a coherent alternative way of seeing, with its own logic of mass, movement and light. His Principles of Art History (1915) set the paired categories — linear and painterly, closed and open — that students still learn. Through the early twentieth century the verdict reversed: the Baroque exhibitions filled museums; Sacheverell Sitwell's Southern Baroque Art (1924) taught English readers to love the south; the modernist architects recognised Borromini as one of their own, and Wittkower's great survey of 1958 completed the rehabilitation, restoring Bernini, Borromini and their century to the centre of the discipline. The word that had buried the style now names it in every textbook — the critics' pearl, restrung.",
+              "Scholarship's second act was conservation. The Würzburg Residenz, burned out in the firestorm of March 1945, was rebuilt around its surviving staircase vault, and Tiepolo's ceiling — cleaned, studied, scaffolded for a generation — emerged as the largest fresco in the world again, not a ruin. Guarini's Shroud Chapel in Turin, gutted by fire in 1997, reopened in 2018 after one of the most exacting restorations ever undertaken. The Val di Noto's towns, Ouro Preto, St Petersburg, Nancy: the UNESCO listings that stud this book's gazetteer are the institutional form of the same reversal — the Baroque as world heritage, its persuasion now exercised on behalf of its own preservation."
+            ]
+          },
+          {
+            "heading": "What the Baroque teaches a designer now",
+            "paras": [
+              "A style does not survive three centuries of argument by being picturesque. The Baroque's durable lessons are working ones. Compose for a moving body: its rooms unfold in sequence, and the standpoint, the threshold and the reveal are still the designer's strongest tools. Treat light as a material: Bernini's hidden windows and Pozzo's calculated viewpoints are the ancestors of every serious lighting design since. Build one idea completely: the bel composto — every art in a building pulling toward a single effect — is a discipline any age can use, and its opposite, the building as a pile of unrelated gestures, is the failure the Baroque never commits. And do not fear ornament that means something: the Baroque's scrolls and statues were information, carrying programmes of faith, dynasty and place; it is empty ornament, not ornament, that dates.",
+              "The last lesson is the one this book began with. The Baroque believed that architecture should act on people — should welcome, overwhelm, console and persuade — and it built its belief at every scale from a chapel to a capital. Go and stand in one of its rooms: in the Cornaro Chapel at opening time, on the Wies's oval floor, under the Würzburg vault. The persuasion still works. That is not nostalgia; it is the evidence, and it is why the misshapen pearl is, three hundred years on, the most instructive style in Europe."
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [
+      [
+        "Gian Lorenzo Bernini (1598–1680)",
+        "Sculptor, architect and stage-designer to eight popes; the dominant artistic personality of the century. The Baldacchino, the Cornaro Chapel, Sant'Andrea al Quirinale and the colonnade of St Peter's Square define the Roman High Baroque's fusion of the arts — the bel composto he named and practised."
+      ],
+      [
+        "Francesco Borromini (1599–1667)",
+        "Ticinese mason turned Rome's most original architect: San Carlo alle Quattro Fontane, Sant'Ivo, the Oratory and the Lateran nave. Where Bernini persuaded, Borromini reasoned in geometry, building undulating walls and interlocking ovals from strict constructions — and died by his own hand, the style's martyr to perfection."
+      ],
+      [
+        "Pietro da Cortona (1596–1669)",
+        "Painter-architect whose ceiling of the Palazzo Barberini (1633–39) set the High Baroque heaven in place of the compartmented Renaissance vault; his churches — Santi Luca e Martina, Santa Maria della Pace — gave Rome its most sculptural facades after Borromini."
+      ],
+      [
+        "Andrea Pozzo (1642–1709)",
+        "Jesuit brother, painter and theorist; his ceiling for Sant'Ignazio (1691–94) is quadratura's summit, and his treatise Perspectiva pictorum et architectorum (1693–1700) exported the method to every Catholic court and mission, from Vienna to China."
+      ],
+      [
+        "Guarino Guarini (1624–1683)",
+        "Theatine priest, mathematician and the Baroque's boldest structural mind: the interlaced ribs of San Lorenzo and the Shroud Chapel in Turin turn Gothic geometry into Baroque light. His treatise Architettura civile, published posthumously, carried the ideas across Europe."
+      ],
+      [
+        "Filippo Juvarra (1678–1736)",
+        "Sicilian goldsmith's son who became the Savoy court's architect and Europe's most travelled designer: Superga, Stupinigi, the Palazzo Madama staircase, and projects from Lisbon to Madrid. The Baroque's last great international practitioner."
+      ],
+      [
+        "Louis Le Vau (1612–1670)",
+        "First architect of the young Louis XIV: Vaux-le-Vicomte with Le Brun and Le Nôtre invented the French classical ensemble, and his work at Versailles and the Louvre framed the terms his successor Hardouin-Mansart would enlarge."
+      ],
+      [
+        "Jules Hardouin-Mansart (1646–1708)",
+        "Architect of Versailles' maturity — the Hall of Mirrors, the Orangerie, the Grand Trianon — and of the Invalides dome and Place Vendôme in Paris. Organiser of the largest building office in Europe; the French Baroque as state administration."
+      ],
+      [
+        "Johann Bernhard Fischer von Erlach (1656–1723)",
+        "Imperial court architect in Vienna and the style's first historian (Entwurff einer historischen Architectur, 1721). The Karlskirche composes Rome, Athens and Vienna into one building; Schönbrunn and the Salzburg churches make Austria the Baroque's second capital."
+      ],
+      [
+        "Balthasar Neumann (1687–1753)",
+        "Artillery officer turned Franconia's master builder: the Würzburg Residenz staircase — a vault thrown across a ballroom without supports — and the oval-planned pilgrimage church of Vierzehnheiligen. Engineering and devotion in a single hand."
+      ],
+      [
+        "Christopher Wren (1632–1723)",
+        "Astronomer and geometer who rebuilt St Paul's and fifty-one City churches after the Fire of London: the English Baroque's clarity of plan and structure, learned from engravings of Paris and Rome and never mistaken for either."
+      ],
+      [
+        "Bartolomeo Rastrelli (1700–1771)",
+        "Italian-born architect to the Empress Elizabeth of Russia: the Winter Palace and the Catherine Palace at Tsarskoye Selo stretch the Baroque to its most opulent — hundreds of metres of turquoise, white and gold — a generation after Paris had tired of it."
+      ]
+    ],
+    "fiveSigns": [
+      {
+        "name": "Space that gathers and moves (Baroque)",
+        "look": "Look for plans built from interlocking ovals and curves, and for spaces composed as a single gathering gesture: Bernini's colonnades embracing the crowd at St Peter's, the oval nave of Sant'Andrea al Quirinale, the swelling and narrowing of a Borromini interior. Baroque space is never a neutral box; it pushes, receives and directs. Stand still and feel where the room wants you to go — toward the altar, the throne, the light.",
+        "limit": "Curved plans occur in other periods, from Roman baths to modern concert halls; the sign counts only when the curve is structural and processional, organising movement and view, not applied as a decorative outline on a rectangular room.",
+        "img": "stPetersSquare"
+      },
+      {
+        "name": "The wall that will not sit still (Baroque)",
+        "look": "Look for facades and wall surfaces that advance and recede in bays, breaking their entablatures as they go: the wave of San Carlo alle Quattro Fontane, the convex and concave drums of Sant'Ivo, paired columns and pilasters layered so the surface is modelled like clay, always in deep light and shadow. A Baroque wall is an event, not a boundary.",
+        "limit": "Rich carving alone is not enough — Gothic and Romanesque facades are carved too, but their walls stay flat and their openings stay put. If the entablature runs straight and the wall plane is single, you are looking at classicism, however expensive the stone.",
+        "img": "sanCarlino"
+      },
+      {
+        "name": "The ceiling opened to heaven (Baroque)",
+        "look": "Look up. The Baroque interior culminates overhead, where fresco, stucco and gilded sculpture conspire to dissolve the roof: saints ascending through painted architecture at Sant'Ignazio, the Trinity blazing through the Gesù's golden vault, figures spilling out of their frames toward you. The technique is quadratura — painted architecture continuing the real — and its purpose is to make the building's boundary with heaven negotiable.",
+        "limit": "Ceiling painting is as old as the Renaissance; the Baroque sign is illusion that breaks the frame, mixes media and addresses the viewer's body, not a framed picture set into a ceiling. A reproduction or a repainted nineteenth-century ceiling tells the same iconography with none of the spatial lie.",
+        "img": "ilGesuCeiling"
+      },
+      {
+        "name": "C-scrolls, S-scrolls and rocaille (Rococo)",
+        "look": "Look for ornament that has given up symmetry and solidity at once: C and S scrolls, shell-like rocaille, icicle and ribbon forms, carved thin and gilded or painted pale, climbing over the junctions of wall and ceiling until structure and decoration can no longer be separated. In the Bavarian pilgrimage churches the stucco runs like foam; in Paris boiserie it is planed to the thinness of paper.",
+        "limit": "Rocaille is easily confused with Baroque richness from a distance; come close. Baroque ornament is heavy, architectural and symmetrical about its axis; Rococo ornament is light, deliberately off-axis and playful — if it looks like confectionery that might melt, it is Rococo.",
+        "img": "zwiefalten"
+      },
+      {
+        "name": "The small, pale, mirrored room (Rococo)",
+        "look": "Look for the Rococo's characteristic setting: not the hall but the salon — oval or canted corners, low ceilings by Baroque standards, mirrors multiplying candlelight between windows, pale gold and pastel paint, furniture, upholstery, porcelain and panelling designed as one continuous work of art. Intimacy is the programme; the room is sized for conversation, music and intrigue.",
+        "limit": "Pastel colour and mirrors appear in many later interiors, down to hotel lobbies; the Rococo room is identified by the integration — plan, panelling, furniture and ornament conceived together, asymmetrically — not by any single pretty feature.",
+        "img": "soubise"
+      }
+    ],
+    "gazetteer": [
+      [
+        "Rome — St Peter's and the Vatican",
+        "The style's ground zero: Maderno's facade, Bernini's colonnade, Baldacchino and Cathedra, with the Cornaro Chapel at Santa Maria della Vittoria and Sant'Andrea al Quirinale across the city for the same master at intimate scale. Allow two days; the square repays dawn and dusk."
+      ],
+      [
+        "Rome — the Borromini walk",
+        "San Carlo alle Quattro Fontane, the Oratory of the Filippini, Sant'Ivo alla Sapienza in its courtyard, the spire of Sant'Agnese in Agone across Piazza Navona, and the remodelled nave of St John Lateran: one architect, one morning, all within walking distance."
+      ],
+      [
+        "Venice — the Salute",
+        "Longhena's Santa Maria della Salute, raised in thanks for deliverance from the plague of 1630, read from the water and from the steps; pair it with the Scuola Grande di San Rocco for the Venetian division of labour between architecture and painting."
+      ],
+      [
+        "Turin — Guarini and Juvarra",
+        "The chapel of the Holy Shroud and San Lorenzo for Guarini's impossible domes; Palazzo Madama's staircase, Superga on its hill and Stupinigi for Juvarra — Piedmont is the Baroque's engineering laboratory, and the most under-visited of its capitals."
+      ],
+      [
+        "Lecce",
+        "The Florence of the South: Santa Croce and the Piazza del Duomo in a soft local limestone that carvers treated like wood. The Lecce Baroque is provincial in geography only; its surface invention rivals Rome's."
+      ],
+      [
+        "The Val di Noto, Sicily",
+        "Noto, Ragusa Ibla, Modica and Catania, rebuilt after 1693 as one continuous golden townscape and listed together by UNESCO. Go for the evening light on the cathedral steps of Noto, the style's greatest urban room in the south."
+      ],
+      [
+        "Vienna — Karlskirche and the Belvedere",
+        "Fischer von Erlach's Karlskirche and his son's completion; Hildebrandt's Belvedere for Prince Eugene; the abbey of Melk an hour west, where church, library and staircase compose the Austrian Baroque's complete sentence."
+      ],
+      [
+        "Bavaria — the pilgrimage churches",
+        "The Wieskirche at Steingaden, Zwiefalten Minster and Vierzehnheiligen near Bamberg: three rural churches that contain, between them, the whole argument of the German late Baroque and Rococo — structure as light, ornament as foam."
+      ],
+      [
+        "Würzburg",
+        "The Residenz of Balthasar Neumann: the staircase vault and Tiepolo's ceiling, the Hofkirche's stacked ovals, the mirrored cabinet. One palace, kept nearly intact, that justifies the word Gesamtkunstwerk before it was coined."
+      ],
+      [
+        "Paris — the Rococo interior",
+        "The Hôtel de Soubise's Salon de la Princesse (Archives Nationales), with the Invalides and the Louvre Colonnade for the classical discipline the Rococo grew inside; the Petit Trianon at Versailles for the moment taste turned."
+      ],
+      [
+        "London — Wren's city",
+        "St Paul's Cathedral above all; then the City churches — St Stephen Walbrook's dome, St Mary Abchurch — and Greenwich Hospital, where Wren and Hawksmoor stage the English Baroque at urban scale along the Thames."
+      ],
+      [
+        "Mexico City and Ouro Preto",
+        "The Sagrario beside Mexico City's cathedral and the cathedral of Zacatecas for the Churrigueresque at full intensity; then Ouro Preto in Minas Gerais, where the Aleijadinho carved the colonial Baroque's most original swansong in soapstone."
+      ]
+    ],
+    "glossary": [
+      [
+        "Baroque",
+        "The style of European architecture c. 1600–1750: dramatic, moving, illusionistic, fusing architecture, sculpture and painting. The word — probably from Portuguese barroco, a misshapen pearl — began as an eighteenth-century insult and became a neutral category only with Wölfflin (1888)."
+      ],
+      [
+        "Rococo",
+        "The Baroque's late, light phase (c. 1720–70), centred on the interior: asymmetrical rocaille ornament, pastel colour, mirrors and small, integrated rooms. From rocaille + baroque, coined as a joke in the 1790s; never an architect's own word for it."
+      ],
+      [
+        "Bel composto",
+        "'The beautiful compound': Bernini's principle that architecture, sculpture and painting should be composed as one work addressing one viewer — the theoretical heart of the High Baroque interior."
+      ],
+      [
+        "Quadratura",
+        "Perspective painting that continues a room's real architecture into illusion — columns, coffers and figures projected onto vaults from a single standing point, as in Pozzo's Sant'Ignazio ceiling."
+      ],
+      [
+        "Colossal (giant) order",
+        "Columns or pilasters rising through two or more storeys, unifying a facade's height in one gesture; a Baroque favourite from Michelangelo's Campidoglio onward."
+      ],
+      [
+        "Broken pediment",
+        "A pediment split at the centre, the gap often filled by an urn, bust or cartouche — classical grammar deliberately interrupted for movement and emphasis."
+      ],
+      [
+        "Undulating wall",
+        "A wall surface that curves in plan — convex, concave, convex again — so the building's mass seems to breathe; Borromini's signature, from San Carlino to the Oratory."
+      ],
+      [
+        "Oval plan",
+        "The Baroque's characteristic sacred geometry: neither circle (static, heavenly) nor rectangle (earthly), but the oval — dynamic, directional, focussed on altar and eye at once."
+      ],
+      [
+        "Scenography",
+        "Design borrowed from the stage: architecture composed as a sequence of views, reveals and backdrops for a moving spectator — processions, approaches, garden axes."
+      ],
+      [
+        "Fresco",
+        "Painting in wet lime plaster (buon fresco), so pigment and wall become one material; the medium of the great Baroque ceilings, worked in giornate — a day's plaster at a time."
+      ],
+      [
+        "Stucco",
+        "Lime or gypsum plaster modelled in place, the Baroque's universal medium: structure's cheap double, gilding's ground, and in Bavarian hands an art of figures and foam lighter than stone could ever be."
+      ],
+      [
+        "Scagliola",
+        "Imitation marble made from tinted plaster, polished to a shine; the economical Baroque surface that let provincial churches blaze like quarries."
+      ],
+      [
+        "Boiserie",
+        "Carved timber panelling lining a room, in the Rococo painted pale or gilded and carved with rocaille; the wall itself becomes furniture."
+      ],
+      [
+        "Rocaille",
+        "The Rococo's generating ornament: shell-work and rock-work — asymmetrical C and S scrolls, shells, icicles and ribbons, always irregular, always light."
+      ],
+      [
+        "Enfilade",
+        "A suite of rooms aligned door-to-door, so a single view — and a single ceremonial approach — runs the length of a floor; the palace plan as perspective diagram."
+      ],
+      [
+        "Piazza",
+        "The Italian urban room: a square composed as an interior without a roof, its facades, obelisk, fountains and church front staged for crowd and ceremony. St Peter's Square is the type's maximum."
+      ],
+      [
+        "Baldacchino",
+        "A permanent canopy over an altar or throne, in bronze, stone or cloth; Bernini's in St Peter's, at 29 metres, turned the furnishing into architecture."
+      ],
+      [
+        "Lantern",
+        "The small, windowed turret crowning a dome, admitting the shaft of light by which Baroque domes read as structure and symbol at once; Borromini's at Sant'Ivo twists into a spiral."
+      ],
+      [
+        "Volute",
+        "The spiral scroll of the Ionic capital, enlarged by the Baroque into a structural gesture: the great scrolls buttressing Santa Maria della Salute, or easing the step between nave and tower on a church facade."
+      ],
+      [
+        "Exedra",
+        "A semicircular recess or apse-like extension of a wall — in Baroque planning, the curve that gathers a piazza, a garden front or a church's embrace."
+      ],
+      [
+        "Cartouche",
+        "A framed tablet of scrollwork carrying an inscription, arms or nothing at all; the Baroque's favourite piece of punctuation on facades and ceilings."
+      ],
+      [
+        "Churrigueresque",
+        "The Spanish and colonial Baroque at its most encrusted, named for the Churriguera family: facades dissolved into tiers of ornament, estipite pilasters and gilded retablos, from Salamanca to Zacatecas."
+      ],
+      [
+        "Gesamtkunstwerk",
+        "'Total work of art' — a later German word for what Baroque patrons already practised: every art and craft in a building conceived as one effect."
+      ],
+      [
+        "Counter-Reformation",
+        "The Catholic Church's renewal after the Council of Trent (1545–63) — disciplined orders, new saints, and art deliberately aimed at the senses; the Baroque's first patron and programme."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "The Metropolitan Museum of Art — Heilbrunn Timeline of Art History: Baroque Architecture",
+        "url": "https://www.metmuseum.org/toah/hd/baro/hd_baro.htm"
+      },
+      {
+        "name": "UNESCO World Heritage Centre — Palace and Park of Versailles",
+        "url": "https://whc.unesco.org/en/list/83/"
+      },
+      {
+        "name": "UNESCO World Heritage Centre — Late Baroque Towns of the Val di Noto",
+        "url": "https://whc.unesco.org/en/list/1024/"
+      },
+      {
+        "name": "UNESCO World Heritage Centre — Würzburg Residence",
+        "url": "https://whc.unesco.org/en/list/600/"
+      },
+      {
+        "name": "UNESCO World Heritage Centre — Historic Centre of Saint Petersburg",
+        "url": "https://whc.unesco.org/en/list/540/"
+      },
+      {
+        "name": "Smarthistory — the open art history resource (Baroque)",
+        "url": "https://smarthistory.org/"
+      }
+    ],
+    "bibliography": [
+      "Rudolf Wittkower, Art and Architecture in Italy, 1600–1750, Pelican History of Art, Penguin, 1958 — the magisterial survey that returned the Italian Baroque to serious history; later expanded into Yale University Press's three-volume edition (1999). The research base of this book's Roman chapters.",
+      "Christian Norberg-Schulz, Baroque Architecture, Electa, Milan, 1971 (English edition, Harry N. Abrams, 1974) — the great visual and spatial survey of the Electa History of World Architecture series; unmatched on the style's planning intelligence.",
+      "Christian Norberg-Schulz, Late Baroque and Rococo Architecture, Electa, Milan — the companion volume to the above, carrying the story into the eighteenth century's pilgrimage churches, residences and interiors.",
+      "Anthony Blunt (ed.), Baroque and Rococo: Architecture and Decoration, Elek, London, 1978 — the sumptuous standard survey of the two manners treated together, architecture and the decorative arts in one frame.",
+      "Heinrich Wölfflin, Renaissance und Barock, Munich, 1888 — the short book that began Baroque studies, setting Renaissance and Baroque as opposite poles of seeing; still the sharpest introduction to what the style is not.",
+      "Howard Hibbard, Bernini, Penguin, 1965 — the classic short life of the style's central figure, exact on the works and sane on the man.",
+      "The Metropolitan Museum of Art, 'Baroque Architecture', in Heilbrunn Timeline of Art History, New York, 2000– — the institutional overview against which dates, terms and attributions in this book were checked."
+    ]
   }
 ];
 
