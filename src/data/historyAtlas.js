@@ -334,6 +334,10 @@ export const historyStudies = [
       { name: "Frank Lloyd Wright Foundation", url: "https://franklloydwright.org/" },
       { name: "Fallingwater", url: "https://fallingwater.org/" }
     ],
+    deepPage: "/magazine/architectural-history-styles/frank-lloyd-wright/",
+    pdf: "/downloads/history/frank-lloyd-wright.pdf",
+    bookCover: "/assets/history-deep/frank-lloyd-wright/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/frank-lloyd-wright/read/",
     images: {
       hero: { src: `${H}/flw-hero.jpg`, alt: "Fallingwater cantilevered terraces above the waterfall at Bear Run", credit: "Photo: fuzheado, via Wikimedia Commons (CC BY-SA 2.0)" },
       detail1: { src: `${H}/flw-detail1.jpg`, alt: "Robie House in Chicago with long eaves and art glass bands", credit: "Photo: Stilfehler, via Wikimedia Commons (CC BY-SA 4.0)" },
