@@ -478,6 +478,10 @@ export const historyStudies = [
       { name: "UNESCO World Heritage Centre", url: "https://whc.unesco.org/en/list/1229/" },
       { name: "UNESCO World Heritage Centre", url: "https://whc.unesco.org/en/list/488/" }
     ],
+    deepPage: "/magazine/architectural-history-styles/castles/",
+    pdf: "/downloads/history/castles.pdf",
+    bookCover: "/assets/history-deep/castles/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/castles/read/",
     images: {
       hero: { src: `${H}/castles-hero.jpg`, alt: "Curtain walls and towers of Conwy Castle in Wales", credit: "Photo: Nilfanion, via Wikimedia Commons (CC BY-SA 4.0)" },
       detail1: { src: `${H}/castles-detail1.jpg`, alt: "The White Tower keep at the Tower of London", credit: "Photo: Dietmar Rabich, via Wikimedia Commons (CC BY-SA 4.0)" },
