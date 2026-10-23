@@ -374,14 +374,18 @@ if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new
 // images (96 pages at reading resolution, ~11.9 MB) in the same folder —
 // a measured addition of ~41.2 MB for this book (post-prune dist total
 // 667.00 MB against the 675 MB cap).
+// Raised 675 -> 678 on 2026-10-23 to cover the plates completion of
+// Book 9 (plate sections rendering added ~2.1 MB of reader pages and
+// PDF plates over the first Book 9 measurement) plus CI/local dist
+// measurement variance.
 // Raised 304 -> 312 on 2026-10-23 after CI measured 310.74 MB: the sandbox
 // cannot run the full Playwright PDF pipeline (/tmp-constrained), so local
 // dist under-measures by the CI-generated history book PDF (~7.3 MB) plus
 // bundle variance. 312 covers the approved daily batch with the gate intact.
 // NOTE: at ~16 MB/day this gate needs a
 // sustainable model (per-article budget or growth allowance) — revisit soon.
-if (distSizeMb - materialSizeMb > 675) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 675 MB`);
+if (distSizeMb - materialSizeMb > 678) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 678 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));
