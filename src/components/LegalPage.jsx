@@ -5,7 +5,9 @@ export function legalPageForPath(pathname) {
   return legalPages[normalized] || null;
 }
 
-export default function LegalPage({ page }) {
+export default function LegalPage({ pathname }) {
+  const page = legalPageForPath(pathname || '');
+  if (!page) return null;
   return (
     <main className="ek-legal-page" id="main-content">
       <a className="ek-legal-brand" href="/">WORLD ARCH JOURNAL <small>ARCHITECTURE &amp; INTERIORS</small></a>

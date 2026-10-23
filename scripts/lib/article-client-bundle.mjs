@@ -11,7 +11,13 @@ export function articleClientBundle() {
     apply: 'build',
     transform(source, id) {
       if (!id.replaceAll('\\', '/').endsWith('/src/data/articles.js')) return null;
-      const catalog = articles.map(({ contentHtml, ...metadata }) => ({ ...metadata, contentUrl: `/${payloadPath(articles.find((item) => item.slug === metadata.slug))}` }));
+      // The browser catalog carries display/SEO metadata only. Body-adjacent
+      // fields stay solely in the per-article payloads, which ArticleReader
+      // (body) and SiteSeo (faq/evidence) fetch on demand via contentUrl.
+      const catalog = articles.map((article) => {
+        const { contentHtml, visuals, faq, evidence, toc, facts, scope, cta, primarySource, audience, socialAssets, ...metadata } = article;
+        return { ...metadata, contentUrl: `/${payloadPath(article)}` };
+      });
       return {
         code: `export const articles = ${JSON.stringify(catalog)};\n${source.slice(source.indexOf('export function articleBySlug'))}`,
         map: null,

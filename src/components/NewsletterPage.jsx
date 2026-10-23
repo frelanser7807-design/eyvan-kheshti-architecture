@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { newsletterIssues, editorialArticles, editorialPath } from '../data/newsletters.js';
 import { submitSubscriber } from '../lib/dataAdapter.js';
 import { assetUrl } from '../lib/assetUrl.js';
@@ -13,12 +13,12 @@ function issueCard(entry) {
   const isNews = entry.format !== 'Technical field note';
   return <a className={`wj-newsletter-card${isNews ? ' is-news' : ''}`} href={editorialPath(entry)} key={entry.slug}>
     <span>{entry.format.toUpperCase()} · <time dateTime={entry.publishedAt}>{formatEditorialDate(entry.publishedAt)}</time></span>
-    <img src={assetUrl(entry.image)} alt={entry.imageAlt} width={isNews ? 1620 : 1080} height={isNews ? 1080 : 1920} />
+    <img src={assetUrl(entry.image)} alt={entry.imageAlt} width={isNews ? 1620 : 1080} height={isNews ? 1080 : 1920} loading="lazy" decoding="async" />
     <strong>{entry.title}</strong><small>{entry.excerpt}</small>{entry.imageAttribution && <small className="wj-newsletter-card-credit">Photo: {entry.imageAttribution.creator} · {entry.imageAttribution.licenseLabel}; source and licence in article.</small>}<small className="wj-newsletter-card-analysis">{entry.analysisSummary}</small><em>Read the full story ↗</em>
   </a>;
 }
 
-export default function NewsletterPage({ article = false, issue = newsletterIssues[0], section = 'newsletter' }) {
+function NewsletterPageView({ article = false, issue = newsletterIssues[0], section = 'newsletter' }) {
   const [status, setStatus] = useState('idle');
   const isNews = issue.format !== 'Technical field note';
   const isAnalysis = section === 'analysis';
@@ -62,4 +62,52 @@ export default function NewsletterPage({ article = false, issue = newsletterIssu
       <section className="wj-newsletter-signup" aria-labelledby="briefing-signup-title"><div><span>THE NEXT BRIEFING</span><h2 id="briefing-signup-title">Good architecture deserves a closer look.</h2><p>Occasional editorial email. Confirm your address to join. No paid gate on this issue.</p></div>{status === 'success' ? <p role="status">Check your inbox for a confirmation link.</p> : <form onSubmit={subscribe}><label htmlFor="briefing-email">Email address</label><input id="briefing-email" type="email" name="email" autoComplete="email" required placeholder="you@example.com" /><label className="wj-newsletter-consent"><input type="checkbox" name="consent" value="yes" required /> I agree to receive the newsletter. See our <a href="/privacy/">privacy policy</a>.</label><input className="wj-newsletter-trap" name="website" tabIndex="-1" autoComplete="off" aria-hidden="true" /><button type="submit" disabled={status === 'saving'}>{status === 'saving' ? 'Joining…' : 'Join the briefing →'}</button>{status === 'error' && <p role="alert">We could not process this request. Please try again.</p>}</form>}</section>
     </main><footer className="wj-newsletter-footer"><a href="/">WORLD ARCH JOURNAL</a><a href="/editorial-team/">Publisher & contact</a><a href="/editorial-policy/">Editorial standards</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></footer>
   </div>;
+}
+
+const issueRequests = new Map();
+
+function loadIssuePayload(issue) {
+  if (!issueRequests.has(issue.slug)) {
+    const request = fetch(assetUrl(issue.contentUrl))
+      .then((response) => {
+        if (!response.ok) throw new Error('Issue unavailable');
+        return response.json();
+      })
+      .then((value) => {
+        if (value.slug !== issue.slug || !Array.isArray(value.sections)) throw new Error('Invalid issue');
+        return value;
+      })
+      .catch((error) => { issueRequests.delete(issue.slug); throw error; });
+    issueRequests.set(issue.slug, request);
+  }
+  return issueRequests.get(issue.slug);
+}
+
+// In the production build the issue catalog omits `sections` (see
+// newsletter-client-bundle), so article views fetch the full issue payload
+// on demand — the same pattern ArticleReader uses. Hub/archive views render
+// from the catalog alone and never fetch.
+export default function NewsletterPage({ article = false, issue = newsletterIssues[0], section = 'newsletter' }) {
+  const [loaded, setLoaded] = useState(null);
+  const [failed, setFailed] = useState(false);
+  useEffect(() => {
+    if (!article || !issue || Array.isArray(issue.sections)) return undefined;
+    let active = true;
+    setFailed(false);
+    loadIssuePayload(issue).then((value) => active && setLoaded(value)).catch(() => active && setFailed(true));
+    return () => { active = false; };
+  }, [article, issue]);
+  if (article && issue && !Array.isArray(issue.sections)) {
+    if (loaded?.slug === issue.slug) return <NewsletterPageView article issue={loaded} section={section} />;
+    return (
+      <div className="wj-newsletter-page">
+        <header className="wj-newsletter-nav"><a className="wj-newsletter-brand" href="/"><img src={assetUrl('/assets/brand/world-arch-wa-mark-v1.png')} alt="" width="34" height="34" /> WORLD ARCH JOURNAL</a><nav aria-label="Primary"><a href="/magazine/">Magazine</a><a href="/newsletter/">Newsletter</a><a href="/prompts/">Prompt Lab</a></nav></header>
+        <main className="wj-newsletter-main" id="main-content">
+          <h1>{issue.title}</h1>
+          <p aria-live="polite">{failed ? 'This edition could not be loaded. Please reload this page to try again.' : 'Loading this edition…'}</p>
+        </main>
+      </div>
+    );
+  }
+  return <NewsletterPageView article={article} issue={issue} section={section} />;
 }

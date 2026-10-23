@@ -1,7 +1,9 @@
 import { lazy, Suspense, useEffect, useState } from 'react';
 const HomeV44 = lazy(() => import('./components/HomeV44.jsx'));
+const LegalPage = lazy(() => import('./components/LegalPage.jsx'));
+const SiteSeo = lazy(() => import('./components/SiteSeo.jsx'));
+const LEGAL_PATHS = new Set(['/privacy/', '/terms/', '/affiliate-disclosure/', '/editorial-policy/', '/editorial-team/', '/cookie-settings/']);
 
-import SiteSeo from './components/SiteSeo.jsx';
 const MaterialCollections = lazy(() => import('./components/MaterialCollections.jsx'));
 const MaterialLibraryPage = lazy(() => import('./components/MaterialLibraryPage.jsx'));
 import { materialBySlug } from './data/materialLibrary.js';
@@ -14,13 +16,11 @@ const MaterialStudioPage = lazy(() => import('./components/FlutedMaterialPilot.j
 const TravertinePanel = lazy(() => import('./components/TravertinePanel.jsx'));
 const CeramicPorcelainPanel = lazy(() => import('./components/CeramicPorcelainPanel.jsx'));
 import ErrorBoundary from './components/ErrorBoundary.jsx';
-import LegalPage, { legalPageForPath } from './components/LegalPage.jsx';
 const ArticleReader = lazy(() => import('./components/ArticleReader.jsx'));
 const MagazineReader = lazy(() => import('./components/MagazineReader.jsx'));
 const MagazineHub = lazy(() => import('./components/MagazineHub.jsx'));
 const HistoryDeepPage = lazy(() => import('./components/HistoryDeepPage.jsx'));
 const BookReaderPage = lazy(() => import('./components/BookReaderPage.jsx'));
-import { historyDeepById } from './data/historyDeep.js';
 const ProductPage = lazy(() => import('./components/ProductPage.jsx'));
 
 const PromptLibrary = lazy(() => import('./components/PromptLibrary.jsx'));
@@ -38,11 +38,8 @@ const AtlasVillaCaseStudy = lazy(() => import('./components/AtlasVillaCaseStudy.
 import { defaultContent } from './data/defaultContent.js';
 import { articleBySlug } from './data/articles.js';
 import { magazineBySlug } from './data/magazines.js';
-import { magazineCategoryBySlug } from './data/magazineCategories.js';
-import { promptById } from './data/promptLibrary.js';
 import { newsletterIssues, editorialArticles } from './data/newsletters.js';
 import { getContent, subscribeToContent } from './lib/dataAdapter.js';
-import { projectBySlug } from './data/projects.js';
 import { videoStoryBySlug } from './data/videoStories.js';
 
 const VirtualTourPage = lazy(() => import('./components/VirtualTourPage.jsx'));
@@ -66,18 +63,18 @@ function currentRoute() {
   const historyReadMatch = normalizedPath.match(/^\/magazine\/architectural-history-styles\/([^/]+)\/read\/$/);
   if (historyReadMatch) {
     const slug = decodeURIComponent(historyReadMatch[1]);
-    return { name: 'history-read', slug, item: historyDeepById(slug) };
+    return { name: 'history-read', slug };
   }
   const historyDeepMatch = normalizedPath.match(/^\/magazine\/architectural-history-styles\/([^/]+)\/$/);
   if (historyDeepMatch) {
     const slug = decodeURIComponent(historyDeepMatch[1]);
-    return { name: 'history-deep', slug, item: historyDeepById(slug) };
+    return { name: 'history-deep', slug };
   }
   const magazineMatch = normalizedPath.match(/^\/magazine\/([^/]+)\/$/);
   if (magazineMatch) {
     const slug = decodeURIComponent(magazineMatch[1]);
     const issue = magazineBySlug(slug);
-    return issue ? { name: 'magazine', slug, item: issue } : { name: 'magazine-category', slug, item: magazineCategoryBySlug(slug) };
+    return issue ? { name: 'magazine', slug, item: issue } : { name: 'magazine-category', slug };
   }
   if (normalizedPath === '/shop/presentations/') return { name: 'presentation-studio' };
   if (normalizedPath === '/contact/') return { name: 'contact' };
@@ -98,10 +95,10 @@ function currentRoute() {
   if (normalizedPath === '/projects/') return { name: 'projects-hub' };
   if (normalizedPath === '/projects/atlas-villa/') return { name: 'atlas-villa' };
   const projectMatch = normalizedPath.match(/^\/projects\/([^/]+)\/$/);
-  if (projectMatch) return { name: 'project', slug: decodeURIComponent(projectMatch[1]), item: projectBySlug(decodeURIComponent(projectMatch[1])) };
-  if (normalizedPath === '/virtual-tours/the-voids-villa/') return { name: 'virtual-tour-the-voids', item: projectBySlug('the-voids-villa') };
-  if (normalizedPath === '/virtual-tours/narbon-villa/') return { name: 'virtual-tour-narbon', item: projectBySlug('narbon-villa') };
-  if (normalizedPath === '/virtual-tours/villa-safadasht/') return { name: 'virtual-tour-safadasht', item: projectBySlug('villa-safadasht') };
+  if (projectMatch) return { name: 'project', slug: decodeURIComponent(projectMatch[1]) };
+  if (normalizedPath === '/virtual-tours/the-voids-villa/') return { name: 'virtual-tour-the-voids', slug: 'the-voids-villa' };
+  if (normalizedPath === '/virtual-tours/narbon-villa/') return { name: 'virtual-tour-narbon', slug: 'narbon-villa' };
+  if (normalizedPath === '/virtual-tours/villa-safadasht/') return { name: 'virtual-tour-safadasht', slug: 'villa-safadasht' };
   const productMatch = normalizedPath.match(/^\/shop\/([^/]+)\/$/);
   if (productMatch) return { name: 'product', slug: decodeURIComponent(productMatch[1]) };
   if (normalizedPath === '/shop/') return { name: 'shop' };
@@ -109,11 +106,10 @@ function currentRoute() {
   const promptMatch = normalizedPath.match(/^\/prompts\/([^/]+)\/$/);
   if (promptMatch) {
     const slug = decodeURIComponent(promptMatch[1]);
-    return { name: 'prompt', slug, item: promptById(slug) };
+    return { name: 'prompt', slug };
   }
   if (normalizedPath === '/command-center/') return { name: 'command-center' };
-  const legalPage = legalPageForPath(window.location.pathname);
-  if (legalPage) return { name: 'legal', page: legalPage };
+  if (LEGAL_PATHS.has(normalizedPath)) return { name: 'legal', path: normalizedPath };
   const localAdminEnabled = import.meta.env.DEV || import.meta.env.VITE_ENABLE_LOCAL_ADMIN === 'true';
   if (window.location.hash.startsWith('#/admin') && localAdminEnabled) return { name: 'admin' };
   return normalizedPath === '/' ? { name: 'site' } : { name: 'not-found' };
@@ -138,6 +134,16 @@ function NotFoundPage() {
 export default function App() {
   const [route, setRoute] = useState(currentRoute);
   const [content, setContent] = useState(defaultContent);
+  // SiteSeo only rewrites document metadata, which the generated static HTML
+  // already carries correctly, so mount it after the window load event: its
+  // datasets then stay out of the critical path for first paint.
+  const [seoActive, setSeoActive] = useState(false);
+  useEffect(() => {
+    if (document.readyState === 'complete') { setSeoActive(true); return undefined; }
+    const enable = () => setSeoActive(true);
+    window.addEventListener('load', enable, { once: true });
+    return () => window.removeEventListener('load', enable);
+  }, []);
 
   useEffect(() => {
     const onRouteChange = () => setRoute(currentRoute());
@@ -167,7 +173,7 @@ export default function App() {
 
   let page = <HomeV44 content={content} />;
   if (route.name === 'admin') page = <Suspense fallback={<main>Loading…</main>}><AdminPanel initialContent={content} /></Suspense>;
-  if (route.name === 'legal') page = <LegalPage page={route.page} />;
+  if (route.name === 'legal') page = <LegalPage pathname={route.path} />;
   if (route.name === 'article') page = route.item?.published ? <ArticleReader article={route.item} standalone /> : <ProductPage missing />;
   if (route.name === 'magazine') page = route.item?.published ? <MagazineReader magazine={route.item} standalone /> : <ProductPage missing />;
   if (route.name === 'magazine-hub') page = <MagazineHub />;
@@ -177,9 +183,9 @@ export default function App() {
   if (route.name === 'analysis-hub') page = <NewsletterPage section="analysis" />;
   if (route.name === 'analysis-article') page = route.item ? <NewsletterPage article section="analysis" issue={route.item} /> : <ProductPage missing />;
   if (route.name === 'newsletter-issue') page = route.item ? <NewsletterPage article issue={route.item} /> : <ProductPage missing />;
-  if (route.name === 'magazine-category') page = route.item ? <MagazineHub category={route.item} /> : <ProductPage missing />;
-  if (route.name === 'history-deep') page = route.item ? <HistoryDeepPage page={route.item} /> : <ProductPage missing />;
-  if (route.name === 'history-read') page = route.item ? <BookReaderPage page={route.item} /> : <ProductPage missing />;
+  if (route.name === 'magazine-category') page = <MagazineHub categorySlug={route.slug} />;
+  if (route.name === 'history-deep') page = <HistoryDeepPage slug={route.slug} />;
+  if (route.name === 'history-read') page = <BookReaderPage slug={route.slug} />;
   if (route.name === 'shop') page = <ProductPage products={(content?.products || []).filter((item) => item.published)} etsyUrl={content?.commerce?.etsyUrl} />;
   if (route.name === 'presentation-studio') page = <ProductPage presentationStudio products={(content?.products || []).filter((item) => item.published)} etsyUrl={content?.commerce?.etsyUrl} whatsappUrl={content?.brand?.whatsapp} />;
   if (route.name === 'custom-plan-design') page = <CustomPlanDesignPage brand={content?.brand} />;
@@ -195,7 +201,7 @@ export default function App() {
   if (route.name === 'design-services') page = <DesignServicesPage />;
   if (route.name === 'atlas-villa') page = <AtlasVillaCaseStudy />;
   if (route.name === 'projects-hub') page = <ProjectsHub />;
-  if (route.name === 'project') page = <ProjectDetail project={route.item} />;
+  if (route.name === 'project') page = <ProjectDetail slug={route.slug} />;
   if (route.name === 'virtual-tour-the-voids') page = (
     <Suspense fallback={<main className="vt-loading"><span>WORLD ARCH JOURNAL</span><p>Preparing the spatial experience…</p></main>}>
       <VirtualTourPage />
@@ -214,8 +220,8 @@ export default function App() {
   if (route.name === 'product') page = <ProductPage product={product} missing={!product} />;
   if (route.name === 'command-center') page = <Suspense fallback={<main>Loading…</main>}><CommandCenter /></Suspense>;
   if (route.name === 'prompt-library') page = <PromptLibrary />;
-  if (route.name === 'prompt') page = route.item ? <PromptDetail item={route.item} /> : <ProductPage missing />;
+  if (route.name === 'prompt') page = <PromptDetail slug={route.slug} />;
   if (route.name === 'not-found') page = <NotFoundPage />;
 
-  return <ErrorBoundary><SiteSeo content={content} route={resolvedRoute} /><Suspense fallback={<main className="seo-route-fallback"><p>Loading World Arch Journal…</p></main>}>{page}</Suspense><AnalyticsConsent /></ErrorBoundary>;
+  return <ErrorBoundary>{seoActive && <Suspense fallback={null}><SiteSeo content={content} route={resolvedRoute} /></Suspense>}<Suspense fallback={<main className="seo-route-fallback"><p>Loading World Arch Journal…</p></main>}>{page}</Suspense><AnalyticsConsent /></ErrorBoundary>;
 }

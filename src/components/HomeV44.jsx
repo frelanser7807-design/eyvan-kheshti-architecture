@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { assetUrl } from '../lib/assetUrl.js';
 import { newsletterIssues } from '../data/newsletters.js';
 import './HomeV44.css';
@@ -20,11 +20,33 @@ const FILMS = {
   practice: '/assets/film/chapters/07-design-desk.mp4',
 };
 
-function FilmVideo({ src, poster, className, label }) {
+function FilmVideo({ src, poster, className, label, defer = false }) {
   const ref = useRef(null);
+  const [armed, setArmed] = useState(!defer);
+
+  // Deferred films keep preload="none" and receive their src only when they
+  // approach the viewport, so below-fold film bytes never compete with the
+  // first paint. The hero film passes no `defer` and arms immediately.
+  useEffect(() => {
+    if (armed) return undefined;
+    const video = ref.current;
+    if (!video || !('IntersectionObserver' in window)) {
+      setArmed(true);
+      return undefined;
+    }
+    const observer = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting)) {
+        setArmed(true);
+        observer.disconnect();
+      }
+    }, { rootMargin: '900px 0px' });
+    observer.observe(video);
+    return () => observer.disconnect();
+  }, [armed]);
+
   useEffect(() => {
     const video = ref.current;
-    if (!video) return undefined;
+    if (!video || !armed) return undefined;
     if (!('IntersectionObserver' in window)) {
       video.play?.().catch(() => undefined);
       return undefined;
@@ -37,17 +59,18 @@ function FilmVideo({ src, poster, className, label }) {
     }, { threshold: 0.18 });
     observer.observe(video);
     return () => observer.disconnect();
-  }, []);
+  }, [armed]);
+
   return (
     <video
       ref={ref}
       className={className}
-      src={assetUrl(src)}
+      src={armed ? assetUrl(src) : undefined}
       poster={poster ? assetUrl(poster) : undefined}
       muted
       loop
       playsInline
-      preload="metadata"
+      preload={armed ? 'metadata' : 'none'}
       aria-label={label}
     />
   );
@@ -242,7 +265,7 @@ export default function HomeV44({ content }) {
 
         {/* 3 · FILM PIECE 2 — a full section of its own, nothing else */}
         <section className="hv-piece2" aria-label="The architect">
-          <FilmVideo className="hv-piece2-film" src={FILMS.piece2} poster="/assets/homepage/piece2-poster.jpg" label="Film: the architect walking toward the studio entrance" />
+          <FilmVideo defer className="hv-piece2-film" src={FILMS.piece2} poster="/assets/homepage/piece2-poster.jpg" label="Film: the architect walking toward the studio entrance" />
           <div className="hv-piece2-shade" aria-hidden="true" />
           <div className="hv-piece2-core">
             <div className="hv-wrap">
@@ -292,7 +315,7 @@ export default function HomeV44({ content }) {
             <h2 id="hv-materials-title">Materials, <i>come to life</i></h2>
             <p className="hv-sub">Real scanned surfaces in real rooms — pick a finish, see it at full scale, download the pack.</p>
             <div className="hv-matcover">
-              <FilmVideo className="hv-cover-film" src={FILMS.materials} poster="/assets/homepage/materials-poster.jpg" label="Film: the material library studio floor" />
+              <FilmVideo defer className="hv-cover-film" src={FILMS.materials} poster="/assets/homepage/materials-poster.jpg" label="Film: the material library studio floor" />
               <div className="hv-covermark"><b>▶</b>&nbsp; FILM · MATERIAL LIBRARY</div>
               <div className="hv-filmbar" aria-hidden="true"><i style={{ width: '47%' }} /></div>
             </div>
@@ -374,7 +397,7 @@ export default function HomeV44({ content }) {
             <h2 id="hv-services-title">A remote architect, <i>worldwide</i></h2>
             <p className="hv-sub">Fifteen years of practice, working remotely with clients everywhere — villas, façades and interiors for small and large spaces.</p>
             <div className="hv-svccover">
-              <FilmVideo className="hv-cover-film" src={FILMS.practice} poster="/assets/homepage/services-poster.jpg" label="Film: drawing a project at the design desk" />
+              <FilmVideo defer className="hv-cover-film" src={FILMS.practice} poster="/assets/homepage/services-poster.jpg" label="Film: drawing a project at the design desk" />
               <div className="hv-covermark"><b>▶</b>&nbsp; FILM · THE DESIGN DESK</div>
               <div className="hv-filmbar" aria-hidden="true"><i style={{ width: '71%' }} /></div>
             </div>

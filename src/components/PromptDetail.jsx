@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { assetUrl } from '../lib/assetUrl.js';
-import { promptCategories, promptItems } from '../data/promptLibrary.js';
+import { promptById, promptCategories, promptItems } from '../data/promptLibrary.js';
+import ProductPage from './ProductPage.jsx';
 import { watchVideoForSource, watchPagePath } from '../data/watchVideos.js';
 import { copyPromptText, PromptSiteHeader } from './PromptLibrary.jsx';
 import { trackSiteEvent } from './AnalyticsConsent.jsx';
@@ -16,8 +17,10 @@ function CopyPanel({ label, value, copied, onCopy }) {
   );
 }
 
-export default function PromptDetail({ item }) {
+export default function PromptDetail({ slug }) {
   const [copied, setCopied] = useState('');
+  const item = promptById(slug);
+  if (!item) return <ProductPage missing />;
   const premium = item.access === 'premium';
   const category = promptCategories.find((entry) => entry.slug === item.category);
   const related = promptItems.filter((entry) => entry.id !== item.id && entry.category === item.category).slice(0, 3);
@@ -42,7 +45,7 @@ export default function PromptDetail({ item }) {
         <div className="prompt-detail-intro">
           <figure>
             {item.video
-              ? <video src={assetUrl(item.video)} poster={assetUrl(item.image)} controls playsInline preload="metadata" aria-label={`${item.title} example video`} />
+              ? <video src={assetUrl(item.video)} poster={assetUrl(item.image)} controls playsInline preload="none" aria-label={`${item.title} example video`} />
               : <img src={assetUrl(item.image)} alt={`${item.title} prompt preview`} fetchPriority="high" />}
             <span>{premium ? '♛ PRO' : 'FREE'}</span>
           </figure>

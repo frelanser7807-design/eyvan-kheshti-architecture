@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { assetUrl } from '../lib/assetUrl.js';
+import { historyDeepById } from '../data/historyDeep.js';
+import ProductPage from './ProductPage.jsx';
 import './MagazineHub.css';
 import './BookReader.css';
 
@@ -7,7 +9,7 @@ import './BookReader.css';
    from the book PDF and hosted on this site — no third-party embed.
    Desktop: two-page spread with a CSS 3D sheet turn. Mobile: one page,
    swipe or tap to turn. */
-export default function BookReaderPage({ page }) {
+function BookReaderView({ page }) {
   const total = page.readerPages;
   const srcFor = useCallback((n) => assetUrl(`${page.readerBase}page-${String(n).padStart(3, '0')}.jpg`), [page]);
   const [spread, setSpread] = useState(0); // index of left page in spread mode (1-based); 0 = cover alone
@@ -152,4 +154,10 @@ export default function BookReaderPage({ page }) {
       <footer className="wj-magazine-footer"><span>© WORLD ARCH JOURNAL</span><nav aria-label="Footer"><a href="/editorial-policy/">Editorial policy</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></nav></footer>
     </div>
   );
+}
+
+export default function BookReaderPage({ slug }) {
+  const page = historyDeepById(slug);
+  if (!page) return <ProductPage missing />;
+  return <BookReaderView page={page} />;
 }
