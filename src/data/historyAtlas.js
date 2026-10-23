@@ -254,6 +254,10 @@ export const historyStudies = [
       { name: "Victoria and Albert Museum", url: "https://www.vam.ac.uk/" },
       { name: "The Victorian Society", url: "https://victoriansociety.org.uk/" }
     ],
+    deepPage: "/magazine/architectural-history-styles/victorian/",
+    pdf: "/downloads/history/victorian.pdf",
+    bookCover: "/assets/history-deep/victorian/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/victorian/read/",
     images: {
       hero: { src: `${H}/victorian-hero.jpg`, alt: "Palace of Westminster in London, Gothic Revival landmark on the Thames", credit: "Photo: Diliff, via Wikimedia Commons (CC BY-SA 2.5)" },
       detail1: { src: `${H}/victorian-detail1.jpg`, alt: "Interior of the Crystal Palace in 1851, iron and glass exhibition hall", credit: "Photo: J. McNeven, via Wikimedia Commons (Public domain)" },
