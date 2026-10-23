@@ -19,7 +19,7 @@ const adaptiveReuseArchitecture = {
   imageAlt: 'Tate Modern in London, a former power station adapted as an art museum',
   visualLabel: 'FIG. 01 · TATE MODERN, LONDON · PHOTO: THE CAR SPY / WIKIMEDIA COMMONS, CC BY 2.0 · CROPPED',
   publishedAt: '2026-09-20',
-  modifiedAt: '2026-10-22',
+  modifiedAt: '2026-10-23',
   toc: [
     ['reuse-before-replace', 'Why reuse should be tested before replacement'],
     ['survey-before-design', '1. Survey the building before drawing the intervention'],
@@ -99,6 +99,7 @@ const adaptiveReuseArchitecture = {
     <p>Adaptive reuse is most convincing when the intervention neither disappears into imitation nor overwhelms the inherited building. It reads what is present, protects the values that matter and introduces only the new capacity required for another useful life. Survey, programme, structure, heritage, environmental performance and services become one design problem.</p>
     <p>The result may be quieter than a replacement building, but it can be richer: old material remains legible, new work is accountable, and future change is anticipated. Preservation then becomes an active form of invention—one measured not by how little architecture changes, but by how intelligently value continues. Nowhere is that clearer than in the afterlife of <a href="/articles/brutalist-architecture-history-features-buildings/">brutalist architecture</a>, whose concrete landmarks are increasingly reread as assets rather than embarrassments.</p>
     <p><strong>Continue exploring:</strong> reuse is a running story in the briefing — the <a href="/newsletter/architecture-briefing-2026-10-09/">9 October edition</a> follows conservation training and learning-by-repair, and our library's <a href="/materials/">material collections</a> are specified with second lives in mind — and the <a href="/newsletter/architecture-briefing-2026-10-11/">11 October briefing</a> follows a Tehran cinema brought back the same way.</p>
+<p><strong>From the library:</strong> <a href="/magazine/architectural-history-styles/victorian/">The buildings being reused are often Victorian — read Victorian Architecture, Book VII</a> of the Architectural History Series, free to read online.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international explainer'],

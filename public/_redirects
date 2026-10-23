@@ -17,3 +17,8 @@ https://world-arch-journal.pages.dev/* https://worldarchjournal.com/:splat 301
 /assets/brand/world-arch-journal-youtube-banner-preview-v1.jpg /assets/brand/world-arch-journal-youtube-banner-v1.svg 301
 
 /assets/articles/bird-safe-facade-design/hero.png /assets/articles/bird-safe-facade-design/hero.webp 301
+
+# Articles index: there is no standalone /articles/ page — the homepage carries
+# the article deck, so the bare path resolves there instead of returning 404.
+/articles/ / 301
+/articles / 301
