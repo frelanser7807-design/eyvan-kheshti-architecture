@@ -147,6 +147,10 @@ export const historyStudies = [
       { name: "UNESCO — Victorian Gothic and Art Deco Ensembles of Mumbai", url: "https://whc.unesco.org/en/list/1480/" },
       { name: "Victoria and Albert Museum — Art Deco", url: "https://www.vam.ac.uk/articles/art-deco" }
     ],
+    deepPage: "/magazine/architectural-history-styles/art-deco/",
+    pdf: "/downloads/history/art-deco.pdf",
+    bookCover: "/assets/history-deep/art-deco/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/art-deco/read/",
     images: {
       hero: { src: `${H}/art-deco-hero.jpg`, alt: "Chrysler Building in New York rising to its terraced stainless-steel crown and spire", credit: "Photo: diego_cue, via Wikimedia Commons (CC BY-SA 3.0)" },
       detail1: { src: `${H}/art-deco-detail1.jpg`, alt: "Close view of geometric Art Deco motifs in stone and metal on the Chrysler Building", credit: "Photo: cogito ergo imago, via Wikimedia Commons (CC BY-SA 2.0)" },
