@@ -9477,6 +9477,1565 @@ export const historyDeepPages = [
       "Henry-Russell Hitchcock, Architecture: Nineteenth and Twentieth Centuries (Pelican History of Art, Penguin, 1958) — the first great modern synthesis, which placed Victorian building in the long run toward modernism and began its scholarly rescue.",
       "Stefan Muthesius, The English Terraced House (Yale University Press, 1982) — the founding study of the ordinary historic house type the Victorians built by the million, written when the subject had no literature at all."
     ]
+  },
+  {
+    "id": "art-deco",
+    "series": "Architectural History Series",
+    "bookNumber": 8,
+    "title": "Art Deco",
+    "bookTitle": "Art Deco: A Complete History",
+    "cover": "/assets/history-deep/art-deco/book-cover.jpg",
+    "coverCredit": "Cover artwork © World Arch Journal",
+    "readPath": "/magazine/architectural-history-styles/art-deco/read/",
+    "readerPages": 99,
+    "readerBase": "/assets/history-deep/art-deco/pages/",
+    "subtitle": "How the most glamorous architecture of the twentieth century was invented in Paris between the wars, crowned the skyscrapers of New York, rounded itself into the Streamline age, travelled to Bombay, Shanghai, Napier and Asmara — and, after half a century of contempt, came back as the century's best-loved period style.",
+    "path": "/magazine/architectural-history-styles/art-deco/",
+    "hubPath": "/magazine/architectural-history-styles/",
+    "hubStudyId": "art-deco",
+    "pdf": "/downloads/history/art-deco.pdf",
+    "seoTitle": "Art Deco: A Complete History — Book | World Arch Journal",
+    "metaDescription": "Art Deco: A Complete History — from the Paris of 1925 and the Ballets Russes to the Chrysler Building, the ocean liners, Bombay, Napier and Asmara. Book VIII of the World Arch Journal Architectural History Series, read online or download the PDF.",
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "hero": "chryslerHero",
+    "frontispiece": "chryslerCrown",
+    "plates": [
+      [
+        "chryslerCrown",
+        "The Crown of the Chrysler Building, New York, 1930",
+        "Seven terraced arches of Nirosta stainless steel, pierced with triangular windows, shrinking to a 38-ton needle that Van Alen's workmen hoisted through the dome in ninety minutes in October 1929. The crown is the style's thesis in one gesture: the skyscraper as advertisement, the machine's metal as jewellery, the silhouette as trademark. It took the title of the world's tallest building and has never surrendered the title of its best-loved."
+      ],
+      [
+        "ruhlmannInterior",
+        "The Salon of the Hôtel du Collectionneur, Paris, 1925",
+        "Ruhlmann's pavilion at the Exposition was the style's French manifesto: a complete apartment for an imaginary collector, its curved salon hung with modern painting, its furniture in macassar ebony and ivory composed like music. The photograph records the room as the sixteen million visitors saw it — luxury without a single historical quotation, classicism redrawn with a razor."
+      ],
+      [
+        "normandieLiner",
+        "The SS Normandie, 1935",
+        "The largest liner in the world at her launch and the style's floating cathedral: a first-class dining room longer than the Hall of Mirrors at Versailles, lit by Lalique glass towers, her walls covered with Dunand's lacquer. To sail in her was to inhabit the style completely — furniture, tableware, posters and menus composed as one work."
+      ],
+      [
+        "laliqueGlass",
+        "A Liqueur Cabinet by René Lalique",
+        "The jeweller who industrialised: Lalique's moulded glass — pressed in moulds so a design could glow in a hundred interiors — bridged the workshop and the factory. This cabinet's fauns and cherubs, frozen in glass, show the technique at its most luxurious: transparency itself made precious, and reproducible."
+      ],
+      [
+        "empireState",
+        "The Empire State Building from the Air, 1931",
+        "Built through the Crash in thirteen months and long half-empty — the 'Empty State Building' — the Empire State is the zoning type matured and chastened: a limestone shaft of relentless vertical piers, aluminium spandrels and a stepped cap designed, in the age's most poetic fancy, as a mooring mast for airships."
+      ],
+      [
+        "radioCity",
+        "Radio City Music Hall, New York, 1932",
+        "For a generation the largest indoor theatre in the world: Edward Durell Stone's auditorium composes the style's greatest surviving room, its proscenium a set of concentric golden arcs like a setting sun. Mass entertainment raised to architecture — the cinema palace become cathedral, the style's democracy at full flood."
+      ],
+      [
+        "shanghaiHotel",
+        "The Park Hotel, Shanghai, 1934",
+        "László Hudec's stepped, dark-brick tower stood across the racecourse from the Bund and for decades was the tallest building in Asia — treaty-port Shanghai performing modernity to itself. Deco Shanghai was ballrooms, jazz bands and neon in two scripts; the Park Hotel is its vertical emblem, still in use today."
+      ]
+    ],
+    "plates2": [
+      [
+        "hooverBuilding",
+        "The Hoover Building, Perivale, London, 1932",
+        "Wallis, Gilbert & Partners' white palace of faience and coloured glass on the Great West Road — Egyptianising sunbursts over the doors, a canteen like a liner's deck — built to make vacuum cleaners in, and proud of it. The 'jazz factory' was industry advertising itself to motorists, and Britain took the style to its heart by the arterial road."
+      ],
+      [
+        "mumbaiDeco",
+        "Empress Court, Churchgate, Mumbai",
+        "On land reclaimed from the sea, Bombay's Indian architects and patrons built the world's second-largest Deco ensemble: apartment houses like Empress Court, in local stone, with frozen fountains and stepped profiles. UNESCO listed the ensemble in 2018 — not a colonial import but an Indian modernity, the style of a mercantile city announcing itself."
+      ],
+      [
+        "napierDeco",
+        "The Daily Telegraph Building, Napier, 1932",
+        "An earthquake levelled Napier in February 1931; the town rebuilt itself in two years in the only fashionable manner available, in seismic, fire-conscious stuccoed concrete. The Daily Telegraph Building — stepped facade, stylised sunbursts — fronts the world's most complete small Deco city, protected today with a devotion other cities reserve for cathedrals."
+      ],
+      [
+        "asmaraFiat",
+        "The Fiat Tagliero Building, Asmara, 1938",
+        "A service station shaped like an aeroplane: Giuseppe Pettazzi's concrete wings, cantilevered so daringly that the engineer is said to have been made to stand beneath them while the supports were struck. Asmara, the Italian colonial capital at 2,300 metres, preserves a whole modernist city in highland light; UNESCO listed it in 2017."
+      ],
+      [
+        "miamiBeach",
+        "Ocean Drive, Miami Beach, by Night",
+        "The pastel hotels of Ocean Drive — saved by Barbara Capitman's preservation league and listed as a National Register district in 1979 — are the style's living museum: Streamline and tropical Deco in stucco and neon, the first twentieth-century commercial streetscape protected as a whole. Deco's rescue began here."
+      ],
+      [
+        "bullocksWilshire",
+        "Bullocks Wilshire, Los Angeles, 1929",
+        "A department store as a tower: Bullocks Wilshire wrapped its selling floors in buff terracotta and raised a green copper spire over Wilshire Boulevard, its entrance court designed for customers arriving by motor car. Los Angeles read the type instantly — the skyscraper store, the style as retail theatre on the boulevard."
+      ],
+      [
+        "senateHouse",
+        "Senate House, University of London, 1937",
+        "Charles Holden's stepped stone mountain for the University of London: official Britain speaking the style in a lower voice. Portland stone, rigorous symmetry, ornament planed to a few carved signs — stripped classicism at its most disciplined, and a standing lesson in how close the monumental thirties came to Deco while denying the name."
+      ],
+      [
+        "batterseaPower",
+        "Battersea Power Station, London",
+        "Giles Gilbert Scott's brick cathedral of power, its four chimneys composed like a Deco altarpiece over the Thames. The power station was the thirties' true civic monument, and Britain dressed hers in the style's massing and discipline. Photographed here before its conversion to apartments and offices — the style's industrial sublime, preserved."
+      ],
+      [
+        "easternColumbia",
+        "The Eastern Columbia Building, Los Angeles, 1930",
+        "Thirteen storeys of turquoise terracotta and gold over Broadway, its clock tower a beacon: Claud Beelman's department store is Los Angeles Deco at full saturation, colour doing the work of ornament. In a city of white stucco modernism, Eastern Columbia chose jewellery — and became the downtown skyline's signature."
+      ],
+      [
+        "hooverDam",
+        "The Intake Towers of Hoover Dam, 1936",
+        "The Depression democratised the style: federal money built in Deco, and Hoover Dam dressed its intake towers and terraces in the style's purest geometry, Gordon Kaufmann's streamlined silhouettes rising from Lake Mead. Below, terrazzo floors carry Native American patterns in coloured stone — PWA Moderne at monumental scale."
+      ],
+      [
+        "palaisChaillot",
+        "The Palais de Chaillot, Paris, 1937",
+        "For the last great Paris exhibition, the style put on its monumental dress: twin wings curving above the Seine, colonnades and gold inscriptions — classicism stripped to planes. The state speaking style moderne as its official language, in the crisp manner that is already halfway to the stripped monumentality every regime of the 1930s found useful."
+      ]
+    ],
+    "parts": [
+      [
+        0,
+        "Part I",
+        "Paris Learns to Be Modern",
+        "From the girders of 1903 to the Exposition of 1925: the style is invented in Paris — by painters, dancers, ensembliers and department stores."
+      ],
+      [
+        4,
+        "Part II",
+        "The Floating Palace and the Surface",
+        "Liners, lacquer, glass and light: how the style travelled, and what it was made of."
+      ],
+      [
+        8,
+        "Part III",
+        "The American Tower",
+        "A zoning law, a steel crown and a depression: New York builds the style a hundred storeys high."
+      ],
+      [
+        13,
+        "Part IV",
+        "The World Style",
+        "Streamlining, the British high street and six continents of Deco — then war, forgetting, and resurrection."
+      ]
+    ],
+    "seriesList": "Book 8 · Art Deco: A Complete History — this volume. Also available: Book 1 · Art Nouveau: A Complete History · Book 2 · Gothic Architecture: A Complete History · Book 3 · Medieval Castles & Fortifications: A Complete History · Book 4 · Baroque & Rococo Architecture: A Complete History · Book 5 · Romanesque Architecture: A Complete History · Book 6 · Modernism & the International Style: A Complete History · Book 7 · Victorian Architecture: A Complete History. In preparation: Brutalism · Frank Lloyd Wright · and the remaining studies of the atlas, in the journal's demand order.",
+    "images": {
+      "asmaraFiat": {
+        "src": "/assets/history-deep/art-deco/asmaraFiat.jpg",
+        "alt": "The Fiat Tagliero Building in Asmara, a white service station shaped like an aeroplane",
+        "credit": "Photo: David Stanley, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fiat_Tagliero_Building.jpg",
+        "title": "The Fiat Tagliero Building, Asmara (1938)"
+      },
+      "attBuilding": {
+        "src": "/assets/history-deep/art-deco/attBuilding.jpg",
+        "alt": "The base of the AT&T (Sony) Building in New York with its great arched entrance",
+        "credit": "Photo: roryrory, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AT%26T(Sony)building-NY-1.jpg",
+        "title": "The AT&T Building, New York (1984)"
+      },
+      "aztecHotel": {
+        "src": "/assets/history-deep/art-deco/aztecHotel.jpg",
+        "alt": "The richly glyph-carved entrance front of the Aztec Hotel in Monrovia, California",
+        "credit": "Photo: Flickr user Living in Monrovia, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aztec_Hotel.jpg",
+        "title": "The Aztec Hotel, Monrovia (1925)"
+      },
+      "bakstScheherazade": {
+        "src": "/assets/history-deep/art-deco/bakstScheherazade.jpg",
+        "alt": "Léon Bakst's costume design for Schéhérazade — a dancer in orange, gold and crimson",
+        "credit": "Photo: Bakst, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scheherazade_by_L._Bakst_10.jpg",
+        "title": "Bakst, costume design for Schéhérazade (1910)"
+      },
+      "batterseaPower": {
+        "src": "/assets/history-deep/art-deco/batterseaPower.jpg",
+        "alt": "Battersea Power Station across the Thames, its four chimneys before redevelopment",
+        "credit": "Photo: Aurelien Guichard from London, United Kingdom, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battersea_Power_Station,_London-22May2010.jpg",
+        "title": "Battersea Power Station, London"
+      },
+      "broadcastingHouse": {
+        "src": "/assets/history-deep/art-deco/broadcastingHouse.jpg",
+        "alt": "The curved stone prow of Broadcasting House in Portland Place, London",
+        "credit": "Photo: Bryan Ledgard, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_brilliant_Art_Deco_facade_of_the_BBC_in_Portland_Place,_London_(70521648).jpg",
+        "title": "Broadcasting House, London (1932)"
+      },
+      "bullocksWilshire": {
+        "src": "/assets/history-deep/art-deco/bullocksWilshire.jpg",
+        "alt": "The Bullocks Wilshire department store, Los Angeles, with its green copper tower",
+        "credit": "Photo: Allardbob, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bullocks_Wilshire_building_exterior.jpg",
+        "title": "Bullocks Wilshire, Los Angeles (1929)"
+      },
+      "chaninBuilding": {
+        "src": "/assets/history-deep/art-deco/chaninBuilding.jpg",
+        "alt": "An ornate bronze lobby grille of woven foliage at the Chanin Building, New York",
+        "credit": "Photo: Pinto1247, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grill_work.jpg",
+        "title": "Lobby grille, Chanin Building, New York (1928)"
+      },
+      "chryslerCrown": {
+        "src": "/assets/history-deep/art-deco/chryslerCrown.jpg",
+        "alt": "Close view of the Chrysler Building's terraced stainless-steel crown and needle spire",
+        "credit": "Photo: PortableNYCTours, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Chrysler_building_%22gargoyles%22_05.jpg",
+        "title": "The crown of the Chrysler Building"
+      },
+      "chryslerEagles": {
+        "src": "/assets/history-deep/art-deco/chryslerEagles.jpg",
+        "alt": "The Chrysler Building's upper shaft with one of its stainless-steel eagle gargoyles at the corner",
+        "credit": "Photo: PortableNYCTours, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Chrysler_building_%22gargoyles%22_04.jpg",
+        "title": "An eagle gargoyle of the Chrysler Building"
+      },
+      "chryslerHero": {
+        "src": "/assets/history-deep/art-deco/chryslerHero.jpg",
+        "alt": "The Chrysler Building at dusk, its stainless-steel crown lit against the evening sky",
+        "credit": "Photo: Original uploader was Montrealais at en.wikipedia, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chryslerbldg.jpg",
+        "title": "The Chrysler Building, New York (1930)"
+      },
+      "cincinnatiUnion": {
+        "src": "/assets/history-deep/art-deco/cincinnatiUnion.jpg",
+        "alt": "The half-domed front of Cincinnati Union Terminal across its fountain plaza",
+        "credit": "Photo: Ɱ, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:CMC-Union_Terminal.jpg",
+        "title": "Union Terminal, Cincinnati (1933)"
+      },
+      "dailyExpress": {
+        "src": "/assets/history-deep/art-deco/dailyExpress.jpg",
+        "alt": "The black vitrolite and glass facade of the Daily Express Building, Fleet Street, London",
+        "credit": "Photo: Steven Duhig from Bowie, Maryland, USA, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:London_Daily_Express_Fleet_Street.jpg",
+        "title": "The Daily Express Building, London (1932)"
+      },
+      "dunandLacquer": {
+        "src": "/assets/history-deep/art-deco/dunandLacquer.jpg",
+        "alt": "Lacquered doors by Jean Dunand and Séraphin Soudbinine with gilded winged figures on teal grounds",
+        "credit": "Photo: Tim Evanson from Cleveland Heights, Ohio, USA, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doors_-_S%C3%A9raphin_Soudbinine_and_Jean_Dunand_(27874649079).jpg",
+        "title": "Lacquer doors by Soudbinine and Jean Dunand"
+      },
+      "dunandScreen": {
+        "src": "/assets/history-deep/art-deco/dunandScreen.jpg",
+        "alt": "Jean Dunand's Sunrise-Sunset folding screen in warm brown lacquer at the Metropolitan Museum",
+        "credit": "Photo: Jean Dunand, via Wikimedia Commons (CC0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Sunrise-Sunset%22_Screen_MET_DP151470.jpg",
+        "title": "Jean Dunand, Sunrise-Sunset screen (c. 1930)"
+      },
+      "easternColumbia": {
+        "src": "/assets/history-deep/art-deco/easternColumbia.jpg",
+        "alt": "The turquoise and gold Eastern Columbia Building in downtown Los Angeles",
+        "credit": "Photo: Matthew McNulty, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Columbia_Building,_Downtown_Los_Angeles.jpg",
+        "title": "The Eastern Columbia Building, Los Angeles (1930)"
+      },
+      "egyptianTheatre": {
+        "src": "/assets/history-deep/art-deco/egyptianTheatre.jpg",
+        "alt": "The forecourt and sign of the Egyptian Theatre on Hollywood Boulevard, Los Angeles",
+        "credit": "Photo: Photo: Andreas Praefcke, via Wikimedia Commons (CC BY 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Egyptian_Theatre_Hollywood_1.jpg",
+        "title": "The Egyptian Theatre, Hollywood (1922)"
+      },
+      "elthamPalace": {
+        "src": "/assets/history-deep/art-deco/elthamPalace.jpg",
+        "alt": "The domed entrance hall of Eltham Palace, London, with wood panelling and a circular patterned carpet",
+        "credit": "Photo: Tilman2007, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1212906_II_Star_ELTHAM_COURT_(ELTHAM_PALACE),_COURT_YARD,_Entrance_Hall_Greenwich_London_20250610_0003.jpg",
+        "title": "The entrance hall, Eltham Palace (1936)"
+      },
+      "empireState": {
+        "src": "/assets/history-deep/art-deco/empireState.jpg",
+        "alt": "Aerial view of the Empire State Building rising over Midtown Manhattan",
+        "credit": "Photo: Sam Valadi, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Empire_State_Building_(aerial_view).jpg",
+        "title": "The Empire State Building from the air (1931)"
+      },
+      "erosCinema": {
+        "src": "/assets/history-deep/art-deco/erosCinema.jpg",
+        "alt": "The stepped red and cream tower of the Eros Cinema, Mumbai",
+        "credit": "Photo: Colin Rose from Montreal, Canada, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ErosTheater.jpg",
+        "title": "The Eros Cinema, Mumbai (1938)"
+      },
+      "expo1925": {
+        "src": "/assets/history-deep/art-deco/expo1925.jpg",
+        "alt": "Period postcard of the Italian pavilion at the 1925 Paris Exposition of Decorative Arts",
+        "credit": "Photo: Unknown authorUnknown author, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris-FR-75-Expo_1925_Arts_d%C3%A9coratifs-pavillon_de_l%27Italie.jpg",
+        "title": "The Italian pavilion, Paris Exposition, 1925"
+      },
+      "fisherBuilding": {
+        "src": "/assets/history-deep/art-deco/fisherBuilding.jpg",
+        "alt": "The vaulted, frescoed arcade of the Fisher Building, Detroit",
+        "credit": "Photo: Michael Barera, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Detroit_December_2021_06_(Fisher_Building_lobby).jpg",
+        "title": "The Fisher Building arcade, Detroit (1928)"
+      },
+      "foliesBergere": {
+        "src": "/assets/history-deep/art-deco/foliesBergere.jpg",
+        "alt": "The gilded bas-relief facade of the Folies Bergère, Paris, with its dancer relief",
+        "credit": "Photo: Sandra Cohen-Rose and   Colin Rose from Montreal, Canada, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:D%C3%A9tail_de_la_fa%C3%A7ade_des_Folies_Berg%C3%A8re,_Paris_(260580392).jpg",
+        "title": "Facade of the Folies Bergère, Paris (1926)"
+      },
+      "greyhoundTerminal": {
+        "src": "/assets/history-deep/art-deco/greyhoundTerminal.jpg",
+        "alt": "The blue Streamline Moderne Greyhound bus terminal at Evansville, Indiana",
+        "credit": "Photo: Bmzuckerman, via Wikimedia Commons (CC BY 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Streamline_Moderne_-_Evansville,_IN_-_Greyhound_Bus_Terminal_(1).jpg",
+        "title": "Greyhound Terminal, Evansville (1934)"
+      },
+      "havanaBacardi": {
+        "src": "/assets/history-deep/art-deco/havanaBacardi.jpg",
+        "alt": "A window grille of the Bacardi Building in Havana with the company's bat emblem woven in iron",
+        "credit": "Photo: Sandra Cohen-Rose and   Colin Rose from Montreal, Canada, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Havana_Art_Deco_(8954171663).jpg",
+        "title": "Bat grille, Bacardi Building, Havana (1930)"
+      },
+      "hooverBuilding": {
+        "src": "/assets/history-deep/art-deco/hooverBuilding.jpg",
+        "alt": "The white faience front of the Hoover Building at Perivale, London",
+        "credit": "Photo: Ethan Doyle White, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Front_of_the_Hoover_Building_in_Perivale.jpg",
+        "title": "The Hoover Building, Perivale (1932)"
+      },
+      "hooverDam": {
+        "src": "/assets/history-deep/art-deco/hooverDam.jpg",
+        "alt": "The streamlined intake towers of Hoover Dam rising from Lake Mead",
+        "credit": "Photo: Dietmar Rabich, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoover_Dam,_Nevada_(Arizona-Nevada,_USA)_--_2012_--_6125.jpg",
+        "title": "Intake towers of Hoover Dam (1936)"
+      },
+      "laliqueGlass": {
+        "src": "/assets/history-deep/art-deco/laliqueGlass.jpg",
+        "alt": "A Lalique cabinet with moulded-glass panels of fauns and cherubs",
+        "credit": "Photo: Hiart, via Wikimedia Commons (CC0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liqueur_cabinet_(fauns_and_cherubs)_designed_by_Ren%C3%A9_Lalique.jpg",
+        "title": "Liqueur cabinet designed by René Lalique"
+      },
+      "maisonCubiste": {
+        "src": "/assets/history-deep/art-deco/maisonCubiste.jpg",
+        "alt": "Period photograph of the model of Duchamp-Villon's facade for the Maison Cubiste, 1912",
+        "credit": "Photo: Raymond Duchamp-Villon, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raymond_Duchamp-Villon,_1912,_Maquette_originale_de_La_Maison_Cubiste_(Cubist_House,_Fa%C3%A7ade_architecturale),_Document_du_Mus%C3%A9e_National_d%27Art_Moderne,_Paris.jpg",
+        "title": "La Maison Cubiste, facade model (1912)"
+      },
+      "malletStevens": {
+        "src": "/assets/history-deep/art-deco/malletStevens.jpg",
+        "alt": "A white cubic villa in the Rue Mallet-Stevens, Paris",
+        "credit": "Photo: MOSSOT at French Wikipedia, via Wikimedia Commons (CC BY 1.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_16_-_Maison_7_rue_Mallet-Stevens_-1.JPG",
+        "title": "Villa in the Rue Mallet-Stevens, Paris (1927)"
+      },
+      "melnikovPavilion": {
+        "src": "/assets/history-deep/art-deco/melnikovPavilion.jpg",
+        "alt": "Period view of Konstantin Melnikov's USSR pavilion at the 1925 Paris Exposition",
+        "credit": "Photo: Rijksmuseum, via Wikimedia Commons (CC0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exterieur_van_het_paviljoen_van_de_Sovjet-Unie_op_de_Wereldtentoonstelling_van_1925_in_Parijs_Exposition_des_Arts_D%C3%A9coratifs_Pavillon_des_R%C3%A9publiques_Sovi%C3%A9tiques_(titel_op_object),_RP-F-2012-96-158.jpg",
+        "title": "The Soviet pavilion by Konstantin Melnikov, 1925"
+      },
+      "miamiBeach": {
+        "src": "/assets/history-deep/art-deco/miamiBeach.jpg",
+        "alt": "Ocean Drive in Miami Beach at night, its Deco hotels lit in neon colours",
+        "credit": "Photo: Gzzz, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ocean_Drive_by_night_1.jpg",
+        "title": "Ocean Drive, Miami Beach, by night"
+      },
+      "mumbaiDeco": {
+        "src": "/assets/history-deep/art-deco/mumbaiDeco.jpg",
+        "alt": "Empress Court, a stepped Art Deco apartment house in Churchgate, Mumbai",
+        "credit": "Photo: DesiBoy101, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Empress_Court,_Churchgate,_Mumbai.jpg",
+        "title": "Empress Court, Churchgate, Mumbai"
+      },
+      "napierDeco": {
+        "src": "/assets/history-deep/art-deco/napierDeco.jpg",
+        "alt": "The Daily Telegraph Building in Napier, New Zealand, with stepped facade and stylised ornament",
+        "credit": "Photo: lumoplank, via Wikimedia Commons (CC0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Napier,_Part_II-_Art_Deco_-_Napier9507.jpg",
+        "title": "The Daily Telegraph Building, Napier (1932)"
+      },
+      "niagaraMohawk": {
+        "src": "/assets/history-deep/art-deco/niagaraMohawk.jpg",
+        "alt": "The Niagara Mohawk Building in Syracuse, a stepped golden tower crowned by the Spirit of Light",
+        "credit": "Photo: Kenneth C. Zirkel, via Wikimedia Commons (CC BY 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Niagara_Mohawk_Building,_Syracuse_New_York.jpg",
+        "title": "The Niagara Mohawk Building, Syracuse (1932)"
+      },
+      "normandieLiner": {
+        "src": "/assets/history-deep/art-deco/normandieLiner.jpg",
+        "alt": "The bow of the French liner Normandie, photographed in the 1930s",
+        "credit": "Photo: San Diego Air & Space Museum Archives, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AL77C-046_(14520973405).jpg",
+        "title": "The SS Normandie (1935)"
+      },
+      "normandieWreck": {
+        "src": "/assets/history-deep/art-deco/normandieWreck.jpg",
+        "alt": "The capsized Normandie lying at the French Line pier in New York after the fire of 1942",
+        "credit": "Photo: unknown, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Normandie_capsized,_New_York,_1942_-_photographic_postcard_(3797030138).jpg",
+        "title": "The Normandie capsized, New York, 1942"
+      },
+      "odeonCinema": {
+        "src": "/assets/history-deep/art-deco/odeonCinema.jpg",
+        "alt": "The former Odeon Cinema at Woolwich, London, a white streamlined block with a fin tower",
+        "credit": "Photo: Kleon3, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2015_London-Woolwich,_former_Odeon_Cinema_03.jpg",
+        "title": "The Odeon, Woolwich (1937)"
+      },
+      "palaisChaillot": {
+        "src": "/assets/history-deep/art-deco/palaisChaillot.jpg",
+        "alt": "Aerial view of the Trocadéro gardens and fountains with the Palais de Chaillot above, Paris",
+        "credit": "Photo: Another one of my pictures:, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jardins_du_Trocad%C3%A9ro_-_20150801_16h02_(10626).jpg",
+        "title": "The Palais de Chaillot and the Trocadéro, Paris (1937)"
+      },
+      "printempsStore": {
+        "src": "/assets/history-deep/art-deco/printempsStore.jpg",
+        "alt": "The facade of the Printemps department store on Boulevard Haussmann, Paris",
+        "credit": "Photo: Vlad Shtelts (Stelz), via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Printemps_Haussmann_(41).jpg",
+        "title": "Printemps Haussmann, Paris"
+      },
+      "radioCity": {
+        "src": "/assets/history-deep/art-deco/radioCity.jpg",
+        "alt": "The auditorium of Radio City Music Hall, its concentric golden proscenium arcs glowing red-orange",
+        "credit": "Photo: flickr4jazz, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Radio_City_Music_Hall_3051638324_4a385c5623.jpg",
+        "title": "Radio City Music Hall, New York (1932)"
+      },
+      "rockefellerCenter": {
+        "src": "/assets/history-deep/art-deco/rockefellerCenter.jpg",
+        "alt": "The GE Building of Rockefeller Center lit at night, seen along Channel Gardens",
+        "credit": "Photo: (vincent desjardins) from Paris, France, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rockefeller_Center,_GE_Building_(RCA_Building)_(2011).jpg",
+        "title": "Rockefeller Center, New York (1931–39)"
+      },
+      "ruhlmannBoudoir": {
+        "src": "/assets/history-deep/art-deco/ruhlmannBoudoir.jpg",
+        "alt": "A colour interior of a boudoir from the Hôtel du Collectionneur, Paris 1925",
+        "credit": "Photo: Unknown, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boudoir_from_the_H%C3%B4tel_du_Collectionneur,_at_the_1925_Paris_Exhibition,_by_%C3%89mile-Jacques_Ruhlmann.jpg",
+        "title": "Boudoir from the Hôtel du Collectionneur, 1925"
+      },
+      "ruhlmannInterior": {
+        "src": "/assets/history-deep/art-deco/ruhlmannInterior.jpg",
+        "alt": "The grand salon of Ruhlmann's Hôtel du Collectionneur at the 1925 Paris Exposition, with curved walls and a crystal chandelier",
+        "credit": "Photo: SiefkinDR, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salon_of_the_Hotel_du_Collectionneur_(1925).jpg",
+        "title": "Salon of the Hôtel du Collectionneur, 1925"
+      },
+      "senateHouse": {
+        "src": "/assets/history-deep/art-deco/senateHouse.jpg",
+        "alt": "The stepped stone tower of Senate House, University of London",
+        "credit": "Photo: stevecadman, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Senate_House,_University_of_London.jpg",
+        "title": "Senate House, University of London (1937)"
+      },
+      "shanghaiHotel": {
+        "src": "/assets/history-deep/art-deco/shanghaiHotel.jpg",
+        "alt": "The Park Hotel on the Bund side of Shanghai, a stepped dark tower with a golden crown",
+        "credit": "Photo: ScareCriterion12, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Park_Hotel_Shanghai,_Dec_2017_(1).jpg",
+        "title": "The Park Hotel, Shanghai (1934)"
+      },
+      "telAvivCinema": {
+        "src": "/assets/history-deep/art-deco/telAvivCinema.jpg",
+        "alt": "Dizengoff Square in Tel Aviv seen from the Cinema Hotel balcony, with its fountain and circular plaza",
+        "credit": "Photo: deror_avi, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cinema_Hotel_Balcony_view_of_Dizengoff_Square_P1150324.JPG",
+        "title": "Dizengoff Square and the Cinema Hotel, Tel Aviv"
+      },
+      "theatreChampsElysees": {
+        "src": "/assets/history-deep/art-deco/theatreChampsElysees.jpg",
+        "alt": "Antoine Bourdelle's marble bas-relief La Danse on the Théâtre des Champs-Élysées, Paris",
+        "credit": "Photo: Jean-Pierre Dalbéra, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22La_Danse%22,_bas-relief_d%27Antoine_Bourdelle_(Th%C3%A9%C3%A2tre_des_Champs_Elys%C3%A9es,_Paris).jpg",
+        "title": "Bourdelle, La Danse — Théâtre des Champs-Élysées (1913)"
+      },
+      "tribuneTower": {
+        "src": "/assets/history-deep/art-deco/tribuneTower.jpg",
+        "alt": "The Chicago Tribune Tower seen from below against a blue sky",
+        "credit": "Photo: Stuart Seeger, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicago_Tribune_Building.jpg",
+        "title": "The Tribune Tower, Chicago (1925)"
+      },
+      "worldsFair1939": {
+        "src": "/assets/history-deep/art-deco/worldsFair1939.jpg",
+        "alt": "The Trylon and Perisphere of the 1939 New York World's Fair with the statue of Washington and fountains",
+        "credit": "Photo: Creator:Samuel H. Gottscho, via Wikimedia Commons (CC0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:-Fountains,_1939_New_York_World%27s_Fair,_with_Trylon_and_Perisphere_in_Background-_MET_DP103123.jpg",
+        "title": "The Trylon and Perisphere, New York World's Fair, 1939"
+      }
+    },
+    "standfirst": "Art Deco is the style the twentieth century gave itself when it wanted to celebrate: geometry instead of tendrils, speed instead of history, luxury made by machines and finished by hand. Born in Paris before 1914, named by an exhibition in 1925, it dressed the Chrysler Building, the Normandie, the Odeon cinema and the Bombay apartment house in one shared language of zigzags, sunbursts and setbacks. This book follows that language from its Parisian cradle to its furthest colonies and its strange second life — demolition, rediscovery, and a preservation movement that turned a joke style into world heritage.",
+    "intro": [
+      "Every style in this atlas was named by its makers or its century — except this one. The architects of 1925 did not call themselves Art Deco; they said style moderne, jazz moderne, or nothing at all. The name arrived in 1968, when Bevis Hillier popularised a shortening of Arts Décoratifs, the title of the Paris exhibition of 1925 where the style had announced itself to the world. That lateness matters. Art Deco was not a movement with a manifesto but a climate — a set of shared instincts about geometry, luxury, speed and modern life that settled, within a single decade, on Parisian furniture, New York skyscrapers, Shanghai hotels and New Zealand's rebuilt main street. This book treats it as its makers' generation experienced it: not one style but a family of them, from the jewelled classicism of the French ensembliers to the rounded white streamlining of 1930s roadside America.",
+      "The family's unity is real, and it is visible. Against Art Nouveau, its immediate parent, Deco set the straight line against the curve, symmetry against growth, the machine-cut zigzag against the hand-drawn tendril. Its raw material came from everywhere the modern eye was looking: the gold of Tutankhamun's tomb, opened in 1922; the stepped pyramids of the Aztec and Maya worlds then being excavated and exhibited; African and Oceanic art in the colonial exhibitions; the sunburst and the lightning bolt; above all the machine itself — the liner, the locomotive, the skyscraper — whose forms it quoted even when it was decorating a perfume bottle. And it was carried by new media: the department store, the cinema palace, the ocean liner, the illustrated magazine and the poster reached more eyes in a season than architecture alone could reach in a generation.",
+      "The account that follows is a synthesis of the standard scholarship — Hillier's foundational survey, Bayer's architecture-focused study, and the V&A's great 2003 exhibition catalogue — checked against the buildings as they stand and as UNESCO, Historic England, Smarthistory and the preservation trusts describe them. Every photograph is a real photograph of the building it captions, drawn from Wikimedia Commons under a free licence and credited at the back of the book. The route is the atlas's route: the Parisian invention first, then the American apotheosis, then the world the style conquered, and finally its fall and resurrection — the most complete afterlife of any architecture of the modern age."
+    ],
+    "keyFacts": [
+      [
+        "Period",
+        "c. 1910–1939: roots in pre-1914 Paris, named at the 1925 Exposition Internationale des Arts Décoratifs, dominant between the wars, eclipsed by 1939–45, revived from 1968"
+      ],
+      [
+        "Where",
+        "Invented in Paris; monumentalised in New York; then worldwide — Britain, Mumbai, Shanghai, Tel Aviv, Havana, Napier, Asmara, Casablanca, Johannesburg and beyond"
+      ],
+      [
+        "Signature",
+        "Stepped, setback massing; geometric ornament — chevrons, zigzags, sunbursts; rigorous symmetry; luxury in modern materials — stainless steel, glass block, vitrolite, neon; and, after 1930, the streamlined curve"
+      ],
+      [
+        "Key figures",
+        "Jacques-Émile Ruhlmann · René Lalique · Jean Dunand · Edgar Brandt · A. M. Cassandre · William Van Alen · Raymond Hood · Ely Jacques Kahn · Wallis, Gilbert & Partners · Sohrabji Bhedwar · Piero Portaluppi's generation of liner designers"
+      ],
+      [
+        "Landmark buildings",
+        "Chrysler Building · Empire State Building · Rockefeller Center · the Normandie · Hoover Building, London · Eros Cinema and the Oval Maidan blocks, Mumbai · the Daily Telegraph Building, Napier · Fiat Tagliero Building, Asmara"
+      ],
+      [
+        "Legacy",
+        "The setback skyscraper silhouette, the cinema palace, the poster and the packaged luxury interior are Deco inventions; its preservation campaigns — Miami Beach first — taught the world to list the recent past"
+      ]
+    ],
+    "timeline": [
+      [
+        "1903",
+        "Auguste Perret's apartment house at 25bis Rue Franklin, Paris: a concrete frame dressed with floral tiles — modern construction learning to wear ornament"
+      ],
+      [
+        "1910",
+        "Diaghilev's Ballets Russes stage Schéhérazade in Paris; Léon Bakst's saturated colour resets European taste overnight"
+      ],
+      [
+        "1912",
+        "The Maison Cubiste at the Salon d'Automne: Raymond Duchamp-Villon's facade translates Cubist facetting into architecture"
+      ],
+      [
+        "1913",
+        "Perret's Théâtre des Champs-Élysées opens in Paris — stripped classicism in concrete, the style's senior monument"
+      ],
+      [
+        "1916",
+        "New York's Zoning Resolution imposes setback massing on skyscrapers — the legal mould of the American Deco tower"
+      ],
+      [
+        "1922",
+        "Howard Carter opens Tutankhamun's tomb; Egyptian motifs flood Deco ornament within a season"
+      ],
+      [
+        "1925",
+        "Exposition Internationale des Arts Décoratifs et Industriels Modernes, Paris: the style announces itself — Ruhlmann's Hôtel du Collectionneur, Lalique's glass, Le Corbusier's dissenting Pavillon de l'Esprit Nouveau"
+      ],
+      [
+        "1927",
+        "The liner Île-de-France sails — the first great 'floating Deco' interior; the style goes to sea"
+      ],
+      [
+        "1928–30",
+        "The Chrysler Building rises in New York; in a secret spire race it takes the title of world's tallest building in 1930"
+      ],
+      [
+        "1931",
+        "The Empire State Building opens, built through the Crash in thirteen months; Napier, New Zealand, is destroyed by earthquake and rebuilt in Deco"
+      ],
+      [
+        "1932",
+        "Radio City Music Hall opens at Rockefeller Center; in London the Hoover Building and the first Odeon cinemas bring Deco to the suburbs"
+      ],
+      [
+        "1935",
+        "The Normandie makes her maiden voyage — the largest and most luxurious Deco interior ever assembled, afloat"
+      ],
+      [
+        "1936",
+        "Eltham Palace, London: the Courtaulds' Deco mansion joins a medieval great hall; Hoover Dam is dedicated, its terraces pure Deco"
+      ],
+      [
+        "1938",
+        "Eros Cinema opens in Bombay; Mumbai's Oval Maidan ensemble — later UNESCO-listed — is nearly complete"
+      ],
+      [
+        "1939",
+        "The New York World's Fair, 'The World of Tomorrow': Streamline Moderne's swan song on the eve of war"
+      ],
+      [
+        "1939–45",
+        "War ends the style: austerity, then the International Style's victory, make Deco ornament first impossible, then embarrassing"
+      ],
+      [
+        "1966–68",
+        "Bevis Hillier's articles and his book Art Deco of the 20s and 30s popularise the very name 'Art Deco'"
+      ],
+      [
+        "1979",
+        "Miami Beach's Art Deco District is listed on the US National Register — the first protected twentieth-century urban ensemble of its kind"
+      ],
+      [
+        "1988",
+        "Postmodernism quotes the style knowingly: Philip Johnson's AT&T Building puts a Chippendale pediment on a Manhattan skyscraper"
+      ],
+      [
+        "2017–18",
+        "UNESCO lists Asmara, 'a Modernist African City', and Mumbai's Victorian Gothic and Art Deco Ensembles — the style enters world heritage"
+      ]
+    ],
+    "chapters": [
+      {
+        "id": "origins",
+        "numeral": "I",
+        "title": "Before the Name: Paris Learns to Be Modern, 1900–1914",
+        "sections": [
+          {
+            "heading": "The problem of 1900",
+            "figure": "theatreChampsElysees",
+            "paras": [
+              "At the Paris Exposition of 1900, the newest thing in French architecture was also, already, an embarrassment. Art Nouveau — Hector Guimard's métro entrances, the tendrilled facades of the Castel Béranger, furniture that grew like stems — had conquered the exhibition and the shops within five years, and within five more it was being parodied in the music halls. The style of nature, of the hand-drawn line, had been mass-produced to death. France's luxury trades faced a question that would define the next thirty years: what should modern luxury look like, once the whiplash had wilted?",
+              "The question was economic before it was aesthetic. Paris lived by selling beautiful things to the world — furniture, jewellery, couture, glass — and its workshops employed tens of thousands of craftsmen whose skills were hand skills: carving, veneering, lacquering, forging. A modern style that abolished craft, as the coming modern movement would propose, threatened the capital's livelihood. What Paris needed was a modernity that modernised the motifs while keeping the making: geometry instead of botany, discipline instead of delirium, but the same ebony, ivory, lacquer and gold underneath."
+            ]
+          },
+          {
+            "heading": "Concrete in a classical coat",
+            "paras": [
+              "The first answers came disguised. Auguste Perret, the great pioneer of reinforced concrete, built an apartment house at 25bis Rue Franklin in 1903 whose frame was frankly modern and whose dress was floral ceramic tiles; a decade later his Théâtre des Champs-Élysées (1913) wrapped a concrete structure in a facade of marble panels, classical pilasters and Antoine Bourdelle's bas-reliefs of dancing figures. It is the essential proto-Deco building: stripped classicism, symmetrical and monumental, using new construction and old manners in a single breath — and scandalous, at the time, for being too plain.",
+              "Perret's theatre points to the style's true parentage. Art Deco did not descend from the avant-garde alone; it descended just as much from classicism disciplined — from the French tradition of the orders, thinned, flattened and geometricised until a pilaster became a stripe and a pediment a step. The École des Beaux-Arts, supposedly the enemy of everything modern, supplied most of the style's French architects and nearly all of its instinct for ceremonial composition: the axis, the emphatic centre, the graduated silhouette."
+            ]
+          },
+          {
+            "heading": "Couture opens the door",
+            "paras": [
+              "The other midwife was fashion. Paul Poiret, the couturier who freed women from the corset, founded his Atelier Martine in 1911 to design furniture and interiors with untrained working-class girls drawing from nature — and then, in drawings and in his own house, straightened their flowers into pattern. Poiret's barge-houseboats at the 1925 Exposition, his perfumes, his parties: he taught the Parisian rich to want rooms as theatrical as their clothes. Through couture, the new geometry entered the home wearing the passport of pleasure.",
+              "By 1914, then, all the ingredients existed: a luxury craft economy needing new motifs; a classicism being stripped to its bones; concrete and steel waiting for a dress; and a couture-led taste for pattern, colour and theatre. What the style still lacked was a shock violent enough to fuse them — and two shocks were already on the stage, one painted and one danced."
+            ]
+          },
+          {
+            "heading": "Exhibitions of a new century",
+            "paras": [
+              "The style was rehearsed, as the nineteenth century liked to rehearse everything, at exhibitions. The Paris Exposition of 1900 — fifty million visitors — was Art Nouveau's triumph, but its iron palaces and electric fairyland taught the public to expect architecture as spectacle and light as ornament. At Turin in 1902, the first international exhibition of modern decorative art, the new European styles stood side by side; at Milan in 1906 and at the French colonial exhibitions that followed, the empire's goods — Indochinese lacquer, Malagasy raffia, North African tile — flowed into the decorative vocabulary of the metropolis. Deco's exoticism was not a decorator's whim; it was the trade routes of empire made visible in a Parisian drawing room.",
+              "Two lessons of those years matter. The first is that ornament had become an industry: what a pavilion showed in May, the department stores' studios were manufacturing by Christmas. The second is that the new century's clients had changed. The great fortunes of 1900–14 were made in motors, oil, press and retail, and their owners wanted houses and headquarters that announced modern wealth rather than borrowed ancestry. A style was needed that could be at once sumptuous and up-to-date, hand-made and machine-multiplied. France's workshops, briefly, supplied it.",
+              "The war interrupted the rehearsal and sharpened it. Four years of industrialised slaughter discredited the old world's decoration along with its dynasties; but grief and relief together produced a hunger — visible in every capital by 1919 — for pleasure that was modern, ordered and bright. The style that answered had been assembling itself since 1903. In 1925 it would get its stage."
+            ]
+          },
+          {
+            "heading": "The luxury trades regroup",
+            "paras": [
+              "Paris's advantage was concentration. Within a few streets of the Rue de la Paix and the Faubourg Saint-Honoré stood the jewellers, goldsmiths, glassmakers and cabinetmakers who had served courts for two centuries — Cartier, Boucheron, Christofle, Baccarat — suddenly serving motor magnates, maharajas and film stars instead. The trades shared craftsmen, clients and a showroom culture: a Cartier clock, a Christofle service and a Ruhlmann cabinet could be composed for one room because their makers lunched in the same quarter. When historians call Deco a Parisian style, this industrial geography is what they mean: not a doctrine but a district.",
+              "The district also explains the style's early split personality. The same workshops that made hand-knotted carpets for Ruhlmann supplied the Galeries Lafayette's studio with designs for machine production; the same glassworks pressed Lalique's luxury panels and the brasserie's etched screens. High Deco and popular Deco were cousins from the start, sharing patterns at different prices — the fact that would let the style, alone among its generation, furnish both a palace and a picture palace without changing its accent."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shockwaves",
+        "numeral": "II",
+        "title": "Shock Waves: Fauvism, Cubism and the Ballets Russes",
+        "sections": [
+          {
+            "heading": "Colour let off the leash",
+            "figure": "bakstScheherazade",
+            "paras": [
+              "In 1905 the Salon d'Automne hung Matisse, Derain and Vlaminck together and a critic named them fauves — wild beasts — for colour used at full saturation, unmixed and unashamed. Five years later Sergei Diaghilev's Ballets Russes opened Schéhérazade in Paris, and Léon Bakst's designs — emerald and turquoise against tangerine and gold, peacock and lapis, an Orient of unprecedented violence and luxury — detonated in the decorative arts. Within a season, Parisian interiors took the palette: cushions, lampshades and dresses quoted Bakst's harem. The Ballets Russes did what no manifesto could: they made modern colour fashionable at the highest level of society, and tied it to exoticism, movement and the body.",
+              "The exotic mattered as much as the colour. Bakst's Orient — and behind it the colonial exhibitions, the Musée Guimet's Asian collections, the African masks in the Trocadéro's ethnography museum that Picasso had already found — gave the new style a warehouse of motifs that were neither classical nor Art Nouveau: Persian arabesque, Egyptian profile, African zigzag. Deco eclecticism begins here, in the theatre, as a raid on the world's ornament carried out with a modern sense of pattern."
+            ]
+          },
+          {
+            "heading": "The cube enters the facade",
+            "figure": "maisonCubiste",
+            "paras": [
+              "Cubism supplied the grammar. Between 1907 and 1912 Picasso and Braque taught painting to facet its objects — to build form from planes, steps and interlocking angles. The decorative arts translated the lesson within months: in 1912 the Salon d'Automne exhibited the Maison Cubiste, a model house whose facade by the sculptor Raymond Duchamp-Villon stacked and faceted its surfaces like a crystalline growth, with interiors by André Mare furnished in the new geometric taste. Critics mocked; the trade took notes. The stepped profile, the chamfered corner, the chevron — Cubism's debris — became the vocabulary of ornament for twenty years.",
+              "It is worth pausing on how complete the translation was. Cubist painting was difficult, intellectual, almost monochrome; Deco took its geometry and discarded its difficulty, marrying the faceted line to Bakst's colour and the luxury trade's materials. Historians sometimes treat this as a betrayal — the avant-garde sold to the department store. The makers saw it differently: they were building a public style, legible at a glance from across a street, in a way Cubism never wished to be. The zigzag on a 1930 cinema in Bombay is Cubism that learned to sell tickets."
+            ]
+          },
+          {
+            "heading": "The machine joins the dance",
+            "paras": [
+              "The third shock was speed. The pre-war years worshipped it: Marinetti's Futurist manifesto of 1909 hymned the racing car; ocean liners shrank the Atlantic; the aeroplane arrived. When the style matured, its favourite emblems — the lightning bolt, the sunburst, the streamlined gazelle, the frozen fountain — were all images of energy arrested at the moment of display. Even its classicism is kinetic: steps, setbacks and streamlines imply motion through a static art. Deco is the last style of the age of ornament and the first style of the age of velocity, and its whole history plays out in the tension between those two facts."
+            ]
+          },
+          {
+            "heading": "Poiret, the couturier as decorator",
+            "paras": [
+              "Between the theatre and the interior stood the couturier. Paul Poiret, who freed the fashionable waist from the corset, also freed the fashionable room from the period style: his Atelier Martine (founded 1911) sold furniture, fabrics and wallpapers designed by young working-class girls trained to draw from nature without academic rules — a factory of freshness supplying the bright, naive pattern that became one of Deco's dialects. Poiret dressed his clients, his house, and in 1925 his three exhibition barges on the Seine, in one continuous taste.",
+              "The couture connection ran deep and never broke. Coco Chanel's black-and-beige severity; Jeanne Lanvin's blue, and the bathroom of marble, bronze and that blue which her decorator Armand-Albert Rateau built for her; the jeweller Cartier's panther, and its Egyptian and Persian pieces after 1922 — fashion gave the style its speed of turnover, its seasonal colour stories and its genius for the total look. Architecture, which changes slowly, borrowed the tempo: a 1925 interior could be as datable as a 1925 hemline, and proud of it."
+            ]
+          },
+          {
+            "heading": "Jazz: the style learns rhythm",
+            "paras": [
+              "In October 1925 — the Exposition's closing month — a young American dancer named Josephine Baker opened in La Revue Nègre at the Théâtre des Champs-Élysées, and Paris acquired its second defining sensation of the year. Jazz had arrived with the American armies in 1917; by the mid-twenties it was the style's soundtrack and, more subtly, its rhythm section. The syncopated beat — regular measure, displaced accent — is the zigzag's exact musical analogue, and the age heard the likeness: 'jazz moderne' was the American trade name for the whole manner, its patterns 'jazz patterns', its colours 'jazz colours'.",
+              "The connection was not only metaphorical. The jazz band's instruments entered the ornament — saxophone silhouettes, drum-kit geometry — and the dance hall became a Deco interior type, from the Bal Tabarin to the mirrored bals of the suburbs. Baker herself, the style's living emblem in banana skirt and brilliantined hair, bought a château and kept a cheetah; the posters of Paul Colin fixed her image in the same flat geometry as Cassandre's liners. Deco is the only twentieth-century style with a dance music of its own, and it shows in every sunburst."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "war",
+        "numeral": "III",
+        "title": "War, Debt and the Hunger for Ornament, 1914–1925",
+        "sections": [
+          {
+            "heading": "The interrupted style",
+            "paras": [
+              "War froze the experiment. From 1914 to 1918 French workshops made munitions, not marquetry; a generation of craftsmen and clients died at the front; and the German market for Parisian luxury — considerable before 1914 — vanished. When building resumed, France faced reconstruction in the devastated north, inflation, and a political demand for the modern and the rational: the garden city, the cheap house, hygiene. The nascent style might have died of seriousness.",
+              "Instead it fed on the opposite appetite. The années folles — the crazy years — wanted pleasure with the desperation of survivors: jazz, cocktails, short skirts, fast cars, American money. The luxury trades recovered by selling to Americans, the new rich of the war, and to a French clientele determined to enjoy. Ornament was no longer a Beaux-Arts habit; it was a refusal of grief. The style that emerged at the 1925 Exposition is festive in a way its pre-war sketches were not — it dances on a grave, and knows it."
+            ]
+          },
+          {
+            "heading": "America gets rich, France gets organised",
+            "figure": "expo1925",
+            "paras": [
+              "Across the Atlantic the war made the fortune the style would spend. New York's 1916 Zoning Resolution — passed after the windowless Equitable Building cast seven acres of shadow — required tall buildings to step back as they rose, and thereby drafted, in law, the silhouette of the American tower. American architects spent the early 1920s discovering that the legal wedding-cake could be beautiful: Gothic, Maya and Egyptian dress over a zoning envelope. Meanwhile Paris planned its answer to the post-war world: a great exhibition, first announced for 1916, postponed by the war, fixed at last for 1925, and given a programme that reads like a challenge — the decorative arts of the present day, original work only, no copies of historical styles.",
+              "The challenge was strategic. Germany had the Bauhaus; Vienna had the Werkstätte tradition; even Britain had an Arts and Crafts establishment. France intended to prove that its luxury industry — mobilised, for once, as a national trade policy — could own modernity. The Exposition Internationale des Arts Décoratifs et Industriels Modernes would be less an exhibition than an argument: that the future could be French, sumptuous, and sold by the shipload."
+            ]
+          },
+          {
+            "heading": "What the war changed",
+            "paras": [
+              "The war's deepest effect on the style was economic, and then material. The pre-1914 luxury trades had run on cheap skilled labour and cheap empire materials; after 1918 labour was dearer, ivory and exotic woods dearer still, and the great private fortunes of France were taxed, inflated or buried. The style's answer — visible across the 1920s — was intensification rather than retreat: smaller rooms, richer surfaces, ornament concentrated where the eye lands. The skyscraper lobbies of New York would learn the same lesson in reverse: miles of plain shaft, an explosion of craft at the door.",
+              "The war also moved the style's centre of gravity between generations. The ensembliers who triumphed in 1925 were men formed before 1914; the industrial designers who would streamline the 1930s were men formed in the war's factories and airfields. Deco contains both cohorts, which is why it can look backward to the commode and forward to the wind tunnel in a single object — and why any account that makes it merely nostalgic, or merely modernist, is reading only half the evidence."
+            ]
+          },
+          {
+            "heading": "Memorials and the stripped manner",
+            "paras": [
+              "The war's official architecture points the style's other way — toward the stripped classicism of the thirties. A million British and imperial dead required a language of commemoration at once modern and grave: Edwin Lutyens's Cenotaph in Whitehall (1919–20), a pylon of almost abstract geometry refined by entasis, showed how classical form could be planed down to pure massing and inscription. France built its ossuaries and mairies, America its memorial colonnades, in the same reduced tongue. Strip the Cenotaph of mourning and you have the ministry style of 1937 Paris — and half the courthouses of the New Deal.",
+              "This matters to the atlas's method because stripped classicism is Deco's permanent border dispute. The two share symmetry, steps, stylised eagles and a love of fine stone lettering; they differ in temperature. Where Deco is festive, the stripped manner is official; where Deco multiplies materials, the stripped manner polishes one. The five signs in this book's reading chapter are calibrated to separate them — and to admit, honestly, the buildings (much of Rockefeller Center, much of official Washington) that stand in both camps at once."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "expo1925",
+        "numeral": "IV",
+        "title": "1925: The Exhibition That Named a Style",
+        "sections": [
+          {
+            "heading": "A city of pavilions on the Seine",
+            "figure": "ruhlmannInterior",
+            "paras": [
+              "From April to October 1925, the centre of Paris — from the Grand Palais across the Pont Alexandre III to the Invalides — became a temporary city of pavilions in the new manner. Sixteen million visits were recorded. The rules required modern work: pastiche was refused admission. What the visitor saw, in pavilion after pavilion, was the style complete and self-confident: symmetrical facades stepped like ziggurats, ornament of zigzag and sunburst, interiors in macassar ebony, ivory, lacquer and glass, colours saturated, craftsmanship of a level no other nation attempted. France had staged the debut of a world style on its own doorstep.",
+              "Its monument was private: the Hôtel du Collectionneur, the pavilion of the ensemblier Jacques-Émile Ruhlmann, where a complete apartment for an imaginary collector displayed furniture, carpets, bronzes and paintings as one composed chord. Ruhlmann's rooms — photographed here in the record of the Exposition — were the style's French manifesto: classical proportions, razor-sharp geometry of veneer, luxury without an inch of historical quotation. Abroad, the foreign pavilions told the future differently: Josef Hoffmann's Austria, the Soviet pavilion of Konstantin Melnikov, and — scandalously bare among the jewel boxes — Le Corbusier's Pavillon de l'Esprit Nouveau, a white cell furnished with industrial objects, which the organisers tried to hide behind a fence."
+            ]
+          },
+          {
+            "heading": " Glass, light and the grand magasin",
+            "figure": "laliqueGlass",
+            "paras": [
+              "The Exposition's second lesson was material. René Lalique built a fountain of illuminated glass on the Esplanade and dressed pavilion interiors in moulded glass panels — a jeweller's technique scaled to architecture. Glass would be the style's democratic luxury: cast, etched, back-lit, it could make a whole dining room glow. Beside it stood Edgar Brandt's forged-iron grilles, Jean Dunand's lacquer, the printed textiles of the great stores — Printemps and the Galeries Lafayette exhibited as national champions — and the first hints of the style's graphics: geometry you could read at fifty metres.",
+              "Why did it conquer? Because it was exportable. The Exposition's juries awarded the style's makers a harvest of grands prix, and its vocabulary — a stepped silhouette, a sunburst grille, a chevron carpet — could be learned by any competent architect from the official albums and the magazines within a year. By 1927 the manner appears in Buenos Aires apartment houses, in Algiers, in Hanoi, in the new cinemas of London suburbs. No style since the Gothic had travelled so fast; none travelled, as this one did, by photograph."
+            ]
+          },
+          {
+            "heading": "The name that came forty years late",
+            "paras": [
+              "Contemporaries called it le style moderne, l'art déco only in passing, or — in America — jazz moderne. The label Art Deco is retrospective, popularised by Bevis Hillier's book of 1968, contracting the Exposition's title. The delay explains a permanent confusion: unlike modernism, the style had no theorists to police it, so its borders were set by taste, not doctrine. This book follows usage: Art Deco names the family — French luxury classicism, American skyscraper Gothic-stepped modernity, the streamlined 1930s — bound by geometry, symmetry, sumptuous material and the conviction that the modern world deserved decoration."
+            ]
+          },
+          {
+            "heading": "America looks, and does not exhibit",
+            "paras": [
+              "One absence at the Exposition shaped the style's future more than most presences. The United States sent no exhibitors: the official American commission reported that the country had little decorative art 'which would conform to the modern spirit' of the rules, and official America stayed home. But American buyers, architects and store-owners came as visitors in thousands — the department store Lord & Taylor, the Metropolitan Museum (which toured a selection of purchased exhibits in 1926), and a generation of designers including Donald Deskey and Ely Jacques Kahn. America imported the style as a customer, not a competitor, and then did with it what America did with everything in the 1920s: built it bigger, faster and taller.",
+              "The Exposition's bookkeeping closed the French account: a triumph of prestige, a modest profit, and — within four years — a crash that ended the world that had paid for the pavilions. Paris 1925 remains the style's purest portrait of itself: optimistic, luxurious, theatrical, unaware. Everything after is the portrait weathering — gloriously — in the real climates of New York, Bombay, Miami and the North Circular Road."
+            ]
+          },
+          {
+            "heading": "The critics answer back",
+            "paras": [
+              "The Exposition codified its opposition as surely as its exhibits. Le Corbusier's Pavillon de l'Esprit Nouveau — white walls, industrial furniture, a tree growing through the roof — was placed, after official attempts to hide it, as the fair's built-in refutation: a claim that the future belonged not to the ensemblier's hand-finished room but to the standardised cell. His book L'Art décoratif d'aujourd'hui, published the same year, attacked the fair's whole premise as a bazaar of 'style' pasted onto objects. Adolf Loos's earlier essay Ornament and Crime (1908) supplied the moral artillery: ornament as waste, as backwardness, as crime.",
+              "History's irony is that the polemic needed its target: modernism's white severity defined itself against Deco's sumptuous geometry, and borrowed more than it admitted — the stepped massing, the love of the ocean liner, the total-environment ambition. The reader who has followed both studies in this atlas (Modernism is Book 6 of the series) will see the two styles as the period's systole and diastole: one heart, two beats. The Exposition of 1925, which fenced its modernist pavilion in like a dangerous animal, is the moment the argument was staged in public — with the animal already loose."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ruhlmann",
+        "numeral": "V",
+        "title": "Ruhlmann and the Ensembliers: The French Room",
+        "sections": [
+          {
+            "heading": "The complete interior",
+            "figure": "dunandLacquer",
+            "paras": [
+              "The summit of French Deco was not a building but a room. The ensemblier — designer, decorator and contractor in one — composed interiors the way a composer scores: architecture, furniture, carpet, bronze, glass and picture in a single key. Jacques-Émile Ruhlmann (1879–1933) was its virtuoso. His furniture — slim-legged cabinets in macassar ebony and amaranth, inlaid with ivory stringing and ivory dot — cost more than the automobiles of his clients, and his interiors for the rich of Paris, for the Maharaja of Indore's palace at Manik Bagh (with the architect Eckart Muthesius), and for the 1931 Colonial Exhibition made French taste a world standard.",
+              "Ruhlmann's secret was proportion. Strip the exotic veneer away and the forms are eighteenth-century — commode, bergère, secrétaire — redrawn with a razor: curves tautened, ornament reduced to a line of ivory, a tassel of silk, the grain of the wood itself. He called his sources honestly classical; the modernity lay in the editing. When he died in 1933, at the height of his fame, his firm closed — the ensemblier's art was personal, and the Depression was already ending its world."
+            ]
+          },
+          {
+            "heading": "Lacquer, shagreen and the cult of the surface",
+            "paras": [
+              "Around the ensembliers stood the material masters. Jean Dunand built up lacquer panels coat by coat — in black, in gold, in crushed eggshell — for liner staterooms and Parisian apartments, proving an ancient Asian technique could be the most modern finish in Europe. Jean-Michel Frank lined rooms in shagreen, straw marquetry and parchment, luxury by subtraction. Eileen Gray — the Irish designer working in Paris, her lacquer screens and chrome-and-glass furniture made for the couturier Jacques Doucet — stood at the style's bridge to modernism: her house E-1027 at Roquebrune (1929) is Deco dissolving into the International Style before your eyes.",
+              "And everywhere, iron: Edgar Brandt's workshop forged and welded grilles, gates, elevator doors and lamps at industrial scale without losing the hand's trace — his cobra and sunflower motifs were stamped on the decade. Brandt's achievement states the French bargain precisely: the machine multiplies, the craftsman invents. France's Deco is the last great flowering of the luxury workshop, knowingly brilliant, deliberately expensive — and, by 1929, balanced on the edge of an economic cliff."
+            ]
+          },
+          {
+            "heading": "Patrons: from Paris salons to an Indian palace",
+            "figure": "ruhlmannBoudoir",
+            "paras": [
+              "The ensemblier system ran on patrons, and its geography was wider than Paris. When the young Maharaja Yeshwant Rao Holkar II of Indore built his palace Manik Bagh (1930–33), he commissioned the whole modern world at once: Ruhlmann furniture, sculpture by Brâncuși, architecture in Le Corbusier's orbit under Eckart Muthesius, Man Ray's photographs on the walls. Manik Bagh is the French room's furthest outpost and its proof of portability: the style could be a complete environment anywhere a chequebook and a steamship met.",
+              "At home the system stratified by price with unusual honesty. Ruhlmann's pieces were unique or near-unique; beneath him, the stores' studios — Primavera, La Maîtrise, Studium-Louvre, Pomone — sold the manner at department-store prices, designed by named talents (Charlotte Perriand passed through the milieu before joining Le Corbusier). The French room thus existed at every level from palace to petit-bourgeois flat, recognisably one idea. No other national school of the century managed that continuity of taste; it is why 'French Deco' remains a trade term in every auction house on earth."
+            ]
+          },
+          {
+            "heading": "The women of the modern room",
+            "paras": [
+              "The French room had its women, and the record is only now giving them full credit. Eileen Gray opened her Galerie Jean Désert in the Rue du Faubourg Saint-Honoré in 1922, selling lacquer screens, carpets and furniture of her own design — work that moved, within the decade, from Deco's luxurious geometry toward the chrome-and-glass clarity of her villa E-1027, one of modernism's canonical houses, designed with Jean Badovici. Sonia Delaunay, from her simultaneous fabrics and the Boutique Simultanée she showed at the 1925 Exposition, made pattern itself the architecture of dress and interior — Orphism you could sit on.",
+              "Charlotte Perriand, who in 1927 was famously told by Le Corbusier's studio that 'we don't embroider cushions here', returned within the year as his associate for furniture — the famous chaise longue followed in 1928 — carrying the ensemblier's total-interior instinct into the modernist camp. The traffic of talent between the styles ran through these careers: the French room trained the very designers who would declare it obsolete, and their modernism kept its Parisian manners for life."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stores",
+        "numeral": "VI",
+        "title": "The Department Store and the Modern Street",
+        "sections": [
+          {
+            "heading": "Cathedrals of consumption",
+            "figure": "printempsStore",
+            "paras": [
+              "If the style had a French public architecture, it was the grand magasin. The great Paris stores — Printemps, the Galeries Lafayette, La Samaritaine — rebuilt themselves between the wars as palaces of the new taste: Printemps' 1923 facade and its famous stained-glass dome restored, the Samaritaine's riverside block (Henri Sauvage, 1928) stepping down to the Seine in creamy tiers with gold lettering. Inside, atriums of glass and light displayed the style at every price: the stores' own studios — Primavera at Printemps, La Maîtrise at the Galeries Lafayette — manufactured Deco furniture, glass and textiles for the middle-class home. The department store did for the style what the pattern book had done for the Gothic Revival: it made it ordinary, at last, in the best sense.",
+              "Sauvage deserves his sentence: a pioneer of concrete and of the stepped, hygienic apartment house — his rue Vavin block of 1912 terraces down like a ziggurat so every flat gets sun — he showed how the stepped profile could be social policy as well as silhouette. The style's geometry, in Paris, was always more than decoration: it was a way of organising light, air and desire in a dense city."
+            ]
+          },
+          {
+            "heading": "The street learns to glitter",
+            "figure": "malletStevens",
+            "paras": [
+              "The boulevards filled in the picture: the Folies Bergère rebuilt its facade in gilded bas-relief (1926), theatres and cinemas took stepped fronts and neon names, brasseries set their mirrors and chrome. In a quiet street of the 16th arrondissement, Robert Mallet-Stevens built the Rue Mallet-Stevens (1927) — a cul-de-sac of sculptural white villas for artists and patrons, cubic and theatrical, French modernism with a Deco sense of staging. And in 1937, for the last great Paris exhibition, the style put on its monumental dress: the Palais de Chaillot's twin wings curving above the Seine, the Palais de Tokyo's colonnades — classicism stripped to planes and gold inscriptions, the state speaking style moderne as its official language.",
+              "By then the French chapter was effectively written. The style had conquered the shop, the theatre, the liner and the ministry; it had also begun to thin — the crisp classicism of 1937 is already halfway to the stripped monumentality every regime of the 1930s found useful. The energy of invention had moved — to New York, where the same geometry was about to be built a hundred storeys high."
+            ]
+          },
+          {
+            "heading": "The cinema arrives on the boulevard",
+            "paras": [
+              "The store had a rival as the style's public palace: the picture palace. Paris rebuilt its great halls between the wars — the Rex (1932), with its star-spangled ceiling and a tower that still signs the Grands Boulevards; the Louxor (1921), Egyptianising before Tutankhamun made it compulsory — and the Gaumont and Pathé circuits carried the manner to every provincial town. Cinema did for the style what the liner did, at a hundredth of the ticket price: it put a working-class audience inside a Deco interior for two hours and taught it to associate the geometry with glamour, modernity and escape.",
+              "Add the brasserie, the dance hall, the rebuilt railway terminus and the motor showroom, and the French street of 1930 was a continuous exhibition of the style — which is precisely why French Deco can seem, in retrospect, less a set of monuments than an atmosphere. The monuments the visitor photographs today are the survivors of a total environment, most of it as perishable as shopfitting, and all of it intended, in the first instance, to sell."
+            ]
+          },
+          {
+            "heading": "The boulevard at night",
+            "paras": [
+              "Deco Paris was a nocturnal city by design. Neon — Georges Claude's tubes, demonstrated in Paris as early as 1910 — came of age between the wars: the Citroën sign lit the Eiffel Tower itself from 1925, spelling a car-maker's name in 250,000 lamps up the national monument; the Moulin Rouge, the Folies, the cinemas and the great stores outlined themselves in coloured fire. The boulevard became a composition in light with its own graphic style — lettering vertical, letters stacked, speed made visible — which the provinces and then the world copied down to the smallest garage.",
+              "Electric light also changed the interiors' palette. Rooms designed for tungsten warmth — the amber of lacquer, the cream of shagreen, the green of malachite glass — photographed in black and white as studies in tone, which is one reason the style translates so well into film and print. The department store understood first: its windows, lit all night behind glass, were the city's free exhibition, changed weekly, and the grand magasin at midnight — Printemps' dome glowing over the boulevard — was as much the style's monument as any pavilion of 1925."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "liner",
+        "numeral": "VII",
+        "title": "Empire of the Seas: The Ocean Liner",
+        "sections": [
+          {
+            "heading": "The floating manifesto",
+            "figure": "normandieLiner",
+            "paras": [
+              "No building type advertised the style like the ship. A liner was a total work of art that visited its audience: launched before crowds, photographed in every port, its interiors reproduced in the magazines of two continents. When the Île-de-France entered service in 1927, her interiors — lacquer, glass, poster-bright colour, a grand salon rising through three decks — announced that France had a modern style and intended to export it at twenty-five knots. The Germans answered with the Bremen, the Italians with the Rex, the British with the Queen Mary; but the supreme statement was French.",
+              "The Normandie, launched in 1932 and in service from 1935, was the largest liner in the world and the style's floating cathedral. Her first-class dining room — longer than the Hall of Mirrors at Versailles — seated 700 beneath Lalique glass towers of light; Jean Dunand covered the smoking-room walls with lacquer panels of gold and black; her chapel, her grand salon, her winter garden were designed by the roll-call of the 1925 Exposition, now working at the scale of a town. To sail in her was to inhabit the style completely: furniture, tableware, posters, even the typeface of the menus composed as one."
+            ]
+          },
+          {
+            "heading": "Cassandre and the graphic ship",
+            "paras": [
+              "The liner also fixed the style's image. A. M. Cassandre's posters — the Normandie of 1935, a wall of black hull and red funnels seen from the height of a gull; the wagon-lit trains; Dubonnet's little men — reduced the Deco world to flat planes, monumental letters and three colours. The poster was the style's true mass medium: pasted on every station in Europe, it taught millions who would never see the Chrysler Building to recognise stepped forms, sunburst rays and speed lines on sight.",
+              "The ship gave the style more than publicity. It gave it a form-language: the raked bow, the tiered decks stepping back like a zoning envelope, the porthole, the railing, the funnel. Within five years the 'ocean-liner style' — paquebot, in French — was being quoted by apartment houses in Paris and Miami alike, white walls and curved balconies becalmed on dry land. The liner is where Deco and the modern movement shake hands: a machine, decorated; decoration, machined."
+            ]
+          },
+          {
+            "heading": "The liner style comes ashore",
+            "paras": [
+              "The ships' influence ran both ways. Naval architecture gave the style its portholes, rails, decks and funnels; the style gave the ships their public rooms; and then the exchange landed: the 'paquebot' look — white walls, curved corners, horizontal window bands, rooftop terraces like decks — became the fashionable dress of the modern villa and the modern apartment house from the Côte d'Azur to Tel Aviv. When Le Corbusier devoted a famous passage of Vers une architecture (1923) to the liner — 'a liberation from the cursed enslavement of the past' — he was claiming for purist architecture a machine the decorators had already colonised with lacquer and Lalique.",
+              "The end of the story is told in this book's last chapter: the Normandie, requisitioned by a war she had not sought, burned at her New York pier in 1942. But her furniture had already been auctioned into a hundred American rooms, her posters were in every print shop, and her silhouette — red funnels, a black hull, a name in letters a man tall — remained the century's definitive image of luxurious speed. The liner was the style's best ambassador because it was the style entire: engineering and ornament, France and the world, in one hull."
+            ]
+          },
+          {
+            "heading": "Rivals of the Atlantic",
+            "paras": [
+              "The liner race was an arms race of interiors. Germany's Bremen and Europa (1929) answered France with disciplined modern rooms; Italy's Rex and Conte di Savoia (1932) floated a baroque-Deco Riviera; Britain, slower and statelier, replied with the Queen Mary (1936), whose interiors — a mile of panelling, a shopping arcade, a ballroom in maple and silver — were executed by London firms in a conservative Deco that comforted rather than startled. Cunard's brief to its designers was explicit: the ship was to be 'a national monument', which in 1934 meant Deco with the edges polished by tradition.",
+              "The economics under the glamour were brutal: a great liner cost as much as a skyscraper, earned only in season, and dated in a decade. The Normandie, the most beautiful of them all, never made money. What she made instead was meaning — for France, proof of industrial artistry in the Depression's depth; for the style, a flagship whose loss in 1942 reads, in retrospect, as its own obituary written in advance. The Queen Mary, retired to Long Beach in 1967, survives as the type's museum; her lesser rivals survive in a thousand hotel lobbies that still quote her staircases."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "materials",
+        "numeral": "VIII",
+        "title": "The Materials of Luxury: Lacquer, Glass and Light",
+        "sections": [
+          {
+            "heading": "Old crafts, new finishes",
+            "figure": "dunandScreen",
+            "paras": [
+              "Deco's material world divides into two families that the style delighted in marrying. The first is the ancient luxury of the workshop, intensified: lacquer built up in dozens of coats and inlaid with eggshell, mother-of-pearl or gold leaf; shagreen — the pebbled skin of the stingray — dyed green or cream and stretched over boxes, furniture and whole walls; exotic veneers, macassar ebony, amaranth, kingwood, cut into marquetry with ivory stringing; ivory itself, horn, tortoiseshell and rock crystal. These are the materials of Ruhlmann's Paris, ruinously labour-intensive, and they belong to a world the Depression was about to end.",
+              "The second family is the factory's: moulded glass by the thousand, chromium and stainless steel, aluminium, Bakelite, and — after 1930 — vitrolite, glass block and neon. Lalique is the bridge between the two families: a jeweller who industrialised, pressing glass in moulds so that a panel designed once could glow in a hundred interiors, from the Cunard liners to the perfume shops of two continents. His frozen fountains, his glass screens and towers of light made transparency itself a luxury — and made the style reproducible."
+            ]
+          },
+          {
+            "heading": "Light as a building material",
+            "figure": "elthamPalace",
+            "paras": [
+              "More than any style before it, Deco designed with light. The department store and the cinema were lit advertisements; the skyscraper crown was a lantern; the hotel lobby hid its sources — coves, back-lit glass, frosted tubes — so that rooms seemed to radiate. In Dunand's lacquer and Lalique's glass, light was caught inside the material; in Brandt's iron and Chambellan's bronze elevator doors for New York's Chanin Building, it was modelled by reflection. The style at night — floodlit crowns, neon names, the white roads of the fairs — was a second architecture, and for many buildings the more famous one.",
+              "This is why Deco photographs so well and why its loss, when it came, was a loss of a whole sensorium: the style had fused architecture, craft, graphics and light into one product. The modern movement, for all its rhetoric of honesty, rarely attempted so complete a synthesis again. When the postmodern age went looking for a way to make commercial buildings pleasurable once more, it was to this chapter of the style that it returned."
+            ]
+          },
+          {
+            "heading": "The price of the surface",
+            "paras": [
+              "Luxury of this order had a ledger. A Ruhlmann cabinet could consume a cabinetmaker's season; a Dunand panel, thousands of hours of lacquer work; the Normandie's interiors employed an army of craftsmen that no peacetime economy would assemble again. Historians of the style therefore read its materials as an economic document: the richest work clusters before October 1929, and the 1930s' materials — glass block, chromium, enamel, plastic — are the crash written in finishes. The style's famous adaptability is partly this: when ivory became impossible, it learned to make aluminium look inevitable.",
+              "That adaptability is also why the materials chapter of Deco is still a living syllabus. Contemporary makers rediscovered shagreen, straw marquetry, eggshell lacquer and moulded glass largely because Deco objects survived in quantity and in glamour; the auction rooms and the great museum collections (the V&A's and the Metropolitan's above all) keep the techniques legible. A style whose surfaces can still teach craftsmen a century later was never merely a fashion."
+            ]
+          },
+          {
+            "heading": "Glass: from Lalique to the glass block",
+            "paras": [
+              "Glass carries the style's whole material plot in one substance. At the luxury pole stands Lalique: the glass dining room he made for the Normandie, the illuminated panels and fountains, the perfume bottles that made his moulds pay for the monuments. At the democratic pole stands the glass block — machine-pressed, translucent, cheap — which by the mid-1930s was curving around diners, stairwells and factory offices from Pittsburgh to Paris, diffusing the style's beloved glow into buildings of every budget. Between them sits the Maison de Verre in Paris (1932), Pierre Chareau's masterpiece, its facade a wall of glass lenses: a Deco craftsman's sensibility (Chareau began as an ensemblier) achieving a modernist icon.",
+              "The moral for the reader's eye: in a Deco interior, find the glass and you have found the budget and the date. Moulded figurative panels — pre-1930, money. Etched and sandblasted geometry — the commercial thirties. Glass block and vitrolite — the streamlined settlement, luxury by lamplight alone. The style thought in light because it was the first to be designed, from birth, for the electrically lit night."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zoning",
+        "numeral": "IX",
+        "title": "The Zoning Envelope: New York Learns to Step Back",
+        "sections": [
+          {
+            "heading": "A law becomes a silhouette",
+            "figure": "tribuneTower",
+            "paras": [
+              "American Deco was written by a statute. New York's Zoning Resolution of 1916 — the first comprehensive zoning law of any great city — required a tall building to withdraw from the street line as it rose, in a series of setbacks governed by the width of the street, reserving the full site only for a tower on a quarter of the plot. Hugh Ferriss, the great delineator of the new skyline, drew the law's logic in his famous studies of 1922–29: raw clay-like envelopes of maximum bulk, which the architect then carved into architecture. The stepped pyramid — Mesopotamian by way of the building code — became the American tower's birth-form.",
+              "The profession tested the new freedom first in fancy dress. The Chicago Tribune Tower competition of 1922 — the most famous architectural contest of the century — drew 263 entries from 23 countries; the winners, Howells and Hood, built a neo-Gothic tower, but the runner-up, Eliel Saarinen's stepped, buttressed design, was the one the future copied. Within five years the lesson was learned from Chicago to Los Angeles: dress the envelope in vertical piers, concentrate the ornament at the base and the crown — the parts the city actually sees — and let the shaft be a disciplined grid."
+            ]
+          },
+          {
+            "heading": "The ornamented envelope",
+            "figure": "chaninBuilding",
+            "paras": [
+              "What made the type Deco rather than merely big was its surface intelligence. Ely Jacques Kahn, Raymond Hood, Ralph Walker and the firm of Sloan & Robertson (builders of the Chanin Building, 1928) developed a masonry manner of extraordinary richness at the pedestrian's range: bronze and terracotta lobbies of geological splendour, elevator doors as jewellery, grilles like the Chanin's woven metal foliage. Above, the towers quoted everything — Gothic, Maya, Egyptian, Byzantine — but quoted it flattened, patterned, subordinated to the grid. Purists objected that this was decorated engineering, not architecture. The public, which had to live with the result, disagreed: these are still the best-loved towers in America.",
+              "The type reached its provincial perfection far from Manhattan. Albert Kahn's Fisher Building in Detroit (1928) — a 'cathedral of commerce' in green and gold marble, its arcade vaulted and frescoed — and Cincinnati's Union Terminal (1933), a half-dome of a station fronted by vast mosaic murals, show the manner at full strength: the skyscraper and the station as civic cathedrals of a commercial civilisation, built to be loved at first sight."
+            ]
+          },
+          {
+            "heading": "The delineators: Ferriss and the renderers",
+            "figure": "fisherBuilding",
+            "paras": [
+              "The type had its own image-makers. Hugh Ferriss's charcoal renderings — collected in The Metropolis of Tomorrow (1929) — showed the zoning envelope as a brooding, mountainous sublime, and architects designed toward his drawings: massing studies in clay and charcoal, published in the press before a line was tendered. The skyscraper was the first building type composed substantially in pictures, for a public that would mostly know it from across a river or down an avenue. Deco's flattening of ornament into pattern serves exactly that distance: a crown readable at a mile, a lobby rewarding at a metre.",
+              "Albert Kahn's Fisher Building, illustrated here, marks the type's Detroit summit — and its difference from New York. Built for the Fisher Body fortune in 1928, it wraps a theatre and a shopping arcade in one composition, its lobby a basilica of dozens of marbles under a vault of fresco and coloured glass. Detroit's other crowns — the Penobscot Building, and the Guardian Building's tangerine 'cathedral of finance' — complete a Midwestern school where the skyscraper's ornament drew openly on Native American and Byzantine pattern: the zoning envelope dressed, again, in the local exotic."
+            ]
+          },
+          {
+            "heading": "The elevator core and the economics of the step",
+            "paras": [
+              "Inside the envelope, economics drew the plan. A skyscraper's rentable value concentrates near its windows, so the zoning tower's steps are also its price list: the deep, cheap floors at the base for banks and stores; the shallow, dear floors at the top for executives who bought light, air and address. The elevator made the section: express and local banks of lifts, zoned like the building itself, consumed the core — the art of the type was to wrap this machine in masonry so gracefully that tenants read logistics as luxury. Kahn, Hood and Walker were masters of the disguise; their lobbies are, functionally, the decorated doors of a lift shaft, and none the worse for it.",
+              "Ferriss saw the poetry in the arithmetic before anyone. His four-stage drawings — the raw envelope, the envelope sculpted, the sculpted mass planted in the city — are the style's urban theory in charcoal: the American tower as an artificial mountain range, governed by law, weathered by economics, and finished by taste. Every skyline since, from the wedding-cake wedding of setbacks to today's twisted icons, lives in the world Ferriss drew in 1922."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chrysler",
+        "numeral": "X",
+        "title": "The Chrysler Building: A Crown for the Automobile Age",
+        "sections": [
+          {
+            "heading": "The race for the sky",
+            "figure": "chryslerCrown",
+            "paras": [
+              "In 1929 two former partners raced to build the tallest building on earth. H. Craig Severance was raising the Bank of Manhattan at 40 Wall Street; William Van Alen, for the automobile magnate Walter Chrysler, was building at Lexington Avenue and 42nd Street. Van Alen's weapon was secrecy: inside the dome of his tower, workmen assembled a 38-ton stainless-steel spire — the 'vertex' — which, on 23 October 1929, was hoisted through the crown in ninety minutes and bolted down. The Chrysler Building stood 319 metres tall, the highest structure ever built by man. It kept the title for eleven months, until the Empire State Building passed it; it has never lost the other title, of the most beautiful skyscraper of the age.",
+              "The building is a manifesto in white brick and steel. Its shaft rises in the zoning envelope's steps, its windows flush in vertical bands; then the crown begins — seven terraced arches of stainless steel, inset with triangular windows, shrinking to the needle of the spire. The steel (Nirosta, a German alloy, new to architecture at this scale) was chosen as an advertisement: this was Chrysler's building, and it wears the radiator cap as a crown. At the 31st floor, gargoyles in the form of eagles — enlarged from the Chrysler car's bonnet ornament — lean out over the street; at the 61st, great stainless eagles guard the crown."
+            ]
+          },
+          {
+            "heading": "Architecture as advertisement",
+            "figure": "chryslerEagles",
+            "paras": [
+              "Walter Chrysler paid for the building himself and intended it as a monument to his company and his sons' inheritance; Van Alen, denied his fee percentage in a bitter dispute, never built a comparable work again. The episode states the type's truth: the Deco skyscraper was corporate theatre, and its architects were its impresarios, sometimes its casualties. But theatre was the commission. In a decade when the corporation replaced the cathedral and the crown prince as the city's patron, the tower that could be recognised from a harbour away — drawn in a logo, stamped on a radiator — did its owner's business every hour of the day.",
+              "The interiors matched: a lobby of Moroccan marble, sienna and amber, its ceiling painted with the workers who built the age; elevator cabs veneered in a catalogue of the world's woods, each different, each inlaid. Almost all of it survives. Stand in the lobby today and the judgement of 1930 is easy to recover: this was not a building decorated in a style; the style was invented, in large part, to make buildings like this conceivable."
+            ]
+          },
+          {
+            "heading": "The building as logo, the architect as casualty",
+            "paras": [
+              "The Chrysler Building's deepest innovation may be semiotic. Earlier towers bore their owners' names; this one wears its owner's product — eagles from the bonnet ornament, hubcap friezes, a radiator-cap crown — until the building itself becomes the trademark, legible in a silhouette an inch tall. Every branded tower since works the seam Van Alen opened: architecture as the largest piece of advertising a corporation can buy, running day and night, rent-free, in the public's affection.",
+              "The human cost stands in the record too. Van Alen sued for his fee, won a settlement clouded by accusation, and never again received a commission of scale; the profession quietly closed ranks against the man who had beaten it to the sky. The building kept the fame. It survived a near-demolition age, changes of owner, and the century; when New Yorkers are asked to name their favourite skyscraper, the answer, poll after poll, is the silver needle on Lexington — the advertisement that became a beloved."
+            ]
+          },
+          {
+            "heading": "Anatomy of the crown",
+            "paras": [
+              "The crown deserves slow looking. Seven arched tiers rise from the 61st floor, each pierced with triangular windows that follow the arch — a geometry that delighted the draughtsmen and defeated the glaziers, since no two panes repeat. The cladding is Nirosta stainless steel, an 18-8 chromium-nickel alloy new to building, chosen because it would never need painting at 300 metres and because its silvery tone advertised the motor age's favourite metal. The eagle gargoyles at the 61st floor, modelled by Kenneth Lynch's smiths, copy the radiator-cap mascot of the 1929 Chrysler Plymouth; the sunburst spandrels below quote a hubcap's spokes. It is heraldry, translated into product.",
+              "At the crown's completion the building held one more secret: the Cloud Club, a lunch club for the city's executives on floors 66–68, with a barber, a grill room in Tudor dress and a proscenium view through the arched windows — the style's interior world perched at the top of its exterior masterpiece. The club faded with the century's middle decades; the crown, floodlit since the seventies in changing colours, became the skyline's nightly signature. Van Alen, who died in 1954 in modest circumstances, is commemorated by a plaque in the lobby he designed. The building out-argued them all."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "empirestate",
+        "numeral": "XI",
+        "title": "Empire State and the Depression Paradox",
+        "sections": [
+          {
+            "heading": "Thirteen months through the Crash",
+            "figure": "empireState",
+            "paras": [
+              "The Empire State Building was begun in the euphoria of 1929 and finished in the pit of the Depression: opened on 1 May 1931, thirteen months after construction started, 381 metres to the top of its mooring mast — a spire intended, in the age's most poetic engineering fancy, for docking airships. Shreve, Lamb & Harmon designed it; the contractors, Starrett Brothers, raised it at four and a half storeys a week. For years much of it stood empty — the 'Empty State Building' — a limestone cliff of offices in a city that had stopped needing them. It is the style's grandest paradox: the monument of capitalist confidence completed as a white elephant of the slump.",
+              "Its manner, though, is the zoning type matured and chastened: no crown of steel, but a limestone shaft of relentless vertical piers, aluminium spandrels, and a stepped cap floodlit at night. The lobby's aluminium-and-gold leaf mural of the building itself — the tower as its own icon — states the era's faith in images. The Empire State is Deco with the jewellery removed and only the discipline left; in that discipline you can already see the post-war office slab approaching."
+            ]
+          },
+          {
+            "heading": "The style goes public",
+            "figure": "niagaraMohawk",
+            "paras": [
+              "The Depression, which emptied the towers, also democratised the style. Federal money built in Deco: post offices, courthouses, schools and dams by the hundred — a stripped, official manner ('PWA Moderne') that traded ivory inlay for honest stone and a single eagle. Hoover Dam (dedicated 1936) dressed its intake towers and terraces in the style's purest geometry and set Gordon Kaufmann's streamlined silhouettes above the Colorado; the dam's terrazzo floors carry Native American patterns in coloured stone. Syracuse's Niagara Mohawk Building (1932) crowned a utility's headquarters with a winged figure of light itself — the 'Spirit of Light' — and lit the tower in colour: the corporation as public benefactor, the style as public language.",
+              "By the decade's end the style had split in two. The luxury line — Park Avenue apartments, Palm Beach hotels — kept its polish; the popular line ran to the roadside: diners, cinemas, bus terminals in enamel and glass block. Both were recognisably the same language, which is precisely what the modern movement, for all its social ambition, never achieved: a style that a dam, a diner and a diamond necklace could share."
+            ]
+          },
+          {
+            "heading": "Building through the slump",
+            "paras": [
+              "The Empire State's construction is the style's industrial epic and worth the figures: 3,400 men on site at peak, 57,000 tons of steel, a framework rising at a pace the contractors choreographed like a railway timetable, with material hoists, internal rail tracks and kitchens feeding the crews on the floors. Five workers died — a toll the age counted mercifully low. The building was delivered under budget and ahead of schedule into a market that could not fill it; its owners survived on the observatory's receipts, the first skyscraper to be saved by its own view.",
+              "There is a stylistic moral. The Empire State's architects stripped the manner to structure and proportion because money and time demanded it, and produced the tower the purists could almost admire — proof that the zoning type's beauty never depended on its jewellery alone. The jewellery returned, where the money did: in the lobbies, the observatory, the floodlit cap. Deco's economy was always theatrical — splendour where the audience sits, discipline where it does not."
+            ]
+          },
+          {
+            "heading": "The mooring mast and the airship dream",
+            "paras": [
+              "The Empire State's cap conceals the era's most romantic brief: the top 60 metres were designed as a mooring mast for transatlantic airships, whose passengers were to disembark through a gangway at the 102nd floor into a customs hall on the 86th. The scheme was announced in earnest in 1929 — Alfred E. Smith, the building's president, posed with the plan — and defeated by physics: updrafts around the tower made docking a Zeppelin an act of faith, and only a small private blimp ever briefly touched the mast, in September 1931, delivering newspapers as a stunt. The mast became a beacon, then a television antenna; the dream survives in every retro-futurist poster of the liner-ships docking over Manhattan.",
+              "The episode belongs in this book because it is pure Deco logic: the style's purpose was to give the machine age a ceremonial dress, and nothing in 1930 was more machine-age, or more ceremonial, than the airship. That the ceremony proved impossible does not diminish the architecture — the mast gives the tower its exclamation point, the silhouette every child draws. The style's failures of function are often its triumphs of meaning, a trade the functionalists never forgave and the public never regretted."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rockefeller",
+        "numeral": "XII",
+        "title": "Rockefeller Center: The City Within the City",
+        "sections": [
+          {
+            "heading": "A complex, not a tower",
+            "figure": "rockefellerCenter",
+            "paras": [
+              "Rockefeller Center (1931–39) was the Depression's greatest building enterprise and the style's urban masterpiece: not one tower but a composition of slabs, plazas, gardens and theatres raised by an association of firms under Raymond Hood's design direction, on land leased from Columbia University. The RCA Victor Building — today's 30 Rockefeller Plaza — rises in long limestone slabs whose setbacks serve the studios and offices within; below, a sunken plaza, Channel Gardens, and the skating rink invented a new kind of civic room, privately built and publicly loved.",
+              "The Center's programme of art was the largest of the age: Lee Lawrie's Wisdom over the entrance, Paul Manship's gilded Prometheus over the rink, Gaston Lachaise's reliefs, Isamu Noguchi's stainless-steel News — and its most famous casualty, Diego Rivera's lobby mural, destroyed in 1934 for including Lenin. Art here was not applied after the fact but commissioned as part of the architecture's meaning: the Center was to be a sermon in stone on human achievement, and even its censorship became part of the story."
+            ]
+          },
+          {
+            "heading": "Radio City: the people's palace",
+            "figure": "radioCity",
+            "paras": [
+              "At the Center's western edge stands its jewel: Radio City Music Hall (1932), for a generation the largest indoor theatre in the world. Edward Durell Stone's interiors, with Donald Deskey's furniture and fabrics, compose the style's greatest surviving room — a proscenium of concentric golden arcs like a setting sun, 6,000 seats, and lobbies where mirrors, aluminium and cork compose a complete Deco world. Where the Chrysler was a company's advertisement, Radio City was mass entertainment raised to architecture: the cinema palace become cathedral, the style's democracy at full flood.",
+              "Taken together, the Center answered the question the zoning law had posed in 1916. The envelope could be architecture; the skyscraper group could be a city; the style of commerce could hold a plaza, a rink, a theatre and a garden in one limestone chord. Nothing built since in New York — richer, taller, glassier — has persuaded the public to love it in quite the same way."
+            ]
+          },
+          {
+            "heading": "Art by committee, and one famous bonfire",
+            "paras": [
+              "The Center's art programme deserves its paragraph of method. A committee matched artists to walls across a dozen buildings; the theme, set by the Rockefellers, was humanity's progress — frontiers of science, industry and spirit. The results ranged from Lawrie's serene Wisdom to José María Sert's vast lobby cycle, painted to replace the destroyed Rivera. That destruction — Rivera's mural, chipped off the lobby wall in February 1934 after he refused to remove Lenin's portrait — made the Center world-famous and faintly infamous at once: the style's greatest patron proved, in public, that its art served at the patron's pleasure.",
+              "The lesson generalises. Deco's integration of art and architecture — its noblest claim against the bare modernism to come — was everywhere a commercial integration: the mural advertised the store, the sculpture blessed the corporation, the goddess of electricity sold current. That the results so often transcend their briefs is the craftsmen's credit, not the briefs'. Rockefeller Center, judged as the public judges, by use and love across ninety years, remains the type's complete success: the city within the city that New Yorkers adopted as their own front hall."
+            ]
+          },
+          {
+            "heading": "Below ground and above the rink",
+            "paras": [
+              "The Center's least-photographed achievement is its section. Beneath the plaza runs a concourse city: shopping arcades, the subway, truck docks that removed delivery traffic from the streets, parking for the new motor age — the whole logistics of a dozen towers hidden below the gardens. Above, the RCA Building's slabs were planned as a composition in themselves, their long faces catching the light so the group reads, from New Jersey, as limestone cliffs. Hood, who died in 1934 with the work half done, called such planning 'architecture by committee' and made the committee sing.",
+              "The finishing layer was horticulture and ice: Channel Gardens, planted seasonally between the French and British empire buildings (the Center's international streets acknowledge its tenant nations in bronze and stone), and the sunken rink of 1936, invented after the plaza's first planting failed to draw the crowds — an accident of retail that became the city's most beloved room. A style is finally judged by the life it hosts. By that measure the Center, at ninety, is the most successful Deco ever built: a machine for working, shopping, skating and marrying, still running on its original limestone."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "streamline",
+        "numeral": "XIII",
+        "title": "Streamline Moderne: The Style Rounds Off",
+        "sections": [
+          {
+            "heading": "From zigzag to teardrop",
+            "figure": "greyhoundTerminal",
+            "paras": [
+              "Around 1932 the zigzag gave way to the curve. Industrial designers — Norman Bel Geddes, Raymond Loewy, Walter Dorwin Teague — had begun streamlining everything from locomotives to pencil sharpeners, applying wind-tunnel logic (and wind-tunnel looks) to objects that would never move. Architecture followed: corners rounded, ornament thinned to parallel speed lines, horizontal bands wrapped the building like slipstreams. Streamline Moderne is Deco's second manner — less jewellery, more motion — and it suited the decade's building types: the bus terminal, the diner, the bottling plant, the airport, the drive-in.",
+              "The Greyhound terminal at Evansville, Indiana (1934) is the type in porcelain enamel and glass block: a blue slipstream of a building, its pylon sign a vertical exclamation. In Cincinnati, the Union Terminal (1933) had already shown the manner at monumental scale — a vast half-dome of limestone whose rotunda glowed with mosaic industry murals. In Los Angeles, the Eastern Columbia Building (1930) wrapped a department store in turquoise terracotta and gold, its clock tower a beacon over Broadway: streamlining's cousin, colour, doing the work of ornament."
+            ]
+          },
+          {
+            "heading": "The fairs of the thirties",
+            "figure": "worldsFair1939",
+            "paras": [
+              "The style's last great stages were the Depression fairs: Chicago's Century of Progress (1933), where houses of the future stood beside enamelled pavilions in a rainbow of floodlight, and New York's World of Tomorrow (1939), where the Trylon and Perisphere — a 200-metre needle and an 55-metre sphere in white — announced a streamlined tomorrow to 45 million visitors. The fairs were the style's farewell tour: the same summer the fair opened, Europe went to war, and the world of tomorrow arrived in a form none of the pavilions had pictured.",
+              "Streamlining matters to the style's story because it is the bridge: through it, Deco's public learned to love the curve, the band and the unornamented surface — and so walked, without noticing a border, into the modern architecture of the post-war world. The International Style won the argument; streamlining won the street."
+            ]
+          },
+          {
+            "heading": "Terminals, diners and the architecture of the road",
+            "figure": "cincinnatiUnion",
+            "paras": [
+              "Streamline Moderne's monuments are modest and its masterpiece is a railway station. Cincinnati Union Terminal (1931–33) fronts its tracks with a vast half-dome — the hemisphere of arrival — and fills its rotunda with Winold Reiss's mosaics of American industry, executed in coloured glass and stone. When the trains dwindled, the murals were moved to the airport; the terminal, saved by its citizens, now houses museums. It is the American 1930s entire: heroic infrastructure, applied art of the first rank, and a public that eventually refused to let it go.",
+              "Below the monumental scale, the road built the manner by the mile: diners of enamel and stainless steel, petrol stations as white aeroplanes, motor courts, drive-in cinemas, the teardrop trailer. Industrial design and architecture merged in the roadside object, and the merged style — part building, part product — prefigures the post-war world more exactly than any white villa of the purists. If zigzag Deco was Paris's gift to New York, streamlining was America's gift back: the style, democratised into motion."
+            ]
+          },
+          {
+            "heading": "The World of Tomorrow",
+            "paras": [
+              "The 1939 New York World's Fair was streamlining's state occasion. General Motors' Futurama — Norman Bel Geddes's vast animated model of the America of 1960, motorways stitching streamlined cities — was the fair's most popular exhibit, and its most prophetic: the interstate highway system of 1956 is Futurama poured in concrete. The fair's own architecture, Trylon and Perisphere aside, was a temporary city of curved corners and horizontal bands, lit in colour, built of plaster and optimism months before the war it pretended away. Forty-five million visitors carried its image home: the future, for a generation of Americans, looked streamlined.",
+              "The war consumed the style's remaining innocence. Streamlined forms went into armour and aircraft (where streamlining is fact, not metaphor), and post-war design split: the honest engineering of the International Style for institutions, and a commercial 'googie' exuberance for the roadside — streamlining's grandchildren in neon and boomerang. Read generously, the strip-mall sign and the tailfin are Deco's last American dialect; read strictly, they are its epitaph. The atlas's verdict: the style did not die in 1945; it dissolved into the bloodstream of commercial design, where its DNA — the composed silhouette, the branded crown, the lit sign — is still dominant."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "britain",
+        "numeral": "XIV",
+        "title": "Deco in Britain: Factories, Cinemas and the Suburban Sky",
+        "sections": [
+          {
+            "heading": "The jazz factory",
+            "figure": "hooverBuilding",
+            "paras": [
+              "Britain took the style to its heart by the arterial road. Along the new bypasses of London rose the 'jazz factories' — Wallis, Gilbert & Partners' Hoover Building at Perivale (1932) above all: a white palace of faience and coloured glass, Egyptianising sunbursts over the doors, a canteen block like a liner's deck — built to make vacuum cleaners in, and proud of it. The Firestone factory (1928, demolished in a notorious bank-holiday weekend in 1980) and the Gillette and Coty buildings made the Great West Road the style's British boulevard: industry, advertising itself in architecture, to motorists.",
+              "The Odeon cinemas did the same for every high street. Oscar Deutsch's chain — its name, legend says, from 'Oscar Deutsch Entertains Our Nation' — built over a hundred streamlined palaces in the 1930s, white faience, fin towers, neon: the Woolwich Odeon (1937) still sails above its parade like a beached liner. For most Britons, Deco was not a villa or a liner ticket; it was the pictures on Saturday night."
+            ]
+          },
+          {
+            "heading": "The official and the intimate",
+            "figure": "broadcastingHouse",
+            "paras": [
+              "Official Britain spoke the style in a lower voice: the BBC's Broadcasting House (1932), Portland stone with Eric Gill's Prospero and Ariel over the door; Charles Holden's Senate House (1937), a stepped stone mountain for the University of London; the Underground stations where Holden and Frank Pick set brick, glass and the roundel into a civic language of exemplary restraint. And the Daily Express Building in Fleet Street (1932) wrapped its newsroom in black vitrolite and a curving glass corner — the style's most elegant London facade, a newspaper printed as a building.",
+              "The intimate masterpiece is Eltham Palace (1933–36), where Stephen and Virginia Courtauld built onto a medieval great hall a house of curved mahogany, marquetry and a domed entrance hall of near-perfect Deco poise — and kept a ring-tailed lemur, Mah-Jongg, in a centrally heated cage off the hall. Between the lemur and the Hoover factory lies the whole British range: the style as aristocratic toy and as industrial engine, equally sincere in both."
+            ]
+          },
+          {
+            "heading": "The Odeon idea and the preserved survivors",
+            "figure": "odeonCinema",
+            "paras": [
+              "The Odeon chain systematised the style for Britain: a standard kit of fin, faience, neon and curved canopy, varied by local architects into more than a hundred high streets. The Woolwich Odeon (1937), shown here, survives in new use, its fin still sailing over the parade; others became bingo halls, supermarkets, and — in the revival years — lovingly restored cinemas again. The chain's genius was branding by architecture: a child in any town could read the building's promise from its silhouette, decades before the golden arches taught the same trick to the motorway.",
+              "Britain's survivors skew the record kindly: the Hoover Building (now flats and a store, its Egyptianising entrance hall intact), Eltham Palace (in public care), the Midland Hotel at Morecambe (1933, by Oliver Hill — the style's great British seaside hotel, restored), the De La Warr Pavilion at Bexhill (1935 — where streamlining crosses fully into modernism, and the atlas argues over the border). What was lost — Firestone, a thousand cinemas, the great tea-room interiors — is the usual tithe to fashion. The chapter's verdict stands: Britain wore the style lightly, popularly and well."
+            ]
+          },
+          {
+            "heading": "Seaside modernity: Morecambe, Bexhill, Brighton",
+            "paras": [
+              "British Deco found its purest air at the seaside, where the holiday licensed experiment. Oliver Hill's Midland Hotel at Morecambe (1933) curves along the promenade like a beached liner — white render, a spiral stair tower in glass, interiors and sculpture by Eric Gill and Marion Dorn — while down the coast the De La Warr Pavilion at Bexhill (1935, Mendelsohn and Chermayeff) took the same vocabulary across the modernist border: a white ship of leisure, all bands and balconies, for a socialist council's resort ambitions. Embassy Court in Brighton (1935, Wells Coates) brought the liner to the apartment house, its balconies stacked like decks over the promenade.",
+              "These buildings matter beyond their beauty: they were the modern architecture most Britons actually met between the wars — on holiday, in the sun, with an ice cream. The nation's memory of 'the modern' was formed less by manifestos than by the Midland's tea terrace and the Bexhill bandstand. When the revival came, the seaside buildings led it back: restored, listed, and crowded again, the white ships of 1933–35 are the British chapter's happiest survivors."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "globalone",
+        "numeral": "XV",
+        "title": "The Global Style I: Bombay, Shanghai, Tel Aviv, Havana",
+        "sections": [
+          {
+            "heading": "Bombay: the second Deco city",
+            "figure": "mumbaiDeco",
+            "paras": [
+              "Only Miami rivals Bombay. On land reclaimed from the sea at Back Bay, Bombay's Indian architects and patrons built, between 1930 and 1950, the world's second-largest Deco ensemble: the apartment houses of Oval Maidan and Marine Drive — Empress Court, Eros Cinema's red sandstone ziggurat (1938, by Sohrabji Bhedwar) — in local stone, with frozen fountains, stepped profiles and, increasingly, Indian motifs worked into the geometry. This was not a colonial import but an Indian modernity: the style of a mercantile city announcing itself. UNESCO listed the ensemble in 2018, alongside the Victorian Gothic it faces across the Maidan — two centuries of Bombay ambition in one view.",
+              "Shanghai took the style vertical. The Cathay Hotel (1929, now the Peace Hotel) gave the Bund its green-pyramid crown; across the racecourse, Hudec's Park Hotel (1934) — a stepped, dark-brick tower in the American manner — stood for decades as the tallest building in Asia. Deco Shanghai was the style as treaty-port modernity: ballrooms, jazz bands, neon in two scripts, a whole city district where China performed the contemporary to itself."
+            ]
+          },
+          {
+            "heading": "White cities and Caribbean crowns",
+            "figure": "telAvivCinema",
+            "paras": [
+              "Tel Aviv's White City is catalogued as Bauhaus, and its 4,000 white buildings are modernism's largest urban monument — but walk Dizengoff Square and the border blurs: the Cinema Hotel's curved balconies and ribbon corners are as much Streamline Deco as International Style, and the two manners interleave across the city like verses of one song. The atlas keeps them in separate studies; the street does not.",
+              "Havana built the style in tropical stone: the Bacardi Building (1930), its ziggurat crown in coloured terracotta topped by the company's bat, its lobby grilles weaving the bat emblem through iron; the López Serrano tower (1932), Cuba's first skyscraper apartment house; the Hotel Nacional on its rock above the Malecón. Caribbean Deco sweats the European manner into local stone, local light and local emblems — the global style at its most happily provincial, which is to say, at its most alive."
+            ]
+          },
+          {
+            "heading": "Bombay's architects, and the meaning of the ensemble",
+            "figure": "erosCinema",
+            "paras": [
+              "The Bombay ensemble's authors were largely Indian — firms such as Master, Sathe & Bhuta and G. B. Mhatre, the architect of many Oval blocks — working for Indian landlords and the city's new professional class, with the Eros Cinema (1938) by Sohrabji Bhedwar as the district's exclamation mark: red Agra sandstone, a stepped ziggurat profile, a foyer of black and gold marble. The style's Bombay dialect added jaali screens, monsoon-deep verandas and Hindu, Jain and Islamic motifs to the geometry — Deco-Indian in earnest.",
+              "UNESCO's 2018 inscription — the Victorian Gothic and Art Deco Ensembles of Mumbai — protects the two styles as one urban document: the Gothic of the empire's century facing the Deco of the city's own across the Oval Maidan. It is the global style's most eloquent official honour, and a fair emblem of this part of the atlas: by the 1930s the style no longer belonged to Paris or New York. It belonged to whoever was building a modern city and wanted the neighbours to know."
+            ]
+          },
+          {
+            "heading": "Shanghai: Hudec and the vertical treaty port",
+            "paras": [
+              "Shanghai's Deco has a biographer in one man. László Hudec, a Hungarian architect who escaped a Siberian prison camp and reached Shanghai in 1918, built more than sixty of the city's landmarks, learning the styles as he went — from classical banks to the Park Hotel (1934), the dark, stepped tower across from the racecourse that stood as Asia's tallest building for years and remains the city's Deco emblem. Hudec's career is the global style in microcosm: a European craftsman, an Asian boomtown, American massing, German brick, and a skyline improvised at the meeting point of all four.",
+              "The Cathay Hotel (1929) — Victor Sassoon's palace on the Bund, its green copper pyramid the harbour's punctuation — hosted Noël Coward (who wrote Private Lives in its suite, in bed with influenza, in four days) and defined treaty-port glamour: jazz in the ballroom, White Russian orchestras, neon over the Whampoa. Shanghai kept both buildings through revolution and reopening; the Cathay, restored as the Peace Hotel, still takes guests under its pyramid. The style's Chinese chapter, long read as colonial garnish, is now claimed — rightly — as Shanghai's own modern heritage."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "globaltwo",
+        "numeral": "XVI",
+        "title": "The Global Style II: Napier, Asmara and the Southern Map",
+        "sections": [
+          {
+            "heading": "Napier: the style as reconstruction",
+            "figure": "napierDeco",
+            "paras": [
+              "At 10:47 on the morning of 3 February 1931 an earthquake levelled Napier, New Zealand, and fire finished the work. The town rebuilt itself in two years, in the only fashionable manner available — and in a seismic, fire-conscious material, stuccoed concrete. The result is the world's most complete small Deco city: the Daily Telegraph Building (1932) with its stepped facade and stylised sunbursts, the Hawke's Bay Museum, the Municipal Theatre, whole streets of Spanish Mission and Stripped Classical neighbours. Earthquake made Napier a time capsule: what other cities modernised away, Napier — too small, too proud — kept, and now protects through its Art Deco Trust with a devotion other cities reserve for cathedrals.",
+              "Asmara, the Italian colonial capital of Eritrea at 2,300 metres, is the style's strangest survival: a planned modernist city where Rationalism and Deco fuse — the Fiat Tagliero service station (1938), a concrete aeroplane of a building whose cantilevered 'wings' the engineer was made to prove by standing beneath them, cinemas, cafés and offices in a highland light that has preserved them like flies in amber. UNESCO listed Asmara in 2017: a modernist African city, in the citation's own words."
+            ]
+          },
+          {
+            "heading": "The southern map",
+            "figure": "aztecHotel",
+            "paras": [
+              "Fill in the map and the style's reach still surprises: Casablanca's white administrative quarters; Johannesburg's Aegis Building and the Anstey's tower; Manila's theatres; Melbourne's Manchester Unity Building; Mexico City's Edificio La Nacional and a hundred apartment houses in the Colonia Condesa; Buenos Aires' Kavanagh Building (1936), for a time South America's tallest. In Hollywood, the Egyptian Theatre (1922) had already launched a thousand pharaonic cinemas on the Tutankhamun wave, and the Mayan-revival Aztec Hotel in Monrovia dressed California motorists in glyphs. The style's global career proves its central claim: it was a language, learnable anywhere, of how modernity wished to look — prosperous, rapid, decorated — between the two catastrophes."
+            ]
+          },
+          {
+            "heading": "Motif cinemas: Egypt and the Maya in the suburbs",
+            "figure": "egyptianTheatre",
+            "paras": [
+              "The motif trade deserves its own honesty. The Egyptian Theatre in Hollywood opened in October 1922 — weeks before Howard Carter entered Tutankhamun's tomb — and its success was multiplied a hundredfold by the discovery: Egyptian cinemas, Egyptian garages, Egyptian apartment houses rose from Los Angeles to Manchester. The Maya and Aztec lines ran parallel — the textile-block houses of Los Angeles, the Aztec Hotel at Monrovia (1925) illustrated in this chapter, its facade encrusted with glyphs. Scholarship now reads these buildings with postcolonial care; contemporaries read them as pure delight. Both readings are true, and the style's ethics — appropriation as admiration, at industrial scale — are part of its record.",
+              "South of the equator the map fills further: Durban's beachfront hotels, Casablanca's arcaded administrative quarters, the Deco suburbs of Algiers and Tunis, apartment towers in São Paulo, the Kavanagh Building in Buenos Aires with its record-breaking concrete frame. A full gazetteer of Deco cities would double this book; the atlas's two global chapters stake the essential claim — that between the wars, for the first and perhaps the last time, one ornamental language was spoken, with local accents, by the commercial architecture of the entire world."
+            ]
+          },
+          {
+            "heading": "Casablanca and the white Atlantic shore",
+            "paras": [
+              "The southern map's last corner is the Atlantic shore of Africa. Casablanca, rebuilt under the French protectorate from the 1920s, received a full administrative city in the style — the Wilaya, the post office, arcaded apartment palaces along the Boulevard Mohammed V — in white stone with Moroccan craft worked into the geometry: zellige tile, carved plaster, horseshoe echoes inside Deco frames. It is the colonial Deco of this book's Bombay chapter with the polarity reversed — the style as the coloniser's uniform, executed with local hands — and since independence it has become, by the familiar alchemy, simply Casablanca's beloved old town of the modern age.",
+              "Durban tells the same story in another key: a beachfront of Deco hotels and apartment houses in pastel stucco, built for the holiday trade of the 1930s, lately rediscovered and repainted. Between Durban and Casablanca, Napier and Asmara, the southern evidence closes the atlas's argument. The style was the first vernacular of global modernity — learned from magazines, liners and pattern books, inflected by every climate and craft tradition it met, and sturdy enough, a century on, to be worth a book in every city that built it."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading",
+        "numeral": "XVII",
+        "title": "How to Read an Art Deco Building",
+        "sections": [
+          {
+            "heading": "The method in brief",
+            "paras": [
+              "The atlas's method is the same for every style: five signs, read in order, each with its limit stated — because Deco, the great impersonator, is the style most often faked by later buildings and most often missed in plain ones. Read the massing first: does it step? Read the ornament: is it geometry doing luxury's work? Read the plan's face: is there a ceremonial centre? Read the materials: are they modern and glossy and meant? Finally, read the date into the form: zigzag before the crash, streamlines after it. A building that passes four of the five tests is Deco whatever its label says; one that passes only the sunburst is wearing fancy dress.",
+              "Two warnings from the field. First, zoning and fashion contaminate each other: the New York setback is law before it is taste, and the Odeon fin is branding before it is architecture — the signs work, but they work as a jury, not a checklist. Second, Deco hides in interiors: a plain brick block of 1932 may keep a lobby of marble, bronze and frozen fountains that gives it away at once. Always step inside."
+            ]
+          },
+          {
+            "heading": "Three worked readings",
+            "paras": [
+              "Take three buildings and apply the jury. The Chrysler Building: setbacks stepped to a needle (sign one); ornament geometric and integral — sunburst arches, stylised eagles (sign two); composition rigorously symmetrical about its avenue face (sign three); materials — stainless steel, marble, exotic wood — modern and sumptuous together (sign four); the zigzag-era crispness of 1929 (sign five). Five of five: the type specimen. The Hoover Building: stepped white massing, Egyptianising geometry, ceremonial centre, faience and coloured glass, pre-crash confidence domesticated to 1932 London: five of five in translation.",
+              "Now the borderline: Tel Aviv's Cinema Hotel. Massing curved rather than stepped (the streamline sign); ornament minimal but for lettering and line; symmetry broken by the square it serves; materials plain white render — luxury replaced by light and air; date 1939, the streamline moment. Verdict: Deco by family, modernist by manifesto — the five signs locate it precisely on the border the two movements shared, which is what a field method is for. The signs are a jury, and a hung jury is also a finding."
+            ]
+          },
+          {
+            "heading": "Four traps for the reader",
+            "paras": [
+              "First trap: the older exotic. Egyptian and Maya revivals predate Deco — a Grauman's of 1922 is Deco; a Masonic temple of 1905 in Egyptian dress is a nineteenth-century fancy in fancy dress; date and the other four signs decide. Second trap: the neo-Deco of the 1980s and after — postmodern towers and themed hotels quote the signs knowingly and pass several tests; the giveaway is usually the construction, granite-thin where the original is masonry-deep, and the ornament applied rather than integral. Third trap: the stripped official manner of the 1930s, discussed in this book's war chapter — same years, same steps, colder heart.",
+              "Fourth trap is the estate agent's 'Deco': any interwar house with a curved corner and a sunburst fanlight gets the label, including the vast 'moderne' suburbs that are, strictly, the style's diluted vernacular. The atlas is tolerant here — the vernacular is part of the story — but the reader should know the dilution when tasting it: signs present, materials plain, dates right, conviction thinned. Between the Chrysler Building and a semi in Surbiton lies one language at two concentrations; the five signs, read with their limits, measure the strength of the brew."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "afterlives",
+        "numeral": "XVIII",
+        "title": "Decline, War and Resurrection",
+        "sections": [
+          {
+            "heading": "The long embarrassment",
+            "figure": "miamiBeach",
+            "paras": [
+              "War ended it. Austerity made ornament suspect; the Normandie, requisitioned in New York, caught fire and capsized at her pier in 1942 — the style's flagship literally overturned in the harbour of its second capital. After 1945 the International Style wrote the histories, and Deco — commercial, feminine-coded, undecorated with theory — was written out: not a style at all, the textbooks said, merely decoration. The demolition crews agreed: Firestone's factory fell in 1980 over a bank-holiday weekend to forestall listing; a thousand cinemas became bingo halls and car parks; the style survived in the one place the academy never looked, the affection of the public that had always understood it.",
+              "The rescue began, as rescues do, with a book and a city. Bevis Hillier's Art Deco of the 20s and 30s (1968) gave the thing a name and therefore a history; exhibitions followed in Minneapolis and Paris; and in Miami Beach, Barbara Capitman's preservation league won National Register listing for the Ocean Drive district in 1979 — the first time a twentieth-century commercial streetscape was protected as a whole. The pastel hotels were repainted, the neon relit; Ocean Drive today is the style's living museum and its best argument."
+            ]
+          },
+          {
+            "heading": "Quotation and canonisation",
+            "figure": "attBuilding",
+            "paras": [
+              "Postmodernism completed the rehabilitation by theft: Philip Johnson and John Burgee's AT&T Building in New York (1984) put a Chippendale pediment on a pink-granite skyscraper and made knowing historical quotation the new orthodoxy — the anti-Deco generation's revenge, executed with Deco's own weapons of image and silhouette. The scholars followed the architects: UNESCO inscribed Mumbai's Deco ensemble and Asmara's modernist streets; the V&A's 2003 exhibition drew the crowds of a blockbuster; Deco prices at auction set records; the Chrysler crown became, in logo after logo, the standing hieroglyph for 'city'.",
+              "The style's legacy is double. Formally, it taught commercial architecture the arts it still lives by: the composed skyline, the branded crown, the lobby as theatre, light as material. Culturally, it proved that a style can be popular and serious at once — that the public's pleasure is a datum, not an embarrassment. The modern movement asked buildings to be honest; Deco asked them to be festive. A century on, the city that tries to be only honest discovers it has forgotten how to celebrate. This book's five signs are offered so that the reader can find the celebration still standing, on six continents, in stone, stucco, neon and glass."
+            ]
+          },
+          {
+            "heading": "The name, the market and the lesson",
+            "paras": [
+              "The resurrection had an economics. Deco objects — portable, glamorous, out of fashion — were cheap in the 1960s and dear by the 1990s; Lalique mascots, Dunand panels and Ruhlmann cabinets set the saleroom alight, and the money funded the scholarship: museum departments, monographs, the great V&A exhibition of 2003, UNESCO listings from Havana to Mumbai. Preservation followed reputation uphill — Miami's district, Napier's trust, Asmara's listing — and the style's buildings, once protected, proved superbly reusable: factories into flats, cinemas into theatres again, hotels into hotels.",
+              "The lesson the atlas draws is the one this series exists to teach. Styles die of their historians before they die of their builders: the post-war textbooks needed a villain of decoration to set against the heroes of function, and Deco — unchampioned, commercial, joyful — was cast. The buildings waited out the obituary, as buildings do, and the public that had always loved them was proved, in the end, to have been reading them correctly all along: five signs, honestly applied, will find them still standing, on six continents, in stone, stucco, neon and glass."
+            ]
+          },
+          {
+            "heading": "Deco today: the living style",
+            "paras": [
+              "The style's afterlife is no longer only preservation; it is production. The Orient Express and the great hotels commission Deco interiors again; Lalique and the Paris ateliers sell new work in the manner; film keeps the style's image in circulation — from Metropolis (1927), whose towers taught the century its skyline, through The Great Gatsby's sets to a dozen animated cities modelled on the Chrysler crown. Shanghai, Mumbai and Miami market their Deco districts as civic brands; Napier dresses its whole town for an annual Deco festival and fills every room.",
+              "So the book closes where the atlas began: with a style that refuses to be merely history. Its buildings work, its rooms please, its signs are legible to any reader who will learn five of them. If this volume has a hope, it is the series' hope for every style: that the reader closes the book, walks out, and begins to see — stepped, geometric, symmetrical, sumptuous, swift — the most joyful architecture of the twentieth century, standing in plain sight."
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [
+      [
+        "Jacques-Émile Ruhlmann (1879–1933)",
+        "Parisian ensemblier and the style's French conscience: furniture and interiors of unmatched luxury in exotic woods and ivory, shown to the world in his Hôtel du Collectionneur at the 1925 Exposition."
+      ],
+      [
+        "René Lalique (1860–1945)",
+        "Jeweller turned glassmaker; his moulded-glass panels, fountains and liner interiors — Normandie's dining room above all — made glass the style's signature luxury material."
+      ],
+      [
+        "Jean Dunand (1877–1942)",
+        "Master of lacquer: vast screens and panels in crushed eggshell, gold and black for liners and apartments; the craftsman who proved a pre-industrial technique could be the most modern finish of all."
+      ],
+      [
+        "Edgar Brandt (1880–1960)",
+        "Ironworker whose forged and welded grilles, lamps and elevator doors — the Chrysler-era Chrysler Building's contemporaries in Paris — industrialised wrought iron without cheapening it."
+      ],
+      [
+        "A. M. Cassandre (1901–1968)",
+        "Poster artist of the machine age: Dubonnet, the Normandie, the Nord Stream trains — flat geometry and monumental lettering that taught the public to read the Deco image."
+      ],
+      [
+        "William Van Alen (1883–1954)",
+        "Architect of the Chrysler Building; his secretly assembled spire won the 1930 height race — and the ensuing fee dispute ended his career at its summit."
+      ],
+      [
+        "Raymond Hood (1881–1934)",
+        "From the Chicago Tribune Tower competition to the RCA Victor Building and Radio City: the architect who gave American Deco its masonry discipline and its civic scale."
+      ],
+      [
+        "Ely Jacques Kahn (1884–1972)",
+        "New York's master of the ornamented loft and office block; his lobbies and elevator doors are the style's American craft at its richest."
+      ],
+      [
+        "Charles Holden (1875–1960) & Frank Pick (1878–1941)",
+        "Architect and impresario of London Underground: their stations and Senate House gave British Deco its civic, stripped-classical face."
+      ],
+      [
+        "Wallis, Gilbert & Partners",
+        "London practice of the jazzy factory: the Hoover Building (1932) and the Firestone factory dressed industry in Egyptianising colour for the arterial roads."
+      ],
+      [
+        "Sohrabji Bhedwar",
+        "Bombay architect of the Eros Cinema (1938) and a score of Oval Maidan apartment houses — proof the style's global masters were local men."
+      ],
+      [
+        "Bevis Hillier (b. 1940)",
+        "Historian whose 1968 book popularised the name 'Art Deco' and began the scholarly rescue; the style's second inventor, half a century on."
+      ]
+    ],
+    "fiveSigns": [
+      {
+        "name": "Stepped massing and the setback crown",
+        "img": "chryslerHero",
+        "look": "The building climbs in stages — each tier a little narrower than the one below — until it resolves in a crown, a dome, a spire or a lit finial that signs the skyline. The composition is symmetrical around a strong central axis, and the verticals run uninterrupted from pavement to summit, so the eye is pulled upward to the crown. On smaller buildings the stepping compresses into a central tower, a ziggurat gable or a stepped parapet over the entrance.",
+        "limit": "In New York after 1916 the setbacks were law, not taste: the zoning envelope forced the wedding-cake silhouette on every tall building, whatever its style. Stepped massing proves Deco only when the ornament, materials and crown agree — a bare setback block may be nothing but compliance."
+      },
+      {
+        "name": "Geometry as ornament",
+        "img": "chryslerCrown",
+        "look": "Ornament is drawn with a ruler and compass, not copied from nature or history: chevrons and zigzags, sunbursts and fountains, stylised eagles, gazelles and flowers flattened into pattern. It concentrates where the eye lands — doorways, spandrels, grille work, the crown — and repeats with machine regularity, often in metal, glass or glazed terracotta. Figures, when they appear, are streamlined mannequins, not classical gods.",
+        "limit": "Geometry alone is not enough: factories and late modernist blocks are geometric too. Deco geometry is decorative, symmetrical and luxurious in intent — it costs money to look this precise. Check for the stylised natural motif — the sunburst, the frozen fountain — that pure functionalism never bothers with."
+      },
+      {
+        "name": "Symmetry and the emphatic centre",
+        "img": "rockefellerCenter",
+        "look": "The facade composes like a ceremony: a central entrance, often recessed in a deep, coffered portal or framed by pylons, flanked by matching bays that step down toward the edges. Windows are subordinated to the frame — arranged in vertical piers or horizontal bands — never scattered. Inside, the same discipline rules: axial lobbies, mirrored stairs, ornament arranged in facing pairs around a central feature.",
+        "limit": "Streamline Moderne deliberately breaks the rule — its curves wrap corners and its bands flow past the entrance without ceremony. A rounded, asymmetrical front after about 1933 belongs to the style's second manner, not against it; date and materials decide."
+      },
+      {
+        "name": "Luxury in modern materials",
+        "img": "dailyExpress",
+        "look": "The palette mixes the jewel-box with the machine shop: polished granite and marble against stainless steel, aluminium and bronze; black vitrolite and glass block; neon and concealed light used as decoration. In interiors, lacquer, shagreen, ivory-toned woods and mirrored glass do the same work at arm's length. Finishes are glossy, hard and expensive-looking — patina is the enemy.",
+        "limit": "Expensive cladding can dress a conventional building, and landlords have been 'Deco-washing' plain blocks since the 1980s revival. Look for the material used structurally in the design — steel in the spandrels, glass in the stair tower, light built into the sign — not merely applied as a themed skin."
+      },
+      {
+        "name": "The streamlined curve",
+        "img": "greyhoundTerminal",
+        "look": "After about 1930 the zigzag softens into the teardrop: corners curve, horizontal bands or 'speed whiskers' wrap the building, porthole windows quote the liner, and roofs flatten into decks with railings. The composition flows rather than climbs; ornament thins to a few parallel lines. This is the style quoting its own machines — ships, trains, aircraft — as it prepares to merge with modernism proper.",
+        "limit": "Curved corners survive deep into functional modernism, where they mean circulation, not celebration. The Deco curve is theatrical and quotational — it wears its ship's railings and portholes as jewellery on an otherwise conventional block."
+      }
+    ],
+    "gazetteer": [
+      [
+        "New York, United States",
+        "The skyscraper capital: Chrysler and Empire State Buildings, Rockefeller Center and Radio City, the Chanin Building's lobby, and whole zoning-shaped skylines of setback towers"
+      ],
+      [
+        "Paris, France",
+        "The cradle: the Théâtre des Champs-Élysées, the great stores' domes, Rue Mallet-Stevens, the Palais de Tokyo and Chaillot of 1937, and Ruhlmann's rooms at the Musée des Arts Décoratifs"
+      ],
+      [
+        "Miami Beach, United States",
+        "Ocean Drive's pastel hotel row: the world's largest concentration of Streamline and tropical Deco, saved by listing in 1979"
+      ],
+      [
+        "Mumbai, India",
+        "The Oval Maidan and Marine Drive ensembles — Eros Cinema, Empress Court and a hundred apartment houses; UNESCO-listed in 2018, second only to Miami in scale"
+      ],
+      [
+        "Shanghai, China",
+        "The Bund and the French Concession: the Cathay (Peace) Hotel and the Park Hotel — Asia's tallest building for decades — amid a full Deco cityscape"
+      ],
+      [
+        "Napier, New Zealand",
+        "A provincial city rebuilt after the 1931 earthquake in stucco Deco and Spanish Mission; the Daily Telegraph Building is its cathedral"
+      ],
+      [
+        "Asmara, Eritrea",
+        "Italian colonial modernism at 2,300 metres: the Fiat Tagliero service station, cinemas and offices in a UNESCO-listed modernist capital where Deco and Rationalism fuse"
+      ],
+      [
+        "London, England",
+        "The Hoover Building, Eltham Palace, Broadcasting House, the Daily Express Building's vitrolite curve, Senate House and the Underground's brick stations"
+      ],
+      [
+        "Havana, Cuba",
+        "The Bacardi Building's ziggurat crown, the López Serrano apartment tower and the Nacional hotel — Caribbean Deco in local stone and tile"
+      ],
+      [
+        "Tel Aviv, Israel",
+        "Bauhaus-branded but Deco-inflected: the Cinema Hotel on Dizengoff Square and a White City where the two styles interleave"
+      ],
+      [
+        "Los Angeles, United States",
+        "Bullocks Wilshire, the turquoise Eastern Columbia Building, the Pan-Pacific Auditorium's streamlines and a hundred neon-signed theatres"
+      ],
+      [
+        "Detroit, United States",
+        "The Guardian and Fisher Buildings: 'cathedrals of commerce' whose lobbies — Mayan, Byzantine, and wholly Deco — are America's richest period interiors"
+      ]
+    ],
+    "glossary": [
+      [
+        "Art Deco",
+        "The name — popularised by Bevis Hillier in 1968 from the 1925 Exposition des Arts Décoratifs — for the decorative modern style of c. 1910–1939: geometric, symmetrical, luxurious."
+      ],
+      [
+        "Style moderne",
+        "What French makers of the 1920s usually called it: the modern style, before history renamed it."
+      ],
+      [
+        "Ensemblier",
+        "The French designer-decorator — Ruhlmann above all — who composed complete interiors: furniture, textiles, objects and architecture as one work."
+      ],
+      [
+        "Streamline Moderne",
+        "The style's 1930s second manner: rounded corners, horizontal bands, portholes and speed lines quoting ships, trains and aircraft."
+      ],
+      [
+        "Setback",
+        "The stepped recession of a tower's upper floors — in New York, mandated by the 1916 Zoning Resolution; elsewhere, Deco's favourite silhouette."
+      ],
+      [
+        "Ziggurat",
+        "The stepped Mesopotamian temple form quoted in Deco crowns, gables and cinema fronts."
+      ],
+      [
+        "Chevron",
+        "The inverted-V motif repeated in bands across stone, metal and glass — the style's most common signature."
+      ],
+      [
+        "Sunburst",
+        "Radiating rays from a point or semicircle, in doorways, crowns, grilles and elevator doors: the rising-sun emblem of the interwar years."
+      ],
+      [
+        "Frozen fountain",
+        "A stylised cascade of arcs and drops, usually in glass or metalwork — Lalique's favourite architectural motif."
+      ],
+      [
+        "Vitrolite",
+        "Coloured structural glass panels — black above all — used as glossy cladding on 1930s shopfronts, cinemas and the Daily Express Building."
+      ],
+      [
+        "Glass block",
+        "Hollow translucent glass bricks laid like masonry: light without view, a Deco-modernist wall material of the 1930s."
+      ],
+      [
+        "Shagreen",
+        "The pebbled skin of the stingray or shark, dyed and polished onto boxes, furniture and wall panels — the era's most exotic surface."
+      ],
+      [
+        "Lacquer",
+        "Built-up resin finish, often inlaid with eggshell, mother-of-pearl or gold; Jean Dunand's screens are its Deco summit."
+      ],
+      [
+        "Marquetry",
+        "Pictures composed in veneered woods; Ruhlmann's workshops cut ivory, ebony and amaranth into floral geometry."
+      ],
+      [
+        "Bakelite",
+        "The first synthetic plastic — phenolic resin — moulded into radios, telephones and door furniture in Deco streamlines."
+      ],
+      [
+        "Zoning envelope",
+        "The three-dimensional volume the 1916 New York law allowed a tower to occupy; its stepped profile became the skyscraper's form."
+      ],
+      [
+        "Spandrel",
+        "The panel between one floor's window head and the next floor's sill — in Deco towers, a favourite field for metal ornament."
+      ],
+      [
+        "Pylon",
+        "A massive, battered (sloping-sided) pier in the Egyptian manner, framing Deco entrances from cinemas to power stations."
+      ],
+      [
+        "Jazz Moderne",
+        "Contemporary nickname for the style's most exuberant, syncopated ornament — zigzag moderne."
+      ],
+      [
+        "Total work of art",
+        "The liner stateroom, hotel or apartment conceived as one indivisible design — architecture, furniture, tableware and typography together."
+      ],
+      [
+        "Egyptian Revival",
+        "The period flavour fed by Tutankhamun's tomb (1922): lotus, scarab, pharaonic figures and battered pylons in ornament."
+      ],
+      [
+        "Mayan Revival",
+        "The American sibling fashion: stepped pyramids, Aztec and Maya glyph ornament on hotels, theatres and the Fisher Building."
+      ],
+      [
+        "Neon",
+        "Gas-discharge tube lighting bent into signage and architectural outline — the night face of the style after 1930."
+      ],
+      [
+        "Odeon style",
+        "British shorthand for the streamlined white cinema fronts of the Odeon chain, named — supposedly — for Oscar Deutsch's slogan, 'Oscar Deutsch Entertains Our Nation'."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Victoria and Albert Museum — Art Deco",
+        "url": "https://www.vam.ac.uk/articles/art-deco"
+      },
+      {
+        "name": "UNESCO — Victorian Gothic and Art Deco Ensembles of Mumbai",
+        "url": "https://whc.unesco.org/en/list/1480/"
+      },
+      {
+        "name": "UNESCO — Asmara: A Modernist African City",
+        "url": "https://whc.unesco.org/en/list/1555/"
+      },
+      {
+        "name": "UNESCO — White City of Tel Aviv: The Modern Movement",
+        "url": "https://whc.unesco.org/en/list/1096/"
+      },
+      {
+        "name": "Smarthistory — Chrysler Building",
+        "url": "https://smarthistory.org/chrysler-building/"
+      },
+      {
+        "name": "Historic England — Eltham Palace listing",
+        "url": "https://historicengland.org.uk/listing/the-list/list-entry/1000821"
+      },
+      {
+        "name": "The Art Deco Trust, Napier",
+        "url": "https://www.artdeconapier.com/"
+      },
+      {
+        "name": "Miami Design Preservation League",
+        "url": "https://mdpl.org/"
+      }
+    ],
+    "bibliography": [
+      "Bevis Hillier, Art Deco of the 20s and 30s (Studio Vista, London, 1968) — 164 pp. The book that popularised the very term 'Art Deco' and founded the modern study of the style.",
+      "Patricia Bayer, Art Deco Architecture: Design, Decoration and Detail from the Twenties and Thirties (Thames & Hudson, London / Harry N. Abrams, New York, 1992) — 224 pp. The standard architecture-specific survey, used here as the visual and typological reference.",
+      "Charlotte Benton, Tim Benton and Ghislaine Wood (eds.), Art Deco: 1910–1939 (V&A Publications / Bulfinch, London, 2003) — 464 pp. Catalogue of the Victoria and Albert Museum's exhibition: the fullest single account of the style across architecture, interiors, objects and graphics."
+    ]
   }
 ];
 
