@@ -371,6 +371,10 @@ export const historyStudies = [
       { name: "Smarthistory", url: "https://smarthistory.org/chartres-cathedral/" },
       { name: "Historic England", url: "https://historicengland.org.uk/listing/the-list/list-entry/1003011" }
     ],
+    deepPage: "/magazine/architectural-history-styles/arch-vault-buttress/",
+    pdf: "/downloads/history/arch-vault-buttress.pdf",
+    bookCover: "/assets/history-deep/arch-vault-buttress/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/arch-vault-buttress/read/",
     images: {
       hero: { src: `${H}/arch-hero.jpg`, alt: "Apse of Chartres Cathedral with tiers of flying buttresses rising to pinnacled outer piers", credit: "Photo: Florestan, via Wikimedia Commons (CC BY 3.0)" },
       detail1: { src: `${H}/arch-detail1.jpg`, alt: "Tiered semicircular arches of the Roman aqueduct at Pont du Gard", credit: "Photo: Benh LIEU SONG, via Wikimedia Commons (CC BY-SA 3.0)" },
