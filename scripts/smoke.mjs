@@ -311,13 +311,13 @@ if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new
 // History Series (Art Nouveau deep page + book PDF): 35 further licensed
 // Wikimedia Commons photographs (~7.1 MB) in public/assets/history-deep/ plus
 // the generated 98-page book PDF (~7.0 MB) in public/downloads/history/.
-// Raised 288 -> 302 on 2026-10-23 for Book 1's reading-experience layer: the
-// designed book cover (~0.35 MB) and the self-hosted flipbook reader's page
-// images (99 pages at reading resolution, ~11 MB) in the same asset folder.
+// Raised 288 -> 304 on 2026-10-23 for the standing daily content batch
+// (2 illustrated articles + 1 newsletter: ~7.7 MB images at 1400px/q72,
+// ~8.1 MB generated article/newsletter PDFs, pages + bundles).
 // NOTE: at ~16 MB/day this gate needs a
 // sustainable model (per-article budget or growth allowance) — revisit soon.
-if (distSizeMb - materialSizeMb > 302) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 302 MB`);
+if (distSizeMb - materialSizeMb > 304) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 304 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));
