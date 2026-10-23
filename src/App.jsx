@@ -18,6 +18,8 @@ import LegalPage, { legalPageForPath } from './components/LegalPage.jsx';
 const ArticleReader = lazy(() => import('./components/ArticleReader.jsx'));
 const MagazineReader = lazy(() => import('./components/MagazineReader.jsx'));
 const MagazineHub = lazy(() => import('./components/MagazineHub.jsx'));
+const HistoryDeepPage = lazy(() => import('./components/HistoryDeepPage.jsx'));
+import { historyDeepById } from './data/historyDeep.js';
 const ProductPage = lazy(() => import('./components/ProductPage.jsx'));
 
 const PromptLibrary = lazy(() => import('./components/PromptLibrary.jsx'));
@@ -60,6 +62,11 @@ function currentRoute() {
   if (analysisMatch) return { name: 'analysis-article', item: editorialArticles.find((issue) => issue.slug === decodeURIComponent(analysisMatch[1])) };
   const newsletterMatch = normalizedPath.match(/^\/newsletter\/([^/]+)\/$/);
   if (newsletterMatch) return { name: 'newsletter-issue', item: newsletterIssues.find((issue) => issue.slug === decodeURIComponent(newsletterMatch[1])) };
+  const historyDeepMatch = normalizedPath.match(/^\/magazine\/architectural-history-styles\/([^/]+)\/$/);
+  if (historyDeepMatch) {
+    const slug = decodeURIComponent(historyDeepMatch[1]);
+    return { name: 'history-deep', slug, item: historyDeepById(slug) };
+  }
   const magazineMatch = normalizedPath.match(/^\/magazine\/([^/]+)\/$/);
   if (magazineMatch) {
     const slug = decodeURIComponent(magazineMatch[1]);
@@ -165,6 +172,7 @@ export default function App() {
   if (route.name === 'analysis-article') page = route.item ? <NewsletterPage article section="analysis" issue={route.item} /> : <ProductPage missing />;
   if (route.name === 'newsletter-issue') page = route.item ? <NewsletterPage article issue={route.item} /> : <ProductPage missing />;
   if (route.name === 'magazine-category') page = route.item ? <MagazineHub category={route.item} /> : <ProductPage missing />;
+  if (route.name === 'history-deep') page = route.item ? <HistoryDeepPage page={route.item} /> : <ProductPage missing />;
   if (route.name === 'shop') page = <ProductPage products={(content?.products || []).filter((item) => item.published)} etsyUrl={content?.commerce?.etsyUrl} />;
   if (route.name === 'presentation-studio') page = <ProductPage presentationStudio products={(content?.products || []).filter((item) => item.published)} etsyUrl={content?.commerce?.etsyUrl} whatsappUrl={content?.brand?.whatsapp} />;
   if (route.name === 'custom-plan-design') page = <CustomPlanDesignPage brand={content?.brand} />;
