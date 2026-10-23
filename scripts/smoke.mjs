@@ -435,8 +435,15 @@ if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new
 // the flipbook reader's page images (109 pages at reading resolution,
 // ~12.9 MB) in the same folder — a measured addition of ~52.1 MB for
 // this book.
-if (distSizeMb - materialSizeMb > 1022) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 1022 MB`);
+// Raised 1022 -> 1080 on 2026-10-24 for Book 17 of the Architectural History
+// Series (Gothic vs Romanesque deep page + book PDF): 57 licensed Wikimedia
+// Commons photographs plus the owner's final series cover (~19.4 MB) in
+// public/assets/history-deep/gothic-vs-romanesque/, the generated 131-page
+// book PDF (~19.6 MB) in public/downloads/history/ and the flipbook reader's
+// page images (131 pages at reading resolution, ~18.6 MB) in the same
+// folder — a measured addition of ~57.6 MB for this book.
+if (distSizeMb - materialSizeMb > 1080) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 1080 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));

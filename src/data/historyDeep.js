@@ -22374,6 +22374,1502 @@ export const historyDeepPages = [
     "Bayer, Patricia. Art Deco Architecture: Design, Decoration and Detail from the Twenties and Thirties. London: Thames & Hudson, 1992.",
     "Benton, Charlotte, Tim Benton and Ghislaine Wood (editors). Art Deco 1910–1939. London: V&A Publications, 2003."
   ]
+},
+{
+  "id": "gothic-vs-romanesque",
+  "series": "Architectural History Series",
+  "bookNumber": 17,
+  "title": "Gothic vs Romanesque",
+  "bookTitle": "Gothic vs Romanesque: A Comparative History",
+  "cover": "/assets/history-deep/gothic-vs-romanesque/book-cover.jpg",
+  "coverCredit": "Cover artwork © World Arch Journal",
+  "readPath": "/magazine/architectural-history-styles/gothic-vs-romanesque/read/",
+  "readerPages": 131,
+  "readerBase": "/assets/history-deep/gothic-vs-romanesque/pages/",
+  "subtitle": "Two stone styles, one medieval civilisation, and four centuries of confusion between them: how Romanesque gathered Rome's inheritance into walls of fortress mass and painted gloom, and how Gothic — invented inside Romanesque buildings — dissolved those walls into skeleton and glass; their arches, vaults, regions and revivals compared part by part, and the five signs that tell them apart on any church in Europe.",
+  "path": "/magazine/architectural-history-styles/gothic-vs-romanesque/",
+  "hubPath": "/magazine/architectural-history-styles/",
+  "hubStudyId": "gothic-vs-romanesque",
+  "pdf": "/downloads/history/gothic-vs-romanesque.pdf",
+  "seoTitle": "Gothic vs Romanesque: A Comparative History — Book | World Arch Journal",
+  "metaDescription": "Gothic vs Romanesque: A Comparative History — Book 17 of the World Arch Journal Architectural History Series. The two great stone styles of medieval Europe compared part by part: the round arch against the pointed, mass against skeleton, the painted wall against the wall of glass — from Aachen and Speyer to Saint-Denis, Chartres and Durham, their regions, their meeting places, their endings and revivals, and the five signs that tell them apart. With timeline, gazetteer, glossary and bibliography.",
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "hero": "chartresFacade",
+  "frontispiece": "saintDenisAmbulatory",
+  "plates": [
+    [
+      "speyerExterior",
+      "Plate I — Speyer Cathedral, the Emperors' Church",
+      "The largest church in Christendom when its groin vaults closed around 1106, and still the purest mountain of Romanesque masonry in Europe: four towers and a dome over the crossing, walls of red sandstone two metres thick, and beneath the choir the Salian emperors in their crypt. Everything Romanesque believes is written here at imperial scale — weight, permanence, and a plan as clear as a diagram."
+    ],
+    [
+      "santiagoNave",
+      "Plate II — The Nave of Santiago de Compostela",
+      "The pilgrimage church perfected: a barrel-vaulted nave built to move thousands of pilgrims past the apostle's shrine, its gallery opening over the aisles so the crowd could circulate without disturbing the choir. Round arches repeat like a slow drumbeat from portal to apse — Romanesque planning as crowd control, engineering and devotion in one system."
+    ],
+    [
+      "vezelayTympanum",
+      "Plate III — The Vézelay Tympanum, c. 1120–1132",
+      "Christ in Majesty stretches his arms across the great narthex tympanum of Vézelay and pours the Holy Spirit onto the apostles below, while the peoples of the earth — pygmies, giants, men with ears like fans — crowd the lintel to hear them. It is the manifesto of Romanesque sculpture: the figure fused with the architecture, elongated to fit its field, and charged with a mission to teach."
+    ],
+    [
+      "durhamExterior",
+      "Plate IV — Durham Cathedral above the Wear",
+      "A fortress of God on a rock peninsula: begun in 1093 to house St Cuthbert's shrine behind the Scottish border, Durham piles its Romanesque mass — twin west towers, a great central tower, walls of honey-coloured stone — above the wooded gorge of the Wear. From the river it reads as castle and church in one body, which in the prince-bishop's borderland is exactly what it was."
+    ],
+    [
+      "pisaComplex",
+      "Plate V — The Pisa Cathedral Group",
+      "On the green field of the Campo dei Miracoli, Pisa set its cathedral (begun 1063), baptistery and leaning campanile in white marble banded with grey, their walls ringed with open arcaded galleries. Tuscan Romanesque is the style at its most classical and most decorative — Rome remembered through a merchant republic's wealth, and proof that Romanesque was never one manner but a family."
+    ],
+    [
+      "moissacPortal",
+      "Plate VI — Christ in Majesty, Moissac (detail)",
+      "The tympanum of Moissac's south portal, carved around 1120–1135, shows the Christ of the Apocalypse ringed by the elders of Revelation, each figure twisted into the curve of the field it fills. Below, on the trumeau, lions climb over one another in a column of beasts. Romanesque sculpture never again surpassed this controlled ferocity."
+    ],
+    [
+      "conquesAbbey",
+      "Plate VII — The Chevet of Sainte-Foy, Conques",
+      "The east end of the great pilgrimage abbey of Sainte-Foy steps down its Rouergue hillside in a cascade of rounded chapels, each one lit for the relics it served and all of them gathered under the tall crossing tower. Stand here at dawn and the whole system of the pilgrimage church — ambulatory, radiating chapels, towers — explains itself in a single view."
+    ],
+    [
+      "speyerNave",
+      "Plate VIII — The Nave of Speyer: Stone Vaults at Full Scale",
+      "Around 1082–1106 the Salian builders covered Speyer's nave with groin vaults of stone spanning more than thirteen metres — the boldest ceiling in Europe, carried on alternating piers and half-shafts that march the length of the church. Romanesque engineering at its summit: the vault no longer an experiment but an imperial statement, repeated bay by bay to the horizon of the choir."
+    ]
+  ],
+  "plates2": [
+    [
+      "chartresWest",
+      "Plate IX — The South Transept Front, Chartres",
+      "Around 1220 the sculptors of Chartres carved the south porch as a second west front: gabled portals below, a rose of glass above, and in the jambs the apostles and martyrs standing free of the wall in a new, quiet naturalism. Compare it with the Royal Portal of seventy years before, on the same building, and the whole education of Gothic sculpture is visible in one walk around the church."
+    ],
+    [
+      "sainteChapelleUpper",
+      "Plate X — The Apse of Sainte-Chapelle, Paris",
+      "Louis IX's palace chapel, consecrated in 1248, exists to hold fifteen windows. The apse curves through seven of them, each fifteen metres high, their thirteenth-century glass retelling the Bible from Genesis to the king's own translation of the relics. Between the windows stand only the thinnest stone mullions and iron ties: the wall has not been decorated with glass — it has been replaced by it."
+    ],
+    [
+      "amiensNave",
+      "Plate XI — The Nave of Amiens",
+      "The classical moment of Gothic: begun in 1220, Amiens raises its vault 42 metres on piers of perfect proportion — arcade, triforium and clerestory in the ratio that every later French cathedral would quote. Robert de Luzarches and his successors built the largest Gothic church in France in a single lifetime, and it still reads as one thought."
+    ],
+    [
+      "chartresRose",
+      "Plate XII — The North Rose, Chartres",
+      "Donated by Blanche of Castile around 1215, the north rose of Chartres wheels sixteen metres of glass around the Virgin at its centre, above five lancets in which the kings and priests of the Old Testament stand in blue and ruby light. The rose is Gothic's emblem because it is its argument in miniature: structure reduced to a stone wheel, colour doing the work of wall."
+    ],
+    [
+      "cologneInterior",
+      "Plate XIII — The Choir of Cologne",
+      "Cologne's choir, consecrated in 1322, is Chartres and Amiens translated to the Rhine and pushed further: an ambulatory of glass so tall that the triforium itself is glazed, dissolving the wall into a cage of stone and light. The German lodges took the French system at its most extreme and made it their own starting point."
+    ],
+    [
+      "milanCathedral",
+      "Plate XIV — Milan Cathedral",
+      "Begun in 1386 and finished, in a sense, only in the twentieth century, Milan is Gothic's largest marble mountain — and its most argued-over, built by Lombard masons consulting French and German masters whose advice survives in the famous annals of the works. Italy never surrendered to the northern style; Milan is the record of the negotiation."
+    ],
+    [
+      "leonInterior",
+      "Plate XV — The Glass of León",
+      "León Cathedral, begun around 1205, is called the Pulchra Leonina, the beautiful Leonese — and the beauty is glass: some 1,800 square metres of it, more wall of light than any cathedral in Spain. French Rayonnant carried south over the Pyrenees and filled with Castilian sun, it is the Gothic system at its most dematerialised."
+    ],
+    [
+      "gloucesterCloister",
+      "Plate XVI — The Gloucester Cloister: the Fan Vault",
+      "In the cloister walks of Gloucester, between about 1351 and 1377, English masons spread the rib vault into fans of stone — the first great fan vaults in Europe, and the seed of the Perpendicular architecture that would carry English Gothic to its Tudor end. A covered walk for monks became the laboratory of a national style."
+    ]
+  ],
+  "platesCaption": "Plates I · Romanesque — Speyer, Santiago, Vézelay, Durham, Pisa, Moissac, Conques",
+  "plates2Caption": "Plates II · Gothic — Chartres, Paris, Amiens, Cologne, Milan, León, Gloucester",
+  "parts": [
+    [
+      0,
+      "Part I",
+      "Two Answers to Rome",
+      "Both styles were built by the same civilisation — Latin Christendom, its monks, bishops and pilgrims — out of the same inheritance: Rome's arch, vault and basilica. This part tells the double story: how Romanesque gathered that inheritance into the first European style since antiquity, and how, in one abbey church outside Paris in the 1140s, Gothic was invented inside the older style's own buildings."
+    ],
+    [
+      4,
+      "Part II",
+      "The Two Grammars",
+      "Here the two styles are taken apart and compared piece by piece: the round arch against the pointed; the barrel vault and the fortress wall against the rib, the skeleton and the flying buttress; the painted, lamp-lit gloom against the wall of glass; the pilgrimage plan against the radiant chevet; the carved sermon of the tympanum against the awakening figures of the Gothic portal. Five chapters, five controlled comparisons."
+    ],
+    [
+      9,
+      "Part III",
+      "The Map and the Clock",
+      "Styles live in places and in time. This part walks Romanesque through its regional dialects — Burgundy, the Auvergne, the Rhineland, Pisa, the pilgrimage roads — and Gothic through its national schools, from French Rayonnant to Baltic brick; it visits the buildings where the two styles meet and mix, counts the secular stone both of them built, and watches each style come to its end."
+    ],
+    [
+      14,
+      "Part IV",
+      "Afterlives and Reading",
+      "Neither style simply stopped. Gothic survived its obituary by three centuries and was revived as a moral programme; Romanesque, forgotten longer, returned as revival and as ruin. The final part tells those afterlives, confronts the honest confusions — the pointed arches inside Romanesque Durham, the round ones inside Gothic parish churches — and closes with the field method: five signs, applied in order, that separate mass from skeleton on any church in Europe."
+    ]
+  ],
+  "seriesList": "Book 17 · Gothic vs Romanesque: A Comparative History — this volume. Also available: Book 1 · Art Nouveau; Book 2 · Gothic Architecture; Book 3 · Medieval Castles & Fortifications; Book 4 · Baroque & Rococo; Book 5 · Romanesque Architecture; Book 6 · Modernism & the International Style; Book 7 · Victorian Architecture; Book 8 · Art Deco; Book 9 · Brutalism; Book 10 · Frank Lloyd Wright; Book 11 · The Dome; Book 12 · Arch, Vault & Flying Buttress; Book 13 · Columns & the Classical Orders; Book 14 · Light in Historic Buildings; Book 15 · The Historic House; Book 16 · Art Deco vs Art Nouveau. In preparation: How to Identify a Building's Style · Persian Architecture · Ancient Rome · Ancient Egypt · Byzantine Architecture · Ancient Greece · Renaissance Architecture · Neoclassical Architecture · Islamic Architecture · Bauhaus · Mid-Century Modern Architecture · Japanese Architecture · Chinese Architecture · Indian Architecture · Postmodern Architecture.",
+  "images": {
+    "aachenChapel": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/aachenChapel.jpg",
+      "alt": "The Palatine Chapel at Aachen, Charlemagne's domed octagon with marble revetment and galleries",
+      "credit": "Photo: Jean Housen, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The Palatine Chapel, Aachen"
+    },
+    "amiensNave": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/amiensNave.jpg",
+      "alt": "The nave of Amiens Cathedral, the tallest complete Gothic nave in France, looking east",
+      "credit": "Photo: Diliff, via Wikimedia Commons (CC BY-SA 3.0)",
+      "title": "The nave of Amiens Cathedral"
+    },
+    "angoulemeCathedral": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/angoulemeCathedral.jpg",
+      "alt": "The west front of Angoulême Cathedral, a screen of Romanesque arcading and sculpture",
+      "credit": "Photo: JLPC, via Wikimedia Commons (CC BY-SA 3.0)",
+      "title": "Angoulême Cathedral west front"
+    },
+    "autunTympanum": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/autunTympanum.jpg",
+      "alt": "Detail of the west tympanum of Autun Cathedral: Gislebertus's Last Judgment, its elongated carved figures",
+      "credit": "Photo: GO69, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The Autun tympanum (detail)"
+    },
+    "batalha": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/batalha.jpg",
+      "alt": "Inside the church of Batalha Monastery in Portugal, its tall Flamboyant nave piers",
+      "credit": "Photo: Alvesgaspar, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "Batalha Monastery church, Portugal"
+    },
+    "beauvaisChoir": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/beauvaisChoir.jpg",
+      "alt": "The choir of Beauvais Cathedral from outside, a cliff of glass held by flying buttresses",
+      "credit": "Photo: Txllxt TxllxT, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The choir of Beauvais Cathedral"
+    },
+    "bourgesInterior": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/bourgesInterior.jpg",
+      "alt": "The nave of Bourges Cathedral, its double aisles rising in steps toward the vault",
+      "credit": "Photo: Benjamin Smith, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The nave of Bourges Cathedral"
+    },
+    "brusselsTownHall": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/brusselsTownHall.jpg",
+      "alt": "Brussels Town Hall on the Grand-Place, its tall Gothic tower above the market square",
+      "credit": "Photo: iMahesh, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "Brussels Town Hall"
+    },
+    "caenStEtienne": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/caenStEtienne.jpg",
+      "alt": "The twin towers of Saint-Étienne at Caen, the Norman abbey church William the Conqueror founded",
+      "credit": "Photo: Zairon, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "Saint-Étienne, Caen"
+    },
+    "canterburyNave": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/canterburyNave.jpg",
+      "alt": "The nave of Canterbury Cathedral, rebuilt in the first English Gothic after the fire of 1174",
+      "credit": "Photo: J.Hannan-Briggs, via Wikimedia Commons (CC BY-SA 2.0)",
+      "title": "Canterbury Cathedral nave"
+    },
+    "carcassonne": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/carcassonne.jpg",
+      "alt": "The walls and towers of the Cité of Carcassonne, restored by Viollet-le-Duc in the nineteenth century",
+      "credit": "Photo: H2k4, via Wikimedia Commons (CC BY-SA 3.0)",
+      "title": "The Cité of Carcassonne"
+    },
+    "chartresFacade": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/chartresFacade.jpg",
+      "alt": "The Royal Portal of Chartres Cathedral: three sculpted doorways of c. 1145–1155 beneath the west towers",
+      "credit": "Photo: Patrick from Compiègne, France, via Wikimedia Commons (CC BY-SA 2.0)",
+      "title": "The Royal Portal, Chartres"
+    },
+    "chartresGlass": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/chartresGlass.jpg",
+      "alt": "A thirteenth-century stained-glass panel at Chartres: the Annunciation in deep blue and ruby glass",
+      "credit": "Photo: Eusebius, via Wikimedia Commons (CC BY 3.0)",
+      "title": "Stained glass at Chartres: the Annunciation"
+    },
+    "chartresNave": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/chartresNave.jpg",
+      "alt": "The nave of Chartres Cathedral, looking along the great vessel of stone and coloured light",
+      "credit": "Photo: Stephen Taber, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The nave of Chartres Cathedral"
+    },
+    "chartresRose": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/chartresRose.jpg",
+      "alt": "The north rose window of Chartres Cathedral above its five lancets",
+      "credit": "Photo: Andreas F. Borchert, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The north rose, Chartres"
+    },
+    "chartresWest": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/chartresWest.jpg",
+      "alt": "The south transept front of Chartres Cathedral, its gabled porch and rose window",
+      "credit": "Photo: User:TTaylor, via Wikimedia Commons (Public domain)",
+      "title": "The south transept front, Chartres"
+    },
+    "cologneCathedral": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/cologneCathedral.jpg",
+      "alt": "Cologne Cathedral from across the Rhine, its twin spires completed in 1880 to the medieval plan",
+      "credit": "Photo: CEphoto, Uwe Aranas, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "Cologne Cathedral"
+    },
+    "cologneInterior": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/cologneInterior.jpg",
+      "alt": "The choir of Cologne Cathedral, looking up into the Rayonnant ambulatory",
+      "credit": "Photo: Adam Jones, Ph.D., via Wikimedia Commons (CC BY-SA 3.0)",
+      "title": "The choir of Cologne Cathedral"
+    },
+    "conquesAbbey": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/conquesAbbey.jpg",
+      "alt": "The chevet of Sainte-Foy at Conques, its rounded chapels stepping down the hillside",
+      "credit": "Photo: Antoine Garnier, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "Sainte-Foy, Conques: the chevet"
+    },
+    "durhamExterior": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/durhamExterior.jpg",
+      "alt": "Durham Cathedral above the River Wear, its massive towers and solid stone mass above the gorge",
+      "credit": "Photo: Benjamin Smith, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "Durham Cathedral from the Wear"
+    },
+    "durhamNave": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/durhamNave.jpg",
+      "alt": "The nave of Durham Cathedral: massive carved piers, round arches and the first great rib vault",
+      "credit": "Photo: Benjamin Smith, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The nave of Durham Cathedral"
+    },
+    "elyNave": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/elyNave.jpg",
+      "alt": "The nave of Ely Cathedral, its Romanesque arcade under a painted timber ceiling",
+      "credit": "Photo: Bs0u10e01, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The nave of Ely Cathedral"
+    },
+    "gloucesterCloister": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/gloucesterCloister.jpg",
+      "alt": "The cloister of Gloucester Cathedral, where the fan vault was invented in the fourteenth century",
+      "credit": "Photo: David James, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "Gloucester cloister: the fan vault"
+    },
+    "hildesheimStMichael": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/hildesheimStMichael.jpg",
+      "alt": "St Michael's at Hildesheim from the air, Bernward's Ottonian church of c. 1010–1033",
+      "credit": "Photo: Carsten Steger, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "St Michael's, Hildesheim (aerial)"
+    },
+    "jumieges": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/jumieges.jpg",
+      "alt": "The ruined nave of Jumièges Abbey in Normandy, its Romanesque arcade open to the sky",
+      "credit": "Photo: Zairon, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The ruins of Jumièges Abbey"
+    },
+    "laonTowers": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/laonTowers.jpg",
+      "alt": "A tower of Laon Cathedral, its open arcades drawn by Villard de Honnecourt in the thirteenth century",
+      "credit": "Photo: Ad Meskens\nYou are free to use this picture for any purpose as long as you credit its author, Ad Meskens.\nExample:  © Ad Meskens / Wikimedia Commons\n  If you use this work outside of the Wikimedia projects, a message or a copy is very much appreciated.\n\n\tThis image is not in the public domain. A statement such as \"From Wikimedia Commons\" or similar is not by itself sufficient. If you do not provide clear attribution to the author you do not comply with the terms of the file's license and you may not use this file. If you are unable or unwilling to provide attribution you should contact Ad Meskens to negotiate a different license., via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "A tower of Laon Cathedral"
+    },
+    "leonInterior": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/leonInterior.jpg",
+      "alt": "The choir of León Cathedral, ringed by one of the greatest glazed walls in Gothic Europe",
+      "credit": "Photo: Txo, via Wikimedia Commons (CC BY-SA 3.0)",
+      "title": "The choir of León Cathedral"
+    },
+    "lubeckMarien": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/lubeckMarien.jpg",
+      "alt": "The twin brick towers of St Mary's, Lübeck, mother church of Baltic Brick Gothic",
+      "credit": "Photo: Dietmar Rabich, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "St Mary's, Lübeck"
+    },
+    "mariaLaach": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/mariaLaach.jpg",
+      "alt": "Maria Laach Abbey on its lake in the Eifel, a Rhineland Romanesque church of towers and rounded arches",
+      "credit": "Photo: W. Bulach, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "Maria Laach Abbey"
+    },
+    "milanCathedral": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/milanCathedral.jpg",
+      "alt": "The west front of Milan Cathedral, a mountain of white marble pinnacles begun in 1386",
+      "credit": "Photo: Jakub Hałun, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "Milan Cathedral"
+    },
+    "moissacPortal": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/moissacPortal.jpg",
+      "alt": "Christ in Majesty in the south portal tympanum of Moissac Abbey (detail), c. 1120–1135",
+      "credit": "Photo: Moleskine, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The Moissac tympanum (detail)"
+    },
+    "monrealeInterior": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/monrealeInterior.jpg",
+      "alt": "The apse mosaic of Monreale Cathedral: Christ Pantocrator in gold above the Norman king's choir",
+      "credit": "Photo: José Luiz, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The apse mosaic, Monreale"
+    },
+    "pisaComplex": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/pisaComplex.jpg",
+      "alt": "The cathedral and baptistery at Pisa from the air, marble Romanesque on the green Campo dei Miracoli",
+      "credit": "Photo: Spike, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The Pisa cathedral group"
+    },
+    "pragueStVitus": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/pragueStVitus.jpg",
+      "alt": "The choir of St Vitus's Cathedral, Prague, ringed by flying buttresses from Peter Parler's lodge",
+      "credit": "Photo: Alvesgaspar, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "St Vitus's Cathedral, Prague"
+    },
+    "reimsFacade": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/reimsFacade.jpg",
+      "alt": "The west front of Reims Cathedral at evening, coronation church of the kings of France",
+      "credit": "Photo: Gennadii Saus i Segura, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "Reims Cathedral west front"
+    },
+    "rouenFacade": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/rouenFacade.jpg",
+      "alt": "The west front of Rouen Cathedral, Flamboyant stone lace beneath its tall spire",
+      "credit": "Photo: DXR, via Wikimedia Commons (CC BY-SA 3.0)",
+      "title": "Rouen Cathedral"
+    },
+    "saintDenisAmbulatory": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/saintDenisAmbulatory.jpg",
+      "alt": "The ambulatory of Saint-Denis, 1140–44: Suger's ring of slender columns and glowing chapels",
+      "credit": "Photo: Beckstet, via Wikimedia Commons (CC BY-SA 3.0)",
+      "title": "The ambulatory of Saint-Denis"
+    },
+    "saintDenisFacade": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/saintDenisFacade.jpg",
+      "alt": "The west front of the Basilica of Saint-Denis, consecrated in 1140, burial church of France's kings",
+      "credit": "Photo: Thomas Clouet, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The west front of Saint-Denis"
+    },
+    "saintSavinFresco": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/saintSavinFresco.jpg",
+      "alt": "The nave of Saint-Savin-sur-Gartempe, its barrel vault painted with the Old Testament cycle",
+      "credit": "Photo: Gerd Eichmann, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "Saint-Savin: the painted vault"
+    },
+    "sainteChapelle": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/sainteChapelle.jpg",
+      "alt": "The upper chapel of Sainte-Chapelle, Paris, looking up to the painted vault and the west rose",
+      "credit": "Photo: Dudva, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "Sainte-Chapelle, upper chapel"
+    },
+    "sainteChapelleUpper": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/sainteChapelleUpper.jpg",
+      "alt": "The apse windows of Sainte-Chapelle: great lancets of thirteenth-century glass",
+      "credit": "Photo: Zairon, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The apse of Sainte-Chapelle"
+    },
+    "salisburySpire": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/salisburySpire.jpg",
+      "alt": "The spire of Salisbury Cathedral, at 123 metres the tallest church spire in Britain",
+      "credit": "Photo: Poliphilo, via Wikimedia Commons (CC0)",
+      "title": "Salisbury Cathedral spire"
+    },
+    "santiagoNave": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/santiagoNave.jpg",
+      "alt": "The nave of Santiago de Compostela, its round-arched arcade and gallery built for pilgrim crowds",
+      "credit": "Photo: amaianos from Galicia, via Wikimedia Commons (CC BY 2.0)",
+      "title": "The nave of Santiago de Compostela"
+    },
+    "santiagoPortico": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/santiagoPortico.jpg",
+      "alt": "The Pórtico de la Gloria at Santiago: Master Mateo's sculpted prophets and apostles, 1168–1217",
+      "credit": "Photo: José Antonio Gil Martínez from Vigo, Spain, via Wikimedia Commons (CC BY 2.0)",
+      "title": "The Pórtico de la Gloria, Santiago"
+    },
+    "sienaCathedral": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/sienaCathedral.jpg",
+      "alt": "The west front of Siena Cathedral, Giovanni Pisano's polychrome marble Gothic front",
+      "credit": "Photo: Rhododendrites, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "Siena Cathedral west front"
+    },
+    "speyerCrypt": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/speyerCrypt.jpg",
+      "alt": "The crypt of Speyer Cathedral, its groin vaults carried on rows of slender columns",
+      "credit": "Photo: Moleskine, via Wikimedia Commons (CC BY 4.0)",
+      "title": "The crypt of Speyer Cathedral"
+    },
+    "speyerExterior": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/speyerExterior.jpg",
+      "alt": "Speyer Cathedral from the east, the red sandstone giant of the Salian emperors",
+      "credit": "Photo: calflier001, via Wikimedia Commons (CC BY-SA 2.0)",
+      "title": "Speyer Cathedral"
+    },
+    "speyerNave": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/speyerNave.jpg",
+      "alt": "The nave of Speyer Cathedral, groin-vaulted in stone c. 1082–1106",
+      "credit": "Photo: Moleskine, via Wikimedia Commons (CC BY 4.0)",
+      "title": "The nave of Speyer Cathedral"
+    },
+    "stSerninExterior": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/stSerninExterior.jpg",
+      "alt": "The chevet and octagonal bell tower of Saint-Sernin, Toulouse, the greatest surviving Romanesque pilgrimage church",
+      "credit": "Photo: Zairon, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "Saint-Sernin, Toulouse"
+    },
+    "strasbourgFacade": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/strasbourgFacade.jpg",
+      "alt": "The west front of Strasbourg Cathedral, Erwin von Steinbach's screen of stone lace, begun 1277",
+      "credit": "Photo: Diliff, via Wikimedia Commons (CC BY-SA 3.0)",
+      "title": "Strasbourg Cathedral west front"
+    },
+    "tournusNave": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/tournusNave.jpg",
+      "alt": "The nave vaults of Saint-Philibert at Tournus from below: transverse barrel vaults bay by bay",
+      "credit": "Photo: Benjamin Smith, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The vaults of Saint-Philibert, Tournus"
+    },
+    "towerOfLondon": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/towerOfLondon.jpg",
+      "alt": "The White Tower at the Tower of London, the great Norman keep of c. 1078–1097",
+      "credit": "Photo: Oleg Yunakov, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The White Tower, London"
+    },
+    "vezelayNave": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/vezelayNave.jpg",
+      "alt": "The nave of Vézelay, its groin vaults and striped arches built for pilgrims to Mary Magdalene",
+      "credit": "Photo: Johan Allard, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The nave of Vézelay"
+    },
+    "vezelayTympanum": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/vezelayTympanum.jpg",
+      "alt": "The great tympanum of Vézelay: Christ sending out the Apostles, carved c. 1120–1132",
+      "credit": "Photo: Office de tourisme de Vézelay, via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "The Vézelay tympanum"
+    },
+    "villardDrawing": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/villardDrawing.jpg",
+      "alt": "A lion 'drawn from life' in Villard de Honnecourt's portfolio, c. 1225–1250",
+      "credit": "Photo: Villard de Honnecourt, via Wikimedia Commons (Public domain)",
+      "title": "Villard de Honnecourt: the lion"
+    },
+    "westminsterAbbey": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/westminsterAbbey.jpg",
+      "alt": "Inside Westminster Abbey, looking up into the vaults of Henry III's Gothic choir church",
+      "credit": "Photo: Maksim Sokolov (maxergon.com), via Wikimedia Commons (CC BY-SA 4.0)",
+      "title": "Westminster Abbey"
+    },
+    "yorkMinster": {
+      "src": "/assets/history-deep/gothic-vs-romanesque/yorkMinster.jpg",
+      "alt": "The choir of York Minster, its tall lancets and lierne vault in England's largest Gothic cathedral",
+      "credit": "Photo: Diliff, via Wikimedia Commons (CC BY-SA 3.0)",
+      "title": "The choir of York Minster"
+    }
+  },
+  "standfirst": "Every traveller in Europe has stood in a great medieval church and hesitated: is this Romanesque or Gothic? The pointed arch is supposed to decide it, yet Durham Cathedral — the most Romanesque mountain of stone in England — is vaulted with pointed arches, and thousands of Gothic parish churches are roofed over round ones. This book separates the two styles properly. It follows Romanesque from the Carolingian and Ottonian inheritance through the pilgrimage roads to its regional summits — Speyer, Santiago, Pisa, Durham — and Gothic from its invention in Abbot Suger's Saint-Denis in the 1140s to Chartres, Amiens, Cologne and the fan vaults of Gloucester. It compares the two grammars part by part: the round arch against the pointed, the barrel vault and the fortress wall against the rib and the flying buttress, the painted wall against the wall of glass. It walks both styles across their maps, visits the buildings where they meet and mix, watches each of them end and each of them return, and closes with a field method of five signs by which any medieval church can be read — and the two styles told apart — in the street.",
+  "intro": [
+    "Begin with the simplest true sentence in this book: Romanesque keeps, Gothic releases. Romanesque architecture holds its loads in continuous walls of stone, pierces them sparingly, and covers the result with vaults that rest on the walls like a hand pressing down. Gothic architecture concentrates its loads onto a skeleton of piers and buttresses, and between the bones of that skeleton it sets glass. Almost everything else — arch, light, sculpture, plan, skyline — follows from that single difference of structure, and the chapters that follow trace it through both styles, subject by subject. But the sentence is a first approximation, not a law, and this book is as much about its exceptions as about its rule.",
+    "The two styles are not strangers, and they are not really opponents. Gothic was invented by men trained in Romanesque workshops, inside a Romanesque abbey church, using Romanesque inventions — the rib vault and the pointed arch among them — that masons in Durham and Burgundy had been developing for two generations. What Abbot Suger and his masons did at Saint-Denis in 1140–44 was to combine those devices with a new theology of light and a new ambition, and the combination proved so fertile that within eighty years it had rebuilt the cathedrals of northern Europe. Romanesque did not vanish in disgrace; it was absorbed, region by region, over more than a century, and in places it was still being built, proudly, when Chartres was already old.",
+    "The comparison runs on evidence, not on vibes. Each style gets its full history first — Romanesque's roots in Carolingian and Ottonian building, its monastic and pilgrimage engine, its regional dialects from the Rhineland to Pisa; then Gothic's invention, its classical century, its national schools and its long, strange afterlife. Only then are the two set side by side, grammar against grammar, in the middle parts of the book. The buildings named are real and checkable, the photographs are licensed and credited, and the bibliography rests on the standard literature of both fields: Conant and Fernie for Romanesque; Frankl, Bony, Panofsky and von Simson for Gothic — the two Pelican histories that between them framed the modern study of both styles.",
+    "The book closes where the series always closes: in the street, with a method. Five signs — silhouette, the arch, wall against glass, the vault overhead, and sculpture — applied in order, will separate a Romanesque church from a Gothic one in nearly every case, and the final chapters apply them slowly to real buildings and name the traps honestly: the transitional choir, the Cistercian church that refuses both labels, the Norman Sicilian apse where a Romanesque plan carries Byzantine gold. Keep both styles in view, and the medieval centuries stop being a blur of old churches. They become an argument in stone about how a building should stand, and how much light a wall can hold."
+  ],
+  "keyFacts": [
+    [
+      "Period",
+      "Romanesque flourishes c. 1000–1200, with Carolingian and Ottonian roots from c. 800 and regional survivals into the thirteenth century. Gothic begins at Saint-Denis in 1140–44, rules northern Europe by 1200, and runs — through Rayonnant, Flamboyant, Decorated and Perpendicular phases — to about 1520, with survivals beyond. Between them the two styles cover, almost exactly, the five central centuries of the Middle Ages."
+    ],
+    [
+      "Where",
+      "Both styles were European, and both were localised. Romanesque's homelands: Burgundy and the pilgrimage roads of France and Spain, the Rhineland of the Empire, Norman England and Sicily, Tuscany. Gothic's homeland is the Île-de-France around Paris; its provinces become nations — England, the Empire, Spain, Italy — each translating the French system into local stone, brick and marble."
+    ],
+    [
+      "Signature",
+      "Romanesque's signature is mass: the semicircular arch carried on walls up to two metres thick, small windows, and sculpture fused into the surface. Gothic's signature is the skeleton: the pointed arch, the rib vault and the flying buttress concentrating loads onto points, so that the wall between can become a window. Mass against skeleton: the whole comparison in three words."
+    ],
+    [
+      "Key figures",
+      "For Romanesque: Charlemagne, patron of Aachen; Abbot Bernward of Hildesheim; the sculptor Gislebertus of Autun; Master Mateo of Santiago. For Gothic: Abbot Suger of Saint-Denis, who commissioned and explained the invention; William of Sens, who carried it to Canterbury; the draftsman Villard de Honnecourt, who recorded it; and the historians who named and framed the styles afterwards — Viollet-le-Duc, Frankl, Bony, Conant and Fernie."
+    ],
+    [
+      "Landmark buildings",
+      "Romanesque: the Palatine Chapel, Aachen; Speyer Cathedral; Saint-Sernin, Toulouse; Santiago de Compostela; Vézelay and Autun; the Pisa cathedral group; Durham Cathedral; Monreale. Gothic: Saint-Denis; Chartres, Bourges and Amiens; Sainte-Chapelle; Reims and Strasbourg; Cologne; Canterbury, Salisbury and Gloucester; León; Milan; St Vitus, Prague."
+    ],
+    [
+      "Legacy",
+      "Between them the two styles invented the architecture of Latin Christendom and left Europe its cathedrals — still the largest, oldest and most visited buildings on the continent. Their afterlives diverge instructively: Gothic was revived in the nineteenth century as a moral and national programme, from Pugin's churches to the Houses of Parliament; Romanesque returned more quietly, in the Rundbogenstil, in Romanesque Revival churches and railway-age stone. Both remain the first test of anyone learning to read a church."
+    ]
+  ],
+  "timeline": [
+    [
+      "c. 792–805",
+      "Charlemagne builds the Palatine Chapel at Aachen, a domed octagon modelled on San Vitale in Ravenna: the imperial root from which northern Romanesque grows."
+    ],
+    [
+      "c. 1001–1031",
+      "Bishop Bernward's St Michael's at Hildesheim rises in Saxony — Ottonian architecture of alternating supports and a painted timber ceiling, the Romanesque system in embryo."
+    ],
+    [
+      "c. 1000",
+      "Raoul Glaber, a Burgundian monk, writes that the world is clothing itself in 'a white mantle of churches': the building boom that creates the Romanesque begins."
+    ],
+    [
+      "1063",
+      "Pisa begins its cathedral, and with it the marble arcaded manner of Tuscan Romanesque; the baptistery follows in 1152."
+    ],
+    [
+      "c. 1075–1130",
+      "Santiago de Compostela is rebuilt as the great pilgrimage church of the west, its barrel-vaulted nave and radiating chapels the type's model."
+    ],
+    [
+      "1077–1120",
+      "Saint-Sernin at Toulouse, the largest of the pilgrimage churches, rises in brick and stone over the saint's shrine on the road to Compostela."
+    ],
+    [
+      "c. 1082–1106",
+      "Speyer Cathedral is groin-vaulted in stone under Henry IV: the Empire's church becomes the largest in Christendom."
+    ],
+    [
+      "1093–1133",
+      "Durham Cathedral is built above the Wear — and its masons vault the choir and nave with rib vaults on pointed arches, inside a Romanesque body of massive carved piers."
+    ],
+    [
+      "c. 1095–1130",
+      "Cluny III, the largest church in Christendom until St Peter's, is built in Burgundy with a pointed barrel vault — Romanesque engineering at its most daring, and its most fragile."
+    ],
+    [
+      "c. 1120–1135",
+      "The great sculptural portals: Gislebertus signs the Last Judgment at Autun; the tympana of Vézelay and Moissac are carved. Romanesque sculpture reaches its summit."
+    ],
+    [
+      "1140–1144",
+      "Abbot Suger rebuilds Saint-Denis outside Paris: the new chevet of 1144, ringed with glass and carried on slender columns, is the first Gothic building. The west front and its sculpture follow from 1135–40."
+    ],
+    [
+      "1145–1155",
+      "The Royal Portal of Chartres is carved for the west front — its jamb statues the first great sculpture of the Gothic age."
+    ],
+    [
+      "1163",
+      "Notre-Dame de Paris is begun: Gothic at full cathedral scale, with flying buttresses added as the nave rises."
+    ],
+    [
+      "1174–1184",
+      "After fire destroys Canterbury's choir, William of Sens rebuilds it in the French manner: Gothic crosses the Channel."
+    ],
+    [
+      "1194–1220",
+      "Chartres is rebuilt after fire in a single generation — the classical Gothic cathedral of pier, triforium, clerestory and glass."
+    ],
+    [
+      "1220",
+      "Amiens Cathedral is begun, the largest and tallest of the French classical cathedrals; Bourges, its great rival, rises in parallel without transepts."
+    ],
+    [
+      "1243–1248",
+      "Louis IX builds Sainte-Chapelle in Paris to house the Crown of Thorns: the Rayonnant wall of glass perfected."
+    ],
+    [
+      "1248",
+      "Cologne Cathedral is begun on the Amiens plan — French Gothic naturalised on the Rhine. It will not be finished until 1880."
+    ],
+    [
+      "c. 1250–1300",
+      "Rayonnant in France, Decorated in England, and the first hall churches in Germany: Gothic becomes a family of national styles."
+    ],
+    [
+      "c. 1330–1400",
+      "Perpendicular begins in England — Gloucester's choir and cloister fan vaults — and Flamboyant in France: the two styles' ornate old age."
+    ],
+    [
+      "1386",
+      "Milan Cathedral is begun: Italy's vast, argued-over essay in northern Gothic, built in marble and finished over five centuries."
+    ],
+    [
+      "c. 1500–1520",
+      "The last great Gothic works — Henry VII's Chapel at Westminster, the Batalha chapels, Rouen's Butter Tower — rise as Renaissance forms arrive from Italy. Giorgio Vasari will soon blame the whole manner on the Goths."
+    ],
+    [
+      "1836",
+      "A.W.N. Pugin publishes Contrasts and argues that Gothic is the only Christian architecture: the Gothic Revival becomes a moral programme, and Romanesque begins its quieter return in the Rundbogenstil."
+    ],
+    [
+      "1840–1880",
+      "Viollet-le-Duc restores Vézelay, Notre-Dame, Sainte-Chapelle and Carcassonne, writes the Dictionnaire raisonné, and teaches Europe to read Gothic as rational structure — sometimes inventing what he restored."
+    ],
+    [
+      "1880",
+      "Cologne Cathedral is completed to its medieval facade plan, then the tallest building in the world: the revival finishing the Middle Ages' work."
+    ],
+    [
+      "1959–2014",
+      "The modern scholarship settles: Conant's Carolingian and Romanesque Architecture (1959), Frankl's Gothic Architecture (1962, revised by Crossley 2000), Bony's French Gothic Architecture (1983) and Fernie's Romanesque Architecture (2014) frame the two styles as this book presents them."
+    ]
+  ],
+  "chapters": [
+    {
+      "id": "after-rome",
+      "numeral": "I",
+      "title": "After Rome: The World That Rebuilt in Stone",
+      "sections": [
+        {
+          "heading": "The inheritance: arch, vault and basilica",
+          "paras": [
+            "When the western Roman empire dissolved in the fifth century, it left its successor kingdoms three gifts that would decide the next thousand years of building: the semicircular arch, the masonry vault, and the basilica — the long, aisled, timber-roofed hall that the early church had taken from Roman law courts and turned into the standard vessel of Christian worship. For five centuries those gifts were mostly kept in store. The successor kingdoms built, but they built small: estate churches, baptisteries, palace chapels, their masonry often robbed from Roman ruins and their plans a patchwork of half-remembered antique forms. The arch survived; the ambition to vault a great space in stone largely did not.",
+            "What changed, slowly and then suddenly, was scale of organisation. The Carolingian empire of Charlemagne, crowned in 800, set out to restore Roman order in everything from handwriting to liturgy, and architecture was its loudest claim. At Aachen between about 792 and 805 Charlemagne raised the Palatine Chapel: a domed octagon ringed by galleries, modelled on Justinian's San Vitale in Ravenna, faced with marble and lit by a great bronze chandelier. It is not Romanesque — it is a Carolingian quotation of Rome and Byzantium at once — but it taught the north two lessons the Romanesque would build on: that a ruler could make theology out of masonry, and that the round arch, the dome and the gallery belonged together in a system.",
+            "The centuries after Charlemagne were not a pause but a preparation. Monasteries multiplied across Europe — Cluny was founded in 910, and its order alone would count well over a thousand houses — and every monastery needed a church built to a plan: choir for the monks' offices, transepts for altars, a tower for bells, a cloister for the day's circulation. The monastic plan, refined house by house and copied order by order, became the Romanesque church's programme before the Romanesque style existed to dress it. When the style came, it came to buildings whose plans were already waiting."
+          ]
+        },
+        {
+          "heading": "The Ottonian rehearsal",
+          "figure": "aachenChapel",
+          "paras": [
+            "In the German lands the rehearsal was grandest. The Ottonian emperors, Charlemagne's tenth-century heirs, built churches of a deliberate, fortress-like grandeur: St Michael's at Hildesheim, raised under Bishop Bernward between about 1001 and 1031, sets a timber ceiling over a nave whose supports alternate pier and columns in a rhythm as regular as music, flanked by two transepts and two choirs — a church facing both ways, east and west, as if the building itself were an empire with two capitals. The Ottonian westwork, that fortified west block of towers and gallery, gave the Romanesque west front its ancestor; the alternating support system gave its naves their beat.",
+            "Elsewhere the experiments were local and various. In Lombardy, masons vaulted small churches with ribbed groin vaults and decorated their outer walls with blind arcading — the Lombard band that would travel over the Alps with the 'first Romanesque' builders into Catalonia and Burgundy. In Anglo-Saxon England, churches rose tall and narrow with long-and-short quoins and double-splayed windows. In Normandy, a newly fierce duchy built abbeys — Jumièges, then William the Conqueror's twin foundations at Caen — whose twin-towered fronts and gallery elevations were already, by the 1070s, the direct parents of the mature Romanesque church.",
+            "What all these rehearsals lacked was not skill but a system: a way of covering large spaces in stone that could be repeated, taught and exported. Timber roofs burned — chronicles record church after church lost to fire, candles and lightning — and every fire was an argument for the stone vault. The eleventh century would supply the system, and with it a style: the first architecture since Rome that all Europe could share."
+          ]
+        },
+        {
+          "heading": "The white mantle of churches",
+          "figure": "hildesheimStMichael",
+          "paras": [
+            "Around the year 1000 the Burgundian monk Raoul Glaber wrote the sentence with which every history of Romanesque begins: as the third year after the millennium approached, 'it was as if the world itself, shaking off its old age, was clothing itself everywhere in a white mantle of churches'. The boom he described was real, and its engines were several at once. Population and farmland were growing; the great invasions had ended; pilgrimage had become mass travel, and relics drew crowds the way courts drew suitors. A church was at once a treasury, a fortress, a court of law, a market hall and a theatre of the sacred — the one public building of its world, and every town and order competed to build the greatest.",
+            "Money and organisation followed devotion. Bishops rebuilt cathedrals as statements of a reformed church; monasteries grew rich on pilgrim offerings and land; masons became professionals who travelled from site to site — a Master Robert here, a Master Mateo there — carrying drawings, templates and reputations with them. Their mobility matters for this book, because it is how one style could rule a continent: the Romanesque was not decreed, it was carried, lodge by lodge and road by road, and it adapted itself to every material it met — sandstone at Speyer, marble at Pisa, brick at Toulouse, granite in Galicia.",
+            "By about 1080 the result stood complete: a European architecture of round arches, barrel and groin vaults, massive walls, sculptured portals and a family of plans refined for monks and pilgrims. It is the style this book calls Romanesque — a name its builders never heard, coined by nineteenth-century scholars for whom it looked like Rome's debased descendant ('Roman-like'). The name stuck, and the slight it carried took a century of scholarship to wash out. The Gothic that would succeed it grew, quite literally, inside its walls."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "romanesque-flowering",
+      "numeral": "II",
+      "title": "Romanesque: The First Style of the European Age",
+      "sections": [
+        {
+          "heading": "The system: wall, vault and road",
+          "paras": [
+            "Romanesque is best understood as a system for solving one problem in a dozen climates: how to cover a large, permanent, fireproof church in stone, in an age when stone was plentiful, engineering was experimental, and the building had to serve as fortress and treasury as well as temple. The system's answer was the wall. A Romanesque wall is not a screen but a structure — at Speyer and Durham two metres and more of coursed stone and rubble core — and everything else hangs on it. The barrel vault presses down and out along the whole length of the nave; the wall's mass, stiffened by flat buttress strips and the weight of aisle and gallery above, absorbs the press. Windows are holes in a dam: kept small, set high, splayed wide inside to spread their light.",
+            "The plan the system served was perfected on the pilgrimage roads. At Saint-Sernin in Toulouse and at Santiago de Compostela — twin products of the same decades and the same needs — the church stretches in a Latin cross with an ambulatory around the apse and chapels radiating from it, so that pilgrims could file past the relics in the crypt and choir without breaking the monks' offices. Galleries over the aisles doubled the capacity and buttressed the barrel vault in the same gesture. It is planning of a high order: crowd engineering disguised as devotion, and it made the great Romanesque church a machine for the cult of saints.",
+            "Sculpture completed the system on its outer face. The west front and the south portal became the church's public page: a tympanum of Christ in Majesty or the Last Judgment over the door, archivolts crowded with apostles, elders, beasts and signs of the zodiac, capitals in the cloister and choir carved with Bible stories and monsters. To a largely unlettered congregation these carvings were the sermon made permanent — but they were never only teaching. They were also the masons' and sculptors' signature, the place where a lodge showed what it could do."
+          ]
+        },
+        {
+          "heading": "The great churches",
+          "figure": "stSerninExterior",
+          "paras": [
+            "The system's summits still stand. Speyer Cathedral, founded by the Salian emperors in 1030 and vaulted under Henry IV by about 1106, was for a generation the largest church in Christendom: a groin-vaulted nave of imperial calm, four towers and a crossing dome, the emperors themselves in the crypt below. Everything about Speyer is the Romanesque premise at full confidence — that permanence is a form of power, and that a wall thick enough can outlast an empire. The empire fell; the church is still there.",
+            "On the roads west, the pilgrimage churches made the system sing. Saint-Sernin at Toulouse, built largely between about 1077 and 1120 in warm brick trimmed with stone, raises its octagonal bell tower over the crossing of the greatest surviving church of the type; Santiago de Compostela, its Galician sister, keeps its Romanesque body almost entire under later dress, from the barrel-vaulted nave to Master Mateo's Pórtico de la Gloria. In Burgundy, Cluny III — begun in 1088 and largely destroyed after the Revolution — outscaled them all, its pointed barrel vault the boldest ceiling of the age; what survives at Paray-le-Monial is its miniature, and at Vézelay and Autun its sculptural glory.",
+            "In Italy the system went classical. Pisa set its cathedral, baptistery and campanile on one green field, their marble walls ringed with open galleries — Romanesque as a merchant republic's essay in Roman dress. In Sicily, Norman kings built Cefalù and Monreale, where a Romanesque basilica plan carries Byzantine gold mosaics and Arab-influenced detail, the styles of three civilisations in one choir. And in England, conquered Normandy exported its manner wholesale: Durham, Winchester, Ely, Norwich — 'Norman' architecture, as the English still call it, is Romanesque with an army behind it."
+          ]
+        },
+        {
+          "heading": "A family, not a formula",
+          "figure": "tournusNave",
+          "paras": [
+            "It is tempting to file Romanesque as a single manner — round arch, thick wall, done — and the temptation should be resisted, because contemporaries experienced it as a landscape of dialects. Burgundian churches vault high and carve deep; Auvergnat churches pile their chevets into pyramids of chapels and towers; Provençal churches quote Roman Provence almost archaeologically; German churches multiply towers and face both east and west; Norman churches march their naves in severe bays that England inherited. The regional schools are not deviations from a norm — there was no norm, only a shared kit of arch, vault, wall and plan, assembled differently wherever it landed.",
+            "The kit itself kept evolving. Groin vaults replaced barrels where spans allowed; rib vaults appear — in Lombardy early, at Durham decisively by about 1100, at Caen in the sexpartite experiments of the Abbaye aux Hommes; pointed arches slip into Burgundian barrel vaults because a slightly pointed barrel thrusts less and stands better. None of this was heresy: the Romanesque was a living research programme in stone, and its last experiments are precisely the devices the Gothic would take up. The boundary between the styles, when it came, was drawn by historians — on the ground there was a frontier zone two generations wide.",
+            "By about 1130 the Romanesque had built, in Fernie's phrase, the first style of the European age: the first architecture since Rome to cover a continent with one intelligible language. It had also built the conditions of its own supersession — wealthy abbeys ambitious for glory, masons who had mastered the rib and the pointed arch, and, at one abbey outside Paris, an abbot with a theology of light and the will to spend. The invention of Gothic is the subject of the next chapter; it happened not against Romanesque but out of it, the way a language grows a new dialect that one day finds it has become a language of its own."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saint-denis-invention",
+      "numeral": "III",
+      "title": "The Invention: Suger's Saint-Denis, 1140–1144",
+      "sections": [
+        {
+          "heading": "The abbot and his church",
+          "paras": [
+            "Saint-Denis, just north of Paris, was no ordinary abbey. It held the relics of St Denis, apostle of the Gauls; it buried the kings of France; its abbot was among the kingdom's great lords. In 1122 that abbot became Suger — a monk of humble birth and formidable mind, friend of kings, regent of France during the Second Crusade, and the first patron in history to write down, in detail, why he built as he did. His old abbey church, largely Carolingian, was too small for the crowds that crushed in on feast days; women, he wrote, screamed as if in childbirth in the press at the doors. The rebuilding he launched in 1135 was at once crowd control, royal propaganda and theology.",
+            "The theology mattered, and Suger stated it plainly. God is light — the writings attributed to St Denis himself, the abbey's patron, taught that material light is the ladder by which the mind climbs to the divine light. A church, therefore, should not merely admit light; it should be made of it. When Suger rebuilt the west front in 1135–40 — with the first great sculptured portals of the new age, a rose window, and twin towers — and then, in 1140, began the choir, he was commissioning an argument: that a ring of chapels flooded with coloured light could preach. The masons he employed turned the argument into structure.",
+            "What they built in four years remains the founding document of Gothic. The new chevet, consecrated on 11 June 1144 before the king and eighteen bishops, replaced the old plan's separate chapels with a double ambulatory whose outer wall is a continuous curve of glass between radiating chapels; slender columns carry rib vaults whose thrusts are so well managed that the wall between supports could be opened almost entirely. Contemporaries felt the difference at once — the choir shone, in Suger's own words, with 'wonderful and uninterrupted light'. The system had a name only later; the experience had one immediately."
+          ]
+        },
+        {
+          "heading": "What was actually new",
+          "figure": "saintDenisFacade",
+          "paras": [
+            "Honesty requires the parts list to be itemised, because almost every component of Gothic existed before 1140. The pointed arch was old — Islamic builders had used it for centuries, Burgundian masons had built pointed barrel vaults at Cluny, and Durham's rib vaults had sprung from pointed arches by about 1130. The rib vault itself was a Romanesque tool, Norman and Lombard before it was French. Sculptured portals, rose windows, twin-towered fronts: all had precedents. If Gothic were merely an inventory, there would have been nothing to invent, and no invention to date.",
+            "What was new at Saint-Denis was the synthesis and the intention. Suger's masons combined rib vault, pointed arch and buttressed skeleton into one consistent system in which every element exists to free the wall for glass — and they applied the system not to a bay or a porch but to a whole building conceived as a vessel of light. The chevet's geometry served the light: the ambulatory's columns stand in a single elegant ring because the vault above them was planned as one radiating system. Invention here means what it means in technology: not the first use of each part, but the first machine in which the parts work together to a purpose none of them had served alone.",
+            "Contemporaries seem to have recognised the novelty in the way that matters — they copied it. Within a decade the new manner, called opus francigenum, 'French work', was rising at Sens, Noyon, Senlis and Laon; within two generations it had rebuilt Chartres, Bourges, Reims and Amiens and crossed to Canterbury. Styles do not usually have birthdays. This one very nearly does: 1140 to 1144, at Saint-Denis, with the inventor's own commentary surviving to tell us what he thought he had done. Few dates in architecture are as well earned."
+          ]
+        },
+        {
+          "heading": "The first Gothic generation",
+          "figure": "caenStEtienne",
+          "paras": [
+            "The first Gothic generation, roughly 1140 to 1190, built in a dialect art historians call Early Gothic: four-storey elevations of arcade, gallery, triforium and clerestory; sexpartite vaults spreading one rib-cell over two bays; towers multiplied with an enthusiasm the classical age would prune. Laon raised its oxen-crowned towers — the beasts that hauled the stone, honoured in sculpture, as Villard de Honnecourt recorded; Paris began Notre-Dame in 1163 and added flying buttresses as its nave climbed, the device that would let the next generation throw its walls open entirely. The style was still close to its Romanesque parent — heavy in its proportions, cautious in its glass — and all the more instructive for it.",
+            "The crossing to England shows the system travelling. Canterbury Cathedral's choir burned in 1174, and the monks hired William of Sens, a French master who rebuilt it with rib vaults, pointed arcades, dark Purbeck marble shafts and the first mature flying buttresses in England. William's choir is French Gothic in its bones and something new — leaner, darker, more linear — in its effect: the first proof that opus francigenum could take local accents without losing its grammar. Lincoln, Wells and Salisbury would spend the next century proving it in English.",
+            "By 1194, when fire took Chartres' roof and west towers and the town rebuilt its cathedral in one famous generation, the system was ready for its classical statement. The first generation had done the inventing; the second would do the perfecting. But the terms of the comparison this book pursues were already set at Saint-Denis: against the Romanesque wall — continuous, load-bearing, sparingly pierced — now stood the Gothic skeleton, in which structure retreats to points and the spaces between points become light. Everything in Part II is an unfolding of that contrast."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gothic-spread",
+      "numeral": "IV",
+      "title": "Gothic Unbound: The Style That Ate Europe",
+      "sections": [
+        {
+          "heading": "The classical century, 1194–1270",
+          "paras": [
+            "The rebuilding of Chartres after the fire of 1194 produced the first classical Gothic cathedral: a three-storey elevation of arcade, triforium and clerestory, the gallery abandoned; quadripartite rib vaults over every bay; windows grown so large that the wall between piers is mostly glass held in bar tracery — the first great church in which tracery, not masonry, draws the window's pattern. Chartres was built fast, largely in twenty-five years, and its coherence is its glory: some 176 windows, a sculptural programme in three portals, and a plan and elevation that read as one conception. The thirteenth century would spend itself trying to repeat it.",
+            "The race that followed was conducted in metres. Bourges, begun about 1195, answered Chartres with a different perfection — no transept, double aisles stepping up like a staircase of space toward a 37-metre vault. Reims, from 1211, made itself the coronation church in stone, its sculpture the most humane of the age. Amiens, from 1220, raised the tallest complete nave in France at 42 metres, on piers whose slenderness still startles engineers. Beauvais, from 1225, pushed to 48 metres — and its choir vault fell in 1284, the system's one great public failure, rebuilt with doubled piers as a standing warning. In these decades Gothic was not a style among others; it was the research frontier of European civilisation, funded like one.",
+            "Under Louis IX the frontier turned to light itself. The Rayonnant manner — named for the radiating tracery of its rose windows — thinned walls into cages of bar tracery and glass: the royal Sainte-Chapelle of 1248, a reliquary you can stand inside, is its jewel, and the rebuilt nave and transepts of Saint-Denis its manifesto. Structure had now become so predictable that it could be made nearly invisible; what the worshipper saw was a coloured radiance with a stone net drawn across it. Gothic had travelled in a century from Suger's bright choir to buildings that are, in effect, lanterns."
+          ]
+        },
+        {
+          "heading": "The export and the translations",
+          "figure": "strasbourgFacade",
+          "paras": [
+            "The system travelled by the same roads as Romanesque before it — with masons, drawings and monastic orders — but faster, because it was now a system and not a kit. Cologne, begun in 1248, took Amiens' plan and choir and stretched them taller on the Rhine; Strasbourg's west front, from 1277, drew the Rayonnant screen in red sandstone lace. In Spain, Burgos and León imported French masters and French plans, and León filled its French bones with an ocean of glass. In England the import became a national style of its own: Early English linearity at Salisbury, then the curvilinear Decorated, then — England's great original contribution — Perpendicular, all panelled surfaces and fan vaults, which would outlast every continental phase.",
+            "Translation always altered the text. Germany fell for the hall church, aisles and nave at one height, flooding the interior with even light from enormous side windows; the Baltic, having no stone, translated the whole system into brick — St Mary's at Lübeck is a stone cathedral dreamed in clay, and a hundred Hanseatic churches followed it. Italy, which had invented half the components, resisted the system longest: Italian Gothic keeps its walls, loves its frescoes, spreads wide and low under marble stripes and painted vaults, and even Milan — begun 1386 with French and German consultants arguing in its surviving minutes — is less a French cathedral in Italy than a negotiation between two civilisations.",
+            "The style also changed its clients. Romanesque had been the architecture of monks and pilgrims; Gothic became the architecture of bishops, kings and cities. Cathedrals were civic projects now, funded by communes, guilds and indulgences, raced against the cathedral of the next town, and drawn into the self-image of nations — a process still visible in the fact that 'Gothic' would one day be claimed as the national style by France, England and Germany simultaneously, each with some justice."
+          ]
+        },
+        {
+          "heading": "The long afternoon",
+          "figure": "sienaCathedral",
+          "paras": [
+            "After about 1350 the style entered its long, ornate afternoon. France produced Flamboyant — flame-curved tracery, vaults flowering into stone lace at Rouen, Vendôme and a hundred parish churches — while England settled into Perpendicular for nearly two centuries, panel-ling everything from window to wall and spreading fan vaults over cloisters and chapels. Spain and Portugal raised Isabelline and Manueline marvels, Batalha and Belém among them, in which Gothic structure wears ornament of almost Islamic density. None of this was decline in any simple sense: the masons of 1450 could do things the masons of 1250 could not. But the system's great question — how much wall can become window — had been answered, and the later masters were embroidering the answer.",
+            "The end, when it came, came from outside and from ideas. From Italy, beginning in Florence in the 1420s, spread a self-conscious revival of classical antiquity that taught patrons to see pointed arches as barbarism; Vasari, writing in 1550, blamed the manner on the Goths who had ruined Rome, and the insult became the style's name. Northern Europe took the new manner slowly — Gothic and Renaissance share buildings all over France, England and Germany for a century — and in places the old system simply never stopped: Oxford and Cambridge went on building in Gothic, Prague's St Vitus waited unfinished for its nineteenth-century completion, and Cologne's medieval plan still stood on parchment waiting for masons.",
+            "That unfinished state is the bridge to Part IV. A style that ends by being abandoned mid-building is available for resurrection in a way a completed style is not: the nineteenth century could present itself not as imitating Gothic but as finishing it. First, though, the two styles must be set formally side by side — arch against arch, vault against vault, wall against glass. Part II makes the comparison piece by piece."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-arch",
+      "numeral": "V",
+      "title": "The Arch: Round Against Pointed",
+      "sections": [
+        {
+          "heading": "Two geometries",
+          "paras": [
+            "The round arch is a semicircle: one centre, one radius, and a geometry so fixed that its rise is always exactly half its span. It is the arch of Rome, carried into every Romanesque doorway, window and arcade, and its very simplicity is its meaning — the arch as a piece of a circle, the most perfect figure the medieval mind knew. A barrel vault is this arch extended; a dome is this arch revolved; the whole Romanesque world is drawn with a compass opened once. Within that discipline the masons achieved wonderful variety — stilted arches, slightly horseshoe arches in Spain, arches doubled and blind and interlaced — but the semicircular law held for three hundred years.",
+            "The pointed arch is struck from two centres, one for each curve, meeting at the crown in a point. Move the centres apart and the arch rises higher on the same span; bring them together and it flattens toward the round. That freedom is the whole secret. A pointed arch over a nave arcade can be tall or low as the design requires; two arches of different spans can be made to reach the same height, which the semicircle never allows; and the vault above can be level-crowned over oblong bays that would defeat a round-arched builder. The pointed arch is not a decoration but a release — of the plan, of the elevation, and of the vault from the tyranny of the square bay.",
+            "It also behaves differently under load. An arch pushes outward as well as down, and the rounder and flatter the arch, the harder it pushes sideways. The pointed arch, being steeper in its upper reaches, directs more of its thrust downward along the pier and less outward against the wall — not a magical cancellation of thrust, as the nineteenth century liked to claim, but a real and useful bias, which Gothic buttressing then completed. Form and force here are the same fact seen twice: the point is prettier to the Gothic eye and kinder to the Gothic wall, and the style's whole aesthetic of aspiration begins in this piece of practical geometry."
+          ]
+        },
+        {
+          "heading": "The pointed arch before Gothic",
+          "figure": "vezelayNave",
+          "paras": [
+            "The pointed arch was not invented at Saint-Denis, or in France, or in the twelfth century. Islamic architecture had used it for hundreds of years — in the great mosques of the ninth and tenth centuries it is already a signature — and whether its European career began by imitation from the Islamic world, through Sicily, Spain or the Crusades, or by independent engineering logic, remains one of the honest open questions of the field. What is certain is its European apprenticeship inside Romanesque buildings: in the pointed barrel vaults of Burgundy, where Cluny's nave and Autun's were covered with slightly pointed tunnels by the early twelfth century because a pointed barrel thrusts less than a round one.",
+            "Vézelay tells the story in one interior. Its nave, rebuilt after 1120, is covered not by a barrel at all but by groin vaults whose transverse arches are round on one axis and whose whole effect is still massively Romanesque — striped voussoirs, carved capitals, thick walls. Yet two bays of experiments like this stood in every region: at Durham the great rib vaults of about 1100–1130 spring from pointed arches as a matter of structural convenience, under a Romanesque elevation of round arcades. The pointed arch enters history not as a style but as a tool, in the hands of Romanesque masons solving Romanesque problems.",
+            "This is why the arch test of the field method, in Chapter XVIII, is stated with care: pointed arches alone do not make a building Gothic, any more than round arches alone make it Romanesque. What makes Gothic is the arch's promotion — from a convenience inside vaults to the governing figure of the whole design, repeated in window, arcade, portal and vault rib until the building's every line is drawn with the two-centred compass. The difference between the styles, here as everywhere, is not the part but the system the part is made to serve."
+          ]
+        },
+        {
+          "heading": "The arch as signature",
+          "figure": "elyNave",
+          "paras": [
+            "Once promoted, the pointed arch became the most recognisable signature in European architecture — so recognisable that the whole style is still called 'pointed' in older books, and 'ogival' in French, from the ogive, the diagonal rib. Its career within Gothic is a history in itself: the tall, narrow lancet of the early years; the broader, traceried openings of the classical age; the ogee, that double-curved, flame-tipped arch of the Decorated and Flamboyant centuries, which bends the point first one way and then the other until the arch becomes a line of fire. Each phase can be dated by its arches almost as reliably as by documents.",
+            "Romanesque's round arch had a comparable inward career — plain at first, then doubled, cushioned, chevroned and carved until the late Romanesque portal is a tunnel of concentric ornament — but it never changed its species. There is a parable in the contrast. The round arch is a form complete in itself, which ornament can enrich but not transform; the pointed arch is a form with a variable in it, and three centuries of designers played the variable. When the Renaissance revived the round arch as a badge of reason and antiquity, it knew exactly what it was doing: it was choosing the circle — perfection, closure, Rome — against the point, which it had learned to call barbarous.",
+            "Ely Cathedral keeps both arches in one glance: its Romanesque nave marches in round arches under a painted timber ceiling, while at its east end Alan of Walsingham's Octagon and the Lady Chapel beyond belong wholly to the pointed world. Stand in the crossing and turn slowly, and this chapter becomes a panorama. The two arches are not merely two shapes. They are two theories of how a building should stand and what it should say — the semicircle declaring that the building rests, the point declaring that it aspires."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vault-and-wall",
+      "numeral": "VI",
+      "title": "Mass Against Skeleton: Vault, Wall and Buttress",
+      "sections": [
+        {
+          "heading": "The Romanesque bargain: weight for safety",
+          "paras": [
+            "Every stone vault is a bargain with gravity, and the two styles struck it in opposite currencies. The Romanesque bargain was weight. A barrel vault thrusts continuously outward along both sides of the nave; a groin vault concentrates its thrust at the bay's corners but still pushes hard and diagonally. The Romanesque answer was mass in the right places: walls thickened to metres, galleries built over the aisles so that their half-barrel vaults lean against the nave vault like a friend's shoulder, buttress strips applied outside, towers massed over crossings. The building stands because it is heavy, and it looks the way it looks — grounded, fortress-like, small-windowed — because heaviness is its structure made visible.",
+            "The bargain had costs, and the Romanesque paid them knowingly. Thick walls mean dark interiors: every window is a wound in the structure, so windows stay small and high. Great spans were dangerous — vaults fell, at Cluny in part, in countless lesser churches without record — and the surviving masterpieces are precisely those whose mass was calculated with the greatest judgement. But the bargain also bought virtues the Gothic would trade away: acoustic warmth, thermal calm, and a sense of enclosure so complete that the Romanesque interior still feels like the inside of a mountain that has been hollowed for prayer.",
+            "Read Speyer's nave with this bargain in mind and it becomes a diagram. The alternating piers mark the vault bays; the half-shafts rising between them carry the transverse arches; the walls between are filled, almost solid, doing the quiet work of not falling outward. Nothing here is superfluous and nothing is hidden: the Romanesque wall is structure, insulation, defence and image in a single thickness of stone."
+          ]
+        },
+        {
+          "heading": "The Gothic bargain: the skeleton",
+          "figure": "sainteChapelle",
+          "paras": [
+            "The Gothic bargain was distribution. The rib vault breaks the ceiling into a frame of stone ribs and light webs: the ribs gather the loads and deliver them to the four corners of each bay, down the shafts of the pier to the ground. What thrust escapes sideways is met outside the building by the buttress — first a simple pier of masonry against the outer wall, then, as clerestories grew taller and thinner, the flying buttress, a half-arch of stone that leaps the aisle roof and carries the thrust to a freestanding pier, itself weighted down by a pinnacle. Structure leaves the wall and stands outside in the weather, like scaffolding that was never taken down because the building needs it forever.",
+            "Once loads travel by these defined paths, the wall between them is unemployed — and the Gothic spent the unemployment on glass. This is the causal chain at the heart of the style, and it is worth stating without romance: rib, point and flyer do not make a church beautiful; they make its walls unnecessary, and beauty rushed into the vacancy. At Sainte-Chapelle the chain reaches its logical end: the upper chapel is a cage of piers, buttresses and iron ties in which the wall surfaces are simply windows, fifteen of them, and the stone exists to hold the glass the way a setting holds jewels.",
+            "The skeleton was never quite as rational as its admirers claimed. Real Gothic vaults lean on their webs as much as their ribs; many ribs are half decoration; flying buttresses sometimes push where no thrust requires them, added because the silhouette demanded them. Viollet-le-Duc's beautiful theory of the perfectly articulated frame is a nineteenth-century idealisation of a much more empirical medieval practice, in which masons worked by rule of thumb, precedent and nerve. The skeleton is real, but it is a tendency perfected by trial, collapse and correction — Beauvais standing as the permanent reminder that the corrections sometimes came too late."
+          ]
+        },
+        {
+          "heading": "Two kinds of honesty",
+          "figure": "beauvaisChoir",
+          "paras": [
+            "It is sometimes said that Gothic is the honest style because it shows its structure, and Romanesque the dishonest one because it hides its strength in walls. The comparison does not survive a visit to either. The Romanesque wall is nothing but honesty: what you see — mass — is exactly what holds the building up. And Gothic is full of beautiful deceptions: shafts that carry nothing, ribs applied to timber ceilings, buttresses built as ornaments, pinnacles whose real job is to be weights disguised as flames. Each style tells the truth in its own tense — Romanesque in the present tense of mass, Gothic in the future tense of a diagram.",
+            "Beauvais is the place to end this chapter, because it is where the Gothic bargain was pushed past its limit in public. The choir completed in 1272 rose 48 metres, the tallest vault of the Middle Ages; twelve years later it fell. The rebuilding doubled the piers, halved the bays, and stands today, a choir of heartbreaking beauty permanently braced by its own correction. The transept and nave were never built; a vast sixteenth-century spire rose and fell in its turn. Beauvais is not a failure of the Gothic idea but its boundary stone: the point at which the skeleton's arithmetic, in medieval hands, ran out.",
+            "Between Speyer's confidence in weight and Beauvais' confidence in distribution lie three centuries of experiment that no other pre-industrial culture matched. The modern engineer, reading both buildings, recognises colleagues. The modern visitor, reading them, recognises something simpler: that a wall can be a protagonist. In Romanesque it is; in Gothic it abdicates in favour of light — and light is the next comparison."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "light",
+      "numeral": "VII",
+      "title": "Light: The Painted Wall and the Wall of Glass",
+      "sections": [
+        {
+          "heading": "The Romanesque interior: gloom as a medium",
+          "paras": [
+            "Step from a summer street into a Romanesque nave — Saint-Sernin, Speyer, Durham on a bright morning — and the first sensation is of dusk. The small, high windows admit blades and pools of light rather than illumination; the eye adjusts slowly; carved capitals emerge from shadow as you approach them. This gloom was partly necessity — structure forbade larger holes — but it became a medium in its own right, and the Romanesque filled it with the arts that thrive in low light: wall painting, mosaic, candlelight on gold. The interior was not meant to be seen all at once. It was meant to be explored, the way its sculpture was meant to be read: slowly, in parts, by a moving worshipper.",
+            "Paint was the Romanesque window. Where Gothic would put coloured glass, Romanesque put coloured walls: Saint-Savin-sur-Gartempe keeps the greatest of these schemes, a barrel vault painted bay by bay with the stories of the Old Testament, Noah's ark sailing over the nave like a tapestry unrolled in the air. Pilgrimage churches and crypts across Europe were once covered in such painting — almost all of it now lost to whitewash, damp and restoration — and the bare stone interiors we admire today would have struck their builders as unfinished, a book with its illuminations scraped off. The Romanesque interior was not austere. It was illustrated.",
+            "Gold did in the south what paint did in the north. In the Norman kingdom of Sicily, the apses of Cefalù and Monreale blaze with Byzantine mosaic — Christ Pantocrator filling the semi-dome in gold tesserae that catch candlelight and move as the viewer moves. Light in the Romanesque world is precious because it is scarce and because it is mediated: through paint, through gold, through the smoke of incense and the flame of the altar candles. It is light as treasure, hoarded in the sanctuary."
+          ]
+        },
+        {
+          "heading": "Lux continua: Suger's programme",
+          "figure": "chartresGlass",
+          "paras": [
+            "Suger changed the valuation of light itself. His writings on Saint-Denis return again and again to lux — light as the first of God's emanations, the medium by which 'the dull mind rises to truth through that which is material'. The chevet of 1144 was engineered to enact the doctrine: an uninterrupted ring of windows, 'the whole sanctuary shining with wonderful and uninterrupted light'. Where the Romanesque window is an incident in a wall, the Gothic window is the wall's replacement, and stained glass — glass coloured in the mass, painted with detail, leaded into fields of ruby and blue — turns the replacement into a narrative surface more durable than paint and brighter than mosaic.",
+            "The technology and the theology grew together. Glaziers learned to hold ever larger sheets in ever thinner armatures of stone and iron; the bar tracery of the Rayonnant age is, among other things, a glazing system. Donors — guilds, kings, canons — signed their gifts in the windows' lower lights: the famous signature panels of Chartres, where bakers, shoemakers and money-changers appear beneath the saints they paid for. A Gothic cathedral interior in full sun is a library that reads itself aloud in coloured light, and everyone in the Middle Ages who wrote about it reached for the language of jewels: the church as a casket of sapphires and rubies, the worshipper inside the gem.",
+            "The cost should also be recorded. A wall of glass is a wall that leaks heat, weathers fast and must be maintained forever; medieval congregations worshipped in coloured cold, and glaziers' workshops became permanent departments of the great churches. Nor is Gothic light always kind: the nineteenth century's taste for ever-denser stained glass darkened many interiors their builders had meant to be pale and bright. Light, in the Gothic system, is not the absence of wall. It is a building material with its own budget, its own craft and its own decay."
+          ]
+        },
+        {
+          "heading": "Reading light in the two styles",
+          "figure": "saintSavinFresco",
+          "paras": [
+            "The contrast can be tested in the body. In a Romanesque church your eyes work at the speed of a candle: the building reveals itself in sequence — a capital here, a painted vault there, the shrine's glint in the dark of the choir — and the architecture's mass is always present around the light like a hand around a flame. In a Gothic church the revelation is simultaneous: the whole vessel is visible at once, its structure legible, its glass burning at the periphery of vision, and the individual artwork — a statue, an altarpiece — must fight the general radiance for your attention. Romanesque light is narrative; Gothic light is atmospheric.",
+            "Each style, at its edges, borrows the other's effect. Late Romanesque churches in the south — in Provence and Spain — admit a hard, bright light through larger windows that already behaves like Gothic illumination; Cistercian Gothic, by deliberate poverty, refuses glass and colour and returns to a Romanesque dusk of clear-glazed grisaille and white walls. The Cistercians are the standing proof that the difference is a choice before it is a technique: the same generation that built Chartres' blaze also built Le Thoronet's silence, in full knowledge of both.",
+            "For the reader in the field, light is the most treacherous of the five signs, because it varies with hour, season and weather — Durham in November gloom is more 'Romanesque' than Vézelay at June noon ever is. Use it as the chapters that follow use it: as a corroborating witness. Where mass, small windows and painted surfaces agree, the light will be Romanesque whatever the sun is doing; where skeleton, tracery and glass agree, no winter afternoon can make the building anything but Gothic."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plan-and-tower",
+      "numeral": "VIII",
+      "title": "Plan and Skyline: The Long Church Twice",
+      "sections": [
+        {
+          "heading": "The pilgrimage plan and the radiant plan",
+          "paras": [
+            "Stand above the two styles in imagination — in the plan, where architects think — and the kinship comes first. Both are long churches: a nave with aisles, a crossing, transepts, a choir, an eastern arm for the altar. The cross-shaped plan was not invented by either style; it was inherited from the early church and the Carolingians, and both Romanesque and Gothic stretched their cathedrals on the same frame for the same liturgy. The differences lie at the ends of the cross — above all at the east end, where each style solved the problem of the shrine in its own image.",
+            "The Romanesque east end is a procession. The pilgrimage plan — Santiago, Saint-Sernin, Saint-Martial as was, Sainte-Foy at Conques — surrounds its apse with an ambulatory and a bouquet of radiating chapels, each chapel an altar, each altar a relic, the whole east end a machine for circulating crowds past holiness in an orderly river. English Romanesque preferred a different ending, the long square-ended choir of Durham and the Saxon tradition behind it; German Romanesque doubled the whole composition, with choirs and transepts at both ends, a church with two faces like the empire that built it.",
+            "The Gothic east end is a radiance. At Saint-Denis the chapels of the ambulatory were fused into one continuous ring of light; at Chartres and Amiens the chevet became a crown of tall chapels and flying buttresses, the plan's most complex geometry and the skyline's most intricate silhouette. English Gothic, characteristically, kept the square east end and made a virtue of it — Salisbury's and Lincoln's flat walls of glass close the vista like a screen — while the great Lady Chapels stretch the plan eastward into a second church. The plan alone, like the arch alone, will not date a building; but the east end is where the two styles sign their names largest."
+          ]
+        },
+        {
+          "heading": "West fronts: the screen and the towers",
+          "figure": "laonTowers",
+          "paras": [
+            "The west front is each style's public face, and the two faces have different expressions. The Romanesque west front is a fortress gate: at its plainest a wall with a door and a round window; at its richest — Pisa, Angoulême, Poitiers — a screen of arcading and sculpture spread across the front like a reredos, horizontal in feeling, the towers, where they exist, subordinate to the wall. Even the great twin-towered fronts of Norman Caen keep the fortress temper: the towers are bastions that happen to hold bells.",
+            "Gothic takes the same front and sets it climbing. The twin towers of Chartres, Paris and Reims are now the vertical termini of a composition that rises from portal to gable to spire in one acceleration; the rose window opens the wall's centre to a wheel of glass; galleries of kings and arcades of tracery draw horizontal lines only to emphasise the ascent they interrupt. Laon's towers — which Villard drew with their stone oxen, the beasts that had hauled the material — crown the type: open, arcaded, inhabited towers, architecture become a small city in the air. The west front has become a skyline in itself.",
+            "Within Gothic the front keeps evolving after the plan has settled: Strasbourg's single spire over a screen of lace, Rouen's Flamboyant gables piled like a reliquary, Salisbury's spire — the tallest in Britain, added to a modest crossing tower and visibly bending under its own ambition ever since. The skyline becomes a civic signature, fought over by towns and chapters. Romanesque towers speak of defence and bells; Gothic towers speak of rivalry and aspiration. The five-sign method of Chapter XVIII begins with the silhouette because, of all the signs, it is the one the builders themselves competed in."
+          ]
+        },
+        {
+          "heading": "The secular plan: one church, many masters",
+          "figure": "salisburySpire",
+          "paras": [
+            "A final plan-truth keeps the comparison honest: neither style belonged to the church alone in its planning intelligence. The cruciform, aisled, vaulted vessel was adapted — as Chapter XIII will show — to chapter houses, refectories, hospitals, castles and town halls, and the masons who moved between commissions carried the grammar with them. A thirteenth-century infirmary hall and a cathedral nave are cousins; a castle keep and a church tower are brothers. The styles were not church fashions but the constructional language of an entire civilisation, spoken most fluently in its churches because churches had the money and the permanence.",
+            "The plans also record the clients' changing world. Romanesque plans serve processions of monks and pilgrims: choirs enclosed for the office, ambulatories for the crowd, crypts for the relics — circulation patterns of a church that owned the sacred and rationed access to it. Gothic plans open: screens lower, chapels multiply for guilds and chantries, porches become civic rooms, and the great west doors stand open to a square the town regards as its own. The architecture of access changes with the society's theology, and the plan — that driest of drawings — turns out to be a social document.",
+            "For the field reader, the practical lesson is to walk the plan before judging the elevation. Note the east end's shape, the number of towers intended against the number built, the presence of an ambulatory, the length of the choir. Buildings were rebuilt in campaigns, and a Gothic choir inside a Romanesque nave — Canterbury, Gloucester, a hundred parish churches — is not a muddle but a biography. The styles meet in plans more often than anywhere, which is why Part III gives their meeting places a chapter of their own."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sculpture",
+      "numeral": "IX",
+      "title": "The Carved Sermon: Capitals, Tympana and Jamb Statues",
+      "sections": [
+        {
+          "heading": "Romanesque sculpture: the wall grows faces",
+          "paras": [
+            "Romanesque sculpture was a resurrection. For six centuries the Latin West had carved almost nothing in the round; around 1100, suddenly, its churches bloom with stone figures — on capitals, corbels, portals and cloisters — as if a dam had broken. The figures obey the architecture first and anatomy second. A prophet on a trumeau bends because the trumeau bends; Christ in a tympanum stretches to fill the semicircle, his drapery drawn into rhythmic folds that are really a pattern before they are cloth; bodies lengthen, heads shrink, hands enlarge to carry their gestures. Modern eyes once called this primitive. It is, in fact, a perfect fit of image to field: sculpture as one substance with the wall, charged with symbolic rather than physical truth.",
+            "The subjects are the whole medieval syllabus. The great tympana preach the ends of things — Christ in Majesty at Moissac, the Last Judgment at Autun, the Mission of the Apostles at Vézelay — because the portal is where the world is left and judgment begins. Capitals inside carry Bible histories, the labours of the months, acrobats, monsters and moralised beasts from the bestiaries, carved small and close for monks reading in the cloister's walk. The sculpture is a library for a society of few books, but it is also delight: no merely didactic programme explains the grin on a Moissac elder or the energy of the lions climbing its trumeau.",
+            "Gislebertus of Autun, who signed his tympanum, is the name we keep for a hundred anonymous lodges. His elongated Christ, weighing souls while the apostles lean in anxiety around him, shows Romanesque carving at its extreme: the figure is calligraphy, every line of drapery a stroke in an alphabet of awe. Stand before Autun and then before the Royal Portal at Chartres, carved within a generation, and the whole passage from one style to the other can be read in the single question of what a body is."
+          ]
+        },
+        {
+          "heading": "Gothic sculpture: the figure steps forward",
+          "figure": "santiagoPortico",
+          "paras": [
+            "The Royal Portal of Chartres, carved about 1145–55 for the west front Suger’s generation built, is the hinge. Its jamb statues are still columnar — tall, frontal, their drapery falling in fine vertical lines, fused with the architecture they stand in. But their faces have a new, grave individuality, and their feet rest on small carved worlds. Within decades the figures begin to move: at Reims the Visitation group converses in classical drapery, the angel of the Annunciation smiles — the famous Ange au Sourire — and by the Strasbourg transept the Church and the Synagogue stand like two beautiful women in a courtly argument. Sculpture has left the wall and entered the world, a full generation before painting would do the same.",
+            "The change is sometimes described as naturalism arriving, and so it is — but it is also theology changing its mind. Romanesque sculpture serves a God of judgment, remote and majestic, its figures signs in his court. Gothic sculpture, as the thirteenth century warms, admits a God who suffers and a mother who grieves: the Beau Dieu of Amiens blesses with a human hand, the Vierge Dorée inclines her head. The figure's growing body — weight, cloth, gesture, glance — is the sculptural form of the same century that produced Francis of Assisi and the mendicant preachers. Style here is not a fashion laid over belief; it is belief discovering a new temperature.",
+            "Spain keeps the finest counterweight to the French story. Master Mateo's Pórtico de la Gloria at Santiago, finished by 1217, is Romanesque in its architecture — round arches, a pilgrimage church's west end — but its two hundred figures already breathe the Gothic air: apostles who turn to one another, a St James who receives the pilgrim with a human weariness, drapery with weather in it. The Pórtico is the transition carved in one portal, and pilgrims still lay their fingers in the worn hollows of its Tree of Jesse, as their ancestors did, to receive the saint's blessing at the journey's end."
+          ]
+        },
+        {
+          "heading": "Ornament: the chevron and the leaf",
+          "figure": "autunTympanum",
+          "paras": [
+            "Between the great figures runs the ornament, and here the two styles keep their clearest daily signatures. Romanesque ornament is geometric and repetitive where it is not figural: the chevron or zigzag that Norman masons cut around arches until the moulding itself vibrates, billet and lozenge and cable, blind arcading that gives a blank wall a pulse. Its capitals retell the Corinthian acanthus as fantasy — leaves becoming birds, men, masks — in a carving tradition where invention is licensed precisely because the field is small and the frame is firm.",
+            "Gothic ornament turns to the leaf itself. Early Gothic capitals keep the Romanesque basket but fill it with crockets — stiff, curling leaf-knobs — and then, in the classical decades, with carved foliage of a startling botanical accuracy: oak, ivy, hawthorn, vine, each species recognisable, as at Reims and in the chapter house at Southwell, where the 'leaves' have been a naturalists' field trip for seven centuries. Tracery extends the same impulse to the scale of the window: circles, foils and daggers of stone drawn with a geometer's joy. Where Romanesque ornament is a pattern, Gothic ornament is a growth — the paradox being that the growth is achieved by the most rigorous geometry in medieval art.",
+            "For the field reader the practical test is temperature. Romanesque carving, even at its most violent, stays flat against its wall, woven into the surface like embroidery; Gothic carving projects, undercuts and casts shadows, colonising the space in front of the wall. Run the sequence at one great west front — Chartres again, Royal Portal against the transept porches — and you have walked seventy years of European sculpture in forty metres of stone. The styles are easiest to confuse in their structures, where the transition was gradual; in their carving, at their best, they are never confused at all."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "romanesque-regions",
+      "numeral": "X",
+      "title": "Romanesque Regions: A Europe of Dialects",
+      "sections": [
+        {
+          "heading": "France: Burgundy, the Auvergne, the South",
+          "paras": [
+            "France was Romanesque's laboratory, and its provinces ran different experiments. Burgundy built high and carved deep: pointed barrel vaults at Cluny and Autun, the pilgrimage plan perfected at Paray-le-Monial, sculpture of an unmatched intensity at Vézelay and in the cloister capitals of a hundred abbeys. The Burgundian church aims at the Romanesque sublime — tall, dark, dense with imagery — and its engineers' daring (Cluny's vault stood over a 30-metre nave) set the technical agenda from which Gothic would start. To walk Burgundy is to walk the style's research institute.",
+            "The Auvergne, poorer and more remote, built in patterned volcanic stone and piled its east ends into the most beautiful silhouettes of the age: at Notre-Dame-du-Port, Saint-Nectaire and Orcival the chevet rises in steps — chapels, ambulatory, choir, octagonal tower — like a small city ascending. Provence, by contrast, looked backward to the Rome in its own soil: at Saint-Trophime in Arles and Saint-Gilles the carving is almost classical, the plans simple, the light Mediterranean; Provençal Romanesque is the style remembering its surname. Poitou and the west covered its fronts with screens of sculpture — Notre-Dame-la-Grande at Poitiers is a tapestry in stone — and vaulted its churches with domes on pendentives along the pilgrim roads, an eastern technique naturalised in the west at Angoulême, Cahors and Périgueux.",
+            "The lesson of the French provinces is that 'Romanesque' named a conversation, not a template. Each region worked the shared kit — round arch, masonry vault, sculptured portal — with local stone, local money and local saints, and the results differ as much as the regions do. The nineteenth-century scholars who invented the style's name already saw this: the École's classifications by regional 'schools' remain the map on which the style is still taught, because the map is true."
+          ]
+        },
+        {
+          "heading": "The Empire and Italy",
+          "figure": "mariaLaach",
+          "paras": [
+            "The German lands built the Romanesque of power. The imperial cathedrals of the Rhine — Speyer, Mainz, Worms — are the style's largest statements, double-choired and multi-towered, their naves groin-vaulted on a colossal scale. Rhineland churches keep a taste for the westwork and the dwarf gallery, the open arcaded band under the eaves that Lombard masons had invented and the Rhine made its own. Maria Laach, consecrated in 1156 on its crater lake, gathers the whole dialect into one perfect abbey: six towers, two choirs, a western paradise porch — Romanesque as a small fortified heaven, complete in itself, two generations after Gothic had begun elsewhere.",
+            "Italy went its own way longest and most variously. Lombardy — Milan's Sant'Ambrogio above all — claims the rib vault's early mastery and exports masons over the Alps. Tuscany classicised: Pisa's marble group, Florence's Baptistery and San Miniato, where inlaid marble geometry keeps the classical past visibly alive inside a Romanesque shell. The south mixed everything: Norman Sicily's Monreale and Cefalù wed a Latin basilica to Byzantine mosaicists and Fatimid ceiling-painters, while Apulia's ports carved a Romanesque of their own for pilgrims embarking to Jerusalem. Italian Romanesque is less a school than a negotiation — with antiquity underfoot, with the sea at the door, with empires in the family.",
+            "Spain, finally, built Romanesque as a frontier and a road. The Camino's churches — Jaca, Frómista, San Isidoro at León with its painted royal pantheon, Santiago itself — served an international traffic of pilgrims and a monarchy pushing south; Catalan masons in the Pyrenees raised the purest 'first Romanesque' of all, Lombard-banded towers over tiny stone valleys at Boí and Taüll. When the frontier moved, the style moved with it, into castle-churches and the military orders' keeps — a reminder that this architecture of pilgrimage was also, always, an architecture of war."
+          ]
+        },
+        {
+          "heading": "England: the Norman dialect",
+          "figure": "angoulemeCathedral",
+          "paras": [
+            "England's Romanesque arrived by conquest, and it shows. After 1066 the Normans rebuilt nearly every English cathedral and great abbey within two generations — Canterbury, Winchester, Durham, Norwich, Ely, St Albans — on a scale and with a uniformity no other province matches: the longest naves in Europe, marching in severe bays of round arches, the walls thick, the ornament — chevron above all — cut with a soldierly crispness. 'Norman' is the dialect's English name, and the buildings earn it: this is Romanesque as an instrument of occupation that became, within a century, the beloved native manner of the occupied.",
+            "Durham is the dialect's masterpiece and, as Chapter XII will show, the transition's laboratory. But the English story has a second register: the parish churches, thousands of them, where Norman doorways with their chevron and beakhead carving survive in villages that never saw a cathedral. Romanesque in England is the most democratically distributed of the great styles, precisely because the Conquest that imposed it also endowed it everywhere. When Gothic came, it came to a country whose every parish already had a stone church to rebuild — which is why England, alone, lets you watch the two styles negotiate in nearly every town.",
+            "Angoulême's west front, pictured here, makes the French counterpoint: a screen of arcaded sculpture spread wall-wide, all surface and sermon, where an English front of the same date is all wall and door. The dialects differ in temper as much as in detail — France carving its fronts into altarpieces, England keeping its fronts as gates — and the comparison habit this book teaches begins exactly here, in learning that one style can speak with several accents and still be itself."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gothic-nations",
+      "numeral": "XI",
+      "title": "Gothic Nations: One Style, Many Flags",
+      "sections": [
+        {
+          "heading": "France: the mother country argues with itself",
+          "paras": [
+            "France remained Gothic's mother country for three centuries, and her internal argument set the style's phases. The classical settlement of Chartres and Amiens gave way, by the 1240s, to Rayonnant — the court style of Louis IX, in which bar tracery and glass dissolve the wall and every surface is drawn as a net of stone lines. Rayonnant was exported as a package: to Cologne, to León, to the choirs of a hundred abbeys. After the catastrophes of the fourteenth century — plague, war, schism — France answered with Flamboyant, a style of flame-curved tracery and vaults of fantastic complication, as if the system, forbidden new ground, had decided to conquer ornament instead.",
+            "The French sequence — Early, Classical, Rayonnant, Flamboyant — is the textbook's spine because France invented both the system and its refinements, and because French masons were the age's mercenaries, hired from Cyprus to Castile. But the sequence also hides the provinces' persistence: the south kept its wide, single-naved Gothic (Albi's fortress-cathedral of brick is a world of its own), the Cistercians kept their severity, and parish France went on building a sturdy provincial Gothic long after Paris had changed the fashion twice.",
+            "What France never did was stop. From 1140 to 1520 there is no decade without a great French Gothic work rising somewhere, and the unbroken chain of lodges — master succeeding master, templates handed down, Villard's generation teaching Parler's teachers — is the institutional secret of the style's coherence. Gothic coherence is not the coherence of a theory. It is the coherence of a profession that never dispersed."
+          ]
+        },
+        {
+          "heading": "England and the Empire: the two great translations",
+          "figure": "lubeckMarien",
+          "paras": [
+            "England translated Gothic into the most independent of the national manners. Early English (c. 1175–1300) is leaner and longer than its French parent — Salisbury, built in one campaign from 1220, with its needle spire and cloistered close, is its serene type. Decorated (c. 1290–1350) loosened tracery into flowing curves and multiplied vault ribs into stars and nets — Exeter's long palm-vault, Ely's Octagon, the most daring timber-and-stone structure of the English Middle Ages. Perpendicular (from the 1330s) then did something no other Gothic did: it simplified. Panel tracery, four-centred arches, vast windows in grids, fan vaults — a style of crystalline order that ran for two centuries and into the Tudor age, the longest-lived Gothic dialect of all.",
+            "The Empire translated differently. German Gothic fell in love with the hall church — nave and aisles at one height, the interior a single luminous hall — and with the single-towered west front, of which Freiburg's spire, a stone lace pyramid of the fourteenth century, is the perfected type. In the north, the Hanseatic cities translated everything into brick: St Mary's at Lübeck, its twin towers and 38-metre brick vault the tallest of their kind, mothered a family of brick cathedrals around the Baltic from Stralsund to Tallinn, in which every French detail — tracery, gablet, pinnacle — is re-invented in fired clay. Brick Gothic is the translation argument at its strongest: the system survives the total substitution of its material.",
+            "Spain and Italy complete the map of translations. Spain took the French system whole — Burgos and León are French cathedrals on Spanish soil — then luxuriated: Isabelline ornament under the Catholic Monarchs, Manueline rope-and-coral carving in Portugal, and in Catalonia a Gothic of enormous single spans, Girona's nave the widest Gothic vault ever built. Italy, as ever, negotiated: Siena and Orvieto dress wide, frescoed interiors in polychrome fronts; Florence raises its cathedral in a Gothic it half distrusts until Brunelleschi caps it with a Renaissance dome; Milan argues for five centuries. The map of Gothic is not France and her colonies. It is a federation of schools, and the federation is the style's second invention."
+          ]
+        },
+        {
+          "heading": "What the nations teach the comparison",
+          "figure": "batalha",
+          "paras": [
+            "The national schools matter to this book's method because they set the limits of every generalisation. 'Gothic walls are glass' — except in Italy, where they are fresco. 'Gothic is vertical' — except in Catalonia, where it is horizontal span that astounds. 'Romanesque is fortress-like' — except at Pisa, where it is a marble arcade open to the sky. The five signs of Chapter XVIII are drawn from the French-English centre of the story because that is where the contrast is sharpest; the honest reader carries them abroad as hypotheses, not verdicts, and lets each region vote.",
+            "Batalha, pictured here, is the federation in one building: founded by João I in thanks for the victory of Aljubarrota in 1385, built by Portuguese masters and then by Mateus Fernandes, whose Unfinished Chapels portal is Flamboyant carving at tropical density — French grammar, English Perpendicular touches, and an ornament of ropes, armillary spheres and coral that could belong to no country but the Portugal of the Discoveries. A style that can absorb a nation's whole mythology of the sea has ceased to be an import. It has become, in the fullest sense, national.",
+            "By 1500, then, the map was complete and the styles' geographies inverted: Romanesque, born everywhere at once, is remembered by its regions; Gothic, born in one abbey, is remembered by its nations. Part III closes with the two places where geography dissolves into time — the buildings where the styles meet — and with the secular stone both of them built, before Part IV takes up their endings and returns."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meeting-places",
+      "numeral": "XII",
+      "title": "The Meeting Places: Buildings of the Transition",
+      "sections": [
+        {
+          "heading": "Durham: the future inside the fortress",
+          "paras": [
+            "Durham Cathedral, begun in 1093, is the most instructive building in this book, because it refutes in advance every simple version of the comparison. Its body is the supreme Romanesque fact in England: piers of almost geological mass, carved with chevrons, diamonds and spirals; round arcades; a fortress silhouette over the Wear. Yet its masons covered the choir (by about 1104) and then the nave (by about 1133) with rib vaults — the earliest high rib vaults in Europe to survive — and those ribs spring from pointed arches, because over the nave's oblong bays only pointed arches would crown at one height. The two devices that define Gothic structure were thus at work, at full scale, a decade before Suger was abbot of anything.",
+            "Why, then, is Durham Romanesque and not Gothic? Because a style is a system of intentions, not a parts list. At Durham the rib and the point serve the wall: they exist to vault a Romanesque interior more safely, and the interior they make is Romanesque in every effect — massive, shadowed, its windows small, its sculpture fused with its piers. Nothing at Durham aspires to dissolve the wall; everything conspires to celebrate it. The same devices at Saint-Denis, a generation later, were pointed at the opposite intention — the wall's abolition — and that difference of intention, visible in the light, is what the word 'Gothic' finally names.",
+            "Durham is not unique, only supreme. Across the frontier zone — roughly 1080 to 1180 — the same negotiations recur: the ribbed nave of Lessay, the sexpartite vaults of Caen, the pointed barrels of Burgundy, the Cistercian churches of Burgundy and Provence that mix Romanesque plans with Gothic details in a deliberate poverty. The frontier is where the comparison is learned, because there the elements can be watched changing their allegiance one by one, like border towns in a long war that neither side quite declared."
+          ]
+        },
+        {
+          "heading": "Canterbury and Sens: the style crosses water",
+          "figure": "canterburyNave",
+          "paras": [
+            "If Durham is the transition as evolution, Canterbury is the transition as event. The choir that William of Sens built after the fire of 1174 is not Romanesque growing Gothic features; it is a French building landed in England — quadripartite ribs, pointed arcades, flying buttresses, shafts of dark Purbeck marble against pale Caen stone — set down inside the surviving Romanesque shell of the nave and transepts, which it would take later centuries to replace. Walk east at Canterbury and you cross the frontier inside one building, at the screen: behind you the round-arched Norman nave, before you the new French vessel, and the join is not hidden but staged.",
+            "Sens, William's own cathedral, tells the same story on French soil a generation earlier: a Gothic choir and nave of the 1140s–60s whose sexpartite vaults and massive piers still breathe Romanesque air, the system assembled but not yet thinned to its classical lightness. Sens and Canterbury — the master came from one to the other — are the twin exhibits of the style in transit: Gothic still wearing Romanesque weight, the way a young language is spoken with its parent's accent.",
+            "The Cistercians were the transition's third carrier, and its conscience. The order's twelfth-century churches — from Burgundy to Yorkshire's Fountains and Rievaulx — adopted pointed arches and rib vaults early, for their structural convenience, while refusing glass, towers and ornament on principle. The result is a family of buildings that defeat the style labels by design: Gothic engineering in Romanesque dress, or Romanesque severity with Gothic bones. Their beauty — anyone who has stood in Le Thoronet or Senanque knows it — is the standing rebuke to any account of the transition as a simple progress from dark to light."
+          ]
+        },
+        {
+          "heading": "Monreale: the meeting of civilisations",
+          "figure": "monrealeInterior",
+          "paras": [
+            "The transition was not only between two Christian styles. At Monreale in Sicily, founded by William II in 1174 — the very year of Canterbury's fire — a Latin basilica of Romanesque descent received an apse filled with Byzantine mosaic: Christ Pantocrator in gold, twelve metres across, above ranks of saints in the Greek manner, in a church whose cloister capitals are carved by masters trained in Provence and Arabia. Norman kings ruled an island of Greek Christians, Arab craftsmen and Latin clergy, and their cathedrals — Cefalù, Palermo, Monreale — are the meeting place of all three civilisations at once.",
+            "Monreale matters to this book because it shows what a 'style' is at the edges of the map: not a bloodline but a settlement among available hands and materials. The pointed arches in Monreale's nave are Saracenic in ancestry, its mosaics Constantinopolitan, its plan Benedictine. To ask whether it is Romanesque or Gothic is to ask the wrong question in the most beautiful place in Europe; the right question is which elements serve which intention — and at Monreale the intention is royal: a Norman dynasty wrapping itself in every majesty the Mediterranean could supply.",
+            "Keep Monreale in mind when the field method of Chapter XVIII meets a building it cannot file. The styles this book compares are real, and the method works; but the Middle Ages were wider than the comparison, and their greatest buildings sometimes stand, like Monreale, at the crossing of three worlds — where the honest answer is not a label but an itinerary."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "secular-stone",
+      "numeral": "XIII",
+      "title": "The Secular Stone: Keeps, Castles and Town Halls",
+      "sections": [
+        {
+          "heading": "The Romanesque keep: the church's brother",
+          "paras": [
+            "The Romanesque was never only a church style, and its most characteristic secular building is as massive as any cathedral: the keep. The White Tower at the Tower of London, raised by William the Conqueror about 1078–97 in pale Caen stone, is a church's brother in everything but programme — the same thick walls, round-headed windows in tiers, flat buttresses and a first-floor chapel (St John's, among the purest Norman interiors anywhere) carried inside a fortress. Castle Hedingham in Essex, Rochester, the mighty keep at Norwich: the type is a stone fist, its architecture the direct expression of a military aristocracy holding conquered land.",
+            "The domestic Romanesque survives more thinly — a Jew's House in Lincoln, a merchant's hall, the undercrofts and gatehouses of abbeys — but the pattern is constant: round arches, small windows, sculpture at the door. Civil Romanesque is church Romanesque at a lower budget and a higher state of alert, and it matters to the comparison because it proves the style was a civilisation's general masonry language, not a liturgical costume. When the parish church and the lord's tower speak the same forms, the forms belong to the age, not to the altar.",
+            "The town, too, begins in this world: the market crosses, the first guildhalls, the bridges with their chapels and their tolls. But the town would come into its architectural inheritance only with the second style — the civic centuries are Gothic centuries — and the contrast between the keep and the town hall is the secular form of this book's whole argument: mass that defends against glass that displays."
+          ]
+        },
+        {
+          "heading": "The Gothic town: glass goes civic",
+          "figure": "towerOfLondon",
+          "paras": [
+            "The Gothic town hall is the cathedral's civic answer. Brussels' Hôtel de Ville, raised in the fifteenth century on the Grand-Place, lifts a 96-metre tower of stone lace over the market square — a spire for a corporation, with the market's wealth carved into its facade; Bruges, Ypres, Leuven and a dozen Flemish and German towns competed in the same currency of carved town halls and cloth halls, while Florence and Siena raised their palazzi with fortress towers turned into civic campanili. The pointed style, born in a royal abbey, became the uniform of urban self-government.",
+            "Inside the towns, Gothic built the whole infrastructure of a commercial civilisation: hospitals with cathedral-scale halls (the Hôtel-Dieu at Beaune, Tonnerre's vast ward), exchanges and cloth halls, bridges with houses on them, warehouses, guild chapels, university colleges at Oxford, Cambridge, Paris and Prague whose chapels and halls are small cathedrals of learning. The chapter house — Westminster's octagon, York's, Salisbury's — deserves its own mention: a secular assembly room vaulted and glazed like a chapter of the cathedral itself, where the forms of the choir serve debate instead of liturgy.",
+            "Castles, meanwhile, went Gothic as they went concentric: Edward I's Welsh fortresses — Harlech, Conwy, Caernarfon, Beaumaris — are the military masterpieces of the Gothic age, their geometry as rigorous as any cathedral's, and Caernarfon's banded walls quote Byzantium for a king dreaming of empire. The keep of 1100 is one man's fist; the castle of 1290 is a system. The secular evidence, read whole, repeats the sacred: Romanesque concentrated its strength in mass, Gothic distributed its strength in systems — and both did it as readily for war and trade as for God."
+          ]
+        },
+        {
+          "heading": "Houses, and the lesson of the ordinary",
+          "figure": "brusselsTownHall",
+          "paras": [
+            "Ordinary building is the honest test of a style's reach, and here the evidence is uneven in an instructive way. Stone houses of the Romanesque centuries survive rarely — towns burned, prospered and rebuilt — but enough remain, from Cluny's merchants' houses to Lincoln's, to show the round arch at the scale of a door and a shop window. Gothic houses survive in crowds: the timber-framed, jettied streets of York, Rouen, Chester and a thousand German towns wear pointed doorways, traceried windows and carved beams as the ordinary dress of prosperity. Gothic is the first of our two styles to become vernacular — to descend from the monument into the street.",
+            "That descent matters for how the styles are remembered. Romanesque lives in its masterpieces and in parish churches; Gothic lives everywhere, in the grammar of the European old town, so deeply that the nineteenth-century city could mistake it for nature and set about 'completing' it. When Part IV turns to the revivals, remember the town halls and the jettied streets: the Gothic that Pugin and Viollet-le-Duc revived was not an archaeologist's style but a surviving urban language, still legible, still warm.",
+            "The Brussels town hall tower, pictured here, is the secular argument's emblem — a belfry that is also a spire, raised by a city council with a cathedral's ambition and a merchant's purse. Romanesque had built such towers for God and for kings. Gothic built them for committees. The styles differ in many things; in their patrons, in the end, they differ in everything."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-endings",
+      "numeral": "XIV",
+      "title": "How Each Style Ended",
+      "sections": [
+        {
+          "heading": "Romanesque's ending: absorption, not death",
+          "paras": [
+            "Romanesque did not die; it was absorbed, at different speeds in different places, over about a hundred and fifty years. In the Île-de-France its reign ended abruptly — by 1150 the new manner owned the future — but in Germany the Romanesque of the Rhineland was still building its great abbeys at mid-century, and Maria Laach was consecrated in 1156 in serene ignorance of Saint-Denis. In Italy and Spain Romanesque forms persisted into the thirteenth century, in the provinces of every country longer still; and everywhere the parish church, that conservative institution, kept its round arches and thick walls standing beside Gothic chancels for the rest of the Middle Ages.",
+            "Absorption is the right word because the elements passed over separately, like an estate divided among heirs. The rib vault and the pointed arch went to Gothic; the sculptured portal went and was transformed; the pilgrimage plan was quietly pensioned as the cult of relics gave ground to the sacraments and the mendicant city churches; the fortress-wall went nowhere, and its going nowhere is the point — the Gothic did not refute the Romanesque wall, it made it optional. Styles end not when their forms fail but when their patrons stop asking for what the forms were for.",
+            "There is a poignancy in the Romanesque's last century that the survey books underplay. The generation of 1150–1250 in the provinces built Romanesque churches of great beauty in full knowledge of the new style — Provencal, German and Italian masters choosing the round arch as one chooses a mother tongue. To call their work retardataire is the capital's arrogance. It is also the field reader's opportunity: no period teaches the difference between fashion and fitness like the long Romanesque afternoon."
+          ]
+        },
+        {
+          "heading": "Gothic's ending: the long goodbye",
+          "figure": "rouenFacade",
+          "paras": [
+            "Gothic's ending took three centuries and never quite completed itself. The first challenge was internal exhaustion — Flamboyant and Perpendicular, for all their brilliance, are styles of refinement working a closed system — and the second was competition: from about 1420 in Florence, and from 1500 across Europe, the classical revival offered patrons a newer antiquity, learned, measured and Roman. The two manners coexisted for generations in the same buildings — Gothic naves receiving classical screens, classical palaces rising in Gothic towns — and the frontier between them, like the frontier of 1150, was a zone, not a line.",
+            "Rouen's west front, pictured here, is the goodbye at its most splendid: the Tour Saint-Romain Romanesque at its base, the portals Flamboyant, the spire a Renaissance replacement of 1544 above a Gothic tower — five centuries of the argument stacked on one facade, in a city that also preserves, in Saint-Ouen and Saint-Maclou, the full Flamboyant fire. France's last Gothic generation built as if the style were eternal; within two generations of Rouen's spire, the Wars of Religion had stopped the lodges, and classical taste had won the court.",
+            "Yet Gothic never became archaeology the way Romanesque did. It survived — the word is a technical term of the historians — in Oxford and Cambridge, in cathedral repairs, in provincial masons' habits, in the unbroken maintenance of buildings that were never finished being medieval: Cologne's crane stood on its south tower for four hundred years, a silhouette of the style's suspended ending. When the revival came, it could claim not to resurrect but to resume. No other European style has had that second life; Chapter XVI tells it."
+          ]
+        },
+        {
+          "heading": "The Renaissance verdict",
+          "figure": "jumieges",
+          "paras": [
+            "The victors wrote the first history, and it was a prosecution. For Vasari and the classical centuries, the pointed style was the work of Goths — the barbarians who had buried Rome — and 'Gothic' entered the language as an insult meaning rude, irregular and dark. Romanesque fared worse than insult: it was not even distinguished, filed as a clumsy prelude or confused with the Byzantine. For three hundred years the two styles of this book were read, when they were read at all, as the darkness before the classical dawn — their buildings altered, whitewashed, classicised or demolished without record, their sculpture smashed as idolatry in the Reformation north and as superstition in the revolutionary south.",
+            "Jumièges, pictured here, is the verdict's monument: one of Normandy's greatest Romanesque abbeys, sold after the Revolution as a quarry and dismantled into the landscape, its nave open to the sky. Multiply Jumièges across Europe and the losses of 1540–1800 exceed those of all the wars of the twentieth century. What survived did so by usefulness (parish churches are hard to abolish), by poverty (no money to rebuild), or by accident — and the survival rate shapes everything this book can show: we read the two styles in a sample their enemies edited.",
+            "The verdict began to reverse among the Romantics, for whom ruins were not failures but poetry, and among the first archaeologists, who learned to date the mouldings and publish the plans. That reversal — the nineteenth century's rediscovery of the Middle Ages — is the hinge between the styles' endings and their afterlives, and it belongs to Part IV."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "survival-and-verdict",
+      "numeral": "XV",
+      "title": "Survivals and the Long Verdict of Taste",
+      "sections": [
+        {
+          "heading": "The centuries of indifference",
+          "paras": [
+            "Between their endings and their revivals the two styles lived a long half-life as the ordinary fabric of Europe — maintained, adapted, and almost never looked at. Cathedrals received classical altarpieces and baroque canopies inside Gothic shells; Romanesque portals were buried behind new fronts; whole naves were plastered and painted in the taste of the day. This invisibility was, paradoxically, protection: buildings that nobody thought about as art were nobody's target as art either, and the fabric of 1200 survived inside the dress of 1700 until a generation arrived that wanted the old dress back — and sometimes scraped the wrong layer.",
+            "The survival had its own architecture. In England, Gothic never stopped being built in small ways — the 'Gothic survival' of university and church work into the seventeenth century — while in Spain the Isabelline and Plateresque mixed Gothic skeletons with classical ornament for generations. In France, the classical centuries were harder on the medieval past: Paris demolished and rebuilt with a clear conscience, and the great losses of the revolutionary decades fell on a fabric already thinned by taste. The map of what this book can show is a map of these accidents.",
+            "What the centuries of indifference preserve for us, beyond the buildings, is a lesson in the fragility of verdicts. The men of 1700 who plastered a Romanesque nave were not vandals in their own eyes; they were modernisers, certain of the same thing every age is certain of — that its own taste is the end of taste. The reader who finishes this book immune to that certainty has learned its deepest lesson, deeper than any arch profile."
+          ]
+        },
+        {
+          "heading": "The antiquaries learn to see",
+          "figure": "pragueStVitus",
+          "paras": [
+            "The recovery began with drawings and county histories — antiquaries measuring plans, engravers recording portals before demolition — and with a few buildings that never lost their defenders: Prague's St Vitus, where the Parler choir stood unfinished for five centuries, its completion a national cause before nationalism had the word for it. By 1800 the Gothic past had become an argument: in Britain, a claim about national character and the old faith; in France, after the Revolution's vandalism, a claim about the patrie; in Germany, with Cologne's plans rediscovered and Goethe's Strasbourg essay of 1772 still echoing, a claim about the German genius — a pointed claim, since the style was born in France.",
+            "Scholarship gave the argument its tools. The nineteenth century learned to date buildings by their mouldings, tracery and vault profiles the way geologists date strata, and invented the very vocabulary this book uses: 'Romanesque' from the 1820s, the period styles of English Gothic in Rickman's Attempt of 1817, the great dictionaries of Viollet-le-Duc. It is a humbling thought that the two styles could not be compared until they had been named, and the names are younger than the steam engine.",
+            "The same century that named them also judged them, and its judgment was a reversal of the Renaissance verdict so complete that it became its own distortion: Gothic as the Christian style, the moral style, the honest style — Romanesque as its rougher precursor. The Romanesque revival, when it came, would have to fight for the round arch the respect the point had already won."
+          ]
+        },
+        {
+          "heading": "Two cathedrals in one",
+          "figure": "westminsterAbbey",
+          "paras": [
+            "Westminster Abbey, pictured here, holds the whole verdict-history in one building: a French Gothic church of Henry III, built to rival the Sainte-Chapelle age and housing a saint-king's shrine; 'restored' and re-imagined by every century since; its west towers finished in the 1740s by Nicholas Hawksmoor in a Gothic that the classical age built without embarrassment. The Abbey is not a document of 1260. It is a document of every year since — which is true, if we are honest, of nearly every building in this book.",
+            "For the comparison, maturity means holding the verdicts at arm's length. Gothic is not the winner of this book, nor Romanesque its rough draft; they are two complete accounts of what a great building is — one drawn in mass and shadow, one in skeleton and light — and the centuries' alternating preference between them says more about the centuries than about the buildings. The styles survived their judges. That is the closest thing to a verdict the evidence allows.",
+            "What remains is the afterlife proper: the century that rebuilt both styles in its own image, and the confusions that rebuilding sowed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-revival",
+      "numeral": "XVI",
+      "title": "The Revival Century: Both Styles Return",
+      "sections": [
+        {
+          "heading": "Gothic revived: from folly to parliament",
+          "paras": [
+            "The Gothic revival began as garden decoration — Horace Walpole's Strawberry Hill, from 1749, a villa dressed in paper-thin Gothic charm — and ended as the style of an empire: Barry and Pugin's Palace of Westminster, from 1840, its river front a Perpendicular manifesto, its interiors a total work of medieval art. Between folly and parliament, Gothic acquired a theology (Pugin's Contrasts of 1836 argued it was the only Christian manner), a science (the Cambridge Camden Society's church archaeology), and a work ethic — Ruskin's 'Nature of Gothic' made the style a doctrine about labour itself, the free carver against the machine.",
+            "The revival's reach was total. It built the parish churches of a doubling population, the railway age's town halls and universities, Scott's Albert Memorial and his St Pancras train shed — the latter the revival's perfect emblem, a Gothic hotel before an iron vault of a span no medieval mason dreamed. It also restored, with more zeal than knowledge: Viollet-le-Duc's France re-emerged with completed cathedrals, invented gargoyles and Carcassonne rebuilt as a medieval city entire — creations so beautiful and so speculative that the modern conservation movement was born in reaction against them.",
+            "Carcassonne, pictured here, is the revival's most splendid ambiguity: a Romanesque-and-Gothic fortress-city saved from demolition and re-roofed by Viollet-le-Duc's office into the Middle Ages Europe wished it had had. Visitors love it, scholars footnote it, and both are right. The revival did not recover the Gothic past; it manufactured a better one — and the manufacture became, in its turn, a historic style with its own masters and masterpieces."
+          ]
+        },
+        {
+          "heading": "Romanesque revived: the round arch returns to work",
+          "figure": "carcassonne",
+          "paras": [
+            "The round arch returned more quietly and, in the end, more consequentially. In Germany the Rundbogenstil made Romanesque the civic manner of the new nation-states; in Britain the 'Norman revival' built prisons, workhouses and town halls — buildings whose Romanesque mass was read as honest thrift; and in America, H. H. Richardson took the style and made it modern: his Romanesque of rock-faced stone, deep round arches and sculptural mass — Boston's Trinity Church, the Allegheny courthouse and jail — is the one nineteenth-century manner that the twentieth century's pioneers acknowledged as a parent. Richardson's Romanesque is massive the way Speyer is massive, and just as calculated.",
+            "The round arch also became the style of the new world's infrastructure: railway viaducts, warehouses, market halls and the first skyscrapers' masonry bases. Where Gothic revival was an argument about faith and nation, Romanesque revival was an argument about work — and its buildings, from Richardson's libraries to the brick round-arch factories of Leeds and Łódź, carry the Romanesque virtues of wall and weight into the industrial age almost unchanged. A style is never more alive than when it stops being quoted and starts being used.",
+            "Both revivals shared the load-bearing irony: each claimed to restore the Middle Ages and each produced a thoroughly nineteenth-century architecture — iron-framed, gas-lit, machine-tooled. The revival century is therefore not this book's epilogue but its mirror: two styles, dead as systems, proved inexhaustible as languages, and the languages are still being spoken — in stone-clad banks, university gothic, round-arched logistics sheds — by builders who have never heard the styles' names."
+          ]
+        },
+        {
+          "heading": "Restoration: the discipline born of enthusiasm",
+          "paras": [
+            "The revivals' excesses fathered their own correction. Ruskin's rage against restoration — 'a lie from beginning to end' — and Morris's Society for the Protection of Ancient Buildings (1877) founded modern conservation on the opposite doctrine: repair, do not restore; let the old work show its age; add nothing the evidence cannot warrant. France moved from Viollet-le-Duc's 'state that may never have existed' to the measured conservation of the Monuments historiques; Germany, Spain and Italy built their own services; and UNESCO's charters of the twentieth century universalised the ethic this book has practised in miniature — every image captioned with what it truly is.",
+            "The practical consequence for the reader is that the medieval buildings of Europe are now stable texts in a way no earlier century enjoyed: conserved, documented, photographed, and — the newest chapter — scanned, so that when Notre-Dame burned in 2019 the restoration could work from laser records of the lost fabric. The fire itself was a lesson in the styles' continuing life: the world grieved a Gothic building as a contemporary loss, and rebuilt its spire — Viollet-le-Duc's spire, a nineteenth-century invention — exactly as the revival had left it.",
+            "So the verdict of the long centuries comes to rest: the two styles survived conquest, reformation, contempt and enthusiasm, and stand today as the most carefully guarded architecture on earth. The comparison that began in rivalry ends in custody — and the reader armed with Chapter XVIII's method becomes part of the custody, because seeing clearly is the first act of keeping."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honest-confusions",
+      "numeral": "XVII",
+      "title": "Honest Confusions: Neo-Romanesque, Neo-Gothic and the Restorer's Hand",
+      "sections": [
+        {
+          "heading": "The revival buildings that lie about their date",
+          "paras": [
+            "Every method has its counterexamples, and the five signs will be fooled — honestly — by the nineteenth century. A Richardson Romanesque library has the mass, the round arches, the small deep-set windows and the carved capitals of 1150, and only its plan, its services and its stone-cutting betray 1890. A Scott church has the ribs, the tracery and the glass of 1300 with a heating system and a congregation of mill-owners. The honest confusion is not a failure of the method but a fact of the evidence: the revivalists studied the originals so closely that pastiche became a scholarly act.",
+            "The tell-tales exist, and the field reader should know them. Revival work is usually too complete: a real medieval building is a palimpsest of campaigns, repairs and changes of mind, while a revival building is one idea executed at one speed. Revival carving is often too sharp — unworn by eight winters of centuries, let alone eight hundred. Revival plans serve revival programmes: the library, the museum, the town hall, the railway hotel wear their medieval dress over unmistakably modern bones of circulation and light. And the date is usually proclaimed somewhere — a foundation stone, a plaque, a donor's inscription — because the revival was proud of itself and signed its work as Gislebertus had.",
+            "None of this diminishes the revival buildings, many of which are masterpieces with their own chapters in the companion volumes. The confusion is honest on both sides: they meant to continue the styles, and we, reading them, should let them — filing them not as fakes of 1200 but as originals of 1880, in the long lives of two languages that refused to die."
+          ]
+        },
+        {
+          "heading": "Restoration confusions: the medieval that is modern",
+          "figure": "durhamNave",
+          "paras": [
+            "A subtler confusion lives inside genuine medieval buildings: the parts that are nineteenth-century work in medieval dress. Viollet-le-Duc's restorations are the famous cases — Vézelay rebuilt from ruin, Notre-Dame's sacristy and spire, Carcassonne's roofs — but every great church carries the restorers' hands: scraped stone where medieval paint and roughness were cleaned away, re-cut capitals beside untouched ones, west fronts completed from 'evidence' that was really taste. The scraping alone transformed the styles' appearance: the bare, even stone of today's Romanesque interiors is largely a modern taste; the buildings were painted, and their sculpture glowed.",
+            "Durham — pictured here in its restored and mighty nave — poses the question at the level of structure: what we read as the pure Norman vessel is the product of centuries of repair, re-leading, re-glazing and careful Victorian consolidation, and the building is none the worse for it. The honest reader's rule is humility about surfaces: date the building by its system — plan, structure, the grammar of its parts — and treat finishes, glass and furniture as the latest chapter unless proven older. The five signs work on systems; they were never meant to date a paint layer.",
+            "The twentieth century added its own chapter: war damage rebuilt as facsimile (the Baltic brick churches, Warsaw's old town, the Frauenkirche in Dresden from its own rubble), anastylosis with new stone toned to match, and now digital restoration layered over the fabric in the visitor's hand. Each generation's conscience differs; each generation's work will confuse the next. The styles survive the confusion because the confusion is itself a form of care."
+          ]
+        },
+        {
+          "heading": "Villard's book and the myth of the lodge",
+          "figure": "villardDrawing",
+          "paras": [
+            "One confusion is documentary, and it is the pleasantest in this book: the little parchment album of Villard de Honnecourt, compiled about 1225–50, pictured here by its famous tower of Laon. For centuries Villard was read as a master mason's pattern book — the Gothic lodge's secrets caught in the act. Modern scholarship reads him more variously: part sketchbook, part commonplace book, part the record of a curious traveller who drew machines, animals, geometry and buildings with the same delighted pen. His lion, drawn 'from life' by a man who had likely never seen one, is the emblem of the whole question: even our best medieval witness mixes observation and inheritance.",
+            "The album matters beyond its charm because it is nearly the only voice the builders left. The two styles were made by men who wrote almost nothing, and every reconstruction of their intentions — including this book's talk of systems and programmes — is an inference from the stones. Villard's pages prove the inference is not groundless: here is a thirteenth-century mind thinking in geometry, borrowing a tower, noting a window at Reims 'because it pleased him', collecting devices for purposes he does not always state. The lodges had a culture; the culture had drawings and rules; and the rules produced, among cathedrals, this one surviving notebook.",
+            "Let Villard stand at the door of the final chapter as the patron of the method: look long, draw what you see, note what pleases you and why, and let the building correct your categories. His Laon tower is not quite Laon; your reading will not quite be the building; both are honourable approximations, and the honesty is in knowing it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "numeral": "XVIII",
+      "title": "Reading a Building: The Five Signs in Practice",
+      "sections": [
+        {
+          "heading": "The method assembled",
+          "figure": "chartresNave",
+          "paras": [
+            "Everything in this volume now gathers into a practice. Stand across the square from an unknown medieval church and work the five signs in order. One, silhouette: a low, horizontal mass with small towers — or isolated, fortress-like volumes — argues Romanesque; a vertical composition of spires, pinnacles and flying buttresses argues Gothic. Two, openings: round-headed, small, deep-set in thick walls, against pointed, large and traceried. Three, arches and vaults: round arches with barrel or groin vaults against pointed arches with ribs. Four, walls: continuous load-bearing wall surfaces against a skeleton of piers with glass between. Five, sculpture and ornament: figures fused with the surface against figures standing free of it; geometric pattern against carved natural leaf.",
+            "Then apply the three cautions the comparison chapters taught. First, date by system, not by parts: a pointed arch in a Romanesque system (Durham) and a round arch in a Gothic one (countless late choirs kept round windows) are both honest readings — ask which intention the whole building serves. Second, expect campaigns: most great churches are two buildings at least, and the method should be applied campaign by campaign, choir and nave and front separately, before a verdict on the whole. Third, respect the regions: south of the Alps and in the brick north, translate the signs into the local dialect — fresco for glass, brick for stone — before judging.",
+            "Practised in this order, the method will correctly read the overwhelming majority of the buildings in this book, and — more valuable — it will tell you when it is failing: the building that scores three signs each way is not a problem but a discovery, a transition building or a meeting place, and those, as Chapters XII and XVII argued, are the most instructive stones in Europe."
+          ]
+        },
+        {
+          "heading": "Three walks",
+          "paras": [
+            "Test the method on three walks this book has taken. At Speyer: silhouette low and imperial, openings round and small, vaults groin on alternating piers, walls metres thick, sculpture subordinate — five signs, one verdict, and the light confirms what the stones declared. At Sainte-Chapelle: silhouette a cage of pinnacles, openings fifteen lancets of glass, vaults ribbed and painted with stars, walls effectively absent, sculpture a court of apostles standing free around you — five signs, the opposite verdict, and not one element of mass doing structural work. The extremes are easy because the styles, at their centres, are opposites by design.",
+            "At Canterbury the method earns its keep. The nave: round arches, thick walls, timber of campaigns — Romanesque. Through the screen, William of Sens' choir: point, rib, flyer, Purbeck shafts, glass — Gothic. One building, two verdicts, and the join between them is the single most eloquent architectural frontier in Britain. Then walk out and look at the whole: a silhouette in which the Gothic central tower — Bell Harry, Perpendicular, the frontier's third age — rides over both. The building is not confused. It is complete: a library of the whole argument, bound in one cover of stone.",
+            "The walks generalise. Read the east end first (the styles sign largest there), read the light at two hours if you can, and always read the plan before the photograph: the camera flatters elevations, but no building lies in plan. The gazetteer that follows this chapter gives the method its practice ground — twelve buildings, chosen so that every sign and every caution of the eighteen chapters is exercised at least once."
+          ]
+        },
+        {
+          "heading": "Why the difference matters",
+          "paras": [
+            "It is fair to ask, at the end of a long book, why the difference between two medieval manners should matter to anyone now. The practical answers are real — the buildings are the largest surviving archive of pre-industrial engineering, and reading them correctly is a professional skill for everyone who conserves, builds beside or learns from them — but they are not the deepest answer. The deepest is that the two styles are two complete and contrary answers to the permanent questions of building: whether a wall is a protagonist or a frame; whether light is a treasure or an atmosphere; whether form should declare rest or aspiration. Every architect since, including every modernist who disowned them, has answered those questions in one of their two accents.",
+            "The Romanesque says that a building is a place: mass, enclosure, the dignity of weight, art fused with structure, a world held safely inside stone. The Gothic says that a building is a system: forces conducted, surfaces released, light admitted as a material, art standing free to speak. Europe has been choosing between those sentences for nine hundred years — in its churches first, then in its town halls, its parliaments, its stations and its museums — and the choosing is not finished, because the questions are not finished.",
+            "Go, then, and read the buildings. They are patient, they are free, and they reward the exact attention this book has tried to teach: the arch's profile, the wall's thickness, the light's behaviour, the figure's distance from the stone. Two grammars, one language of building — and the whole of Europe, from Speyer's dusk to Sainte-Chapelle's noon, written in it."
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [
+    [
+      "Abbot Suger (c. 1081–1151)",
+      "The inventor's patron. Abbot of Saint-Denis, regent of France, and the first man to explain a new architecture in writing: his accounts of the rebuilding of 1135–44 describe the chevet's ring of chapels 'filled with light' and name the theology behind it. Gothic begins as an idea in this formidable monk's head before it becomes a system in his masons' hands."
+    ],
+    [
+      "Gislebertus (fl. c. 1120–1135)",
+      "The named Romanesque sculptor. His signature — Gislebertus hoc fecit, 'Gislebertus made this' — sits at Christ's feet in the Autun tympanum, whose elongated, swirling Last Judgment is the summit of Romanesque carving. Almost nothing else is known of him: the style's anonymity breaks, for once, into a name."
+    ],
+    [
+      "Master Mateo (fl. 1168–1217)",
+      "Santiago's master. Mateo directed the Pórtico de la Gloria, the sculpted western entrance of Compostela, whose prophets, apostles and elders — carved 1168–88 and painted — turn a Romanesque portal into a stone choir. His own likeness, tradition says, kneels at the back of the central column, worn smooth by pilgrims' hands."
+    ],
+    [
+      "William of Sens (d. 1180)",
+      "The carrier. A French master mason called to Canterbury after the fire of 1174, William rebuilt the choir in the new French manner — rib vaults, pointed arches, flying buttresses — and so naturalised Gothic in England. He fell from the scaffolding in 1178 and directed the works from his sickbed before going home to die."
+    ],
+    [
+      "Villard de Honnecourt (fl. c. 1225–1250)",
+      "The witness. A Picard mason or clerk whose portfolio of drawings — cathedral plans, towers, machines, figures, a lion 'drawn from life' — is the Middle Ages' one surviving lodge book. His sketch of Laon's towers and Reims' chapels lets us watch a thirteenth-century professional reading Gothic with a practitioner's eye."
+    ],
+    [
+      "Erwin von Steinbach (c. 1244–1318)",
+      "Strasbourg's master. Erwin began the west front of Strasbourg in 1277 as a screen of stone lace over glass, the Rayonnant idea drawn at full scale; Goethe, five centuries later, would make his name the byword for Gothic genius. His children and grandchildren kept the lodge for generations."
+    ],
+    [
+      "Robert de Luzarches (fl. 1220s)",
+      "Amiens' architect. The cathedral's labyrinth inscription named Robert as the master who began the work in 1220, succeeded by Thomas and Renaud de Cormont. Between them they raised the tallest complete Gothic nave in France — the classical system at its most confident and most quoted."
+    ],
+    [
+      "Peter Parler (1330–1399)",
+      "The late master. Called to Prague at twenty-six to continue St Vitus's Cathedral, Parler invented the net vault, bent the choir's walls into waves, and founded a family lodge whose manner — Parler Gothic — spread across the Empire. His portrait bust in the triforium is medieval architecture's first self-portrait gallery."
+    ],
+    [
+      "A.W.N. Pugin (1812–1852)",
+      "The revivalist. In Contrasts (1836) and The True Principles of Pointed or Christian Architecture (1841), Pugin argued that Gothic was not a style but a faith made visible, and that classical architecture was pagan. Half the parish churches of Victorian Britain, and the Palace of Westminster he dressed with Barry, are his argument in stone."
+    ],
+    [
+      "Eugène Viollet-le-Duc (1814–1879)",
+      "The restorer-theorist. Viollet-le-Duc rebuilt Vézelay, Notre-Dame, Sainte-Chapelle and Carcassonne, and in his Dictionnaire raisonné (1854–68) read Gothic as pure structural reason — every rib a force, every buttress an answer. Modern scholarship corrects his inventions and still builds on his analysis: the man who taught Europe to see the skeleton."
+    ]
+  ],
+  "fiveSigns": [
+    {
+      "name": "Silhouette: the earthbound and the aspiring",
+      "look": "Stand far enough away to take in the whole building, and read the outline first. A Romanesque church sits: low, broad and horizontal, its mass gathered into towers with flat or pyramid caps, small domes and turrets, the roofline close to the ground it grew from — Speyer's four towers, Saint-Sernin's tiered chevet, Durham's bulk on its rock. A Gothic church reaches: spires, pinnacles, gables and flying buttresses pull every line upward and outward, the building thinning as it climbs until it ends in points — Chartres' spires, Cologne's twin needles, Salisbury's single soaring spike. The silhouette is the fastest of the five signs, because it is set by the whole conception of the building and cannot be disguised by detail.",
+      "limit": "Towers were finished, rebuilt and added for centuries, often in the other style: many Romanesque churches wear Gothic spires, and many Gothic towers were capped plainly or never finished at all. Read the silhouette of the main mass — nave, transepts, chevet — and not of the latest addition, then confirm with the signs that follow.",
+      "img": "cologneCathedral"
+    },
+    {
+      "name": "The arch test",
+      "look": "Find the arches of the main arcade, the windows and the vault, and ask one question: round or pointed? The Romanesque arch is a semicircle — the Roman arch — struck from a single centre, and it governs everything: doorways, windows, arcades, barrel vaults. The Gothic arch is pointed, struck from two centres, and it governs just as completely, from the smallest lancet to the great west windows. The pointed arch is not merely a shape: it lets the mason vary rise against span, vault a rectangular bay evenly, and aim the thrust of the vault more steeply downward onto the pier. Where every principal arch is round, you are almost always in Romanesque; where every principal arch is pointed, almost always in Gothic.",
+      "limit": "This is the most useful sign and the most betrayed. Durham's rib vaults spring from pointed arches inside a thoroughly Romanesque body, Burgundian Romanesque churches hide pointed barrel vaults under round facades, and modest Gothic buildings kept round-headed windows for generations. One arch proves nothing: judge the system — arcade, windows and vault together — and let the other signs vote.",
+      "img": "yorkMinster"
+    },
+    {
+      "name": "Wall against glass",
+      "look": "Estimate, bay by bay, how much of the wall is wall. In a Romanesque church the wall is the structure: stone two metres thick at Durham and Speyer, with windows punched through it like loopholes — small, round-headed, splayed deep in the masonry to throw what light they can into the gloom. Walking the nave, you feel the mass around you. In a Gothic church the wall is a membrane: at Sainte-Chapelle it is more than three-quarters glass; at Amiens and Bourges the clerestory alone outweighs the solid below it, and the whole bay is a stone frame holding coloured light. Ask whether the builder was defending the interior from the outside world, or dissolving the boundary between them.",
+      "limit": "Glass is replaceable and walls are alterable: many Romanesque windows were enlarged in the Gothic centuries, many Gothic ones blocked or reglazed plain later, and Cistercian Gothic deliberately kept its walls small-windowed and severe. Judge the proportion of the original bay design where you can — the shape of the openings in the masonry, not the present glazing alone.",
+      "img": "bourgesInterior"
+    },
+    {
+      "name": "The vault overhead",
+      "look": "Look up, and read the ceiling as a diagram of forces. Romanesque covers its naves with the barrel vault — a continuous stone tunnel, heavy, pressing outward along its whole length — or with the groin vault, where two tunnels cross and the load settles onto the corners of each bay; Speyer's crypt and nave show both at monumental scale. Gothic covers its naves with the rib vault: stone ribs gather the vault's thrust onto the four corners of the bay and deliver it to the piers, so the web between ribs can be thin and the walls below can open. Follow the ribs down the shafts to the floor and you are reading the building's skeleton in one glance.",
+      "limit": "The rib vault was a Romanesque invention — Durham's high vaults of c. 1100 are ribbed, and Lombard and Norman masons used ribs before Saint-Denis — and many Gothic parish churches were never vaulted in stone at all, sailing under timber roofs. The vault decides only in company: ribs plus pointed arches plus glass is Gothic; ribs inside mass and gloom are the transition, and this book gives them a chapter of their own.",
+      "img": "speyerCrypt"
+    },
+    {
+      "name": "Sculpture: fused or free",
+      "look": "End at the west door, where both styles put their teaching. Romanesque sculpture is part of the wall: figures are carved in the tympanum, the capitals and the archivolts as if the stone itself had grown faces — elongated, patterned, symbolic, their drapery a system of rhythmic lines, as on the tympana of Vézelay, Autun and Moissac. Gothic sculpture steps out of the wall: the jamb statues of Chartres' Royal Portal already stand like a quiet court, and within a century the figures of Reims and Strasbourg turn, smile and converse, their drapery falling like cloth over bodies that plainly exist beneath it. Ask whether the figure serves the surface or is escaping from it.",
+      "limit": "Sculpture is the sign most easily moved, restored and faked: portals were recut, heads renewed, whole tympana re-carved in the nineteenth century, and provincial work in both styles can be equally stiff. Use sculpture as the confirming vote, not the deciding one — and distrust any figure that looks too fresh for its wall.",
+      "img": "reimsFacade"
+    }
+  ],
+  "gazetteer": [
+    [
+      "Paris and the Île-de-France — the invention",
+      "Saint-Denis itself, where the chevet of 1144 still glows; Notre-Dame and Sainte-Chapelle in the city; and within a day's ride the classical triangle of Chartres, Bourges and Amiens. No region on earth holds the invention and its first perfection so close together."
+    ],
+    [
+      "Chartres, France — the complete lesson",
+      "One cathedral teaches both halves of this book: the Royal Portal of c. 1145–55 survives from the earlier church like a title page, and behind it the rebuilt nave of 1194–1220 is classical Gothic entire — glass, sculpture, labyrinth and towers in a single campaign."
+    ],
+    [
+      "Burgundy, France — Romanesque's heartland",
+      "Autun's tympanum, Vézelay's nave and narthex, Tournus's strange transverse vaults, Paray-le-Monial and the ghost of Cluny: the densest province of great Romanesque, a day's drive end to end."
+    ],
+    [
+      "The Rhineland, Germany — two capitals",
+      "Speyer, Mainz and Worms, the three imperial cathedrals of Romanesque, stand down the Rhine from Maria Laach; Cologne's Gothic choir answers them from the same river. The two styles face each other across one valley."
+    ],
+    [
+      "The pilgrimage roads — France and Spain",
+      "From Vézelay and Moissac through Toulouse and Conques to Santiago de Compostela itself, the roads survive as a chain of pilgrimage churches sharing one plan — and the Pórtico de la Gloria at the journey's end."
+    ],
+    [
+      "Durham and the North, England — the transition",
+      "Durham above all: Romanesque mass, rib vaults, pointed arches in one building. York, the largest Gothic cathedral in the north, and the ruins of the Cistercian abbeys in the dales complete the argument."
+    ],
+    [
+      "Canterbury and the South, England — the import",
+      "Canterbury's choir is where Gothic landed in 1174; Salisbury, built new on a green field from 1220, is Early English Gothic at its purest; Westminster Abbey is a French king's rival built by an English one."
+    ],
+    [
+      "Gloucester and the West, England — the long ending",
+      "Gloucester's choir gave Perpendicular its first great interior and its cloister the first fan vaults; King's College Chapel at Cambridge closes the story with the largest fan vault in the world."
+    ],
+    [
+      "Pisa and Tuscany, Italy — the classical dialect",
+      "Pisa's cathedral group on the Campo dei Miracoli is Romanesque in marble bands and open galleries; Siena's polychrome Gothic front answers it from the next hill city — Italy's two readings of the northern styles, an hour apart."
+    ],
+    [
+      "Lübeck and the Baltic — Brick Gothic",
+      "St Mary's at Lübeck, the mother church of Backsteingotik, and the brick cathedrals and town halls of the Hanseatic coast: Gothic translated into a country without stone, where the style's forms are modelled in fired clay."
+    ],
+    [
+      "Prague, Bohemia — the Parler city",
+      "St Vitus's Cathedral above the Vltava holds Peter Parler's net vaults and the triforium portraits of his lodge; Charles Bridge and its towers carry the same manner into the city's streets."
+    ],
+    [
+      "León and the Meseta, Spain — the glass south",
+      "León's walls of glass, Burgos' French plan and spires, and Toledo's vast five-aisled nave: Gothic carried over the Pyrenees and rebuilt in Castilian light, a generation after Santiago had closed the Romanesque age on the same soil."
+    ]
+  ],
+  "glossary": [
+    [
+      "Barrel vault",
+      "The Romanesque nave's characteristic ceiling: a continuous semicircular stone tunnel, structurally an arch extended along the building's length, pressing outward along both walls for its whole span."
+    ],
+    [
+      "Groin vault",
+      "Two barrel vaults intersecting at right angles; the cross's edges (groins) concentrate load onto the bay's four corners. Speyer's nave made it monumental."
+    ],
+    [
+      "Rib vault",
+      "A vault carried on a framework of stone ribs, with thin masonry webs between them; the ribs gather thrust onto points and let each bay be vaulted independently."
+    ],
+    [
+      "Pointed arch",
+      "An arch struck from two centres, its two arcs meeting at a point; more flexible than the semicircle and able to aim thrust steeply downward. Gothic's signature — and a late Romanesque tool."
+    ],
+    [
+      "Round arch",
+      "The semicircular arch of Rome and of Romanesque: one centre, one radius, its rise fixed at half its span."
+    ],
+    [
+      "Flying buttress",
+      "An arch of stone leaping from the clerestory wall over the aisle roof to an outer pier, carrying the vault's thrust out of the building; Gothic's most visible machine."
+    ],
+    [
+      "Buttress",
+      "A mass of masonry set against a wall to resist the sideways thrust of vault or arch; Romanesque hides it in wall thickness, Gothic externalises and finally flies it."
+    ],
+    [
+      "Clerestory",
+      "The upper, windowed storey of the nave wall, above the aisle roofs; in Gothic it grows until it outweighs everything below it."
+    ],
+    [
+      "Triforium",
+      "The arcaded passage storey between the main arcade and the clerestory; Rayonnant masons glazed it, turning a dark band into a third layer of light."
+    ],
+    [
+      "Ambulatory",
+      "The walkway curving around the apse behind the altar, linking the aisles; in pilgrimage churches it let crowds circulate past the shrine without entering the choir."
+    ],
+    [
+      "Chevet",
+      "The French term for a church's developed east end — apse, ambulatory and radiating chapels read as one composition; Saint-Denis' chevet of 1144 is the first Gothic one."
+    ],
+    [
+      "Radiating chapels",
+      "Chapels opening off the ambulatory in a fan, each with its own altar and relics; the pilgrimage plan's bouquet at the east end."
+    ],
+    [
+      "Tympanum",
+      "The field between a doorway's lintel and its arch — Romanesque sculpture's great stage, filled with Christ in Majesty or the Last Judgment."
+    ],
+    [
+      "Trumeau",
+      "The pier between the two leaves of a great doorway, usually carrying a statue; at Moissac it is a column of climbing lions and prophets."
+    ],
+    [
+      "Jamb figures",
+      "Statues set into the splayed sides of a portal; at Chartres' Royal Portal they stand column-still, at Reims they converse — the graph of Gothic naturalism."
+    ],
+    [
+      "Archivolt",
+      "One of the concentric bands of moulding and carving around an arch; Romanesque archivolts carry chevrons, beasts and signs of the zodiac."
+    ],
+    [
+      "Lancet",
+      "A tall, narrow window with a sharply pointed head; grouped under one arch, lancets make the Early Gothic window before tracery unites them."
+    ],
+    [
+      "Tracery",
+      "The stone pattern subdividing a Gothic window: plate tracery punched through solid stone first, then bar tracery of slender moulded bars — the Rayonnant net."
+    ],
+    [
+      "Rose window",
+      "The great circular west or transept window of Gothic, its tracery radiating like a wheel or a flower; Chartres' north rose is the type's exemplar."
+    ],
+    [
+      "Rayonnant",
+      "The 'radiant' phase of French Gothic, c. 1240–1350: walls dissolved into bar tracery and glass, named for the radiating spokes of its rose windows."
+    ],
+    [
+      "Flamboyant",
+      "Late French Gothic, c. 1375–1525, named for its flame-like (flamme) tracery curves; Rouen's west front is its manifesto."
+    ],
+    [
+      "Decorated",
+      "The English Gothic phase of c. 1290–1350: flowing tracery, ogee curves and vaults multiplying into liernes and nets."
+    ],
+    [
+      "Perpendicular",
+      "The English phase of c. 1330–1520: grids of vertical mullions, transoms and panel tracery, crowned by the fan vault — Gothic's longest-lived national manner."
+    ],
+    [
+      "Westwork",
+      "The fortified, multi-towered west block of Carolingian and Ottonian churches — Romanesque's ancestor and the ancestor, too, of the twin-towered west front."
+    ],
+    [
+      "Hall church",
+      "A church whose aisles rise to the nave's full height, so the interior is one great hall of light; a German Gothic speciality from the thirteenth century."
+    ],
+    [
+      "Blind arcade",
+      "Arcading applied to a wall surface without openings — Romanesque's favourite way of giving a fortress wall rhythm and scale."
+    ],
+    [
+      "Sexpartite vault",
+      "A rib vault in which an extra transverse rib divides each bay into six cells; the Norman specialty of Caen, carried into early French Gothic."
+    ],
+    [
+      "Opus francigenum",
+      "'French work': the contemporary name for the new architecture of the Île-de-France — what we call Gothic, before the Renaissance renamed it after the Goths."
+    ]
+  ],
+  "sources": [
+    {
+      "name": "UNESCO World Heritage Centre — Chartres Cathedral (List 81)",
+      "url": "https://whc.unesco.org/en/list/81"
+    },
+    {
+      "name": "UNESCO World Heritage Centre — Durham Castle and Cathedral (List 370)",
+      "url": "https://whc.unesco.org/en/list/370"
+    },
+    {
+      "name": "UNESCO World Heritage Centre — Speyer Cathedral (List 168)",
+      "url": "https://whc.unesco.org/en/list/168"
+    },
+    {
+      "name": "UNESCO World Heritage Centre — Church and Hill of Vézelay (List 84)",
+      "url": "https://whc.unesco.org/en/list/84"
+    },
+    {
+      "name": "UNESCO World Heritage Centre — Santiago de Compostela, Old Town (List 669)",
+      "url": "https://whc.unesco.org/en/list/669"
+    },
+    {
+      "name": "UNESCO World Heritage Centre — Cologne Cathedral (List 292)",
+      "url": "https://whc.unesco.org/en/list/292"
+    },
+    {
+      "name": "Smarthistory — Sainte-Chapelle, Paris",
+      "url": "https://smarthistory.org/sainte-chapelle-paris/"
+    },
+    {
+      "name": "Centre des monuments nationaux — Sainte-Chapelle",
+      "url": "https://www.sainte-chapelle.fr/en"
+    }
+  ],
+  "bibliography": [
+    "Frankl, Paul. Gothic Architecture. Harmondsworth: Penguin, 1962. (Pelican History of Art.) Revised edition by Paul Crossley, New Haven: Yale University Press, 2000.",
+    "Bony, Jean. French Gothic Architecture of the 12th and 13th Centuries. Berkeley: University of California Press, 1983.",
+    "Conant, Kenneth John. Carolingian and Romanesque Architecture, 800 to 1200. Harmondsworth: Penguin, 1959. (Pelican History of Art.)",
+    "Fernie, Eric. Romanesque Architecture: The First Style of the European Age. New Haven: Yale University Press, 2014.",
+    "Panofsky, Erwin. Gothic Architecture and Scholasticism. Latrobe: Archabbey Press, 1951.",
+    "Panofsky, Erwin (editor and translator). Abbot Suger on the Abbey Church of St.-Denis and Its Art Treasures. Princeton: Princeton University Press, 1946.",
+    "von Simson, Otto. The Gothic Cathedral: Origins of Gothic Architecture and the Medieval Concept of Order. New York: Pantheon, 1956.",
+    "Focillon, Henri. The Art of the West in the Middle Ages. London: Phaidon, 1963. (First published in French, 1938.)",
+    "Viollet-le-Duc, Eugène-Emmanuel. Dictionnaire raisonné de l'architecture française du XIe au XVIe siècle. Paris: Bance & Morel, 1854–1868."
+  ]
 }
 ];
 

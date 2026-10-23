@@ -599,6 +599,10 @@ export const historyComparisons = [
   {
     id: "gothic-vs-romanesque",
     title: "Gothic vs Romanesque",
+    deepPage: "/magazine/architectural-history-styles/gothic-vs-romanesque/",
+    pdf: "/downloads/history/gothic-vs-romanesque.pdf",
+    bookCover: "/assets/history-deep/gothic-vs-romanesque/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/gothic-vs-romanesque/read/",
     intro: "Both are medieval, stone-built and church-dominated, and Gothic literally grew inside Romanesque buildings, so mixed examples confuse everyone. Start with round arch versus pointed arch. That simplification works surprisingly often, but it is still only a first approximation: Durham already used pointed arches within a thoroughly Romanesque body.",
     left: { name: "Gothic", traits: "Vertical, skeletal and light-filled; stone reduced to a frame for coloured glass.", img: { src: `${H}/gothic-hero.jpg`, alt: "West front of Chartres Cathedral, with twin spires, three sculpted portals, lancets and the great rose window", credit: "Photo: Nina Aldin Thune, via Wikimedia Commons (CC BY 2.5)" } },
     right: { name: "Romanesque", traits: "Massive, grounded and fortress-like; thick walls carry small, deeply set openings.", img: { src: `${H}/compare-gothic-romanesque-right.jpg`, alt: "Durham Cathedral from across the River Wear, its massive Romanesque towers and solid stone mass above the gorge", credit: "Photo: Stoive, via Wikimedia Commons (CC BY-SA 3.0)" } },
