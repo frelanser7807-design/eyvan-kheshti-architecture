@@ -110,6 +110,10 @@ export const historyStudies = [
       { name: "Smarthistory — Romanesque art and architecture", url: "https://smarthistory.org/romanesque-art/" },
       { name: "UNESCO — Durham Castle and Cathedral", url: "https://whc.unesco.org/en/list/370/" }
     ],
+    deepPage: "/magazine/architectural-history-styles/romanesque/",
+    pdf: "/downloads/history/romanesque.pdf",
+    bookCover: "/assets/history-deep/romanesque/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/romanesque/read/",
     images: {
       hero: { src: `${H}/romanesque-hero.jpg`, alt: "Speyer Cathedral in red sandstone with rounded apse, dwarf gallery and towers", credit: "Photo: Moleskine, via Wikimedia Commons (CC BY 4.0)" },
       detail1: { src: `${H}/romanesque-detail1.jpg`, alt: "Durham Cathedral nave with huge cylindrical Norman piers, round arches and stone rib vault", credit: "Photo: Neil Theasby, via Wikimedia Commons (CC BY-SA 2.0)" },

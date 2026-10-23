@@ -5067,6 +5067,1453 @@ export const historyDeepPages = [
       "Howard Hibbard, Bernini, Penguin, 1965 — the classic short life of the style's central figure, exact on the works and sane on the man.",
       "The Metropolitan Museum of Art, 'Baroque Architecture', in Heilbrunn Timeline of Art History, New York, 2000– — the institutional overview against which dates, terms and attributions in this book were checked."
     ]
+  },
+  {
+    "id": "romanesque",
+    "series": "Architectural History Series",
+    "bookNumber": 5,
+    "title": "Romanesque Architecture",
+    "bookTitle": "Romanesque Architecture: A Complete History",
+    "cover": "/assets/history-deep/romanesque/book-cover.jpg",
+    "coverCredit": "Cover artwork © World Arch Journal",
+    "readPath": "/magazine/architectural-history-styles/romanesque/read/",
+    "readerPages": 102,
+    "readerBase": "/assets/history-deep/romanesque/pages/",
+    "subtitle": "How, between about 1000 and 1200, a continent emerging from the Carolingian collapse rebuilt itself in stone — the pilgrimage churches of the Santiago roads, the monastic empire of Cluny, the regional schools of France, Normandy, the Rhineland, Italy and Spain, and the vaulting experiments that quietly prepared the Gothic — told through the buildings themselves, and ending with the five signs by which the style can still be read in the field.",
+    "path": "/magazine/architectural-history-styles/romanesque/",
+    "hubPath": "/magazine/architectural-history-styles/",
+    "hubStudyId": "romanesque",
+    "pdf": "/downloads/history/romanesque.pdf",
+    "seoTitle": "Romanesque Architecture: A Complete History of the First Style of the European Age | World Arch Journal",
+    "metaDescription": "Romanesque architecture: the complete history — the pilgrimage churches of the Santiago roads, Cluny and the monastic orders, the regional schools of France, Normandy, the Rhineland, Italy and Spain, the vaulting experiments that prepared Gothic, and a five-sign field guide to reading the style.",
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "hero": "stSerninExterior",
+    "frontispiece": "vezelayNave",
+    "plates": [
+      [
+        "stSerninNave",
+        "The nave of Saint-Sernin, Toulouse",
+        "The largest surviving Romanesque church in Europe keeps the pilgrimage section entire: a barrel vault over the nave, tribune galleries over the aisles opening through double arches, and every thrust carried down through the gallery vaults to the outer wall. Five aisles wide and built to move crowds, it is the type at its most complete — architecture as crowd engineering in brick and stone."
+      ],
+      [
+        "conquesTympanum",
+        "The Last Judgment of Sainte-Foy, Conques",
+        "Around 1130 an unknown sculptor filled Conques' west tympanum with a Judgment of exhilarating clarity: Christ calm at the centre, the blessed processing toward Paradise at his right hand, the damned tumbled into a hell of devils and cauldrons at his left — and the little figure of Sainte Foy herself prostrate before the hand of God. It taught a largely illiterate crowd exactly what the pilgrimage was for."
+      ],
+      [
+        "durhamNave",
+        "The nave of Durham Cathedral",
+        "Begun in 1093 above the shrine of St Cuthbert, Durham's nave carries the earliest surviving high rib vault over a great church, sprung from alternating compound and drum piers — the drum piers incised with chevrons, spirals and lozenges like turned columns of stone. Everything Gothic will do is rehearsed here, inside a building as massively Romanesque as any in Europe."
+      ],
+      [
+        "pisaComplex",
+        "The Piazza dei Miracoli, Pisa",
+        "Cathedral, baptistery and cemetery arranged as one marble composition on grass, seen here from the campanile that completes the group: Pisa spent its crusading and trading wealth announcing itself to the Mediterranean. The cathedral's arcaded tiers — blind arches stacked in storeys — translate the Romanesque love of the round arch into a classical, almost woven surface, and the whole group remains Europe's purest city-image of the style."
+      ],
+      [
+        "autunTympanum",
+        "The Last Judgment of Autun Cathedral",
+        "Gislebertus signed his name beneath Christ's feet — GISLEBERTUS HOC FECIT — and carved the most harrowing Judgment of the age: an elongated Christ in a mandorla, St Michael and a devil contesting a soul in the scales, the dead climbing from their tombs in the lintel below. Hidden under plaster from the eighteenth century, it survived to become the signature work of Romanesque sculpture."
+      ],
+      [
+        "saintSavinFresco",
+        "The nave frescoes of Saint-Savin-sur-Gartempe",
+        "The barrel vault of Saint-Savin carries the largest Romanesque wall-painting cycle in France — the Old Testament unrolled overhead in soft ochres and greens, readable from the floor like a scroll. Called in the nineteenth century 'the Sistine Chapel of the Romanesque', it is the best surviving evidence for what every great Romanesque interior once was: painted, coloured and didactic throughout."
+      ],
+      [
+        "monrealeInterior",
+        "The mosaics of Monreale Cathedral, Sicily",
+        "Norman kings in Sicily hired Byzantine mosaicists, Arab craftsmen and Latin masons into one church: above Monreale's classical nave arcades, some 6,000 square metres of gold-ground mosaic narrate the Bible to the apse's colossal Christ Pantocrator. The Romanesque here is not a national style but a court's synthesis of three civilisations."
+      ]
+    ],
+    "plates2": [
+      [
+        "speyerCrypt",
+        "The crypt of Speyer Cathedral",
+        "The largest Romanesque columned crypt hall in Germany: forty-two groin-vaulted bays over a forest of columns and cube capitals, built to hold the tombs of the Salian emperors — eight kings and emperors lie here. The crypt is the building's foundation made visible, engineering and dynastic memory in a single undercroft."
+      ],
+      [
+        "santiagoPortico",
+        "The Pórtico de la Gloria, Santiago de Compostela",
+        "Master Mateo's triple portal of 1168–88 closes the pilgrim road: Christ in glory above the Apostles, prophets and elders carved with an animation that looks forward to Gothic naturalism, and St James waiting at the central post where five centuries of pilgrims laid their hands. Romanesque sculpture's last and greatest western portal is already the next style's herald."
+      ],
+      [
+        "mariaLaach",
+        "Maria Laach Abbey on its lake",
+        "The Benedictine abbey of Maria Laach, founded in 1093 on the shore of a volcanic lake in the Eifel, keeps the Rhineland scheme entire: twin choirs east and west, six towers, an arcaded westwork paradise. It is the German Romanesque at its most composed — a whole monastic city drawn with a compass."
+      ],
+      [
+        "caenStEtienne",
+        "Saint-Étienne, Caen — the Abbaye-aux-Hommes",
+        "William the Conqueror's penance and tomb church: the twin towers of Saint-Étienne rise over Caen in pale stone, their facade a grid of blind arches and tall lancets that taught Normandy — and then England — how a west front should be organised. Inside, the sexpartite vaults of around 1130 are among the earliest essays in the ribbed system."
+      ],
+      [
+        "cefaluApse",
+        "The Christ Pantocrator of Cefalù",
+        "In the apse of Roger II's cathedral at Cefalù, Byzantine mosaicists set a Christ of immense, grave serenity, Greek and Latin verses running beneath him. The Norman kings of Sicily ruled Arabs, Greeks and Latins, and built accordingly: this is Romanesque as an imperial, Mediterranean art, far from the pilgrimage roads of the north."
+      ],
+      [
+        "sanMiniato",
+        "San Miniato al Monte, Florence",
+        "Above Florence stands the city's most serene Romanesque church: a green-and-white marble screen of classical arches inside, a zodiac pavement of 1207 underfoot, and the choir raised over a columned crypt. Tuscan Romanesque trusted geometry and marble revetment where the north trusted mass — proof the style could be luminous without losing its gravity."
+      ],
+      [
+        "vezelayTympanum",
+        "The narthex tympanum of Vézelay",
+        "Christ at Vézelay does not judge; he sends. From his outstretched hands rays fall on the Apostles, and around him the peoples of the earth — giants, pygmies, men with enormous ears — crowd the archivolt to be evangelised. Carved around 1120–32 for the church that launched crusades and pilgrimages alike, it is the most generous image of the Romanesque imagination."
+      ]
+    ],
+    "parts": [
+      [
+        0,
+        "Part I",
+        "The First Style of the European Age",
+        "After the year 1000 Europe rebuilt itself in stone. What the age inherited from Charlemagne's empire, what its monks organised and its pilgrims paid for, and the church type — massive, vaulted, processional — in which the first truly European style announced itself."
+      ],
+      [
+        3,
+        "Part II",
+        "The Regional Schools",
+        "One Latin Christendom, a dozen Romanesques: Burgundy and the Cluniac world, the Auvergne and Provence, Normandy and its English empire, the Rhineland of the emperors, Italy's marble south and north, and the frontier churches of Spain and Catalonia."
+      ],
+      [
+        9,
+        "Part III",
+        "Making and Meaning",
+        "How the style was actually made and read: the engineer's problem of the stone vault, the mason's lodge and the building site, the carved Bible of portals and capitals, the painted interiors now mostly lost, and the keeps, bridges and town houses of the secular Romanesque."
+      ],
+      [
+        14,
+        "Part IV",
+        "Reading and Afterlives",
+        "The equipment and the ending: six buildings read slowly, the five signs by which the style is known in the field, the merger into Gothic that dissolved it, and its long afterlife — revival, Richardson, and the modern architects who still learn from its mass and calm."
+      ]
+    ],
+    "seriesList": "Book 5 · Romanesque Architecture: A Complete History — this volume. Also available: Book 1 · Art Nouveau: A Complete History · Book 2 · Gothic Architecture: A Complete History · Book 3 · Medieval Castles & Fortifications: A Complete History · Book 4 · Baroque & Rococo: A Complete History. In preparation: Modernism & the International Style · Victorian Architecture · Art Deco · Brutalism · Frank Lloyd Wright · and the remaining studies of the atlas, in the journal's demand order.",
+    "images": {
+      "aachenChapel": {
+        "src": "/assets/history-deep/romanesque/aachenChapel.jpg",
+        "alt": "Interior of Charlemagne's Palatine Chapel at Aachen, with the Barbarossa chandelier",
+        "credit": "Photo: Jean Housen, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20190628_aachen137.jpg",
+        "title": "The Palatine Chapel, Aachen"
+      },
+      "angoulemeCathedral": {
+        "src": "/assets/history-deep/romanesque/angoulemeCathedral.jpg",
+        "alt": "The west front of Angoulême Cathedral with its towers and carved facade",
+        "credit": "Photo: JLPC, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angoul%C3%AAme_16_Fa%C3%A7ade_cath%C3%A9drale_2014.JPG",
+        "title": "Angoulême Cathedral, west front"
+      },
+      "arlesStTrophime": {
+        "src": "/assets/history-deep/romanesque/arlesStTrophime.jpg",
+        "alt": "Two apostle figures on the west portal of Saint-Trophime, Arles",
+        "credit": "Photo: Jean-Pol GRANDMONT, via Wikimedia Commons (CC BY 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:0_Portail_ouest_de_l%27%C3%A9glise_Saint-Trophime.jpg",
+        "title": "Apostles of the west portal, Saint-Trophime, Arles"
+      },
+      "autunTympanum": {
+        "src": "/assets/history-deep/romanesque/autunTympanum.jpg",
+        "alt": "Detail of the Last Judgment tympanum of Autun Cathedral, with the weighing of souls",
+        "credit": "Photo: GO69, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autun_(71)_Cath%C3%A9drale_Saint-Lazare_-_Ext%C3%A9rieur_-_Portail_occidental_-_06.jpg",
+        "title": "The Last Judgment of Autun (detail)"
+      },
+      "caenStEtienne": {
+        "src": "/assets/history-deep/romanesque/caenStEtienne.jpg",
+        "alt": "The twin west towers of Saint-Étienne, Caen, seen from below",
+        "credit": "Photo: Zairon, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caen_Abbaye_aux_Hommes_%C3%89glise_Saint-%C3%89tienne_Fassade_T%C3%BCrme.jpg",
+        "title": "Saint-Étienne, Caen — the twin towers"
+      },
+      "cardonaInterior": {
+        "src": "/assets/history-deep/romanesque/cardonaInterior.jpg",
+        "alt": "The barrel-vaulted nave of Sant Vicenç de Cardona",
+        "credit": "Photo: DagafeSQV, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nau_central_Can%C3%B2nica_de_Sant_Vicen%C3%A7_de_Cardona.JPG",
+        "title": "Sant Vicenç de Cardona, the nave"
+      },
+      "cefaluApse": {
+        "src": "/assets/history-deep/romanesque/cefaluApse.jpg",
+        "alt": "The apse mosaic of Cefalù Cathedral: Christ Pantocrator above rows of saints",
+        "credit": "Photo: Berthold Werner, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cefal%C3%B9_Mosaic_of_Christ_Pantocrator_BW_2025-05-01_10-37-47.jpg",
+        "title": "The apse mosaic of Cefalù"
+      },
+      "conquesAbbey": {
+        "src": "/assets/history-deep/romanesque/conquesAbbey.jpg",
+        "alt": "The south flank of the abbey church of Sainte-Foy at Conques",
+        "credit": "Photo: Antoine Garnier, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conques_-_Abbatiale_Sainte-Foy_-_108.jpg",
+        "title": "Sainte-Foy, Conques — the south flank"
+      },
+      "conquesTympanum": {
+        "src": "/assets/history-deep/romanesque/conquesTympanum.jpg",
+        "alt": "The Last Judgment tympanum of Sainte-Foy, Conques",
+        "credit": "Photo: Gerd Eichmann, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conques-16-Sainte-Foy-Tympanon-2001-gje.jpg",
+        "title": "The Last Judgment of Conques"
+      },
+      "durhamExterior": {
+        "src": "/assets/history-deep/romanesque/durhamExterior.jpg",
+        "alt": "Durham Cathedral above the River Wear",
+        "credit": "Photo: Benjamin Smith, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Durham_-_Cathedral_-_Exterior_-_11.jpg",
+        "title": "Durham Cathedral above the Wear"
+      },
+      "durhamNave": {
+        "src": "/assets/history-deep/romanesque/durhamNave.jpg",
+        "alt": "The nave of Durham Cathedral with its incised drum piers",
+        "credit": "Photo: Benjamin Smith, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Durham_-_Cathedral_-_Interior_-_16.jpg",
+        "title": "The nave of Durham Cathedral"
+      },
+      "elyNave": {
+        "src": "/assets/history-deep/romanesque/elyNave.jpg",
+        "alt": "The nave of Ely Cathedral looking east under its painted ceiling",
+        "credit": "Photo: Bs0u10e01, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ely_Cathedral_February_2018_001.jpg",
+        "title": "The nave of Ely Cathedral"
+      },
+      "hedinghamCastle": {
+        "src": "/assets/history-deep/romanesque/hedinghamCastle.jpg",
+        "alt": "The Norman keep of Hedingham Castle, Essex",
+        "credit": "Photo: Michael Garlick, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castle_Hedingham,_The_Norman_keep_-_geograph.org.uk_-_4540129.jpg",
+        "title": "Hedingham Castle keep"
+      },
+      "hildesheimStMichael": {
+        "src": "/assets/history-deep/romanesque/hildesheimStMichael.jpg",
+        "alt": "Aerial view of St Michael's Church, Hildesheim, showing its two choirs and six towers",
+        "credit": "Photo: Carsten Steger, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_St._Michael%27s_Church,_Hildesheim_(view_from_the_south).jpg",
+        "title": "St Michael's, Hildesheim, from the air"
+      },
+      "jumieges": {
+        "src": "/assets/history-deep/romanesque/jumieges.jpg",
+        "alt": "The ruined nave of Jumièges Abbey looking toward the crossing",
+        "credit": "Photo: Zairon, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jumi%C3%A8ges_Abbaye_de_Jumi%C3%A8ges_Abbatiale_Notre-Dame_Innen_Langhaus_Ost_2.jpg",
+        "title": "Jumièges Abbey, the ruined nave"
+      },
+      "mainzCathedral": {
+        "src": "/assets/history-deep/romanesque/mainzCathedral.jpg",
+        "alt": "Mainz Cathedral and St Martin's tower seen from across the Rhine",
+        "credit": "Photo: Sergey Ashmarin, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mainz_Cathedral,_view_from_bridge_-_Mainz,_Germany_-_panoramio.jpg",
+        "title": "Mainz Cathedral from the Rhine"
+      },
+      "mariaLaach": {
+        "src": "/assets/history-deep/romanesque/mariaLaach.jpg",
+        "alt": "Maria Laach Abbey church with its six towers",
+        "credit": "Photo: W. Bulach, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:00_1438_Abteikirche_Maria_Laach.jpg",
+        "title": "Maria Laach Abbey"
+      },
+      "modenaCathedral": {
+        "src": "/assets/history-deep/romanesque/modenaCathedral.jpg",
+        "alt": "A facade metope of Modena Cathedral: two stags at the tree of life",
+        "credit": "Photo: Mongolo1984, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cervi_facciata_duomo_di_modena_1.JPG",
+        "title": "A facade metope of Modena Cathedral"
+      },
+      "moissacPortal": {
+        "src": "/assets/history-deep/romanesque/moissacPortal.jpg",
+        "alt": "Christ in Majesty at the centre of the Moissac tympanum, surrounded by the elders",
+        "credit": "Photo: Moleskine, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tympan_de_Moissac_Richter.jpg",
+        "title": "Christ in Majesty — the Moissac tympanum"
+      },
+      "monrealeInterior": {
+        "src": "/assets/history-deep/romanesque/monrealeInterior.jpg",
+        "alt": "The Christ Pantocrator of Monreale Cathedral's apse mosaic",
+        "credit": "Photo: José Luiz, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christ_Pantocrator_-_Cathedral_of_Monreale_-_Italy_2015_(5).JPG",
+        "title": "The Christ Pantocrator of Monreale"
+      },
+      "notreDameDuPortCapitals": {
+        "src": "/assets/history-deep/romanesque/notreDameDuPortCapitals.jpg",
+        "alt": "A carved Romanesque capital with figures at Notre-Dame-du-Port, Clermont-Ferrand",
+        "credit": "Photo: Ymblanter, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clermont-Ferrand_Notre-Dame_du_Port_Capitals_04.jpg",
+        "title": "A capital of Notre-Dame-du-Port"
+      },
+      "parayLeMonial": {
+        "src": "/assets/history-deep/romanesque/parayLeMonial.jpg",
+        "alt": "The basilica of Paray-le-Monial seen across the canal",
+        "credit": "Photo: W. Bulach, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:00_1357_Paray_le_Monial_(Frankreich)_-_Basilique_du_Sacr%C3%A9-Coeur.jpg",
+        "title": "Paray-le-Monial"
+      },
+      "parmaBaptistery": {
+        "src": "/assets/history-deep/romanesque/parmaBaptistery.jpg",
+        "alt": "Parma Baptistery with the cathedral campanile",
+        "credit": "Photo: Zairon, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parma_Cattedrale_di_Santa_Maria_Assunta_Battistero_Esterno_1.jpg",
+        "title": "Parma Baptistery"
+      },
+      "paviaSanMichele": {
+        "src": "/assets/history-deep/romanesque/paviaSanMichele.jpg",
+        "alt": "The sandstone west front of San Michele Maggiore, Pavia",
+        "credit": "Photo: Groume, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_di_San_Michele_Maggiore_(Pavia).jpg",
+        "title": "San Michele Maggiore, Pavia"
+      },
+      "pisaBaptistery": {
+        "src": "/assets/history-deep/romanesque/pisaBaptistery.jpg",
+        "alt": "The font of Pisa Baptistery seen from the gallery above",
+        "credit": "Photo: Xosema, edited by MenkinAlRire, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pisa_-_Baptisterio_-_Interior_-_05-edit.jpg",
+        "title": "The font of Pisa Baptistery"
+      },
+      "pisaComplex": {
+        "src": "/assets/history-deep/romanesque/pisaComplex.jpg",
+        "alt": "The Piazza dei Miracoli, Pisa, from the campanile: cathedral, baptistery and cemetery",
+        "credit": "Photo: Spike, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pisa_Cathedral_and_Bapistery_from_Leaning_Tower_01.jpg",
+        "title": "The Piazza dei Miracoli from the campanile"
+      },
+      "poitiersFacade": {
+        "src": "/assets/history-deep/romanesque/poitiersFacade.jpg",
+        "alt": "Detail of the carved frieze on the west front of Notre-Dame-la-Grande, Poitiers",
+        "credit": "Photo: Benjamin Smith, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poitiers_-_%C3%89glise_Notre-Dame_la_Grande_-_08.jpg",
+        "title": "The west-front frieze of Notre-Dame-la-Grande, Poitiers"
+      },
+      "puenteLaReina": {
+        "src": "/assets/history-deep/romanesque/puenteLaReina.jpg",
+        "alt": "The Romanesque pilgrims' bridge at Puente la Reina reflected in the River Arga",
+        "credit": "Photo: aherrero, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puente_la_Reina.jpg",
+        "title": "The pilgrims' bridge at Puente la Reina"
+      },
+      "ripollPortal": {
+        "src": "/assets/history-deep/romanesque/ripollPortal.jpg",
+        "alt": "The sculpted archivolts of the great west portal of Santa Maria de Ripoll",
+        "credit": "Photo: José Luis Filpo Cabana, via Wikimedia Commons (CC BY 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santa_Mar%C3%ADa_de_Ripoll._Portada.jpg",
+        "title": "The portal of Ripoll (detail)"
+      },
+      "saintSavinFresco": {
+        "src": "/assets/history-deep/romanesque/saintSavinFresco.jpg",
+        "alt": "The frescoed barrel vault of the nave of Saint-Savin-sur-Gartempe",
+        "credit": "Photo: Gerd Eichmann, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Savin-124-Mittelschiff-Deckenfresken-2008-gje.jpg",
+        "title": "The painted vault of Saint-Savin"
+      },
+      "sanAmbrogio": {
+        "src": "/assets/history-deep/romanesque/sanAmbrogio.jpg",
+        "alt": "The atrium of Sant'Ambrogio, Milan, with the basilica facade and its two towers",
+        "credit": "Photo: FlavMi, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inner_courtyard_of_the_Basilica_of_Sant%27Ambrogio_in_Milan_in_Italy.jpg",
+        "title": "The atrium of Sant'Ambrogio, Milan"
+      },
+      "sanIsidoroPanteon": {
+        "src": "/assets/history-deep/romanesque/sanIsidoroPanteon.jpg",
+        "alt": "The vault fresco of the Pantheon of the Kings at San Isidoro, León: Christ in Majesty",
+        "credit": "Photo: José Luis Filpo Cabana, via Wikimedia Commons (CC BY 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pante%C3%B3n_Real,_Bas%C3%ADlica_de_San_Isidoro_de_Le%C3%B3n._B%C3%B3veda.jpg",
+        "title": "The Pantheon of the Kings, León"
+      },
+      "sanMiniato": {
+        "src": "/assets/history-deep/romanesque/sanMiniato.jpg",
+        "alt": "The interior of San Miniato al Monte, Florence, looking toward the raised choir",
+        "credit": "Photo: John Samuel, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_view_San_Miniato_al_Monte_(Florence)_01.jpg",
+        "title": "San Miniato al Monte, interior"
+      },
+      "santAngeloFormis": {
+        "src": "/assets/history-deep/romanesque/santAngeloFormis.jpg",
+        "alt": "Fresco of two archangels at Sant'Angelo in Formis",
+        "credit": "Photo: Carlo Raso, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_di_Sant%27Angelo_in_Formis_22.jpg",
+        "title": "Archangels of Sant'Angelo in Formis"
+      },
+      "santiagoNave": {
+        "src": "/assets/history-deep/romanesque/santiagoNave.jpg",
+        "alt": "The tribune gallery of Santiago de Compostela Cathedral",
+        "credit": "Photo: amaianos from Galicia, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_Santiago_(2986324275).jpg",
+        "title": "The tribune gallery of Santiago"
+      },
+      "santiagoPortico": {
+        "src": "/assets/history-deep/romanesque/santiagoPortico.jpg",
+        "alt": "The central arch and column statues of the Pórtico de la Gloria, Santiago de Compostela",
+        "credit": "Photo: José Antonio Gil Martínez from Vigo, Spain, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portico_de_la_Gloria_(262203386).jpg",
+        "title": "The Pórtico de la Gloria"
+      },
+      "speyerCrypt": {
+        "src": "/assets/history-deep/romanesque/speyerCrypt.jpg",
+        "alt": "The groin-vaulted crypt of Speyer Cathedral",
+        "credit": "Photo: Moleskine, via Wikimedia Commons (CC BY 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crypt_of_Speyer_Cathedral_Gew%C3%B6lbe.jpg",
+        "title": "The crypt of Speyer Cathedral"
+      },
+      "speyerExterior": {
+        "src": "/assets/history-deep/romanesque/speyerExterior.jpg",
+        "alt": "The east end and towers of Speyer Cathedral",
+        "credit": "Photo: calflier001, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:SPEYER_DOM_GERMANY_APRIL_2013_(8711629628).jpg",
+        "title": "Speyer Cathedral, the east end"
+      },
+      "speyerNave": {
+        "src": "/assets/history-deep/romanesque/speyerNave.jpg",
+        "alt": "The groin-vaulted nave of Speyer Cathedral",
+        "credit": "Photo: Moleskine, via Wikimedia Commons (CC BY 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dome_interior_of_Speyer_Cathedral_Schiff.jpg",
+        "title": "The nave of Speyer Cathedral"
+      },
+      "stDenis": {
+        "src": "/assets/history-deep/romanesque/stDenis.jpg",
+        "alt": "The ambulatory and choir of the Basilica of Saint-Denis with its stained glass",
+        "credit": "Photo: P.poschadel, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Denis_(93),_basilique_Saint-Denis,_croisillon_nord,_d%C3%A9ambulatoire_et_ch%C5%93ur.jpg",
+        "title": "The ambulatory of Saint-Denis"
+      },
+      "stSerninExterior": {
+        "src": "/assets/history-deep/romanesque/stSerninExterior.jpg",
+        "alt": "The chevet and octagonal crossing tower of Saint-Sernin, Toulouse",
+        "credit": "Photo: Zairon, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toulouse_Basilique_Saint-Sernin_Ext%C3%A9rieure_Chevet_2.jpg",
+        "title": "Saint-Sernin, Toulouse — chevet and tower"
+      },
+      "stSerninNave": {
+        "src": "/assets/history-deep/romanesque/stSerninNave.jpg",
+        "alt": "The tribune gallery of Saint-Sernin, Toulouse, in warm light",
+        "credit": "Photo: Marmontel, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilique_Saint_Sernin_(50389952248).jpg",
+        "title": "The tribune gallery of Saint-Sernin"
+      },
+      "tournusNave": {
+        "src": "/assets/history-deep/romanesque/tournusNave.jpg",
+        "alt": "The transverse barrel vaults of Saint-Philibert, Tournus, seen from below",
+        "credit": "Photo: Benjamin Smith, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tournus_-_%C3%89glise_Saint-Philibert_-_14.jpg",
+        "title": "The vaults of Saint-Philibert, Tournus"
+      },
+      "towerOfLondon": {
+        "src": "/assets/history-deep/romanesque/towerOfLondon.jpg",
+        "alt": "The White Tower at the Tower of London",
+        "credit": "Photo: Oleg Yunakov, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_Tower_Norman_keep,_Tower_of_London.jpg",
+        "title": "The White Tower, London"
+      },
+      "trinityBoston": {
+        "src": "/assets/history-deep/romanesque/trinityBoston.jpg",
+        "alt": "The west front of Trinity Church, Boston, by H. H. Richardson",
+        "credit": "Photo: Bmzuckerman, via Wikimedia Commons (CC BY 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:H._H._Richardson_-_Boston,_MA_-_Trinity_Church_(A).jpg",
+        "title": "Trinity Church, Boston"
+      },
+      "vezelayNave": {
+        "src": "/assets/history-deep/romanesque/vezelayNave.jpg",
+        "alt": "The nave elevation of Vézelay basilica: arcade, gallery and clerestory with striped arches",
+        "credit": "Photo: Johan Allard, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:08_-_BFC_-_Yonne_-_V%C3%A9zelay_-_Basilique_Sainte_Marie-Madeleine_(2025-09-10_15-14-44).jpg",
+        "title": "The nave elevation of Vézelay"
+      },
+      "vezelayTympanum": {
+        "src": "/assets/history-deep/romanesque/vezelayTympanum.jpg",
+        "alt": "The central narthex tympanum of Vézelay: Christ sending out the Apostles",
+        "credit": "Photo: Office de tourisme de Vézelay, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilique_Ste_Madeleine_narthex_tympan_central.jpg",
+        "title": "The narthex tympanum of Vézelay"
+      },
+      "wormsCathedral": {
+        "src": "/assets/history-deep/romanesque/wormsCathedral.jpg",
+        "alt": "Worms Cathedral from the south",
+        "credit": "Photo: Ato 01, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Peter%27s_Cathedral_Worms_south_side.JPG",
+        "title": "Worms Cathedral from the south"
+      }
+    },
+    "standfirst": "Romanesque is the first architecture that belongs to Europe as a whole. For two centuries after the year 1000, from Durham to Cefalù and from Santiago to Speyer, builders who shared a faith, a liturgy and a kit of forms — the round arch, the massive wall, the stone vault, the sculpted portal — raised churches, keeps and bridges in a language every region spoke with its own accent. This book follows that language from its post-Carolingian roots to its merger into Gothic: how the pilgrimage church was engineered for crowds, how Cluny organised a continent of masons, how a nave in Durham rehearsed the rib vault that would change everything, and how to recognise the style today with five reliable signs.",
+    "intro": [
+      "Around the year 1000, the monk Raoul Glaber looked out at a Latin Christendom busy rebuilding and wrote that the world was clothing itself in a white mantle of churches. He was describing the start of the most sustained building campaign Europe had yet seen. Behind it stood recovery on every front: population rising, forests cleared, trade reviving, kings and bishops consolidating, monasteries reforming — and, focusing money and feet onto a handful of routes, the great pilgrimages, above all the road across France and Spain to the tomb of St James at Compostela. The architecture this campaign produced is what we call Romanesque: round-arched, thick-walled, vaulted in stone wherever means allowed, carved with a sculpture of terrifying energy, and organised — in the pilgrimage churches supremely — as a machine for moving crowds of the faithful past the relics that drew them. It is a style of regions rather than of a single centre: Burgundy is not the Rhineland, Pisa is not Durham. But the family resemblance is unmistakable, and it is the first time since Rome fell that one can travel a continent and read the buildings as dialects of a single tongue.",
+      "A word of honesty about the name and the dates. Nobody in 1100 knew they were building 'Romanesque': the word is a nineteenth-century coinage, formed from the analogy with the Romance languages — as Latin decayed into French and Spanish, so Roman building decayed, or developed, into this. The dates in this book are the dates the documents and the stones support, and they are often ranges rather than years: a great church was a multi-generational project, begun by one patron, vaulted by his grandson, consecrated, burnt, rebuilt. Where scholars argue — and on Romanesque they argue about almost everything, from the date of Durham's vaults to who carved what at Autun — the argument is reported, not concealed. The style's edges are genuinely fuzzy: it grows out of Carolingian and Ottonian building at one end and dissolves into Gothic at the other, at different speeds in different places, and any book that pretended otherwise would be tidier than the truth.",
+      "The account that follows is a synthesis of the standard scholarship — Conant's great survey of 1959, Fernie's modern replacement for it, Stalley, Durliat and Vergnolle on France, the Corpus of Romanesque Sculpture for Britain and Ireland — checked against the buildings as they stand and as UNESCO, Smarthistory and the Heilbrunn Timeline describe them. Every photograph is a real photograph of the building it captions, drawn from Wikimedia Commons under a free licence and credited at the back of the book; plans and reconstructions, where words must do the work of drawings, are described rather than faked. The route is the atlas's route: origins first, then the regional schools one by one, then the making — vault, workshop, sculpture, paint, and the secular world of keeps and bridges — and finally the reading: six buildings taken slowly, the five signs, the Gothic merger, and the style's long afterlife in revival and in the modern architects who still learn from its calm."
+    ],
+    "keyFacts": [
+      [
+        "Period",
+        "c. 1000–1200 (roots from c. 800; regional survivals into the 13th century)"
+      ],
+      [
+        "Where",
+        "Latin Europe entire — France, the Norman world, the German Empire, Italy, Spain — with outposts from Sicily to Scandinavia"
+      ],
+      [
+        "Signature",
+        "The round arch used structurally everywhere: barrel and groin vaults, massive walls, sculpted portals and capitals, twin-towered west fronts"
+      ],
+      [
+        "Key figures",
+        "Abbot Hugh of Cluny · William the Conqueror · Henry IV · Wiligelmo · Gislebertus · Master Mateo · Abbot Suger, the hinge to Gothic"
+      ],
+      [
+        "Landmark buildings",
+        "Saint-Sernin, Toulouse · Speyer Cathedral · Durham Cathedral · Santiago de Compostela · Pisa Cathedral · Vézelay · Conques"
+      ],
+      [
+        "Ended by",
+        "Merger, not defeat: the pointed arch, rib vault and skeletal wall perfected at Saint-Denis (1140–44) and after, while Romanesque regions built on for another century"
+      ]
+    ],
+    "timeline": [
+      [
+        "800–805",
+        "Charlemagne's Palatine Chapel at Aachen is built and consecrated — the classical, centrally-planned model the coming centuries inherit."
+      ],
+      [
+        "c. 1000",
+        "Raoul Glaber describes the world clothing itself in 'a white mantle of churches' as the great rebuilding begins."
+      ],
+      [
+        "c. 1000–1030",
+        "'First Romanesque': small stone churches with Lombard bands rise from Lombardy to Catalonia — Saint-Martin-du-Canigou is consecrated in 1009."
+      ],
+      [
+        "1030",
+        "Conrad II founds Speyer Cathedral, the Salian emperors' church and the largest of its age."
+      ],
+      [
+        "1040",
+        "Sant Vicenç de Cardona is consecrated in Catalonia — a church vaulted in stone throughout, a generation before it becomes normal."
+      ],
+      [
+        "1063",
+        "Pisa begins its cathedral with the spoils of the Palermo raid — Tuscan Romanesque announces itself in marble."
+      ],
+      [
+        "1066",
+        "The Norman Conquest of England: within two generations almost every English cathedral is rebuilt and the land is studded with keeps."
+      ],
+      [
+        "c. 1075",
+        "Santiago de Compostela is begun at the end of the pilgrim road — with Saint-Sernin and Conques, the type-specimen of the pilgrimage church."
+      ],
+      [
+        "1082–1106",
+        "Henry IV's Speyer is remodelled and its nave groin-vaulted — the century's most ambitious vaulting campaign."
+      ],
+      [
+        "1088",
+        "Cluny III is begun under Abbot Hugh — at some 187 metres the largest church in Christendom until St Peter's, Rome."
+      ],
+      [
+        "1093",
+        "Durham Cathedral is begun above St Cuthbert's shrine; within forty years its nave carries a high rib vault, the earliest to survive over a great church."
+      ],
+      [
+        "1095",
+        "Urban II preaches the First Crusade at Clermont; pilgrimage and crusade traffic together transform the roads, the relic trade and church incomes."
+      ],
+      [
+        "1099",
+        "Modena Cathedral is begun; on its facade the sculptor Wiligelmo signs his Genesis reliefs — Romanesque sculpture steps forward with an author's name."
+      ],
+      [
+        "c. 1115–1146",
+        "The age of the great portals: Moissac, Vézelay and Gislebertus's Autun fill tympana with Judgments and Missions of overwhelming invention."
+      ],
+      [
+        "1131",
+        "Roger II founds Cefalù Cathedral in Sicily, where Norman planning, Byzantine mosaic and Arab craft meet in a single church."
+      ],
+      [
+        "1140–44",
+        "Abbot Suger rebuilds Saint-Denis: the new choir's pointed arches, ribs and glass announce Gothic while Romanesque building continues all around it."
+      ],
+      [
+        "1168–88",
+        "Master Mateo and his workshop carve the Pórtico de la Gloria at Santiago — Romanesque sculpture's culmination and farewell."
+      ],
+      [
+        "1174",
+        "William II founds Monreale; its cloister and gold mosaics complete the Sicilian synthesis two generations after Cefalù."
+      ],
+      [
+        "c. 1200–1250",
+        "The merger: Gothic takes France and England while Germany and Italy build Romanesque into the thirteenth century — the 'Transitional' is a generation of overlap, not a day of change."
+      ],
+      [
+        "1877",
+        "H. H. Richardson's Trinity Church, Boston, is consecrated — the Romanesque Revival's masterpiece, proof the style's mass and calm still had work to do."
+      ]
+    ],
+    "chapters": [
+      {
+        "id": "before-the-style",
+        "numeral": "I",
+        "title": "Before the Style: Europe After Charlemagne",
+        "sections": [
+          {
+            "heading": "The Carolingian Inheritance",
+            "figure": "aachenChapel",
+            "paras": [
+              "Romanesque architecture begins as an act of memory. When Charlemagne built his palace chapel at Aachen — begun about 796 and consecrated in 805 — he reached back across four centuries to Rome and Ravenna: the octagonal plan quotes San Vitale, the marble and columns were carted from Italy, and the bronze doors were cast in a single pour as if to prove that Roman craft had merely been sleeping. The chapel is not yet Romanesque — it is too classical, too much a revival — but it fixed the elements the next three centuries would work with: the centrally planned imperial space, the gallery at mid-height, the westwork block with its towers, and above all the belief that a church should be built of dressed stone, vaulted, and made to last like Rome.",
+              "What the Carolingians added to the Roman basilica was equally durable: the developed eastern arm with its crypt for relics, the crossing emphasised as the liturgical hinge, the twin-towered west front in embryo. Their empire fragmented within two generations of Charlemagne's death, and the ninth and tenth centuries — Viking raids in the west, Magyar horsemen in the east, Saracen pirates in the Mediterranean — were not building centuries. But the forms survived in the monasteries, and so did the skills: somewhere in every generation a mason still knew how to set out an apse, turn an arch, and burn lime. Romanesque is what happened when peace, money and organisation returned to hands that had never quite forgotten."
+            ]
+          },
+          {
+            "heading": "Ottonian Germany and the Westwork",
+            "figure": "hildesheimStMichael",
+            "paras": [
+              "The first great post-Carolingian building culture was German. The Ottonian emperors, ruling from Saxony, endowed churches that were Roman in plan but new in silhouette: St Michael's at Hildesheim, founded by Bishop Bernward in 1010 and consecrated in 1022, spreads two choirs at either end of the nave, six towers along its length, and crossing towers that make the church read from outside as a fortified city of God. Its interior was timber-roofed — the Ottonians had not yet committed to the stone vault — but the massing, the alternating piers and columns, and the sculptural bronze work Bernward commissioned set the terms the Rhineland would develop for two hundred years.",
+              "The Ottonian westwork deserves its name checked in the field: at Corvey and elsewhere the west end of the church became a self-contained structure — a tower block with its own chapel and gallery, perhaps an imperial throne room facing the altar. When Romanesque builders later raised twin-towered west fronts, they were simplifying the westwork into a facade; when they kept a western apse as well as an eastern one, as at Mainz and Worms, they were keeping the Ottonian double-ended plan. The lesson the year 1000 teaches is that Romanesque did not replace what came before: it absorbed it."
+            ]
+          },
+          {
+            "heading": "The Year 1000 and the First Romanesque",
+            "paras": [
+              "Around the millennium the conditions change everywhere at once. Raoul Glaber's famous sentence — that the world was shaking off its old age and clothing itself in a white mantle of churches — describes a rebuilding that archaeology confirms: thousands of small stone churches replace wooden ones across France, Italy and Spain. Their style is so consistent that the Catalan architect Josep Puig i Cadafalch, who mapped it in 1928, called it the first Romanesque: churches built of small, regular rubble stone, their plain walls articulated by shallow vertical strips — lesenes or Lombard bands — linked by little arches under the eaves, their apses semicircular, their windows tiny slits. Sant Martí del Canigó in the Pyrenees, consecrated in 1009, is its postcard; the masons who spread the manner were, tradition says, the magistri comacini, the travelling lodges of the Lombard lakes.",
+              "The carrier who matters most has a name. William of Volpiano, a Lombard monk formed at Cluny, reformed abbeys from Burgundy to Normandy and built as he went — at Dijon his great rotunda of Saint-Bénigne rose in the first years of the new century. In one career the first Romanesque travelled from the Italian foothills to the Channel. By 1030 the elements are all present: stone construction at every scale, the Lombard wall, the crypt, the lengthening choir, the desire — still mostly frustrated — to vault the whole church in stone. What the eleventh century adds is scale, money and the crowd."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-monastic-engine",
+        "numeral": "II",
+        "title": "The Monastic Engine: Cluny and the Orders",
+        "sections": [
+          {
+            "heading": "An Order That Built",
+            "figure": "parayLeMonial",
+            "paras": [
+              "The Romanesque century was powered by monasteries, and the greatest monastic machine was Cluny. Founded in Burgundy in 910 with a charter that freed it from every lord but the pope, Cluny grew into an order of more than a thousand dependent houses, all owing obedience to one abbot, all celebrating the same elaborate liturgy. That liturgy was an architectural programme in itself: day-long chant in great choirs, processions winding through narthex and cloister, a calendar crowded with saints whose altars multiplied along the walls. A Cluniac church is long because the office is long; it is lined with chapels because the masses are many; it is decorated because the order's wealth — Spanish gold from the kings of León, tithes from half of Europe — was spent, deliberately, on the beauty of the house of God.",
+              "The order's churches form a family the eye learns quickly. Paray-le-Monial, a Cluniac priory a day's ride from the mother house, is Cluny III reduced to comprehensible scale — the same pointed barrel vault, the same tall transept, the same octagonal crossing tower — and because Paray survives and Cluny does not, Paray is where the order's architecture is now best read. From Burgundy the family spread along the pilgrim roads the order served: Cluniac priories fed, housed and protected the travellers to Compostela, and took their offerings in return."
+            ]
+          },
+          {
+            "heading": "Cluny III: The Largest Church in Christendom",
+            "paras": [
+              "In 1088 Abbot Hugh laid the first stone of a church intended to outbuild every rival: five aisles, two transepts, a choir with ambulatory and five radiating chapels, a narthex the size of a parish church, and a nave vaulted in stone at a height of some thirty metres, its barrel vault slightly pointed in profile — a profile that eased the thrust and quietly previewed the Gothic century. At about 187 metres long, Cluny III was the largest church in Christendom and remained so until the new St Peter's in Rome surpassed it in the sixteenth century. Its consecration by Pope Urban II in 1095, months before he preached the First Crusade at Clermont, marked the order's zenith.",
+              "Almost none of it stands. Sold after the Revolution and quarried for building stone, Cluny III survives as one transept arm with its tower, fragments of the narthex, and a footprint traced in the streets of the town. The loss matters methodologically: the most influential church of the Romanesque world must be studied from excavations, drawings and its daughters — Paray above all. It is the standing warning of this book's method: the Romanesque we can visit is the Romanesque that happened to survive, and the map of survivals is not the map of what was built."
+            ]
+          },
+          {
+            "heading": "Reform, Austerity and the Cistercian Answer",
+            "paras": [
+              "Splendour bred reaction. In 1098 a group of monks left Molesme to found Cîteaux and live the Rule without ornament; under St Bernard of Clairvaux the Cistercian order exploded across Europe, and Bernard's Apologia — his furious, funny attack on Cluniac cloisters, 'those ridiculous monstrosities' of carved beasts — is the period's great piece of architectural criticism. The Cistercian church that answered it was a deliberate counter-architecture: no towers, no sculpture, no paint, square east ends, and a plan so standardised that a Cistercian abbey in Yorkshire reads like one in Provence.",
+              "The paradox is that the austere order became the style's most effective exporter: Cistercian monks, building in Burgundy's pointed-barrel technique and carrying it to Spain, Italy, Germany and the British Isles, were among the chief agents by which Romanesque forms travelled — and by which, later, the first Gothic forms would travel too. The monastic engine thus has two cylinders: Cluny, which made the style splendid, and Cîteaux, which made it plain and portable. Between them they built Romanesque Europe."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-pilgrimage-church",
+        "numeral": "III",
+        "title": "The Pilgrimage Church: Roads to Santiago",
+        "sections": [
+          {
+            "heading": "The Roads and the Relic Economy",
+            "paras": [
+              "The tomb of the apostle James, discovered in Galicia in the early ninth century, became by the eleventh the goal of the greatest organised movement of people in medieval Europe. The Pilgrim's Guide in the Codex Calixtinus describes four roads across France — from Paris and Tours, from Vézelay, from Le Puy, from Arles and Toulouse — joining at Puente la Reina for the Camino Francés across northern Spain. Along them flowed everything a building boom needs: crowds who gave, kings who endowed, orders who built hostels and bridges, and relics whose fame was income. Sainte Foy of Conques — a girl martyr whose relics a monk famously stole from Agen — drew offerings that paid for a great church in a mountain village with no other economy; her golden statue, glittering with pilgrims' donated gems, is the relic economy made visible.",
+              "Pilgrimage also standardised architecture. A pilgrim from Liège arriving at Toulouse found a church arranged like the one he had left: the same plan, the same circulation, the same sculpted warnings over the door. The great road churches are close cousins — some scholars call them a family of five: Tours, Limoges, Conques, Toulouse, Santiago — and their shared plan is the Romanesque's most considered piece of design."
+            ]
+          },
+          {
+            "heading": "Anatomy of the Type",
+            "figure": "stSerninNave",
+            "paras": [
+              "Read Saint-Sernin in Toulouse in section and the type explains itself. The nave is covered by a continuous barrel vault — splendid, fireproof and acoustically alive, but pushing outward along its whole length. The push is answered by the tribune: a vaulted gallery storey above each aisle whose own half-vaults lean against the nave vault and conduct its thrust down to the outer walls. The pilgrim route runs through the plan: in at the west doors, along the aisles, around the transept with its ranked chapels, and into the ambulatory — the curved walkway behind the altar — from which radiating chapels, each with its relics, open like bays. The crowd flows past the shrine without ever invading the monks' choir at the centre. Architecture here is crowd engineering, and it works: Saint-Sernin could absorb the faithful by the thousand and does still.",
+              "The same system scales down the whole family: the transept of a pilgrimage church is a second, smaller church across the first, its eastern chapels doubling the altars; the crossing carries a lantern tower that marks the shrine's position from the countryside around. Everything is masonry, everything is round-arched, and the carving concentrates where the pilgrim's eye is led — the portals outside, the capitals along the route inside."
+            ]
+          },
+          {
+            "heading": "Conques and Toulouse",
+            "figure": "conquesAbbey",
+            "paras": [
+              "Sainte-Foy at Conques, built between about 1045 and 1130, is the type at village scale and in the purest state: a short nave under a barrel vault, tribunes lighting the crossing, an ambulatory with three radiating chapels, and over the west portal the great tympanum of the Last Judgment — the pilgrim's destination previewed at his entry. The church's treasure, still shown in Conques, funded it; the town is the church, wrapped around its abbey on the hillside like a cloak.",
+              "Saint-Sernin is the type at metropolitan scale and in a different material: Toulouse had little building stone, so the largest Romanesque church in Europe is substantially brick, its stone reserved for dressings and sculpture — proof that the style is a system of forms, not a material. Its octagonal crossing tower, stacked arcaded storeys in brick, became the signature of the whole Toulousain. Consecrated in 1096 by Urban II — the pope of the Crusade — with building continuing for a century after, Saint-Sernin is both the pilgrimage church's masterpiece and its best surviving textbook."
+            ]
+          },
+          {
+            "heading": "Santiago: The Goal",
+            "figure": "santiagoNave",
+            "paras": [
+              "At the road's end stands Santiago de Compostela, begun about 1075 under Bishop Diego Peláez and the kings of León-Castile, and the most complete of the family: the plan of Saint-Sernin carried to perfection, with a tribune running around the entire church — nave, transept and choir — so that the pilgrim's circuit never descends to the floor. The cathedral's granite is sombre after Toulouse's brick warmth, and its sculpture, crowned by the Pórtico de la Gloria, looks already toward the next style.",
+              "The building still does its job. Pilgrims who have walked a month arrive under the same barrel vaults, queue for the same ambulatory, and embrace the same apostle. Of all Romanesque, the pilgrimage churches are the least museum-like: their design brief — move a crowd in wonder past a tomb — is renewed daily, and it is impossible to understand their plans anywhere but in the crowd they were built for."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "france-burgundy",
+        "numeral": "IV",
+        "title": "France I: Burgundy and the Cluniac World",
+        "sections": [
+          {
+            "heading": "The Burgundian Vault",
+            "figure": "vezelayNave",
+            "paras": [
+              "Burgundy, the Cluniac heartland, built the most ambitious vaults of the French Romanesque. Cluny III's nave rode under a barrel vault whose profile was pointed — not for looks but for physics: a pointed barrel thrusts a little less sideways than a round one and can be carried a little higher. At Vézelay the masons chose differently: the nave of Sainte-Marie-Madeleine, rebuilt after the fire of 1120, is covered with groin vaults bay by bay, its transverse arches built of alternating light and dark stone — the striped voussoirs that give Burgundian interiors their pulse. Groin vaults let each bay be lit by its own clerestory window, and Vézelay's nave is famously luminous, the light washing down the pale stone in a way no barrel-vaulted church achieves.",
+              "The Burgundian wall beneath the vault is equally considered: nave arcades of round arches on cruciform piers, a triforium band, then the clerestory — an elevation of classical calm. When the style in Burgundy finally meets Gothic it will be a marriage of equals, and Burgundian churches of the thirteenth century keep Romanesque bones under Gothic ribs longer than anywhere in France."
+            ]
+          },
+          {
+            "heading": "Vézelay: The Hill of the Magdalene",
+            "paras": [
+              "Vézelay's basilica guarded relics of Mary Magdalene and stood at the head of one of the four great roads; it was here that Bernard preached the Second Crusade in 1146 to a crowd so large the ceremony moved outdoors, and here that Richard the Lionheart and Philip Augustus mustered for the Third. The church expresses the role: before the nave stands a narthex of exceptional size — in effect a preaching-hall and marshalling space — whose three portals into the church carry the most generous sculpture of the age, the central tympanum showing not judgment but mission: Christ sending the apostles to all the peoples of the earth, who crowd the archivolts in a medieval atlas of the world.",
+              "The narthex tympanum deserves slow looking (it closes this book's second set of plates). Christ's hands pour rays onto the apostles; the lintel processes the nations — men with ears like saucepans, giants, pygmies, Scythians with snowshoes — toward conversion. It is Romanesque sculpture at its most encyclopaedic and least fearful, and it taught the pilgrim setting out for Spain exactly what the journey meant: the faith, and the road, were for everyone."
+            ]
+          },
+          {
+            "heading": "Autun and the Sculptor's Signature",
+            "figure": "autunTympanum",
+            "paras": [
+              "Thirty miles south, the cathedral of Saint-Lazare at Autun was built from about 1120 to receive relics translated from the old cathedral, and its west tympanum is the Last Judgment as Gislebertus conceived it: an elongated, swaying Christ in the mandorla, the dead rising in the lintel below, St Michael and a devil disputing souls at the scales — the devil cheating, a demon pulling his side down, an angel calmly restoring the balance. Under Christ's feet the sculptor cut his name: GISLEBERTUS HOC FECIT, 'Gislebertus made this'. Whether Gislebertus was the master of the whole workshop or one carver among several is still argued; the signature itself is the fact — an artist of the 1130s claiming authorship of the most public image in his city.",
+              "Autun's capitals sustain the tympanum's quality inside: the Flight into Egypt, the suicide of Judas, the dream of the Magi, carved with a tenderness that has made them the most loved small sculptures of the Romanesque. The famous Eve — the lintel figure who reaches back for the apple while looking out at us — survives in the town's museum, the one great Romanesque figure carved, unmistakably, to be seen: Romanesque sculpture here is not illustration of a text but preaching in its own right."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "france-regions",
+        "numeral": "V",
+        "title": "France II: Auvergne, the West and Provence",
+        "sections": [
+          {
+            "heading": "The Auvergne: Volcanic Stone",
+            "figure": "notreDameDuPortCapitals",
+            "paras": [
+              "The Auvergne built in the stone it had — dark volcanic lava and pale arkose, often in the same wall — and developed the most sculptural exteriors of the French schools. Its great churches — Notre-Dame-du-Port at Clermont, Issoire, Orcival, Saint-Nectaire, Saint-Saturnin — share a chevet of unforgettable silhouette: radiating chapels, transept and crossing tower stacked in diminishing stages like a pyramid of roofs against the puys. Inside, the type is equally distinct: a barrel vault carried on a nave without clerestory, lit from the aisles and the crossing, its capitals carved with the densest figure sculpture in France. Notre-Dame-du-Port's capitals — the Fall, the combat of virtues, a usurer weighed down by his money-bag — are Burgundy's rivals in invention and finer in finish.",
+              "The Auvergnat chevet is best read from outside and below, where the massing declares the plan: each internal space — ambulatory, chapel, transept arm, choir — wears its own roof at its own height, the whole composition assembled like blocks. It is the Romanesque exterior as honest diagram, and photographers have loved it since the nineteenth century for exactly that clarity."
+            ]
+          },
+          {
+            "heading": "Poitou and Saintonge: The Sculpted Facade",
+            "figure": "poitiersFacade",
+            "paras": [
+              "In the west, in Poitou and Saintonge, Romanesque energy migrates to the west front. Notre-Dame-la-Grande at Poitiers wears a screen facade like a tapestry in stone: three portals, two turrets, and above them a continuous frieze in which the whole story from Adam to Christ unrolls in panels — the Annunciation, the Nativity, Adam and Eve at the tree — carved around 1120–30 with a miniaturist's density. The facade has no structural need of this richness; it is a billboard, and in a region of pilgrimage traffic — Poitiers sat on the Tours road — a billboard was a rational investment.",
+              "The school repeats the lesson up and down the west: Aulnay's south portal, where the archivolts teem with the labours, virtues and monsters; Saintes; Angoulême, whose facade arranges its sculpture in a great grid of arches around a Christ in Majesty. Western French carving tends to flatten its figures into the wall — sculpture as surface — where Burgundy models in the round: two solutions to the same problem of making stone speak."
+            ]
+          },
+          {
+            "heading": "The Domed Churches of the South-West",
+            "figure": "angoulemeCathedral",
+            "paras": [
+              "South-western France made the boldest structural experiment of the French schools: the domed church. At Cahors, at Angoulême, above all at Saint-Front in Périgueux, the nave is a row of square bays each covered by a dome on pendentives — a Byzantine device naturalised in the west, perhaps through Venetian and crusader contacts, Saint-Front's Greek-cross plan of five domes quoting St Mark's itself. The domed bay solves the vault problem by concentration: thrust is gathered to four points, walls between can open, and the interior becomes a sequence of canopied spaces rather than a tunnel.",
+              "Angoulême's cathedral, rebuilt under Bishop Girard II from about 1110, strings its domes along a single aisleless nave and fronts them with the west's most organised facade — five vertical divisions of arcading with Christ in Majesty at the centre and the apostles ranked below. Restored hard in the nineteenth century, its sculpture must be read with the usual caution, but the conception — dome, facade, programme — is the south-west's original contribution to the Romanesque synthesis."
+            ]
+          },
+          {
+            "heading": "Provence: Rome Remembered",
+            "figure": "arlesStTrophime",
+            "paras": [
+              "Provence had Rome in its fields — the amphitheatres of Arles and Nîmes, the Maison Carrée, triumphal arches at Orange — and its Romanesque is the most classical in Europe. The west portal of Saint-Trophime at Arles, carved about 1180–90 in the region's late flowering, sets apostles like Roman senators between the doors, a Christ in Majesty above them, and a frieze of the Passion and the damned and saved running across like a Roman sarcophagus unrolled — which is, formally, exactly what it is: Provençal sculptors learned from the antique sarcophagi their churches still guarded. Saint-Gilles-du-Gard carried the formula to its grandest scale: three portals across a facade quoting a triumphal arch.",
+              "The cloisters complete the picture: at Arles, and supremely at Saint-Paul-de-Mausole and Montmajour, carved capitals and marble colonnettes bring the classical note indoors. Provence warns against one lazy idea — that Romanesque is anti-classical. Where antiquity stood visible, the style absorbed it; the 'Romanesque' of Provence is Rome continued by other means."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "normandy-and-england",
+        "numeral": "VI",
+        "title": "Normandy and Norman England",
+        "sections": [
+          {
+            "heading": "Normandy Invents the Twin-Tower Front",
+            "figure": "jumieges",
+            "paras": [
+              "Normandy, a Viking duchy barely a century Christian, became in the eleventh century the most disciplined building culture in Europe. Its abbeys — Bernay, then Jumièges, consecrated in 1067 in William the Conqueror's presence — established the Norman grammar: a long cruciform church, twin towers on the west front flanking a tall gable, a crossing tower, and elevations of round arches in pale Caen stone, plain to the point of severity. Jumièges, ruined since the Revolution and open to the sky, shows the grammar in section: the nave arcades and gallery survive as a stone drawing of the type. Norman austerity was not poverty but taste — the orderliness of a new aristocracy displaying control — and it travelled with Norman arms to England, Sicily and the crusader states.",
+              "Norman masons also experimented: the rib vaults that appear over the choirs of a few Norman churches around 1100 — Lessay claims some of the earliest — and the systematic use of wall passages and thick hollow walls gave Norman building a hidden armature that England would develop. The duchy's quarries at Caen shipped stone across the Channel before the Conquest; after 1066 they supplied a building boom."
+            ]
+          },
+          {
+            "heading": "Caen: The Conqueror's Penance",
+            "figure": "caenStEtienne",
+            "paras": [
+              "William founded two abbeys at Caen as penance for his marriage within the forbidden degrees: the Abbaye-aux-Hommes, dedicated to St Stephen, for himself, and the Abbaye-aux-Dames for Queen Matilda. Saint-Étienne, begun about 1063, is the school's manifesto: the twin west towers rise from a facade organised in four vertical strips of blind arcading — the direct ancestor of the English west front — and behind it a nave of majestic plainness. William was buried before its altar in 1087; his tomb slab still marks the choir. Around 1130 the nave received sexpartite rib vaults, among the earliest in France — Normandy experimenting on its own masterpiece.",
+              "Caen stone built half the Norman world, and Caen's lesson was organisational as much as formal: a duke who could quarry, ship and carve at this scale could also administer a kingdom. The architecture and the statecraft are the same fact in different materials."
+            ]
+          },
+          {
+            "heading": "1066 and After: England Rebuilt",
+            "figure": "durhamExterior",
+            "paras": [
+              "The Conquest replaced England's ruling class and, within a generation, its architecture. Nearly every Anglo-Saxon cathedral was demolished and rebuilt on the Norman plan — Canterbury from 1070, then St Albans, Winchester, Ely, Norwich, Durham — in a coordinated programme of stone colonisation unmatched until the railway age. The new cathedrals are longer and loftier than French norms, their naves stretching to twelve, fourteen bays; their keeps — the White Tower first among them — planted a Norman silhouette in every shire town. English Romanesque, 'Norman' to its home audience, is thus a regional school of unusual unity: one patron class, one generation, one quarry network.",
+              "Durham states the English difference in a single view: cathedral and castle locked together on a fortified peninsula in a loop of the Wear, the church of a prince-bishop who was also the frontier's warden against Scotland. The shrine of St Cuthbert drew the pilgrims; the prince-bishop's army guarded the road. No building in Europe fuses the pilgrimage church and the fortress more completely."
+            ]
+          },
+          {
+            "heading": "The Norman Nave: Durham and Ely",
+            "figure": "elyNave",
+            "paras": [
+              "Inside, the English nave developed its own splendours. Durham alternates compound piers with great cylindrical drums incised with chevrons, spirals and lozenges — abstract pattern carved at architectural scale, a Saxon and Viking taste for surface ornament translated into masonry. Ely stretches its nave to a painted timber ceiling (the painting is Victorian, the timber medieval) above arcades of relentless rhythm; Norwich keeps its fourteen bays and its later vault in near-perfect state. The English were slow to vault their naves in stone — timber was plentiful and the spans modest — but at Durham, uniquely, the masons vaulted high, early, and with ribs: the subject of the vault chapter, and the single most consequential experiment of the Romanesque century.",
+              "The school's afterglow is long: English Romanesque runs to the 1170s in the west and north, its chevron ornament growing richer as French Gothic arrives in the south-east — a reminder that styles end at different times in different places, and that 'Transitional' England is a real country, not a contradiction."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-rhineland",
+        "numeral": "VII",
+        "title": "The Empire: Speyer and the Rhineland",
+        "sections": [
+          {
+            "heading": "Speyer: The Emperors' Church",
+            "figure": "speyerExterior",
+            "paras": [
+              "The German Romanesque begins as imperial policy. In 1030 Conrad II, founder of the Salian dynasty, began a cathedral at Speyer on the Rhine intended as his house's mausoleum and the empire's statement in stone: at over 130 metres, with a nave of unprecedented width and height, it dwarfed everything built in the west for a century. Four Salian rulers — Conrad, Henry III, Henry IV and Henry V — lie in its crypt, and the building's meaning is theirs: two choirs, four towers, a skyline composed like a crown. The original church of 1030–61 was timber-roofed over its nave; what makes Speyer decisive is what happened next.",
+              "The crypt comes first in any visit: the largest Romanesque crypt hall in Germany, forty-two groin-vaulted bays over a forest of columns with cushion capitals, built as the dynasty's burial chamber and still the building's emotional foundation — engineering and memory in a single undercroft. From the crypt one understands Speyer's scale instinctively: this is a church planned from below, by men thinking about centuries."
+            ]
+          },
+          {
+            "heading": "The Great Remodelling",
+            "figure": "speyerNave",
+            "paras": [
+              "Between about 1082 and 1106 Henry IV rebuilt his grandfather's church into the most advanced structure in Europe. The nave received groin vaults of stone spanning nearly fourteen metres — the largest Romanesque vaulting campaign yet attempted — carried on a system of alternating piers: heavy piers at each vault bay, lighter ones between, the so-called bound system that lets the eye read the structural rhythm of the whole nave at a glance. Outside, a dwarf gallery was wrapped around the building beneath the eaves, turning the exterior wall into an openwork screen and unifying apse, transept and nave in one arcaded skin. The result is Romanesque engineering at its most lucid: every force visible, every member sized to its work.",
+              "Speyer's system became the Rhineland's grammar for a century. But note the honesty of the chronology: the greatest 'Romanesque' interior in Germany is a remodelling, not a foundation — the style was invented by rebuilding, and its masters were improvers of inherited shells. The nineteenth century repainted Speyer's nave with Nazarene frescoes (removed again in the twentieth in the west parts); the building one visits is a palimpsest whose Romanesque structure has outlasted every taste applied to it."
+            ]
+          },
+          {
+            "heading": "Mainz, Worms and the Double Choir",
+            "figure": "mainzCathedral",
+            "paras": [
+              "The Ottonian inheritance persists longest in the Rhineland plan: great churches keep choirs at both ends, east and west, serving two dedications and two liturgical poles. Mainz Cathedral — burned on its consecration day in 1009 and rebuilt across two centuries — carries St Martin's choir in the west and St Stephen's in the east, its silhouette a thicket of towers between them. Worms, rebuilt through the twelfth century and consecrated in 1181, is the type's perfection: two apses, four round towers and two domed crossings in warm red sandstone, as composed from the river as a ship.",
+              "The double choir puzzles modern visitors, who expect a single eastern focus; it made sense to a church that was also an imperial palace chapel at both ends of its processional life. Its persistence is the Rhineland's lesson in the same fact Burgundy teaches differently: Romanesque regions were conservative about what worked, and the 'style' of the textbooks is an average of stubborn local habits."
+            ]
+          },
+          {
+            "heading": "Maria Laach and the Rhineland Idyll",
+            "figure": "mariaLaach",
+            "paras": [
+              "The Benedictine abbey of Maria Laach, founded in 1093 by Count Palatine Henry II on the shore of a volcanic lake in the Eifel and built mainly in the twelfth century, gathers the Rhenish themes into one composed picture: east and west choirs, six towers, an arcaded western paradise through which one enters, dark basalt and pale tuff in patterned masonry. It is the German Romanesque at its most picturesque — monastic, scholarly and serene — and its survival, as a living abbey, preserves what the city cathedrals have lost: the sense of a church as the centre of a working estate of farms, mills and gardens.",
+              "Between Speyer's imperial scale and Laach's calm, the Rhineland defined the Romanesque of the empire: massive, towered, double-ended, and slow to change. When Gothic finally arrives on the Rhine it comes as an import — at Limburg and Cologne — to a building culture that had refined its own system for two hundred years and saw no reason to apologise for it."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "italy",
+        "numeral": "VIII",
+        "title": "Italy: Lombardy, Tuscany and the Norman South",
+        "sections": [
+          {
+            "heading": "Lombardy: The Mason's Homeland",
+            "figure": "sanAmbrogio",
+            "paras": [
+              "Italy is the Romanesque's complication: a land where antiquity never vanished, where marble Roman ruins stood in every city, and where the style accordingly developed as a negotiation with the classical past rather than a fresh start. In Lombardy the negotiation produced the style's seedbed. Sant'Ambrogio in Milan — its atrium built about 1088–99, the church behind it older in parts, newer in others — opens through a canon's courtyard of round arches into a nave covered, daringly early, with ribbed groin vaults whose ribs are structural members of brick. The date of those vaults is fought over (an earthquake of 1117 complicates everything), but Milan's claim to the ribbed bay is as old as Durham's, and the two inventions may be independent — the idea was in the Lombard air, carried by the magistri who travelled from the lakes to half the building sites of Europe.",
+              "The Lombard exterior is equally influential and far more visible: the gabled facade patterned with lesenes and little arched galleries, the wall treated as a woven surface. Lombardy exported the pattern north over the Alpine passes and south down the peninsula; the 'first Romanesque' of Catalonia is, in large part, Lombard work abroad."
+            ]
+          },
+          {
+            "heading": "Pavia and Modena: Crown and Commune",
+            "figure": "paviaSanMichele",
+            "paras": [
+              "San Michele in Pavia, where the kings of Italy were crowned beneath the great mosaic-bearing facade — rebuilt after 1117, its sandstone front now eroding like sugar in rain — sets a shallow gallery of arches across its gable in the Lombard manner raised to grandeur. A day's ride east, Modena tells the other Italian story: the commune's. When Modena began its cathedral in 1099 the architect Lanfranco and the sculptor Wiligelmo were engaged by a city acting collectively — matrons, guilds, bishop and citizens together in the inscriptions — and the building announces civic as much as episcopal power. Its facades and flanks are wrapped in Wiligelmo's sculpture and the metopes of his workshop: Genesis, prophets and two stags at the tree of life, the commune's Bible in stone.",
+              "The pair make the Italian point: in the peninsula, Romanesque is the architecture of cities — of communes inventing themselves against bishops and emperors, and of old royal towns keeping their dignity. The materials answer the politics: warm sandstone at Pavia, white stone at Modena reused from Roman graves, brick almost everywhere in the Po plain, where stone is a luxury imported by river."
+            ]
+          },
+          {
+            "heading": "Tuscany: Marble and Antiquity",
+            "figure": "pisaBaptistery",
+            "paras": [
+              "Tuscany distrusted mass. Its Romanesque — 'proto-Renaissance' to an older scholarship — trusts instead in proportion, in crisp classical detail, and in marble revetment: white Carrara striped with green serpentine at Florence, Prato and Pistoia; at San Miniato al Monte above Florence, a church interior composed like a classical screen, its choir raised over a columned crypt, its pavement inlaid with a zodiac of 1207. Pisa outbuilt them all: the cathedral begun in 1063–64, its baptistery (1152) a great cylinder of arcades, its campanile — the leaning tower, begun 1173 and tilting from its first storeys — and its cemetery compose on their lawn the most famous architectural group of the Romanesque world.",
+              "Pisa's arcaded tiers are the Lombard gallery turned classical: blind arches stacked in storeys until the wall dissolves into pattern. The baptistery's interior, with Guido Bigarelli's font of 1246 waiting below its echoing dome, shows the Tuscan gift for serene geometry at the human scale. Nothing in the north looks like this; it is Romanesque with a Roman memory, and it prepares — centuries early, and by a wholly different road — the same classicism the Renaissance would claim to invent."
+            ]
+          },
+          {
+            "heading": "The Norman South and Sicily",
+            "figure": "cefaluApse",
+            "paras": [
+              "The Normans who conquered southern Italy and Sicily in the eleventh century ruled a population of Greeks, Arabs and Latins, and their kings built accordingly — the most brilliant synthesis of the Romanesque age. Roger II founded Cefalù Cathedral in 1131 on Sicily's north coast: a Latin basilica with a fortress silhouette, its apse filled by Byzantine mosaicists with a Christ Pantocrator of grave serenity, Greek and Latin verses running beneath him. At Monreale, founded by William II in 1174, the synthesis reaches full scale: some six thousand square metres of gold-ground mosaic narrate the whole Bible above classical arcades, while Arab craftsmen carved the muqarnas ceiling of the Palatine Chapel in Palermo and the cloister capitals mix martyrdoms with monsters.",
+              "Sicily is the proof that Romanesque is best understood not as a national style but as a shared technology of building — plan, vault, wall — onto which each court and region mapped its own craftsmen and images. The Norman kings hired the best hands of three civilisations and set them in one church; the style was capacious enough to hold them."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "spain",
+        "numeral": "IX",
+        "title": "Spain and Catalonia: Frontier Romanesque",
+        "sections": [
+          {
+            "heading": "Catalonia and the First Romanesque",
+            "figure": "cardonaInterior",
+            "paras": [
+              "Spain's Romanesque begins in the north-east, in a Catalonia that faced Lombardy across the western Mediterranean and learned its lessons early. The Catalan counties, repopulating a frontier against al-Andalus, built hundreds of small stone churches in the first-Romanesque manner — Lombard bands outside, barrel vaults inside, consecration acts that let many be dated to the year. The masterpiece of the manner is Sant Vicenç de Cardona, consecrated in 1040: a cruciform church vaulted throughout in stone, its nave barrel carried on a lucid system of transverse arches, its crossing domed — a building of engineering maturity a generation before France attempts anything comparable at scale. At Ripoll, the counts' monastery, Abbot Oliba — the statesman-bishop who organised the Catalan church — built a seven-apsed basilica (dedicated 1032) whose descendant portal becomes the school's monument.",
+              "The frontier context shaped everything: churches doubled as refuges, towers as watch-posts, and the repopulation of conquered land was organised around new monasteries and their estates. Spanish Romanesque is never far from the castle and the military order."
+            ]
+          },
+          {
+            "heading": "The Portal of Ripoll",
+            "figure": "ripollPortal",
+            "paras": [
+              "The west portal of Santa Maria de Ripoll, built in the mid-twelfth century onto Oliba's basilica, is Catalonia's great sculptural statement: a whole facade-arch, banded like a Roman triumphal arch with seven archivolts of relief — the Exodus, the life of David, beasts, labours and monsters in concentric ranks — around a Majesty with the elders of the Apocalypse. Burned in 1835, when the monastery was sacked, the church behind it is a nineteenth-century rebuilding, but the portal survived in its blackened, weathered state, and its programme — Catalonia's history rewritten as sacred history, the counts as new Israelites — is the frontier's ideology carved at the door.",
+              "Ripoll also guards the memory of Oliba's scriptorium, one of the great libraries of the eleventh century, whose illustrated Bibles set the style of Catalan painting. In Catalonia the arts moved together: the same world that carved Ripoll painted the apses of Taüll (now in Barcelona's museum) with the most electric frescoes in Europe."
+            ]
+          },
+          {
+            "heading": "The Camino Francés and the Kingdom of León",
+            "paras": [
+              "Across the north, the pilgrim road organised a second Spanish Romanesque: the international style of the Camino itself. San Martín de Frómista (consecrated 1066, heavily but lovingly restored) shows the road's church in pure form — three apses, two round towers, a chequerboard of carved eaves-corbels, the famous jaqués ornament of chequered bands named for Jaca, the Aragonese cathedral where a new naturalism in capital carving appears about 1100. At León, San Isidoro — royal church and pantheon — joins a sculpted portal of the Lamb to the frescoed vaults of the kings' burial chapel: the road's theology and Spain's dynastic memory in one complex.",
+              "The frontier moved south faster than the style: by 1150 Christian armies held Toledo, and Romanesque building in the reconquered lands mixes with Mudéjar craft — Christian plans in Islamic brick technique — the first hint that Spain's architecture would always be a dialogue. The great pilgrimage churches of the north, meanwhile, had already exported their plan around Europe; Spain gave the Romanesque its road, and the road gave Romanesque its type."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-vault-problem",
+        "numeral": "X",
+        "title": "The Vault Problem: Barrel, Groin, Rib",
+        "sections": [
+          {
+            "heading": "Why Vault in Stone at All?",
+            "paras": [
+              "The central technical drama of the Romanesque is the campaign to roof great churches in stone. Timber roofs burned — the chronicles are a litany of cathedral fires, and a fire in the roof usually meant the loss of the church below — and they limited width and grandeur. Stone vaults were fireproof, durable, acoustically magnificent for chant, and prestigious beyond argument. But a masonry vault is a permanent lateral push applied at the top of the walls: a barrel vault thrusts outward continuously along its whole length, and every Romanesque structural system is, in essence, a device for standing up to that push without iron ties and without the wall spreading and the vault cracking down its crown.",
+              "The devices are few and logical. Thick walls resist by mass. Galleries lean a half-vault against the nave vault and pass the thrust to the outer wall. Buttressing strips of masonry thicken the wall at the points of greatest stress. And the vault's own geometry can be improved: make it pointed in profile and it thrusts less; divide it into groin-vaulted bays and the thrust concentrates at points where buttressing can be concentrated too. The whole formal variety of the Romanesque interior — its galleries, its alternating piers, its wall thicknesses — is the visible record of this negotiation with gravity."
+            ]
+          },
+          {
+            "heading": "Barrel, Gallery and the Pilgrimage Section",
+            "figure": "tournusNave",
+            "paras": [
+              "The pilgrimage section — barrel vault over tribune gallery over aisle — is the period's standard answer, and Saint-Philibert at Tournus shows its most ingenious variation. Tournus's nave, built around 1000–1019 in its surviving form, is covered not by one long barrel but by a series of transverse barrels, each bay's vault running across the nave rather than along it, so that thrusts cancel bay against bay and the clerestory can be lit almost like a modern shed roof. The effect inside, looking up, is of a stone canopy in waves — the earliest surviving great vault in France, and still one of the boldest.",
+              "Where the plain barrel rules, as at Saint-Sernin or Conques, the gallery does the work and the interior accepts its conditions: high, dim, resonant, the clerestory sacrificed wherever the gallery vault must lean. Burgundy's pointed barrel, Cluny's above all, trimmed the thrust and gained a few metres of height. Each region's section is a signature as reliable as its capitals: show an engineer the cross-section of a Romanesque nave and he will name its province."
+            ]
+          },
+          {
+            "heading": "Groin and Rib: Speyer to Durham",
+            "figure": "durhamNave",
+            "paras": [
+              "Speyer's remodelling (1082–1106) applied the groin vault at imperial scale: intersecting barrels whose thrusts gather at the bay corners, answered by the great compound piers of the bound system. The rib vault adds one further element — independent arched ribs built first along the groins, on which the vault webs are laid. Whether ribs are structure, constructional aid or stiffening is still debated by engineers; what is certain is their history. Ribs appear in Lombardy (Milan's disputed vaults), in Norman Lessay's claim, and then decisively at Durham, where the choir vaults of the 1090s and the nave vault — complete by the cathedral's consecration generation, the nave finished in 1133 — make Durham's the earliest high rib vaults over a great church to survive.",
+              "Durham's ribs do double duty: they stiffen the groin vault, and drawn as chevroned arches across the nave they make the structure itself the ornament. From Durham the rib passes — through Normandy, whose sexpartite vaults at Caen follow within a generation — into the toolkit that Suger will assemble at Saint-Denis. The Gothic does not begin with a new invention; it begins with a new combination of Romanesque ones. The vault chapter of Romanesque is thus also the first chapter of Gothic, which is why Durham, massively thick-walled and round-arched, can be both the most Romanesque of cathedrals and the cradle of what replaced it."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "building-the-church",
+        "numeral": "XI",
+        "title": "Stone Upon Stone: How a Romanesque Church Was Built",
+        "sections": [
+          {
+            "heading": "Quarry, Cart and Scaffold",
+            "paras": [
+              "A great church began in a quarry, often the patron's own: Caen stone crossed the Channel in the Conqueror's ships; Toulouse, short of stone, made do with brick and saved its stone for sculpture. Transport dominated cost — moving a ton of stone by road could cost more than quarrying it — so building maps are river maps, and the great churches cluster on navigable water. On site, the stone arrived as rough blocks and was finished by banker masons working at benches, each man marking his stones with a personal sign — the masons' marks still visible at Durham and a hundred other churches — by which piece-work was tallied and paid.",
+              "The rising walls were served by scaffolds of poles and planks hung from putlog holes that still pock the masonry, by treadwheel cranes in the wall's thickness, and by timber centring — whole falsework forests — on which vaults were turned. Lime mortar set slowly; a vault might stand on its centring for a season. The building site was the largest organised workplace most medieval people ever saw, employing hundreds seasonally, and its rhythm — quarry in winter, lay stone in summer — structured the economy of whole towns."
+            ]
+          },
+          {
+            "heading": "The Lodge and the Master Mason",
+            "paras": [
+              "Design lived in the lodge: a workshop beside the church where the master mason kept his templates — the wooden and parchment patterns from which every moulding stone was cut — and drew the building's geometry full-size on a tracing floor. Romanesque design is geometry before it is drawing: plans set out with compass and square, elevations generated from the plan's modules, the whole church proportioned by ratios a mason could carry in his head and his rods. Names of masters occasionally survive — Lanfranco at Modena, Raymond at Santiago, the shadowy William of Sens a generation later — and their status could be remarkable: Master Mateo's contract of 1168 granted him a lifetime annual pension of a hundred maravedís from the king of León, payment for genius in terms usually reserved for courtiers.",
+              "Below the master worked a hierarchy that the marks and accounts let us reconstruct: hewers, setters, mortar-makers, carpenters for the centring, smiths for tools and cramps, carters, boatmen, labourers by the score. Sculptors were masons of the highest grade, sometimes — as the signatures at Modena and Autun show — conscious of a fame that could travel: the Wiligelmo workshop's manner appears across Emilia, and sculptors' styles map pilgrim roads as faithfully as relic lists."
+            ]
+          },
+          {
+            "heading": "Time and Money",
+            "paras": [
+              "Great churches took generations because money arrived in pulses: a royal grant, a relic's translation that drew offerings, an indulgence campaign, a fire that loosened purses in guilt and pity. Work stopped and started with the funds; consecrations were staged for finished limbs of unfinished bodies — an altar in the choir while the nave was still a quarry yard. The fabric's incompleteness is written in the buildings: towers planned and never raised, west fronts finished a century after the choirs behind them, vaults of a later fashion over walls of an earlier one. Reading a Romanesque church means reading its building history in its seams.",
+              "The money question explains the map. Pilgrimage churches are rich because the road paid them; Cluny is rich because Spain's kings bought its prayers in gold; Durham because a prince-bishop taxed a frontier; the communes' cathedrals because cities taxed themselves. Romanesque architecture is the period's economics rendered permanent — which is why, when the money and the pilgrims move on, the building simply stops, mid-gesture, for us to find."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-carved-bible",
+        "numeral": "XII",
+        "title": "The Carved Bible: Sculpture and the Portal",
+        "sections": [
+          {
+            "heading": "The Tympanum Programme",
+            "figure": "moissacPortal",
+            "paras": [
+              "Romanesque sculpture concentrates at the threshold. The west portal of a great church was the one image every townsman saw weekly and every pilgrim saw at his journey's emotional peak, and its semicircular tympanum became the period's grandest picture field. Two subjects dominate. Christ in Majesty — enthroned in the mandorla, book and blessing, the four evangelists' beasts at the corners, the twenty-four elders of the Apocalypse ranked in the archivolts with their viols and cups — presides at Moissac (about 1115–35), where the carving's swirling draperies and awful calm remain the school of the south-west's summit. The Last Judgment rules at Conques and Autun: the weighing of souls, the processions of the blessed and the damned, heaven and hell made legible at a glance. Pope Gregory the Great's old dictum — that images are the books of the illiterate — is the programme's charter; the portals are sermons you could read across a crowded square.",
+              "The supporting cast carries the meaning outward: the trumeau between the doors bears a prophet, an apostle, or the local saint at shoulder height; the lintel processes apostles or the rising dead; the archivolts multiply elders, angels, signs of the zodiac and the labours of the months until the doorway is a cosmos. Nothing in European art before had put so much carving in so public a place."
+            ]
+          },
+          {
+            "heading": "Wiligelmo, Gislebertus and the Named Hand",
+            "figure": "modenaCathedral",
+            "paras": [
+              "Romanesque sculptors were not anonymous. At Modena, the Genesis reliefs of the facade — Adam and Eve, Cain and Abel, Noah, carved about 1099–1106 with an earthy vigour — carry an inscription boasting that Wiligelmo's fame shines among sculptors; at Autun, Gislebertus signed beneath Christ's feet. The signatures are evidence of a new artistic self-consciousness, and of workshops that were brands: patrons across Emilia sought the Wiligelmo manner, and the Autun workshop's capitals were imitated down the Loire. Sculpture travelled with its makers along the same roads as the pilgrims — the elongated, drapery-whipped figure style of the south-western French portals reappears in Spain at Silos and Santiago, carried by carvers following the work.",
+              "The named hand also warns the historian: a 'workshop style' is not a man, and attributions built on signatures have been challenged — Gislebertus may have directed more than he carved. What is certain is the period's own valuation: these men were worth naming in stone, in public, in Latin."
+            ]
+          },
+          {
+            "heading": "Capitals: The Margin of the Church",
+            "paras": [
+              "If the portal is the church's sermon, the capitals are its marginalia — and often its freest art. Inside, where the liturgy's solemnity relaxed its grip, carvers filled the little fields of capitals with everything the tympana excluded: acrobats and wrestlers, monsters devouring monsters, centaurs, sirens, green men, the labours of the farm year, fables, and sheer pattern of a density that repays a torch and an hour. The cloister concentrated the genre: at Moissac (about 1100), the cloister's 76 capitals alternate histories with foliage in the earliest great cloister to survive; at Santo Domingo de Silos in Spain, the cloister's corner reliefs — the Descent, the road to Emmaus — attain a stillness that has made them the period's most reproduced images.",
+              "Bernard of Clairvaux's famous complaint — what are those ridiculous monstrosities doing in the cloisters where the brethren read? — is our best review: the capitals were distracting because they were fascinating. The margin was where Romanesque imagination ran unedited, and modern eyes, trained by marginalia in manuscripts, often find the style's purest pleasure there."
+            ]
+          },
+          {
+            "heading": "The Pórtico de la Gloria: The Last Word",
+            "figure": "santiagoPortico",
+            "paras": [
+              "The period's sculptural summa closes the pilgrim road. Between 1168 and 1188 Master Mateo's workshop carved the Pórtico de la Gloria at Santiago: three great arches opening into the narthex, Christ in glory at the centre above the apostles, prophets and elders leaning from the archivolts with their instruments, and at the central trumeau St James himself, seated to receive the pilgrim — whose hand, worn into the marble column behind him by five centuries of arrivals, is sculpture's most touching wear-mark. The figures converse, smile, turn: the draperies soften, the faces individualise. Scholars argue about precedence, but standing there the sensation is plain — Romanesque sculpture, at its last and greatest western portal, is already inventing the Gothic world of naturalism and feeling. The style ends, as it began, at a threshold."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "colour-and-light",
+        "numeral": "XIII",
+        "title": "Colour and Light: The Painted Church",
+        "sections": [
+          {
+            "heading": "Walls That Spoke in Colour",
+            "figure": "saintSavinFresco",
+            "paras": [
+              "The Romanesque interior we visit — bare stone, tastefully lit — is a nineteenth-century invention. The medieval church was painted everywhere: walls and vaults in fresco, sculpture picked out in colour, woodwork gilt, the whole interior a didactic image-world of which the portals were only the cover. The great survivor is Saint-Savin-sur-Gartempe, whose nave barrel carries the largest Romanesque fresco cycle in France: the Old Testament unrolling overhead in soft ochres, greens and whites — Noah's ark, the Tower of Babel, Joseph's story — disposed in bands along the vault like a scroll unrolled for the congregation below. Painted around 1095–1115, largely in true fresco into wet plaster, it earned its nineteenth-century nickname, the Sistine Chapel of the Romanesque, honestly: this is what the inside of the style looked like before whitewash, weather and taste intervened.",
+              "Technique shaped the image: fresco's speed forced broad, flat drawing; the palette was mineral and local — ochres, iron reds, charcoal black, lime white — and the style that results, narrative friezes stacked in registers, descends from manuscript painting enlarged a hundredfold. Churches were re-painted as programmes changed, so surviving cycles are usually the last of several: the archaeologist's wall is a palimpsest of lost sermons."
+            ]
+          },
+          {
+            "heading": "The Painted Vault and the Royal Pantheon",
+            "figure": "sanIsidoroPanteon",
+            "paras": [
+              "Spain keeps the period's most complete painted room: the Pantheon of the Kings at San Isidoro in León, the burial chapel of the León-Castile monarchy, whose vaults — painted in the later twelfth century — carry a full cycle from Annunciation to Apocalypse in saturated colour, the Pantocrator in his mandorla at the centre, the labours of the months around the arches. It survived because the room was never disused and never 'restored' into whiteness: the painted Romanesque interior entire, at the scale of a chapel, exactly as the style intended its kings to be buried — inside the Bible.",
+              "Painted sculpture completed the effect: the tympana's Christs were coloured, the capitals' beasts picked out, the great crucifixes and Virgin statues — the auvergnat 'majesties', wooden Virgins stiff as thrones — painted and gilt. Recovering this polychromy in the mind's eye is the single hardest exercise the Romanesque sets the modern visitor, and the most necessary: the style's solemnity was never austerity."
+            ]
+          },
+          {
+            "heading": "Byzantium in the West",
+            "figure": "santAngeloFormis",
+            "paras": [
+              "The south kept an older painted tradition alive. At Sant'Angelo in Formis near Capua, Abbot Desiderius of Monte Cassino — the future Pope Victor III — rebuilt his abbey church about 1072–87 and had its walls frescoed by painters trained in the Byzantine manner: the apse Christ, the ranked angels with their patterned wings, survive as the finest frescoes of the Italian Romanesque, proof that the peninsula's painting looked east as naturally as its architecture looked back to Rome. Sicily's mosaics are the same current in a costlier medium: Monreale's gold is Byzantine craft on Norman walls.",
+              "Light itself was a building material the Romanesque used sparingly and the next style would use lavishly. Romanesque windows are small because walls must be thick; but the glass that filled them — the prophets of Augsburg Cathedral (about 1100) are among the earliest stained glass in situ — already shows colour-bearing light as a theological medium. When Suger at Saint-Denis made light the programme, he was intensifying a Romanesque instinct, not importing a foreign one: the painted church was always about managing radiance, in pigment where it could not yet manage it in glass."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "castles-and-towns",
+        "numeral": "XIV",
+        "title": "Keeps, Towers and Towns: The Secular Romanesque",
+        "sections": [
+          {
+            "heading": "The Norman Keep",
+            "figure": "towerOfLondon",
+            "paras": [
+              "The Romanesque was not only a church style. Its other great type is the stone keep: a tower-house of lordship, hall, chamber and chapel stacked in one masonry block. The White Tower in London, begun about 1078 under William the Conqueror, is the type's monument: three storeys over a basement, walls up to four and a half metres thick, a first-floor entrance reached by an external stair that could be destroyed behind a retreating garrison, and at its top the Chapel of St John — a complete little church, tunnel-vaulted, as serene as anything in this book — inside the fortress. The keep is the church's sibling: same masons, same arches, same conviction that authority should be built in stone and read from across a county.",
+              "Stone keeps had a French prehistory — the donjon at Loches, among the oldest surviving, rises about the year 1000 — but the Normans systematised them after 1066 as instruments of occupation: a keep could be garrisoned by a handful of men and dominate a town, and building one was an act of administration as much as war."
+            ]
+          },
+          {
+            "heading": "Keeps in the Landscape",
+            "figure": "hedinghamCastle",
+            "paras": [
+              "Hedingham Castle in Essex (about 1140) keeps the type in its purest domestic state: five storeys of dressed stone, its great hall marked outside by the largest Norman arch in England, its wall passages and fireplaces showing how completely the fortress was also a house. Norwich, Rochester, the Tower's own later companions — the keep family maps the Norman state. In the Welsh Marches and the crusader states the type hardens; in Sicily and southern Italy it merges with Arab and Byzantine palace traditions.",
+              "The twentieth century taught us to read keeps as residences and symbols more than as serious fortifications — their windows are too big, their sites often tactically poor — and the correction is just: the keep was theatre, a stone announcement that lordship was permanent. In that sense it is the secular equivalent of the cathedral's west front, and built of the same ambition."
+            ]
+          },
+          {
+            "heading": "Bridges, Towers and Houses",
+            "figure": "puenteLaReina",
+            "paras": [
+              "Below the keep, the secular Romanesque fills the landscape the pilgrim crossed: stone bridges arching the rivers of the Camino — Puente la Reina's six-arched bridge, which gave the town its name and the roads their junction, still carries the route — hospitals and hostels on the passes, market towns walled and gated. In Italy the communes raised their own towers: the tower houses of rival families that bristle in San Gimignano belong mostly to the thirteenth century, but they grow from Romanesque roots — the tower as the unit of urban honour, built by societies the church style alone cannot describe.",
+              "Even the Romanesque house survives, against the odds: the Jew's House in Lincoln (about 1170) with its arched doorway and hall windows, the merchants' houses of Cluny and Saint-Gilles, the canon's houses of a dozen cathedral closes. Stone domestic building was a rich man's claim in 1150; that we can still walk into these rooms is the period's quietest survival — the style at the scale of a door latch."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "six-buildings",
+        "numeral": "XV",
+        "title": "Six Buildings Read Slowly",
+        "sections": [
+          {
+            "heading": "Saint-Sernin, Toulouse",
+            "figure": "stSerninExterior",
+            "paras": [
+              "Approach from the east, where the chevet assembles its chapels, ambulatory and transept into a stepped pyramid of brick and stone under the octagonal tower, and Saint-Sernin reads as the pilgrimage type's complete diagram — the book's first lesson made visible. The facts: built from about 1077, consecrated in part by Urban II in 1096, finished across the following century; five aisles, a tribune around nave and transept, an ambulatory with five radiating chapels; relics of St Saturninus (Sernin), first bishop of Toulouse, martyred — the legend says — by a bull on the steps of the Capitol. Inside, the barrel vault rides over the gallery exactly as the type prescribes; the painted and carved capitals along the ambulatory mark the pilgrim's stations; the crypt displays the reliquaries. What no photograph carries is the scale of the crowd the building still absorbs on feast days — the plan working, nine centuries on, precisely as drawn."
+            ]
+          },
+          {
+            "heading": "Sainte-Foy, Conques",
+            "figure": "conquesAbbey",
+            "paras": [
+              "Conques is the type at its most concentrated, and its treasure explains it: the golden Majesty of Sainte Foy, a statue-reliquary begun in the ninth century and crusted with a millennium of gifts, drew the offerings that raised the church (about 1045–1130) in a gorge with no other wealth. Read the west tympanum as the pilgrim did, arriving footsore from the hills: Christ in judgment, paradise a calm city at his right, hell a tumble of devils and cauldrons at his left, and in the lower corner the little prostrate figure of Foy herself before the hand of God — the entire economics of the pilgrimage stated in one image: come, give, be saved. The church inside is small, high and exact; the village, one street of lauze-roofed houses, is its exoskeleton. Conques survives so complete because the road eventually left it behind — poverty preserved what prosperity rebuilt elsewhere."
+            ]
+          },
+          {
+            "heading": "Durham Cathedral",
+            "figure": "durhamExterior",
+            "paras": [
+              "Durham rewards the approach across the Wear: fortress and cathedral on their peninsula, the twin western towers and the great central tower above the shrine of St Cuthbert, translated here in 995 and the north's palladium ever after. Begun in 1093 under Bishop William of St-Calais, built with astonishing speed, and vaulted — choir in the 1090s, nave by 1133 — with the earliest surviving high rib vaults over a great church. Read the nave as an argument: drum piers carved with chevron and spiral, as if turned on a lathe, alternate with compound piers; the ribs spring, divide, and make the vault a drawn diagram of its own forces. Everything the style had been reaching for — stone vault, structural clarity, ornament identical with construction — stands here complete, inside a building that remains, in wall, arch and mass, the most Romanesque of English cathedrals."
+            ]
+          },
+          {
+            "heading": "Speyer Cathedral",
+            "figure": "speyerExterior",
+            "paras": [
+              "Speyer is the imperial counterweight to Durham's experiment: not the rib but the groin vault, not the bishop's frontier but the emperor's mausoleum. Read it in three layers. The crypt (about 1041), forty-two bays of groin vaults on cushion capitals, holds the Salian tombs — the building's reason and its foundation. The nave above (remodelled 1082–1106) is the century's structural manifesto: groin vaults of nearly fourteen metres' span on the bound system of alternating piers, the wall between opened into the dwarf gallery's rhythm outside. The silhouette — two choirs, four towers — is the empire's crown drawn on the Rhine plain. Speyer's nineteenth-century repainting and twentieth-century cleaning have changed its surface, not its skeleton; it remains the measure of Romanesque ambition, the building against which the word 'great' is calibrated."
+            ]
+          },
+          {
+            "heading": "Pisa Cathedral",
+            "figure": "pisaComplex",
+            "paras": [
+              "Pisa must be read as a group, not a church: cathedral (from 1063–64), baptistery (from 1152), campanile (from 1173) and walled cemetery (from 1278) disposed on grass like pieces on a board — a maritime republic's acropolis, built with war spoils and trade profits and meant to be seen from the sea road. The cathedral's five-aisled interior, with its classical columns and its gilded coffered ceiling (a later gift), is the least Romanesque-feeling of our six; its exterior is the lesson — tier upon tier of blind arcading wrapping nave, transept and apse in a single woven surface, Buscheto's inscription on the facade boasting of the fleet that paid for it. The leaning tower's tilt, begun within five years of its foundation, is now the group's fame; read instead the whole: no northern city composed its sacred buildings as landscape, and the Pisan Romanesque — exported to Sardinia and Corsica by Pisan fleets — is the style as an instrument of maritime empire."
+            ]
+          },
+          {
+            "heading": "Vézelay",
+            "figure": "vezelayNave",
+            "paras": [
+              "Vézelay is the book's closing reading because it contains the style's whole argument in one hilltop church. The nave (rebuilt from 1120) is groin-vaulted and striped with two-tone voussoirs, its elevation — arcade, triforium, clerestory — the Burgundian classical ideal, its light the most celebrated in Romanesque France, falling in shafts that the nineteenth-century restorers, Viollet-le-Duc first among them (he saved the church from collapse in the 1840s), left mercifully unadorned. The narthex portals preach mission and judgment; the capitals along the nave narrate the Bible to the waiting pilgrim; the choir beyond (rebuilt after 1185) is already Gothic — the next style arriving inside the same walls, on the same hill, without ceremony. Stand at the west door at midsummer, when the sun's path down the nave floor marks the season as the guides will tell you, and the building explains the book: Romanesque was never a prison of the round arch, but a way of building light, crowd and meaning into stone — one the Gothic inherited whole."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading",
+        "numeral": "XVI",
+        "title": "Reading Romanesque: The Five Signs",
+        "sections": [
+          {
+            "heading": "A Method for Looking",
+            "paras": [
+              "The five signs printed in this chapter are the book's portable summary; this essay adds the order in which to use them. Begin with silhouette from a distance: towers, apses and roofs announce the plan before a single detail is visible — Speyer's crown, Durham's fortress, Conques's pyramid of chapels. Then the wall: its thickness in the window splays, its small openings, its arcaded skin. Then the section, read from the nave floor: arcade, gallery or triforium, clerestory, vault — the structural sentence of the church in one upward glance. Sculpture fourth, portal before capitals, programme before style. Plan last, walked rather than drawn: a pilgrimage church is understood by circulating through it as a pilgrim, a monastic church by respecting the choir you may not enter. Sequence matters because the style itself is sequential — it was designed for bodies moving through it."
+            ]
+          },
+          {
+            "heading": "Regional Accents and Honest Doubts",
+            "paras": [
+              "The signs bend by region, and the honest reader notes the bends. Italy thins the wall and classicises the arch; England lengthens the nave and delays the vault; Germany doubles the choir and multiplies the towers; Spain mixes its carving with the geometry of the Islamic south. None of this weakens the five signs — it is what they are for: a family resemblance is recognised across, not instead of, individual faces. Dating needs the same honesty. Style gives a range; documents — a consecration, a contract, a fire in the chronicles — give the anchors; dendrochronology and mortar analysis increasingly referee. Where this book gives a date with 'about', the 'about' is information, not evasion: it marks the width of the evidence.",
+              "Beware two common traps. The first is restoration: much beloved 'Romanesque' — Frómista's purity, Angoulême's sculpture, Vézelay's survival itself — passed through nineteenth-century hands of varying scruple, and the careful reader asks what is medieval before admiring how. The second is the photograph: Romanesque lives in mass, sequence and dimness, and reproductions that crop to the tympanum or brighten the nave systematically lie about it. The signs are for use in front of buildings."
+            ]
+          },
+          {
+            "heading": "What to Do in Front of a Building",
+            "paras": [
+              "The field routine this book recommends takes twenty minutes. Walk the exterior first, counting towers and apses, finding the oldest masonry by its small stones and little windows. Enter by the west door if you can, under the tympanum, as the building intends. Stand at the back and read the elevation aloud — arcade, gallery, clerestory, vault — then walk the aisle to feel the wall's thickness at the windows. Find one capital and read it properly. Look for the seams: where campaigns changed, where a later vault rides on earlier walls, where a tower stopped. Note the light, and the time of day you found it. Photograph the whole before the details. A Romanesque church read this way once will be recognised forever; the five signs will have become what they were designed to be in this atlas's method — not a label, but a way of seeing."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-gothic-merger",
+        "numeral": "XVII",
+        "title": "Into Gothic: Merger and Survival",
+        "sections": [
+          {
+            "heading": "Saint-Denis, 1140–44",
+            "figure": "stDenis",
+            "paras": [
+              "The merger happens in a Paris suburb, in four years. Abbot Suger of Saint-Denis — administrator of France, connoisseur, and the period's great self-chronicler — rebuilt the royal abbey's choir in 1140–44 with a ring of radiating chapels whose walls dissolved into stained glass, carried on pointed arches and rib vaults, the whole flooded with the coloured light he theologised in his writings. Every component had a Romanesque prehistory: ribs at Durham, pointed barrels in Burgundy, radiating chapels on the pilgrim roads, glass at Augsburg. What was new was the combination, the speed, and the publicity — Suger wrote the building into history himself, and the consecration of 11 June 1144, before the king and the bishops of France, was a launch as much as a liturgy.",
+              "It is therefore wrong to say Gothic replaced Romanesque in 1144. What Saint-Denis supplied was a prestigious model at the centre of the Capetian state; the provinces adopted its elements piecemeal, at their own speeds, into their own habits. The history of the next century is not a succession but a long negotiation."
+            ]
+          },
+          {
+            "heading": "The Cistercian Bridge",
+            "paras": [
+              "The negotiators were, again, monks. The Cistercians carried the pointed barrel vault and an austere pointed-arch detailing across Europe in the middle decades of the century — Fontenay (1139–47) is the hinge building, Romanesque in mass and plan, pointed in its vaults — and their granges from Burgundy to Yorkshire naturalised the pointed arch in regions that would not take Gothic glass for another generation. England's 'Transitional' is the same phenomenon with local materials: after Canterbury's choir burned in 1174, William of Sens rebuilt it in the new French manner over a Romanesque crypt and within Romanesque outer walls — the merger standing in section, Gothic above, Romanesque below, in the most visited church in the kingdom.",
+              "The lesson generalises: styles travel as details long before they travel as systems. A pointed arch in a Romanesque wall is not a contradiction; it is the twelfth century thinking."
+            ]
+          },
+          {
+            "heading": "The Long Romanesque Afternoon",
+            "figure": "mainzCathedral",
+            "paras": [
+              "East and south, the afternoon lasted a century. Germany built Romanesque into the 1230s — Mainz's west choir, Limburg's seven towers, the great Rhenish churches completed in a style their masons had perfected and saw no reason to abandon; when Cologne's Gothic choir rose from 1248 it was a conscious, French import, not an evolution. Italy's Romanesque runs into the Duecento and shades into its own Gothic without a break. Spain adds its own late inventions — the domed crossing towers of Zamora, Salamanca and Toro (the cimborrios of the Duero, about 1150–1200) — Romanesque engineering of a daring France never attempted.",
+              "Survivals and hybrids are not failures of the story; they are the story. The Romanesque ended the way it began — unevenly, regionally, by absorption — and the buildings of its long afternoon are among its finest."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "afterlives",
+        "numeral": "XVIII",
+        "title": "Afterlives: The Romanesque Revived",
+        "sections": [
+          {
+            "heading": "Rediscovery",
+            "paras": [
+              "The style had first to be named to be loved. 'Romanesque' enters architectural language in the early nineteenth century — in English by 1819, from the analogy with the Romance languages — as antiquaries in Normandy and the Rhineland began to measure and publish the churches among which they lived. The century that named it also restored it, heroically and destructively by turns: Viollet-le-Duc's campaign at Vézelay from 1840 saved a collapsing masterpiece and taught France that Romanesque was a national patrimony; the same century's scrapes and rebuildings elsewhere are the reason this book insists on asking what is medieval before admiring. Scholarship followed the restorers: Puig i Cadafalch mapped the first Romanesque, Kingsley Porter the pilgrimage roads, Conant the whole of Europe, and the Corpus projects began the county-by-county record on which all modern work stands.",
+              "The revival in new building began almost with the scholarship: if the style was real, it could be built again."
+            ]
+          },
+          {
+            "heading": "Revival: Rundbogenstil to Richardson",
+            "figure": "trinityBoston",
+            "paras": [
+              "Germany's Rundbogenstil — the 'round-arch style' — made Romanesque and Byzantine forms the official manner of the new public architecture of the 1830s–60s: stations, museums, synagogues and churches from Munich to Berlin, rational in brick and proud of it. In Britain and America the Romanesque Revival served Nonconformist chapels and new universities; in France it clothed pilgrimage basilicas of the renewed cults. The revival's masterpiece stands in Boston: H. H. Richardson's Trinity Church (1873–77), where a French Romanesque crossing tower, Auvergnat polychromy and a west front quoting Saint-Trophime are fused into something no medieval mason built and every medieval mason would understand. Richardson's 'Romanesque' — rock-faced granite, vast arches, weight as eloquence — became for a decade America's civic language: courthouses, libraries, stations and churches in his manner still anchor a hundred towns.",
+              "The revival matters beyond taste: it is the proof, in new work, of the style's continuing usefulness — a masonry language of public gravity that industrial cities reached for exactly when they felt least Roman."
+            ]
+          },
+          {
+            "heading": "The Modern Inheritance",
+            "paras": [
+              "The twentieth century's debt is quieter. When modern architects tired of the curtain wall, they rediscovered the Romanesque virtues: Louis Kahn spoke for many in his love of thick walls, small openings and light admitted as an event — his mature work's massive brick and concrete forms are unthinkable without the Romanesque example, absorbed on his European travels. In Sweden, Sigurd Lewerentz's brick churches brought the massive wall and the unadorned arch to a Lutheran modernism of extraordinary gravity. The round arch itself returns whenever architecture wants communal seriousness without classical orders — in markets, baths, housing and memorials across the century.",
+              "But the deepest afterlife is the survival of the originals. The churches of this book are working buildings — cathedrals, parishes, abbeys with living communities — on roads that are walked again in numbers Glaber would recognise, under the care of heritage regimes (many are World Heritage sites) that the nineteenth century invented for them. The Romanesque was the first architecture of a united Europe; its afterlife is a second Europe learning, in part through these stones, to think of itself as one. The atlas continues: from the Romanesque world of mass and arch, the next volume follows the style that dissolved the wall into light."
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [
+      [
+        "Raoul Glaber",
+        "Burgundian monk-chronicler (c. 980–1047) whose 'white mantle of churches' remains the period's own description of its building fever."
+      ],
+      [
+        "Odo of Metz",
+        "The architect named in a later inscription as designer of Charlemagne's Palatine Chapel at Aachen — among the first post-Roman architects whose name survives."
+      ],
+      [
+        "William of Volpiano",
+        "Lombard monk, reformer and builder (962–1031) who carried the first-Romanesque manner from Italy into Burgundy and Normandy — the style's first great transmitter."
+      ],
+      [
+        "Abbot Hugh of Cluny",
+        "Hugh of Semur (1024–1109), abbot for sixty years, who built Cluny III and governed an order of over a thousand houses — the monastic engine at full power."
+      ],
+      [
+        "Bishop Bernward of Hildesheim",
+        "Ottonian bishop (d. 1022), goldsmith-patron of St Michael's, Hildesheim, whose bronze doors and column set the artistic standard for the empire's Romanesque."
+      ],
+      [
+        "Henry IV",
+        "Holy Roman Emperor (1050–1106) whose remodelling of Speyer — his dynasty's mausoleum — produced the century's grandest groin-vaulted nave."
+      ],
+      [
+        "William the Conqueror",
+        "Duke of Normandy and king of England (c. 1028–1087): founder of Caen's abbeys, importer of Norman Romanesque to England, and builder of the White Tower."
+      ],
+      [
+        "Buscheto",
+        "The architect named on Pisa Cathedral's facade inscription (d. c. 1110) — praised in verse on the building itself, a rare Romanesque signature in stone."
+      ],
+      [
+        "Wiligelmo",
+        "Sculptor of Modena Cathedral's Genesis reliefs (c. 1099–1106), whose inscription boasts that his fame shines among sculptors — the first great name of Romanesque carving."
+      ],
+      [
+        "Gislebertus",
+        "Sculptor of Autun's Last Judgment, who signed beneath Christ's feet — GISLEBERTUS HOC FECIT — the most famous signature in medieval art, and its most argued-over attribution."
+      ],
+      [
+        "Master Mateo",
+        "Architect and sculptor of the Pórtico de la Gloria at Santiago (contracted 1168), granted a lifetime pension by Ferdinand II — a master mason treated, unusually, as an author."
+      ],
+      [
+        "Abbot Suger",
+        "Abbot of Saint-Denis (1081–1151) whose rebuilding of his abbey (1140–44) fused Romanesque craft with pointed arch and glass into the first Gothic — the hinge figure of this book's ending."
+      ]
+    ],
+    "fiveSigns": [
+      {
+        "name": "Round arch throughout",
+        "img": "speyerNave",
+        "look": "Every opening — portal, window, arcade, vault — is a semicircle. The arch is not decoration but the building's grammar: nave arcades march in round arches, windows are round-headed, and the great vaults are semicircular in section.",
+        "limit": "Early Gothic keeps round arches in places, and round arches alone prove nothing — Roman work and its revivals share them. It is the round arch combined with the massive wall and the vault that identifies the style."
+      },
+      {
+        "name": "Massive wall, small window",
+        "img": "durhamExterior",
+        "look": "Walls are metres thick and read as solid masonry pierced by small, deeply-splayed openings. Interiors are correspondingly dim and cool; the wall, not a skeleton of supports, is what holds the building up, and it looks it.",
+        "limit": "Thickness is a matter of degree and of region — Italian churches can be surprisingly thin-walled and classical. Judge mass by the depth of the window splays and the smallness of the openings relative to the wall they pierce."
+      },
+      {
+        "name": "Barrel or groin vault",
+        "img": "tournusNave",
+        "look": "Great churches are roofed in stone: a continuous barrel vault over the nave, groin vaults where bays intersect, often with a gallery — a tribune — under the vault to help carry its thrust. The section of a pilgrimage church, vault over gallery over aisle, is the style's engineering portrait.",
+        "limit": "Many smaller Romanesque churches were timber-roofed, especially in England and Scandinavia, and Durham's precocious rib vaults are the famous exception that points forward to Gothic. Absence of a stone vault does not disqualify a building."
+      },
+      {
+        "name": "Sculpted portal and capitals",
+        "img": "moissacPortal",
+        "look": "Sculpture concentrates where people pass: the west portal's tympanum fills with Christ in Majesty or the Last Judgment, its archivolts with elders and signs, its trumeau with a saint; inside, capitals carry histories, beasts and foliage in endless invention.",
+        "limit": "Protestant whitewash, revolutionary hammers and weather have stripped many portals, and some regions — Germany above all — preferred painted to carved programmes. A plain portal may be a stripped one; check the capitals and the record."
+      },
+      {
+        "name": "Twin towers and crossing",
+        "img": "caenStEtienne",
+        "look": "The west front is organised as two towers flanking a gable — Caen's gift to Normandy and England — and a further tower, often octagonal as at Toulouse, marks the crossing. Silhouette is a serious part of the style: Speyer's four towers and two choirs are a skyline argument about empire.",
+        "limit": "Towers were the most expensive and most often unfinished or altered parts; spires are usually later additions, and many fronts were planned for towers never built. Read the intention in the thickened west bays, not only in what rises today."
+      }
+    ],
+    "gazetteer": [
+      [
+        "Aachen",
+        "Charlemagne's capital and the style's point of reference: the Palatine Chapel (consecrated 805) supplied the octagon, the gallery and the imperial ambition that Ottonian and Romanesque builders kept in view."
+      ],
+      [
+        "Toulouse",
+        "The great staging-post of the Via Tolosana, rich on pilgrim traffic: Saint-Sernin, the largest surviving Romanesque church in Europe, is built of the local brick as much as of stone."
+      ],
+      [
+        "Conques",
+        "A village in the Aveyron gorges grown rich on the relics of Sainte Foy, whose golden statue drew pilgrims — and whose abbey church keeps the finest Last Judgment tympanum of the age."
+      ],
+      [
+        "Santiago de Compostela",
+        "The goal of the roads: the apostle James's tomb, a cathedral that is the pilgrimage church perfected, and Master Mateo's Pórtico de la Gloria at its western threshold."
+      ],
+      [
+        "Vézelay",
+        "Hilltop Burgundian basilica of St Mary Magdalene, assembly point for crusades and for the Burgundy road to Compostela; its narthex tympanum preaches the mission to the nations."
+      ],
+      [
+        "Durham",
+        "A prince-bishop's fortress-cathedral on its peninsula above the Wear, guarding St Cuthbert's shrine — and, in its nave vault, the birthplace of the rib vault over a great church."
+      ],
+      [
+        "Speyer",
+        "The Salian emperors' burial church on the Rhine: four towers, two choirs, the largest Romanesque crypt in Germany, and a nave vaulted in groin vaults at imperial scale."
+      ],
+      [
+        "Caen",
+        "William the Conqueror's new capital in stone from its own quarries: Saint-Étienne and La Trinité, the ducal pair whose twin-tower fronts taught Normandy and England."
+      ],
+      [
+        "Pisa",
+        "A maritime republic's manifesto in marble on grass: cathedral, baptistery, campanile and cemetery composed as one group, its arcaded tiers quoting Rome through a Romanesque accent."
+      ],
+      [
+        "Pavia",
+        "Lombardy's royal city: San Michele, where emperors were crowned kings of Italy, wears the Lombard gabled facade with its gallery of little arches."
+      ],
+      [
+        "León",
+        "The royal city of the Camino Francés: San Isidoro's Pantheon of the Kings holds the most complete Romanesque fresco cycle in Spain, the style's painted rooms surviving by a fluke of continuous use."
+      ],
+      [
+        "Monreale",
+        "William II's foundation above Palermo: a Norman cathedral clothed in Byzantine gold mosaic by Greek craftsmen, with a cloister whose carved capitals mix three worlds."
+      ]
+    ],
+    "glossary": [
+      [
+        "Ambulatory",
+        "The walkway curving around the apse behind the high altar, giving pilgrims access to radiating chapels and relics without disturbing the choir."
+      ],
+      [
+        "Apse",
+        "The semicircular eastern termination of a church, housing the altar; in Romanesque churches often echoed by smaller apses on transepts and chapels."
+      ],
+      [
+        "Archivolt",
+        "One of the concentric moulded or sculpted bands framing a portal arch; at Moissac and Vézelay the archivolts carry elders, signs of the zodiac and peoples of the earth."
+      ],
+      [
+        "Barrel vault",
+        "A continuous semicircular stone vault, like a tunnel; the pilgrimage churches' standard nave covering, thrusting outward along its whole length."
+      ],
+      [
+        "Capital",
+        "The carved head of a column or pier. Romanesque capitals — cushion, scallop, or historiated with figures and stories — are the style's most concentrated sculpture."
+      ],
+      [
+        "Chevet",
+        "The French term for the developed eastern end of a church: apse, ambulatory and radiating chapels read as one composition from outside."
+      ],
+      [
+        "Clerestory",
+        "The upper level of the nave wall, pierced with windows above the aisle roofs; in most Romanesque churches modest, since the vault and gallery come first."
+      ],
+      [
+        "Compound pier",
+        "A pier built up of attached shafts and half-columns, each member answering to an arch or rib it carries — the Romanesque alternative to the plain drum pier."
+      ],
+      [
+        "Crossing",
+        "The space where nave and transept intersect, often crowned by a tower and the liturgical centre of the church beneath it."
+      ],
+      [
+        "Crypt",
+        "The undercroft beneath the raised choir, housing relics and founders' tombs; Speyer's, with its forest of columns, is the largest in Germany."
+      ],
+      [
+        "Dwarf gallery",
+        "An external open arcade running beneath the eaves, characteristic of the Rhineland and Lombardy — a wall lightened into a screen of little columns."
+      ],
+      [
+        "Groin vault",
+        "The vault formed where two barrel vaults intersect at right angles, concentrating thrust at the bay's corners; the system of Speyer's nave."
+      ],
+      [
+        "Lesene (Lombard band)",
+        "A shallow vertical strip of masonry applied to a wall, linked at the top by small arches — the signature surface ornament of first Romanesque in Lombardy and Catalonia."
+      ],
+      [
+        "Mandorla",
+        "The almond-shaped glory enclosing Christ in Majesty on tympana and frescoes, from the Latin for almond."
+      ],
+      [
+        "Narthex",
+        "The vestibule across a church's west end — at Vézelay a whole sculpted preaching-hall before the church proper."
+      ],
+      [
+        "Rib vault",
+        "A vault whose groins are reinforced by independent stone ribs; first surviving at great scale at Durham, it becomes the structural signature of Gothic."
+      ],
+      [
+        "Transept",
+        "The transverse arm of a cruciform church, giving the plan its cross and, in pilgrimage churches, its own portals, chapels and altars."
+      ],
+      [
+        "Tribune (gallery)",
+        "The upper storey over an aisle, vaulted and opening into the nave through arches; it housed crowds and buttressed the high vault in one move."
+      ],
+      [
+        "Triforium",
+        "A shallow passage or blind arcade in the nave wall between arcade and clerestory; in Romanesque churches often a simple band of small openings."
+      ],
+      [
+        "Trumeau",
+        "The post between two doorways of a portal, usually carrying a great figure — St James at Santiago, Christ or a saint elsewhere — at the pilgrim's shoulder height."
+      ],
+      [
+        "Tympanum",
+        "The semicircular field between a portal's lintel and its arch — Romanesque sculpture's grandest stage, filled with Majesty, Judgment or Mission."
+      ],
+      [
+        "Westwork",
+        "The monumental western block of Carolingian and Ottonian churches — towers, gallery and west choir in one fortress-like front, ancestor of the twin-tower facade."
+      ],
+      [
+        "Voussoir",
+        "One of the wedge-shaped stones of an arch; alternating coloured voussoirs — as in Burgundy and at Le Puy — are a favourite Romanesque effect."
+      ],
+      [
+        "Pilgrimage church",
+        "The type developed on the Santiago roads: aisled nave and transept, tribune galleries, ambulatory with radiating chapels, engineered to circulate crowds past relics."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Met Heilbrunn Timeline of Art History — Romanesque Art",
+        "url": "https://www.metmuseum.org/toah/hd/rman/hd_rman.htm"
+      },
+      {
+        "name": "Smarthistory — Romanesque art and architecture",
+        "url": "https://smarthistory.org/romanesque-art/"
+      },
+      {
+        "name": "UNESCO — Speyer Cathedral (World Heritage List 168)",
+        "url": "https://whc.unesco.org/en/list/168/"
+      },
+      {
+        "name": "UNESCO — Durham Castle and Cathedral (World Heritage List 370)",
+        "url": "https://whc.unesco.org/en/list/370/"
+      },
+      {
+        "name": "UNESCO — Old Town of Santiago de Compostela (World Heritage List 347)",
+        "url": "https://whc.unesco.org/en/list/347/"
+      },
+      {
+        "name": "UNESCO — Routes of Santiago de Compostela: Camino Francés (List 669)",
+        "url": "https://whc.unesco.org/en/list/669/"
+      }
+    ],
+    "bibliography": [
+      "Kenneth John Conant, Carolingian and Romanesque Architecture, 800 to 1200 (Pelican History of Art; Penguin Books, 1959; revised editions, Yale University Press) — the founding survey of the field, still unmatched for its plans, its building archaeology and its command of the whole of Europe; the frame on which this book, like every account since, is built.",
+      "Eric Fernie, Romanesque Architecture: The First Style of the European Age (Pelican History of Art; Yale University Press, 2014) — written to succeed Conant: alert to regional difference, to patronage and to the history of the word 'Romanesque' itself, and the modern starting point for the subject.",
+      "Roger Stalley, Early Medieval Architecture (Oxford History of Art; Oxford University Press, 1999) — the clearest short account of the period's structures, materials and workshops; especially good on how the buildings were actually put up.",
+      "Marcel Durliat, L'art roman (Éditions d'art Lucien Mazenod, 1982) — the great French synthesis, strongest where this book is most engaged: the pilgrimage roads, the regional schools of France and the sculpture of the portals.",
+      "Éliane Vergnolle, L'art roman en France: architecture, sculpture, peinture (Flammarion, 1994) — region by region and monument by monument, the standard French reference behind the school-by-school chapters here.",
+      "Meyer Schapiro, Romanesque Art: Selected Papers (George Braziller, 1977) — the essays that taught the century to read Romanesque sculpture as art rather than illustration; his Moissac and Souillac studies still set the terms of argument.",
+      "The Corpus of Romanesque Sculpture in Britain and Ireland (King's College London, with the British Academy) — the county-by-county photographic record of England's and Ireland's carved stones, on which the Norman-English chapters draw throughout."
+    ]
   }
 ];
 
