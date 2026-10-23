@@ -217,6 +217,10 @@ export const historyStudies = [
       { name: "Bauhaus Kooperation", url: "https://www.bauhauskooperation.com/" },
       { name: "The Museum of Modern Art", url: "https://www.moma.org/" }
     ],
+    deepPage: "/magazine/architectural-history-styles/modernism/",
+    pdf: "/downloads/history/modernism.pdf",
+    bookCover: "/assets/history-deep/modernism/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/modernism/read/",
     images: {
       hero: { src: `${H}/modernism-hero.jpg`, alt: "Villa Savoye at Poissy, white volume raised on pilotis", credit: "Photo: jeanbaptisteparis, via Wikimedia Commons (CC BY-SA 2.0)" },
       detail1: { src: `${H}/modernism-detail1.jpg`, alt: "Bauhaus Dessau studio wing balconies showing grid, steel windows and no ornament", credit: "Photo: via Wikimedia Commons (Public domain)" },

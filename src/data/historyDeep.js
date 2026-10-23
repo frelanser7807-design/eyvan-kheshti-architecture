@@ -6514,6 +6514,1500 @@ export const historyDeepPages = [
       "Meyer Schapiro, Romanesque Art: Selected Papers (George Braziller, 1977) — the essays that taught the century to read Romanesque sculpture as art rather than illustration; his Moissac and Souillac studies still set the terms of argument.",
       "The Corpus of Romanesque Sculpture in Britain and Ireland (King's College London, with the British Academy) — the county-by-county photographic record of England's and Ireland's carved stones, on which the Norman-English chapters draw throughout."
     ]
+  },
+  {
+    "id": "modernism",
+    "series": "Architectural History Series",
+    "bookNumber": 6,
+    "title": "Modernism & the International Style",
+    "bookTitle": "Modernism & the International Style: A Complete History",
+    "cover": "/assets/history-deep/modernism/book-cover.jpg",
+    "coverCredit": "Cover artwork © World Arch Journal",
+    "readPath": "/magazine/architectural-history-styles/modernism/read/",
+    "readerPages": 95,
+    "readerBase": "/assets/history-deep/modernism/pages/",
+    "subtitle": "How, between 1851 and 1972, a new architecture of iron, concrete and glass rose from the Crystal Palace and the Chicago frame, was named at a New York exhibition in 1932, housed the masses, crossed the Atlantic in exile, covered the earth from Brasília to Tokyo — and met the critique that ended its reign, told through the buildings themselves.",
+    "path": "/magazine/architectural-history-styles/modernism/",
+    "hubPath": "/magazine/architectural-history-styles/",
+    "hubStudyId": "modernism-international-style",
+    "pdf": "/downloads/history/modernism.pdf",
+    "seoTitle": "Modernism & the International Style: A Complete History — Bauhaus, Le Corbusier, Mies and the World Style | World Arch Journal",
+    "metaDescription": "Modernism and the International Style: the complete history — from the Crystal Palace and the Chicago frame through Loos, the Bauhaus, Le Corbusier and Mies to Brasília, Chandigarh and Tokyo, the 1932 MoMA naming, the post-war glass tower, and the critique that followed.",
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "hero": "barcelonaPavilion",
+    "frontispiece": "bauhausDessau",
+    "plates": [
+      [
+        "barcelonaPavilion",
+        "The Barcelona Pavilion, 1929",
+        "Mies van der Rohe's German pavilion at the Barcelona exhibition was a building with almost no programme — a reception space for a king's signature — and it became the style's purest statement: a flat roof carried on eight chrome columns, space flowing between screens of marble, onyx, travertine and glass, a still pool doubling the light. Demolished in 1930 and rebuilt on the same site in 1986, it is modernism's reliquary: proof that the movement's deepest claim was never utility but a new kind of space."
+      ],
+      [
+        "fallingwater",
+        "Fallingwater, 1937",
+        "Wright built his most famous house as a deliberate refusal of the International Style's white box: horizontal concrete trays cantilevered over a waterfall, anchored to a rough stone tower, the plan turning around the hearth. Fallingwater uses the same reinforced concrete and the same open planning as any Corbusian villa — and reaches the opposite conclusion, that a building should grow from its site rather than stand abstractly upon it. The argument between the two positions organises this whole book."
+      ],
+      [
+        "crystalPalace",
+        "The Crystal Palace, London, 1851",
+        "Paxton's greenhouse writ immense: 293,000 panes of glass on a prefabricated iron frame, erected in Hyde Park in under nine months and dismantled just as fast. Contemporaries understood that something irreversible had happened — a building assembled like a machine, transparent, demountable, owing nothing to masonry tradition. Every later claim that architecture should express its construction begins here, in a gardener's exhibition hall."
+      ],
+      [
+        "chandigarhAssembly",
+        "The Palace of Assembly, Chandigarh",
+        "For the new capital of Indian Punjab, the seventy-year-old Le Corbusier produced his most sculptural public building: a great curved portico like an upturned horn, a cooling-tower chamber, a pyramid skylight, all in board-marked concrete under the Himalayan sun. Chandigarh is where the International Style stopped being international in any simple sense — where the white machine aesthetic gave way to béton brut, climate and monument."
+      ],
+      [
+        "brasiliaCathedral",
+        "Brasília Cathedral, 1970",
+        "Niemeyer's cathedral is a crown of sixteen concrete ribs curving up from the ground and meeting above a glass ceiling — you enter it underground, through a dark tunnel, and rise into light. Brazil took the Corbusian vocabulary of pilotis and free curves and made it baroque: sensual, sculptural, Catholic. The cathedral, finished a decade after the capital's inauguration, is the tropical modernism's sacred monument."
+      ],
+      [
+        "schroderHouse",
+        "The Rietveld Schröder House, Utrecht, 1924",
+        "A house built as a Mondrian composition you can live in: planes of white and grey held apart, primary-colour bars, an upper floor that transforms by sliding panels from one open space into cellular rooms. De Stijl's claim — that abstraction was not a picture style but a way of building and living — has no clearer proof than this small house at the end of a brick terrace, now a UNESCO monument."
+      ],
+      [
+        "bauhausDessau",
+        "Inside the workshop wing, Bauhaus Dessau",
+        "The famous glass curtain of Gropius's Bauhaus building is usually photographed from the street; from inside, its meaning is clearer. The workshops needed north light for making things, and the wall simply became window — structure withdrawn to slender columns, the skin a membrane of glass in steel frames. Students worked in a building that was itself the school's manifesto, and the photograph's view through the glass to the town beyond makes the point: the wall had dissolved."
+      ]
+    ],
+    "plates2": [
+      [
+        "farnsworthHouse",
+        "The Farnsworth House in winter, 1951",
+        "Eight white steel columns, two horizontal planes, walls of glass: Mies reduced the house to almost nothing, and the almost-nothing proved almost unliveable — the client sued. Boucher's photograph of the house in snow, a transparent diagram among bare trees, shows both the beauty and the provocation. The Farnsworth House is the International Style's limit case, the point where its logic produced an icon and a courtroom battle at once."
+      ],
+      [
+        "ronchamp",
+        "Notre Dame du Haut, Ronchamp, 1955",
+        "The chapel Le Corbusier built on a pilgrimage hill in eastern France scandalised his followers: thick battered walls, a billowing shell roof, tiny deep-set windows scattering coloured light — sculpture, not machine. Ronchamp is the master turning against his own doctrine, and the beginning of modernism's plural late phase, in which expression and symbol re-entered an architecture that had banished them."
+      ],
+      [
+        "uniteHabitation",
+        "The Unité d'Habitation, Marseille, 1952",
+        "337 flats stacked in a concrete frame on great pilotis, with an internal shopping street, a roof terrace with running track and paddling pool, and duplex sections interlocking like bottles in a rack: the Unité was CIAM's housing doctrine built at full scale, a 'vertical garden city'. Its board-marked concrete — béton brut — named the next style, Brutalism, and its silhouette was copied, usually badly, on every continent."
+      ],
+      [
+        "seagramBuilding",
+        "The Seagram Building, New York, 1958",
+        "Mies and Philip Johnson set a bronze tower back behind a plaza on Park Avenue and made restraint itself luxurious: extruded bronze mullions applied to the facade like the building's own structure made visible, amber glass, travertine and calm. The Seagram is the corporate International Style at its apogee — the moment the avant-garde became the boardroom, executed so well that the transformation looked inevitable."
+      ],
+      [
+        "yoyogiGymnasium",
+        "Yoyogi National Gymnasium, Tokyo, 1964",
+        "For the Tokyo Olympics, Kenzo Tange hung two great roofs from steel cables between masts, producing a silhouette like a shell, a wave, a samurai helmet — modern engineering and national memory in one gesture. Yoyogi announced that Japan was no longer importing modernism but authoring it, and it remains the finest of the style's late monumental works."
+      ],
+      [
+        "pruittIgoe",
+        "The demolition of Pruitt-Igoe, 1972",
+        "The St Louis housing estate designed by Minoru Yamasaki — thirty-three eleven-storey slabs, opened in 1954 to praise — was dynamited on live television beginning in 1972, after two decades of failure, underfunding and abandonment. The critic Charles Jencks declared modern architecture dead at the moment of the first blast. The judgement was too simple — Pruitt-Igoe failed for social and fiscal reasons as much as architectural ones — but the image fixed the style's fall in the public mind, and this book ends by arguing with it."
+      ]
+    ],
+    "parts": [
+      [
+        0,
+        "Part I",
+        "Roots: Iron, Craft and Conscience",
+        "Before there was a style there were three pressures: a new technology of iron, glass and the frame; a craft conscience that despised industrial shoddiness; and a moral argument, made most fiercely in Vienna, that ornament itself was a kind of lie. Modernism is what happened when the three fused."
+      ],
+      [
+        4,
+        "Part II",
+        "The Heroic Years",
+        "Between 1903 and 1931 the new architecture found its materials (the concrete frame, the glass curtain), its utopias (De Stijl, the Russian avant-garde, the Bauhaus) and its two defining masters, Le Corbusier and Mies van der Rohe, whose Five Points and free plan set the terms everyone else argued with."
+      ],
+      [
+        9,
+        "Part III",
+        "A World Style",
+        "The second act is social and institutional: housing estates for the masses, a name and a rulebook supplied by a New York exhibition in 1932, a planning doctrine from CIAM, and then — as Europe's dictatorships closed in — emigration, which carried the style to America and made it the architecture of the post-war corporation. Against the whole current stands one great counterpoint: Frank Lloyd Wright."
+      ],
+      [
+        14,
+        "Part IV",
+        "Regions, Critique and Afterlives",
+        "Exported worldwide, the style bent to climate and culture — Aalto's Finland, Niemeyer's Brazil, Tange's Japan, Barragán's Mexico, Corbusier's India — and then met its reckoning: the critique of Jacobs and Venturi, the dynamiting of Pruitt-Igoe, and the long preservation battle by which the once-new became heritage."
+      ]
+    ],
+    "seriesList": "Book 6 · Modernism & the International Style: A Complete History — this volume. Also available: Book 1 · Art Nouveau: A Complete History · Book 2 · Gothic Architecture: A Complete History · Book 3 · Medieval Castles & Fortifications: A Complete History · Book 4 · Baroque & Rococo: A Complete History · Book 5 · Romanesque Architecture: A Complete History. In preparation: Victorian Architecture · Art Deco · Brutalism · Frank Lloyd Wright · and the remaining studies of the atlas, in the journal's demand order.",
+    "images": {
+      "aegTurbine": {
+        "src": "/assets/history-deep/modernism/aegTurbine.jpg",
+        "alt": "The glazed gable end of the AEG Turbine Hall in Berlin-Moabit, its steel frame filled with glass",
+        "credit": "Photo: Neuköllner, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AEG-Turbinenhalle,_Huttenstra%C3%9Fe_12-19,_Berlin-Moabit,_Bild_1.jpg",
+        "title": "The AEG Turbine Hall, Berlin (1909)"
+      },
+      "barcelonaPavilion": {
+        "src": "/assets/history-deep/modernism/barcelonaPavilion.jpg",
+        "alt": "The Barcelona Pavilion: flat roof on chrome columns, marble and glass screens beside the reflecting pool",
+        "credit": "Photo: Alice Wiegand, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BCN_Mies_van_der_Rohe_Pavillon.jpg",
+        "title": "The Barcelona Pavilion (1929)"
+      },
+      "barraganSatelite": {
+        "src": "/assets/history-deep/modernism/barraganSatelite.jpg",
+        "alt": "The Torres de Satélite, five tall coloured prisms rising from a Mexico City highway island",
+        "credit": "Photo: ProtoplasmaKid, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torres_de_Sat%C3%A9lite_-_2.jpg",
+        "title": "Torres de Satélite, Mexico City (1957)"
+      },
+      "bauhausBalconies": {
+        "src": "/assets/history-deep/modernism/bauhausBalconies.jpg",
+        "alt": "The studio wing (Prellerhaus) of the Bauhaus Dessau, its grid of windows and small balconies",
+        "credit": "Photo: via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bauhaus-Dessau_Wohnheim_Balkone.jpg",
+        "title": "The studio wing balconies, Bauhaus Dessau"
+      },
+      "bauhausDessau": {
+        "src": "/assets/history-deep/modernism/bauhausDessau.jpg",
+        "alt": "Inside the Bauhaus Dessau workshop wing, looking out through the great glass curtain wall",
+        "credit": "Photo: Anne Stengel, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Werkstattfl%C3%BCgel_des_Bauhaus_Dessau.jpg",
+        "title": "The workshop wing from inside, Bauhaus Dessau"
+      },
+      "brasiliaCathedral": {
+        "src": "/assets/history-deep/modernism/brasiliaCathedral.jpg",
+        "alt": "Brasília Cathedral: sixteen curved concrete columns meeting above a glass roof",
+        "credit": "Photo: Arian Zwegers from Brussels, Belgium, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brasilia,_Cathedral_of_Brasilia_(15309099334).jpg",
+        "title": "Brasília Cathedral (1970)"
+      },
+      "brasiliaCongress": {
+        "src": "/assets/history-deep/modernism/brasiliaCongress.jpg",
+        "alt": "The National Congress at Brasília: twin towers, dome and bowl under a shaft of rain",
+        "credit": "Photo: Eurico Zimbres, via Wikimedia Commons (CC BY-SA 2.5)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brazilian_National_Congress.jpg",
+        "title": "The National Congress, Brasília (1960)"
+      },
+      "carsonPirie": {
+        "src": "/assets/history-deep/modernism/carsonPirie.jpg",
+        "alt": "The cast-iron entrance of the Carson Pirie Scott Building in Chicago, covered in Sullivan's ornament",
+        "credit": "Photo: Beyond My Ken, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carson,_Pirie,_Scott_and_Company_Building_1_South_State_Street_entrance.jpg",
+        "title": "The Carson Pirie Scott entrance, Chicago"
+      },
+      "chandigarhAssembly": {
+        "src": "/assets/history-deep/modernism/chandigarhAssembly.jpg",
+        "alt": "The Palace of Assembly at Chandigarh reflected in its pool, the great curved portico to the right",
+        "credit": "Photo: UnpetitproleX, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palace_of_Assembly_Chandigarh.jpg",
+        "title": "The Palace of Assembly, Chandigarh"
+      },
+      "chandigarhHighCourt": {
+        "src": "/assets/history-deep/modernism/chandigarhHighCourt.jpg",
+        "alt": "The High Court at Chandigarh across its reflecting pool, its vaulted parasol roof and coloured reveals",
+        "credit": "Photo: Nicholas.iyadurai, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chandigarh_Capitol_Complex_-_Le_Corbusier_-_Highcourt_-_front_elevation.jpg",
+        "title": "The High Court, Chandigarh"
+      },
+      "crystalPalace": {
+        "src": "/assets/history-deep/modernism/crystalPalace.jpg",
+        "alt": "The interior of the Crystal Palace in 1851: an iron-and-glass nave filled with exhibits and visitors",
+        "credit": "Photo: J. McNeven, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crystal_Palace_-_interior.jpg",
+        "title": "Inside the Crystal Palace, London (1851)"
+      },
+      "eiffelConstruction": {
+        "src": "/assets/history-deep/modernism/eiffelConstruction.jpg",
+        "alt": "Durandelle's 1888 photograph of the Eiffel Tower under construction, its four legs joined and the shaft rising",
+        "credit": "Photo: Louis-Emile Durandelle, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Louis-Emile_Durandelle,_The_Eiffel_Tower_-_State_of_the_Construction,_1888.jpg",
+        "title": "The Eiffel Tower under construction (1888)"
+      },
+      "einsteinTower": {
+        "src": "/assets/history-deep/modernism/einsteinTower.jpg",
+        "alt": "The Einstein Tower at Potsdam, a white sculpted tower among trees",
+        "credit": "Photo: Jean-Pierre Dalbéra from Paris, France, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_tour_Einstein_(Potsdam,_Allemagne)_(9616566364).jpg",
+        "title": "The Einstein Tower, Potsdam (1921)"
+      },
+      "fagusFactory": {
+        "src": "/assets/history-deep/modernism/fagusFactory.jpg",
+        "alt": "The Fagus Factory at Alfeld: brick pier block and glass curtain corner with the chimney behind",
+        "credit": "Photo: Traveler100, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fagus-Werke-01.jpg",
+        "title": "The Fagus Factory, Alfeld (1911)"
+      },
+      "fallingwater": {
+        "src": "/assets/history-deep/modernism/fallingwater.jpg",
+        "alt": "Fallingwater: stone tower and cantilevered concrete trays above the waterfall at Bear Run",
+        "credit": "Photo: Somach, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fallingwater_-_by_Frank_Lloyd_Wright.jpg",
+        "title": "Fallingwater, Bear Run (1937)"
+      },
+      "farnsworthHouse": {
+        "src": "/assets/history-deep/modernism/farnsworthHouse.jpg",
+        "alt": "The Farnsworth House in snow: a white steel and glass pavilion on its travertine terrace among bare trees",
+        "credit": "Photo: Jack E. Boucher, photographer, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mies_van_der_Rohe_photo_Farnsworth_House_Plano_USA_1.jpg",
+        "title": "The Farnsworth House in winter (1951)"
+      },
+      "frankfurtSiedlung": {
+        "src": "/assets/history-deep/modernism/frankfurtSiedlung.jpg",
+        "alt": "The Ernst May House in the Römerstadt Siedlung, Frankfurt: flat roof, blue-framed windows, garden front",
+        "credit": "Photo: via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ernst-May-Haus_Siedlung_Roemerstadt_Vorderseite_15082010.JPG",
+        "title": "Siedlung Römerstadt, Frankfurt (1928)"
+      },
+      "gambleHouse": {
+        "src": "/assets/history-deep/modernism/gambleHouse.jpg",
+        "alt": "The Gamble House in Pasadena across its lawn: low timber roofs and deep porches",
+        "credit": "Photo: InSapphoWeTrust from Los Angeles, California, USA, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gamble_House,_Pasadena_(5748514403).jpg",
+        "title": "The Gamble House, Pasadena (1908)"
+      },
+      "gambleInterior": {
+        "src": "/assets/history-deep/modernism/gambleInterior.jpg",
+        "alt": "The Gamble House living room: timber trusses, tiled fireplace and built-in furniture",
+        "credit": "Photo: AWFarrow, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gamble_House_By_Cullen328.jpg",
+        "title": "The Gamble House living room"
+      },
+      "gropiusHouse": {
+        "src": "/assets/history-deep/modernism/gropiusHouse.jpg",
+        "alt": "The Gropius House at Lincoln, Massachusetts: a white box with ribbon window, glass block and spiral stair",
+        "credit": "Photo: Daderot, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gropius_House,_Lincoln,_Massachusetts_-_Front_View.JPG",
+        "title": "The Gropius House, Lincoln (1938)"
+      },
+      "guggenheimNY": {
+        "src": "/assets/history-deep/modernism/guggenheimNY.jpg",
+        "alt": "The Solomon R. Guggenheim Museum in New York: a great concrete spiral above Fifth Avenue",
+        "credit": "Photo: Bmzuckerman, via Wikimedia Commons (CC BY 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_-_New_York,_NY_-_Solomon_R._Guggenheim_Museum_(A).jpg",
+        "title": "The Guggenheim Museum, New York (1959)"
+      },
+      "hausAmHorn": {
+        "src": "/assets/history-deep/modernism/hausAmHorn.jpg",
+        "alt": "The Haus am Horn at Weimar from the air: a flat-roofed white cube in its garden",
+        "credit": "Photo: Raimond Spekking, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haus_am_Horn,_Luftaufnahme-0030.jpg",
+        "title": "The Haus am Horn, Weimar (1923)"
+      },
+      "hiroshimaMuseum": {
+        "src": "/assets/history-deep/modernism/hiroshimaMuseum.jpg",
+        "alt": "The Hiroshima Peace Memorial Museum: a long slab raised on pilotis above the Peace Park",
+        "credit": "Photo: via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hiroshima_Peace_Memorial_Museum.jpg",
+        "title": "The Hiroshima Peace Memorial Museum (1955)"
+      },
+      "homeInsurance": {
+        "src": "/assets/history-deep/modernism/homeInsurance.jpg",
+        "alt": "The Home Insurance Building in Chicago, an early iron-framed office tower photographed before demolition",
+        "credit": "Photo: Chicago Architectural Photographing Company, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Home_Insurance_Building.JPG",
+        "title": "The Home Insurance Building, Chicago (1885)"
+      },
+      "iitCrownHall": {
+        "src": "/assets/history-deep/modernism/iitCrownHall.jpg",
+        "alt": "Crown Hall at IIT, Chicago: a black steel and glass pavilion across the lawn",
+        "credit": "Photo: Joe Ravi, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crown_Hall_1.jpg",
+        "title": "Crown Hall, IIT, Chicago (1956)"
+      },
+      "johnsonWax": {
+        "src": "/assets/history-deep/modernism/johnsonWax.jpg",
+        "alt": "The Johnson Wax headquarters at Racine: brick administration block and laboratory tower",
+        "credit": "Photo: Bmzuckerman, via Wikimedia Commons (CC BY 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_-_Racine,_WI_-_Johnson_Wax_Headquarters_(A).jpg",
+        "title": "Johnson Wax headquarters, Racine (1939)"
+      },
+      "johnsonWaxWorkroom": {
+        "src": "/assets/history-deep/modernism/johnsonWaxWorkroom.jpg",
+        "alt": "The Great Workroom of the Johnson Wax building: dendriform columns and lily-pad capitals from the balcony",
+        "credit": "Photo: Jack Boucher, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:INTERIOR,_THIRD_FLOOR_BALCONY,_FROM_WEST_-_Johnson_Wax_Corporation_Building,_1525_Howe_Street,_Racine,_Racine_County,_WI_HABS_WIS,51-RACI,5-27.tif",
+        "title": "The Great Workroom, Johnson Wax"
+      },
+      "kresgeAuditorium": {
+        "src": "/assets/history-deep/modernism/kresgeAuditorium.jpg",
+        "alt": "Kresge Auditorium at MIT: a thin concrete dome shell over a glass-walled hall",
+        "credit": "Photo: Beyond My Ken, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2017_Kresge_Auditorium_(MIT_Building_W16),_48_Massachusetts_Avenue,_Cambridge,_Massachusetts_1_front1.jpg",
+        "title": "Kresge Auditorium, MIT (1955)"
+      },
+      "leverHouse": {
+        "src": "/assets/history-deep/modernism/leverHouse.jpg",
+        "alt": "Lever House on Park Avenue: a green glass slab on a low podium above the street",
+        "credit": "Photo: Beyond My Ken, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lever_House_390_Park_Avenue.jpg",
+        "title": "Lever House, New York (1952)"
+      },
+      "looshaus": {
+        "src": "/assets/history-deep/modernism/looshaus.jpg",
+        "alt": "The Looshaus on Michaelerplatz, Vienna: marble-columned ground floor and plain rendered upper floors",
+        "credit": "Photo: Thomas Ledl, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Looshaus_Michaelerplatz.JPG",
+        "title": "The Looshaus, Vienna (1911)"
+      },
+      "mastersHouses": {
+        "src": "/assets/history-deep/modernism/mastersHouses.jpg",
+        "alt": "A Masters' House at Dessau: white cubic facade with a tall studio window",
+        "credit": "Photo: Spyrosdrakopoulos, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:6375_Dessau_01.JPG",
+        "title": "A Masters' House, Dessau (1926)"
+      },
+      "melnikovHouse": {
+        "src": "/assets/history-deep/modernism/melnikovHouse.jpg",
+        "alt": "The Melnikov House in Moscow: a white cylinder pierced by hexagonal windows, in snow",
+        "credit": "Photo: Florstein (Telegram:WikiPhoto.Space), via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melnikov_House_in_MSK_(img2).jpg",
+        "title": "The Melnikov House, Moscow (1929)"
+      },
+      "monadnock": {
+        "src": "/assets/history-deep/modernism/monadnock.jpg",
+        "alt": "The Monadnock Building in Chicago: sixteen storeys of load-bearing brick rising sheer from the street",
+        "credit": "Photo: David K. Staub, via Wikimedia Commons (CC BY-SA 2.5)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monadnock.jpg",
+        "title": "The Monadnock Building, Chicago (1891)"
+      },
+      "paimioSanatorium": {
+        "src": "/assets/history-deep/modernism/paimioSanatorium.jpg",
+        "alt": "The Paimio Sanatorium in 1961: the long white patient wing with its sun balconies among pines",
+        "credit": "Photo: V. K. Hietanen, via Wikimedia Commons (CC BY 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Paimio_Sanatorium,_designed_by_Alvar_Aalto,_pictured_in_1961_(JOKAVKH2F01-2).tif",
+        "title": "Paimio Sanatorium (1932), photographed 1961"
+      },
+      "pampulhaChurch": {
+        "src": "/assets/history-deep/modernism/pampulhaChurch.jpg",
+        "alt": "The Church of São Francisco at Pampulha beside its lake: a blue parabolic vault and slender tower",
+        "credit": "Photo: Donatas Dabravolskas, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja_S%C3%A3o_Francisco_de_Assis_-_Belo_Horizonte_-_20250409133845.jpg",
+        "title": "São Francisco de Assis, Pampulha (1943)"
+      },
+      "perretRueFranklin": {
+        "src": "/assets/history-deep/modernism/perretRueFranklin.jpg",
+        "alt": "Perret's apartment house at 25 bis rue Franklin, Paris: exposed concrete frame with tiled infill and bay windows",
+        "credit": "Photo: seier+seier, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:25_bis_Rue_Benjamin_Franklin_1,_Paris,_France_2010.jpg",
+        "title": "25 bis rue Franklin, Paris (1903)"
+      },
+      "pruittIgoe": {
+        "src": "/assets/history-deep/modernism/pruittIgoe.jpg",
+        "alt": "The demolition of the Pruitt-Igoe housing blocks in St Louis in 1972, a slab block collapsing in dust",
+        "credit": "Photo: U.S. Department of Housing and Urban Development, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pruitt-Igoe-collapses.jpg",
+        "title": "The demolition of Pruitt-Igoe (1972)"
+      },
+      "psfsBuilding": {
+        "src": "/assets/history-deep/modernism/psfsBuilding.jpg",
+        "alt": "The PSFS sign in letters atop the Philadelphia Saving Fund Society tower",
+        "credit": "Photo: Boucher, Jack E., via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ELEVATED_VIEW_OF_TOP_FLOORS_OF_WEST_FACADE_SHOWING_%27PSFS%27_SIGN_AND_RADIO_AND_TELEVISION_TOWER_-_Philadelphia_Saving_Fund_Society,_Twelfth_and_Market_Streets,_Philadelphia,_HABS_PA,51-PHILA,584-13.tif",
+        "title": "The PSFS sign, Philadelphia (1932)"
+      },
+      "redHouse": {
+        "src": "/assets/history-deep/modernism/redHouse.jpg",
+        "alt": "The Red House at Bexleyheath in its garden: red brick, steep roofs and a turret",
+        "credit": "Photo: Tony Hisgett from Birmingham, UK, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_House_home_of_William_Morris_(1).jpg",
+        "title": "The Red House, Bexleyheath (1860)"
+      },
+      "ronchamp": {
+        "src": "/assets/history-deep/modernism/ronchamp.jpg",
+        "alt": "Notre Dame du Haut at Ronchamp: the great curved shell roof, south wall and tower, photographed in the 1950s",
+        "credit": "Photo: via Wikimedia Commons (CC BY 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankreich-_Notre-Dame-du-Haut_de_Ronchamp_von_Le_Corbusier_-_LABW_-_Staatsarchiv_Freiburg_T_1_(Zugang_2009-0034)_Nr._280_-1.jpeg",
+        "title": "Notre Dame du Haut, Ronchamp (1955)"
+      },
+      "savoyeRamp": {
+        "src": "/assets/history-deep/modernism/savoyeRamp.jpg",
+        "alt": "Inside Villa Savoye: the blue-painted ramp hall, a wall of colour lit from above",
+        "credit": "Photo: sophie & cie from Rouen, Normandie, France, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Les_heures_claires...%5E1_-_Flickr_-_Biscarotte.jpg",
+        "title": "The ramp hall, Villa Savoye"
+      },
+      "schroderHouse": {
+        "src": "/assets/history-deep/modernism/schroderHouse.jpg",
+        "alt": "The Rietveld Schröder House at Utrecht: white and grey planes, coloured bars, at the end of a brick terrace",
+        "credit": "Photo: Steven Lek, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rietveld_Schr%C3%B6der_House.JPG",
+        "title": "The Rietveld Schröder House, Utrecht (1924)"
+      },
+      "seagramBuilding": {
+        "src": "/assets/history-deep/modernism/seagramBuilding.jpg",
+        "alt": "The Seagram Building in New York from across Park Avenue, its bronze and amber glass facade lit",
+        "credit": "Photo: dandeluca, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seagram_Building-NewYork-3.jpg",
+        "title": "The Seagram Building, New York (1958)"
+      },
+      "tatlinModel": {
+        "src": "/assets/history-deep/modernism/tatlinModel.jpg",
+        "alt": "The 1919 model of Tatlin's Monument to the Third International: a leaning spiral of iron and glass",
+        "credit": "Photo: Unknown authorUnknown author, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tatlin%27s_Tower_maket_1919_year.jpg",
+        "title": "Tatlin's Monument, the 1919 model"
+      },
+      "tugendhatHouse": {
+        "src": "/assets/history-deep/modernism/tugendhatHouse.jpg",
+        "alt": "Villa Tugendhat from its garden at Brno: a white horizontal house behind lawns and trees",
+        "credit": "Photo: Petr1987, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vila_Tugendhat_exterior_Dvorak2.JPG",
+        "title": "Villa Tugendhat from the garden (1930)"
+      },
+      "tugendhatInterior": {
+        "src": "/assets/history-deep/modernism/tugendhatInterior.jpg",
+        "alt": "The living space of Villa Tugendhat: onyx wall, chrome columns and a wall of glass to the garden",
+        "credit": "Photo: Mike Duchstein, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villa_Tugendhat_Haus_house_Brno_Br%C3%BCnn_Bauhaus_classic_living_room_MD284.jpg",
+        "title": "The onyx wall, Villa Tugendhat"
+      },
+      "unSecretariat": {
+        "src": "/assets/history-deep/modernism/unSecretariat.jpg",
+        "alt": "The United Nations Secretariat in New York: a glass slab behind the flags of the member states",
+        "credit": "Photo: Steve Cadman, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_United_Nations_Secretariat_Building.jpg",
+        "title": "The UN Secretariat, New York (1950)"
+      },
+      "uniteHabitation": {
+        "src": "/assets/history-deep/modernism/uniteHabitation.jpg",
+        "alt": "The Unité d'Habitation at Marseille on its pilotis, photographed for a US housing survey in the 1950s",
+        "credit": "Photo: U.S. Agency for International Development, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corbusier_Building_-_DPLA_-_86ab5ae3f3cdec9ba5aecd7b59afa956.jpg",
+        "title": "The Unité d'Habitation, Marseille (1952)"
+      },
+      "vanNelleFactory": {
+        "src": "/assets/history-deep/modernism/vanNelleFactory.jpg",
+        "alt": "The Van Nelle Factory at Rotterdam: the curved glass corner of the main block",
+        "credit": "Photo: Rob Oo, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Van_Nelle_Factory,_Rotterdam_04.jpg",
+        "title": "The Van Nelle Factory, Rotterdam (1931)"
+      },
+      "villaSavoyeInterior": {
+        "src": "/assets/history-deep/modernism/villaSavoyeInterior.jpg",
+        "alt": "The living room of Villa Savoye with an LC4 chaise longue, opening to the roof terrace",
+        "credit": "Photo: jeanbaptisteparis from Cambridge, MA, USA, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villa_Savoye_(8237925975).jpg",
+        "title": "The living room, Villa Savoye (1931)"
+      },
+      "wainwrightBuilding": {
+        "src": "/assets/history-deep/modernism/wainwrightBuilding.jpg",
+        "alt": "The Wainwright Building in St Louis: red brick and terra-cotta piers rising to Sullivan's ornamented cornice",
+        "credit": "Photo: via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Louis_Sullivan_-_Wainwright_Building,_Seventh_%2B_Chestnut_Streets,_Saint_Louis,_St._Louis_City_County,_MO.jpg",
+        "title": "The Wainwright Building, St Louis (1891)"
+      },
+      "wainwrightDetail": {
+        "src": "/assets/history-deep/modernism/wainwrightDetail.jpg",
+        "alt": "Detail of the Wainwright Building's cornice: Sullivan's interlaced terra-cotta ornament",
+        "credit": "Photo: via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Louis_Sullivan_-_cornice_detail_-_Wainwright_Building,_Seventh_%2B_Chestnut_Streets,_Saint_Louis,_St._Louis_City_County,_MO.jpg",
+        "title": "The Wainwright cornice (detail)"
+      },
+      "weissenhof": {
+        "src": "/assets/history-deep/modernism/weissenhof.jpg",
+        "alt": "Le Corbusier's house at the Weissenhof Siedlung, Stuttgart: white block on pilotis with ribbon windows",
+        "credit": "Photo: qwesy qwesy, via Wikimedia Commons (CC BY 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Weissenhof_Estate_-_Weissenhofsiedlung_-_panoramio.jpg",
+        "title": "The Weissenhof Siedlung, Stuttgart (1927)"
+      },
+      "weissenhofInterior": {
+        "src": "/assets/history-deep/modernism/weissenhofInterior.jpg",
+        "alt": "A reconstructed interior at the Weissenhof: folding beds and built-in cupboards in a small flat",
+        "credit": "Photo: Runner1928, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Weissenhof_Bed.jpg",
+        "title": "Inside a Weissenhof flat"
+      },
+      "yoyogiGymnasium": {
+        "src": "/assets/history-deep/modernism/yoyogiGymnasium.jpg",
+        "alt": "The Yoyogi National Gymnasium in Tokyo from the air: two great suspended roofs like shells above the city",
+        "credit": "Photo: Arne Müseler, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kokuritsu_Yoyogi_Ky%C5%8Dgij%C5%8D_1.jpg",
+        "title": "Yoyogi National Gymnasium, Tokyo (1964)"
+      }
+    },
+    "standfirst": "Modernism was the first architecture to claim it was not a style at all, but the inevitable form of an industrial age — and the International Style was its travelling exhibition version: white walls, flat roofs, ribbon windows, pilotis. This book follows the claim from its roots in iron and glass, through the manifestos of the Bauhaus, Le Corbusier and Mies, to the moment it became the default architecture of corporations and states — and to the dynamited housing blocks and preservation battles that closed its century. It argues throughout with the buildings, including the counter-argument built in stone and concrete by Frank Lloyd Wright.",
+    "intro": [
+      "Every architecture before this one had a past it quoted. Modernism was the first to make a virtue of amnesia: between roughly 1900 and 1930 a generation of architects, mostly young, mostly European, announced that historical styles were dead, that ornament was dishonest, and that the honest expression of structure, function and industrial production would produce a beauty of its own — a beauty of proportion, repetition and light. The claim was never as innocent as it sounded. The white boxes that resulted were as much a chosen image as any Gothic revival church, and their makers knew it: they photographed them against dramatic skies, published them in manifestoes, and in 1932 gave the best of them a name — the International Style — at an exhibition in New York that fixed the canon this book examines. But the claim was not empty either. Behind the image stood real revolutions: the iron and later steel frame that freed the wall, the reinforced-concrete skeleton that freed the plan, plate glass, the lift, and a housing crisis of industrial cities that demanded building at unprecedented scale and speed.",
+      "A word of honesty about names and dates. 'Modernism' is the wide movement — a half-century of experiment that includes expressionism, organic architecture and much that the International Style excluded. 'International Style' is narrower: the sleek, white, flat-roofed strand that Henry-Russell Hitchcock and Philip Johnson selected at the Museum of Modern Art in 1932, defined by three rules — volume rather than mass, regularity rather than symmetry, and no applied ornament. This book keeps the two apart, because the argument between them is the story: Wright, Aalto and the late Le Corbusier are unintelligible except as modernists arguing against the International Style from inside the movement. Dates are given as the buildings support them, and where the scholarship argues — about the first skyscraper, about who invented what, about why Pruitt-Igoe really failed — the argument is reported, not concealed. The style's edges are fuzzy at both ends: it grows out of nineteenth-century engineering and Arts and Crafts conscience at one end, and dissolves into Brutalism, post-modernism and a dozen regional modernisms at the other.",
+      "The account that follows is a synthesis of the standard scholarship — Giedion's Space, Time and Architecture, Pevsner's Pioneers of Modern Design, Hitchcock and Johnson's own 1932 book, and the modern corrections of Frampton, Curtis and Colquhoun — checked against the buildings as they stand and as UNESCO, the Museum of Modern Art, Docomomo and Smarthistory describe them. Every photograph is a real photograph of the building it captions, drawn from Wikimedia Commons under a free licence and credited at the back of the book. The route is the atlas's route: roots first (iron, Chicago, craft, Vienna), then the heroic years (materials, De Stijl and Russia, the Bauhaus, the two masters), then the world career (housing, the 1932 naming, CIAM, emigration, Wright's counterpoint), and finally the regions, the critique, and the afterlife in which the once-shocking became the protected monument."
+    ],
+    "keyFacts": [
+      [
+        "Period",
+        "Roots 1851–1900; heroic phase 1903–1931; world career 1932–1965; critique and afterlife 1961–present"
+      ],
+      [
+        "Where",
+        "Born in Germany, France, the Netherlands, Austria and Russia; carried worldwide — the United States, Brazil, Mexico, Japan, India, Israel, Australia and beyond"
+      ],
+      [
+        "Signature",
+        "The frame expressed: pilotis, free plan, free facade, ribbon windows, flat roof and roof garden; white or glass surfaces; no applied ornament"
+      ],
+      [
+        "Key figures",
+        "Walter Gropius · Le Corbusier · Ludwig Mies van der Rohe · Frank Lloyd Wright · Alvar Aalto · Oscar Niemeyer · Kenzo Tange"
+      ],
+      [
+        "Landmark buildings",
+        "Bauhaus Dessau · Villa Savoye · Barcelona Pavilion · Fallingwater · Unité d'Habitation · Seagram Building · Brasília"
+      ],
+      [
+        "Ended by",
+        "Critique and pluralism: Jacobs (1961), Venturi (1966), the Pruitt-Igoe demolition (1972) — and absorption, as its construction logic became the world's default"
+      ]
+    ],
+    "timeline": [
+      [
+        "1851",
+        "Paxton's Crystal Palace rises in Hyde Park for the Great Exhibition — prefabricated iron and glass at cathedral scale."
+      ],
+      [
+        "1885",
+        "Jenney's Home Insurance Building in Chicago carries its floors on an iron and steel frame: the skyscraper's founding claim."
+      ],
+      [
+        "1889",
+        "The Eiffel Tower and the Galerie des Machines close the Paris exhibition — engineering as spectacle."
+      ],
+      [
+        "1903",
+        "Auguste Perret builds 25 bis rue Franklin in Paris, an apartment house that displays its reinforced-concrete frame."
+      ],
+      [
+        "1909",
+        "Peter Behrens completes the AEG Turbine Hall in Berlin — the factory treated as a temple of industry; the young Le Corbusier, Mies and Gropius all pass through his office."
+      ],
+      [
+        "1911",
+        "Gropius and Meyer's Fagus Factory wraps its corners in glass: the curtain wall arrives."
+      ],
+      [
+        "1919",
+        "The Bauhaus opens in Weimar under Gropius, uniting art, craft and technology in one school."
+      ],
+      [
+        "1923",
+        "Le Corbusier publishes Vers une architecture — 'a house is a machine for living in'."
+      ],
+      [
+        "1924",
+        "Rietveld builds the Schröder House at Utrecht — De Stijl's abstraction made habitable."
+      ],
+      [
+        "1926",
+        "The Bauhaus building at Dessau is completed: workshop curtain wall, studio balconies, the school as manifesto. The Five Points are published the same year."
+      ],
+      [
+        "1927",
+        "The Weissenhof exhibition at Stuttgart shows model modern houses by seventeen architects under Mies's direction."
+      ],
+      [
+        "1928",
+        "CIAM founded at La Sarraz; the Frankfurt kitchen and Ernst May's Siedlungen set the social programme."
+      ],
+      [
+        "1929",
+        "Mies's Barcelona Pavilion and the Tugendhat House at Brno: the free plan at its most luxurious. Villa Savoye is completed at Poissy."
+      ],
+      [
+        "1932",
+        "Hitchcock and Johnson's 'Modern Architecture' exhibition at MoMA names the International Style; PSFS tower opens in Philadelphia; Aalto's Paimio Sanatorium is completed in Finland."
+      ],
+      [
+        "1933",
+        "The Nazis close the Bauhaus; CIAM IV drafts the Athens Charter aboard ship to Greece (published 1943)."
+      ],
+      [
+        "1937–39",
+        "Fallingwater and the Johnson Wax building: Wright's American counter-statement. Gropius arrives at Harvard, Mies at Chicago (1938)."
+      ],
+      [
+        "1943–52",
+        "The Unité d'Habitation at Marseille realises CIAM housing doctrine; the UN Secretariat (1950) and Lever House (1952) launch the corporate glass slab."
+      ],
+      [
+        "1955–58",
+        "Ronchamp consecrated (1955); Seagram Building completed (1958); Brasília inaugurated 1960, its cathedral finished 1970."
+      ],
+      [
+        "1961–66",
+        "Jane Jacobs publishes The Death and Life of Great American Cities (1961); Venturi's Complexity and Contradiction answers the orthodoxy (1966); Tange's Yoyogi gymnasia star at the 1964 Tokyo Olympics."
+      ],
+      [
+        "1972",
+        "The first Pruitt-Igoe blocks are dynamited in St Louis — the style's public fall, and the start of its preservation era: Docomomo is founded in 1988; the Bauhaus sites join the World Heritage List in 1996, Le Corbusier's works in 2016."
+      ]
+    ],
+    "chapters": [
+      {
+        "id": "iron-glass-engineers",
+        "numeral": "I",
+        "title": "Before Modernism: Iron, Glass and the Engineer's Century",
+        "sections": [
+          {
+            "heading": "The Crystal Palace and the Kit of Parts",
+            "figure": "crystalPalace",
+            "paras": [
+              "Modernism begins, as it would always claim to, with a building that was not trying to be architecture at all. Joseph Paxton was a gardener — head gardener at Chatsworth, designer of great greenhouses — and when the committee for the Great Exhibition of 1851 despaired of erecting a hall for fourteen thousand exhibitors in Hyde Park, his sketch on a sheet of blotting paper solved it in days: a vast greenhouse, 563 metres long, built from a small kit of standard parts — cast-iron columns, wrought-iron girders, wooden sash bars and 293,000 identical panes of sheet glass, the largest then made. The Crystal Palace went up in under nine months, came down just as fast, and was re-erected at Sydenham. Nothing in its construction quoted history. Its beauty, which even sceptics conceded, came from repetition, transparency and the play of light through glass — from the logic of its making.",
+              "The lesson was not lost, but it was postponed. For fifty years the engineer's materials lived a double life: iron built the sheds, bridges and exhibition halls, while 'architecture' proper continued to dress masonry in historical costume. Yet the kit of parts kept growing. Rolled steel replaced iron in the frame; the safety lift (Otis, demonstrated 1854) made height profitable; plate glass grew larger and cheaper; terracotta and tile offered fireproof skins. By 1900 every technical precondition of the International Style existed, some of them for two generations. What lagged was not technique but permission — the cultural licence to let a building look like what it was. The history of modernism is largely the history of that licence being seized."
+            ]
+          },
+          {
+            "heading": "Towers of Iron: Eiffel and the Demonstration Effect",
+            "figure": "eiffelConstruction",
+            "paras": [
+              "The Paris exhibition of 1889 made the argument in public. Eiffel's tower — 300 metres of puddled iron, assembled from 18,000 prefabricated pieces by 300 men in twenty-six months — was denounced by Paris's artists as a dishonour to the city and adored by its crowds; Durandelle's photographs of the rising shaft, four legs curving out of the ground like a plant, remain the era's most eloquent building images. Beside it stood the Galerie des Machines, spanning 115 metres in a single arched truss, the widest interior yet built. When the exhibition closed, the gallery was demolished and the tower, saved by its usefulness as a radio mast, stayed to become the century's logo.",
+              "What these structures demonstrated was a new kind of form-finding: shape as the visible trace of forces, calculated rather than composed. The engineer's aesthetic — economy of material, elegance of the load path — offered architects a morality as much as a look: waste nothing, disguise nothing. Modernism would take that morality literally and sometimes absurdly, applying 'honesty' to houses as if they were bridges. But the founding emotion was genuine awe at a beauty that nobody had decorated into being."
+            ]
+          },
+          {
+            "heading": "Chicago: The Frame and the First Skyscrapers",
+            "figure": "homeInsurance",
+            "paras": [
+              "The commercial form of the new construction was invented in Chicago, rebuilt after the fire of 1871 on land so valuable that the only direction was up. William Le Baron Jenney's Home Insurance Building (1884–85) is conventionally named the first skyscraper: ten storeys whose floors were carried on a skeleton of cast iron, wrought iron and — in the upper floors, a world first — steel, so that the brick skin became a curtain rather than a support. The claim has been argued over ever since (the building was part frame, part masonry, and was demolished in 1931), but the direction is unmistakable: within a decade Chicago's architects — Burnham and Root, Holabird and Roche, Adler and Sullivan — were raising sixteen- and twenty-storey frames as routine commerce.",
+              "The Monadnock Building (Burnham and Root, 1891) shows the older world at its limit: sixteen storeys of load-bearing brick, its walls nearly two metres thick at the base, swelling and tapering in one continuous brick surface of extraordinary power — and its northern half, built two years later by Holabird and Roche, is a steel frame in a brick jacket, outwardly similar, structurally another species. Chicago had thus run the whole experiment in one street: masonry to its monumental end, and the frame that would replace it. What the frame still lacked was an architecture — a way of making skeletons beautiful that did not involve dressing them as palazzi. That task fell to the Chicagoan who thought hardest about it: Louis Sullivan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chicago-sullivan",
+        "numeral": "II",
+        "title": "Chicago: Sullivan and the Tall Office Building",
+        "sections": [
+          {
+            "heading": "Form Follows Function",
+            "figure": "wainwrightBuilding",
+            "paras": [
+              "The Wainwright Building in St Louis (Adler and Sullivan, 1890–91) is the first masterpiece of the framed tower. Sullivan — Dankmar Adler's young partner, trained briefly at the École des Beaux-Arts and possessed by both engineering and botany — understood that the skyscraper's problem was expression: how should a stack of identical office floors look? His answer, published in 1896 in the essay 'The Tall Office Building Artistically Considered', became modernism's most quoted sentence: form ever follows function. The Wainwright declares its programme in three parts — a two-storey public base, a shaft of office floors expressed as continuous vertical piers with recessed spandrels, and a deep ornamental cornice as crown. The piers are doubled in number over the real columns to quicken the vertical rhythm: honesty, already, edited for effect.",
+              "The essay's famous phrase is usually misread as a ban on ornament. Sullivan meant something subtler — that a building's form should grow from its inner nature as an oak grows from an acorn — and his own practice proves it: no architect of the century ornamented more lavishly. The point was that ornament should be organic to the building, not applied from a pattern book of historical styles. That distinction — between ornament as growth and ornament as costume — runs through the whole modern movement, down to Loos's apparent contradiction of denouncing ornament while cladding his interiors in marble."
+            ]
+          },
+          {
+            "heading": "Ornament as Growth: The Cornice and the Doorway",
+            "figure": "wainwrightDetail",
+            "paras": [
+              "Look closely at the Wainwright's cornice: a frieze of interlaced terra-cotta foliage, bursting with leaves, seed-pods and geometric spirals, modelled by Christian Schneider's craftsmen from Sullivan's drawings. It is unlike anything in the classical orders and unlike Art Nouveau, though contemporary with it — a new ornamental language generated from natural growth and geometric law, meant to prove that the industrial age could invent decoration rather than borrow it. Sullivan's ornament is the road not taken by the International Style: when Hitchcock and Johnson wrote 'no applied ornament' into the rules in 1932, they were quietly excluding the Chicago master's whole achievement, and with it the possibility that modern architecture might have ornament of its own.",
+              "The Carson Pirie Scott store in Chicago (1899–1904) makes the same argument at the scale of the street: above a frame frankly gridded in white terracotta, the ground floor erupts in a cast-iron thicket of Sullivan ornament framing the entrance — the shop window as jewel-case, commerce celebrated in the material of the machine age itself. When the store was restored as the Sullivan Center, the blackened ironwork was returned to its original bronze-green. Between the Wainwright cornice and the Carson doorway, American architecture had, by 1904, everything the European avant-garde would spend twenty years formulating — except the theory, the exhibitions and the amnesia."
+            ]
+          },
+          {
+            "heading": "The Prairie Coda: Wright before Wright",
+            "paras": [
+              "Sullivan's most gifted draughtsman was a young man from Wisconsin who called him the Lieber Meister and was fired in 1893 for moonlighting: Frank Lloyd Wright. Wright's Prairie houses of the 1900s — low, horizontal, open-planned around a masonry hearth, their roofs broad and sheltering — took Sullivan's organic principle into domestic architecture and broke the Victorian box a decade before Europe's manifestos. The Robie House in Chicago (1910) is the type's masterpiece. Wright's path, which chapter XIV follows, diverged from the International Style at the root: he despised the white box as another costume. But his early work, published in Berlin in 1910 in the Wasmuth portfolio, detonated in Europe — Berlage, and through him the Dutch and Germans, studied those plates. The transatlantic current of modernism ran west to east before it ran back."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "craft-conscience",
+        "numeral": "III",
+        "title": "The Craft Conscience: Morris to the Greene Brothers",
+        "sections": [
+          {
+            "heading": "The Red House and the Morality of Making",
+            "figure": "redHouse",
+            "paras": [
+              "The second root of modernism is not a technology but a conscience. William Morris — poet, manufacturer, socialist — built his Red House at Bexleyheath (Philip Webb, 1859–60) as a protest in brick: no stucco, no sham, a house planned from the inside out, its irregular silhouette the trace of its rooms, its furniture and glass made by the artist friends who would found Morris & Co. The Arts and Crafts movement that followed taught three generations that industrial production had debased both objects and makers, and that honesty of material and joy in work were moral categories. Modernism inherited the morality entire — the horror of the fake, the applied, the historical sham — while reversing the prescription: where Morris looked back to the guilds, the modernists would look forward to the machine.",
+              "The transmission was direct. Hermann Muthesius, a German cultural attaché in London, reported the English domestic revival home in Das englische Haus (1904–05) and carried its lessons into the Deutscher Werkbund; the Vienna and Glasgow schools drank from the same source; and Pevsner's Pioneers of Modern Design quite deliberately begins its lineage with Morris. The modernist house — planned from within, unadorned, seriocomic about 'style' — descends from the Red House as surely as the curtain wall descends from the Crystal Palace."
+            ]
+          },
+          {
+            "heading": "The Gamble House: Craft at its Zenith",
+            "figure": "gambleHouse",
+            "paras": [
+              "In Pasadena, California, the brothers Charles and Henry Greene raised Arts and Crafts to its zenith in the Gamble House (1908), built for an heir of the Procter & Gamble fortune. Everything is timber — teak, mahogany, maple, cedar — joined, pegged and polished like furniture at the scale of a building; sleeping porches open to the garden; Tiffany glass and custom everything proclaim a total work of art achievable only by unlimited budget and unlimited patience. The Gamble House is the anti-machine pole of early modernism, and its perfection is its own critique: an architecture of handwork this complete could house one family, not a century.",
+              "Yet look at its plan — rooms flowing around a broad hall, terraces extending the interior into the landscape, climate answered by porch and overhang — and you see the free plan in embryo, the inside-outside continuity the International Style would claim as its invention. The line between craft modernism and machine modernism is thinner than the manifestos admitted, and the masters knew it: Gropius's Bauhaus began, in 1919, as an Arts and Crafts school with a cathedral on its manifesto's cover."
+            ]
+          },
+          {
+            "heading": "Inside the Crafted Room",
+            "figure": "gambleInterior",
+            "paras": [
+              "The Gamble living room, with its timber trusses, tiled inglenook and built-in seats, states the craft ideal of the interior: nothing bought in, nothing applied, the room as one grown organism of wood and light. It is beautiful, and it is a dead end — the point from which chapter IV's Viennese argument departs. For what happens, Adolf Loos asked, when a society can no longer afford the craftsman's year for a single room, and should not pretend to? The answer could be Morris's socialism of making, or it could be the machine embraced as the craft of the age. Europe chose, mostly, the machine — but it never quite lost the Red House's conscience, and the best modern interiors, from Aalto's wood-lined sanatorium wards to Barragán's silent rooms, are where the conscience survived."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "loos-werkbund",
+        "numeral": "IV",
+        "title": "Against Ornament: Loos, Vienna and the Werkbund",
+        "sections": [
+          {
+            "heading": "The Looshaus: A Scandal in Marble and Silence",
+            "figure": "looshaus",
+            "paras": [
+              "In 1909–11, on the Michaelerplatz opposite the Imperial Palace in Vienna, Adolf Loos built a commercial building that split the city. Its lower floors are clad in green Cipollino marble, its entrance carried on Tuscan columns — and above, four floors of apartments rise in plain white render, utterly unornamented: the famous 'house without eyebrows', whose window surrounds were so bare that the emperor reportedly had his curtains drawn against the sight and construction was halted until flower boxes were conceded. The Looshaus is modernism's first urban scandal, and its first lesson in publicity: Loos defended himself in lectures, and the building became more famous than any decorated rival.",
+              "The design is subtler than its legend. The marble base answers the palace square with expensive material and antique form; the plain upper floors declare that dwellings need no costume. And inside his buildings Loos was no ascetic: the Raumplan — rooms of different heights interlocking in section — and interiors of mahogany, marble and onyx made him the most luxurious architect in Vienna. His target was never richness. It was the lie of ornament manufactured by the yard, historical styles worn as fancy dress, and labour wasted decorating what use had already formed."
+            ]
+          },
+          {
+            "heading": "Ornament and Crime: The Slogan and its Limits",
+            "paras": [
+              "Loos's essay 'Ornament and Crime', written in 1908 and lectured across Europe, gave the movement its moral thunderbolt: the evolution of culture, he argued, is synonymous with the removal of ornament from utilitarian objects; ornament is wasted labour, wasted health, wasted material — and in a notorious analogy, a sign of degeneracy. Read whole, the essay is also an economist's and a tailor's argument (Loos worshipped English tailoring and plumbing) and a much stranger, more prejudiced text than its slogan suggests. But the slogan is what history kept. It armed a generation: if ornament is crime, then the white wall is not a taste but a duty. Le Corbusier, who published Loos in L'Esprit Nouveau, called him a precursor who 'swept under our feet'.",
+              "The limits were there from the start. Loos's own interiors are sumptuous; his followers' white boxes were often merely cheap; and the claim that decoration equals backwardness carried a colonial sneer the movement rarely examined. The five-signs chapter of this book's method treats 'no applied ornament' as a field sign precisely because it is an ideology, not a fact of construction — and the masters who lasted, Mies with his onyx and Wright with his patterned block, were those who found ornament's energy inside material and structure rather than abolishing it."
+            ]
+          },
+          {
+            "heading": "The Werkbund and the Factory Temple",
+            "figure": "aegTurbine",
+            "paras": [
+              "If Vienna supplied the polemic, Germany supplied the institution. The Deutscher Werkbund (1907) joined architects, industrialists and officials to raise the quality of German manufactured goods — Muthesius's English lessons turned to national economic policy. Its presiding genius was Peter Behrens, painter turned architect, whom the AEG electrical combine appointed in 1907 as artistic adviser for everything from kettles to factories: the first corporate design programme. His AEG Turbine Hall in Berlin-Moabit (1909) is the Werkbund's monument — a steel-and-glass shed 25 metres high, its glazed gable framed by massive tapering pylons, at once a machine hall and a temple, classical gravity married to industrial fact.",
+              "The office Behrens kept became modernism's nursery: Walter Gropius, Ludwig Mies van der Rohe and the young Le Corbusier all worked there within a few years of each other. The Werkbund's 1914 Cologne exhibition staged the movement's first great internal debate — Muthesius's standardisation (Typisierung) against Van de Velde's individual artistry — a quarrel between the type and the exception that has never closed. The same exhibition showed Gropius's model factory with its glass-wrapped stair towers. The war stopped the building; the argument went underground and emerged in 1919 at Weimar, in a school."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "frame-concrete-glass",
+        "numeral": "V",
+        "title": "The Frame in Concrete and Glass: Perret, Fagus, Van Nelle",
+        "sections": [
+          {
+            "heading": "Rue Franklin: The Frame Confessed",
+            "figure": "perretRueFranklin",
+            "paras": [
+              "Reinforced concrete — the Hennebique system, patented in the 1890s — gave the frame its modern material: monolithic, fireproof, mouldable, and cheap. Auguste Perret, whose family firm built in it, was the first to let it speak architecturally. At 25 bis rue Franklin in Paris (1903), his apartment house displays its concrete skeleton on the facade: posts and beams read as a stone-like frame, the infill panels tiled, the plan liberated so that bay windows could bow out and rooms arrange themselves freely. Perret clothed the frame in faience to protect it and called concrete 'the stone of the machine age' — his classicising instinct kept one foot in the Beaux-Arts, but the confession was made: here, for the first time in a respectable Parisian street, structure is the elevation.",
+              "Perret matters doubly because of who watched him: the young Charles-Édouard Jeanneret, the future Le Corbusier, worked in his office in 1908–09 and learned concrete there (while also, characteristically, quarrelling with the master's classicism). Perret's later career — the Théâtre des Champs-Élysées, the church at Le Raincy with its walls of glass, the rebuilding of Le Havre after 1945 — made him France's alternative modern master: proof that the frame could serve gravity and order, not only the avant-garde."
+            ]
+          },
+          {
+            "heading": "Fagus: The Corner Dissolves",
+            "figure": "fagusFactory",
+            "paras": [
+              "The Fagus shoe-last factory at Alfeld (Gropius and Adolf Meyer, 1911) is where the glass curtain wall steps forward. A modest provincial commission — brick factory ranges for a enlightened manufacturer — received one extraordinary gesture: the main block's corners are turned entirely to glass, the panes meeting at the corner with no visible support, the brick piers set back so the envelope reads as light membrane stretched over a frame. Photographed against the sky, Fagus announced that the industrial building had found its image: transparent, weightless, precise. Gropius was twenty-eight. The First World War interrupted, but Fagus's photographs circulated everywhere — the factory as the new cathedral, industry as the client who asked no historical costume.",
+              "Note what Fagus is not: it is not white, and its plan is conventional. The International Style would later whiten and systematise, but the founding move is here in brick and glass — the corner, that ancient sign of masonry mass, abolished by a pane of glass. Every glass tower since, from Lever House to the Shard, descends from this corner in a Lower Saxon factory town."
+            ]
+          },
+          {
+            "heading": "Van Nelle: The Factory Perfected",
+            "figure": "vanNelleFactory",
+            "paras": [
+              "Twenty years on, the type reached perfection at Rotterdam. The Van Nelle tobacco, tea and coffee factory (Brinkman and Van der Vlugt, with Mart Stam contributing, 1925–31) is a composition of glass slabs, transport bridges slung diagonally across the yard, and a curved glass corner housing the directors' meeting room above the entrance — the whole works as legible as a diagram and as elegant as an ocean liner, the comparison every critic reached for. Daylight floods the production floors; the workers' facilities — canteen, sports ground, library — embodied the Dutch firm's social programme; Le Corbusier called it a poem of industry.",
+              "Van Nelle matters to this book's argument because it refutes the idea that the International Style was only an image. Here image, process, welfare and construction genuinely coincide — the style working at full stretch for its ideal client. It is also, not coincidentally, a factory for colonial goods, built on tobacco and coffee wealth: the movement's universal daylight was financed by empire, a fact its historians long left in the footnotes and this book does not."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "de-stijl-russia",
+        "numeral": "VI",
+        "title": "Abstraction: De Stijl, the Russian Avant-Garde and the Expressionist Counterpoint",
+        "sections": [
+          {
+            "heading": "The Schröder House: Living Inside a Painting",
+            "figure": "schroderHouse",
+            "paras": [
+              "In 1917, in neutral Holland, Theo van Doesburg founded De Stijl — 'The Style' — a journal and a movement devoted to universal abstraction: straight lines, right angles, primary colours, and the dissolution of closed form into planes in space. Its architecture arrived in 1924 at the end of a brick terrace in Utrecht, where the widow Truus Schröder commissioned Gerrit Rietveld, a furniture maker from the movement's circle, to build her house. The Schröder House is a composition of floating white and grey planes, red, blue and yellow bars, and windows that turn corners — and upstairs, a single open living floor that sliding panels transform, each morning and night, between one communal space and separate bedrooms. The famous red-blue chair is the same thought at furniture scale.",
+              "De Stijl's influence vastly exceeded its built output (the Schröder House was its only major building for decades). Through Van Doesburg's restless travelling, lecturing and feuding — he carried the gospel to Weimar, scandalising the Bauhaus into geometry — abstraction became the European avant-garde's common tongue. The house also quietly corrects the movement's mythology: it is not a machine product but a crafted, hand-finished, deeply personal dwelling, abstraction domesticated by a client who lived in it for sixty years."
+            ]
+          },
+          {
+            "heading": "Tatlin's Tower and the Russian Shock",
+            "figure": "tatlinModel",
+            "paras": [
+              "Revolutionary Russia produced modernism's most vertiginous image: Vladimir Tatlin's Monument to the Third International (1919–20), a 400-metre leaning spiral of iron and glass, taller than the Eiffel Tower, housing rotating geometric volumes — a cube for the legislature, a pyramid for the executive, a cylinder for information — turning at yearly, monthly and daily rates. It was never buildable and was never meant, perhaps, to be built: it was a demonstration that the new society required new monuments, dynamic where the old were static. The model, photographed in Petrograd under a banner of the International, became an icon reproduced everywhere — the spiral as the revolution's logo.",
+              "Behind the icon stood real work: the Vesnin brothers' projects, El Lissitzky's propaganda of form carried west to Germany, and Konstantin Melnikov, the one Russian modernist who built substantially — workers' clubs, garages, and his own house in Moscow (1927–29), two interlocking cylinders pierced by hexagonal windows, an architect's manifesto and family home in one, preserved today by his descendants' long fight. The Soviet avant-garde's buildings were few, its paper architecture immense, and its fate a warning: by the mid-1930s Stalin's regime had dissolved the modern groups and restored the classical orders. Modernism's dependence on political weather — its need for states that wanted a future — is a theme this book keeps meeting."
+            ]
+          },
+          {
+            "heading": "Melnikov's Cylinders and Einstein's Tower: The Plastic Counter-Tradition",
+            "figure": "melnikovHouse",
+            "paras": [
+              "Melnikov's house deserves its own moment, because it refutes the decade's supposed consensus from inside the avant-garde: not a white box but interpenetrating cylinders; not ribbon windows but a honeycomb of hexagonal openings; not a free plan but a spiral of studio, living and sleeping levels around a great window-wall of glass. It is modern — structurally inventive, unornamented, abstract — and it obeys none of the coming International Style rules. The same is true of Erich Mendelsohn's Einstein Tower at Potsdam (1920–24), an astrophysical observatory poured and rendered as a single sculpted surge, built for Einstein's relativity and proud to look like nothing but itself.",
+              "These buildings matter because the 1932 canon wrote them out. The International Style was an edited version of the 1920s — the decade's expressionist, organic and plastic energies excluded to make the style teachable. Recovering them (Banham began the work in 1960) changes the story from a march toward the white box into a contested field in which the white box won — a victory of institutions, exhibitions and emigration as much as of quality. This book keeps the counter-tradition in view throughout, because the late careers of the masters themselves — Ronchamp above all — belong to it."
+            ]
+          },
+          {
+            "heading": "Expression in Brick: A Note on Amsterdam",
+            "figure": "einsteinTower",
+            "paras": [
+              "A third excluded current flowed in Amsterdam, where the School of that name — Michel de Klerk's housing blocks for the Eigen Haard association (1913–21) — wrapped workers' flats in virtuoso brickwork, waves and towers of masonry as expressive as any sculpture. Amsterdam's modernism was municipal, craft-based and anti-Cubist; it housed thousands while De Stijl housed one widow. The Einstein Tower in the photograph stands for all these plastic alternatives — and for their eclipse, when the history books of 1932 decided which modernism would be exported."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "the-bauhaus",
+        "numeral": "VII",
+        "title": "The Bauhaus: A School Becomes a Style",
+        "sections": [
+          {
+            "heading": "From the Cathedral of Socialism to the Machine",
+            "paras": [
+              "The Bauhaus opened in Weimar in 1919 with a manifesto by Walter Gropius under a woodcut of a Gothic cathedral — the 'cathedral of socialism' — uniting painters, sculptors and craftsmen in a romantic programme: art and craft one, the workshop the school's heart, masters and apprentices making together. The early Bauhaus was expressionist and medievalising (its first masterpiece was a log house, the Sommerfeld House). Then, in 1923, under pressure of inflation, politics and Gropius's own conversion, the school pivoted: 'Art and Technology — a new unity.' The preliminary course was rebuilt by the Hungarian constructivist László Moholy-Nagy; the workshops turned to prototypes for industry; the aesthetic became abstract, geometric, photographic. The pivot of 1923 is the moment the Bauhaus became what the world now means by the word.",
+              "The school's genius was pedagogical and graphic as much as architectural: the preliminary course (Vorkurs) retrained students' hands and eyes through material and form exercises that art schools still use; the stage workshop, the typography, the photography — Bauhaus became a total visual culture. Its architecture, though, was concentrated in one building and a handful of houses, which is why those few buildings carry such weight."
+            ]
+          },
+          {
+            "heading": "Dessau: The Building as Manifesto",
+            "figure": "bauhausDessau",
+            "paras": [
+              "Driven from Weimar by a hostile Thuringian government, the Bauhaus moved in 1925 to Dessau, an industrial city that offered it a building. Gropius designed the school as a pinwheel of connected wings — workshops, stage and refectory, administration, studios — composed asymmetrically and read in movement, like a Cubist sculpture you walk through. The workshop wing's glass curtain, three storeys of steel-framed glass wrapping the corner, is its immortal image; from inside, as our photograph shows, the curtain does the work it was built for, flooding the workshops with the even light of making. Across the road, the Masters' Houses — semi-detached cubes with great studio windows — housed Klee, Kandinsky, Feininger and their colleagues in a pine wood: the avant-garde as a garden suburb.",
+              "Dessau also produced the type-specimen of the modern prototype house in the school's own backyard tradition: the Haus am Horn at Weimar (Georg Muche, 1923), a compact white cube built for the first Bauhaus exhibition with a fitted kitchen and every room planned around the central living hall — the Existenzminimum idea domesticated two years before Frankfurt made it doctrine."
+            ]
+          },
+          {
+            "heading": "Balconies, Directors and Dissolution",
+            "figure": "bauhausBalconies",
+            "paras": [
+              "The studio wing — the Prellerhaus, whose gridded facade of windows and little balconies faces our second photograph — housed twenty-eight studio flats for students and junior masters, and its balconies became a group portrait backdrop: the school's self-image, young moderns at leisure on the grid. Inside the building, Gropius's own director's office, reconstructed today, arranged desk, shelves and lighting as a still life of the new objectivity. The Bauhaus under its later directors darkened: Hannes Meyer (1928–30) turned it toward social building and was dismissed for communism; Mies van der Rohe (1930–33) depoliticised it into a school of architecture; the Nazis closed the Dessau school in 1932, Mies reopened it privately in Berlin, and in July 1933 the masters dissolved it themselves.",
+              "Dissolution was distribution. The Bauhaus diaspora — Gropius and Breuer to Harvard, Mies and Hilberseimer to Chicago, Moholy-Nagy to found the New Bauhaus in Chicago, Josef and Anni Albers to Black Mountain College — seeded the school's methods into American education, and from there to the world. The Dessau building, bombed, restored, and inscribed by UNESCO in 1996, now houses the foundation that curates the legend: a school that lasted fourteen years and has been interpreted for ninety."
+            ]
+          },
+          {
+            "heading": "The Masters' Houses: Living the Style",
+            "figure": "mastersHouses",
+            "paras": [
+              "The Masters' Houses deserve a slower look, because they show the style as a way of life before it became a look. Three semi-detached pairs and Gropius's own house stood in a pine grove a few minutes from the school — white cubes with interlocking terraces, huge north-facing studio windows, and interiors where Kandinsky painted his walls in pastel geometry and the Klee household turned domestic routine into Dada. Destroyed in part by bombing and neglect, two houses were famously rebuilt in 2014 as abstract white volumes — 'blurred replicas' that sparked a preservation argument this book's last chapter revisits: how do you conserve a movement that believed in the new?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "le-corbusier",
+        "numeral": "VIII",
+        "title": "Le Corbusier: Five Points and the Villa Savoye",
+        "sections": [
+          {
+            "heading": "A Machine for Living In",
+            "paras": [
+              "Charles-Édouard Jeanneret — Le Corbusier from 1920 — was the movement's greatest publicist and its most various architect: painter in the mornings, architect all day, author of some fifty books, a one-man propaganda ministry run from a Paris atelier. Vers une architecture (1923) assembled his journalism into the century's most influential architectural book: ocean liners, aeroplanes and grain elevators as the unselfconscious masterpieces of the age; the house as 'a machine for living in'; the engineer's aesthetic against the architect's styles. Behind the slogans stood a system: the Domino frame diagram of 1914 — concrete slabs on point supports, stairs attached — from which, in 1926, he and Pierre Jeanneret distilled the Five Points of a new architecture: pilotis, free plan, free facade, ribbon windows, roof garden. Every point is a consequence of the frame, stated as a liberation.",
+              "The public got its demonstration at Stuttgart in 1927, where Le Corbusier's two Weissenhof houses — one on pilotis with a roof terrace, one a transformable 'machine' interior — stood among the seventeen architects' offerings like exhibits A and B of the coming style. They still stand on the hill, restored, the smaller of them now a museum of the estate itself."
+            ]
+          },
+          {
+            "heading": "The Weissenhof Demonstration",
+            "figure": "weissenhof",
+            "paras": [
+              "The Weissenhof Siedlung deserves the pause our photograph gives it. The Werkbund's 1927 exhibition 'Die Wohnung', directed by Mies, built a permanent estate of model dwellings by Europe's avant-garde — Le Corbusier, Oud, Stam, Scharoun, Behrens, Taut and others — visited by half a million people and reviewed worldwide. For the first time, the new architecture appeared not as projects or pavilions but as a neighbourhood: white, flat-roofed, ribbon-windowed houses on a green hill, furnished, planted, inhabited. The Arab village jibe of its critics and the pilgrims' devotion of its defenders agreed on the essential point: a world had been shown its future housing, and the future was a style before it was a policy. The estate survives, listed and lived in, Le Corbusier's pair at its crown."
+            ]
+          },
+          {
+            "heading": "Villa Savoye: The Five Points Built",
+            "figure": "villaSavoyeInterior",
+            "paras": [
+              "The Villa Savoye at Poissy (1929–31), a weekend house for an insurance family, is the Five Points' cathedral. The white box hovers on pilotis over a meadow; the ground floor curves to the turning circle of a car; a ramp — the architectural promenade — rises through the house past the salon, whose wall of glass and chaise longue our photograph shows, to the roof garden and its sculptural solarium wall. Ribbon windows band the facades; the plan is free; nothing is ornamented and everything is composed. Le Corbusier called such houses 'les heures claires' — the radiant hours — and the Savoyes' own experience grounds the poetry: the roof leaked, the son caught pneumonia, lawsuits followed, and the family left in 1940. The villa was looted, used as a hay store by occupying forces and a youth centre after the war, and saved from demolition in 1965 only by an international campaign and André Malraux's ministry — the state listing a modern monument for the first time.",
+              "That biography is the book in miniature: the manifesto building that failed as a house and triumphed as an idea. Our second photograph, of the ramp hall painted a deep blue, catches what the black-and-white legend hides — the purist villas were coloured inside, architecture as painting you inhabit. The Savoye today, immaculately white again under the Centre des monuments nationaux, is less a house museum than the style's reliquary, visited as Chartres is visited."
+            ]
+          },
+          {
+            "heading": "The Ramp and the Painted Wall",
+            "figure": "savoyeRamp",
+            "paras": [
+              "The ramp is the villa's true subject. Le Corbusier distrusted the stair as a break in experience; the promenade architecturale — a continuous slow ascent through changing light, framed views and painted planes — unrolls the house like a film, an analogy he courted in the age of cinema. In the entrance hall the ramp's wall glows blue, the colour of his purist paintings; the bathroom off the main bedroom, tiled and curved around a chaise of mosaic, is body-architecture of a frankness 1930 found shocking. Read the Five Points as engineering and you miss half the building: the Savoye is a machine for living in the way a sonnet is a machine for rhyming."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mies-van-der-rohe",
+        "numeral": "IX",
+        "title": "Mies van der Rohe: Space, Skin and Silence",
+        "sections": [
+          {
+            "heading": "The Barcelona Pavilion: Almost Nothing, Perfectly Placed",
+            "figure": "barcelonaPavilion",
+            "paras": [
+              "Ludwig Mies van der Rohe came to modernism through Behrens's office and the Werkbund, built respectable brick villas, then in the early 1920s produced a series of unbuilt projects — glass skyscrapers, brick and concrete country houses — that reinvented his art around flowing space. The proof came in 1929, when Germany commissioned him to build its pavilion at the Barcelona International Exposition: a ceremonial space with no function but to receive a king's signature in a guest book. Mies made it a composition of eight chrome-plated columns carrying a flat roof, between which screens of marble, green onyx, travertine and tinted glass stand free, never enclosing a room; a still pool reflects the whole; Georg Kolbe's bronze dancer stands in a smaller court of water. Space, material and light do everything; the building does almost nothing, and has been imitated ever since.",
+              "The pavilion stood for eight months. Its reconstruction in 1983–86 on the original site, from drawings and photographs — our image shows it today — raised the preservation question in its purest form: a building whose original life was a season, rebuilt as a permanent monument, is the icon or the idea authentic? The world has voted with its feet: the pavilion is modernism's most visited small building, and its Barcelona chairs furnish boardrooms on every continent."
+            ]
+          },
+          {
+            "heading": "Tugendhat: The Free Plan at Full Luxury",
+            "figure": "tugendhatHouse",
+            "paras": [
+              "The same year, in Brno, Mies built the style's most luxurious house for Fritz and Grete Tugendhat, textile manufacturers whose site sloped above the city. From the street, the white house is reticent; from the garden, as in our photograph, it opens in glass. Inside, the living floor is one flowing space divided only by a wall of golden onyx — translucent, glowing when the sun strikes it — and a curved screen of Macassar ebony; chrome columns carry the ceiling; the great window panes descend mechanically into the floor. The children's nurse remembered the family living 'in the onyx sunset'. Tugendhat answers, in advance, the charge that modernism means cheapness: here is the free plan as aristocracy, executed with a jeweller's budget and a watchmaker's precision.",
+              "The house's afterlife is the century's: the Tugendhats, Jewish, fled in 1938; the Gestapo, a dance school, a rehabilitation centre for children followed; at the villa's table in 1992 the leaders of Czechs and Slovaks agreed the 'velvet divorce'. Restored to the studs in 2010–12 and UNESCO-listed, it may be the most completely documented modern house in the world — every screw of its restoration argued in public."
+            ]
+          },
+          {
+            "heading": "The Onyx Wall and the Disappearing Window",
+            "figure": "tugendhatInterior",
+            "paras": [
+              "Stand in the living space, as our photograph does, and the doctrine becomes sensation: the onyx wall does not divide the room so much as give its flow a centre of gravity; the ebony curve gathers the dining area; the glass wall, its panes sunk away, abolishes the boundary between room and garden entirely. Mies's famous 'less is more' was never poverty — it was this: the minimum of means that releases the maximum of space, light and material presence. The Farnsworth House in Illinois (1945–51), where the same ideas become a transparent weekend pavilion of white steel and travertine between two horizontal planes, carried the logic to its limit — and to a lawsuit, when Dr Edith Farnsworth found the icon difficult to live in and impossible to furnish. The court case made public the question the whole movement preferred to avoid: for whom is the free plan free?"
+            ]
+          },
+          {
+            "heading": "Farnsworth: The Limit Case",
+            "figure": "farnsworthHouse",
+            "paras": [
+              "The Farnsworth House photographed in snow — Jack Boucher's HABS image — is the limit case made visible: eight columns, two planes, glass, a core of primavera wood containing fire and services. As architecture it is perfect, and as a house it is an interrogation — of privacy, of comfort, of the client's life displayed like an exhibit. Mies's American career, which chapter XIII follows to Crown Hall and the Seagram, begins here at the edge of the habitable, in a pavilion that asks whether modernism's destiny was the temple rather than the home."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "housing-the-masses",
+        "numeral": "X",
+        "title": "Housing the Masses: The Social Programme",
+        "sections": [
+          {
+            "heading": "Frankfurt: The Minimum Dwelling as Science",
+            "figure": "frankfurtSiedlung",
+            "paras": [
+              "The International Style's moral capital was housing. Post-war Germany faced a catastrophic shortage, and its republican municipalities — above all Ernst May's Frankfurt (1925–30) — built at a scale and seriousness the world had never seen: some 15,000 dwellings in garden Siedlungen like Römerstadt and Praunheim, planned with sunlight angles, green courts and rationalised construction — large-panel systems, standardised parts, the famous Frankfurt Kitchen (Margarete Schütte-Lihotzky, 1926) that made the fitted kitchen a scientific workplace of 1.9 by 3.4 metres. May's team included Mart Stam and the young Viennese and Dutch avant-garde; the estates were photographed, published and toured by housing reformers from every country.",
+              "The programme had a theory: the Existenzminimum, the minimum dwelling, debated at CIAM's second congress in Frankfurt in 1929 — the smallest flat that science (light, air, hygiene, the measured movements of housework) could defend, so that subsidy could house the most families. Its legacy is double and still argued. The Siedlungen themselves, modest, green and now often listed, have aged gracefully and are fiercely defended by their residents. But the doctrine — dwelling as a solved problem, the plan as an optimum — licensed two generations of lesser imitations, and the minimum hardened into the merely minimal."
+            ]
+          },
+          {
+            "heading": "Inside the Minimum Flat",
+            "figure": "weissenhofInterior",
+            "paras": [
+              "The reconstructed interior at Weissenhof — folding beds, wall cupboards, tubular chairs — shows the minimum dwelling's furniture of intentions: space saved by transformation, hygiene by smooth surfaces, cost by standard parts. It is the direct ancestor of every small-flat system since, from the IKEA showroom to the micro-apartment. What the photograph cannot show is the politics: these interiors belonged to a social-democratic project in which architecture was an arm of the welfare state, and the style's whiteness signified cleanliness, health and equality — municipal socialism you could see from the street. When the style travelled to America and became the corporate glass tower, it was this cargo that the 1932 exhibition unloaded at the dock."
+            ]
+          },
+          {
+            "heading": "The Siedlung and its Shadows",
+            "paras": [
+              "The German estates had company: Vienna's municipal superblocks (the Karl-Marx-Hof, a kilometre of fortress housing), Dutch garden suburbs, the garden-city inheritance everywhere. The movement's housing imagination ran from cottage rows to slabs, and its best work kept the scale humane and the green side up. The shadows came later, and elsewhere: the post-war grands ensembles of France, the tower-block programmes of Britain and the superblock slabs of American urban renewal borrowed the Siedlung's rationalism without its maintenance budgets, its social mix or its gardens — a failure this book's final chapters weigh carefully, because the style was blamed for the sins of its economics. May himself, dismissed in 1930, took his brigade to the Soviet Union to build Magnitogorsk: the social programme's architect ending as an exile of both his homelands' regimes."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1932-the-naming",
+        "numeral": "XI",
+        "title": "1932: The International Style Is Named",
+        "sections": [
+          {
+            "heading": "MoMA Chooses a Canon",
+            "paras": [
+              "In February 1932 the Museum of Modern Art in New York — itself three years old — opened 'Modern Architecture: International Exhibition', curated by the historian Henry-Russell Hitchcock and the twenty-four-year-old Philip Johnson, with the book The International Style: Architecture Since 1922 appearing alongside. The show presented some fifty architects from fifteen countries as a single movement with a coherent aesthetic, defined by three principles: architecture as volume (thin surfaces enclosing space) rather than mass; regularity rather than axial symmetry; and the proscription of arbitrary applied ornament. It toured America for years. No exhibition has ever named a style more successfully: 'International Style' stuck, and with it a canon — Gropius, Le Corbusier, Mies, Oud at the centre; Wright admitted but marginalised as a precursor; the expressionists, the Russians' wilder work, Aalto's emerging wood modernism and all social housing's politics at the edge of the frame or outside it.",
+              "The naming was a curatorial act with architectural consequences. By defining the style visually, Hitchcock and Johnson made it exportable — a look that could be specified, published and, eventually, sold — and by stripping its social programme (Johnson later conceded the show's indifference to housing economics), they made it safe for the American corporation. The International Style as the world received it is thus a translation, and something was lost in it, as something always is: the Siedlung's politics became the developer's slab; the Werkbund's quality campaign became the curtain-wall catalogue."
+            ]
+          },
+          {
+            "heading": "PSFS: America's Own Exhibit A",
+            "figure": "psfsBuilding",
+            "paras": [
+              "America, though, was not merely receiving. The exhibition's American exemplar, the Philadelphia Saving Fund Society tower (Howe and Lescaze, 1929–32), was as advanced as anything in Europe: a T-plan office slab lifted on a polished granite base, its floors cantilevered from the frame, its horizontal bands of glass and spandrel wrapping the corner, air-conditioned throughout, and crowned by the great PSFS letters in red neon — signage as architecture, the letters our photograph shows still riding the tower. Lescaze, a Swiss emigré, and Howe, a patrician Philadelphian, proved the style could be built to American commercial standards of servicing and fireproofing beyond anything Weimar budgets allowed.",
+              "PSFS survived the century — converted to a hotel, its banking hall and sign listed — which makes it a useful fossil: the moment the International Style learned to be a skyscraper, with all the servicing, structure and corporate theatre that implied. The student should compare it with the Home Insurance Building of chapter I: the same city problem, forty-seven years apart; the frame in 1885, the frame expressed in 1932."
+            ]
+          },
+          {
+            "heading": "What the Canon Excluded",
+            "paras": [
+              "Every canon is an act of power, and 1932's exclusions shaped the next fifty years of taste. Out went: expressionism (Mendelsohn was included only in his sleekest mode), the Amsterdam School, most Russian work, Wright's current buildings (shown as historical prelude — he never forgave it), the decorative modernisms of Paris and Vienna, and every vernacular-inflected experiment. Out, too, went women — the exhibition's fifty architects included none, though the movement's interiors, exhibitions and kitchens (Schütte-Lihotzky's above all) were substantially women's work — and out went the colonised world, whose modernisms in Tel Aviv, Asmara, Shanghai and Casablanca were already rising. This book has tried to keep the excluded in the room. But the canon also did real work: it gave a generation of clients, schools and journals a teachable style, and its three rules, for all their poverty, remain the fastest field test for the genuine 1920s article — the five signs of our method are their grandchildren."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ciam-functional-city",
+        "numeral": "XII",
+        "title": "CIAM and the Functional City",
+        "sections": [
+          {
+            "heading": "The Parliament of Modernism",
+            "paras": [
+              "The movement organised itself in 1928, when twenty-eight architects met at the Château de La Sarraz in Switzerland to found CIAM — the Congrès Internationaux d'Architecture Moderne — with Le Corbusier drafting its declaration: building must be industrialised, planning rational, land reform assumed. CIAM's congresses became modernism's parliament: Frankfurt 1929 on the minimum dwelling, Brussels 1930 on rational building, and the famous fourth congress of 1933, held aboard the SS Patris II sailing from Marseille to Athens, which analysed thirty-three cities on uniform maps and distilled the doctrine of the Functional City — the four functions (dwelling, work, recreation, transport) separated, zoned, and joined by traffic arteries, with high-rise slabs in green space as the dwelling type. Le Corbusier published the conclusions as the Athens Charter in 1943, in occupied Paris, as if the post-war world were already being minuted.",
+              "The Charter's influence is hard to overstate and impossible to forgive entirely. It armed the post-war reconstruction of Europe and the planning of new capitals (Chandigarh, Brasília) with a complete doctrine; it also licensed the destruction of historic urban fabric, the zoning apart of life's functions, and the tower-in-a-park as a universal prescription regardless of climate or culture. Jane Jacobs's counter-attack (chapter XVIII) was written against Charter planning in its American urban-renewal form. A fair judgement has to hold both truths: CIAM's analysis of the industrial city's disease was pioneering and often right; its cure, applied by bureaucracies at continental scale, was frequently worse."
+            ]
+          },
+          {
+            "heading": "The Unité: Doctrine at Full Scale",
+            "figure": "uniteHabitation",
+            "paras": [
+              "The doctrine's fullest single building is Le Corbusier's Unité d'Habitation at Marseille (1947–52), commissioned by the French reconstruction ministry as an experiment in collective living: 337 duplex flats of twenty-three types interlocked in section above an internal street of shops, with a roof of sculptural ventilators, a running track, a paddling pool and a small hotel — a 'vertical garden city' standing on great sculpted pilotis in a park, its concrete left board-marked raw: béton brut. Our photograph, from a 1950s American housing survey, shows the slab as the world received it — a ocean liner of housing beached in the suburbs of Marseille.",
+              "The Unité was copied everywhere and equalled nowhere: its section (the interlocking duplexes around a corridor every third floor), its social mix and its sculptural roofscape were usually the first things value-engineered out, leaving the slab and the pilotis as the transferable image. Four more Unités followed (Nantes, Berlin, Briey, Firminy), each a diminution. The building also renamed the future: from béton brut came 'Brutalism', the style of the next generation, which chapter XVIII meets in the preservation wars. CIAM itself dissolved in 1959 at Otterlo, its younger members — the Smithsons, Bakema, Van Eyck of Team 10 — having spent a decade dismantling the Charter from inside."
+            ]
+          },
+          {
+            "heading": "The Charter Cities: A Forward Glance",
+            "paras": [
+              "Two capitals attempted the Charter entire. Chandigarh (from 1951), Nehru's new capital for Indian Punjab, took Le Corbusier, Pierre Jeanneret, Maxwell Fry and Jane Drew as its planners, its sectors as its cells and its Capitol as its crown; Brasília (1957–60) took Lúcio Costa's pilot-plan and Niemeyer's palaces, a city drawn as a bird or an aeroplane, inaugurated in four years. Both are examined in chapters XVI and XVII as regional works, because that is what they became: the universal doctrine, forced through climate, labour and politics, emerging as something its authors half-recognised. The Charter's ghost should be kept in mind through those chapters — every superquadra and sector is its child, and so is every criticism of their windswept emptiness."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "emigration-american-century",
+        "numeral": "XIII",
+        "title": "Emigration and the American Century: The Style in Power",
+        "sections": [
+          {
+            "heading": "The Professors in Exile",
+            "paras": [
+              "The dictatorships gave the International Style its second life by expelling its makers. The roll of the 1930s diaspora reads like the movement's index: Gropius to London then Harvard (1937), Marcel Breuer with him; Mies to Chicago's Armour Institute (1938); Moholy-Nagy to Chicago; the Alberses to Black Mountain; Mendelsohn to Palestine, London, San Francisco; El Lissitzky's colleagues scattered; May's brigade stranded; a whole generation of German, Austrian, Czech and Hungarian modernists re-founded as American professors. The terms of the exchange were explicit: America offered safety, salaries and building budgets beyond European dreams; in return the emigrés Americanised — Gropius founded The Architects Collaborative, a teamwork practice unthinkable for the Weimar master-builder persona, and Mies perfected a universal classicism for developers and universities.",
+              "Its purest small monument is Gropius's own house at Lincoln, Massachusetts (1938): a white box among New England stone walls, ribbon window and glass block, an external spiral stair to the roof deck, local clapboard and fieldstone folded into the Bauhaus vocabulary — the style learning a regional accent from its first American decade, and (chapter XVIII will note) preserved today by Historic New England as a museum of exile."
+            ]
+          },
+          {
+            "heading": "Crown Hall and the Universal Space",
+            "figure": "iitCrownHall",
+            "paras": [
+              "Mies's American masterwork is a campus: the Illinois Institute of Technology in Chicago, planned from 1939 on a 24-foot module of black steel and buff brick — and at its centre, given to architecture itself, Crown Hall (1950–56). Four great plate girders carried on eight columns span 120 feet, so the hall's interior is a single column-free 'universal space' under a suspended ceiling, walled in glass — half clear, half translucent — and entered by a floating travertine stair. Boucher-style photographs across the lawn, ours among them, show the building as a black diagram in the Chicago light: structure as order, order as beauty, the Bauhaus workshop rebuilt as a temple. Architecture students still draw in the space Mies made for the purpose, the school's self-portrait a second time.",
+              "The doctrine of universal space — one great flexible volume, uses unspecified and therefore all uses possible — was liberal, rational and, like all universals, quietly coercive: everything that needs particular form must make do. The argument runs from Crown Hall through the open-plan office to the airport terminal, and its critics begin, again, with the particularists — Aalto, and the Team 10 generation."
+            ]
+          },
+          {
+            "heading": "The Gropius House: Exile Domesticated",
+            "figure": "gropiusHouse",
+            "paras": [
+              "It is worth pausing on the Lincoln house, our photograph's white box in its Massachusetts lawn, because it shows what the International Style gained in translation. The composition is Dessau; the details are Yankee — a screened porch, a pergola, ship's-rail balustrades, the spiral stair borrowed from Cape Cod lighthouses by way of the Bauhaus balcony. Gropius, the great systematiser, built himself a hybrid and lived in it thirty years. The style's American career is often told as corruption — the social programme traded for the corporation — but the Lincoln house suggests the subtler truth: the style naturalised, and like all naturalised things, changed."
+            ]
+          },
+          {
+            "heading": "Park Avenue: The UN, Lever and Seagram",
+            "figure": "unSecretariat",
+            "paras": [
+              "The post-war settlement gave the style its world stage. The United Nations headquarters in New York (1947–52), designed by an international board (Wallace Harrison directing; Le Corbusier and Niemeyer the decisive voices, their rival schemes fused), raised a 39-storey glass slab on the East River — the Secretariat of our photograph, green glass in aluminium, flanked by the low Assembly and the river. Whatever its compromises, the UN fixed the image of world governance as a glass tower: the International Style become literally international, diplomacy's own architecture.",
+              "Commerce followed instantly. Lever House (SOM, Gordon Bunshaft, 1952), diagonally across the new Park Avenue canyon, set a green-glass slab on a low podium with a public court — and discovered that giving the ground floor back to the city was magnificent advertising. Six years later Mies and Philip Johnson completed the Seagram Building on the same avenue: a bronze and amber tower behind a plaza, the tower type perfected by refusal — of cheapness, of haste, of everything but proportion. Together the three buildings converted the world's corporations: within fifteen years every capital had its glass slabs, and 'International Style' had become simply 'downtown'."
+            ]
+          },
+          {
+            "heading": "The Seagram Standard",
+            "figure": "seagramBuilding",
+            "paras": [
+              "The Seagram deserves its plate: bronze I-beams applied to the facade to speak the structure within, windows of amber glass, a plaza of pink granite with two pools, interiors by the same hand down to the letterheads — at a cost per square foot that shamed every rival and proved, to developers watching, that quality paid in rent. Its plaza, won by forgoing the buildable area the zoning allowed, helped inspire New York's 1961 zoning ordinance trading floor area for public space: modernism written into law. The photograph's dusk view, the facade lit like a lantern grid, is the corporate century's self-image at its most seductive — and the high-water mark after which the style, ubiquitous, began to be invisible, and then to be blamed."
+            ]
+          },
+          {
+            "heading": "Lever House: Glass as Advertisement",
+            "figure": "leverHouse",
+            "paras": [
+              "Lever Brothers sold soap, and their house sold cleanliness: a tower of sea-green glass whose windows were washed by a gondola running on rails around the facade — the building as its own product demonstration, the curtain wall as hygiene theatre. Bunshaft's design put the slab perpendicular to Park Avenue and kept the podium low, so the tower seems to float over a garden court in the densest business district on earth. Between Lever's soap, Seagram's whisky and the UN's peace, the International Style had become the universal language of respectable power — a destiny its Weimar housing reformers would have found, at best, ironic."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wright-counterpoint",
+        "numeral": "XIV",
+        "title": "The Counterpoint: Frank Lloyd Wright",
+        "sections": [
+          {
+            "heading": "Fallingwater: The Argument Answered in Concrete",
+            "figure": "fallingwater",
+            "paras": [
+              "Every account of the International Style must survive its encounter with Fallingwater (1935–39), the house Wright built over a waterfall at Bear Run, Pennsylvania, for the Pittsburgh merchant Edgar Kaufmann. Wright, sixty-eight, written off by the 1932 exhibition as a nineteenth-century precursor, answered with the century's most famous house: a tower of rough local stone, from which smooth concrete trays cantilever over the falls — trays that quote, and refute, the Corbusian free plan, being neither white nor flat-roofed nor lifted on pilotis, but anchored, horizontal, grown from the rock. The client wanted a view of the waterfall; Wright gave him the waterfall as the house's foundation and music. The cantilevers deflected alarmingly and were post-tensioned in a famous 2001 rescue; the argument has never needed rescuing.",
+              "Fallingwater's deeper point is methodological: Wright's 'organic architecture' held that form and function are one — a deliberate amendment of his master Sullivan's slogan — and that a building's first duty is to its site, materials and inhabitants, not to a universal language. The International Style said: the same solution, everywhere, because the problems are the same. Wright said: no two sites, clients or materials are the same. The century's architecture is the argument between those sentences, and this book counts Wright's the necessary dissent without which the orthodoxy would have no measure of itself."
+            ]
+          },
+          {
+            "heading": "Johnson Wax: The Workroom as Forest",
+            "figure": "johnsonWax",
+            "paras": [
+              "At Racine, Wisconsin, Wright built for the S.C. Johnson company the corporate anti-Seagram: the Administration Building (1936–39), a brick fortress without windows to the street, inside which opens the Great Workroom — a half-acre office carried on dendriform columns, concrete stems nine inches wide at the base flowering into lily-pad discs at the ceiling, lit through glass tubes in the gaps between pads. Our photographs show the fortress exterior and the workroom from its balcony: a forest of light where the 'office landscape' was invented, twenty years before the term, with furniture designed as part of the organism. The Research Tower (1944–50) rose behind it, floors cantilevered from a central core like leaves from a stem.",
+              "The Wisconsin building department doubted the columns; Wright loaded a test column to five times its requirement before their eyes. The anecdote is the man: theatrical, empirical, contemptuous of committees — and the workroom remains the standing proof that modern construction could produce not only grids but groves, not only the universal but the unique. When the International Style is charged with inhumanity, Johnson Wax is the modern movement's own best evidence for the defence."
+            ]
+          },
+          {
+            "heading": "The Workroom Columns",
+            "figure": "johnsonWaxWorkroom",
+            "paras": [
+              "Look again at the balcony photograph: the columns do not support so much as bloom, and the light falls not through windows but through the structure itself — Pyrex glass tubing laid between the concrete 'lily pads'. Wright called the principle continuity: steel and concrete poured as one tensile organism, the building as a tree (his word for the tower was a 'taproot'). No International Style interior behaves like this, because none of its rules could produce it. The workroom's clerks, incidentally, loved it — a datum the style's functionalist critics and defenders both still cite."
+            ]
+          },
+          {
+            "heading": "The Guggenheim: The Last Word in New York",
+            "figure": "guggenheimNY",
+            "paras": [
+              "Wright's final building opened six months after his death in 1959, across from Central Park: the Solomon R. Guggenheim Museum, a great inverted ziggurat of concrete whose interior is one continuous ramp spiralling up around a daylit atrium — paintings hung on the slope, the visitor riding a lift to the top and drifting down through art. Sixteen painters protested the building before it opened; the public adopted it instantly; New York's grid acquired the curve it had always lacked. The Guggenheim is the counterpoint's last word in the naming city itself: proof, delivered at the height of the Seagram era a mile away, that the future of architecture was not obliged to be a box.",
+              "Wright's legacy to the wider story is double. His early houses taught Europe; his late works rebuked the orthodoxy his teaching had created; and his American century — the Usonian houses for the middle class, Broadacre City's decentralised prophecy — runs underneath the suburban century like a ground bass. Every regional modernism in Part IV is, in some measure, Wrightian: rooted, material, anti-universal. The International Style made the world's downtowns; Wright haunts its conscience."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aalto-north",
+        "numeral": "XV",
+        "title": "The Other Modernism: Aalto and the Nordic Path",
+        "sections": [
+          {
+            "heading": "Paimio: Rationalism with a Human Pulse",
+            "figure": "paimioSanatorium",
+            "paras": [
+              "Finland's Alvar Aalto won the competition for the Paimio tuberculosis sanatorium in 1929, aged thirty-one, and built the International Style's most humane monument (1929–33). The programme was medical modernity itself: a long patient wing angled to the sun, its balconies for the open-air cure; a separate block for dining and library; a third for staff — the parts articulated like a diagram in a pine forest. But the diagram is everywhere softened by the patient's experience, which Aalto, who had been a patient himself, designed from the bed outward: ceilings in restful colours, lights that do not glare at the supine, door handles that do not catch sleeves, washbasins shaped to run silently, the famous Paimio chair bent from laminated birch so the patient's breathing eases at its angle.",
+              "Our photograph, from 1961, shows the white slab among the pines already weathered into its landscape. Paimio is contemporary with the MoMA exhibition and was duly canonised — but its sequel is the point: Aalto spent the 1930s bending the style toward wood, brick, topography and the undulating line (the Villa Mairea, 1939; the Finnish pavilion at New York, 1939, with its great wavy timber wall). 'The Other Modernism' of this chapter's title is his: rationalism retained, universalism refused, the standard part always mediated by the local material and the body's measure."
+            ]
+          },
+          {
+            "heading": "Wood against the White Wall",
+            "paras": [
+              "Aalto's material was Finland itself: birch forests, brick clays, granite, and a building culture of timber. Where the International Style's white render photographed as purity, Aalto's surfaces age like landscapes; where its plans were grids, his sections step with slopes; his libraries fan their reading rooms to borrowed light, his concert halls roll in wooden waves. The lesson was exportable precisely because it was not a style: it was a method of negotiation between the universal techniques of modern construction and the particular givens of place. Team 10's generation, the regionalists of Part IV and today's critical regionalists all cite the Finn as their licence.",
+              "The Nordic path had company: Asplund's Stockholm (the Public Library, the Woodland Cemetery with Lewerentz), Jacobsen's Denmark, the whole Scandinavian settlement in which modernism arrived as social democracy's house style and stayed loved — a control experiment against the Anglo-American story of modernism imposed and resented. Where the style was married to welfare states that maintained it, and to materials that weathered gracefully, the public never turned. The variable, as the final chapter argues, was rarely the architecture alone."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "brazil-tropics",
+        "numeral": "XVI",
+        "title": "Brazil: The Tropics Answer Back",
+        "sections": [
+          {
+            "heading": "Pampulha: The Curve Set Free",
+            "figure": "pampulhaChurch",
+            "paras": [
+              "Brazil took modernism and made it sing. The Ministry of Education and Health in Rio (1936–43) — Lúcio Costa's team with Le Corbusier consulting, the young Oscar Niemeyer among the draughtsmen — first naturalised the master's vocabulary with brise-soleil, tile panels and Burle Marx's gardens. Then at Pampulha, a new suburb of Belo Horizonte, the mayor Juscelino Kubitschek gave Niemeyer a lake-side casino, dance hall, yacht club and church (1940–43), and Niemeyer — twenty years before Brasília — found his lifelong theme: the free curve in reinforced concrete, 'the curve of the mountains of my country and the body of the beloved woman', as he would tirelessly say. The little church of São Francisco, its parabolic vault tiled in Portinari's blues, scandalised the Church (it went unconsecrated for sixteen years) and announced that the International Style in the tropics would be baroque or nothing.",
+              "The Pampulha church is the hinge of this whole Part: a modern building whose power is sculptural, symbolic and popular at once, answering the functionalist catechism with a vault that is structure, image and sermon in a single gesture — Ronchamp's twin across the Atlantic, achieved a dozen years earlier by the master's own pupil."
+            ]
+          },
+          {
+            "heading": "Brasília: The Charter Built Entire",
+            "figure": "brasiliaCongress",
+            "paras": [
+              "Kubitschek, become president, kept his promise: a new capital in the empty centre, built in four years and inaugurated in 1960. Costa's competition plan — the famous sketch of a cross that became a bird or an aeroplane — laid a monumental axis (ministries, cathedral, congress) across a residential axis of superquadras, modernist housing slabs in green pilotis-land for the civil servants of the new state. Niemeyer's palaces gave the axis its images: the Congress of our photograph, a dome (Senate) and an inverted bowl (Chamber) flanking twin secretariat towers on a great platform; the Cathedral, a crown of sixteen curving ribs entered underground; the Alvorada palace on its hammock-slender columns.",
+              "Brasília is the functional city's most complete realisation and therefore its most instructive test. As image and as national myth it succeeded instantly — UNESCO listed it in 1987, the youngest World Heritage site of its kind. As a city it was charged with the Charter's sins at continental scale: functions severed, distances inhuman, the monumental axis a stage set emptied after office hours, the workers who built it exiled to satellite towns the plan had not imagined. The argument continues because both verdicts are documented. What no one disputes is the buildings: at Brasília the International Style produced, at the eleventh hour, a state architecture of genuine grandeur."
+            ]
+          },
+          {
+            "heading": "The Cathedral of Light",
+            "figure": "brasiliaCathedral",
+            "paras": [
+              "The cathedral (finished 1970, a decade after the inauguration) rewards a pause. Sixteen concrete ribs, each weighing ninety tons, curve from a ring at the ground to a ring at the crown, glass between them; you approach underground, in darkness, and emerge into a vessel of light where angels hang on wires above the nave. Niemeyer, an atheist, built Catholicism's most joyful modern room — and a structural idea as simple as a basket. Standing in it, the quarrels about the style's coldness feel very far away: here is the machine age's material made to do what Gothic did, with the same means of structure and light, and not a single applied ornament anywhere."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "japan-mexico-india",
+        "numeral": "XVII",
+        "title": "Japan, Mexico, India: The Regional Turn",
+        "sections": [
+          {
+            "heading": "Hiroshima and Yoyogi: Tange's Japan",
+            "figure": "hiroshimaMuseum",
+            "paras": [
+              "Japan's modernism began before the war (the Bauhaus-trained Yamawaki, the Corbusier-trained Maekawa and Sakakura) and was reborn from catastrophe. Kenzo Tange's Hiroshima Peace Memorial Museum (1949–55) — a long slab on pilotis in the Peace Park, facing the cenotaph and the Atomic Bomb Dome across the axis — made the Corbusian vocabulary carry national grief: concrete as mourning, the raised floor a memory of Japanese timber building, the whole composition a dialogue between the international grammar and a tradition it claimed to continue rather than copy. Tange's office became post-war Japan's academy, and his 1960 plan for Tokyo Bay proposed the megastructure — the style swelling to urban scale again, now as Metabolism.",
+              "The Yoyogi National Gymnasiums for the 1964 Tokyo Olympics, our second photograph's suspended roofs, completed the turn: two shells hung from cables between masts, their curves read worldwide as both engineering triumph and national silhouette — technology as identity. When the style could do that — could be Japanese, not merely in Japan — the 'international' claim had matured into something better: a family of regional modernisms sharing techniques and disputing meanings."
+            ]
+          },
+          {
+            "heading": "The Suspended Roof",
+            "figure": "yoyogiGymnasium",
+            "paras": [
+              "Yoyogi's engineering deserves its sentence: the main gymnasium's roof is a suspension structure, two steel cables slung between concrete masts carrying a steel skin — a bridge turned into a hall, Eiffel's lineage in Corbusier's material. Its plan spirals like a shell. At the opening ceremony the world saw a Japan rebuilt and self-possessed, speaking modernism with its own accent at the very moment the West began to doubt the language. The building is now protected as a modern monument — the regional turn become heritage, again."
+            ]
+          },
+          {
+            "heading": "Barragán's Mexico: Colour, Wall, Silence",
+            "figure": "barraganSatelite",
+            "paras": [
+              "Mexico's answer was the opposite of glass. Luis Barragán, an engineer from Guadalajara formed by gardens and by Ferdinand Bac's writings, built from the 1940s an architecture of high plain walls, volcanic stone, water and violent colour — pink, ochre, blue — that he called emotional architecture. His own house in Tacubaya (1948) hides a sequence of silent, coloured, light-tuned rooms behind a street wall indistinguishable from its neighbours: the International Style's publicity inverted into privacy. With the sculptor Mathias Goeritz he raised the Torres de Satélite (1957), five coloured prisms up to 52 metres on a highway island — urban markers, sculpture, advertisement and modernism at once, our photograph's rainbow on the motorway.",
+              "Barragán won the Pritzker Prize in 1980 with a speech praising silence, and his example licensed a world of regionalists: modern construction and abstract form, yes; universal whiteness and transparency, no. Between Barragán's walls and Niemeyer's curves, Latin America had demonstrated by 1960 that the style's centre need no longer be consulted."
+            ]
+          },
+          {
+            "heading": "Chandigarh: The Master's Indian Summer",
+            "figure": "chandigarhAssembly",
+            "paras": [
+              "India closes the circuit. Nehru, founding a new capital for a Punjab divided by Partition, wanted a city 'unfettered by the traditions of the past'; after the death of the first planner, Matthew Nowicki, the commission passed to Le Corbusier with Jeanneret, Fry and Drew (1951). The Capitol that resulted — Secretariat, High Court, Assembly — is the master's late manner at full power: béton brut, brise-soleil, the Modulor's proportions, and forms drawn from India's own landscape and life — the Assembly's great curved portico echoing a cooling tower and a bull's horns, its chamber a hyperboloid, the High Court's double roof a parasol against the sun, in our photograph reflected in its court of water.",
+              "Chandigarh's Indian architects and administrators made the imported doctrine livable sector by sector, and the city's argument is still running: a planned modernist capital that its citizens, by the evidence of every survey, largely love — against a critical tradition that sees colonial imposition in concrete. Both readings must reckon with the buildings, whose sculptural force our photographs can only suggest. If Rio corrected the style with joy and Tokyo with memory, Chandigarh corrected it with monumentality and climate — the three corrections together amount to modernism's second, regional maturity."
+            ]
+          },
+          {
+            "heading": "The High Court and the Parasol Roof",
+            "figure": "chandigarhHighCourt",
+            "paras": [
+              "The High Court (1951–55) came first of the Capitol trio and set the terms: a great parasol vault over the courtrooms, the rear wall a brise-soleil of deep reveals painted in the master's late palette, justice housed in a machine for shade. Its cracks, leaks and heroic maintenance are also part of the record — béton brut in a monsoon climate is a promise that must be kept expensively, forever. The preservation of the modern, the theme of our final chapter, begins exactly here: not with reverence but with budgets."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "critique-afterlife",
+        "numeral": "XVIII",
+        "title": "The Critique, the Fall and the Afterlife",
+        "sections": [
+          {
+            "heading": "Ronchamp and the Masters against the Style",
+            "figure": "ronchamp",
+            "paras": [
+              "The orthodoxy's most damaging critics were its own masters. In 1955, on a hilltop in eastern France, the rebuilt pilgrimage chapel of Notre Dame du Haut at Ronchamp was consecrated — Le Corbusier's, and unlike anything in the 1932 book: walls battered like fortifications, a roof like a crab shell or a nun's coif (he cited both), windows as deep slits scattering coloured light, the whole building a piece of sculpture that the faithful immediately loved and the faithful modernists received as betrayal. Saarinen's shells at Yale, MIT (the Kresge Auditorium of 1955, our period's other photograph subject in spirit) and the TWA terminal followed the same curve toward expression; Aalto had been bending the line for decades; Niemeyer had never straightened it. By 1960 the International Style's rules described the corporate vernacular perfectly and the creative frontier hardly at all.",
+              "Ronchamp's lesson completes this book's opening argument. The plastic counter-tradition of chapter VI — Mendelsohn, Melnikov, Amsterdam brick — had never died; it had waited. The late modernism of the masters rejoined it, and the history of architecture after 1960 is unintelligible unless the 'style' is understood as one party in modernism, victorious in institutions, perpetually outflanked in art."
+            ]
+          },
+          {
+            "heading": "Jacobs, Venturi and the Dynamite",
+            "figure": "pruittIgoe",
+            "paras": [
+              "The public critique arrived as two books and an explosion. Jane Jacobs's The Death and Life of Great American Cities (1961) attacked Charter planning from the sidewalk: zoning's separated functions, the tower in the park, the cleared 'slum' — against them she set the mixed, dense, watched street, and she wrote as a citizen, not an architect, which was the point. Robert Venturi's Complexity and Contradiction in Architecture (1966) attacked from inside the profession: 'Less is more' answered by 'Less is a bore'; the decorated shed rehabilitated; history, symbolism and ambiguity readmitted. Then, on 15 July 1972 and after, the St Louis housing authority dynamited the first of the Pruitt-Igoe blocks — Minoru Yamasaki's award-winning modernist estate of 1954, destroyed at eighteen years old — and Charles Jencks fixed the date as modern architecture's death, 'at 3.32 pm'.",
+              "The Pruitt-Igoe verdict needs the cross-examination this book has promised. The estate failed — on that, residents, managers and historians agree — but the causes documented by later scholarship (Kathryn Bristol's 'The Pruitt-Igoe Myth' is the key text) are a braid: a declining city's vanished tax base, a funding formula that made maintenance impossible, occupancy policies that concentrated the poorest families, segregation's legacy, and only then design decisions (skip-stop lifts, unwatched galleries) that worked badly under those pressures. Identical slabs elsewhere, funded and mixed, house people contentedly to this day — May's Frankfurt estates among them. The dynamite destroyed a housing project and a reputation together; history should separate the explosions."
+            ]
+          },
+          {
+            "heading": "Kresge and the Plastic Alternative",
+            "figure": "kresgeAuditorium",
+            "paras": [
+              "Eero Saarinen's Kresge Auditorium at MIT (1953–55) stands in this chapter as evidence that by the mid-1950s the 'style' had already pluralised from within: a thin concrete dome — one eighth of a sphere — over a glass-walled concert hall, engineering as lyric, the building neither box nor machine but instrument. Saarinen, son of Eliel, moved between Miesian discipline (General Motors Technical Center) and sculptural symbol (the TWA terminal's bird) with a freedom the 1932 rules could not have licensed and the 1960s would take for granted. The critique of the International Style, in other words, was partly the style's own children growing up."
+            ]
+          },
+          {
+            "heading": "The Afterlife: From Demolition to Docomomo",
+            "paras": [
+              "What died in the 1970s was the style's monopoly, not the style. Its construction logic — frame, curtain wall, open plan — became the world's building vernacular so completely that its origin in utopian housing and avant-garde schools is now genuinely hard to see: the most successful style in history dissolved into normality. Meanwhile the monuments began to need saving, from the same forces that had always threatened old buildings: weather, fashion and the wrecking ball. Villa Savoye was rescued in 1965; the Bauhaus building restored and UNESCO-listed in 1996; Docomomo, founded in 1988, professionalised the modern movement's conservation; the Tugendhat restoration, the rebuilt Barcelona Pavilion, the Masters' Houses reconstructed as 'blurred replicas' all forced preservation theory to grow new categories for buildings designed to look machine-new and to defy patina.",
+              "The five signs with which this book began as a field method now serve a double duty: they identify, and they defend. To read a white facade as pilotis, free plan and ribbon window is to see the intentions that make it heritage rather than merely old. Modernism's final transformation — from the architecture of the future to an architecture of the remembered future — is the one its makers never imagined, and the one that would have pleased them least and, on the evidence of the crowds at Dessau, Poissy and Brno, perhaps reconciled even Le Corbusier: the buildings, argued with and argued over, are alive."
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [
+      [
+        "Walter Gropius",
+        "Founder of the Bauhaus (1883–1969); designer of the Fagus Factory and the Dessau building; emigré chairman of architecture at Harvard, he taught the style to America."
+      ],
+      [
+        "Le Corbusier",
+        "Charles-Édouard Jeanneret (1887–1965): propagandist, painter and the movement's most prolific theorist — the Five Points, the Unité, Chandigarh and Ronchamp span modernism's whole arc."
+      ],
+      [
+        "Ludwig Mies van der Rohe",
+        "(1886–1969) The Barcelona Pavilion, Tugendhat and Farnsworth houses, then Chicago's Crown Hall and the Seagram: 'less is more' made into an architecture of steel, glass and silence."
+      ],
+      [
+        "Frank Lloyd Wright",
+        "(1867–1959) The great counterpoint: Prairie houses, Fallingwater, Johnson Wax and the Guggenheim — organic architecture against the International Style's abstraction, from inside the same revolution."
+      ],
+      [
+        "Adolf Loos",
+        "Viennese polemicist (1870–1933) whose essay 'Ornament and Crime' (written 1908) gave the movement its moral slogan, and whose Looshaus and villas practised it in marble and silence."
+      ],
+      [
+        "Peter Behrens",
+        "(1868–1940) Germany's first industrial designer-architect: the AEG Turbine Hall (1909) and an office that employed Gropius, Mies and Le Corbusier in turn."
+      ],
+      [
+        "Auguste Perret",
+        "(1874–1954) The concrete pioneer of rue Franklin and Le Havre, who taught France — and the young Le Corbusier — what the reinforced-concrete frame could say."
+      ],
+      [
+        "Alvar Aalto",
+        "(1898–1976) Finland's alternative modernist: Paimio, Villa Mairea and a humane architecture of wood, brick and undulating form inside the movement's rational frame."
+      ],
+      [
+        "Henry-Russell Hitchcock & Philip Johnson",
+        "The historian and the young curator whose 1932 MoMA exhibition and book, The International Style, named the style, chose its canon — and, critics charge, stripped it of its social programme."
+      ],
+      [
+        "Oscar Niemeyer",
+        "(1907–2012) Brazil's sculptor of concrete: Pampulha, the Brasília palaces and cathedral — Corbusian means turned to sensual, baroque ends."
+      ],
+      [
+        "Kenzo Tange",
+        "(1913–2005) Japan's post-war master: the Hiroshima Peace Memorial Museum and Yoyogi gymnasia made modernism carry national memory."
+      ],
+      [
+        "Luis Barragán",
+        "(1902–1988) Mexico's poet of wall, colour and silence: the Torres de Satélite (with Mathias Goeritz) and his own house in Mexico City — emotional regionalism against the machine aesthetic."
+      ]
+    ],
+    "fiveSigns": [
+      {
+        "name": "Pilotis and the free plan",
+        "img": "weissenhof",
+        "look": "The building stands on slender columns — pilotis — so the ground flows beneath it, and inside, partitions stop being structure: rooms are arranged by use, not by the walls that carry the floors. Look for the regular grid of columns continuing through spaces that ignore it.",
+        "limit": "Columns alone prove nothing — temples have them. The sign counts only when the wall is visibly freed: partitions that stop short, slide, or curve independently of the column grid."
+      },
+      {
+        "name": "Flat roof and white volume",
+        "img": "schroderHouse",
+        "look": "Smooth white or pale rendered volumes, sharp cubic geometry, a flat roof (often a roof garden) and no visible tiles, slates or eaves. The building reads as an abstract composition of planes, photographed best against sky.",
+        "limit": "White minimalism is fashionable again and was common in Mediterranean vernacular long before 1920. Check the date, the window pattern and the plan: the modernist white box pairs with ribbon windows and a frame."
+      },
+      {
+        "name": "Ribbon windows, free facade",
+        "img": "bauhausBalconies",
+        "look": "Long horizontal bands of glass run across the facade and wrap around corners, possible only because the facade carries no load. Window follows window in an unbroken strip; corners dissolve into glass.",
+        "limit": "Horizontal windows also occur in Streamline Moderne and in factories of any date. In the International Style the ribbon is flush, grid-bound and combined with pilotis and a flat roof — read the signs together."
+      },
+      {
+        "name": "The glass curtain and the grid",
+        "img": "vanNelleFactory",
+        "look": "A regular frame of steel or concrete is expressed as a grid and infilled with large panes of glass and minimal solid panels — the Van Nelle corner, the Bauhaus workshop wall, the Seagram's bronze mullions. Skin and structure are separate systems, and the building shows it.",
+        "limit": "Post-war and recent glass towers copy the curtain while abandoning the proportion, the plan logic and the social programme behind it. The pioneer curtains are thin, hand-made and slightly irregular; perfection is usually later."
+      },
+      {
+        "name": "No applied ornament",
+        "img": "looshaus",
+        "look": "Detail comes from joints, materials and proportion alone: Loos's marble and plain plaster, flush doors, tubular-steel rails, lettering without mouldings. Where a classical building would carve, the modernist building aligns.",
+        "limit": "Absence of ornament is not absence of design, and some masters — Wright, Aalto — kept ornament integrated in pattern and material. Judge by whether decoration is applied to the surface or arises from construction itself."
+      }
+    ],
+    "gazetteer": [
+      [
+        "Dessau",
+        "The Bauhaus's second home and modernism's shrine: Gropius's school building (1926), the Masters' Houses and the restored studio wing, inscribed by UNESCO in 1996."
+      ],
+      [
+        "Poissy",
+        "A commuter town west of Paris holding the style's most analysed house: the Villa Savoye (1931), Le Corbusier's Five Points built entire — and nearly demolished before the French state saved it in 1965."
+      ],
+      [
+        "Stuttgart",
+        "The Weissenhof hill, where the 1927 Werkbund exhibition built a permanent village of model modern houses by seventeen architects — the movement showing itself to the public as a fait accompli."
+      ],
+      [
+        "Berlin",
+        "Behrens's AEG halls, Mendelsohn's Einstein Tower at Potsdam nearby, and later the great Siedlungen of Weimar Berlin — the capital of the new building before 1933 destroyed its institutions."
+      ],
+      [
+        "Brno",
+        "The Czech industrial city that commissioned Mies's Villa Tugendhat (1930) — proof the style's clients included provincial textile fortunes, not only capitals."
+      ],
+      [
+        "Rotterdam",
+        "The Van Nelle Factory (1931), modernism's favourite industrial building, in the city that also gave the movement De Stijl's café culture and, later, its reconstruction stage."
+      ],
+      [
+        "Chicago",
+        "Twice the style's American capital: the 1880s frame skyscrapers of Sullivan's generation, then Mies's IIT campus and Lake Shore Drive towers after 1938."
+      ],
+      [
+        "New York",
+        "The naming city: MoMA's 1932 exhibition, then the UN Secretariat, Lever House and Seagram turned the emigrants' style into the corporate vernacular of Park Avenue."
+      ],
+      [
+        "Marseille",
+        "The Unité d'Habitation (1952) on Boulevard Michelet — CIAM's doctrine at full scale and béton brut's founding monument."
+      ],
+      [
+        "Brasília",
+        "A whole capital built from nothing in four years (1957–60): Costa's plan, Niemeyer's palaces and cathedral — the functional city attempted entire, and UNESCO-listed within a generation."
+      ],
+      [
+        "Chandigarh",
+        "Nehru's new Punjab capital, planned by Le Corbusier, Jeanneret, Fry and Drew: the Capitol's sculptural concrete is late modernism's greatest state commission."
+      ],
+      [
+        "Tokyo",
+        "Where modernism became Japanese: Tange's Hiroshima museum (1955) and Yoyogi gymnasia (1964) fused Corbusian concrete with timber tradition and national symbolism."
+      ]
+    ],
+    "glossary": [
+      [
+        "Pilotis",
+        "The slender columns on which a modernist building is lifted, freeing the ground beneath it — the first of Le Corbusier's Five Points."
+      ],
+      [
+        "Free plan",
+        "A floor plan arranged independently of the structural grid: partitions placed by use because columns, not walls, carry the building."
+      ],
+      [
+        "Free facade",
+        "A facade designed independently of the structure behind it — a skin of glass and panel hung on the frame."
+      ],
+      [
+        "Ribbon window",
+        "A long horizontal strip window, possible only when the wall carries no load; the fourth of the Five Points."
+      ],
+      [
+        "Roof garden",
+        "The fifth Point: the flat roof used as a terrace, returning to the inhabitants the ground the building took."
+      ],
+      [
+        "Curtain wall",
+        "A non-load-bearing outer skin, usually of glass and metal panels, hung from the building's frame."
+      ],
+      [
+        "International Style",
+        "The name given by Hitchcock and Johnson in 1932 to the sleek white modernism of the 1920s: volume over mass, regularity over symmetry, no applied ornament."
+      ],
+      [
+        "Bauhaus",
+        "The German school of art, craft and architecture (1919–1933) founded by Gropius at Weimar, later at Dessau and Berlin; also shorthand for its design language."
+      ],
+      [
+        "De Stijl",
+        "The Dutch movement (from 1917) of abstraction in primary colours and rectangular planes — Mondrian, Van Doesburg, Rietveld."
+      ],
+      [
+        "CIAM",
+        "The Congrès Internationaux d'Architecture Moderne (1928–1959), the modernists' own parliament, author of the Athens Charter."
+      ],
+      [
+        "Athens Charter",
+        "CIAM's 1933 doctrine of the functional city — dwelling, work, recreation and transport zoned apart — published by Le Corbusier in 1943."
+      ],
+      [
+        "Siedlung",
+        "A German housing estate of the Weimar years: rational rows or slabs of minimal dwellings with light, air and green space, built by municipalities."
+      ],
+      [
+        "Existenzminimum",
+        "The 'subsistence minimum' dwelling: the scientifically planned smallest acceptable flat, central to 1920s housing research and CIAM II (Frankfurt, 1929)."
+      ],
+      [
+        "Béton brut",
+        "Board-marked raw concrete left as the finished surface; the Unité's material, from which 'Brutalism' took its name."
+      ],
+      [
+        "Domino system",
+        "Le Corbusier's 1914 diagram of a concrete frame — slabs on columns with a stair — the free plan's founding patent drawing."
+      ],
+      [
+        "Modulor",
+        "Le Corbusier's proportional system based on the human body, published 1948 and applied at the Unité and Chandigarh."
+      ],
+      [
+        "Brise-soleil",
+        "The sun-breaker: a grid of concrete fins shading a glass facade, developed by Le Corbusier for hot climates."
+      ],
+      [
+        "Neues Bauen",
+        "'The New Building': the German name for Weimar modernism, stressing building as social technique rather than style."
+      ],
+      [
+        "Sachlichkeit",
+        "'Objectivity': the German watchword of factual, unadorned design that fed the International Style."
+      ],
+      [
+        "Machine aesthetic",
+        "The celebration of industrial forms — ocean liners, grain silos, aircraft — as models for architecture, preached in Vers une architecture."
+      ],
+      [
+        "Docomomo",
+        "The international working party (founded 1988) for the Documentation and Conservation of Modern Movement buildings — the style's preservation conscience."
+      ],
+      [
+        "Organic architecture",
+        "Wright's counter-doctrine: buildings grown from site, materials and inner nature rather than imposed abstract form."
+      ],
+      [
+        "Werkbund",
+        "The Deutscher Werkbund (1907–1934), the German association of architects, artists and industrialists that staged the Weissenhof exhibition."
+      ],
+      [
+        "Open plan",
+        "The flowing, partition-free interior — Mies's 'universal space' — that the free plan made possible and the Barcelona Pavilion made famous."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO — Bauhaus and its Sites in Weimar, Dessau and Bernau (List 729)",
+        "url": "https://whc.unesco.org/en/list/729/"
+      },
+      {
+        "name": "UNESCO — The Architectural Work of Le Corbusier (List 1321)",
+        "url": "https://whc.unesco.org/en/list/1321/"
+      },
+      {
+        "name": "The Museum of Modern Art — exhibition history, 'Modern Architecture: International Exhibition', 1932",
+        "url": "https://www.moma.org/calendar/exhibitions/2044"
+      },
+      {
+        "name": "Smarthistory — the International Style and modern architecture surveys",
+        "url": "https://smarthistory.org/"
+      },
+      {
+        "name": "Met Heilbrunn Timeline of Art History — modern architecture essays",
+        "url": "https://www.metmuseum.org/toah/"
+      },
+      {
+        "name": "Docomomo International — modern movement registers and mission",
+        "url": "https://www.docomomo.com/"
+      }
+    ],
+    "bibliography": [
+      "Sigfried Giedion, Space, Time and Architecture: The Growth of a New Tradition (Harvard University Press, 1941; fifth, revised and enlarged edition, 1967) — the movement's own epic history, written from inside: partisan, brilliant, and still the frame every later account argues with; its 960 pages in the fifth edition made it the standard work Gropius called unsurpassed.",
+      "Nikolaus Pevsner, Pioneers of Modern Design (Faber & Faber, 1936, as Pioneers of the Modern Movement; MoMA edition, New York, 1949) — the founding narrative that traced modernism's lineage from Morris to Gropius and fixed the heroic genealogy this book both uses and questions.",
+      "Henry-Russell Hitchcock and Philip Johnson, The International Style: Architecture Since 1922 (W. W. Norton, 1932) — the book of the MoMA exhibition: the style's naming, its three rules and its canon, stated by its curators; read here as a primary source, not a neutral history.",
+      "Le Corbusier, Vers une architecture (Éditions Crès, Paris, 1923; translated as Towards a New Architecture, 1927) — the movement's most famous manifesto, ocean liners, grain silos and all; the primary text behind the Corbusier chapters.",
+      "Reyner Banham, Theory and Design in the First Machine Age (The Architectural Press, 1960) — the first great revision of the heroic story, restoring expressionism and futurism to the record and puncturing several foundation myths.",
+      "Kenneth Frampton, Modern Architecture: A Critical History (Thames & Hudson, 1980) — the modern standard survey: critical where Giedion was celebratory, and the source of the 'critical regionalism' argument taken up in the final chapters here.",
+      "William J. R. Curtis, Modern Architecture Since 1900 (Phaidon, 1982) — the most balanced single-volume account of the world career, particularly good on the regional modernisms of Brazil, Japan and India.",
+      "Alan Colquhoun, Modern Architecture (Oxford History of Art, Oxford University Press, 2002) — the clearest short modern reassessment, used throughout for the chapters on the 1932 naming and its exclusions."
+    ]
   }
 ];
 
