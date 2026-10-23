@@ -364,8 +364,12 @@ if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new
 // bundle variance. 312 covers the approved daily batch with the gate intact.
 // NOTE: at ~16 MB/day this gate needs a
 // sustainable model (per-article budget or growth allowance) — revisit soon.
-if (distSizeMb - materialSizeMb > 585) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 585 MB`);
+// Raised 585 -> 588 on 2026-10-23 for the Design Services by Space demo
+// page (branch preview only): 11 free-licensed photographs (~2.24 MB) in
+// public/assets/design-categories/ plus the demo route's JS/CSS chunks
+// and static page (~0.02 MB) — a measured addition of ~2.3 MB.
+if (distSizeMb - materialSizeMb > 588) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 588 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));

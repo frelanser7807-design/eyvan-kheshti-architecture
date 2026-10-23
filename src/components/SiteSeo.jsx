@@ -190,6 +190,10 @@ export default function SiteSeo({ content, route }) {
       title = `Architecture & Interior Design Services | ${name}`;
       description = 'Explore villa and residential design, floor plans, facade design, kitchens, living rooms, bathrooms, courtyards, gardens, roof gardens and coordinated design packages by World Arch Journal.';
       image = absoluteAsset(siteUrl, atlasVilla.cover);
+    } else if (route?.name === 'design-categories') {
+      title = `Design Services by Space | ${name}`;
+      description = 'Browse World Arch Journal design services by space: kitchen, bedroom, living room and TV wall, courtyard, facade, villa, apartment, green roof, landscape and bathroom design.';
+      image = absoluteAsset(siteUrl, '/assets/design-categories/hero.jpg');
     } else if (route?.name === 'custom-plan-design') {
       title = `Architecture & Interior Design Project Enquiry | ${name}`;
       description = 'Send a project brief for villa design, floor plans, facade, kitchen, living spaces, bathrooms, gardens, roof gardens, render concepts or a combined architecture package.';
@@ -332,6 +336,8 @@ export default function SiteSeo({ content, route }) {
       structuredData = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, about: ['Architecture presentation templates', 'Interior design presentations', 'Facade presentation boards', 'Social media cover systems'] };
     } else if (route?.name === 'design-services') {
       structuredData = { '@context': 'https://schema.org', '@type': 'Service', name: title, description, url: canonicalUrl, image, provider: publisher, areaServed: 'International', availableLanguage: ['English'], serviceType: ['Villa and residential design', 'Floor plan design', 'Facade design', 'Kitchen design', 'Living and reception design', 'Bathroom design', 'Courtyard and garden design', 'Roof garden design', 'Architectural visualisation'] };
+    } else if (route?.name === 'design-categories') {
+      structuredData = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, about: ['Kitchen design', 'Bedroom design', 'Living room and TV wall design', 'Courtyard design', 'Facade design', 'Villa design', 'Apartment design', 'Green roof design', 'Landscape design', 'Bathroom design'] };
     } else if (route?.name === 'custom-plan-design') {
       structuredData = { '@context': 'https://schema.org', '@type': 'ContactPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, about: 'Architecture and interior design project enquiries' };
     } else if (route?.name === 'about') {

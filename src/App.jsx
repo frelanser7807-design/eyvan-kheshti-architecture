@@ -35,6 +35,7 @@ const AboutPage = lazy(() => import('./components/AboutPage.jsx'));
 const ProjectDetail = lazy(() => import('./components/ProjectDetail.jsx'));
 const VideoLibrary = lazy(() => import('./components/VideoLibrary.jsx'));
 const DesignServicesPage = lazy(() => import('./components/DesignServicesPage.jsx'));
+const DesignCategoriesDemo = lazy(() => import('./components/DesignCategoriesDemo.jsx'));
 const AtlasVillaCaseStudy = lazy(() => import('./components/AtlasVillaCaseStudy.jsx'));
 import { defaultContent } from './data/defaultContent.js';
 import { articleBySlug } from './data/articles.js';
@@ -93,6 +94,7 @@ function currentRoute() {
   const materialMatch = normalizedPath.match(/^\/materials\/([^/]+)\/$/);
   if (materialMatch) return { name: 'material-product', item: materialBySlug(decodeURIComponent(materialMatch[1])) };
   if (normalizedPath === '/services/') return { name: 'design-services' };
+  if (normalizedPath === '/services/design/') return { name: 'design-categories' };
   if (normalizedPath === '/services/custom-plan-design/') return { name: 'custom-plan-design' };
   if (normalizedPath === '/projects/') return { name: 'projects-hub' };
   if (normalizedPath === '/projects/atlas-villa/') return { name: 'atlas-villa' };
@@ -202,6 +204,7 @@ export default function App() {
   if (route.name === 'ceramic-studio') page = <Suspense fallback={<main>Loading porcelain stoneware collection…</main>}><CeramicPorcelainPanel /></Suspense>;
   if (route.name === 'wood-studio') page = <Suspense fallback={<main>Loading wood flooring collection…</main>}><WoodFlooringPanel /></Suspense>;
   if (route.name === 'design-services') page = <DesignServicesPage />;
+  if (route.name === 'design-categories') page = <DesignCategoriesDemo />;
   if (route.name === 'atlas-villa') page = <AtlasVillaCaseStudy />;
   if (route.name === 'projects-hub') page = <ProjectsHub />;
   if (route.name === 'project') page = <ProjectDetail slug={route.slug} />;
