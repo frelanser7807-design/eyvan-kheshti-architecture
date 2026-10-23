@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { collectionProducts, categoryPath, typePath } from '../data/materialCollections.js';
+import { collectionCategories, collectionProducts, categoryPath, typePath } from '../data/materialCollections.js';
 import { assetUrl } from '../lib/assetUrl.js';
 import { magazineCategoryBySlug, publishedMagazineArticles } from '../data/magazineCategories.js';
 import { promptById, promptItems } from '../data/promptLibrary.js';
@@ -281,6 +281,19 @@ export default function SiteSeo({ content, route }) {
         item: `${siteUrl}${entry.pathname === '/' ? '' : entry.pathname}`,
       })),
     });
+    // Full trail for a single material panel: Home / Material Library / category / type / panel.
+    const materialPanelBreadcrumb = (product) => {
+      const category = collectionCategories.find((entry) => entry.id === product?.category);
+      const type = category?.types.find((entry) => entry.id === product?.type);
+      return breadcrumbSchema([
+        { name: 'Home', pathname: '/' },
+        { name: 'Material Library', pathname: '/materials/' },
+        ...(category ? [{ name: category.name, pathname: categoryPath(category.id) }] : []),
+        ...(category && type ? [{ name: type.name, pathname: typePath(category.id, type.id) }] : []),
+        { name: product.name, pathname: normalizedPath },
+      ]);
+    };
+    const productAtPath = (path) => collectionProducts.find((product) => product.path === path);
 
     let structuredData = {
       '@context': 'https://schema.org',
@@ -298,16 +311,22 @@ export default function SiteSeo({ content, route }) {
     };
 
     if (route?.name === 'mineral-studio') {
-      structuredData = { '@context':'https://schema.org', '@type':'CreativeWork', name:item.name, description, url:canonicalUrl, image, creator:publisher, isPartOf:{'@type':'CollectionPage',url:`${siteUrl}/materials/`} };
+      structuredData = { '@context':'https://schema.org', '@graph':[{ '@type':'CreativeWork', name:item.name, description, url:canonicalUrl, image, creator:publisher, isPartOf:{'@type':'CollectionPage',url:`${siteUrl}/materials/`} }, materialPanelBreadcrumb(item)] };
     } else if (route?.name === 'ceramic-studio') {
-      structuredData = {'@context':'https://schema.org','@type':'CreativeWork',name:'Porcelain stoneware',description,url:canonicalUrl};
+      structuredData = {'@context':'https://schema.org','@graph':[{'@type':'CreativeWork',name:'Porcelain stoneware',description,url:canonicalUrl}, materialPanelBreadcrumb(productAtPath('/materials/stone/ceramic-porcelain/porcelain-stoneware/') || { name: 'Porcelain stoneware', category: 'stone', type: 'ceramic-porcelain' })]};
     } else if (route?.name === 'travertine-studio') {
-      structuredData = {'@context':'https://schema.org','@type':'CreativeWork',name:'Vein-cut travertine',description,url:canonicalUrl};
+      structuredData = {'@context':'https://schema.org','@graph':[{'@type':'CreativeWork',name:'Vein-cut travertine',description,url:canonicalUrl}, materialPanelBreadcrumb(productAtPath('/materials/stone/natural-stone/travertine/') || { name: 'Vein-cut travertine', category: 'stone', type: 'natural-stone' })]};
     } else if (route?.name === 'material-studio') {
-      structuredData = { '@context':'https://schema.org', '@type':'CreativeWork', name:'Original fluted wood', description, url:canonicalUrl, isPartOf:{'@type':'CollectionPage',url:`${siteUrl}/materials/`} };
+      structuredData = { '@context':'https://schema.org', '@graph':[{ '@type':'CreativeWork', name:'Original fluted wood', description, url:canonicalUrl, isPartOf:{'@type':'CollectionPage',url:`${siteUrl}/materials/`} }, materialPanelBreadcrumb(collectionProducts[0])] };
+    } else if (route?.name === 'wood-studio') {
+      const woodProduct = productAtPath('/materials/wood/wood-flooring/scanned-wood-flooring/');
+      structuredData = { '@context':'https://schema.org', '@graph':[{ '@type':'CreativeWork', name:woodProduct?.name || 'Scanned wood flooring', description, url:canonicalUrl }, materialPanelBreadcrumb(woodProduct || { name: 'Scanned wood flooring', category: 'wood', type: 'wood-flooring' })] };
     } else if (['material-library','material-collection','material-samples','material-product'].includes(route?.name)) {
       const parts = route.products || collectionProducts;
-      structuredData = { '@context':'https://schema.org', '@graph':[{ '@type':item?'CreativeWork':'CollectionPage', name:title, description, url:canonicalUrl, ...(!item?{hasPart:parts.map(p=>({'@type':'CreativeWork',name:p.name,url:`${siteUrl}${p.path}`}))}:{}) }, breadcrumbSchema([{name:'Material Library',pathname:'/materials/'},...(route.category?[{name:route.category.name,pathname:categoryPath(route.category.id)}]:[]),...(route.type?[{name:route.type.name,pathname:typePath(route.category.id,route.type.id)}]:[])])] };
+      const crumbs = route?.name === 'material-product' && item
+        ? [{name:'Home',pathname:'/'},{name:'Material Library',pathname:'/materials/'},{name:'Licensed 1K source samples',pathname:'/materials/samples/'},{name:item.name,pathname:normalizedPath}]
+        : [{name:'Material Library',pathname:'/materials/'},...(route.category?[{name:route.category.name,pathname:categoryPath(route.category.id)}]:[]),...(route.type?[{name:route.type.name,pathname:typePath(route.category.id,route.type.id)}]:[])];
+      structuredData = { '@context':'https://schema.org', '@graph':[{ '@type':item?'CreativeWork':'CollectionPage', name:title, description, url:canonicalUrl, ...(!item?{hasPart:parts.map(p=>({'@type':'CreativeWork',name:p.name,url:`${siteUrl}${p.path}`}))}:{}) }, breadcrumbSchema(crumbs)] };
     } else if (route?.name === 'video-library') {
       structuredData = { '@context': 'https://schema.org', '@graph': [
         { '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, hasPart: [...publishedVideoStories.map((video) => ({ '@type': 'WebPage', name: video.title, url: `${siteUrl}/videos/${video.slug}/` })), ...watchVideoEntries.map((video) => ({ '@type': 'WebPage', name: video.title, url: `${siteUrl}${watchPagePath(video)}` }))] },
