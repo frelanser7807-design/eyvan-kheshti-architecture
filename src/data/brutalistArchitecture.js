@@ -88,6 +88,7 @@ const brutalistArchitecture = {
     <p>Brutalism is therefore best understood as a set of architectural commitments, not a preset. Read how the building is made, how people move, who the institution serves and whether care has kept the public promise alive. Only then decide what the concrete means.</p>
   
     <p><strong>Continue exploring:</strong> Brutalism begins with concrete, so compare the real thing in the library's <a href="/materials/category/concrete/concrete-finishes/">concrete finishes</a> collection, and read our <a href="/newsletter/architecture-briefing-2026-10-21/">21 October briefing</a> on the heritage fights now deciding which modern landmarks survive. For the wider archive this guide belongs to — timelines, side-by-side style comparisons and the materials behind each movement — browse the <a href="/magazine/architectural-history-styles/">Architectural History &amp; Styles hub</a>. The generation before the concrete giants — all chrome, glamour and machine-age optimism — is covered in our <a href="/articles/art-deco-architecture-history-features-buildings/">Art Deco architecture</a> guide.</p>
+    <p><strong>From the library:</strong> <a href="/magazine/architectural-history-styles/brutalism/">Go deeper: Brutalism — A Complete History (Book IX), free to read online</a> — the World Arch Journal book on the movement, with the buildings in this guide set in their full story.</p>
   `,
   facts: [
     ['FORMAT', 'International architectural history guide'],
