@@ -1,0 +1,31 @@
+{
+  "id": "wood-flooring-reclaimed-grey",
+  "name": "Reclaimed grey oak - real photogrammetry-scanned wood flooring material (4K pack + 16K edition)",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "nativeResolution": [
+    8192,
+    8192
+  ],
+  "method": "Photogrammetry scan of a physical wood surface, distributed by Poly Haven as Rough Wood (rough_wood), released under CC0. This pack contains the library's own 4096 x 4096 edition of the scan exactly as published by the library - no procedural generation, no enlargement, no detail added. The 16K edition (16384 x 16384) is prepared from the original 8192 x 8192 scan only: the genuine scan seamlessly tiled 2 x 2 - no new surface detail is invented. Both packs are hosted on Google Drive (World Arch Journal - Material Packs) because of their file size. Tile coverage is an estimate from the scanned board layout.",
+  "source": {
+    "library": "Poly Haven",
+    "asset": "Rough Wood (rough_wood)",
+    "url": "https://polyhaven.com/a/rough_wood",
+    "license": "CC0 1.0 Universal (public domain)"
+  },
+  "tileMeters": [
+    2.0,
+    2.0
+  ],
+  "normalConvention": "OpenGL +Y",
+  "license": "CC0 1.0 Universal (public domain) - free for personal and commercial use, including redistribution.",
+  "sha256": {
+    "basecolor-4k.jpg": "2a7714192151b892e1fc3850e0d83beac385b933e7615b356d5537aa42ad3410",
+    "normal-opengl-4k.jpg": "6d01bfa129d42d90a6b58bdc1dcf358a37bbbeca9422ac6e974ed2457ff01c05",
+    "roughness-4k.jpg": "0a03b6b9fe51fc66c36a3f133075a4675af034042aef6077383f64f354046855",
+    "height-4k.jpg": "f4b75f2904617e17f0bb07a71a5abedb4c40dda5c61181df1e37ca69d29505e2"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "wood-flooring-honey-parquet",
+  "name": "Honey mosaic parquet - real photogrammetry-scanned wood flooring material (4K pack + 16K edition)",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "nativeResolution": [
+    8192,
+    8192
+  ],
+  "method": "Photogrammetry scan of a physical wood surface, distributed by Poly Haven as Laminate Floor (laminate_floor), released under CC0. This pack contains the library's own 4096 x 4096 edition of the scan exactly as published by the library - no procedural generation, no enlargement, no detail added. The 16K edition (16384 x 16384) is prepared from the original 8192 x 8192 scan only: the genuine scan seamlessly tiled 2 x 2 - no new surface detail is invented. Both packs are hosted on Google Drive (World Arch Journal - Material Packs) because of their file size. Tile coverage is an estimate from the scanned board layout.",
+  "source": {
+    "library": "Poly Haven",
+    "asset": "Laminate Floor (laminate_floor)",
+    "url": "https://polyhaven.com/a/laminate_floor",
+    "license": "CC0 1.0 Universal (public domain)"
+  },
+  "tileMeters": [
+    1.5,
+    1.5
+  ],
+  "normalConvention": "OpenGL +Y",
+  "license": "CC0 1.0 Universal (public domain) - free for personal and commercial use, including redistribution.",
+  "sha256": {
+    "basecolor-4k.jpg": "71655336afe22bd96776eae03541b1604e0378f7c73c0cdaa37db894e8fd6bac",
+    "normal-opengl-4k.jpg": "335602f5ebf7ddd585880e839da7ab00b01bf042bb13481eba6325cba0d372cd",
+    "roughness-4k.jpg": "d8275424ecfbde58a6190a860f45ba192ab503d4f459e2b9f2af4d1a98c55aef",
+    "height-4k.jpg": "26bc615a1143715ebfbdd22fd34ae4353a16d1710dba5789dce443e1219d3c01"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "wood-flooring-smoked-oak",
+  "name": "Smoked oak - real photogrammetry-scanned wood flooring material (4K pack + 16K edition)",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "nativeResolution": [
+    8192,
+    8192
+  ],
+  "method": "Photogrammetry scan of a physical wood surface, distributed by Poly Haven as Dark Wooden Planks (dark_wooden_planks), released under CC0. This pack contains the library's own 4096 x 4096 edition of the scan exactly as published by the library - no procedural generation, no enlargement, no detail added. The 16K edition (16384 x 16384) is prepared from the original 8192 x 8192 scan only: the genuine scan seamlessly tiled 2 x 2 - no new surface detail is invented. Both packs are hosted on Google Drive (World Arch Journal - Material Packs) because of their file size. Tile coverage is an estimate from the scanned board layout.",
+  "source": {
+    "library": "Poly Haven",
+    "asset": "Dark Wooden Planks (dark_wooden_planks)",
+    "url": "https://polyhaven.com/a/dark_wooden_planks",
+    "license": "CC0 1.0 Universal (public domain)"
+  },
+  "tileMeters": [
+    2.0,
+    2.0
+  ],
+  "normalConvention": "OpenGL +Y",
+  "license": "CC0 1.0 Universal (public domain) - free for personal and commercial use, including redistribution.",
+  "sha256": {
+    "basecolor-4k.jpg": "bb5352923d3a7ccf47f0b48b10e29c86b1d3cdc22cdd57cd2f7610103c493778",
+    "normal-opengl-4k.jpg": "f406821b159608e04e0cfe933a909a1f7e9713e6eb0106c0c7cb6bb1666134fa",
+    "roughness-4k.jpg": "5236fd9dca0cd729d9f1fb071f7a1ee562dae148c27ef6c121dbd84d8d42ee5a",
+    "height-4k.jpg": "234d774b8b15d349be8e0aef85c27065c016df24c12e6cba9f9f0d0d10704b58"
+  }
+}

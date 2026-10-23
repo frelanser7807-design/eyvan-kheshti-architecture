@@ -57,6 +57,18 @@ export const collectionProducts = [{
     { label: 'Sibling panel: vein-cut travertine facade studies', url: '/materials/stone/natural-stone/travertine/' },
     { label: 'Sibling panel: original fluted wood room studies', url: '/materials/wood/fluted-panels/fluted-wood/' },
   ],
+},{
+  id:'scanned-wood-flooring',name:'Scanned wood flooring',category:'wood',type:'wood-flooring',
+  path:'/materials/wood/wood-flooring/scanned-wood-flooring/',
+  image:'/assets/material-studio/wood-flooring/european-oak/preview.webp',
+  scene:'/assets/material-studio/wood-flooring/scenes/living-european-oak.webp',
+  description:'Five real scanned wood flooring finishes — oak, light oak, smoked oak, mosaic parquet and reclaimed grey timber (CC0 photogrammetry) — across a living room, bedroom and hallway & entry, with interactive surface lighting and downloadable PBR maps in 4K and 16K editions.',titleSuffix:'4K & 16K PBR Maps',
+  finishes:5,contexts:'3 room studies',label:'WOOD / WOOD FLOORING',modifiedAt:'2026-10-23',
+  relatedLinks:[
+    { label: 'Mass timber architecture: the CLT design guide', url: '/articles/mass-timber-architecture-clt-design-guide/' },
+    { label: 'Sibling panel: original fluted wood room studies', url: '/materials/wood/fluted-panels/fluted-wood/' },
+    { label: 'Sibling panel: porcelain stoneware room studies', url: '/materials/stone/ceramic-porcelain/porcelain-stoneware/' },
+  ],
 }, ...mineralMaterials.map((material) => ({
   ...material,
   image: `${mineralRoot}${material.id}/${material.finishes[0].id}/preview.webp`,

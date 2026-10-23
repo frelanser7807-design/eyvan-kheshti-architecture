@@ -1,0 +1,31 @@
+{
+  "id": "wood-flooring-european-oak",
+  "name": "Natural European oak - real photogrammetry-scanned wood flooring material (4K pack + 16K edition)",
+  "resolution": [
+    4096,
+    4096
+  ],
+  "nativeResolution": [
+    8192,
+    8192
+  ],
+  "method": "Photogrammetry scan of a physical wood surface, distributed by Poly Haven as Wood Floor (wood_floor), released under CC0. This pack contains the library's own 4096 x 4096 edition of the scan exactly as published by the library - no procedural generation, no enlargement, no detail added. The 16K edition (16384 x 16384) is prepared from the original 8192 x 8192 scan only: the genuine scan seamlessly tiled 2 x 2 - no new surface detail is invented. Both packs are hosted on Google Drive (World Arch Journal - Material Packs) because of their file size. Tile coverage is an estimate from the scanned board layout.",
+  "source": {
+    "library": "Poly Haven",
+    "asset": "Wood Floor (wood_floor)",
+    "url": "https://polyhaven.com/a/wood_floor",
+    "license": "CC0 1.0 Universal (public domain)"
+  },
+  "tileMeters": [
+    2.4,
+    2.4
+  ],
+  "normalConvention": "OpenGL +Y",
+  "license": "CC0 1.0 Universal (public domain) - free for personal and commercial use, including redistribution.",
+  "sha256": {
+    "basecolor-4k.jpg": "366789dbb28a4d6b6a8d3dad51eb8930444d6aa26dce418624b12b5bf1d0c46b",
+    "normal-opengl-4k.jpg": "b579e55fa92aaa483775948cf46d27797546dedae2b32f75e9a1acf0ec00b0bb",
+    "roughness-4k.jpg": "686ea805e8a855477b00007341854b0d3cc1709f8add5fc707904f966db42691",
+    "height-4k.jpg": "8e542ae0ceb3dd060abd44d97f69272b6110bf564d41bbda0465357d9687557c"
+  }
+}
