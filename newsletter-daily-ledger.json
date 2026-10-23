@@ -1,90 +1,100 @@
 {
-  "schemaVersion": 1,
-  "timezone": "Asia/Tehran",
-  "scope": "daily-newsletter-only",
-  "entries": [
-    {
-      "key": "waj-newsletter:2026-09-29:Asia-Tehran",
-      "status": "published",
-      "slug": "architecture-briefing-2026-09-29",
-      "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-09-29/",
-      "firstPublishedAt": "2026-09-29T11:40:52Z",
-      "deploymentId": "fe96b93e-9cc5-4523-9d7d-7d3b003cfb2c",
-      "verifiedAt": "2026-09-29T12:30:32Z",
-      "evidence": "newsletter-dated-publication-20260929.md"
-    },
-    {
-      "key": "waj-newsletter:2026-09-30:Asia-Tehran",
-      "status": "published",
-      "slug": "architecture-briefing-2026-09-30",
-      "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-09-30/",
-      "firstPublishedAt": "2026-09-30T10:09:19Z",
-      "deploymentId": "8155915b-3d98-4b43-a880-844e386aaa28",
-      "verifiedAt": "2026-09-30T10:12:03Z",
-      "evidence": "newsletter-dated-publication-20260930.md"
-    },
-    {
-      "key": "waj-newsletter:2026-10-01:Asia-Tehran",
-      "status": "published",
-      "slug": "architecture-briefing-2026-10-01",
-      "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-01/",
-      "firstPublishedAt": "2026-10-01T10:28:04Z",
-      "deploymentId": "b8d9dae0-40dc-42a6-b843-6015c66860ba",
-      "verifiedAt": "2026-10-02T09:15:19Z",
-      "evidence": "newsletter-dated-publication-20261001.md"
-    },
-    {
-      "key": "waj-newsletter:2026-10-02:Asia-Tehran",
-      "status": "published",
-      "slug": "architecture-briefing-2026-10-02",
-      "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-02/",
-      "firstPublishedAt": "2026-10-02T09:09:50Z",
-      "deploymentId": "60f188e5-0a7b-49b4-970d-8b753fc89ccb",
-      "verifiedAt": "2026-10-02T09:15:19Z",
-      "evidence": "newsletter-dated-publication-20261002.md"
-    },
-    {
-      "key": "waj-newsletter:2026-10-07:Asia-Tehran",
-      "status": "published",
-      "slug": "architecture-briefing-2026-10-07",
-      "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-07/",
-      "firstPublishedAt": "2026-10-07T05:43:46Z",
-      "deploymentId": "3a388ef6-3834-4d30-b06d-762ae31fb439",
-      "verifiedAt": "2026-10-07T05:45:44Z",
-      "latestRevisionDeploymentId": "2fcc1201-f3cb-4585-abb0-daec4028cb21",
-      "latestRevisionVerifiedAt": "2026-10-07T06:01:30Z",
-      "evidence": "newsletter-dated-publication-20261007.md"
-    },
-    {
-      "key": "waj-newsletter:2026-10-08:Asia-Tehran",
-      "status": "published",
-      "slug": "architecture-briefing-2026-10-08",
-      "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-08/",
-      "firstPublishedAt": "2026-10-08T11:55:57Z",
-      "deploymentId": "17f6b5e2-2361-4b3c-8129-f81f995b67d5",
-      "verifiedAt": "2026-10-08T12:09:19Z",
-      "previewDeploymentId": "8192889d-800d-4060-9106-844b03d3d5ce",
-      "evidence": "newsletter-dated-publication-20261008.md"
-    },
-    {
-      "key": "waj-newsletter:2026-10-09:Asia-Tehran",
-      "status": "published",
-      "slug": "architecture-briefing-2026-10-09",
-      "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-09/",
-      "firstPublishedAt": "2026-10-09T13:35:57.295532Z",
-      "deploymentId": "3b1bb838-e86d-474c-8bbf-8beff10c1d95",
-      "verifiedAt": "2026-10-09T13:46:22Z",
-      "evidence": "newsletter-dated-publication-20261009.md"
-    },
-    {
-      "key": "waj-newsletter:2026-10-22:Asia-Tehran",
-      "status": "published",
-      "slug": "architecture-briefing-2026-10-22",
-      "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-22/",
-      "firstPublishedAt": "2026-10-22T08:58:10Z",
-      "deploymentId": "39750607928",
-      "verifiedAt": "2026-10-22T09:05:00Z",
-      "evidence": "daily-articles-newsletter cron run 2026-10-22: 5 fresh stories (Dezeen, designboom, ArchDaily x2, AJ), all with licensed photos + Our reading; deploy run #153 SUCCESS; live 200 + sitemap + canonical + archive verified"
-    }
-  ]
+ "schemaVersion": 1,
+ "timezone": "Asia/Tehran",
+ "scope": "daily-newsletter-only",
+ "entries": [
+  {
+   "key": "waj-newsletter:2026-09-29:Asia-Tehran",
+   "status": "published",
+   "slug": "architecture-briefing-2026-09-29",
+   "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-09-29/",
+   "firstPublishedAt": "2026-09-29T11:40:52Z",
+   "deploymentId": "fe96b93e-9cc5-4523-9d7d-7d3b003cfb2c",
+   "verifiedAt": "2026-09-29T12:30:32Z",
+   "evidence": "newsletter-dated-publication-20260929.md"
+  },
+  {
+   "key": "waj-newsletter:2026-09-30:Asia-Tehran",
+   "status": "published",
+   "slug": "architecture-briefing-2026-09-30",
+   "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-09-30/",
+   "firstPublishedAt": "2026-09-30T10:09:19Z",
+   "deploymentId": "8155915b-3d98-4b43-a880-844e386aaa28",
+   "verifiedAt": "2026-09-30T10:12:03Z",
+   "evidence": "newsletter-dated-publication-20260930.md"
+  },
+  {
+   "key": "waj-newsletter:2026-10-01:Asia-Tehran",
+   "status": "published",
+   "slug": "architecture-briefing-2026-10-01",
+   "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-01/",
+   "firstPublishedAt": "2026-10-01T10:28:04Z",
+   "deploymentId": "b8d9dae0-40dc-42a6-b843-6015c66860ba",
+   "verifiedAt": "2026-10-02T09:15:19Z",
+   "evidence": "newsletter-dated-publication-20261001.md"
+  },
+  {
+   "key": "waj-newsletter:2026-10-02:Asia-Tehran",
+   "status": "published",
+   "slug": "architecture-briefing-2026-10-02",
+   "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-02/",
+   "firstPublishedAt": "2026-10-02T09:09:50Z",
+   "deploymentId": "60f188e5-0a7b-49b4-970d-8b753fc89ccb",
+   "verifiedAt": "2026-10-02T09:15:19Z",
+   "evidence": "newsletter-dated-publication-20261002.md"
+  },
+  {
+   "key": "waj-newsletter:2026-10-07:Asia-Tehran",
+   "status": "published",
+   "slug": "architecture-briefing-2026-10-07",
+   "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-07/",
+   "firstPublishedAt": "2026-10-07T05:43:46Z",
+   "deploymentId": "3a388ef6-3834-4d30-b06d-762ae31fb439",
+   "verifiedAt": "2026-10-07T05:45:44Z",
+   "latestRevisionDeploymentId": "2fcc1201-f3cb-4585-abb0-daec4028cb21",
+   "latestRevisionVerifiedAt": "2026-10-07T06:01:30Z",
+   "evidence": "newsletter-dated-publication-20261007.md"
+  },
+  {
+   "key": "waj-newsletter:2026-10-08:Asia-Tehran",
+   "status": "published",
+   "slug": "architecture-briefing-2026-10-08",
+   "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-08/",
+   "firstPublishedAt": "2026-10-08T11:55:57Z",
+   "deploymentId": "17f6b5e2-2361-4b3c-8129-f81f995b67d5",
+   "verifiedAt": "2026-10-08T12:09:19Z",
+   "previewDeploymentId": "8192889d-800d-4060-9106-844b03d3d5ce",
+   "evidence": "newsletter-dated-publication-20261008.md"
+  },
+  {
+   "key": "waj-newsletter:2026-10-09:Asia-Tehran",
+   "status": "published",
+   "slug": "architecture-briefing-2026-10-09",
+   "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-09/",
+   "firstPublishedAt": "2026-10-09T13:35:57.295532Z",
+   "deploymentId": "3b1bb838-e86d-474c-8bbf-8beff10c1d95",
+   "verifiedAt": "2026-10-09T13:46:22Z",
+   "evidence": "newsletter-dated-publication-20261009.md"
+  },
+  {
+   "key": "waj-newsletter:2026-10-22:Asia-Tehran",
+   "status": "published",
+   "slug": "architecture-briefing-2026-10-22",
+   "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-22/",
+   "firstPublishedAt": "2026-10-22T08:58:10Z",
+   "deploymentId": "39750607928",
+   "verifiedAt": "2026-10-22T09:05:00Z",
+   "evidence": "daily-articles-newsletter cron run 2026-10-22: 5 fresh stories (Dezeen, designboom, ArchDaily x2, AJ), all with licensed photos + Our reading; deploy run #153 SUCCESS; live 200 + sitemap + canonical + archive verified"
+  },
+  {
+   "key": "waj-newsletter:2026-10-23:Asia-Tehran",
+   "status": "published",
+   "slug": "architecture-briefing-2026-10-23",
+   "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-23/",
+   "firstPublishedAt": "2026-10-23T06:00:00Z",
+   "deploymentId": "PENDING-CI",
+   "verifiedAt": null,
+   "evidence": "PENDING"
+  }
+ ]
 }
