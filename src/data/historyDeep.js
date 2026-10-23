@@ -2182,6 +2182,1524 @@ export const historyDeepPages = [
       "A. W. N. Pugin, Contrasts, published by the author, London, 1836 — the Gothic Revival's founding polemic, in paired images of the medieval and modern town.",
       "John Ruskin, The Stones of Venice, Smith, Elder and Co., London, 1851–53 — contains 'The Nature of Gothic' (1853), the most influential essay ever written on the style's making."
     ]
+  },
+  {
+    "id": "castles",
+    "series": "Architectural History Series",
+    "bookNumber": 3,
+    "title": "Medieval Castles & Fortifications",
+    "bookTitle": "Medieval Castles & Fortifications: A Complete History",
+    "cover": "/assets/history-deep/castles/book-cover.jpg",
+    "coverCredit": "Cover artwork © World Arch Journal",
+    "readPath": "/magazine/architectural-history-styles/castles/read/",
+    "readerPages": 109,
+    "readerBase": "/assets/history-deep/castles/pages/",
+    "subtitle": "From the first timber mottes of the Loire to the concentric walls of Krak des Chevaliers and the white towers of Himeji, this book traces how the castle — fortress, residence and emblem in a single building — was invented, perfected, besieged, abandoned and finally reimagined.",
+    "path": "/magazine/architectural-history-styles/castles/",
+    "hubPath": "/magazine/architectural-history-styles/",
+    "hubStudyId": "medieval-castles",
+    "pdf": "/downloads/history/castles.pdf",
+    "seoTitle": "Medieval Castles & Fortifications: The Complete History | World Arch Journal",
+    "metaDescription": "The complete history of the medieval castle: motte and bailey, Norman keeps, Krak des Chevaliers, Edward I's Welsh masterpieces, Castel del Monte, Himeji, siegecraft and daily life, gunpowder decline and Romantic revival. Book 3 of the World Arch Journal Architectural History Series, with a free PDF edition.",
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "hero": "conwyCastle",
+    "frontispiece": "krakAerial",
+    "plates": [
+      [
+        "krakAerial",
+        "Plate I — Krak des Chevaliers from the Air",
+        "The Hospitallers' great castle in Syria, rebuilt from 1142 on a spur above the Homs gap: two concentric circuits wrapped around the hill, the inner ward riding high above the outer, with the sloped glacis armoring the vulnerable south. No castle states the mature type more completely."
+      ],
+      [
+        "beaumarisAerial",
+        "Plate II — Beaumaris: The Concentric Diagram",
+        "Begun in 1295 and never raised to its intended height, Beaumaris on Anglesey is the medieval castle drawn as geometry: a square inner ward with round towers inside a low outer curtain, entered through gatehouses offset so no passage runs straight, with a dock where supply ships once floated at high tide."
+      ],
+      [
+        "whiteTower",
+        "Plate III — The White Tower, London",
+        "Begun about 1078, the White Tower is the Norman palace-keep at full scale: storage and well below, the king's hall and chamber above, the Chapel of St John in the topmost corner — fortress, residence and chapel in one unadorned mass of Kentish ragstone and Caen stone dressings."
+      ],
+      [
+        "chateauGaillard",
+        "Plate IV — Château Gaillard above the Seine",
+        "Richard I's 'saucy castle' of 1196–98, raised in two building seasons above a loop of the Seine: an inner bailey whose corrugated curtain was shaped to deflect missiles and enfilade its own ditch, a keep with a battered beak against the plateau — and, eight years after its building, a ruin of French reconquest."
+      ],
+      [
+        "castelDelMonte",
+        "Plate V — Castel del Monte, Apulia",
+        "Frederick II's octagon of the 1240s: eight sides, eight octagonal towers, two floors of marble-lined halls around an octagonal court, and almost nothing a fortress requires. Hunting lodge, state symbol and theorem in stone — the castle as the mind of a ruler, debated ever since."
+      ],
+      [
+        "malbork",
+        "Plate VI — Malbork: The Brick Mountain",
+        "The Teutonic Order's Marienburg, built from the later thirteenth century on the Nogat, is by area the largest castle in Europe: High, Middle and Outer castles in one brick massif, raised by a crusading order that was also a state, and comprehensively rebuilt after 1945 as Poland's own act of restoration."
+      ],
+      [
+        "himeji",
+        "Plate VII — Himeji: The White Heron",
+        "Ikeda Terumasa's castle of 1601–09: a great tenshu of five apparent storeys, plastered white, linked to three lesser towers by fortified corridors above massive ishigaki walls. Never besieged, never burned, it survives as the most complete Japanese castle and the type's eastern masterpiece."
+      ]
+    ],
+    "plates2": [
+      [
+        "bodiam",
+        "Plate VIII — Bodiam: The Moated Mirror",
+        "Licensed in 1385 to Sir Edward Dallingridge, Bodiam presents four round towers and a great gatehouse across a broad moat — armed with early gunports, graced with delicate windows, and argued over ever since: working fortress, retired soldier's status symbol, or the most beautiful piece of military theatre in England."
+      ],
+      [
+        "conwyCastle",
+        "Plate IX — Conwy: Castle and Town as One Work",
+        "Built 1283–89 to Master James of St George's design, Conwy packs eight towers and two wards into a rock above the estuary, its plan bent to the site and its town walls — twenty-one towers strong — designed in the same campaign. It remains the most complete Edwardian castle-town in Britain."
+      ],
+      [
+        "caerphilly",
+        "Plate X — Caerphilly: Water as a Wall",
+        "Gilbert de Clare's answer to the crown, from 1268: a concentric castle on an island in artificial lakes, among the largest water defences in Britain, with a great hall worthy of a king and a leaning tower cracked, tradition says, by Civil War gunpowder. A Marcher lord built at royal scale, and the kings took note."
+      ],
+      [
+        "burgElz",
+        "Plate XI — Burg Eltz: The Shared Castle",
+        "Eltz in the Moselle valley, held by branches of one family since the twelfth century, shows the German Ganerbenburg at work: three households' towers and halls piled on one rock, each with its own stair, kitchen and chapel — a castle as condominium, preserved untouched by war into the present."
+      ],
+      [
+        "carcassonneCite",
+        "Plate XII — Carcassonne: The Restored Cité",
+        "Double walls, fifty-two towers and the comtal castle within: the Cité of Carcassonne, restored from 1853 under Viollet-le-Duc, became Europe's mental image of the medieval stronghold — and the founding case in the modern argument about how far restoration may go."
+      ],
+      [
+        "neuschwanstein",
+        "Plate XIII — Neuschwanstein: The Castle as Dream",
+        "Ludwig II's castle above the Pollat gorge, from 1869: medieval without, Wagnerian within, built with a steel skeleton and served by a telephone. The type's most famous example is a nineteenth-century stage set — proof that the castle's second life, as imagination, has outlasted its first."
+      ],
+      [
+        "doverKeep",
+        "Plate XIV — Dover: The Key of England",
+        "Henry II's great keep of the 1180s, a palace in armour with two forebuildings of chapels, stands inside curtains that every century to the twentieth has reworked. Dover compresses the whole history of the English castle — Norman keep, Angevin curtain, siege of 1216, artillery, tunnels — into one hill above the Channel."
+      ]
+    ],
+    "parts": [
+      [
+        0,
+        "Part I",
+        "Origins and Anatomy",
+        "What a castle is, the older world of walls it grew from, and the anatomy — site, keep, curtain, gate and ditch — that every later chapter reads with."
+      ],
+      [
+        3,
+        "Part II",
+        "The Castle Across Europe and Beyond",
+        "Norman conquest castles, French donjons and Château Gaillard, the Crusader East, Edward I's Welsh ring, the empires of the Mediterranean and the Baltic — and Japan's independent answer to the same problem."
+      ],
+      [
+        9,
+        "Part III",
+        "Making, War and Life",
+        "How castles were paid for, built and besieged, and how people actually lived inside them: the surviving accounts, the great sieges and the household, stone by stone."
+      ],
+      [
+        14,
+        "Part IV",
+        "Reading and Afterlives",
+        "The five-sign field method, the gunpowder goodbye, the Romantic resurrection — and what the castle still teaches the people who design buildings and care for them now."
+      ]
+    ],
+    "seriesList": "Book 3 · Medieval Castles & Fortifications: A Complete History — this volume. Also available: Book 1 · Art Nouveau: A Complete History · Book 2 · Gothic Architecture: A Complete History. In preparation: Baroque & Rococo · Romanesque · Modernism & the International Style · Victorian Architecture · Art Deco · Brutalism · and the remaining studies of the atlas, in the journal's demand order.",
+    "images": {
+      "angers": {
+        "src": "/assets/history-deep/castles/angers.jpg",
+        "alt": "The ramparts of the Château d'Angers: the vast thirteenth-century enceinte of dark schist banded with pale stone",
+        "credit": "Photo: Fab5669, via Wikimedia Commons (CC0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angers_-_ch%C3%A2teau,_enceinte_46.jpg",
+        "title": "Angers — the enceinte"
+      },
+      "arrowLoop": {
+        "src": "/assets/history-deep/castles/arrowLoop.jpg",
+        "alt": "An arrow slit in the east wall of Ranfurly Castle keep: the narrow loop set in massive masonry",
+        "credit": "Photo: Rosser1954, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arrow_slit,_East_facing_wall_of_Ranfurly_Castle_keep,_East_Renfrewshire.jpg",
+        "title": "Arrow slit — Ranfurly Castle"
+      },
+      "bayeuxMotte": {
+        "src": "/assets/history-deep/castles/bayeuxMotte.jpg",
+        "alt": "The Bayeux Tapestry: the motte castle at Dinan, its timber tower and palisade on the mound, surrendered to William's army",
+        "credit": "Artwork: the Bayeux Tapestry, via Wikimedia Commons (public domain)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_scene19_Dinan.jpg",
+        "title": "A motte castle at Dinan — the Bayeux Tapestry"
+      },
+      "beaumarisAerial": {
+        "src": "/assets/history-deep/castles/beaumarisAerial.jpg",
+        "alt": "Beaumaris Castle from the air: the perfectly symmetrical concentric plan, an inner ward within a low outer curtain, its towers unfinished",
+        "credit": "Photo: Llywelyn2000, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castell_Beaumaris_Castle,_Ynys_Mon_(Anglesey),_Wales_45.png",
+        "title": "Beaumaris Castle — from the air"
+      },
+      "bodiam": {
+        "src": "/assets/history-deep/castles/bodiam.jpg",
+        "alt": "Bodiam Castle from the north: four round towers and the great gatehouse rising from the moat",
+        "credit": "Photo: August Schwerdfeger, via Wikimedia Commons (CC BY 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bodiam_Castle_from_the_north_2019-05-28.jpg",
+        "title": "Bodiam Castle, Sussex"
+      },
+      "bourtange": {
+        "src": "/assets/history-deep/castles/bourtange.jpg",
+        "alt": "Bourtange from the air: the star-shaped moats and angled bastions of the Dutch fortress village",
+        "credit": "Photo: Dack9, via Wikimedia Commons (CC BY 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D1%8C_%D0%91%D1%83%D1%80%D1%82%D0%B0%D0%BD%D0%B6_(%D0%B2%D0%B8%D0%B4_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%83).jpg",
+        "title": "Bourtange — the star fort"
+      },
+      "burgElz": {
+        "src": "/assets/history-deep/castles/burgElz.jpg",
+        "alt": "Burg Eltz in the early morning: the clustered towers and halls of the shared castle on their rock above the Elzbach valley",
+        "credit": "Photo: Johannes Dörrstock, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burg_Eltz_am_fr%C3%BChen_Morgen.jpg",
+        "title": "Burg Eltz, Moselle valley"
+      },
+      "caernarfon": {
+        "src": "/assets/history-deep/castles/caernarfon.jpg",
+        "alt": "Caernarfon Castle at dusk: polygonal towers and banded masonry above the harbour",
+        "credit": "Photo: Llywelyn2000, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castell_Caernarfon_yn_y_cyfnos_yn_2023_-_Castell_Caernarfon,_Gwynedd,_Wales_at_Dusk_-_2023_10.png",
+        "title": "Caernarfon Castle at dusk"
+      },
+      "caerphilly": {
+        "src": "/assets/history-deep/castles/caerphilly.jpg",
+        "alt": "Caerphilly Castle from the south: towers and gatehouses rising from the artificial lake, the leaning tower at its corner",
+        "credit": "Photo: DeFacto, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caerphilly_Castle_south.jpg",
+        "title": "Caerphilly Castle — the south front"
+      },
+      "carcassonneCite": {
+        "src": "/assets/history-deep/castles/carcassonneCite.jpg",
+        "alt": "The Cité of Carcassonne: the double walls and towered skyline of the fortified city in a long panorama",
+        "credit": "Photo: Benh LIEU SONG (Flickr), via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carcassonne_Cite.jpg",
+        "title": "Carcassonne — the Cité"
+      },
+      "carcassonneWalls": {
+        "src": "/assets/history-deep/castles/carcassonneWalls.jpg",
+        "alt": "The walls of Carcassonne: mural towers and double curtain walls of the medieval Cité",
+        "credit": "Photo: H2k4, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carcassonne,_France,_the_walls_of_the_medieval_city.JPG",
+        "title": "Carcassonne — the walls"
+      },
+      "castelDelMonte": {
+        "src": "/assets/history-deep/castles/castelDelMonte.jpg",
+        "alt": "Castel del Monte: the octagonal castle with its eight octagonal towers standing on a bare Apulian hill",
+        "credit": "Photo: Luca Lombardi, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castel_del_Monte,_Andria.jpg",
+        "title": "Castel del Monte, Apulia"
+      },
+      "chateauGaillard": {
+        "src": "/assets/history-deep/castles/chateauGaillard.jpg",
+        "alt": "Château Gaillard above the Seine: the ruined inner bailey and its corrugated curtain wall on the chalk spur",
+        "credit": "Photo: Zairon, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Les_Andelys_Ch%C3%A2teau_Gaillard_03.jpg",
+        "title": "Château Gaillard, Les Andelys"
+      },
+      "conwyCastle": {
+        "src": "/assets/history-deep/castles/conwyCastle.jpg",
+        "alt": "Conwy Castle above its estuary: eight great towers and two wards bent along the rock, the walled town beyond",
+        "credit": "Photo: Nilfanion, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conwy_Castle_(7989).jpg",
+        "title": "Conwy Castle — from the estuary"
+      },
+      "corfe": {
+        "src": "/assets/history-deep/castles/corfe.jpg",
+        "alt": "Corfe Castle ruins: the shattered keep and gatehouse on their hill above the village, slighted in 1646",
+        "credit": "Photo: Colin Smith, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corfe_Castle_Ruins_-_geograph.org.uk_-_2925973.jpg",
+        "title": "Corfe Castle — the ruin"
+      },
+      "coucy": {
+        "src": "/assets/history-deep/castles/coucy.jpg",
+        "alt": "The ruined donjon of Coucy: the stump of the greatest castle tower of the thirteenth century, destroyed in 1917",
+        "credit": "Photo: G.érald Garitan, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coucy_le_donjon_96788.jpg",
+        "title": "Coucy — the donjon today"
+      },
+      "doverKeep": {
+        "src": "/assets/history-deep/castles/doverKeep.jpg",
+        "alt": "The great keep of Dover Castle: Henry II's palace-keep with its forebuilding stair and chapels",
+        "credit": "Photo: DeFacto, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dover_Castle_-_Henry_II%27s_Great_Tower.jpg",
+        "title": "Dover Castle — the great keep"
+      },
+      "guedelon": {
+        "src": "/assets/history-deep/castles/guedelon.jpg",
+        "alt": "Guédelon Castle under construction: period cranes and timber scaffolding around the rising thirteenth-century walls",
+        "credit": "Photo: Benoît Prieur, via Wikimedia Commons (CC0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_ch%C3%A2teau_du_Gu%C3%A9delon_(Treigny,_France)_le_19_ao%C3%BBt_2019.jpg",
+        "title": "Guédelon — the castle being built"
+      },
+      "harlechGate": {
+        "src": "/assets/history-deep/castles/harlechGate.jpg",
+        "alt": "The gatehouse of Harlech Castle: the twin-towered entrance front of Edward I's coastal castle",
+        "credit": "Photo: Eirian Evans, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gatehouse,_Harlech_Castle_-_geograph.org.uk_-_5909078.jpg",
+        "title": "Harlech Castle — the gatehouse"
+      },
+      "hedingham": {
+        "src": "/assets/history-deep/castles/hedingham.jpg",
+        "alt": "Hedingham Castle keep: the Norman great tower of stone rising above lawns and trees",
+        "credit": "Photo: Michael Garlick, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castle_Hedingham,_The_Norman_keep_-_geograph.org.uk_-_4540279.jpg",
+        "title": "Hedingham Castle — the keep"
+      },
+      "hedinghamHall": {
+        "src": "/assets/history-deep/castles/hedinghamHall.jpg",
+        "alt": "The banqueting hall inside Hedingham keep: a great chamber carried on a Norman round-arched arcade",
+        "credit": "Photo: Michael Garlick, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castle_Hedingham,_The_banqueting_hall_in_the_Norman_keep_-_geograph.org.uk_-_4540173.jpg",
+        "title": "Hedingham Castle — the great hall"
+      },
+      "himeji": {
+        "src": "/assets/history-deep/castles/himeji.jpg",
+        "alt": "Himeji Castle: the white plastered tenshu complex rising above its stone ishigaki and the castle town",
+        "credit": "Photo: Martin Falbisoner, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Himeji_Castle,_November_2016_-02.jpg",
+        "title": "Himeji Castle — the White Heron"
+      },
+      "krakAerial": {
+        "src": "/assets/history-deep/castles/krakAerial.jpg",
+        "alt": "Aerial view of Krak des Chevaliers: two concentric circuits of walls and towers wrapped around a Syrian hilltop",
+        "credit": "Photo: Army of the Levant, via Wikimedia Commons (Licence Ouverte)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ifpo_23409_Syrie,_gouvernorat_de_Homs,_District_de_Talkalakh,_le_Krak_des_Chevaliers,_vue_a%C3%A9rienne_oblique.jpg",
+        "title": "Krak des Chevaliers — aerial view"
+      },
+      "krakGlacis": {
+        "src": "/assets/history-deep/castles/krakGlacis.jpg",
+        "alt": "Krak des Chevaliers from the south: the great sloped glacis and the concentric walls rising tier on tier above it",
+        "credit": "Photo: Xvlun, via Wikimedia Commons (CC BY-SA 2.5)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crac_des_chevaliers_syria.jpeg",
+        "title": "Krak des Chevaliers — the glacis"
+      },
+      "machicolations": {
+        "src": "/assets/history-deep/castles/machicolations.jpg",
+        "alt": "Machicolations at Cahir Castle: the corbelled parapet gallery with open slots in its floor, above a doorway",
+        "credit": "Photo: A.-K. D., via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cahir_Castle_machicolation_1.jpg",
+        "title": "Machicolations — Cahir Castle"
+      },
+      "malbork": {
+        "src": "/assets/history-deep/castles/malbork.jpg",
+        "alt": "Malbork Castle from the air: the vast brick complex of the Teutonic Order stretched along the Nogat river",
+        "credit": "Photo: Kapitel, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malbork_zamek_(dron1).jpg",
+        "title": "Malbork Castle — from the air"
+      },
+      "matsumoto": {
+        "src": "/assets/history-deep/castles/matsumoto.jpg",
+        "alt": "Matsumoto Castle: the black-lacquered tenshu above its moat, the northern Alps behind",
+        "credit": "Photo: 663highland, via Wikimedia Commons (CC BY 2.5)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:130608_Matsumoto_Castle_Matsumoto_Nagano_pref_Japan01bs5.jpg",
+        "title": "Matsumoto Castle"
+      },
+      "neuschwanstein": {
+        "src": "/assets/history-deep/castles/neuschwanstein.jpg",
+        "alt": "Neuschwanstein Castle from the Marienbrücke: white limestone walls and turrets above the Pollat gorge",
+        "credit": "Photo: Ximonic, Simo Räsänen (post-processing) & Tauno Räsänen (photograph), via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neuschwanstein_Castle_from_Marienbr%C3%BCcke,_2011_May.jpg",
+        "title": "Neuschwanstein Castle"
+      },
+      "rhodes": {
+        "src": "/assets/history-deep/castles/rhodes.jpg",
+        "alt": "The fortifications of medieval Rhodes from the east: the Hospitallers' walls and towers above the harbour",
+        "credit": "Photo: Julian Lupyan, via Wikimedia Commons (CC0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fortifications_of_the_Medieval_City_of_Rhodes_Viewed_from_the_East.jpg",
+        "title": "Rhodes — the Hospitaller walls"
+      },
+      "rochesterKeep": {
+        "src": "/assets/history-deep/castles/rochesterKeep.jpg",
+        "alt": "Rochester Castle keep from the bailey: the great Norman tower with its one round corner turret, rebuilt after the siege of 1215",
+        "credit": "Photo: User:ClemRutter, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rochester_Castle_Keep_and_Bailey_0038stcpcropped.png",
+        "title": "Rochester Castle — the keep"
+      },
+      "segovia": {
+        "src": "/assets/history-deep/castles/segovia.jpg",
+        "alt": "The Alcázar of Segovia: the fortress-palace on its rock above the plain, the slender Tower of John II rising over it",
+        "credit": "Photo: Rafa Esteve, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Segovia_-_Alc%C3%A1zar_de_Segovia_22_2017-10-24.jpg",
+        "title": "Alcázar of Segovia"
+      },
+      "stJohnsChapel": {
+        "src": "/assets/history-deep/castles/stJohnsChapel.jpg",
+        "alt": "St John's Chapel in the White Tower: the Norman chapel's round piers, galleries and tunnel-vaulted aisles",
+        "credit": "Photo: Ethan Doyle White, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_John%27s_Chapel,_Tower_of_London_(01).jpg",
+        "title": "St John's Chapel, White Tower"
+      },
+      "theodosian": {
+        "src": "/assets/history-deep/castles/theodosian.jpg",
+        "alt": "The Theodosian Walls of Constantinople: the layered land walls and towers of Istanbul",
+        "credit": "Photo: Peter Christian Riemann, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theodosian_Walls_of_Constantinople,_Istanbul_(1991).jpg",
+        "title": "The Theodosian Walls, Istanbul"
+      },
+      "towerLondon": {
+        "src": "/assets/history-deep/castles/towerLondon.jpg",
+        "alt": "The Tower of London from the Thames: the White Tower rising inside the curtain walls along the river frontage",
+        "credit": "Photo: Dietmar Rabich, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:London,_Tower_of_London_--_2016_--_4791.jpg",
+        "title": "The Tower of London — from the river"
+      },
+      "trebuchet": {
+        "src": "/assets/history-deep/castles/trebuchet.jpg",
+        "alt": "The counterweight trebuchet at Warwick Castle: the great wooden siege engine standing in the grounds",
+        "credit": "Photo: Peter K Burian, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Warwick_Castle_trebuchet.jpg",
+        "title": "Trebuchet — Warwick Castle"
+      },
+      "vincennes": {
+        "src": "/assets/history-deep/castles/vincennes.jpg",
+        "alt": "The donjon of the Château de Vincennes from the south-west: Charles V's great tower within its own walled chemise",
+        "credit": "Photo: DXR, via Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Donjon_of_Ch%C3%A2teau_de_Vincennes,_South-West_View_140308_1.jpg",
+        "title": "Vincennes — the donjon"
+      },
+      "whiteTower": {
+        "src": "/assets/history-deep/castles/whiteTower.jpg",
+        "alt": "The White Tower at the Tower of London: the Norman great keep with its four turrets against the sky",
+        "credit": "Photo: Dietmar Rabich, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:London,_Tower_of_London,_White_Tower_--_2016_--_4678.jpg",
+        "title": "The White Tower, London"
+      },
+      "windsor": {
+        "src": "/assets/history-deep/castles/windsor.jpg",
+        "alt": "Windsor Castle from the air: the round tower and the two wards of the great royal castle above the Thames",
+        "credit": "Photo: Bill Boaden, via Wikimedia Commons (CC BY-SA 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Windsor_Castle_from_the_air_-_geograph.org.uk_-_7132323.jpg",
+        "title": "Windsor Castle — from the air"
+      }
+    },
+    "standfirst": "The castle was the medieval world's most complete building: a fortress that was also a home, an office, a court and a claim to power, raised in stone over the land it ruled. This complete history follows it from the earth-and-timber strongholds of the tenth century to the perfected concentric plans of Wales and Syria, through siegecraft and household life to gunpowder, ruin, romance and the conservation workshops of today — teaching the reader, chapter by chapter, to recognise, date and read a castle anywhere from Normandy to Japan.",
+    "intro": [
+      "This book tells the whole story of the castle, from the first motte-and-bailey strongholds thrown up in tenth-century France to the completion of Himeji in 1609 and the experimental masons' yard at Guédelon in our own century. It is organised as a history, a field guide and an argument at once. The narrative chapters follow the type's invention between the Loire and Normandy, its export by conquest to England, Sicily and the Crusader Levant, its perfection in the concentric castles of Edward I's Wales and the Hospitallers' Syria, and its translations into the brick of the Baltic, the frontier lines of Iberia and the plastered timber towers of Japan. Later chapters treat the men and women who paid for, built, besieged and lived in castles, examine the type's working anatomy part by part, and follow it through gunpowder, civil war and deliberate ruin to its Romantic resurrection and its guarded modern afterlife. Throughout, the emphasis falls on how the castle worked: how its walls were meant to be attacked and defended, how its rooms were heated, fed and governed, and how lords, orders, towns and kings turned military means into political meaning.",
+      "A word of honesty about scope and words. A castle, as this book uses the term, is a fortified residence: the private stronghold of a lord or a military order, distinct from the communal town wall and from the purely military fortress, though the boundaries blur and the text says so where they do. Dates on the cover describe the type's creative life in its European homelands, roughly 950 to 1500; castle-building of real sophistication continued in the Welsh Marches, the Baltic and above all in Japan well beyond those bounds, and the survival of working castles — Windsor, the Tower of London — into the present is part of the story, not an epilogue. Regional vocabularies differ: the French donjon, the German Bergfried and the Japanese tenshu are cousins, not synonyms, and the book keeps their differences visible. Where a date is conventional, a cost drawn from a single surviving account, or an interpretation — the symbolism of Caernarfon's banded towers, the designed landscape at Bodiam — still argued over by scholars, the text flags the uncertainty, because a history that hides its doubts teaches its readers to hide theirs.",
+      "The book is designed to be used, not merely read, and its web edition keeps the same structure. At its centre stands the five-signs method set out in Chapter 15: curtain wall and towers, the keep, the gatehouse, arrow slits and machicolations, and concentric defence with its ditch or moat, read together as a voting system rather than a checklist, exactly as the journal's history atlas teaches the sister styles. Readers standing in a castle courtyard can apply the method on the spot, supported by the gazetteer of places, the glossary of terms and the building studies woven through the narrative, each of which models the method on surviving fabric, from the White Tower's first-floor entrance to the glacis of Krak. Timelines, the reference card of key facts and the biographies of makers and patrons, from Fulk Nerra to James of St George and Ikeda Terumasa, are placed where a reader in the field needs them: before and after the narrative, as instruments. Illustrations throughout the print and web editions are licence-verified photographs of the buildings discussed, credited at their source, so that what the text describes can always be checked against the surviving stone.",
+      "The sources for a history of this span are of three kinds, and the book keeps them distinct. First, the buildings themselves, surveyed, excavated and argued over by generations of scholars, remain the primary evidence; where a structural or a tactical claim is made, it follows the measured literature and the surviving fabric. Second, the medieval documents: chronicles such as the Bayeux Tapestry's embroidered narrative and Roger of Wendover's siege accounts, building accounts that survive in unusual completeness for Edward I's Welsh works, licences to crenellate, inventories and household rolls. Third, the modern scholarship credited in the bibliography, above all Charles Coulson's Castles in Medieval Society and Matthew Johnson's Behind the Castle Gate, which between them reframed the field, alongside the institutional resources listed in the sources — English Heritage, Cadw and the UNESCO listings among them. The text itself is an original synthesis written for this series: the facts are the common property of the discipline, the words, the selection and the judgements are this book's own."
+    ],
+    "keyFacts": [
+      [
+        "Period",
+        "c. 950–1500 in its European heartlands; an independent Japanese castle tradition runs c. 1570–1615, and working survivals continue to the present"
+      ],
+      [
+        "Where",
+        "Born between the Loire and Normandy; built across Europe and the Crusader Levant, from Iberia to the Baltic; reinvented independently in Japan"
+      ],
+      [
+        "Signature",
+        "A fortified residence: keep or great tower, curtain walls with projecting mural towers, a gate defended in depth, and ditch, moat or concentric rings that force an attacker to cross open ground under fire"
+      ],
+      [
+        "Key figures",
+        "William the Conqueror; Richard I; James of St George; Edward I; Frederick II; Ikeda Terumasa"
+      ],
+      [
+        "Landmark buildings",
+        "The White Tower, London (begun c. 1078); Château Gaillard (1196–98); Krak des Chevaliers (1142–1271); Conwy (1283–89); Castel del Monte (c. 1240s); Himeji (1601–09)"
+      ],
+      [
+        "Ended by",
+        "No single blow: gunpowder artillery devalued high walls, centralising states monopolised fortification, and the aristocratic household withdrew to the unfortified country house"
+      ]
+    ],
+    "timeline": [
+      [
+        "c. 950",
+        "Timber castles appear in northern France: a tower on an artificial mound — the motte — beside a ditched and palisaded court, the bailey. The type is attested in the Loire valley and Normandy within a generation, the architectural form of power fragmenting into local hands."
+      ],
+      [
+        "994–95",
+        "Fulk III Nerra, count of Anjou, builds the stone donjon at Langeais on the Loire, among the oldest surviving stone keeps in France. Stone begins its slow replacement of timber at the top of society, while ordinary castles remain earth and wood for two more centuries."
+      ],
+      [
+        "1066",
+        "William of Normandy invades England behind prefabricated timber castles, depicted in the Bayeux Tapestry, and imposes the type on a conquered kingdom. Within two generations several hundred castles — the conventional estimate runs to five hundred and more — stud England and the Welsh border."
+      ],
+      [
+        "c. 1078",
+        "Building begins on the White Tower at London, the great stone keep of the Tower of London: hall, chamber and the Chapel of St John stacked over storage, entered at first-floor level. It remains the type-specimen of the Norman palace-keep."
+      ],
+      [
+        "1135–53",
+        "Civil war in England under Stephen fills the landscape with so-called adulterine castles, raised without licence. Henry II's demolitions after 1154 announce the crown's claim to control castle-building — the political argument that runs through the whole history."
+      ],
+      [
+        "1142",
+        "The Knights Hospitaller take over Krak des Chevaliers in Syria and begin the rebuilding that makes it the supreme concentric castle of the Crusader East: inner and outer wards, a sloped glacis, and a garrison drawn from a military order rather than a household."
+      ],
+      [
+        "1181–88",
+        "Henry II rebuilds Dover Castle around a great keep of palace scale, ringed by curtain walls and towers. Dover, the 'key of England', becomes the kingdom's most expensively maintained fortress and the test-piece of every later siege generation."
+      ],
+      [
+        "1196–98",
+        "Richard I builds Château Gaillard above the Seine at Les Andelys in barely two years, at a cost the Pipe Rolls put among the greatest of any single castle of the age. Its fall to Philip Augustus in 1204, after a six-month siege, carries Normandy with it."
+      ],
+      [
+        "1215",
+        "King John's miners bring down the south-east corner of Rochester Castle's great keep after a two-month siege — the most famous mining operation of the age, recorded by Roger of Wendover. The keep is rebuilt with a round tower where the square one fell: the siege is still legible in the masonry."
+      ],
+      [
+        "c. 1240–49",
+        "Frederick II raises Castel del Monte in Apulia: a perfect octagon with eight octagonal towers, at once hunting lodge, state symbol and geometrical manifesto. The emperor's southern castle network, administered from his courts, governs the Mezzogiorno in stone."
+      ],
+      [
+        "1268",
+        "Gilbert de Clare begins Caerphilly Castle in Glamorgan, ringed by artificial lakes among the largest water defences in Britain. A Marcher lord, not a king, builds at royal scale — and Edward I's Welsh works of the next decades answer him."
+      ],
+      [
+        "1277–83",
+        "Edward I's two Welsh wars are consolidated in castles: Flint, Rhuddlan, Aberystwyth and Builth after 1277; Conwy, Caernarfon and Harlech after 1283, each paired with a walled borough of English settlers. Master James of St George directs the works; castle and town are designed as one colonising instrument."
+      ],
+      [
+        "1295",
+        "Beaumaris, the last and most perfectly symmetrical of Edward's Welsh castles, is begun on Anglesey — and never finished to its intended height as money and wars in Scotland divert the crown. Its concentric plan, walls within walls around a courtyard dock, is the medieval castle drawn as geometry."
+      ],
+      [
+        "1385",
+        "Sir Edward Dallingridge, a veteran of the French wars, is licensed to crenellate Bodiam in Sussex: moated, symmetrical, beautiful, and armed. Whether Bodiam is a working fortress or a retired soldier's dream of one becomes the textbook case of the modern debate about what castles were for."
+      ],
+      [
+        "1453",
+        "Ottoman artillery breaches the land walls of Constantinople. The fall of the great city becomes the symbolic end of the high medieval wall — though castles, adapted with gunports and thickening earthworks, go on being built, besieged and defended for another century and more."
+      ],
+      [
+        "1601–09",
+        "Ikeda Terumasa rebuilds Himeji in western Honshu: a white plastered tenshu complex on massive stone ishigaki, ringed by moats and a maze of gates. Sixteen years later the Tokugawa shogunate's one-castle-per-province order of 1615 closes Japan's castle age by decree, preserving Himeji by the peace that followed."
+      ],
+      [
+        "1642–46",
+        "Civil war reactivates England's castles; Parliament answers victory with slighting — deliberate demolition. Corfe, held for the king and betrayed in 1646, is blown up into the ruin visitors read today: destruction itself become a document."
+      ],
+      [
+        "1853–79",
+        "Eugène Viollet-le-Duc restores the Cité of Carcassonne, walls, roofs and all, to a completeness he defended as scholarship and critics attacked as invention. The argument he started — restore, conserve, or let ruins be — still governs how castles are cared for."
+      ],
+      [
+        "1869",
+        "Ludwig II of Bavaria lays the foundation of Neuschwanstein, a castle built as a stage set for Wagnerian legend. The type, dead as an instrument of war for three centuries, achieves its most famous form as pure imagination — and becomes the world's default image of a castle."
+      ],
+      [
+        "1997",
+        "At Guédelon in Burgundy, a team begins building a thirteenth-century castle using only period tools, materials and methods, to be completed over a working generation. Experimental archaeology turns the questions of this book — cost, labour, technique — into a building site anyone can visit."
+      ]
+    ],
+    "chapters": [
+      {
+        "id": "what-it-is",
+        "numeral": "1",
+        "title": "A Fortress That Is Also a Home: What a Castle Is",
+        "sections": [
+          {
+            "heading": "Fortress, Residence, Symbol",
+            "figure": "krakAerial",
+            "paras": [
+              "A castle is a fortified residence of a lord or a king. That double nature — at once a stronghold and a household — is the key to everything that follows in this book. A Roman fort housed soldiers and nothing else; a town wall defended a whole community; a manor house welcomed guests but could not withstand an attack. The castle did all three kinds of work in a single complex of walls, towers and chambers. Behind its gate lay a hall where the lord ate and gave justice, a chapel where he heard mass, kitchens, stables, stores and lodgings for his family and retainers, and above them all rose defences designed to keep an enemy out and, if necessary, to dominate the country round about.",
+              "Because the castle was a home, its history cannot be written as military engineering alone. The quality of its hall, the number of its fireplaces and garderobes, the privacy of its chamber block and the splendour of its chapel all mattered to the people who built it, and they spent money on those things as readily as on towers and drawbridges. Because it was a fortress, its site, its walls and its water supply were chosen with war in mind, even in regions and decades when no war came. And because it was the visible seat of lordship, its silhouette was itself an argument: a great tower on a hill announced, to tenants, rivals and travellers alike, whose land this was and by what right he held it.",
+              "No single formula covers every example. Some castles were royal fortresses garrisoned by constables who never owned the surrounding estate; some were little more than a tower and a walled yard; a few, such as Krak des Chevaliers in Syria, grew into fortified towns in miniature, housing hundreds of men. Yet the family resemblance is strong. Wherever the medieval castle appears — in Wales, in the Loire valley, in Sicily or in the crusader states — it answers the same question: how to live, rule and fight from one defended place. That question, and the many ingenious answers given to it between about 900 and 1500, is the subject of this history. It is also a question with a geography and a chronology, moving from the timber mottes of the Loire to the great royal fortresses of Edwardian Wales and the artillery works of the fifteenth century, and each stage of that journey changed what a castle was expected to be."
+            ]
+          },
+          {
+            "heading": "The Word and the Thing",
+            "paras": [
+              "The English word castle comes, through Norman French castel, from the Latin castellum, a diminutive of castrum, a fortified place. The word travelled with the building. Old English had burh for a fortified town and geweorc for a work of defence, but no word for a private fortified residence, because Anglo-Saxon England had no such thing. When the Normans arrived in 1066 bringing both the building and the word, the new term was needed at once: the Anglo-Saxon Chronicle, recording the newcomers' works, treats the castle as a foreign imposition, a thing the French built in order to hold down the land they had taken.",
+              "Across Europe the vocabulary maps the geography of the type. In French, château — once château fort, a fortified château — covers both the medieval stronghold and the later country house, a reminder that the two descend from one another. In German, Burg denotes the fortified seat, distinct from Schloss, the unfortified palace that eventually replaced it. In Spanish, castillo gives its name to a whole region, Castile, the land of castles thrown up along the frontier with al-Andalus. Italian castello, Welsh castell and Irish caisleán repeat the same Latin root. The shared word tells a shared story: the castle spread across Latin Christian Europe as a recognisable institution, not as a series of local accidents.",
+              "Words, however, can mislead. Medieval writers used castellum loosely, sometimes for a fortified town, sometimes for a small fort with no residence at all, and modern usage is looser still, applying castle to everything from an Iron Age hillfort to a Victorian sham. For the purposes of this book the term is used strictly: a castle is a defended residence, built by and for a lord, combining domestic accommodation with fortification serious enough to resist attack, and serving as the administrative centre of an estate, a lordship or a frontier. That definition excludes town walls, monasteries with defensive circuits and purely military forts, while admitting a wide and fascinating variety within its bounds. The borderline cases are instructive rather than embarrassing: a bishop's palace with a licence to crenellate, or a fortified manor house of the later Middle Ages, shows the type shading into its neighbours precisely because lordship itself came in degrees."
+            ]
+          },
+          {
+            "heading": "A Building Type, Not a Style",
+            "paras": [
+              "A castle is defined by what it does, not by how it looks. This distinguishes it from the subjects of the earlier volumes in this series. Gothic is a style, a system of structure and ornament that can be recognised in a window or a vault; the castle is a building type, a programme. A twelfth-century Norman keep, a thirteenth-century Welsh concentric fortress and a fifteenth-century French château may share almost no visual features — one is a plain stone tower, one a ring of walls and turrets, one a palace with pepper-pot turrets and tall chimneys — yet all three are castles, because each is a lordly residence planned for defence.",
+              "Consequently castles wear the architectural dress of their age and region without being governed by it. Early keeps are Romanesque in their round arches and massive masonry; thirteenth-century works adopt the pointed arch, ribbed vaults and traceried windows of Gothic; late medieval French and Scots castles borrow the mullioned windows and steep roofs of contemporary houses. Style tells us when and where a castle was built and how cultivated its patron wished to appear. The plan tells us something older and more constant: the need to control entry, to store food and water, to house a garrison and a household, and to place the lord's chamber where it was both safe and conspicuously his.",
+              "This is why castle studies sit uneasily between architectural history and military history, and why they are the richer for it. To read a castle well is to read both its masonry and its meaning: the thickness of a wall, certainly, but also the route a guest was made to take from gate to hall, the view from the lord's window over his own demesne, and the deliberate theatricality of a tower raised higher than defence alone required. The chapters that follow keep both readings in view at all times. A wall thickness can be measured to the centimetre, yet the reason for that thickness may be as much heraldic as ballistic, and the historian's task is to hold the measurement and the meaning together without allowing either to swallow the other."
+            ]
+          },
+          {
+            "heading": "The Great Revision: Castles as Lordship in Stone",
+            "paras": [
+              "For much of the twentieth century, castles were studied chiefly as instruments of war. The great authorities of that tradition traced an evolution of siegecraft and counter-measure — mound, keep, curtain, concentric wall, bastion — as if the castle were a weapon system improving under the pressure of attack. That reading produced fine scholarship and remains indispensable for understanding how castles were defended. But it left awkward questions unanswered. Many castles stood in places of little strategic value. Many had defences that were impressive to look at yet curiously impractical: windows too large, walls pierced in the wrong places, towers arranged for symmetry rather than for fields of fire.",
+              "From the 1970s onwards, a revision gathered force. Charles Coulson, in a series of influential studies, argued that castles were as much symbols and instruments of lordship as weapons of war, pointing out how often licences to crenellate — royal permissions to fortify — were sought and granted as marks of status, and how the licence often concerned houses that no one expected to fight from. Robert Liddiard and others developed the landscape dimension, showing castles set within designed parks, gardens, fishponds and approach routes meant to impress. More recently, Matthew Johnson has read the castle from the inside, as lived space: a choreography of thresholds, courtyards and chambers that sorted residents and visitors by rank every day of the year.",
+              "The debate matters because it changes what we look for. If a castle is only a fortress, a large window is a mistake; if it is also a stage for lordship, that window may be the point. The balanced position, and the one taken in this book, is that the two readings need each other. Lords built defensibly because violence was real and status depended on being seen to command it; they built splendidly because a residence that failed to honour its owner failed in half its purpose. Defence and display were not alternatives. In the castle, they were the same gesture performed in stone. Later chapters return to this argument repeatedly, because it explains features that neither reading explains alone: chapels grander than garrisons, gatehouses built like palaces, and towers raised in places where no enemy was ever likely to test them."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "before-castles",
+        "numeral": "2",
+        "title": "Before the Castle: Walls of an Older World",
+        "sections": [
+          {
+            "heading": "Rome's Walls and the Saxon Burhs",
+            "paras": [
+              "Fortification is far older than the castle. The Roman Empire ringed its frontiers with forts, fortresses and the great linear works of Hadrian's Wall and the German limes, and in the troubled third century it walled its cities, including London, whose circuit of about AD 200 long outlasted the empire that built it. Along the Channel and North Sea coasts, the forts of the Saxon Shore — massive stone enclosures such as Portchester and Pevensey — guarded against seaborne raiders. These works share two features that separate them from the castle: they were built by the state, and they were not homes. Soldiers garrisoned them, communities sheltered behind them, but no lord lived in a fort as the centre of his private power.",
+              "After Rome's withdrawal from Britain, fortification fell largely into abeyance until Viking raiding forced its revival. King Alfred of Wessex answered with the burhs, a planned network of fortified places recorded in the document known as the Burghal Hidage. Some burhs reused Roman walls, as at Winchester and Chichester; others, such as Wallingford and Wareham, were new enclosures of earth and timber laid out with regular streets. Every settlement was meant to be within reach of a refuge, and the system was maintained by public obligation assessed on the land. Like the Roman works before them, the burhs were communal and royal, defending a kingdom rather than expressing a lordship. Their garrisons were drawn from the surrounding shires by rota, their upkeep charged to the hides of the district, and their sites chosen for the protection of populations and royal revenues, not for the convenience of any single family's estate.",
+              "The contrast is the point. For a thousand years, large-scale fortification in the West was a public undertaking, financed by taxation or public labour and held in the name of a ruler or a people. The castle inverted that tradition. It was private, hereditary and residential — a fortification that belonged to a family and passed to its heirs. Understanding how radical that inversion was, and what collapse of public authority made it possible, is the necessary prelude to the castle's own story. The burhs also left a physical inheritance: several later castles were planted inside burh or Roman enclosures, reusing ready-made circuits and, with them, the authority of places that had been centres of power for centuries."
+            ]
+          },
+          {
+            "heading": "The Viking Shock",
+            "paras": [
+              "The Viking raids that began in the late eighth century — Lindisfarne was sacked in 793 — exposed the weakness of rich, unfortified coasts and river valleys across western Europe. Monasteries, ports and royal vills lay open to fast-moving seaborne attackers who struck, plundered and were gone before a royal army could assemble. Kings responded where they could. Charles the Bald of West Francia ordered fortified bridges on the Seine and Loire in the Edict of Pîtres of 864, barring the rivers to Viking fleets, and burhs and their continental equivalents multiplied. But royal responses were slow, expensive and dependent on a king's presence and strength, both of which were failing across much of the Frankish world.",
+              "As Carolingian authority fragmented in the later ninth and tenth centuries, defence devolved downwards. Local counts, and below them local strongmen, began to fortify on their own account — at first with or without permission, increasingly without asking. A strongpoint raised to shelter a district against raiders could just as readily be used to coerce that district: to collect tolls, to hold a river crossing, to cow neighbours and to defy a distant count or king. Contemporaries noticed the change and disliked it. Chroniclers complain of adulterine, unlicensed strongholds multiplying through the countryside, each one the nest of a petty lord making himself independent in the ruins of public order.",
+              "The Viking shock therefore did double work. It created the practical need for local, quickly built refuges, and it accelerated the political fragmentation that put the means of fortification into private hands. Neither condition alone produces the castle; wealthy societies under threat had built public walls for centuries. It is the combination — urgent local danger and authority broken into fragments, each fragment needing to defend and to advertise itself — that sets the stage for what happened next. Nor was the pressure only Scandinavian: Magyar horsemen raided from the east and Muslim forces from the Mediterranean, so that across the whole western world the same demand for local, immediate protection pressed upon societies whose central governments were least able to supply it."
+            ]
+          },
+          {
+            "heading": "The First Mottes: Timber on a Mound",
+            "figure": "bayeuxMotte",
+            "paras": [
+              "The earliest castles were made of earth and timber, and for that reason they are easy to underestimate. Their characteristic form was the motte: a steep artificial mound, flat on top, carrying a wooden tower and usually a palisade, with an enclosed courtyard, the bailey, at its foot. The Bayeux Tapestry shows the Normans raising a motte at Hastings within days of landing in 1066, workmen shovelling earth while soldiers stand guard — and it shows earlier Breton mottes at Rennes, Dol and Dinan, evidence that the form was already familiar in northern France a generation before the Conquest. The tapestry's evidence is precious precisely because timber has otherwise vanished: what survives on the ground is the earthwork, thousands of mounds scattered across France, Britain and Ireland.",
+              "Timber and earth had decisive advantages. They were fast — a motte could rise in weeks using local labour and materials — and they were cheap, requiring no masons, no lime kilns and no quarried stone. A mound ten metres high with a timber tower on top gave its owner height, visibility and a defensible refuge at a fraction of the cost of stone. Excavation has shown how sophisticated these supposedly primitive works could be: at Hen Domen in Wales, dug over many seasons, archaeologists recovered the post-holes of halls, granaries, a chapel and a bridge, a whole timber lordship rebuilt in phase after phase on the same cramped site.",
+              "Yet the limitations were real. Timber rots and burns, and a determined attacker with fire arrows was the motte's natural enemy. Earthworks also demanded constant maintenance against weather and burrowing animals. As lords grew richer and their tenure more secure, many replaced timber with stone on the same sites — sometimes ringing the motte top with a stone shell wall, sometimes abandoning the mound for a stone keep beside it. The earth-and-timber castle was thus both a beginning and a permanent underclass: grand sites graduated to stone, while humbler lordships remained in timber for centuries. The survival of their mounds can distort our picture in the opposite direction, too, making the eleventh-century landscape seem emptier of buildings than it was, since the halls, barns and chapels of the bailey have vanished almost without trace."
+            ]
+          },
+          {
+            "heading": "Why Then? Power in Fragments",
+            "paras": [
+              "The castle appears, between about 900 and 1050, in a particular political landscape. Its heartlands were the Loire valley and Normandy — regions where Carolingian royal power had ebbed furthest and where counts themselves struggled to control their own subordinates. The classic early evidence comes from Anjou, where Count Fulk Nerra, who ruled from 987 to 1040, waged war by building: a chain of strongpoints, including the stone donjon at Langeais, planted across the county to hold territory against his neighbours. In such a world, authority was exercised from fortified places because it could be exercised from nowhere else. The castle was not a symptom of disorder alone; it was a technology for creating order, one lordship at a time. Fulk's own career makes the point neatly: the same strongpoints that checked his rivals also collected his tolls, housed his officials and anchored the county that his descendants inherited as a going concern.",
+              "Historians still debate how violent and how sudden this transformation was. An older account spoke of a feudal revolution around the year 1000, in which castellans seized public rights — justice, tolls, military service — and imposed new burdens on the peasantry from their mottes. Other scholars have urged continuity, pointing to earlier fortifications and slower change, and the argument has refined rather than settled the question. What is not in doubt is the direction of travel. By 1050 the private fortified residence had become the normal instrument of lordship across much of France, and Norman adventurers were about to carry it to England, Wales, Ireland, southern Italy and Sicily.",
+              "The castle, then, was born of fragmentation. Where kings were strong — in late Anglo-Saxon England, in Ottonian Germany — private fortification remained limited and licensed. Where kings were weak, it multiplied. The paradox of the following centuries is that strong kings learned to use the castle too, building the greatest examples of all, and that the weapon forged against royal authority became, in royal hands, the surest means of extending it. That paradox runs from William the Conqueror to Edward I, and it shapes the next chapters of this book. It also explains the castle's uneven geography: the type flourished earliest and thickest not where warfare was fiercest in any simple sense, but where the profits of local lordship were greatest and the restraints upon it were weakest."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "anatomy",
+        "numeral": "3",
+        "title": "The Anatomy of a Castle",
+        "sections": [
+          {
+            "heading": "Site: The First Weapon",
+            "figure": "conwyCastle",
+            "paras": [
+              "Before a single stone was laid, the builder of a castle had already made his most important decision: where to put it. Site was the first weapon. The ideal position commanded ground without being commanded in return — a spur or knoll above a river crossing, a rock in a marsh, a promontory washed by the sea. Height gave observation and made an attacker's climb slow and exposed; water gave transport, fish, mill-power and a moat in one. Conwy Castle in north Wales, begun by Edward I in 1283, shows the logic entire: it grips a rock above the river Conwy, its walls rising straight from the stone, supplied from the sea while dominating the town Edward planted at its foot.",
+              "But strategy was never the only consideration. A castle also had to sit within the estate it administered, near demesne farmland, mills and tenants, with access to building stone, timber and lime. Many castles occupy sites that a modern engineer would not choose — low ground, overlooked hills — because lordship, not abstract strategy, dictated the spot. The honourable centre of a lordship mattered more than a perfect field of fire. Great builders sometimes resolved the tension by reshaping the landscape itself: Kenilworth's vast artificial mere, Caerphilly's lakes and the planned parks and ponds around many lesser castles all made defence and display out of the same rearranged ground.",
+              "Site also governed the castle's daily economics. A garrison ate every day, in peace as in war, so access to arable land, grazing, fuel and a reliable well or spring could matter more than an extra metre of cliff. The strongest rock in the county was useless if carts could not reach it in winter or if its water failed in August. Great builders therefore tested sites the way engineers test foundations: the well sunk deep through the chalk at Dover, the cisterns of the crusader castles and the sited mills and fishponds of ordinary lordships all belong to the same calculation. A castle was a machine for living in a landscape, and its site was where that machine either worked or failed."
+            ]
+          },
+          {
+            "heading": "The Strong Core: Keep and Hall",
+            "figure": "whiteTower",
+            "paras": [
+              "At the heart of the early castle stood the keep, or donjon: a massive stone tower containing the lord's hall and chamber, built to serve as residence, refuge and emblem in one. The White Tower in London, begun around 1078, is the type specimen — roughly 36 by 32 metres at the base, rising some 27 metres, its walls up to 4.5 metres thick at ground level, entered at first-floor height by an external stair that could be destroyed in a crisis. Within were stacked floors for storage, hall and chamber, and the noble chapel of St John, its plain round arches carrying an importance quite disproportionate to mere defence: the keep was a palace that could be fought from.",
+              "As castle planning matured, the keep's functions dispersed. The hall — the true centre of daily lordship, where the household ate, where courts were held and guests received — often moved to a separate, more convenient building in the courtyard, with detached kitchens, pantry and buttery serving it, and a chamber block providing the family's private rooms. Many fine thirteenth- and fourteenth-century castles have no keep at all. Yet the tower retained its symbolic charge, and builders continued to raise keeps, or keep-like great towers, long after military logic alone would have justified them. The tower said what the castle meant.",
+              "Within, the planning followed a consistent social logic. The lowest floor, often reached only from above, served for storage; the entrance floor gave access to guardrooms and sometimes a prison; above rose the hall, and above or beside it the chamber, the most private space in the building, with the chapel placed according to the patron's piety and purse. Fireplaces, window seats and garderobes appear sparingly in early keeps and multiply in later ones, charting a rising standard of comfort that the lord expected even in his stronghold. To climb a keep's stair was to ascend a hierarchy, from stores through ceremony to privacy, and every visitor understood the gradient without being told."
+            ]
+          },
+          {
+            "heading": "Curtain, Towers and the Wall Walk",
+            "figure": "carcassonneWalls",
+            "paras": [
+              "Around the courtyard ran the curtain wall, the castle's continuous defensive skin. Early curtains were modest, but by the thirteenth century a great castle's wall might stand ten metres high and two or more metres thick, carried on a battered, sloping base that made mining harder and dropped missiles bounce outwards. At the top ran the wall walk, protected by a parapet with battlements — solid merlons alternating with open crenels to shoot through — and in later work by machicolations, openings in a projecting parapet gallery through which stones and worse could be dropped on anyone at the wall's foot. The restored walls of Carcassonne, whatever the liberties of their nineteenth-century reconstruction, convey the intended effect: ring upon ring of masonry bristling against the sky.",
+              "Projecting mural towers broke up the curtain's length, and they were its active element. From a tower, defenders could shoot along the face of the neighbouring wall, covering the dead ground that a straight parapet cannot reach; towers also housed stairs, guardrooms, latrines and small chambers, and their changing shapes chart the period's tactics. Square towers, standard in the twelfth century, offered corners vulnerable to mining and to stone-shot. Round and D-shaped towers, increasingly preferred after about 1200, shed missiles better, resisted the pick and widened the field of fire. The evolution was gradual and pragmatic rather than sudden, and square towers persisted where money, habit or symbolism favoured them.",
+              "The details of the parapet changed with missile warfare. Arrow slits — narrow vertical openings splayed widely inside the wall — gave archers and later crossbowmen protected positions, their forms evolving from simple slots to cross-shaped openings that widened the field of aim. Timber hoardings, projecting galleries hung from the parapet in wartime, let defenders drop missiles directly at the wall foot; their stone successors, machicolations, performed the same office permanently. None of these devices was universal, and their presence or absence at a given castle often says as much about the decade and the budget of a particular building campaign as about any general stage of development."
+            ]
+          },
+          {
+            "heading": "The Gate: Strongest and Weakest Point",
+            "figure": "harlechGate",
+            "paras": [
+              "Every castle had to let people in, and therein lay its permanent dilemma. The gate was the necessary hole in the defences, the point every attacker studied and every builder fortified with disproportionate care. The mature medieval answer was the twin-towered gatehouse: a vaulted passage closed by successive obstacles — drawbridge, portcullis, stout doors, a second portcullis — flanked by towers and pierced overhead by murder holes, with guardrooms alongside and the passage sometimes turning a sharp angle to break a charge. Harlech Castle's great gatehouse, built for Edward I in the 1280s, goes further still: it is a fortress within the fortress, with its own substantial accommodation, fit lodging for a constable or a visiting lord, so that the entrance itself became a residence.",
+              "The gatehouse also faced inwards, socially speaking. It was the castle's public facade, the first thing a visitor saw and the last thing a departing army remembered, and patrons decorated it accordingly with heraldry, statues and fine masonry. Its upper rooms were often among the best in the castle. This doubling — the gate as both the most military and the most ceremonial element — captures the castle's nature in miniature. To treat the gatehouse as a purely defensive device is to miss half of why it looks as it does. At many castles it was also the checkpoint of everyday life: tolls were taken there, prisoners held there, and the porter who kept it was an officer of consequence, because whoever controlled the passage controlled the castle's entire traffic with the world outside."
+            ]
+          },
+          {
+            "heading": "Ditch, Moat and Outer Works",
+            "figure": "caerphilly",
+            "paras": [
+              "The defences began well outside the walls. A dry ditch, or a wet moat where the water table allowed, forced an attacker to descend, cross under fire and climb again before he even reached the masonry; it also kept siege engines and miners at a distance. Beyond or within the ditch, earth and timber outworks — banks, palisades, an outer bailey — absorbed the first shock and protected the castle's mills, barns and livestock pens, the economic plant without which a garrison could not eat. At Caerphilly in south Wales, begun in 1268 by Gilbert de Clare, the principle was carried to a spectacular extreme: artificial lakes, held by dams that were themselves fortified, made the stone castle an island and turned water into the principal wall.",
+              "Siege warfare tested all of it. The attacker's repertoire — mining beneath a tower, battering with stone-shot from trebuchets, starvation by blockade, escalade, bribery — developed alongside the defences, and most castles that fell, fell to hunger, treachery or the mine rather than to storm. A wise builder therefore invested as heavily in wells and granaries as in towers: a castle that could not be fed could not be held. The anatomy described in this chapter — site, core, curtain, gate and outworks — was not a checklist but a system, each part compensating for the weaknesses of the others. Chapter by chapter, this book now follows that system through the hands of its greatest builders."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "norman",
+        "numeral": "4",
+        "title": "The Norman Template: Conquest in Timber and Stone",
+        "sections": [
+          {
+            "heading": "1066: An Army That Built",
+            "figure": "towerLondon",
+            "paras": [
+              "The Norman Conquest of England was prosecuted with castles as much as with cavalry. William of Poitiers and the Bayeux Tapestry agree on the opening move: no sooner had the Norman army landed at Pevensey in September 1066 than it fortified its beachheads, and at Hastings a motte was thrown up inside defences in full view of the watching army. After the battle, the pattern repeated at every stage of the advance — Dover, Canterbury, Winchester, London. William's method was to plant a garrisoned strongpoint in each captured town and shire, from which mounted troops could dominate the surrounding country and to which they could retreat. The castle was the Conquest's operating system: conquest, occupation and administration in a single building type. A mounted garrison of a few dozen men, secure behind palisades and able to ride out at will, could hold down a district many times its own number, which is why the castle, and not the pitched battle, was the decisive Norman weapon after 1066.",
+              "The scale was unprecedented in England. The conventional estimate, repeated in most modern accounts, is that more than 500 castles had been raised in England and the Welsh Marches by 1100, and the accounts suggest the true figure may be higher, since the humblest timber works leave faint records. Domesday Book mentions some fifty by name in 1086, but archaeology keeps adding to the list. Most were built not by the king but by his tenants-in-chief and their knights, each new lord securing his new lands. The Anglo-Saxon Chronicle's bitter entry for the reign says it plainly: they built castles far and wide, and oppressed the unhappy people — and then the land was full of castles. The resentment is itself evidence of how completely the building embodied the new regime.",
+              "In a famous passage, the chronicler Orderic Vitalis explained why the English had fallen so easily: they had no castles. Fortification of the kind the Normans practised — private, numerous, garrisoned by professionals — was alien to Anglo-Saxon warfare, and once planted it could not easily be rooted out, because every castle taken merely proved the need for more. Within a generation, the landscape of England had acquired a feature it would keep for five hundred years. The building campaigns were also acts of colonisation in the countryside: castles were planted at river crossings, at the heads of valleys and beside newly founded boroughs, so that military occupation, urban plantation and agricultural exploitation advanced together under the same lord."
+            ]
+          },
+          {
+            "heading": "Motte and Bailey: The Ten-Day Fortress",
+            "paras": [
+              "The workhorse of the Conquest was the motte and bailey, and its genius was speed. A ditch was dug, the spoil heaped into a mound, a timber tower and palisade raised on top, and a palisaded enclosure laid out below: a defensible castle in days or weeks, using axes, spades and the compulsory labour of the neighbourhood. The writer Lambert of Ardres describes one such tower at Ardres in detail — a great timber house of several storeys, carpentered like a ship — and excavated examples show sophisticated framing and joinery. Some components may have been prefabricated: the tapestry appears to show timbers numbered or prepared in advance, and historians still debate how far the Normans carried a flat-pack fortress across the Channel. The evidence is suggestive rather than conclusive, and the debate continues.",
+              "Earthworks survive where timber does not, and England and Wales preserve hundreds of mottes, from the royal giants at Windsor and York to anonymous mounds in farm fields. Their distribution is a map of Norman lordship itself — dense in the Marches and the conquered lowlands, thinning where Norman control came late or never fully arrived. Sizes vary enormously. A great royal motte could carry a stone shell keep; a small knight's motte might support a tower little bigger than a house. The form was a kit of parts, adaptable to any purse and any urgency, which is precisely why it spread so far and so fast.",
+              "The motte and bailey had a long afterlife. In unsettled districts — the Welsh frontier, Ireland after 1169, the Anglo-Scottish border — timber castles were still being built in the thirteenth century, and many a stone castle began life as a motte whose mound still dictates its plan. To dismiss the type as a primitive prelude to real castles is to misunderstand it. For two centuries it was the standard instrument by which aristocratic power took physical possession of land, and its earthworks remain the commonest medieval monuments in the British landscape. Their very cheapness had a political consequence: because almost any knight could afford one, castle-building could not be confined to the great, and kings who wished to control fortification had to rely on law, custom and demolition after revolt rather than on cost alone."
+            ]
+          },
+          {
+            "heading": "The Great Stone Keeps",
+            "figure": "hedingham",
+            "paras": [
+              "Alongside the timber flood, the Normans built in stone from the start — fewer works, but of a scale England had not seen since Rome. The White Tower at London, begun about 1078 under Bishop Gundulf of Rochester's direction, set the pattern: a near-cubic mass of masonry, its corner turrets rising above the parapet, its interior arranged as a sequence of increasingly private floors culminating in the double-height chapel of St John. At Colchester, the keep was even larger in plan, raised over the podium of the Roman temple of Claudius, as if to annex antiquity itself. These were not merely refuges. They were palace-fortresses, containing the ceremonial rooms of a court and visible for miles — deliberate mountains of stone announcing permanent rule.",
+              "The type reached its refinement in the twelfth century. Hedingham Castle in Essex, built around 1140 by Aubrey de Vere, presents a keep of almost classical discipline: five storeys, walls faced in fine ashlar, and within, a great hall of exceptional elegance carried on a single majestic arch. Rochester's keep, built in the 1120s and battered by King John in the great siege of 1215 — when miners fired its corner with the fat of forty pigs, as the chroniclers relate — still dominates its city. The keeps at Castle Rising, Norwich and Dover add sculpture, forebuildings and grand external stairs that turned the approach to the lord's door into a processional route. Defence in these buildings is inseparable from ceremony.",
+              "Why build so monumentally, when a timber tower on a mound was defensible enough? Because the great keep addressed an audience. It proclaimed that its owner had arrived not as a raider but as a ruler, with resources beyond local comprehension and intentions beyond a single lifetime. Stone also solved timber's frailties — fire and rot — and gave a family a permanent headquarters for its archive, treasury and chapel. When modern scholars describe the keep as a symbol, they are not diminishing its military value; they are reporting what its builders plainly spent their money to achieve. The keeps also fixed a template of lordly living — hall above, chamber above that, chapel in honourable proximity — that later castle planning inherited even when it abandoned the single great tower in favour of ranges around a courtyard."
+            ]
+          },
+          {
+            "heading": "The Norman South: Sicily and Beyond",
+            "paras": [
+              "While William conquered England, other Normans were conquering the other end of Europe. Between 1061 and 1091, Robert Guiscard, Roger de Hauteville and their followers took Sicily and southern Italy from Byzantine and Muslim rulers, and they fortified as they went — but the castles of the Norman south grew in different soil. Here the newcomers inherited sophisticated traditions of building: Byzantine fortification, Arab military architecture and cities of stone far older than anything in Normandy. Norman lordship in Italy expressed itself as much in taking over and adapting existing strongplaces as in planting mottes, and the pure motte-and-bailey landscape of England has no real southern equivalent.",
+              "Under Roger II, crowned king of Sicily in 1130, castle and palace merged in ways the north would take a century to match. The royal palaces of Palermo, with the Palatine Chapel's Byzantine mosaics and carved Islamic ceilings, stood within fortified complexes; castles across the island guarded roads, ports and mountain passes as part of a centralised royal administration staffed by Latin, Greek and Arab officials alike. The castle in Sicily was less often the badge of a semi-independent baron and more often an instrument of an unusually bureaucratic monarchy — though the barons of the mainland provinces, Apulia and Calabria, built and rebelled from their own strongholds often enough.",
+              "The Norman achievement, north and south, was to make the castle portable. A social technology perfected in the Loire and Normandy proved adaptable to English shires, Welsh valleys and Sicilian mountains, adjusting its materials and forms to each new setting while keeping its essential programme intact. That adaptability explains the speed of its spread, and it poses the question the next chapters take up: what happened when the castle passed into the hands of kings rich enough to build it on an unprecedented scale — in France above all, where the type had been born. The two Norman worlds also remained in conversation: masons, patrons and marriage alliances moved between England, Normandy and the south, carrying details of plan and ornament with them, so that the castle's development in any one region is rarely intelligible in isolation."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "france",
+        "numeral": "5",
+        "title": "France: Donjons, Kings and the Lionheart's Castle",
+        "sections": [
+          {
+            "heading": "The Donjon: From Fulk Nerra to the Louvre",
+            "paras": [
+              "France was the castle's homeland, and its characteristic monument was the donjon — the word derives from the Latin dominium, lordship — a great residential tower that dominated castle and countryside together. Among the earliest surviving in stone is Langeais on the Loire, built by Fulk Nerra of Anjou around 994 or 995; its surviving wall, a tall fragment of coursed rubble with small round-headed windows, is precious evidence that the stone donjon was already established at the turn of the millennium. Through the eleventh and twelfth centuries the type multiplied across France, square or rectangular towers of increasing size and finish, each the seat and the safe of an ambitious lord. Their distribution follows the map of political ambition with embarrassing fidelity: donjons cluster thickest where lordships were contested, frontiers unsettled and counts least able to impose a monopoly on fortification.",
+              "The Capetian kings, long weaker than their greatest vassals, learned the lesson and applied it with royal resources. Philip Augustus, who reigned from 1180 to 1223, built donjons as a matter of system: at the Louvre in Paris, around 1190, he raised a great cylindrical tower some 30 metres high and about 15 metres across, set within a quadrangular walled enclosure at the city's western edge — a fortress against both the English threat down the Seine and his own turbulent capital. Variants of the royal tower, with its vaulted floors, its well and its carefully restricted entry, appeared at royal sites across his expanding domain, an architecture of administration as recognisable as a seal.",
+              "Philip's donjons matter because they were standardised. Drawn up by royal engineers, built to a budget and recorded in royal accounts, they show the castle becoming an instrument of state planning rather than baronial improvisation. The Louvre tower has gone — demolished in the seventeenth century, its foundations recovered by modern excavation beneath the palace courtyard — but its message survives: by 1200 the king of France no longer merely tolerated castles. He outbuilt the castellans, and he did so in a contest whose most famous episode was fought on the Seine against a king of England. The royal accounts that survive for these works are among the richest sources for medieval building practice anywhere in Europe, recording wages, cartage, stone purchases and the movement of named master masons from site to site."
+            ]
+          },
+          {
+            "heading": "Château Gaillard: The Saucy Castle",
+            "figure": "chateauGaillard",
+            "paras": [
+              "Château Gaillard, Richard the Lionheart's fortress above Les Andelys, is the most celebrated castle of the twelfth century, and it was built at astonishing speed. Between 1196 and 1198, Richard spent, the accounts suggest, some £11,500 on the works — more than he spent on any English castle — driving the project forward to secure his Norman frontier against Philip Augustus. The site is a chalk spur high above a bend of the Seine. On it Richard's engineers set a masterpiece of the donjon tradition adapted to a new sophistication: an inner bailey whose curtain wall curves in a distinctive scalloped plan that eliminated dead ground, a massive keep with a sharply pointed prow facing the likeliest attack, and outer works reaching down the spur. Richard is said to have boasted that he could hold it were its walls made of butter, and to have called it his saucy castle — the anecdotes are chroniclers' embroidery, but they catch his pride in it.",
+              "The design shows knowledge of the newest military thinking, including lessons Richard had absorbed on crusade in the East — concentric tendencies, machicolations, the careful separation of successive lines of defence — though how far each feature owed to eastern example rather than western ingenuity remains, as Chapter 6 discusses, a genuinely open question. What is certain is the intention: Gaillard was not a residence that happened to be fortified but a weapon aimed at Paris, garrisoned, victualled and built to be seen from the river road below.",
+              "Its fall, when it came, was by endurance rather than by storm. After Richard's death in 1199, Philip Augustus took the town and outworks in 1203 and settled to a methodical siege. By March 1204 the garrison, swollen by townspeople whom the defenders had expelled to save food and whom the French refused to pass through their lines — one of the siege's most pitiless episodes — was starved into surrender. Normandy itself fell within months. Gaillard's lesson was written across the thirteenth century: the finest walls in Europe could not hold a castle whose king was dead, whose relief never came, and whose enemy commanded the resources of a rising monarchy. Castles did not fight; men did, and men ate. Philip's conduct of the siege — systematic, patient and lavishly supplied — is itself a sign of how the balance of resources had shifted: a monarchy that could keep an army in the field for months before a single castle had changed the strategic meaning of fortification."
+            ]
+          },
+          {
+            "heading": "The Capetian Answer: Royal Works and Town Walls",
+            "figure": "coucy",
+            "paras": [
+              "The fall of Normandy settled the contest in the north, and the thirteenth century in France became an age of royal building. The Capetians and their successors fortified frontiers, ports and roads, and married the castle to the planned town: at Aigues-Mortes, founded by Louis IX in the 1240s as France's Mediterranean port of embarkation for crusade, the Tour de Constance and the great rectangular enceinte of walls and towers still stand complete, a royal castle-town conceived as a single work. Town walls multiplied under royal encouragement across the kingdom. The castle was becoming urban, administrative, even municipal — an evolution that purely military histories tend to miss.",
+              "Against this rising royal order, the greatest barons answered in kind. At Coucy in Picardy, in the 1220s, Enguerrand III de Coucy raised the largest donjon in Christendom: a cylindrical tower about 31 metres in diameter and over 50 metres high, ringed by four corner towers and a curtain wall of matching ambition. It was a statement by a lord who, legend said, styled himself no king, yet no mere prince either — roi ne suis, ne prince, ne duc, ne comte aussi; je suis le sire de Coucy. The tower stood until 1917, when retreating German forces dynamited it, one of the great cultural losses of the First World War; photographs and the surviving enceinte preserve its scale. Coucy shows the donjon tradition at its zenith and its limit: after such a gesture, there was nowhere for private building to go but towards the palace.",
+              "Royal policy increasingly worked to make sure of that. Successive kings required licences, demolished adulterine castles after revolts and absorbed baronial strongholds into the domain, while the costs of first-rate fortification rose beyond most private means. The thirteenth-century French castle thus divides into two futures: the royal fortress, professional and strategic, and the seigneurial residence, where defence thinned into display. The Loire valley, the seedbed of the donjon, would become the showcase of the second. Demolition, it should be noted, was rarely total: slighted castles kept their chapels, halls and farm buildings in use, and many a supposedly destroyed stronghold continued as a residence long after its battlements had been thrown down."
+            ]
+          },
+          {
+            "heading": "From Fortress to Palace: The Loire Begins",
+            "figure": "angers",
+            "paras": [
+              "The castle of Angers embodies the transition in a single building. Begun in its present form under the regency of Blanche of Castile around 1230, its enceinte is one of the most formidable in France: some half a kilometre of wall, seventeen massive towers of banded stone, guarding the confluence of the Maine and the Loire. Yet this fortress was from the start also a comital and then royal residence, and in the fourteenth century the dukes of Anjou filled its courtyard with the apparatus of a court — hall, chapel and lodgings — and hung in it the Apocalypse Tapestry, the greatest woven cycle of the age, commissioned by Louis I of Anjou in the 1370s. Fortress and palace share the walls without contradiction.",
+              "Across the later Middle Ages, the Loire castles drifted steadily towards pleasure. Moats became mirrors for facades, towers acquired tall roofs and carved dormers, and the courtyard ranges opened wide windows onto gardens. The process was gradual, uneven and reversible — the Hundred Years War re-militarised many a comfortable house — but its direction is unmistakable by 1400, and it was completed in the sixteenth century, when the Loire became the garden of French kings and the château shed its defences altogether. That later flowering lies beyond this book's main period; its roots, however, are medieval, and they are here, in castles that had always been homes. The point is worth pressing because it corrects a common caricature: the medieval castle was not a grim barracks that accidentally acquired comforts at the end of its life, but a residence whose military character waxed and waned across the centuries according to the politics of its region.",
+              "France therefore offers the castle's whole biography in one kingdom: born among warring counts, standardised by kings, perfected as a weapon at Gaillard, answered in stone at Coucy, and finally softened into the palace. The next theatre reverses the direction. In the crusader East, the castle was stripped back to war and institutional survival — and the innovations forced by that extremity changed building in the West for good."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "crusader",
+        "numeral": "6",
+        "title": "The Crusader Castles: War at the Edge of the World",
+        "sections": [
+          {
+            "heading": "The Military Orders: Castles as Institutions",
+            "paras": [
+              "The crusader states founded after 1099 — the kingdom of Jerusalem, the principality of Antioch, the counties of Tripoli and Edessa — were thin settler regimes holding hostile country with few men. Castles were their skeleton. From strongpoints such as Saône, Kerak and Montreal, Frankish lords watched roads, sheltered harvests and raided or defended the frontier. But the decisive development was institutional: from the mid-twelfth century, the great frontier castles passed increasingly to the military orders, the Knights Templar and the Knights Hospitaller, religious corporations vowed to war, whose international networks of estates in Europe generated the money, recruits and supplies that local lordships could not sustain.",
+              "A castle of the orders was far more than a fort. It was an administrative capital for a district of villages and farms, a treasury, a prison, a depot for grain and arms, a stud farm and a bank: the orders moved money for pilgrims and kings, held deposits and ransoms, and governed their territories from castle courtyards. Their garrisons mixed brother-knights, sergeants, mercenaries and local Christian auxiliaries, supported by the whole apparatus of estate management. This is why the orders' castles are so large and so carefully serviced — great cisterns against siege and summer, stables for hundreds of horses, refectories and dormitories arranged almost monastically. The castle here reached its fullest development as an institution for holding land, of which fighting was only one function among several.",
+              "The strategy had a cost. Castles could hold ground but not win it back, and as Muslim power unified under Nur al-Din and then Saladin, the net tightened. After Hattin in 1187, castle after castle surrendered for want of relief, their garrisons overwhelmed by the loss of the field army rather than by any failure of their walls. The orders rebuilt and refortified in the thirteenth century on a still grander scale — the works examined next — but the strategic arithmetic never changed. A castle buys time; only an army, or a treaty, can spend it. The orders understood this arithmetic perfectly well, which is why their castles were placed to be relieved where relief was possible, supplied by sea where the coast allowed, and stocked to outlast not a raid but a campaigning season."
+            ]
+          },
+          {
+            "heading": "Krak des Chevaliers: The Concentric Lesson",
+            "figure": "krakGlacis",
+            "paras": [
+              "Krak des Chevaliers, in modern Syria, is the most famous crusader castle in the world, and its fame is earned. Given to the Hospitallers in 1142, the site — a spur commanding the Homs Gap, the great route between the interior and the sea — was rebuilt by the order through the middle decades of the twelfth century and again, extensively, after the earthquake of 1202. The result is the classic concentric castle: two complete circuits of wall, one within and above the other, so arranged that defenders on the inner ring could shoot over the heads of those on the outer, and that the loss of the outer ward still left a fully defensible core. Between the circuits lie the castle's sophisticated traps, above all the bent entrance, a vaulted ramp turning sharply uphill, exposed throughout its length to fire from above, which delivered attackers, if they survived it, into the heart of the garrison's ground.",
+              "The details deserve their reputation. The outer face of the inner stronghold is armoured by a great sloped glacis, a talus of masonry that thickened the wall against mining and stone-shot and shed missiles outward. Vast cisterns, fed by an aqueduct, stored water for years rather than months; stables, stores and a handsome Gothic hall and chapel served a peacetime community of brothers and officials. In the thirteenth century the castle could field a garrison, the sources suggest, of some two thousand men when fully manned — a figure to be treated as an order-of-magnitude estimate rather than a muster roll, but indicative of the scale on which the Hospitallers operated.",
+              "Krak never fell to assault. In 1271 the Mamluk sultan Baybars took it after a siege in which, the accounts relate, a forged letter purporting to come from the Hospitaller Grand Master ordering surrender helped to break the garrison's will — trickery succeeding where engines had not. The castle passed almost intact into Mamluk hands and was garrisoned for centuries more, which is why it survives in such extraordinary completeness. It is the supreme surviving lesson in what the concentric principle could achieve, and its influence on castle design in the West, though real, needs to be weighed with care, as this chapter's final section argues. Arab writers who saw the castle in its prime treated it with professional respect, and its later Mamluk garrison kept its defences in repair — an unintended tribute from the very power that had taken it."
+            ]
+          },
+          {
+            "heading": "Sea Castles and Harbour Chains",
+            "figure": "rhodes",
+            "paras": [
+              "Not all crusader castles stood on inland hills. The crusader states lived by the sea — by the Italian fleets that supplied them and the pilgrim traffic that sustained them — and their ports were fortified accordingly. Acre, the kingdom's great harbour after 1191, was ringed with walls and the castles of the orders and the Italian communes; at Sidon, the crusaders built a castle on an island joined to the shore by a causeway; the Templars' Château Pèlerin at Atlit, begun in 1218 with the help of pilgrims, thrust two enormous towers across a promontory, its harbour and sea-walls making it effectively impregnable — it was abandoned, undefeated, only when the mainland cause itself collapsed in 1291. Harbour defence used the whole medieval toolkit, including chains across harbour mouths, towers commanding anchorages and fortified moles.",
+              "When the mainland states fell, the sea castles became the frontier. The Hospitallers, expelled from Acre in 1291, regrouped in Cyprus and then, between 1306 and 1310, conquered Rhodes, which they held for over two centuries. There the order became a naval power, its fortified city and harbour works — the great walls, the towers commanding the moles, the arsenal and the famous Street of the Knights — forming a castle scaled up to a maritime city-state. Rhodes withstood a major Ottoman siege in 1480 and fell only in 1522, to the full power of Suleiman the Magnificent, by which time gunpowder artillery, the subject of a later chapter, had rewritten the rules that Krak embodied.",
+              "The sea castles complete the crusader picture. Inland, castles held the agricultural land and the roads; on the coast, they held the lifeline. Together they formed systems, not isolated strongpoints — chains of mutually supporting works whose intervisibility and signalling allowed a small military class to police a large territory. It was the most systematic castle-building of the Middle Ages, produced by the most desperate strategic circumstances, and its lessons travelled home with every returning crusader and every brother of the orders posted back to Europe. The orders' western commanderies were part of the same system: farms and houses across Europe whose rents were assessed, collected and shipped east, so that a village in France or England might be paying, quite literally, for the garrison of a tower on the Syrian coast."
+            ]
+          },
+          {
+            "heading": "What the East Taught the West — and What It Did Not",
+            "paras": [
+              "What exactly did western castle design owe to the East? The older literature answered confidently: returning crusaders brought home concentric planning, machicolations, round towers and the bent entrance, and European castles were transformed. Modern scholarship is more cautious, and the honest position is one of partial transmission. Some transfers are plausible and documented in sequence — the near-simultaneous refinement of concentric planning in the East and in Edward I's Welsh castles, built by a king who had been on crusade and who employed Savoyard and other engineers, invites a connection. Other features have western pedigrees that predate or parallel eastern examples, and similar problems often produce similar solutions: a builder anywhere who worries about dead ground eventually flanks his walls, whether or not he has seen Syria.",
+              "The debate is a useful discipline against romantic diffusionism. Byzantine and Muslim fortification was itself highly accomplished — the great walls of Constantinople, with their moat, outer and inner circuits, anticipated concentric principles by centuries — and influence ran in all directions, including from West to East: Château Pèlerin's twin-towered front owes as much to western practice as to anything local. Castle studies, as R. C. Smail's classic work on crusading warfare insisted, must reckon with logistics and manpower before architecture; the East taught the West less a catalogue of devices than a demonstration of scale — what fortification could be when institutions with international revenues built for survival.",
+              "This book therefore treats the transmission question case by case in the chapters that follow, noting where a feature's eastern origin is likely, where it is merely possible and where independent invention is the better explanation. Uncertainty of this kind is not a failure of scholarship but its proper condition, on this topic above all. What is beyond debate is the achievement itself: in the crusader castles, the building type born in the fragmented Loire reached its most complete medieval expression — fortress, monastery, treasury and town at once — before the frontier that created it disappeared. The buildings themselves outlasted the frontier by centuries, garrisoned, adapted and quarried by successive rulers, and their survival in the Levant preserves a record of twelfth- and thirteenth-century military architecture fuller than anything that remains in the West that produced it."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "edwardian",
+        "numeral": "7",
+        "title": "The Perfect Castle: Edward I in Wales",
+        "sections": [
+          {
+            "heading": "Conquest and Colonisation: The Iron Ring",
+            "paras": [
+              "Edward I did not inherit a Welsh problem so much as choose a Welsh solution, and he chose it twice. The campaign of 1277 forced Llywelyn ap Gruffudd, Prince of Wales, to accept the Treaty of Aberconwy, surrender territory east of the Conwy and pay a heavy indemnity, but it left the principality of Gwynedd intact. The second war, provoked in 1282 by the rising of Dafydd ap Gruffudd and joined reluctantly by his brother, ended differently. Edward mobilised on a scale England had rarely sustained, advanced on several fronts with naval support, and after Llywelyn was killed near Builth in December 1282 and Dafydd was captured and executed the following year, native rule in Wales was extinguished. The Statute of Rhuddlan in 1284 annexed the principality to the English Crown.",
+              "What followed was not occupation alone but colonisation by design, a system historians often call the iron ring. Each great castle was paired with a new walled borough, laid out on a regular plan, settled with English burgesses and protected by privileges that excluded the Welsh from residence and trade within the walls. Castle, town wall and charter were therefore a single instrument: the castle dominated the countryside, the town supplied and paid for its garrison, and the settlers created a loyal population in conquered land. Flint, Rhuddlan, Conwy, Caernarfon, Harlech and, lastly, Beaumaris guarded the coast and the sea routes to Ireland, while Builth, Aberystwyth and others secured the interior. The geography was deliberate, and so was the message.",
+              "The system was completed in two waves, which the building accounts let us follow almost season by season. The castles of the first war, in 1277 — Flint and Rhuddlan on the north coast, Builth in the middle March and Aberystwyth in the west — were competent but comparatively modest works, several of them begun before James of St George had stamped his authority on the programme. The second wave, from 1283, was of another order entirely: Conwy, Caernarfon and Harlech are among the greatest castles of the European Middle Ages, and they were raised simultaneously, in a conquered country, by a workforce numbered in thousands. Edward returned to the charge once more after the revolt of 1294–95, which had shown how exposed Anglesey remained, and added Beaumaris to close the ring. Read on the map, the ring is a strategy; read in the accounts, it is a budget; read on the ground, it remains the most coherent group of medieval fortresses anywhere in Europe."
+            ]
+          },
+          {
+            "heading": "James of St George: The Master from Savoy",
+            "paras": [
+              "The man who gave this programme its architectural form was a mason from Savoy. Maître Jacques de Saint-Georges, known in English records as Master James of St George, came from Saint-Georges-d'Espéranche in the Viennois, south-east of Lyon, where he had worked for Count Philip of Savoy. Edward had passed through Savoy in 1273 on his return from crusade, met its count, his wife's kinsman, and seen the castles then rising there. When war came in 1277, James was in English service, and by April 1278 he was in Wales, directing works at Flint and Rhuddlan. A. J. Taylor, whose patient work in the surviving accounts identified him, established the Savoyard connection beyond reasonable doubt, though the precise buildings James designed before 1277 remain debated.",
+              "It matters to be precise about what a master mason did. James was not an architect in the modern sense, producing drawings for others to follow, but the directing craftsman on site: setting out plans, designing templates for cut stone, hiring and organising masons, carpenters and smiths, and answerable for money and time. He was exceptionally well rewarded, with a substantial daily wage, a life grant of land and the constableship of Harlech. Around him worked other Savoyards, among them men who had cut their teeth on the count's works at Yverdon and elsewhere, which helps explain why Welsh castles suddenly show features — round towers with careful arrow slits, certain gatehouse arrangements — familiar on the shores of Lake Geneva. The debt is real, but James adapted what he knew to Welsh rock, Welsh weather and an English king's purse."
+            ]
+          },
+          {
+            "heading": "Castle and Town as One Work",
+            "figure": "caernarfon",
+            "paras": [
+              "At Conwy and Caernarfon the union of castle and town is complete. At Conwy, begun in March 1283 on the site of the Cistercian abbey of Aberconwy, which was moved upriver for the purpose, castle and borough walls were built together as one continuous work, the town's twenty-one towers and three gatehouses sharing masons, stone and money with the castle itself. The whole circuit was substantially finished within about four years, a speed only possible with mass impressed labour, sea-borne supply and relentless accounting. The castle, with its eight great towers and two barbicans, commands the estuary crossing; the town nestles inside its walls beneath it. Neither makes full sense without the other, and that was the point.",
+              "Caernarfon, begun in the summer of 1283, adds ideology to strategy. Its towers are polygonal rather than round, its masonry banded in different colours, and its principal gate was intended to carry statuary above the entrance. Historians have long read this as a deliberate evocation of imperial Rome and, more distantly, of the walls of Constantinople, and the siting strengthens the reading: a Roman fort, Segontium, stood just outside the town, and Welsh legend, preserved in the tale of the Dream of Macsen Wledig, linked the place to a Roman emperor and a found hoard of imperial treasure. That Edward intended such associations is an interpretation, not a documented fact, but it is a persuasive one. At Caernarfon the castle was meant not only to hold Wales down but to proclaim a new imperial capital within it."
+            ]
+          },
+          {
+            "heading": "Beaumaris: Symmetry Unfinished",
+            "figure": "beaumarisAerial",
+            "paras": [
+              "Beaumaris, on Anglesey, was the last and most perfect of the ring, begun in April 1295 in response to the Welsh revolt of Madog ap Llywelyn the previous year. The site was flat marshy ground beside the Menai Strait — beau marais, the fair marsh, in the French of the court — and its flatness allowed Master James a freedom no crag had permitted. The plan is an almost perfectly symmetrical concentric design: a square inner ward with round corner towers, massive D-shaped towers mid-wall and two great gatehouses, surrounded by a lower outer curtain with its own towers, the whole defended in depth so that attackers who took the outer wall remained exposed to fire from the inner. A tidal dock against the south wall let ships unload directly under the castle's protection.",
+              "Perfection, however, was expensive, and Beaumaris was never finished. Work slowed as money tightened, stopped for long intervals, and resumed only fitfully into the 1330s; the inner towers were never raised to their intended height and lack the upper storeys and turrets the plan implies. The surviving building accounts, among the fullest for any medieval castle, record thousands of pounds spent and a workforce that at its peak numbered in the hundreds of masons alone. Yet even unfinished, Beaumaris demonstrates the end point of a century of experiment: defence arranged geometrically, every approach covered, no weak angle left unconsidered. It was a masterpiece of military engineering built for a war that, by the time it rose, had already been won — which is precisely why the money ran out."
+            ]
+          },
+          {
+            "heading": "Caerphilly: Water as a Wall",
+            "paras": [
+              "Edward did not invent the great castle in Wales, and the proof stands at Caerphilly. Gilbert de Clare, Earl of Gloucester and lord of Glamorgan, began the castle in 1268, three years before Edward became king, in response to the pressure of Llywelyn ap Gruffudd on his northern frontier. De Clare was the most powerful Marcher lord of his generation, and his answer was scale. The castle occupies about thirty acres with its lakes, making it the largest castle in Wales and among the largest in Britain. Its most original feature is water: vast artificial lakes, held by dams, surround the island fortress on three sides, turning the usual problem of a low-lying site into its chief defence.",
+              "The lakes were not scenery. They prevented mining, the most reliable way of bringing down a medieval wall, since any tunnel would flood; they stopped siege engines from being brought close; and they forced an attacker onto narrow dam-top causeways under concentrated fire. Within the water defences de Clare built a strongly concentric arrangement, with a formidable twin-towered gatehouse that anticipates Edwardian practice. Caerphilly therefore complicates any simple story of royal invention: a subject, acting for his own lordship, reached similar solutions at the same moment, and Edward's masons surely studied it. The castle later declined, its famous south-east tower leaning dramatically after subsidence or Civil War slighting — scholars still debate which — a picturesque ruin of what was once the most formidable private fortress in the kingdom.",
+              "Caerphilly also restores a proper sense of proportion to the Edwardian achievement. Edward's castles were not a sudden invention ex nihilo but the royal, lavishly funded culmination of a generation of experiment by kings, Marcher lords and crusading orders across Europe and the Levant. What Edward added was not genius in the abstract but resources without parallel: the taxation of England, the labour of England, the sea power to move both, and a master mason capable of spending them to a single design. The ring's unity is administrative before it is architectural. That is why the accounts, dry as they seem, are the true foundation documents of these castles, and why their survival makes the Welsh programme the best-documented building campaign of the entire Middle Ages."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "empire-iberia",
+        "numeral": "8",
+        "title": "Empire, Iberia and Italy: The Castle Translated",
+        "sections": [
+          {
+            "heading": "Frederick II and the Geometry of Power",
+            "figure": "castelDelMonte",
+            "paras": [
+              "In southern Italy the castle became an instrument of empire a generation before Edward built in Wales. Frederick II, Holy Roman Emperor and King of Sicily, inherited a kingdom troubled by baronial power and, after his return from Germany in the 1220s, set about breaking it: private castles were ordered demolished, new building without licence forbidden, and a network of royal castles, repaired or built anew under central direction, imposed the emperor's authority on Apulia, Basilicata, Calabria and Sicily. Places such as Bari, Trani, Gioia del Colle, Lagopesole and the great fortress-city of Lucera, where Frederick settled a colony of Sicilian Muslims as a loyal garrison, formed a system as considered as Edward's, though its purpose was administrative control of an old kingdom rather than colonisation of a new conquest.",
+              "Its most famous product is Castel del Monte, raised on an Apulian hilltop in the 1240s. Eight octagonal towers clasp an octagonal courtyard within an octagonal curtain: the geometry is exact, confident and unlike anything built for war alone. The castle lacks several features a serious fortress would require, and scholars have argued variously for a hunting lodge, a symbolic monument, a treasury or a residence of state; most now accept that display and imperial ideology were central to its purpose. Visitors are sometimes offered numerological readings of its eights — references to the crown, to resurrection, to cosmic order — and such speculation should be flagged as exactly that. What the stones prove is simpler and more impressive: a ruler who could command geometry at this scale was advertising a rational, universal empire, and the castle was his manifesto.",
+              "Frederick's network also shows the limits of stone as policy. The castles were staffed by castellans answerable to the Crown, provisioned from royal demesnes and listed in registers such as the Statutum de reparatione castrorum, which assigned repair duties to surrounding communities. It was bureaucracy made visible. Yet within decades of Frederick's death in 1250, Angevin conquerors inherited the same fortresses and turned them to their own use, a reminder that a castle network outlives the regime that builds it and serves whoever can garrison and feed it. The southern castles thus belong to the history of government as much as to the history of war: they are tax, law and punishment given permanent architectural form, and their garrisons mattered most on the many days when no enemy was in sight at all."
+            ]
+          },
+          {
+            "heading": "The German Lands: Bergfried and Burg",
+            "figure": "burgElz",
+            "paras": [
+              "North of the Alps the Empire was not a state in Frederick's southern sense but a patchwork of principalities, bishoprics, free cities and thousands of lesser lordships, and its castles reflect that fragmentation. The characteristic German castle, the Burg, was typically the fortified residence of a single lordly family or ministerial kindred, perched on a spur or crag, its plan fitted tightly to the rock. Its signature element was the bergfried, a tall, slender main tower, often with its entrance high above the ground and few internal comforts. Unlike the English keep or French donjon, the bergfried was usually not the lord's residence; the family lived in a separate hall range, the palas, and withdrew to the tower, if at all, only in extremity. Its first purposes were watchtower and symbol — lordship made visible for miles.",
+              "Many German castles were built and held by ministeriales, unfree knights in legal origin who served great lords as administrators and soldiers and, over generations, rose into the lower nobility, founding dynasties of their own. Other castles were divided among heirs under the arrangement called Ganerbschaft, becoming a Ganerbenburg shared by co-heirs who each built their own houses within a common curtain. Burg Eltz, above a tributary of the Moselle, is the most celebrated survivor: three branches of the Eltz family built separate residential complexes side by side from the twelfth century onwards, sharing walls, a gate and a chapel, and the castle, remarkably, was never destroyed. Eltz shows what the shared castle required — law, patience and family discipline — and why so many others, divided without them, decayed into quarrelling fragments.",
+              "The German lands also produced castles on the grand scale where power was concentrated: the imperial Pfalzen of an earlier age, the great episcopal fortresses, and later the strongholds of the Teutonic Order on the Baltic frontier, though those belong also to the crusading story. The dominant pattern, however, remained small, numerous and intensely local. Estimates of the total number of castles built in the German-speaking lands run into the tens of thousands, most of them modest timber-and-earth works long vanished. Stone survivors mislead us if we forget them. The Burg was less a response to siege warfare than the normal housing of lordship in a society where jurisdiction, tolls, mills and protection were all exercised from a fortified hilltop, and where a tower on the skyline told every traveller whose land he had entered."
+            ]
+          },
+          {
+            "heading": "The Reconquista Frontier",
+            "figure": "segovia",
+            "paras": [
+              "In Iberia the castle was shaped by the longest frontier in Latin Christendom. Between the Christian kingdoms of the north — León, Castile, Navarre, Aragon and Portugal — and al-Andalus to the south, territory changed hands over nearly eight centuries, and both sides fortified as they went. The landscape of modern Spain preserves the result in extraordinary density: lines of watchtowers on hilltops in sight of one another, walled towns, and castles commanding river crossings, passes and roads. Castile itself takes its name from its castles. Frontier fortification was rarely a single planned ring in the Edwardian manner; it accreted, reign by reign and raid by raid, as kings granted castles and lands to nobles, towns, bishops and military orders on condition of holding them against the south.",
+              "The military orders were the frontier's institutional backbone. Calatrava, founded in 1158 to hold the castle of that name on the road to Toledo, Santiago, recognised in the 1170s, and Alcántara in the west, combined monastic rule with permanent military service, and kings rewarded them with vast lordships in La Mancha, Extremadura and the Campo de Calatrava. Their castles — Calatrava la Nueva, with its great church and concentric defences, is the type specimen — were at once fortresses, convents and colonising centres, organising settlement and stock-raising behind the frontier. Muslim builders contributed equally to this shared world: the alcazaba, a fortified citadel within or beside a town, and the network of atalayas, watchtowers, passed into Christian use, and Christian masons borrowed techniques and forms, notably in the Mudéjar brickwork of later centuries.",
+              "The alcázar of Segovia gathers these threads into one silhouette. A royal fortress-palace on a rocky prow between two rivers, it was rebuilt repeatedly from the twelfth century, served the Trastámara kings as a favourite residence, housed for a time the young Isabella of Castile, and received its famous slate spires and fairy-tale profile largely in the sixteenth century and in a thorough nineteenth-century restoration after fire. Segovia is therefore a warning against reading any castle as a single moment. Frontier castle, royal palace, artillery school and romantic icon have occupied the same walls in turn. What the Reconquista left behind was not one castle type but a habit: in Iberia, more than anywhere else in Europe, fortification remained woven into town, crown and faith long after gunpowder had supposedly made it obsolete."
+            ]
+          },
+          {
+            "heading": "Italy: Castles Between Commune and Court",
+            "paras": [
+              "Italy translated the castle twice: first into the city, then into the court. In the communes of the north and centre, power was contested street by street, and magnate families built case-torri, tower houses, whose stone shafts still bristle at San Gimignano and survive, cut down to regulation height, in Bologna and Florence. Communes legislated against them precisely because they were private castles in urban form, bases for vendetta and faction. Above the towns, signori and republics alike planted rocche, compact fortresses garrisoned by professional castellans, to hold subject territory: the rocca was the Italian equivalent of the Edwardian castle-borough pairing, domination without colonisation, a small loyal garrison watching a large unreconciled population.",
+              "As lordships hardened into dynasties, the castle grew palatial. The Visconti raised vast quadrangular castles at Pavia and Milan — the Castello Sforzesco, rebuilt by Francesco Sforza after 1450, with its great Filarete tower, housed a court, an arsenal and a garrison in one rectangle. At Ferrara the Este built the Castello Estense from 1385, moated in the centre of the city they ruled, fortress against their own citizens as much as against outsiders; at Naples, Castel Nuovo, begun under Charles of Anjou in 1279 and rebuilt by Alfonso of Aragon, framed its courtyard with a triumphal arch that is among the masterpieces of Renaissance sculpture. In each case the military shell remained real — walls, towers, wet or dry moats — but the life inside was increasingly that of a court: chapels, state rooms, gardens pressing against the ramparts.",
+              "The Italian trajectory points to the castle's European future. Once artillery demanded low, thick, angled works, the high medieval silhouette survived mainly where it had acquired residential and symbolic value, and Italy, which employed the finest military engineers of the fifteenth century, also pioneered the conversion of fortress into palace. The castle did not disappear; it was absorbed. Its courtyard became a cortile, its great hall a sala, its towers ornaments of lineage. To study the Italian examples beside the Welsh is to see the same building type answering opposite questions: in Wales, how to hold conquered land; in Italy, how a ruling family might live splendidly, and safely, among the ruled."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "japan-world",
+        "numeral": "9",
+        "title": "A World Comparison: Japan Builds in Stone and Timber",
+        "sections": [
+          {
+            "heading": "Convergent Evolution: The Same Problem",
+            "paras": [
+              "In the later sixteenth century, Japan produced castles that startle European visitors by their familiarity and their strangeness at once: moats, stone walls, gatehouses arranged to trap attackers, a dominant central tower, a lord's residence at the heart. No influence explains the resemblance. Japanese castle builders had no knowledge of Conwy or Carcassonne, and European engineers knew nothing of Azuchi. The parallels arose independently, because the political problem was similar. During the Sengoku period, from the later fifteenth century, Japan fragmented into competing domains ruled by daimyo, territorial warlords, each needing a fortified seat from which to administer land, store rice and gunpowder, overawe rivals and survive a siege. Where authority fragments and war is endemic, the fortified lordly residence appears: that is the comparison, of functions under similar pressures, and it should not be stretched into a claim of contact.",
+              "The differences are as instructive as the similarities, and they begin with chronology and materials. Japanese fortification had deep earlier roots — ancient Korean-style mountain fortresses, medieval yamashiro, mountain castles of earth and timber with palisades and dry ditches — but the classic stone-based castle is late, essentially a creation of the decades after 1570. It was built in a seismic country, where tall masonry towers crack and fall, in a land of abundant timber and superb carpentry, and in a military world transformed suddenly by the Portuguese introduction of the arquebus in 1543. The European castle had evolved over five centuries against mining, stone-shot and finally gunpowder artillery; the Japanese castle reached maturity in two generations, against massed infantry and guns from the start. Convergent evolution, like its biological counterpart, produces analogous organs, not identical ones.",
+              "This chapter therefore proceeds with care: first the supreme example, Himeji; then the technical system of which it is part, stone base and timber tower; then a methodological reckoning with what such comparisons can prove. The reward of looking at Japan is not a league table of castles but a clearer sight of the European case. Features we treat as inevitable — the residential keep, the concentric wall, the castle town — appear in Japan too, independently, which suggests they answer general problems of lordship. Features we treat as universal, above all building the tower itself in stone, do not, which reminds us how much of the European castle was choice and local material, not necessity."
+            ]
+          },
+          {
+            "heading": "Himeji: The White Heron",
+            "figure": "himeji",
+            "paras": [
+              "Himeji, in Hyōgo prefecture west of Osaka, is the finest surviving Japanese castle, known as the White Heron for the brilliant white plaster of its walls and towers, spread like wings over the town. A fort had stood on the hill since the fourteenth century, but the present complex is the work of Ikeda Terumasa, who received the domain in 1600 after fighting on the winning side at Sekigahara and rebuilt the castle between 1601 and 1609. The result was not a single keep but a tenshu complex: a great main tower of five storeys above a stone base, linked to three smaller towers by covered corridors enclosing a courtyard, so that the whole reads as one many-winged building. Around it spiral the defences — moats, high stone walls, ninety-odd gates, and approach routes that double back, climb, narrow and pass repeatedly beneath loopholes, so that an attacker is always lost and always exposed.",
+              "Himeji was never attacked. Tokugawa peace made it a garrison and administrative centre rather than a battlefield, and that peaceful career is why it survives: no fire of war, no slighting, and, by fortune, escape from earthquake, wartime bombing — a bomb fell on the castle in 1945 and failed to explode — and the wholesale demolition that destroyed most Japanese castles after 1868. A great restoration between 1956 and 1964 dismantled and rebuilt the main tower, documenting its timbers exhaustively. Himeji is designated a National Treasure of Japan, and in 1993 it was inscribed among the first Japanese sites on the UNESCO World Heritage List. Its whiteness is functional as well as beautiful: lime plaster over timber and earth is fire-resistant, a first concern in a wooden city, and in a wooden castle above all.",
+              "To walk Himeji after a European castle is to feel the same intelligence working in another medium. The maze of gates does the work of a barbican and concentric walls; the stone base does the work of a battered plinth against mining and shot; gun loops and stone-dropping chutes punctuate the plaster. Yet the silhouette — layered roofs, gables, upturned eaves — proclaims a palace, and the interiors are suites of wooden-floored and tatami rooms for ceremony and residence, not vaulted stone chambers. Himeji is not Japan's version of a European castle. It is the fully independent solution of a sophisticated building culture to the universal equation of the age: maximum defence, maximum display, minimum burnable surface, all on a hill above a town the castle itself had called into being."
+            ]
+          },
+          {
+            "heading": "Stone Base, Timber Tower: A Different Answer",
+            "figure": "matsumoto",
+            "paras": [
+              "The Japanese system rests on a division of labour between materials. The ishigaki, the great stone wall, forms terraces, ramparts and the soaring battered base of the keep: uncut or roughly dressed stones fitted by skilled masons, in later work cut and squared to near-seamless joints, the wall's slope steepening towards vertical at the top so that climbers fall back and dropped stones bounce outward. Stone, in Japan, is what you stand the castle on and hide behind at ground level. Above it rises timber: a framed tower of massive posts and beams, its walls of earth and plaster on a timber lattice, roofed with tile. The combination is rational in earthquake country — the stone base is massive but low and flexible in its dry-laid joints, the timber superstructure light and repairable — and against fire and shot the thick plaster skin performed better than bare wood had any right to.",
+              "Firearms shaped the detail from the beginning. After Portuguese traders brought the arquebus to Tanegashima in 1543, Japanese armies adopted massed gunfire faster than almost any society in history, and castles answered with narrow vertical loops for guns, distinct from arrow loops, in walls and towers throughout. Matsumoto, in Nagano, shows the transitional moment in black and white: its great tenshu, built in the 1590s by the Ishikawa lords, is lacquered dark rather than white, with a slightly irregular, warlike profile from the last years of civil war, while a moon-viewing turret added in the 1630s, open and elegant, belongs to the peace that followed. Matsumoto is one of only twelve Japanese castles whose keep survives from the early modern period, and one of five designated National Treasures. Osaka, by contrast, embodies scale and power: Toyotomi Hideyoshi's colossal castle of the 1580s, destroyed in 1615 and rebuilt by the Tokugawa with walls of individual stones so vast they remain famous by name.",
+              "The Tokugawa settlement ended the castle age by law. In 1615 the shogunate decreed ikkoku ichijō, one castle per province, and hundreds of castles were demolished; surviving castles were licensed, their repairs controlled, their lords' finances drained instead by compulsory attendance at Edo. The parallel with Norman or Edwardian castle licensing is genuine and limited: all centralising regimes fear the fortified house, but the Tokugawa achieved, for two and a half centuries, the demilitarisation that European kings only intermittently imposed. When Japan modernised after 1868, most remaining castles were sold, stripped or burned, which is why the dozen original keeps are treasured as Europe treasures its few unaltered great churches. Loss rates, in castle history, are part of the evidence too."
+            ]
+          },
+          {
+            "heading": "Comparison With Care: What Parallels Can and Cannot Prove",
+            "paras": [
+              "What, then, can comparison prove? It can show that certain forms recur when certain conditions recur: political fragmentation, lords who must fight and govern from the same seat, towns that grow in a castle's shelter, display as a weapon of rule. The Japanese castle town, the jōkamachi, with its samurai quarters near the walls, its merchants at a supervised distance and its temples placed as outer defences, parallels the Edwardian castle borough in function while differing completely in law and custom. Such parallels discipline European history: they stop us explaining by national character what is better explained by structure. They also test explanations. If height in towers were purely a response to siege engines, Japan, with different engines, should differ — and it does, moderately; if height were purely symbolic, both cultures should exaggerate it — and both do.",
+              "Comparison cannot prove contact where no route of contact existed, cannot rank civilisations by their walls, and cannot transfer explanations wholesale. Materials differ: Japan's seismic logic forbade the tall all-stone keep that Welsh rock invited. Timelines differ: Japan met the gun as a mature infantry weapon before its stone castles were built, and never faced a siege train of heavy bombards on the European scale, nor developed the low artillery fortress in response before peace froze the type. Social meanings differ most of all: the samurai's castle embodied a status order codified in law, the European baron's a web of tenure and custom. The honest conclusion is the more valuable one. Two traditions, sealed from each other, each invented the castle, because the castle is not an artefact but an answer — and the differences between their answers map, with unusual precision, the differences between their worlds."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "building",
+        "numeral": "10",
+        "title": "Raising a Castle: Masons, Money and Time",
+        "sections": [
+          {
+            "heading": "Choosing and Preparing the Ground",
+            "paras": [
+              "A castle began as a decision about ground, and the decision was rarely free. Strategy fixed the district — a river crossing, a harbour, a conquered people's strong place — and within it the builders sought rock if they could get it, height if the site allowed, and always water. The well was the castle's true heart: a fortress without a secure water supply was a trap for its own garrison, and medieval engineers sank shafts through rock to depths that still impress, lining them, housing them in the courtyard or, ideally, within a tower that could be held when all else was lost. At Dover the well lies deep within the keep itself. Rainwater cisterns supplemented wells in dry hilltop sites, and castle accounts treat waterworks not as amenities but as the first military necessity, undertaken early and expensively.",
+              "Preparation was a campaign of logistics before it was one of architecture. Surveyors set out the plan with cords and stakes on ground cleared and levelled, often terraced into the slope at great labour. Quarries were opened as near as possible — stone was the bulkiest material of the age, and every mile of carting multiplied cost — so castle masonry is usually local geology made visible: red sandstone at Caerphilly's region, grey gritstone, white limestone where the beds allowed. Where good freestone was lacking it was imported by water, as prized Caen stone crossed the Channel for Norman and royal works, and sea transport was preferred everywhere: the Edwardian castles in Wales were supplied substantially by ship, their coastal siting a building decision as much as a military one. Timber for scaffolding, centring and roofs, iron for cramps and tools, lead for roofs and pipes — each had its supply line, and the accounts follow them all.",
+              "Before a stone was laid, the ground itself had to be made honest. Foundation trenches were dug down to solid rock or firm subsoil, and on soft or sloping ground the builders rafted, piled or stepped their footings as the site demanded; a wall founded carelessly announces the fact in cracks for eight centuries. Ditches were cut at the same stage, and the rock from the ditch often went straight into the wall above it, the neatest economy in medieval building. Where the castle reused an older stronghold — a Roman fort, a Welsh llys, an earlier Norman earthwork — the new plan had to negotiate with old walls, roads and property lines, which is one reason real castles so rarely match the perfect geometry of their diagrams. Setting out was the master mason's own work, done with line, square and dividers on the ground itself; an error at this stage could not be corrected later, only disguised."
+            ]
+          },
+          {
+            "heading": "The Lodge: Masters, Crafts and Labour",
+            "figure": "guedelon",
+            "paras": [
+              "On site, authority wore an apron. The master mason directed the works from the lodge, the workshop building where stone was cut to template, designs were worked out on the tracing floor, and the masons ate and kept their tools. His status was high and rising: the greatest, like Master James in Wales or the masters of the great churches, were salaried officers, granted land and robes, consulted by kings. Below him stood the warden or clerk of works, who kept the money and the account rolls, and the crafts in their hierarchy — hewers who cut the ashlar, layers who set it, quarrymen, carpenters, smiths who lived by sharpening tools, plumbers who worked the lead, and the unskilled labourers who dug, carried and turned the cranes. Work was seasonal: frost stops mortar, so the building year ran roughly from spring to autumn, walls were covered with straw or thatch to winter safely, and much of the workforce dispersed to harvests between campaigns.",
+              "Numbers could be enormous, and compulsion stood behind them. For the Welsh works the Crown impressed labour across England: sheriffs were ordered to send quotas of masons, carpenters and ditchers, guarded on the march, and desertion from the king's works was a recurring administrative headache. At peak seasons a great site might employ well over a thousand men, who had to be housed, fed and policed in a raw new town beside the walls — building a castle briefly created one of the largest communities in the district. The modern experiment at Guédelon in Burgundy, where since 1997 a thirteenth-century-style castle has been built using only period tools and methods, offers useful evidence about rates of work, the behaviour of lime mortar and the real capacities of treadwheel cranes. It should be used as experiment, not proof: its lessons are about process, and they gain force where they match, rather than replace, the medieval accounts.",
+              "Those accounts are the historian's treasure. For Edward's Welsh castles the pipe rolls and works accounts survive in unusual detail, week by week and name by name: we know wages — a master mason might earn several times a labourer's day rate — know when rain stopped play, know the price of a thousand laths. Cathedral building offers the comparison of scale: a great church might spend comparable sums but over generations, absorbing a steady share of a large institutional income, whereas Edward spent cathedral money at wartime speed from taxation, loans and the resources of the Crown. The castle was thus also a financial event, a sudden injection of royal cash into a conquered economy — one reason the new boroughs, full of the trades that served the works, took root so quickly beside the walls."
+            ]
+          },
+          {
+            "heading": "Stone, Timber, Iron and Lead",
+            "paras": [
+              "A castle wall, seen in section, is a sandwich. Two faces of ashlar — squared stone, cut smooth — enclose a core of rubble, rough stones and mortar poured and rammed in lifts as the faces rose. The technique economised on expensive cut stone while producing a mass that behaves almost monolithically once the mortar sets; where later decay has stripped the faces, cores stand exposed like concrete cliffs, which is effectively what good medieval lime concrete is. Mortar was slaked on site, sand dug or dredged nearby, and consistency mattered: a wall raised too fast could slump, which is one reason lifts and seasons structure the accounts. Putlog holes, the square sockets still patterning many walls, held the horizontal timbers of the scaffolding as it rose with the work, course by course, the scaffold a temporary timber castle wrapped around the stone one.",
+              "Timber was the second great material, and the perishable half of the castle: scaffolding and centring for arches and vaults, hoardings and roofs, floors, doors, gates shod and banded with iron, bridges, cranes and the great treadwheels by which stone and mortar tubs were lifted. Carpenters rivalled masons in number and pay. Iron came as bar and bloom for tools, nails by the ten thousand, hinges, locks and the cramps that tied ashlar together, sometimes run with lead to lock them in their sockets. Lead itself roofed towers and gutters where tile or shingle would burn or blow, and its cost in the accounts is startling — a king's castle could carry tons of it overhead. Nothing was wasted by choice: centring was reused, scaffold timber sold or stored, iron scrap re-forged. A castle site was an economy in miniature, and the clerk's roll, with its sales of offcuts and old rope, records its housekeeping as faithfully as its grandeur.",
+              "Lifting deserves a word of its own, since a castle is, in essence, a problem of raising heavy things safely to a height. Medieval builders used the windlass and the treadwheel crane, in which a man walking inside a great wheel wound the rope as a hamster turns its cage, gaining mechanical advantage enough to raise dressed stones and tubs of mortar to the wall-head; simpler sites made do with ramps, shear legs and muscle. The crane stood on the wall or on a timber stage, and moved as the work moved. Hoisting was the site's most dangerous operation, and its rhythm set the rhythm of everything else: masons on the wall could lay only as fast as stone arrived, which is why the accounts count crane crews, ropes and wheels with the same care they give to wages. The finished castle conceals all of this. Its walls rose inside a scaffolding of wood, rope and human effort that has vanished utterly, leaving only the putlog holes as its fossil."
+            ]
+          },
+          {
+            "heading": "Cost and Speed: The Accounts Survive",
+            "paras": [
+              "What did a castle cost? Only royal works let us answer with figures, and they must be quoted as the accounts record them, in pounds of account, with all the cautions that incomplete survival imposes. The conventional figure for Conwy — castle and town walls together, built essentially between 1283 and 1287 — is in the region of £15,000, raised and spent in under five years. Caernarfon consumed much more over a far longer, interrupted programme; Harlech, by contrast, came in at under £10,000, its crag doing unpaid work. Beaumaris swallowed some £11,000 in its first seasons alone and was still unfinished when the money effectively stopped. Across the whole Welsh programme, Edward's expenditure is conventionally reckoned in the region of £80,000 to £100,000 — set beside an ordinary royal income of perhaps £30,000 to £40,000 a year, the scale of the commitment needs no emphasis.",
+              "Comparisons give the numbers meaning. A prosperous cathedral might command an income of a few thousand pounds a year and build for a century on it; Edward built cathedrals' worth of masonry in seasons. A labourer earning two pence a day, every day, would need centuries to earn Conwy. Speed itself was a weapon: to raise a defensible castle and walled town between one campaigning season and the next was to present rebellion with accomplished facts, and the Welsh revolts of 1294–95 tested works that were defensible precisely because they had been finished fast. Where speed failed, strategy suffered equally fast — several castles caught unfinished in that revolt were taken or burned. The accounts, then, are not bookkeeping decoration on the real history. Time and money are the real history: a castle is frozen expenditure, and its walls can be read, by those who know the rolls, as a graph of a king's credit, will and fear."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "siege",
+        "numeral": "11",
+        "title": "The Castle at War: Siegecraft and Its Answers",
+        "sections": [
+          {
+            "heading": "Defence in Depth: The Logic of the Plan",
+            "paras": [
+              "A well-built castle was almost never taken by direct assault, and its plan explains why. The attacker who approached the walls crossed ground the defenders had shaped for his discomfort: a ditch or flooded moat that stopped him short, an outer wall whose fall still left him in a killing ground overlooked by a higher inner wall, towers projecting so that every stretch of curtain could be swept by flanking fire, and a gate — the obvious weak point — turned into the strongest, with a barbican, a bent entrance, successive doors, a portcullis and murder holes above. Defence in depth meant that success bought the attacker only the right to begin again, closer to the keep and further from his supplies. Each layer cost him time, and time was the one currency a besieger could least afford, since his army consumed food, wages and health in camp while the garrison ate its stores behind walls.",
+              "The castle's real test was therefore the siege, not the storm: blockade, bombardment, mining and negotiation, conducted over weeks or months. This is why the older image of castles deciding wars in a single dramatic assault misleads. Their strategic power lay in refusal. A garrison of a few dozen men could deny a road, a harbour or a province to an army of thousands, compel that army either to detach forces to mask the castle or to settle down and besiege it, and hold out in reasonable hope of relief. Castles were, in effect, a way of storing military force cheaply in stone. The attacker needed superiority everywhere and always; the defender needed only to endure. Everything in this chapter follows from that asymmetry.",
+              "The plan also had to answer a social fact: the men defending a castle were few, and the men attacking it were many, but the few fought from prepared positions with covered movement between them. Wall walks connected tower to tower behind the parapet; stairs within towers let defenders shift reserves to a threatened sector without crossing open ground; posterns — small, concealed gates — allowed sorties against siege works and messengers to slip out by night. A good plan was a machine for multiplying a small garrison, and its geometry can be read as arithmetic: so many men, holding so many layers, for so many weeks, against odds that would be absurd in the open field. Where the arithmetic failed — too few men, too long a perimeter, no hope of relief — no thickness of wall could save the place, a truth the next sections' case studies will confirm from three different directions."
+            ]
+          },
+          {
+            "heading": "Engines, Mines and Missiles",
+            "figure": "trebuchet",
+            "paras": [
+              "The attacker's toolkit was ancient, expensive and slow. Stone-throwing engines stood at its centre: the mangonel and its relatives, powered by torsion or by men hauling on ropes, and from the late twelfth century the counterweight trebuchet, whose great swinging arm could hurl stones of a hundredweight or more against roofs, parapets and, with persistence, walls themselves. Engines seldom demolished first-class masonry outright; their work was to crush battlements, fire buildings within, kill defenders, break morale and make the wall-walk untenable while other methods matured. Around them operated the lesser arts — crossbowmen and archers exchanging missiles, mantlets and wheeled shelters protecting sappers at the ditch, fire arrows and incendiary pots, and the battering ram, formidable against gates but helpless until it could be brought, under cover, across a filled ditch to the wall foot.",
+              "Mining was the surest instrument of all, and the most feared. A gallery was driven beneath a tower or curtain, its roof propped on timber; the chamber complete, the props were fired and the masonry above slumped into the void. Against it defenders listened for picks with bowls of water set on the ground, sank counter-mines to intercept and fight the miners underground in the dark, and sited castles on rock or water precisely to make the mine impossible — Caerphilly's lakes, discussed earlier, are anti-mining devices before they are scenery. Blockade, the third method, required no machinery at all: circumvallation, patience and the arithmetic of the defender's granary against the attacker's supply lines. Each method carried its costs. Engines demanded carpenters, timber, rope and skilled crews; mines demanded miners, often recruited from mining districts; blockade demanded money and a healthy camp, and disease in a besieging army could lift a siege more reliably than any relief force.",
+              "The defence answered in kind, and the architecture records the conversation. Rounded and polygonal towers shed shot and offered no weak corner to the miner; battered, sloping tower bases thickened the wall where the ram and pick worked and bounced dropped missiles outward into the ditch; machicolations let defenders drop stones vertically on men at the foot; arrow slits multiplied and changed shape for crossbow and later handgun. Yet no device abolished the fundamental equation. Given unlimited time, money and freedom from relief, a determined besieger could take almost any castle; given limits on all three, which real wars always impose, the castle usually won. Siegecraft was therefore less a contest of machines than of logistics and politics, and the engines, for all their drama, were instruments for shortening a negotiation as often as for opening a breach."
+            ]
+          },
+          {
+            "heading": "Three Sieges: Rochester, Dover, Kenilworth",
+            "figure": "rochesterKeep",
+            "paras": [
+              "Rochester, in 1215, shows mining at its most decisive. King John, facing the barons who held the castle against him, brought engines to bear without bringing down the great keep, then turned to his miners. The gallery was driven under the keep's south-east corner and its props fired; the chronicle of Roger of Wendover records that the king ordered the fat of forty pigs to be rendered into the mine to make it burn the fiercer — a vivid detail that should be attributed, as here, to chronicle tradition rather than treated as a clerk's audited fact. The corner fell. Even then the garrison retreated behind the keep's internal cross-wall and held the surviving half until starvation, not masonry, ended the siege weeks later. Rochester teaches two lessons at once: a mine could do what engines could not, and a well-divided keep could lose a corner and still refuse to lose the war.",
+              "Dover, in 1216–17, shows a castle doing its strategic work perfectly. Prince Louis of France, invited to England by the rebel barons, needed Dover — the key to the shortest Channel crossing and his communications with France — and its constable, Hubert de Burgh, refused it to him. Louis besieged the castle in the summer of 1216, mined and damaged the northern gatehouse defences, and still failed; after a truce he returned in 1217 and failed again, while Hubert used the castle as a base from which to strike at the sea route itself. Dover never fell, and its resistance is plausibly counted among the causes of the invasion's collapse. A century and a half of royal spending on the castle — the great keep, the concentric curtain, the tunnels in the chalk — was repaid in a single campaign.",
+              "Kenilworth, in 1266, shows the limits of siegecraft against water and will. The Montfortian garrison, holding the castle after Simon de Montfort's death at Evesham, was protected by the great mere, a broad artificial lake, and by formidable walls and towers. Henry III's army deployed engines, attempted an assault by boats and barges, and achieved little; the siege ran for about six months, conventionally the longest siege in medieval England. Disease and hunger in both camps, not any breach, brought the end, and it came by negotiation: the terms associated with the Dictum of Kenilworth allowed the disinherited to redeem their lands, and the garrison surrendered in December 1266 on conditions that preserved life and honour. England's grandest siege had been settled, as most were, at a table."
+            ]
+          },
+          {
+            "heading": "How Castles Actually Fell",
+            "paras": [
+              "Read enough siege narratives and a pattern emerges that reverses the popular image. Castles fell, in rough order of frequency, to hunger, to treachery or surprise, to the failure of expected relief, and to negotiated surrender — and only rarely to escalade or breach-and-storm. Starvation is arithmetic, not drama: every garrison carried a calendar in its store-rooms, and a constable who admitted too many mouths, or was caught with empty barns, had already lost. Treachery recurs because castles were full of people with divided loyalties and because a single opened postern at night was worth a train of engines; surprise, by escalade in darkness or by men admitted in disguise, is treachery's close cousin. Relief failure decided the rest: a castle held not in isolation but as a move in a larger game, and when the field army that might relieve it was beaten, bought off or simply never came, the garrison's resistance lost its purpose.",
+              "Negotiation, accordingly, was not the negation of siege warfare but its normal conclusion, governed by honourable convention. A garrison that had made a proper defence could surrender on terms — life, limb, often liberty and baggage secured — and custom recognised conditional surrender, by which defenders agreed to yield on a fixed day if no relief arrived, a formula that let both sides save face and blood. To refuse terms and be taken by storm, by contrast, exposed the garrison to the full rigour of war, which is why experienced captains calculated coolly and why chroniclers praised those who held past the point of calculation. Assault remained the exception because it was waste: men's lives spent in a ditch against a wall are the dearest currency in war. The castle's triumph, across five centuries, is that it so often persuaded rational enemies not to spend it."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "life",
+        "numeral": "12",
+        "title": "Life Within the Walls: The Castle as Home",
+        "sections": [
+          {
+            "heading": "The Hall: Eating, Judging, Receiving",
+            "figure": "hedinghamHall",
+            "paras": [
+              "For most of its life, a castle was not fighting anybody. It was housing a household, and the centre of that household was the great hall. Here the lord ate in public, received guests and petitioners, held his court, heard accounts, settled disputes and displayed the lordship that the walls outside merely advertised. The hall's architecture staged this theatre precisely: entry through a screens passage that controlled draughts and ceremony, the body of the hall for the household and retainers at their tables, and at the far end a raised dais carrying the high table, lit by the best windows, backed often by tapestry or painted cloth, where the lord sat with family and honoured guests, visible to all and seeing all. The Norman hall within the keep at Hedingham, with its great arch and gallery, shows the type already fully formed in the twelfth century.",
+              "Feeding the hall was an industry. Kitchens — increasingly, for fire safety, in separate buildings connected by a covered way — served hall and chamber through a buttery for drink and a pantry for bread, under a steward who bought, stored and accounted. Meals structured the day as firmly as offices structured the church's; the hall filled and emptied by rank and hour, and a man's place at table was his place in the world, published twice daily. It is easy, among the siege narratives, to forget that for every castle that endured a siege, hundreds endured only winters: the hall's real enemies were cold, damp, smoke and boredom, and its history is the slow campaign against them — bigger windows with glass and shutters, wall fireplaces replacing the central hearth, hangings, rushes, plate. The great hall persisted because the public life it housed persisted; only later, as privacy crept in, did it slowly empty of its lord.",
+              "The hall was also an instrument of government in the most literal sense. Rents were paid there, in cash and in kind; oaths were sworn there; the lord's steward enrolled tenants, fined offenders and audited bailiffs at its tables. A castle without courts and accounts was a barracks; with them, it was the capital of its lordship, and the hall its parliament house, assize court and stock exchange combined. This is why halls were so often the grandest secular room a lord built, grander than his chamber and second only to his chapel in care: magnificence in the hall was not vanity but a working asset, the visible credit-rating of the house. Guests measured a lord by his hall's height, its service and its company, and reported accordingly. In a world without newspapers, the hall was how reputation travelled."
+            ]
+          },
+          {
+            "heading": "Chapel and Chamber: Privacy Arrives",
+            "figure": "stJohnsChapel",
+            "paras": [
+              "Beside the hall stood the chapel, as essential to the household's constitution as the kitchen. St John's Chapel in the White Tower in London, built in the late eleventh century, is the supreme early example: a tunnel-vaulted, galleried space of austere beauty, where the king's household worshipped in order of rank, gallery above, nave below. Castle chapels served garrison and family alike, kept the feasts and fasts that organised the year, and housed the baptisms, marriages and funerals of the house. A resident chaplain was as standard an officer as a porter. The chapel also reminds us that the castle was a parish in miniature: souls were its business too, and an unchaplained castle was, to contemporaries, as defective as an unwalled one.",
+              "The counterweight to the hall's publicity was the chamber, and its history is the slow invention of privacy. The solar — the lord's withdrawing room, typically above or beyond the hall, with the best fireplace, glazed windows and access to a garderobe — began as a single room for sleeping, counsel and the keeping of valuables, and multiplied over the centuries into suites: chamber, wardrobe, privy chamber, separate apartments for the lady, for heirs, for honoured guests. Fireplaces with proper flues and garderobes — latrines built into the wall thickness, their shafts discharging to the moat or a pit, sometimes served by a chased water supply — were comfort technology as real as any machicolation, and their multiplication is a fair index of a castle's date and wealth. Privacy arrived room by room, and the plan of a late medieval castle, a honeycomb of chambers around its still-public hall, maps a society learning, unevenly and by rank, to be alone."
+            ]
+          },
+          {
+            "heading": "Women, Children and the Household",
+            "paras": [
+              "The castle household was a mixed world, and women stood near its centre, not at its margin. The lady of a castle supervised its domestic economy in her lord's presence and governed the whole, defence included, in his absence — and absence, for war, court and estate business, was the normal condition of lordship. The record is explicit. Nicolaa de la Haye, hereditary sheriff of Lincoln and constable of its castle, held Lincoln Castle for the Crown through the crisis of 1216–17, enduring two sieges, an achievement the royal government rewarded and the chroniclers noted; she was one of several women who commanded castles in that war, as others did in every century of the castle's life. Such command was not an anomaly smuggled past convention. A widow or wife holding the family fortress was the family defending its own, and garrisons obeyed accordingly.",
+              "Children were raised inside this world, heirs among the household officers who would one day serve them, daughters educated by chaplains and ladies, pages sent to other castles to learn service and manners — the castle network was also a school system. Below and around the family ran the servants' world: cooks and laundresses, grooms and carters, the porter at the gate, the watch on the walls, craftsmen in the workshops, a population that in a great household numbered scores and in a royal one hundreds. Their rooms survive worst and their names, in wage lists and accounts, survive best; the archaeology of service — back stairs, separate yards, kitchen courts — restores a geography of labour that the state rooms conceal. The castle as home was, for most of its inhabitants, a workplace and an employer first, and a fortress only on the worst days of their lives.",
+              "Household ordinances and accounts let us people these rooms with unusual precision. A great lord's establishment was organised in departments — pantry, buttery, kitchen, hall, chamber, stable, chapel — each with its head, its staff and its budget, and the whole moved with the lord from castle to castle, which is why so many castles stood furnished but empty for much of the year, kept by a skeleton staff awaiting the household's descent. For children of the household, service was education: a boy placed as a page learned arms, manners and accounts in another lord's hall, forging the alliances of the next generation. Marriage, too, was household business, negotiated between families whose halls had entertained each other's children. The castle's domestic machinery thus reproduced the aristocracy itself, generation by generation, as reliably as its walls resisted its enemies."
+            ]
+          },
+          {
+            "heading": "The Garrison and the Constable's Year",
+            "paras": [
+              "Peacetime garrisons astonish by their smallness. A royal castle in quiet times might be kept by a constable, a porter, a watchman or two, a chaplain and a handful of servants — sometimes fewer than a dozen souls within walls built to defy armies. The reason is simple economics and simple strategy: soldiers are expensive, castles in peacetime are deterrents and administrative offices rather than active defences, and a skeleton staff kept the gates, the gaol, the stores and the lord's rights in being. The constable, the castle's standing officer, was accordingly as much administrator as soldier: collecting rents and tolls, holding courts, accounting to the Exchequer or the lord's council, maintaining roofs, wells and weapons, and rendering his account, year by year, in rolls that let us reconstruct his world almost to the last bushel of oats.",
+              "War transformed the arithmetic overnight. Garrisons swelled with retained knights, men-at-arms, archers and crossbowmen, engineers and labourers; stores were laid in against the calendar of endurance — grain and salt meat, wine and ale, arrows by the sheaf, crossbow bolts, spare bows and cord, iron, lead and timber for repairs — and the constable's peacetime housekeeping became the measure of the castle's resistance. Endurance was logistics: so many mouths, so much food, so many days, and a well found within the walls to make the days possible. It is fitting to end where building began, with water and stores. The castle at peace was a home, an office and a symbol; the castle at war was a stocked larder with walls. Its whole long history — the subject of this book — is the story of how one building learned to be all of these at once, and of the societies that needed it to be.",
+              "The constable's year had its own seasons. In spring came repairs after winter storms, the inspection of roofs, gutters and cisterns before the dry months; in summer, the receipt of rents and the stocking of granaries from the new harvest; in autumn, the great provisioning — salt meat, fish, grain, fuel — against winter; and throughout, the small change of lordship: travellers lodged, prisoners kept, writs served, strays impounded. Inventories taken when a constable handed over to his successor list the castle's contents with touching completeness, from artillery and armour down to broken pots and worn-out ropes, and they are among our best evidence for how thinly a great fortress was actually furnished. The splendour was real, but it was concentrated — in the hall's plate, the chapel's vestments, the lord's chamber — while the rest of the vast building stood spare, echoing and cold. To live in a castle was to live in a small warm core inside a large cold monument."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lordship",
+        "numeral": "13",
+        "title": "Lordship in Stone: Power, Law and Landscape",
+        "sections": [
+          {
+            "heading": "The Administrative Machine",
+            "paras": [
+              "A medieval castle was rarely only a fortress, and for much of its working life it was not fighting at all. It was the office of a lordship: the place where rents were paid, pleas were heard, accounts were audited and orders were sealed. Within its walls sat, in varying combinations, a hall that doubled as a courtroom, a chamber where money and charters were kept, a prison for those awaiting trial or ransom, kitchens and stores large enough to sustain a household on progress, and stables and workshops that made the whole establishment mobile. To understand a castle plan is therefore to read an administration made permanent — who could enter, who waited in the courtyard, who was admitted to the chamber, and who was locked below it.",
+              "That administrative role explains features that pure military analysis leaves puzzling. A strong gate controlled not only soldiers but also carts, tolls and litigants; a prominent hall advertised that justice was done here, under this lord, and by his authority; a treasury tower protected coin, plate, deeds and the seal that turned words into enforceable commands. Norman J. G. Pounds and others have stressed how castles anchored networks of estates: reeves and bailiffs rode out from them, manorial renders flowed into them, and their granaries and barns turned dues in kind — grain, livestock, ale, timber — into the hospitality and wages on which lordship depended. The castle consumed, but it also organised consumption across a wide countryside.",
+              "The same machine could coerce as well as coordinate. Castles held hostages, distrained goods for unpaid dues, and provided the armed backing for a sheriff, castellan or marcher lord whose writ might otherwise stop at the parish boundary. Charles Coulson argued influentially that this coercive aura — the licensed, recognised right to fortify and to judge — mattered as much as any capacity to withstand a formal siege, and that many licences to crenellate were sought precisely because they publicly confirmed status and jurisdiction. The debate he opened has not closed, but it permanently shifted the question: a castle must be read as an instrument of government first, and only then tested against the battlefield, its accounts, courts and stores weighed alongside its walls."
+            ]
+          },
+          {
+            "heading": "Designed to Be Seen",
+            "figure": "caernarfon",
+            "paras": [
+              "Castles were placed to be looked at. A tower rising above a river crossing, a whitewashed keep visible for miles across a vale, a gatehouse aligned on the road into town — these were communications before they were obstacles. Height announced surveillance: the lord, in person or by deputy, could see and therefore could be imagined to see. Silhouette did similar work after dark and in poor weather, when a familiar outline on a ridge told travellers whose country they had entered, where tolls would be demanded, and where protection, of a demanding kind, might be found. Siting on earlier strong places, Roman forts, Iron Age hillforts or sacred ground added borrowed antiquity to the message.",
+              "Caernarfon, begun by Edward I in 1283 during the conquest of Wales, carries this language furthest in Britain. Its polygonal towers and bands of contrasting masonry depart deliberately from the round-towered norm of Edward's other Welsh castles, and its Eagle Tower was crowned with stone eagles. Historians have widely read the design as a quotation of the Theodosian Walls of Constantinople and of Roman imperial authority, reinforced by the site's association in Welsh tradition with Magnus Maximus and, in medieval retelling, with the birthplace legend of Constantine. The interpretation is scholarly inference from form and context, not a surviving programme written by the king, and it should be presented as such — but the concentration of costly, militarily unnecessary difference at Caernarfon makes a purely functional explanation hard to sustain.",
+              "Display was never empty vanity, because in a world of limited literacy and no standing bureaucracy, visible permanence was a political fact. To build in stone was to claim that a dynasty, an order or a town would still be collecting, judging and defending in a generation's time. New dynasties built most ostentatiously; secure ones could afford understatement. Even repairs, a heightened tower, a new gatehouse with arms carved over the arch, refreshed the claim for a new audience. The castle in the landscape was thus a repeated public statement, legible to ally, tenant and rival alike, and its audience was meant to complete the meaning: to approach more carefully, to sue for favour, or to think twice before withholding a due."
+            ]
+          },
+          {
+            "heading": "Castles and Settlements: Boroughs, Mills and Markets",
+            "paras": [
+              "Again and again, a new castle gathered a new town around it. The pattern is clear across Norman England and Wales, Plantagenet Gascony, and the colonising frontiers of eastern Europe: a fortified point was planted, a borough was laid out beside or beneath it with measured burgage plots, a market and fairs were licensed, and settlers were drawn by rents, protections and trading privileges that the older, unfortified countryside could not offer. Rhuddlan, Flint, Conwy and Caernarfon in Edward I's Wales pair castle and walled borough as a single foundation; in France the bastides, though not all castle-towns, follow a related logic of planned settlement under a founding lord. Castle and town were designed together, their streets, walls and markets sharing one act of lordship.",
+              "The economic relationship ran in both directions, and tenants felt both sides of it. A castle household was a concentrated market: it bought food, drink, cloth, metalwork, carriage and labour, and its mills — which tenants were commonly obliged to use, paying multure for the grinding — turned lordship into a daily economic presence. Markets held under castle protection produced tolls and stallage; bridges, ferries and river stairs controlled by the castle produced passage money; forests and fisheries administered from it produced fines and sales. Against that income must be set the burdens: purveyance and requisition in wartime, labour services for building and repair, billeting, and the devastation that followed if the protection the castle promised proved, in a real invasion, to be the very thing that drew an enemy army to the town.",
+              "Archaeology has made this interdependence harder to romanticise and easier to specify. Excavated castle-boroughs show plot patterns fossilised in later streets, market crosses and church foundations contemporary with the first timber defences, and mills and fishponds integrated into the same water management that fed the moat. Robert Liddiard and others have warned against treating every pond, park and warren around a castle as pure ornament: these were productive installations as well as pleasures, yielding fish, rabbits, deer and timber while also staging the lord's command over nature. The settlement was not an accidental accretion at the castle foot. It was, very often, the point of the foundation — the rents and trade that would pay, year after year, for the walls that guarded them."
+            ]
+          },
+          {
+            "heading": "The Theatre of Lordship",
+            "paras": [
+              "Matthew Johnson's influential reading of the late medieval castle asks the visitor to follow a route rather than merely to inspect a plan. On this view, architecture choreographed experience: the approach that revealed and concealed the gate, the outer court where a visitor of middling rank waited among carts and grooms, the threshold to the inner court, the stair that rose, turning, to the hall, the oriel window and dais that framed the lord at table, the chamber beyond that only the favoured reached. Each barrier was social as well as physical, each opening a small ceremony of admission or refusal. Plans that look irregular on paper often resolve, walked in sequence, into a graduated scale from public to private, from service to ceremony.",
+              "Landscape belonged to the same theatre. Parks, gardens, orchards, meres and carefully kept views from hall and chamber windows placed the lord at the centre of an ordered world, and processional routes between castle, church, borough and hunting ground turned ordinary journeys into displays. Johnson and Liddiard have both drawn attention to how often high-status windows ignore tactically useful ground and instead open on water, gardens or a distant church and town — the possessions, that is, that the view itself claimed. To dine above one's own millpond and borough roofs was to rehearse dominion nightly. None of this denied defence; it placed defence inside a larger performance in which being seen to rule well, generously and beautifully was itself a means of ruling.",
+              "Bodiam Castle in Sussex, licensed in 1385, is the case on which this argument is most often tested, and it remains genuinely debated. Its broad moat, more a designed sheet of water set within managed ponds and causeways than a simple ditch, reflects the symmetrical façades to perfection and controls every approach into a staged arrival. One influential reading sees a veteran soldier's residence composed as a landscape picture, its military features as quotation and credential; another, set out in the following chapter, insists that its gunports, portcullises and murder-holes were meant in earnest on a coast exposed to French raids. The site will not let either case be simple — which is precisely why Bodiam has become the textbook example for teaching students that a castle can be theatre and fortress in the same stones."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "late-medieval",
+        "numeral": "14",
+        "title": "The Late Castle: Comfort, Brick and Display",
+        "sections": [
+          {
+            "heading": "Brick Empires: Malbork and the Teutonic Order",
+            "figure": "malbork",
+            "paras": [
+              "Malbork, on the Nogat in what is now northern Poland, is by surface area the largest castle in Europe, a brick city of fortification built by the Teutonic Order from the late thirteenth century onwards. The Order — a religious military corporation that ruled Prussia as a sovereign state — moved its headquarters here from Venice in 1309, and the castle grew in concentric stages: a High Castle housing the convent like a fortified monastery, a Middle Castle with the Grand Master's palace, guest halls and infirmary, and a vast Outer Bailey of granaries, stables, workshops and mills. It was capital, monastery, treasury, arsenal and port at once, administering a state through commanderies that reported, paid and were audited here.",
+              "Brick was the region's material answer, not a makeshift. The Baltic plain offered little good building stone but abundant clay, and the Order and its towns developed brick production on an industrial scale, standardising sizes and firing in quantity. In brick, Malbork achieves a precision and scale that local stone could not: moulded and glazed bricks pattern its gables, vast vaulted refectories rise on single central columns, and walls of a thickness no besieger of the region could easily match absorb the shock of early artillery better than their height might suggest. The choice belonged to a wider Brick Gothic world of Hanseatic churches, town halls and warehouses — a reminder that castle architecture always answers first to geology and craft supply, and only then to fashion.",
+              "Malbork's fall was financial as much as military. After the Thirteen Years' War began in 1454, the Order, unable to pay its mercenaries, saw its garrisons pledge castles for wages; in 1457 Malbork itself was sold to Casimir IV of Poland in lieu of payment, and the Grand Master withdrew to Königsberg. The largest fortress in Europe changed hands not by storm but by invoice — a late medieval lesson in the limits of walls without revenue. Under Poland it served as a royal residence and administrative centre, was damaged in later wars, heavily restored in the nineteenth and early twentieth centuries, shattered again in 1945, and rebuilt by the Polish state in a decades-long restoration that made it a national monument and a UNESCO World Heritage Site."
+            ]
+          },
+          {
+            "heading": "The Royal Donjon's Last Flowering: Vincennes",
+            "figure": "vincennes",
+            "paras": [
+              "At Vincennes, east of Paris, Charles V of France built in the 1360s and 1370s the tallest fortified tower in Europe, a donjon some fifty metres high that is at once the last great flowering of the medieval keep and a royal palace in vertical form. Each floor is a complete apartment — vaulted hall, chamber, study, latrines, its own well and fireplace — stacked within walls pierced by a single controlled entrance and defended by its own chemise and towers, a castle within the castle's enceinte. The donjon held the king's person, his treasure and his archives; it was designed so that even if the outer ward fell, the king's government, in miniature, continued above it.",
+              "Beside it Charles raised a Sainte-Chapelle modelled on the royal chapel in Paris, to house relics of the Passion, and began the great rectangular enceinte with its nine towers that still defines the site. Vincennes was a deliberate second capital: close enough to Paris to govern it, separate enough to survive its riots, as Charles, who as regent had seen Étienne Marcel's revolt and the murder of his marshals before his eyes in 1358, had reason to insist. The donjon's comfort — its painted chambers, its chapel, its library, for Charles was a collecting, translating king — was not softness added to a fortress. It was the substance of a monarchy that intended to live, work and be worshipped inside defensible walls indefinitely.",
+              "Later centuries tested and confirmed that intention. Vincennes served as royal residence, then as prison — its donjon held, among many others, the Marquis de Sade — then as arsenal and barracks; it was here in 1944 that German forces executed hostages, and here that the French state still keeps military archives and a major historic library. Of the great enceinte's nine towers, most were levelled in the Napoleonic period on the usual reasoning that unwanted height invited trouble, leaving the donjon's silhouette to carry the whole composition. To stand in its courtyard today is to see the late castle at its most complete: fortress, palace, chapel and treasury conceived, without embarrassment, as a single building."
+            ]
+          },
+          {
+            "heading": "Bodiam: Retirement Castle or Working Fortress?",
+            "figure": "bodiam",
+            "paras": [
+              "Bodiam in East Sussex was licensed to Sir Edward Dallingridge in 1385, at the height of French raiding on the south coast, and completed within about a decade as a near-perfect rectangle of towers and gatehouses reflected in a broad moat. Dallingridge was no decorative courtier: he was a soldier of the French wars, a retainer of the Earl of Arundel, a sheriff and member of Parliament who built in a district that had reason to fear descent from the sea and up the River Rother. Read one way, everything about Bodiam answers that fear — a single controllable approach, portcullises and murder-holes over the gate passage, machicolations, gunports among the earliest in a private castle, and walls of a thickness respectable for its size and date.",
+              "Read the other way, the defence dissolves under scrutiny, and this counter-case, associated above all with Charles Coulson and developed by landscape historians, made Bodiam the textbook example of castle revisionism. The moat could be drained where the ground falls; the gunports sit awkwardly for real fields of fire; the windows are large, the battlements in places thin and decorative, the site overlooked by higher ground, and the whole symmetrical composition — hall, chapel, lord's and guests' lodgings, retainers' quarters disposed around a courtyard in a hierarchy of households — reads as a great man's retirement residence dressed in the honourable costume of war. On this reading Dallingridge, newly married into wealth and newly knighted in status, built his career in stone: the licence to crenellate was the prize, the military detail its necessary rhetoric.",
+              "The debate endures because the evidence genuinely supports a both-and answer better than either extreme, and scholars including Matthew Johnson have urged exactly that conclusion. A veteran could sincerely insure against raids while building principally for household, status and pleasure; a raiding party is deterred by much less than a royal siege train requires, and Bodiam was never meant to resist the latter. What revisionism permanently disproved was the older assumption that military function must be the primary explanation of every feature — not that defence was a fiction. Bodiam's lesson for the reader in the field is methodological: ask of each element what work it does, for which audience, against which threat, and let a comfortable hall and a workable gunport both be true at once."
+            ]
+          },
+          {
+            "heading": "Gunports and Great Households",
+            "paras": [
+              "The first gunports appear in English castles not as revolutions but as small, careful experiments worked into otherwise traditional buildings. Among the earliest documented are those of the 1380s and 1390s — at Cooling Castle in Kent, built by John de Cobham under licence of 1381 on the Thames-side route to London, and at Canterbury's Westgate, a civic gatehouse of about 1380 whose round towers carry keyhole ports for handguns. The ports are modest: a small circular opening, sometimes with a vertical slit above for sighting, placed low in a tower or curtain from which a gunner could cover a ditch or a gate approach. They supplemented arrow and crossbow loops rather than replacing them, and for two generations the two systems stand side by side in the same walls.",
+              "The reason such castles grew ever larger in plan even as warfare professionalised is that their principal population was not a garrison but a household. A great lord travelled and resided with a retinue — officers, chaplains, clerks, grooms, craftsmen, men-at-arms bound by livery and fee — and the late castle is largely a machine for housing that company in graded order: lodgings ranges of identical chambers for retainers around the courtyard, suites for honoured guests, separate kitchens scaled to feed a hundred or more, stables, kennels, bakehouse, brewery and stores. At castles such as Bolton and Wressle, or the Percy and Neville residences of the north, the plan reads like an organisational chart, each rank assigned its distance from the lord's hall and chamber, each service its controlled route that never crossed the ceremonial one.",
+              "Domestic comfort rose with the household's size and expectations: fireplaces in chamber after chamber where one hall fire had once served all, glazed windows, private latrines discharging clear of the walls, painted plaster, tiled floors, gardens and parks beyond the ditch. None of this was bought by abandoning defence, and in the north of England, under real Scottish threat, the most comfortable houses remain the most warlike. The late castle's achievement was integration — to make the fortress and the great house the same building, so completely that later centuries, inheriting the shell, could keep the house and quietly retire the fortress, unbuilding the one and enlarging the windows of the other without disturbing the plan's underlying order."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading",
+        "numeral": "15",
+        "title": "Reading a Castle: The Five Signs in the Field",
+        "sections": [
+          {
+            "heading": "First the Site, Then the Stones",
+            "paras": [
+              "Begin every reading standing where an attacker, a carter and a guest would each have begun: on the approach. Walk, or in imagination trace, the road the castle expects you to use, and note what it does to you — how it bends to expose your unshielded side to a wall, how it climbs so that breath and order are lost before the gate, how it crosses water or a causeway in single file, how often the building disappears and reappears, larger, as you come. Then turn and read the ground the builders were given: the spur, scarp or river bend that does half the defending for free, the higher ground they failed, or were never allowed, to occupy, the springs, wells and cisterns without which the finest walls surrender in a fortnight.",
+              "Water deserves its own slow circuit. A moat is the least of it: ask where the water came from, what leats, dams and sluices fed it, what mills and fishponds shared the system, and where it could be let away — by a defender clearing a field of fire, or by a besieger with time and spades. Many earthworks that look like fortification are in fact water management, and many vanished buildings survive only as platforms, hollow-ways and pond bays in the grass. Earth remembers what stone forgets. Ringworks, mottes levelled for later gardens, outer baileys built over by farms, roads diverted by a park: the field archaeologist's castle is routinely twice the size of the ruin the visitor photographs, and its outer works are where its economy and its first line of defence both lived.",
+              "Only then turn to the standing stones, and turn to them in order of survival rather than of importance. Roofed and inhabited castles preserve floors, stairs and domestic detail but hide their defences under later comfort; ruins expose wall cores, loops and mural chambers but have lost the timber — floors, roofs, hoardings, bridges, gates themselves — that made the stonework function. What survives is never a neutral sample. Ask of every wall who kept it standing and why: a family that stayed, a town that quarried everything except the gate it still used, a nineteenth-century owner who rebuilt the picturesque bits. The building in front of you is a collaboration between its builders and everyone since who found it useful, beautiful or in the way."
+            ]
+          },
+          {
+            "heading": "Working the Signs in Order",
+            "paras": [
+              "The five identification signs set out in this book are a voting system, not a checklist, and the discipline of using them in order is what makes them useful in the field. Work from the perimeter inward and from the large to the small: the curtain and its towers first, for they establish the shape and date-band of the whole enclosure; the keep or its absence second, for that fixes the castle's early centre of gravity and its period of ambition; the gatehouse third, since gates concentrate expense and are rebuilt oftenest, and so date a campaign of modernisation; loops and machicolations fourth, the small diagnostic details that confirm or embarrass the dates the big forms suggested; and concentric depth last, as the summary question — how many independent lines must fall before the place is lost?",
+              "No single sign decides, because every sign can lie in isolation. Round towers appear early in some regions and late in others, and a conservative builder could raise a square tower generations after his neighbours had abandoned them. A magnificent gatehouse may front a curtain of thin, neglected wall; a textbook gunport may be a later insertion, cut through earlier masonry whose disturbance is the real evidence; a keep may be a prison, a treasury or a dovecote by the century you are reading. The signs earn their keep in combination and in contradiction: when tower form, loop type, gate plan and masonry all vote the same way, a date stands on four legs; when one votes against the rest, that dissent is the most interesting fact on the site, pointing to a rebuild, a repair after siege, or a phase your first impression merged into its neighbour.",
+              "Practised on a real site, the method quickly becomes a set of habits. Photograph the junction before the monument: where one build butts against another, a straight joint, a change in stone size, tooling or mortar announces a phase boundary more honestly than any plaque. Follow a wall-walk or its scar and test whether towers actually command the curtain between them. Stand in a loop and look out, because a loop that commands nothing was made to be seen, not used, and that too is evidence — of date, of budget, of intention. Above all, record what you cannot explain rather than smoothing it away. The blocked doorway at high level, the stair that ends at a wall, the tower one bay too many: these anomalies are the site's own footnotes, and a reading that accommodates them is worth more than a tidy one that deletes them."
+            ]
+          },
+          {
+            "heading": "Dating by Detail: Loops, Towers, Roofs",
+            "figure": "arrowLoop",
+            "paras": [
+              "Small features date a castle the way letterforms date a manuscript — imperfectly, regionally, but often to within a generation. The arrow loop is the classic case: the plain vertical slit of the twelfth century widens, in the thirteenth, into forms with round or cross-shaped enlargements — the cross-and-orb and the crosslet — that gave a crossbowman or archer a field of traverse while presenting the smallest target; by the late fourteenth century the keyhole gunport, round hole below a sighting slit, announces a new weapon in the same wall. But loops were copied, reused and faked, by medieval builders quoting an older authority and by Victorian restorers supplying what a ruin was felt to lack, so a loop dates its own insertion first and the wall around it only where the masonry proves them contemporary.",
+              "Tower plans carry a similar, coarser chronology. Square mural towers belong characteristically to the twelfth and early thirteenth centuries; the shift to round and then to D-shaped towers, which shed missiles and mining better and eliminated dead ground at the corners, tracks the lessons of the great sieges of the crusading era; polygonal and multi-angular forms mark both engineering experiment and, at Caernarfon, deliberate quotation. Within the tower, look for the details warfare taught: splayed bases or taluses that complicate mining and ricochet dropped missiles outward, spurs and beaked plans on exposed fronts, and the steady multiplication of loops until, in the fifteenth century, a tower can be a small artillery platform wearing the silhouette of its bow-armed grandfather.",
+              "Roofs and floors, though almost always lost, leave legible evidence for those who look up. Beam sockets and joist pockets give floor levels and spans; corbels and wall-plate lines give roof pitches; the weathering line on a tower's inner face, where a vanished roof once shed water, can recover a whole lost building against a standing wall. Fireplaces and chimney flues inserted through earlier loops, windows enlarged and glazed across former wall-walks, partitions in brick or timber within a stone shell — these domestication layers are not damage to the evidence but a second text written over the first, and dating them matters as much as dating the fortress beneath. A castle read whole has two histories at least: the one it was built for, and the longer one in which it was found, again and again, worth adapting."
+            ]
+          },
+          {
+            "heading": "A Worked Reading: Dover",
+            "figure": "doverKeep",
+            "paras": [
+              "Dover rewards the method because every sign is present and none of them agrees to be simple. The site first: a chalk cliff above the shortest Channel crossing, occupied in turn by a Roman lighthouse, a Saxon church and an Iron Age hillfort, and chosen by William the Conqueror in 1066 for the castle that guarded the road to London. Henry II's great keep of the 1180s, the second sign, stands at the centre in deliberate anachronism — a palace-keep of three storeys, entered by a ceremonial forebuilding stair past a chapel, its walls over five metres thick, built when advanced practice already favoured curtain defence. At Dover the keep is a statement of royal presence at the kingdom's gateway, and its old-fashioned form is the statement: permanence, in the most legible architectural language England possessed.",
+              "The curtain and towers, the first sign, tell the next chapter. Henry ringed the inner bailey with a curtain and square towers; John, facing invasion and baronial revolt, strengthened the outer defences and began the great works at the northern, landward approach, the only side where the cliff does not defend itself. The gatehouse, the third sign, is where the site confesses its crisis: in the siege of 1216, French forces under Prince Louis mined and brought down a tower of John's north gate, and the breach was held, desperately, from within. After the siege the vulnerable approach was entirely rethought — the medieval St John's Tower, a massive new Constable's Gate, and a system of chalk tunnels beneath the cliff turned the weakest front into the strongest, a rebuild that is itself the primary document of the siege.",
+              "Depth, the fifth sign, is Dover's summary. By the thirteenth century an attacker faced an outer curtain, a defended interval, an inner curtain, and a keep that was also a palace — and the place duly never fell, though it was besieged again in the Second Barons' War. But the reading must continue past the Middle Ages, because Dover also refutes any tidy story of decline: it was refortified against Napoleon with vast new barracks and tunnels, rearmed against Germany, and served in the Second World War as the headquarters from which the Dunkirk evacuation was directed, Admiral Ramsay working in rooms cut into the same chalk as the medieval tunnels. The five signs date the medieval castle. The site explains why, at Dover, there was always a next one."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gunpowder",
+        "numeral": "16",
+        "title": "Gunpowder and Decline: The Long Goodbye",
+        "sections": [
+          {
+            "heading": "Artillery Against the High Wall",
+            "figure": "theodosian",
+            "paras": [
+              "The fall of Constantinople in 1453 is the symbolic date of the artillery age, and the symbol has substance: Mehmed II's great bombards, cast by the founder Urban, battered the Theodosian Walls — themselves the finest land defences of the ancient and medieval world, and a concentric system of moat, outer wall and great towered inner wall — until assault through the breaches took the city. A lesson seemed written in the rubble: height and masonry, the castle's whole inheritance, had met an opponent they could not answer. Yet the limits of the symbol matter as much as its force. The great guns were ruinously expensive, nearly immobile, and few; Constantinople was isolated, outnumbered and unrelieved; and towered walls of its type, properly garrisoned and repaired, continued to resist guns for generations elsewhere.",
+              "The harder lesson came forty years later in Italy. Charles VIII of France invaded in 1494 with a train of mobile bronze artillery, cast to fire iron shot and mounted so that it could deploy in hours rather than weeks, and fortresses that had expected to bargain through a season's siege fell in days. At Monte San Giovanni in 1495 a place that had once resisted for years was taken after a bombardment of a few hours, and contemporaries understood at once that something structural had changed: the tall, thin curtain — high enough to command, thin enough to build cheaply across a long perimeter — was now a target offering the largest possible face to shot, and its height, which multiplied the fall of its own debris into the ditch, dug the besieger's ramp for him.",
+              "And still the castle did not die in 1495, or in 1550. Owners adapted for a century and more: walls were thickened and backed with earth that swallowed shot, towers were cut down into gun platforms, new low works were thrown out before old gates, and whole castles in Scotland, Germany, France and the Ottoman world fought effectively in wars of the sixteenth and seventeenth centuries. Gunpowder changed the terms of fortification — made it lower, thicker, more geometrical and far more expensive — long before it ended the castle as such. The distinction matters for everything that follows in this chapter: what artillery finally killed was not the defended residence, but the private economics that had paid for it. Henceforth serious fortification would be a charge on states."
+            ]
+          },
+          {
+            "heading": "The Bastion Answer",
+            "figure": "bourtange",
+            "paras": [
+              "The answer devised in Italy in the early sixteenth century, and exported by Italian engineers across Europe as the trace italienne, replaced the tower with the angled bastion: a low, massive, arrow-headed projection of earth faced in masonry, from whose flanks guns could sweep every face of the curtain and every foot of the ditch, leaving no dead ground in which a besieger could work unshot at. Geometry replaced height. The fortress became a star-shaped diagram of interlocking fields of fire, its profile sunk into glacis and counterscarp, its strength measured not in metres of wall but in the completeness of a mathematical figure. Bourtange in the Netherlands, founded in 1593 during the Dutch Revolt and reconstructed in the twentieth century to its eighteenth-century form, shows the finished type: a perfect star of bastions and ravelins in a flooded polder, beautiful as a snowflake and entirely without a residence at its heart.",
+              "That absence is the point. The bastioned fortress is a weapon system with a garrison attached, designed by engineers, paid for by taxes, and garrisoned by professionals; no lord lives at its centre because its centre is a parade ground and a powder magazine. Defence thereby passed, between about 1520 and 1600 in most of Europe, from residence to state fortress, and the castle's two ancient functions — to house a household splendidly and to dominate a locality militarily — separated for good. Private owners who still wished to live grandly built unfortified or lightly fortified houses; states that needed strong places built forts without houses. The long architectural lineage that runs from Roman camp to Norman keep divides here into two heirs that no longer resemble each other: the country house and the star fort.",
+              "England's hinge between the two is Henry VIII's Device Forts, the chain of artillery castles raised from 1539 against the threat of Franco-Imperial invasion. Deal and Walmer in Kent are the type at its most accomplished: low, concentric, massively walled, their rounded bastions and tiers of gunports arranged to bring every approach under fire, with a small central tower that is a keep reduced to a citadel and magazine rather than a residence. They are called castles, they were captained as castles, and their plans look back knowingly to concentric experiments three centuries old — yet no great household ever lived its ceremonial life in them, and within decades their guns and garrisons were a department of state. Stand at Walmer, later an official residence and garden, and the transition completes itself in one view: the fort survived by becoming, once again, a house — but a house that no longer pretended to fight."
+            ]
+          },
+          {
+            "heading": "Slighting: The Civil War Test",
+            "figure": "corfe",
+            "paras": [
+              "The British Civil Wars of 1642 to 1646 gave the old castles an examination nobody had expected them to sit again, and the results confounded any simple story of obsolescence. Scores of medieval castles were re-garrisoned, re-roofed and fought over: they commanded river crossings, ports, county towns and magazines, and a determined garrison behind medieval walls, with even a few modern outworks, could delay an army and deny a district. Corfe in Dorset, held for the king by Lady Mary Bankes, resisted two sieges; Raglan in Monmouthshire, the Marquis of Worcester's great late castle, sustained one of the war's largest households-turned-garrisons until its surrender in August 1646; Kenilworth, Basing House, Pontefract and many lesser places each wrote a final military chapter three or four centuries after their building.",
+              "Parliament's answer, once the war was won, was slighting: the deliberate, documented disabling of a castle so that it could never be held again. Walls were mined and thrown down on one side, keeps split by gunpowder, gatehouses unroofed, ditches partly filled — enough destruction to end military value, rarely enough to erase the building. Corfe was slighted in 1646, its towers undermined until they slid and cracked into the ditch where their fallen masses still lie at drunken angles; Kenilworth's great keep was blown apart on one face and its mere drained; Raglan's towers were undermined and its library and records dispersed with the household it had sheltered. The work was done by order, costed, and reported — bureaucracy completing what artillery had begun, and creating, incidentally, some of the most eloquent ruins in Britain.",
+              "A slighted castle is therefore a document of its own destruction, and must be read as carefully as a built one. The split keep, the tower leaning intact in the ditch, the curtain that stops mid-air at a powder fracture: these are not the mellowing of time but a specific political act, dated, motivated and often reversible in imagination to the hour. Where a castle was not slighted, that too is evidence — of a loyal town, a useful prison, an owner who changed sides in time, or a garrison too valuable to dissolve. The map of slighting is a map of the war itself and of the new state's judgement about where armed lordship might ever rise again. England and Wales emerged from the 1650s with their castle landscape edited by policy, which is why so many of its finest ruins share the same, suspiciously purposeful, broken profile."
+            ]
+          },
+          {
+            "heading": "Prisons, Quarries and Ruins",
+            "paras": [
+              "For most castles the long goodbye was neither dramatic nor military. It was administrative and domestic by turns: a roof lead-stripped for its value and the rain let in, a hall subdivided for tenants, a gatehouse become a farmhouse, a curtain leased as a quarry until the dressed stone of a county's finest building had gone to rebuild its bridges, barns and garden walls. Castles served as prisons long after they ceased to serve as homes — county gaols, debtors' prisons, wartime internment — because thick walls and a single gate are useful to any keeper, and as assize courts, treasuries and archives because a district's strong room, once built, is rarely rebuilt elsewhere. Stone by stone and use by use, the working castle dissolved into the working town around it, often leaving only the mound and a street name, Castle Lane, the Bailey, to mark where lordship had sat.",
+              "Against that general dissolution stand the striking exceptions, and they prove that decline was regional and uneven, not a single event with a single date. Windsor and the Tower of London never stopped working: both remained royal fortresses, residences, prisons, treasuries and ceremonial centres in unbroken succession from the eleventh century to the present, adapting floor by floor rather than expiring. Edinburgh and Stirling continued as Scotland's royal and military strongholds; the great castles of the Loire passed into royal and then national keeping; in Germany and central Europe many remained princely residences into the age of the railway. Where a castle stood on ground a state still needed, or housed a function no new building replaced, it lived. Where its lordship evaporated and its stone was worth more than its shelter, it died. Geography and accountancy, as much as gunpowder, decided which.",
+              "The ruin that resulted was not yet the beloved object of the next chapter. For two centuries a ruined castle was chiefly an inconvenience with a view: picturesque to a passing poet, perhaps, but to its owner a liability that still, in law and custom, implied obligations. Many were tidied away entirely in the eighteenth century's improvements, their mounds levelled into lawns — a fate that overtook more English castles than siege and slighting combined. That any great number survive at all owes less to continuous reverence than to a sequence of accidents: stone too massive to move profitably, sites too steep to farm, owners too poor or too proud to demolish, and, at last, the change of taste that made the ruin valuable precisely because it was broken. The castle had to become useless before it could become priceless."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "revival",
+        "numeral": "17",
+        "title": "Ruin, Romance and Revival: The Castle Reimagined",
+        "sections": [
+          {
+            "heading": "The Picturesque and the Historical Novel",
+            "paras": [
+              "The ruin became beautiful before it became respectable. In the later eighteenth century the aesthetics of the Picturesque taught travellers to value exactly what a builder would have condemned: irregularity, roughness, the silhouette broken by ivy and time. A castle that had failed as a residence and been abandoned as a quarry could succeed, entirely, as an object in a view — the incident that organised a valley, darkened a ridge, and gave a landscape a past. Landowners planted sham ruins where no real one offered, and preserved real ones, stabilising a picturesque tower or clearing a gatehouse of cottages, with the same eye they turned on a grotto or a hermitage. The Middle Ages were being rediscovered as scenery by people who would not have wished to live under their laws for a week.",
+              "Literature gave the scenery a plot. Walter Scott, whose poems and whose Waverley novels had already made the Scottish past a European fashion, published Ivanhoe in 1819 and fixed the castle in the modern imagination: the Saxon hall and the Norman fortress, the siege, the tournament, the imprisoned heroine in the tower. Ivanhoe was not history, and Scott, an antiquary of real learning, knew the difference better than his imitators; but its compound of documented detail and romantic invention proved irresistible, and it taught several generations what a castle was for in a story — to be besieged, defended, and inherited by the rightful heir. Castles in fiction have obeyed Scott's grammar ever since, including most that suppose themselves to be escaping it.",
+              "Kenilworth shows the transformation in a single site. Slighted after the Civil War, quarried and farmed for a century and a half, the great Leicestershire castle was a working ruin of no particular fame until Scott made it the setting of Kenilworth in 1821, reconstructing Elizabeth I's visit of 1575 and Dudley's legendary entertainments in scenes that visitors thereafter came to the stones to verify. Tourism followed the novel as pilgrimage follows a text: the gatehouse was made habitable, paths were laid, and a ruin that had been a farm became, in effect, an illustration of a book. The pattern repeated across Britain and Europe — Scott translated, imitated and localised everywhere — until it could fairly be said that the nineteenth century did not rediscover the medieval castle. It rewrote it, and then went to see the rewrite."
+            ]
+          },
+          {
+            "heading": "Castles Rebuilt: Cardiff, Coch and Neuschwanstein",
+            "figure": "neuschwanstein",
+            "paras": [
+              "Some owners went beyond preserving the romance and rebuilt it entire. At Cardiff Castle, the immensely rich third Marquis of Bute employed William Burges from the 1860s to transform a site that already held a Norman keep and a Georgian house into a scholarly fantasy of the Middle Ages: towers rebuilt and heightened, interiors sheathed in carved stone, marble, tiling and stained glass, every room a complete iconographic programme. A few miles north, at Castell Coch — Red Castle — Burges rebuilt a genuine, small thirteenth-century ruin from its foundations into a conical-roofed retreat of drawbridge, portcullis and painted chambers, as a summer residence to the Cardiff court. The archaeology was serious and the result deliberately theatrical: Burges and Bute knew exactly what the evidence was, and chose, at point after point, the Middle Ages as they ought to have been.",
+              "Neuschwanstein carries the same impulse to its world-famous extreme. Ludwig II of Bavaria began the castle in 1868 on a dramatic ridge above the Hohenschwangau valley, not as a seat of government — Bavaria was a modernising kingdom with ministries in Munich — but as a private refuge from government, a stage set for a kingship the nineteenth century had abolished. Its designs came through theatre designers as much as through architects; its great rooms illustrate Wagner's operas, Tannhäuser and Lohengrin above all, in fresco and carving; its Romanesque and Gothic forms quote Wartburg and the crusading centuries with passionate inaccuracy. Behind the masonry, meanwhile, ran steel, central heating, running water and a telephone: the most modern building services in Bavaria, dressed for the age of the Grail.",
+              "Ludwig was deposed and died, in circumstances still argued over, in 1886, weeks before the unfinished castle opened to paying visitors to recoup its debts — an ending its builder would have found unbearable and its afterlife inevitable. Neuschwanstein became the castle of the world's imagination, reproduced in fairgrounds, film studio logos and a million puzzles, and its very success poses the honest question of this whole revival: at what point does rebuilding stop recovering the past and start replacing it? Cardiff, Coch and Neuschwanstein are now themselves historic monuments, protected and studied as masterpieces of the nineteenth century rather than deplored as fakes of the thirteenth. Time has performed its usual arbitration. The revival castle has become a genuine document — of the age that needed the Middle Ages to look like that."
+            ]
+          },
+          {
+            "heading": "Viollet-le-Duc and the Restoration Question",
+            "figure": "carcassonneCite",
+            "paras": [
+              "No figure embodies the nineteenth-century castle's double nature — scholarship and invention in one hand — like Eugène Viollet-le-Duc. Appointed to restore the walled Cité of Carcassonne from 1853, he brought to the task an unmatched structural knowledge of Gothic building, learned from surveying France's monuments for the new Commission des Monuments Historiques, and he saved a fortified city that local opinion had valued chiefly as a quarry. The double enceinte, the Narbonnaise gate, the count's castle: under his direction Carcassonne recovered a completeness no photograph of its earlier state can match. It also acquired details argued over ever since — most famously the steep conical caps on its towers, in a northern French idiom and, critics charged, in slate alien to the region — supplied, on the best structural reasoning of the day, for buildings whose original roofs nobody had recorded.",
+              "At Pierrefonds, from 1857, for Napoleon III, restoration crossed openly into creation: a genuine but ruined castle of Louis of Orléans was remade as an imperial residence and a museum of the Middle Ages, its chapel, keep and court of honour completed with a freedom Viollet-le-Duc defended as the recovery of a building's intended state. He stated his doctrine himself, in the article on restoration in his Dictionnaire raisonné de l'architecture: to restore a building, he wrote, in the sense he gave the term, is to re-establish it in a complete state that may never have existed at any given moment. The sentence is quoted wherever conservation ethics are taught, because it states, with perfect clarity and from the movement's greatest practitioner, both the ambition of nineteenth-century restoration and everything the twentieth century learned to fear in it.",
+              "The answer came as doctrine and as law. Against completion, critics from Ruskin onward, and then the organised conservation movement — in Britain the Society for the Protection of Ancient Buildings, founded in 1877 — set the claims of authentic fabric: a ruin's age, damage and incompleteness are themselves historical evidence, and to overwrite them with a confident reconstruction is to destroy a document in order to illustrate a theory. Modern practice, codified in instruments such as the Venice Charter of 1964, follows that answer in the main: consolidate rather than complete, distinguish new work from old, document every intervention, and let a monument's whole biography, including its ruin, stand. Yet every visitor who has watched the sun set on Carcassonne's impossible, magnificent skyline knows the argument is not quite settled in the heart, whatever the charters say. Viollet-le-Duc lost the doctrine and won the view."
+            ]
+          },
+          {
+            "heading": "The Castle in the Modern Imagination",
+            "paras": [
+              "Film inherited the castle from the novel and the stage set, and returned it enlarged. From the expressionist silhouettes of early German cinema through Hollywood's Arthurian epics to the location-built fortresses of recent decades, the screen castle has standardised a set of visual expectations — soaring towers, banners, a great hall lit by torches, a dungeons-and-armoury underworld — against which real castles are now silently measured and, at first sight, often found small. Production designers, to their credit, regularly build from genuine research, and some screen castles are serious works of reconstruction; but the camera prefers the exceptional, and a century of exceptional images has quietly redefined the normal. The modest, low, workmanlike stronghold that was the medieval statistical norm has almost no place in the popular picture of its own age.",
+              "Games and digital worlds completed the democratisation: millions who will never visit Malbork or Dover have nevertheless held a castle against a siege, managed its stores, laid out its concentric defences and learned, experientially, the logic of gate, curtain and keep. The interactivity cuts both ways. At its best it teaches systems thinking about real constraints — water, supply, fields of fire — better than a plaque can; at its loosest it teaches that castles are levels to be cleared and that their inhabitants exist to be defeated. Heritage practice has responded, on the whole, intelligently: interpretation at major sites now routinely works with the visitor's screen-formed expectations rather than against them, using the film castle as the doorway and the documented one as the discovery waiting behind it.",
+              "For the castle is now, overwhelmingly, the popular image of the Middle Ages themselves — the logo by which a thousand years of history are recognised on a book cover, a road sign, a theme park gate. That is a triumph of survival no cathedral quite matches, and a distortion to be watched. It centres the period on war and lordship, on stone and on the elite who could build in it, and leaves the wooden, agricultural, urban and female Middle Ages in shadow. The remedy is not to love the image less but to read past it, which is what this book has attempted: to keep the silhouette that draws the eye, and to restore to it the court and the counting-house, the millpond and the borough, the household at dinner and the archive in the tower — the whole working building of which the fortress was only the most photogenic part."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "legacy",
+        "numeral": "18",
+        "title": "The Castle Today: Care, Craft and Lessons",
+        "sections": [
+          {
+            "heading": "Guardianship: The Heritage Castle",
+            "figure": "windsor",
+            "paras": [
+              "The modern heritage castle begins, in Britain, with a change of legal imagination in the early twentieth century: the idea that a monument of national importance could pass into state guardianship, its owner relieved of an impossible burden and the public acquiring, in return, a duty to maintain it exactly as evidence, neither completed nor beautified. From the Ancient Monuments Acts and the work of the Office of Works grew the system visitors know today — English Heritage, and its successor arrangements in England, Cadw in Wales, and Historic Environment Scotland — caring between them for hundreds of castles, from the vast maintained landscapes of Conwy and Caernarfon to single towers in farmyards. Their method is the conservation doctrine argued in the last chapter made routine: consolidate the ruin, record before touching, add nothing the evidence does not warrant, and interpret honestly, including the admission of uncertainty.",
+              "Guardianship is a craft discipline before it is a philosophy. A castle in care is surveyed stone by stone; its walls are repointed in lime mortars matched to the original, because hard modern cement traps water and destroys medieval masonry faster than weather does; its wall-walks are made safe with the least possible addition; its drainage — the unglamorous system on which everything else depends — is cleared, repaired and monitored, since a blocked gutter will do in a decade what a siege could not. Vegetation is managed as the double agent it is: ivy that shelters a wall face in one decade prises it apart in the next. None of this work photographs as drama, and all of it is the reason there is anything left to photograph. The heritage castle is not a medieval building preserved. It is a medieval building continuously, skilfully and expensively prevented from finishing its collapse.",
+              "Alongside the guarded ruins stand the castles that never joined them, because they never stopped. Windsor, the largest inhabited castle in Europe, remains the sovereign's residence, its medieval fabric — Norman keep mound, Edward III's great works, the Gothic splendour of St George's Chapel — embedded in a working palace that was substantially rebuilt after the fire of 1992 under the same conservation ethics the ruins receive. The Tower of London likewise continues as fortress, treasury of the Crown Jewels, garrison and ceremonial place while also serving as a World Heritage Site visited by millions. These working castles complicate every tidy account of decline and revival in this book, usefully: they were never ruins, never romances and never museums first. They are the control group of castle history — evidence of what the type does when it is simply, continuously, found useful for eight hundred years."
+            ]
+          },
+          {
+            "heading": "Guédelon: Learning by Building",
+            "paras": [
+              "At Guédelon, in a disused quarry in Burgundy, a castle of the mid-thirteenth century has been under construction since 1997, built deliberately with the materials, tools and methods available to its supposed period: stone quarried and dressed on site, oak felled and hewn in its own woods, lime burned in its own kilns, iron forged in its own smithy, ropes, baskets, treadwheel cranes and mortar all made by the team that uses them. The project, conceived by Michel Guyot and developed with a scientific committee of historians and archaeologists, is experimental archaeology at building scale — not a reconstruction of any single documented castle, but a controlled test of how such castles could have been made: how fast, with how many hands, at what cost in timber, transport and skilled labour.",
+              "What experiment can prove is process, and process turns out to be where documents are silentest. Guédelon has measured things no account roll records: the rate at which a mason's team dresses the local sandstone, the true capacity of a treadwheel hoist and the choreography of its crew, the behaviour of freshly slaked lime mortar across seasons, the wear on tools, the learning curve of a workforce that improves measurably year on year — the last a quiet correction to any assumption that a medieval building site was unskilled. It has also disciplined speculation in the other direction: techniques proposed comfortably in print have failed in the yard, and failed instructively. Read against the building chapters earlier in this book — the quarries, scaffolds, cranes and masons' lodges of the great Edwardian and crusader works — Guédelon functions as a laboratory commentary, testing the text against the resistance of real stone.",
+              "What it cannot prove is equally important, and the project itself is candid about it. A twenty-first-century team, however rigorously it refuses modern tools on site, works with modern safety law, modern nutrition, modern weekends and an entirely modern knowledge of how the story ends; it cannot recover the coercion, the seasonal hunger, the religious meaning or the sheer ordinariness with which medieval labour was actually performed. Nor can one site, in one geology, stand for the Baltic brickfields of Malbork or the chalk of Dover. Experiment establishes possibility and cost, never that things were so. Used with that humility — as a question put to the evidence, not an answer replacing it — Guédelon and the projects it has inspired, from castle workshops to reconstructed siege engines tested at real walls, have permanently raised the standard of what may responsibly be claimed about how castles rose."
+            ]
+          },
+          {
+            "heading": "What Castles Still Teach Architects",
+            "paras": [
+              "Architects keep returning to castles for reasons that have little to do with nostalgia, and the first is threshold design. A castle is the most fully developed essay in layered transition that pre-modern building produced: ditch, bridge, gate, passage, court, stair, hall, chamber — a graded sequence that slows the entrant, reveals the building by stages, and sorts every arrival by rank and intention without a single sign. Contemporary design rediscovers the same problem wherever it must reconcile openness with security, welcome with privacy, the public face with the working interior — in embassies and courthouses, certainly, but equally in housing that must mediate street and dwelling, or in digital-age workplaces layering reception, collaboration and concentration. The castle's answer, defence in depth re-read as hospitality in depth, remains the fullest worked example available: a building whose plan is its etiquette.",
+              "The second lesson is material honesty across time. Castle masonry assumed maintenance, repair and alteration as normal conditions of existence: walls thick enough to be cut into, vaults that could lose their roofs and be re-covered, towers that could change from defence to prison to dovecote to folly without structural embarrassment. The result, at the best sites, is a building that has adapted continuously for eight centuries — a record no design philosophy that treats a building as a finished product can match, and one that speaks directly to an age concerned with embodied carbon, reuse and design for disassembly. A castle is sustainable not because its builders held the value but because its construction embodied it: local material, massive durability, loose fit between shell and use, and a plan generous enough in section to absorb purposes its makers never imagined.",
+              "The final lesson is the one this book's argument has built towards: that use, symbol and structure were once a single thought. The castle did not separate its engineering from its meaning, its plan from its politics, its beauty from its work; the banded masonry of Caernarfon is at once a wall, a claim and a work of art, and the moat at Bodiam is at once an obstacle, a fishery and a mirror. Modern building, which must route those concerns through separate professions, budgets and regulations, will not reunify them by imitation — nor should it try. But a designer who has read a castle closely has seen proof that the unification is possible, and carries away the standard against which the usual fragmentation can be judged. That, as much as any detail of loop or bastion, is what the type still has to teach."
+            ]
+          },
+          {
+            "heading": "Coda: The Long Life of a Building Type",
+            "paras": [
+              "The castle was the Middle Ages' most complete building. In a single enclosure, and often under a single roof-line, it united what later centuries would separate into different institutions and different professions: house and fortress, court of law and counting-house, chapel and prison, farm headquarters and family monument, workplace, warehouse and work of art. No other medieval type — not the cathedral, which served one transcendent purpose supremely, nor the monastery from which the castle borrowed so much of its planning — had to answer so many questions at once, in stone, on a budget, against enemies. That completeness is why castles repay study out of all proportion to their number: to read one well is to be required, by the building itself, to learn the whole society that produced it, its warfare and its farming, its law and its lordship, its faith and its vanity, in the order in which they meet at a gate.",
+              "Their long life did not end when their work did. Slighted, quarried, farmed, romanticised, rebuilt, filmed and finally conserved, castles have had a second career as long as their first, and the two are now inseparable: the ruin we visit is medieval work edited by every century since, and learning to tell the hands apart — builder, besieger, slighter, restorer, guardian — is the field skill with which this book has tried to equip its reader. There is no final, uncontaminated castle behind the accumulated layers, and the search for one misunderstands the evidence. The layers are the evidence. A building that has been continuously worth fighting over, stealing from, writing about, rebuilding and protecting for the better part of a millennium is not a survivor of history. It is a summary of it.",
+              "So the book closes where its reading chapter began: on the approach road, looking up. Go to a castle — any castle, the great guarded monument or the ivy-covered tower in a field that the map marks and the road forgets — and work the signs in order. Read the site before the stones, the curtain before the keep, the gate before the hall; let the details argue with the silhouette; ask of every feature what work it did, for whom, and what it cost; and notice, as you leave by the gate you entered, how the building has sorted and staged you exactly as it sorted and staged its visitors eight hundred years ago. The castle's last lesson is that architecture is never only built. It is performed, daily, by everyone who passes through it — and in that performance, the Middle Ages are not past at all, but still, stone by stone, under construction."
+            ]
+          }
+        ]
+      }
+    ],
+    "figures": [
+      [
+        "William the Conqueror (c. 1028–1087)",
+        "Duke of Normandy from 1035 and king of England from 1066, William made the castle an instrument of conquest: prefabricated timber strongholds landed with his invasion fleet, and a ring of royal and baronial castles then held down the kingdom he had won. The White Tower, begun in his reign, is his monument in the type he exported."
+      ],
+      [
+        "Fulk III Nerra (c. 970–1040)",
+        "Count of Anjou, called Nerra, the Black, a byword for ruthless energy even among his contemporaries. Fulk covered his county with castles — Langeais, with its stone donjon of 994–95 among the oldest to survive, Montrésor, Loudun and a dozen more — and turned the stronghold into the working cell of territorial power a generation before it became general."
+      ],
+      [
+        "Richard I (1157–1199)",
+        "King of England, crusader, and the most castle-minded king of his century. Richard's Château Gaillard, built in two years at staggering cost above the Seine, was his answer to Capetian France and his pride — 'how fair is this daughter of mine' the chroniclers report, though the words reach us at second hand. His death before Châlus in 1199, besieging a minor castle, is the age in miniature."
+      ],
+      [
+        "Edward I (1239–1307)",
+        "King of England from 1272 and the greatest castle-builder of medieval Britain. Edward's two Welsh wars were consolidated by the most ambitious programme of castle-building in Europe: castles and walled boroughs designed together, supplied by sea, and built at a speed and cost his surviving accounts let us audit almost to the penny — the Iron Ring this book returns to throughout."
+      ],
+      [
+        "James of St George (c. 1230–1309)",
+        "Master mason from Saint-Georges-d'Espéranche in Savoy, brought to Edward I's service and placed in charge of the Welsh works, where Conwy, Caernarfon, Harlech and Beaumaris bear his hand. James was paid at a master's princely rate and is one of the first castle-builders whose career the documents let us follow as a professional's, from Savoyard stairs and windows to the perfected concentric plan."
+      ],
+      [
+        "Frederick II (1194–1250)",
+        "Holy Roman Emperor and king of Sicily, stupor mundi to his admirers. Frederick governed his southern Italian kingdom through a planned network of castles administered by royal officials, and crowned the system with Castel del Monte, the octagonal castle-lodge whose geometry still provokes argument. His castles are administration made visible: the state as a building programme."
+      ],
+      [
+        "Gilbert de Clare (1243–1295)",
+        "Earl of Gloucester and Hertford, called the Red Earl, the greatest Marcher lord of his generation. Gilbert's Caerphilly, begun in 1268 in rivalry with the crown itself, deployed water defences on a scale no English king had attempted, and provoked the royal answer that became Edward I's Welsh ring: the subject's castle as the goad to the king's."
+      ],
+      [
+        "Toyotomi Hideyoshi (1537–1598)",
+        "The peasant-born unifier of Japan, whose castles — Osaka above all, raised from 1583 — announced a new political order in plastered timber on mountains of stone. Hideyoshi's castle policy, gathering the great lords into castle towns and disarming the countryside, made the castle the administrative cell of the coming Tokugawa peace."
+      ],
+      [
+        "Ikeda Terumasa (1565–1613)",
+        "Daimyo of Himeji under the new Tokugawa order, rewarded with the western approaches to Kyoto after Sekigahara. Between 1601 and 1609 Terumasa rebuilt Himeji into the supreme surviving Japanese castle, its white tenshu complex devised for a gunpowder age that, in the event, peace made unnecessary: the White Heron is a war machine preserved by the war that never came."
+      ],
+      [
+        "Eugène Viollet-le-Duc (1814–1879)",
+        "Architect, restorer and theorist whose Dictionnaire raisonné contains the nineteenth century's most influential reading of medieval fortification. His restoration of Carcassonne from 1853 and his rebuilding of Pierrefonds as a romantic imperial castle defined the modern image of the type — and provoked, by reaction, the conservation ethic of leaving honest ruins alone that succeeded him."
+      ]
+    ],
+    "fiveSigns": [
+      {
+        "name": "Curtain wall and towers",
+        "look": "Look for a continuous high stone wall linking towers that project boldly from its face, round or polygonal in later work, so that defenders on the wall walk and in the towers can shoot along the wall's own surface — the dead ground at its foot is the design problem the towers exist to solve. Read the curtain as a system: parapet and wall walk above, loops at intervals, the towers acting as strongpoints and, often, as self-contained refuges with their own doors, stairs and stores.",
+        "limit": "Town walls look very similar but defend a community, not a residence: the presence of a lordly core — keep, hall or gatehouse chapel — is what makes the circuit a castle's. A curtain may also be a later military addition to an older residence, so date the wall by its towers and loops, not by the buildings inside it.",
+        "img": "carcassonneWalls"
+      },
+      {
+        "name": "The keep",
+        "look": "Look for the tallest, thickest-walled tower in the enclosure, usually entered above ground level by an external stair, its floors stacked in a legible order: storage and well below, hall and chamber above, chapel in the greatest examples, as in the White Tower and at Hedingham. Walls two to three metres thick, small windows that widen floor by floor, and a roofline that commands every other building in the castle mark the keep as stronghold, residence and symbol in one mass of masonry.",
+        "limit": "Not every castle has a keep: the mature concentric plans of the late thirteenth century dispense with one entirely, distributing its functions between gatehouse, towers and hall range. Absence of a keep dates a plan late or marks a lesser lordship; it does not make the site any less a castle.",
+        "img": "whiteTower"
+      },
+      {
+        "name": "The gatehouse",
+        "look": "Look for the most heavily worked point of the circuit: twin towers flanking a vaulted passage once closed by gates and one or more portcullises, with loops covering the approach and openings in the vault — murder holes — above the passage itself. In later castles the gatehouse grows into a residence in its own right, with chambers, a chapel and the constable's lodging: the strongest point of the castle was also, routinely, one of its most comfortable addresses.",
+        "limit": "Gatehouses were status symbols as much as defences, and some are more show than strength — thin rear walls, generous windows, passages too straight to trouble a determined enemy. Read a gatehouse against its site and its century before judging it, and remember that gates were also where castles most often changed hands, by treachery rather than storm.",
+        "img": "harlechGate"
+      },
+      {
+        "name": "Arrow slits and machicolations",
+        "look": "Look for narrow vertical slits in towers and curtains, splayed widely on the inside so an archer can cover ground while presenting a hand's breadth of target; cross-slits and, from the 1380s in England, round gunports mark the missile age changing under your eye. Above, look for machicolations — a parapet gallery carried on corbels with open slots in its floor — from which missiles could be dropped vertically onto attackers at the wall foot, the refinement that replaced the timber hoarding whose beam-holes still scar older walls.",
+        "limit": "Some slits are decorative, some are later insertions, and a loop's shape dates it only within wide margins — cross-slits and fishtail bases are guides, not timestamps. Machicolations, too, became a fashionable crown for towers that no one expected to fight, so treat both signs as votes to be counted with the rest, never as proof alone.",
+        "img": "machicolations"
+      },
+      {
+        "name": "Concentric defence and moat",
+        "look": "Look for two circuits, the inner higher than the outer, so that the garrison can shoot over its own outer wall while an attacker who takes the first line stands exposed in the killing ground between them; Krak des Chevaliers, Beaumaris and Caerphilly state the idea at full scale. Read the water, too: a moat or lake is a weapon, not a decoration — it stops miners, keeps siege engines at bowshot distance and reflects the castle at the visitor in a doubling that lords valued precisely because it impressed.",
+        "limit": "A dry ditch may now read as a shallow hollow, a drained lake as a flat meadow, and many fine castles make do with one circuit on a rock that nature has already moated. Concentric planning is the summit of the type, reached in few places; its absence proves nothing except that money, ground or century said otherwise.",
+        "img": "beaumarisAerial"
+      }
+    ],
+    "gazetteer": [
+      [
+        "Conwy and the Iron Ring, Wales",
+        "Start with the most complete lesson in castle and town as one design: Conwy (1283–89), its eight towers and two wards intact, the town walls almost fully walkable. Caernarfon, with its polygonal towers and the Eagle Tower, and Harlech above the sea make the Edwardian argument in triplicate; Beaumaris, an hour away, shows the plan perfected and unfinished. Cadw cares for all four, which are UNESCO-listed together."
+      ],
+      [
+        "The Tower of London",
+        "The White Tower (begun c. 1078) still carries the type's first English statement: first-floor entrance, stacked hall and chamber, and the Chapel of St John, the purest Norman interior in England. Read the Tower outward from it — Curtain walls, the Wakefield and Bloody Towers, the moat — as eight centuries of a castle that never stopped working: fortress, palace, prison, mint and menagerie."
+      ],
+      [
+        "Dover, Kent",
+        "The 'key of England' rewards a slow visit: Henry II's great keep, a palace in armour, inside medieval curtains that the tunnels of later wars honeycomb from below. The north gate tells the siege of 1216 in its own rebuilt stones, and the castle's long artillery afterlife, into the twentieth century, makes Dover the single best site for the book's whole arc."
+      ],
+      [
+        "Krak des Chevaliers and the Levant",
+        "The Hospitallers' Krak, UNESCO-listed since 2006, survives as the supreme Crusader castle: glacis, bent entrance, concentric wards and a great hall of almost cathedral poise. War damage in the 2010s and ongoing conservation limit access in ways that change year by year; check the current position before planning, and pair the fabric, in photographs and plans, with Belvoir and the sea castles of the coast."
+      ],
+      [
+        "The Seine Valley, Normandy",
+        "Château Gaillard stands above Les Andelys and the looping Seine, its ruined inner bailey and corrugated curtain still explaining Richard I's boast and Philip Augustus's answer. Rouen keeps the surviving tower of Philip's castle — the Tour Jeanne d'Arc — and the donjon landscape of the Loire, Langeais above all, lies a day's journey south."
+      ],
+      [
+        "Apulia, Italy",
+        "Castel del Monte crowns its hill near Andria exactly as Frederick II's masons left it: eight towers around an octagonal court, no moat, no keep, no clear military logic — which is the lesson. The emperor's working castles at Bari, Trani and Lucera supply the administrative context, and the Angevin Castel Nuovo in Naples shows the type's Italian courtly future."
+      ],
+      [
+        "Malbork and the Baltic",
+        "The Teutonic Order's Marienburg, now Malbork in Poland, is by land area the largest castle in Europe: three castles in one brick mountain, built for a state run by a religious order. UNESCO-listed and comprehensively restored after 1945, it is the essential visit for the brick Gothic of the north and for the ethics of rebuilding itself."
+      ],
+      [
+        "Himeji and Matsumoto, Japan",
+        "Himeji, the White Heron, is the finest surviving Japanese castle: original tenshu of 1601–09, plastered white over timber, on stone ishigaki that took the place of Europe's earthworks, with a gate system designed as a maze. Matsumoto's black keep of the 1590s, the oldest five-storey tenshu composition in Japan, stands in its moat as the perfect counterpoint — both are National Treasures, Himeji also UNESCO-listed."
+      ],
+      [
+        "Carcassonne, France",
+        "The Cité of Carcassonne is a castle become a fortified town: double walls, fifty-two towers and the comtal castle in one skyline, restored from 1853 under Viollet-le-Duc into the image of a medieval stronghold Europe carries in its head. Visit it twice — once for the fabric, once as the founding document of modern restoration, thatched controversies and conical roofs included."
+      ],
+      [
+        "Bodiam and the South Coast, England",
+        "Bodiam in Sussex, licensed in 1385, floats in its moat as the debate about castles made visible: read its gunports and its delicate windows, its gatehouse heraldry and its debated landscape setting, and decide — as the literature has argued both ways for forty years — where fortress ends and theatre begins. Cooling and the Canterbury Westgate nearby supply the gunport evidence."
+      ],
+      [
+        "Guédelon, Burgundy",
+        "In a clearing near Treigny, a thirteenth-century castle is rising by thirteenth-century means: hand-quarried stone, horse-drawn carts, treadwheel cranes and a working generation to finish it. Guédelon is the one place where the building chapter of this book can be watched in progress — the essential visit for anyone who wants to know what a castle cost in labour rather than in pounds."
+      ],
+      [
+        "Segovia and the Iberian Frontier",
+        "The Alcázar of Segovia, rebuilt after fire in romantic silhouette over a genuinely medieval fortress-palace, anchors the frontier castle country of Castile: Coca in brick, Manzanares el Real, and the long lines of border castles between Christian and Muslim Spain that gave the kingdom its very name — Castile, the land of castles."
+      ]
+    ],
+    "glossary": [
+      [
+        "Motte",
+        "The artificial mound, typically five to fifteen metres high, that carried a castle's first tower or keep. Earth was dug from the surrounding ditch and piled or scarped from a natural knoll; a surviving motte, even with its castle long gone, remains the type's most durable signature in the landscape."
+      ],
+      [
+        "Bailey (ward)",
+        "The ditched and defended courtyard at the motte's foot, containing the hall, stables, stores and workshops of the early castle. Later stone castles keep the word as ward: inner and outer wards divide the enclosure by honour and by strength."
+      ],
+      [
+        "Keep (donjon)",
+        "The great tower of a castle: its strongest building, last refuge and principal residence, from the French donjon. The keep stacks storage, hall, chamber and often chapel within walls up to three metres thick, entered characteristically at first-floor level."
+      ],
+      [
+        "Curtain wall",
+        "The continuous wall linking a castle's towers and carrying its parapet and wall walk. Built, like most castle masonry, as two dressed faces around a rubble core, the curtain is the enclosure's defining element — the wall that turns a house into a fortress."
+      ],
+      [
+        "Mural tower",
+        "A tower built into the line of a curtain wall, projecting from its face so defenders can shoot along the wall itself. Mural towers double as strongpoints, chambers, chapels and stores, and their shapes — square, round, polygonal, D-shaped — are among the reader's best dating evidence."
+      ],
+      [
+        "Gatehouse",
+        "The fortified entrance building: twin-towered in its developed form, with a vaulted passage closed by gates and portcullises and covered by loops and murder holes. In late medieval castles the gatehouse is also a residence, housing the constable and often the castle's best chambers."
+      ],
+      [
+        "Portcullis",
+        "A heavy timber-and-iron grille sliding in grooves at a gate passage, dropped to close the entrance in seconds. Worked by windlass from the chamber above, portcullises were often doubled, trapping attackers in the passage between two grilles under the murder holes."
+      ],
+      [
+        "Barbican",
+        "A fortified outwork defending a gate approach, extending the defended passage outward so an attacker must run a gauntlet of fire before reaching the gate itself. London and York keep urban barbicans; the great castle gatehouses absorb the idea into their own plan."
+      ],
+      [
+        "Machicolation",
+        "A parapet gallery projecting on corbels with openings in its floor, through which missiles, stones and liquids could be dropped on attackers at the wall's foot. Machicolations crown gatehouses and towers from the thirteenth century and become, in late and revival work, a favourite piece of castle theatre."
+      ],
+      [
+        "Battlements (crenellation)",
+        "The alternating solid (merlon) and open (crenel) top of a parapet, giving defenders cover and shot in turn. To crenellate was a licensed royal privilege in England — the licence to crenellate is a political document — though its military value is routinely overstated beside its value as a claim of rank."
+      ],
+      [
+        "Arrow loop (slit)",
+        "A narrow vertical opening in a wall or tower, widely splayed inside, from which a bowman or crossbowman could shoot while exposing almost nothing. Loop forms evolve — plain slit, cross-slit, keyhole gunport — into one of the field reader's most useful, if approximate, clocks."
+      ],
+      [
+        "Moat",
+        "A water-filled ditch ringing a castle wholly or in part, fed by river, spring or tide. The moat stops mining, holds siege engines at distance and stores fish; its stillness is a weapon, and its reflection — as at Bodiam — a piece of lordly display the literature still debates."
+      ],
+      [
+        "Concentric castle",
+        "A castle of two complete circuits, the inner higher than the outer, so defenders can shoot over their own outer wall and an attacker between the walls is caught in a killing ground. Perfected independently in the Crusader East and Edwardian Wales, it is the type's geometrical summit."
+      ],
+      [
+        "Enceinte",
+        "The circuit of walls enclosing a castle or town, taken as a whole: curtain, towers and gates together. The word helps distinguish the defensive ring from the buildings it protects, and double enceintes — Carcassonne's town above all — from single ones."
+      ],
+      [
+        "Hoarding (brattice)",
+        "A temporary timber gallery built out from a parapet in time of war, roofed against missiles and floored with openings for dropping stones. Hoardings rotted or burned; their evidence survives as the rows of putlog holes beneath later stone parapets."
+      ],
+      [
+        "Putlog holes",
+        "The square holes left in masonry by the horizontal timbers of scaffolding and hoardings. Read correctly, putlogs map a building's construction lifts and its vanished timberwork — the scaffolding's autobiography, written in the wall."
+      ],
+      [
+        "Glacis (talus)",
+        "The steeply sloped, often plastered masonry skirt at a wall's foot, shedding missiles, defeating ladders and exposing miners. Krak des Chevaliers' great talus is the famous example; at Constantinople and elsewhere the battered base answers artillery's arrival with mass."
+      ],
+      [
+        "Bergfried",
+        "The tall fighting tower of German castles: slimmer and less residential than the French donjon, typically entered high, with minimal openings, serving as lookout, symbol and last refuge while the household lived in separate ranges beside it."
+      ],
+      [
+        "Tenshu",
+        "The principal tower-keep of a Japanese castle: a multi-storey timber structure, plastered white or black, rising from a stone ishigaki base. Himeji's great tenshu of 1601–09, linked to lesser towers by fortified corridors, is the type's masterpiece."
+      ],
+      [
+        "Ishigaki",
+        "The massive sloped stone base of a Japanese castle, built of unmortared, precisely fitted boulders. Ishigaki answer earthquakes as European earthworks never had to, and carry the timber tenshu clear of fire and flood — a different technology solving the same problem of the strong platform."
+      ],
+      [
+        "Slighting",
+        "The deliberate partial demolition of a castle to render it indefensible: walls undermined and tipped, keeps split by gunpowder, gatehouses unroofed. Practised systematically by Parliament after the British Civil Wars, slighting wrote the seventeenth century's politics into ruins that archaeologists now read as documents."
+      ],
+      [
+        "Constable",
+        "The officer in permanent charge of a castle in its lord's absence: keeper of keys, stores, prisoners and the small peacetime garrison, and the castle's judge and paymaster. The constable's lodging, usually at the gate, is the administrative heart of the working castle."
+      ],
+      [
+        "Postern",
+        "A secondary, inconspicuous gate in a castle's circuit, for sorties, supply and escape. Posterns are the plan's confession that a castle must be able to leave as secretly as an attacker wishes to enter; the sally port is its fighting form."
+      ],
+      [
+        "Drawbridge",
+        "A bridge over ditch or moat that can be raised or withdrawn to seal an entrance, worked in developed examples by counterweights in a pit within the gate passage. The drawbridge completes the gatehouse's layered sequence: ditch, bridge, portcullis, passage, gate, portcullis again."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "English Heritage: Castles",
+        "url": "https://www.english-heritage.org.uk/"
+      },
+      {
+        "name": "UNESCO World Heritage: Krak des Chevaliers and Qal'at Salah El-Din",
+        "url": "https://whc.unesco.org/en/list/1229/"
+      },
+      {
+        "name": "UNESCO World Heritage: Castles and Town Walls of King Edward in Gwynedd",
+        "url": "https://whc.unesco.org/en/list/374/"
+      },
+      {
+        "name": "UNESCO World Heritage: Himeji-jo",
+        "url": "https://whc.unesco.org/en/list/661/"
+      },
+      {
+        "name": "UNESCO World Heritage: Tower of London",
+        "url": "https://whc.unesco.org/en/list/488/"
+      },
+      {
+        "name": "Cadw: Castles of Wales",
+        "url": "https://cadw.gov.wales/"
+      },
+      {
+        "name": "Guédelon: Building a Castle Today",
+        "url": "https://www.guedelon.fr/"
+      }
+    ],
+    "bibliography": [
+      "Charles Coulson, Castles in Medieval Society: Fortresses in England, France, and Ireland in the Central Middle Ages, Oxford University Press, Oxford, 2003 — the summation of thirty years of scholarship, and the social reading of the castle stated at full length: fortresses embedded in government, law and lordship, not outside them.",
+      "Matthew Johnson, Behind the Castle Gate: From Medieval to Renaissance, Routledge, London, 2002 — the castle as lived space and theatre of lordship; the interpretive survey of the revision, and this book's guide to courtyards, processional routes and designed landscapes.",
+      "R. Allen Brown, The Architecture of Castles: A Visual Guide, Facts on File, New York, 1984 — the classic visual introduction by the founder of the modern field, still the surest first guide to what a castle's parts are and how they developed.",
+      "R. Allen Brown, English Castles, Batsford, London, 1962 — the postwar standard survey: the English evidence, from the Conquest to the artillery age, ordered by the scholar who taught the discipline to count and date its castles.",
+      "Norman J. G. Pounds, The Medieval Castle in England and Wales: A Social and Political History, Cambridge University Press, Cambridge, 1990 — castles counted, costed and set inside their economy and administration; the quantitative backbone of the modern literature.",
+      "Robert Liddiard, Castles in Context: Power, Symbolism and Landscape, 1066 to 1500, Windgather Press, Macclesfield, 2005 — the landscape reading at its most persuasive: castles in designed settings of parks, lakes and approaches, argued from the ground itself.",
+      "Arnold J. Taylor, Studies in Castles and Castle-Building, Hambledon Press, London, 1985 — the collected papers of the historian of Edward I's Welsh castles, including the documentary reconstruction of Master James of St George and the Savoy connection.",
+      "D. J. Cathcart King, The Castle in England and Wales: An Interpretative History, Croom Helm, London, 1988 — a lifetime's fieldwork distilled: the military engineer's reading, plan by plan, and a standing corrective to purely social accounts."
+    ]
   }
 ];
 
