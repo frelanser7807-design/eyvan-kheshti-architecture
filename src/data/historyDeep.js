@@ -20951,6 +20951,1429 @@ export const historyDeepPages = [
     "McAlester, Virginia Savage. A Field Guide to American Houses. New York: Alfred A. Knopf, 1984.",
     "Oliver, Paul (editor). Encyclopedia of Vernacular Architecture of the World. Cambridge: Cambridge University Press, 1997."
   ]
+},
+{
+  "id": "art-deco-vs-art-nouveau",
+  "series": "Architectural History Series",
+  "bookNumber": 16,
+  "title": "Art Deco vs Art Nouveau",
+  "bookTitle": "Art Deco vs Art Nouveau: A Comparative History",
+  "cover": "/assets/history-deep/art-deco-vs-art-nouveau/book-cover.jpg",
+  "coverCredit": "Cover artwork © World Arch Journal",
+  "readPath": "/magazine/architectural-history-styles/art-deco-vs-art-nouveau/read/",
+  "readerPages": 109,
+  "readerBase": "/assets/history-deep/art-deco-vs-art-nouveau/pages/",
+  "subtitle": "Two decorative styles, one generation apart and endlessly confused: how Art Nouveau grew its ornament from the plant and Art Deco cut its ornament from the crystal and the machine — their roots, their grammars of line, motif, material and colour, their capitals and their world tours, their deaths and revivals, and the five signs that tell them apart on any street.",
+  "path": "/magazine/architectural-history-styles/art-deco-vs-art-nouveau/",
+  "hubPath": "/magazine/architectural-history-styles/",
+  "hubStudyId": "art-deco-vs-art-nouveau",
+  "pdf": "/downloads/history/art-deco-vs-art-nouveau.pdf",
+  "seoTitle": "Art Deco vs Art Nouveau: A Comparative History — Book | World Arch Journal",
+  "metaDescription": "Art Deco vs Art Nouveau: A Comparative History — Book 16 of the World Arch Journal Architectural History Series. The two decorative styles of the early twentieth century compared part by part: line, ornament, materials, colour, capitals from Brussels and Paris to New York and Mumbai, deaths and revivals, and the five signs that tell them apart. With timeline, gazetteer, glossary and bibliography.",
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "hero": "chrysler",
+  "frontispiece": "hortaTassel",
+  "plates": [
+    [
+      "hortaTassel",
+      "The Tassel House Stair, Brussels, 1893–94",
+      "The most consequential stair of the 1890s. Horta hangs a glazed dome over the Hôtel Tassel's stairwell and lets the iron railing grow, unbroken, from newel to landing, its tendrils repeated in the mosaic floor and the painted wall. Nothing here is applied: structure, ornament and light are one growth. Every Art Nouveau interior afterwards — and the whole idea of the total work of art — begins in this narrow Brussels house, built for a professor of geometry who let his architect do anything."
+    ],
+    [
+      "casaBatllo",
+      "Casa Batlló, Barcelona, 1904–06",
+      "Gaudí remade an ordinary apartment house into a piece of marine geology: a facade of broken ceramic and glass that ripples like water, balconies like masks or bones, a roof crested as a dragon's back. Casa Batlló is Nouveau's organic line at its freest — and a commercial commission, a landlord's speculation dressed as a fairy tale, which is precisely the style's paradox and its power."
+    ],
+    [
+      "guimardMetro",
+      "A Guimard Métro Entrance, Paris, from 1900",
+      "The édicule at Porte Dauphine is one of two surviving covered entrances of the 141 Guimard designed for the Paris Métro: cast-iron stems that branch like plants, amber glass petals for a canopy, the word Métropolitain lettered in his own hand. Industrial casting, ordered from a catalogue — yet every Parisian read it as nature. The Métro entrances made Nouveau the style of the street, not just the salon."
+    ],
+    [
+      "castelBeranger",
+      "The Castel Béranger Gate, Paris, 1895–98",
+      "Guimard's first great commission announced itself at the gate: iron tendrils interlace across the entrance of the Castel Béranger until the gate is less a barrier than a drawing in metal, the famous coup de fouet made public. Behind it, the apartment block mixes stone, brick and millstone grit with complete freedom — the building that won the Paris facade competition of 1898 and made its architect's name."
+    ],
+    [
+      "palauMusica",
+      "Palau de la Música Catalana, Barcelona, 1905–08",
+      "Domènech i Montaner's concert hall turns a steel frame into a greenhouse of music: a skylight like an inverted droplet, a stage framed by sculpture and mosaic, and stained glass where other halls have walls. The Palau is Catalan Modernisme at full stretch — Nouveau's love of light and craft raised to civic scale, and still, nightly, doing the work it was built for."
+    ],
+    [
+      "casaMila",
+      "Casa Milà, Barcelona, 1906–12",
+      "La Pedrera — the stone quarry, the neighbours called it. Gaudí's last great apartment house carries its own weight in its undulating stone facade, frees its flats from load-bearing walls, and crowns itself with a roofscape of chimneys masked as warriors. It is the Nouveau apartment house perfected and pushed to its limit: structure, plan and ornament all grown from a single idea of the wave."
+    ],
+    [
+      "lavirotte",
+      "The Lavirotte Building, Paris, 1901",
+      "At 29 Avenue Rapp, Jules Lavirotte wraps a concrete-framed apartment house in glazed stoneware by Alexandre Bigot, until the facade itself becomes a ceramic relief — pottery at the scale of a street, its doors and window frames swelling with carved figures. The Lavirotte Building is Nouveau's craft claim at its most extravagant: a whole facade as one fired, glazed, unrepeatable object."
+    ],
+    [
+      "rigaNouveau",
+      "Alberta iela, Riga, c. 1901–08",
+      "No street in Europe keeps so much Nouveau in so short a walk. On Alberta iela, architects including Mikhail Eisenstein raised facade after facade of masks, garlands, peacocks and screaming faces in a single boom decade, as Riga's port wealth built itself a new face. The Riga facades are the style at its most theatrical — ornament as civic advertisement, carved at industrial speed."
+    ]
+  ],
+  "plates2": [
+    [
+      "paris1925",
+      "The Italian Pavilion at the Paris Exposition, 1925",
+      "A period postcard of the pavilion Italy built for the Exposition Internationale des Arts Décoratifs — the exhibition that named a style. Across the Esplanade des Invalides, twenty nations and every Parisian luxury trade showed interiors, pavilions and objects in the new manner: symmetrical, geometric, lacquered, expensive. Deco was born as an exhibition style, and it never lost the showman's instinct."
+    ],
+    [
+      "chrysler",
+      "The Chrysler Building, New York, 1928–30",
+      "William Van Alen's masterpiece, and Deco's most famous silhouette: a brick shaft rising to seven terraced tiers of stainless-steel arches, modelled on a radiator cap, pierced by triangular windows and crowned with the secretly assembled spire that won the height race of 1930. It is a skyscraper dressed as jewellery — machine imagery, cut like a gem, polished to shine over Manhattan."
+    ],
+    [
+      "empireState",
+      "The Empire State Building, New York, 1930–31",
+      "Built in thirteen months on the frame of the 1916 zoning law, the Empire State is the setback skyscraper rationalised: a five-storey base, a long shaft stepping back by law, and a mooring mast for airships that never came. Its Deco is quieter than the Chrysler's — limestone, nickel and aluminium in strict ranks — which is why it became the type's monument: geometry as corporate dignity."
+    ],
+    [
+      "malletStevens",
+      "Rue Mallet-Stevens, Paris, 1927",
+      "In a quiet street of the 16th arrondissement, Robert Mallet-Stevens built himself and his clients a row of white houses: cubes, strip windows, roof terraces and one famous stair tower of glass block. The Rue Mallet-Stevens is French Deco at its most architectural — luxury without applied ornament, the style squared toward modernism while keeping its sense of theatre."
+    ],
+    [
+      "elthamHall",
+      "The Entrance Hall, Eltham Palace, London, 1933–36",
+      "Stephen and Virginia Courtauld rebuilt a medieval great hall's palace as a Deco country house, and its entrance hall is the style's English masterpiece: a circular room panelled in Australian blackbean veneer, lit by a glazed dome, its floor inlaid with a marquetry sunburst of the zodiac. Aristocratic, technological, faintly theatrical — Eltham is Deco as the English rich actually lived it."
+    ],
+    [
+      "radioCity",
+      "Radio City Music Hall, New York, 1932",
+      "The largest indoor theatre in the world when it opened, and Deco's great public interior: a auditorium of concentric gilded arches — a sunset, its designer said — seating six thousand beneath a ceiling of gold leaf. Radio City shows what Deco did better than any style before or since: the machinery of mass entertainment, dressed as a palace, at popular prices."
+    ],
+    [
+      "miamiHotel",
+      "Ocean Drive, Miami Beach, at night",
+      "The hotels of Ocean Drive — the Colony, the Breakwater, the Clevelander — are Deco gone tropical: white stucco, pastel trim, eyebrows over the windows and neon for a crown. Built for the winter tourist trade of the 1930s, saved by the district listing of 1979, they are the proof that Deco's second homeland was the resort, and its truest material coloured light."
+    ],
+    [
+      "erosCinema",
+      "The Eros Cinema, Mumbai, 1938",
+      "A ziggurat tower banded in red rises over Churchgate: the Eros, masterpiece of Mumbai's Indo-Deco, its foyer once marble and its name in lights. Around it stands the world's second-greatest Deco ensemble, built by Indian architects for Indian patrons in the last decade of the Raj — the style naturalised so completely that the city now claims it as its own."
+    ]
+  ],
+  "platesCaption": "Plates I · Art Nouveau — Brussels, Barcelona, Paris, Riga",
+  "plates2Caption": "Plates II · Art Deco — Paris, New York, London, Miami Beach, Mumbai",
+  "parts": [
+    [
+      0,
+      "Part I",
+      "Two Revolts, One Generation",
+      "Both styles began as refusals — of the nineteenth century's borrowed costumes, its dark interiors, its division of art from life. This part tells the double origin: Nouveau's first flowering in Brussels and Paris, the hinge years in which Vienna and Glasgow squared the curve, and Deco's naming day at Paris in 1925, when the child style announced itself against the parent."
+    ],
+    [
+      4,
+      "Part II",
+      "The Two Grammars",
+      "Here the two styles are taken apart and compared piece by piece: the whiplash line against the zigzag; ornament grown from the lily against ornament cut into the sunburst; the craftsman's iron and ceramic against the factory's steel, lacquer and Bakelite; stained glass against neon; the swollen apartment house against the stepped skyscraper. Five chapters, five controlled comparisons."
+    ],
+    [
+      9,
+      "Part III",
+      "The World Tour",
+      "Styles travel. This part follows Nouveau through its capitals — Brussels, Paris, Barcelona — and its dialects in Vienna, Glasgow, Riga and Nancy, then Deco through Paris and New York to Miami, Mumbai, Napier and Shanghai, and into the total interiors, cinemas and ocean liners where both styles dissolved the border between architecture and everything else."
+    ],
+    [
+      14,
+      "Part IV",
+      "Decline, Revival and Reading",
+      "Both styles died — Nouveau suddenly, Deco slowly — and both were resurrected, one by scholars and one by popular love. The final part tells those afterlives, confronts the honest confusions where the two styles overlap, and closes with the field method: five signs, applied in order, that separate curve from crystal on any street in the world."
+    ]
+  ],
+  "seriesList": "Book 16 · Art Deco vs Art Nouveau: A Comparative History — this volume. Also available: Book 1 · Art Nouveau; Book 2 · Gothic Architecture; Book 3 · Medieval Castles & Fortifications; Book 4 · Baroque & Rococo; Book 5 · Romanesque Architecture; Book 6 · Modernism & the International Style; Book 7 · Victorian Architecture; Book 8 · Art Deco; Book 9 · Brutalism; Book 10 · Frank Lloyd Wright; Book 11 · The Dome; Book 12 · Arch, Vault & Flying Buttress; Book 13 · Columns & the Classical Orders; Book 14 · Light in Historic Buildings; Book 15 · The Historic House. In preparation: Gothic vs Romanesque · How to Identify a Building's Style · Persian Architecture · Ancient Rome · Ancient Egypt · Byzantine Architecture · Ancient Greece · Renaissance Architecture · Neoclassical Architecture · Islamic Architecture · Bauhaus · Mid-Century Modern Architecture · Japanese Architecture · Chinese Architecture · Indian Architecture · Postmodern Architecture.",
+  "images": {
+    "brusselsOldEngland": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/brusselsOldEngland.jpg",
+      "alt": "Detail of the Old England building in Brussels: a sheet-music frieze set in curling ironwork",
+      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/80824546@N00\">William Murphy</a> from Dublin, Ireland, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Musical_Instrument_Museum_(Brussels)_(4645954733).jpg",
+      "title": "Detail of the Old England building, Brussels"
+    },
+    "casaBatllo": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/casaBatllo.jpg",
+      "alt": "The undulating facade of Casa Batlló in Barcelona, with mask-like balconies and mosaic tile",
+      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/jaumemeneses\">Jaume Meneses</a>, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3_(Barcelona)_-_24.jpg",
+      "title": "Casa Batlló, Barcelona"
+    },
+    "casaMila": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/casaMila.jpg",
+      "alt": "The self-supporting stone wave of Casa Milà (La Pedrera) in Barcelona, by Antoni Gaudí",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Yair-haklai\" title=\"User:Yair-haklai\">Yair Haklai</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antoni_Gaud%C3%AD-Casa_Mil%C3%A0-Barcelona.jpg",
+      "title": "Casa Milà (La Pedrera), Barcelona"
+    },
+    "castelBeranger": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/castelBeranger.jpg",
+      "alt": "The entrance gate of Castel Béranger in Paris, interlacing whiplash ironwork by Hector Guimard",
+      "credit": "Photo: <a href=\"https://el.wikipedia.org/wiki/User:DIMSFIKAS\" class=\"extiw\" title=\"el:User:DIMSFIKAS\">DIMSFIKAS</a>, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Art_Nouveau_entrance_to_Castel_Beranger,_Paris_-_2011.jpg",
+      "title": "The Castel Béranger gate, Paris"
+    },
+    "champsElysees": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/champsElysees.jpg",
+      "alt": "Antoine Bourdelle's relief La Danse on the Théâtre des Champs-Élysées in Paris",
+      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/72746018@N00\">Jean-Pierre Dalbéra</a>, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22La_Danse%22,_bas-relief_d%27Antoine_Bourdelle_(Th%C3%A9%C3%A2tre_des_Champs_Elys%C3%A9es,_Paris).jpg",
+      "title": "Bourdelle's La Danse, Théâtre des Champs-Élysées"
+    },
+    "chaninSpandrel": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/chaninSpandrel.jpg",
+      "alt": "Stylised metal grillwork from the Chanin Building in New York, its plant forms straightened into geometry",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/w/index.php?title=User:Pinto1247&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pinto1247 (page does not exist)\">Pinto1247</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grill_work.jpg",
+      "title": "Grillwork of the Chanin Building, New York"
+    },
+    "chrysler": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/chrysler.jpg",
+      "alt": "The Chrysler Building in New York, its terraced stainless-steel crown rising in radiating arches to the spire",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Ermell\" title=\"User:Ermell\">Ermell</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chrysler_Building_NYC-20090519-RM-094845.jpg",
+      "title": "The Chrysler Building, New York"
+    },
+    "chryslerCrown": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/chryslerCrown.jpg",
+      "alt": "The Chrysler Building's crown close up: seven terraced tiers of radiating sunburst arches in stainless steel",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/w/index.php?title=User:PortableNYCTours&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PortableNYCTours (page does not exist)\">PortableNYCTours</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Chrysler_building_%22gargoyles%22_05.jpg",
+      "title": "The Chrysler crown, close up"
+    },
+    "dailyExpress": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/dailyExpress.jpg",
+      "alt": "The Daily Express Building on Fleet Street in London, black Vitrolite glass curving round its corner",
+      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/26359504@N08\">Steven Duhig</a> from Bowie, Maryland, USA, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:London_Daily_Express_Fleet_Street.jpg",
+      "title": "The Daily Express Building, London"
+    },
+    "elthamHall": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/elthamHall.jpg",
+      "alt": "The circular entrance hall of Eltham Palace in London, wood-panelled under its glazed dome",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Tilman2007\" title=\"User:Tilman2007\">Tilman2007</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1212906_II_Star_ELTHAM_COURT_(ELTHAM_PALACE),_COURT_YARD,_Entrance_Hall_Greenwich_London_20250610_0003.jpg",
+      "title": "The entrance hall, Eltham Palace"
+    },
+    "empireState": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/empireState.jpg",
+      "alt": "The Empire State Building from the air, its setback shaft and mooring mast above Manhattan",
+      "credit": "Photo: Sam Valadi, via Wikimedia Commons (Public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Empire_State_Building_(aerial_view).jpg",
+      "title": "The Empire State Building, New York"
+    },
+    "erosCinema": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/erosCinema.jpg",
+      "alt": "The stepped tower of the Eros Cinema in Mumbai, red bands on cream plaster",
+      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/73416633@N00\">Colin Rose</a> from Montreal, Canada, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ErosTheater.jpg",
+      "title": "The Eros Cinema, Mumbai"
+    },
+    "greyhound": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/greyhound.jpg",
+      "alt": "The Greyhound bus terminal in Evansville, Indiana, Streamline Moderne curves in enamelled metal",
+      "credit": "Photo: Bmzuckerman, via Wikimedia Commons (CC BY 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Streamline_Moderne_-_Evansville,_IN_-_Greyhound_Bus_Terminal_(1).jpg",
+      "title": "The Greyhound terminal, Evansville"
+    },
+    "guimardMetro": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/guimardMetro.jpg",
+      "alt": "The Porte Dauphine Métro entrance in Paris, Hector Guimard's covered pavilion of curling iron and amber glass",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Moonik\" title=\"User:Moonik\">Moonik</a>, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Metro_station_entrance_(%C3%A9dicule_Guimard)_Porte_Dauphine_Paris_16e_002.jpg",
+      "title": "A Guimard Métro entrance, Paris"
+    },
+    "hooverBuilding": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/hooverBuilding.jpg",
+      "alt": "The Hoover Building in Perivale, London, its Egyptianising facade across the lawns",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Ethan_Doyle_White\" class=\"mw-redirect\" title=\"User:Ethan Doyle White\">Ethan Doyle White</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Front_of_the_Hoover_Building_in_Perivale.jpg",
+      "title": "The Hoover Building, London"
+    },
+    "hortaMuseum": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/hortaMuseum.jpg",
+      "alt": "The top-lit staircase of Victor Horta's own house in Brussels, now the Horta Museum, with its sinuous iron railing and stained-glass skylight",
+      "credit": "Photo: <bdi><a href=\"https://en.wikipedia.org/wiki/en:Victor_Horta\" class=\"extiw\" title=\"w:en:Victor Horta\"><span title=\"Belgian architect, designer, publicist, teacher and creator of Art Nouveau (1861–1947)\">Victor Horta</span></a></bdi>, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Staircase_of_the_Victor_Horta_own_house_(25,_rue_Am%C3%A9ricaine,_1060,_Brussels).jpg",
+      "title": "The Horta Museum stair, Brussels"
+    },
+    "hortaTassel": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/hortaTassel.jpg",
+      "alt": "The staircase of the Hôtel Tassel in Brussels, its iron railing curling in the whiplash line under a glazed dome",
+      "credit": "Photo: Henry Townsend, via Wikimedia Commons (Public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tassel_House_stairway.JPG",
+      "title": "The Tassel House stair, Brussels"
+    },
+    "karlsplatz": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/karlsplatz.jpg",
+      "alt": "Otto Wagner's Karlsplatz pavilion in Vienna, marble panels and gilt ornament on an iron frame",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Pudelek\" title=\"User:Pudelek\">Pudelek</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otto_Wagner_Pavillon_-_Karlsplatz.jpg",
+      "title": "The Karlsplatz pavilion, Vienna"
+    },
+    "lavirotte": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/lavirotte.jpg",
+      "alt": "The Lavirotte Building at 29 Avenue Rapp in Paris, wrapped in stoneware ornament by Alexandre Bigot",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Binche\" title=\"User:Binche\">Binche</a>, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Immeuble_Lavirotte_-_Paris_-_France_-_Facade.jpg",
+      "title": "The Lavirotte Building, Paris"
+    },
+    "mackintosh": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/mackintosh.jpg",
+      "alt": "The north facade of the Glasgow School of Art, its great studio windows boarded after the fires of 2014 and 2018",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/w/index.php?title=User:John_a_s&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:John a s (page does not exist)\">John a s</a>, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wfm_glasgow_school_of_art.jpg",
+      "title": "The Glasgow School of Art"
+    },
+    "majolica": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/majolica.jpg",
+      "alt": "Otto Wagner's Majolikahaus in Vienna, its facade flowered with majolica tiles",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/w/index.php?title=User:HarkOlufs02&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:HarkOlufs02 (page does not exist)\">HarkOlufs02</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Majolikahaus,_Wien,_Otto_Wagner.jpg",
+      "title": "The Majolikahaus, Vienna"
+    },
+    "majorelle": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/majorelle.jpg",
+      "alt": "The east facade of the Villa Majorelle in Nancy, with its rounded windows and shutters",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Audesome\" title=\"User:Audesome\">Audesome</a>, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villa_Majorelle,_East_fa%C3%A7ade.jpg",
+      "title": "Villa Majorelle, Nancy"
+    },
+    "malletStevens": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/malletStevens.jpg",
+      "alt": "A house in the Rue Mallet-Stevens in Paris, white cubes, strip windows and a roof terrace",
+      "credit": "Photo: <a href=\"https://en.wikipedia.org/wiki/fr:User:MOSSOT\" class=\"extiw\" title=\"w:fr:User:MOSSOT\">MOSSOT</a> at <a href=\"https://en.wikipedia.org/wiki/fr:\" class=\"extiw\" title=\"w:fr:\">French Wikipedia</a>, via Wikimedia Commons (CC BY 1.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_16_-_Maison_7_rue_Mallet-Stevens_-1.JPG",
+      "title": "Rue Mallet-Stevens, Paris"
+    },
+    "miamiHotel": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/miamiHotel.jpg",
+      "alt": "Art Deco hotels on Ocean Drive, Miami Beach, lit in neon at night",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Gzzz\" title=\"User:Gzzz\">Gzzz</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ocean_Drive_by_night_1.jpg",
+      "title": "Ocean Drive, Miami Beach, at night"
+    },
+    "michelinHouse": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/michelinHouse.jpg",
+      "alt": "Michelin House on Fulham Road in London at dusk, its stained-glass windows and tyre-stack lights glowing",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Romainbehar\" title=\"User:Romainbehar\">Romainbehar</a>, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:London_-_Fulham_Road,_Michelin_House_at_the_end_of_the_day.jpg",
+      "title": "Michelin House, London"
+    },
+    "muchaPoster": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/muchaPoster.jpg",
+      "alt": "Alphonse Mucha's poster for Gismonda (1894), Sarah Bernhardt robed and haloed in gold",
+      "credit": "Photo: <bdi><a href=\"https://en.wikipedia.org/wiki/en:Alphonse_Mucha\" class=\"extiw\" title=\"w:en:Alphonse Mucha\"><span title=\"Czech painter, illustrator and graphic artist (1860–1939)\">Alphonse Mucha</span></a></bdi> / <bdi><a href=\"https://en.wikipedia.org/wiki/User:Adam_Cuerden\" class=\"extiw\" title=\"en:User:Adam Cuerden\">Adam Cuerden</a></bdi>, via Wikimedia Commons (Public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alphonse_Mucha_-_Poster_for_Victorien_Sardou%27s_Gismonda_starring_Sarah_Bernhardt.jpg",
+      "title": "Mucha's Gismonda poster, 1894"
+    },
+    "napierTelegraph": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/napierTelegraph.jpg",
+      "alt": "The Daily Telegraph building in Napier, New Zealand, lettered across its Deco facade",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Daderot\" title=\"User:Daderot\">Daderot</a>, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daily_Telegraph_Building_-_Napier,_NZ_-_DSC05278.jpg",
+      "title": "The Daily Telegraph building, Napier"
+    },
+    "normandie": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/normandie.jpg",
+      "alt": "The liner Normandie in a period photograph, her three funnels and long hull at sea",
+      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49487266@N07\">San Diego Air &amp; Space Museum Archives</a>, via Wikimedia Commons (Public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AL77C-046_(14520973405).jpg",
+      "title": "The Normandie (period photograph)"
+    },
+    "palauMusica": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/palauMusica.jpg",
+      "alt": "The concert hall of the Palau de la Música Catalana in Barcelona, its stained-glass skylight above the stage",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/w/index.php?title=User:Tudoi61&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tudoi61 (page does not exist)\">Tudoi61</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palau_de_la_M%C3%BAsica_Catalana-Palace_of_Catalan_Music_(Image_2).jpg",
+      "title": "Palau de la Música Catalana, Barcelona"
+    },
+    "paris1925": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/paris1925.jpg",
+      "alt": "The Italian pavilion at the 1925 Paris Exposition Internationale des Arts Décoratifs, from a period postcard",
+      "credit": "Photo: Unknown author<span style=\"display: none;\">Unknown author</span>, via Wikimedia Commons (Public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris-FR-75-Expo_1925_Arts_d%C3%A9coratifs-pavillon_de_l%27Italie.jpg",
+      "title": "The Italian pavilion, Paris 1925 (period postcard)"
+    },
+    "parkGuell": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/parkGuell.jpg",
+      "alt": "El Drac, the mosaic salamander on the entrance stair of Park Güell in Barcelona",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Jmabel\" title=\"User:Jmabel\">Joe Mabel</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Park_G%C3%BCell_-_main_steps_and_Drac_05.jpg",
+      "title": "El Drac at Park Güell, Barcelona"
+    },
+    "peaceHotel": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/peaceHotel.jpg",
+      "alt": "The Peace Hotel (Sassoon House) on the Bund in Shanghai at night, its green pyramid roof lit",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Suicasmo\" title=\"User:Suicasmo\">Suicasmo</a>, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peace_Hotel_20250503.jpg",
+      "title": "The Peace Hotel, Shanghai"
+    },
+    "radioCity": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/radioCity.jpg",
+      "alt": "The auditorium of Radio City Music Hall in New York, its great proscenium arches glowing amber",
+      "credit": "Photo: flickr4jazz, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Radio_City_Music_Hall_3051638324_4a385c5623.jpg",
+      "title": "Radio City Music Hall, New York"
+    },
+    "rigaNouveau": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/rigaNouveau.jpg",
+      "alt": "An ornamented Art Nouveau facade on Alberta iela in Riga, its balconies carved with masks and garlands",
+      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/72746018@N00\">Jean-Pierre Dalbéra</a> from Paris, France, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Immeuble_art_nouveau_(Riga)_(7561800214).jpg",
+      "title": "Alberta iela, Riga"
+    },
+    "rockefeller": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/rockefeller.jpg",
+      "alt": "The RCA Building at Rockefeller Center at night, seen along Channel Gardens",
+      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44613506@N07\">(vincent desjardins)</a> from Paris, France, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rockefeller_Center,_GE_Building_(RCA_Building)_(2011).jpg",
+      "title": "Rockefeller Center, New York"
+    },
+    "secession": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/secession.jpg",
+      "alt": "The Vienna Secession building, its white cubic body crowned by a gilded laurel dome",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Bwag\" title=\"User:Bwag\">C.Stadler/Bwag</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wien_-_Secessionsgeb%C3%A4ude.JPG",
+      "title": "The Secession building, Vienna"
+    },
+    "stoclet": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/stoclet.jpg",
+      "alt": "The Palais Stoclet in Brussels, marble slabs edged in bronze under its tower",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:PtrQs\" title=\"User:PtrQs\">PtrQs</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20120923_Brussels_PalaisStoclet_Hoffmann_DSC06725_PtrQs.jpg",
+      "title": "Palais Stoclet, Brussels"
+    },
+    "tiffanyLamp": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/tiffanyLamp.jpg",
+      "alt": "An eighteen-light lily lamp by Tiffany Studios, its favrile glass shades opening like flowers",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Epolk\" title=\"User:Epolk\">Eric Polk</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiffany_Studios_-_Eighteen-Light_Lily_Lamp_-_HNT.jpg",
+      "title": "A Tiffany lily lamp"
+    },
+    "whiplashIron": {
+      "src": "/assets/history-deep/art-deco-vs-art-nouveau/whiplashIron.jpg",
+      "alt": "The main stair of the Hôtel Solvay in Brussels, its iron railing uncurling beside the muralled wall",
+      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Brigade_Piron\" title=\"User:Brigade Piron\">Brigade Piron</a>, via Wikimedia Commons (CC BY 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Solvay_-_Main_Stairs.jpg",
+      "title": "The main stair of the Hôtel Solvay, Brussels"
+    }
+  },
+  "standfirst": "No two styles are confused more often, or with more confidence, than Art Nouveau and Art Deco. Both are rich, both are decorative, both rejected the borrowed historical dress of the nineteenth century, and both flowered within the working lifetime of a single architect — so the photographs blur together, and the labels in sale rooms and guidebooks blur with them. This book separates them properly. It follows Art Nouveau from its first flowering in Brussels and Paris in the 1890s — Horta's whiplash stair, Guimard's Métro gates, Gaudí's stone waves — and Art Deco from its naming day at the Paris Exposition of 1925 to the skyscrapers of New York and the cinemas of Mumbai. It compares the two grammars part by part: line against line, motif against motif, the workshop against the factory, stained glass against neon. It walks both styles around the world, watches each of them die, watches each of them return, and closes with the honest confusions — the Viennese facade of 1905 that looks more Deco than a Parisian one of 1925 — and with a field method of five signs by which any building can be read, and the two styles told apart, in the street.",
+  "intro": [
+    "Begin with the simplest true sentence in this book: Art Nouveau flows, Art Deco steps. Nouveau's line is the curve of a growing stem, bending, swelling and never quite repeating; Deco's line is the straight rule and the set square, breaking into zigzags, chevrons and steps. Almost everything else — ornament, material, colour, plan — follows from that single difference of line, and the chapters that follow trace it through both styles, subject by subject. But the sentence is a first approximation, not a law, and this book is as much about its exceptions as about its rule.",
+    "The two styles are not strangers. They are parent and child, and the child defined itself against the parent. Art Deco grew out of the geometric wing of Art Nouveau — out of Vienna's squared Secession, out of Mackintosh's grids, out of the Palais Stoclet's marble slabs — and then, at Paris in 1925, announced itself as everything the curving style was not: symmetrical where Nouveau was grown, machined where Nouveau was handcrafted, glossy where Nouveau was matt, metropolitan where Nouveau was botanical. To understand either style fully you must hold the other in view, which is why this volume treats them together, as one comparative history, rather than as two separate monographs.",
+    "The comparison runs on evidence, not on vibes. Each style gets its full history first — its roots in the reform movements of the nineteenth century, its capitals, its materials, its building types, its death and its revival — and the two are then set side by side, grammar against grammar, in the middle parts of the book. The buildings named are real and checkable, the photographs are licensed and credited, and the bibliography rests on the standard literature of both fields: Sembach, Russell and Greenhalgh for Nouveau; Hillier, Bayer and the Bentons for Deco — the V&A's two great exhibition catalogues of 2000 and 2003 standing, fittingly, as the modern monuments of each style's scholarship.",
+    "The book closes where the series always closes: in the street, with a method. Five signs — silhouette, governing line, ornament's source, symmetry, material — applied in order, will separate a Nouveau facade from a Deco one in nearly every case, and the final chapter applies them slowly to real buildings, names the traps (glass block, streamlining, the Egyptian taste both styles shared) and lists the mistakes to avoid. Read the two styles apart once, carefully, and the early twentieth century never blurs again."
+  ],
+  "keyFacts": [
+    [
+      "Period",
+      "Art Nouveau flourishes c. 1890–1910, with roots in the 1880s and embers to 1914. Art Deco crystallises at the Paris Exposition of 1925, with pre-war roots from c. 1910, and runs to 1939, fading through the 1940s. Between them they cover, almost exactly, the first four decades of the twentieth century — Nouveau the century's childhood, Deco its confident youth."
+    ],
+    [
+      "Where",
+      "Both styles were international and both were localised. Nouveau's capitals: Brussels, Paris, Barcelona, Nancy, Vienna, Glasgow, Turin, Riga. Deco's capitals: Paris and New York first, then London, Miami, Mumbai, Shanghai, Havana, Napier and a hundred ports and resorts. Few cities of 1900–1939 escaped both."
+    ],
+    [
+      "Signature",
+      "Nouveau's signature is the whiplash line — a curve of unequal, growing energy, carried through plan, facade, ironwork and furniture as one organism. Deco's signature is the stepped, symmetrical silhouette dressed in stylised geometry: sunburst, chevron, zigzag and fountain, cut in hard materials and polished to a shine. Curve against crystal: the whole comparison in four words."
+    ],
+    [
+      "Key figures",
+      "For Nouveau: Victor Horta · Hector Guimard · Antoni Gaudí · Louis Majorelle · Charles Rennie Mackintosh · Josef Hoffmann. For Deco: Émile-Jacques Ruhlmann · Robert Mallet-Stevens · William Van Alen · and the historians who named and framed the styles afterwards — Bevis Hillier, who gave Deco its name in 1968, and Paul Greenhalgh, whose V&A exhibition of 2000 re-founded Nouveau studies."
+    ],
+    [
+      "Landmark buildings",
+      "Hôtel Tassel and the Horta Museum, Brussels; Castel Béranger and the Métro entrances, Paris; Casa Batlló, Casa Milà and the Palau de la Música, Barcelona; the Secession building and Karlsplatz pavilions, Vienna; the Palais Stoclet, Brussels; the Glasgow School of Art; the Chrysler and Empire State Buildings and Radio City Music Hall, New York; the Hoover Building and Eltham Palace, London; the Eros Cinema, Mumbai; the Daily Telegraph building, Napier; the Peace Hotel, Shanghai."
+    ],
+    [
+      "Legacy",
+      "Between them the two styles taught the twentieth century that a modern building could still be decorated — that ornament need not be borrowed from the past but could be grown from the plant or cut from the machine. Their afterlives diverge instructively: Nouveau was rescued by scholars and museums, Deco by preservationists and popular love; both now anchor the tourist economies of their capitals, and both remain the first test of anyone learning to read a facade."
+    ]
+  ],
+  "timeline": [
+    [
+      "1892–1893",
+      "Victor Horta builds the Hôtel Tassel in Brussels: the first fully Art Nouveau interior, its stair a single whiplash of iron, mosaic and light."
+    ],
+    [
+      "1894",
+      "Alphonse Mucha's Gismonda poster makes Sarah Bernhardt — and the style le style Mucha — famous overnight in Paris."
+    ],
+    [
+      "1895",
+      "Siegfried Bing opens the Maison de l'Art Nouveau in Paris, giving the style its name; Hector Guimard begins the Castel Béranger."
+    ],
+    [
+      "1897",
+      "The Vienna Secession is founded; Josef Olbrich's Secession building follows in 1897–98, its gilded laurel dome above a white cube."
+    ],
+    [
+      "1898–1901",
+      "Horta builds his own house and studio in Brussels — now the Horta Museum — and Guimard's Métro entrances begin to flower across Paris."
+    ],
+    [
+      "1900",
+      "The Paris Exposition Universelle: Art Nouveau's world triumph — and the first backlash against its excess."
+    ],
+    [
+      "1901",
+      "The École de Nancy is founded under Émile Gallé; Jules Lavirotte wraps 29 Avenue Rapp in Bigot's stoneware."
+    ],
+    [
+      "1904–1906",
+      "Gaudí remakes Casa Batlló in Barcelona; Casa Milà, his stone wave, follows in 1906–12."
+    ],
+    [
+      "1905–1911",
+      "Josef Hoffmann's Palais Stoclet rises in Brussels: Nouveau squared into marble and bronze — the hinge building between the two styles."
+    ],
+    [
+      "1905–1908",
+      "Domènech i Montaner builds the Palau de la Música Catalana, a steel frame wrapped in glass, tile and sculpture."
+    ],
+    [
+      "1910–1911",
+      "Michelin House opens on London's Fulham Road — tyres, tiles and stained glass in a style already half Deco."
+    ],
+    [
+      "1913",
+      "Auguste Perret's Théâtre des Champs-Élysées opens in Paris: a concrete frame in classical-Deco dress, the new style before its name."
+    ],
+    [
+      "1914–1918",
+      "The First World War stops both building and the old world that commissioned it; Nouveau does not survive the peace."
+    ],
+    [
+      "1922",
+      "The discovery of Tutankhamun's tomb fires the Egyptian revival that Deco makes its own."
+    ],
+    [
+      "1925",
+      "The Exposition Internationale des Arts Décoratifs et Industriels Modernes opens in Paris: Art Deco's naming day and world showcase."
+    ],
+    [
+      "1927",
+      "Robert Mallet-Stevens completes his street of white cubist-Deco houses in Paris, the Rue Mallet-Stevens."
+    ],
+    [
+      "1928–1930",
+      "William Van Alen's Chrysler Building races into the New York sky, its stainless crown the Deco silhouette perfected."
+    ],
+    [
+      "1930–1931",
+      "The Empire State Building is built in thirteen months: the setback skyscraper as a product of zoning law and speed."
+    ],
+    [
+      "1932",
+      "Radio City Music Hall opens in New York; in London the Daily Express Building wraps Fleet Street in black glass."
+    ],
+    [
+      "1935",
+      "The liner Normandie makes her maiden voyage — the Deco interior as a floating palace, exported worldwide."
+    ],
+    [
+      "1938",
+      "The Eros Cinema opens in Bombay (Mumbai): Indo-Deco at full stretch, a ziggurat tower over Churchgate."
+    ],
+    [
+      "1939–1945",
+      "War and austerity end Deco's reign; post-war modernism condemns both styles as decoration, and demolition begins."
+    ],
+    [
+      "1966–1968",
+      "Paris rediscovers Art Nouveau in exhibition; Bevis Hillier's Art Deco of the 20s and 30s (1968) gives the second style its name."
+    ],
+    [
+      "1979",
+      "Miami Beach's Art Deco district is listed on the US National Register — Deco saved by preservation law, a model for the world."
+    ],
+    [
+      "2000–2003",
+      "The V&A's two great exhibitions — Art Nouveau 1890–1914 (2000) and Art Deco 1910–1939 (2003) — fix the modern scholarship of both styles."
+    ]
+  ],
+  "chapters": [
+    {
+      "id": "two-revolts",
+      "numeral": "I",
+      "title": "Two Revolts Against the Nineteenth Century",
+      "sections": [
+        {
+          "heading": "A century of borrowed clothes",
+          "paras": [
+            "For most of the nineteenth century, European architecture dressed new buildings in old clothes. A bank took the form of a Renaissance palazzo, a parliament that of a Gothic abbey or a Greek temple, a railway station that of a cathedral fronting an iron shed it politely concealed. The system had learning, rules and genuine beauty, but by the 1880s it had hardened into habit: style was chosen from a catalogue of past centuries, applied to plans it had never shaped, and judged by archaeological correctness rather than by fitness for modern life. A concert hall and a law court could wear the same orders and differ only in their lettering. The choice was often made by committee, pattern book or fashion, and could change between the drawing board and the tender without disturbing the plan beneath.",
+            "The strain showed most clearly where the century was most itself. Iron, glass and the department store, the apartment house and the electric lift had no historic costume that fitted them honestly, yet architects went on hiding iron columns inside masonry piers and stretching temple fronts across train sheds. Critics, designers and reformers across Europe began to ask the same question in different languages: what would a building look like if it owed nothing to any earlier century? The two styles compared in this book are the two great answers to that question, given a generation apart and in opposite tempers. Both claimed to be inevitable, both drew on the same new materials and the same disgust with imitation, and both would prove more fragile than their manifestos promised.",
+            "Art Nouveau came first, in the early 1890s, and answered with growth: the line of a plant stem, the curve of a flower, structure imagined as something living. Art Deco came second, after the First World War, and answered with geometry: the stepped profile, the chevron, the sunburst, form imagined as something cut, polished and machined. Between them they divide the making of modern ornament into two rival ideas — ornament that grows and ornament that is emblemised — and every later chapter of this part returns to that division. Neither style was a mere decoration, and neither can be understood without the other standing beside it. The comparison also restores what surveys lose when they file the styles separately: a shared impatience, a shared public and a shared belief that modern life deserved modern beauty."
+          ]
+        },
+        {
+          "heading": "The reforming roots: craft, Japan and the plant",
+          "figure": "tiffanyLamp",
+          "paras": [
+            "Both revolts grew from shared soil. The first root was the Arts and Crafts movement in Britain, where William Morris and his circle argued from the 1860s that industrial production had divorced design from making, and that honest workmanship, truth to materials and ornament drawn from nature could reunite them. Morris never built in either later style, and his own taste ran to medieval precedent, yet his insistence that a chair, a wallpaper and a house formed one work of art passed directly to the continent. The total interior, designed as a single organism, is his bequest to Art Nouveau and, through it, to Deco. His insistence that ordinary objects deserved serious design also dignified the poster, the teapot and the door handle — the very objects through which both styles would reach their widest public.",
+            "The second root was Japan. After Japanese goods and prints reached Europe in quantity from the 1860s, artists studied an art that composed asymmetrically, cropped its subjects boldly, flattened depth into pattern and found beauty in the iris, the pine branch and the wave. Japonisme loosened European ornament from symmetry and from the classical orders at a stroke. In Paris, London and Vienna, a generation learned from woodblock prints to let a stem cross a surface diagonally and a border cut a motif in half. That freedom underlies the whiplash line of the 1890s and, refined into geometry, the fans and rays of the 1920s. Japanese screens, fans and textiles also taught European designers economy: a single motif, rightly placed on an empty ground, could carry a whole composition without further enrichment or apology.",
+            "The third root was the plant itself, studied with new scientific intensity. Botanical illustration, the microscope and Ernst Haeckel's celebrated plates of natural forms, published from 1899, offered designers a repertoire of tendrils, seed pods, jellyfish and radiolaria that no pattern book of historic ornament could match. Louis Comfort Tiffany's lamps in America translated that study into coloured glass, where a dragonfly or a wisteria cluster became both shade and light source. Nature here was not copied leaf by leaf; it was analysed into lines of growth, and those lines became a grammar two styles would use very differently. Greenhouses, aquariums and botanical gardens made that grammar a lived experience for city dwellers, who met exotic plants under glass in the same decades that designers drew them at their desks."
+          ]
+        },
+        {
+          "heading": "One generation, two tempers",
+          "figure": "majolica",
+          "paras": [
+            "The two styles also share a generation, and the sharing explains the rivalry. Many architects who began as Art Nouveau designers ended as pioneers of modernism or of Deco, passing through both manners in one career and sometimes within one decade. Victor Horta in Brussels, Josef Hoffmann in Vienna and Charles Rennie Mackintosh in Glasgow all began with the curve and moved toward the straight line and the square. Their journeys were not betrayals of an early faith; they were searches, conducted in public, for a modern ornament that could survive its own fashion. When the curve exhausted itself, the same hands straightened it. Their buildings sometimes contain both manners at once, an early room of tendrils behind a later facade of squares, as if the argument were being conducted floor by floor within one address.",
+            "Temper, more than date, divides them. Art Nouveau is youthful, intimate and often deliberately strange: it flourished in houses, cafés, bookshops and metro entrances, addressed the individual passer-by and aged quickly because it staked everything on novelty. Art Deco is worldly, sociable and self-assured: it flourished in cinemas, hotels, ocean liners, offices and exhibition halls, addressed the crowd and lasted longer because it could absorb almost any influence into a disciplined geometry. Nouveau whispers along a staircase rail; Deco announces itself across a street. One seeks absorption in a total interior, the other projection from a confident facade. The temperamental contrast extends to colour and light as well: Nouveau prefers dusk, stained glass and the shaded interior, Deco the floodlit tower, the white liner and the neon sign.",
+            "This book therefore compares rather than separates them. Chapters II and III follow Art Nouveau from its Brussels flowering through its hinge years, when Vienna and Glasgow were already straightening its line; Chapter IV follows Art Deco to its naming in Paris in 1925; Chapters V and VI then set the two side by side, line against line and ornament against ornament. Read in sequence, the styles cease to be two sealed compartments in a survey. They become a single argument about how the modern world should decorate itself, conducted over forty years in iron, glass, stone and light, and never quite concluded. Keeping both in view also guards against the commonest error of the survey, which treats decoration as fashion's froth rather than as the period's most serious thinking about beauty and modern life."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nouveau-flowering",
+      "numeral": "II",
+      "title": "Art Nouveau: The First Flowering",
+      "sections": [
+        {
+          "heading": "Brussels, 1893: the Tassel house",
+          "figure": "hortaTassel",
+          "paras": [
+            "Art Nouveau in architecture begins with a Brussels townhouse. In 1893 Victor Horta, a young Belgian architect trained in the classical tradition, began the Hôtel Tassel for the engineer and scientist Émile Tassel; it was completed in 1894 and is generally regarded as the first fully realised Art Nouveau building. Its street facade still respects the narrow Brussels plot and the neighbouring cornice line, yet its wide central window, slender iron supports and carved stone already bend the classical facade toward something plant-like. The revolution, however, waited inside, where Horta was free of the street and of precedent alike. Brussels was ready for such an experiment: a wealthy, newly built capital of wide avenues and ambitious patrons, where a speculative townhouse type left the interior unusually free for reinvention.",
+            "The interior made the style. An octagonal hall opens into a winter garden, and from floor to ceiling a single system of ornament grows: iron columns branch like stems, their capitals unfurling into tendrils; the same tendril line continues in the mosaic floor, the painted wall decoration and the curving stair rail, so that structure, surface and furniture share one drawn line. Light falls from a glazed roof into the centre of a deep urban plot, solving a practical problem with the same gesture that created the ornament. Nothing here is applied decoration in the old sense; the building appears to have grown its decoration from within. Visitors at the time remarked on the effect of entering a plant or a skeleton rather than a house, and photographs of the stair hall carried that astonishment across Europe within months.",
+            "Horta repeated and enlarged the experiment across Brussels in the later 1890s, in the Hôtel Solvay, the Hôtel van Eetvelde and his own house and studio, refining the open plan, the central lightwell and the integrated ironwork each time. His Maison du Peuple of 1896 to 1899, a people's house for the Belgian Workers' Party built largely of iron and glass, proved the manner could serve a public, even a political, programme as readily as a private fortune. Within five years of the Tassel house, a style had been founded with a complete grammar: plan, structure, light and ornament conceived together. The founding mattered beyond Belgium because it proved the new manner could organise a whole building, not merely decorate a room, and every later Nouveau architect worked in its long shadow."
+          ]
+        },
+        {
+          "heading": "Paris takes it up: Bing, Gallé, Guimard",
+          "figure": "castelBeranger",
+          "paras": [
+            "Paris gave the style its name. In December 1895 the dealer Siegfried Bing opened his gallery at 22 rue de Provence under the sign Maison de l'Art Nouveau, showing glass, furniture, jewellery and whole furnished rooms by designers from several countries, and the gallery's name passed to the movement itself. Bing understood that the new manner was international and commercial as much as artistic: it would be sold in shops, reproduced in journals and carried by objects smaller than buildings. Through his gallery, a Brussels experiment became a European fashion with a Parisian label and a metropolitan distribution. Bing's own earlier trade in Japanese art linked the two roots of the style in one shop, so that prints, screens and the newest European furniture reinforced each other before a buyer's eyes.",
+            "In Nancy, Émile Gallé had already made glass and furniture into vehicles of natural poetry, working from his beloved Lorraine plants and insects and training a local school of craftsmen whose output the 1900 Exposition would display to the world. In Paris itself, Hector Guimard carried the style into architecture with the Castel Béranger of 1897 to 1898, an apartment house in Auteuil whose iron gates, balconies and entrance grille twist into stems and seed pods, and whose facade mixes stone, brick, enamelled lava and cast iron without asking permission from any historic order. Each window still serves a room; each flourish announces a break. The building divided opinion on its street, as intended: conservative critics saw disorder, younger architects a liberation, and tenants simply the most talked-about address in the sixteenth arrondissement that year.",
+            "Guimard understood publicity as Bing did. He designed the Castel Béranger down to its wallpaper and door furniture, published an album of the building, and signed the style with his own name in lettering of drawn, plant-like strokes. The comparison with Brussels is instructive: Horta's manner grows from the plan outward, disciplined by structure, while the French manner often begins at the surface, in glass, ceramics and carved wood of extraordinary virtuosity. Both are Art Nouveau, and their difference — construction in Belgium, craftsmanship in France — foreshadows the national variants, from Catalan modernisme to Viennese Secession, that the next chapter follows. What united the variants was method rather than motif: in every country the style began by redesigning the interior and its objects, and only afterwards dared to reshape the street outside."
+          ]
+        },
+        {
+          "heading": "The style at flood tide, 1900",
+          "figure": "guimardMetro",
+          "paras": [
+            "The Paris Exposition Universelle of 1900 was the style's flood tide. Some fifty million visits were recorded, and the new manner met them everywhere: in Bing's pavilion of furnished rooms, in Gallé's glass, in René Lalique's jewellery of dragonflies and orchids, in pavilions, posters and the great entrance gates. What had been the taste of advanced dealers and a few Brussels patrons seven years earlier now defined, for an international public, what modern luxury looked like. For one Parisian summer, Art Nouveau was not a revolt against the official world; it was the official world, installed by the state at the centre of its exhibition. The Exposition's own architecture, largely temporary and much of it conventional beneath its decoration, showed how thin the official conversion ran — a warning that popularity and conviction are different things.",
+            "Its most durable Parisian monuments were also its most democratic. In 1899 Guimard had been commissioned to design entrances for the new Métro, and by 1900 his cast-iron édicules and simpler arched aedicules stood across the city: green-painted iron stems branching into glass canopies like plants under a greenhouse roof, lettered in his own sinuous type. They were manufactured industrially, in standard parts, yet each reads as a unique growth on its pavement. Here the style's paradox is complete — hand-drawn nature reproduced by the machine — and Paris kept the entrances long after fashion turned, until they became emblems of the city itself. Manufactured in painted cast iron by foundries to Guimard's designs, they remain the rare case of an avant-garde style becoming street furniture for an entire capital within a single building season.",
+            "Flood tide, however, carries the ebb within it. By 1900 the manner was already being copied cheaply, its curves applied to objects they did not suit and buildings they did not organise, and satirists had found names for its excesses. A style that defined itself by novelty faced a structural problem: novelty expires. Within a few years the advanced designers of Vienna, Glasgow and Darmstadt were straightening its line, while the commercial version flooded shops with wriggling ornament detached from any plan. The flowering had lasted barely a decade, but it had permanently broken the authority of historic styles, and nothing built afterwards could pretend otherwise. Its success also internationalised the manner beyond Europe's capitals, to Barcelona, Riga, Prague, Glasgow, Chicago and Buenos Aires, each city translating the line into its own materials, climate and mythology."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hinge-years",
+      "numeral": "III",
+      "title": "The Hinge Years, 1900–1914",
+      "sections": [
+        {
+          "heading": "Vienna squares the curve",
+          "figure": "karlsplatz",
+          "paras": [
+            "Vienna received Art Nouveau as the Secession, named for the breakaway of younger artists from the official academy association in 1897 under the presidency of Gustav Klimt. Joseph Maria Olbrich's Secession Building of 1897 to 1898 announced the programme in architecture: a white, blocky exhibition hall crowned by a gilded dome of openwork laurel leaves — plant ornament already disciplined into a sphere. The building keeps Nouveau's faith in nature and in the total work of art, but its walls are flat, its openings square and its symmetry firm. In Vienna, from the very beginning, the curve grew inside a cube. The Secession's exhibitions, which introduced Klimt's circle and foreign designers including Mackintosh to Viennese audiences, made the building a working engine of the new taste rather than a monument to it.",
+            "Otto Wagner, the city's senior moderniser, carried the same discipline into infrastructure. His stations for the Vienna Stadtbahn, built through the later 1890s and including the celebrated Karlsplatz pavilions of 1898 to 1899, combine white marble panels, green and gold metalwork and sunflower ornament with plans of complete functional clarity. Wagner taught that modern construction and modern purposes must generate modern form, and his buildings demonstrate the hinge in action: ornament is still floral, still lovingly made, but it lies on flat surfaces in repeatable patterns rather than twisting structure into stems. The tendril has been pressed, like a flower, between pages. Wagner's great Postal Savings Bank of 1904 to 1906 carried the argument furthest, its marble skin fixed by visible aluminium bolts that serve simultaneously as construction, ornament and advertisement of modern technique.",
+            "The straightening completed itself in the work of Wagner's younger colleagues. Josef Hoffmann and Koloman Moser founded the Wiener Werkstätte in 1903, and its furniture, metalwork and interiors favoured the square, the grid and black-and-white contrast so strongly that Hoffmann earned a nickname from the squared pattern of his designs. Adolf Loos went further and questioned ornament itself, stripping his interiors toward plain, rich materials. Vienna thus performed, within fifteen years, the whole journey this book describes: from plant line to geometric emblem, from Nouveau toward Deco and modernism, without ever quite abandoning decoration as a public duty. That refusal separates Vienna from the sterner modernism that followed, and connects it forward to Deco, whose makers likewise held that a modern building might still be a decorated one."
+          ]
+        },
+        {
+          "heading": "Glasgow: the grid and the rose",
+          "figure": "mackintosh",
+          "paras": [
+            "Glasgow produced the hinge in its purest single career. Charles Rennie Mackintosh, working with Margaret Macdonald, his wife and artistic partner, and with Frances Macdonald and Herbert McNair in the group known as the Four, developed a manner in which the sinuous Nouveau line is stretched, thinned and set against long verticals and grids. A stylised rose, reduced almost to a diagram, replaces the natural flower; a tall-backed chair replaces the comfortable one; white-painted rooms hold sparse, elongated furniture like notes on a stave. Nature remains the source, but it has been passed through a draughtsman's geometry before reaching the room. The effect is instantly recognisable and strangely austere: long stems, sparse leaves and high, narrow proportions turn even a washstand or a menu card into a small work of architecture.",
+            "The Glasgow School of Art, built in two campaigns from 1897 to 1899 and 1907 to 1909, states the position in stone and iron. Its north front is a working studio facade of huge windows, its entrance and oriel windows touched with wrought-iron tendrils and carved plant forms, its later library a tall, ordered interior of dark timber posts and delicate light fittings. The building is neither Gothic nor classical nor simply Nouveau; it is a functional art school wearing ornament that has been analysed into line. Mackintosh exhibited in Vienna in 1900 to acclaim, and the Secessionists recognised a fellow traveller precisely because his work hinged as theirs did. Back in Glasgow the same building served the unfashionable daily purposes of an art school for a century, its reputation abroad long outrunning the esteem it was granted in its own city.",
+            "Mackintosh's later interiors — the Willow Tea Rooms of 1903, the room settings he built for exhibition abroad, the house at 78 Derngate in Northampton of 1916, with its bold black, yellow and triangular decoration — move visibly toward the geometric world of Deco while keeping a Nouveau intensity of atmosphere. His career also warns against tidy period labels: unappreciated in Glasgow for much of his working life, he was read in Vienna as a prophet of the new and is now claimed by the histories of both styles and of modernism. The grid and the rose coexisted in his hand because, for his generation, they were stages of one search, not enemy camps. His influence travelled mainly through publication and exhibition rather than through a school of followers, which is why it surfaces so strongly in Vienna and so faintly in the London of his own lifetime."
+          ]
+        },
+        {
+          "heading": "The Palais Stoclet: a hinge in marble",
+          "figure": "stoclet",
+          "paras": [
+            "The hinge years have a monument, and it stands, fittingly, in Brussels, where the flowering began. The Palais Stoclet, built from 1905 to 1911 for the banker Adolphe Stoclet to designs by Josef Hoffmann, occupies a full suburban site on the Avenue de Tervuren. From the street it is a composition of smooth marble-clad volumes, their edges picked out in gilded bronze strips, rising to a stepped tower crowned by four figures. There is no whiplash line on its exterior and no historic order either; instead, proportion, precious surface and a single stylised geometry carry the whole effect. Horta's Brussels of tendrils is twelve years and one world away. The contrast is deliberate on Hoffmann's part: trained in Wagner's Vienna and exhibited beside Horta's generation, he knew the tendril's language intimately and chose, point by point, to answer it in marble.",
+            "Inside, the two tempers meet at full richness. The dining room is lined with marble and decorated with mosaic friezes designed by Gustav Klimt, in which the tree of life spirals in gold and enamel colour — Nouveau's plant symbolism at its most sumptuous, framed by Hoffmann's strict architectural grid. Furniture, carpets, silver, door handles and even the garden were designed as parts of one work, largely through the Wiener Werkstätte, at a cost that made the house a private exposition of Viennese craft. The total interior Morris imagined and Horta built in iron is here rebuilt in marble, mosaic and money. Even the cutlery was designed for the house, and the family was expected to alter nothing: the total work of art here approaches total authorship, splendour and discipline purchased at the price of freedom.",
+            "The Palais Stoclet is therefore the right place to close the hinge. It is too geometric, too luxurious and too serene to be Art Nouveau, yet too ornamental, too crafted and too symbolic to be modernist, and it anticipates Deco's love of rare materials, stepped profiles and integrated design by more than a decade. War ended the world that could commission such a house: building finished in 1911, and by 1914 the patrons, craftsmen and empires behind it were dispersing. What survived the war was the Stoclet lesson — that geometry and splendour could be allies — waiting for Paris to name it in 1925. The house stayed private, little published and almost mythical for decades, which protected its interiors intact while the reputations of more accessible buildings rose, fell and were reassessed around it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deco-named",
+      "numeral": "IV",
+      "title": "Art Deco: Paris 1925 and the Naming of a Style",
+      "sections": [
+        {
+          "heading": "Deco before the name: Paris 1910–1925",
+          "figure": "champsElysees",
+          "paras": [
+            "Art Deco existed before anyone called it anything. In the years before the First World War, Parisian taste was already turning from the writhing line toward symmetry, straight edges and richer, flatter colour: Paul Poiret's fashions freed dress from the corset and filled it with orientalising pattern; the Ballets Russes, from 1909, flooded Paris with the saturated colour and geometric stage design of Léon Bakst; furniture makers such as Paul Iribe and Jacques-Émile Ruhlmann returned to fine eighteenth-century craftsmanship while simplifying its forms. Luxury was being redefined — less carving, better veneer; less naturalism, stronger pattern. Jazz, arriving with American troops and records during and after the war, gave the change a rhythm and a name for its energy, syncopation made visible in zigzags and broken colour.",
+            "Architecture shows the turn in the Théâtre des Champs-Élysées, opened in 1913 to designs associated with Auguste Perret and Henry van de Velde. Its facade is a calm, classical composition in white marble, its reliefs by Antoine Bourdelle, its structure of reinforced concrete — the modern material of the age — and its interiors decorated in a restrained, gilded modern classicism. A theatre for the newest music and dance, including the first performance of Stravinsky's Rite of Spring in May 1913, it wears no tendrils and quotes no period. If Art Nouveau had dissolved the classical facade, this building reassembled one from modern parts. Its concrete frame, frankly organised behind the marble, mattered as much as its decor: Deco from the beginning claimed engineering and ornament as allies, not as the enemies modernist polemic later made them.",
+            "War interrupted the development and then transformed its meaning. Between 1914 and 1918 the decorative arts in France were largely suspended, craftsmen mobilised and exhibitions postponed — including the Paris exhibition of modern decorative art first planned for the pre-war years. When building and manufacture resumed, the new manner carried a post-war charge: colour, pleasure and luxury asserted themselves against austerity and grief, while machine production, cheaper materials and new building types pressed for forms that could be repeated, lit electrically and recognised at speed. The style that emerged in 1925 was thus both a pre-war invention and a post-war statement, and its confidence cannot be separated from its moment. France in particular treated the decorative arts as national industry and diplomacy, a field in which French supremacy, challenged by German and Austrian workshops before the war, could be triumphantly reasserted in peacetime."
+          ]
+        },
+        {
+          "heading": "The 1925 Exposition",
+          "figure": "paris1925",
+          "paras": [
+            "From April to October 1925, Paris staged the Exposition Internationale des Arts Décoratifs et Industriels Modernes along the Seine, around the Grand Palais and across the Pont Alexandre III. Its rules were a manifesto in themselves: exhibits were to be new, modern and original, with no copies of historic styles admitted, and dozens of nations and all the great Paris department stores and couturiers built pavilions, gates, gardens and model interiors for millions of visitors. An exhibition about decoration, held at the scale of a world's fair, declared that the design of objects, rooms and facades was a central business of the modern state. The grounds themselves, lit at night by fountains and towers of coloured light, rehearsed the illuminated city that Deco buildings, cinemas and exhibitions would promise their publics for the next fifteen years.",
+            "The show had no single style, and that is precisely why it named one. Ruhlmann's pavilion for a wealthy collector presented furniture of macassar ebony, ivory and sharkskin in rooms of strict symmetry; René Lalique, the Nouveau jeweller of 1900 turned glassmaker, built a dining room and a fountain of illuminated glass, his dragonflies now disciplined into geometry; the department stores showed rooms for a broader public in simplified versions of the same language. Beside them stood the genuinely avant-garde: Le Corbusier's Pavillon de l'Esprit Nouveau and Konstantin Melnikov's Soviet pavilion, arguments for a machine-age architecture without applied ornament at all. The juxtaposition is the Exposition's lasting lesson: 1925 contained both futures, the decorated and the stripped, and the public of the interwar years, given the choice, overwhelmingly bought the decorated one.",
+            "Posterity took the Exposition's decorative mainstream, not its purist margin, as the style of the moment, and exported it worldwide: to American skyscrapers and cinemas, British hotels and factories, Belgian and Dutch housing, and colonial and dominion capitals from Bombay to Sydney. The gates by Edgar Brandt in wrought and gilded iron, the stylised fountains, the stepped pavilion profiles and the bold lettering became a portable kit of modernity, adaptable to a bank, a bathing pavilion or a packet of cigarettes. What Brussels had done for the townhouse in 1893, Paris now did for the entire commercial landscape of the interwar world. Export was aided by the style's adaptability to local craft: Indian, Egyptian, Chinese and Latin American builders could bend its geometry toward their own traditions without breaking its unmistakable modern silhouette."
+          ]
+        },
+        {
+          "heading": "A name found late: 1966–1968",
+          "paras": [
+            "For forty years the style had no settled name. Contemporaries called it modern, moderne, modernistic or, in France, the style of 1925; American critics who disliked its jazz-age associations spoke of jazz modern or zigzag moderne for its sharper American variant. The buildings and objects were built, used, altered and often despised as dated within a generation, long before they were studied. A name, when it came, arrived as an act of historical recovery rather than of christening: scholars in the 1960s went looking for a term for a manner everyone recognised but no catalogue could file, and found it in the title of the 1925 Exposition itself. The delay had consequences for survival: churches, cinemas, factories and flats of the period were demolished or refaced in the post-war decades precisely because no respected name yet defended them as art.",
+            "A Paris exhibition of 1966, devoted to the decorative arts of the 1920s and held at the Musée des Arts Décoratifs, revived the period's reputation and its vocabulary; in 1968 the British art historian Bevis Hillier published Art Deco of the 20s and 30s, the book that popularised the shortened name Art Deco — drawn from Arts Décoratifs — and fixed it in general use. Hillier's term succeeded because it was needed: it separated the ornamental modernism of the interwar years from both Art Nouveau before it and the International Style beside it, and gave collectors, curators and architects a single handle for a vast, varied production. Exhibitions and surveys followed the book in Britain, France and America, museums began collecting interwar design seriously, and buildings that had survived by neglect began to be listed, restored and studied instead.",
+            "The lateness of the name should discipline how it is used. Art Nouveau was named at the time, by a shop; Art Deco was named in retrospect, by historians, and its boundaries are correspondingly porous — embracing Ruhlmann's hand-made luxury and the mass-produced cinema, Parisian couture and Hollywood sets, the stepped New York skyscraper and the streamlined train. This book uses the term as Hillier established it, for the decorative modern style that flourished roughly between 1910 and 1939, while remembering that its makers would not have recognised the label. The comparison with Nouveau is sharpest when both names are treated as conveniences, not essences. Used with that caution, the name does real work: it connects a hair ornament, a housing block and a skyscraper crown into one intelligible story about how the interwar world wished to appear."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-line",
+      "numeral": "V",
+      "title": "Line: The Whiplash and the Zigzag",
+      "sections": [
+        {
+          "heading": "The whiplash line",
+          "figure": "whiplashIron",
+          "paras": [
+            "Every style can be recognised by its characteristic line, and Art Nouveau's is the whiplash: a long, taut curve that swells, snaps and trails away, like a cracked whip, a rising stem or a strand of hair caught in water. German critics named it early, and the name has stuck because the drawing is unmistakable. In Horta's stair rails and floor mosaics, in Guimard's ironwork, in the posters of Alphonse Mucha and the glass of Gallé, the same line does every kind of work — it outlines a leaf, carries a structure, frames a picture and signs a building. One line, endlessly inflected, is the style's whole handwriting. The line appears at every scale with the same character, in a bookplate two inches wide and an iron gate twenty feet across, which is how contemporaries learned to spot the style instantly.",
+            "The whiplash is a line of forces, not of measurements. It cannot be drawn with a compass, it refuses repetition and symmetry, and it implies a living origin: something grew, bent under pressure and sprang back. That is why it suits iron, a material that can be forged hot into any curvature, and why it weakens in stone, where every tendril must be carved at ruinous cost, and in mass production, where each casting must leave a mould. The line also ages a building instantly; set beside the straight lines of engineering, the whiplash announced sensibility, expense and the present moment — which is to say, it announced 1900 and, by 1910, the past. Architects who loved it faced the same dilemma as its patrons: a line that could not be standardised could not easily survive in speculative building, where repetition is the whole economics of construction.",
+            "Yet the line was never mere decoration, and treating it as such misses its intelligence. In Horta's hands the tendril is literally structural, turning a column into a branching support; in Mackintosh's hands the same curve is stretched over a grid until it becomes a musical rhythm of verticals; in the hands of the Viennese it flattens into surface pattern. The whiplash contains its successors inside itself, which is why this chapter follows it forward into straightening rather than stopping at its purest flowerings. A line drawn from growth could be pruned, squared and finally ruled straight without changing the hand that held the pen. Drawings make the continuity plain: set a Horta tendril beside a Hoffmann grid of 1905 and the second reads as the first with its curves ironed flat, its energy redistributed into rhythm."
+          ]
+        },
+        {
+          "heading": "The straightened line: zigzag, chevron, streamline",
+          "figure": "chryslerCrown",
+          "paras": [
+            "Art Deco drew with the instruments the whiplash refused: the ruler, the set square and the compass. Its elementary lines are the zigzag, a lightning-flash of equal angles; the chevron, a repeated V; the stepped profile, drawn from setback skyscraper masses and older American and Mesoamerican silhouettes alike; and the radiating sunburst, a semicircle of straight rays. Each can be set out by a draughtsman, repeated by a machine, scaled from a brooch to a tower and read at a distance or at speed. Where Nouveau's line records a gesture, Deco's records a decision: ornament as geometry, executed identically the first time and the thousandth. Geometry also democratised the style's production: a chevron could be pressed into a brick, cast into a railing or printed onto a scarf by workers who needed no training in the style's philosophy.",
+            "The Chrysler Building in New York, completed in 1930 to designs by William Van Alen, carries the straightened line to its most famous summit. Its crown rises in seven radiating terraces of stainless steel, pierced by triangular windows in a great sunburst pattern, above a spire that took the building briefly to the title of the world's tallest. Eagles in the manner of bonnet ornaments, hubcap friezes and radiator-cap motifs translate the motor car into masonry and steel. Nothing grows here; everything shines, repeats and ascends by steps. Set beside a Guimard métro entrance of thirty years earlier, the crown measures the full distance between the two styles' lines. The crown's setbacks were partly the work of New York's zoning law, which makes the point neatly: Deco at its best turned legal and commercial constraints into the very profile of its ornament.",
+            "In the 1930s the straight line learned to move. Streamlining — the teardrop profile developed for ships, aircraft and trains — gave Deco a second manner, sometimes called Streamline Moderne: long horizontal bands, curved corners, porthole windows and smooth plastered surfaces suggesting speed even in a stationary building. The zigzag had suited the optimistic 1920s, vertical and glittering; the streamline suited a poorer, faster decade, horizontal and aerodynamic. Both are Deco because both are geometry doing expressive work, and both stand opposed to the whiplash in the same way: they begin from instruments and machines, not from the stem of a plant. Streamlining also returned the curve to favour, but a curve of calculation rather than growth, drawn by wind tunnels and resistance curves — the whiplash's grandchild, perhaps, but raised by engineers."
+          ]
+        },
+        {
+          "heading": "Reading a facade by its line",
+          "paras": [
+            "Line is the quickest test a passer-by can apply, and this section offers it as a practical exercise. Stand before an uncertain facade and ask first what draws its ornament. If the decoration curves asymmetrically, swells and thins, crosses openings diagonally and varies from bay to bay, the building speaks Nouveau, whatever its date. If the decoration repeats symmetrically, steps back in setbacks, breaks into chevrons and rays, and subordinates every bay to a central axis, it speaks Deco. The test works on small evidence: a door handle, a letterbox plate and a stair rail will each betray their style's line within seconds. Lettering is an especially honest witness: Nouveau type flows and thickens like a stem, while Deco type builds its letters from straight strokes, sharp serifs and stepped terminals that echo the facade above.",
+            "The test also exposes the hybrids, which are numerous and often the best buildings of their years. Hoffmann's Stoclet tower steps like a Deco mass but carries Klimt's spirals within; American theatres of the 1920s frame geometric prosceniums with curving, plant-derived plasterwork; late Nouveau designers in Barcelona and Riga load facades with sculpture no geometry disciplines. Such mixtures are not failures of classification but evidence of how styles actually live: workshops keep habits, clients keep tastes, and a line learned young is unlearned slowly. The historian's categories are nets; the buildings are the sea, and some fine specimens swim through every mesh. The historian should welcome the difficulty, since a hybrid building usually records a real negotiation — between architect and client, fashion and budget, capital and province — that a pure example politely conceals.",
+            "Read by line, finally, the two styles explain each other's fate. The whiplash, unrepeatable and expensive, burned brilliantly and briefly, surviving where a city adopted it as an emblem, as Paris adopted Guimard's entrances. The zigzag and the streamline, repeatable at any scale and in any material from gold leaf to pressed concrete, colonised the interwar world and faded gradually into the plain surfaces of post-war building, their geometry absorbed into modernism itself. Form follows the economics of the line as surely as it follows function; the next chapter tests the same comparison on the motifs the lines carry. There is a lesson for designers in the economics: ornament survives where it can be drawn by rule, taught to a workshop and recognised across a street, and perishes where it depends on genius alone."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ornament",
+      "numeral": "VI",
+      "title": "Ornament: The Living Motif and the Stylised Emblem",
+      "sections": [
+        {
+          "heading": "Ornament grown: lilies, dragonflies, hair",
+          "figure": "muchaPoster",
+          "paras": [
+            "Art Nouveau's motifs are living things, drawn at the moment of growth. The lily and the iris supply its flowers, chosen for their long stems and sculptural heads; the dragonfly and the butterfly supply its insects, their veined wings ready-made as patterns for glass and enamel; peacock feathers, swans, snakes and orchids recur across jewellery, posters and ironwork. Above all there is hair: in the posters Alphonse Mucha drew in Paris from the mid-1890s, a woman's hair uncoils into rivers of ornament that merge with flowers, jewellery and lettering until figure and decoration are one continuous growth. The motif is never a badge pinned on; it spreads until it becomes the surface itself. Mucha's posters for the actress Sarah Bernhardt, beginning with Gismonda in 1894, carried that imagery across Paris overnight, proving that the style's motifs could advertise as powerfully as they could decorate.",
+            "Such ornament carries meanings its makers intended. The flower that opens and dies in a day speaks of beauty and transience; the dragonfly, reborn from water, of transformation; the femme-fleur, the woman merging with plant life, gathers the era's fascination with nature, femininity and dreams into a single marketable image. Symbolist poetry and painting stand behind these choices, and so does serious botany: Gallé signed glass with quotations and modelled vases on specific specimens, while Tiffany's workshops kept studies of actual insects and plants. Nouveau ornament is therefore best read as a language, natural in vocabulary and literary in intent, addressed to a cultivated viewer who would take time to read it. Time, indeed, is built into the manner: its rooms reward slow looking, its objects turn in the hand, and its favourite hour is twilight, when stained glass and shaded lamps perform their richest effects.",
+            "Its weakness was the obverse of its richness. A language this personal dates quickly, requires virtuoso craftsmen and resists cheap repetition; a lily carved badly is merely a lump, where a chevron stamped badly is still a chevron. As taste tired of meaning-laden nature around 1905, the very completeness of Nouveau's ornamental world made it seem airless, an enchanted interior from which geometry offered escape. Yet its motifs never wholly vanished. They survived, simplified and emblemised, inside the style that replaced it — the Deco iris is a Nouveau iris with its petals counted and its stem ruled straight, and the descent is visible on a thousand interwar facades. Botanical Deco — the stylised cornucopias, sheaves and garlands of 1920s stonework — is precisely that survival, proof that the emblem age still needed the plant, however firmly it kept the plant in order."
+          ]
+        },
+        {
+          "heading": "Ornament emblemised: sunburst, fountain, gazelle",
+          "figure": "chaninSpandrel",
+          "paras": [
+            "Art Deco keeps Nouveau's love of ornament and reverses its method. The motif is no longer grown but emblemised: reduced to a flat, symmetrical sign that can crown a door, fill a spandrel or stamp a grille with instant legibility. The sunburst, rays fanning from a semicircular sun, promises dawn, energy and modern light; the fountain, a stylised jet falling in arcs, promises luxury, pleasure and cleanliness; the leaping gazelle or deer, body stretched into a single arc, promises speed and grace. Each motif is a heraldic device for the machine age, drawn once and repeated without variation across a whole building, a ship or a product range. Such signs also flattered their moment: the rising sun and the leaping deer told an anxious post-war public that speed, youth and dawn were its portion, whatever the newspapers reported about debt and unemployment.",
+            "The Chanin Building in New York, completed in 1929 to designs by Sloan and Robertson with sculptural work directed by Jacques Delamarre, shows the emblem at architectural scale. Its bronze and terracotta spandrels carry stylised leaves and birds flattened into crisp, repeating patterns; its lobby, one of the celebrated Deco interiors of the city, turns the theme of the modern city into bronze grilles, marble and enamelled ornament of richness and complete regularity. Nothing here pretends to grow. Wealth is expressed by precision, rarity of material and the confidence of repetition — the emblem of a corporation rather than the dream of an individual. The building's terraced massing and its botanical bronze show Deco absorbing the skyscraper's commercial programme whole: the emblem must climb thirty floors without once losing its crispness, rhythm or legibility from the pavement below.",
+            "Emblemised ornament travels as living ornament cannot. A sunburst can be cast in bronze for a Manhattan tower, printed on a menu, woven into a carpet and etched on a cocktail glass in the same year, each version recognisable at a glance. That portability made Deco the first truly global decorative style, as available to a cinema in Leicester or a hotel in Shanghai as to a Paris salon, and it made the style the natural partner of advertising, film and the department store. Where Nouveau addressed a reader, Deco addressed a passer-by in traffic; its motifs are logos before the word existed, and their clarity explains both the style's reach and its long afterlife in popular imagery. The same clarity made the style easy to parody and cheapen, and by the later 1930s debased Deco ornament had become the shorthand of speculative builders from Miami Beach to the London suburbs."
+          ]
+        },
+        {
+          "heading": "Exotic sources: Egypt, the Aztec world, the machine",
+          "figure": "normandie",
+          "paras": [
+            "Both styles fed on the distant, but they digested it differently. Nouveau took from Japan a method of composition and from Celtic, Viking and Moorish art a licence for interlace and pattern, absorbing sources until they disappeared into the whiplash. Deco took its sources as motifs, kept them recognisable and wore them as credentials of modern worldliness. The supreme trigger was archaeological: the discovery of Tutankhamun's tomb in 1922, and the press sensation that followed, filled jewellery, furniture, cinemas and facades with lotus and papyrus forms, scarabs, pyramids and stepped Egyptian profiles, stylised into the flat geometry of every other Deco emblem. Egyptianising cinemas were the motif's natural home, since the picture palace already promised its audience a journey elsewhere, and a pharaonic foyer merely began the voyage before the film itself started.",
+            "The Americas supplied a second repertoire. Aztec and Maya temples, known through archaeology, exhibitions and publications, offered stepped pyramids, blocky masks and dense geometric carving that suited the setback skyscraper and the concrete facade remarkably well; American architects of the 1920s, Frank Lloyd Wright among them in his textile-block houses of patterned concrete, explored the vein seriously, and the so-called Mayan Revival gave cinemas and apartment houses across the United States a monumental, pre-Columbian dress. Deco's exoticism was never archaeology, however: it was quotation at the speed of fashion, sources flattened into pattern and mixed freely with African, Chinese and classical motifs on a single facade. Critics then and since have charged such borrowing with superficiality, yet the quotations performed real cultural work, connecting new cities and new publics to deep pasts their own traditions did not supply.",
+            "The third source was the newest: the machine itself. Ocean liners, locomotives, motor cars and aircraft supplied motifs — portholes, funnels, speed lines, gears, lightning bolts for electricity and radio waves — that no earlier style could have used, and the liner SS Normandie, launched in 1932 and entering service in 1935, floated the whole repertoire as a national showcase of French Deco, her interiors by the period's leading designers and her poster image known worldwide. Aboard the Normandie the comparison of this book resolves into a scene: emblems of Egypt and the machine age share one glittering interior, while nothing grows and nothing writhes. Ornament had become the emblem of a civilisation advertising its own modernity. That is the comparison's final balance: Nouveau ornament looks inward to nature and the soul, Deco ornament outward to the world and its wonders — and modern design has been choosing between them ever since."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "numeral": "VII",
+      "title": "Materials and Making: The Workshop and the Factory",
+      "sections": [
+        {
+          "heading": "Nouveau materials: iron, glass, ceramic",
+          "figure": "lavirotte",
+          "paras": [
+            "Art Nouveau liked to present itself as a style of natural growth, yet its most characteristic effects depended on thoroughly modern materials handled in new ways. Iron, cast and wrought, supplied the tendrils. In the hands of Hector Guimard in Paris or Victor Horta in Brussels it ceased to behave like engineering and began to behave like vegetation, drawn out into stems, tendrils and whiplash curves that carried balconies, stair rails and lamp brackets. Glass did the opposite work: it dissolved the wall. Large sheets, favoured for shopfronts and studio windows, admitted the light that painted and photographed interiors now required, while coloured and opalescent glass broke that light into the greens, ambers and peacock blues the style loved.",
+            "Ceramic was the third member of the alliance, and the Lavirotte Building at 29 Avenue Rapp in Paris, completed in 1901 to designs by Jules Lavirotte, shows why. Its facade, in the figure, is clothed above its stone ground floor in glazed stoneware tiles and sculptural ceramic ornament made in collaboration with the ceramicist Alexandre Bigot, whose firm turned clay into a weatherproof skin of extraordinary richness. Bigot's pieces were modelled, moulded and fired as architectural components, so that sculpture, structure and surface became one operation, the fired pieces keyed to the wall behind them and glazed to shed the Paris rain while keeping their colour through decades of soot and winter frost. The doorway swells, the windows sprout, and the whole front reads less as masonry than as a plant cultivated in fired earth.",
+            "The point is easily missed behind the ornament. None of this was folk craft. Bigot ran a factory, Guimard's ironwork was cast from patterns for repetition, and Horta's slender iron columns were standard sections bent to uncommon refinement. Nouveau architects prized materials that could be made plastic, continuous and expressive, and they found them as readily in industrial production as at the bench. What distinguished their use was the ideal imposed upon it: that a modern material should not look machined, that iron should forget the rolling mill and glass should remember water, leaf and wing. Nature was not the alternative to industry here; it was industry's disguise, and often its most demanding brief. The craftsman's hand remained visible in the finished surface, but it guided processes that only factories, foundries and kilns working at scale could have supplied so consistently."
+          ]
+        },
+        {
+          "heading": "Deco materials: steel, lacquer, Bakelite, chrome",
+          "figure": "hooverBuilding",
+          "paras": [
+            "Art Deco, arriving a generation later, dropped the disguise. Its favoured materials announced the factory and celebrated it: structural steel that allowed the tall frame, stainless steel and chrome plate that kept a permanent shine, black glass and polished stone that reflected the street, lacquer built up in deep glossy coats, and the new synthetic Bakelite, mouldable, insulating and cheap, which carried the style into radios, telephones and light switches. Where Nouveau surfaces absorb light into colour, Deco surfaces throw it back. The polished, the vitreous and the metallic dominate, in combinations chosen for contrast: ebony against ivory, chrome against black glass, gold against deep green.",
+            "The Hoover Building at Perivale in west London, built between 1932 and 1938 for the Hoover company to designs by Wallis, Gilbert and Partners, is the style's great British industrial advertisement, and the building in the figure. Its long front is a piece of corporate theatre addressed to the Western Avenue: a central tower, Egyptian and Mayan echoes in the coloured faience, and rank upon rank of steel windows through which the factory advertised modern cleanliness as it manufactured vacuum cleaners. Faience, a glazed terracotta, did the decorative work here, as ceramic had done for Lavirotte, but to opposite effect: smooth, repeatable and assertively new, its coloured blocks set in long immaculate bands that a maintenance crew could wash down like the machines manufactured behind them.",
+            "Behind the show front stood a real factory, steel-framed and daylit, and the union of the two was the Deco proposition. Industry no longer needed to dress as a palace or a plant; it could dress as itself, streamlined and hygienic, and the dressing would sell the product. The same logic governed smaller things. A Bakelite radio case by Wells Coates, a chrome cocktail shaker, a lacquered screen by Jean Dunand: each takes an industrial or semi-industrial process and finishes it to a jeweller's standard. Deco making is best understood as luxury applied to production, the exactness of the machine given the polish once reserved for the hand. Its admirers prized precisely that doubleness, an object at once up to date and expensively finished, modern in its making and unmistakable in its cost."
+          ]
+        },
+        {
+          "heading": "Craft and industry: a false quarrel",
+          "paras": [
+            "Textbooks once arranged the two styles as opposites in making: Nouveau the last flowering of craft, Deco the first acceptance of the machine. The buildings refuse the arrangement. Guimard designed cast-iron components expressly for foundry repetition and sold them through catalogues; Horta's workshops combined hand forging with standard sections; the great Nouveau glass of Émile Gallé and the Daum brothers at Nancy was the product of a factory employing hundreds, its vases blown, cased, etched and finished through a division of labour as disciplined as any in Europe. Craft, in Nouveau practice, was a level of finish and a philosophy of design, rarely a refusal of the machine that delivered it, and the surviving invoices, pattern books and factory catalogues of the period show designers specifying tolerances, repetitions and finishes with an engineer's precision.",
+            "Deco, conversely, kept the hand busy long after it had embraced the press and the plating bath. The Parisian ensembliers of the 1920s, Jacques-Émile Ruhlmann above all, built furniture from rare veneers with hand craftsmanship so exacting that output stayed tiny and prices princely; ironworker Edgar Brandt mixed forging with oxyacetylene welding and mechanised repetition in a single grille; Dunand's lacquer panels required weeks of hand laying and polishing. The 1925 Paris exhibition that gave Deco its name displayed both production lines side by side, the unique luxury object and the department-store series, and saw no contradiction. What had changed since 1900 was less the tools than the rhetoric used to sell their products.",
+            "The real quarrel, then, was over appearance and over whom design should serve. Nouveau workshops bent industrial means toward organic ends, asking every hinge and handle to join one continuous living line, and the resulting total work of art was expensive, bespoke and brief. Deco resolved the same means toward geometry, speed and glamour, and its forms survived translation into cheap materials, so the style colonised cinemas, cafés and suburban houses far beyond its luxury origins. One style made the factory behave like a garden; the other made the hand behave like a production line when finish demanded it. Between workshop and factory, both practised a negotiation; they differed in the treaty they signed. Later generations, inheriting both, would learn to want the organic line and the polished surface in the same room, often without knowing that the two desires had once been manifestos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colour-light",
+      "numeral": "VIII",
+      "title": "Colour and Light: Stained Glass and Neon",
+      "sections": [
+        {
+          "heading": "Nouveau colour: the stained-glass interior",
+          "figure": "palauMusica",
+          "paras": [
+            "Nouveau colour is the colour of things seen through other things: through glass, water, enamel and the green shade of leaves. Its palette runs to the tertiary and the in-between, sage and olive, peacock blue, amber, mauve, the pink of inside a shell, because its sources were natural specimens examined closely rather than heraldic primaries. Colour was rarely applied flat to a wall and left alone. It was layered, glazed, leaded, set into mosaic or fired into ceramic, so that a surface held several tones at once and changed as the viewer moved. The ideal room did not sit under one colour; it glowed, unevenly, like an aquarium or a clearing in a wood.",
+            "The supreme demonstration is the Palau de la Música Catalana in Barcelona, built between 1905 and 1908 to designs by Lluís Domènech i Montaner for the Orfeó Català choral society, and shown in the figure. At the centre of its concert hall hangs an immense inverted dome of stained glass by Antoni Rigalt, a sun of gold and blue that pours coloured daylight onto the audience, supplemented by stained-glass walls that make the hall less a box than a vessel of light. Muses in mosaic and high relief play around the stage, their instruments and robes contributing further notes of rose, green and gold to an interior conceived as total chromatic harmony.",
+            "Stained glass mattered to the style because it coloured light itself rather than merely reflecting it. Tiffany in America, and firms across Europe, developed opalescent and textured glasses that swirled colour through the sheet, so a lamp shade of dragonflies or wisteria became a small sunset switched on at dusk. In the Nouveau interior, daylight was filtered, evening light was manufactured, and the boundary between window, lamp and ornament all but vanished. The cost was a certain gloom, fondly remembered and honestly admitted: rooms tuned to amber half-light photograph like jewels and read like caves. Deco designers, as the next section shows, noticed both the enchantment and the gloom, and answered with wattage. Yet even the gloom had its devotees, who held that a room should shelter the eye as a wood shelters a walker, softly and by degrees."
+          ]
+        },
+        {
+          "heading": "Deco colour: contrast, gloss and neon",
+          "figure": "miamiHotel",
+          "paras": [
+            "Deco colour works by opposition. Its classic arrangements are duets and trios of maximum contrast: black and gold, black and silver, cream and emerald, coral and turquoise, each colour kept saturated, flat and glossy so that the collisions stay crisp at the distance of a street or a dance floor. Where Nouveau blended, Deco bounded, setting colour in bands, chevrons, sunbursts and steps, with hard edges ruled by the geometry of the design. The palette drew promiscuously on the world's store cupboards, Egyptian turquoise and lapis after the opening of Tutankhamun's tomb in 1922, Mayan and Aztec earths and jades, African ochres, and the lacquer reds and blacks of East Asia.",
+            "At Miami Beach, in the figure, that palette met the subtropics and softened into the pastel register now inseparable from the district: the small hotels of the 1930s along Ocean Drive and Collins Avenue rendered in stucco and painted shrimp pink, mint, aqua, lemon and sky blue, trimmed in white and picked out at night in neon. The pastels were practical as well as pretty, reflecting heat and flattering stucco, but their fame is a work of light. By day the hotels read as ice-cream architecture against a hard blue sky; by night their signs and portholes take over, and the colour that was washed by the sun is replaced by colour generated in glass tubes.",
+            "Neon completed the Deco revolution in coloured light. Commercialised from the 1910s and widespread by the 1920s, the gas-discharge tube could be bent into lettering and line, burned in saturated reds, blues and greens, and read at speed from a motor car. For Nouveau designers, light had been something to soften and stain; for Deco it was something to draw with. The cinema marquee, the hotel sign and the cocktail bar turned illumination into the building's public face after dark, while inside, indirect lighting coved into ceilings and frosted glass uplighters replaced the pendant lamp. Colour, gloss and wattage formed a single system: a Deco room is designed twice, once for noon and once for midnight. Hotelkeepers and restaurateurs understood the economics at once, for the second design, the nocturnal one, was the version their customers paid to inhabit and remembered afterwards."
+          ]
+        },
+        {
+          "heading": "Light as material in both",
+          "figure": "parkGuell",
+          "paras": [
+            "Beneath their opposition, the two styles share a conviction their nineteenth-century predecessors lacked: that light is a building material, to be budgeted, shaped and celebrated like stone. Both were responses to new conditions. Plate glass, steel framing and, decisively, electric light freed designers from the gaslit, small-windowed interior; both styles composed with the new freedoms at once. The differences are of temperament. Nouveau light tends to be mediated, passing through coloured glass, pierced screens, plant tracery and mosaic so that it arrives patterned and slowed. Deco light tends to be projected, bounced off gloss and mirror, multiplied in chrome and cut glass, and supplemented outdoors by the naked line of the tube.",
+            "Antoni Gaudí, whose Park Güell in Barcelona of 1900 to 1914 appears in the figure, worked the Nouveau side of that bargain at the scale of a landscape. The park's famous bench, snaking around its great terrace, is surfaced in trencadís, broken tile and ceramic mosaic, whose thousands of fragments catch the Mediterranean sun at slightly different angles, so that colour shimmers as the sitter moves. Beneath the terrace, the hypostyle hall filters light between its columns; the gatehouse pavilions glitter with tiled spires. Gaudí treats sunlight as a collaborator with an unlimited budget, designing surfaces whose whole purpose is to receive it interestingly, and his example clarifies what Nouveau colour always was: light, interrupted beautifully.",
+            "The Deco heirs interrupted light with geometry instead, but the family resemblance is plain in any great interior of either camp. Domènech's glass dome and the stepped glass towers of a New York lobby, Tiffany's wisteria lamp and the frosted ziggurat shade above a London bar, all belong to one history: the half-century in which architects learned to design for electricity and for a public that increasingly lived after dark. Judged by their enemies, both styles were vulgar about light, one too dim and honeyed, the other too bright and theatrical. Judged together, they look like successive drafts of the modern illuminated interior, the second correcting the first's gloom while keeping its faith that a room should glow. That faith, more than any motif, is the thread that runs unbroken from the stained-glass parlour of 1900 to the neon-lit lobby of 1935."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "types",
+      "numeral": "IX",
+      "title": "Plans and Building Types: The Apartment House and the Skyscraper",
+      "sections": [
+        {
+          "heading": "The Nouveau apartment house and the free plan",
+          "figure": "casaMila",
+          "paras": [
+            "The building type Nouveau inherited and transformed was the urban apartment house, the speculative block of Paris, Brussels and Barcelona, where one facade had to dignify several households stacked above shops. Its opportunity lay in the structure. As iron and then reinforced concrete frames replaced load-bearing masonry, the facade and the partitions were progressively freed from carrying the building, and Nouveau architects exploited the freedom earlier and more exuberantly than their conservative contemporaries. Rooms could be angled, bowed or interlocked; windows could migrate to where light and view were best; the corridor plan of the conventional tenement could loosen into sequences of spaces flowing around a court. The free plan existed in practice in Nouveau blocks a decade before modernists theorised it.",
+            "Its monument is the Casa Milà in Barcelona, built between 1906 and 1912 to designs by Antoni Gaudí for the Milà family, and shown in the figure. The building's stone facade is self-supporting, a cliff of undulating limestone, hung with wrought-iron balconies like seaweed, that carries itself while the internal structure of stone pillars and brick vaulting allows the flats on each floor to be planned differently and re-planned at will. Two great internal courtyards pull light and air into the deep plot, and the attic, a catenary-arched brick skeleton of haunting beauty, insulates the roof terrace, where chimneys and ventilators stand sculpted as helmeted sentinels.",
+            "Barcelona laughed and named it La Pedrera, the stone quarry, and the nickname catches the paradox of the type perfected. From the street the apartment house has become geology; inside it is the most rational of rental machines, flexible, ventilated and serviced, its irregularity an exact diagram of light, structure and use. Horta's Brussels hôtels and Guimard's Paris blocks work the same double game at smaller scale, expressive fronts over quietly experimental plans. Deco apartment houses of the 1920s inherited the freed plan wholesale, regularised its geometry and added the lifts, garages and central services of a wealthier decade. What Nouveau proved in the apartment house, modern architecture later claimed as its own invention; the paperwork, in several celebrated cases, says otherwise. The apartment house, humblest of types, thus carries one of the great innovations of modern planning, arrived at not in a manifesto but in the profitable arrangement of rented rooms."
+          ]
+        },
+        {
+          "heading": "The Deco skyscraper and the zoning law",
+          "figure": "empireState",
+          "paras": [
+            "If Nouveau's emblematic type was horizontal, the apartment block spreading along the boulevard, Deco's was vertical. The American skyscraper, made possible by the steel frame, the safety lift and the speculative economics of Manhattan land, reached its stylistic maturity between the wars, and the style it chose for that maturity was, overwhelmingly, Art Deco. The reasons were partly legal. New York's Zoning Resolution of 1916, passed to stop towers from extinguishing the streets, required a tall building to step back as it rose, in a prescribed envelope. An ordinance meant as a restriction supplied a silhouette: the setback massing, wedding-cake in section, that Deco architects decorated into ziggurats, buttresses and crowns.",
+            "The Empire State Building, built in 1930 and 1931 to designs by Shreve, Lamb and Harmon and shown in the figure, is the type's world monument. One hundred and two storeys of limestone, brick and aluminium spandrels rose in barely thirteen months, on a frame and a construction schedule of industrial precision, and its massing follows the zoning envelope so faithfully that the law reads as the building's co-author. Ornament is concentrated where the public meets it: the soaring lobby in marble and aluminium, the stylised eagles and medallions, the mooring mast that crowns the setbacks and turns a legal profile into a romantic one. Utility supplied the plan; Deco supplied the meaning.",
+            "Between the apartment house and the skyscraper stands a shared lesson the comparison makes plain. Neither style invented its defining type; both were given types by technology, law and land value, and both earned their places in history by what they did with the gift. Nouveau bent a masonry type until its plan ran free; Deco dressed a legally sculpted frame until a regulation looked like an aesthetic. To ask which style planned better is therefore to compare unlike problems. The fairer verdict is that each was most itself at the moment of constraint: Gaudí inside a Barcelona plot, Van Alen and Harmon inside a zoning envelope, finding in the rule the outline of the monument. Skyscraper and apartment house alike suggest that styles live longest not when they are freest, but when a hard external fact gives their imagination something definite to answer."
+          ]
+        },
+        {
+          "heading": "Shared types: hotels, shops, stations, cinemas",
+          "figure": "rockefeller",
+          "paras": [
+            "Between their emblematic types, the two styles divided a whole city of secondary ones, often in succession on the same sites. The grand hotel passed from Nouveau to Deco without changing its programme, a palace of lifts, bathrooms and public rooms, and the change of dress is legible in a single comparison: the sinuous iron and mosaic of a 1900 hotel winter garden against the black glass, marble and indirect light of its 1930 redecoration. Department stores made the same journey faster, since retail welcomed any novelty that drew a crowd. The great Paris and Brussels stores used Nouveau iron and glass to turn shopping into spectacle, then rebuilt their facades and escalator halls in Deco geometry a generation later.",
+            "Stations tested both styles against engineering at full scale. Nouveau gave the railway some of its most poetic architecture, from the vast train sheds clothed in whiplash ironwork to Horta's unrealised dreams for Brussels, insisting that the machine age's cathedrals deserved the period's full ornamental intelligence. Deco answered with the streamlined station, stone-clad, lettered in sans-serif capitals, its concourse lit like a cinema. At sea the same succession sailed in the liners, floating exhibitions in which French designers rehearsed each style's interiors before a captive, wealthy audience, and from which details, furniture and reputations flowed back onto land, into hotels and flats whose owners had never left port.",
+            "The cinema, alone among the types, belonged wholly to the second style. It was born too late for Nouveau, and Deco, its native architecture, fitted it perfectly: a windowless box requiring a palace front, a tower sign in neon, a foyer of mirrors and gold, and an auditorium where Egyptian, Mayan or atmospheric fantasies could be built in plaster for the price of a ticket. Yet even here the inheritance runs underneath. The cinema's promise, that an ordinary street door opens into a total work of art in which architecture, light, image and music fuse, is the Nouveau ambition of the Gesamtkunstwerk moved downmarket and electrified. Deco democratised what Nouveau had dreamed in private houses: the completely designed environment, available nightly, to everyone. No single building type states the relationship of the two styles more honestly: invention in the private interior, fulfilment in the public one, a generation apart and recognisably kin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nouveau-capitals",
+      "numeral": "X",
+      "title": "Nouveau Capitals: Brussels, Paris, Barcelona",
+      "sections": [
+        {
+          "heading": "Brussels: the capital of the new art",
+          "figure": "hortaMuseum",
+          "paras": [
+            "Every style wants a birthplace, and Art Nouveau's claim rests most strongly on Brussels. In 1893 Victor Horta completed the Hôtel Tassel there, a private house whose exposed iron columns, mosaic floors and whiplash stair rail announced, in a single interior, that a new architecture had arrived; two years earlier the term itself had been circulating among the Belgian avant-garde gathered around the exhibitions of Les XX and then La Libre Esthétique. Brussels offered the new art its ideal conditions: a wealthy, francophone bourgeoisie enriched by industry and empire, plots and clients for the private hôtel, and a small capital's density, in which a dozen architects could see, answer and outbid one another's work within a few streets.",
+            "Horta's own house and studio on the Rue Américaine, built between 1898 and 1901 and now the Horta Museum shown in the figure, is the style's most complete surviving manifesto. The two buildings interlock around a stair hall lit from above, in which iron, glass, mosaic, wood and stone are choreographed into one continuous movement, the famous banister curling like a stem, the light descending through a glazed canopy as through leaves. Nothing here is applied. The ornament is the structure, the ventilation, the lighting and the furniture thinking together, and the house remains the surest place to learn what Nouveau meant by the total work of art before the phrase was claimed by anyone else.",
+            "Brussels also gave the style its tragedy in miniature. Horta's Maison du Peuple of 1896 to 1899, a people's house of iron and glass for the Belgian Workers' Party, was demolished in 1965 despite an international campaign, in the wave of speculative rebuilding Belgians themselves named Bruxellisation. Much of the capital of the new art was unbuilt by its own city within seventy years, which is why the Horta Museum, the surviving hôtels of Paul Hankar and Henry van de Velde's Bloemenwerf just outside at Uccle, carry a documentary weight beyond their beauty. Deco, when its turn came, treated buildings as more durable and its own monuments rather better; Brussels preserves the sharper lesson, that a style can conquer the world and still lose its home streets. The losses have made the survivors doubly precious, and Brussels now guards its remaining Nouveau interiors with a vigilance its grandparents, demolishing happily, would have found incomprehensible."
+          ]
+        },
+        {
+          "heading": "Paris: métro, apartment, department store",
+          "figure": "castelBeranger",
+          "paras": [
+            "Paris received the new art slightly later and argued about it more loudly, which in Paris counted as a welcome. Hector Guimard's Castel Béranger, built between 1895 and 1898 in the Rue La Fontaine and shown in the figure, was the city's first fully Nouveau apartment house, its ironwork, ceramic, stained glass and carved stone composed in a delirious unity that won the municipality's facade competition and split critical opinion down the middle. Guimard even designed a lettering for the building's name, so that the total work of art extended to its own signature. Parisian Nouveau, centred on the wealthy western districts, was always more sculptural and more contentious than the Belgian original, a style that expected to be discussed.",
+            "The style's Parisian immortality, though, was secured underground and on the street. In 1900 Guimard was commissioned to design the entrances to the new Métro, and his cast-iron and glass édicules, with their amber lamps and famous Métropolitain lettering, distributed Nouveau across every arrondissement at the price of a ticket. More people met the new art at a station entrance than in any gallery, and the entrances taught the style's central democratic lesson a generation before Deco's cinemas repeated it: a standardised, factory-cast component, designed without compromise, could raise the whole visual level of a city's daily life. The department stores completed the lesson indoors, wrapping iron frames and great glazed courts in the new ornament.",
+            "Paris also housed the style's commerce and its name. The dealer Siegfried Bing opened his gallery the Maison de l'Art Nouveau in 1895, showing Tiffany glass, Japanese art and the work of the designers his shop would christen for the world; the 1900 Exposition Universelle displayed his pavilion and the style together to fifty million visitors. Yet Parisian Nouveau burned briefly. By 1905 the fashion journals were mocking the style nouille, the noodle style, and the capital's restless taste had moved on, which makes Paris the type case of the style's metropolitan fate: invented in part elsewhere, named, marketed and exhausted there, then preserved by the very Métro entrances the city once threatened to sweep away. A handful of the original Guimard entrances survive in daily use, still performing their first duty, which was simply to make the descent underground feel like an occasion."
+          ]
+        },
+        {
+          "heading": "Barcelona: Modernisme and the Catalan difference",
+          "figure": "casaBatllo",
+          "paras": [
+            "In Barcelona the new art became something larger than a style: a national culture building in public. Modernisme, the Catalan movement, coincided with the Renaixença, the revival of Catalan language and identity, and with the wealth of an industrial bourgeoisie eager to house itself distinctively in the new Eixample district. Its architects, Domènech i Montaner, Josep Puig i Cadafalch and the incomparable Gaudí, commanded an army of Catalan crafts, ceramicists, glaziers, ironworkers, mosaicists and sculptors organised through workshops that kept medieval guild skills alive inside a modern movement. Where Parisian Nouveau was a fashion of the capital, Catalan Modernisme was a programme: to give a nation a modern architecture of its own, rooted in its crafts, its landscape and its saints.",
+            "The Casa Batlló on the Passeig de Gràcia, remodelled between 1904 and 1906 by Gaudí for the textile magnate Josep Batlló and shown in the figure, concentrates the programme into one facade. Its balconies read as masks or bones, its skin as the scales of a dragon, in a city that knew the legend of Saint George, Catalonia's patron, whose story the roofline retells with a cross-topped turret and a scaly, arched back. Inside, the apartment flows around light wells tiled in deepening blue, the joinery swells without a straight line, and every handle is shaped to the hand that turns it. The building is at once ultramodern engineering and local mythology, and the combination is precisely the Catalan difference.",
+            "Modernisme also lasted longer and built bigger than its northern cousins, because it was carried by institutions rather than taste alone: Domènech's Palau de la Música and his vast Hospital de Sant Pau, a garden city of pavilions in brick, ceramic and glass, are municipal monuments, not private caprices. The movement faded under the Noucentista reaction after about 1910 and was later suppressed in spirit under regimes hostile to Catalan identity, which lent its posthumous revival a political warmth Paris and Brussels cannot match. Today the Modernista route organises Barcelona's image of itself. Among the Nouveau capitals, Barcelona alone made the style a patrimony, and alone still argues, proudly, that it was never merely decoration. For Barcelona, to restore a Modernista facade is also to restore a chapter of the national story, which is why scaffolding there so often wears the air of a civic ceremony."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other-nouveaus",
+      "numeral": "XI",
+      "title": "The Other Nouveaus: Vienna, Glasgow, Riga, Nancy",
+      "sections": [
+        {
+          "heading": "Riga: the richest street of all",
+          "figure": "rigaNouveau",
+          "paras": [
+            "The most concentrated Nouveau city in the world is neither Paris nor Brussels but Riga, where the style arrived with a building boom that made the Latvian capital, then a great port of the Russian Empire, briefly one of Europe's fastest-growing cities. Between roughly 1899 and 1914, local and Baltic German architects raised hundreds of apartment houses in the new districts outside the old town, and a remarkable proportion were designed in the new manner, which Latvians call jūgendstils. Whole streets survive in near-complete condition, protected today as a World Heritage ensemble, their facades running from the florid, symbolist early phase to the straighter, more geometric manner of the years before the war.",
+            "Alberta iela, Alberta Street, shown in the figure, is the richest of them, a short street developed largely to designs by Mikhail Eisenstein, the most prolific and theatrical of Riga's Nouveau architects, whose buildings of 1901 to 1906 carry ornament of almost hallucinatory abundance: screaming masks, peacocks, sphinxes, lion heads, and maidens in high relief stacked across facades of coloured brick and plaster. Eisenstein's contemporaries included Konstantīns Pēkšēns, the leading Latvian architect of the generation, whose own apartment house on the same street, built in 1903, now houses a museum of Riga's Jugendstil, and Eižens Laube, who steered the local manner toward a national romantic sobriety of steep roofs and ethnographic ornament.",
+            "Riga corrects the western story of the style in two useful ways. First, it shows Nouveau as a developer's architecture, not merely an artist's: these were speculative tenements for a booming bourgeoisie, and the style proved, at Riga's scale, that it could dress an entire rental district, not only a patron's villa. Second, it shows the style absorbing national feeling in yet another key, as in Barcelona, with Latvian architects gradually editing the international vocabulary toward something rooted and northern. The visitor who walks from Alberta iela into the quieter streets beyond reads the whole biography of Nouveau in an afternoon: exuberance, system, fatigue and, finally, the straight lines from which Deco and modernism would both descend. Few cities reward the walking historian so completely, or make so plain how quickly an avant-garde manner can become the ordinary dress of an entire prosperous district."
+          ]
+        },
+        {
+          "heading": "Nancy: the École de Nancy and Majorelle",
+          "figure": "majorelle",
+          "paras": [
+            "Nancy, in Lorraine, gave the new art its most organised provincial school and its most complete industrial base. The École de Nancy was formally founded in 1901 as an alliance of art industries, binding together the glassmaker Émile Gallé, the Daum brothers in glass, the furniture maker Louis Majorelle, the ironworker and designers around them, with the declared aim of uniting art and industry in the service of beautiful, useful objects. Nancy's Nouveau was therefore rooted in manufacture from the start. Gallé's and Daum's cameo glass, carved through layers of coloured glass on the acid wheel, and Majorelle's furniture, in which native woods and marquetry flowers were married to forged-iron mounts, were exported worldwide from factories that were also schools of design.",
+            "The Villa Majorelle, built in 1901 and 1902 for Louis Majorelle to designs by the young Paris architect Henri Sauvage, and shown in the figure, is the school's architectural emblem: the first Nouveau house in Nancy, asymmetrical, its ceramics by Alexandre Bigot again, its ironwork flowing into the joinery Majorelle's own workshops produced. The villa announced that furniture maker and architect were partners in one enterprise, and its interiors demonstrated the Nancy speciality, ornament drawn from Lorraine's own flora, thistle, pine and the water plants of its rivers, observed botanically and rendered with a naturalism more tender than Parisian stylisation. Nature here was local, named and studied, a province's flora raised to a design system.",
+            "Nancy also shows, with unusual clarity, how a Nouveau city mourned and outlived its style. Gallé died in 1904, Majorelle in 1926, and the school's firms passed into the new century by translating their skills: Daum survived by turning to the heavy, sculptural glass of the Deco decades, Majorelle's firm to Deco furniture and ironwork. The same hands, the same furnaces, a new geometry. Few places refute the idea of a clean break between the styles so gently. In the museum of the École de Nancy, installed in the villa of the collector Eugène Corbin, the visitor can stand between a Gallé vase of 1900 and a Daum vase of 1928 and watch one city's craft tradition change its mind without changing its address. Nancy's lesson is the craftsman's answer to the historian's categories: techniques endure, loyalties transfer, and the style on the label matters less than the skill in the hand."
+          ]
+        },
+        {
+          "heading": "Vienna and Turin: Secession and Liberty",
+          "figure": "secession",
+          "paras": [
+            "Vienna took the new art and disciplined it. The Secession, founded in 1897 by artists breaking from the official academy, built its exhibition house in 1897 and 1898 to designs by Joseph Maria Olbrich, shown in the figure: a white, temple-like pavilion crowned by an openwork dome of gilded laurel leaves, its facade almost bare of the whiplash line, its motto lettered above the door in gold. Austrian Nouveau, the Sezessionsstil, moved quickly from Josef Hoffmann's early curves to the squares and grids of his maturity, and the Wiener Werkstätte, founded in 1903, turned that geometry into furniture, metalwork and interiors of legendary refinement. Vienna is where Nouveau visibly becomes something else, shedding tendrils for chequerboards on the road toward modernism and, equally, toward Deco.",
+            "Glasgow performed a parallel translation in a colder light. Charles Rennie Mackintosh and the circle called The Four developed, from the mid-1890s, a manner of attenuated verticals, stencilled roses and white-painted interiors that continental Europe admired at the Vienna Secession exhibition of 1900 and the Turin exhibition of 1902. The Glasgow School of Art, built in two campaigns from 1897, is its masterpiece, iron and glass handled with a severity that still shelters intensely lyrical rooms. Mackintosh's tragedy was his own country's indifference; his influence flowered abroad, in the very Secessionist Vienna that printed his interiors as models. Between Glasgow and Vienna runs the northern axis of the new art, straighter, paler and more prophetic than the Latin west.",
+            "Turin closes the chapter by showing the style as an exhibition and a national debut. Italy named it Stile Liberty, after the London store whose fabrics and wallpapers had carried the new design south, and the Turin International Exhibition of Decorative Arts in 1902 was its Italian coming-out, with Raimondo D'Aronco's pavilions bringing an Ottoman-inflected Nouveau to Piedmont and manufacturers from across Italy showing furniture and glass in the manner. Italian Liberty never built a capital to rival Riga or Barcelona, but it seeded the villini of Rome, Milan and Palermo and the great seaside hotels, and its fondness for iron, mosaic and painted flora survived in Italian Deco long after 1918. The other Nouveaus, taken together, prove the style was never one language but a family of dialects, each translating nature into its local accent. Read together, the dialects also map the routes of influence themselves, along exhibition juries, illustrated journals, travelling architects and the shop windows of firms that sold the new design across every frontier in Europe."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deco-capitals",
+      "numeral": "XII",
+      "title": "Deco Capitals: Paris and New York",
+      "sections": [
+        {
+          "heading": "New York: the skyscraper style",
+          "figure": "chrysler",
+          "paras": [
+            "New York made Art Deco metropolitan. Paris invented the style's luxury, but Manhattan gave it scale, speed and a skyline, because only there did the setback tower, the speculative office market and the new decorative language coincide at full intensity between 1925 and 1935. The style suited the tower technically as well as symbolically. Its ornament, stylised into sunbursts, chevrons, eagles and frozen fountains, could be executed in terra cotta, brick patterning and pressed metal, legible at thirty storeys and repeatable floor by floor, while its vertical emphasis flattered the one thing every developer wished to advertise: height. A classical crown required scholarship; a Deco crown required nerve, and nerve was in better supply.",
+            "The Chrysler Building, built between 1928 and 1930 to designs by William Van Alen for Walter Chrysler and shown in the figure, remains the style's beloved masterpiece. Its terraced crown, a stack of diminishing arches pierced by triangular windows and sheathed in stainless steel, rises to a needle spire that was assembled in secret inside the tower and hoisted at the last moment to steal the title of the world's tallest building. Below, the ornament is a motor magnate's heraldry: friezes of hubcaps and radiator caps, gargoyles modelled on bonnet ornaments, a lobby of African marble, chrome and a ceiling mural celebrating transport and energy. It is advertising, engineering and jewellery at once, the skyscraper style complete.",
+            "New York's Deco, though, runs far deeper than two famous crowns. The Chanin Building, the Daily News Building with its extraordinary globe lobby, the Rockefeller Center's integrated programme of sculpture, mural and planning, the apartment houses of Central Park West with their stepped silhouettes and glamorous lobbies, the diners, theatres and subway stations: the style clothed the whole apparatus of a modern metropolis in one decade. The Depression that ended the boom froze the achievement in place, sparing much of it from later rebuilding, and preservation battles from the 1960s onward taught New Yorkers to name what they had. Other cities built Deco well; New York built it as a vernacular, which is the higher compliment and the truer capital's crown. A vernacular, unlike a monument, cannot be faked or imported; it means the style had passed from the architects' offices into the habits of builders, sign-writers and landlords across a whole city."
+          ]
+        },
+        {
+          "heading": "Paris: luxury, lacquer and the liner",
+          "figure": "malletStevens",
+          "paras": [
+            "Paris, which had named the style at the Exposition Internationale des Arts Décoratifs of 1925, remained its capital of quality rather than quantity. The exposition itself, spread along the Seine, presented the French proposition in pavilions: Ruhlmann's Hôtel du Collectionneur, the department stores' temples of retail, the gardens lit and fountained at night, in which luxury manufacture, from Lalique glass to Dunand lacquer and Brandt ironwork, was displayed as a national industry and an export strategy. Parisian Deco distrusted mass production even as it courted it, and its finest work stayed close to the atelier: veneer matched like painting, lacquer laid by hand, bronze patinated in small batches, the whole unified by designers who insisted that modern must also mean precious.",
+            "Against that luxury stream ran a purist Parisian minority, and its monument is the Rue Mallet-Stevens in Auteuil, built in 1927 to designs by Robert Mallet-Stevens, shown in the figure: a short street of white, cubic studio-houses, the architect's own among them, with strip windows, roof terraces, sculptural stairs and ironwork by Jean Prouvé. Here Parisian Deco sheds veneer for rendered planes and approaches the international modernism of Le Corbusier, Mallet-Stevens's rival and near neighbour. The street matters because it prevents a caricature. The capital of Deco contained both the lacquered salon and the white cube, and its designers moved between glamour and geometry with a fluency their critics abroad, who wanted one Paris or the other, rarely credited.",
+            "The city's third Deco monument floated. The great French liners, above all the Normandie of 1935, were fitted out as travelling expositions of Parisian luxury, their grand saloons panelled in lacquer and glass, lit by Lalique, furnished by the ateliers that had starred in 1925, so that the crossing to New York became a passage between the style's two capitals in the care of the first. Fire destroyed the Normandie in New York harbour in 1942, and the war scattered the ateliers whose work it had carried. Parisian Deco thus survives in fragments, a theatre front, a store, a swimming pool, a street of white houses, and in objects scattered through the world's museums: a capital of episodes, each of the highest polish, rather than of skylines. The episodes reward the searcher: Paris hides its Deco the way it once hid the courtyards of its hôtels, behind discreet fronts, in the interiors where the city's real splendour has always lived."
+          ]
+        },
+        {
+          "heading": "London: the late, glossy capital",
+          "figure": "dailyExpress",
+          "paras": [
+            "London came late to Deco and made the lateness a character. The British capital, cautious in taste and rich in building work through the 1930s, adopted the style for the building types that most wanted modernity without tears: newspaper offices, cinemas, Underground stations, factories along the new arterial roads, hotels and luxury flats. London Deco is typically stone-clad or faience-fronted, its geometry softened by classical manners, its ornament stylised rather than exotic, and its glamour turned up indoors, in lobbies, cocktail bars and cinema foyers where gilt, mirror and indirect light did the work the facade politely declined. It is a Deco of good tailoring: less chrome than New York, less lacquer than Paris, and extremely well cut.",
+            "The Daily Express Building in Fleet Street, completed in 1932 to designs by Ellis and Clarke with Sir Owen Williams as engineer, and shown in the figure, is its masterpiece and its exception, because here the tailoring is black glass. The front is a seamless curtain of black Vitrolite glass and clear glass, curving around the corner in a curve the structural frame behind makes effortless, the closest London came to the streamlined ideal. Inside, the famous lobby by Robert Atkinson survives in silver and gold, a Hollywood set in the home of a newspaper. The building announced, in the street of print, that information itself was now a modern industry, and it dressed the news in the materials of the cinema two doors down.",
+            "London's Deco was also the most socially diffused in Europe, carried by the Underground's architect Charles Holden to stations from Arnos Grove to Sudbury Town, and by the Odeon cinema chain to hundreds of high streets, so that a Londoner of 1938 met the style on the commute, at the pictures and in the new flats of the suburbs more often than in any gallery. That diffusion is the fitting end to this comparison. Nouveau had begun in the private house, in Brussels and Nancy, as a total work of art for the few, and aspired to the street; Deco completed the journey, becoming in London, New York and Paris the common visual language of modern urban pleasure. The two styles, rivals in the textbooks, were in the city a relay, and the baton was the designed environment itself. What began as one architect's stair rail in Brussels ended, forty years on, as the ordinary expectation that a station, a cinema or a café should be a work of design, and that expectation has never since been surrendered."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deco-world",
+      "numeral": "XIII",
+      "title": "Deco Around the World: Miami, Mumbai, Napier, Shanghai",
+      "sections": [
+        {
+          "heading": "Mumbai and the Indo-Deco",
+          "figure": "erosCinema",
+          "paras": [
+            "Art Deco travelled by ship, and nowhere did it take root more completely than in Bombay, now Mumbai. In the 1930s the city rebuilt its seafront on reclaimed land at Back Bay, and along Marine Drive and around the Oval Maidan there rose rows of apartment blocks in reinforced concrete: curved corners, streamlined balconies, frozen-fountain motifs, sunbursts over the doors and lettering cut as carefully as the stone. The ensemble, recognised by UNESCO in 2018 alongside the older Victorian Gothic buildings across the Maidan, is often described as the second largest collection of Deco buildings in the world, after Miami Beach. Yet it was never a copy of Miami. It was built by Indian architects, engineers and patrons, for Indian households, in an Indian climate.",
+            "The Eros Cinema, completed in 1938 to designs by Sohrabji Bhedwar, is its most theatrical monument. Standing at Churchgate opposite the railway station, it rises like a stepped wedding cake in Agra sandstone, its tower carrying the name in bold letters, its foyer once rich with marble, murals and bas-reliefs of film-making itself. A cinema was the right flagship for the style: Deco and the movies grew up together, each selling the other glamour, speed and modern comfort. Inside, its auditorium and foyers were cooled, lit and decorated as a single designed environment. Outside, the building addressed the new motor traffic and the new crowds alike, a temple not to a god or a king but to an evening out.",
+            "Historians call the local variant Indo-Deco, and the name records a negotiation. The plans answered the joint family and the monsoon as much as any Paris fashion: deep balconies shaded the rooms, grilles ventilated staircases while patterning the facade, and compounds and verandas mediated between street and home. Motifs moved both ways. Peacocks, lotuses, elephants and scenes from Indian epic appear stylised into Deco geometry, while ocean-liner balconies and porthole windows look out over the Arabian Sea. Names lettered on the blocks — Empress Court, Shenaz, Rajjab Mahal — declare the confidence of the merchants and professionals who commissioned them. Mumbai's Deco is therefore evidence against the idea that the style was merely imported: exported, it learned to speak with a local accent."
+          ]
+        },
+        {
+          "heading": "Napier: a town rebuilt in Deco",
+          "figure": "napierTelegraph",
+          "paras": [
+            "Napier, on the east coast of New Zealand's North Island, became a Deco town by catastrophe. On 3 February 1931 the Hawke's Bay earthquake, magnitude 7.8, struck the region, killing 256 people and levelling the commercial centre of Napier; fire followed the shaking, and much of what the quake left standing the flames consumed. The land itself rose by about two metres, draining a lagoon and giving the town new ground. Reconstruction began almost at once, in reinforced concrete, under strict new rules about parapets and ornament that might fall in a future shock. The rebuilding was largely complete within two years — a speed that gave the new centre its remarkable stylistic unity, since nearly every building was designed in the same short moment.",
+            "The architects of Napier reached for the styles then current in the wider world: Stripped Classical, Spanish Mission and, above all, Art Deco. The Daily Telegraph Building of 1932, designed by Ernest Williams, is the set piece: a symmetrical concrete facade dressed with stylised flowers, zigzags and a central ornament that gathers the composition like a brooch. Elsewhere the Hawke's Bay Museum, the Municipal Theatre and rows of modest shops carry sunbursts, chevrons, speed lines and Egyptian touches made fashionable by the discovery of Tutankhamun's tomb a decade earlier. Because the budgets were small and the materials plain — concrete, stucco, a little tile — Napier shows Deco at its most democratic: not marble luxury but pattern applied with economy and pride.",
+            "Napier also did something the metropolitan centres rarely managed: it localised the style. Carved and painted Māori motifs — koru spirals, rafter patterns and tukutuku-like geometries — appear on several buildings, most notably in the ASB Bank, acknowledging the culture that preceded the colonial town and would outlast its facades. For decades the rebuilt centre was simply thought old-fashioned, and some of it was lost; from the 1980s the town reversed its judgement, protecting the precinct and building an annual festival around it. Visitors now come for what the earthquake accidentally created: a whole town centre composed in one style-family, at one scale, in one brief rebuilding, and kept legible because later prosperity never grew large enough to replace it."
+          ]
+        },
+        {
+          "heading": "Shanghai, Havana and the ports of the style",
+          "figure": "peaceHotel",
+          "paras": [
+            "If Deco had a natural habitat, it was the port. The style moved along shipping routes with the liners that embodied it, and it flourished where trade, tourism and cinema met: Alexandria, Casablanca, Asmara, Jakarta, Havana, Shanghai. In such cities Deco was rarely the official style of an empire or a state; it was the commercial style of hotels, department stores, banks, cinemas and apartment houses, adopted by local and foreign patrons alike because it signalled modernity without demanding allegiance to any single nation's past. Its stepped towers and neon signs read in any language. A traveller stepping ashore in 1935 could read a city's ambitions from its newest facades, and the reading was the same on four continents.",
+            "Shanghai's monument is the Cathay Hotel, opened in 1929 on the Bund for the property magnate Victor Sassoon, and known since the 1950s as the Peace Hotel. Designed by Palmer and Turner, it rises to a green copper pyramid above the Huangpu River, its granite shaft plain by day and, in its heyday, ablaze by night. Inside were themed suites in the tastes of many nations, a ballroom, and the Old Jazz Band whose musicians became legend. The hotel stood at the meeting point of two worlds, and its architecture said so: a New York skyscraper silhouette, a European grand-hotel plan, Chinese staff and guests from everywhere. A short walk away, the Broadway Mansions and a dozen bank and office towers made the Bund a Deco waterfront as well as a neoclassical one.",
+            "Havana tells the same story in a warmer register. The Bacardi Building, completed in 1930 to designs by Esteban Rodríguez Castells and Rafael Fernández Ruenes, wraps a stepped tower in coloured terracotta, granite and a bat emblem in lights; apartment houses across Vedado bend their corners into the street and shade their balconies against the Caribbean sun. What unites these ports is adaptation. In each, Deco met a strong local building culture and bent: to monsoon rain in Mumbai, to earthquake law in Napier, to heat and hurricane in Havana, to treaty-port cosmopolitanism in Shanghai. The comparison with Art Nouveau is instructive. Nouveau, too, had travelled — to Riga, Barcelona, Mexico City — but it remained a connoisseur's style. Deco became a vernacular, the first truly global commercial architecture."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interiors",
+      "numeral": "XIV",
+      "title": "Interiors: The Total Work of Art, Twice",
+      "sections": [
+        {
+          "heading": "The Nouveau interior: one organism",
+          "figure": "tiffanyLamp",
+          "paras": [
+            "Both styles in this book claimed the interior as their true kingdom, and both used the same phrase for the ambition: the total work of art. For Art Nouveau the claim meant unity of organism. In Victor Horta's Brussels houses of the 1890s the plan itself flows: rooms at different levels connected by a glazed stair hall, iron columns that sprout into tendrils, mosaic floors whose pattern runs like water from room to room, door handles, light fittings and furniture all drawn by the same hand in the same sinuous language. Nothing was bought in from another world. To enter the Hôtel Tassel or the architect's own house is to step inside a single cultivated plant, in which architecture, decoration and use have grown together and cannot be separated without killing the whole.",
+            "The lamp in the figure stands for the American branch of that organism. Louis Comfort Tiffany's studios in New York turned the Nouveau line into glass: leaded shades in which dragonflies, wisteria and peacock feathers are built up from hundreds of pieces of coloured glass, and the Favrile glass he patented in the 1890s, its iridescence fired into the material rather than applied to its surface. A Tiffany lamp of the 1900s is architecture in miniature — structure, light and image fused — and it was designed to stand in rooms furnished to the same key, often by Tiffany's own decorators. The women who selected and cut much of the glass, organised by Clara Driscoll, were recognised only long afterwards; the organism had more authors than its master's name admitted.",
+            "The Nouveau interior's unity was also its weakness. Because every element depended on every other, the style resisted alteration, subdivision and cheap reproduction alike. A Horta staircase cannot be extended; a Guimard room re-papered in another pattern collapses into mere oddity. Such interiors demanded wealthy, patient patrons and armies of craftsmen, and they aged as complete compositions age — all at once, and into unfashionability. Many were dismantled between the wars by owners who found them exhausting to live inside, and the survivors — the Horta Museum, the preserved rooms in Nancy and Vienna — are treasured partly because they are rare. The total work of art, achieved completely, left its inheritors no way in: they could preserve the organism or destroy it, but they could not adapt it."
+          ]
+        },
+        {
+          "heading": "The Deco interior: Eltham and the liner look",
+          "figure": "elthamHall",
+          "paras": [
+            "Art Deco's total interior worked by the opposite method: not organism but assembly. Where Nouveau grew a room from one line, Deco composed a room from luxurious parts — veneer, chrome, mirror, lacquer, leather — each machine-finished or hand-finished to a high polish, each replaceable without dissolving the whole. The patron saint of the method was the ocean liner, whose interiors the style openly imitated: compact, gleaming, serviced, modern. On land the liner look filled hotels, flats and suburban houses with stepped cocktail cabinets, mirrored bars, curved banquettes and concealed lighting. It photographed superbly, which Nouveau interiors rarely did, and it could be bought by the piece: a Deco room could begin with a single chrome lamp and grow as the budget allowed, an organism never could.",
+            "Eltham Palace in south-east London is Britain's fullest surviving Deco interior, and its entrance hall, shown in the figure, is the style's domestic masterpiece. The medieval great hall of a royal palace had passed to Stephen and Virginia Courtauld, who in the 1930s built a new house against it, designed by John Seely and Paul Paget. The hall, created with the Swedish designer Rolf Engströmer, is a circular, top-lit space panelled in Australian black bean veneer, its doors marquetry-inlaid with animals and birds, its dome a shallow coffered saucer. It is at once grand and shipshape, a country-house hall re-imagined as the saloon of a yacht, down to the built-in vacuum-cleaning points and the quarters for the Courtaulds' pet lemur.",
+            "The comparison at Eltham is exact because the old building still stands beside the new. The medieval hall beyond the Deco rooms is all structure and ceremony: hammerbeam roof, screens passage, a single great volume for a household on display. The Courtaulds' rooms are the modern answer — smaller, warmer, specialised, serviced by bells, telephones and concealed cupboards, decorated not with heraldry but with travel, animals and the couple's own cultivated tastes. Yet the kinship is real. Both interiors are total environments expressing a way of life, and both were composed around hospitality. What had changed, in five centuries and in the thirty years since Nouveau, was the machinery: Deco's totality ran on electricity, plumbing and polish, and it welcomed the machine into the decoration itself."
+          ]
+        },
+        {
+          "heading": "Cinemas and hotels: the public interior",
+          "figure": "radioCity",
+          "paras": [
+            "The styles part company most clearly in public. Art Nouveau's masterpieces are houses, cafés and shops — interiors for dozens, not thousands — and its one great public type, the Paris Métro entrance, addresses the street rather than a crowd. Art Deco invented the interior for the multitude. The picture palace of the 1920s and 1930s took the paying public through a sequence of foyers, stairs and lounges into an auditorium of two or three thousand seats, and every surface taught the audience how to feel: richer than at home, modern beyond their streets, part of a single glittering body. In depressed decades, for the price of a ticket, Deco sold temporary citizenship in the future, and it sold it by the million.",
+            "Radio City Music Hall in New York, opened in December 1932 as part of Rockefeller Center, is the type at its most disciplined. Its interiors, overseen by Donald Deskey, replaced the picture palace's usual exotic fantasy — Moorish, Egyptian, Mayan — with an American modernism of aluminium, Bakelite, cork, mirror and indirect light, carried through furniture, carpets, murals and even the staff uniforms. The great auditorium's ceiling arcs sweep back like rays of a rising sun, focusing six thousand seats on the stage. Deskey's achievement was coordination at industrial scale: dozens of artists and manufacturers held to one geometric language, so that a vast commercial interior reads not as applied decoration but as a designed world, entered anew at every performance.",
+            "Hotels performed the same work for longer stays. The Waldorf Astoria in New York, Claridge's in London — remodelled in the 1920s with Deco lobbies, bars and a ballroom — and the Peace Hotel in Shanghai taught travellers a portable idea of luxury: streamlined, hygienic, lit electrically, serviced invisibly. Department stores joined in; the great Paris shops rebuilt their atriums in glass and steel, and Selfridges and its rivals made shopping itself a designed spectacle. Nouveau had dreamed of art for everyone and reached chiefly the rich. Deco reached everyone who bought a ticket, a room or a cup of tea in one of its interiors — which is why, when the century remembers the years between the wars, it so often remembers them in Deco rooms."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-deaths",
+      "numeral": "XV",
+      "title": "How Each Style Died",
+      "sections": [
+        {
+          "heading": "Nouveau's sudden end, 1905–1914",
+          "figure": "brusselsOldEngland",
+          "paras": [
+            "Art Nouveau died young, and contemporaries noticed the speed of it. At the Paris exhibition of 1900 the style stood at its zenith, its entrances, pavilions and jewellery the talk of Europe; within five years the smart world had begun to call it dated, and by about 1905 its leading masters were themselves retreating — Horta towards a plainer classicism, Guimard towards an ever more personal idiom that fewer clients would follow. Fashion was the first cause: Nouveau had been launched as the style of the new century, and novelty is a lease that expires. A second cause was cost. Hand-wrought iron, carved stone and bespoke furniture in the whiplash manner could not be cheapened without becoming parody, and the parodies — cast, stamped and gilded — duly flooded the market and discredited the originals.",
+            "The deeper cause was industrial. Nouveau preached the unity of art and craft in an age whose building economy ran the other way: towards standard parts, catalogue components and the reinforced-concrete frame. Its forms fought the frame. A whiplash curve in load-bearing masonry is expensive; in iron it is a tour de force; repeated a thousand times in a housing block it is impossible. Architects who had begun as Nouveaux turned, one by one, to geometry — in Vienna most abruptly, where the Secession's own circle moved through squared ornament to the stripped surfaces of the years before 1914. The style's children killed it, as children do: Jugendstil simplified itself into the Wiener Werkstätte grid, and the grid pointed straight towards the Deco and modernism that followed.",
+            "The First World War signed the certificate. The war bankrupted the private patronage on which Nouveau depended, dispersed its craftsmen, and left a generation for whom pre-war sinuosity read as frivolity from a disgraced world. Buildings in the style were not yet old enough to be protected and were already too old to be fashionable, the most dangerous age any architecture can reach. Brussels, Paris, Nancy and Riga kept great stocks of it by inertia rather than love. By 1925, when Paris mounted the exhibition that gave Deco its name, Art Nouveau was exhibited nowhere and imitated by nobody; it had become, within twenty years of its triumph, a period taste, awaiting the historians. Few styles of comparable brilliance have fallen so completely, or so fast."
+          ]
+        },
+        {
+          "heading": "Deco's long fade, 1930–1960",
+          "figure": "hooverBuilding",
+          "paras": [
+            "Art Deco died slowly, by dilution rather than rejection, and its buildings often outlived its name. The Hoover Building in Perivale, west London, shown in the figure — designed by Wallis, Gilbert and Partners and built between 1932 and 1938 as a factory and offices for the Hoover company — shows the style still confident in the decade of its decline: a long symmetrical facade, Egyptian-inflected ornament, colour in tile and paint, the factory presented as a palace of work. Through the 1930s thousands of such buildings rose — cinemas, factories, offices, blocks of flats — even as the Depression cut budgets and the ornament thinned year by year. Streamlining softened the geometry; austerity simplified it; the style faded by degrees into the plain manner everyone afterwards called simply modern.",
+            "War interrupted rather than ended it. The Second World War stopped civilian building almost everywhere, and when construction resumed after 1945 the terms had changed: steel and glass were rationed to the new priorities of housing, schools and welfare, and the international modernism that took those commissions had defined itself against applied ornament. Yet Deco persisted longest where its public had always been — in cinemas still opening in the early 1950s, in seaside hotels, in provincial high streets, in the colonies and dominions where the style had become the local modern. Dating the end is therefore a matter of place. In Manhattan it was over by 1945; in Mumbai and Napier its buildings were still rising, in thinning form, into the 1950s, less a style by then than a habit of builders.",
+            "The manner of the two deaths explains much of what followed. Nouveau, killed quickly, remained a closed and legible body of work: a decade, a set of masters, a line that can be drawn around it. Deco, dying by dilution, dissolved into everything — into moderne, into streamlining, into post-war commercial building — and so became hard to see as a style at all. Contemporaries in 1955 rarely used the term Art Deco, which was then barely current; the buildings were dated, but the category that would redeem them did not yet exist in common speech. A style that ends in a full stop can be revived whole. A style that trails off must first be redefined before it can be loved, and that, as the next chapter shows, is exactly the work the scholars had to do."
+          ]
+        },
+        {
+          "heading": "The modernist verdict",
+          "paras": [
+            "Between the styles' falls and their revivals stands the verdict of modernist history, and it was severe on both. The canonical histories of modern architecture, written in the 1930s and after, told a story of pioneers: engineers and reformers groping towards the honest, functional, undecorated building. In that story Art Nouveau could appear, briefly and honourably, as a forerunner — its iron structures and free plans pointed the right way — before being dismissed for the ornamental excess into which it had, in the approved phrase of the time, degenerated. Its craftsmen were forgiven their curves because their structures were interesting. The whiplash line itself, the very signature of the style, was treated as an embarrassing youthful indiscretion of the modern movement, to be hurried past on the way to the grid.",
+            "Deco fared worse, because it could not be cast even as a forerunner. It had loved ornament openly, served commerce unashamedly, and borrowed from Egypt, Mexico and the machine age with equal delight; to historians for whom morality in architecture meant honesty to materials and purpose, that delight was simply corruption. The great commercial buildings of the 1920s were omitted from the surveys or illustrated as warnings, and the cinemas and hotels in which the public had actually experienced modern life went unrecorded. There was a social edge to the verdict as well. Nouveau had at least aimed at art; Deco aimed at pleasure and profit, and its public — shoppers, holidaymakers, filmgoers — was precisely the public the architectural profession least wished to consult about taste. The style of the crowd was condemned for being crowded.",
+            "The verdict held for a generation because it was built into the institutions: schools taught it, journals printed it, and listing systems, where they existed, protected the approved line of descent. Its cost can be counted in demolitions — Nouveau interiors gutted as worthless, Deco cinemas and factories razed as merely old — often in the very decades when the buildings' own contemporaries still remembered using them. Yet the verdict contained the seeds of its reversal. By defining both styles as decoration applied to structure, it handed later scholars a precise target; by excluding the crowd's buildings from history, it left an entire archive unexamined for the revisionists to discover. The revivals of the next chapter began when a new generation asked what the history of architecture was for, if not to explain the buildings people loved."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revivals",
+      "numeral": "XVI",
+      "title": "The Revivals: Rediscovery and Preservation",
+      "sections": [
+        {
+          "heading": "1966: Paris remembers",
+          "paras": [
+            "The revival of Art Nouveau began, fittingly, in Paris, and it began with looking. Through the 1950s a few collectors and dealers had quietly bought the furniture and glass that smart households were throwing out; surrealists had never stopped admiring Guimard and Gaudí; but the public turning point came in 1966, when the Musée des Arts Décoratifs mounted its great exhibition devoted to Art Nouveau, drawing crowds to work that official taste had buried for fifty years. The timing was exact. A young generation, bored by the glass box and curious about psychedelia, ornament and the handmade, found in the whiplash line a licensed alternative modernity — proof that the twentieth century might have gone another, more sensuous way than the one it took.",
+            "Deco's rehabilitation followed two years behind and needed a name before it needed a defence. Bevis Hillier's book Art Deco, published in 1968, popularised the term — shortened from the Arts Décoratifs of the 1925 Paris exhibition — and gave journalists, dealers and the public a handle for a style they recognised everywhere but could not previously discuss. Hillier followed it with an exhibition at the Minneapolis Institute of Arts in 1971, the first large museum survey of the style. The sequence is instructive: Nouveau was revived as art, by exhibition; Deco was revived as a category, by naming. Once the name existed, the buildings could be listed, the furniture sold, the posters reprinted and the argument about quality begun — on evidence, rather than on the modernists' inherited disdain.",
+            "Both revivals were powered from below as much as from the academy. Rock and pop graphics borrowed Nouveau lettering and Deco geometry within the same decade; film designers rebuilt the 1930s for the cinema; collectors' markets gave surviving objects a price, and price, whatever scholars think of it, is a preservative: a Tiffany lamp or a Ruhlmann cabinet worth money is a lamp or cabinet that will be kept. The danger came later and was subtler — revival shading into pastiche, new buildings wearing Deco steps and Nouveau curves as fancy dress. The chapters of this series have insisted throughout on the distinction the revivalists themselves drew: study the originals, by all means copy their standards, but do not mistake quotation for the living styles, which belonged to their moment and cannot be re-entered."
+          ]
+        },
+        {
+          "heading": "Miami Beach: preservation by district",
+          "figure": "miamiHotel",
+          "paras": [
+            "Miami Beach made preservation history by saving not a monument but a neighbourhood. Its Deco building boom had followed the hurricane of 1926 and run through the 1930s: hundreds of small hotels and apartment houses along Ocean Drive, Collins Avenue and the streets behind, designed by architects such as Henry Hohauser and L. Murray Dixon for winter visitors of modest means. Streamlined, pastel-painted, neon-signed — the style locally called Tropical Deco, its ornament drawn from the sea and sun of Florida itself. By the 1970s the district had decayed into a poor retirement quarter, its hotels threatened by the same redevelopment that had replaced Deco New York. The buildings survived largely because their owners had lacked the money to demolish them: poverty, preservation's unacknowledged partner.",
+            "The rescue was organised. Barbara Baer Capitman founded the Miami Design Preservation League in 1976 and campaigned, building by building and hearing by hearing, for the district's recognition; in 1979 the Miami Beach Architectural District was entered on the National Register of Historic Places, the first such district composed chiefly of twentieth-century buildings. Listing did not merely protect facades: it reframed the resort's identity, and the pastel hotels of Ocean Drive — the Colony, the Beacon, the Park Central and their neighbours, one of which is shown in the figure — became the city's brand, restored and re-lit until the strip stood among the most recognisable streetscapes on earth. Preservation by district, pioneered at this scale in Miami, has since become the standard tool for saving whole quarters of both styles.",
+            "The contrast with Nouveau's preservation is sharp, and it is a contrast of scale. Nouveau, the style of individual masterpieces, has been saved chiefly building by building: the Horta houses inscribed by UNESCO in 2000, Guimard's entrances protected after some had already been lost, Riga's great streets safeguarded as an ensemble only at the century's end. Deco, the vernacular style, needed the district — hundreds of modest buildings whose value lies in their accumulation. Mumbai understood the lesson: its Oval Maidan and Marine Drive ensembles won World Heritage inscription in 2018 as ensembles, not as monuments. The two styles died differently and were saved differently, each according to its nature. The final proof of both revivals is the same, however: nobody now demolishes a Horta house or a Miami hotel in ignorance of what it is."
+          ]
+        },
+        {
+          "heading": "Scholarship catches up: 1979–2003",
+          "paras": [
+            "The scholars, having first condemned and then rediscovered the styles, spent the last quarter of the twentieth century putting the record straight. Monographs replaced manifestos. Horta, Guimard, Mackintosh and Gaudí received catalogues of their complete works; the minor masters and the regions — Riga, Nancy, Glasgow, Turin, Buenos Aires — received their studies; and Deco, long the poorer relation, acquired its surveys, its journals and its societies, among them the Art Deco societies founded in city after city from the 1980s onwards. The listing of the Miami Beach district in 1979 and the steady expansion of statutory protection in Britain, France and Belgium turned enthusiasm into administration. What the modernist histories had left out, the archives, when finally opened, proved to have kept.",
+            "The museum world sealed the settlement with two exhibitions at the Victoria and Albert Museum in London. Art Nouveau 1890–1914, shown in 2000 and edited as a publication by Paul Greenhalgh, presented the first style whole — its cities, its politics, its crafts and its colonies — to audiences who had mostly met it as decoration. Art Deco 1910–1939 followed in 2003, giving the second style the same full treatment: its origins before 1925, its global reach, its film, fashion and ocean liners. Together the two shows stated, in the most public way British scholarship commands, that the styles were a pair: successive answers to the same question of how art should meet industrial life, and between them the record of half a century. Visitors could walk from one argument to the other in a single afternoon.",
+            "Scholarship also corrected the revivals' own excesses. Research recovered the forgotten contributors — the women of Tiffany's studios, the Indian architects of Bombay, the local designers of Napier and Havana — and replaced the lone-genius story with something nearer the truth. Dating sharpened; attributions were tested; the easy habit of calling everything curvy Nouveau and everything stepped Deco gave way to the more careful discriminations set out in this book's final chapter. The styles ended the century more securely understood than the modernism that had condemned them, because their historians had had to argue from evidence against a settled verdict. That is the healthiest position any subject can occupy: not beyond question, but furnished, at last, with the means to answer questions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "overlaps",
+      "numeral": "XVII",
+      "title": "Where They Overlap: The Honest Confusions",
+      "sections": [
+        {
+          "heading": "Michelin House and the hybrid building",
+          "figure": "michelinHouse",
+          "paras": [
+            "Every honest comparison must spend a chapter on the buildings that refuse it, and the most cheerful refusal in Britain stands at 81 Fulham Road in London. Michelin House was built in 1910–11 as the London headquarters of the French tyre company, designed by François Espinasse, an engineer in Michelin's own works department, and it wears the company's world on its walls: three great stained-glass windows in which Bibendum, the tyre man, raises a goblet of nails; ceramic tiles picturing Michelin-shod motor cars in the races of the age; a mosaic map of France on the floor; tyre motifs stacked, appropriately, into corner features. It is a working building — offices, depot, fitting bay — dressed as an advertisement, and it has delighted its street for more than a century.",
+            "Which style is it? The case for Nouveau rests on the date, the French origin, the sinuous lettering and the stained glass, a Nouveau medium par excellence. The case for Deco rests on the composition: bold symmetry, strong corporate imagery, flat surfaces patterned rather than modelled, ornament frankly serving publicity — the commercial logic Deco would make its own through the 1920s and 1930s. Both cases are sound, which is the point. In 1910 the two manners were not yet the tidy successive styles of the textbooks; they were overlapping responses, by the same generation, to the same new clients. Michelin House is not a failed example of either style. It is evidence that the boundary drawn in this book is real but porous, patrolled by historians more strictly than it ever was by builders.",
+            "Hybrids of the kind are everywhere once the eye accepts them: Barcelona's modernisme shading into 1920s classicism, Viennese buildings of 1910 carrying Secessionist squares on classical bodies, Riga facades where Jugendstil tendrils stiffen year by year into geometry, American buildings of the 1920s mixing zigzag with Beaux-Arts planning. Nor is hybridity a defect to be explained away. Buildings are made by offices, committees and companies over years, not by styles in single instants; a depot planned in 1908 and finished in 1911 will naturally carry more than one fashion in its fabric. The reader's task, as the final chapter will urge, is not to force such buildings into one camp but to say precisely which parts speak which language, and why the mixture made sense to the people who paid for it."
+          ]
+        },
+        {
+          "heading": "1913: the Théâtre des Champs-Élysées",
+          "figure": "champsElysees",
+          "paras": [
+            "If one building marks the exact hinge between the two styles, it is the Théâtre des Champs-Élysées in Paris, completed in 1913. Its architect, Auguste Perret, built it as a demonstration of reinforced concrete: the frame that carries the balconies, frees the plan and allows the great auditorium its unobstructed span is among the earliest of its kind in a major public building. Over that modern skeleton Perret laid a skin of white marble, composed in severe classical planes — no whiplash curves anywhere — yet not neoclassical either, for the ornament is flattened, stylised and concentrated where the sculptor Antoine Bourdelle carved his great reliefs of Apollo and the Muses across the facade, their figures dancing in shallow, rhythmic procession, drapery reduced to parallel folds.",
+            "Contemporaries did not know what to call it, and the uncertainty has lasted. The theatre has been claimed for early Deco, for proto-modernism and for a revived classicism, and each claim seizes a real part of the building: the concrete frame looks forward to modernism, the marble order looks back to tradition, the reliefs look sideways, towards the stylisation that Deco would adopt after the war. What is certain is the date. In 1913 Nouveau was dying, the 1925 exhibition was twelve years away, and in a single Parisian building the future's components already stood assembled — frame, plane, relief, rhythm — awaiting only the peace, and the clientele, to combine them at scale. The premiere season added its own fame: the theatre opened with the Ballets Russes, and that spring's riot at The Rite of Spring took place within its disciplined walls.",
+            "The lesson generalises. Styles rarely succeed one another like kings; they overlap like tides, and the most interesting buildings often stand in the overlap, where a Perret can be classical and revolutionary in the same facade. This series has therefore treated the two manners not as boxes but as poles: the organic pole and the geometric pole of one long argument about ornament in the machine age. A building's position is fixed not by its date alone but by which pole its governing lines obey — and in 1913, for one transitional moment, a great architect could hold both poles at once and make the tension itself the architecture. Read the theatre that way, and its famous severity stops being a puzzle and becomes the record of a choice being made, in public, in stone and concrete."
+          ]
+        },
+        {
+          "heading": "Glass block, curves and other traps",
+          "figure": "greyhound",
+          "paras": [
+            "The commonest confusions between the styles are traps set by single features, and glass block, shown in the figure, sets the neatest of them. Both styles loved glass, and both used it structurally in their different ways: Nouveau in the glazed domes and walls of light of Horta's stair halls, Deco in the glass-brick walls and curved glass corners that became common in the 1930s, when manufacturers perfected the hollow glass block and architects from Paris to Chicago built whole stair towers and facades of them. The material is the same family; the grammar is not. Nouveau glass flows, coloured and leaded, as part of a drawn line. Deco glass is modular, repeated, translucent rather than transparent — a masonry of light, laid in grids and curves that obey the block, not the tendril.",
+            "The masterpiece of the material stands exactly between the camps, as the masterpieces in this chapter tend to do. The Maison de Verre in Paris, built between 1928 and 1932 by Pierre Chareau with the Dutch engineer Bernard Bijvoet, wraps its rooms in a wall of glass blocks that floods the interior with diffused light while keeping it perfectly private; inside, sliding screens, perforated metal and a jeweller's precision of fittings make the house a machine composed like a piece of furniture. Neither Deco nor orthodox modernism quite owns it: too crafted for the one, too mechanical for the other, it is a reminder that the period's best designers used the whole keyboard. Its glass wall, endlessly imitated since, began as a solution to a site hemmed in by neighbours who would not sell — ingenuity first, style afterwards.",
+            "Curves set the second trap, and it catches more readers than any other. A curved corner does not make a building Nouveau, nor does a zigzag make it Deco, if the curve or zigzag is an incident rather than the governing idea. The streamline curves of 1930s factories and flats descend from ships, trains and wind tunnels — from speed, not from stems; the whiplash curve descends from drawing, from the line of a plant growing. Likewise symmetry: a Deco facade may hide a picturesque plan, and a Nouveau house may present, as Horta's sometimes do, a nearly classical face to the street. The traps all teach the same moral, which the final chapter turns into method: diagnose by the system, never by the souvenir. One motif is a quotation; a governing line is a language."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "numeral": "XVIII",
+      "title": "Reading the Two Styles: A Field Method",
+      "sections": [
+        {
+          "heading": "The five signs, applied in order",
+          "paras": [
+            "Here, at the end of the comparison, is the method this book has used throughout, stated as five signs and applied in a fixed order. First, silhouette: steps against swell. Stand across the street and read the outline before anything else. A Nouveau building swells — its skyline rises and falls in curves, its bays bow, its roofline behaves like a living profile. A Deco building steps: its mass climbs in setbacks like a ziggurat, its towers are cut in terraces, its outline could be drawn with a ruler and a set square. The silhouette is the hardest sign to fake, because it is decided by the plan and the massing, not by surface fashion, and a later refacing rarely succeeds in changing it. Date and place will suggest; the outline decides first.",
+            "Second, the governing line: whiplash against straight and zigzag. Follow the longest continuous line the building offers — a string course, a balcony rail, the stem of the ornament — and ask what law it obeys. In Nouveau the line is the whiplash: asymmetric, accelerating, turning back on itself like a growing shoot, and it governs structure and decoration together. In Deco the governing lines are the straight, the chevron and the arc of a compass: repeated, measurable, happy to be mirrored. Third, ornament's source: living nature against stylised emblem. Nouveau ornament studies actual plants and creatures, observed and drawn. Deco ornament cites emblems — sunburst, fountain, lightning, gazelle, the flower reduced to a badge — nature passed through heraldry on its way to the facade.",
+            "Fourth, symmetry: grown against imposed. A Nouveau composition balances as a tree balances, by counterweight rather than correspondence, and its two halves reward close comparison precisely because they differ. A Deco composition imposes symmetry as order: halves mirror, entrances centre themselves, ornament marches in step to a middle line. Fifth and last, material and structure: exposed craft against frame and cladding. Nouveau shows its making — iron forged, stone carved, joints celebrated as decoration. Deco typically hides a frame of steel or concrete behind cladding of stone, tile, glass or stucco, the surface a tailored suit rather than a skeleton. Apply the five in order, and let the earlier signs outvote the later: silhouette and line settle most buildings before ornament is even reached."
+          ]
+        },
+        {
+          "heading": "Two facades read slowly",
+          "figure": "stoclet",
+          "paras": [
+            "Take first the Palais Stoclet in Brussels, shown in the figure — built between 1905 and 1911 by Josef Hoffmann for the banker Adolphe Stoclet, its interiors carrying murals by Gustav Klimt. Silhouette: the house rises in clean blocks to a stepped tower, yet the edges swell with no Nouveau softness; already the outline argues against its date. Governing line: straight throughout, the whole facade bound by a dark metal band that runs like a drawn frame around walls of white marble — the whiplash not tamed but abolished. Ornament: stylised to the point of abstraction, concentrated in the tower's figures and the famous dining-room frieze within. Symmetry: imposed on the garden front, relaxed on the street. Structure: a modern frame, clothed in marble slabs hung like pictures. Four signs of five read Deco, a decade early, in the capital of Art Nouveau.",
+            "Now set against it a full Deco facade — the Chrysler Building in New York, completed in 1930 to designs by William Van Alen. Silhouette: the shaft climbs in setbacks to a crown of radiating, sunburst arches, terraced like a ziggurat and ending in a needle; pure step, no swell anywhere. Governing line: straight, zigzag and compass arc, the brickwork itself patterning the shaft in basket-weave geometry, the crown's windows repeating in strict rhythm. Ornament's source: emblematic — eagles, hubcaps, radiator caps and abstracted flowers, the motor car and the sun turned heraldic. Symmetry: absolute about the tower's axes. Material: a steel frame clad in brick and metal, its making concealed behind a continuous decorated skin. Five signs of five: the method confirms in seconds what the eye already knew, which is the method's proper use — to explain knowledge, not to replace looking.",
+            "Read slowly, the pair also teaches the method's humility. The Stoclet, four signs Deco, is not thereby a Deco building in any simple sense: it belongs to Vienna's secessionist world, precedes the very name, and its interiors mix Klimt's golden tendrils with Hoffmann's grids in a single commission. The honest verdict names the tension rather than dissolving it — transitional, secessionist, proto-Deco — and a reader who can say why, sign by sign, has understood more than one who files it confidently under either style. That is the difference between a checklist and a method. The signs are questions arranged in an order that prevents the loudest feature from answering first; the building, questioned in that order, gives evidence instead of impressions, and its contradictions become information rather than embarrassment."
+          ]
+        },
+        {
+          "heading": "Mistakes to avoid",
+          "paras": [
+            "The mistakes, gathered from the preceding chapters, can be listed as plainly as the signs. Do not date by a single motif: glass block, a sunburst or a curved corner proves a decade at most, never a style. Do not call everything before 1914 Nouveau and everything after 1925 Deco: the Stoclet, Michelin House and the Théâtre des Champs-Élysées all stand in the supposed gap, and the gap is where the history happened. Do not confuse survival with typicality — the preserved masterpieces of both styles were exceptional in their own day, when most building in both periods was conservative, cheap or both. And do not let price do the judging: a suburban Deco cinema built for thousands may carry more of its century's truth than a masterpiece built for one rich man, beautiful as the masterpiece is.",
+            "Two further mistakes concern the comparison itself. The first is to make it a contest with a winner. Nouveau's decade produced the finer individual works of art; Deco's three decades produced the broader civilisation; each achieved the total work of art in the register the other could not reach — the private organism, the public assembly — and a reader who must crown one has mistaken taste for history. The second is to treat either style as a lie told about the machine age: Nouveau's iron tendrils and Deco's chromium emblems were both sincere attempts to give industrial life a face, and their sincerity is exactly what the modernist verdict, with its own face to defend, could not afford to grant them. Judge both, then, by what they attempted, and by the evidence of what still stands.",
+            "This book ends, as its predecessors in this series have ended, in the reader's own street. Both styles are near at hand almost everywhere: the Nouveau house behind its later shopfront, the Deco cinema converted and converted again, the stepped block of flats, the tiled pub, the factory on the bypass, the hotel by the station. Go out and read them with the five signs — silhouette first, then line, then ornament, then symmetry, then the evidence of frame and cladding — confirming each sign against the next, and allowing the hybrids their honest names. Two styles that began as rival answers to one question have become, a century on, a single instrument for reading the modern city. The buildings have been waiting, patiently, to be read in order."
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [
+    [
+      "Victor Horta (1861–1947)",
+      "The founder. A Belgian architect trained in the classical tradition who, in the Hôtel Tassel of 1893, let iron, light and line grow through a house as one organism. His Brussels townhouses — Solvay, van Eetvelde, his own house — remain the purest architecture Art Nouveau produced, and four are UNESCO-listed."
+    ],
+    [
+      "Hector Guimard (1867–1942)",
+      "Paris's Nouveau. Guimard gave the style its most public face — the Castel Béranger and the Métro entrances whose curling iron stems became the image of Paris 1900 — and its most tireless propagandist, designing everything from suburbs to cast-iron catalogues. He died in New York exile, his work largely demolished or despised; the revival restored him."
+    ],
+    [
+      "Antoni Gaudí (1852–1926)",
+      "The extremist. In Barcelona, Gaudí pushed Nouveau's organic line further than anyone — Casa Batlló's bone-like stone, Casa Milà's self-supporting wave, Park Güell's mosaic creatures — fusing structure, craft and Catalan identity until the style became a world of its own. His works are UNESCO-listed and Barcelona's emblem."
+    ],
+    [
+      "Charles Rennie Mackintosh (1868–1928)",
+      "The hinge of Glasgow. Mackintosh began in Nouveau's curve and straightened it, year by year, into the grid: the Glasgow School of Art (1897–1909) holds both manners in one building. His white interiors, tall chairs and rose motifs fed directly into Vienna — and so into Deco's ancestry."
+    ],
+    [
+      "Josef Hoffmann (1870–1956)",
+      "Vienna's squarer. Co-founder of the Secession and the Wiener Werkstätte, Hoffmann built the Palais Stoclet (1905–11), the marble hinge between Nouveau craft and Deco geometry, and spent a long career proving that the right angle could be as luxurious as the curve."
+    ],
+    [
+      "Louis Majorelle (1859–1926)",
+      "Nancy's maker. A furniture-maker who became the École de Nancy's industrial engine, Majorelle put Nouveau's plant forms into serial production — marquetry, bronze and glass — and built himself the Villa Majorelle (1901–02), the style's manifesto house in its second capital."
+    ],
+    [
+      "Émile-Jacques Ruhlmann (1879–1933)",
+      "Deco's cabinet-maker king. Ruhlmann's pavilion at the 1925 Exposition — the Hôtel du Collectionneur — set the style's luxury standard: macassar ebony, ivory, lacquer and sharksin, made by Parisian craft workshops for the machine age's new rich. His firm defined French Deco furniture between the wars."
+    ],
+    [
+      "William Van Alen (1883–1954)",
+      "The skyscraper's jeweller. Van Alen, trained in Paris, won New York's height race of 1930 with a trick — the Chrysler Building's spire, hidden inside the crown and raised at the last moment — and gave Deco its most famous silhouette: seven terraced arches of stainless steel, modelled on a radiator cap and lit like jewellery."
+    ],
+    [
+      "Bevis Hillier (born 1940)",
+      "The name-giver. Hillier, a young journalist, organised the first Deco exhibition at Minneapolis in 1971 and published Art Deco of the 20s and 30s in 1968 — the book that popularised the very term 'Art Deco' and launched the revival. His later work on both styles made him the comparison's first modern referee."
+    ],
+    [
+      "Paul Greenhalgh (born 1955)",
+      "The re-founder. As the V&A's curator of the blockbuster exhibition Art Nouveau 1890–1914 (2000), Greenhalgh and his team re-established Nouveau as a serious international movement — utopian, political, designed — after decades of dismissal as mere decoration; the catalogue remains the field's standard survey."
+    ]
+  ],
+  "fiveSigns": [
+    {
+      "name": "Silhouette: the step against the swell",
+      "look": "Stand across the street and read the outline before anything else. A Deco building rises in steps: setbacks, tiers and a ziggurat crown, each stage smaller and sharper than the one below — the Empire State's shaft, the Chrysler's terraced dome, the Eros Cinema's banded tower. A Nouveau building swells: roofs roll, balconies bulge, gables bend like stems about to flower, and no horizontal line stays straight for long. The silhouette is the fastest of the five signs and the hardest to fake, because it is set by the massing of the whole building, not by applied decoration.",
+      "limit": "Regional Deco can be low and horizontal — Miami's hotels step sideways rather than up — and a Nouveau roofline can be hidden by later alterations or a mansard. Read the silhouette of the main mass, not of additions, and confirm it with the signs that follow.",
+      "img": "empireState"
+    },
+    {
+      "name": "The governing line",
+      "look": "Find the line that governs the ornament and follow it. In Nouveau it is the whiplash: a curve that gathers energy slowly and releases it suddenly, like a snapped plant stem — in Horta's stair rails, Guimard's gate ironwork, the frames of windows and the stems of lamps. In Deco the governing line is straight, and breaks at angles: zigzag, chevron, and the radiating straight lines of the sunburst. A curve in Deco is a ruled arc, drawn with a compass; a straight line in Nouveau is usually a stem waiting to bend. Ask of any motif: was this line grown, or was it drawn?",
+      "limit": "Vienna squares the Nouveau curve early — Otto Wagner's later work is nearly straight — and late Deco streamlines its corners into curves. A single curved motif proves nothing: judge the system of lines across the whole facade, not one railing.",
+      "img": "whiplashIron"
+    },
+    {
+      "name": "Ornament's source",
+      "look": "Ask where the ornament comes from. Nouveau takes its motifs living from nature — lilies, irises, dragonflies, peacocks, women's hair — and lets them grow out of the structure itself, so that a column becomes a stem and a railing a vine. Deco takes the same nature and stylises it into emblems: the sunburst, the fountain, the frozen flower, the gazelle reduced to three strokes — and mixes them with motifs Nouveau never used: Egyptian lotus and scarab after 1922, Aztec and Mayan steps, and the machine's own imagery of gears, speed lines and electricity. Living motif against stylised emblem is the surest of the five signs at close range.",
+      "limit": "Both styles stylise — Mucha's posters are as calculated as any Deco panel — and early Deco kept Nouveau's florals almost unchanged. The sign works on the treatment, not the subject: a lily that grows is Nouveau; a lily flattened into a badge is Deco.",
+      "img": "chryslerCrown"
+    },
+    {
+      "name": "Symmetry: grown against imposed",
+      "look": "Nouveau composes the way a plant grows: asymmetrically, by balance of weights rather than by mirror image. Its facades slide windows off axis, swell a bay here and a balcony there, and let the plan's inner life show on the street. Deco composes the way a crystal forms: by strict symmetry, with a centred entrance, mirrored wings and ornament repeated in exact ranks. Stand on the centre line of the facade. If the building mirrors itself, it is arguing Deco; if it balances without mirroring, it is arguing Nouveau — and the plan behind the facade will almost always vote the same way.",
+      "limit": "Townhouses in terraces are constrained by party walls, and both styles could be forced into symmetry by a narrow plot; Gaudí's Casa Batlló is nearly symmetrical, and plenty of small Deco shops are not. Use this sign on the composition of the ornament as well as the massing — symmetry of decoration counts.",
+      "img": "stoclet"
+    },
+    {
+      "name": "Material and structure",
+      "look": "Read the materials and how they are put together. Nouveau exposes its making: hand-worked iron that flowers, curved glass, ceramic and mosaic, matt and textured surfaces, structure bending visibly in the light. Deco conceals its frame — steel or concrete — behind polished cladding: stone, black Vitrolite, stainless steel, chrome, lacquer and glass block, surfaces chosen to shine, reflect and photograph well. The Daily Express Building's black glass skin and the Lavirotte Building's stoneware crust are the two manifestos: one a machine finish, the other a craftsman's. Touch, where you can: Nouveau feels made; Deco feels manufactured.",
+      "limit": "Both styles used iron, glass and ceramic, and rich Nouveau interiors can be as glossy as Deco ones; conversely, provincial Deco is often plain brick with a Deco doorcase. Judge the finish and the detailing, not the material list alone — and remember that paint and later cladding can disguise either style.",
+      "img": "dailyExpress"
+    }
+  ],
+  "gazetteer": [
+    [
+      "Brussels, Belgium — the first capital",
+      "Horta's four UNESCO-listed townhouses, the Horta Museum's stair, the Solvay's muralled hall and the Stoclet's marble tower stand within a few districts of one another: no city packs both the birth of Nouveau and its squaring into proto-Deco into so small a walk."
+    ],
+    [
+      "Paris, France — both styles' showcase",
+      "Guimard's surviving Métro pavilions and the Castel Béranger for Nouveau; Lavirotte's ceramic facade in the 7th; then, for Deco, the Théâtre des Champs-Élysées, the Rue Mallet-Stevens and the Palais de Tokyo quarter — the 1925 Exposition's ground, still legible."
+    ],
+    [
+      "Barcelona, Spain — Modernisme",
+      "The Illa de la Discòrdia on Passeig de Gràcia sets Batlló against its rivals in one block; Casa Milà stands a few streets away and the Palau de la Música a short walk beyond. Catalan Nouveau is a national style in a way no other city's is."
+    ],
+    [
+      "Vienna, Austria — the squaring",
+      "Olbrich's Secession building, Wagner's Karlsplatz pavilions and Majolikahaus, and the Steinhof church: Vienna is where Nouveau learned geometry, and the indispensable stop for understanding Deco's ancestry."
+    ],
+    [
+      "Glasgow, Scotland — Mackintosh",
+      "The Glasgow School of Art's Renfrew Street facade (its interior lost to fire, its restoration ongoing), the Willow Tea Rooms restored on Sauchiehall Street, and the Hill House at Helensburgh: the grid-and-rose dialect of Nouveau at its most personal."
+    ],
+    [
+      "Riga, Latvia — the richest street",
+      "Alberta iela and the Centrs district hold the densest surviving Nouveau streetscape in Europe — hundreds of facades of masks, garlands and screaming faces, built in one boom decade. Quantity becomes quality here."
+    ],
+    [
+      "Nancy, France — the school of glass",
+      "Villa Majorelle, the Musée de l'École de Nancy and Daum glass in the museum's cases: the provincial capital where Nouveau was an industry as much as an art."
+    ],
+    [
+      "New York, USA — Deco's skyscraper capital",
+      "The Chrysler crown, the Empire State's mast, the Chanin's bronze, Radio City's gilded arches and Rockefeller Center entire: Manhattan is where Deco became vertical, corporate and immortal."
+    ],
+    [
+      "Miami Beach, USA — Deco as resort",
+      "Ocean Drive's neon hotels and the pastel streets of the Architectural District — some 800 buildings protected since 1979 — show late, tropical Deco at its most joyful, and preservation's power to save a whole style."
+    ],
+    [
+      "Mumbai, India — Indo-Deco",
+      "The Churchgate and Oval Maidan ensembles, UNESCO-listed in 2018: the Eros Cinema's tower, Empress Court's curves — the world's second-greatest Deco collection, built by Indian architects and patrons in local stone."
+    ],
+    [
+      "Napier, New Zealand — the rebuilt town",
+      "Rebuilt in two years after the 1931 earthquake, Napier's centre is a time capsule of small-town Deco — the Daily Telegraph building, the Hawke's Bay Museum — kept vivid by an annual festival and fierce local pride."
+    ],
+    [
+      "Havana, Cuba — Caribbean Deco",
+      "The Bacardi Building (1930), its ziggurat crown and bat emblems in granite and limestone, anchors a city rich in Deco cinemas, clinics and apartment houses — the style in a Spanish-speaking, tropical key."
+    ],
+    [
+      "Shanghai, China — the Bund and beyond",
+      "The Peace Hotel (1929, as the Cathay) and the Park Hotel face each other across the treaty-port decades; Shanghai's Deco is the style as an instrument of a whole city's modernity, now carefully restored."
+    ],
+    [
+      "London, England — the glossy latecomer",
+      "Michelin House (1911) straddles the hinge; then the Daily Express Building's black glass, the Hoover Building's Egyptianising front, Eltham Palace's panelled hall and a hundred Odeons: London's Deco is late, various and superb."
+    ]
+  ],
+  "glossary": [
+    [
+      "Whiplash line",
+      "The signature Nouveau curve: a line of unequal energy that bends slowly, then snaps — named for the German term Peitschenhieb and visible in ironwork, stems, hair and lettering."
+    ],
+    [
+      "Coup de fouet",
+      "French for the whiplash line — literally 'crack of the whip' — the term contemporary critics used for Guimard's and Horta's curving ornament."
+    ],
+    [
+      "Gesamtkunstwerk",
+      "The 'total work of art': the Nouveau (and later Deco) ambition to design building, furniture, fittings and even clothing as one indivisible whole."
+    ],
+    [
+      "Secession",
+      "The Austrian and German Nouveau: the Vienna Secession (founded 1897) favoured geometry, white walls and the square earlier than the Franco-Belgian curve."
+    ],
+    [
+      "Jugendstil",
+      "The German name for Art Nouveau, from the Munich magazine Jugend (1896); ranges from floral to severely geometric."
+    ],
+    [
+      "Modernisme",
+      "The Catalan form of Art Nouveau — Gaudí, Domènech i Montaner, Puig i Cadafalch — fused with Catalan national identity and extraordinary craft industries."
+    ],
+    [
+      "Liberty style",
+      "The Italian name for Art Nouveau, after London's Liberty store, whose fabrics and goods spread the style; in Italy also called Stile Floreale."
+    ],
+    [
+      "Setback",
+      "The stepping-back of a skyscraper's upper floors, required by New York's 1916 Zoning Resolution and turned by Deco architects into the style's stepped silhouette."
+    ],
+    [
+      "Ziggurat",
+      "The stepped pyramid profile — from ancient Mesopotamian temples, via 1920s archaeology and cinema — that crowns Deco towers from New York to Mumbai."
+    ],
+    [
+      "Chevron",
+      "The V-shaped stripe repeated in ranks; with the zigzag, Deco's commonest flat pattern, cut into stone, brick, metal and linoleum alike."
+    ],
+    [
+      "Sunburst",
+      "Deco's emblem of dawn, electricity and optimism: straight rays fanning from a centre, over doors, in grilles, across the Chrysler crown."
+    ],
+    [
+      "Streamline Moderne",
+      "Late Deco (from c. 1930) smoothed by the imagery of speed: rounded corners, horizontal banding, portholes and speed whiskers, on liners, trains and roadside buildings."
+    ],
+    [
+      "Zigzag Moderne",
+      "An American name for early, angular Deco — the skyscraper style of chevrons and setbacks before streamlining softened it."
+    ],
+    [
+      "Egyptian revival",
+      "The taste for lotus, scarab, pylon and hieroglyphic ornament fired by Tutankhamun's tomb (1922); a current in Deco, though older revivals existed before."
+    ],
+    [
+      "Mayan revival",
+      "The 1920s American Deco dialect drawn from Aztec and Maya temples — stepped masses and glyph-like carving, from Los Angeles to Havana."
+    ],
+    [
+      "Vitrolite",
+      "Opaque structural glass in polished slabs — black above all — used as a glossy cladding on 1930s facades, shopfronts and cinemas."
+    ],
+    [
+      "Glass block",
+      "Hollow glass bricks that carry light without view; manufactured from the 1900s, fashionable in the 1930s, and used by both modernists and Deco builders."
+    ],
+    [
+      "Bakelite",
+      "The first fully synthetic plastic (1907), moulded into Deco's radios, telephones and jewellery — the machine age's democratic luxury material."
+    ],
+    [
+      "Marquetry",
+      "Pictures built from veneered woods of different colours; a Nouveau furniture craft (Majorelle) that Deco (Ruhlmann) sharpened with ivory and exotic timbers."
+    ],
+    [
+      "Lacquer",
+      "The deep, glossy finish — traditional in East Asia, industrialised in Paris by Dunand and others — that gave Deco interiors their mirror shine."
+    ],
+    [
+      "Favrile glass",
+      "Tiffany's iridescent art glass (patented 1894), blown into Nouveau lamps and vases whose colours seem lit from within."
+    ],
+    [
+      "Stained glass",
+      "Coloured glass leaded into windows and skylights; Nouveau's chief medium of interior light, from Horta's domes to the Palau de la Música's great skylight."
+    ],
+    [
+      "Exoticism",
+      "Both styles' appetite for the distant — Japan for Nouveau; Egypt, Mesopotamia, Aztec Mexico and Africa for Deco — filtered through exhibitions, archaeology and film."
+    ],
+    [
+      "Jazz Moderne",
+      "A period synonym for Deco, naming its syncopated geometry after the music of the 1920s; used for cinemas, dance halls and graphics."
+    ],
+    [
+      "Total design",
+      "The practice — common to both styles — of one designer or firm supplying architecture, interiors, furniture, graphics and objects as a single commission."
+    ],
+    [
+      "Spandrel",
+      "The panel between the top of one window and the sill of the one above; on Deco skyscrapers a favourite field for stylised metal ornament."
+    ]
+  ],
+  "sources": [
+    {
+      "name": "Victoria and Albert Museum — Art Nouveau",
+      "url": "https://www.vam.ac.uk/articles/art-nouveau-an-international-style"
+    },
+    {
+      "name": "Victoria and Albert Museum — Art Deco",
+      "url": "https://www.vam.ac.uk/articles/art-deco"
+    },
+    {
+      "name": "UNESCO World Heritage Centre — Works of Antoni Gaudí (List 320)",
+      "url": "https://whc.unesco.org/en/list/320/"
+    },
+    {
+      "name": "UNESCO World Heritage Centre — Historic Centre of Riga (List 852)",
+      "url": "https://whc.unesco.org/en/list/852/"
+    },
+    {
+      "name": "UNESCO World Heritage Centre — Victorian Gothic and Art Deco Ensembles of Mumbai (List 1480)",
+      "url": "https://whc.unesco.org/en/list/1480/"
+    },
+    {
+      "name": "Smarthistory — Art Nouveau",
+      "url": "https://smarthistory.org/art-nouveau/"
+    }
+  ],
+  "bibliography": [
+    "Sembach, Klaus-Jürgen. Art Nouveau: Utopia, Reconciling the Irreconcilable. Cologne: Taschen, 1991.",
+    "Russell, Frank (editor). Art Nouveau Architecture. London: Academy Editions, 1979.",
+    "Greenhalgh, Paul (editor). Art Nouveau 1890–1914. London: V&A Publications, 2000.",
+    "Hillier, Bevis. Art Deco of the 20s and 30s. London: Studio Vista, 1968.",
+    "Bayer, Patricia. Art Deco Architecture: Design, Decoration and Detail from the Twenties and Thirties. London: Thames & Hudson, 1992.",
+    "Benton, Charlotte, Tim Benton and Ghislaine Wood (editors). Art Deco 1910–1939. London: V&A Publications, 2003."
+  ]
 }
 ];
 

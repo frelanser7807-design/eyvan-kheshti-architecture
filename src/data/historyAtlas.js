@@ -575,6 +575,10 @@ export const historyComparisons = [
   {
     id: "art-deco-vs-art-nouveau",
     title: "Art Deco vs Art Nouveau",
+    deepPage: "/magazine/architectural-history-styles/art-deco-vs-art-nouveau/",
+    pdf: "/downloads/history/art-deco-vs-art-nouveau.pdf",
+    bookCover: "/assets/history-deep/art-deco-vs-art-nouveau/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/art-deco-vs-art-nouveau/read/",
     intro: "Both are richly decorative, both rejected Victorian historicism, and both flourished within a generation, so photographs blur them together. Start with curve versus geometry: Nouveau flows, Deco steps. Treat that only as a first approximation, because the V&A notes Deco partly grew out of Nouveau geometry, and exceptions abound.",
     left: { name: "Art Deco", traits: "Stepped, symmetrical and streamlined; machine-age glamour in steel, stone and neon.", img: { src: `${H}/chrysler-retouched.jpg`, alt: "Chrysler Building, New York (1930), its terraced stainless-steel crown and sunburst arches rising above Manhattan", credit: "Photo: David Shankbone, via Wikimedia Commons (Public domain)" } },
     right: { name: "Art Nouveau", traits: "Sinuous, asymmetrical and plant-like; handcrafted growth translated into iron, glass and tile.", img: { src: `${H}/art-nouveau-detail1.jpg`, alt: "Paris Métro entrance designed by Hector Guimard, c.1900, its cast-iron stems curling into plant-like lamps", credit: "Photo: Moonik, via Wikimedia Commons (CC BY-SA 3.0)" } },
