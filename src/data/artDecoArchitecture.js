@@ -19,7 +19,7 @@ const artDecoArchitecture = {
   visualLabel: 'FIG. 01 · CHRYSLER BUILDING, NEW YORK · PHOTO: ERMELL / WIKIMEDIA COMMONS, CC BY-SA 4.0 · RESIZED.',
   imageSourceUrl: 'https://commons.wikimedia.org/wiki/File:Chrysler_Building_NYC-20090519-RM-094845.jpg',
   publishedAt: '2026-10-22',
-  modifiedAt: '2026-10-22',
+  modifiedAt: '2026-10-23',
   toc: [
     ['definition', 'What Art Deco is — and where the name came from'],
     ['timeline', 'Timeline: from a Paris fair to a world style'],
@@ -101,6 +101,7 @@ const artDecoArchitecture = {
     <p>Compare the next chapter of the story in our guide to <a href="/articles/brutalist-architecture-history-features-buildings/">Brutalist architecture</a>, where concrete replaced polish and the argument about ornament began again. Deco’s own lesson is simpler and still radical: a building may sell, celebrate and symbolise — and still be serious architecture, if its makers take the selling as seriously as the structure.</p>
 
     <p><strong>Continue exploring:</strong> browse the full <a href="/magazine/architectural-history-styles/">Architectural History &amp; Styles</a> archive for more movements read through their buildings, or step from history into the <a href="/materials/">materials library</a> to see the stones, metals and finishes that these facades were made from.</p>
+<p><strong>From the library:</strong> <a href="/magazine/architectural-history-styles/art-deco/">Go deeper: Art Deco — A Complete History (Book VIII), free to read online</a> — the World Arch Journal book on the movement, with the buildings in this guide set in their full story.</p>
   `,
   facts: [
     ['FORMAT', 'International architectural history guide'],
