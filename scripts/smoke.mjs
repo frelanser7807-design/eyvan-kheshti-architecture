@@ -334,14 +334,22 @@ if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new
 // PDF (~18.8 MB) in public/downloads/history/ and the flipbook reader's
 // page images (97 pages at reading resolution, ~12.4 MB) in the same
 // folder — a measured addition of ~49.9 MB for this book.
+// Raised 446 -> 491 on 2026-10-23 for Book 5 of the Architectural History
+// Series (Romanesque Architecture deep page + book PDF): 48 licensed
+// Wikimedia Commons photographs plus the temporary series cover (~15.9 MB)
+// in public/assets/history-deep/romanesque/, the generated 102-page book
+// PDF (~16.1 MB, plate images optimised to hold the file under 18 MB) in
+// public/downloads/history/ and the flipbook reader's page images (102
+// pages at reading resolution, ~13.4 MB) in the same folder — a measured
+// addition of ~45.4 MB for this book.
 // Raised 304 -> 312 on 2026-10-23 after CI measured 310.74 MB: the sandbox
 // cannot run the full Playwright PDF pipeline (/tmp-constrained), so local
 // dist under-measures by the CI-generated history book PDF (~7.3 MB) plus
 // bundle variance. 312 covers the approved daily batch with the gate intact.
 // NOTE: at ~16 MB/day this gate needs a
 // sustainable model (per-article budget or growth allowance) — revisit soon.
-if (distSizeMb - materialSizeMb > 446) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 446 MB`);
+if (distSizeMb - materialSizeMb > 491) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 491 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));
