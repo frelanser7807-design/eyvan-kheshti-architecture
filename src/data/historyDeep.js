@@ -20961,7 +20961,7 @@ export const historyDeepPages = [
   "cover": "/assets/history-deep/art-deco-vs-art-nouveau/book-cover.jpg",
   "coverCredit": "Cover artwork © World Arch Journal",
   "readPath": "/magazine/architectural-history-styles/art-deco-vs-art-nouveau/read/",
-  "readerPages": 109,
+  "readerPages": 107,
   "readerBase": "/assets/history-deep/art-deco-vs-art-nouveau/pages/",
   "subtitle": "Two decorative styles, one generation apart and endlessly confused: how Art Nouveau grew its ornament from the plant and Art Deco cut its ornament from the crystal and the machine — their roots, their grammars of line, motif, material and colour, their capitals and their world tours, their deaths and revivals, and the five signs that tell them apart on any street.",
   "path": "/magazine/architectural-history-styles/art-deco-vs-art-nouveau/",
@@ -21091,70 +21091,70 @@ export const historyDeepPages = [
     "brusselsOldEngland": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/brusselsOldEngland.jpg",
       "alt": "Detail of the Old England building in Brussels: a sheet-music frieze set in curling ironwork",
-      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/80824546@N00\">William Murphy</a> from Dublin, Ireland, via Wikimedia Commons (CC BY-SA 2.0)",
+      "credit": "Photo: William Murphy, via Wikimedia Commons (CC BY-SA 2.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Musical_Instrument_Museum_(Brussels)_(4645954733).jpg",
       "title": "Detail of the Old England building, Brussels"
     },
     "casaBatllo": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/casaBatllo.jpg",
       "alt": "The undulating facade of Casa Batlló in Barcelona, with mask-like balconies and mosaic tile",
-      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/jaumemeneses\">Jaume Meneses</a>, via Wikimedia Commons (CC BY-SA 2.0)",
+      "credit": "Photo: Jaume Meneses, via Wikimedia Commons (CC BY-SA 2.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3_(Barcelona)_-_24.jpg",
       "title": "Casa Batlló, Barcelona"
     },
     "casaMila": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/casaMila.jpg",
       "alt": "The self-supporting stone wave of Casa Milà (La Pedrera) in Barcelona, by Antoni Gaudí",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Yair-haklai\" title=\"User:Yair-haklai\">Yair Haklai</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "credit": "Photo: Yair Haklai, via Wikimedia Commons (CC BY-SA 4.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antoni_Gaud%C3%AD-Casa_Mil%C3%A0-Barcelona.jpg",
       "title": "Casa Milà (La Pedrera), Barcelona"
     },
     "castelBeranger": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/castelBeranger.jpg",
       "alt": "The entrance gate of Castel Béranger in Paris, interlacing whiplash ironwork by Hector Guimard",
-      "credit": "Photo: <a href=\"https://el.wikipedia.org/wiki/User:DIMSFIKAS\" class=\"extiw\" title=\"el:User:DIMSFIKAS\">DIMSFIKAS</a>, via Wikimedia Commons (CC BY-SA 3.0)",
+      "credit": "Photo: DIMSFIKAS, via Wikimedia Commons (CC BY-SA 3.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Art_Nouveau_entrance_to_Castel_Beranger,_Paris_-_2011.jpg",
       "title": "The Castel Béranger gate, Paris"
     },
     "champsElysees": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/champsElysees.jpg",
       "alt": "Antoine Bourdelle's relief La Danse on the Théâtre des Champs-Élysées in Paris",
-      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/72746018@N00\">Jean-Pierre Dalbéra</a>, via Wikimedia Commons (CC BY 2.0)",
+      "credit": "Photo: Jean-Pierre Dalbéra, via Wikimedia Commons (CC BY 2.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22La_Danse%22,_bas-relief_d%27Antoine_Bourdelle_(Th%C3%A9%C3%A2tre_des_Champs_Elys%C3%A9es,_Paris).jpg",
       "title": "Bourdelle's La Danse, Théâtre des Champs-Élysées"
     },
     "chaninSpandrel": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/chaninSpandrel.jpg",
       "alt": "Stylised metal grillwork from the Chanin Building in New York, its plant forms straightened into geometry",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/w/index.php?title=User:Pinto1247&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pinto1247 (page does not exist)\">Pinto1247</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "credit": "Photo: Pinto1247, via Wikimedia Commons (CC BY-SA 4.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grill_work.jpg",
       "title": "Grillwork of the Chanin Building, New York"
     },
     "chrysler": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/chrysler.jpg",
       "alt": "The Chrysler Building in New York, its terraced stainless-steel crown rising in radiating arches to the spire",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Ermell\" title=\"User:Ermell\">Ermell</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "credit": "Photo: Ermell, via Wikimedia Commons (CC BY-SA 4.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chrysler_Building_NYC-20090519-RM-094845.jpg",
       "title": "The Chrysler Building, New York"
     },
     "chryslerCrown": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/chryslerCrown.jpg",
       "alt": "The Chrysler Building's crown close up: seven terraced tiers of radiating sunburst arches in stainless steel",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/w/index.php?title=User:PortableNYCTours&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PortableNYCTours (page does not exist)\">PortableNYCTours</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "credit": "Photo: PortableNYCTours, via Wikimedia Commons (CC BY-SA 4.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Chrysler_building_%22gargoyles%22_05.jpg",
       "title": "The Chrysler crown, close up"
     },
     "dailyExpress": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/dailyExpress.jpg",
       "alt": "The Daily Express Building on Fleet Street in London, black Vitrolite glass curving round its corner",
-      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/26359504@N08\">Steven Duhig</a> from Bowie, Maryland, USA, via Wikimedia Commons (CC BY-SA 2.0)",
+      "credit": "Photo: Steven Duhig, via Wikimedia Commons (CC BY-SA 2.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:London_Daily_Express_Fleet_Street.jpg",
       "title": "The Daily Express Building, London"
     },
     "elthamHall": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/elthamHall.jpg",
       "alt": "The circular entrance hall of Eltham Palace in London, wood-panelled under its glazed dome",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Tilman2007\" title=\"User:Tilman2007\">Tilman2007</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "credit": "Photo: Tilman2007, via Wikimedia Commons (CC BY-SA 4.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:1212906_II_Star_ELTHAM_COURT_(ELTHAM_PALACE),_COURT_YARD,_Entrance_Hall_Greenwich_London_20250610_0003.jpg",
       "title": "The entrance hall, Eltham Palace"
     },
@@ -21168,7 +21168,7 @@ export const historyDeepPages = [
     "erosCinema": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/erosCinema.jpg",
       "alt": "The stepped tower of the Eros Cinema in Mumbai, red bands on cream plaster",
-      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/73416633@N00\">Colin Rose</a> from Montreal, Canada, via Wikimedia Commons (CC BY-SA 2.0)",
+      "credit": "Photo: Colin Rose, via Wikimedia Commons (CC BY-SA 2.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:ErosTheater.jpg",
       "title": "The Eros Cinema, Mumbai"
     },
@@ -21182,21 +21182,21 @@ export const historyDeepPages = [
     "guimardMetro": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/guimardMetro.jpg",
       "alt": "The Porte Dauphine Métro entrance in Paris, Hector Guimard's covered pavilion of curling iron and amber glass",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Moonik\" title=\"User:Moonik\">Moonik</a>, via Wikimedia Commons (CC BY-SA 3.0)",
+      "credit": "Photo: Moonik, via Wikimedia Commons (CC BY-SA 3.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Metro_station_entrance_(%C3%A9dicule_Guimard)_Porte_Dauphine_Paris_16e_002.jpg",
       "title": "A Guimard Métro entrance, Paris"
     },
     "hooverBuilding": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/hooverBuilding.jpg",
       "alt": "The Hoover Building in Perivale, London, its Egyptianising facade across the lawns",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Ethan_Doyle_White\" class=\"mw-redirect\" title=\"User:Ethan Doyle White\">Ethan Doyle White</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "credit": "Photo: Ethan Doyle White, via Wikimedia Commons (CC BY-SA 4.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Front_of_the_Hoover_Building_in_Perivale.jpg",
       "title": "The Hoover Building, London"
     },
     "hortaMuseum": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/hortaMuseum.jpg",
       "alt": "The top-lit staircase of Victor Horta's own house in Brussels, now the Horta Museum, with its sinuous iron railing and stained-glass skylight",
-      "credit": "Photo: <bdi><a href=\"https://en.wikipedia.org/wiki/en:Victor_Horta\" class=\"extiw\" title=\"w:en:Victor Horta\"><span title=\"Belgian architect, designer, publicist, teacher and creator of Art Nouveau (1861–1947)\">Victor Horta</span></a></bdi>, via Wikimedia Commons (CC0)",
+      "credit": "Photo: Victor Horta, via Wikimedia Commons (CC0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Staircase_of_the_Victor_Horta_own_house_(25,_rue_Am%C3%A9ricaine,_1060,_Brussels).jpg",
       "title": "The Horta Museum stair, Brussels"
     },
@@ -21210,105 +21210,105 @@ export const historyDeepPages = [
     "karlsplatz": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/karlsplatz.jpg",
       "alt": "Otto Wagner's Karlsplatz pavilion in Vienna, marble panels and gilt ornament on an iron frame",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Pudelek\" title=\"User:Pudelek\">Pudelek</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "credit": "Photo: Pudelek, via Wikimedia Commons (CC BY-SA 4.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otto_Wagner_Pavillon_-_Karlsplatz.jpg",
       "title": "The Karlsplatz pavilion, Vienna"
     },
     "lavirotte": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/lavirotte.jpg",
       "alt": "The Lavirotte Building at 29 Avenue Rapp in Paris, wrapped in stoneware ornament by Alexandre Bigot",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Binche\" title=\"User:Binche\">Binche</a>, via Wikimedia Commons (CC BY-SA 3.0)",
+      "credit": "Photo: Binche, via Wikimedia Commons (CC BY-SA 3.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Immeuble_Lavirotte_-_Paris_-_France_-_Facade.jpg",
       "title": "The Lavirotte Building, Paris"
     },
     "mackintosh": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/mackintosh.jpg",
       "alt": "The north facade of the Glasgow School of Art, its great studio windows boarded after the fires of 2014 and 2018",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/w/index.php?title=User:John_a_s&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:John a s (page does not exist)\">John a s</a>, via Wikimedia Commons (CC BY-SA 3.0)",
+      "credit": "Photo: John a s, via Wikimedia Commons (CC BY-SA 3.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wfm_glasgow_school_of_art.jpg",
       "title": "The Glasgow School of Art"
     },
     "majolica": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/majolica.jpg",
       "alt": "Otto Wagner's Majolikahaus in Vienna, its facade flowered with majolica tiles",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/w/index.php?title=User:HarkOlufs02&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:HarkOlufs02 (page does not exist)\">HarkOlufs02</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "credit": "Photo: HarkOlufs02, via Wikimedia Commons (CC BY-SA 4.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Majolikahaus,_Wien,_Otto_Wagner.jpg",
       "title": "The Majolikahaus, Vienna"
     },
     "majorelle": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/majorelle.jpg",
       "alt": "The east facade of the Villa Majorelle in Nancy, with its rounded windows and shutters",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Audesome\" title=\"User:Audesome\">Audesome</a>, via Wikimedia Commons (CC0)",
+      "credit": "Photo: Audesome, via Wikimedia Commons (CC0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villa_Majorelle,_East_fa%C3%A7ade.jpg",
       "title": "Villa Majorelle, Nancy"
     },
     "malletStevens": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/malletStevens.jpg",
       "alt": "A house in the Rue Mallet-Stevens in Paris, white cubes, strip windows and a roof terrace",
-      "credit": "Photo: <a href=\"https://en.wikipedia.org/wiki/fr:User:MOSSOT\" class=\"extiw\" title=\"w:fr:User:MOSSOT\">MOSSOT</a> at <a href=\"https://en.wikipedia.org/wiki/fr:\" class=\"extiw\" title=\"w:fr:\">French Wikipedia</a>, via Wikimedia Commons (CC BY 1.0)",
+      "credit": "Photo: MOSSOT, via Wikimedia Commons (CC BY 1.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_16_-_Maison_7_rue_Mallet-Stevens_-1.JPG",
       "title": "Rue Mallet-Stevens, Paris"
     },
     "miamiHotel": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/miamiHotel.jpg",
       "alt": "Art Deco hotels on Ocean Drive, Miami Beach, lit in neon at night",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Gzzz\" title=\"User:Gzzz\">Gzzz</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "credit": "Photo: Gzzz, via Wikimedia Commons (CC BY-SA 4.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ocean_Drive_by_night_1.jpg",
       "title": "Ocean Drive, Miami Beach, at night"
     },
     "michelinHouse": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/michelinHouse.jpg",
       "alt": "Michelin House on Fulham Road in London at dusk, its stained-glass windows and tyre-stack lights glowing",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Romainbehar\" title=\"User:Romainbehar\">Romainbehar</a>, via Wikimedia Commons (CC0)",
+      "credit": "Photo: Romainbehar, via Wikimedia Commons (CC0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:London_-_Fulham_Road,_Michelin_House_at_the_end_of_the_day.jpg",
       "title": "Michelin House, London"
     },
     "muchaPoster": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/muchaPoster.jpg",
       "alt": "Alphonse Mucha's poster for Gismonda (1894), Sarah Bernhardt robed and haloed in gold",
-      "credit": "Photo: <bdi><a href=\"https://en.wikipedia.org/wiki/en:Alphonse_Mucha\" class=\"extiw\" title=\"w:en:Alphonse Mucha\"><span title=\"Czech painter, illustrator and graphic artist (1860–1939)\">Alphonse Mucha</span></a></bdi> / <bdi><a href=\"https://en.wikipedia.org/wiki/User:Adam_Cuerden\" class=\"extiw\" title=\"en:User:Adam Cuerden\">Adam Cuerden</a></bdi>, via Wikimedia Commons (Public domain)",
+      "credit": "Photo: Adam Cuerden, via Wikimedia Commons (Public domain)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alphonse_Mucha_-_Poster_for_Victorien_Sardou%27s_Gismonda_starring_Sarah_Bernhardt.jpg",
       "title": "Mucha's Gismonda poster, 1894"
     },
     "napierTelegraph": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/napierTelegraph.jpg",
       "alt": "The Daily Telegraph building in Napier, New Zealand, lettered across its Deco facade",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Daderot\" title=\"User:Daderot\">Daderot</a>, via Wikimedia Commons (CC0)",
+      "credit": "Photo: Daderot, via Wikimedia Commons (CC0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daily_Telegraph_Building_-_Napier,_NZ_-_DSC05278.jpg",
       "title": "The Daily Telegraph building, Napier"
     },
     "normandie": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/normandie.jpg",
       "alt": "The liner Normandie in a period photograph, her three funnels and long hull at sea",
-      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49487266@N07\">San Diego Air &amp; Space Museum Archives</a>, via Wikimedia Commons (Public domain)",
+      "credit": "Photo: San Diego Air & Space Museum Archives, via Wikimedia Commons (Public domain)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:AL77C-046_(14520973405).jpg",
       "title": "The Normandie (period photograph)"
     },
     "palauMusica": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/palauMusica.jpg",
       "alt": "The concert hall of the Palau de la Música Catalana in Barcelona, its stained-glass skylight above the stage",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/w/index.php?title=User:Tudoi61&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tudoi61 (page does not exist)\">Tudoi61</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "credit": "Photo: Tudoi61, via Wikimedia Commons (CC BY-SA 4.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palau_de_la_M%C3%BAsica_Catalana-Palace_of_Catalan_Music_(Image_2).jpg",
       "title": "Palau de la Música Catalana, Barcelona"
     },
     "paris1925": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/paris1925.jpg",
       "alt": "The Italian pavilion at the 1925 Paris Exposition Internationale des Arts Décoratifs, from a period postcard",
-      "credit": "Photo: Unknown author<span style=\"display: none;\">Unknown author</span>, via Wikimedia Commons (Public domain)",
+      "credit": "Photo: Unknown author, via Wikimedia Commons (Public domain)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris-FR-75-Expo_1925_Arts_d%C3%A9coratifs-pavillon_de_l%27Italie.jpg",
       "title": "The Italian pavilion, Paris 1925 (period postcard)"
     },
     "parkGuell": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/parkGuell.jpg",
       "alt": "El Drac, the mosaic salamander on the entrance stair of Park Güell in Barcelona",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Jmabel\" title=\"User:Jmabel\">Joe Mabel</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "credit": "Photo: Joe Mabel, via Wikimedia Commons (CC BY-SA 4.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Park_G%C3%BCell_-_main_steps_and_Drac_05.jpg",
       "title": "El Drac at Park Güell, Barcelona"
     },
     "peaceHotel": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/peaceHotel.jpg",
       "alt": "The Peace Hotel (Sassoon House) on the Bund in Shanghai at night, its green pyramid roof lit",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Suicasmo\" title=\"User:Suicasmo\">Suicasmo</a>, via Wikimedia Commons (CC0)",
+      "credit": "Photo: Suicasmo, via Wikimedia Commons (CC0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peace_Hotel_20250503.jpg",
       "title": "The Peace Hotel, Shanghai"
     },
@@ -21322,42 +21322,42 @@ export const historyDeepPages = [
     "rigaNouveau": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/rigaNouveau.jpg",
       "alt": "An ornamented Art Nouveau facade on Alberta iela in Riga, its balconies carved with masks and garlands",
-      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/72746018@N00\">Jean-Pierre Dalbéra</a> from Paris, France, via Wikimedia Commons (CC BY 2.0)",
+      "credit": "Photo: Jean-Pierre Dalbéra, via Wikimedia Commons (CC BY 2.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Immeuble_art_nouveau_(Riga)_(7561800214).jpg",
       "title": "Alberta iela, Riga"
     },
     "rockefeller": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/rockefeller.jpg",
       "alt": "The RCA Building at Rockefeller Center at night, seen along Channel Gardens",
-      "credit": "Photo: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44613506@N07\">(vincent desjardins)</a> from Paris, France, via Wikimedia Commons (CC BY 2.0)",
+      "credit": "Photo: Vincent Desjardins, via Wikimedia Commons (CC BY 2.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rockefeller_Center,_GE_Building_(RCA_Building)_(2011).jpg",
       "title": "Rockefeller Center, New York"
     },
     "secession": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/secession.jpg",
       "alt": "The Vienna Secession building, its white cubic body crowned by a gilded laurel dome",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Bwag\" title=\"User:Bwag\">C.Stadler/Bwag</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "credit": "Photo: C.Stadler/Bwag, via Wikimedia Commons (CC BY-SA 4.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wien_-_Secessionsgeb%C3%A4ude.JPG",
       "title": "The Secession building, Vienna"
     },
     "stoclet": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/stoclet.jpg",
       "alt": "The Palais Stoclet in Brussels, marble slabs edged in bronze under its tower",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:PtrQs\" title=\"User:PtrQs\">PtrQs</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "credit": "Photo: PtrQs, via Wikimedia Commons (CC BY-SA 4.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:20120923_Brussels_PalaisStoclet_Hoffmann_DSC06725_PtrQs.jpg",
       "title": "Palais Stoclet, Brussels"
     },
     "tiffanyLamp": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/tiffanyLamp.jpg",
       "alt": "An eighteen-light lily lamp by Tiffany Studios, its favrile glass shades opening like flowers",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Epolk\" title=\"User:Epolk\">Eric Polk</a>, via Wikimedia Commons (CC BY-SA 4.0)",
+      "credit": "Photo: Eric Polk, via Wikimedia Commons (CC BY-SA 4.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiffany_Studios_-_Eighteen-Light_Lily_Lamp_-_HNT.jpg",
       "title": "A Tiffany lily lamp"
     },
     "whiplashIron": {
       "src": "/assets/history-deep/art-deco-vs-art-nouveau/whiplashIron.jpg",
       "alt": "The main stair of the Hôtel Solvay in Brussels, its iron railing uncurling beside the muralled wall",
-      "credit": "Photo: <a href=\"//commons.wikimedia.org/wiki/User:Brigade_Piron\" title=\"User:Brigade Piron\">Brigade Piron</a>, via Wikimedia Commons (CC BY 3.0)",
+      "credit": "Photo: Brigade Piron, via Wikimedia Commons (CC BY 3.0)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Solvay_-_Main_Stairs.jpg",
       "title": "The main stair of the Hôtel Solvay, Brussels"
     }
