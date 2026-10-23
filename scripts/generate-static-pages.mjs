@@ -503,12 +503,13 @@ const sitemapRecords = [
   { pathname: '/', lastmod: '2026-10-21', image: { loc: '/assets/editorial/issue-00/courtyard-wind-house-cover.jpg', title: 'World Arch Journal architecture editorial and studio' } },
   ...Object.entries(legalPages).map(([pathname, page]) => ({ pathname, lastmod: page.lastUpdated || '2026-09-27' })),
   ...[
-    ['/atlas/', '2026-10-22'],
-    ['/atlas/turkiye/istanbul/', '2026-10-22'],
-    ['/atlas/turkiye/antalya/', '2026-10-22'],
-    ['/atlas/turkiye/cappadocia/', '2026-10-22'],
-    ['/atlas/uae/dubai/', '2026-10-22'],
+    ['/atlas/', '2026-10-23'],
+    ['/atlas/turkiye/istanbul/', '2026-10-23'],
+    ['/atlas/turkiye/antalya/', '2026-10-23'],
+    ['/atlas/turkiye/cappadocia/', '2026-10-23'],
+    ['/atlas/uae/dubai/', '2026-10-23'],
     ['/atlas/azerbaijan/baku/', '2026-10-23'],
+    ['/atlas/georgia/tbilisi/', '2026-10-23'],
   ].map(([pathname, lastmod]) => ({ pathname, lastmod })),
   { pathname: '/magazine/', lastmod: '2026-10-05', image: { loc: publishedMagazineArticles[0]?.image, title: 'World Arch Journal architecture magazine' } },
   { pathname: videosPath, lastmod: publishedVideoStories[0]?.uploadDate || '2026-10-09', image: { loc: publishedVideoStories[0]?.thumbnail, title: 'World Arch Journal architecture videos' } },
@@ -541,6 +542,7 @@ const atlasPaths = [
   '/atlas/turkiye/cappadocia/',
   '/atlas/uae/dubai/',
   '/atlas/azerbaijan/baku/',
+  '/atlas/georgia/tbilisi/',
 ];
 const atlasRecords = uniqueRecords.filter((record) => atlasPaths.includes(record.pathname));
 const serializeSitemap = (records) => `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">\n${records.map((record) => {

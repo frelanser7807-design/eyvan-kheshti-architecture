@@ -138,6 +138,30 @@ GUIDES = [
         "notes": "Baku is the City of Winds: the khazri blows off the Caspian and can turn a boulevard walk into an exposed one. Spring and autumn are the walking seasons. Use the guide as an architecture-led framework and confirm opening hours and access with each venue.",
         "sources": ["UNESCO: Walled City of Baku with the Shirvanshah's Palace and Maiden Tower", "Azerbaijan Travel: official visitor information", "Zaha Hadid Architects: Heydar Aliyev Centre"],
     },
+    {
+        "slug": "tbilisi",
+        "country": "georgia",
+        "country_label": "GEORGIA",
+        "title": "Tbilisi Architecture & Travel Guide",
+        "subtitle": "A cliff-and-river reading of fortresses, domed bathhouses, carved balconies and the glass icons of the new city.",
+        "number": "06",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Narikala%2C_Tiflis%2C_Georgia%2C_2016-09-29%2C_DD_91.jpg/1280px-Narikala%2C_Tiflis%2C_Georgia%2C_2016-09-29%2C_DD_91.jpg",
+        "credit": "Cover photo: Diego Delso / Wikimedia Commons / CC BY-SA 4.0",
+        "lens": "Fortress · Bathhouse · Glass",
+        "places": [
+            ("Narikala Fortress", "The fourth-century citadel crowning the ridge — Persian in origin, rebuilt over sixteen centuries. Walk the walls for the city's defining panorama; the cable car from Rike Park climbs in about two minutes."),
+            ("Metekhi Church", "The thirteenth-century church on the cliff above the Mtkvari, watched over by the statue of King Vakhtang Gorgasali — the legendary fifth-century founder. Study the perch before the building: the site is the composition."),
+            ("Abanotubani", "The sulfur-bath district at the city's root: brick domes and vaulted roofs rising straight from the ground, the most intact of them the blue-tiled Orbeliani bathhouse. Read the district as one piece of thermal infrastructure."),
+            ("Bridge of Peace", "Michele De Lucchi's 2010 bow — 150 metres of steel and glass spanning the Mtkvari to Rike Park, lit at night by LEDs that blink the periodic table in Morse code. Cross it at dusk."),
+            ("Sameba (Holy Trinity Cathedral)", "The cathedral complex on St Elijah hill in Avlabari — one of the largest Orthodox churches built in the modern era. The courtyard at sunset, belltower against the foothills, is the composed view."),
+        ],
+        "routes": [
+            ("Old Town walking loop", "Start at Meidan Square, walk through Abanotubani past the bathhouse domes, follow the Leghvtakhevi gorge to its waterfall, then climb the ridge to Narikala and the Kartlis Deda statue. Descend through the lanes to Sioni Cathedral and Shardeni Street. Allow three hours unhurried."),
+            ("Bridge of Peace to Sameba", "Cross the Bridge of Peace from Rike Park at dusk, continue through Europe Square and climb Avlabari to the Sameba Cathedral terrace — river, ridge and foothills read in one sequence. Time the terrace for sunset."),
+        ],
+        "notes": "Tbilisi is a city of hills: the ridge and gorge sections are steep and exposed, so mix walking with the cable car and Bolt rides. Spring and autumn are the walking seasons. Use the guide as an architecture-led framework and confirm opening hours and access with each venue.",
+        "sources": ["Georgia Travel: official visitor information", "The Georgian Guide: Tbilisi Old Town walking tour", "Madloba: Narikala Fortress guide"],
+    },
 ]
 
 
