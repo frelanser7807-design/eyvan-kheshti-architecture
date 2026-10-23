@@ -92,9 +92,9 @@
    "slug": "architecture-briefing-2026-10-23",
    "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-23/",
    "firstPublishedAt": "2026-10-23T06:00:00Z",
-   "deploymentId": "PENDING-CI",
-   "verifiedAt": null,
-   "evidence": "PENDING"
+   "deploymentId": "39910353570",
+   "verifiedAt": "2026-10-23T06:45:00Z",
+   "evidence": "daily-articles-newsletter cron run 2026-10-23: 6 fresh stories (ArchDaily x2, Dezeen x2, MaterialDistrict, designboom), all with licensed photos + Our reading; deploy run 39910353570 SUCCESS (includes site-speed optimisation merge); live 200 + sitemap + self-canonical + archive + pair links verified"
   }
  ]
 }
