@@ -150,7 +150,7 @@ function bookHtml(page, fontsCss, baseUrl) {
   const hero = page.images[page.hero];
   const tocItems = page.chapters.map((chapter) => `<li><b>CHAPTER ${esc(chapter.numeral)}</b><span>${esc(chapter.title)}</span></li>`).join('')
     + `<li><b>REFERENCE</b><span>Timeline · Gazetteer · Key figures · Glossary · Bibliography · Illustration credits</span></li>`;
-  const PLATES = [
+  const DEFAULT_PLATES = [
     ['tasselStair', 'Plate I — The Tassel Stair, Brussels', 'The most consequential stair of the 1890s: Horta hangs a glazed dome over an open well and lets the iron railing grow, unbroken, from newel to cornice. Light falls through the plan\'s dark centre; the house\'s circulation becomes its ceremony.'],
     ['secession', 'Plate II — The Secession Building, Vienna', 'Olbrich\'s exhibition temple of 1898: a white cube, a laurel dome of gilded iron leaves, and ornament rationed like ammunition. Vienna\'s revolution would be fought with geometry, not tendrils — this building is the treaty between the two.'],
     ['solvayStairs', 'Plate III — The Hôtel Solvay Stair, Brussels', 'Mahogany, marble, iron and light composed as one chord in Horta\'s most sumptuous surviving interior — preserved, with its furniture and fittings, as the period\'s most complete total work of art.'],
@@ -158,7 +158,7 @@ function bookHtml(page, fontsCss, baseUrl) {
     ['beethovenFrieze', 'Plate V — Klimt\'s Beethoven Frieze, Vienna', 'Painted for the Secession\'s Beethoven exhibition of 1902 and nearly destroyed with it, the frieze survives in the Secession\'s basement: gold leaf, casein and inlaid stone carrying humanity\'s procession toward joy.'],
     ['santPau', 'Plate VI — Hospital de Sant Pau, Barcelona', 'Domènech i Montaner\'s garden city of healing: forty-four pavilions of brick, tile and glass, a working hospital built as a Modernista manifesto and now a UNESCO-listed museum.'],
   ];
-  const PLATES_II = [
+  const DEFAULT_PLATES_II = [
     ['karlsplatz', 'Plate VII — Karlsplatz Station, Vienna', 'Wagner\'s twin pavilions of 1898–99: marble slabs hung on an iron frame, gilded sunflower ornament screwed on like jewellery. Demolition was planned in the 1960s; the city dismantled, stored and re-erected them instead — preservation as policy, learned the hard way.'],
     ['hortaMuseumStair', 'Plate VIII — The Horta Museum Stair, Brussels', 'The architect\'s own house, designed as a visiting card: the stair rises through a glazed well past mosaic, marble and iron tendrils, in the most photographed interior of the Belgian new art.'],
     ['palauMusica', 'Plate IX — Palau de la Música Catalana, Barcelona', 'Domènech\'s concert hall turns a steel frame into a greenhouse of music: a skylight like an inverted droplet, a stage framed by sculpture, and stained glass where other halls have walls.'],
@@ -168,12 +168,15 @@ function bookHtml(page, fontsCss, baseUrl) {
     ['lavirotte', 'Plate XIII — The Lavirotte Building, Paris', '29 Avenue Rapp (1901): Jules Lavirotte wraps a concrete-framed apartment house in stoneware by Alexandre Bigot, until the facade itself becomes a ceramic relief — pottery at the scale of a street.'],
     ['muchaJob', 'Plate XIV — Mucha\'s JOB Poster, 1896', 'The poster that taught Paris the style in a single winter: a woman, a cigarette, and hair arranged as pure line. The new art\'s most efficient ambassador was printed paper.'],
   ];
-  const PARTS = [
+  const DEFAULT_PARTS = [
     [0, 'Part I', 'Origins and Arrival', 'What the new art was, where it came from, and how — by journal, shop and exhibition — it conquered a continent in a single decade.'],
     [3, 'Part II', 'The Capitals of the New Art', 'Brussels invents it; Paris publicises it; Barcelona, Vienna and Glasgow translate it; the wider map, from Riga to Budapest, proves it a European language.'],
     [9, 'Part III', 'Making and Meaning', 'Iron, glass, ceramic and craft: the materials and workshops of the style, the houses it remade room by room, the women who made and commissioned it, and six buildings read slowly.'],
     [14, 'Part IV', 'Reading and Afterlives', 'The five-sign field method, the fall, the long embarrassment, the resurrection — and what the style still has to teach the people who design buildings now.'],
   ];
+  const PLATES = page.plates || DEFAULT_PLATES;
+  const PLATES_II = page.plates2 || DEFAULT_PLATES_II;
+  const PARTS = page.parts || DEFAULT_PARTS;
   const partFor = (index) => PARTS.find(([start]) => start === index);
   const chapters = page.chapters.map((chapter, chapterIndex) => {
     let firstParaPending = true;
@@ -207,7 +210,7 @@ function bookHtml(page, fontsCss, baseUrl) {
   const facts = page.keyFacts.map(([label, value]) => `<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>`).join('');
   return `<!doctype html><html lang="en"><head><meta charset="utf-8" /><base href="${baseUrl}" /><title>${esc(page.bookTitle)} — World Arch Journal</title><style>${fontsCss}\n${BOOK_CSS}</style></head><body>
 <section class="coverpage"><img src="${esc(page.cover)}" alt="${esc(page.bookTitle)} — book cover" /></section>
-<section class="frontispiece">${figureHtml(page, 'tasselStair')}</section>
+<section class="frontispiece">${figureHtml(page, page.frontispiece || 'tasselStair')}</section>
 <section class="titlepage">
   <div class="series">${esc(page.series)} · Book ${page.bookNumber}</div>
   <h1>${esc(page.bookTitle)}</h1>
@@ -227,7 +230,7 @@ ${chapters}
 <section class="refsec"><h2>Glossary</h2><dl>${glossary}</dl></section>
 <section class="refsec"><h2>Sources &amp; Bibliography</h2><h3>Sources consulted</h3><ul>${page.sources.map((source) => `<li>${esc(source.name)} — ${esc(source.url)}</li>`).join('')}</ul><h3>Bibliography</h3><ul>${page.bibliography.map((entry) => `<li>${esc(entry)}</li>`).join('')}</ul></section>
 <section class="refsec"><h2>Illustration Credits</h2><p>Cover: artwork © World Arch Journal (a design, not a period photograph). All photographs are reproduced from Wikimedia Commons under the licences stated below. No image has been cropped; each is shown whole, as published by its author.</p><ul>${credits}</ul><div class="endmark">· END OF BOOK ${page.bookNumber} ·</div></section>
-<section class="refsec"><h2>The Architectural History Series</h2><p>World Arch Journal's Architectural History Series gives every style and building type of the journal's history atlas its own complete book: the full history, the materials honestly told, the key buildings in depth, and the field method that lets the reader identify the style in the street. Each book is published first as a free web edition with a downloadable PDF on worldarchjournal.com.</p><p>Book 1 · Art Nouveau: The Complete History — this volume. In preparation: Gothic · Castles &amp; Fortified Architecture · Baroque &amp; Rococo · Romanesque · Modernism &amp; the International Style · Victorian Architecture · Art Deco · Brutalism · Renaissance · Neoclassical · Ancient Rome · and the remaining studies of the atlas, in the journal's demand order.</p><p>Read the whole series as it appears at ${SITE}${esc(page.hubPath)}</p></section>
+<section class="refsec"><h2>The Architectural History Series</h2><p>World Arch Journal's Architectural History Series gives every style and building type of the journal's history atlas its own complete book: the full history, the materials honestly told, the key buildings in depth, and the field method that lets the reader identify the style in the street. Each book is published first as a free web edition with a downloadable PDF on worldarchjournal.com.</p><p>${page.seriesList || "Book 1 · Art Nouveau: The Complete History — this volume. In preparation: Gothic · Castles &amp; Fortified Architecture · Baroque &amp; Rococo · Romanesque · Modernism &amp; the International Style · Victorian Architecture · Art Deco · Brutalism · Renaissance · Neoclassical · Ancient Rome · and the remaining studies of the atlas, in the journal's demand order."}</p><p>Read the whole series as it appears at ${SITE}${esc(page.hubPath)}</p></section>
 </body></html>`;
 }
 
