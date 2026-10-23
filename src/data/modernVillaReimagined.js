@@ -15,7 +15,7 @@ const modernVillaReimagined = {
   coverWidth: 1024,
   coverHeight: 1536,
   publishedAt: '2026-10-11',
-  modifiedAt: '2026-10-22',
+  modifiedAt: '2026-10-23',
   author: 'World Arch Journal',
   scope: 'A conceptual design guide. Climate, structure, accessibility, building regulations and energy performance require project-specific assessment.',
   tags: ['villa design', 'daylight', 'passive design', 'materials', 'adaptability'],
@@ -80,6 +80,7 @@ const modernVillaReimagined = {
 
   
     <p><strong>See the principles built:</strong> <a href="/projects/the-voids-villa/">The Voids Villa</a> organises a home around courtyards and light, <a href="/projects/narbon-villa/">Narbon Villa</a> grows from an inherited orchard, and <a href="/projects/villa-safadasht/">Villa Safadasht</a> suspends its private rooms above a garden passage — each with plans and a project guide. To apply the same principles to your own plot, start with the studio's <a href="/services/">villa design services</a>.</p>
+<p><strong>From the library:</strong> <a href="/magazine/architectural-history-styles/modernism/">Read the full history: Modernism &amp; the International Style — the World Arch Journal book</a> (Book VI of the Architectural History Series) is free to read online — the movement that invented the modern villa, told building by building.</p>
   `,
   faq: [
     {
