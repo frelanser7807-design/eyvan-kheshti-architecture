@@ -67,7 +67,7 @@ export default function ProjectDetail({ slug }) {
       </section>}
 
       {project.gallery?.length > 0 && <section className="project-photo-gallery" aria-labelledby="project-gallery-title">
-        <header><small>REAL PROJECT PHOTOGRAPHY / 06</small><h2 id="project-gallery-title">Documented views</h2><p>Photography by Mohammad Hassan Ettefagh. The downloadable PDF contains the complete thirty-image archive.</p></header>
+        <header><small>{project.galleryLabel || 'REAL PROJECT PHOTOGRAPHY / 06'}</small><h2 id="project-gallery-title">{project.galleryTitle || 'Documented views'}</h2><p>{project.galleryNote || 'Photography by Mohammad Hassan Ettefagh. The downloadable PDF contains the complete thirty-image archive.'}</p></header>
         <div>{project.gallery.map((image, index) => <button type="button" key={image} onClick={() => setZoomed([`Project photograph ${index + 1}`, image])}><img src={image} alt={`${project.title} documented project view ${index + 1}`} loading="lazy" /></button>)}</div>
       </section>}
 

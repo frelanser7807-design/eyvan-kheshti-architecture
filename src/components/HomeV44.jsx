@@ -113,7 +113,7 @@ const projects = [
     src: 'Cover: World Arch Journal',
     cover: '/assets/covers/project-ajorbaft.jpg',
     alt: 'Ajorbaft Villa — World Arch Journal project cover',
-    href: '/projects/',
+    href: '/projects/ajorbaft-villa/',
   },
 ];
 
