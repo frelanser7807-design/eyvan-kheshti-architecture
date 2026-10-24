@@ -1,5 +1,6 @@
 import { projects } from '../data/projects.js';
 import { atlasVilla } from '../data/atlasVilla.js';
+import { ajorbaft } from '../data/ajorbaft.js';
 
 export function ProjectCoverGrid({ compact = false }) {
   return (
@@ -30,12 +31,13 @@ export function ProjectCoverGrid({ compact = false }) {
           <div className="project-cover-atlas-actions"><a href={atlasVilla.path}>VIEW DESIGN STUDY ↗</a><a href={atlasVilla.etsyUrl} target="_blank" rel="noopener noreferrer">BUY FULL PACKAGE ↗</a></div>
         </div>
       </article>
-      <article className="project-cover-card is-coming">
+      <a className="project-cover-card" href={ajorbaft.path} aria-label="Explore Ajorbaft Triplex Brick Residence">
+        <img src={ajorbaft.cover} alt="Ajorbaft triplex brick residence exterior visualisation at night" loading="lazy" decoding="async" />
         <span className="project-cover-shade" />
         <span className="project-cover-number">{String(projects.length + 2).padStart(2, '0')}</span>
         <span className="project-cover-brand"><i />WORLD <b>ARCH</b><i /><em>JOURNAL</em></span>
-        <span className="project-cover-copy"><strong>Next Project</strong><small>IMMERSIVE PROJECT</small><em>COMING SOON</em></span>
-      </article>
+        <span className="project-cover-copy"><strong>Ajorbaft</strong><small>TRIPLEX BRICK RESIDENCE</small><span className="project-cover-badges">{ajorbaft.tags.slice(0, 3).map(tag => <i key={tag}>{tag}</i>)}</span><em>VIEW DESIGN STUDY ↗</em></span>
+      </a>
     </div>
   );
 }
@@ -87,6 +89,14 @@ export function HomeVirtualToursShowcase() {
           </div>
         </div>
       </article>
+      <article className="home-design-study-card">
+        <img src={ajorbaft.cover} alt="Ajorbaft red-brick residence exterior design visualisation" loading="lazy" decoding="async" />
+        <div className="home-design-study-copy">
+          <small>04 · SELECTED DESIGN STUDY</small><h3>Ajorbaft</h3>
+          <p>Triplex Brick Residence · Courtyard · Interior spaces</p>
+          <div className="home-virtual-tour-actions"><a className="is-primary" href={ajorbaft.path}>VIEW DESIGN STUDY <b aria-hidden="true">↗</b></a></div>
+        </div>
+      </article>
     </section>
   );
 }
@@ -96,18 +106,19 @@ export default function ProjectsHub() {
     <main className="projects-hub">
       <header className="projects-shell-header">
         <a href="/" className="projects-brand">WORLD ARCH JOURNAL </a>
-        <nav><a href="/magazine/">Magazine</a><a href="/newsletter/">Briefing</a><a href="/shop/">Shop</a></nav>
+        <nav><a href="/services/">Design services</a><a href="/materials/">Materials</a><a href="/shop/">Shop</a></nav>
       </header>
       <section className="projects-hero">
         <small>IMMERSIVE PROJECT ARCHIVE</small>
         <h1>Projects to enter,<br />study and keep.</h1>
-        <p>Explore each project through a visual cover, then open its spatial tour, English drawings, design history and downloadable guide.</p>
+        <p>Explore documented architecture through spatial tours and drawings, and discover the Atlas Villa and Ajorbaft design studies through selected project presentations.</p>
       </section>
       <section className="projects-gallery" aria-labelledby="projects-gallery-title">
-        <div className="projects-gallery-heading"><span id="projects-gallery-title">SELECTED PROJECTS</span><b>{String(projects.length).padStart(2, '0')} LIVE · 01 DESIGN STUDY</b></div>
+        <div className="projects-gallery-heading"><span id="projects-gallery-title">SELECTED PROJECTS</span><b>{String(projects.length).padStart(2, '0')} TOURS · 02 DESIGN STUDIES</b></div>
         <ProjectCoverGrid />
       </section>
       <footer className="projects-footer"><span>© WORLD ARCH JOURNAL</span><a href="/">RETURN HOME</a></footer>
     </main>
   );
 }
+

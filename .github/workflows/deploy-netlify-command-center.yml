@@ -58,6 +58,7 @@ jobs:
       - name: Build and verify publication package
         run: |
           npm run build
+          node --test tests/design-projects.test.mjs
           python scripts/verify-material-scenes.py
           node --test tests/newsletter-publication.test.mjs tests/newsletter.test.mjs tests/technical-seo.test.mjs tests/site-host.test.mjs tests/illustrated-articles.test.mjs tests/article-rss.test.mjs tests/article-client-bundle.test.mjs tests/mineral-materials.test.mjs tests/analytics-storage.test.mjs tests/material-zip.test.mjs tests/material-scenes.test.mjs
           MATERIAL_TEST_DIST=dist node --test tests/material-collections.test.mjs tests/travertine.test.mjs
@@ -187,6 +188,7 @@ jobs:
           if (failures.length) throw new Error(failures.join('\n'));
           console.log(`Production verified: ${required.length} routes on worldarchjournal.com.`);
           NODE
+
 
 
 

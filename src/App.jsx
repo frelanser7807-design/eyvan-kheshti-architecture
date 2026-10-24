@@ -36,6 +36,7 @@ const ProjectDetail = lazy(() => import('./components/ProjectDetail.jsx'));
 const VideoLibrary = lazy(() => import('./components/VideoLibrary.jsx'));
 const DesignServicesPage = lazy(() => import('./components/DesignServicesPage.jsx'));
 const AtlasVillaCaseStudy = lazy(() => import('./components/AtlasVillaCaseStudy.jsx'));
+const AjorbaftCaseStudy = lazy(() => import('./components/AjorbaftCaseStudy.jsx'));
 import { defaultContent } from './data/defaultContent.js';
 import { articleBySlug } from './data/articles.js';
 import { magazineBySlug } from './data/magazines.js';
@@ -96,6 +97,7 @@ function currentRoute() {
   if (normalizedPath === '/services/custom-plan-design/') return { name: 'custom-plan-design' };
   if (normalizedPath === '/projects/') return { name: 'projects-hub' };
   if (normalizedPath === '/projects/atlas-villa/') return { name: 'atlas-villa' };
+  if (normalizedPath === '/projects/ajorbaft/') return { name: 'ajorbaft' };
   const projectMatch = normalizedPath.match(/^\/projects\/([^/]+)\/$/);
   if (projectMatch) return { name: 'project', slug: decodeURIComponent(projectMatch[1]) };
   if (normalizedPath === '/virtual-tours/the-voids-villa/') return { name: 'virtual-tour-the-voids', slug: 'the-voids-villa' };
@@ -203,6 +205,7 @@ export default function App() {
   if (route.name === 'wood-studio') page = <Suspense fallback={<main>Loading wood flooring collection…</main>}><WoodFlooringPanel /></Suspense>;
   if (route.name === 'design-services') page = <DesignServicesPage />;
   if (route.name === 'atlas-villa') page = <AtlasVillaCaseStudy />;
+  if (route.name === 'ajorbaft') page = <AjorbaftCaseStudy />;
   if (route.name === 'projects-hub') page = <ProjectsHub />;
   if (route.name === 'project') page = <ProjectDetail slug={route.slug} />;
   if (route.name === 'virtual-tour-the-voids') page = (
@@ -228,3 +231,4 @@ export default function App() {
 
   return <ErrorBoundary>{seoActive && <Suspense fallback={null}><SiteSeo content={content} route={resolvedRoute} /></Suspense>}<Suspense fallback={<main className="seo-route-fallback"><p>Loading World Arch Journal…</p></main>}>{page}</Suspense><AnalyticsConsent /></ErrorBoundary>;
 }
+

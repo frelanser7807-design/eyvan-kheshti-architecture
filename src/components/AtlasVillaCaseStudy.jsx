@@ -14,7 +14,8 @@ export default function AtlasVillaCaseStudy() {
       </section>
       <section className="atlas-case-package"><div><small>THE DIGITAL PROJECT PACKAGE</small><h2>Explore the complete Atlas Villa package.</h2><p>Open the Etsy listing to review the current package contents, file formats, licence, price and delivery details before purchase.</p></div><a href={atlasVilla.etsyUrl} target="_blank" rel="noopener noreferrer">View package on Etsy <span>↗</span></a></section>
       {atlasVilla.relatedLinks?.length > 0 && <section className="atlas-case-related"><small>RELATED READING</small><h2>Continue in the journal</h2><ul>{atlasVilla.relatedLinks.map((link) => <li key={link.url}><a href={link.url}>{link.label}</a></li>)}</ul></section>}
-      <footer><a href="/services/">Explore design services ↗</a><a href="/projects/">Back to selected work</a></footer>
+      <footer><a href="/projects/ajorbaft/">Next design study: Ajorbaft ↗</a><a href="/projects/">Back to selected work</a></footer>
     </main>
   );
 }
+

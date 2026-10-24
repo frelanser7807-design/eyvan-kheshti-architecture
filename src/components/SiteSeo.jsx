@@ -8,6 +8,7 @@ import { projects, projectBySlug } from '../data/projects.js';
 import { publishedVideoStories } from '../data/videoStories.js';
 import { watchVideoEntries, watchPagePath } from '../data/watchVideos.js';
 import { atlasVilla } from '../data/atlasVilla.js';
+import { ajorbaft } from '../data/ajorbaft.js';
 import { legalPages } from '../data/legalPages.js';
 
 const FALLBACK_SITE_URL = 'https://worldarchjournal.com';
@@ -193,6 +194,10 @@ export default function SiteSeo({ content, route }) {
     } else if (route?.name === 'custom-plan-design') {
       title = `Architecture & Interior Design Project Enquiry | ${name}`;
       description = 'Send a project brief for villa design, floor plans, facade, kitchen, living spaces, bathrooms, gardens, roof gardens, render concepts or a combined architecture package.';
+    } else if (route?.name === 'ajorbaft') {
+      title = `Ajorbaft — Triplex Brick Residence | ${name}`;
+      description = ajorbaft.description;
+      image = absoluteAsset(siteUrl, ajorbaft.cover);
     } else if (route?.name === 'about') {
       title = `About World Arch Journal | ${name}`;
       description = 'World Arch Journal is an independent architecture journal and remote design studio — evidence-led guides, briefings, floor plans, facades and interiors.';
@@ -201,8 +206,8 @@ export default function SiteSeo({ content, route }) {
       description = 'Explore Atlas Villa, a residential architectural design study by World Arch Journal, with selected interior concepts, a ground-floor plan presentation and a link to the digital project package.';
       image = absoluteAsset(siteUrl, atlasVilla.cover);
     } else if (route?.name === 'projects-hub') {
-      title = `Immersive Architecture Projects | ${name}`;
-      description = 'Explore architecture projects through luxury visual covers, interactive walkthroughs, English plans, design history and downloadable project guides.';
+      title = `Architecture Projects & Design Studies | ${name}`;
+      description = 'Explore Atlas Villa and Ajorbaft residential design studies alongside documented architecture, immersive tours, plans and project guides.';
       image = absoluteAsset(siteUrl, projects[0]?.cover);
     } else if (route?.name === 'project' && item) {
       title = `${item.title}: ${item.titleSuffix || '3D Tour, Plans & Project Guide'} | ${name}`;
@@ -353,12 +358,17 @@ export default function SiteSeo({ content, route }) {
       structuredData = { '@context': 'https://schema.org', '@type': 'Service', name: title, description, url: canonicalUrl, image, provider: publisher, areaServed: 'International', availableLanguage: ['English'], serviceType: ['Villa and residential design', 'Floor plan design', 'Facade design', 'Kitchen design', 'Living and reception design', 'Bathroom design', 'Courtyard and garden design', 'Roof garden design', 'Architectural visualisation'] };
     } else if (route?.name === 'custom-plan-design') {
       structuredData = { '@context': 'https://schema.org', '@type': 'ContactPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, about: 'Architecture and interior design project enquiries' };
+    } else if (route?.name === 'ajorbaft') {
+      structuredData = { '@context': 'https://schema.org', '@graph': [
+        { '@type': 'CreativeWork', name: ajorbaft.title, alternateName: ajorbaft.subtitle, description, url: canonicalUrl, image, inLanguage: 'en', about: ajorbaft.tags, publisher },
+        breadcrumbSchema([{ name: 'Home', pathname: '/' }, { name: 'Projects', pathname: '/projects/' }, { name: ajorbaft.title, pathname: ajorbaft.path }]),
+      ] };
     } else if (route?.name === 'about') {
       structuredData = { '@context': 'https://schema.org', '@type': 'AboutPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, mainEntity: { '@type': 'Organization', name, url: siteUrl, logo: publisher.logo } };
     } else if (route?.name === 'atlas-villa') {
       structuredData = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: atlasVilla.title, alternateName: 'Residential architectural design study', description, url: canonicalUrl, image, inLanguage: 'en', creator: { '@type': 'Organization', name: 'World Arch Journal' }, about: ['Residential architecture', 'Villa design', 'Interior concepts', 'Architectural visualisation'], subjectOf: { '@type': 'Product', name: 'Atlas Villa digital project package', url: atlasVilla.etsyUrl }, publisher };
     } else if (route?.name === 'projects-hub') {
-      structuredData = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, hasPart: projects.map((project) => ({ '@type': 'CreativeWork', name: project.title, url: `${siteUrl}${project.detailPath}`, image: absoluteAsset(siteUrl, project.cover) })) };
+      structuredData = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: canonicalUrl, inLanguage: 'en', publisher, hasPart: [...projects.map((project) => ({ '@type': 'CreativeWork', name: project.title, url: `${siteUrl}${project.detailPath}`, image: absoluteAsset(siteUrl, project.cover) })), ...[atlasVilla, ajorbaft].map(project => ({ '@type': 'CreativeWork', name: project.title, url: `${siteUrl}${project.path}`, image: absoluteAsset(siteUrl, project.cover) }))] };
     } else if (route?.name === 'project' && item) {
       structuredData = { '@context': 'https://schema.org', '@type': 'CreativeWork', name: item.title, description, url: canonicalUrl, image, inLanguage: 'en', creator: { '@type': 'Organization', name: item.studio }, locationCreated: { '@type': 'Place', name: item.location }, associatedMedia: [...(item.tourLive === false ? [] : [{ '@type': 'MediaObject', contentUrl: `${siteUrl}${item.tourPath}`, encodingFormat: 'text/html' }]), ...(item.guidePath ? [{ '@type': 'DigitalDocument', contentUrl: `${siteUrl}${item.guidePath}`, encodingFormat: 'application/pdf' }] : [])], publisher };
     } else if (['virtual-tour-the-voids', 'virtual-tour-narbon', 'virtual-tour-safadasht'].includes(route?.name) && item) {
@@ -433,5 +443,6 @@ export default function SiteSeo({ content, route }) {
 
   return null;
 }
+
 
 
