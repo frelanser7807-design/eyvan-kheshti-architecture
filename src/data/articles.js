@@ -6,6 +6,8 @@ import dataCentresGoodArchitecture from './dataCentresGoodArchitecture.js';
 import solarFacadesBipvDecisions from './solarFacadesBipvDecisions.js';
 import carbonBudgetsBuildings from './carbonBudgetsBuildings.js';
 import stirlingPrizeDenseHousing from './stirlingPrizeDenseHousing.js';
+import kitchenExtensionHandbook from './kitchenExtensionHandbook.js';
+import dampCondensationMould from './dampCondensationMould.js';
 import pilotPackage from '../../agent-system/examples/pilot-article-package.json' with { type: 'json' };
 import climateResponsiveFacades from './climateResponsiveFacades.js';
 import adaptiveReuseArchitecture from './adaptiveReuseArchitecture.js';
@@ -185,7 +187,7 @@ const technicalPilot =
     published: false,
   };
 
-export const articles = [carbonBudgetsBuildings, stirlingPrizeDenseHousing, dataCentresGoodArchitecture, solarFacadesBipvDecisions, frankLloydWrightGuide, accessoryDwellingUnitsGuide, balconyThermalBridges, designForDisassembly, birdSafeFacade, inclusiveWayfinding, apartmentCrossVentilation, apartmentDaylightLayout, wildfireResilientHomes, apartmentAcousticDesign, floodResilientHomes, lowCarbonConcreteEpd, smallApartmentLayout, universalDesignHomes, highPerformanceGlazing, aiArchitecture2026, brutalistArchitecture, artDecoArchitecture, urbanHeatStreets, rainscreenFacadeDesign, massTimberArchitecture, passiveHouseVsNetZero, bimVsCadArchitects, biophilicDesignArchitecture, smallCourtyardDesign, prefabVsModularHomes, adaptiveReuseArchitecture, climateResponsiveFacades, courtyardWindHouse, technicalPilot, modernVillaReimagined];
+export const articles = [kitchenExtensionHandbook, dampCondensationMould, carbonBudgetsBuildings, stirlingPrizeDenseHousing, dataCentresGoodArchitecture, solarFacadesBipvDecisions, frankLloydWrightGuide, accessoryDwellingUnitsGuide, balconyThermalBridges, designForDisassembly, birdSafeFacade, inclusiveWayfinding, apartmentCrossVentilation, apartmentDaylightLayout, wildfireResilientHomes, apartmentAcousticDesign, floodResilientHomes, lowCarbonConcreteEpd, smallApartmentLayout, universalDesignHomes, highPerformanceGlazing, aiArchitecture2026, brutalistArchitecture, artDecoArchitecture, urbanHeatStreets, rainscreenFacadeDesign, massTimberArchitecture, passiveHouseVsNetZero, bimVsCadArchitects, biophilicDesignArchitecture, smallCourtyardDesign, prefabVsModularHomes, adaptiveReuseArchitecture, climateResponsiveFacades, courtyardWindHouse, technicalPilot, modernVillaReimagined];
 
 export function articleBySlug(slug) {
   return articles.find((article) => article.slug === slug);
