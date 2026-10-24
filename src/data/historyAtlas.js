@@ -733,6 +733,48 @@ export const historyStudies = [
       detail1: { src: `${H}/byz-detail1.jpg`, alt: "The west front of Hosios Loukas' katholikon: cloisonné masonry, arched porch and pierced marble screens", credit: "Photo: Hans A. Rosbach, via Wikimedia Commons (CC BY-SA 3.0)" },
       detail2: { src: `${H}/byz-detail2.jpg`, alt: "The Pantocrator mosaic in the dome of Daphni Monastery, ringed by prophets in gold", credit: "Photo: Dimitris Eleftheriou, via Wikimedia Commons (CC BY-SA 4.0)" }
     }
+  },
+  {
+    id: "ancient-greece",
+    title: "Ancient Greek Architecture",
+    facts: {
+      period: "c. 2000 BCE – c. 100 BCE, with Roman adaptation and revival afterlives to the present",
+      geography: "The Aegean world: mainland Greece, the islands, Ionia on the coast of Asia Minor, Sicily and southern Italy — and, in revival, the whole world",
+      types: "Peripteral temples, stoas, theatres, stadia, sanctuaries, courtyard houses, planned cities and lighthouses",
+      note: "Five signs: the walk-around peripteral colonnade; the capital that names the order; the refinements — entasis, curvature, thickened corners — measured in millimetres; sculpture as architecture in pediment, metope and frieze; and the temple sited in its landscape."
+    },
+    context: [
+      "Ancient Greek architecture is the most imitated building language in history, and it begins before there were temples at all: in the sprawling palace of Knossos, in the cyclopean citadels of Mycenae and Tiryns, and in the small timber shrines that, translated into stone across the Archaic age, became the peripteral temple. From the sixth century BCE the system was fixed — platform, columns, entablature, pediment — and in the fifth century Athens perfected it on the Acropolis, while the Greek west built it heavier and bolder at Paestum and Agrigento.",
+      "Its constants are the post-and-lintel in stone and the three orders, Doric, Ionic and Corinthian, each a character rather than a style. The system travelled: to the sanctuaries where all Greeks met, to the theatre-cities of the Hellenistic kings, to Rome, which dressed its concrete in Greek orders, and to the modern world, which rebuilt the temple as museum, bank and parliament. The orders' full system is treated in Book XIII of this series, Rome's adaptation in Book XX, and the revival in Book XXV."
+    ],
+    signs: [
+      { name: "A colonnade you walk around", look: "A peripteral temple stands free of its cella walls on all four sides, so the building is approached, circled and read from every angle. Count the columns — 6 by 12, 6 by 13, 8 by 17 — and the temple's date and ambition begin to declare themselves.", limit: "Not every Greek temple is peripteral: small treasuries, circular tholoi and the Erechtheion's porches break the rule, and Roman temples usually face one way only.", img: "hero" },
+      { name: "The capital names the order", look: "Doric: a plain cushion (echinus) and square abacus, no base, flutes meeting in sharp arrises. Ionic: paired volutes, a base, flutes separated by fillets. Corinthian: acanthus leaves and small corner volutes under a concave abacus.", limit: "Provincial, late and revival work mixes the grammar; a Roman Doric usually adds a base, and a Corinthian capital can be a Roman invention rather than a Greek one.", img: "detail1" },
+      { name: "Curves where the eye expects straight lines", look: "The stylobate rises gently towards the centre; the columns lean inward by centimetres and swell slightly (entasis) a third of the way up; the corner columns are thickened. The refinements are measured in millimetres and visible only when you look for them.", limit: "Their intent is debated: optical correction, structural logic and the builder's habit all have defenders, and not every temple carries the full set.", img: "hero" },
+      { name: "Sculpture as architecture", look: "Pediments, metopes and friezes are not decoration applied to the temple; they are its meaning in marble. The pediment's figures are carved in the round and composed for a viewer standing far below; the frieze runs the building's length like a sentence.", limit: "Most pediment sculpture survives displaced, in museums or in fragments; reading it in place requires reconstruction, and the original paint is gone.", img: "detail2" },
+      { name: "The temple in its landscape", look: "A Greek temple is sited, not merely built: on a headland for sailors (Sounion), on a slope for processions (Delphi), on a terrace above a city (Pergamon). The approach — the sacred way, the gateway, the first view — is part of the architecture.", limit: "Modern roads, trees and restorations have changed many approaches; a temple's setting today is rarely its setting in antiquity.", img: "hero" }
+    ],
+    materials: "Limestone and marble, cut as ashlar and joined without mortar by bronze and iron clamps and dowels set in lead; timber roofs and terracotta tiles; painted stucco and polychromy over the stone; the column drums stacked, doweled and fluted after erection.",
+    examples: [
+      { name: "Parthenon", place: "Athens, 447–432 BCE", note: "Iktinos' and Kallikrates' Doric temple on the Acropolis: eight by seventeen columns, the optical refinements, and the most argued-over sculpture in the world.", sourceName: "UNESCO — Acropolis, Athens", sourceUrl: "https://whc.unesco.org/en/list/404" },
+      { name: "Sanctuary of Apollo, Delphi", place: "Delphi, 4th century BCE temple on an older site", note: "The oracle's terrace, the Sacred Way lined with treasuries, the theatre above and the circular Tholos of Athena Pronaia below — the sanctuary as procession.", sourceName: "UNESCO — Archaeological Site of Delphi", sourceUrl: "https://whc.unesco.org/en/list/393" },
+      { name: "Theatre of Epidaurus", place: "Epidauros, c. 360–330 BCE", note: "Polykleitos' cavea of fifty-five rows in the sanctuary of Asklepios, famed for acoustics that carry a whisper from orchestra to the highest seat.", sourceName: "UNESCO — Sanctuary of Asklepios at Epidaurus", sourceUrl: "https://whc.unesco.org/en/list/491" }
+    ],
+    lesson: "Read a Greek temple from its platform upward and its landscape inward: peripteral or not, capital, refinements, sculpture, setting — geometry, masonry and site together will date it, place it and price its ambition before a single inscription is read. For the orders' full system see Book XIII, Columns & the Classical Orders; for Rome's adaptation see Book XX, Ancient Rome; for the revival see Book XXV, Neoclassical Architecture.",
+    sources: [
+      { name: "UNESCO — Acropolis, Athens", url: "https://whc.unesco.org/en/list/404" },
+      { name: "UNESCO — Archaeological Site of Delphi", url: "https://whc.unesco.org/en/list/393" },
+      { name: "UNESCO — Sanctuary of Asklepios at Epidaurus", url: "https://whc.unesco.org/en/list/491" }
+    ],
+    deepPage: "/magazine/architectural-history-styles/ancient-greece/",
+    pdf: "/downloads/history/ancient-greece.pdf",
+    bookCover: "/assets/history-deep/ancient-greece/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/ancient-greece/read/",
+    images: {
+      hero: { src: `${H}/grc-hero.jpg`, alt: "The Acropolis of Athens from the Pnyx: the Parthenon crowning the rock above the city", credit: "Photo: George E. Koronaios, via Wikimedia Commons (CC BY-SA 4.0)" },
+      detail1: { src: `${H}/grc-detail1.jpg`, alt: "A weathered Doric capital at Agrigento: echinus and abacus above the fluted shaft", credit: "Photo: José Luiz, via Wikimedia Commons (CC BY-SA 4.0)" },
+      detail2: { src: `${H}/grc-detail2.jpg`, alt: "The Caryatids of the Erechtheion: draped female figures carrying the porch entablature", credit: "Photo: lensnmatter, via Wikimedia Commons (CC BY 2.0)" }
+    }
   }
 ];
 
