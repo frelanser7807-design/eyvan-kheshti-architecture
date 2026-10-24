@@ -30977,6 +30977,1423 @@ export const historyDeepPages = [
     "Rodley, Lyn. Byzantine Art and Architecture: An Introduction. Cambridge: Cambridge University Press, 1994.",
     "Mark, Robert, and Ahmet S. Çakmak, editors. Hagia Sophia from the Age of Justinian to the Present. Cambridge: Cambridge University Press, 1992."
   ]
+},
+{
+  "id": "ancient-greece",
+  "series": "Architectural History Series",
+  "bookNumber": "XXIII",
+  "title": "Ancient Greece",
+  "bookTitle": "Ancient Greece: A Complete History",
+  "cover": "/assets/history-deep/ancient-greece/book-cover.jpg",
+  "coverCredit": "Cover artwork © World Arch Journal",
+  "readPath": "/magazine/architectural-history-styles/ancient-greece/read/",
+  "readerPages": 99,
+  "readerBase": "/assets/history-deep/ancient-greece/pages/",
+  "subtitle": "From the palaces of Knossos and the citadels of Mycenae to the Parthenon, the sanctuaries of Delphi and Olympia, the theatre-cities of the Hellenistic kings — and the Greek Revival that carried the orders around the world.",
+  "path": "/magazine/architectural-history-styles/ancient-greece/",
+  "hubPath": "/magazine/architectural-history-styles/",
+  "hubStudyId": "ancient-greece",
+  "pdf": "/downloads/history/ancient-greece.pdf",
+  "seoTitle": "Ancient Greece: A Complete History — World Arch Journal",
+  "metaDescription": "Book XXIII of the Architectural History Series: Ancient Greece from the palaces of Knossos and the citadels of Mycenae to the Parthenon, the sanctuaries of Delphi and Olympia, the Hellenistic cities — and the Greek Revival that carried the orders around the world.",
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "hero": "parthenon",
+  "frontispiece": "sounion",
+  "plates": [
+    [
+      "parthenon",
+      "Plate I — The Parthenon, Athens",
+      "The temple that became the measure of the Classical: eight by seventeen Doric columns on a three-stepped platform, its refinements invisible until they are measured — and its sculpture the most argued-over marble in the world."
+    ],
+    [
+      "sounion",
+      "Plate II — The Temple of Poseidon, Sounion",
+      "A Doric peristyle on a cliff above the Aegean, built for sailors to see from far out at sea: the Greek temple as landmark, placed where land, sea and sky meet."
+    ],
+    [
+      "erechtheion",
+      "Plate III — The Erechtheion, Athens",
+      "The Acropolis' most intricate building: three porches at three levels, Ionic columns of unmatched elegance, and a porch carried on the shoulders of six maidens."
+    ],
+    [
+      "delphiTholos",
+      "Plate IV — The Tholos of Delphi",
+      "A circular temple of uncertain purpose in the sanctuary of Athena Pronaia — the most photographed ruin at Delphi, and a reminder that the Greeks built in the round as well as in rectangles."
+    ],
+    [
+      "epidaurusTheatre",
+      "Plate V — The Theatre of Epidaurus",
+      "Polykleitos' cavea of fifty-five rows, famed for acoustics that carry a whisper from orchestra to the highest seat: the Greek theatre at its most perfect."
+    ],
+    [
+      "akragas",
+      "Plate VI — The Temple of Concordia, Agrigento",
+      "The best-preserved Doric temple of the Greek west, standing in the Valley of the Temples: proof that the order travelled, and that Sicily built as confidently as the mainland."
+    ]
+  ],
+  "plates2": [
+    [
+      "caryatids",
+      "Plate VII — The Caryatids of the Erechtheion",
+      "Six draped women as structure: the south porch of the Erechtheion, where the column becomes a body and the entablature rests on heads."
+    ],
+    [
+      "parthenonMarbles",
+      "Plate VIII — The Parthenon Sculptures",
+      "The west pediment in the British Museum: gods and heroes carved in the round, made to be seen from thirty feet below against the sky."
+    ],
+    [
+      "pergamonFrieze",
+      "Plate IX — The Great Frieze of Pergamon",
+      "Gods and giants in high relief, writhing around the altar's base: Hellenistic sculpture at its most theatrical, where the temple's decoration becomes its drama."
+    ],
+    [
+      "didyma",
+      "Plate X — The Temple of Apollo at Didyma",
+      "A forest of columns around an open-air adyton: the largest temple of the Greek world, begun in the Archaic age and still unfinished when Rome fell."
+    ],
+    [
+      "segesta",
+      "Plate XI — The Temple at Segesta",
+      "A complete Doric peristyle with no cella inside it: the most eloquent unfinished building in the Greek world, and the clearest lesson in how a temple was put together."
+    ],
+    [
+      "walhalla",
+      "Plate XII — The Walhalla, Regensburg",
+      "Leo von Klenze's Doric temple above the Danube, built 1830–42 as a hall of German fame: the Greek Revival at its most literal, and its most confident."
+    ]
+  ],
+  "parts": [
+    [
+      0,
+      "Part I",
+      "Before the Classical: Palaces, Citadels and the Birth of the Orders",
+      "The first five chapters begin before Greece had temples at all: in the sprawling palace of Knossos, in the cyclopean citadels of the Mycenaean kings, and in the Archaic sanctuaries where builders learned to turn timber forms into stone — and, in doing so, invented the Doric, Ionic and Corinthian orders."
+    ],
+    [
+      5,
+      "Part II",
+      "Classical Athens: The Acropolis and the City",
+      "Chapters six to eleven cross the fifth century BCE, when Athens rebuilt its citadel as a single work of art and its civic spaces as the machinery of democracy: the Propylaia and Parthenon, the Erechtheion and Hephaisteion, the Agora and its stoas, the theatre and the stadium, and the gridded houses of Olynthus."
+    ],
+    [
+      11,
+      "Part III",
+      "Sanctuaries and the Hellenistic World",
+      "Chapters twelve to fifteen leave the city for the places Greeks travelled to be healed, initiated or awed — Olympia, Delphi, Epidauros and Eleusis — and then follow Alexander's conquests into a new scale of building: the theatre-city of Pergamon, the grid-planned cities of Ionia, and the lighthouse that became a wonder of the world."
+    ],
+    [
+      15,
+      "Part IV",
+      "Making, Reading and Afterlives",
+      "The last three chapters step back from the buildings to the hands that made them — quarries, cranes, bronze clamps and the unforgiving limits of the stone lintel — then teach the field method, five signs by which to read any Greek temple, and follow the orders into their second lives: dressed over Roman concrete, and revived for the museums, banks and parliaments of the modern world."
+    ]
+  ],
+  "seriesList": "Book I · Art Nouveau · Book II · Gothic · Book III · Castles · Book IV · Baroque & Rococo · Book V · Romanesque · Book VI · Modernism · Book VII · Victorian · Book VIII · Art Deco · Book IX · Brutalism · Book X · Frank Lloyd Wright · Book XI · The Dome · Book XII · Arch, Vault & Flying Buttress · Book XIII · Columns & the Classical Orders · Book XIV · Light in Historic Buildings · Book XV · The Historic House · Book XVI · Art Deco vs Art Nouveau · Book XVII · Gothic vs Romanesque · Book XVIII · How to Identify a Building's Style · Book XIX · Persian Architecture · Book XX · Ancient Rome · Book XXI · Ancient Egypt · Book XXII · Byzantine Architecture — and this volume, Book XXIII · Ancient Greece.",
+  "images": {
+    "acropolisWest": {
+      "src": "/assets/history-deep/ancient-greece/acropolisWest.jpg",
+      "alt": "The Acropolis of Athens from the Pnyx: the Parthenon crowning the rock above the city",
+      "credit": "Photo: George E. Koronaios, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Acropolis_of_Athens_from_the_Hill_and_the_Areopagus_from_the_Pnyx_on_March_18,_2020.jpg",
+      "title": "The Acropolis from the Pnyx"
+    },
+    "agoraView": {
+      "src": "/assets/history-deep/ancient-greece/agoraView.jpg",
+      "alt": "The open ground of the Ancient Agora of Athens, its paths and foundations among the trees",
+      "credit": "Photo: Georgios Liakopoulos, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Agora_South_East_View_(208801825).jpeg",
+      "title": "The Ancient Agora, Athens"
+    },
+    "akragas": {
+      "src": "/assets/history-deep/ancient-greece/akragas.jpg",
+      "alt": "The Temple of Concordia at Agrigento: Doric columns and entablature in warm Sicilian stone",
+      "credit": "Photo: cattan2011, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valley_of_the_Temples,_Agrigento,_Sicily_-_49667763336.jpg",
+      "title": "The Temple of Concordia, Agrigento"
+    },
+    "bassae": {
+      "src": "/assets/history-deep/ancient-greece/bassae.jpg",
+      "alt": "A nineteenth-century reconstruction elevation of the Temple of Apollo Epicurius at Bassae",
+      "credit": "Photo: Unknown authorUnknown author, via Wikimedia Commons (Public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reconstruction_drawing_of_the_Temple_of_Apollo_Epicurius,_Bassae,_Greece_(01).jpg",
+      "title": "The Temple of Apollo Epicurius at Bassae, reconstructed"
+    },
+    "britishMuseum": {
+      "src": "/assets/history-deep/ancient-greece/britishMuseum.jpg",
+      "alt": "The Ionic portico of the British Museum in London: fluted columns and pediment sculpture",
+      "credit": "Photo: APK, via Wikimedia Commons (CC BY 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Central_portico_on_the_southern_elevation_of_the_British_Museum_-_closeup.jpg",
+      "title": "The British Museum portico"
+    },
+    "caryatids": {
+      "src": "/assets/history-deep/ancient-greece/caryatids.jpg",
+      "alt": "The Caryatids of the Erechtheion: draped female figures carrying the porch entablature",
+      "credit": "Photo: lensnmatter, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caryatids_of_Erechtheion_(20419658495).jpg",
+      "title": "The Caryatids of the Erechtheion"
+    },
+    "caveDiCusa": {
+      "src": "/assets/history-deep/ancient-greece/caveDiCusa.jpg",
+      "alt": "Unfinished column drums and cut blocks lying in the ancient quarry at Selinunte",
+      "credit": "Photo: Michael Gunther, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quarry_at_Selinunte,_qa3.jpg",
+      "title": "The quarry at Selinunte"
+    },
+    "corinthApollo": {
+      "src": "/assets/history-deep/ancient-greece/corinthApollo.jpg",
+      "alt": "The standing monolithic Doric columns of the Temple of Apollo at Corinth",
+      "credit": "Photo: George E. Koronaios, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Temple_of_Apollo_in_Ancient_Corinth_on_June_6,_2018.jpg",
+      "title": "The Temple of Apollo, Corinth"
+    },
+    "delphiTholos": {
+      "src": "/assets/history-deep/ancient-greece/delphiTholos.jpg",
+      "alt": "The circular Tholos of Athena Pronaia at Delphi, three columns standing against the mountain",
+      "credit": "Photo: Bernard Gagnon, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tholos_of_Delphi_03.jpg",
+      "title": "The Tholos of Delphi"
+    },
+    "delphiView": {
+      "src": "/assets/history-deep/ancient-greece/delphiView.jpg",
+      "alt": "The sanctuary of Apollo at Delphi seen from above: theatre, temple foundations and the Pleistos valley",
+      "credit": "Photo: Mark Landon, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanctuary_of_Apollo_at_Delphi_from_the_Phaedriades_02.jpg",
+      "title": "Delphi from above"
+    },
+    "didyma": {
+      "src": "/assets/history-deep/ancient-greece/didyma.jpg",
+      "alt": "Inside the Temple of Apollo at Didyma: a fallen column drum and the doorway to the adyton",
+      "credit": "Photo: Mark Landon, via Wikimedia Commons (CC BY 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Didyma_Temple_of_Apollo_antechamber.jpg",
+      "title": "The Temple of Apollo at Didyma"
+    },
+    "doricCapital": {
+      "src": "/assets/history-deep/ancient-greece/doricCapital.jpg",
+      "alt": "A weathered Doric capital at Agrigento: echinus and abacus above the fluted shaft",
+      "credit": "Photo: José Luiz, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doric_capital_-_Temple_of_Heracles_-_Agrigento_-_Italy_2015.JPG",
+      "title": "A Doric capital, Agrigento"
+    },
+    "eleusis": {
+      "src": "/assets/history-deep/ancient-greece/eleusis.jpg",
+      "alt": "The ruins of the Telesterion at Eleusis, the hall of the Mysteries, with the modern town behind",
+      "credit": "Photo: George E. Koronaios, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_ruins_of_the_Telesterion_at_the_Sanctuary_of_Demeter_in_Eleusis_on_5_April_2019.jpg",
+      "title": "The Telesterion at Eleusis"
+    },
+    "epidaurusTheatre": {
+      "src": "/assets/history-deep/ancient-greece/epidaurusTheatre.jpg",
+      "alt": "The theatre at Epidaurus: the great cavea of limestone seats curving above the orchestra",
+      "credit": "Photo: Berthold Werner, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Epidauros_BW_2017-10-10_16-38-16.jpg",
+      "title": "The Theatre of Epidaurus"
+    },
+    "epidaurusTholos": {
+      "src": "/assets/history-deep/ancient-greece/epidaurusTholos.jpg",
+      "alt": "The circular foundations of the Tholos at Epidaurus in the sanctuary of Asklepios",
+      "credit": "Photo: Zde, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tholos_of_Epidaurus,_202479.jpg",
+      "title": "The Tholos of Epidaurus"
+    },
+    "erechtheion": {
+      "src": "/assets/history-deep/ancient-greece/erechtheion.jpg",
+      "alt": "The Caryatid porch of the Erechtheion on the Acropolis, its six maidens in sunlight",
+      "credit": "Photo: Coolcaesar, via Wikimedia Commons (CC BY 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Porch_of_the_Caryatids,_Erechtheion,_Acropolis_of_Athens,_From_Southeast.jpg",
+      "title": "The Erechtheion, Caryatid porch"
+    },
+    "hephaisteion": {
+      "src": "/assets/history-deep/ancient-greece/hephaisteion.jpg",
+      "alt": "The Temple of Hephaestus above the Agora, the best-preserved Doric temple in Greece",
+      "credit": "Photo: Jebulon, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Hephaestus_from_ancient_agora_Athens.jpg",
+      "title": "The Temple of Hephaestus, Athens"
+    },
+    "ionicCapital": {
+      "src": "/assets/history-deep/ancient-greece/ionicCapital.jpg",
+      "alt": "A historic photograph of an Ionic capital of the Erechtheion, its volutes and egg-and-dart",
+      "credit": "Photo: Frédéric Boissonnas, via Wikimedia Commons (PDM-owner)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Athens-_A_capital_at_the_Erechtheion_(SM_stf72).png",
+      "title": "An Ionic capital of the Erechtheion"
+    },
+    "knossos": {
+      "src": "/assets/history-deep/ancient-greece/knossos.jpg",
+      "alt": "The Grand Staircase at Knossos: restored flights descending between stone piers",
+      "credit": "Photo: Stefan Bellini, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Staircase_Knossos_2015.JPG",
+      "title": "The Grand Staircase, Knossos"
+    },
+    "knossosBull": {
+      "src": "/assets/history-deep/ancient-greece/knossosBull.jpg",
+      "alt": "The bull relief fresco from the north entrance of Knossos, in the Heraklion museum",
+      "credit": "Photo: ArchaiOptix, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wall_painting_of_bulls_in_a_landscape_with_olive_trees_from_Knossos_(West_Loggia_of_North_Entrance)_-_Heraklion_AM_-_01.jpg",
+      "title": "The bull relief, Knossos"
+    },
+    "lionGate": {
+      "src": "/assets/history-deep/ancient-greece/lionGate.jpg",
+      "alt": "The Lion Gate at Mycenae: two lions flanking a column above the great lintel",
+      "credit": "Photo: Zde, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lion_Gate,_Mycenae,_201510.jpg",
+      "title": "The Lion Gate, Mycenae"
+    },
+    "lysicrates": {
+      "src": "/assets/history-deep/ancient-greece/lysicrates.jpg",
+      "alt": "The Choragic Monument of Lysicrates in Athens: a small circular temple on a square base",
+      "credit": "Photo: Jebulon, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Choragic_Monument_to_Lysicrates,_Athens,_Greece.jpg",
+      "title": "The Choragic Monument of Lysicrates"
+    },
+    "naxosQuarry": {
+      "src": "/assets/history-deep/ancient-greece/naxosQuarry.jpg",
+      "alt": "The ancient marble quarry at Flerio on Naxos, cut blocks and working faces",
+      "credit": "Photo: Zde, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_marble_quarry_at_Flerio_near_Mili_near_Melanes,_Naxos,_248189.jpg",
+      "title": "The marble quarry at Flerio, Naxos"
+    },
+    "olympiaStadium": {
+      "src": "/assets/history-deep/ancient-greece/olympiaStadium.jpg",
+      "alt": "The stadium at Olympia: the long sandy track between grassed banks",
+      "credit": "Photo: Carole Raddato from FRANKFURT, Germany, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_ancient_stadium,_ca._775_BC_-_ca._350_BC,_it_could_accommodate_up_to_40,000_spectators,_Olympia_(16148198000).jpg",
+      "title": "The stadium at Olympia"
+    },
+    "olympiaZeus": {
+      "src": "/assets/history-deep/ancient-greece/olympiaZeus.jpg",
+      "alt": "A single standing column of the Temple of Zeus at Olympia among fallen drums",
+      "credit": "Photo: Holger Uwe Schmitt, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Wo_einst_die_Olympischen_Spiele_zu_Ehren_des_Zeus_erfunden_wurden%22_14.jpg",
+      "title": "The Temple of Zeus, Olympia"
+    },
+    "olynthus": {
+      "src": "/assets/history-deep/ancient-greece/olynthus.jpg",
+      "alt": "The excavated house foundations of Olynthus in their regular grid of streets",
+      "credit": "Photo: User:Christaras A, via Wikimedia Commons (CC BY-SA 2.5)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Olynthos_Chalkidiki_-_Greece_-_048.jpg",
+      "title": "Houses at Olynthus"
+    },
+    "paestum": {
+      "src": "/assets/history-deep/ancient-greece/paestum.jpg",
+      "alt": "The Temple of Hera I at Paestum: heavy Archaic Doric columns under a deep entablature",
+      "credit": "Photo: Norbert Nagel, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hera_temple_I_-_Paestum_-_Poseidonia_-_July_13th_2013_-_03.jpg",
+      "title": "The Temple of Hera I, Paestum"
+    },
+    "parthenon": {
+      "src": "/assets/history-deep/ancient-greece/parthenon.jpg",
+      "alt": "The Parthenon from the northwest in a nineteenth-century photograph",
+      "credit": "Photo: Cornell University Library, via Wikimedia Commons (No restrictions)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parthenon_from_the_Northwest_(3678429187).jpg",
+      "title": "The Parthenon from the northwest"
+    },
+    "parthenonDetail": {
+      "src": "/assets/history-deep/ancient-greece/parthenonDetail.jpg",
+      "alt": "The colonnade of the Parthenon at close range: fluted shafts, architrave and triglyph frieze",
+      "credit": "Photo: Jebulon, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colonnade_Parthenon_Acropolis,_Athens,_Greece.jpg",
+      "title": "The Parthenon colonnade"
+    },
+    "parthenonMarbles": {
+      "src": "/assets/history-deep/ancient-greece/parthenonMarbles.jpg",
+      "alt": "Sculptures of the west pediment of the Parthenon in the British Museum",
+      "credit": "Photo: APK, via Wikimedia Commons (CC BY 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sculptures_of_the_West_Pediment_of_the_Parthenon,_British_Museum.jpg",
+      "title": "The Parthenon pediment sculptures"
+    },
+    "pergamonAltar": {
+      "src": "/assets/history-deep/ancient-greece/pergamonAltar.jpg",
+      "alt": "The reconstructed portico of the Pergamon Altar in the Pergamon Museum, Berlin",
+      "credit": "Photo: Carole Raddato from FRANKFURT, Germany, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_reconstructed_portico,_Pergamon_Altar,_Pergamon_Museum,_Berlin_(5902946740).jpg",
+      "title": "The Pergamon Altar, reconstructed"
+    },
+    "pergamonFrieze": {
+      "src": "/assets/history-deep/ancient-greece/pergamonFrieze.jpg",
+      "alt": "The Great Frieze of the Pergamon Altar: gods and giants locked in combat",
+      "credit": "Photo: Wolfgang Sauber, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pergamon-Altar_-_Geschlagene_Giganten.jpg",
+      "title": "The Great Frieze of Pergamon"
+    },
+    "pergamonTheatre": {
+      "src": "/assets/history-deep/ancient-greece/pergamonTheatre.jpg",
+      "alt": "The steep theatre of Pergamon on the acropolis slope",
+      "credit": "Photo: Frank Kovalchek, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_theater_at_Pergamum.jpg",
+      "title": "The theatre at Pergamon"
+    },
+    "pharos": {
+      "src": "/assets/history-deep/ancient-greece/pharos.jpg",
+      "alt": "A modern reconstruction of the Pharos lighthouse of Alexandria at sunset",
+      "credit": "Photo: Віщун, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pharos_of_Alexandria,_reconstruction_2021.jpg",
+      "title": "The Pharos of Alexandria, reconstructed"
+    },
+    "priene": {
+      "src": "/assets/history-deep/ancient-greece/priene.jpg",
+      "alt": "The theatre at Priene, its seats and stage buildings among the pines",
+      "credit": "Photo: Own work by Peterdhduncan, via Wikimedia Commons (Public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PrieneTheatreMay2007.jpg",
+      "title": "The theatre at Priene"
+    },
+    "propylaia": {
+      "src": "/assets/history-deep/ancient-greece/propylaia.jpg",
+      "alt": "Walking through the Propylaia, the monumental gateway of the Acropolis",
+      "credit": "Photo: philip.mallis, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance_through_the_Propylaea_at_the_Acropolis_in_Athens,_Greece.jpg",
+      "title": "The Propylaia, Athens"
+    },
+    "segesta": {
+      "src": "/assets/history-deep/ancient-greece/segesta.jpg",
+      "alt": "The unfinished temple at Segesta: a complete Doric peristyle never given its cella",
+      "credit": "Photo: Berthold Werner, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Segesta_BW_2012-10-10_17-08-52.jpg",
+      "title": "The temple at Segesta"
+    },
+    "sounion": {
+      "src": "/assets/history-deep/ancient-greece/sounion.jpg",
+      "alt": "The Temple of Poseidon at Cape Sounion at sunset above the Aegean",
+      "credit": "Photo: Petroskaz, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_of_Poseidon_at_Cape_Sounion,_Greece.jpg",
+      "title": "The Temple of Poseidon, Sounion"
+    },
+    "stoaAttalos": {
+      "src": "/assets/history-deep/ancient-greece/stoaAttalos.jpg",
+      "alt": "Inside the reconstructed Stoa of Attalos: two storeys of colonnades in the Agora",
+      "credit": "Photo: Ian W. Scott, via Wikimedia Commons (CC BY 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stoa_of_Attalos_Athens_Agora.JPG",
+      "title": "The Stoa of Attalos"
+    },
+    "tiryns": {
+      "src": "/assets/history-deep/ancient-greece/tiryns.jpg",
+      "alt": "The corbelled gallery passage inside the cyclopean walls of Tiryns",
+      "credit": "Photo: Alun Salt, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Passageway_of_the_galleries_within_the_walls_of_Tiryns.jpg",
+      "title": "The galleries of Tiryns"
+    },
+    "treasuryAtreus": {
+      "src": "/assets/history-deep/ancient-greece/treasuryAtreus.jpg",
+      "alt": "Inside the Treasury of Atreus at Mycenae: the corbelled tholos dome lit from the doorway",
+      "credit": "Photo: Carlos M Prieto, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Treasury_of_Atreus,_13th_century_BC_royal_tholos_tomb_near_Mycenae-interior.jpg",
+      "title": "The Treasury of Atreus"
+    },
+    "walhalla": {
+      "src": "/assets/history-deep/ancient-greece/walhalla.jpg",
+      "alt": "The Walhalla above the Danube at Regensburg: a Doric temple built as a hall of fame",
+      "credit": "Photo: Carsten Steger, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_Walhalla_memorial_(view_from_the_southeast).jpg",
+      "title": "The Walhalla, Regensburg"
+    }
+  },
+  "standfirst": "Greek architecture is the most imitated building language in history, and the most misunderstood. For five hundred years Greek builders worked with a single structural idea — the stone lintel carried on columns — and refined it until a temple could be read like a sentence: platform, columns, entablature, pediment, each part proportioned to the whole. This book follows that idea from its beginnings, when there were no temples at all, through the Bronze Age palaces and citadels, the Archaic experiments in timber and stone, the Classical perfection of the Acropolis, the sanctuaries where all Greeks met, and the vast new cities of the Hellenistic kings — and then into its afterlives, where Rome dressed its concrete in Greek orders and the modern world rebuilt the temple as museum, bank and parliament. It is honest about evidence: the polychromy of the temples, the function of the Parthenon, the reconstructions at Knossos and the optics of its refinements are all debated, and the debates are flagged where they arise, because Greek buildings reward the reader who separates what the stone proves from what the imagination prefers.",
+  "intro": [
+    "Begin with a walk, because Greek architecture is best understood on foot. Climb the rock of the Acropolis at Athens and you pass through a gateway, the Propylaia, that frames the city below and the sky above; you emerge onto a platform where the Parthenon stands to your right, its columns catching the light differently on each face; you turn and find, tucked against the rock's edge, a small temple carried on the shoulders of six stone maidens. Nothing here is accidental. Every building on that rock was placed in relation to every other, every column spaced by a rule, every step dimensioned to a body. The Acropolis is not a collection of ruins. It is a single composition, built in one generation, that has set the standard for Western architecture for two and a half thousand years.",
+    "That standard was not born on the Acropolis. It was the end of a long apprenticeship. A thousand years before the Parthenon, the rulers of Crete built palaces of startling complexity at Knossos, with light wells, drainage and staircases that turn back on themselves; on the mainland, Mycenaean kings raised citadels of boulders so large that later Greeks called them the work of the Cyclopes, and buried their dead in domed tombs of corbelled stone. When those worlds collapsed, around 1200 BCE, Greece entered centuries of small-scale building in timber and mudbrick. The temple, the building type that defines Greek architecture, emerged from that modest tradition: a small house for a god, roofed in timber, its wooden posts gradually replaced by stone columns, its wooden beams by stone architraves, until the whole timber structure had been translated into marble — and the translation itself became the style.",
+    "The Classical temple is therefore a paradox: a stone building that remembers wood. Its columns are tree trunks refined into fluted shafts; its architrave is a beam; its triglyphs are the ends of wooden joists, petrified. The Greeks never hid the paradox — they perfected it. They gave the column three characters, Doric, Ionic and Corinthian, each with its own proportions, capital and mood, and they used those characters the way a language uses words: Doric for strength and severity, Ionic for elegance, Corinthian for luxury. They learned to correct for the eye itself, swelling a column's shaft, curving a platform, leaning columns inward by millimetres, so that a building that is geometrically imperfect looks perfect to a human standing before it.",
+    "This book tells that story building by building, and it tells it in the places where it happened. Athens dominates, as it must, but the story is larger than Athens: the heavy Doric temples of Paestum and Agrigento, built by Greeks in Italy and Sicily, are older and in some ways bolder than anything on the mainland; the sanctuary of Delphi, where city-states competed in treasuries along a sacred way; Olympia, where the games made a stadium as important as any temple; Epidauros, where a theatre's acoustics still carry a whisper; Pergamon, where a Hellenistic king built a theatre into a cliff and wrapped an altar in a frieze of gods and giants; Didyma, where a temple grew so large it was never finished. And it ends with the afterlife that matters most: Rome, which took the orders and applied them to concrete, and the Greek Revival, which took them again and made them the face of democracy, learning and law from London to Washington.",
+    "A word on evidence. Greek buildings survive as ruins, and ruins invite invention. The bright paint of the temples is certain in its existence and uncertain in its colours; the Parthenon's purpose — temple, treasury, both — is argued still; the concrete restorations at Knossos are one man's vision as much as a palace's remains; even the famous optical refinements, though measured, are debated in their intent. Where the evidence is contested, this book says so in the text. The aim is not to make Greece simpler than it was, but to give the reader the tools to see it clearly: the five signs of chapter seventeen, the glossary, the gazetteer — and the habit of looking at a column, a capital and a platform before reading a single label."
+  ],
+  "keyFacts": [
+    [
+      "Series",
+      "Architectural History Series, Book XXIII"
+    ],
+    [
+      "Subject",
+      "Ancient Greek architecture, c. 2000 BCE – c. 100 BCE, with Roman and revival afterlives"
+    ],
+    [
+      "Span",
+      "From Minoan Knossos to the Hellenistic kingdoms; the Classical temple at its centre"
+    ],
+    [
+      "Key buildings",
+      "Parthenon, Erechtheion and Propylaia (Athens); Temple of Hephaestus; Delphi; Olympia; Epidauros; Pergamon; Didyma; Paestum; Agrigento; Segesta"
+    ],
+    [
+      "Structural idea",
+      "Post-and-lintel in stone: columns carrying architrave, frieze and pediment — no arch, no vault, no concrete"
+    ],
+    [
+      "The orders",
+      "Doric, Ionic and Corinthian — three characters of column, capital and entablature"
+    ],
+    [
+      "Materials",
+      "Limestone and marble, timber roofs, bronze clamps and dowels, terracotta tiles, painted stucco and polychromy"
+    ],
+    [
+      "Reading method",
+      "Five signs: the walk-around colonnade, the capital, the refinements, the sculpture, the landscape"
+    ],
+    [
+      "Afterlives",
+      "Roman adaptation (Book XX); the Greek Revival (Book XXV)"
+    ],
+    [
+      "Images",
+      "42 licence-verified photographs and drawings, credited in full"
+    ]
+  ],
+  "timeline": [
+    [
+      "c. 2000–1450 BCE",
+      "Minoan Crete: the palaces of Knossos, Phaistos and Malia; the Grand Staircase and the bull imagery"
+    ],
+    [
+      "c. 1600–1100 BCE",
+      "Mycenaean Greece: citadels at Mycenae and Tiryns; the Lion Gate; tholos tombs including the Treasury of Atreus"
+    ],
+    [
+      "c. 1200–800 BCE",
+      "Collapse and recovery: small timber-and-mudbrick building; the Greek world rebuilds in the Geometric period"
+    ],
+    [
+      "c. 800–600 BCE",
+      "The Archaic temple takes shape: peripteral plans at Samos, Corinth and Paestum; timber forms translated into stone"
+    ],
+    [
+      "c. 600–550 BCE",
+      "The Doric order codified: the Temple of Apollo at Corinth; the heavy Doric of Paestum's Hera I"
+    ],
+    [
+      "c. 550–480 BCE",
+      "The Ionic order matures in Ionia; the Siphnian Treasury at Delphi; the first marble temples of the Cyclades"
+    ],
+    [
+      "480 BCE",
+      "The Persian sack of Athens: the Acropolis burned; the vow to rebuild becomes the Periclean programme"
+    ],
+    [
+      "447–432 BCE",
+      "The Parthenon built under Iktinos and Kallikrates, on the Periclean building programme"
+    ],
+    [
+      "437–432 BCE",
+      "The Propylaia of Mnesikles rises as the Acropolis gateway; work interrupted by war"
+    ],
+    [
+      "421–406 BCE",
+      "The Erechtheion built on the north edge of the Acropolis, with its Caryatid porch"
+    ],
+    [
+      "c. 449–415 BCE",
+      "The Temple of Hephaestus completed above the Agora; the best-preserved Doric temple in Greece"
+    ],
+    [
+      "c. 360–330 BCE",
+      "The theatre at Epidauros built by Polykleitos the Younger; the stadium and sanctuary buildings at Olympia renewed"
+    ],
+    [
+      "c. 330–323 BCE",
+      "Alexander's conquests carry Greek building to Egypt and Asia; Alexandria founded, 331 BCE"
+    ],
+    [
+      "c. 280–240 BCE",
+      "Pergamon under the Attalids: the theatre, the library and the Great Altar's frieze"
+    ],
+    [
+      "c. 300 BCE – 200 CE",
+      "Didyma's Temple of Apollo grows through the Hellenistic and Roman periods, never finished"
+    ],
+    [
+      "c. 150 BCE",
+      "The Stoa of Attalos built in the Athenian Agora, a gift of Pergamon to Athens"
+    ],
+    [
+      "146 BCE",
+      "Greece becomes a Roman province; Roman architects begin to quote, copy and adapt the orders"
+    ],
+    [
+      "c. 120–130 CE",
+      "Hadrian completes the Olympieion at Athens and builds his library; Greek forms in Roman hands"
+    ],
+    [
+      "c. 1750–1850",
+      "The Greek Revival: Stuart and Revett's Athens measured, Klenze's Walhalla, Smirke's British Museum"
+    ],
+    [
+      "1987",
+      "The Acropolis and Delphi inscribed on UNESCO's World Heritage List (Olympia 1989, Epidauros 1988)"
+    ]
+  ],
+  "chapters": [
+    {
+      "id": "knossos-minoan-palace",
+      "numeral": "I",
+      "title": "Palaces of the Bronze Age: Knossos and the Minoan World",
+      "sections": [
+        {
+          "heading": "A Palace Without Walls",
+          "paras": [
+            "Greek architecture does not begin with temples. It begins, a thousand years before the Parthenon, with a building that has no temple in it at all: the palace of Knossos on Crete. Around 2000 BCE, while the mainland was still building in timber and mudbrick, the Minoans raised a complex of hundreds of rooms around a central court, rising to four storeys in places, with staircases, light wells, drainage channels and storerooms lined with great clay jars. It was not a fortress — Knossos has no defensive wall — and it was not a temple, though it held shrines and ritual rooms. It was the seat of a ruler, the storehouse of an island's surplus, the workshop of its craftsmen and the stage of its ceremonies, all at once. The Greek temple would later take its clarity from the opposite impulse, but the palace taught the Aegean world something the temple never forgot: that a building could be organised around movement, light and procession, and that architecture could make power legible without a single defensive wall.",
+            "The palace grew by accretion, not by plan. Its wings were added, rebuilt after earthquakes and fires, and rearranged over centuries, until the plan reads like a small town compressed into a single structure. Rooms open off corridors that turn, rise and double back; a visitor moving through Knossos today experiences something close to what the myth of the labyrinth preserves — not a maze built to confuse, but a complex so large and so layered that its logic is felt rather than read. The central court, roughly rectangular and open to the sky, anchors the whole composition: ceremonies, gatherings and perhaps the bull games of Minoan art took place there, watched from the surrounding terraces and balconies. Around it, the west wing held the ceremonial and religious rooms, the east wing the royal apartments, and the north and south the workshops and stores.",
+            "The palace's religious architecture deserves its own paragraph, because it shows a Minoan instinct that the Greek temple would inherit and transform. The palace's shrines — small rooms with benches, offering tables and the double axe (labrys) set between the horns of consecration, the stylised bull's horns that crown Minoan altars and rooftops — were domestic in scale, not monumental: a room, a bench, a cult object, a libation. The peak sanctuaries, small open-air shrines on Crete's mountain tops, and the cave sanctuaries, at Psychro and Kamares, extended the same instinct outdoors: a sacred place marked by a wall, an altar and offerings, not by a temple building. The Minoan sacred place was therefore not a temple but a spot — a court, a cave, a peak — and its architecture was the marking of that spot. The Greek temple, when it emerged, would enclose the spot in a building; but the Minoan habit of marking sacred places in the landscape, rather than building temples to contain them, survives in the Greek sanctuary's temenos, the sacred precinct whose wall marks a place rather than a building.",
+            "The Minoan column is the palace's most distinctive architectural detail, and it is the reverse of the Classical column. Minoan columns taper downward — wider at the top than at the base — and carry a cushion capital, painted red with a black base, on a stone foundation. The taper is structural in origin: a tree trunk, set upside down so that its wider end carries the beam, or a wooden post whose top must spread to carry a load. The columns at Knossos, restored by Evans in red, are the most famous instance, and they are also the most debated: Evans' red columns are a reconstruction, and the originals' colour and material are argued. What is certain is the form: the downward taper, the cushion capital, the painted shaft. The Mycenaeans inherited the form for the Lion Gate's column and for their megara; the Classical Greeks reversed it, tapering their columns upward and fluting them, and the reversal marks the distance between the Bronze Age palace and the Classical temple. The column's direction of taper is a small detail that dates a world."
+          ],
+          "figure": "knossos"
+        },
+        {
+          "heading": "The Grand Staircase and the Light Well",
+          "paras": [
+            "The most famous interior at Knossos is also the most architectural: the Grand Staircase of the royal apartments, descending in two flights around a light well open to the sky. Here, in a building of the second millennium BCE, is a fully worked-out solution to a problem that would recur in every Greek house and palace afterwards — how to bring daylight and air into the heart of a deep plan. The staircase is broad, its treads shallow, its landings generous; columns, painted red with black bases, carry the upper flights; the light well beside it drops through the storeys like a vertical court. It is domestic architecture at a scale and refinement that the mainland would not match for a thousand years, and it is the ancestor, in spirit if not in form, of the atria, peristyles and light courts of the later Greek house.",
+            "The materials are modest — rubble walls, timber columns, gypsum and plaster — but the handling is sophisticated. Walls are plastered and painted with running spirals, rosettes and scenes of bulls, griffins and processions; floors are paved with gypsum slabs and patterned in coloured stone; drains run beneath the floors, carrying rainwater and waste away from the palace in a system of terracotta pipes that later Greek cities would envy. The palace's famous throne room, a small chamber with a gypsum seat flanked by painted griffins, shows the Minoan instinct for the ceremonial moment: a single chair, a basin for purification, a room scaled to an audience rather than a crowd. Power here is expressed not by mass, as it would be at Mycenae, but by finish, colour and control of movement.",
+            "The palace's other wings repay the same attention as the staircase. The west wing's magazines — long, narrow storerooms sunk into the ground — held hundreds of pithoi, great clay jars for oil, grain and wine, some tall enough to hold a man; their capacity, estimated in tens of thousands of litres, is the archaeological signature of a redistributive economy, in which the palace collected the island's surplus and returned it as rations, gifts and payments. The east wing's Hall of the Double Axes, with its pier-and-door partitions that could open or close a space, shows a Minoan instinct for flexible planning: by sliding wooden doors between piers, a single hall could become several rooms, or several rooms one hall. The palace's workshops — for stone vases, faience, ivory and bronze — cluster on its edges, their waste and unfinished pieces surviving in the archaeological record. Knossos was not only a residence but a factory, a warehouse and a bank, and its plan, for all its apparent confusion, is the plan of an economy made stone.",
+            "Two other Minoan palaces frame Knossos. Phaistos, on a ridge above the Messara plain, is smaller and more regular, its central court and theatral area clearer than Knossos' accretions; Malia, on the north coast, preserves a great court and a kernos stone, a carved block with cup-holes for offerings, that hints at the rituals the courts hosted. The palaces share a vocabulary — the central court, the west wing of magazines, the light well, the pier-and-door hall — and they share a fate: all were damaged by earthquake and fire around 1450 BCE, and Knossos alone was rebuilt, under Mycenaean rulers, for another two centuries. The Minoan palace tradition, then, is not a single building but a type, repeated across Crete with local variations, and its type would outlive its builders: the central court, the processional approach and the light well reappear, transformed, in the Greek house, the stoa and the sanctuary."
+          ]
+        },
+        {
+          "heading": "The Bull and the Labyrinth",
+          "paras": [
+            "No image is more Minoan than the bull. Bulls appear on seals and rhytons, in frescoes of leapers vaulting over their horns, and in the great relief from the north entrance, where a charging bull's painted body survives in fragments in the Heraklion museum. The bull was, for the Minoans, what the eagle would be for Rome: an emblem of power, fertility and the dangerous edge of the natural world, and the palace at Knossos is saturated with it. The later Greek myth — the Minotaur, half man and half bull, housed in a labyrinth built by Daedalus — is almost certainly a mainland retelling of this Minoan world, in which the palace's complexity became a monster's maze and its bull imagery became a monster. The myth is not evidence for the palace's plan, but it is evidence for its effect: Knossos impressed itself on the Greek imagination so deeply that it survived, transformed, into story.",
+            "The Minoan palaces were not Greek in language or, probably, in religion, and this book does not claim them as Greek buildings. They belong here because they are the prelude without which Greek architecture cannot be understood. When Mycenaean Greeks took over Crete around 1450 BCE, they inherited the palace tradition and carried its motifs — the column that tapers downward, the light well, the painted plaster — into their own citadels. When the palaces fell, around 1200 BCE, the memory of large-scale, well-finished building survived in the same stories that preserved the bull. The Greek temple, when it emerged centuries later, would be a smaller, harder, more disciplined building than any Minoan hall; but its instinct for procession, for the framed view and the controlled approach, was already present in the corridors of Knossos."
+          ],
+          "figure": "knossosBull"
+        },
+        {
+          "heading": "What Evans Rebuilt — A Debate",
+          "paras": [
+            "A warning is necessary, because Knossos as visitors see it is partly a twentieth-century building. Arthur Evans, who excavated the palace from 1900, reconstructed large parts of it in reinforced concrete: columns re-erected, upper storeys rebuilt, frescoes repainted and reinstalled. His reconstructions preserved the site from collapse, and they made the palace legible to millions of visitors; but they also froze one interpretation in concrete, and some of it — the famous red columns, the reconstructed throne room, the upper floor over the Grand Staircase — is debated by archaeologists, who argue about heights, colours and even the function of rooms. This book's photographs show Knossos as it stands, concrete and all, and the reader should treat the reconstructions as what they are: an early twentieth-century architect's reading of a Bronze Age palace, brilliant and contestable in equal measure. The debate matters because it is the first instance of a theme that runs through Greek architecture: the ruin invites completion, and every completion is an argument."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mycenaean-citadels",
+      "numeral": "II",
+      "title": "Citadels of the Mycenaeans: Tiryns, Mycenae and the Tholos Tomb",
+      "sections": [
+        {
+          "heading": "The Lion Gate",
+          "paras": [
+            "If Knossos expresses power through finish, Mycenae expresses it through weight. The citadel of Mycenae, on a rocky hill in the Argolid, is entered through the Lion Gate, built around 1250 BCE and still the oldest monumental sculpture in Europe. Two lions, their heads long lost, rear against a central column above a lintel of a single massive stone; the gate itself is formed of two great jambs and a lintel weighing some twenty tonnes, with a relieving triangle above it that carries the wall's weight around the opening. The composition is heraldic and unmistakable: a column — the symbol of the palace, perhaps of the king himself — flanked by guardian beasts. It is the first time in the Aegean that sculpture and architecture are composed as a single public statement, and the statement is domination.",
+            "The gate is also an engineering lesson. The Mycenaeans built without the arch, without concrete and without the true dome; their great spans are lintels, and their great spaces are corbelled. The relieving triangle above the Lion Gate is the key device: by cutting a triangular void in the masonry above the lintel, the builders threw the wall's weight onto the jambs and kept the lintel from cracking. The same logic, carried to its conclusion, produces the tholos tomb. The Lion Gate's column, notably, tapers downward — wider at the top than at the base — a Minoan habit inherited through Crete, and the reverse of the Classical column's taper. It is a small detail that marks a whole world of difference: the Mycenaean column is a symbol first and a support second."
+          ],
+          "figure": "lionGate"
+        },
+        {
+          "heading": "Cyclopean Walls and Corbelled Galleries",
+          "paras": [
+            "The walls of Tiryns, on the plain below Mycenae, are the most imposing Bronze Age fortifications in Greece. Built of limestone blocks so large that later Greeks believed only the one-eyed Cyclopes could have moved them, they run in places to eight metres thick and contain, within their mass, corbelled galleries — vaulted passages formed by stepping each course of stone inward until the two sides meet. Walking a Tiryns gallery today is an uncanny experience: the passage is narrow, the stones are rough, and the roof closes overhead in a pointed profile that anticipates, by a millennium, the vaults of the medieval world. The galleries were storerooms, shelters and perhaps sally ports; their construction shows a building culture that understood mass, compression and the behaviour of stone under load, even without the arch.",
+            "The citadels were more than fortresses. Within the walls of Mycenae and Tiryns stood megara — great halls with a central hearth, four columns and a throne — the architectural ancestors of the Greek temple's cella. The megaron's plan, a porch, a vestibule and a hall with a central hearth, would be repeated, refined and eventually roofed in stone by the temple builders of the Archaic age. The Mycenaean palace also contained workshops, storerooms of oil and grain, archives of Linear B tablets and, at Tiryns, a bathroom with a terracotta tub and a drainage system. The citadel was a small city in itself, and its fall, around 1200 BCE, ended the first great age of Aegean building. What survived was the memory of monumentality: the walls themselves, too large to dismantle, stood through the Dark Age as proof that great building had once been possible, and as a challenge to the builders who followed.",
+            "The megaron deserves closer attention, because it is the Mycenaean building that most directly anticipates the Greek temple. At Pylos, on the west coast of the Peloponnese, the palace of Nestor preserves a megaron in exceptional condition: a porch with two columns, a vestibule, and a great hall some thirteen metres square, with a circular hearth at its centre, four columns around the hearth, and a throne against the right wall. The hearth's smoke rose through a lantern in the roof; the walls were painted with processions, hunts and lyre-players; the floor was painted with grids and octopuses. The megaron's plan — porch, vestibule, hall, hearth — is the plan that the Greek temple's cella would inherit, with the hearth replaced by the cult statue and the throne by the god's image. The temple did not invent its plan; it inherited it from the Mycenaean hall, and the inheritance is visible in every Archaic temple's porch and cella.",
+            "The Mycenaean world also left an archive, and the archive changes how the citadels are read. The Linear B tablets, found at Pylos, Knossos, Mycenae and Thebes, record in a syllabic script the palace economy in exhaustive detail: flocks of sheep, allocations of bronze, rations of figs and wine, lists of smiths, potters and slaves. The tablets show a world administered to the last measure of oil, and they show it in Greek — the language of the tablets is an early form of Greek, proving that the Mycenaeans were Greek-speakers, the first Greeks of the historical record. The citadels, then, are not the works of a mysterious Bronze Age people but of Greeks, and their fall around 1200 BCE — whether by invasion, earthquake, internal collapse or all three, a debate still unresolved — is the first great rupture in Greek history, the end of the world that Homer would remember as the age of heroes."
+          ],
+          "figure": "tiryns"
+        },
+        {
+          "heading": "The Tholos Tomb",
+          "paras": [
+            "The Mycenaeans' most accomplished architectural form is also their most private: the tholos tomb, a beehive-shaped chamber built by corbelling stone courses inward until they close at the top, entered through a long stone-lined passage (dromos) and a monumental doorway. The finest, the so-called Treasury of Atreus at Mycenae, dates to around 1250 BCE and spans 14.5 metres — the largest corbelled dome in the world until the Pantheon, and still one of the most moving interiors in Greece. The visitor descends the dromos between high stone walls, passes beneath a lintel of a single block weighing over a hundred tonnes, and enters a chamber whose rings of stone rise, course by course, to a capstone far overhead. The effect is not of a tomb but of a mountain hollowed out: darkness, scale and a single shaft of light from the door.",
+            "The tholos matters to this book for two reasons. First, it is the Mycenaean answer to the problem the Greeks would spend five hundred years solving: how to roof a large space in stone without the arch. Corbelling, the tholos technique, works by stepping stone inward; it produces a dome in profile but not in structure, since each course is supported by the one below and the stones are in compression throughout. The technique would be remembered, and the circular form itself would return in the Classical tholos — the round temple at Delphi and Epidauros — though built with true ashlar and columns rather than corbelling. Second, the tholos tomb shows the Mycenaean instinct for the approach: the dromos, the doorway, the revelation of the interior. That sequence — approach, threshold, revelation — is the same sequence the Greek temple would perfect, from the sacred way at Delphi to the Propylaia at Athens."
+          ],
+          "figure": "treasuryAtreus"
+        }
+      ]
+    },
+    {
+      "id": "archaic-temple",
+      "numeral": "III",
+      "title": "The Archaic Temple: Timber, Stone and the First Peripteral Plans",
+      "sections": [
+        {
+          "heading": "From Timber to Stone",
+          "paras": [
+            "The Greek temple was not invented; it grew. Its ancestor is the small shrine of the Geometric period, a long, narrow building of mudbrick walls on a stone socle, roofed in timber and thatch, with a porch of wooden posts. At Thermon, at Samos and at Olympia, eighth-century shrines show the same plan that the Classical temple would keep: a cella (the god's house), a porch before it, and, gradually, a colonnade wrapped around the whole. The decisive change came in the seventh and sixth centuries BCE, when builders began to replace timber with stone — first the columns, then the architrave, then the whole entablature — and discovered that stone changed everything. A stone column can be taller and slimmer than a wooden post; a stone architrave can span further; a stone roof demands walls that can carry its weight. The temple became, in the Archaic age, an experiment in translation: how to build in stone what had been conceived in wood, and what new forms the translation made possible.",
+            "The translation left its marks everywhere, and the Greeks kept them visible. The Doric triglyph — the grooved tablet that alternates with sculpted metopes in the frieze — is the petrified end of a wooden beam; the guttae, the small peg-like drops beneath it, are the petrified wooden pegs that once fixed the beam. The column's fluting recalls the adze marks on a tree trunk; the capital's echinus recalls the wooden pad that spread a beam's load onto a post. This is not a theory imposed by modern scholars: the forms are too consistent, and too obviously carpentered, to be anything else. The Classical temple is a timber building remembered in marble, and its beauty lies partly in that memory — in the way a stone building carries, in its joints and mouldings, the history of its own making.",
+            "The earliest stone temples repay a closer look, because they show the translation in progress. At Samos, the Heraion built by Rhoikos around 570 BCE was a dipteral temple — two colonnades around the cella — of unprecedented size, its columns over eighteen metres tall, its plan more than a hundred metres long; it was rebuilt after a fire, and its successor, the great Heraion of Polycrates, was larger still, though never finished. At Ephesus, the Archaic Artemision, built by Chersiphron and Metagenes around 550 BCE, was the largest temple of the Greek world, its columns carved with sculpted drums at their bases, its roof of marble, its cost funded by Croesus of Lydia. These Ionic temples of Asia Minor were built on a scale the mainland would not attempt for a century, and they show the Archaic temple's ambition at its height: not a small house for a god but a forest of columns, a building whose size was itself a dedication.",
+            "The Archaic temple's decoration was as experimental as its structure. Terracotta revetments — painted plaques protecting the timber entablature from weather — survive from temples at Thermon and Calydon, their painted palmettes and meanders showing the bright colour that stone temples would inherit. The first stone pediments, at Corfu's Temple of Artemis (c. 580 BCE), show a Gorgon flanked by lions and panthers, carved in high relief and painted; the first stone friezes, at Delphi's Siphnian Treasury (c. 525 BCE), show the gods in battle and the judgment of Paris in continuous Ionic bands. The Archaic temple, in short, was a laboratory: in plan, in structure, in sculpture and in colour, it tried everything the Classical temple would refine, and its experiments are visible, for the attentive reader, in every museum of Greek art."
+          ]
+        },
+        {
+          "heading": "Paestum: Doric at Its Heaviest",
+          "paras": [
+            "Nowhere is the Archaic temple's character clearer than at Paestum, the Greek colony of Poseidonia on the coast of southern Italy. The Temple of Hera I, built around 550 BCE and long called the Basilica, is Doric at its heaviest and most archaic: columns with a pronounced swelling (entasis), capitals that flare widely, an entablature of great depth, and a plan of nine columns by eighteen — an odd, elongated proportion that later builders would abandon. The effect is not elegance but presence: the temple stands like a crowd of tree trunks, massive, closely spaced, and slightly forbidding. Beside it, the Temple of Hera II (c. 460 BCE), often called the Temple of Poseidon, shows how far the order travelled in a century: the columns are slimmer, the capitals tighter, the proportions closer to the Classical canon. Paestum preserves, in two buildings standing side by side, the whole education of the Doric order.",
+            "Paestum also proves that Greek architecture was never only mainland architecture. The Greek west — Sicily and southern Italy — built temples earlier, larger and in some cases bolder than anything in Greece itself, funded by the wealth of colonial cities and built in local limestone rather than marble. The temples of Agrigento, Selinunte and Segesta, treated later in this book, belong to the same story: the order was a colonial export, and the colonies, free from mainland conservatism, pushed it to its limits. A reader who knows only Athens will misunderstand the Doric order; a reader who has stood at Paestum, where the columns are close enough to touch and the entablature bears down like a cliff, will understand its original force.",
+            "The temple's orientation and its altar are the Archaic temple's most revealing features, because they show that Greek worship happened outside the temple, not inside it. Greek temples face east, so that the cult statue, visible through the open doors at dawn, catches the rising sun; the altar stands outside, before the temple's east front, and sacrifice — the central act of Greek religion — takes place at the altar, in the open air, before a congregation gathered in the sanctuary. The temple is therefore not a church, entered for worship, but a house for the god and a backdrop for the ritual performed outside it. The peripteral colonnade makes sense in this light: it is not a shelter for worshippers but a frame for the god's house, a screen between the sacred interior and the public ritual outside. A reader who expects a Greek temple to work like a church will misunderstand it; a reader who sees it as a house with an outdoor altar will understand its plan, its orientation and its colonnade at once.",
+            "The Archaic temple's roof is its least visible and most important part. Greek temples were roofed in timber trusses, spanning from wall to wall and from colonnade to cella, and covered in terracotta tiles — flat pan tiles with raised cover tiles over the joints, antefixes (upright ornaments) along the eaves, and a sima (a gutter) with lion's-head spouts that threw rainwater clear of the walls. The roof's weight determined the walls' thickness and the columns' spacing; its pitch determined the pediment's angle; its tiles, painted and moulded, were among the temple's most colourful elements. The roof is also why so few Greek temples survive roofed: timber rots and burns, tiles fall, and the stone skeleton that remains — columns, entablature, pediment — is the temple without its roof, like a body without its skin. The temple's stone parts survive because they are stone; its roof, which gave the temple its silhouette, is gone, and must be imagined from tiles, antefixes and the pediment's angle."
+          ],
+          "figure": "paestum"
+        },
+        {
+          "heading": "Corinth's Monoliths",
+          "paras": [
+            "The Temple of Apollo at Corinth, built around 540 BCE, is the oldest surviving Doric temple on the Greek mainland in its original stone, and it is built like a fortress. Seven monolithic columns still stand on their stylobate — each shaft carved from a single block of limestone, over seven metres tall — with an architrave block still spanning two of them. The columns are massive in proportion, their capitals broad, their flutes shallow; the whole has the weight of the Archaic world, before the Classical refinements slimmed the order and opened the intercolumniations. Corinth's temple is also a lesson in survival: it was rebuilt, burned, rebuilt again, and finally left as a fragment when the Roman city rose around it. The seven columns that stand today are the remnant of a temple that was already ancient when Pausanias described it in the second century CE.",
+            "The Archaic temple's plan, by the sixth century, had settled into the form the Classical age would perfect: the peripteral temple, a cella surrounded by a single colonnade on all four sides, standing on a three-stepped platform (crepidoma). The peripteral plan is the Greek temple's great invention, because it turns the building inside out. A Mesopotamian or Egyptian temple is entered and experienced from within; a Greek temple is experienced from without, walked around, seen against the sky from every side. The colonnade is not a facade but a filter: it shades the cella walls, frames the sculpture, and gives the building a rhythm that can be read from a distance. Everything the Classical temple would become — the Parthenon's refinements, the Erechtheion's porches, the Hellenistic temple's scale — is already present, in embryo, in the Archaic peripteral plan."
+          ],
+          "figure": "corinthApollo"
+        }
+      ]
+    },
+    {
+      "id": "doric-order",
+      "numeral": "IV",
+      "title": "Doric: The Order of Strength",
+      "sections": [
+        {
+          "heading": "Reading a Doric Temple",
+          "paras": [
+            "The Doric order is the oldest, plainest and most characterful of the three Greek orders, and it is the order of this book's centre of gravity. A Doric temple is read from the ground up. First the crepidoma, three steps that lift the building above the ground and give it a platform to stand on; the top step, the stylobate, is the floor of the colonnade. Then the columns: fluted shafts, twenty shallow flutes meeting in sharp arrises, with no base — the shaft rises directly from the stylobate, as a tree rises from the ground. Then the capital: a round, cushion-like echinus beneath a square abacus, spreading the load of the beam above. Then the entablature: a plain architrave, a frieze of alternating triglyphs and metopes, and a cornice that throws the roof's shadow. Then the pediment, the triangular gable filled with sculpture. The whole is a system, and every part has a reason: the triglyph sits above each column and above the centre of each intercolumniation, so that the frieze's rhythm is the colonnade's rhythm, made legible in stone.",
+            "Doric proportions changed across the Archaic and Classical ages, and the change is a clock by which temples can be dated. Archaic Doric columns are short and heavy — a height of four to five lower diameters — with wide capitals and closely spaced shafts. Classical Doric, as at the Parthenon, reaches five and a half to six diameters, with tighter capitals and wider spacing; the temple breathes more, and the entablature lightens in proportion. The Doric order's character is severity: it has no base, no ornament on the capital, no scrolls or leaves. Its beauty is the beauty of structure made visible — of a system in which nothing is hidden and nothing is extra. When the Romans adopted the order they added a base and softened its severity; when the Renaissance codified it they made it a rule. The Greek original, at its best, is not a rule but a temperament: sturdy, direct, and confident enough to leave the stone plain.",
+            "The Doric corner problem deserves its own paragraph, because it is the order's most revealing difficulty. In a Doric frieze, triglyphs must sit above the centre of every column and above the centre of every intercolumniation. At a corner, these two rules collide: the corner triglyph must sit at the corner of the frieze, but the corner column stands inset from the corner, so the triglyph above it cannot also be above the intercolumniation's centre. The Greeks solved the problem in three ways, and the solution dates a temple: the Archaic solution was to widen the corner metope; the Classical solution, used at the Parthenon, was to narrow the corner intercolumniation, bringing the corner column closer to its neighbour so the triglyph falls correctly; the Hellenistic solution was to let the corner triglyph sit off-centre and accept the irregularity. A reader who looks at a Doric temple's corners, and measures the spacing of its last two columns, is reading the builder's solution to a problem that has no perfect answer — and is dating the building by its compromise.",
+            "Sicilian Doric has its own character, and it complicates the mainland story. At Selinunte, on Sicily's south coast, the great temples — C, D, E, F, G — were built across the sixth and fifth centuries in a Doric of local limestone, their columns massive, their plans elongated, their sculpture — the metopes of Temple E, showing Heracles, Hera and Zeus — among the finest Archaic carving in existence. Temple G at Selinunte was the largest Doric temple ever attempted, some 110 by 50 metres, with columns over sixteen metres tall, and it was never finished: the Carthaginian sack of 409 BCE left it a field of drums, and it remains one, a quarry of its own ambition. Sicilian Doric is Doric without mainland restraint, and it reminds the reader that the order was not a single canon but a family of local practices, each city building to its own wealth, stone and taste."
+          ]
+        },
+        {
+          "heading": "The Capital and the Frieze",
+          "paras": [
+            "The Doric capital repays close looking. At Paestum's Hera I the echinus flares widely, like a cushion compressed by weight; at the Parthenon it is a tight, shallow curve, almost a quarter-round, with three thin annulets (rings) beneath it marking the shaft's end. The difference is not decoration but date: the flaring capital belongs to the sixth century, the tight capital to the fifth. A reader who learns to see the echinus can date a Doric temple to within a generation, and can feel, in a single moulding, the order's whole movement from mass to measure. The capital at Agrigento shown here, weathered and honey-coloured, carries the same lesson in a single stone: the echinus swollen, the abacus broad, the flutes of the shaft rising to meet it without a break.",
+            "The frieze above the architrave is where Doric becomes narrative. Triglyphs — tablets grooved with three vertical bars — alternate with metopes, square panels that may be left plain or carved with scenes: Labours of Heracles, battles of Lapiths and Centaurs, episodes of the Trojan war. At the Parthenon the metopes carry ninety-two scenes, of which the best-preserved show the Centauromachy, the mythical battle that, for fifth-century Athenians, figured the victory of order over barbarism. The frieze is also where the order's discipline bites hardest: because a triglyph must sit over every column and over every intercolumniation's centre, the spacing of the columns is constrained by the frieze's rhythm, and at the corners the system must be fudged — the famous Doric corner problem, solved by narrowing the corner intercolumniation or widening the corner triglyph. The corner problem is the Doric order in miniature: a system so strict that its own logic creates a problem only craft can solve. The full system of the orders, and their Roman and Renaissance codification, is the subject of Book XIII of this series, Columns & the Classical Orders."
+          ],
+          "figure": "doricCapital"
+        },
+        {
+          "heading": "The Unfinished Lesson",
+          "paras": [
+            "The temple at Segesta, in western Sicily, is the Doric order's most instructive ruin, because it was never finished. Built in the late fifth century BCE by the Elymians, a people who were not Greek but who built in the Greek manner, it has a complete peristyle — thirty-six columns standing on a crepidoma, with architrave and part of the entablature — and no cella at all. The columns were never fluted; their shafts still carry the protective bosses (lifting knobs) used to haul them into place; the steps are rough. Segesta is a temple caught mid-sentence, and for that reason it teaches what no finished temple can: the order of construction. The platform first, then the columns, then the architrave; the fluting last, cut after the columns were standing, so that the flutes would run true from base to capital. A finished temple hides its making; Segesta displays it. Every reader of Greek architecture should visit Segesta first, before Athens, because it shows the building as work before it becomes art.",
+            "Segesta also raises a question the Greeks themselves debated: what makes a temple a temple? Without a cella, without a cult statue, without a roof, is the peristyle at Segesta a temple at all, or a political statement — a city advertising its Greekness to its neighbours by building in the Greek manner? The question has no settled answer, and it is a useful one, because it separates the temple's two functions: as a house for a god, and as a statement of identity. The Greek temple was always both. At Segesta the second function survives without the first, and the building is no less eloquent for it."
+          ],
+          "figure": "segesta"
+        }
+      ]
+    },
+    {
+      "id": "ionic-corinthian",
+      "numeral": "V",
+      "title": "Ionic and Corinthian: Slender, Scroll and Leaf",
+      "sections": [
+        {
+          "heading": "The Scroll",
+          "paras": [
+            "If Doric is severity, Ionic is elegance. The Ionic order, developed in the Greek cities of Ionia on the coast of Asia Minor, is slimmer, taller and more richly moulded than Doric: the column stands on a base, its flutes are separated by flat fillets rather than sharp arrises, its capital carries paired volutes — spiral scrolls that curl like the horns of a ram or the waves of the sea — and its frieze runs continuously, without triglyphs, so that sculpture can flow uninterrupted around the building. The Ionic entablature is lighter, its cornice enriched with dentils, small tooth-like blocks that catch the light. The order's character is grace: where Doric stands, Ionic moves.",
+            "The Erechtheion's Ionic columns, photographed here in a historic image by Frédéric Boissonnas, show the order at its Athenian finest. The capital's volutes are deep and crisp, the egg-and-dart moulding beneath them is cut with jewel-like precision, and the shaft's flutes run true from base to capital. Ionic was the order of Ionia's great temples — the Artemision at Ephesus, the Heraion at Samos, the Temple of Apollo at Didyma — buildings of a scale that dwarfed mainland temples, with double colonnades and columns over eighteen metres tall. When Athens adopted Ionic in the fifth century, it did so for buildings where Doric's severity was wrong: the Erechtheion, with its complex site and multiple cults, and the Temple of Athena Nike, small, delicate and celebratory. The orders, for the Greeks, were not interchangeable styles but characters, chosen for the building's purpose and mood."
+          ],
+          "figure": "ionicCapital"
+        },
+        {
+          "heading": "The Monument of Lysicrates",
+          "paras": [
+            "The Corinthian order's first appearance on the outside of a building is small, late and perfect: the Choragic Monument of Lysicrates in Athens, built in 334 BCE to commemorate a victory in the dramatic competitions. A choregos — the wealthy citizen who funded a chorus — erected it as a trophy, and it is a jewel of a building: a square base, a cylindrical drum, six Corinthian columns engaged to the drum's wall, and a frieze of Dionysus turning pirates into dolphins, crowned by a finial that once held the victor's tripod. The columns are the earliest surviving Corinthian columns used externally, and they show the order's character fully formed: a tall, slender shaft, and a capital of acanthus leaves curling beneath small corner volutes, crowned by a concave abacus.",
+            "Corinthian was, for the Greeks, a luxury order, used sparingly: for interiors, for small monuments, for the one column at Bassae that announced the future. The story of its invention, told by Vitruvius, is charming and probably false: a basket left on a girl's grave, an acanthus plant growing through it, the sculptor Callimachus passing by and carving what he saw. The real story is slower: the acanthus capital evolved from Ionic and Doric experiments across the fifth century, and its first great interior use was at Bassae, where a single Corinthian column stood in the cella among Ionic engaged columns. The order's future, however, belonged to Rome, which made Corinthian its standard for temples, triumphal arches and basilicas, and to the Renaissance, which made it the order of palaces and churches. The Greeks invented it; the world adopted it.",
+            "The Choragic Monument's frieze deserves a closer look, because it is the finest small sculpture of the fourth century. The frieze, running around the drum above the columns, shows Dionysus and his satyrs turning the Tyrrhenian pirates into dolphins: the god reclines with a drinking cup, the pirates dive and transform, their legs becoming tails, their arms fins, in a continuous narrative that reads like a comic strip in marble. The frieze's carving is shallow but extraordinarily lively, its figures overlapping, its composition flowing around the drum without a break. The monument's crown, a finial of acanthus leaves that once held the victor's bronze tripod, completes the composition: a trophy that is itself a work of art, a small temple that commemorates a play. The Lysicrates monument is the Corinthian order's debut, but it is also a masterpiece of narrative sculpture, and it is worth visiting for the frieze alone.",
+            "The Corinthian capital's invention has a second, less charming story, and it is worth telling alongside Vitruvius'. The acanthus capital did not appear fully formed: it evolved from fifth-century experiments in which Ionic volutes were combined with leaf ornament, at Bassae, at the Tholos of Delphi and at the Temple of Apollo at Phigaleia, and its earliest surviving examples are interior columns, where the capital's delicacy could be appreciated at close range. The order's name, Corinthian, does not mean it was invented at Corinth — it means, for Vitruvius and for later writers, that it was the most slender and ornate of the orders, associated with the luxury of Corinth. The Greeks used Corinthian sparingly, for interiors and small monuments; it was Rome that made it the standard, and the Renaissance that made it ubiquitous. The order's history is a lesson in how a detail becomes a system, and a system becomes a style."
+          ],
+          "figure": "lysicrates"
+        },
+        {
+          "heading": "Bassae's Hidden Corinthian",
+          "paras": [
+            "The Temple of Apollo Epicurius at Bassae, in the mountains of Arcadia, is one of the strangest and most important temples in Greece. Built around 420 BCE, probably by Iktinos, the architect of the Parthenon, it is oriented north–south rather than east–west, it mixes Doric on the exterior with Ionic engaged columns inside, and it contains, in its cella, the earliest known Corinthian capital — a single column, now lost except in fragments and drawings, that stood at the sanctuary's heart. The temple's plan is a deliberate puzzle: the exterior is a conventional Doric peristyle, but the interior breaks every rule, with an adyton (inner shrine) lit by a side door and a Corinthian column that seems to have marked the cult statue's place. Bassae is the Parthenon's architect experimenting, far from Athens, with everything the Classical temple had settled.",
+            "Bassae is also a cautionary tale about survival. The temple stands in remote mountains, and for decades it was protected by a vast tent while conservators worked on its stones; the reconstruction drawing reproduced here, from a nineteenth-century survey, shows the temple's Doric facade as it was meant to be seen — a reminder that the building's present state, tented and fragmentary, is not its historical state. The drawing is honest about its own nature: it is a reconstruction, not a photograph, and it shows the temple whole in a way no photograph of Bassae today can. The lesson generalises: Greek temples must often be read through drawings, models and reconstructions as well as through ruins, and the reader should always ask which is which."
+          ],
+          "figure": "bassae"
+        }
+      ]
+    },
+    {
+      "id": "acropolis-hill-remade",
+      "numeral": "VI",
+      "title": "The Acropolis: A Hill Remade",
+      "sections": [
+        {
+          "heading": "The Rock and the Sack",
+          "paras": [
+            "The Acropolis is a limestone rock, roughly 300 metres long and 150 wide, rising some 150 metres above Athens. It had been fortified since the Mycenaean age, and by the sixth century BCE it held the city's oldest temples, including the Archaic temple of Athena Polias. In 480 BCE, during the Persian invasion, the Acropolis was sacked and burned; the temples were destroyed, their sculpture smashed and buried, their columns toppled. The Athenians, after their victory at Salamis, left the ruins standing for a generation as a memorial, and swore — according to later tradition — not to rebuild what the Persians had destroyed. When Pericles launched his building programme in the 440s, the Acropolis was therefore both a ruin and a blank page: a sacred rock, cleared of its old temples, waiting for a new composition.",
+            "The Periclean programme, carried out between 447 and 406 BCE, rebuilt the Acropolis as a single work of art. It was not a collection of independent temples but a planned ensemble: the Propylaia as gateway, the Parthenon as the great temple, the Erechtheion as the shrine of the city's oldest cults, the Temple of Athena Nike as a small victory monument at the gateway's edge. The buildings were placed in relation to one another and to the city below: from the Propylaia, the Parthenon appears at an angle, its long side foreshortened, its mass rising against the sky; from the city, the Acropolis presents a skyline in which each building has its place. The programme was funded by the treasury of the Delian League, Athens' empire, and its cost was controversial even at the time — Pericles' critics called it dressing Athens like a courtesan. The controversy is part of the story: the Acropolis was built with imperial money, and its beauty has always carried that political charge.",
+            "The Acropolis' earlier history is worth recovering, because the Periclean programme did not begin on a blank rock. The Archaic Acropolis held the Temple of Athena Polias, built in the sixth century BCE, and the so-called Older Parthenon, begun after Marathon and destroyed by the Persians in 480 BCE while still under construction; its column drums, cut and ready, were built into the Acropolis' north wall after the sack, where they can still be seen — a wall made of a temple, a memorial in stone. The Acropolis also held the Pelasgic wall, a Mycenaean fortification, and the sanctuary of Athena Nike, the shrine of the city's victory goddess at the gateway's edge. The Periclean builders worked on a rock layered with six centuries of building, and their programme — clearing, levelling, rebuilding — was as much an act of memory as of invention: the new temples replaced the old, but the old were not forgotten, and their stones were reused in the new walls as a visible record.",
+            "The programme's financing is the other half of its story. Pericles funded the Acropolis buildings from the treasury of the Delian League, the alliance against Persia that Athens had turned into an empire, transferring the league's treasury from Delos to Athens in 454 BCE and spending its contributions — the phoros, paid by allies in silver — on temples, walls and ships. The expenditure was attacked by Pericles' opponents, Thucydides son of Melesias among them, who argued that Athens was dressing itself in its allies' money; Pericles replied that Athens, as the alliance's protector, owed its allies defence, not an account of its spending. The debate is the first recorded argument about public building finance, and it has never ended: every great public building since has been attacked as extravagance and defended as glory. The Acropolis is beautiful, and it was paid for by empire; both facts belong in its history."
+          ],
+          "figure": "acropolisWest"
+        },
+        {
+          "heading": "Mnesikles' Gateway",
+          "paras": [
+            "The entrance to the Acropolis is itself a masterpiece: the Propylaia, designed by Mnesikles and built between 437 and 432 BCE, left unfinished when the Peloponnesian War diverted funds and labour. The Propylaia is not a temple but a gateway, and its architecture is the architecture of arrival. A central hall, its roof carried on Ionic columns within a Doric facade, is flanked by wings that step down the rock's slope; the visitor passes through five doorways of increasing height, the central one reserved for processions, and emerges onto the Acropolis platform with the Parthenon to the right and the Erechtheion to the left. The Propylaia's Doric facade is deliberately severe, its columns massive, its entablature deep; the interior Ionic columns are slimmer, as if the building relaxed once the threshold was crossed.",
+            "Mnesikles' design is also a lesson in building to a site. The Acropolis rock is irregular, and the Propylaia's wings are asymmetrical because the rock demanded it: the north wing is larger and more complete, the south wing smaller, its plan cut short by the sanctuary of Athena Nike and the rock's edge. The building's unfinished state — the south wing never completed, the interior never fully dressed — is itself instructive: Greek building programmes were vulnerable to war, politics and money, and the greatest of them all was interrupted by the war that would eventually destroy Athenian power. The Propylaia, walked through today by millions of visitors, still performs its original function: it frames the first view of the Parthenon, and it teaches, before a single temple is reached, that Greek architecture is architecture of approach."
+          ],
+          "figure": "propylaia"
+        }
+      ]
+    },
+    {
+      "id": "parthenon",
+      "numeral": "VII",
+      "title": "The Parthenon: Measure, Myth and the Optics of Perfection",
+      "sections": [
+        {
+          "heading": "A Temple, a Treasury, or Both?",
+          "paras": [
+            "The Parthenon is the most famous building in the world, and the least understood in its purpose. Built between 447 and 432 BCE under the architects Iktinos and Kallikrates, it is a Doric peripteral temple of eight columns by seventeen, standing on a three-stepped platform on the highest part of the Acropolis. Its sculpture — ninety-two metopes, a continuous Ionic frieze around the cella, and two great pediments — is the most celebrated marble work of antiquity. Its refinements — the curved stylobate, the leaning columns, the thickened corner columns, the entasis of the shafts — are measured in millimetres and have been studied for two centuries. And yet the building's function is debated. Was it a temple, housing the great gold-and-ivory statue of Athena Parthenos by Phidias? Was it a treasury, housing the wealth of Athens and the Delian League? The answer, most scholars now agree, is both: the Parthenon was a temple whose opisthodomos (rear chamber) served as the city's treasury, and whose statue was itself a store of wealth — the gold plates of Athena's robe could, in emergency, be removed and melted down. The debate matters because it changes how the building is read: not as a church, entered for worship, but as a monument and a bank, approached, circled and admired from without.",
+            "The Parthenon's dimensions repay attention. The temple measures about 30.9 by 69.5 metres on the stylobate, and its columns stand 10.4 metres tall — a ratio of height to diameter of about 5.5 to 1, the Classical Doric canon. The platform is not flat: it rises about 6 centimetres towards the centre of the long sides and 10 centimetres on the short sides, a curve so gentle that it is invisible to the eye and measurable only by survey. The columns lean inward by about 7 centimetres over their height, so that, if extended, they would meet a mile above the building. The corner columns are thickened by about 4 centimetres, to compensate for the light that surrounds them. These are the refinements, and they are the Parthenon's signature: a building that is geometrically imperfect in order to appear perfect.",
+            "The statue that stood in the Parthenon's cella deserves its own paragraph, because it was the building's reason and its treasury at once. The Athena Parthenos, by Phidias, completed around 438 BCE, was a chryselephantine statue — gold and ivory over a wooden core — some twelve metres tall, showing Athena in a peplos, holding a Nike (Victory) in her right hand and a shield and spear in her left, a serpent at her side and a sphinx and griffins on her helmet. The gold alone weighed some forty talents — over a tonne — and was, as Thucydides records, removable: in an emergency the city could strip the statue's gold and coin it, replacing it afterwards. The statue was therefore both a cult image and a gold reserve, and the Parthenon was both a temple and a bank vault. The statue is lost, known only from descriptions and from small Roman copies, but its scale can be felt in the cella's dimensions: the chamber was built around it, its doorway sized to admit it, its floor basin — once thought to hold water for the ivory's humidity — a part of its maintenance. A temple built for a statue of that size is a building designed from the inside out, and the Parthenon's exterior, for all its fame, is the shell of an interior that no longer exists.",
+            "The Parthenon's later history is a second book in itself. After antiquity it became a church, dedicated to the Virgin, in the sixth century CE; under the Ottomans it became a mosque, its Christian additions removed and a minaret raised; in 1687, during the Venetian siege of Athens, an Ottoman powder magazine stored in the temple exploded when struck by a Venetian shell, blowing out the cella walls and toppling fourteen columns. In the early nineteenth century Lord Elgin removed much of the surviving sculpture — the pediments, the metopes, the frieze — to London, where it remains in the British Museum, the subject of the most famous restitution debate in the museum world. In the twentieth and twenty-first centuries the Acropolis Restoration Service has rebuilt the temple's columns, re-erected its walls and re-set its architraves with titanium dowels, in a restoration that is itself a model of archaeological method. The Parthenon today is therefore three buildings at once: a Classical temple, a ruin of war and looting, and a modern restoration — and the reader should see all three, because the building's history did not end in 432 BCE."
+          ],
+          "figure": "parthenon"
+        },
+        {
+          "heading": "The Refinements — And Their Debate",
+          "paras": [
+            "The refinements have been measured, but their intent is debated, and the debate should be stated plainly. The traditional explanation, going back to Vitruvius, is optical: the refinements correct for illusions of the eye — a straight stylobate would appear to sag, a straight column would appear concave, a corner column would appear thin against the sky — and the builders curved, leaned and thickened to make the building look straight. A second explanation is structural and practical: the curves help drainage, the leaning columns stabilise the entablature, the thickened corners carry extra load. A third is cultural: the refinements are the mark of a workshop's skill, a deliberate display of mastery that distinguished the Parthenon's builders from their predecessors. The truth is probably all three at once: the refinements are overdetermined, serving optics, structure and prestige simultaneously. What is not debated is their existence, measured by surveyors from Penrose in the nineteenth century to the Acropolis Restoration Service today, or their effect: the Parthenon, approached from the Propylaia, appears more regular, more upright and more luminous than any building built to a straightedge.",
+            "The refinements also have a cost, and the cost is instructive. Every column of the Parthenon is a slightly different size, every drum a slightly different shape, every joint cut to fit its neighbours. The building could not be built from standardised parts; it demanded a workshop of extraordinary skill, working to tolerances of millimetres across a building of seventy metres. That is why the Parthenon was expensive, why it took fifteen years, and why it was never repeated at the same level of refinement. Later Doric temples — the Hephaisteion, the temples of the Greek west — carry the refinements in reduced form or not at all. The Parthenon is not the norm of Greek building; it is its summit, and its summit was reached once.",
+            "The pediments' compositions deserve a closer reading, because they are the Parthenon's most ambitious sculpture. The east pediment showed the birth of Athena: Zeus seated at the centre, Athena springing from his head, flanked by the gods and goddesses who witnessed the birth — Helios' chariot rising at one corner, Selene's sinking at the other, so that the pediment's triangle is also a day, from dawn to dusk. The west pediment showed the contest of Athena and Poseidon for Attica: the two gods at the centre, Athena's olive tree and Poseidon's salt spring between them, the heroes and kings of Attica flanking them, the rivers of Attica in the corners. The pediments' figures were carved in the round, finished on all sides though only their fronts were visible, and composed for a viewer far below, their scale increasing towards the centre to compensate for perspective. The pediments survive in fragments — in Athens, in London, in Copenhagen — and their reconstruction, from fragments, drawings and the pediment's floor cuttings, is one of classical archaeology's great puzzles. The reader who sees the pediment sculptures in the British Museum or the Acropolis Museum is seeing a reconstruction as much as a survival, and should know it.",
+            "The frieze's subject is the Parthenon's most debated question, and it should be stated as a debate. The traditional reading, that the frieze shows the Panathenaic procession — the citizens of Athens carrying the new peplos to Athena — is supported by the frieze's details: horsemen, chariots, sacrificial cattle, water-bearers, and, on the east side, the gods seated and the peplos itself being folded. A rival reading, proposed by John Boardman, holds that the frieze shows not a contemporary procession but a mythical one — the heroes of Athens, or the dead of Marathon, honoured in a procession that is both historical and ideal. A third reading sees the frieze as a composite, a procession that is both contemporary and mythical, as Athenian festivals themselves were. The debate matters because it changes the frieze's meaning: a contemporary procession makes the Parthenon a monument to Athens' citizens; a mythical procession makes it a monument to Athens' heroes. The frieze's position, inside the colonnade and above eye level, means it was never read closely in antiquity either — it was glimpsed, between columns, as a band of life moving around the temple. Its subject, like its position, is deliberately between the human and the divine."
+          ],
+          "figure": "parthenonDetail"
+        },
+        {
+          "heading": "Sculpture and Colour — A Debate",
+          "paras": [
+            "The Parthenon's sculpture is inseparable from its architecture, and it is the most contested marble in the world — contested in ownership, in interpretation and in colour. The pediments showed the birth of Athena (east) and her contest with Poseidon for Attica (west), carved in the round and composed for a viewer thirty feet below. The metopes showed, on the four sides, the Centauromachy, the Amazonomachy, the Sack of Troy and the Gigantomachy — myths of order defeating chaos, chosen, it is argued, to figure Athens' own victories. The Ionic frieze, running around the cella wall inside the colonnade, showed the Panathenaic procession: horsemen, chariots, sacrificial animals and the gods themselves, in a continuous band of low relief. The frieze's subject is debated — procession or myth, contemporary Athenians or heroes — and its position, inside the colonnade and above eye level, means it was never meant to be read closely. It was meant to be felt: a band of life, moving around the temple, visible in glimpses between the columns.",
+            "The colour is the second debate. The Parthenon, like every Greek temple, was painted: the triglyphs blue, the metopes' backgrounds blue or red, the sculpture's flesh, hair and drapery picked out in colour, the bronze attachments — reins, spears, wreaths — fixed to the marble. The evidence is certain in its existence — pigment survives in sheltered joints, and ancient writers describe painted temples — and uncertain in its extent and hue. Reconstructions differ wildly, from subtle tints to full polychromy, and the debate turns on how much colour a Classical temple carried and how it weathered. The reader should hold two images at once: the white marble Parthenon of the modern imagination, which is a product of weathering and of Neoclassical taste, and the painted Parthenon of antiquity, which was vivid, even gaudy, by modern standards. The truth lies between the museum's white and the reconstruction's rainbow, and it is still being argued, pigment sample by pigment sample."
+          ],
+          "figure": "parthenonMarbles"
+        }
+      ]
+    },
+    {
+      "id": "erechtheion-hephaisteion",
+      "numeral": "VIII",
+      "title": "Beyond the Parthenon: Erechtheion and Hephaisteion",
+      "sections": [
+        {
+          "heading": "The Erechtheion's Three Porches",
+          "paras": [
+            "If the Parthenon is the Classical temple perfected, the Erechtheion is the Classical temple complicated. Built between 421 and 406 BCE on the north edge of the Acropolis, on a site that falls away sharply and that held the city's oldest cults — of Athena Polias, of Poseidon, of the hero Erechtheus — the Erechtheion could not be a simple peripteral box. Instead its architect, unknown by name, composed a building of three porches at three levels: an Ionic porch on the east, a larger Ionic porch on the north, and the famous Caryatid porch on the south, each addressing a different part of the site and a different cult. The plan is irregular, the roof levels vary, the columns are Ionic throughout but of different sizes. The Erechtheion is the proof that the Classical system could bend to a difficult site without breaking — and that Ionic, the order of elegance, was the right character for a building of such complexity.",
+            "The Erechtheion's Ionic is the finest in Greece. The columns are slender — a height of over nine lower diameters — with deep volutes, egg-and-dart moulding and bases of remarkable richness. The frieze, of dark Eleusinian stone with white marble figures attached, is a technical tour de force: the figures were carved separately and pinned to the dark ground, so that the frieze reads as white sculpture on a dark band. The building's asymmetry is deliberate, not accidental: the south porch, carried on Caryatids, stands over the tomb of Cecrops, the mythical first king; the north porch marks the spot where Poseidon's trident struck the rock; the east porch serves Athena's temple. The Erechtheion is a building that tells the city's myths in its plan, and it is the most Athenian building on the Acropolis precisely because it is the least regular.",
+            "The Erechtheion's cults are the key to its plan, and they are worth enumerating. The building housed, in its eastern cella, the ancient wooden image (xoanon) of Athena Polias, the city's protector, before which a lamp burned perpetually; in its northern porch, the marks of Poseidon's trident in the rock and the salt spring (the Erechtheis) that Poseidon was said to have struck; in its southern porch, the tomb of Cecrops, the serpent-king who founded Athens; and, on the site, the sacred olive tree that Athena gave the city in her contest with Poseidon. The building's three porches serve three cults, and its irregular plan is the plan of a site that could not be cleared: the cults were older than the building, and the building had to accommodate them. The Erechtheion is therefore not a temple in the peripteral sense but a shrine complex, a building that grew around sacred spots rather than imposing a plan upon them. Its asymmetry is its honesty.",
+            "The Erechtheion's north porch deserves a paragraph of its own. It is the building's tallest porch, its Ionic columns rising over seven metres, its doorway the finest in Greek architecture — a doorframe of extraordinary richness, with rosettes, bead-and-reel and egg-and-dart mouldings carved with a precision that the rest of the building, for all its fineness, does not match. The doorway's fame is such that it was copied, in plaster and in stone, across Europe in the nineteenth century, and its details became the pattern-book for Greek Revival doorways. The north porch's ceiling, coffered in marble, and its side door, leading to the sanctuary's lower level, show the building's vertical complexity: the Erechtheion is not one floor but several, stepping down the rock, and its porches address different ground levels as well as different cults. A building that is, in plan, a puzzle is, in section, a cascade."
+          ],
+          "figure": "erechtheion"
+        },
+        {
+          "heading": "The Caryatids",
+          "paras": [
+            "The Caryatid porch is the Erechtheion's signature, and one of the most copied details in architecture. Six draped female figures, each about 2.3 metres tall, stand on a high podium and carry the porch's entablature on their heads, their hair falling in braids, their drapery falling in vertical folds that echo the fluting of a column. The figures are not identical: their poses, drapery and hairstyles vary, and they are arranged so that the weight appears to be carried effortlessly, the strong leg straight, the free leg bent, the drapery pulled taut over the supporting leg. The porch's engineering is as fine as its sculpture: the entablature's weight is carried through the figures' heads and necks, reinforced by the mass of hair, and the figures stand on a podium that distributes the load. The porch has been copied from the Renaissance to the present — in London, in St Petersburg, in Chicago — and every copy testifies to the original's power: the column become a body, structure become sculpture.",
+            "The Caryatids' history is also a history of loss. One of the six was removed by Lord Elgin in the early nineteenth century and is now in the British Museum; the remaining five were moved to the Acropolis Museum in 1979 and replaced on the building by copies, to protect them from Athens' polluted air. The porch as it stands today is therefore a reconstruction in part, and the reader should know it: the figures on the Acropolis are casts, the originals indoors. The displacement is part of the larger story of the Parthenon sculptures, and it raises the same questions about where Greek art belongs. This book takes no position on restitution; it records the fact, because a reader who photographs the porch should know what they are photographing."
+          ],
+          "figure": "caryatids"
+        },
+        {
+          "heading": "The Hephaisteion",
+          "paras": [
+            "The Temple of Hephaestus, long called the Theseion, stands above the Agora on the Kolonos hill, and it is the best-preserved Doric temple in Greece. Built around 449–415 BCE, probably by the architect of the Parthenon, it is a peripteral temple of six by thirteen columns, with a cella, pronaos and opisthodomos, and sculpture — metopes of Heracles and Theseus, an Ionic frieze of the battle of Theseus and the Pallantids — that survives in greater completeness than the Parthenon's. The Hephaisteion's preservation is an accident of history: it was converted into a church, of St George, in the seventh century CE, and maintained as a church until the nineteenth century, which saved its roof, its columns and much of its sculpture from the quarrying and burning that destroyed other temples.",
+            "The Hephaisteion is the Parthenon's quiet sibling, and for a student of the Doric order it is in some ways the better teacher. Its refinements are present but restrained — a slight curvature of the stylobate, a slight entasis — and its proportions are the Classical canon without the Parthenon's exceptional elaboration. Standing in the Agora below it, the visitor sees what a Doric temple looked like as a working building in a working city: not an isolated monument on a rock, but a temple above a marketplace, its columns framing the civic life of Athens. The Hephaisteion reminds the reader that Greek temples were not museum pieces but parts of cities, and that their architecture was meant to be lived with, walked past and used.",
+            "The Hephaisteion's sculpture repays the same attention as the Parthenon's, on a smaller and more legible scale. The eastern metopes show the Labours of Heracles; the western metopes, the deeds of Theseus; the Ionic frieze over the pronaos shows the battle of Theseus and the Pallantids, and the frieze over the opisthodomos shows the Centauromachy. The sculpture's survival — much of it in place, weathered but legible — makes the Hephaisteion the best place in Athens to see a Doric temple's sculptural programme as it was meant to be seen: metopes in the frieze, frieze above the porch, pediments (now lost) above all. The Hephaisteion's conversion to a church saved its sculpture as well as its columns: as St George's church it was maintained, roofed and whitewashed, and its metopes, though Christianised in interpretation, were not destroyed. The building's preservation is an accident of reuse, and it is the reason the Hephaisteion, not the Parthenon, is the best-preserved Doric temple in Greece."
+          ],
+          "figure": "hephaisteion"
+        }
+      ]
+    },
+    {
+      "id": "agora",
+      "numeral": "IX",
+      "title": "The Agora: The City in a Square",
+      "sections": [
+        {
+          "heading": "The Civic Heart",
+          "paras": [
+            "The Agora of Athens was not a building but a place: an open square, roughly rectangular, at the foot of the Acropolis, where the city's political, commercial, judicial and social life converged. Around it stood the buildings of democracy: the Bouleuterion (council house), the Tholos (where the presiding committee dined), the law courts, the mint, the stoas where citizens walked, talked and shopped. The Agora's architecture is the architecture of the open air: the square itself, its boundaries marked by stoas and temples, its centre occupied by altars, statues and the occasional tree. The Hephaisteion above it, the Stoa of Attalos along its east side, and the Painted Stoa on its north gave the square its frame; the life of the city gave it its meaning.",
+            "The Agora's buildings were rebuilt many times, and its present state — excavated by the American School since the 1930s, with the Stoa of Attalos reconstructed in the 1950s — is a palimpsest of six centuries. The square's importance is not in any single building but in the idea it embodies: that a city's public life needs a public place, open to all citizens, framed by colonnades that shelter discussion and commerce alike. The Agora is the ancestor of the forum, the piazza, the town square and the civic centre, and its architecture — the stoa above all — is the most influential civic form the Greeks invented. A reader who understands the Agora understands why Greek architecture matters beyond temples: it invented the public realm as a built thing.",
+            "The Agora's individual buildings complete the picture. The Bouleuterion, rebuilt several times, housed the Council of Five Hundred, the city's executive; the Tholos, a round building beside it, housed the prytaneis, the fifty councillors on duty, who dined there at public expense and were available day and night — the Tholos is the only round public building in the Agora, and its form, a circle for a committee, is as deliberate as any temple's. The law courts, large roofed halls with benches for hundreds of jurors, hosted the trials that fill Athenian literature; the Mint struck the city's silver owls, the currency of the Aegean; the Altar of the Twelve Gods, at the Agora's northwest corner, was the point from which distances in Attica were measured — the zero milestone of Athens. The Agora was not a single building but a city in miniature, and its architecture — stoas, temples, council houses, courts, altars — is the built form of democracy itself.",
+            "The Panathenaic Way, the processional road that crossed the Agora diagonally from the Dipylon Gate to the Acropolis, is the Agora's spine and the city's great processional route. Every four years the Panathenaic procession — priests, officials, cavalry, sacrificial animals, and the ship-cart carrying the new peplos (robe) for Athena — processed along it, through the Agora and up the Acropolis, in the festival that the Parthenon's frieze depicts. The Way's line is still traceable in the Agora's excavations, its gravel surface and wheel ruts surviving beneath the modern city. The Agora, then, was not only a market and a court but a stage: its buildings framed a procession that, once every four years, turned the whole city into a temple precinct. The reader who walks the Agora today, following the Way's line, is walking the Panathenaic procession's route — and the Parthenon's frieze, showing that procession, becomes a map of the walk."
+          ],
+          "figure": "agoraView"
+        },
+        {
+          "heading": "The Stoa",
+          "paras": [
+            "The stoa is the Greek answer to the covered walk: a long, roofed colonnade, open on one side and walled on the other, freestanding or attached to a building, single- or double-aisled, one or two storeys. The Stoa of Attalos, built around 150 BCE as a gift from Attalos II of Pergamon to Athens, is the grandest surviving example — reconstructed in the 1950s as the Agora Museum — with two storeys, Doric columns below and Ionic above, and a row of shops behind the colonnade. Walking its length today, the visitor experiences the stoa's essential quality: it is a building that is also a street, a place that is both inside and outside, where commerce, conversation and shelter coexist under a single roof.",
+            "The stoa's influence is incalculable. It became the model for the Roman basilica's aisles, the medieval cloister, the Renaissance loggia, the shopping arcade and the modern mall. Its architectural logic is simple and profound: a colonnade creates a shaded, sheltered edge between a public square and the buildings behind it, and that edge becomes the city's living room. The Stoa of Attalos, with its two orders stacked, its shops behind and its terrace above, shows the type at its most developed; the Painted Stoa, whose walls carried paintings of Marathon and the Amazons, shows it at its most civic — a colonnade that was also a picture gallery and a history lesson. The stoa is Greek architecture's most democratic invention, and its most enduring."
+          ],
+          "figure": "stoaAttalos"
+        }
+      ]
+    },
+    {
+      "id": "theatre-stadium",
+      "numeral": "X",
+      "title": "Theatre and Stadium: Buildings for the Crowd",
+      "sections": [
+        {
+          "heading": "The Theatre at Epidauros",
+          "paras": [
+            "The Greek theatre is a building shaped by a hillside. At Epidauros, in the sanctuary of Asklepios, the theatre built by Polykleitos the Younger around 360–330 BCE uses a natural slope to carry fifty-five rows of limestone seats in a cavea wider than a semicircle, divided by stairways into twelve wedges, with an orchestra circle below and a stage building (skene) behind it. The theatre's fame rests on its acoustics: a whisper, a coin dropped, a match struck on the orchestra floor is said to carry to the highest row. The claim is exaggerated — modern measurements show the acoustics are excellent but not magical — and the explanation is architectural: the limestone seats, the precise geometry of the cavea, the absence of a high Roman stage wall to trap sound. The theatre at Epidauros is the Greek theatre at its most perfect because it is the most purely Greek: no Roman additions, no medieval rebuilding, just the hillside, the stone and the geometry.",
+            "The theatre's development tells the history of Greek drama in stone. The earliest theatres were temporary wooden stands around a circular dancing floor; by the fifth century the stands were stone, the orchestra was a full circle, and the skene had grown from a hut into a stone facade with painted panels. The audience sat by tribe and ticket, the priests and officials in the front row, the ordinary citizens behind, the whole city assembled in a single bowl. The theatre was not only for plays: it hosted assemblies, festivals, musical competitions and civic ceremonies. Its architecture — the cavea as a social diagram, the orchestra as a civic floor — is the built form of the Greek conviction that a city should gather, watch and judge together. The Roman theatre, with its high stage wall and semicircular orchestra, would change the balance from audience to spectacle; the Greek theatre kept the circle whole.",
+            "The theatre's machinery deserves a paragraph, because it is the most inventive part of Greek theatre architecture. The skene, the stage building, developed from a wooden hut into a two-storey stone facade with a roof (logeion) from which actors spoke and a proskenion (a colonnade) before it; the mechane, a crane, swung actors playing gods above the stage — the origin of deus ex machina; the ekkyklema, a wheeled platform, rolled out to reveal interior scenes, usually corpses. The theatre at Athens, dedicated to Dionysus on the Acropolis' south slope, had all of these, and its stone seats — inscribed with the names of priests and officials in the front row — survive in part today. The theatre's architecture was therefore not only a bowl for watching but a machine for showing: a building with cranes, platforms and painted panels, designed to make the gods fly and the dead appear. The modern theatre's fly tower, revolve and trap are the mechane and ekkyklema's descendants.",
+            "The theatre's acoustics, at Epidauros and elsewhere, have been measured rather than mythologised, and the measurements are instructive. The cavea's limestone seats, with their corrugated profile, filter low-frequency crowd noise while reflecting the higher frequencies of speech; the orchestra's hard floor reflects sound upward; the absence of a high Roman stage wall lets sound escape rather than echo. The result is a theatre in which unamplified speech carries to the back row, not by magic but by geometry and material. The claim that a coin dropped on the orchestra can be heard at the top is an exaggeration — modern tests show a coin is audible only in the lower rows — but the theatre's intelligibility, measured in speech-transmission indices, is genuinely exceptional. Epidauros' acoustics are an engineering achievement, not a miracle, and they are the reason the theatre's design, more than any other Greek building type, is still studied by acousticians today."
+          ],
+          "figure": "epidaurusTheatre"
+        },
+        {
+          "heading": "The Stadium",
+          "paras": [
+            "The stadium is the Greek building type with the simplest form and the longest afterlife. At Olympia, the stadium is a long, flat track — the stadion, about 192 metres, the length of a footrace — between two grassed banks, with a stone starting line (balbis) at one end and a vaulted entrance tunnel at the other. There were no grandstands in the modern sense: spectators sat or stood on the banks, the judges sat on a stone platform, and a single altar to Demeter marked the one place reserved for a priestess. The stadium's architecture is almost nothing — a levelled strip, two banks, a line in stone — and that nothing is the point: the building is the ground itself, prepared for running, and the crowd is part of the architecture rather than housed by it.",
+            "The stadium's simplicity is deceptive. The track's length became a unit of measure — the stadion — used across the Greek world for distances and for the size of cities; the starting line's grooves, cut for runners' toes, survive at Olympia and at Nemea; the entrance tunnel, vaulted in stone, is one of the earliest vaults in Greek architecture, built not for show but to bring athletes into the arena unseen. The games at Olympia, held every four years from 776 BCE, made the stadium a panhellenic institution: a place where Greeks from every city met, competed and, for the duration of the games, laid down their wars. The modern Olympic stadium, from Athens 1896 to the present, inherits the form and the name, and the debt is direct: the stadium is the Greek building that never went away.",
+            "The games' other buildings complete the stadium's picture. At Olympia, the gymnasium and palaestra — open courts with colonnades for training and wrestling — stood beside the stadium, and the Leonidaion, a hostel for distinguished visitors, and the Prytaneion, where the Olympic flame burned, completed the sanctuary's civic quarter. At Nemea, the stadium's entrance tunnel, vaulted in stone and over a hundred metres long, survives in full, and its walls carry the graffiti of athletes — names scratched by competitors waiting to enter the arena. At Delphi, the stadium sits high on the hillside above the sanctuary, its seats cut into the slope, its track visible from the theatre below. The stadium, in short, was never alone: it was part of a sanctuary complex, and its architecture — the track, the banks, the tunnel, the starting line — was the minimum necessary to stage a race. The modern stadium, with its roofs, boxes and screens, is the stadium's descendant, but the Greek stadium's lesson is the opposite: a race needs a track, a line and a crowd, and nothing else.",
+            "The Theatre of Dionysus at Athens, on the Acropolis' south slope, is the theatre that matters most historically, though Epidauros is better preserved. The Athenian theatre hosted the City Dionysia, the festival at which Aeschylus, Sophocles and Euripides premiered their tragedies and Aristophanes his comedies, and its stone theatre — rebuilt in the fourth century BCE, with a stone skene and a cavea of some seventeen thousand seats — is the building in which Greek drama was performed at its height. The theatre's front-row seats, inscribed with the names of priests and officials, survive, as does the choregic monument tradition that the Lysicrates monument exemplifies: the wealthy citizens who funded choruses commemorated their victories with monuments around the theatre, and the Street of the Tripods, running from the theatre into the city, was lined with them. The Theatre of Dionysus is therefore not only a theatre but the archive of Greek drama's civic life, and its stones, inscribed and worn, are the record of the festival that invented theatre.",
+            "The stadium at Delphi and the hippodrome at Olympia complete the games' architecture. Delphi's stadium, high on the hillside above the sanctuary, held the Pythian games' athletic events, its track and seats cut into the slope, its starting line and turning posts surviving. Olympia's hippodrome, for chariot and horse races, lay to the south of the Altis, on flat ground beside the Alpheus, and has left almost no trace — its course is known from descriptions and from geophysical survey, not from standing remains. The hippodrome's absence is itself instructive: the most spectacular Greek sporting event, the four-horse chariot race, whose crashes (naufragia) were legendary, was staged in a building that was little more than a levelled field with turning posts and a starting mechanism (hysplex). The Greek games, like the Greek theatre, needed remarkably little architecture: a track, a line, a crowd, and, for the chariots, a field. The modern stadium's roofs and screens are the opposite of the Greek stadium's economy."
+          ],
+          "figure": "olympiaStadium"
+        }
+      ]
+    },
+    {
+      "id": "greek-house",
+      "numeral": "XI",
+      "title": "The Greek House: Olynthus and the Private Plan",
+      "sections": [
+        {
+          "heading": "A City of Houses",
+          "paras": [
+            "Greek domestic architecture is the hardest Greek building to see, because houses were built of mudbrick on stone socles and have mostly dissolved back into the earth. The exception is Olynthus, in Chalcidice, a city destroyed by Philip II of Macedon in 348 BCE and never rebuilt, whose house foundations survive in a regular grid of streets and blocks. Olynthus is the Pompeii of the Greek house: a whole city, frozen at a single moment, whose plans can be read street by street. The houses are modest — typically a courtyard with rooms around it, a pastas (a roofed porch) on the north side, an andron (men's dining room) with space for seven or eleven couches, a kitchen, storerooms and, in wealthier houses, a bath and a mosaic floor. The plan is inward-looking: the house turns its back to the street and opens to its own courtyard, where light, air and family life converge.",
+            "Olynthus also shows the Greek city as a planned thing. The streets run in a grid, the blocks are regular, the houses are of similar size and orientation — a democratic regularity that contrasts with the organic growth of older cities. The grid at Olynthus is an early example of the Hippodamian plan, the regular street system credited to Hippodamos of Miletus and applied at Piraeus, Rhodes and, later, Priene. The house plan and the city plan belong together: both are expressions of a culture that valued order, measure and the equality of citizens, and both would be inherited by Rome and by the modern planned city. The Greek house, for all its modesty, is the ancestor of the courtyard house, the atrium house and the Mediterranean patio — the inward-looking house that makes a private world within the city.",
+            "The houses of Delos add a second chapter to Olynthus'. Delos, the sacred island and a free port under Athens, grew rich in the second century BCE, and its wealthy houses — the House of the Trident, the House of the Masks, the House of Dionysus — are larger and richer than Olynthus', with peristyle courtyards of twelve or sixteen columns, mosaic floors of exceptional fineness, and upper storeys whose existence is proved by staircases. The Delian house is the Greek house at its most luxurious: a peristyle courtyard, rooms of mosaic and painted plaster, a cistern for rainwater, and, in the House of the Trident, a mosaic of a trident and anchor that may be the owner's trade mark. Delos shows what the Greek house became when wealth and trade allowed: not a courtyard house but a peristyle house, a small palace in the city, and the direct ancestor of the Roman atrium-peristyle house and the Pompeian domus.",
+            "The women's quarters — the gynaikonitis — deserve a note, because their interpretation is debated. Older scholarship placed women in a separate, secluded wing or upper floor, and read the house's plan as a diagram of gender segregation. Newer work argues that the evidence — the texts, the houses' plans, the finds — does not support a rigid separation, and that women's work (weaving, cooking, childcare) happened throughout the house, in the courtyard and the pastas as much as in any single room. The debate matters because it changes how the house is read: not as a prison for women but as a working household, in which space was organised by activity rather than by sex. The reader should hold both readings: the house's plan is inward-looking and its rooms are differentiated, but the differentiation is functional — andron for dining, kitchen for cooking, courtyard for work — rather than a simple map of gender."
+          ],
+          "figure": "olynthus"
+        },
+        {
+          "heading": "The Courtyard House",
+          "paras": [
+            "The Greek house's centre is its courtyard (aule), an open space, usually colonnaded on one side, around which the rooms are arranged. The courtyard is the house's light well, its ventilation, its workshop and its social heart: cooking, weaving, washing and conversation happened there, and the rooms around it — the andron for men's symposia, the gynaikonitis (women's quarters) on an upper floor or in a separate wing, the kitchen with its hearth — took their light and air from it. The house's exterior, by contrast, was deliberately plain: mudbrick walls, few windows, a single door onto the street. The Greek house hid its life, as the Greek temple displayed its; the contrast is the culture's architectural signature, public splendour and private modesty in a single city.",
+            "The house's decoration, where it survives, is concentrated in the andron and the courtyard: pebble mosaics, at first in black and white, later in colour, showing Bellerophon, Dionysus and geometric borders; painted plaster on the walls; terracotta figurines in the household shrine. The mosaics of Olynthus and of Pella, in Macedonia, are the finest surviving Greek domestic art, and they show that the Greek house, for all its plain exterior, was richly finished within. The house's afterlife is long: the Roman atrium house, with its compluvium and impluvium, is the Greek courtyard house translated into Roman terms; the Islamic courtyard house, the Spanish patio and the modern courtyard house all descend from the same plan. The Greek house is the most private Greek building, and the most widely copied."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olympia-delphi",
+      "numeral": "XII",
+      "title": "Olympia and Delphi: The Panhellenic Sanctuaries",
+      "sections": [
+        {
+          "heading": "Olympia",
+          "paras": [
+            "Olympia was not a city but a sanctuary: a grove (the Altis) on the banks of the Alpheus, where the Olympic games were held every four years and where city-states dedicated treasuries, statues and temples to Zeus. The Temple of Zeus, built around 470–456 BCE by Libon of Elis, was a Doric peripteral temple of six by thirteen columns, larger than the Parthenon in footprint, housing the gold-and-ivory statue of Zeus by Phidias — one of the Seven Wonders of the ancient world. The temple's sculpture, the pediments showing the chariot race of Pelops and the Centauromachy, survives in the Olympia museum and is among the finest Classical carving in existence. Today the temple is fallen: a single column, re-erected in the nineteenth century, stands above a field of drums, and the visitor must imagine the building from its platform and its sculpture. The fall is itself instructive: Olympia's temples were toppled by earthquakes, and their stone was quarried for later building, so that the sanctuary's present state is a ruin in the fullest sense.",
+            "Olympia's architecture is the architecture of a gathering place. The sanctuary's buildings — the temples of Zeus and Hera, the treasuries along the terrace, the gymnasium and palaestra for training, the stadium and hippodrome for competition, the hostels and baths for visitors — form a small city that existed for the games and for the oracle, and that emptied between festivals. The sanctuary's plan is loose, even sprawling, compared with the Acropolis' composition: buildings were added over centuries by different cities, in different styles, without a master plan. That looseness is the point: Olympia was not a single city's monument but all Greece's meeting place, and its architecture records the competition of cities — in treasuries, in statues, in dedications — as faithfully as its games recorded the competition of athletes.",
+            "Olympia's treasuries and workshops add the sanctuary's second layer. The treasuries, small temple-like buildings along the terrace at the Altis' north edge, were built by individual cities — Sikyon, Syracuse, Gela, Megara — to house their dedications to Zeus, and they compete in miniature for attention, each in the style of its city. The workshop of Phidias, excavated east of the temple, is a building of the same footprint as the temple's cella, built so that the sculptor could assemble the gold-and-ivory Zeus in sections before installing it — the workshop's plan is the statue's plan, and its discovery confirmed ancient accounts of the statue's construction. The Philippeion, a circular memorial built by Philip II after Chaeronea, is the sanctuary's only round building and its most political: a Macedonian king's monument in the heart of panhellenic Olympia, announcing the new order. Olympia's buildings, read together, are a history of Greece in miniature: city competition, artistic mastery and, finally, Macedonian domination.",
+            "The Altis' layout repays a final note. The sanctuary's buildings are not arranged on a grid or an axis but accreted over centuries, each new dedication finding its place among the old. The Temple of Zeus dominates the centre, but the Heraion, older and smaller, stands to its north; the treasuries line the terrace; the stadium lies to the east, outside the Altis proper, reached through the vaulted entrance; the hippodrome, for chariot races, lay to the south and has left almost no trace. The sanctuary's plan is therefore a palimpsest, and its reading requires the same skill as reading a city: distinguishing layers, dating buildings by style, and seeing how each generation added to, rather than replaced, the last. Olympia is not a composition but an accumulation, and its beauty is the beauty of accumulation — of a place that grew by dedication, over eight centuries, into the most sacred ground in Greece."
+          ],
+          "figure": "olympiaZeus"
+        },
+        {
+          "heading": "Delphi",
+          "paras": [
+            "Delphi, on the slopes of Mount Parnassus above the Pleistos valley, was the most important oracle in the Greek world, and its sanctuary is the most dramatic site in Greek architecture. The Sacred Way climbs in switchbacks from the lower sanctuary of Athena Pronaia, past treasuries built by Athens, Siphnos, Sparta and other cities, to the Temple of Apollo on its terrace, with the theatre above it and the stadium higher still on the hillside. The sanctuary's architecture is the architecture of procession: the visitor climbs, turns, and is presented with successive views — of treasuries, of the temple's facade, of the valley below — in a sequence that was designed as carefully as any temple's plan. Delphi's site does half the architect's work: the mountains, the valley and the light make every building part of a larger composition that no architect could have designed alone.",
+            "The Temple of Apollo itself, rebuilt in the fourth century BCE after an earthquake, was a Doric peripteral temple of six by fifteen columns, housing the oracle's adyton — the inner chamber where the Pythia, the priestess, delivered her prophecies. The temple's sculpture, the pediments and metopes now in the Delphi museum, showed Apollo's arrival and the Gigantomachy; its inscriptions, carved on the architrave and the walls, carried the maxims 'Know thyself' and 'Nothing in excess'. Delphi's treasuries are the sanctuary's most revealing buildings: small, temple-like structures built by individual cities to house their dedications, each in the style and scale of its dedicator, competing for attention along the Sacred Way. The Siphnian Treasury, with its Ionic frieze and Caryatid porch, is the finest — a miniature temple that outshines many full-sized ones. Delphi is Greek architecture as diplomacy: a sanctuary where cities built to be seen by all Greece.",
+            "The Siphnian Treasury is Delphi's masterpiece in miniature, and it deserves its own paragraph. Built around 525 BCE by the island of Siphnos, rich from its gold and silver mines, the treasury is a small Ionic building — a porch with two Caryatids (the earliest surviving Caryatids in Greek architecture, predating the Erechtheion's by a century) and a continuous frieze around all four sides, showing the gods in battle, the judgment of Paris, the abduction of Helen and the Gigantomachy. The frieze's carving, in high relief and painted, is among the finest Archaic sculpture in existence, and its subjects — the gods' wars, Paris' choice, Helen's abduction — are the myths that Delphi's oracle interpreted. The treasury's Caryatids, draped women carrying the porch's entablature, are the direct ancestors of the Erechtheion's maidens, and they prove that the Caryatid porch was not an Athenian invention but a Siphnian one, borrowed by Athens a century later. Delphi's treasuries are small buildings with large histories.",
+            "The oracle's operation is the other half of Delphi's story. The Pythia, the priestess of Apollo, delivered her responses from the adyton, the temple's inner chamber, seated on a tripod above a chasm from which, according to ancient accounts, vapours rose; her utterances, often obscure, were shaped into verse by the temple's priests and delivered to enquirers — city-states asking about wars, colonies and laws, individuals asking about marriages and voyages. Modern geology has found ethylene-bearing gases in the rock beneath Delphi, and the vapours' role in the Pythia's trance is debated, though not proved. What is certain is the oracle's political weight: Delphi's responses shaped Greek history, from the founding of colonies to the conduct of wars, and the sanctuary's wealth — its treasuries, its dedications, its control of the Amphictyonic League — was the wealth of an institution that all Greece consulted. Delphi's architecture, the Sacred Way and the treasuries, is the built form of that consultation: a sanctuary designed for enquirers to climb, dedicate and wait."
+          ],
+          "figure": "delphiView"
+        },
+        {
+          "heading": "The Tholos",
+          "paras": [
+            "Below the main sanctuary at Delphi, in the sanctuary of Athena Pronaia, stands the most enigmatic building in Greek architecture: the Tholos, a circular temple built around 380 BCE, of which three columns and part of the entablature still stand against the mountains. The Tholos is a peripteral temple in the round: twenty Doric columns outside, ten Corinthian columns inside, a circular cella, and a sculpted frieze of Amazons and Centaurs. Its purpose is unknown — it may have been a treasury, a shrine, a monument — and its circular form breaks the rectangular logic of the Greek temple so completely that it has been called the most beautiful building in Greece. The Tholos proves that the Greeks could build in the round, and that they did so, rarely, for buildings whose purpose demanded a centre rather than an axis.",
+            "The Tholos at Delphi and the Tholos at Epidauros, treated in the next chapter, are the two great circular temples of the Classical age, and they share a quality: they are buildings designed to be walked around, not entered along an axis. The circular temple has no front and no back, no processional direction, only a centre; it is the architectural form of a mystery, a place whose meaning is in its geometry rather than its narrative. The Romans would adopt the circular temple for the Pantheon and for their own tholoi; the Renaissance would revive it for tempietti and chapels; the modern world builds rotundas for museums and memorials. The Tholos at Delphi, standing in its mountain landscape, is the form's origin and its most poetic instance."
+          ],
+          "figure": "delphiTholos"
+        }
+      ]
+    },
+    {
+      "id": "epidauros-eleusis",
+      "numeral": "XIII",
+      "title": "Healing and Mystery: Epidauros and Eleusis",
+      "sections": [
+        {
+          "heading": "The Sanctuary of Asklepios",
+          "paras": [
+            "Epidauros, in the hills of the Argolid, was the most important healing sanctuary in the Greek world, and its architecture is the architecture of care. The sanctuary of Asklepios, god of medicine, comprised not a single temple but a small city of healing: the temple of Asklepios itself, the abaton (the dormitory where patients slept and dreamed their cures), the katagogion (a hostel for visitors), the baths, the gymnasium, and, above them all, the theatre. The sanctuary's most famous building after the theatre is the Tholos, a circular temple built around 360 BCE by Polykleitos the Younger, with a Doric colonnade outside and a Corinthian colonnade inside, and a labyrinthine foundation beneath its floor — a maze of walls whose purpose, whether structural or ritual, is still debated. The Tholos at Epidauros, like its namesake at Delphi, is a building designed around a centre, and its circular form may have figured the wholeness that healing promised.",
+            "Epidauros' architecture is inseparable from its medicine. Patients arrived, purified themselves, offered sacrifices, and slept in the abaton, where the god was believed to visit them in dreams and prescribe treatments — diets, baths, exercises, sometimes surgery. The sanctuary's buildings supported that regime: the baths for hydrotherapy, the gymnasium for exercise, the theatre for the catharsis of drama, the stoas for walking and conversation. The sanctuary was, in modern terms, a hospital, a spa, a theatre and a hotel combined, and its architecture — open, colonnaded, set in a wooded valley — was part of the treatment. The Greek belief that place heals, that a beautiful and ordered environment restores the body, is the ancestor of the modern hospital garden and the therapeutic landscape, and Epidauros is its first great instance.",
+            "The sanctuary's inscriptions are its most human document. The iamata — inscribed stelae recording cures at Epidauros — survive in part, and they read like case notes mixed with miracle tales: a man with a spear wound in his jaw sleeps in the abaton and dreams that Asklepios draws the spear out; a blind man recovers his sight; a woman's pregnancy, overdue for years in the telling, is resolved in a dream. Modern readers have debated whether the iamata record real treatments, placebo cures, priestly stagecraft or all three; what is certain is that the sanctuary's architecture — the abaton for dreaming, the baths for washing, the theatre for catharsis — was designed around the dream cure, and that the cures, whatever their mechanism, brought thousands of pilgrims to Epidauros for centuries. The sanctuary's success is measurable in its buildings: the theatre, the Tholos, the katagogion and the baths were built and rebuilt over four centuries, funded by grateful patients and by cities that sent their sick as a civic act.",
+            "The Tholos' foundation labyrinth deserves its own note, because it is the sanctuary's strangest feature. Beneath the Tholos' circular floor lies a maze of concentric walls, forming a labyrinth that can be entered from the cella and that leads, by a winding passage, to the centre. Its purpose is debated: it may have been structural, supporting the floor; it may have been ritual, a place for initiates to walk in darkness; it may have been a treasury, a snake pit (Asklepios' sacred snakes lived in the sanctuary) or a drain. The labyrinth is inaccessible today, filled and sealed, and its interpretation rests on its plan alone. The Tholos at Epidauros is therefore doubly mysterious: a circular temple whose purpose is unknown, over a labyrinth whose purpose is unknown. The pairing is apt for a healing sanctuary, where mystery was part of the medicine."
+          ],
+          "figure": "epidaurusTholos"
+        },
+        {
+          "heading": "The Telesterion",
+          "paras": [
+            "Eleusis, on the Sacred Way from Athens to the west, was the site of the Eleusinian Mysteries, the most important religious initiation in the Greek world, held annually for over a thousand years. The Mysteries' building, the Telesterion, is unlike any Greek temple: a great square hall, about 51 metres on each side, its roof carried on rows of columns — seven rows of six in its final form — with no peristyle, no pediment, no exterior colonnade to admire. The Telesterion was designed from the inside: it held thousands of initiates standing in darkness, watching a ritual that was never written down and whose secret was kept, on pain of death, for a millennium. The building's architecture is the architecture of assembly and concealment: a vast interior, lit by a lantern or by torches, whose exterior gave nothing away.",
+            "The Telesterion's form is the exception that proves the temple's rule. Greek temples are normally experienced from without; the Telesterion was experienced from within, and its plain exterior — a square block with a porch — is the deliberate inverse of the peripteral temple's display. The building was rebuilt several times, most grandly under the Romans, and its ruins today, shown here with the modern town of Eleusis behind them, are a field of column bases and broken walls. The Mysteries themselves remain unknown: what the initiates saw, whether a vision of Persephone's return or a simple drama of light, is lost with the secret. The Telesterion is a reminder that Greek architecture served purposes beyond the visible — that some of its greatest buildings were designed for experiences that left no description, only a hall.",
+            "The Eleusinian procession is the Mysteries' public face, and it is worth reconstructing. Each autumn, the initiates (mystai) walked the Sacred Way from Athens to Eleusis, some twenty kilometres, in a procession that began at the Dipylon Gate, crossed the Agora, passed the sacred fig tree and the bridge over the Cephisus — where masked figures mocked the initiates, a ritual abuse called the gephyrismos — and arrived at Eleusis at nightfall, carrying torches. The initiates fasted, bathed in the sea at Phaleron, sacrificed a piglet, and entered the Telesterion, where the hierophant (the high priest) revealed the sacred objects (hiera) and performed the central rite, the dromena — things done — whose content is lost. The procession's architecture — the Sacred Way, the bridge, the Telesterion's great hall — is the Mysteries' built form: a journey from the city to the sanctuary, from daylight to darkness, from the public road to the secret hall. The Mysteries' secrecy has kept their content unknown, but their form — procession, hall, revelation — is the form of every initiation since.",
+            "The Telesterion's phases trace the Mysteries' growth. The earliest Telesterion, of the sixth century BCE, was a small square hall; under Peisistratus it grew; under Pericles, Iktinos — the Parthenon's architect — designed a larger hall, though his plan was altered; under the Romans it reached its final form, the great hall of seven rows of six columns, with a porch and a lantern. Each phase enlarged the hall to hold more initiates, and the final hall could hold several thousand standing. The Telesterion's columns, unlike a temple's, stood inside the hall, carrying a roof that had to span a hall fifty metres square without intermediate walls — an engineering problem solved by the forest of columns itself. The Telesterion is therefore not only a religious building but a structural achievement: the largest roofed assembly space in the Greek world, built to hold a crowd in darkness. Its ruins, a field of column bases, do not convey its scale; the plan does, and the plan is the reason the Telesterion belongs in a book on architecture rather than only in a book on religion."
+          ],
+          "figure": "eleusis"
+        }
+      ]
+    },
+    {
+      "id": "pergamon",
+      "numeral": "XIV",
+      "title": "Pergamon: Theatre, Altar and the Hellenistic City",
+      "sections": [
+        {
+          "heading": "The Theatre on the Cliff",
+          "paras": [
+            "Pergamon, the capital of the Attalid kingdom in western Asia Minor, is the Hellenistic city at its most dramatic. Its acropolis rises steeply above the Caicus plain, and its theatre, built into the hillside at an angle of about seventy degrees — the steepest theatre in the ancient world — seats ten thousand in a cavea that seems to hang above the plain. The theatre's stage building, at the foot of the slope, was of timber in the Hellenistic period and rebuilt in stone under Rome; its terrace, a long colonnaded walk, ran along the hillside above the theatre and gave the city's elite a promenade with a view over their kingdom. Pergamon's theatre is not a building placed on a hill but a hill made into a building: the city's topography is its architecture.",
+            "Pergamon's acropolis is a catalogue of Hellenistic building types: the sanctuary of Athena with its library — the second greatest library of the ancient world, after Alexandria, and the rival that, according to legend, prompted the invention of parchment when Egypt embargoed papyrus; the palace quarter; the Trajaneum, a Roman temple of Trajan and Hadrian on a vast terrace; and, on a terrace below the acropolis, the Great Altar. The city's plan is the opposite of the Hippodamian grid: it follows the rock, terracing it, cutting into it, building on it in levels that descend from the citadel to the plain. Pergamon is the Hellenistic age's answer to the Classical city: not a flat grid but a vertical composition, a city that climbs.",
+            "Pergamon's library is the acropolis' second wonder, and its rivalry with Alexandria shaped the history of the book. The library, housed in the sanctuary of Athena's precinct, held some 200,000 volumes, according to ancient estimates, and its scholars — Crates of Mallos among them — developed a school of literary criticism that rivalled Alexandria's. The rivalry, according to Pliny, led Ptolemy V to embargo the export of papyrus to Pergamon, forcing the Attalids to develop parchment (pergamenum, named for the city) from animal skins — a story that is probably exaggerated, since parchment predates the embargo, but that captures the competition's intensity. The library's building, a set of rooms around a colonnaded court with a statue of Athena, was itself an architectural statement: a library as a temple of learning, with the goddess of wisdom presiding over the books. The library's volumes were later taken to Alexandria by Mark Antony as a gift to Cleopatra, and the building itself survives as foundations and a reconstructed colonnade.",
+            "The Trajaneum, Pergamon's Roman temple, completes the acropolis' story. Built under Trajan and Hadrian in the second century CE, on a vast terrace cut into the acropolis' southern slope, the Trajaneum is a Corinthian peripteral temple of six by nine columns, larger than any Hellenistic temple on the hill, and it dominates the acropolis' skyline as the Great Altar once dominated its terrace. The Trajaneum's terrace, retained by a great vaulted substructure, is itself an engineering work, and its temple — white marble, Corinthian, Roman in its proportions and Greek in its orders — shows the orders' Roman afterlife at its grandest. Pergamon's acropolis, from its Hellenistic theatre to its Roman temple, is a single hill's history of Greek architecture: from the Attalids' theatre-city to Rome's imperial terrace, the hill was built and rebuilt for five centuries, and each generation added its own temple to the skyline."
+          ],
+          "figure": "pergamonTheatre"
+        },
+        {
+          "heading": "The Great Altar",
+          "paras": [
+            "The Great Altar of Pergamon, built around 180–160 BCE under Eumenes II, is the Hellenistic age's most ambitious monument: a vast altar court, some 36 by 34 metres, on a podium approached by a monumental stair, surrounded by an Ionic colonnade, and wrapped at its base by a frieze over 100 metres long. The altar's form is Greek — a podium, a colonnade, a frieze — but its scale and its drama are new: the stair cuts into the colonnade, the frieze writhes around the base, the whole is designed to be seen from below, from the city, as a mountain of marble. The altar was a political monument as much as a religious one: it celebrated the Attalids' victory over the Galatians, and its frieze, showing the gods defeating the giants, figured that victory as cosmic order defeating chaos — the same myth the Parthenon's metopes had used, now at a scale and with a violence the Classical age never attempted.",
+            "The altar's modern history is as dramatic as its ancient one. Excavated in the nineteenth century, its frieze was taken to Berlin, where it was reconstructed in the Pergamon Museum — the portico shown here — and where it remains, one of the most visited antiquities in the world. The altar's removal, like the Parthenon sculptures', raises questions about where Greek art belongs, and this book records the fact without taking a position: the frieze in Berlin is displayed in a reconstruction of the altar's east front, and the altar's podium in Pergamon is a ruin. The reader who sees both — the frieze in Berlin, the podium in Türkiye — will understand the Hellenistic altar's scale better than a reader who sees either alone.",
+            "The Telephos frieze, the altar's inner frieze, deserves its own paragraph, because it is the altar's quieter masterpiece. Running around the altar court's inner walls, the Telephos frieze tells the life of Telephos, the mythical founder of Pergamon — his birth, his exposure, his discovery by Heracles, his wounding and healing, his founding of the city — in a continuous narrative of small, shallow reliefs, carved with a delicacy that contrasts with the Gigantomachy's violence. The frieze's style, with its landscape backgrounds, its overlapping figures and its painterly depth, is closer to Hellenistic painting than to Classical relief, and it is the best surviving example of the Hellenistic narrative frieze. The Telephos frieze is also a political document: by tracing Pergamon's founder to Heracles, it gives the Attalid dynasty a heroic pedigree, and by placing the frieze inside the altar court, where only priests and officials would see it, it addresses the city's elite rather than its crowd. The Great Altar, then, has two audiences: the crowd outside, shown the gods' victory over the giants, and the elite inside, shown their own founder's story. Both friezes are propaganda, and both are art.",
+            "The altar's stair and court are the building's spatial core. The great stair, some twenty metres wide, rises from the terrace to the altar court, flanked by the Gigantomachy frieze on the altar's podium walls — so that the visitor climbs between battling gods and giants, the frieze at eye level, the stair's ascent becoming a passage through the myth. The court itself, colonnaded on three sides, holds the altar proper — a smaller structure with its own frieze and a sacrificial table — and the court's colonnade frames the view over the city and the plain below. The altar's architecture is therefore a procession: terrace, stair, court, altar, each stage framed by sculpture, each ascent a ritual. The Pergamon Museum's reconstruction in Berlin, which reassembles the altar's podium, frieze and stair, conveys the procession's scale, though not its setting: the altar in Berlin is a museum object, and the altar on the Pergamon acropolis was a building on a hill, open to the sky and the plain. The difference is the difference between a frieze and a building."
+          ],
+          "figure": "pergamonAltar"
+        },
+        {
+          "heading": "The Frieze",
+          "paras": [
+            "The Great Frieze is Hellenistic sculpture at its most theatrical. The gods and giants are carved in high relief, their bodies twisting, falling, dying in a continuous battle that runs around the altar's base, the figures larger than life and the carving so deep that limbs break free of the background. The frieze's technique — the deep undercutting, the play of light and shadow, the emotional intensity of faces and muscles — is the opposite of the Parthenon frieze's restraint: where the Classical frieze moves in procession, the Hellenistic frieze writhes in combat. The difference is not decline but a new aesthetic, the Hellenistic baroque, in which sculpture becomes drama and the temple's decoration becomes its message. The frieze's most famous group, Athena seizing the giant Alkyoneus while his mother Ge rises from the earth, is a composition of a violence and pathos that no Classical sculptor attempted.",
+            "The frieze also marks a change in the temple's role. In the Classical temple, sculpture was part of the architecture — pediment, metope, frieze — subordinated to the building's order. At Pergamon, the frieze dominates the building: the altar is, in effect, a pedestal for its sculpture, and the colonnade above is a frame for the drama below. The Hellenistic age would carry this further, in the sculpture gardens of Rhodes, the fountains of Delos and the palaces of Alexandria, where sculpture and architecture merge into spectacle. The Great Frieze is the turning point: the moment when Greek sculpture stopped serving the temple and began to command it."
+          ],
+          "figure": "pergamonFrieze"
+        }
+      ]
+    },
+    {
+      "id": "hellenistic-city",
+      "numeral": "XV",
+      "title": "The Hellenistic City: Grids, Didyma and Alexandria",
+      "sections": [
+        {
+          "heading": "The Grid",
+          "paras": [
+            "The Hellenistic city is a planned city. After Alexander's conquests, new cities were founded across Egypt and Asia — Alexandria, Antioch, Seleucia, Ai Khanoum — and old cities were rebuilt, on a regular grid of streets and rectangular blocks credited to Hippodamos of Miletus. The Hippodamian plan, already visible at Olynthus and at Piraeus, became the standard for the Hellenistic world: a north–south and east–west grid, with a central agora, a theatre, a gymnasium and sanctuaries placed in their blocks, and the city's walls following the terrain. Priene, in Ionia, is the best-preserved Hippodamian city: its streets run in a grid across a hillside, its theatre sits in a block of the grid, its Temple of Athena Polias by Pytheos stands on a terrace, its bouleuterion (council house) is a small roofed theatre for the city's assembly. Priene's grid is not rigid — it bends to the hillside, its blocks vary in size — but its order is unmistakable: a city laid out by rule, for citizens who were meant to be equal.",
+            "The grid's significance is political as much as architectural. A gridded city is a city that can be founded, surveyed and administered: its blocks can be allocated, its streets named, its taxes assessed. The Hellenistic kings, founding cities as instruments of empire, needed that administrability, and the grid gave it to them. The grid also made the city legible to strangers — to merchants, soldiers and officials moving between Alexandria and Antioch — in a way the organic growth of old Athens never was. The Roman castrum, the colonial grid of the Americas, the modern planned city all descend from the Hippodamian plan, and Priene, with its theatre in its grid, is the form's clearest surviving instance.",
+            "Miletus, Hippodamos' own city, shows the grid at its origin. Rebuilt after the Persian sack of 494 BCE on a regular plan — the earliest fully Hippodamian city — Miletus laid out its streets in a grid, its agora at the centre, its harbour (the Lion Harbour, named for the stone lions that guarded it) at the edge, and its great buildings — the bouleuterion, the baths, the theatre, the Temple of Apollo Delphinios — in their blocks. Miletus' grid was not imposed on a blank site but on a peninsula, and its streets bend to the harbours; the plan's regularity is therefore a principle rather than a geometry, a rule that the site modifies. Miletus' importance is that it proves the grid was not a Hellenistic invention but a Classical one, credited to Hippodamos and applied at Piraeus (Athens' port, laid out under Pericles) and at Rhodes (founded 408 BCE, its grid still visible in the modern city's streets). The grid's history runs from Miletus to Manhattan, and Miletus is its first chapter.",
+            "Rhodes adds the grid's most famous monument. The Colossus of Rhodes, a bronze statue of Helios some thirty metres tall, built from the war material abandoned by Demetrius Poliorcetes' siege (305–304 BCE), stood at the harbour's entrance — not, as legend has it, astride the harbour mouth, but beside it, on a plinth — for only fifty-six years before an earthquake toppled it in 226 BCE. The fallen Colossus remained a wonder for eight centuries, its fragments visited by travellers, until it was sold for scrap in the seventh century CE. The Colossus is not a building, but it belongs in this chapter because it is the Hellenistic city's monument at its most ambitious: a statue as architecture, a city's wealth cast in bronze, and a wonder that outlived its fall. Rhodes' grid, its harbour and its Colossus together show the Hellenistic city as a work of art and of power, planned, fortified and adorned as a single composition."
+          ],
+          "figure": "priene"
+        },
+        {
+          "heading": "Didyma",
+          "paras": [
+            "The Temple of Apollo at Didyma, near Miletus, is the largest temple of the Greek world and its most unfinished. Begun in the Archaic age, rebuilt from around 300 BCE, and still under construction when the Roman empire fell, Didyma is a dipteral temple — two colonnades around the cella — of ten columns by twenty-one, its columns nearly twenty metres tall, its plan some 110 by 51 metres. The temple's interior is its most extraordinary feature: instead of a roofed cella, it has an open-air adyton, a sunken court open to the sky, reached through a vaulted passage and a great doorway, with a small shrine (naiskos) standing within the court. The oracle of Apollo at Didyma, second only to Delphi, delivered its prophecies from that court, and the temple's architecture — the vast colonnade, the dark passage, the sudden open sky — was designed to stage the oracle's revelation.",
+            "Didyma's unfinished state is its lesson. The temple's columns stand at different heights, some fluted, some not; its staircases lead nowhere; its adyton was never roofed, because it was never meant to be. The temple grew by accretion over five centuries, and its final form is a palimpsest of Archaic, Hellenistic and Roman work. Didyma proves that Greek temples were not always built to a single design in a single campaign: the greatest of them could be a project of centuries, a city's continuous act of devotion rather than a single architect's composition. The photograph reproduced here, of the adyton's doorway and a fallen drum, shows the temple's scale better than any plan: the doorway alone is taller than a house, and the drum beside it is a column's single section."
+          ],
+          "figure": "didyma"
+        },
+        {
+          "heading": "The Pharos",
+          "paras": [
+            "The Pharos of Alexandria, built around 280–247 BCE on the island of Pharos at the entrance to Alexandria's harbour, was the tallest building of the ancient world after the pyramids — some 100 metres or more — and one of its Seven Wonders. It was a lighthouse, a watchtower and a symbol: three tiers — a square base, an octagonal middle, a circular top crowned by a statue, probably of Poseidon or of Ptolemy as saviour — rising above the harbour that Alexander's city had made the centre of Mediterranean trade. The Pharos' light, whether a fire reflected by mirrors or a beacon visible for thirty miles, guided ships into a harbour that was itself an engineering work, the Heptastadion causeway joining Pharos island to the mainland. The lighthouse's architect is traditionally Sostratos of Cnidus, though the attribution is debated, and its form is known only from descriptions, coins and later reconstructions.",
+            "The Pharos' afterlife is longer than its life. It stood for over a thousand years, damaged by earthquakes and repaired by Romans, Byzantines and Arabs, until it finally collapsed in the fourteenth century; its stones were reused in the citadel of Qaitbay that stands on its site today. Its form became the model for every lighthouse since: the tiered tower, the lantern, the statue or light at the top. The reconstruction reproduced here is a modern artist's reading, and it should be read as such — a conjecture, not a photograph — but it captures the Pharos' essential quality: a Greek building type, the tower, raised to a scale that made it a wonder. Alexandria itself, the city the Pharos served, was the Hellenistic world's greatest city: a grid plan, a library, a museum, a lighthouse — the Greek city at its most ambitious, and the measure of what Alexander's conquests made possible.",
+            "Alexandria's other buildings complete the Pharos' picture. The city, founded by Alexander in 331 BCE and laid out by Deinocrates on a Hippodamian grid, had a great east–west avenue (the Canopic Way, some thirty metres wide) crossed by a north–south avenue, a royal quarter with palaces and the Mouseion (the shrine of the Muses, with its library), a gymnasium, a theatre, a stadium, and the Heptastadion causeway joining Pharos island to the mainland and dividing the harbour into two basins. Almost nothing of Ptolemaic Alexandria survives above ground — the modern city covers it, and the harbour's ruins lie underwater — but its plan is known from descriptions and from the modern street grid, which follows the ancient avenues. Alexandria is the Hellenistic city that exists mostly in texts, and its architecture must be read through Strabo, who described it, and through the underwater archaeology of the harbour, which has recovered sphinxes, columns and the Pharos' own fallen blocks. The city that was the ancient world's greatest is also its most lost."
+          ],
+          "figure": "pharos"
+        }
+      ]
+    },
+    {
+      "id": "how-greeks-built",
+      "numeral": "XVI",
+      "title": "How the Greeks Built: Quarries, Cranes and the Limits of Stone",
+      "sections": [
+        {
+          "heading": "Quarries",
+          "paras": [
+            "Every Greek temple began in a quarry. The marble of the Parthenon came from Mount Pentelicus, sixteen kilometres from Athens, its white stone flecked with a faint golden mica that warms in sunlight; the limestone of Paestum and Agrigento came from local beds; the marble of the great Ionic temples came from the Cyclades — Paros, Naxos, Thasos. Quarrying was itself an architectural act: the quarrymen cut blocks to size in the quarry, roughly shaping them before transport, so that the temple's dimensions were decided at the rock face. The unfinished kouros at Flerio on Naxos, still lying in the ancient quarry where it was abandoned when it cracked, shows the process arrested: a colossal figure, roughed out in the rock, never detached, never finished. The marble quarry at Flerio, shown here, is a working face of the Greek building industry — the place where temples began as stone in the ground.",
+            "Transport was the quarry's second problem, and it shaped temple design as surely as the quarry did. A Parthenon architrave block weighs some twenty tonnes; a column drum, several tonnes; the Treasury of Atreus' lintel, over a hundred. The Greeks moved these blocks on sledges, rollers and wagons, by road and by sea, and the cost of transport often exceeded the cost of quarrying. Temples were therefore built, wherever possible, from local stone: Pentelic marble for Athens, local limestone for Paestum, Naxian marble for Delos. The choice of stone was an economic and logistical decision before it was an aesthetic one, and the temple's colour — the warm gold of Pentelic marble, the grey of Parian, the honey of Agrigento's limestone — is the colour of its quarry. A Greek temple is, in this sense, its landscape, quarried and reassembled.",
+            "The marble-working sequence repays detail, because it explains the temple's finish. After quarrying, the block was roughed out with picks and points; the faces were dressed with the claw chisel, a toothed tool that leaves the characteristic parallel grooves visible on unfinished Greek masonry; the joints were finished with flat chisels and abrasives, until the contact surfaces were true to a fraction of a millimetre. The column drums were turned, in effect, on the spot: the drum's circular profile was cut with compasses and templates, and the flutes were carved after erection with a running mould, so that the flutes would align across drums. The final surface was polished with emery and, in the finest work, given a protective coat of wax or stucco. The temple's surface, then, is not the stone's natural face but a worked face, and its precision — joints invisible, flutes continuous, profiles true — is the product of a sequence of tools and templates that the Greek workshop refined over centuries. The claw chisel's marks, visible on Segesta's unfluted columns, are the signature of that sequence.",
+            "Labour is the quarry's human story, and it should not be omitted. Greek building employed free craftsmen, metics (resident foreigners), slaves and, for public works, citizens working under contract; the Erechtheion's building accounts, inscribed on stone, survive in part and record the wages paid — a drachma a day for a skilled worker, less for unskilled labour — and the names of the workmen, Athenians and foreigners alike. The accounts show a building industry organised by contract, with master craftsmen (architektones) overseeing teams, and with the state as client, paying by the measured work. The Parthenon's workforce, at its peak, numbered in the hundreds, and its building took fifteen years; Didyma's took five centuries. Greek architecture's precision was achieved by a workforce that was skilled, organised and, in part, enslaved — a fact that belongs in the building's history as surely as its proportions do."
+          ],
+          "figure": "naxosQuarry"
+        },
+        {
+          "heading": "The Quarry at Selinunte",
+          "paras": [
+            "The quarry at Selinunte (the Cave di Cusa) in Sicily is the Greek quarry at its most eloquent, because it was abandoned mid-work. When the Carthaginians sacked Selinunte in 409 BCE, the quarrymen fled, leaving column drums half-cut in the rock, finished drums lying in the quarry ready for transport, and the quarry face itself marked with the channels and wedges of their work. The drums at Selinunte, some still attached to the bedrock by a single rib of stone, show the quarrying process in full: the channel cut around the drum, the undercutting, the splitting with wedges, the finishing on site. The quarry is a factory floor, frozen at the moment of abandonment, and it teaches what no finished temple can: the labour behind the order. Each drum represents days of work by a team of quarrymen, and each temple represents thousands of such drums, quarried, transported, lifted and fluted.",
+            "Lifting was the builder's third problem. The Greeks raised their blocks with cranes — timber frames with pulleys, winches and treadwheels — and with lewis irons, dovetail-shaped sockets cut into the top of each block into which an iron lifting device was fitted. The lewis holes survive on many blocks, including the Parthenon's, and they are the fingerprints of the crane: a small, precise socket that tells the whole story of how a twenty-tonne block was lifted ten metres into the air. The columns were built drum by drum, each drum centred on the one below with a wooden dowel (empolion) in a socket, and the fluting was cut after the column was standing, so that the flutes would align from base to capital. The temple's precision — joints so tight a knife blade cannot enter, drums so centred that the column appears monolithic — is the product of this sequence: quarry, transport, lift, dowel, flute. The Greek temple is a machine for stacking stone, and its beauty is the beauty of that machine working perfectly.",
+            "The Greek roof's timber structure deserves a final paragraph, because it is the temple's invisible engineering. The roof was carried by timber trusses — tie beams spanning the cella's width, king posts and struts carrying the ridge — whose spans, up to ten or twelve metres, were the limit of Greek timber construction. The truss's members were joined by mortise and tenon, pegged with wooden dowels, and the whole roof was covered in terracotta tiles weighing, for a temple the size of the Parthenon, over a hundred tonnes. The roof's weight, bearing on the cella walls and the colonnade, is why Greek temples have thick walls and closely spaced columns: the stone skeleton carries a timber roof of enormous weight. The post-and-lintel limit, then, is not only the architrave's span but the roof's weight: the Greeks could not build wider cellae because they could not roof them. The temple's plan — a narrow cella, a surrounding colonnade, a pitched roof — is the plan that timber roofing allows, and the temple's beauty is, in part, the beauty of that constraint honestly met.",
+            "The temple's polychromy is the roof's and the stone's shared secret. The temple was painted: the triglyphs blue, the metopes' backgrounds blue or red, the guttae and mutules red, the pediment figures painted in flesh tones and bright drapery, the capitals' echinus and the abacus picked out in colour, the column shafts left white or given a thin stucco wash. The evidence — pigment traces on the Parthenon, on the temples at Selinunte and Paestum, on the Erechtheion's mouldings — is fragmentary but consistent: the Greek temple was not white but coloured, and its colour was not decoration but architecture, articulating the orders, distinguishing structure from infill, and making the temple legible at a distance. The modern image of the white Greek temple is a Renaissance invention, born of weathered marble and classical taste. The ancient temple was a painted building, and the reader should imagine it so: blue triglyphs, red mutules, painted pediments, against the Aegean sky."
+          ],
+          "figure": "caveDiCusa"
+        },
+        {
+          "heading": "The Limits of the Lintel",
+          "paras": [
+            "The Greek temple's structural idea — the post-and-lintel — has a hard limit, and the limit shaped everything. A stone lintel can span only as far as its own strength allows: a marble architrave of the Parthenon's size spans about four metres between columns, and a longer span would crack under its own weight. The Greeks therefore built with closely spaced columns, and their interiors — the cella, the stoa, the temple's roof — were always divided by columns into bays of a few metres. The temple could not have a great open interior, because its roof was timber trusses spanning between walls and columns, and its stone could not arch. The Roman arch and concrete would break this limit, and the Byzantine dome would break it again; the Greek temple, for all its perfection, is a building of small spans and many columns. Its grandeur comes not from vast interiors but from the multiplication of a single bay, repeated around the building until the repetition itself becomes monumental.",
+            "The joints are the temple's second structural secret. Greek stone blocks were joined without mortar, their contact surfaces dressed with anathyrosis — the edges cut precisely, the centres recessed — so that the blocks touched only at their margins, and held together by bronze or iron clamps (for horizontal joints) and dowels (for vertical joints), set in lead. The clamps and dowels, hidden inside the masonry, gave the temple its earthquake resistance: the blocks could move slightly without falling, and the lead absorbed shock. The system was expensive — bronze clamps were valuable, and later builders looted them from ruined temples, leaving the characteristic clamp holes that mark Greek masonry today — but it made the temple a dry-stone structure of extraordinary durability. The Parthenon has survived earthquakes, explosions and wars because its blocks are not glued but clamped, and can shift without breaking. Segesta, the unfinished temple of chapter four, shows the system in its raw state: columns standing, unfluted, their lifting bosses still attached, the temple as a stack of stone waiting for its finish. The Greek temple is, finally, a pile of stone held together by gravity, bronze and craft — and that is why it still stands."
+          ],
+          "figure": "segesta"
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "numeral": "XVII",
+      "title": "Reading a Greek Temple: Five Signs",
+      "sections": [
+        {
+          "heading": "The Method",
+          "paras": [
+            "This chapter gathers the book's field method into five signs, each illustrated in the plates and summarised in the hub study. The signs are ordered as a walk: first the building's outline, then its capital, then its refinements, then its sculpture, then its setting. A reader who can work through the five signs on any Greek temple — or on any building quoting the Greek orders — can date it, place it and read its ambition before consulting a single guidebook. The signs are not a checklist to be ticked but a habit to be practised: look at the colonnade before the label, at the capital before the plan, at the platform before the pediment.",
+            "The signs have limits, and the limits are part of the method. Provincial work, late work and revival work all bend the rules; the orders were quoted, copied and misunderstood for two thousand years, and a Corinthian capital on a bank in Ohio is not evidence of a Greek temple. The signs work best on Greek buildings of the Archaic, Classical and Hellenistic ages, in Greece, Italy, Sicily and Asia Minor, and they work by comparison: a Doric temple at Paestum against a Doric temple at Athens, an Ionic capital at the Erechtheion against an Ionic capital at Didyma. The more temples the reader sees, the sharper the signs become — and the more the Greek world, in all its variety, comes into focus.",
+            "Two further worked examples sharpen the method. First, Paestum's Hera I against the Parthenon: both are Doric peripteral temples, but Hera I's columns are short and heavy (about four and a half diameters), its capitals flare widely, its entablature is deep, and its plan is nine by eighteen — Archaic in every proportion. The Parthenon's columns are taller (five and a half diameters), its capitals tight, its entablature lighter, its plan eight by seventeen — Classical in every proportion. The five signs, applied to both, date them a century apart without a single inscription. Second, a revival building: the Walhalla's Doric portico, measured by the signs, is Doric in capital and entablature but Roman in its base (the Walhalla's columns stand on bases, which Greek Doric never does) and modern in its scale and material (painted limestone, not marble, and a roof of iron). The signs therefore do double duty: they date Greek buildings, and they expose revival buildings' departures from the Greek original. A method that only confirms is not a method; the five signs also falsify, and that is their strength."
+          ]
+        },
+        {
+          "heading": "A Worked Example: The Hephaisteion",
+          "paras": [
+            "Take the Hephaisteion above the Agora, and work the signs. First, the colonnade: a peripteral temple, six by thirteen columns, standing on a three-stepped platform — a Classical Doric temple, mid-fifth century by its proportions. Second, the capital: a tight echinus, a square abacus, no base — Doric, Classical, not Archaic. Third, the refinements: a slight curvature of the stylobate, a slight entasis, present but restrained — the Parthenon's workshop, but not the Parthenon's elaboration. Fourth, the sculpture: metopes of Heracles and Theseus, an Ionic frieze of battle — the temple's meaning in marble, Athenian heroes as civic exemplars. Fifth, the setting: above the Agora, facing the civic heart, the temple as part of the city's daily life. Five signs, five answers, and a building that can now be read rather than merely admired. That is the method's reward, and it works, with variations, on every temple in this book."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "afterlives",
+      "numeral": "XVIII",
+      "title": "Afterlives: Rome and the Greek Revival",
+      "sections": [
+        {
+          "heading": "Rome Dresses Concrete",
+          "paras": [
+            "Rome took the Greek orders and changed their meaning. The Romans, who built in concrete and the arch, did not need columns to hold up their buildings — the arch and the vault did the work — but they dressed their concrete in Greek orders, applying columns and entablatures to facades as a language of rank and beauty. The Colosseum stacks Tuscan, Ionic and Corinthian orders on its arcades, each order marking a storey; the Pantheon's portico is a Greek temple front attached to a Roman rotunda; the temples of the Forum quote the Greek peripteral plan in marble while their structures are Roman concrete. The orders became, for Rome, a dress: a way of making a concrete building look Greek, and therefore civilised. The full story of Rome's building system — concrete, arch, vault, and the orders as dress — is the subject of Book XX of this series, Ancient Rome, and the reader who has finished this book should turn there next for the other half of the Classical story.",
+            "Rome also preserved Greece, in two senses. Roman copies of Greek sculpture — the Apollo Belvedere, the Laocoön, the Doryphoros — preserved Greek art that would otherwise be lost, and Roman writers — Vitruvius above all — preserved Greek architectural theory, including the story of the orders' origins and the rules of their proportions. Vitruvius' Ten Books on Architecture, written in the first century BCE, is the only surviving ancient treatise on architecture, and it is the source for much of what this book reports about the orders, the refinements and the temple's parts. Vitruvius was a Roman writing for Romans, and his Greek is sometimes idealised; but without him, the Greek temple's theory would be lost, and the Renaissance would have had nothing to revive.",
+            "Vitruvius deserves a closer reading, because he is the source for much of this book's theory. Writing in the first century BCE, Vitruvius codified the orders in the form the Renaissance would inherit: Doric, Ionic and Corinthian, each with its proportions, its capital, its entablature, its rules for spacing and for the corner problem. His account is partly Greek and partly Roman: his Doric has a base (which Greek Doric does not), his Corinthian is the Roman Corinthian, and his temple plans are Roman as much as Greek. The Renaissance, reading Vitruvius without the buildings, made his rules canonical, and the Greek Revival built to them — which is why revival Doric often has a base, and revival Corinthian is Roman Corinthian. The reader who knows Vitruvius can see, in any revival building, which parts are Greek, which Roman and which Renaissance invention. Vitruvius is not a reliable guide to Greek building, but he is an indispensable guide to its afterlife.",
+            "The Greek Revival in Britain and America repays a final paragraph. In Britain, Stuart and Revett's Antiquities of Athens gave architects measured drawings of the Acropolis, and Smirke's British Museum, Cockerell's Bank of England (since demolished) and the National Gallery's portico made Greek the language of public building. In America, the Greek Revival became the national style: the Second Bank of the United States in Philadelphia (William Strickland, 1818–24), a Doric temple for a bank; the Lincoln Memorial in Washington (Henry Bacon, 1914–22), a Doric peripteral temple for a president, its columns thirty-six in number, one for each state at Lincoln's death; the Parthenon in Nashville (1897, rebuilt in concrete 1920–31), a full-scale replica of the Parthenon, painted in its original colours. The American Greek Revival chose the temple because it figured democracy: a new republic, seeking an ancient pedigree, found it in Athens. The temple's journey, from a god's house to a bank to a memorial, is complete — and it is still going on."
+          ]
+        },
+        {
+          "heading": "The Greek Revival",
+          "paras": [
+            "The Greek Revival, from the mid-eighteenth to the late nineteenth century, took the orders again and made them the face of the modern world. It began with measurement: James Stuart and Nicholas Revett's Antiquities of Athens (1762), the first accurate survey of the Acropolis, gave architects the Parthenon's proportions to copy; it continued with buildings that quoted the temple directly — Leo von Klenze's Walhalla above the Danube (1830–42), a Doric temple built as a hall of German fame, shown here from the air; Robert Smirke's British Museum (1823–52), whose Ionic portico, shown here in close-up, is a Greek temple front for a museum; the Parthenon in Nashville, the Brandenburg Gate's Doric in Berlin, the Lincoln Memorial in Washington. The Greek Revival chose the Greek temple for a reason: it figured democracy, learning and law, and it gave new nations and new institutions an ancient pedigree.",
+            "The Greek Revival's story is the subject of Book XXV of this series, Neoclassical Architecture, and it is the coda to this book's argument. The Greek temple, born as a small house for a god in timber, translated into stone, perfected on the Acropolis, exported to Sicily and Asia, dressed over Roman concrete and revived for the modern world, is the most persistent architectural idea in history. It persists because it is not a style but a system: a platform, columns, an entablature and a pediment, proportioned by rule and adaptable to any purpose — temple, museum, bank, memorial, parliament. The reader who has learned the five signs can read that system anywhere in the world, from Agrigento to Washington, and can recognise, in a bank's portico or a museum's pediment, the temple of Athena Nike or the Parthenon, still standing, still speaking, two and a half thousand years after it was built."
+          ],
+          "figure": "walhalla"
+        },
+        {
+          "heading": "Coda: The Temple as Idea",
+          "paras": [
+            "This book began at Knossos, in a palace without walls, and it ends with a temple that has become an idea. The Greek temple's journey — from timber shrine to marble monument, from Athens to the world — is the journey of Western architecture itself, and its lesson is not that the Greeks built perfectly but that they built systematically: they made a language of parts, proportioned those parts by rule, and refined the rules until the building could be read like a sentence. The language outlived its builders, its gods and its cities, because it was clear enough to be learned and flexible enough to be adapted. The Parthenon still stands, ruined and magnificent, above a city that has changed utterly around it; the orders still stand, on buildings the Greeks never imagined, in cities they never knew. That persistence is the Greek temple's final achievement: it became, not a building, but an idea of building — and ideas, unlike stone, do not fall."
+          ],
+          "figure": "britishMuseum"
+        }
+      ]
+    }
+  ],
+  "figures": [
+    [
+      "Iktinos",
+      "Architect of the Parthenon (with Kallikrates) and of the Temple of Apollo at Bassae, where the Corinthian order makes its first known interior appearance."
+    ],
+    [
+      "Kallikrates",
+      "Architect of the Parthenon (with Iktinos) and of the Temple of Athena Nike; his name is attached to the most refined Doric work of the Classical age."
+    ],
+    [
+      "Mnesikles",
+      "Architect of the Propylaia (437–432 BCE), the monumental gateway whose Doric and Ionic elements meet in a single, interrupted composition."
+    ],
+    [
+      "Polykleitos the Younger",
+      "Architect of the theatre at Epidauros (c. 360–330 BCE), celebrated for a cavea whose geometry gives the theatre its famous acoustics."
+    ],
+    [
+      "Hippodamos of Miletus",
+      "The planner credited with the regular grid of streets and blocks — the Hippodamian plan — used at Miletus, Priene and Piraeus."
+    ],
+    [
+      "Pytheos",
+      "Architect of the Mausoleum at Halicarnassus and of the Temple of Athena at Priene; author of a lost treatise on proportion."
+    ],
+    [
+      "Sostratos of Cnidus",
+      "Architect traditionally credited with the Pharos lighthouse of Alexandria, built c. 280–247 BCE on the island of Pharos."
+    ],
+    [
+      "Chersiphron and Metagenes",
+      "Father-and-son architects of the Archaic Temple of Artemis at Ephesus, whose marble construction and engineering were famous in antiquity."
+    ]
+  ],
+  "fiveSigns": [
+    {
+      "name": "A colonnade you walk around",
+      "img": "parthenonDetail",
+      "look": "The temple is a peripteral box: a single row of columns stands free of the cella walls on all four sides, so the building is approached, circled and read from every angle. Count the columns — 6 by 12, 6 by 13, 8 by 17 — and the temple's date and ambition begin to declare themselves.",
+      "limit": "Not every Greek temple is peripteral: small treasuries, circular tholoi and the Erechtheion's porches break the rule, and Roman temples usually face one way only."
+    },
+    {
+      "name": "The capital names the order",
+      "img": "doricCapital",
+      "look": "Read the capital first. Doric: a plain cushion (echinus) and square abacus, no base, flutes meeting in sharp arrises. Ionic: paired volutes like scrolls, a base, flutes separated by flat fillets. Corinthian: acanthus leaves and small corner volutes under a concave abacus.",
+      "limit": "Provincial, late and revival work mixes the grammar; a Roman Doric usually adds a base, and a Corinthian capital can be a Roman invention rather than a Greek one."
+    },
+    {
+      "name": "Curves where the eye expects straight lines",
+      "img": "parthenon",
+      "look": "The platform (stylobate) rises gently towards the centre; the columns lean inward by centimetres and swell slightly (entasis) a third of the way up; the corner columns are thickened. The refinements are measured in millimetres and visible only when you look for them.",
+      "limit": "Their intent is debated: optical correction, structural logic and the builder's habit all have defenders, and not every temple carries the full set."
+    },
+    {
+      "name": "Sculpture as architecture",
+      "img": "parthenonMarbles",
+      "look": "Pediments, metopes and friezes are not decoration applied to the temple; they are its meaning in marble. The pediment's figures are carved in the round and composed for a viewer standing far below; the frieze runs the building's length like a sentence.",
+      "limit": "Most pediment sculpture survives displaced, in museums or in fragments; reading it in place requires reconstruction, and the original paint is gone."
+    },
+    {
+      "name": "The temple in its landscape",
+      "img": "sounion",
+      "look": "A Greek temple is sited, not merely built: on a headland for sailors (Sounion), on a slope for processions (Delphi), on a terrace above a city (Pergamon). The approach — the sacred way, the gateway, the first view — is part of the architecture.",
+      "limit": "Modern roads, trees and restorations have changed many approaches; a temple's setting today is rarely its setting in antiquity."
+    }
+  ],
+  "gazetteer": [
+    [
+      "Athens, Acropolis",
+      "Parthenon, Propylaia, Erechtheion, Temple of Athena Nike; the citadel rebuilt under Pericles, 447–406 BCE."
+    ],
+    [
+      "Athens, Agora",
+      "Temple of Hephaestus, Stoa of Attalos (rebuilt), Painted Stoa foundations; the civic heart of the democracy."
+    ],
+    [
+      "Delphi",
+      "Sanctuary of Apollo, theatre, treasuries along the Sacred Way, Tholos of Athena Pronaia below the main terrace."
+    ],
+    [
+      "Olympia",
+      "Temple of Zeus (now fallen to one column), stadium, gymnasium and treasuries in the Altis."
+    ],
+    [
+      "Epidauros",
+      "Theatre of Polykleitos, Tholos, abaton and katagogion in the sanctuary of Asklepios."
+    ],
+    [
+      "Eleusis",
+      "Telesterion, the great columned hall of the Eleusinian Mysteries, on the Sacred Way from Athens."
+    ],
+    [
+      "Pergamon (Bergama, Türkiye)",
+      "Theatre on the acropolis slope, library, Trajaneum and the Great Altar (now in Berlin)."
+    ],
+    [
+      "Didyma (Didim, Türkiye)",
+      "Temple of Apollo: vast dipteral plan, forest of columns, open-air adyton, never finished."
+    ],
+    [
+      "Priene (Güllübahçe, Türkiye)",
+      "Hippodamian grid, theatre, Temple of Athena Polias by Pytheos, bouleuterion."
+    ],
+    [
+      "Paestum (Italy)",
+      "Hera I (the 'Basilica'), Hera II (Temple of Poseidon) and Athena: Archaic and Classical Doric in the Greek west."
+    ],
+    [
+      "Agrigento (Sicily)",
+      "Valley of the Temples: Concordia, Heracles, Juno — Doric temples of the Greek west at their grandest."
+    ],
+    [
+      "Segesta (Sicily)",
+      "The unfinished temple: complete peristyle, no cella — the clearest surviving lesson in temple construction."
+    ],
+    [
+      "Sounion",
+      "Temple of Poseidon on the headland at the tip of Attica, built c. 440 BCE for sailors."
+    ],
+    [
+      "Knossos (Crete)",
+      "Minoan palace: Grand Staircase, throne room, light wells — much restored by Arthur Evans."
+    ],
+    [
+      "Mycenae and Tiryns",
+      "Lion Gate and tholos tombs at Mycenae; corbelled galleries in the cyclopean walls of Tiryns."
+    ]
+  ],
+  "glossary": [
+    [
+      "Peripteral",
+      "Surrounded by a single row of columns on all sides; the standard Classical temple plan."
+    ],
+    [
+      "Dipteral",
+      "Surrounded by two rows of columns; the great Ionic temples of Ionia, including Didyma."
+    ],
+    [
+      "Crepidoma",
+      "The stepped platform on which a temple stands, usually three steps."
+    ],
+    [
+      "Stylobate",
+      "The top step of the crepidoma, on which the columns stand."
+    ],
+    [
+      "Entasis",
+      "The slight swelling of a column shaft, and its gentle inward lean; part of the Greek refinements."
+    ],
+    [
+      "Echinus",
+      "The cushion-shaped moulding of a Doric capital, between shaft and abacus."
+    ],
+    [
+      "Abacus",
+      "The square slab at the top of a capital, carrying the architrave."
+    ],
+    [
+      "Architrave",
+      "The beam (epistyle) spanning from column to column, the lowest member of the entablature."
+    ],
+    [
+      "Triglyph",
+      "The grooved tablet of a Doric frieze, alternating with metopes; a petrified beam-end."
+    ],
+    [
+      "Metope",
+      "The plain or sculpted panel between triglyphs in a Doric frieze."
+    ],
+    [
+      "Cella (naos)",
+      "The inner chamber of a temple, housing the cult statue."
+    ],
+    [
+      "Pronaos / opisthodomos",
+      "The front porch and the rear porch of a temple, between antae."
+    ],
+    [
+      "Pediment",
+      "The triangular gable at each end of a temple, framed by raking cornices and filled with sculpture."
+    ],
+    [
+      "Stoa",
+      "A long roofed colonnade, freestanding or against a building; the Greek answer to the covered walk."
+    ],
+    [
+      "Tholos",
+      "A circular building: a Mycenaean corbelled tomb, or a Classical round temple such as Delphi's."
+    ],
+    [
+      "Propylaia",
+      "A monumental gateway, most famously the entrance to the Acropolis at Athens."
+    ],
+    [
+      "Temenos",
+      "The sacred precinct of a sanctuary, marked by a boundary wall."
+    ],
+    [
+      "Peristasis",
+      "The colonnade surrounding a temple; the walk between columns and cella wall."
+    ],
+    [
+      "Polychromy",
+      "The painting of Greek temples and sculpture in bright colours, now almost entirely lost."
+    ],
+    [
+      "Anta",
+      "The pilaster-like end of a cella wall, forming a porch with the columns between."
+    ],
+    [
+      "Hippodamian plan",
+      "A regular grid of streets and rectangular blocks, credited to Hippodamos of Miletus."
+    ],
+    [
+      "Entablature",
+      "The horizontal superstructure above the columns: architrave, frieze and cornice."
+    ],
+    [
+      "Adyton",
+      "The innermost, restricted chamber of a temple, as at Delphi and Didyma."
+    ],
+    [
+      "Krepis",
+      "See crepidoma: the stepped base of a temple."
+    ],
+    [
+      "Volute",
+      "The spiral scroll of an Ionic capital."
+    ],
+    [
+      "Acanthus",
+      "The spiky leaf carved on Corinthian capitals."
+    ],
+    [
+      "Cavea",
+      "The semicircular seating of a Greek theatre, divided by stairways into wedges (kerkides)."
+    ],
+    [
+      "Orchestra",
+      "The circular dancing floor of a Greek theatre, between cavea and stage building."
+    ],
+    [
+      "Skene",
+      "The stage building behind the orchestra, developed from a hut into a stone facade."
+    ],
+    [
+      "Cyclopean masonry",
+      "Walls of huge irregular blocks fitted without mortar, named for the Cyclopes by later Greeks."
+    ],
+    [
+      "Corbelling",
+      "Courses of stone stepped inward until they meet, forming a false dome — the Mycenaean tholos technique."
+    ],
+    [
+      "Anathyrosis",
+      "The dressed contact surfaces of Greek stone blocks, with recessed centres and tight joints."
+    ],
+    [
+      "Emplekton",
+      "Rubble-and-mortar core between dressed stone faces in Greek walls."
+    ],
+    [
+      "Dowel and clamp",
+      "Bronze or iron pins and cramps joining Greek stone blocks, set in lead."
+    ]
+  ],
+  "sources": [
+    {
+      "name": "UNESCO — Acropolis, Athens",
+      "url": "https://whc.unesco.org/en/list/404"
+    },
+    {
+      "name": "UNESCO — Archaeological Site of Delphi",
+      "url": "https://whc.unesco.org/en/list/393"
+    },
+    {
+      "name": "UNESCO — Sanctuary of Asklepios at Epidaurus",
+      "url": "https://whc.unesco.org/en/list/491"
+    },
+    {
+      "name": "UNESCO — Archaeological Site of Olympia",
+      "url": "https://whc.unesco.org/en/list/517"
+    },
+    {
+      "name": "UNESCO — Palace of Knossos (tentative list)",
+      "url": "https://whc.unesco.org/en/tentativelists/5867"
+    },
+    {
+      "name": "Smarthistory — The Parthenon",
+      "url": "https://smarthistory.org/the-parthenon/"
+    },
+    {
+      "name": "The Metropolitan Museum, Heilbrunn Timeline — Greek Architecture",
+      "url": "https://www.metmuseum.org/toah/hd/grarc/hd_grarc.htm"
+    },
+    {
+      "name": "British Museum — The Parthenon sculptures",
+      "url": "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/parthenon-sculptures"
+    }
+  ],
+  "bibliography": [
+    "A. W. Lawrence, Greek Architecture (Penguin, 1957; 5th edition revised by R. A. Tomlinson, Yale, 1996).",
+    "William Bell Dinsmoor, The Architecture of Ancient Greece (Batsford, 1950).",
+    "John Pedley, Sanctuaries and the Sacred in the Ancient Greek World (Cambridge, 2005).",
+    "John Boardman, Greek Art (Thames & Hudson, 1996).",
+    "Tony Spawforth, The Complete Greek Temples (Thames & Hudson, 2006).",
+    "R. A. Tomlinson, Greek Sanctuaries (Paul Elek, 1976).",
+    "J. J. Coulton, Ancient Greek Architects at Work (Cornell, 1977).",
+    "Manolis Korres, From Pentelicon to the Parthenon (Melissa, 1995).",
+    "Gottfried Gruben, Die Tempel der Griechen (Hirmer, 2001).",
+    "Vincent Scully, The Earth, the Temple, and the Gods (Yale, 1962)."
+  ]
 }
 ];
 
