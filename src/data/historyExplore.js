@@ -43,4 +43,5 @@ export const historyExplore = {
   "persian-architecture": { hubAnchor: "#study-persian-architecture", articles: [A.courtyardWindHouse, A.crossVentilation, A.climateFacades] },
   "ancient-rome": { hubAnchor: "#study-ancient-rome", articles: [A.lowCarbonConcrete] },
   "ancient-egypt": { hubAnchor: "#study-ancient-egypt", articles: [] },
+  "byzantine-architecture": { hubAnchor: "#study-byzantine-architecture", articles: [] },
 };
