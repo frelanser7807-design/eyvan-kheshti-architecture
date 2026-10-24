@@ -36,6 +36,17 @@ World Arch Journal publishes original, fully sourced and illustrated articles on
 - [Architecture shop](https://worldarchjournal.com/shop/): architecture digital products and presentation resources
 - [Contact](https://worldarchjournal.com/contact/): enquire about a project
 
+## Prompts
+
+- [AI prompt library](https://worldarchjournal.com/prompts/): free and PRO AI prompts for architectural images and videos, each published with reference frames and production settings
+- [Empty Land to Finished Building: 10-Second Construction Video Prompt](https://worldarchjournal.com/prompts/land-to-building-construction-prompt/): free prompt — a six-storey residence grows from an empty dirt site to the exact final frame
+- [FPV Construction Transformation: Single-Take Video Prompt](https://worldarchjournal.com/prompts/fpv-construction-transformation-prompt/): free prompt — a single-take FPV flight through a site as the building assembles in a chain reaction
+- [Miniature Hands Build a Real Building: Video Prompt](https://worldarchjournal.com/prompts/miniature-hands-building-prompt/): free prompt — gloved hands assemble a miniature apartment building to full scale
+- [Light-Trace Wireframe to Real Building: Video Prompt](https://worldarchjournal.com/prompts/light-trace-wireframe-building-prompt/): free prompt — light trails trace a house from wireframe to real building at blue hour
+- [Luxury Villa Miniature Assembly: Video Prompt](https://worldarchjournal.com/prompts/luxury-villa-miniature-assembly-prompt/): free prompt — a luxury villa assembled in miniature with tweezers, then transformed to full scale
+- [From Sketch to Finished Building: Construction Video Prompt](https://worldarchjournal.com/prompts/sketch-to-building-construction-prompt/): free prompt — a hand sketch becomes the real construction of a seven-storey residence
+- [Folding Interior Transformation: Living Room Video Prompt](https://worldarchjournal.com/prompts/folding-interior-transformation-prompt/): free prompt — a living room folds into a faceted walnut-and-travertine origami interior
+
 ## About and policies
 
 - [About](https://worldarchjournal.com/about/): what World Arch Journal is and who publishes it

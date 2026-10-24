@@ -32,6 +32,8 @@ export function PromptSiteHeader() {
   );
 }
 
+const NEW_FREE_VIDEO_IDS = ['land-to-building-construction-prompt', 'fpv-construction-transformation-prompt', 'miniature-hands-building-prompt', 'light-trace-wireframe-building-prompt', 'luxury-villa-miniature-assembly-prompt', 'sketch-to-building-construction-prompt', 'folding-interior-transformation-prompt'];
+
 export default function PromptLibrary() {
   const urlCategory = new URLSearchParams(window.location.search).get('category');
   const initialCategory = promptCategories.some((item) => item.slug === urlCategory) ? urlCategory : 'all';
@@ -48,6 +50,12 @@ export default function PromptLibrary() {
   }, [active, query]);
   const freeCount = promptItems.filter((item) => item.access === 'free').length;
   const proCount = promptItems.filter((item) => item.access === 'premium').length;
+  const isDefaultView = active === 'all' && !query.trim();
+  const hubGroups = [
+    { key: 'free-video', eyebrow: 'FREE · START HERE', title: 'Free video prompts', items: [...promptItems.filter((item) => NEW_FREE_VIDEO_IDS.includes(item.id)), ...promptItems.filter((item) => item.access === 'free' && item.category === 'video' && !NEW_FREE_VIDEO_IDS.includes(item.id))] },
+    { key: 'more-free', eyebrow: 'FREE', title: 'More free prompts', items: promptItems.filter((item) => item.access === 'free' && item.category !== 'video') },
+    { key: 'pro', eyebrow: '♛ PRO', title: 'WORLD ARCH PRO collections', items: promptItems.filter((item) => item.access === 'premium') },
+  ];
 
   useEffect(() => {
     const params = new URLSearchParams();
@@ -64,23 +72,7 @@ export default function PromptLibrary() {
     window.setTimeout(() => setCopied(''), 1600);
   };
 
-  return (
-    <main id="main-content" className="prompt-library-page">
-      <PromptSiteHeader />
-      <section className="prompt-library-hero">
-        <div><small>WORLD ARCH PROMPT LAB · FREE + PRO</small><h1>AI prompts for architecture, image and motion.</h1></div>
-        <div><p>Copy tested free prompts for websites, architectural images, short videos, logo motion and animated backgrounds. Crown-marked collections are professional packs and remain securely locked.</p><span>{String(freeCount).padStart(2, '0')} FREE PROMPTS · {String(proCount).padStart(2, '0')} ♛ PRO COLLECTIONS</span></div>
-      </section>
-
-      <nav className="prompt-filter" aria-label="Prompt categories">
-        <button type="button" className={active === 'all' ? 'is-active' : ''} onClick={() => setActive('all')}>All <span>{promptItems.length}</span></button>
-        {promptCategories.map((category) => <button type="button" className={active === category.slug ? 'is-active' : ''} onClick={() => setActive(category.slug)} key={category.slug}>{category.title} <span>{promptItems.filter((item) => item.category === category.slug).length}</span></button>)}
-      </nav>
-
-      <div className="prompt-search"><label htmlFor="prompt-search-input">Search the Prompt Lab</label><div><input id="prompt-search-input" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Try: facade, video, website…" /><span>{filtered.length} {filtered.length === 1 ? 'result' : 'results'}</span></div></div>
-
-      <section className="prompt-grid" aria-live="polite">
-        {filtered.map((item) => {
+  const renderCard = (item) => {
           const category = promptCategories.find((entry) => entry.slug === item.category);
           const premium = item.access === 'premium';
           return (
@@ -93,15 +85,43 @@ export default function PromptLibrary() {
               <div className="prompt-card-copy">
                 <a href={`/prompts/${item.id}/`}><h2>{item.title}</h2></a>
                 <span>{category?.title}</span>
+                <p className="prompt-card-summary">{item.summary}</p>
                 {premium
                   ? <a className="prompt-card-action is-pro" href={`/prompts/${item.id}/`}><b>♛</b> PRO PROMPT</a>
                   : <button className="prompt-card-action" type="button" onClick={() => copyPrompt(item)}><b>▢</b> {copied === item.id ? 'COPIED ✓' : 'COPY PROMPT'}</button>}
               </div>
             </article>
           );
-        })}
-        {filtered.length === 0 && <div className="prompt-empty"><h2>No matching prompt yet.</h2><p>Try a broader term or browse all categories.</p><button type="button" onClick={() => { setQuery(''); setActive('all'); }}>Show all prompts</button></div>}
+  };
+
+  return (
+    <main id="main-content" className="prompt-library-page">
+      <PromptSiteHeader />
+      <section className="prompt-library-hero">
+        <div><small>WORLD ARCH PROMPT LAB · FREE + PRO</small><h1>AI prompts for architecture, image and motion.</h1><p className="prompt-library-intro">New to AI video/image prompts? Start with the free ones — copy, paste, create.</p></div>
+        <div><p>Copy tested free prompts for websites, architectural images, short videos, logo motion and animated backgrounds. Crown-marked collections are professional packs and remain securely locked.</p><span>{String(freeCount).padStart(2, '0')} FREE PROMPTS · {String(proCount).padStart(2, '0')} ♛ PRO COLLECTIONS</span></div>
       </section>
+
+      <nav className="prompt-filter" aria-label="Prompt categories">
+        <button type="button" className={active === 'all' ? 'is-active' : ''} onClick={() => setActive('all')}>All <span>{promptItems.length}</span></button>
+        {promptCategories.map((category) => <button type="button" className={active === category.slug ? 'is-active' : ''} onClick={() => setActive(category.slug)} key={category.slug}>{category.title} <span>{promptItems.filter((item) => item.category === category.slug).length}</span></button>)}
+      </nav>
+
+      <div className="prompt-search"><label htmlFor="prompt-search-input">Search the Prompt Lab</label><div><input id="prompt-search-input" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Try: facade, video, website…" /><span>{filtered.length} {filtered.length === 1 ? 'result' : 'results'}</span></div></div>
+
+      {isDefaultView ? (
+        hubGroups.map((group) => (
+          <section className="prompt-group" key={group.key} aria-label={group.title}>
+            <div className="prompt-group-head"><small>{group.eyebrow}</small><h2>{group.title}</h2></div>
+            <div className="prompt-grid">{group.items.map(renderCard)}</div>
+          </section>
+        ))
+      ) : (
+        <section className="prompt-grid" aria-live="polite">
+          {filtered.map(renderCard)}
+        {filtered.length === 0 && <div className="prompt-empty"><h2>No matching prompt yet.</h2><p>Try a broader term or browse all categories.</p><button type="button" onClick={() => { setQuery(''); setActive('all'); }}>Show all prompts</button></div>}
+        </section>
+      )}
 
       <section className="prompt-category-notes" aria-label="Prompt category guide">
         {promptCategories.map((category) => <article key={category.slug}><small>{category.short}</small><p>{category.description}</p><button type="button" onClick={() => setActive(category.slug)}>View category ↗</button></article>)}
