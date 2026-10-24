@@ -642,6 +642,48 @@ export const historyStudies = [
       detail1: { src: `${H}/rome-detail1.jpg`, alt: "The Pantheon's coffered concrete dome seen from inside: rings of coffers narrowing toward the open oculus at the crown", credit: "Photo: T. Le Berre, via Wikimedia Commons (CC BY-SA 4.0)" },
       detail2: { src: `${H}/rome-detail2.jpg`, alt: "Trajan's Markets in Rome: the great curved brick facade of the ancient shopping complex, with the medieval Torre delle Milizie rising behind it", credit: "Photo: NikonZ7II, via Wikimedia Commons (CC BY-SA 4.0)" }
     }
+  },
+  {
+    id: "ancient-egypt",
+    title: "Ancient Egypt",
+    facts: {
+      period: "c. 3100 BC – AD 30",
+      geography: "The Nile valley and delta, with temples, fortresses and provinces reaching deep into Nubia",
+      types: "Pyramids, cult and mortuary temples, rock-cut tombs, palaces, planned towns and quarry landscapes",
+      note: "Five signs: battered walls and mountainous mass; the axial gradient from light to darkness; plant-form columns; orientation to river, avenue and sun; and building fitted to the desert edge."
+    },
+    context: [
+      "Egyptian architecture is the longest continuous building tradition of the ancient world: from Djoser's Step Pyramid at Saqqara (c. 2650 BC), the first great monument in stone, to the Ptolemaic temples of Edfu and Philae, the same grammar — pylon, court, hypostyle hall, dark sanctuary — was still being built, and perfected, under Greek-speaking kings and Roman emperors.",
+      "Its constants are the Nile and the desert edge. Everything stood between the flood and the cliff: temples faced the river and their festival partners, tombs hid in the western escarpment, and houses, palaces and towns rose in mudbrick on the cultivation — a civilisation that reserved stone for gods and the dead, and built its entire working life in earth."
+    ],
+    signs: [
+      { name: "Battered walls and mountainous mass", look: "Walls slope inward as they rise — pyramids, pylons and enclosure walls alike — giving every monument the profile of a mound or mountain.", limit: "The battering is subtler in late temples and domestic mudbrick; Greek and Roman building in Egypt uses vertical faces.", img: "hero" },
+      { name: "The axial gradient to darkness", look: "One axis runs court, pillared hall, offering rooms, sanctuary — the floor rising, the ceiling falling, light and access narrowing at every threshold.", limit: "Accreted temples bend the axis (Luxor) or double it (Kom Ombo); rock-cut tombs rearrange the sequence.", img: "detail1" },
+      { name: "Plant-form columns", look: "Papyrus, lotus and palm translated into stone: bundled shafts, bud or bell capitals, carrying the roof like the marsh of creation.", limit: "Plain, polygonal and fluted columns also occur; Hathor-headed capitals mark the late Hathor temples.", img: "detail1" },
+      { name: "Orientation to river, avenue and sun", look: "Temples face the Nile, a processional avenue or a partner across the river; the great Theban axes answer the solstice sunrise.", limit: "City temples answer streets as well as stars; not every claimed alignment is astronomical — test it against the plan.", img: "hero" },
+      { name: "Building fitted to the desert edge", look: "Terraced temples beneath cliffs, tombs and quarries in the escarpment, settlements on the cultivation's rim: the division of green land and desert organises everything.", limit: "Delta building stood within the flood plain and is largely lost; the desert-edge rule is a valley rule.", img: "detail2" }
+    ],
+    materials: "Aswan granite, Tura limestone and Nubian sandstone for temples and tombs; mudbrick — sun-dried Nile earth — for houses, palaces, fortresses and enclosure walls; cedar and acacia timber; gypsum mortar and plaster; and mineral paint over almost every finished surface.",
+    examples: [
+      { name: "Pyramids of Giza", place: "Giza plateau, c. 2580–2510 BC", note: "The pyramids of Khufu, Khafre and Menkaure with their valley temples, causeways, cemeteries and the Great Sphinx — the Old Kingdom's canonical ensemble.", sourceName: "UNESCO — Memphis and its Necropolis", sourceUrl: "https://whc.unesco.org/en/list/86" },
+      { name: "Temple of Hatshepsut", place: "Deir el-Bahari, Thebes, c. 1470 BC", note: "Three terraces against the Theban cliff on the Mentuhotep model, carrying the Punt expedition and divine birth reliefs.", sourceName: "UNESCO — Ancient Thebes with its Necropolis", sourceUrl: "https://whc.unesco.org/en/list/87" },
+      { name: "Abu Simbel", place: "Nubia, c. 1264 BC", note: "Ramesses II's rock-cut Great Temple, its colossi and sanctuary carved from the cliff and re-erected above the lake by UNESCO in 1964–68.", sourceName: "UNESCO — Nubian Monuments from Abu Simbel to Philae", sourceUrl: "https://whc.unesco.org/en/list/88" }
+    ],
+    lesson: "Read an Egyptian monument from the river inward and from the light downward: approach, axis, gradient and stone will tell you its age, its god and its politics before a single inscription is read.",
+    sources: [
+      { name: "UNESCO — Ancient Thebes with its Necropolis", url: "https://whc.unesco.org/en/list/87" },
+      { name: "The Metropolitan Museum of Art — Heilbrunn Timeline of Art History", url: "https://www.metmuseum.org/toah" },
+      { name: "Smarthistory — Ancient Egyptian art", url: "https://smarthistory.org" }
+    ],
+    deepPage: "/magazine/architectural-history-styles/ancient-egypt/",
+    pdf: "/downloads/history/ancient-egypt.pdf",
+    bookCover: "/assets/history-deep/ancient-egypt/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/ancient-egypt/read/",
+    images: {
+      hero: { src: `${H}/egypt-hero.jpg`, alt: "The Giza plateau from the air: the three great pyramids at the desert's edge, with the modern city spread below", credit: "Photo: Lumoplank, via Wikimedia Commons (CC0)" },
+      detail1: { src: `${H}/egypt-detail1.jpg`, alt: "The Great Hypostyle Hall at Karnak: rows of carved columns, the central nave's papyrus capitals rising towards the clerestory light", credit: "Photo: Vyacheslav Argenberg, via Wikimedia Commons (CC BY 4.0)" },
+      detail2: { src: `${H}/egypt-detail2.jpg`, alt: "Deir el-Bahari from the air: the terraced temple of Hatshepsut against the cliff, with the earlier terraced temple of Mentuhotep II beside it", credit: "Photo: Diego Delso, via Wikimedia Commons (CC BY-SA 4.0)" }
+    }
   }
 ];
 
