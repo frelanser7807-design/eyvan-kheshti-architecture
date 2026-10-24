@@ -101,6 +101,7 @@ const climateResponsiveFacades = {
     <p>Complexity is justified only when it solves a defined problem better than a simpler alternative. A facade earns the word “responsive” when its states are climate-specific, testable, maintainable and understandable—then verified after the photographs are taken.</p>
   
     <p><strong>Continue exploring:</strong> these facade principles are built into <a href="/projects/narbon-villa/">Narbon Villa</a>, a climatic pavilion in hot Kerman — the surfaces themselves can be compared in the <a href="/materials/stone/natural-stone/travertine/">travertine facade studies</a> — and you can see them tested in one of the world’s hottest cities in our <a href="/atlas/uae/dubai/">Dubai architecture &amp; travel guide</a>.</p>
+    <p><strong>From the library:</strong> <a href="/magazine/architectural-history-styles/persian-architecture/">Before the mechanical era, whole buildings worked as climate systems in Persia — read Persian Architecture, Book XIX</a> of the Architectural History Series, free to read online.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led explainer'],
