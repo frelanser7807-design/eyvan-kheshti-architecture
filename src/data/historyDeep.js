@@ -25307,6 +25307,1392 @@ export const historyDeepPages = [
     "Ching, Francis D. K. A Visual Dictionary of Architecture. New York: Van Nostrand Reinhold, 1995. 2nd edition, Hoboken: John Wiley & Sons, 2012.",
     "Curl, James Stevens. A Dictionary of Architecture and Landscape Architecture. Oxford: Oxford University Press, 1999."
   ]
+},
+{
+  "id": "persian-architecture",
+  "series": "Architectural History Series",
+  "bookNumber": 19,
+  "title": "Persian Architecture",
+  "bookTitle": "Persian Architecture: A Complete History",
+  "cover": "/assets/history-deep/persian-architecture/book-cover.jpg",
+  "coverCredit": "Cover artwork © World Arch Journal",
+  "readPath": "/magazine/architectural-history-styles/persian-architecture/read/",
+  "readerPages": 95,
+  "readerBase": "/assets/history-deep/persian-architecture/pages/",
+  "subtitle": "From the ziggurat of Chogha Zanbil to the windcatchers of Yazd: the architecture of Persia across three thousand years — the empires of Persepolis and Ctesiphon, the brick flowering of the Seljuks, the turquoise domes of Timur and the Safavids, and the water and wind engineering that taught a desert to build.",
+  "path": "/magazine/architectural-history-styles/persian-architecture/",
+  "hubPath": "/magazine/architectural-history-styles/",
+  "hubStudyId": "persian-architecture",
+  "pdf": "/downloads/history/persian-architecture.pdf",
+  "seoTitle": "Persian Architecture: A Complete History — Book | World Arch Journal",
+  "metaDescription": "Persian Architecture: A Complete History — Book 19 of the World Arch Journal Architectural History Series. A complete history in eighteen chapters: the Achaemenid capitals at Pasargadae and Persepolis, the Parthian iwan at Hatra, the Sasanian dome on squinches and the great vault of Taq Kasra, the four-iwan mosque, Seljuk brick and the tomb towers, Ilkhanid Soltaniyeh and the Timurid summit at Samarkand, Safavid Isfahan, the Qajar palaces and houses, and the engineering heritage of qanat, windcatcher, ice house and reservoir — with timeline, gazetteer, glossary and bibliography.",
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "hero": "shahMosque",
+  "frontispiece": "persepolisColumns",
+  "plates": [
+    [
+      "persepolisColumns",
+      "Plate I — Persepolis: Read the Columns",
+      "Stand on the processional way and read the Apadana as a machine for ceremony. The columns that still stand carried a timber roof over a forest of stone; the bull-crowned column in the foreground once ended in a double-headed capital that gripped the beams. Everything here is translation — Egyptian and Ionian craftsmen, Lydian masons, Median brick — assembled into a ceremonial language that is none of those things, but Persian. The lesson of Persepolis is in the joints: an empire that ruled from Egypt to India taught its subjects' crafts to speak with one voice, and the voice is calm, frontal and processional."
+    ],
+    [
+      "cyrusTomb",
+      "Plate II — Pasargadae: Read the Tomb",
+      "Six stepped tiers lift a small gabled chamber above the plain: the tomb of Cyrus, the oldest great monument of Persian kingship. Read it slowly. The steps recall the Mesopotamian ziggurat, flattened into a plinth; the chamber's pitched roof and its heavy door are worked with a precision that owes as much to Anatolian and Ionian stone-cutting as to anything local. Nothing here is decoration for its own sake — even the rosette over the door is a single, sufficient sign. The tomb teaches the first Persian habit: severity of means, exactness of execution, and a monument sized to its meaning rather than to its treasury."
+    ],
+    [
+      "taqKasra",
+      "Plate III — Ctesiphon: Read the Arch",
+      "The facade at Ctesiphon is a screen of blind arcades, and behind its centre opens the largest single-span brick vault of the ancient world — some twenty-five metres across, raised, tradition says, without centring, course by leaning course. Read the arch first as structure: a barrel of baked brick whose thrust the massive flanking walls were built to absorb, the scaffolding in this photograph belonging to its modern guardians, not its builders. Then read it as theatre: the iwan frames the king exactly as the pishtaq would later frame the mihrab and the caravanserai court. Persia's signature room begins here, in a palace on the Tigris."
+    ],
+    [
+      "gonbadQabus",
+      "Plate IV — Gonbad-e Qabus: Read the Tower",
+      "A single gesture in brick: ten flanges rise fifty metres from the plain of Gorgan to a conical cap, built in 1006–07 as the tomb of Qabus ibn Voshmgir, who is said to have hung in a glass coffin at its summit. Read the tower as the Seljuk age in embryo — a whole architecture argued from the brick itself, its pattern made by the flanges' shadows rather than by anything applied. Two inscription bands in Kufic brick are the only text it needs. Before the minaret became slender and tiled, the Persian tomb tower was this: pure geometry, fired clay, and the sun doing the ornament's work."
+    ],
+    [
+      "soltaniyeh",
+      "Plate V — Soltaniyeh: Read the Dome",
+      "The octagon rises from the Zanjan plain and the dome — among the largest brick domes ever built — rides above a ring of minarets; in this photograph the turquoise skin is under restoration, wrapped in the scaffolding of its conservators. Read the plan beneath the silhouette: an eight-sided chamber whose every face opens in an arch, carrying the dome on a gallery of squinches, the whole mass engineered so that a single shell of brick spans what Roman concrete had spanned before it. Uljaytu built Soltaniyeh as a capital's centrepiece and his own tomb; what survives is the proof that Persian brickwork, at its best, needed no other material."
+    ],
+    [
+      "shahMosque",
+      "Plate VI — Isfahan: Read the Iwan",
+      "The courtyard of the Shah Mosque turns its back on the square's axis and rotates to face Mecca — and the photograph shows the hinge of that turn, the great south iwan under its pishtaq of blue mosaic. Read the surfaces in sequence: brick body first, then the glaze, laid as mosaic faience in turquoise and cobalt with arabesques that dissolve the wall's weight at the very point where the structure is heaviest. The two-storey arcades to either side are the court's ordinary rooms; the iwan is its stage. In Safavid Isfahan, tile is not decoration added to architecture — it is the architecture's public face."
+    ],
+    [
+      "lotfollah",
+      "Plate VII — Sheikh Lotfollah: Read the Light",
+      "The dome of the Lotfollah mosque is a single shell of changing pattern: arabesques that expand as they climb, turning from cream to turquoise as the light moves, until the whole field resolves into the medallion at the crown. Read it from the floor at noon, when the sun through the grilled windows draws the famous peacock at the dome's base. The structural lesson is hidden in the beauty — a dome of this span on a square chamber, the transition made by squinches the ornament refuses to disclose. The court's private chapel became, almost by accident, the most perfectly judged interior of the Persian tradition."
+    ],
+    [
+      "khaju",
+      "Plate VIII — Khaju Bridge: Read the Two Storeys",
+      "A bridge that is also a palace: two arcaded storeys across the Zayandeh, a royal pavilion at its centre, sluices in its piers and a road along its crown. Photographed from the dry riverbed, its lower arcade reads as what it is — a dam, a weir and a crossing in one structure, built under Shah Abbas II around 1650. Read the section, not the elevation: the lower arches work, the upper arcade promenades, and the pavilion between them holds the river like a stage. Persian engineering never separated use from ceremony, and the Khaju is its most sociable proof — infrastructure that behaves like a building."
+    ]
+  ],
+  "plates2": [
+    [
+      "choghaZanbil",
+      "Plate IX — Chogha Zanbil: Read the Steps",
+      "Three thousand three hundred years before Soltaniyeh, the Elamite king Untash-Napirisha raised this ziggurat in Khuzestan — five staged tiers of mudbrick faced in baked brick, its staircases buried inside the mass. Read the weathering first: the baked skin survives, the mud core slumps, and the whole plateau tradition of building in earth is legible in one ruin. Persia's architecture begins on this plain, in dialogue with Mesopotamia, and the habits formed here — the staged mass, the fired-brick face, the inscription set into the wall — never leave it. The ziggurat is not a foreign prelude; it is the first chapter of the same book."
+    ],
+    [
+      "firuzabad",
+      "Plate X — Firuzabad: Read the Vault",
+      "Ardashir's palace at Firuzabad is Sasanian architecture at its most direct: walls of rubble and mortar, and behind the arched front the square hall that Persian builders would roof with a dome on squinches for the next thousand years. Read the ruin as a section. The dome is gone but its springing survives, and the corner squinches — small arches thrown across the angle of the square — are the invention on which everything later depends. Rome solved the dome with concrete; Persia solved it with geometry, in rubble and brick, and the solution could travel anywhere the materials could be dug from the ground."
+    ],
+    [
+      "jamehHall",
+      "Plate XI — Isfahan's Friday Mosque: Read the Brick Domes",
+      "Inside the Friday Mosque of Isfahan the hypostyle halls close over the visitor in a forest of brick: dome after dome carried on piers, each lit by an opening at its crown, the Seljuk winter hall among them. Read the light before the structure — every dome is a lantern — then the structure through the light: squinches, ribs and webs in plain brick, unglazed, the pattern made by the laying of the material itself. This interior is the counterweight to the Shah Mosque's blue splendour six centuries later. Before Persia learned to cover brick with the sky's colour, it had already learned to make brick do everything."
+    ],
+    [
+      "shahZinda",
+      "Plate XII — Shah-i Zinda: Read the Lane",
+      "A street of tombs climbs the hill at Samarkand: dome after dome in turquoise and cobalt, each facade a page of mosaic faience, the lane between them no wider than a procession. Timur's court buried its royal women and its saints here, and the craftsmen — gathered from Persia among other conquered lands — practised on these small buildings the revetment they would raise to colossal scale at Bibi Khanum. Read the lane as a catalogue: every Timurid technique, tile mosaic, carved terracotta, haft-rang painting, appears within a hundred paces. Samarkand was built by an empire, but the language its tombs speak is Persian."
+    ],
+    [
+      "bibiKhanum",
+      "Plate XIII — Bibi Khanum: Read the Scale",
+      "Across the courtyard of the Bibi Khanym Mosque the great ribbed dome rises over the sanctuary, large enough to crack under its own ambition within a generation of Timur's death. Read the photograph for proportion: the dome's drum, the pishtaq's height, the minarets at the corners — every element pushed one size beyond the masons' experience, because the patron demanded a monument to conquest, not a working mosque. The lesson is double. Timurid Samarkand shows Persian forms at their most splendid, and shows their limit: scale is a structural argument, and here it was lost even as the decoration triumphed."
+    ],
+    [
+      "dolatAbad",
+      "Plate XIV — Dolat Abad: Read the Water Axis",
+      "The garden of Dolat Abad in Yazd is organised by a single line of water, running between cypresses toward the pavilion whose tall windcatcher — the highest in Persia — cools its hall without machinery. Read the axis as the whole Persian garden in one view: water drawn from the qanat, displayed in a channel because display is the point, shaded by trees planted in ranks, and ended by a building that is half room, half instrument. The chahar bagh's geometry is not a style. It is a technology of climate and meaning at once — paradise, laid out as an irrigation plan."
+    ],
+    [
+      "finGarden",
+      "Plate XV — Fin Garden: Read the Pavilion Ceiling",
+      "Look up inside the pavilion at Fin, Kashan: a ceiling of star-pattern coffers, every cell painted with flowers, birds and arabesques, the geometry drawn in timber and plaster above the room where the garden's water rises in its central pool. Read it as the garden turned inward — the chahar bagh's fourfold order folded onto a ceiling, paradise pictured over the heads of those who sat in its earthly version below. Fin is the oldest surviving great garden of Persia, fed by its own spring since Safavid times; its pavilion ceiling is the compliment the building pays to the garden outside."
+    ],
+    [
+      "vank",
+      "Plate XVI — Vank Cathedral: Read the Painted Dome",
+      "In New Jolfa, the Armenian suburb Shah Abbas founded across the river from Isfahan, Vank Cathedral wears a Persian body — dome, iwan proportions, brick — and a Christian interior: every surface painted with biblical narrative in the Persian manner of the seventeenth century. Read the photograph as evidence of how the tradition travelled between communities: the dome's structure is Isfahan's, the iconography is Armenia's, and neither apologises for the other. The book ends its plates here deliberately. Persian architecture was never a sealed inheritance; it was a working language, and everyone who built in Persia learned to speak it."
+    ]
+  ],
+  "platesCaption": "Plates I · Monuments — Persepolis, Pasargadae, Ctesiphon, Gorgan, Soltaniyeh, Isfahan, the Zayandeh",
+  "plates2Caption": "Plates II · Survivals and Systems — Khuzestan, Fars, Isfahan, Samarkand, Yazd, Kashan, New Jolfa",
+  "parts": [
+    [
+      0,
+      "Part I",
+      "Empires of Mudbrick, Stone and Column",
+      "The first five chapters cross two thousand years: the plateau's materials and the Elamite ziggurat, Cyrus's garden capital at Pasargadae and Darius's ritual city at Persepolis, then the long Parthian turn that invents the iwan, and the Sasanian achievement — the dome on squinches, the fire temple, and the colossal vault of Taq Kasra at Ctesiphon."
+    ],
+    [
+      5,
+      "Part II",
+      "The Islamic Synthesis",
+      "Conquest changes the patron and the purpose, not the craftsmen. This part follows the early mosques that grow from Arab plans into the Persian four-iwan scheme, the Seljuk flowering of patterned brick and the tomb tower, the Ilkhanid renewal crowned by the dome of Soltaniyeh, the Timurid summit at Samarkand, and the caravanserai network that bound the whole world of roads together."
+    ],
+    [
+      10,
+      "Part III",
+      "Isfahan and After",
+      "In 1598 Isfahan becomes the capital of a reunified empire, and Shah Abbas builds its ceremonial heart at Naqsh-e Jahan. This part reads the square, its mosques and palaces, the bridges that are also pavilions, and the Armenian cathedral of New Jolfa; then the Qajar century of mirror halls and merchant houses, and the inward-looking house and garden that carry the tradition into modern times."
+    ],
+    [
+      14,
+      "Part IV",
+      "The Engineering Heritage and the Legacy",
+      "The last part turns from monuments to systems: the qanat that mines groundwater by gravity alone, the reservoirs and ice houses that stored water and winter in the desert, and the windcatcher that cools without fuel. It closes with the geometry that orders Persian ornament, the tradition's export to India and the wider Islamic world, and a final chapter on reading Persian buildings today — including the modern Azadi Tower, where the old arch is drawn once more, in concrete."
+    ]
+  ],
+  "seriesList": "Book 19 · Persian Architecture: A Complete History — this volume. Also available: Book 1 · Art Nouveau; Book 2 · Gothic Architecture; Book 3 · Medieval Castles & Fortifications; Book 4 · Baroque & Rococo; Book 5 · Romanesque Architecture; Book 6 · Modernism & the International Style; Book 7 · Victorian Architecture; Book 8 · Art Deco; Book 9 · Brutalism; Book 10 · Frank Lloyd Wright; Book 11 · The Dome; Book 12 · Arch, Vault & Flying Buttress; Book 13 · Columns & the Classical Orders; Book 14 · Light in Historic Buildings; Book 15 · The Historic House; Book 16 · Art Deco vs Art Nouveau; Book 17 · Gothic vs Romanesque; Book 18 · How to Identify a Building's Style. In preparation: Ancient Rome · Ancient Egypt · Byzantine Architecture · Ancient Greece · Renaissance Architecture · Neoclassical Architecture · Islamic Architecture · Bauhaus · Mid-Century Modern Architecture · Japanese Architecture · Chinese Architecture · Indian Architecture · Postmodern Architecture.",
+  "images": {
+    "abAnbar": {
+      "src": "/assets/history-deep/persian-architecture/abAnbar.jpg",
+      "alt": "The domed ceiling of the underground ab-anbar at Nushabad, seen from below, its vents opening to the light",
+      "credit": "Photo: Amir Pashaei, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Celiing_of_Ab_anbar_in_Nushabad_city_near_Kashan,_Iran.jpg",
+      "title": "The ab-anbar of Nushabad — the ceiling"
+    },
+    "apadanaRelief": {
+      "src": "/assets/history-deep/persian-architecture/apadanaRelief.jpg",
+      "alt": "Bas-relief on the Apadana staircase at Persepolis: a procession of Persian guards in carved stone",
+      "credit": "Photo: Adam Jones from Kelowna, BC, Canada, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bas-Relief_on_Apadana_Staircase_-_Persepolis_-_Central_Iran_-_03_(7427777288).jpg",
+      "title": "Persepolis — the Apadana reliefs"
+    },
+    "azadi": {
+      "src": "/assets/history-deep/persian-architecture/azadi.jpg",
+      "alt": "The Azadi Tower in Tehran: the great arch of interlaced concrete ribs rising from its plinth",
+      "credit": "Photo: Bernard Gagnon, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Azadi_Tower,_Tehran.jpg",
+      "title": "Azadi Tower, Tehran (1971)"
+    },
+    "bam": {
+      "src": "/assets/history-deep/persian-architecture/bam.jpg",
+      "alt": "A street inside the citadel of Arg-e Bam: mud-brick walls and lanes within the fortress city",
+      "credit": "Photo: Diego Delso, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fortaleza_de_Bam,_Ir%C3%A1n,_2016-09-23,_DD_04.jpg",
+      "title": "Arg-e Bam — inside the citadel"
+    },
+    "bibiKhanum": {
+      "src": "/assets/history-deep/persian-architecture/bibiKhanum.jpg",
+      "alt": "The Bibi Khanym Mosque at Samarkand, seen across its courtyard, the great ribbed dome rising behind",
+      "credit": "Photo: Bgag, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bibi-Khanym_Mosque,_Samarkand.jpg",
+      "title": "The Bibi Khanym Mosque, Samarkand"
+    },
+    "borujerdi": {
+      "src": "/assets/history-deep/persian-architecture/borujerdi.jpg",
+      "alt": "The courtyard facade of the Borujerdi House in Kashan: carved stucco, wooden screens and the house's tall doorways",
+      "credit": "Photo: Diego Delso, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_hist%C3%B3rica_de_Boroujerdi,_Kashan,_Ir%C3%A1n,_2016-09-19,_DD_32.jpg",
+      "title": "The Borujerdi House, Kashan"
+    },
+    "caravanserai": {
+      "src": "/assets/history-deep/persian-architecture/caravanserai.jpg",
+      "alt": "The entrance front of the Deir-e Gachin caravanserai: a plain brick facade with a central arched portal",
+      "credit": "Photo: Mostafameraji, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deir-e_Gachin_Caravansarai_is_a_historic_caravansarai_in_Iran_02.jpg",
+      "title": "Deir-e Gachin caravanserai — the entrance front"
+    },
+    "chehelSotun": {
+      "src": "/assets/history-deep/persian-architecture/chehelSotun.jpg",
+      "alt": "The audience hall of the Chehel Sotun Palace in Isfahan: the vaulted iwan hall with its painted and mirrored surfaces",
+      "credit": "Photo: Amir Pashaei, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chehel_Sotoun_building.jpg",
+      "title": "Chehel Sotun Palace — the audience hall"
+    },
+    "choghaZanbil": {
+      "src": "/assets/history-deep/persian-architecture/choghaZanbil.jpg",
+      "alt": "The ziggurat of Chogha Zanbil from the east: the stepped mass of baked brick above its enclosure",
+      "credit": "Photo: Carole Raddato from FRANKFURT, Germany, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_east_side_of_the_ziggurat,_Chogha_Zanbil,_Iran_(47780495562).jpg",
+      "title": "Chogha Zanbil — the ziggurat"
+    },
+    "cyrusTomb": {
+      "src": "/assets/history-deep/persian-architecture/cyrusTomb.jpg",
+      "alt": "The Tomb of Cyrus at Pasargadae: a gabled stone chamber carried on six stepped tiers",
+      "credit": "Photo: Diego Delso, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pasargadae,_Ir%C3%A1n,_2016-09-24,_DD_02.jpg",
+      "title": "The Tomb of Cyrus, Pasargadae"
+    },
+    "dolatAbad": {
+      "src": "/assets/history-deep/persian-architecture/dolatAbad.jpg",
+      "alt": "The garden of Dolat Abad in Yazd: the long water channel running between lines of cypresses toward the pavilion",
+      "credit": "Photo: Diego Delso, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_de_Dolat-Abad,_Yazd,_Ir%C3%A1n,_2016-09-21,_DD_41.jpg",
+      "title": "Dolat Abad, Yazd — the water axis"
+    },
+    "eramGarden": {
+      "src": "/assets/history-deep/persian-architecture/eramGarden.jpg",
+      "alt": "Eram Garden in Shiraz: the long pool reflecting the Qavam pavilion and the garden's cypresses and palms",
+      "credit": "Photo: Mostafameraji, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eram_Garden_Shiraz_%D8%A8%D8%A7%D8%BA_%D8%A7%D8%B1%D9%85_%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2_24.jpg",
+      "title": "Eram Garden, Shiraz"
+    },
+    "finGarden": {
+      "src": "/assets/history-deep/persian-architecture/finGarden.jpg",
+      "alt": "The painted ceiling of the pavilion at Fin Garden, Kashan: a star-pattern coffering filled with floral painting",
+      "credit": "Photo: Diego Delso, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_de_Fin,_Kashan,_Ir%C3%A1n,_2016-09-19,_DD_17.jpg",
+      "title": "Fin Garden, Kashan — the pavilion ceiling"
+    },
+    "firuzabad": {
+      "src": "/assets/history-deep/persian-architecture/firuzabad.jpg",
+      "alt": "The Palace of Ardashir at Firuzabad: ruined walls of rubble and mortar, and the arched front of the domed hall",
+      "credit": "Photo: Milad Vandaee (میلاد وندائی), via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ardashir_Babakan%27s_Palace_in_FiruzAbad_(cropped).JPG",
+      "title": "Firuzabad — the Palace of Ardashir"
+    },
+    "girihTile": {
+      "src": "/assets/history-deep/persian-architecture/girihTile.jpg",
+      "alt": "A girih star-pattern tile mosaic at Shah-i Zinda, Samarkand: interlacing stars in blue, turquoise and white",
+      "credit": "Photo: User:Patrickringgenberg, via Wikimedia Commons (CC BY 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samarkand_Shah-i_Zinda_Tuman_Aqa_complex_cropped2.jpg",
+      "title": "Girih tilework at Shah-i Zinda"
+    },
+    "golestan": {
+      "src": "/assets/history-deep/persian-architecture/golestan.jpg",
+      "alt": "An interior of the Golestan Palace in Tehran: carved and mirrored panelling and stained glass in low light",
+      "credit": "Photo: Alimohamadikh, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golestan_palace_mirror_hale_light_and_shadow.jpg",
+      "title": "Golestan Palace, Tehran — an interior"
+    },
+    "gonbadQabus": {
+      "src": "/assets/history-deep/persian-architecture/gonbadQabus.jpg",
+      "alt": "Gonbad-e Qabus: the flanged brick tomb tower of 1006–07, rising to its conical roof",
+      "credit": "Photo: ArmanGoharinasab, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gonbad-e_Qabus_tower_in_Gonbad-e_Qabus_City_1.jpg",
+      "title": "Gonbad-e Qabus (1006–07)"
+    },
+    "gurEmir": {
+      "src": "/assets/history-deep/persian-architecture/gurEmir.jpg",
+      "alt": "The Gur-e Amir at Samarkand: the fluted turquoise dome and the pishtaq of Timur's mausoleum",
+      "credit": "Photo: Bgag, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gur-e_Amir_01.jpg",
+      "title": "The Gur-e Amir, Samarkand"
+    },
+    "hatra": {
+      "src": "/assets/history-deep/persian-architecture/hatra.jpg",
+      "alt": "The Great Temple at Hatra: its colonnaded front and the arched pediment above the columns",
+      "credit": "Photo: Staff Sgt. JoAnn Makinano, via Wikimedia Commons (Public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hatra-Ruins-2008-8.jpg",
+      "title": "Hatra — the Great Temple"
+    },
+    "jamehCourtyard": {
+      "src": "/assets/history-deep/persian-architecture/jamehCourtyard.jpg",
+      "alt": "The courtyard of the Jameh Mosque of Isfahan: iwans on four sides and the twin minarets of the south iwan",
+      "credit": "Photo: Radosław Botev, via Wikimedia Commons (CC BY 3.0 pl)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Courtyard_and_iwans_of_Jameh_Mosque_Isfahan_2014_(2).jpg",
+      "title": "The Jameh Mosque, Isfahan — the courtyard"
+    },
+    "jamehHall": {
+      "src": "/assets/history-deep/persian-architecture/jamehHall.jpg",
+      "alt": "Inside the Jameh Mosque of Isfahan: brick domes carried on piers, each lit from an opening at its crown",
+      "credit": "Photo: seier+seier, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Friday_mosque,_isfahan.jpg",
+      "title": "The Jameh Mosque, Isfahan — the domed halls"
+    },
+    "khaju": {
+      "src": "/assets/history-deep/persian-architecture/khaju.jpg",
+      "alt": "The Khaju Bridge in Isfahan, photographed from the dry bed of the Zayandeh river",
+      "credit": "Photo: Bernard Gagnon, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khaju_Bridge,_Isfahan_04.jpg",
+      "title": "The Khaju Bridge, Isfahan"
+    },
+    "kharraqan": {
+      "src": "/assets/history-deep/persian-architecture/kharraqan.jpg",
+      "alt": "The two Kharraqan tomb towers photographed at night, under circling star trails",
+      "credit": "Photo: Soroush R1998, via Wikimedia Commons (CC BY 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kharraqan_Towers_Qazvin_1.jpg",
+      "title": "The Kharraqan towers, by night"
+    },
+    "lotfollah": {
+      "src": "/assets/history-deep/persian-architecture/lotfollah.jpg",
+      "alt": "The dome of the Sheikh Lotfollah Mosque, Isfahan: the central medallion and the arabesque that spreads from it",
+      "credit": "Photo: Phillip Maiwald (Nikopol), via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Isfahan_Lotfollah_mosque_ceiling_symmetric.jpg",
+      "title": "Sheikh Lotfollah Mosque — the dome"
+    },
+    "muqarnas": {
+      "src": "/assets/history-deep/persian-architecture/muqarnas.jpg",
+      "alt": "Glazed tile mosaic on the portal vault of the Shah Mosque in Isfahan: floral panels in turquoise, cobalt and yellow",
+      "credit": "Photo: Diego Delso, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mezquita_Shah,_Isfah%C3%A1n,_Ir%C3%A1n,_2016-09-20,_DD_64.jpg",
+      "title": "Tile mosaic of the Shah Mosque, Isfahan"
+    },
+    "naqshJahan": {
+      "src": "/assets/history-deep/persian-architecture/naqshJahan.jpg",
+      "alt": "Naqsh-e Jahan Square in Isfahan, seen through the muqarnas vault of the Qeysarieh portal",
+      "credit": "Photo: Amir Pashaei, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naqsh-e_Jahan_Square_from_the_gheisariye_Vault.jpg",
+      "title": "Naqsh-e Jahan Square, Isfahan"
+    },
+    "natanz": {
+      "src": "/assets/history-deep/persian-architecture/natanz.jpg",
+      "alt": "The shrine complex of Sheikh Abd al-Samad at Natanz: minaret, khanqah facade and conical dome, seen from the garden",
+      "credit": "Photo: Bernard Gagnon, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shrine_Complex_of_Sheikh_%27Abd_al-Samad,_Natanz_01.jpg",
+      "title": "Natanz — the shrine of Sheikh Abd al-Samad"
+    },
+    "pasargadae": {
+      "src": "/assets/history-deep/persian-architecture/pasargadae.jpg",
+      "alt": "The Audience Palace at Pasargadae: one fluted column still standing among the column bases of the hall",
+      "credit": "Photo: Bernard Gagnon, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audience_Palace,_Pasargadae_02.jpg",
+      "title": "Pasargadae — the Audience Palace"
+    },
+    "persepolisColumns": {
+      "src": "/assets/history-deep/persian-architecture/persepolisColumns.jpg",
+      "alt": "The Apadana at Persepolis: the processional way, standing columns and a column crowned with a bull capital",
+      "credit": "Photo: Bernard Gagnon, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Persepolis_-_Apadana_01.jpg",
+      "title": "Persepolis — the Apadana"
+    },
+    "sarvestan": {
+      "src": "/assets/history-deep/persian-architecture/sarvestan.jpg",
+      "alt": "The Sarvestan Palace: the domed hall of the Sasanian palace, seen from outside across the plain",
+      "credit": "Photo: Erik Albers, via Wikimedia Commons (CC BY 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sarvestan_Palace_front.JPG",
+      "title": "The Sarvestan Palace"
+    },
+    "shahMosque": {
+      "src": "/assets/history-deep/persian-architecture/shahMosque.jpg",
+      "alt": "The courtyard iwan of the Shah Mosque in Isfahan, its pishtaq and flanking arcades covered in blue tile mosaic",
+      "credit": "Photo: Radosław Botev, via Wikimedia Commons (CC BY 3.0 pl)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Courtyard_iwan_Shah_Mosque_Isfahan_2014_(4).jpg",
+      "title": "The Shah Mosque, Isfahan — the courtyard iwan"
+    },
+    "shahZinda": {
+      "src": "/assets/history-deep/persian-architecture/shahZinda.jpg",
+      "alt": "The lane of mausoleums at Shah-i Zinda, Samarkand: domed tombs in brick and tile along the necropolis street",
+      "credit": "Photo: Bgag, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shah-i-Zinda_02.jpg",
+      "title": "Shah-i Zinda, Samarkand"
+    },
+    "soltaniyeh": {
+      "src": "/assets/history-deep/persian-architecture/soltaniyeh.jpg",
+      "alt": "The Mausoleum of Öljaitü at Soltaniyeh: the octagonal tomb tower and its turquoise dome, photographed during restoration, with scaffolding on the dome",
+      "credit": "Photo: DAVID HOLT from London, England, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_mausoleum_of_%C3%96ljait%C3%BC_in_Soltaniyeh.jpg",
+      "title": "Soltaniyeh — the Mausoleum of Öljaitü"
+    },
+    "soltaniyehDome": {
+      "src": "/assets/history-deep/persian-architecture/soltaniyehDome.jpg",
+      "alt": "Inside the Mausoleum of Öljaitü at Soltaniyeh: the great dome in brick, with painted pattern at its crown",
+      "credit": "Photo: Fulvio Spada from Torino, Italy, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oljeitu_Mausoleum_(Gonbad-e_Soltaniyeh),_Soltaniyeh_(5110742444).jpg",
+      "title": "Soltaniyeh — inside the dome"
+    },
+    "tabatabaei": {
+      "src": "/assets/history-deep/persian-architecture/tabatabaei.jpg",
+      "alt": "The main hall of the Tabatabaei House in Kashan: stucco vaulting, carved plaster and stained-glass doors",
+      "credit": "Photo: Bernard Gagnon, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tab%C4%81tab%C4%81ei_House,_Kashan_03.jpg",
+      "title": "The Tabatabaei House, Kashan"
+    },
+    "taqKasra": {
+      "src": "/assets/history-deep/persian-architecture/taqKasra.jpg",
+      "alt": "Taq Kasra at Ctesiphon: the great arch of the Sasanian palace facade, with restoration scaffolding on the vault",
+      "credit": "Photo: Safa.daneshvar, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:001125-TaqKasra-Iraq-IMG_7914-2.jpg",
+      "title": "Taq Kasra, Ctesiphon"
+    },
+    "tarikhana": {
+      "src": "/assets/history-deep/persian-architecture/tarikhana.jpg",
+      "alt": "The Tarikhaneh Mosque at Damghan: the courtyard arcade carried on massive round brick piers",
+      "credit": "Photo: Dardodel, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tarikhaneh_Temple_Damghan_Iran.jpg",
+      "title": "The Tarikhaneh Mosque, Damghan"
+    },
+    "tileDetail": {
+      "src": "/assets/history-deep/persian-architecture/tileDetail.jpg",
+      "alt": "The muqarnas semi-dome of the Shah Mosque portal in Isfahan, its tiers of cells revetted in blue tile mosaic",
+      "credit": "Photo: Farhad Tafreshi, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosque_Shah_-_Portal.jpg",
+      "title": "The Shah Mosque portal — the muqarnas vault"
+    },
+    "vank": {
+      "src": "/assets/history-deep/persian-architecture/vank.jpg",
+      "alt": "Inside Vank Cathedral in New Jolfa, Isfahan: painted domes and frescoed walls above the sanctuary",
+      "credit": "Photo: Diego Delso, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_Vank,_Isfah%C3%A1n,_Ir%C3%A1n,_2016-09-20,_DD_115-117_HDR.jpg",
+      "title": "Vank Cathedral, New Jolfa — the interior"
+    },
+    "yakhchal": {
+      "src": "/assets/history-deep/persian-architecture/yakhchal.jpg",
+      "alt": "The yakhchal at Meybod: the great conical adobe dome of the ice house against the sky",
+      "credit": "Photo: User:Ggia, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20110102_Ice_House_(exterior)_Meybod_Iran.jpg",
+      "title": "The Meybod yakhchal (ice house)"
+    }
+  },
+  "standfirst": "Persia built in every material its plateau offered — mud, baked brick, rubble stone, glazed tile — and in doing so invented or perfected a kit of forms that the whole Islamic world inherited: the iwan, the dome on squinches, the four-iwan mosque, muqarnas, the paradise garden. This book follows that architecture from its beginnings in Elamite Khuzestan, through the stone ceremony of Achaemenid Persepolis and the great vaults of Sasanian Iraq, to the Seljuk dome chambers of Isfahan, Uljaytu's mountain of a tomb at Soltaniyeh, Timur's Samarkand, and Shah Abbas's Isfahan, the most beautiful planned city of its century. It gives equal weight to the engineering that made Persian building possible in a dry land — the qanat that carries water underground for tens of kilometres, the windcatcher that cools a house without fuel, the ice house that keeps winter into August — because in Persia the beautiful and the useful were rarely separate arts. It closes by tracing the Persian gift eastward to Mughal India and westward into the common language of Islamic building, and by teaching the reader to recognise a Persian building in the field.",
+  "intro": [
+    "Begin with the land, because Persian architecture is unintelligible without it. The Iranian plateau is a high, dry table ringed by mountains — the Zagros to the west, the Alborz to the north — where rainfall is scant, timber is scarce, summers are fierce and earthquakes are a condition of life. A builder there inherits three honest materials: earth, which bakes in the sun or fires into brick; stone, abundant in the mountain folds but laborious to move; and water, precious beyond all of them, to be caught, stored and paraded as wealth. Across three thousand years the architecture of Persia is the record of what intelligence did with those constraints. The dome is partly a roof that needs no timber. The courtyard is a climate device before it is a plan. The garden is water made visible, arranged as theology.",
+    "The tradition this book describes is unusually continuous. Empires fall in it — Achaemenid, Parthian, Sasanian, Arab, Seljuk, Mongol, Timurid, Safavid, Qajar — and each time the masons remain. The dome that Sasanian engineers raised on squinches at Firuzabad in the third century AD is the ancestor, by direct craft descent, of the dome chambers the Seljuks built at Isfahan in the eleventh and of the turquoise shells of Safavid mosques in the seventeenth. Forms travel the same way: the iwan, an open-fronted vaulted hall framed by a great arch, begins in Parthian and Sasanian palaces, organises the Islamic madrasa and mosque for a thousand years, and ends as the signature of half the buildings of Asia. Persian architecture is therefore best read as a single long conversation between a land, a craft and a succession of faiths and courts.",
+    "That conversation was never conducted in isolation. Achaemenid Persepolis was built by craftsmen drawn from an empire that reached from Egypt to India, and its reliefs list them by nation. Samarkand was raised by masons Timur deported from Damascus, Delhi and Isfahan alike. The Persian architect of Humayun's tomb carried the tradition to Delhi, and the Taj Mahal — charbagh, iwan, bulbous dome and all — is in large part a Persian building standing in India. What Persia exported was not a style in the decorative sense but a system: ways of vaulting without centring-hungry timber, of cooling without fuel, of laying geometry over brick and glaze, of making a garden stand for paradise. Systems travel better than ornaments, and this one travelled from Spain's neighbours to Bengal.",
+    "A word on evidence. Much of early Persia survives as ruin and mudbrick slump; Persepolis is a stone skeleton of palaces whose walls were unbaked earth and have melted back into the plain. The record improves as brick and then glazed tile take over, and from the Seljuk period onward Persia offers some of the best-preserved medieval buildings on earth. Restoration has been both saviour and forger: Isfahan's tilework is perpetually renewed, Bam was largely rebuilt after the earthquake of 2003, and the reader should hold the same suspicion of surfaces that this series teaches everywhere — trust the structure, the plan and the geometry first. Where this book gives a date, it gives the one scholarship defends; where scholarship argues, the book says so. What follows is a complete history, but completeness is not certainty, and the distinction is part of the subject."
+  ],
+  "keyFacts": [
+    [
+      "The span",
+      "Three thousand years of continuous building, from the Elamite ziggurat of Chogha Zanbil (c. 1250 BC) through the Achaemenid, Parthian and Sasanian empires, the medieval Islamic flowering and the Safavid golden age, to the Qajar period and the modern echoes of the twentieth century. Few traditions on earth can show an unbroken craft lineage of comparable length."
+    ],
+    [
+      "The iwan",
+      "Persia's most influential invention: a rectangular vaulted hall, walled on three sides and open on the fourth behind a monumental arch. Born in Parthian and Sasanian palace architecture, it became the organising unit of the four-iwan mosque, the madrasa, the caravanserai and the palace across the Islamic world."
+    ],
+    [
+      "The dome",
+      "The dome on squinches — an arch thrown across each corner of a square chamber to carry a circular dome — was developed in Sasanian Persia and refined there and in the Islamic centuries into double-shell domes of extraordinary span and grace, from Soltaniyeh (early 14th century) to Sheikh Lotfollah (early 17th)."
+    ],
+    [
+      "Brick and glaze",
+      "Persian architecture is fundamentally a brick architecture: patterned brickwork (hazarbaf) in the Seljuk age, then an ever-widening skin of glazed tile — mosaic faience (mo'araq), haft-rang painted tiles and banna'i script laid in the brickwork itself — until whole cities shine blue against the desert."
+    ],
+    [
+      "Water and wind",
+      "The qanat (underground aqueduct), the ab-anbar (vaulted water reservoir), the yakhchal (ice house) and the badgir (windcatcher) form a complete passive technology of survival in a hot, dry land — engineered, beautiful and studied today by designers of low-energy buildings worldwide."
+    ],
+    [
+      "The garden",
+      "The chahar bagh, the fourfold garden divided by water channels, is Persia's gift to the idea of paradise — the word itself descends from Old Persian pairidaiza, a walled enclosure. From Cyrus's Pasargadae to the Mughal charbaghs of India, the Persian garden is architecture drawn in water, shade and scent."
+    ]
+  ],
+  "timeline": [
+    [
+      "c. 1250 BC",
+      "Untash-Napirisha, king of Elam, builds the ziggurat of Chogha Zanbil in Khuzestan — the oldest great monument of the Iranian world, raised in mudbrick and baked brick with glazed accents."
+    ],
+    [
+      "559–530 BC",
+      "Cyrus the Great founds the Achaemenid Empire and builds Pasargadae: palace halls, the first known fourfold garden, and his own tomb on its six-stepped base."
+    ],
+    [
+      "c. 518–460 BC",
+      "Darius I and Xerxes raise Persepolis — terrace, Apadana, hypostyle halls and processional reliefs — the ceremonial capital of the largest empire yet known."
+    ],
+    [
+      "330 BC",
+      "Alexander of Macedon burns Persepolis. Its stone skeleton survives; its mudbrick walls return to the plain, a first lesson in what of Persia endures."
+    ],
+    [
+      "AD 224",
+      "Ardashir I founds the Sasanian Empire and builds Firuzabad, its circular city and palace — among the earliest great domes on squinches."
+    ],
+    [
+      "c. 531–578",
+      "Khusrau I raises the Taq Kasra at Ctesiphon: the widest single-span brick vault of the pre-modern world, the iwan made colossal."
+    ],
+    [
+      "7th–8th centuries",
+      "The Arab conquest brings Islam to Persia. Sasanian craft — vault, dome, stucco — passes into the service of the mosque; the Tari Khana at Damghan keeps one foot in each world."
+    ],
+    [
+      "1006–07",
+      "The Gonbad-e Qabus, tomb tower of Qabus ibn Vushmgir: 51 metres of flawless brick, among the supreme achievements of brick architecture anywhere."
+    ],
+    [
+      "1067 and 1093",
+      "The twin Kharraqan tomb towers in the Qazvin plain carry some of the earliest glazed tile used on an exterior, and the first known double-shell dome."
+    ],
+    [
+      "1086–89",
+      "At Isfahan's Friday Mosque, the vizier Nizam al-Molk and his rival Taj al-Molk build the two great dome chambers — the Seljuk masterpiece around which the four-iwan mosque crystallises."
+    ],
+    [
+      "12th century",
+      "The four-iwan plan becomes the standard grammar of mosque, madrasa and caravanserai from Syria to Central Asia; slender brick minarets rise over the Iranian plateau."
+    ],
+    [
+      "1220s",
+      "The Mongol invasions destroy cities across eastern Persia. Within two generations the Ilkhanid peace is building again, larger than before."
+    ],
+    [
+      "1302–12",
+      "The mausoleum of Uljaytu at Soltaniyeh: a dome of some 25 metres span on an octagonal tower — the largest brick dome of its age and the ancestor of the double-shell domes of the Timurids."
+    ],
+    [
+      "1399–1405",
+      "Timur raises the Bibi Khanum mosque at Samarkand with craftsmen gathered from across Asia; the Gur-e Amir (1403–04) becomes the model tomb of the Timurid and Mughal worlds."
+    ],
+    [
+      "1598",
+      "Shah Abbas I makes Isfahan his capital and begins its replanning around the Naqsh-e Jahan — palace, mosques, bazaar and square composed as one royal diagram."
+    ],
+    [
+      "1603–19",
+      "The Sheikh Lotfollah mosque: a single dome chamber whose arabesque medallion shifts with the light, among the most perfect rooms in Islamic architecture."
+    ],
+    [
+      "1611–29",
+      "The Shah Mosque rises on the square's south side — portal, rotated courtyard, winter halls and a seven-colour tile skin over a brick body."
+    ],
+    [
+      "c. 1647–1650",
+      "Chehel Sotun palace and the Khaju Bridge — the bridge as public palace, with painted pavilions over the Zayandeh river."
+    ],
+    [
+      "1655–64",
+      "Armenian merchants of New Jolfa build the Vank Cathedral: Persian vaulting and tile carrying Christian wall-painting — the two traditions in one room."
+    ],
+    [
+      "1785–96",
+      "Tehran becomes the Qajar capital. The Golestan Palace grows its mirror halls; in Kashan, merchant princes build courtyard houses with great windcatchers."
+    ],
+    [
+      "2011 and 2016",
+      "UNESCO inscribes the Persian Garden (nine gardens, from Pasargadae to Fin) and the Persian Qanat — the ancient systems enter the world list as living technology, not ruins."
+    ],
+    [
+      "1971",
+      "Tehran's Azadi (Shahyad) Tower quotes the Sasanian arch and the Islamic dome in reinforced concrete — the tradition speaking in a modern material, and the gateway through which most visitors still enter Persia's story."
+    ]
+  ],
+  "chapters": [
+    {
+      "id": "land-and-materials",
+      "numeral": "I",
+      "title": "Land, Climate and Materials: Persia Before the Empires",
+      "sections": [
+        {
+          "heading": "The plateau and its constraints",
+          "figure": "bam",
+          "paras": [
+            "The Iranian plateau is a high, largely arid tableland, enclosed by mountain ranges that interrupt rainfall and divide the interior into separate basins. Most settlements therefore grew where water could be secured reliably — along mountain foothills, beside rivers, or above underground channels — rather than across the open steppe and salt desert that dominate the centre. Summers are hot and winters can be severe, and this sharp continental climate shaped building from the beginning. Thick walls moderated heat by day and cold by night, openings were kept comparatively small, and courtyards offered shaded outdoor space protected from wind and dust. Architecture here was never a purely formal exercise. It was, first, a negotiation with scarcity, in which siting, orientation and mass mattered as much as display, and in which permanence depended on understanding exactly how far local materials could be made to go.",
+            "Geography also decided what could be built at all. Stone was plentiful in the Zagros and other mountain zones, where limestone and sandstone could be quarried close to many early sites, yet it was heavy, laborious to work and difficult to move across long distances. Timber presented the opposite problem. Suitable trees were scarce on the dry plateau, and long, straight beams were always a limiting resource, valuable enough to be imported for important roofs and doors. Builders consequently learned to span rooms without depending on generous supplies of wood. They thickened walls, reduced spans, corbelled and vaulted in earth and brick, and reserved timber for places where its strength in tension was indispensable. The characteristic forms of later Persian architecture — the vault, the dome and the massive enclosing wall — have part of their origin in this simple material economy.",
+            "Water, paradoxically, was both scarce and architecturally productive. Snowmelt from the mountains fed streams at the plateau edge, and the qanat, a gently sloping underground gallery tapping an aquifer, eventually allowed settlement and cultivation far from surface rivers, though its precise origins remain debated. Where gardens and palaces later flourished, they did so because channels, pools and wells were planned as carefully as walls. At the same time, earthquakes were a recurrent danger across much of the region, punishing brittle construction and rewarding buildings whose mass and bonding could absorb movement. The earliest builders left no treatises, so their knowledge must be read from ruins, yet the pattern is consistent. Across millennia, Persian architecture developed as a set of tested answers to heat, cold, seismic risk and shortage, answers that remained available long after the political orders that first used them had disappeared."
+          ]
+        },
+        {
+          "heading": "Mudbrick, baked brick and glaze",
+          "figure": "choghaZanbil",
+          "paras": [
+            "The fundamental building material of ancient Persia was earth itself. Sun-dried mudbrick, formed from clay mixed with water and often tempered with straw or grit, could be made almost anywhere, laid quickly and repaired by local labour. Its weakness was moisture and abrasion, so mudbrick walls were commonly protected by plaster, set on stone or baked-brick footings, or faced with more durable material where weather struck hardest. Properly maintained, however, mudbrick was far from primitive. It offered excellent thermal mass, could be moulded into arches and vaults as well as flat walls, and allowed very large structures to rise without quarrying or long-distance transport. Many of the most imposing monuments of the ancient Near East were, in substance, carefully engineered masses of mudbrick, and Persian builders inherited and refined techniques that neighbouring Mesopotamian cultures had practised for centuries before them.",
+            "Baked brick occupied a different place in the economy of building. Firing required fuel, kilns and organisation, so baked bricks were used selectively — for pavements, drains, facings, inscriptions and exposed surfaces where sun-dried brick would decay. Their regular size encouraged coursed, patterned work, and their hardness made them suitable for the outer skin of great platforms and towers. Set in bitumen or mortar in some early contexts, and often stamped or inscribed, baked bricks could carry royal names into the fabric itself. The contrast between a mudbrick core and a baked-brick face is therefore both practical and expressive. It conserved costly material where strength mattered less, concentrated it where durability and appearance mattered most, and established a layered conception of the wall — structure within, finished surface without — that recurs throughout the later architecture of the region in many different forms.",
+            "Glaze added colour to this earthen architecture. From early periods, bricks and tiles could be coated with vitreous glazes in blue, green, white and yellow, turning a wall surface into something luminous under strong sunlight. The technology was closely associated with Mesopotamia and Elam, and at Susa in particular glazed brickwork reached a high level of sophistication, later culminating in the famous figural panels of the Achaemenid period. Glaze was never merely decoration applied after the serious work of building was finished. It protected fired surfaces, articulated inscriptions and images, and signalled royal or sacred importance from a distance. Against a landscape of dust-coloured earth and pale stone, a band of deep blue brick carried unmistakable meaning. In this respect, the later Persian love of coloured tile, so conspicuous in Islamic architecture, has a very long prehistory indeed."
+          ]
+        },
+        {
+          "heading": "Chogha Zanbil and the Elamite inheritance",
+          "paras": [
+            "South-western Iran, the lowland region of Khuzistan, looked as much toward Mesopotamia as toward the plateau, and its principal early civilisation was that of Elam. Centred at Susa and at other cities, Elamite culture maintained its own language, kingship and religious traditions while trading, fighting and intermarrying with the peoples of Iraq over many centuries. This borderland position made it a conduit. Building types, glazed decoration, cuneiform inscriptions and ideas of sacred kingship passed through Elam into the Iranian world, while highland resources and peoples moved in the opposite direction. When Persian-speaking groups later rose to prominence, they did not enter an empty landscape. They inherited cities, craft traditions and monuments, above all in the south-west, and the first great surviving statement of that inheritance is the sacred complex at Chogha Zanbil, south-east of Susa.",
+            "Chogha Zanbil was founded by the Elamite king Untash-Napirisha, traditionally dated to around 1250 BC, as a religious centre dedicated principally to the god Inshushinak. At its heart stood a great ziggurat, a stepped temple tower of mudbrick faced with baked brick, originally rising through several stages to a shrine at its summit, of which the lower stages survive impressively today. Temples, palaces, storerooms and an enclosing wall completed a planned sacred city that was never fully finished or densely inhabited. Inscribed bricks name the founder and the deities served, embedding royal piety directly in the masonry. Unlike the better-known ziggurats of Mesopotamia, the stair arrangements and internal construction here show distinctive planning, reminding us that Elamite architects adapted a shared regional type rather than simply copying foreign models handed down to them.",
+            "The importance of Chogha Zanbil for a history of Persian architecture is partly material and partly conceptual. Materially, it demonstrates the full early repertoire: vast mudbrick mass, protective baked-brick skin, glazed accents, stamped inscriptions and carefully managed drainage to shed rain from vulnerable earthwork. Conceptually, it shows architecture organised as a sacred landscape, with walls defining degrees of access and a raised holy place visible across the plain. Later Persian rulers would build in different idioms and for different gods, yet comparable concerns recur — enclosure, ascent, visibility and the proclamation of a ruler’s devotion in durable fabric. Elam did not simply precede Persia; it prepared part of the ground, literally and culturally, on which Achaemenid kingship would later present itself. The imperial style that emerges at Pasargadae is unintelligible without this older, bilingual world behind it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pasargadae",
+      "numeral": "II",
+      "title": "Pasargadae: The First Imperial Style",
+      "sections": [
+        {
+          "heading": "Cyrus and the garden capital",
+          "paras": [
+            "Pasargadae, in the high plain of Fars, was the dynastic seat associated with Cyrus the Great, founder of the Achaemenid Empire in the sixth century BC. Unlike later Persepolis, it was not a dense ceremonial terrace but a dispersed composition of palaces, pavilions, a gatehouse and a royal tomb set within a large, watered landscape. Its buildings were probably constructed during the later part of Cyrus’s reign, after his conquests had brought the craftsmen and resources of much of the Near East within his reach. The site therefore records a moment of invention. A Persian king, ruling peoples with far older monumental traditions than his own, required an architecture that could express a new imperial order without merely imitating any single subject culture. What emerged was eclectic yet deliberate, combining local, Mesopotamian, Egyptian and Greek elements within a distinctly open, landscape-based plan.",
+            "The surviving palaces are known by modern labels. The Gatehouse, or Gate R, once carried a relief of a winged figure whose complex iconography draws on several Near Eastern traditions; Palace S contained a columned hall with reliefs on its doorjambs; and Palace P, probably residential, centred on a rectangular hypostyle hall opening through porticoes to the surrounding gardens. Black and white stone were combined for visual contrast, and carved dressings framed mudbrick or less finely finished walling. The effect would have been lighter and more permeable than the massive palace architecture of Assyria or Babylon. Columns carried roofs high above paved floors, views ran outward between buildings, and royal presence was staged across a park rather than concentrated behind a single fortress wall. Even in ruin, the spacing of the remains conveys that unusual openness.",
+            "Excavation and survey suggest that this openness was carefully organised rather than casual. Buildings stood at considered intervals, aligned in relation to one another and to watercourses, within an extensive royal precinct that may have included pavilions and tents now invisible in the archaeological record. Pasargadae was a capital of a particular kind: a dynastic and ceremonial centre rather than a populous administrative city, with government also conducted from older centres such as Susa and Ecbatana. Its architecture should therefore be read as representation as much as accommodation. Cyrus presented himself not as the heir of one conquered capital but as ruler over many lands, and his masons’ borrowed techniques proclaimed the breadth of that dominion. At the same time, the generous role given to garden, water and distance gave the ensemble a character that later Persian royal planning would repeatedly recall."
+          ]
+        },
+        {
+          "heading": "The tomb on the stepped base",
+          "figure": "pasargadae",
+          "paras": [
+            "The most complete and celebrated building at Pasargadae is the tomb traditionally attributed to Cyrus himself, standing apart from the palaces on the plain. A small gabled stone chamber is raised on a stepped base of six receding tiers, giving the modest interior a monumentality entirely out of proportion to its size. The chamber’s pitched roof and plain, powerful masonry recall precedents in western Asia Minor, particularly Lydia, while the stepped base belongs to a much older Mesopotamian and Elamite vocabulary of elevated sacred structures. That an imperial founder should be commemorated by so restrained a building is striking. There is no triumphal relief, no inscription surviving on the structure itself, and no crowd of subsidiary sculpture. Authority is expressed through proportion, isolation and superb stonework — qualities that have made the tomb an enduring emblem of early Persian kingship.",
+            "The masonry deserves close attention. Large limestone blocks were laid with fine joints and finished with drafted margins, a technique in which the edges of a block are cut precisely while the central face is left slightly raised. Skilled foreign masons, probably including Ionian Greeks and Lydians drawn from the western parts of the new empire, are generally credited with introducing or refining such work in Fars. Anathyrosis — the careful dressing of contact surfaces — and the use of metal clamps set in lead also point to craft traditions beyond the plateau. Yet the result is not a Greek building transplanted to Iran. The chamber is small, massively walled and approached by a narrow doorway, and its fusion of a house-like upper form with a stepped podium is without exact parallel. Imperial patronage gathered techniques; local design decisions turned them into something new.",
+            "Later history added a second life to the tomb. Ancient authors describe Cyrus’s burial and Alexander’s visit to the monument, and after the Islamic conquest the structure was reinterpreted locally as the tomb of the mother of Solomon, acquiring a protective sacred identity that probably helped preserve it. A later inscription and alterations, including a prayer niche cut within the chamber, belong to that phase of its history. Such reinterpretation is common among ancient monuments in Iran, where continuous local veneration often did what state protection could not. For the modern visitor, however, the essential fact remains the building’s extraordinary economy of means. Six steps, one chamber, one gable: from these few elements the architects created a royal monument that has anchored the memory of Cyrus for well over two thousand years."
+          ]
+        },
+        {
+          "heading": "Stone, garden and the fourfold plot",
+          "paras": [
+            "Stone at Pasargadae was used with a precision that marks a decisive departure from a purely mudbrick architecture. Columns, doorframes, pavements and reliefs were cut in limestone of contrasting colours, while less visible wall cores could be built more cheaply. This hierarchy of materials — fine stone where the eye and hand met the building, rougher construction behind — became a lasting feature of Achaemenid practice and reaches its grandest expression at Persepolis. It also implies a sophisticated organisation of labour: quarrymen, transport teams, masons, sculptors and brickworkers coordinated under royal administration. The empire did not merely supply exotic craftsmen; it supplied logistics. Building on this scale was itself a demonstration of imperial capacity, a point Persian kings understood well and repeated in inscriptions boasting that materials and workers had been gathered from across their dominions for the glory of a single royal project.",
+            "The gardens of Pasargadae may be its most influential creation. Archaeological investigation has identified a regular system of stone water channels within the palace area, spaced in a way that suggests a formal garden divided into plots by watered avenues. This has widely been interpreted as the earliest known example of the chahar bagh, or fourfold garden, in which a plot is quartered by crossing channels or paths. The evidence should be stated carefully: no planting beds survive, and reconstruction depends on the pattern of channels and pavilions. Even so, the correspondence between the excavated layout and the later, richly documented Persian garden tradition is persuasive. Water was led in straight lines, displayed in open channels and used to structure space geometrically, turning irrigation into ornament and royal order into living, cultivated form.",
+            "The fourfold garden carried meanings beyond horticulture. In a dry land, a watered, shaded enclosure embodied abundance under control — paradise, a word whose roots run back through Greek to an Old Persian term for a walled park. The king who created such a garden demonstrated mastery over nature as well as over peoples, and the garden became a setting for audience, feasting and retreat. Later Islamic Persian gardens, from medieval courts to the great charbaghs of the Safavid age and their Mughal descendants in India, developed this inheritance in endlessly varied forms. Their ultimate ancestry at Pasargadae rests on slender but significant physical evidence, and scholars properly debate details of planting and extent. What is not in doubt is the principle established here: in Persian royal architecture, building and garden form a single composition, neither complete without the other."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "persepolis",
+      "numeral": "III",
+      "title": "Persepolis: Ceremony in Stone",
+      "sections": [
+        {
+          "heading": "Darius builds a ritual city",
+          "paras": [
+            "Persepolis was founded by Darius I around the end of the sixth century BC on a great artificial terrace at the foot of a mountain in Fars, not far from Pasargadae. It was not the empire’s everyday administrative capital — that role belonged principally to Susa — but a ceremonial and dynastic centre where the king received delegations, celebrated festivals and displayed the order of his universal rule. Construction continued under Xerxes and later kings, so the complex grew by addition over more than a century, each ruler contributing palaces, gates and halls bearing his own inscriptions. The famous foundation deposits and trilingual texts present building as an act of legitimate kingship. What visitors now see as a unified field of stone columns and carved stairways is therefore the accumulated work of several reigns, joined by a consistent ceremonial programme.",
+            "The terrace itself is among the boldest works on the site. A vast platform, partly cut from the living rock and partly built up in massive masonry, levelled an irregular hillside into a stage for architecture, served by an ingenious drainage system cut into the bedrock beneath. Retaining walls of huge, finely fitted blocks proclaim the effort involved before any palace is even reached. Access was controlled and theatrical: a broad ceremonial stair, its steps shallow enough, tradition holds, for riders or dignitaries in long robes to ascend with ease, led to the Gate of All Nations built under Xerxes. There, colossal human-headed bulls in the Assyrian manner guarded the entrances, announcing that the traditions of older empires had been gathered up and surpassed within a Persian order administered from this terrace.",
+            "The function of Persepolis has been debated, but its imagery leaves its central purpose clear. Processions dominate its sculpture: courtiers, guards and delegations from the subject peoples ascend its stairs in ordered ranks, bearing gifts and animals toward the king. Whether these scenes depict a specific New Year festival, as often proposed, or a generalised vision of imperial harmony remains uncertain, and caution is appropriate. What the reliefs unquestionably do is turn the architecture itself into a permanent ceremony. The visitor re-enacted the procession by climbing the same stairs, passing the same guards and approaching the same audience halls. Persepolis was destroyed by Alexander’s forces in 330 BC, when fire consumed its timber roofs and cedar beams, yet the stone skeleton that survived preserves the clearest surviving statement of Achaemenid royal ideology in built form."
+          ]
+        },
+        {
+          "heading": "The Apadana and the hypostyle halls",
+          "figure": "apadanaRelief",
+          "paras": [
+            "The Apadana, the great audience palace begun by Darius and completed under Xerxes, stood on its own raised platform at the heart of the terrace. Its main hall contained ranks of tall columns — thirty-six within the hall, with further porticoes of twelve on three sides — supporting a flat timber roof high above a space designed to hold a large assembled court. The columns carried capitals of a distinctive Achaemenid type: volutes combined with addorsed animal protomes, most famously bulls, between whose heads the roof beams rested. Slender, fluted shafts rising from bell-shaped bases gave these halls a lightness quite different from the squat, massive columnar architecture of Egypt. Audience at Persepolis was staged vertically as well as horizontally, the king enthroned amid a forest of stone rising toward a ceiling of precious imported wood.",
+            "The Apadana’s twin ceremonial staircases preserve the most famous relief sculpture of the ancient Persian world. On the northern and eastern facades, registers of figures advance in calm procession: Persian and Median nobles, guards, chariots and horses, and delegations from more than twenty subject peoples, each distinguished by dress, headgear and gifts — vessels, textiles, gold, camels, lions and other offerings characteristic of their lands. The carving is deliberately unhurried. No battles rage and no enemies are trampled; instead, difference is absorbed into order, and the empire appears as a hierarchy harmoniously arranged around its king. Individual craftsmen from many regions contributed to the work, and masons’ marks and stylistic variations can still be detected. Yet the overall discipline of the composition is complete, making the staircases both a political document and a masterpiece of relief carving.",
+            "Other buildings extended the same architectural language. The Hall of a Hundred Columns, begun under Xerxes and completed under Artaxerxes I, offered another vast hypostyle space, its doorjambs carved with the king enthroned and with scenes of royal heroes combating animals and monsters. Smaller palaces attributed to Darius, Xerxes and later kings repeated the pattern of columned hall, portico and carved stone doorframes at domestic scale, while the so-called Council Hall and Treasury served the court’s deliberative and storage needs. Repetition was not a failure of imagination. A recognisable royal style — tall fluted columns, protome capitals, glazed and carved ornament, inscriptions in three scripts — bound the terrace together across reigns. Persepolis reads as one composition because successive kings deliberately built in the established idiom of their dynasty, adding their names to a collective monument of kingship."
+          ]
+        },
+        {
+          "heading": "Stone dress over mudbrick bones",
+          "paras": [
+            "For all its stone splendour, Persepolis was not built of stone throughout. The great columns, staircases, doorframes, window surrounds and reliefs that dominate modern photographs were the durable dress of buildings whose walls were largely mudbrick, plastered and painted, and whose roofs were timber. Fire and time stripped away the perishable majority of the fabric, leaving a misleading impression of an all-stone city of solemn grey. In its working life the complex would have appeared far more colourful and various: painted plaster, glazed brick panels, hangings, metal fittings and cedar ceilings enriched the carved stone, and gilding caught the light at focal points. Reconstructing that original richness from fragments is difficult but essential. The ruins reward structural reading, yet they systematically understate the sensory experience — colour, textile, scent of timber and movement of crowds — for which the architecture was designed.",
+            "The workforce that raised Persepolis was as imperial as its iconography. Royal inscriptions boast that materials and craftsmen came from across the empire — gold, cedar, ivory, silver and skilled labour from subject lands — and administrative tablets from the site, written largely in Elamite, record rations and payments for large teams of workers, including specialists and women. These documents correct any image of building by anonymous forced labour alone; many workers were paid in rations or silver according to graded scales of skill. Greeks, Egyptians, Lydians, Babylonians and others contributed techniques, from drafted-margin masonry to sculptural styles that scholars can still distinguish in the finished work. Persepolis is thus evidence for an early, state-directed internationalism in building, in which the capacity to summon and coordinate distant crafts became itself a principal expression of imperial power.",
+            "The afterlife of the site shaped its survival. After Alexander’s fire, the terrace was partly quarried and its buildings adapted or abandoned, while a successor city grew nearby at Istakhr. In Islamic times the ruins were known locally as Takht-e Jamshid, the throne of the legendary king Jamshid, and travellers’ accounts and drawings gradually brought them to European attention from the seventeenth century onward. Scientific excavation in the twentieth century cleared the palaces and recovered the tablets that transformed understanding of the Achaemenid administration. The result is a paradox familiar in Persian architectural history. Persepolis is at once exceptionally well documented and fundamentally incomplete: its most permanent elements survive, while the mudbrick, timber and paint that once completed it must be supplied by scholarship. Reading the site well means holding both truths together — stone certainty and vanished fabric alike."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-parthian-turn",
+      "numeral": "IV",
+      "title": "The Parthian Turn: Arch, Vault and the Iwan",
+      "sections": [
+        {
+          "heading": "After Alexander: a changed world",
+          "paras": [
+            "Alexander’s conquest ended Achaemenid rule and brought Iran within the Hellenistic world. Under his Seleucid successors, Greek cities were founded or refounded across the plateau and Mesopotamia, with gymnasia, temples and gridded streets introducing new civic forms and a classical architectural vocabulary. Yet Hellenisation in Iran was always partial and uneven. Older temples continued in use, local building crafts persisted, and in many regions Greek forms were absorbed into structures whose plans and construction remained Near Eastern. The evidence is also frustratingly incomplete: many Hellenistic levels lie beneath later cities or have been excavated only in fragments, so the period risks appearing as a mere interval between empires. It is better understood as a long negotiation between imported and inherited ways of building, conducted differently in each region and leaving both available for later architects to recombine.",
+            "From the mid-third century BC, the Arsacid Parthians, originating in the north-east, gradually displaced Seleucid power, eventually ruling an empire stretching from Mesopotamia to Central Asia. Parthian kingship was more decentralised than its Achaemenid predecessor, exercised through great noble houses and vassal kingdoms, and its architecture reflects that looser structure. No single Persepolis-like centre dominates the record; instead, palaces, temples and fortified residences appear across the empire, from Nisa in Turkmenistan to Dura-Europos on the Euphrates. Parthian builders inherited Hellenistic ornament but increasingly returned to older Mesopotamian and Iranian construction — massive brickwork, vaulted roofing and enclosed courtyard plans — better suited to local materials and climate. The result was not a rejection of the Greek inheritance so much as its subordination to structural habits that timber scarcity and mudbrick tradition had never allowed builders to forget.",
+            "The most consequential Parthian development was the widespread adoption of the vault. Where Achaemenid halls had depended on columns and imported timber beams, Parthian architects roofed substantial rooms with barrel vaults of brick or stone, often built with pitched courses that reduced the need for elaborate temporary centring. Vaulting freed plan-making from the length of available beams and produced interiors of a new monumentality: tall, enclosed, shadowed spaces quite unlike the open, columned halls of the earlier empire. Combined with the courtyard and the great open-fronted hall known as the iwan, vaulting supplied the basic grammar of later Iranian architecture, Sasanian and Islamic alike. The Parthian period has sometimes been treated as an artistic decline between greater ages. In structural and spatial terms, it was instead one of the most inventive phases in the whole history of building in the region."
+          ]
+        },
+        {
+          "heading": "Hatra and the vaulted iwan",
+          "figure": "hatra",
+          "paras": [
+            "The iwan is a vaulted hall closed on three sides and open along its fourth, usually framed by a monumental facade and giving onto a courtyard. Rooms answering to this description appear in Parthian-period contexts at Assur and elsewhere, and the form achieved its grandest early expression at Hatra, the fortified caravan city in northern Mesopotamia that flourished under Parthian suzerainty in the first and second centuries AD. Hatra’s great sanctuary precinct contained rows of enormous stone iwans, their barrel vaults carried on massive walls and their facades articulated with classical columns, arches and sculpted heads. The mixture is characteristic of the Parthian world at its most confident: a fundamentally non-classical spatial type, derived from Mesopotamian practice, dressed in a Greco-Roman architectural language naturalised over centuries of contact across the frontier zone.",
+            "At Hatra the iwan was not an isolated motif but an organising principle. Successive halls of increasing scale were combined in sequences, so that movement through the sanctuary passed between open court and vaulted shade, each iwan framing a view and gathering worshippers or courtiers along a defined axis. The open side made the hall simultaneously interior and facade: its vaulted depth was visible from the court, and those enthroned or officiating within appeared as if on a stage. This theatrical quality explains the iwan’s long subsequent career in Persian architecture, where it served palaces, mosques, madrasas and caravanserais alike. Four iwans arranged around a courtyard became the classic plan of the medieval Persian mosque and school. That enduring scheme has many sources, but its monumental vaulted form was already fully realised in the Parthian period.",
+            "Construction at Hatra also demonstrates the period’s technical range. The great vaults were built of dressed stone in a region where good limestone was available, while elsewhere Parthian builders vaulted in baked or mud brick, adjusting technique to material without changing the essential form. Facades combined engaged columns and classical entablatures with arched openings in a manner that later scholars once dismissed as provincial misunderstanding. It is better read as deliberate synthesis, in which ornament and structure answered to different traditions without embarrassment. Hatra itself fell to the Sasanians in the third century AD and was abandoned, preserving its Parthian-period fabric with unusual completeness. Its ruins therefore offer the clearest surviving evidence that the signature elements of later Persian architecture — iwan, vault and courtyard axis — were assembled long before Islam, under a dynasty too often remembered only for its wars with Rome."
+          ]
+        },
+        {
+          "heading": "Stucco, arch and the westward road",
+          "paras": [
+            "Parthian interiors were commonly finished in stucco, and this apparently humble material transformed what vaulted brick construction could express. Modelled and carved plaster covered walls with geometric patterns, vegetal scrolls, figural scenes and architectural ornament, providing rich surfaces at a fraction of the cost of carved stone. Stucco could be renewed, repainted and adapted as tastes changed, and it allowed classical motifs — acanthus, vine scrolls, figures in niches — to be translated into a flatter, more repetitive decorative system well suited to large wall areas. The painted and plastered interiors of Kuh-e Khwaja in Sistan, a Parthian-period complex whose murals included narrative and courtly scenes, show how completely these surfaces were once finished, though only fragments now survive. Behind the plain brick and rubble exteriors typical of the period lay rooms of considerable colour and sophistication.",
+            "The Parthian arch and vault travelled. Through trade, war and the movement of craftsmen across the Mesopotamian frontier, vaulted construction and the iwan concept entered the architectural repertoire of the Roman Near East, visible in the frontier cities where Roman and Parthian cultures met and borrowed from one another. The precise routes and directions of influence are often impossible to prove, and scholars rightly avoid simple one-way accounts; Rome possessed its own powerful vaulting tradition in concrete. Nevertheless, the combination of courtyard, iwan and stucco decoration that characterises later architecture from Syria to Central Asia was substantially formed within the Parthian cultural sphere. When the Sasanians reunified Iran under a more centralised monarchy, they inherited this repertoire ready-made, and their architects raised it to a scale and structural daring their predecessors had not attempted.",
+            "Assessing the Parthian achievement requires allowance for losses. Mudbrick and stucco perish, later cities overbuilt Parthian foundations, and the dynasty’s art was long judged against classical Greek standards it had never claimed to meet. Excavations at sites such as Nisa, with its columned halls and treasury, Assur, Seleucia and Dura-Europos have gradually restored balance, revealing an architecture of experimentation in which Greek, Mesopotamian and Iranian elements were tested in new combinations. The decisive legacy is spatial. The columned audience hall open to a garden, perfected by the Achaemenids, gave way to enclosed, vaulted interiors organised around courts — a transformation as fundamental as any in the region’s architectural history. Almost everything built in Iran for the following fifteen centuries, from Sasanian palaces to Safavid mosques, works within the spatial world the Parthians created."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sasanian-achievement",
+      "numeral": "V",
+      "title": "The Sasanian Achievement: The Dome on Squinches",
+      "sections": [
+        {
+          "heading": "Ardashir and the palace of Firuzabad",
+          "paras": [
+            "In AD 224 Ardashir I, founder of the Sasanian dynasty, defeated the last Parthian king and began the reunification of Iran under a centralised, Zoroastrian monarchy that would rule for four centuries. His building programme announced the change. Near his new circular city of Firuzabad in Fars he raised a great palace whose scale and construction mark a decisive break with Parthian practice. Built largely of rubble stone and mortar, the palace combined a row of tall iwans and courtyard spaces with a suite of domed chambers, its plain exterior giving little warning of the spatial ambition within. Fire temples, fortifications and a vast palace on an artificial platform above the nearby lake completed a royal landscape. The new dynasty presented itself as heir to the Achaemenids, yet its architecture drew most directly on the vaulted inheritance of its Parthian predecessors, now handled with unprecedented confidence.",
+            "The domes of Firuzabad are its principal claim on architectural history. In the palace’s principal chambers, circular domes were carried over square rooms by means of squinches — arches thrown across the corners of the square to create an octagonal transition to the dome above. This device, developed in Iran during this period, solved one of the fundamental problems of dome construction without recourse to the pendentives later favoured in Byzantine architecture. The squinches at Firuzabad are comparatively simple, and the domes themselves are built of rough stone, yet the principle is fully present in some of the earliest surviving large domes anywhere. Generations of later builders, Sasanian, Islamic and eventually European through transmission and parallel development, would depend on corner transitions of this family. Few structural ideas in the history of architecture have had a longer or wider career.",
+            "Ardashir’s circular city deserves notice in its own right. Firuzabad was laid out as a precise circle divided by radial and concentric streets, with a central tower-like structure marking its symbolic heart — a piece of geometric planning that proclaimed royal order imposed on the landscape, and which has antecedents in Parthian and older Near Eastern practice. Palace, city, temples and agricultural works in the surrounding plain formed a single programme of foundation, comparable to Cyrus’s work at Pasargadae but executed in a new architectural language of vault and dome. The contrast between the two dynastic foundations summarises five centuries of development. Where Cyrus had built columned halls in gardens, Ardashir built vaulted, domed masses in a planned city; yet both used building to declare that a new order had begun, and both drew craftsmen and techniques from across a wide world."
+          ]
+        },
+        {
+          "heading": "The chahar taq and the fire temple",
+          "figure": "sarvestan",
+          "paras": [
+            "The characteristic sacred building of Sasanian Iran was the chahar taq, literally ‘four arches’: a domed square chamber open on all four sides through broad arches carried on corner piers, sheltering a sacred fire. The type distilled the period’s structural achievement into its smallest complete form. Four piers, four arches, squinches and a dome composed a building that was at once a piece of engineering and a Zoroastrian theological statement, the fire burning beneath the dome as the visible sign of divine order and royal legitimacy. Chahar taqs stood alone on hilltops, within temple precincts and inside palace complexes, and their distinctive silhouette became a landmark across the Iranian landscape. Many survived the coming of Islam precisely because the type was adaptable, later serving as mosques, shrines and village landmarks long after the fires they housed had gone out.",
+            "The palace at Sarvestan, in Fars, shows how flexibly the same elements could be combined in a secular setting. Probably dating from the fifth century AD, though its chronology has been debated, the palace is built of stone rubble faced with fine stucco and organised around an iwan giving onto a courtyard. Behind and beside it lie domed halls carried on squinches and, in one notable chamber, on columns supporting a dome in a manner that anticipates later experiments. Barrel-vaulted rooms, small courts and a columned hall complete a plan of some complexity within a comparatively modest footprint. Sarvestan was long called a fire temple because of its domed chambers, and the confusion is instructive: palace and temple in Sasanian Iran shared a common architectural language, so thoroughly had the dome on squinches become the natural way to crown any important space.",
+            "Decoration completed the Sasanian interior. Stucco, inherited from Parthian practice, was now carved with extraordinary density and precision — geometric interlace, stylised plants, animals, royal emblems and the senmurv and other creatures of Zoroastrian imagery — while glass mosaic is attested at sites including Bishapur, where Ardashir’s successor Shapur I built a palace city with the help, ancient sources suggest, of Roman craftsmen taken in war. Bishapur also preserves rock reliefs and a great cruciform domed hall that together express the dynasty’s imperial confidence at its height. Sasanian ornament matters because it survived the dynasty. Early Islamic art in Iran and Iraq drew heavily on its stucco vocabularies and courtly motifs, transmitting Sasanian patterns into the decorative language of a new civilisation — one of the clearest cases of artistic continuity across a religious and political revolution."
+          ]
+        },
+        {
+          "heading": "Taq Kasra: the vault that defied gravity",
+          "paras": [
+            "The crowning monument of Sasanian architecture stands at Ctesiphon, the dynastic capital on the Tigris in Mesopotamia: the Taq Kasra, the great iwan of the royal palace, attributed principally to the reign of Khusrau I in the sixth century AD. Its facade, once flanked by arcaded wings articulated with blind arches and engaged columns, fronts a single barrel vault of baked brick spanning roughly twenty-five metres and rising higher still — the largest surviving unreinforced brick vault of the ancient world, and one of the largest anywhere. The vault was built in pitched courses leaning against a completed end wall, a technique that allowed enormous spans without full timber centring. Standing before it, the visitor confronts the logical culmination of the Parthian turn: the iwan magnified until it becomes a symbol of empire in itself.",
+            "The Taq Kasra was more than a structural feat. The great hall served royal audience, with the king enthroned beneath the vault’s apex, set against hangings and, later Islamic sources report, a vast carpet depicting a garden — the famous Spring of Khusrau — spread upon the floor. The iwan thus combined the two oldest themes of Persian royal architecture: the audience hall of Persepolis and the royal garden of Pasargadae, the latter now translated into textile and image beneath a Mesopotamian vault. Its scale was deliberate propaganda directed at the empire’s western frontier, visible from the river and known to Roman and Arab observers alike. When Muslim armies took Ctesiphon in the seventh century, the conquerors reportedly used the hall as a place of prayer, acknowledging in practice what its builders had intended: this was the ceremonial centre of a world order.",
+            "The palace complex around the iwan has largely vanished, and part of the facade fell in the nineteenth century, yet the surviving vault remains the single most influential Sasanian structure. Its profile passed into the architectural imagination of the Islamic world, where the great iwan became a standard emblem of authority from Iraq to Central Asia, and its constructional daring set a benchmark that medieval builders measured themselves against — the vaults of later Persian mosques and palaces are its descendants, at reduced scale but in direct line. The Sasanian achievement as a whole can be summarised in three linked inventions brought to maturity: the dome on squinches, the monumental iwan and a stucco decorative system of great richness. Early Islamic Persia inherited all three, and the next chapter of this history is largely the story of their transformation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "early-islamic-persia",
+      "numeral": "VI",
+      "title": "A New Faith, an Old Craft: Early Islamic Persia",
+      "sections": [
+        {
+          "heading": "Conquest and continuity",
+          "paras": [
+            "The Arab Muslim conquest of Iran, accomplished in stages during the middle decades of the seventh century AD, ended Sasanian rule but did not end Sasanian building. Conversion to Islam was gradual, extending over centuries, and the craftsmen who built for the new regime were overwhelmingly the heirs — often the direct descendants — of those who had served the old. Mosques at first occupied or adapted existing structures, and where new congregational mosques were raised, they naturally employed the techniques at hand: brick and rubble construction, stucco decoration, vaults and domes on squinches. The political and religious rupture was profound, yet the architectural record of the first Islamic centuries in Iran is dominated by continuity of craft. Understanding that continuity is essential, because later Persian Islamic architecture, the most celebrated in the country’s history, grew from this patient adaptation rather than from wholesale importation.",
+            "The earliest congregational mosques in Iran generally followed the hypostyle model known across the early Islamic world: a courtyard surrounded by roofed prayer halls carried on rows of columns or piers, providing flexible, expandable space for a growing community. In Iran, however, the hypostyle hall was built with local means — heavy brick piers and barrel vaults rather than the timber roofs common elsewhere — giving these interiors a massive, shadowed character distinct from their Arab counterparts. Sasanian palatial and temple sites supplied both models and materials; at Istakhr and elsewhere, early mosques stood close to the ruins of the old order, sometimes reusing columns and carved blocks. Such reuse was practical before it was symbolic, but it also bound the new faith visibly into the landscape of the old, a pattern repeated at many Iranian sites over the following centuries.",
+            "Gradually, Iranian preferences began to reshape the imported mosque type. The courtyard facade of the prayer hall acquired monumental emphasis, anticipating the insertion of the great iwan that would eventually transform Iranian mosques into the four-iwan compositions of the medieval period. Domed chambers before the mihrab, marking the place of the prayer leader and the ruler, drew directly on the chahar taq and Sasanian domed hall, translating a royal and Zoroastrian form into an Islamic liturgical one. Minarets, at first modest, began to rise beside Iranian mosques as brick towers of increasing ambition. None of this happened quickly or uniformly; regional variation remained strong, and many early buildings survive only in altered form beneath later rebuilding. The broad direction, however, is unmistakable — an architecture negotiating, in brick and stucco, between the requirements of a new religion and the habits of a very old building culture."
+          ]
+        },
+        {
+          "heading": "The Tari Khana at Damghan",
+          "figure": "tarikhana",
+          "paras": [
+            "The Tari Khana mosque at Damghan, in northern Iran, is the outstanding surviving monument of this transitional age. Traditionally dated to the eighth or ninth century AD, it preserves an early congregational mosque in unusually legible form: a courtyard enclosed by arcades, with a deeper prayer hall on the qibla side, the direction facing Mecca. Its supports are massive cylindrical brick piers carrying arches and vaults of a distinctly Sasanian character, and the whole structure is built of baked brick with an economy of ornament that gives it a grave, almost austere power. Later centuries added and altered portions, including work of the Seljuk period, yet the early fabric remains readable. Few buildings anywhere in the Islamic world convey so directly the moment at which Sasanian constructional practice was placed, almost unchanged, at the service of Muslim worship.",
+            "The mosque’s minaret extends the same story upward. A tall cylindrical brick tower, the present minaret is generally dated to the eleventh century and replaced or completed an earlier structure on the site, its shaft ornamented with patterned brickwork and an inscription band in the angular Kufic script. Patterned brick — the art of laying bricks of varied projection and bond to create geometric ornament integral to the wall — became one of the glories of early Islamic architecture in Iran, and the Damghan minaret is among its early masterpieces. The technique suited a building culture already expert in brick, required no imported materials, and weathered superbly. From such towers a whole Iranian tradition of minaret design descends, in which structure, inscription and surface pattern are one and the same thing, achieved with a single material handled with complete assurance.",
+            "Damghan itself mattered to the mosque’s history. Standing on the great east–west route across northern Iran, the road later famed as part of the Silk Road network, the city served merchants, officials and armies moving between Mesopotamia, the plateau and Central Asia. Its congregational mosque was therefore both a local place of prayer and a landmark of the Islamic presence on a strategic corridor, rebuilt and embellished as the city’s fortunes allowed. The Tari Khana’s survival, in a region of earthquakes that destroyed so much early fabric elsewhere, owes something to the sheer mass of its brick piers and vaults — Sasanian building habits proving their durability once again. For the historian, the building’s value is diagnostic. It shows that the first great age of Iranian Islamic architecture was not an age of tentative experiment but of confident reuse, executed by craftsmen who knew exactly what their materials could do."
+          ]
+        },
+        {
+          "heading": "Towers of brick: Gonbad-e Qabus and Kharraqan",
+          "figure": "kharraqan",
+          "paras": [
+            "Alongside the mosque, the tomb tower became the second great vehicle of early Islamic architecture in Iran. The supreme early example is the Gonbad-e Qabus, built in 1006–7 in the Caspian region for Qabus ibn Vushmgir, ruler of the local Ziyarid dynasty, whose name it bears. A tapering cylindrical shaft of baked brick, strengthened by ten angular buttress-like flanges and crowned by a conical roof, it rises to a height of roughly fifty metres above its mound — a landmark visible across the surrounding plain. Two inscription bands in Kufic script, recording the founder and date, are its only ornament. The interior is a single bare chamber; the patron’s body, later accounts claim, was suspended in a coffin within the roof, though no trace survives. As funerary architecture, it achieves monumentality through geometry and proportion alone.",
+            "The Gonbad-e Qabus raises questions that go to the roots of the tradition. Tomb towers have been connected, plausibly if not provably, with the tower-like structures and funerary customs of earlier Iran, and their proliferation in the northern and western regions during the following centuries suggests strong local demand from regional dynasties and notables. Whatever its ancestry, the type proved extraordinarily adaptable: star-shaped, cylindrical, flanged and polygonal towers, in brick with increasing surface ornament, mark the landscapes of medieval Iran as minarets mark its towns. The tower of Qabus remains their austere exemplar. Notably, it is a Muslim prince’s tomb that contains no mosque, no courtyard and no religious imagery beyond its inscriptions — dynastic statement and personal memorial fused in a single shaft of brick, raised by a ruler of a small state with an evidently large sense of posterity.",
+            "A generation later, the twin towers at Kharraqan, near Qazvin, dated by their inscriptions to 1067 and 1093, show the type at a new level of refinement. Octagonal in plan with engaged corner turrets, they are among the earliest Iranian buildings to employ a true double-shelled dome, and their brickwork — geometric patterns laid in varied bonds, supplemented in the later tower by painted decoration inside — displays the full virtuosity of Seljuk-period masonry. Their patrons were local notables rather than great kings, evidence that architectural ambition had spread well beyond royal courts. Together with the Gonbad-e Qabus and the Tari Khana, the Kharraqan towers close this chapter on a note of mastery. By the end of the eleventh century, Iranian builders commanded dome, iwan, vault, minaret and patterned brick in a coherent language, ready for the great syntheses of the Seljuk age and all that followed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seljuk-flowering",
+      "numeral": "VII",
+      "title": "The Seljuk Flowering: Brick Raised to Art",
+      "sections": [
+        {
+          "heading": "The Great Mosque of Isfahan remade",
+          "paras": [
+            "When the Seljuk Turks took Isfahan in the middle of the eleventh century and made it the capital of an empire stretching from Anatolia to Central Asia, they inherited a Friday mosque that was already old. An earlier congregational mosque on the site had been rebuilt in the Abbasid period as a courtyard building carried on columns, in the hypostyle manner common across the early Islamic world. Under Malik Shah, who reigned from 1072 to 1092, and his celebrated vizier Nizam al-Mulk, that comparatively modest fabric was transformed into one of the most instructive monuments in Islamic architecture, a building whose successive campaigns can still be read in its walls like the chapters of a history written in fired brick.",
+            "The first great intervention was the dome chamber raised over the prayer hall in front of the mihrab, on the southern, qibla side of the courtyard, in 1086–87. Attributed to the patronage of Nizam al-Mulk himself, it replaced the flat-roofed bays before the mihrab with a single soaring domed space, announced from outside by a great brick dome carried on massive piers. The change was liturgical, ceremonial and structural at once: it gave the ruler and the imam a dignified, clearly defined setting, the maqsura, and it concentrated the skills of the builders on one demanding problem, namely how to set a circular dome securely upon a square chamber. Contemporary observers understood the gesture clearly, because a dome of this scale over the mihrab announced, in permanent form, that royal authority and congregational worship now sustained one another at the very heart of the capital city.",
+            "Only a year or two later, in 1088–89, a second and smaller dome chamber rose on the northern side of the mosque, associated with Taj al-Mulk, the vizier’s rival at court. Where the southern dome is powerful and somewhat austere, the northern dome is widely regarded as a masterpiece of proportion and structural refinement, its transition from square to circle handled with such elegance that the dome seems to rest almost weightlessly above its supports. That two competing ministers should have expressed their rivalry through architecture is itself revealing: by the late eleventh century, patronage of the Friday mosque had become a public language of legitimacy, piety and power in the Seljuk capital. Their competition also raised the technical standard expected of court architects, since each foundation had not only to serve devotion but to outlast, and if possible outshine, the monument raised by a rival faction at court."
+          ]
+        },
+        {
+          "heading": "The four-iwan plan and the dome chambers",
+          "figure": "jamehCourtyard",
+          "paras": [
+            "In the early twelfth century the mosque received the form by which it is best known, when four great iwans were opened onto the courtyard, one at the centre of each side. An iwan is a vaulted hall, closed on three sides and open on the fourth, and in this arrangement the southern iwan led directly into the dome chamber of Nizam al-Mulk, while the northern, eastern and western iwans organised processional movement and teaching around the court. The result, often called the four-iwan plan, crystallised at Isfahan a type that would govern mosque, madrasa and caravanserai design across the Persian world for centuries. Once established, the arrangement offered a powerful visual hierarchy, because the eye passing through the courtyard read the four iwans as a cross-axis, with the qibla iwan, taller and deeper than the rest, drawing movement inevitably towards prayer.",
+            "The dome chambers deserve close attention because they show Seljuk builders thinking structurally in brick with extraordinary confidence. Squinches — small arches thrown across the corners of the square chamber — together with tiers of muqarnas-like cells, gathered the weight of the dome and delivered it onto the piers below, while the brickwork of the transition zone was left visible so that geometry itself became ornament. Inscription bands in bold Kufic script ran around the chambers, naming patrons and invoking blessing, and the restrained surfaces made the play of light across curved and faceted forms the principal decoration of the interior. Later builders studied these chambers closely, copying their proportions and their corner squinches in mosques and tombs across Persia, so that the structural solution worked out here became part of the common grammar of Persian vaulting.",
+            "The four-iwan courtyard proved so durable because it answered several needs simultaneously and could be adapted to different scales and budgets. It ordered a crowded urban mosque, separated circulation from prayer, gave each teaching circle a recognisable place, and allowed later patrons to rebuild one iwan or one façade without disturbing the whole. Safavid rulers, working six centuries after the Seljuks, still respected the scheme at Isfahan even while recladding its surfaces in coloured tile. The mosque therefore stands not as a building of one date but as an accumulating record, in which the Seljuk armature remained legible beneath the ornament of every succeeding age. Few medieval plans anywhere proved so adaptable, passing from mosque to madrasa and from royal foundation to neighbourhood shrine, while retaining an immediately recognisable order that worshippers could understand at a glance, however unfamiliar the particular building was."
+          ]
+        },
+        {
+          "heading": "Patterned brick and the tall minaret",
+          "paras": [
+            "Seljuk architecture in Persia is above all an architecture of brick, used not merely as a cheap structural material but as the very medium of decoration. In the technique later called hazarbaf, literally ‘a thousand weavings’, bricks were laid in recessed and projecting patterns — lozenges, meanders, stars and woven bands — so that a wall patterned itself as the sun moved across it, producing ornament through shadow rather than applied colour. Whole façades, tomb towers and minarets were composed in this manner, and the discipline it required helps to explain the precision of Seljuk masonry, in which joints are thin, courses are level and even a structural pier reads as a designed surface. The finest examples repay attention at close range, where the spectator discovers that apparently repetitive geometry is constantly varied, brick by brick, so that discipline and invention remain in balance across surfaces sometimes covering an entire tower or façade.",
+            "Alongside patterned brick, carved and moulded stucco remained the favoured medium for the most sacred focus of the mosque, the mihrab. Seljuk and immediately succeeding craftsmen produced mihrabs of astonishing delicacy, in which Qur’anic inscription, interlacing stems and prayer-niche forms were cut in deep relief, sometimes in several superimposed layers. The Friday Mosque at Isfahan preserves notable examples from this broader tradition, and comparable stucco work enriched palaces and tombs as well as mosques. The contrast is characteristic of the period: exteriors of disciplined, monochrome brick, and interiors in which the eye is drawn to one intricately worked surface marking the direction of prayer. Stucco had the further advantage of softness while fresh, allowing carvers to undercut foliage and script deeply before the material hardened, an effect quite unlike the crisp, sun-defined relief of the patterned brickwork used on the building outside.",
+            "The Seljuk minaret, finally, gave the Persian city a new vertical accent. Earlier minarets had often been squat or square, following Syrian and Mesopotamian models, but the Seljuk builders of Persia developed the tall, slender, cylindrical brick shaft, tapering gently as it rose, girdled by inscription bands and patterned brickwork, and crowned by a small lantern or balcony. Such minarets served the call to prayer, but they were also landmarks and statements of patronage, visible above the flat roofs of the city and its palm groves. Surviving examples across the plateau, some still standing isolated after the mosques they served have vanished, testify to how completely this elegant form displaced its heavier predecessors. In the clear light of the plateau, such towers were read from caravans long before the city gates were reached, and they announced not only a mosque but an ordered, prosperous community gathered beneath its protection."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ilkhanid-renewal",
+      "numeral": "VIII",
+      "title": "Catastrophe and Renewal: The Ilkhanid Transformation",
+      "sections": [
+        {
+          "heading": "Destruction and the Mongol peace",
+          "paras": [
+            "The Mongol invasions of the early thirteenth century brought destruction to the cities of Persia on a scale that contemporaries struggled to describe. Irrigation systems were broken, urban populations were massacred or scattered, and celebrated centres of learning and craft in Khurasan and the north-west suffered grievously. Yet the conquest was not the end of Persian architecture. Once the Ilkhanid dynasty had established its rule and, decisively, after Ghazan Khan’s conversion to Islam in 1295, the Mongol court became a patron of building on an imperial scale, employing Persian administrators, architects and craftsmen to give permanent form to a regime that had begun in catastrophe. Archaeology confirms the literary record in broad outline, revealing burnt layers, abandoned quarters and broken qanats in several regions, even where individual cities escaped the worst and preserved older crafts through the first, most violent decades of conquest.",
+            "The outstanding figure of this renewal was Rashid al-Din, vizier to Ghazan and to his successor Uljaytu, historian, physician and founder of the Rab‘-i Rashidi, a whole charitable quarter outside Tabriz containing a mosque, a hospital, a library, workshops and his own tomb. Though little of that complex survives, its documented ambition shows how the Ilkhanid elite thought of architecture as an instrument of government and of salvation, funded through waqf, the pious endowment that supported religious and charitable foundations in perpetuity. Across Persia, mosques were repaired, shrines were enlarged, and new congregational buildings rose in cities that a generation earlier had lain in ruins. Endowment deeds, histories and inscriptions together allow historians to reconstruct this world of building in unusual detail, and they consistently present construction not as vanity but as restitution, an attempt to repair, visibly and permanently, a shattered social order.",
+            "Ilkhanid building did not simply restore the Seljuk achievement; it changed its character in ways that prepared the ground for everything that followed. Domes grew taller and more ambitious, portals rose into great framed screens, and interiors were enriched with carved stucco and, increasingly, with glazed tile that introduced permanent, weather-resistant colour to exterior surfaces. Craftsmen moved between court projects, carrying techniques from one region to another, while contact with the wider Mongol world brought new motifs, including elements drawn from Chinese art, into the Persian decorative repertoire. Renewal, in short, was also transformation, and the buildings of the period carry both memories at once. Chinese influence arrived through objects as much as through people, in ceramics, textiles and paintings carried along the protected trade routes of the Mongol peace, whose motifs Persian craftsmen translated, selectively and confidently, into their own established decorative systems."
+          ]
+        },
+        {
+          "heading": "Soltaniyeh: the dome of Uljaytu",
+          "figure": "soltaniyehDome",
+          "paras": [
+            "The supreme monument of the Ilkhanid age is the mausoleum built for the sultan Uljaytu at Soltaniyeh, the new capital he founded on the high plain of north-western Persia, between 1302 and 1312. The building is an immense octagon of brick, ringed by minarets and galleries, and crowned by a pointed dome that rises to a height of roughly fifty metres, dominating the plain for miles around. Uljaytu intended the tomb, at different moments, for different sacred purposes, but its eventual identity as his own mausoleum fixed it as the dynastic centrepiece of a planned royal city whose other buildings have largely disappeared. The choice of an isolated, defensible and well-watered site also mattered, since a new capital required pastures for the court, space for encampments and room for the suburbs that a great dynastic mausoleum was naturally expected to attract.",
+            "The dome itself is the building’s glory and its enduring claim on the history of construction. It is generally described as a double-shell dome, its inner and outer profiles separated yet united within a single structural conception, and it ranks among the largest brick domes ever built. Inside, the great chamber was decorated in successive campaigns, first with patterned brick and stucco and later with painted plaster, so that the surfaces record the changing taste of the court within a single decade. Travellers and architects have studied Soltaniyeh for centuries, and its influence has plausibly been traced in later domes both within Persia and beyond it. Structurally, the dome’s achievement lies in economy as much as in size, for its builders distributed enormous weight through thick walls and arched openings so skilfully that the shell has survived earthquakes and centuries of neglect substantially intact.",
+            "Around the dome chamber, the octagonal plan allowed a ring of vaulted spaces and an upper gallery from which the tomb could be viewed, while eight slender minarets once emphasised the corners and carried the building’s silhouette still higher. Much has been lost — the surrounding city, most of the tile revetment that once sheathed the dome in turquoise, and parts of the interior decoration — yet the essential achievement remains legible. Soltaniyeh demonstrated that Persian builders could raise a dome of unprecedented scale over a funerary chamber and make it the organising monument of a capital, a demonstration that Timurid and Safavid patrons would later take up in their own idioms. Conservation in recent decades has stabilised the monument and recovered parts of its decoration, allowing visitors today to grasp something of the effect intended by its builders, when turquoise tile, carved stucco and patterned brick worked together at full intensity."
+          ]
+        },
+        {
+          "heading": "Glaze, muqarnas and the shrine cities",
+          "figure": "natanz",
+          "paras": [
+            "If brick had been the Seljuk medium, the Ilkhanid period belongs increasingly to glaze. Tile mosaic, in which pieces of coloured glazed tile were cut to shape and set into patterns, allowed craftsmen to cover domes, portals and minarets with turquoise, cobalt and white designs that proclaimed a building across the landscape and resisted sun and frost far better than paint. At first the palette remained limited and the patterns largely geometric or epigraphic, but the technical foundation was laid for the full polychromy of later centuries. Stucco carving reached a parallel summit in the celebrated mihrab added to the Friday Mosque of Isfahan in 1310, signed by its craftsman and still admired for its layered, almost lace-like relief. Workshops capable of such production required secure supplies of cobalt, copper and skilled cutters, and their concentration in particular cities helps to explain why certain regions developed recognisable local schools of tilework during the fourteenth century and long afterwards.",
+            "The same period refined the muqarnas, the stalactite-like vaulting of small cells used to fill the hoods of portals, the undersides of cornices and the transition zones of domes. In Ilkhanid hands muqarnas became more systematic, its geometry planned on paper or in plaster models before being executed in brick, stucco or tile, and it gave Persian architecture a characteristically faceted surface that dissolved solid mass into shimmering cells of light and shade. Combined with taller proportions and more emphatic portals, these techniques produced buildings that were at once more colourful and more sculptural than their Seljuk predecessors, without abandoning the older discipline of brick construction beneath the ornament. Muqarnas also changed how buildings were experienced in motion, because its cells catch light differently from every standpoint, so that a portal or dome seems to re-form itself continually as the visitor approaches, enters and turns within the space.",
+            "Much of this investment flowed towards shrines, as devotion to the tombs of saints and of the Shi‘a imams and their descendants drew pilgrims and endowments to particular cities. At Natanz, the shrine complex of Shaykh ‘Abd al-Samad, built in the first years of the fourteenth century, gathered a mosque, a khanqah and a tomb tower with a conical roof around one court, its portal and dome chamber enriched with some of the finest tile, stucco and muqarnas work of the age. Such complexes show Ilkhanid architecture at its most intimate: not only imperial tombs and Friday mosques, but layered sacred sites that grew by accretion and served pilgrims, scholars and the residents of small towns alike. Pilgrimage gave such complexes an economic life as well as a sacred one, sustaining markets, lodging houses and workshops around the shrine, and binding the fame of a holy tomb to the prosperity of the town that guarded it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timurid-summit",
+      "numeral": "IX",
+      "title": "The Timurid Summit: Samarkand and the Turquoise Horizon",
+      "sections": [
+        {
+          "heading": "Timur gathers the craftsmen",
+          "paras": [
+            "Timur, the Turco-Mongol conqueror known in Europe as Tamerlane, made Samarkand the capital of an empire won by campaigns of legendary ferocity between the 1370s and his death in 1405. His method of building was inseparable from his method of war: from the cities he conquered — Damascus, Delhi, Tabriz, Isfahan and many others — he deported architects, masons, tile-cutters, calligraphers and weavers to his capital, where their combined skills were set to work on mosques, mausolea and palaces of deliberate, overwhelming magnificence. Samarkand was to be not merely a seat of government but a visible proof that the wealth and talent of the known world now served one ruler. The policy was brutal in its human cost, yet its architectural consequence is undeniable, since techniques and tastes that might otherwise have remained local were combined, tested and perfected on a single, unprecedented stage.",
+            "The architecture produced under this forced cosmopolitanism has a recognisable character. Scale increased dramatically, with portals and domes intended to be seen from far across the oasis; surfaces were covered almost completely in glazed tile, so that buildings shone turquoise and blue against the buff colour of the Central Asian landscape; and Persian remained the principal language of design and inscription, even at a Turkic-speaking court. Timur is reported to have supervised projects personally and to have ordered work demolished and rebuilt when it failed to satisfy him, an impatience that helps to explain both the speed of construction and the structural daring, sometimes excessive, of his greatest commissions. Contemporary chronicles, written to glorify the conqueror, must be read with caution, yet the surviving buildings corroborate their central claim, that construction at Samarkand proceeded at extraordinary speed under the ruler’s own exacting and sometimes terrifying eye.",
+            "After Timur’s death, his successors turned the same energies towards Herat, which under Shah Rukh and his queen Gawhar Shad became a second great centre of patronage, somewhat more refined in taste if no less ambitious. Gawhar Shad’s mosque and mausoleum at Herat, and her great mosque at Mashhad, employed the finest tile mosaic of the age and show how royal women stood among the leading patrons of Timurid architecture. Between Samarkand and Herat, the fifteenth century established the visual language — ribbed domes, tiled portals, soaring minarets, garden settings — against which all later Persian building would measure itself, even when political power had passed elsewhere. Herat added libraries, painting and calligraphy to the mixture, so that architecture there belonged to a broader court culture in which the arts of the book and the arts of building continually informed one another."
+          ]
+        },
+        {
+          "heading": "Gur-e Amir and Bibi Khanum",
+          "figure": "gurEmir",
+          "paras": [
+            "The Gur-e Amir at Samarkand, built in 1403–4, began as the tomb of Timur’s grandson and designated heir, Muhammad Sultan, and became, after the conqueror’s sudden death on campaign in 1405, the burial place of Timur himself and of several of his descendants. From outside, the building is dominated by its fluted, melon-ribbed dome, covered in turquoise tile and rising above a cylindrical drum inscribed with monumental Kufic lettering. Inside, beneath a comparatively restrained and solemn vault, lie the cenotaphs of the dynasty, Timur’s own marked by a great slab of dark green jade, while the actual burials rest in a crypt below. The contrast between the brilliant exterior and the grave interior is deliberate and effective, turning the visitor’s attention from the proclamation of empire towards the mortality that even conquerors cannot in the end escape.",
+            "A few years earlier, between 1399 and 1405, Timur had raised the vast congregational mosque at Samarkand that bears the name of Bibi Khanum. Built, tradition holds, from the spoils of the Indian campaign, it was among the largest mosques of its time anywhere in the Islamic world, with a courtyard framed by galleries, four minarets, and a main dome and portal of truly imperial dimensions. Stone columns carried parts of its structure, and elephants are said to have hauled materials to the site. The mosque’s ambition outran its engineering: an earthquake in the nineteenth century brought down much of what centuries of tremors had already weakened, though extensive restoration has recovered its silhouette. Even in its restored state the mosque overwhelms, its entrance portal and sanctuary dome competing in scale with the sky itself, exactly the effect its patron is reported to have demanded from his architects.",
+            "Read together, the two buildings mark the poles of Timurid architecture. The Gur-e Amir achieves its effect through concentration, a single perfected form in which dome, drum, inscription and colour are held in taut balance, and later rulers of Mughal India would remember it when they planned their own dynastic tombs. The Bibi Khanum mosque, by contrast, pursues effect through sheer accumulation of size, accepting structural risk as the price of astonishment. Between concentration and colossal display, Timur’s architects defined a range within which Persian architecture would operate for generations, and which patrons from Herat to Isfahan continually sought to emulate or surpass. Modern conservation has had to respect both poles, stabilising the great mosque’s daring masses while preserving the tomb’s finer surfaces, two very different technical problems posed by a single reign’s ambitions."
+          ]
+        },
+        {
+          "heading": "Shah-i Zinda and the art of tile revetment",
+          "paras": [
+            "On a hillside at the edge of Samarkand stretches the Shah-i Zinda, the ‘Living King’, a necropolis of mausolea clustered along a narrow lane around the shrine of Qutham ibn ‘Abbas, a cousin of the Prophet Muhammad who was believed not truly to have died. Most of its surviving tombs date from the fourteenth and fifteenth centuries and were built for Timur’s female relatives and members of his court. Because each mausoleum was a separate commission, the avenue became an unrivalled exhibition ground on which successive generations of tile-workers displayed, and competed in, every refinement of their craft within a few hundred paces. Walking the lane today is still an education in sequence, each doorway framing the next tomb’s façade so that the whole necropolis reads as a composed procession rather than an accidental accumulation of burials.",
+            "The revetments of the Shah-i Zinda chart the full Timurid mastery of ceramic surface. Craftsmen combined haft-rang, or seven-colour, tiles painted under the glaze with carved and glazed terracotta, with banna’i work, in which glazed bricks set into plain brickwork spell out inscriptions and geometric patterns, and above all with true tile mosaic, in which hundreds of individually cut pieces were assembled into floral and epigraphic designs of extraordinary finesse. Blues predominate, from pale turquoise to deep cobalt, set off by white and aubergine, and the intensity of colour is heightened by the bright Central Asian light and by the shadowed narrowness of the lane between the tombs. Signatures and dates occasionally survive among the patterns, precious evidence that individual masters took pride in work which a less literate age might have dismissed as merely decorative.",
+            "The lessons learned at Samarkand and Herat travelled widely. Timurid tile mosaic became the standard of excellence to which Safavid craftsmen later aspired, Timurid dome profiles were studied from Anatolia to India, and the garden tomb and the tiled mausoleum avenue entered the common repertoire of the Persianate world. Political fragmentation in the later fifteenth century did not diminish this influence, because the craftsmen themselves dispersed to new courts, carrying drawings, techniques and habits of ornament with them. In that sense the Timurid summit was not an ending but a reservoir, from which the very different splendours of Safavid Isfahan and Mughal India would both eventually be drawn. It is fitting that the dynasty’s most durable legacy proved portable, residing less in any single monument than in skills, patterns and ambitions that other empires could adopt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "architecture-of-the-road",
+      "numeral": "X",
+      "title": "The Architecture of the Road: Caravanserais, Bazaars and Bridges",
+      "sections": [
+        {
+          "heading": "The Silk Road as a building programme",
+          "paras": [
+            "Persia’s position between China, India, Mesopotamia and the Mediterranean made the road itself one of its great architectural subjects. The routes collectively remembered as the Silk Road crossed deserts, mountain passes and high plateaus where water was scarce and distances between settlements could consume several days of travel, so safe movement required built infrastructure: relay stations, cisterns, watchtowers and, above all, caravanserais at regular intervals. From early Islamic times, and with particular energy under the Seljuks, rulers and wealthy patrons treated the foundation of such buildings as both a duty of government and an act of piety, rewarded, like the building of a mosque, in the world to come. Distances between stations were commonly reckoned by a day’s journey for a laden caravan, so the network imposed a rhythm on travel itself, dividing the hazards of the plateau into stages that could be planned.",
+            "The economics of this programme rested on the waqf, the charitable endowment. A founder would assign the revenues of shops, farms, baths or mills to a caravanserai in perpetuity, paying for its keeper, its water supply and its repairs, while merchants benefited from secure lodging and storage without direct charge, or for modest fees. The arrangement bound commerce, charity and statecraft together in a single building type, and it helps to explain the sheer number of caravanserais that once studded the Persian landscape, in towns, in villages and in stretches of desert where no settlement existed beyond the serai’s own walls and cisterns. Where endowments failed, however, buildings decayed quickly, and the many ruined serais along abandoned routes are a reminder that architecture of this kind survived only while the economy that sustained it remained alive.",
+            "Because they served an international traffic, caravanserais also acted as conduits of architectural ideas. Their plans recur, with regional variations, from Anatolia to Central Asia and India: a single defensible entrance, a courtyard for animals and unloading, arcaded stables and chambers, and a small mosque or prayer room. Masons travelling with the caravans, or moving between commissions, carried details of vaulting, brickwork and tile from one region to another, while the merchants inside carried goods, news and techniques of their own. The road, in other words, did not merely connect the architecture of Persia with that of its neighbours; it helped to produce their shared language. Languages, currencies and faiths met nightly in these courtyards, and the buildings had to serve all of them without favour, a practical cosmopolitanism built into their very plan."
+          ]
+        },
+        {
+          "heading": "The caravanserai: fortress, hotel, warehouse",
+          "figure": "caravanserai",
+          "paras": [
+            "The classic Persian caravanserai presents a blank, fortified exterior to the world: high walls of brick or stone, a single portal often framed by an imposing arched screen, and corner towers that recall a castle more than an inn. The severity was practical. Goods carried overland — silk, spices, metalwork, dyestuffs — represented fortunes, and the roads between cities could be dangerous, so the gates were closed at night and the building became a strongbox for men, animals and merchandise alike. Inside, however, the atmosphere reversed: an open courtyard, frequently with a central iwan on each side, gave light, air and a dignified architectural order to the business of the caravan. Guards, gatekeepers and the serai’s own staff enforced the nightly closure, and the single entrance allowed every bale and rider to be counted in and out.",
+            "Around and behind the courtyard arcades lay the working parts of the building. Raised platforms and small chambers accommodated merchants and their servants, with hearths for winter travel on the cold plateau; long vaulted stables, their floors and mangers arranged in rows, sheltered camels, mules and horses behind the travellers’ rooms; and storerooms protected bales and boxes from weather and theft. Many serais included a small mosque, baths nearby, and cisterns or wells securing the water on which everything depended. Surviving examples such as Deyr-e Gachin, standing in the salt desert south of Tehran and rebuilt in Safavid times on much older foundations, convey the type at its most monumental and isolated. The separation of animals from sleeping quarters, and of both from storage, was a small masterpiece of practical planning, repeated with local variations in hundreds of buildings across three continents.",
+            "Later and more refined examples show how far the type could be softened without losing its logic. The small Zeinodin caravanserai near Yazd, circular in plan and built under the Safavids, arranges its rooms around a many-sided court with a grace that has made it celebrated among travellers, while the great urban serais attached to bazaars and royal squares in cities such as Isfahan combined warehousing with wholesale trade at the very centre of commercial life. In the nineteenth and twentieth centuries motor transport emptied most rural serais, and many decayed, yet their robust construction has allowed numbers of them to survive, and some have found new life as hotels and monuments. Their thick walls and shaded courts, designed for a world of animal transport, adapt surprisingly well to modern hospitality, and guests now sleep where merchants once counted their bales."
+          ]
+        },
+        {
+          "heading": "Bazaars and the covered street",
+          "paras": [
+            "Where the roads met the city, they entered the bazaar, and the bazaar translated the architecture of the road into urban form. A Persian bazaar is characteristically a vaulted commercial spine, or a network of spines, running from a city gate or a great square towards the Friday mosque, lined with shops, workshops, small caravanserais, baths and mosques, and roofed against the fierce summer sun and winter cold. Brick vaults, pierced at intervals by light-wells that send shafts of sun into the cool shade below, cover the main lanes, while domed crossings, or chahar-su, mark the junctions where trades meet and where the most valuable goods were often sold. The temperature beneath the vaults, noticeably cooler than the street outside in summer, was itself a commercial asset, drawing customers into the shade.",
+            "The bazaar was organised as carefully as any palace. Related trades clustered together — coppersmiths in one lane, cloth merchants in another, goldsmiths near the most secure domed crossings — so that customers could compare goods and officials could supervise quality and taxation, while the noise and smell of the dirtier crafts were kept at the margins. Endowments again underpinned the system: bazaars were frequently waqf property, and their rents sustained the mosques, schools and shrines with which they were physically interwoven. Commerce and religion were not separate districts in the Persian city but a single fabric, and a merchant might pass from his shop to prayer, or to his own endowed tomb, within a few vaulted paces. Guilds regulated apprenticeship and conduct within this fabric, and their collective presence gave the bazaar a political weight that rulers ignored at their peril.",
+            "Isfahan’s Qeysarieh bazaar, rebuilt under the Safavids to front the great royal square, shows the type at its most self-conscious, its portal decorated with tile paintings of Shah ‘Abbas’s wars and hunts, and its long vaulted lanes linking the new capital’s ceremonial centre to the old Friday mosque across the city. Comparable bazaars, vast in Tabriz, intimate in Kashan, where a celebrated nineteenth-century dome covers the Amin al-Dowleh crossing, survive in many Persian cities and in some still function as working markets. Their endurance is an architectural argument in itself: few building types anywhere have served the same public, continuously, for so many centuries. Even where modern shopping streets have drained their trade, the vaulted lanes often persist as the recognised heart of the old city around them."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safavid-isfahan",
+      "numeral": "XI",
+      "title": "Safavid Isfahan: Half the World",
+      "sections": [
+        {
+          "heading": "Shah Abbas plans a capital",
+          "paras": [
+            "When Shah ‘Abbas I moved his capital to Isfahan in 1598, he did not merely enlarge an old city; he laid out a new one beside it, in one of the most confident acts of urban planning in Persian history. The Safavid dynasty, which had come to power in 1501 and established Twelver Shi‘a Islam as the religion of the state, needed a capital secure from Ottoman pressure, central to the empire’s trade, and fit to proclaim its legitimacy. Isfahan, set in a well-watered oasis on the Zayandeh river and already rich in Seljuk and Ilkhanid monuments, offered the site; ‘Abbas supplied the plan, and Persian speakers coined the proud rhyming verdict that Isfahan was ‘half the world’. The phrase was hyperbole, but it recorded something real, the astonishment of visitors who found in one city the monuments of six centuries gathered within a single, coherent and still expanding urban composition.",
+            "The centrepiece of the new capital was the Naqsh-e Jahan, the ‘Image of the World’, a vast rectangular square laid out in the first decades of the seventeenth century and framed by two storeys of uniform arched niches. At roughly five hundred metres in length, it served by turns as a polo ground, a parade ground, a market and a place of public festival, while its four sides were each anchored by an architectural statement of the regime: the royal mosque to the south, the shah’s private chapel-mosque to the east, the palace gateway to the west, and the entrance to the royal bazaar to the north. Few squares anywhere bind religion, monarchy and commerce into a single composition so completely.",
+            "Beyond the square, ‘Abbas joined old and new cities with a broad tree-lined avenue, the Chahar Bagh, running southwards to the river and its bridges, and flanked by royal gardens, pavilions and the residences of courtiers. Water, trees and architecture were composed together, so that the capital read as a garden city crossed by ceremonial routes, a setting in which European envoys, Armenian merchants and Persian courtiers all moved through spaces designed to impress them. The plan was also pragmatic, resettling craftsmen and merchant communities, including the Armenians of New Jolfa, where their skills and trading networks would enrich the crown, and giving the silk trade a monumental commercial home in the bazaar and its caravanserais. Channels drawn from the river fed the avenue’s watercourse and its gardens, so that even the capital’s pleasure grounds advertised the hydraulic skill on which its prosperity ultimately rested."
+          ]
+        },
+        {
+          "heading": "The Shah Mosque and the turned axis",
+          "figure": "naqshJahan",
+          "paras": [
+            "The royal mosque on the south side of the square, completed in the decades after 1611 and known since the twentieth century as the Imam Mosque, is the crowning statement of Safavid religious architecture. Its portal opens from the middle of the square’s southern range, but a mosque must face Mecca, and Mecca does not lie square to the square. The architects resolved the contradiction with a celebrated sleight of hand: a bent entrance passage turns the visitor through some forty-five degrees, so that one emerges into the courtyard already aligned on the qibla, the great southern iwan and the dome chamber beyond it, without ever perceiving an awkward junction in the ceremonial approach. The device is so smoothly handled that many visitors never notice the turn at all, discovering it only when they study the plan, where the rotated sanctuary sits within the square’s geometry like a compass needle within its case.",
+            "The building that unfolds within is the fullest realisation of the inherited Persian scheme, the four-iwan courtyard with a dome chamber behind the southern iwan, now clothed almost entirely in colour. Haft-rang tile, in which whole tiles are painted in up to seven colours and fired once, allowed faster coverage than laborious tile mosaic, at some cost in sharpness, and the mosque deploys it in oceans of turquoise and deep blue patterned with arabesques, peacocks and inscriptions. Four minarets frame the composition, the dome rises in a smooth double-shelled curve behind the southern iwan, and the winter prayer halls on either side shelter rows of smaller domes. Tile mosaic was reserved for the most important surfaces, where its sharper drawing justifies the labour, so the building also reads as a lesson in how a great workshop allocated effort.",
+            "For all its ornament, the mosque’s deepest effect is spatial and acoustic. The dome chamber concentrates sound in ways that guides have demonstrated for generations, a single stamp or whispered phrase returning clearly beneath the centre of the dome, and the scale of the interior remains measured despite the building’s size, its proportions governed by the courtyard module established centuries before. European visitors of the seventeenth century, accustomed to comparing Persia unfavourably with their own capitals, repeatedly conceded the mosque’s splendour. It stands as the Safavid synthesis in one building: Seljuk plan, Ilkhanid dome, Timurid colour, and a planning intelligence entirely of its own theatrical age. Measured against the capital’s square, the mosque also completes a civic argument, that the dynasty’s power rested ultimately upon the faith it had made the creed of its empire."
+          ]
+        },
+        {
+          "heading": "Sheikh Lotfollah: the dome as instrument",
+          "paras": [
+            "Across the square from the palace gateway stands the mosque of Sheikh Lotfollah, built in the opening years of the seventeenth century and named for a distinguished theologian of the court. Unlike the Shah Mosque, it has no courtyard, no iwans and no minarets, for it served as a private royal chapel rather than a public congregational mosque. A low, bending corridor, dim by design, leads from the entrance portal to a single square chamber covered by one dome, and the transition from the noise of the square to the stillness of that chamber remains among the most carefully staged experiences in Persian architecture. The corridor’s darkness is functional as well as theatrical, allowing the eye to adjust before the chamber’s luminous dome is revealed, an effect no photograph fully reproduces.",
+            "The dome itself is the marvel. Its interior is patterned with arabesques that twist and diminish as they spiral from a central medallion towards the base, changing character with the hour as light enters through the latticed windows of the drum and creeps across the surface. At the centre, the design resolves into a form often compared to a peacock’s tail when the sun enters at the right angle, while the colour of the tile shifts subtly between cream, turquoise and blue around the dome’s circumference. Beneath it, the walls carry some of the finest calligraphy and tile mosaic of the Safavid period, in a chamber small enough for every detail to be examined at close range. Inscriptions in the hand of the court calligrapher ‘Ali Reza ‘Abbasi give the chamber an additional distinction, binding the arts of the pen directly into its architecture.",
+            "Sheikh Lotfollah demonstrates what Safavid architecture could do when freed from the obligations of size and ceremony. The Shah Mosque impresses by accumulation; the chapel convinces by precision, every proportion, inscription and shift of light considered as part of a single devotional instrument. Together with the palace gateway opposite, the Ali Qapu, whose upper loggia allowed the shah to watch polo and ceremony in the square below and whose topmost music room is hollowed into stucco shapes of vessels and instruments, it completes the square’s programme. Royalty, worship and spectacle face one another across the open ground, each building legible from the others, in a single sustained conversation. Generations of architects have treated the little chapel as the square’s masterpiece, proof that refinement, not scale alone, marks the summit of the Safavid achievement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bridges-palaces-jolfa",
+      "numeral": "XII",
+      "title": "Bridges, Palaces and the Armenian Quarter",
+      "sections": [
+        {
+          "heading": "Si-o-se-pol and the Khaju Bridge",
+          "paras": [
+            "The Zayandeh river, which gives Isfahan its gardens and its life, also gave Safavid engineers their most public commissions. The oldest of the great surviving bridges, the Allahverdi Khan bridge, universally known as Si-o-se-pol, the bridge of thirty-three arches, was built around the turn of the seventeenth century under Shah ‘Abbas’s Georgian general, whose name it also bears. A long, level arcade of brick and stone carries the Chahar Bagh avenue across the river on two tiers of arches, its piers founded in the riverbed, and its covered side passages offering shade and views to pedestrians apart from the traffic of the roadway above. When the river runs high, water presses through the lower arches in white torrents, and the bridge becomes a spectacle of contained power as much as a crossing.",
+            "Half a century later, under Shah ‘Abbas II, the Khaju Bridge, built around 1650 a little downstream, refined the type into something between a bridge, a dam and a palace. Its two storeys of arcades frame a central pavilion from which the shah could watch regattas, water festivals and the river itself, while sluices in its foundations regulated the flow for the irrigation of the royal gardens. Tilework and painting enriched the pavilion and the vaults of its passages, and inscriptions recorded its patron. On summer nights the bridge has remained, across four centuries, one of Isfahan’s beloved public rooms, its arches framing music, conversation and the sound of moving water. Singers still gather beneath its central vault, where the acoustics flatter the voice, continuing a social life the bridge’s builders would have recognised immediately.",
+            "The Isfahan bridges repay attention because they dissolve distinctions that European architecture usually keeps apart, between engineering and ornament, infrastructure and pleasure. A bridge must answer current, flood and load, and both Si-o-se-pol and Khaju do so with massive piers and carefully graduated arches that have carried traffic for hundreds of years; yet both were also designed as destinations, places to walk, to sit and to be seen. In a capital planned as a sequence of composed experiences, even the crossing of a river became ceremony, and the bridges completed the Chahar Bagh’s procession from the royal square to the garden suburbs on the southern bank. Their survival through flood, war and the coming of motor traffic testifies to the soundness of their foundations and to the affection in which the city holds them."
+          ]
+        },
+        {
+          "heading": "Chehel Sotun and Hasht Behesht",
+          "figure": "chehelSotun",
+          "paras": [
+            "The garden palace of Chehel Sotun, the ‘Forty Columns’, rebuilt in its present form under Shah ‘Abbas II in the middle of the seventeenth century, shows Safavid kingship in its most sociable setting. Its name counts the twenty slender wooden columns of its great open portico twice over, once in fact and once reflected in the long pool before the façade. Behind the portico, a throne hall opens through mirrored and painted decoration towards the garden, while smaller chambers around it were frescoed with scenes of courtly pleasure — lovers, musicians and attendants — in a style that freely mixes Persian composition with touches absorbed from European and Indian painting. Ambassadors were received beneath the portico in sight of the pool and gardens, so that diplomacy itself was staged as an entertainment within a paradise landscape.",
+            "The palace’s largest murals strike a more official note, depicting the receptions of foreign ambassadors and the battles of the dynasty’s founder and his successors, so that a visiting envoy walked towards his audience past painted precedents of submission and alliance. A fire in the early eighteenth century and later restorations have altered parts of the decoration, but the ensemble of pool, portico, painted hall and garden survives as the fullest expression of the Safavid palace as a pavilion in a paradise garden, in deliberate contrast to the fortress-palaces of earlier centuries. Architecture here is deliberately light: thin columns, wide openings and surfaces dissolved in mirror-work, painting and reflected water. The paintings are documents as well as decoration, recording costume, ceremony and diplomacy at the Safavid court with a specificity that written sources rarely match.",
+            "The smaller palace called Hasht Behesht, the ‘Eight Paradises’, built in the later seventeenth century under Shah Sulayman, carries the same ideal to its most intimate scale. Its plan, a central domed hall ringed by eight rooms on two storeys, gives the building its name and its character, for every chamber opens towards garden views and the whole structure behaves less like a residence than like a sophisticated belvedere. Tile panels of birds, animals and courtly figures enriched its exterior. Together, Chehel Sotun and Hasht Behesht mark the late Safavid balance between splendour and fragility, achieved only decades before the Afghan siege of 1722 brought the dynasty, and its capital’s golden age, to a violent end. Hasht Behesht stands today in a public park, its garden setting diminished, yet its ingenious plan still teaches how completely Safavid domestic architecture was organised around prospect, breeze and shade."
+          ]
+        },
+        {
+          "heading": "New Jolfa and the Vank Cathedral",
+          "paras": [
+            "Across the river from the royal city, Shah ‘Abbas settled the Armenians he had deported from Julfa on the Araxes, granting them a suburb of their own, New Jolfa, where their merchants became central to the silk trade and their community governed much of its own life. The quarter’s churches, more than a dozen of which survive, are among the most unexpected buildings in Persia: outwardly they follow local convention, with brick domes, iwans and tilework that sit comfortably beside the mosques of the capital, because public display by a Christian minority under a Shi‘a monarchy was necessarily discreet, and Armenian builders worked naturally within the craft traditions around them. Streets, houses and churches were laid out with a regularity that mirrored the planned capital across the river, and the quarter quickly became one of the wealthiest commercial suburbs in the empire.",
+            "The cathedral of the Holy Saviour, known as Vank, built between 1655 and 1664 with support from the community’s wealthy merchants, is the masterpiece of the quarter. Its exterior presents a high central dome on a tall drum, in the Persian manner, above an arcaded courtyard, with a freestanding bell tower added in the following century. Step inside, however, and the building changes worlds: every wall and vault is covered with paintings of biblical narrative, martyrdom and the life of Christ, in a vivid Armenian and European-influenced manner, set among gilded carving and panels of Safavid tile, so that two decorative civilisations meet, literally, at the height of a painted cornice. A museum beside the cathedral now preserves manuscripts, early printing and communal records, extending the building’s role from place of worship to archive of a diaspora’s history.",
+            "New Jolfa completes the picture of Safavid Isfahan because it shows the capital’s architecture operating as a shared language rather than a single creed. Armenian patrons employed Persian forms, Persian craftsmen worked on Christian buildings, and European prints carried by merchants entered the repertoire of painters in both palace and cathedral, while the profits of the silk trade paid for tile in the mosque and fresco in the church alike. When the dynasty fell, the quarter endured, and its cathedral remains a working centre of Armenian life in Iran. Its hybrid splendour is the fitting final image of the Safavid experiment: cosmopolitan, commercial and confident enough to let difference flourish under one skyline. In that confidence lies the Safavid capital’s widest lesson, that a strong architectural language can accommodate difference without dissolving into mere eclecticism."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qajar-persia",
+      "numeral": "XIII",
+      "title": "Qajar Persia: Mirror, Stucco and the European Encounter",
+      "sections": [
+        {
+          "heading": "Tehran and the Golestan",
+          "paras": [
+            "The Qajar dynasty, which ruled Persia from the late eighteenth century until 1925, made its capital at Tehran, a modest town beneath the Alborz mountains that Agha Mohammad Khan chose, it is usually said, for its strategic position between the tribal north and the settled plateau. Under his successors Tehran grew from a fortified royal enclosure into a walled city of palaces, mosques, bazaars and garden suburbs. At its heart stood the Golestan, the Rose Garden palace, less a single building than a small city of courts, halls and pavilions accumulated over more than a century. Successive shahs rebuilt it as they rebuilt their image, and what survives today is largely the work of the nineteenth century, layered over an older Safavid and Zand core.",
+            "The long reign of Naser al-Din Shah, from 1848 to 1896, gave the palace its definitive character. The shah travelled to Europe three times, returned with a taste for photography, parade grounds and palace façades in the European manner, and rebuilt the Golestan accordingly. Audience halls opened onto courtyards through tall sash windows; a clock tower and a European-style theatre of state appeared among the tiled courts; and the palace became an instrument of display directed as much at foreign envoys as at the court itself. Yet the plan remained Persian: a sequence of thresholds, courts and inward-looking halls, in which ceremony moved from public audience to private retreat by degrees as old as the iwan itself. The palace, in short, had become a stage set that was also a working seat of government.",
+            "Beyond the palace walls, Qajar Tehran developed the familiar institutions of the Persian city on a new scale. The royal bazaar linked palace to mosque and merchant quarter; shrines and takiyehs staged the Muharram commemorations that the dynasty patronised; and wealthy families built courtyard houses in the northern districts, where the air was cooler and gardens could be watered from the qanats descending from the Alborz foothills. Much of this fabric was swept away by the demolitions of the following century, which makes the surviving Golestan, now inscribed on the World Heritage List, an unusually complete witness to how the Qajar court wished to be seen: modern in its pictures, traditional in its bones. Its courts, halls and gardens preserve in one place the dynasty’s ambitions and its taste."
+          ]
+        },
+        {
+          "heading": "Mirror halls and the merchant houses of Kashan",
+          "figure": "golestan",
+          "paras": [
+            "The signature Qajar interior is the mirror hall. Ayeneh-kari, mirror-work, sets thousands of small cut pieces of mirror into patterns of stars, flowers and geometry across walls and ceilings, often combined with carved and painted stucco. The technique had Safavid beginnings, but the Qajars made it an art of state: in the Golestan’s mirror halls, candlelight and daylight alike are broken into a trembling field of points, so that the room seems to dissolve its own surfaces. The effect is not mere ostentation. Like the muqarnas it often accompanies, mirror-work dematerialises structure, turning a heavy reception hall into a pavilion of light, and it suited a court that staged itself before mirrors as readily as before men. Princely and private commissions alike spread the technique to shrines, houses and teahouses across the country.",
+            "If the palace shows Qajar art at its most public, the great merchant houses of Kashan, built in the later nineteenth century, show it at its most complete. The Tabatabaei and Borujerdi houses, raised by wealthy carpet and commodity merchants, organise reception rooms, family quarters, kitchens and stables around sunken courtyards several metres below street level. The descent moderates temperature, the high courtyard walls guard privacy, and windcatchers draw air over the rooms below. Stucco carving of extraordinary fineness, fresco painting, stained glass and carved wooden screens enrich interiors that from the street present almost nothing but blank mud-brick and a modest doorway. Their carved plaster, painted ceilings and coloured glass were the work of Kashan’s own celebrated workshops for generations.",
+            "Central to these houses is the orosi, the tall sash window of wood and coloured glass that could be raised into a pocket above the opening, merging hall and courtyard in summer. Behind such windows the talar, or principal hall, often rises through two storeys beneath a painted and mirrored ceiling, flanked by smaller rooms for winter and summer use. The houses of Kashan demonstrate that Qajar domestic architecture was not a decline from some earlier purity but a mature synthesis: an ancient courtyard type, refined by generations of craft, absorbing new materials and images without surrendering its climatic and social logic. Their survival, after long neglect, anchors modern understanding of the Persian house. Restored in recent decades, they now receive visitors without losing their essential quietness and inward calm."
+          ]
+        },
+        {
+          "heading": "An old language under new pictures",
+          "paras": [
+            "Qajar decoration is most easily recognised by its pictures. Tile panels of the period carry portraits of kings and courtiers, scenes from the Shahnameh and from Persian romance, landscapes, flowers, and, increasingly, images copied from European prints and photographs: railway trains, foreign cities, women in European dress. Haft-rang tile, painted in colours before firing, allowed such imagery to cover façades quickly and relatively cheaply, if with a softer precision than Safavid mosaic. Critics once dismissed this art as decadent hybridity. A fairer reading sees a confident vernacular modernity, in which an old decorative system, built on the panel, the border and the repeat, admitted new content without changing its grammar. Foreign observers often recorded the same scenes, which helped fix the period’s visual record for historians.",
+            "European influence entered by several doors: diplomats and merchants, imported goods, illustrated books, and the shah’s own photographers and painters, who recorded the court with a documentary zeal new to Persia. Buildings responded unevenly. Some adopted European plans, pitched roofs and classical orders almost entire; others wore a European skin of stucco and sash windows over a plan that Isfahan would have recognised. This unevenness is precisely the historical interest of the period. Qajar architecture was negotiating, in built form, the question that occupied the whole society: how much of the foreign model to admit, and on whose terms. The negotiations were pragmatic rather than theoretical, and their results vary from the clumsy to the quietly brilliant. Architects, like patrons, were choosing rather than simply copying foreign models wholesale.",
+            "The dynasty fell in 1925, and the modernising state that followed first neglected and then demolished much Qajar building, judging it an embarrassment between a glorious past and a desired future. That judgement has reversed. The Golestan’s inscription, the restoration of the Kashan houses, and a generation of scholarship have restored the Qajar century to the main narrative of Persian architecture, not as an epilogue but as a transformation: the moment when the tradition met photography, the illustrated press and the European palace, and answered in mirror, stucco and tile. To read those answers carefully is to understand that Persian architecture had never been a sealed system, and that its powers of absorption were among its oldest strengths. That reassessment continues in conservation workshops and university studios today."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "house-and-garden",
+      "numeral": "XIV",
+      "title": "The House and the Garden: Chahar Bagh and the Courtyard",
+      "sections": [
+        {
+          "heading": "Paradise as a plan",
+          "paras": [
+            "The Persian word pairidaeza, a walled enclosure, travelled through Greek as paradeisos and into English as paradise, and the thing it named was a plan before it was a promise. At Pasargadae in the sixth century BCE, Cyrus the Great laid out a royal garden whose stone water channels divided the ground into a regular fourfold geometry, the earliest surviving evidence of the scheme later called the chahar bagh, the four gardens. Excavated channels and pavilion foundations show water led in straight runs past planted plots, with a viewing pavilion from which the king could survey an ordered piece of the world. Order here was not decoration; it was kingship made visible, nature subdued into geometry and kept alive by engineered water.",
+            "Through the Sasanian and Islamic centuries the fourfold garden persisted, changing patrons and meanings while keeping its essential armature: an enclosing wall, a cross-axial division, water running in channels along the axes, and a pavilion at a crossing or at the head of the main axis. The Qur’anic image of paradise as a garden beneath which rivers flow gave the scheme a theological resonance that reinforced its royal one. Under the Safavids the chahar bagh reached urban scale, most famously in Isfahan, where a broad planted avenue of that name ran from the city towards the river, lined with garden pavilions. The type proved exportable, travelling with Persian gardeners and patrons to Mughal India and beyond. Rulers rebuilt them, poets praised them, and administrators treated their water shares as valuable property.",
+            "It is important not to mistake the chahar bagh for a fixed diagram mechanically repeated. Surviving gardens vary in scale, planting, waterworks and the position of their pavilions; some are terraced, some flat; some served pleasure, some burial, most several purposes across their lives. What unites them is a discipline of division: the wall that separates garden from desert, the channel that separates path from plot, the axis that separates the viewer’s place from the prospect. In an arid land the contrast itself was the luxury. A Persian garden announced, before any planting was admired, that water had been found, led, divided and made to appear in public, a demonstration of resources as eloquent as any inscription. Travellers consistently described the shock of passing from dust and glare into shade, scent and running water."
+          ]
+        },
+        {
+          "heading": "Fin and Eram: the garden in maturity",
+          "figure": "eramGarden",
+          "paras": [
+            "The Fin Garden at Kashan, fed by a qanat whose water emerges within the garden itself, preserves the mature type in a compact and legible form. Its present fabric is largely Safavid, with Qajar additions, but the spring it celebrates is far older, and the garden’s history records the usual Persian pattern of foundation, ruin and refoundation on the same watered site. Channels run along the axes, filling and refilling small pools; rows of cypresses, some of great age, shade the walks; and pavilions at the centre and edges frame views along the water. A bathhouse within the garden became notorious in the nineteenth century as the place of a statesman’s murder, a reminder that these pleasure grounds were also theatres of power.",
+            "At Shiraz, the Eram Garden shows the type in its lush southern mood. Shiraz, city of poets, made the garden a literary as well as an architectural idea, and Eram, named for the legendary garden of Iram, joins a Qajar pavilion of tiled and mirrored richness to plantings famous for their roses and citrus. The pavilion faces down the main axis over a pool, its iwan-like loggia mediating between interior shade and the bright geometry below. Eram demonstrates the chahar bagh’s hospitality to change: the plan can be centuries old while the building that crowns it speaks the language of its own century, and the garden reads as a whole because the armature of wall, axis and water disciplines both.",
+            "Both gardens also teach a caution. What the visitor sees is a survivor, restored, replanted and managed, not an untouched relic. Cypresses die and are replaced; channels are repaired; pavilions are repainted in the manner of their period or of a later taste. Yet the essential evidence is not the planting but the relationship between water, wall and view, and that relationship is genuinely old. Fin and Eram therefore stand in this history for hundreds of lost gardens known only from texts, poems and travellers’ plates: royal parks outside city walls, suburban retreats, tomb gardens and the small courtyard plots of ordinary houses, all sharing, at different scales, the conviction that a divided, watered rectangle could stand for the world made good."
+          ]
+        },
+        {
+          "heading": "The inward house: biruni and andaruni",
+          "figure": "tabatabaei",
+          "paras": [
+            "The traditional Persian house turns inward. From the street a high blank wall and a single door; within, a courtyard open to the sky, around which the rooms arrange themselves in a hierarchy of seasons and ceremonies. A bent entrance passage protects the interior from the direct gaze of the street, and the courtyard distributes light, air and movement to rooms that need no external windows. The arrangement answers the climate, since shaded courts and thick walls temper heat, but it answers society first. The house is a small city with a public face and a private heart, and its architecture is the management of the boundary between them, by doors, passages, levels and sightlines as much as by walls.",
+            "In larger houses the division was formalised as biruni and andaruni: the biruni, the outer part, where the master of the house received guests, conducted business and entertained male visitors; and the andaruni, the inner part, the domain of the family, centred on its own courtyard in the grandest examples. Between them, service rooms and controlled points of passage allowed food, messages and people to move without breaching the separation. The geometry was social before it was spatial, and it shaped everything from the placing of kitchens to the orientation of reception rooms. Guests could be received with great ceremony a few metres from family rooms they would never see, an arrangement that puzzled foreign visitors and satisfied its users completely.",
+            "Twentieth-century change, new family structures and apartment living have made the full biruni-and-andaruni house rare, and many surviving examples serve as museums, offices or hotels. Their lessons, however, remain current. The courtyard house demonstrates privacy without darkness, density without overlooking, and climatic comfort achieved by plan rather than machinery. Modern Iranian architects have repeatedly returned to it, sometimes literally, more often as an idea: rooms around a void, a gradient from public to private, a threshold treated as a place rather than a line. In the long history of Persian building, few types have carried so much meaning in so simple a form, or rewarded study so reliably at every scale from palace to cottage. Conservation practice now treats such houses as documents in plan, section and social use alike."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "architecture-of-water",
+      "numeral": "XV",
+      "title": "The Architecture of Water: Qanat, Ab-Anbar and Yakhchal",
+      "sections": [
+        {
+          "heading": "The qanat: an invisible aqueduct",
+          "paras": [
+            "Much of Persia is dry, and its civilisation rests on a technology for moving water that works almost entirely out of sight. The qanat is a gently sloping underground gallery that taps groundwater at the foot of mountains and leads it, by gravity alone, to fields and settlements sometimes tens of kilometres away. Diggers sank a mother well into the water-bearing layer, then drove the gallery towards the outlet, sinking vertical shafts at intervals for spoil removal, ventilation and maintenance. The gradient had to be exact: too steep and the flow eroded the tunnel, too shallow and it silted. Maintained by specialist diggers, the muqanni, qanats could run for centuries, and many still do. Whole districts could depend on a single gallery, carefully maintained across many generations of settlement.",
+            "Because the water travels underground, evaporation losses are small and the supply is protected from contamination and from enemies; because it flows by gravity, it needs no fuel and no machinery. The costs are labour, skill and vigilance: tunnels collapse, shafts fill, and a neglected qanat dies quietly beneath a landscape that then dies with it. The vertical shafts, visible from the air as lines of crater-like rings crossing the desert towards a town, are the only surface sign of the system, together with the small shrines, mills and distribution points where the water emerges. It is an architecture of inference, known by its marks and its results: the green edge of a town against the dust. Shares in its water were measured, inherited, bought and sold like land itself.",
+            "In 2016 UNESCO inscribed the Persian Qanat on the World Heritage List, recognising a system documented in Iran for well over two thousand years and diffused, under related names, across the Middle East, North Africa and beyond. Scholarly caution is needed about origins and dates for individual qanats, which are palimpsests of digging and repair, but not about the system’s importance. Qanats determined where Persians could live, what they could grow and how their cities were shaped; gardens, baths, reservoirs and ice houses all presuppose them. Any history of Persian architecture that begins with the visible building starts halfway through the story. The first monument is the water, arriving. Villages, towns and caravan routes across the plateau still trace the lines these galleries made possible."
+          ]
+        },
+        {
+          "heading": "Ab-anbars: cathedrals of stored water",
+          "figure": "abAnbar",
+          "paras": [
+            "Where water arrives seasonally or must be held against siege and drought, the Persian city stored it in the ab-anbar, the water house: a great underground reservoir, roofed with a dome or vault, filled from qanats or from winter streams and drawn upon through the year. The type reached monumental scale in cities such as Yazd, Qazvin and Kashan. A decorated portal and a long flight of steps descend from street level to the tap room far below, where the water stays cool in the earth’s steady temperature. Rows of such stairs, worn by generations of feet and water jars, are among the most evocative interiors in Persian architecture: civic, shadowed and hushed. Many were endowed as charitable works, open to rich and poor of the quarter alike.",
+            "Above ground the ab-anbar announces itself with windcatchers. Tall badgirs over the reservoir draw air down across the water surface and exhaust the warm air, limiting stagnation and keeping the store sweet; in the great examples several windcatchers of differing heights serve a single tank. The dome that roofs the reservoir is both structure and sign, its brick hemisphere rising from the rooftops of the quarter it served. Some ab-anbars were endowed by merchants or rulers as pious public works, their portals carrying inscriptions that name the founder and date. Water storage, in other words, was not hidden infrastructure but public architecture, given the full dignity of portal, dome and calligraphy. Brick domes and windcatchers together formed a recognisable skyline for the neighbourhoods they so reliably served.",
+            "The comparison sometimes made between ab-anbars and cathedrals is loose but not foolish. Both are large communal interiors organised around a precious substance, reached by a ceremonial descent or ascent, and built to standards meant to outlast their builders. The difference is that the ab-anbar’s congregation came daily, with jars. Its decline came with piped municipal water in the twentieth century, which removed its function while leaving its fabric; many survive, some converted to museums, restaurants or galleries, their tanks dry. They remain the clearest proof that in Persia the engineering of water was never a merely technical matter. It was endowed, decorated, inscribed and loved, which is to say it was architecture in the full sense. A number have been carefully conserved and opened to the public in recent decades."
+          ]
+        },
+        {
+          "heading": "Yakhchals: ice from the desert night",
+          "figure": "yakhchal",
+          "paras": [
+            "The yakhchal, the ice pit, completes the Persian conquest of the seasons. In winter, water was run in shallow sheets into shaded pounds beside a great adobe structure, where desert nights, clear and radiatively cold, froze it in layers. The ice was broken, carried into the pit and packed down, insulated with straw and chaff; through the summer it was cut and sold in the town, or drawn upon by the household that owned the store. Surplus winter, in effect, was banked against summer. Travellers who met ice in a Persian July, in drinks and sherbets far from any mountain, recorded their astonishment; the system that produced it was unglamorous, communal and entirely dependent on timing, labour and the night sky.",
+            "The surviving monument of the system is the ice house itself: a massive conical or hemispherical dome of mud brick, sometimes ribbed, sometimes smooth, rising over the circular pit. Great examples stand at Yazd and at Meybod, where the dome is accompanied by the long shading walls that protected the freezing pounds and by the remains of the qanat-fed channels that supplied them. The walls are enormously thick, the interior volume minimises the surface through which heat can enter, and a small opening at the crown allows the warmest air to escape. Nothing is wasted, including form: the cone sheds wind-driven dust, resists earthquake poorly but repairs easily, and can be built by local craft from local earth. Local guides still explain the process beside the surviving pounds in winter months.",
+            "Yakhchals fell from use as mechanical refrigeration spread in the twentieth century, and many have crumbled back into the ground they were made from, a fate their material always allowed. Those that survive are now protected and interpreted, sometimes with their freezing pounds restored beside them. They deserve their place in this history beside mosques and palaces, because they display the tradition’s intelligence in its purest state: no imported material, no fuel, no mechanism, only geometry, mass, shade and an exact knowledge of the local sky. A civilisation that could store winter is unlikely to have treated any building problem carelessly, and the yakhchal is the standing rebuke to every account of Persian architecture that begins and ends with ornament."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-windcatcher",
+      "numeral": "XVI",
+      "title": "The Windcatcher: Architecture as Climate Machine",
+      "sections": [
+        {
+          "heading": "How a badgir works",
+          "paras": [
+            "The badgir, literally the wind-catcher, is a tower raised above a building, open at the top to the prevailing wind and connected by internal shafts to the rooms below. Its operation reverses with the conditions. When wind blows, the openings facing the breeze scoop air down the shaft into the living rooms, while the leeward openings, under suction, draw stale air up and out. When the air is still and the tower has been warmed by the sun, the same shafts work as a chimney: hot air rises out of the building by the stack effect, pulling cooler air in from shaded courts, basements and ground-level openings. One device, two engines, wind and buoyancy, and no moving parts at all.",
+            "The cooled air was often further tempered before it reached the occupants. In the great houses and pavilions it passed over a pool or fountain in a basement room, the sardab, itself sometimes supplied by a qanat whose cool subterranean air could be drawn into the system; evaporation from the water surface lowered the temperature and raised the humidity of air that arrived in the rooms above. The result, by the testimony of travellers and by modern measurement alike, could be a difference of many degrees between the street and the summer hall. Comfort was graded, as everything else in the Persian house: the coolest rooms were the most private, and the hour of rest was spent where the machine worked best.",
+            "Construction matched function to means. The tower’s internal divisions, usually a cross or an H in plan, separate the downward and upward streams; dampers of wood or matting could close a shaft in winter or in a dust storm; and the openings were sized, by rule of thumb refined over generations, to the volume served. Regional craftsmen understood their own winds intimately, orienting the tower’s faces to a named and seasonally reliable breeze. The badgir is therefore not a primitive air conditioner but a tuned instrument, calibrated by empiricism to a particular site. Its modern students, measuring and modelling it, have generally confirmed what its builders knew, and have added numbers to a knowledge that was already complete in practice."
+          ]
+        },
+        {
+          "heading": "Yazd, the city of windcatchers",
+          "figure": "borujerdi",
+          "paras": [
+            "From any high point in Yazd the skyline is a forest of windcatcher towers, rising over the flat mud-brick roofs in every variety of height, plan and decoration. Yazd, set between desert ranges and dependent on its qanats, made the badgir its civic emblem because it made it its necessity: summers are severe, and for centuries the tower was the difference between endurance and comfort. Houses great and modest alike wear them; reservoirs wear several; even small shrines may carry a miniature version. Their brickwork ranges from plain functional stacks to towers panelled in stucco and tile, and their silhouette, repeated across the old city, gives Yazd an urban portrait unlike any other in Persia. Photographs of the old city from above make the pattern unmistakable at first glance.",
+            "The most celebrated example crowns the garden pavilion of Dolat Abad, a residence built in the eighteenth century for the governor of Yazd. Its windcatcher, rising to roughly thirty-four metres and frequently described as among the tallest traditional windcatchers in the world, is octagonal in plan, so that some face of the tower meets any wind. Below it, the pavilion’s tall central hall, with stained glass and a fountain fed from the garden’s water, receives the descending air. The ensemble, pavilion, garden and tower, is the Persian climatic system at its most legible: water below, garden around, wind above, and a room at the centre where all three are composed into comfort and ceremony at once. The pavilion remains a royal garden residence, maintained within its historic landscaped grounds at Yazd.",
+            "The Borujerdi house at Kashan, whose windcatchers illustrate this chapter, shows the tower in its domestic and decorative maturity: several badgirs of elegant proportion serve the reception rooms, their stuccoed shafts part of the house’s public silhouette. Yazd’s towers, Kashan’s towers and their humbler cousins across the plateau and the Gulf coast together refute the idea that climate control is a modern chapter in architecture. For the Persian builder it was the first chapter. A plan that ignored wind, sun and water was not merely uncomfortable; it was unbuildable in any lasting sense, and the monuments that survive are, among their other qualities, the ones whose climate machines worked. Their forms were adjusted street by street to local winds, household needs and available building skills."
+          ]
+        },
+        {
+          "heading": "Cousins and revivals",
+          "paras": [
+            "The windcatcher is not exclusively Persian. Along the Gulf and across to Egypt it appears in related forms, most notably the Egyptian malqaf, a roof scoop oriented to the reliable northern breeze and known from medieval Cairene houses, with antecedents claimed in much earlier Egyptian building. Scholars debate the directions of borrowing, and the honest answer is that a device so responsive to shared conditions, hot summers and steady winds, may have been refined in several places and carried between them by merchants, craftsmen and brides. What matters for this history is the family resemblance: a whole climatic zone, from Persia to the Nile, thinking about air with the same architectural means, and adjusting the instrument to local wind and custom.",
+            "The twentieth century largely switched the machine off. Mechanical cooling arrived, towers were sealed or demolished, and the knowledge of orientation, shaft sizing and seasonal operation began to pass from craft into archive. From the later twentieth century, however, architects and engineers returned to the badgir with new motives: energy cost, carbon and a professional interest in passive design. Measured studies in Yazd and elsewhere quantified its performance; contemporary buildings in the region and far beyond it adopted windcatcher and wind-scoop systems, sometimes as engineered products with dampers and fans assisting the stack. The revival is most convincing where it learns the old lesson whole: the tower works as part of a system of court, mass, shade and water, not as a badge applied to a sealed box.",
+            "There is a final, quieter significance. The windcatcher makes climate visible. A tower on every roof declares that comfort is a collective, architectural undertaking, written into the skyline rather than hidden in a plant room. Cities that read in this way teach their inhabitants the direction of the breeze and the price of shade without a word of instruction. Persian architecture’s modern admirers, in Iran and abroad, have been right to single the badgir out, provided they understand it as its builders did: not a curiosity, not a symbol, but a machine for living, as integral to the house as its door. Where the tower stands and works, the argument of this chapter stands with it. Recent conservation in Yazd has repaired many towers, returning them to daily working use again."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geometry-and-influence",
+      "numeral": "XVII",
+      "title": "Geometry, Pattern and the Persian Gift to Islamic Architecture",
+      "sections": [
+        {
+          "heading": "Girih and the geometry of pattern",
+          "paras": [
+            "Persian ornament is built on geometry that can be constructed with ruler and compass and extended, in principle, without end. The girih system, documented in pattern scrolls of which the Topkapi Scroll is the most famous survivor, works from a small set of polygonal tiles whose edges carry a consistent strapwork design. Assembled edge to edge, the tiles generate patterns of stars, polygons and interlacing bands of great complexity from very simple means, and the same scheme can clothe a flat wall, wrap a minaret or subdivide a dome. Medieval craftsmen guarded the constructions as workshop knowledge; modern mathematicians, analysing surviving patterns, have shown that some approach the aperiodic order now associated with quasicrystals, a finding best stated carefully: the patterns embody sophisticated geometry, whatever terms their makers used.",
+            "Muqarnas carries the same intelligence into space. The stalactite vault, assembled from tiers of small niche-like cells, dissolves the transition between wall and dome, or fills the hood of a portal, with a cellular geometry that is at once structure, ornament and a play of light and shadow. Its cells are generated by projecting a two-dimensional pattern into three dimensions by workshop rules, so that a muqarnas dome is a pattern you can stand under. In Persian hands, in brick, stucco and finally tile, muqarnas became the signature of thresholds: the place where the building changes state, from outside to inside, square to circle, earth to heaven, is marked by geometry in the act of transformation. Examples survive in portals, prayer halls and minaret shafts across the Iranian world and beyond it.",
+            "The abiding point is that this geometry was a shared language across the Persian world and far beyond it. A pattern perfected in Isfahan could be executed in Herat, Tabriz or Samarkand; craftsmen travelled, scrolls travelled, and patrons competed in a medium everyone could read. Geometry also solved a theological and practical problem together: it offered richness without images where images were restricted, and it scaled from a Qur’an binding to a city gate without changing its nature. To study girih is therefore to study how Persian architecture thought. Its patterns are not applied decoration in the modern dismissive sense; they are the building’s mathematics made visible, and their discipline underlies even the freest floral tilework that shares their walls."
+          ]
+        },
+        {
+          "heading": "Script in brick and tile",
+          "figure": "girihTile",
+          "paras": [
+            "The technique called banna’i, the builder’s technique, lays patterned brickwork, often glazed and unglazed bricks combined, so that the pattern itself forms Kufic inscriptions across a façade. Words emerge from structure: the name of God, of the Prophet, of Ali, or a pious formula, repeated in a square Kufic so geometric that the text must be learned before it can be read. Minarets and mosque façades of the Seljuk and later periods carry these woven words at monumental scale. The device unites the two great non-figural arts of Islamic Persia, geometry and calligraphy, in a single material act: the wall does not carry the inscription, the wall is the inscription, course by course. The technique demanded close collaboration between the calligrapher who designed the text and the bricklayers themselves.",
+            "As glazed tile expanded its palette under the Timurids and Safavids, script migrated into tile mosaic and painted tile, gaining colour, curvature and fluency; thuluth inscriptions in white on deep blue run in bands around domes and portals, large enough to be read from the square below. The epigraphic programme of a great mosque was planned as carefully as its plan: foundation texts naming the patron and the date, Qur’anic verses chosen for the place they occupy, pious phrases over doors and mihrabs. For the historian these inscriptions are primary evidence, often the only secure record of who built a monument and when; for the worshipper they made the building a text to be inhabited, its walls speaking in the first person of faith.",
+            "Brick and tile script also marks one of Persia’s clearest gifts to its neighbours. The square Kufic of banna’i appears across Central Asia and Anatolia; tile-mosaic epigraphy in the Persian manner travelled with craftsmen to India; and the very idea that a façade should be composed as a page, with bands, medallions and margins, shaped buildings far from any Persian patron. Technique, in this tradition, was never a secret kept at home. It was a currency, and Persia minted much of it. The girih tile illustrated here, stars and polygons locked in glazed geometry, and the woven word beside it, are two denominations of the same coin: pattern and language, each proving that ornament, seriously understood, was a form of knowledge."
+          ]
+        },
+        {
+          "heading": "The Persian road to India and beyond",
+          "paras": [
+            "Persian forms moved east along the roads of conquest, trade and employment. The Ghaznavids, ruling from Ghazna over eastern Iran and northwestern India, carried Persian court culture and its architecture into the Punjab; the Ghurids who succeeded them built in Afghanistan and India in a Persianate idiom, and their monuments, towers and mosques planted the iwan, the pointed arch and Persian brick patterning in Indian soil. Thereafter the traffic became a profession: Persian architects, engineers, calligraphers and tile-workers were in demand at Indian courts for centuries, and Indian patrons sent for them by name. Transmission was personal before it was stylistic, a matter of masters and workshops as much as of forms. Their tombs, mosques and audience halls adapted Persian planning to local materials, labour and court ceremonial.",
+            "The Mughal Empire made the exchange monumental. Humayun’s Tomb in Delhi, built in the sixteenth century, is credited to the Persian architect Mirak Mirza Ghiyas and set the template: a great domed tomb on a raised platform, in a formal charbagh, with iwans, chhatris and Persian garden geometry naturalised in Indian stone. A century later the Taj Mahal gathered the inheritance at its most refined: charbagh, axial iwan composition, bulbous dome on its drum, minarets at the corners of the plinth and pietra dura answering Persian tile with inlaid stone. Its designers worked within a Persianate language so completely that the building is simultaneously the glory of Indian architecture and a chapter of this one. Both monuments remain central to how India narrates its own architectural past to the wider world.",
+            "Westward, the exchange with the Ottoman world was one of rivalry and mutual borrowing between two imperial styles that shared Timurid ancestors, craftsmen and techniques, from tilework to dome construction, while developing distinct national characters. The sum of these movements is the reason this book has treated Persian architecture as a civilisation rather than a country. Its gifts, the dome on squinches, the iwan, the chahar bagh, girih and banna’i, the windcatcher and the qanat, were given so thoroughly that they became other peoples’ patrimony too. Influence of that depth is not measured by counting copies. It is measured by how much of the built world, from Delhi to Cairo, still thinks in forms that Persia first composed. That legacy remains visible wherever those forms still organise space, ceremony and public memory today."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "numeral": "XVIII",
+      "title": "Reading Persian Architecture",
+      "sections": [
+        {
+          "heading": "Five signs in the field",
+          "paras": [
+            "A traveller who has followed this history can learn to read a Persian building from a few recurring signs. The first is the iwan: a vaulted hall open on one side, which announces a threshold and organises a court around itself; where four iwans face each other across a courtyard, a mosque, madrasa or caravanserai of the classical type is almost certainly at hand. The second is the dome on squinches, the Persian solution to setting a circle on a square, whose arched corner devices, plain or multiplied into muqarnas, declare themselves inside even when the dome outside is hidden by a drum or a later roof. Learn these two and the plan of most monuments begins to explain itself.",
+            "The third sign is material read as chronology: brick first, in patterns that are themselves early ornament, then glazed tile, spreading from accents to whole surfaces as dynasties grow richer, so that a building’s skin often tells its period before its inscription is found. The fourth is muqarnas, geometry in three dimensions, marking the places of transition, portal hoods, cornices and dome bases, wherever the building changes direction or state. The fifth is the courtyard-garden relation: water led on an axis, a pavilion placed to command it, and rooms arranged for gradient rather than display. Five signs are not a method entire, but they turn a façade from a picture into a sentence, and they work from a village shrine to the Maidan of Isfahan.",
+            "Reading also means reading absences and repairs. Persian monuments are palimpsests: a Seljuk core in Safavid tile, a Qajar fresco over an older iwan, a portal rebuilt after earthquake in the manner of its century or of ours. The honest observer asks of every surface how old it is, and of every building which parts its own age would not recognise. Dates in this book have been given cautiously for the same reason. A building is not a document that survives unchanged but a negotiation between intention, use, decay and care, carried on for centuries. To read Persian architecture well is to hold both truths together: the forms are among the most stable in world architecture, and no surviving example is exactly the building its founder saw."
+          ]
+        },
+        {
+          "heading": "Layers: survival, revival and restoration",
+          "figure": "azadi",
+          "paras": [
+            "Survival has been selective, and its biases shape what this history could say. Stone royal architecture of the Achaemenids survives at Persepolis as a weathered skeleton, its mud-brick and timber long gone, its reliefs still losing detail to wind, salt and a century of exposure since excavation; what is read there is magnificent and partial in equal measure. Brick and tile survive better in the dry plateau than in the humid Caspian provinces, whose wooden and thatched traditions are known largely from texts. Whole categories, ordinary houses, workshops, markets in perishable materials, have vanished almost completely. The canon of Persian architecture is therefore a survivor’s canon, and every generalisation in the preceding chapters should be heard with that qualification in mind.",
+            "Restoration is the other half of survival. Isfahan’s great mosques carry tilework substantially renewed, campaign by campaign, as craftsmen replace failed mosaic with new work in the old technique; the result preserves the building’s appearance and its craft lineage while complicating any simple idea of authenticity. At Bam, the vast mud-brick citadel was devastated by the earthquake of 2003, which also killed many thousands of the city’s people; its subsequent rebuilding, under international attention, has debated in practice how much of a shattered earthen city should be reconstructed, and to which of its many periods. These are not problems with clean solutions. A living tradition restores by remaking; an archaeological conscience restores by conserving; Persian monuments must usually answer to both.",
+            "Modern Iran has also built its own readings of the tradition. Tehran’s Azadi Tower, completed in 1971 to a design by Hossein Amanat, raises a great arch whose form recalls the Sasanian vault at Ctesiphon through a skin of white stone and a geometry generated with early computer assistance; it functions as the capital’s gate and emblem. Around it, a century of Iranian architects has argued, in concrete, brick and glass, with the iwan, the courtyard and the dome, sometimes quoting them, sometimes deliberately refusing them. The argument itself is the continuity. A tradition is alive not when its forms are copied but when its builders still find them worth answering, and by that test the Persian tradition entered the modern age unsettled, productive and unmistakably itself."
+          ]
+        },
+        {
+          "heading": "What the tradition still teaches",
+          "paras": [
+            "The first lesson is climate answered by form. Persian builders achieved comfort in one of the world’s demanding environments with orientation, mass, shade, courtyards, wind towers and evaporative cooling, consuming no energy beyond the sun and wind that caused the problem. As architecture everywhere reckons with the cost of mechanical comfort, the badgir and the sardab have moved from ethnographic curiosities to working references, studied, measured and adapted. The lesson is not that modern buildings should wear towers as ornament, but that climate is a design material, as real as brick, and that a plan which ignores it will pay for the omission forever. Persia’s builders, who could not pay, made the constraint into an art that this book has repeatedly found at the centre of their achievement.",
+            "The second lesson is water treated as architecture. The qanat, the ab-anbar and the garden channel form a single system in which engineering, endowment, decoration and worship are inseparable, and in which a scarce resource is made visible, honoured and shared rather than merely delivered. In a century of water stress far beyond Iran, that integration has a claim on attention: infrastructure that a society loves is infrastructure it maintains, and the Persian example shows maintenance elevated into a civic art across two millennia. The third lesson is privacy composed as gradient: the courtyard house’s passage from street to biruni to andaruni offers a humane alternative to the binary of public and private, and modern housing in many cultures has begun, knowingly or not, to relearn it.",
+            "This history began with stone platforms in Fars and ends, as it must, without an ending. Persian architecture’s long conversation between geometry and climate, brick and glaze, court and garden, word and wall, continues wherever its buildings are used, studied, restored or argued with. If the preceding chapters have a single claim, it is that this tradition rewards attention out of proportion to its place in general histories, because it solved, early and elegantly, problems that architecture still faces: how to build beautifully with local means, how to make ornament carry knowledge, how to turn scarcity into form. The reader who closes the book in front of a Persian building, and finds the five signs assembling themselves into sense, has the only conclusion the subject requires."
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [
+    [
+      "Cyrus the Great (d. 530 BC)",
+      "Founder of the Achaemenid Empire and of Pasargadae, where the earliest surviving Persian garden was laid out in stone channels. His tomb — a small gabled chamber on six receding steps — became the type-specimen of Persian stone masonry and an object of pilgrimage already in antiquity."
+    ],
+    [
+      "Darius I (r. 522–486 BC)",
+      "The builder of Persepolis. Darius levelled the terrace, raised the Apadana and set the empire's peoples to carving their own tribute processions in its stairs; the inscriptions that name the workmen by nation are architecture's first great building account."
+    ],
+    [
+      "Ardashir I (r. AD 224–242)",
+      "Founder of the Sasanian Empire. His palace at Firuzabad, with its three domes carried on squinches and its great iwan, announces the structural system that Persia would develop for the next fourteen centuries."
+    ],
+    [
+      "Khusrau I Anushirvan (r. 531–579)",
+      "The Sasanian king of kings whose palace at Ctesiphon held the Taq Kasra, the immense brick iwan vault that remained the wonder of Iraq long after the empire fell; Arab writers treated its survival as an omen, and poets mourned at its ruin."
+    ],
+    [
+      "Nizam al-Molk (1018–1092)",
+      "The Seljuk vizier, author of the Siyasatnama and patron of the Nizamiyya madrasas. His dome chamber at Isfahan (1086–87) — structurally lucid, perfectly proportioned — is the room against which all later Persian domes are measured."
+    ],
+    [
+      "Uljaytu (Öljeitü) (r. 1304–1316)",
+      "The Ilkhanid sultan who built Soltaniyeh as his capital and tomb. A convert successively to several faiths, he left the least ambiguous monument of his age: the great octagon and double-shell dome that dominate the Zanjan plain."
+    ],
+    [
+      "Qavam al-Din Shirazi (d. 1438)",
+      "The master architect of the Timurid court, credited with the Gawhar Shad mosque at Herat and works at Samarkand — one of the few medieval Persian architects whose name and buildings both survive, proof that the tradition honoured its designers."
+    ],
+    [
+      "Timur (Tamerlane) (1336–1405)",
+      "The conqueror who made Samarkand his showcase, deporting craftsmen from Damascus, Delhi and Persia itself. Cruel as his campaigns were, the buildings they funded — Gur-e Amir, Bibi Khanum, Shah-i Zinda — set the Timurid standard that Persia and Mughal India inherited."
+    ],
+    [
+      "Shah Abbas I (r. 1588–1629)",
+      "The Safavid shah who replanned Isfahan into the most admired city of its century: square, mosques, palace, bazaar and bridges composed as a single act of urban design, and the high-water mark of Persian building as statecraft."
+    ],
+    [
+      "Arthur Upham Pope (1881–1969)",
+      "The American scholar whose Survey of Persian Art (1938–39) and lifelong advocacy carried Persian architecture to the world's attention; his scholarship, and the exhibitions he organised, shaped how the West — and modern Iran — understood the tradition this book describes."
+    ]
+  ],
+  "fiveSigns": [
+    {
+      "name": "The iwan: a hall that opens through an arch",
+      "look": "Look for the tall rectangular frame — the pishtaq — rising above the roofline, and inside it a deep vaulted hall open to the court along its whole front. One iwan is a statement; four, facing each other across a courtyard, are the classic Persian plan, found in mosques, madrasas, caravanserais and houses from the twelfth century onward. The iwan gives shade, ceremony and a stage for the muqarnas semi-dome that usually fills its vault.",
+      "limit": "Iwans also structure buildings far from Persia — the form travelled to Egypt, Anatolia and India — and a single arched recess is not yet an iwan: the true sign is the open vaulted hall behind the frame, deep enough to sit in, not a decorative arch applied to a wall.",
+      "img": "shahMosque"
+    },
+    {
+      "name": "The dome on squinches",
+      "look": "Inside a square chamber, look at the corners: small arches or a honeycomb of niches step the square into an octagon and the octagon into the dome's circle. That transition — the squinch, and later the muqarnas net that hides it — is Persia's structural signature, visible from Sasanian Firuzabad to the great Seljuk dome chambers, where the squinches are left naked and beautiful.",
+      "limit": "Byzantium solved the same problem with the pendentive, a spherical triangle; the two are endlessly confused in photographs. If the corner element is a flat triangular slice of a sphere, it is pendentive work; if it is an arch or niche stepped across the corner, it is the Persian squinch tradition.",
+      "img": "lotfollah"
+    },
+    {
+      "name": "Brick first, then glaze",
+      "look": "Read the wall in two layers. The body of Persian building is brick — in early centuries patterned for its own sake, with joints raked and bricks set in basket-weave and inscription bands (hazarbaf). Over that body, from the twelfth century onward, spreads glaze: turquoise and cobalt tile, first as accents on domes and minarets, then as complete mosaic skins. A building that is brick inside its domes and blue outside them is speaking Persian.",
+      "limit": "Glaze alone is not the sign — Ottoman Iznik and Mughal tilework have their own palettes and techniques. The Persian sequence is diagnostic: monochrome turquoise first, mosaic faience in the Timurid age, and the quicker haft-rang painted tile, with its yellows and oranges, under the Safavids.",
+      "img": "muqarnas"
+    },
+    {
+      "name": "Muqarnas: the stalactite vault",
+      "look": "Under domes, in iwan semi-domes and beneath minaret balconies, look for the cellular honeycomb of small niches stepping down in tiers — muqarnas. In Persia it begins in stucco and brick in the medieval centuries and becomes a complete geometric system, each cell a facet of a three-dimensional pattern that can be projected from a two-dimensional plan. It is ornament you can read as mathematics.",
+      "limit": "Muqarnas is pan-Islamic, from Spain to Samarkand; the Persian evidence is in material and date — early stucco and brick muqarnas in the Iranian world, and its use inside squinch zones to dissolve the corner between wall and dome, rather than as surface appliqué alone.",
+      "img": "tileDetail"
+    },
+    {
+      "name": "The courtyard and the garden cross",
+      "look": "Persian buildings turn inward. The mosque, house and caravanserai present a plain wall to the street and unfold around a courtyard; the garden is divided by channels into four — the chahar bagh — with a pavilion at the crossing or the end of the main axis. Water is never hidden: it runs in open channels, gathers in pools and is made to fall and sparkle, because in this land moving water is the sound of wealth and of paradise.",
+      "limit": "Courtyards are universal in hot climates. The Persian signature is the geometry — the strict fourfold division, the axial pool, the pavilion placed to terminate a vista — and its persistence from Achaemenid Pasargadae, where the stone channels of Cyrus's garden still survive, to the suburban villas of Qajar Tehran.",
+      "img": "dolatAbad"
+    }
+  ],
+  "gazetteer": [
+    [
+      "Persepolis, Fars — the ceremonial capital",
+      "Read the terrace as an account book in stone: the Apadana stairs name the empire's nations and their gifts, the halls are skeletons of a mudbrick city, and the columns' animal capitals survive in museums from Tehran to Chicago. Go early, when the light rakes the reliefs."
+    ],
+    [
+      "Pasargadae, Fars — the first garden",
+      "Cyrus's capital is a landscape, not a ruin field: the tomb alone on its steps, palace platforms scattered through farmland, and the limestone channels of the earliest chahar bagh still traceable in the grass. The quietest great site in Persia, and the most moving."
+    ],
+    [
+      "Firuzabad, Fars — the Sasanian beginning",
+      "Ardashir's circular city still reads from the air; his palace below the gorge holds three domed chambers and an iwan in rubble stone and gypsum mortar — the whole later Persian system present in embryo, unbeautiful in material and revolutionary in structure."
+    ],
+    [
+      "Damghan, Semnan — the frontier mosque",
+      "The Tari Khana, among the oldest mosques in Persia, stands where the desert road met Khorasan: massive piers, plain brick, a minaret of 1026–29 lettered in Kufic brick. The essential stop between the Sasanian and Islamic worlds."
+    ],
+    [
+      "Isfahan — half the world",
+      "The Persian proverb is a building programme: Friday Mosque (a museum of every period from the Seljuks onward), the Naqsh-e Jahan with Shah Mosque and Sheikh Lotfollah, the bridges, Chehel Sotun, and across the river the Vank Cathedral in New Jolfa. No city teaches the tradition faster."
+    ],
+    [
+      "Soltaniyeh, Zanjan — the dome alone",
+      "Uljaytu's mausoleum rises from a small town like a beached ship: octagon, gallery, and the turquoise dome that Timur's builders studied. Inside, two centuries of decoration — Ilkhanid stucco and tile, Safavid repainting — argue with each other across one vast volume."
+    ],
+    [
+      "Samarkand, Uzbekistan — the Timurid showcase",
+      "Persian architecture on imperial export: Shah-i Zinda's lane of tiled tombs, the Gur-e Amir's fluted dome, Bibi Khanum's colossal ruin and the Registan beyond. The craftsmen were gathered from Persia among other lands, and the language they built in is Persian."
+    ],
+    [
+      "Kashan — the merchant city",
+      "Below its famous houses (Tabatabaei, Borujerdi, Abbasi) Kashan is a lesson in desert urbanism: sunken courtyards, badgirs, qanats — and at its edge Fin Garden, where Safavid kings walked above the water channels and a Qajar minister was murdered in the bathhouse."
+    ],
+    [
+      "Yazd — the city of windcatchers",
+      "A mudbrick old town roofed with domes and pierced by badgirs, inscribed by UNESCO. The Dolat Abad windcatcher — among the tallest traditional examples — still cools its pavilion; the Zoroastrian fire temple and Towers of Silence complete a city where the old Persia never quite ended."
+    ],
+    [
+      "Shiraz — the garden city",
+      "Eram and the Qajar garden pavilions, the tombs of Hafez and Saadi in their gardens, mirror-worked shrines and the Vakil bazaar: Shiraz is where Persian architecture relaxes into poetry, and where the garden tradition is most alive."
+    ],
+    [
+      "Tehran — the Qajar capital",
+      "The Golestan Palace preserves the Qajar court's mirror halls and tile pictures inside the modern capital; the Azadi Tower at the city's gate quotes Sasanian arches in concrete. Tehran rewards the reader who looks for the old city inside the new."
+    ],
+    [
+      "Bam, Kerman — the mudbrick citadel",
+      "Arg-e Bam, the largest adobe complex on earth, was shattered by the earthquake of 2003 and has been rebuilt by hand, adobe by adobe. It is the essential evidence for everything Persia built in earth — and for the ethics of rebuilding, argued in this book's final chapter."
+    ]
+  ],
+  "glossary": [
+    [
+      "Iwan",
+      "A vaulted hall open on one side, framed by a monumental arch; the signature space of Persian architecture from Sasanian palaces to Safavid mosques, and the unit of the four-iwan plan."
+    ],
+    [
+      "Pishtaq",
+      "The tall rectangular frame or portal that fronts an iwan or entrance, rising above the roofline and carrying inscription and tilework — the building's public face."
+    ],
+    [
+      "Squinch",
+      "An arch, niche or corbelled construction thrown across the corner of a square chamber to convert it into an octagon able to carry a dome; developed in Sasanian Persia."
+    ],
+    [
+      "Muqarnas",
+      "Cellular stalactite vaulting: tiers of small niches composing a three-dimensional geometric surface, used in domes, iwan semi-domes, cornices and squinch zones."
+    ],
+    [
+      "Chahar taq",
+      "Literally 'four arches': a domed square chamber open on four sides, the classic form of the Sasanian fire temple and a root form of later Islamic domed pavilions."
+    ],
+    [
+      "Four-iwan plan",
+      "A courtyard building with an iwan centred on each of its four sides; the standard plan of the mature Persian mosque, madrasa and caravanserai."
+    ],
+    [
+      "Sahn",
+      "The courtyard of a mosque, around which the iwans and prayer halls are arranged."
+    ],
+    [
+      "Shabestan",
+      "The columned prayer hall of a mosque, roofed with rows of small domes or vaults."
+    ],
+    [
+      "Mihrab",
+      "The niche in the qibla wall of a mosque indicating the direction of Mecca; in Persia often a masterpiece of stucco or tile mosaic."
+    ],
+    [
+      "Minaret",
+      "The tower from which the call to prayer is given; Persian medieval examples are typically slender cylindrical brick shafts with a single balcony and Kufic inscription bands."
+    ],
+    [
+      "Hazarbaf",
+      "Seljuk patterned brickwork — 'thousand weavings' — in which bricks are laid in relief patterns and scripts across a facade."
+    ],
+    [
+      "Banna'i",
+      "The technique of laying inscriptions and patterns in glazed and unglazed brick within the brickwork itself, so the wall is its own mosaic."
+    ],
+    [
+      "Mo'araq",
+      "Mosaic faience: pieces of coloured glazed tile cut to shape and set like a jigsaw into a plaster bed, the supreme Timurid and Safavid revetment technique."
+    ],
+    [
+      "Haft-rang",
+      "Seven-colour tile: square tiles painted with several colours under one glaze and fired once — quicker and cheaper than mosaic, characteristic of Safavid and later work."
+    ],
+    [
+      "Girih",
+      "The geometric strapwork patterns of Islamic art; also the set of polygonal tiles — decagon, pentagon, hexagon, bowtie, rhombus — from which the patterns are generated."
+    ],
+    [
+      "Badgir",
+      "A windcatcher: a tower that traps passing wind and drives it down into a room, and exhausts warm air when the wind fails; Persia's signature cooling device."
+    ],
+    [
+      "Sardab",
+      "A cool basement room, often over a qanat-fed channel or pool, to which a household retreated in the heat of the day."
+    ],
+    [
+      "Qanat",
+      "An underground aqueduct: a gently sloping tunnel that taps groundwater at a mother well in high ground and delivers it by gravity to fields and cities, marked at the surface by lines of shaft craters."
+    ],
+    [
+      "Ab-anbar",
+      "A vaulted underground water reservoir, usually domed, ventilated by windcatchers and entered by a monumental stair and portal."
+    ],
+    [
+      "Yakhchal",
+      "An ice house: a massive adobe dome over a deep pit, in which winter ice — made in shallow shaded pools — was stored through the summer."
+    ],
+    [
+      "Chahar bagh",
+      "The fourfold garden: a walled garden divided by axial water channels into four quarters, with a pavilion at the crossing or terminus — the Persian image of paradise."
+    ],
+    [
+      "Talar",
+      "An open columned porch or hall, often fronting a palace or house iwan, its ceiling carried on slender wooden columns."
+    ],
+    [
+      "Orosi",
+      "A sash window of coloured glass in a geometric wooden lattice, rising to open a room to a courtyard; characteristic of Qajar houses."
+    ],
+    [
+      "Ayeneh-kari",
+      "Mirror-work: walls and vaults encrusted with small mirror fragments in geometric patterns, the glory of Qajar and shrine interiors."
+    ],
+    [
+      "Caravanserai",
+      "A fortified roadside inn for merchants and caravans: courtyard, stables, rooms and often a mosque, spaced a day's journey apart on the trade routes."
+    ],
+    [
+      "Waqf",
+      "A charitable endowment in Islamic law; the revenues of shops, baths and lands dedicated in waqf paid for the building and upkeep of mosques, madrasas and caravanserais."
+    ]
+  ],
+  "sources": [
+    {
+      "name": "UNESCO World Heritage Centre — Persian Garden, Persian Qanat, Yazd, Isfahan listings",
+      "url": "https://whc.unesco.org/en/list/"
+    },
+    {
+      "name": "Smarthistory — Persian and Islamic architecture surveys",
+      "url": "https://smarthistory.org"
+    },
+    {
+      "name": "Iranica Online — Encyclopaedia Iranica, architecture entries",
+      "url": "https://www.iranicaonline.org"
+    },
+    {
+      "name": "Archnet — Islamic architecture library and image collections",
+      "url": "https://www.archnet.org"
+    },
+    {
+      "name": "The Metropolitan Museum of Art — Heilbrunn Timeline, Persia",
+      "url": "https://www.metmuseum.org/toah"
+    }
+  ],
+  "bibliography": [
+    "Pope, Arthur Upham (ed.). A Survey of Persian Art from Prehistoric Times to the Present. Oxford: Oxford University Press, 1938–39.",
+    "Pope, Arthur Upham. Persian Architecture. London: Thames & Hudson, 1965.",
+    "Wilber, Donald N. The Architecture of Islamic Iran: The Il Khānid Period. Princeton: Princeton University Press, 1955.",
+    "Hillenbrand, Robert. Islamic Architecture: Form, Function and Meaning. Edinburgh: Edinburgh University Press, 1994.",
+    "Godard, André. The Art of Iran. London: George Allen & Unwin, 1965.",
+    "Ghirshman, Roman. Iran: From the Earliest Times to the Islamic Conquest. Harmondsworth: Penguin Books, 1954.",
+    "Blair, Sheila S., and Jonathan M. Bloom. The Art and Architecture of Islam 1250–1800. New Haven: Yale University Press, 1994.",
+    "Golombek, Lisa, Robert B. Mason and Gauvin A. Bailey. Tamerlane's Tableware: A New Approach to the Chinoiserie Ceramics of Fifteenth- and Sixteenth-Century Iran. Toronto: Royal Ontario Museum, 1996."
+  ]
 }
 ];
 
