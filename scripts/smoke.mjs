@@ -479,8 +479,16 @@ if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new
 // and sketch-to-building): six final-frame reference images (~1.8 MB) and
 // five 10-second example reels (~23.7 MB) in public/assets/prompts/ — a
 // measured addition of ~25.5 MB.
-if (distSizeMb - materialSizeMb > 1314) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 1314 MB`);
+// Raised 1314 -> 1364 on 2026-10-24 for Book 22 of the Architectural History
+// Series (Byzantine Architecture deep page + book PDF): 43 licensed Wikimedia
+// Commons photographs plus the owner's final series cover (~19.0 MB) and the
+// flipbook reader's page images (102 pages at reading resolution, ~10.1 MB) in
+// public/assets/history-deep/byzantine-architecture/, the generated 102-page
+// book PDF (~19.6 MB) in public/downloads/history/ and three hub photographs
+// (~1.2 MB) in public/assets/history-hub/ — a measured addition of ~49.9 MB
+// for this book.
+if (distSizeMb - materialSizeMb > 1364) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 1364 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));
