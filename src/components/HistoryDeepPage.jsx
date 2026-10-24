@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { assetUrl } from '../lib/assetUrl.js';
 import { submitSubscriber } from '../lib/dataAdapter.js';
-import { historyDeepById } from '../data/historyDeep.js';
+import { historyDeepPages, historyDeepById } from '../data/historyDeep.js';
+import { historyExplore } from '../data/historyExplore.js';
 import BookCover3D from './BookCover3D.jsx';
 import ProductPage from './ProductPage.jsx';
 import './MagazineHub.css';
@@ -45,6 +46,44 @@ function DownloadGate({ page }) {
         </form>
       )}
       <p className="wj-deep-gate-terms">Free for personal use; no redistribution or resale. © World Arch Journal. Reading the book online is always free, with no signup — <a href={page.readPath}>open the reader</a>.</p>
+    </section>
+  );
+}
+
+function KeepExploring({ page }) {
+  const explore = historyExplore[page.id];
+  if (!explore) return null;
+  const series = historyDeepPages.filter((entry) => historyExplore[entry.id]);
+  const index = series.findIndex((entry) => entry.id === page.id);
+  const previous = index > 0 ? series[index - 1] : null;
+  const next = index >= 0 && index < series.length - 1 ? series[index + 1] : null;
+  return (
+    <section className="wj-deep-chapter" id="deep-explore" aria-labelledby="wj-deep-explore-title">
+      <span className="wj-magazine-kicker">Keep exploring</span>
+      <h2 id="wj-deep-explore-title">Keep exploring</h2>
+      {explore.articles.length > 0 && (
+        <>
+          <h3>From the journal</h3>
+          <ul className="wj-deep-sources">
+            {explore.articles.map((article) => (
+              <li key={article.href}><a href={article.href}>{article.title}</a></li>
+            ))}
+          </ul>
+        </>
+      )}
+      <h3>In the history hub</h3>
+      <ul className="wj-deep-sources">
+        <li><a href={`${page.hubPath}${explore.hubAnchor}`}>{page.title} in the Architectural History Styles hub</a></li>
+      </ul>
+      {(previous || next) && (
+        <>
+          <h3>More from the series</h3>
+          <ul className="wj-deep-sources">
+            {previous && <li>Previous book: <a href={previous.path}>Book {previous.bookNumber} — {previous.title}</a></li>}
+            {next && <li>Next book: <a href={next.path}>Book {next.bookNumber} — {next.title}</a></li>}
+          </ul>
+        </>
+      )}
     </section>
   );
 }
@@ -150,6 +189,7 @@ function HistoryDeepPageView({ page }) {
               <li><a href="#deep-glossary">Glossary</a></li>
               <li><a href="#deep-sources">Sources &amp; bibliography</a></li>
               <li><a href="#deep-credits">Illustration credits</a></li>
+              <li><a href="#deep-explore">Keep exploring</a></li>
             </ol>
           </nav>
 
@@ -246,6 +286,8 @@ function HistoryDeepPageView({ page }) {
           </section>
 
           <DownloadGate page={page} />
+
+          <KeepExploring page={page} />
 
           <footer className="wj-deep-foot">
             <a className="wj-deep-download" href={page.readPath}>Read the book</a>
