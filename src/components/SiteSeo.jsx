@@ -126,8 +126,8 @@ export default function SiteSeo({ content, route }) {
       image = item.thumbnail;
       ogType = 'video.other';
     } else if (route?.name === 'newsletter-hub') {
-      title = `Architecture Newsletter | ${name}`;
-      description = 'Dated architecture news editions with fresh reporting, direct source links and original editorial commentary — plus long-form analysis and field notes.';
+      title = 'The World Arch Briefing: Daily Architecture Newsletter';
+      description = 'A daily architecture newsletter: dated briefings with the day\'s key stories, direct source links and original editorial commentary. Free to read online.';
       image = absoluteAsset(siteUrl, newsletterIssues[0].image);
     } else if (route?.name === 'analysis-hub') {
       title = `Architecture Analysis & Field Notes | ${name}`;
@@ -221,8 +221,8 @@ export default function SiteSeo({ content, route }) {
       image = absoluteAsset(siteUrl, item.image);
       ogType = 'product';
     } else if (route?.name === 'prompt-library') {
-      title = `Free & PRO AI Architecture Prompts | ${name}`;
-      description = 'Copy free AI prompts for architecture websites, images, videos, logo motion and animated backgrounds, or explore locked WORLD ARCH PRO collections.';
+      title = 'Free AI Architecture Prompts: Copy-Paste for Images & Video';
+      description = 'Copy-paste AI prompts for architects: free prompts for architectural images, construction videos, websites and logo motion, plus PRO collections.';
       image = absoluteAsset(siteUrl, '/assets/articles/climate-responsive-facades/climate-responsive-facade-hero-v1.jpg');
     } else if (route?.name === 'prompt' && item) {
       title = `${item.title} AI Prompt | ${name}`;
