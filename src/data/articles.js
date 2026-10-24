@@ -94,6 +94,7 @@ const courtyardWindHouse = {
     <p>Courtyard Wind House is therefore less a finished answer than a disciplined beginning. It shows how a project can be published attractively while keeping the line between visual possibility and verified performance visible. That line is central to this magazine: inspire first, document carefully, and never allow the confidence of the page to exceed the strength of the evidence.</p>
   
     <p><strong>Continue exploring:</strong> the courtyard as climatic device is documented at full scale in <a href="/projects/the-voids-villa/">The Voids Villa project file</a>, whose connected courts, brick voids and sunken pool level apply the same five moves — step inside via the <a href="/virtual-tours/the-voids-villa/">360° tour</a>.</p>
+    <p><strong>From the library:</strong> <a href="/magazine/architectural-history-styles/persian-architecture/">The wind-catcher, the courtyard and the thick-walled room were refined over a thousand years in Persia — read Persian Architecture, Book XIX</a> of the Architectural History Series, free to read online.</p>
   `,
   facts: [
     ['PROJECT', 'Courtyard Wind House'],
