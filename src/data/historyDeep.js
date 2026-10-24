@@ -23870,6 +23870,1443 @@ export const historyDeepPages = [
     "Focillon, Henri. The Art of the West in the Middle Ages. London: Phaidon, 1963. (First published in French, 1938.)",
     "Viollet-le-Duc, Eugène-Emmanuel. Dictionnaire raisonné de l'architecture française du XIe au XVIe siècle. Paris: Bance & Morel, 1854–1868."
   ]
+},
+{
+  "id": "how-to-identify-a-buildings-style",
+  "series": "Architectural History Series",
+  "bookNumber": 18,
+  "title": "How to Identify a Building's Style",
+  "bookTitle": "How to Identify a Building's Style: A Field Guide to Architectural Styles",
+  "cover": "/assets/history-deep/how-to-identify-a-buildings-style/book-cover.jpg",
+  "coverCredit": "Cover artwork © World Arch Journal",
+  "readPath": "/magazine/architectural-history-styles/how-to-identify-a-buildings-style/read/",
+  "readerPages": 97,
+  "readerBase": "/assets/history-deep/how-to-identify-a-buildings-style/pages/",
+  "subtitle": "A field guide to reading architecture in the street: the six-pass method — silhouette, structure, openings, ornament, materials and plan — applied to every great style from Romanesque to Brutalism, with the five signs, the look-alikes and the dating clues for each, the keys that separate the famous confusions, and an honest account of survivals, revivals, restorations and fakes.",
+  "path": "/magazine/architectural-history-styles/how-to-identify-a-buildings-style/",
+  "hubPath": "/magazine/architectural-history-styles/",
+  "hubStudyId": "history-method-study",
+  "pdf": "/downloads/history/how-to-identify-a-buildings-style.pdf",
+  "seoTitle": "How to Identify a Building's Style: A Field Guide to Architectural Styles — Book | World Arch Journal",
+  "metaDescription": "How to Identify a Building's Style: A Field Guide to Architectural Styles — Book 18 of the World Arch Journal Architectural History Series. A practical handbook of architectural identification: the six-pass method (silhouette, structure, openings, ornament, materials, plan), one field chapter for each great style from Romanesque to Brutalism — its five signs, its look-alikes and its dating clues — plus the dichotomous keys, the mixed buildings, the revivals and the fakes, and a worked reading of Sainte-Chapelle. With timeline, gazetteer, glossary and bibliography.",
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "hero": "chrysler",
+  "frontispiece": "erechtheion",
+  "plates": [
+    [
+      "speyerExterior",
+      "Plate I — Speyer Cathedral: Read the Mass",
+      "Begin the street test with the easiest verdict in Europe. Four towers and a dome over the crossing, walls of red sandstone up to two metres thick, windows small and round-headed and few: nothing here is applied, everything is the structure itself. Romanesque is the style in which mass is the message — the building sits, and its sitting is the first sign. Confirm with the round arches of every opening, then look for what is absent: no buttress stands free of the wall, because the wall does all the work."
+    ],
+    [
+      "notreDameFacade",
+      "Plate II — Notre-Dame, Paris: Read the Skeleton's Face",
+      "The west front of Notre-Dame is Gothic disciplined into a grid: three portals, a gallery, a rose, twin towers. Read it as the section of the church behind it — the horizontal bands stack like the elevation inside, the sculpture of the portals is already stepping out of the wall, and the rose announces the bargain the whole style strikes: stone reduced to a frame so that glass can take the wall's place. Compare the silhouette with Speyer's: this church does not sit, it is held up — visibly, by its own geometry."
+    ],
+    [
+      "florenceDome",
+      "Plate III — Florence: Read the Measure",
+      "In the foreground the Baptistery wears its medieval marble revetment — green and white bands, round arches, the Tuscan Romanesque dialect. Behind it rises the thing that ended that world: Brunelleschi's dome of 1420–36, a classical profile measured, engineered and raised without full centring. One photograph, two eras. The field lesson is in the surfaces: the Baptistery's pattern is applied in coloured stone; the cathedral's order is proportional — pilasters, entablatures and a dome whose every dimension answers a module. Measure is the Renaissance's first sign."
+    ],
+    [
+      "stPetersFacade",
+      "Plate IV — St Peter's, Rome: Read the Movement",
+      "Maderno's façade of 1607–12 is a giant order of Corinthian columns and pilasters marching across a front so wide it swallows its own dome from the square. Everything Baroque believes is here: scale meant to overwhelm, classical parts used at unclassical size, the façade read as a stage front for the theatre of the piazza. The identifier's clue is the tension — correct classical vocabulary, deliberately incorrect classical calm. When the orders start to perform rather than to measure, you have crossed from Renaissance into Baroque."
+    ],
+    [
+      "brandenburgGate",
+      "Plate V — The Brandenburg Gate: Read the Archaeology",
+      "Langhans' gate of 1788–91 copies the Propylaea of Athens in Berlin sandstone: Greek Doric, unfluted, severe, and already a quotation at second hand. Neoclassicism is the first style that identifies itself by scholarship — the orders are not a living language but a researched one, and the proof is in the correctness. Where a Renaissance front uses the orders freely and a Baroque front inflates them, the Neoclassical front cites them, chapter and verse, and expects the passer-by to recognise the quotation."
+    ],
+    [
+      "stPancrasHotel",
+      "Plate VI — St Pancras, London: Read the Revival",
+      "George Gilbert Scott's Midland Grand Hotel (1868–76) is a Gothic palace wrapped around a railway station: red brick and stone dressings, pointed windows, a skyline of gables and spires. Every sign says Gothic except the ones that matter most in this book — the plan (a hotel serving trains), the materials (machine-made brick, plate glass) and the date in the documents. Victorian building is the identifier's examination hall: the style is a costume, chosen, and the reading lies in seeing costume and body separately."
+    ],
+    [
+      "casaMila",
+      "Plate VII — Casa Milà, Barcelona: Read the Curve",
+      "Gaudí's La Pedrera (1906–12) has no straight line to spare: a self-supporting stone façade waves like a cliff face, iron balconies writhe, and the plan inside is a free field of columns. Art Nouveau's decisive sign is not any single motif but the curve's behaviour — grown, not drawn; continuous from façade to handrail; and contemptuous of every historical order. Test it against the Deco plate in the second series: there the curve is a geometry, set out with instruments. Here it is a tendril, and it never repeats."
+    ],
+    [
+      "fallingwater",
+      "Plate VIII — Fallingwater: Read the Plan",
+      "Wright's house of 1935–39 announces its style before any detail is read: horizontal concrete trays cantilevered from a stone core, glass wrapping the corners, ornament abolished and the composition held by proportion alone. Modernism's first sign is this negative one — nothing is applied — and its second is structural candour: the trays are the frame, shown. Read any modern building by asking where the load goes and what the plan was free to do once the wall stopped carrying it. Fallingwater is that freedom, photographed."
+    ]
+  ],
+  "plates2": [
+    [
+      "parthenon",
+      "Plate IX — The Parthenon: Read the Original",
+      "Every classical style in this book is a quotation of this ruin. The Parthenon (447–432 BC) gives the identifier the control sample: Doric columns with entasis standing on a stylobate that curves to correct the eye, a full entablature, a pediment that is the roof's honest end. Learn the orders here, in the original, and the quotations sort themselves: Renaissance quotations are warm and free, Neoclassical ones are archaeological, and the postmodern ones are jokes — the original is none of these, and it is in marble."
+    ],
+    [
+      "royalCrescent",
+      "Plate X — The Royal Crescent, Bath: Read the Composition",
+      "John Wood the Younger's crescent of 1767–74 sets thirty terraced houses behind one giant Ionic palace front — a single composition imposed on speculative building, the plan of each house left to its builder. Georgian classicism is identified at exactly this scale: not the house but the street picture, composed like a palace and subdivided like a ledger. The identifier's habit follows: in classical cities, read the whole elevation first and the individual doors second; the style lives in the composition."
+    ],
+    [
+      "sanCarlinoDome",
+      "Plate XI — San Carlo alle Quattro Fontane: Read the Geometry",
+      "Borromini's little dome in Rome (1638–41) is an oval coffered with crosses, octagons and lozenges that shrink toward the lantern, so the ceiling seems to breathe. Baroque space is identified from inside: the plan is a geometry in motion — oval, wave, interlocking figure — and the light is arranged like a spotlight. Stand under any doubtful interior and look up. A Renaissance dome is a hemisphere at rest; a Baroque dome is an event. The coffers' diminishing scale is the signature."
+    ],
+    [
+      "kewPalmHouse",
+      "Plate XII — The Palm House, Kew: Read the Material",
+      "Decimus Burton and Richard Turner's Palm House (1844–48) is a greenhouse built like a ship's hull upside down: curvilinear iron ribs and glass, no masonry style at all. It belongs in this book as the material witness — by the 1840s iron and glass could span and curve beyond any masonry, and the 'style' of an iron building is its engineering. When structure and material outrun every historical vocabulary, name the construction first and the dress second: the Victorian identifier's rule."
+    ],
+    [
+      "hortaTassel",
+      "Plate XIII — The Hôtel Tassel Staircase: Read the Line",
+      "In Horta's Brussels townhouse of 1893–94 the stair climbs on iron columns as thin as stems, the handrail curls into tendrils, and the mosaic floor and the wall painting continue the same line underfoot and overhead. Art Nouveau's field test is this continuity: ornament is not applied to the building, the building is grown as ornament. If the curve stops at the façade, suspect a later imitation; in the real thing it goes all the way down the stair and into the door handles."
+    ],
+    [
+      "chryslerCrown",
+      "Plate XIV — The Chrysler Crown: Read the Ornament",
+      "Seven terraced arches of stainless steel, triangular windows, sunburst patterns and eagle gargoyles modelled on car bonnet ornaments: the crown of the Chrysler Building (1930) is Art Deco's textbook page. The reading rule it teaches is about ornament's sources: Nouveau ornament grows from plants, classical ornament descends from Rome — Deco ornament comes from the machine and the sun. Identify the source and the style follows; and note that the ornament is stylised, drawn with instruments, never naturalistic."
+    ],
+    [
+      "barbican",
+      "Plate XV — The Barbican, London: Read the Concrete",
+      "The Barbican Estate (designed from 1959, built to 1982) raises three triangular towers of bush-hammered concrete over a podium city of courts and walkways. Brutalism's signs are all material: concrete left as it came from the formwork, aggregate exposed by hammering, the surface a record of its own making. Read it as the opposite of the applied façade — here the finish is the construction, honestly weathered. The style's name comes from béton brut, raw concrete, and the reading is done with the hand as much as the eye."
+    ],
+    [
+      "carcassonne",
+      "Plate XVI — Carcassonne: Read the Restoration",
+      "The walls are medieval; the silhouette is substantially nineteenth-century. Viollet-le-Duc's restoration from 1853 gave the Cité its tall conical roofs — more northern than the Midi's own shallow Roman tiles — and rebuilt a 'condition of completeness' that may never have existed on this skyline. Carcassonne is the field guide's closing warning: a skyline can be a document of 1200 or of 1860, and the identifier's last question is always whose century is being read. The stones answer, if the mortar and the tooling are asked."
+    ]
+  ],
+  "platesCaption": "Plates I · Eight Façades — Speyer, Paris, Florence, Rome, Berlin, London, Barcelona, Bear Run",
+  "plates2Caption": "Plates II · Interiors, Materials and Mixtures — Athens, Bath, Rome, Kew, Brussels, New York, London, Carcassonne",
+  "parts": [
+    [
+      0,
+      "Part I",
+      "Learning to Look",
+      "Before any style can be named, the looking itself has to be learned. This part explains why façades lie — styles survive, are revived, and are restored into fiction — and then teaches the instrument this whole book uses: six passes across a building, from the silhouette to the plan, and the two kinds of evidence, structure and material, that are hardest to fake."
+    ],
+    [
+      4,
+      "Part II",
+      "The Historic Styles",
+      "Five field chapters on the pre-industrial styles: Romanesque mass, Gothic skeleton, the Renaissance classical measure, Baroque movement and Rococo delight, and the Neoclassical temple front. Each chapter gives the same disciplined account — the five signs first, then where the style lives in the street, then its look-alikes and the clues that date it."
+    ],
+    [
+      9,
+      "Part III",
+      "Revivals, Machines and Concrete",
+      "From 1837 the past becomes a catalogue: the Victorian era builds in every style at once and forces the identifier to ask new questions. Then three genuinely new languages arrive in fifty years — Art Nouveau's whiplash line, Art Deco's machine geometry, Modernism's free plan — and after them Brutalism turns concrete itself into an argument. Five more field chapters, in the same discipline."
+    ],
+    [
+      14,
+      "Part IV",
+      "Keys, Mixtures and the Field",
+      "The working end of the book. First, the buildings the style labels cannot hold — the vernacular, built without architects — then the dichotomous key that separates the famous confused pairs, then the layered, restored and faked buildings that fill real streets. The last chapter slows down and reads one building completely, Sainte-Chapelle, pass by pass, and leaves the reader a ten-minute protocol to take into any street in the world."
+    ]
+  ],
+  "seriesList": "Book 18 · How to Identify a Building's Style: A Field Guide to Architectural Styles — this volume. Also available: Book 1 · Art Nouveau; Book 2 · Gothic Architecture; Book 3 · Medieval Castles & Fortifications; Book 4 · Baroque & Rococo; Book 5 · Romanesque Architecture; Book 6 · Modernism & the International Style; Book 7 · Victorian Architecture; Book 8 · Art Deco; Book 9 · Brutalism; Book 10 · Frank Lloyd Wright; Book 11 · The Dome; Book 12 · Arch, Vault & Flying Buttress; Book 13 · Columns & the Classical Orders; Book 14 · Light in Historic Buildings; Book 15 · The Historic House; Book 16 · Art Deco vs Art Nouveau; Book 17 · Gothic vs Romanesque. In preparation: Persian Architecture · Ancient Rome · Ancient Egypt · Byzantine Architecture · Ancient Greece · Renaissance Architecture · Neoclassical Architecture · Islamic Architecture · Bauhaus · Mid-Century Modern Architecture · Japanese Architecture · Chinese Architecture · Indian Architecture · Postmodern Architecture.",
+  "images": {
+    "chrysler": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/chrysler.jpg",
+      "alt": "The Chrysler Building, New York: the terraced stainless-steel crown and eagle gargoyles above the setback shaft",
+      "credit": "Photo: Ermell, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chrysler_Building_NYC-20090519-RM-094845.jpg",
+      "title": "The Chrysler Building, New York"
+    },
+    "erechtheion": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/erechtheion.jpg",
+      "alt": "The Erechtheion on the Acropolis at Athens, seen across the rock at dusk",
+      "credit": "Photo: Jebulon, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erechtheum_Acropolis_Athens_evening_moon.jpg",
+      "title": "The Erechtheion, Athens"
+    },
+    "salisburySpire": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/salisburySpire.jpg",
+      "alt": "The spire of Salisbury Cathedral, the tallest in England, seen across the cloister garth",
+      "credit": "Photo: Poliphilo, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spire_of_Salisbury_Cathedral,_from_cloisters.JPG",
+      "title": "Salisbury Cathedral — spire from the cloister"
+    },
+    "notreDameFlyers": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/notreDameFlyers.jpg",
+      "alt": "Flying buttresses of Notre-Dame in Paris, leaping over the apse",
+      "credit": "Photo: Andreas Praefcke, via Wikimedia Commons (CC BY 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris_arcs-boutants.jpg",
+      "title": "Flying buttresses, Notre-Dame, Paris"
+    },
+    "chartresRose": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/chartresRose.jpg",
+      "alt": "The north rose window of Chartres Cathedral from inside, its lancets filled with kings and prophets in deep blue and red glass",
+      "credit": "Photo: Andreas F. Borchert, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chartres_Cathedral_North_Transept_North_Rose_Window_2007_08_31.jpg",
+      "title": "Chartres Cathedral — north rose window"
+    },
+    "autunTympanum": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/autunTympanum.jpg",
+      "alt": "Detail of the Last Judgment tympanum of Autun Cathedral, with the weighing of souls",
+      "credit": "Photo: GO69, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autun_(71)_Cath%C3%A9drale_Saint-Lazare_-_Ext%C3%A9rieur_-_Portail_occidental_-_06.jpg",
+      "title": "The Last Judgment of Autun (detail)"
+    },
+    "uniteMarseille": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/uniteMarseille.jpg",
+      "alt": "The Unité d'habitation, Marseille — the south facade with its deep loggia grid and coloured panels",
+      "credit": "Photo: Iantomferry, via Wikimedia Commons (CC-BY-SA-4.0)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Unit%C3%A9_d%27habitation_Marseille,_France.jpg",
+      "title": "Unité d'habitation, Marseille (1952)"
+    },
+    "speyerExterior": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/speyerExterior.jpg",
+      "alt": "The east end and towers of Speyer Cathedral",
+      "credit": "Photo: calflier001, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SPEYER_DOM_GERMANY_APRIL_2013_(8711629628).jpg",
+      "title": "Speyer Cathedral, the east end"
+    },
+    "notreDameFacade": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/notreDameFacade.jpg",
+      "alt": "The west front of Notre-Dame de Paris: three portals, gallery of kings, rose window and twin towers",
+      "credit": "Photo: P e z i, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris_2013-07-24.jpg",
+      "title": "Notre-Dame de Paris — west front"
+    },
+    "florenceDome": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/florenceDome.jpg",
+      "alt": "The Florence Baptistery, its white and green marble revetment in the foreground, with the cathedral and Brunelleschi's dome behind",
+      "credit": "Photo: George M. Groutas, via Wikimedia Commons (CC BY 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Florence,_Duomo_di_Firenze.jpg",
+      "title": "Florence: Baptistery, cathedral and dome"
+    },
+    "stPetersFacade": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/stPetersFacade.jpg",
+      "alt": "Maderno's facade of St Peter's, Rome, with Michelangelo's dome behind",
+      "credit": "Photo: Alvesgaspar, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg",
+      "title": "The facade of St Peter's"
+    },
+    "brandenburgGate": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/brandenburgGate.jpg",
+      "alt": "The Brandenburg Gate in Berlin, a Doric Revival triumphal gateway",
+      "credit": "Photo: Pierre-Selim Huard, via Wikimedia Commons (CC BY 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berlin_-_0266_-_16052015_-_Brandenburger_Tor.jpg",
+      "title": "Brandenburg Gate, Berlin"
+    },
+    "stPancrasHotel": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/stPancrasHotel.jpg",
+      "alt": "The Midland Grand Hotel front at St Pancras: Scott's red-brick Gothic facade and clock tower",
+      "credit": "Photo: Elliott Brown from Birmingham, United Kingdom, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:London_St_Pancras_International_Station_(20745429359).jpg",
+      "title": "The Midland Grand Hotel, St Pancras (1876)"
+    },
+    "casaMila": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/casaMila.jpg",
+      "alt": "The self-supporting stone wave of Casa Milà (La Pedrera) in Barcelona, by Antoni Gaudí",
+      "credit": "Photo: Yair Haklai, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antoni_Gaud%C3%AD-Casa_Mil%C3%A0-Barcelona.jpg",
+      "title": "Casa Milà (La Pedrera), Barcelona"
+    },
+    "fallingwater": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/fallingwater.jpg",
+      "alt": "Fallingwater: stone tower and cantilevered concrete trays above the waterfall at Bear Run",
+      "credit": "Photo: Somach, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fallingwater_-_by_Frank_Lloyd_Wright.jpg",
+      "title": "Fallingwater, Bear Run (1937)"
+    },
+    "sanCarlinoDome": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/sanCarlinoDome.jpg",
+      "alt": "The coffered oval dome of San Carlo alle Quattro Fontane, shrinking toward its lantern",
+      "credit": "Photo: Nhartmannphotos, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Carlo_alle_Quattro_Fontane_1,_Rome.jpg",
+      "title": "The dome of San Carlino"
+    },
+    "hortaTassel": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/hortaTassel.jpg",
+      "alt": "The staircase of the Hôtel Tassel in Brussels, its iron railing curling in the whiplash line under a glazed dome",
+      "credit": "Photo: Henry Townsend, via Wikimedia Commons (Public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tassel_House_stairway.JPG",
+      "title": "The Tassel House stair, Brussels"
+    },
+    "parthenon": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/parthenon.jpg",
+      "alt": "The Parthenon in Athens seen from the northwest, its Doric colonnade on the Acropolis",
+      "credit": "Photo: Jakub Hałun, via Wikimedia Commons (CC BY 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parthenon,_Athens,_20240531_1315_9664.jpg",
+      "title": "The Parthenon, Athens"
+    },
+    "royalCrescent": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/royalCrescent.jpg",
+      "alt": "The Royal Crescent at Bath: thirty houses behind one curving classical facade",
+      "credit": "Photo: Kevin Pearson, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Crescent_in_Bath_-_geograph.org.uk_-_7845942.jpg",
+      "title": "The Royal Crescent, Bath"
+    },
+    "kewPalmHouse": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/kewPalmHouse.jpg",
+      "alt": "The Palm House at Kew: Burton and Turner's curved iron-and-glass range across the gardens",
+      "credit": "Photo: Photograph by Mike Peel (www.mikepeel.net)., via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Royal_Botanic_Gardens,_Kew_2024_558.jpg",
+      "title": "The Palm House, Kew (1848)"
+    },
+    "chryslerCrown": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/chryslerCrown.jpg",
+      "alt": "Close view of the Chrysler Building's terraced stainless-steel crown and needle spire",
+      "credit": "Photo: PortableNYCTours, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Chrysler_building_%22gargoyles%22_05.jpg",
+      "title": "The crown of the Chrysler Building"
+    },
+    "barbican": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/barbican.jpg",
+      "alt": "The Barbican Estate in the City of London: its three triangular residential towers of bush-hammered concrete above the podium",
+      "credit": "Photo: Colin, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barbican_Estate_2018-09-22.jpg",
+      "title": "The Barbican Estate, London"
+    },
+    "carcassonne": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/carcassonne.jpg",
+      "alt": "The walls of the Cité of Carcassonne: medieval masonry crowned by the tall conical tower roofs of the nineteenth-century restoration",
+      "credit": "Photo: H2k4, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carcassonne,_France,_the_walls_of_the_medieval_city..JPG",
+      "title": "The Cité of Carcassonne"
+    },
+    "neuschwanstein": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/neuschwanstein.jpg",
+      "alt": "Neuschwanstein Castle from the Marienbrücke: white limestone walls and turrets above the Pollat gorge",
+      "credit": "Photo: Ximonic, Simo Räsänen (post-processing) & Tauno Räsänen (photograph), via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neuschwanstein_Castle_from_Marienbr%C3%BCcke,_2011_May.jpg",
+      "title": "Neuschwanstein Castle"
+    },
+    "secession": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/secession.jpg",
+      "alt": "The Vienna Secession building, its white cubic body crowned by a gilded laurel dome",
+      "credit": "Photo: C.Stadler/Bwag, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wien_-_Secessionsgeb%C3%A4ude.JPG",
+      "title": "The Secession building, Vienna"
+    },
+    "ironbridge": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/ironbridge.jpg",
+      "alt": "The Iron Bridge at Ironbridge, Shropshire (1779), the first great arch of cast iron",
+      "credit": "Photo: Barry Marsh from London, England, via Wikimedia Commons (Public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ironbridge,_River_Severn,_Shropshire_(20253424329).jpg",
+      "title": "The Iron Bridge, Shropshire"
+    },
+    "villaRotonda": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/villaRotonda.jpg",
+      "alt": "The entrance front and steps of the Villa Rotonda at Vicenza",
+      "credit": "Photo: Valentina Sardone, via Wikimedia Commons (CC0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villa_Almerico_Capra_Andrea_Palladio_Vicenza_giugno_2017.jpg",
+      "title": "Villa Rotonda, Vicenza"
+    },
+    "speyerNave": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/speyerNave.jpg",
+      "alt": "The groin-vaulted nave of Speyer Cathedral",
+      "credit": "Photo: Moleskine, via Wikimedia Commons (CC BY 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dome_interior_of_Speyer_Cathedral_Schiff.jpg",
+      "title": "The nave of Speyer Cathedral"
+    },
+    "vezelayTympanum": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/vezelayTympanum.jpg",
+      "alt": "The central narthex tympanum of Vézelay: Christ sending out the Apostles",
+      "credit": "Photo: Office de tourisme de Vézelay, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilique_Ste_Madeleine_narthex_tympan_central.jpg",
+      "title": "The narthex tympanum of Vézelay"
+    },
+    "amiensNave": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/amiensNave.jpg",
+      "alt": "The nave of Amiens Cathedral looking west: arcade, triforium and clerestory under the rib vault",
+      "credit": "Photo: Diliff, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amiens_Cathedral_Nave_2,_Picardy,_France_-_Diliff.jpg",
+      "title": "The nave of Amiens Cathedral"
+    },
+    "chartresGlass": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/chartresGlass.jpg",
+      "alt": "A stained-glass panel at Chartres Cathedral with two standing figures set in grisaille quarrels",
+      "credit": "Photo: Eusebius, via Wikimedia Commons (CC BY 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chartres_-_cath%C3%A9drale_-_annonciation.jpg",
+      "title": "Chartres Cathedral — stained glass panel"
+    },
+    "basilicaPalladiana": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/basilicaPalladiana.jpg",
+      "alt": "The Basilica Palladiana in Vicenza with its two tiers of serliana loggias",
+      "credit": "Photo: Didier Descouens, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilica_Palladiana_(Vicenza)_-_facade_on_Piazza_dei_signori.jpg",
+      "title": "Basilica Palladiana, Vicenza"
+    },
+    "wieskirche": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/wieskirche.jpg",
+      "alt": "The Wieskirche at Steingaden — the Zimmermann brothers' pilgrimage church of light and white stucco",
+      "credit": "Photo: pipimaru, via Wikimedia Commons (CC BY-SA 2.1)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wieskirche_rococo_interior.jpg",
+      "title": "Inside the Wieskirche"
+    },
+    "britishMuseum": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/britishMuseum.jpg",
+      "alt": "The Ionic portico of the British Museum in London",
+      "credit": "Photo: Elliott Brown from Birmingham, United Kingdom, via Wikimedia Commons (CC BY-SA 2.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:British_Museum_-_panoramic_(20496222784).jpg",
+      "title": "The British Museum, London"
+    },
+    "maisonCarree": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/maisonCarree.jpg",
+      "alt": "The Maison Carrée at Nîmes, a well-preserved Roman temple",
+      "credit": "Photo: Krzysztof Golik, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maison_Carree_in_Nimes_(16).jpg",
+      "title": "Maison Carrée, Nîmes"
+    },
+    "nhmExterior": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/nhmExterior.jpg",
+      "alt": "The main portal of the Natural History Museum, London: round arches and arcading — Romanesque Revival modelled in terracotta",
+      "credit": "Photo: Txllxt TxllxT, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:London_-_Cromwell_Road_-_Natural_History_Museum_1881_by_Alfred_Waterhouse_-_View_NW_at_the_Entrance_on_the_Terracotta_Tiled_Fa%C3%A7ade_I.jpg",
+      "title": "Natural History Museum, London — main portal"
+    },
+    "castelBeranger": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/castelBeranger.jpg",
+      "alt": "The entrance gate of Castel Béranger in Paris, interlacing whiplash ironwork by Hector Guimard",
+      "credit": "Photo: DIMSFIKAS, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Art_Nouveau_entrance_to_Castel_Beranger,_Paris_-_2011.jpg",
+      "title": "The Castel Béranger gate, Paris"
+    },
+    "miamiBeach": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/miamiBeach.jpg",
+      "alt": "Ocean Drive in Miami Beach at night, its Deco hotels lit in neon colours",
+      "credit": "Photo: Gzzz, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ocean_Drive_by_night_1.jpg",
+      "title": "Ocean Drive, Miami Beach, by night"
+    },
+    "bauhausDessau": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/bauhausDessau.jpg",
+      "alt": "Inside the Bauhaus at Dessau: the workshop wing's glass curtain wall, hung from the frame and wrapping the corner",
+      "credit": "Photo: Anne Stengel, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Werkstattfl%C3%BCgel_des_Bauhaus_Dessau.jpg",
+      "title": "The Bauhaus Dessau, glass curtain wall from inside"
+    },
+    "farnsworthHouse": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/farnsworthHouse.jpg",
+      "alt": "The Farnsworth House in snow: a white steel and glass pavilion on its travertine terrace among bare trees",
+      "credit": "Photo: Jack E. Boucher, photographer, via Wikimedia Commons (public domain)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mies_van_der_Rohe_photo_Farnsworth_House_Plano_USA_1.jpg",
+      "title": "The Farnsworth House in winter (1951)"
+    },
+    "trellick": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/trellick.jpg",
+      "alt": "Trellick Tower, London — the slab and its separate service tower against the sky",
+      "credit": "Photo: Edwardx, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trellick_Tower,_August_2015_02.jpg",
+      "title": "Trellick Tower, London (1972)"
+    },
+    "shirakawa": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/shirakawa.jpg",
+      "alt": "The steep thatched gable of a gassho-zukuri farmhouse at Shirakawa-go, Japan, built to shed heavy snow",
+      "credit": "Photo: Zairon, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shirakawa_Gassho-zukuri_23.jpg",
+      "title": "A gassho-zukuri farmhouse, Shirakawa-go"
+    },
+    "towerBridge": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/towerBridge.jpg",
+      "alt": "Tower Bridge at dusk: the twin Gothic towers and high-level walkways lit over the Thames",
+      "credit": "Photo: Diliff, via Wikimedia Commons (CC BY-SA 3.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_London_Dusk_Feb_2006.jpg",
+      "title": "Tower Bridge, London (1894)"
+    },
+    "elthamPalace": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/elthamPalace.jpg",
+      "alt": "The entrance hall of Eltham Palace, London (1933–36): Art Deco panelling and a glazed dome over a circular rug",
+      "credit": "Photo: Tilman2007, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1212906_II_Star_ELTHAM_COURT_(ELTHAM_PALACE),_COURT_YARD,_Entrance_Hall_Greenwich_London_20250610_0003.jpg",
+      "title": "Eltham Palace — the Art Deco entrance hall"
+    },
+    "castellCoch": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/castellCoch.jpg",
+      "alt": "Castell Coch above Tongwynlais: Burges's conical-towered fairy-tale castle against the winter trees",
+      "credit": "Photo: Hchc2009, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castell_Coch_-_exterior.JPG",
+      "title": "Castell Coch, Wales (1875–91)"
+    },
+    "sainteChapelleUpper": {
+      "src": "/assets/history-deep/how-to-identify-a-buildings-style/sainteChapelleUpper.jpg",
+      "alt": "The apse windows of the upper chapel of Sainte-Chapelle, Paris: Rayonnant glass between slender piers",
+      "credit": "Photo: Zairon, via Wikimedia Commons (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_Sainte-Chapelle_Innen_Oberkirche_Chorfenster_1.jpg",
+      "title": "Sainte-Chapelle, Paris — the apse glass"
+    }
+  },
+  "standfirst": "Every street in Europe — and by now most streets everywhere — is an examination in architectural history that nobody set and everybody walks through. A Roman temple front turns out to be a bank of 1820. A medieval castle was finished the year the telephone was patented. A church wears pointed arches and was built by Victorians who had never seen the Middle Ages except in engravings. This book teaches the skill that sorts them: not a list of styles to memorise, but a method of looking — six passes across any building, in a fixed order, each pass asking the question the building is least able to fake. Silhouette first, then structure, openings, ornament, materials and plan; then the verdict, stated with its confidence and its second choice. Eleven field chapters work the method style by style, from the Romanesque fortress church to the Brutalist estate. Four closing chapters take it into the field: the vernacular buildings no style label fits, the dichotomous key that separates the great confused pairs, the layered and restored and faked buildings that fill real streets, and one complete slow reading — Sainte-Chapelle, pass by pass — to show what the method sounds like when it is done well.",
+  "intro": [
+    "Begin with the honest admission that naming a style is not the same as knowing a building. A style label is a summary of evidence — a compressed report on structure, form, ornament, material and date — and like any summary it can be wrong in two ways: it can be attached to the wrong building, or it can be true and still miss what matters. The nineteenth century built Gothic churches and called them medieval in spirit; the twentieth built classical banks and called them eternal; the twenty-first builds board-marked concrete flats and calls them Brutalist. In every case the label tells the truth about somebody's intention and very little about the fabric. This book therefore treats identification as a reading discipline: the building is the document, the styles are the languages it may be written in, and the reader's job is to establish which language, in which hand, of which date.",
+    "The method is deliberately old-fashioned. In 1817 Thomas Rickman published the first systematic attempt to discriminate the styles of English architecture, and gave the subject its working vocabulary — Norman, Early English, Decorated, Perpendicular — by the unglamorous route of comparing hundreds of churches feature by feature. Pugin turned style into an argument, Viollet-le-Duc turned it into a structural analysis, and in the twentieth century McAlester's field guides turned it into a pictorial key that a reader could carry down a street. The present book stands in that line. Its six passes — silhouette, structure, openings, ornament, materials, plan — are Rickman's comparison slowed down and ordered, and its constant instruction is his: never let one feature decide. A pointed arch can be found in a Romanesque cathedral at Durham, a Gothic cathedral at Chartres, a Victorian station and a modern pastiche; only the votes of all six passes together deserve to be called an identification.",
+    "The order of the passes is the method's real content. Silhouette comes first because it is read at the greatest distance and summarises the whole conception: mass that sits, or skeleton that reaches, or box that floats. Structure comes second because it is the hardest evidence to disguise — a wall either carries its load or it does not, and window reveals confess thickness to anyone who looks. Openings and ornament follow: they are the most datable features and the most replaceable, in that order. Materials are regional witnesses, honest but local. Plan comes last not because it is least but because it is the deepest evidence — the one thing a refacing cannot change, the fingerprint that survives every change of clothes. A building read in this order is hard to misname; a building read by its prettiest detail is misnamed every day.",
+    "Two habits run through every chapter. The first is the honest second choice: each identification in this book is stated as a verdict with a confidence and a runner-up, because real buildings — transitional, provincial, restored, cheap, brilliant — refuse the clean categories of the manuals, and the reader who can say 'Decorated Gothic, probably, Norman underneath' knows more than the reader who can only say 'Gothic'. The second habit is suspicion of the surface. Ornament is applied; glass is replaced; stone is cleaned, re-cut and re-pointed; whole skylines have been invented by restorers with the best intentions in Europe. The surface is evidence, but it is the last evidence to trust. Trust the structure, the plan and the mortar — and let the building, interrogated in order, give up its date and its style together."
+  ],
+  "keyFacts": [
+    [
+      "The method",
+      "Six passes in a fixed order: silhouette (the whole conception), structure (wall, skeleton or frame), openings (arches, windows, doors), ornament (the vocabulary and its source), materials (regional and period witnesses) and plan (the least fakeable evidence). The passes vote; a majority verdict is stated with its confidence and its second choice. One sign alone never decides."
+    ],
+    [
+      "The styles covered",
+      "Romanesque (c. 1000–1200), Gothic (c. 1140–1520), Renaissance (c. 1400–1600), Baroque and Rococo (c. 1600–1780), Neoclassical (c. 1750–1850), the Victorian era of revivals (1837–1901), Art Nouveau (c. 1890–1910), Art Deco (c. 1910–1939), Modernism (c. 1910–1970) and Brutalism (c. 1950–1980) — plus the vernacular, which is covered precisely because the style system fails there, and fails instructively."
+    ],
+    [
+      "The five signs",
+      "Within each style, identification rests on five recurrent signs, the same five the hub studies of this series use: silhouette, openings, ornament, structure, and material. The signs are weighted, not equal: structure and openings outvote ornament, because ornament is the feature most easily applied, copied or renewed."
+    ],
+    [
+      "The traps",
+      "Four systematic deceptions recur: survival (a style built late, in the provinces or in conservative hands), revival (a style quoted centuries later as a programme), restoration (old fabric completed into a state that never existed) and pastiche (a style applied as packaging). Each has its own counter-evidence — tooling, mortar, glass, plan, documents — and its own chapter."
+    ],
+    [
+      "The tools",
+      "No instruments are required beyond distance, patience and a notebook; the professionals add binoculars for tracery and capitals, a camera for the record, and the documentary chain — listing descriptions, historic maps, architects' drawings — for the verdict that matters. Dendrochronology, mortar analysis and paint research exist, and this book says where their evidence outranks the eye."
+    ],
+    [
+      "The verdict",
+      "A correct identification is a sentence, not a word: style, date, confidence, and the evidence that would change your mind. 'Rayonnant Gothic, 1240s, high confidence; the glass largely renewed in the 1840s' is knowledge. 'Gothic' alone is a guess wearing a uniform."
+    ]
+  ],
+  "timeline": [
+    [
+      "c. 1000–1200",
+      "Romanesque flourishes across Latin Europe — the first great style the identifier must learn, and the baseline of mass, round arch and small window against which Gothic defines itself."
+    ],
+    [
+      "1140–1144",
+      "Abbot Suger's Saint-Denis: the pointed arch, rib vault and ring of glass combine into Gothic. Identification starts here, because the contrast between the two medieval systems is the method's training ground."
+    ],
+    [
+      "1243–1248",
+      "Sainte-Chapelle, Paris: the Rayonnant wall of glass perfected — the building this book reads in full in its final chapter."
+    ],
+    [
+      "c. 1401–1436",
+      "Brunelleschi's Florence: the dome and the measured classical interior announce the Renaissance, and the orders begin their second career as a language to be quoted correctly."
+    ],
+    [
+      "1638–1667",
+      "Borromini and Bernini in Rome: Baroque space, movement and theatre; the oval dome of San Carlo and the colonnade of St Peter's give the style its field marks."
+    ],
+    [
+      "1779",
+      "The Iron Bridge at Coalbrookdale: the first major cast-iron structure. From this decade, structure and style begin to separate — the identifier's central modern problem."
+    ],
+    [
+      "1788–1791",
+      "Langhans' Brandenburg Gate in Berlin: Greek Doric quoted archaeologically — Neoclassicism, the first style founded on scholarship, reaches its emblem."
+    ],
+    [
+      "1817",
+      "Thomas Rickman publishes An Attempt to Discriminate the Styles of Architecture in England, the first systematic style key: Norman, Early English, Decorated, Perpendicular. Identification becomes a discipline."
+    ],
+    [
+      "1836",
+      "A. W. N. Pugin's Contrasts argues Gothic is a moral programme, not a manner: the great revivals begin, and with them the identifier's hardest century — buildings designed to be misread as older than they are."
+    ],
+    [
+      "1844–1848",
+      "The Palm House at Kew: curvilinear iron and glass at full scale. A building whose 'style' is its engineering teaches the rule that construction is named before dress."
+    ],
+    [
+      "1854–1868",
+      "Viollet-le-Duc publishes the Dictionnaire raisonné and restores Vézelay, Notre-Dame and Carcassonne: structure read as reason — and skylines completed into states that never existed. Restoration enters the evidence."
+    ],
+    [
+      "1893–1894",
+      "Horta's Hôtel Tassel, Brussels: Art Nouveau's whiplash line grown through a whole interior — the first style that claims to have no past."
+    ],
+    [
+      "1925",
+      "The Exposition Internationale des Arts Décoratifs in Paris gives Art Deco its retrospective name; the Chrysler Building follows in 1930, its crown the style's textbook page."
+    ],
+    [
+      "1927–1932",
+      "The Weissenhof estate and the Museum of Modern Art's 'International Style' exhibition name modernism for the public: white walls, flat roofs, free plans — identification by refusal of ornament."
+    ],
+    [
+      "1943",
+      "Nikolaus Pevsner's An Outline of European Architecture (Pelican) puts a scholarly history of styles into every pocket: the modern identification literature begins."
+    ],
+    [
+      "1952–1956",
+      "Le Corbusier's Unité d'Habitation and the coining of 'Brutalism' from béton brut: concrete's surface becomes a style's signature, and the last of this book's great styles takes the street."
+    ],
+    [
+      "1963",
+      "John Summerson's The Classical Language of Architecture distils the classical orders into a grammar any reader can apply — the classical counterpart of Rickman's key."
+    ],
+    [
+      "1964",
+      "The Venice Charter sets the conservation doctrine of legible intervention: additions must be distinguishable. The honest fake becomes a defined category, and the identifier gains an ally."
+    ],
+    [
+      "1983",
+      "Poppeliers and Chambers publish What Style Is It? for the National Trust for Historic Preservation: the compact American identification guide."
+    ],
+    [
+      "1984",
+      "Virginia and Lee McAlester publish A Field Guide to American Houses: the pictorial-key method perfected — the model on which this book's field chapters are built."
+    ],
+    [
+      "2013",
+      "McAlester's revised Field Guide appears, extending the key to whole neighbourhoods: identification at the scale of the street, where this book also ends."
+    ]
+  ],
+  "chapters": [
+    {
+      "id": "why-style-is-hard",
+      "numeral": "I",
+      "title": "Why Style Is Hard: Survival, Revival and the Lying Facade",
+      "sections": [
+        {
+          "heading": "Three buildings, three traps",
+          "paras": [
+            "Stand across the street from a crenellated castle in Bavaria and your first instinct says medieval. The instinct is wrong. Neuschwanstein, begun in 1869, is a nineteenth-century palace dressed in Romanesque and Gothic forms, built for a modern king who wanted a romantic stage set more than a fortress. Its towers never guarded a border and its masonry hides a modern frame. The lesson opens this guide: a building's appearance records the taste of its builders, which may belong to a century far later than the forms themselves suggest to an untrained eye at first glance.",
+            "Walk to a bank in a provincial town and you may meet a Roman temple: six columns, a pediment, steps worn at the centre. Nothing here is Roman. The temple front became, after the Renaissance and again in the eighteenth and nineteenth centuries, the standard costume for institutions that wanted to look permanent, lawful and trustworthy. A savings bank, a courthouse and a museum can all wear the same front while housing entirely different plans behind it. Costume is chosen deliberately, for effect, and the effect is aimed precisely at the passer-by who reads style as age.",
+            "Enter a tall Gothic church of pointed arches, traceried windows and carved pinnacles, then look for its date stone. It may read 1890. Across Europe and North America, Victorian parishes built thousands of such churches, often more archaeologically correct than the medieval originals they copied, because their architects had measured drawings and pattern books. The trap is complete: a castle that is a palace, a temple that is a bank, a medieval church younger than the railway station beside it. Identification therefore begins with suspicion. Style is evidence, but it is never evidence taken alone."
+          ]
+        },
+        {
+          "heading": "Survival, revival, survival again",
+          "figure": "neuschwanstein",
+          "paras": [
+            "Styles do not stop on a textbook date. Gothic forms continued in provincial churches and Oxford colleges long after the Renaissance had conquered court architecture, a phenomenon historians call survival. A mason trained by his father builds as he was taught, and a remote parish has no reason to import novelty. So a church with round arches may be later than a neighbouring church with pointed ones, and a classical doorway may be Georgian work in a street of far older houses. Always allow for lag, especially away from capitals and wealthy patrons who follow fashion first.",
+            "Revival is survival's deliberate cousin. In the nineteenth century, architects and patrons revived past styles as moral and national programmes, not as innocent decoration. Gothic was promoted as Christian and honest, classical forms as civic and rational, and local Romanesque or Renaissance manners as proofs of national character. Revival buildings therefore quote their models with unusual completeness and learning. Paradoxically, that completeness betrays them: medieval builders mixed manners freely as fashions changed mid-construction, while revivalists, working from books, often apply one style with a consistency no original building of the period ever possessed in practice.",
+            "Restoration adds a third confusion, because a genuinely old building may be partly fiction. Nineteenth-century restorers rebuilt ruined choirs, replaced weathered sculpture and completed towers that had stood unfinished for centuries, sometimes following evidence and sometimes following imagination. Fire, war and weathering have since forced further rebuilding, so that a cathedral can contain medieval walls, Victorian glass and a roof younger than its visitors. None of this makes identification hopeless. It makes it forensic. You are separating layers, and each layer has its own date. Ask not only what style, but which part, and how surely."
+          ]
+        },
+        {
+          "heading": "What a style actually is",
+          "paras": [
+            "A style is not a checklist of motifs. A pointed arch alone does not make a building Gothic, any more than a column makes one classical. A style, properly understood, is a system in which structure, form, ornament, material and plan logic belong together. In a true Gothic church the pointed arch, the rib vault, the buttress and the great window are not separate decorations; they are one structural idea expressed at different scales. When those relationships hold together, identification is strong. When a motif sits on a building whose structure contradicts it, you are looking at quotation.",
+            "Treat every label in this guide as a summary of evidence, and attach a confidence level to it. You might say, in your notebook, Romanesque, probably twelfth century, high confidence, or classical revival, early nineteenth century, moderate confidence, plan unseen. That discipline protects you from the lying facade, because it records what you actually saw: three passes agreeing, two uncertain, one impossible to check from the street. Professional descriptions work the same way, however polished they sound. Behind every confident label in a guidebook lies a weighing of clues, some decisive, most merely suggestive on their own.",
+            "The chapters that follow teach a method rather than a memory test. First you will learn six passes across any building: silhouette, structure, openings, ornament, materials and plan. Then come the great families themselves, each with five reliable signs, the places you meet them, and the look-alikes that cause mistakes. Work outward from the largest facts to the smallest, because size is hard to fake and detail is easy to copy. A roofline, a wall thickness or a plan will usually tell the truth that a carved ornament is trying, very beautifully, to conceal from you."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-method",
+      "numeral": "II",
+      "title": "The Method: Six Passes Across a Building",
+      "sections": [
+        {
+          "heading": "Pass one and two: silhouette and structure",
+          "paras": [
+            "Begin across the street, far enough away to take in the whole building at once. This first pass reads silhouette: the massing, the height and spacing of towers, the pitch of roofs, the rhythm of bays along the front. Ask whether the composition looks planned in one campaign or grown in stages, symmetrical or accreted. Silhouette survives refacing, re-roofing in similar materials and centuries of small repairs, so it is the most conservative evidence you have. Sketch it if you can. Even a rough outline fixes proportions in memory better than any photograph taken hurriedly from below.",
+            "The second pass asks a harder question: how does the building stand up? Look for the load path. Thick walls with small openings suggest masonry carrying weight down through itself. Regular piers, deep buttresses or visible flying buttresses suggest loads being collected and diverted. A regular grid of columns behind glass suggests a frame, in which the walls carry nothing but themselves. You will not always see the structure directly; often you infer it from consequences, such as window size, wall depth at reveals and the spacing of supports. Structure changes slowly and expensively, so it rarely lies about period.",
+            "Record the first two passes before you look at any detail. This order matters, because ornament is seductive and will try to make the decision for you. A building whose silhouette is a plain nineteenth-century warehouse block and whose structure is a brick shell does not become seventeenth century because someone has fixed a dated plaque and Tudor-style timbering to its front. Write down silhouette and structure as separate verdicts, even if both are tentative. Later passes may refine them, but if a later pass flatly contradicts both, treat the contradiction itself as the most interesting fact you have found."
+          ]
+        },
+        {
+          "heading": "Pass three and four: openings and ornament",
+          "figure": "secession",
+          "paras": [
+            "Openings are usually the fastest dating evidence on a building. Windows change with glass technology, taxation, fashion and structure all at once, so their forms turn over quickly. Note the shape of the head, flat, round or pointed; the divisions, from stone mullions to slender glazing bars to a single sheet; and the depth of the reveal, which hints at wall thickness. Doors speak too, through their surrounds, fanlights and hardware. Compare all the openings, not just the finest. A replaced window in an old wall is common, and a whole building is dated by its pattern, not by exceptions.",
+            "Ornament is the fourth pass, and it is a vocabulary test. Classical buildings speak in orders, entablatures, dentils and pediments, combined by grammatical rules. Gothic speaks in tracery, cusps, crockets and mouldings that run continuously around arches. Around 1900 the whiplash curve of Art Nouveau and the disciplined geometry of the Vienna Secession offered rival modern vocabularies, both deliberately breaking with historical quotation. Learn these vocabularies as languages with periods of currency, not as decorations in the abstract. A motif used outside its period is either a revival, a survival or a later addition, and each explanation points to a different history.",
+            "Use ornament last among the visual passes, because ornament alone misleads more than any other evidence. Carved stone can be applied to a concrete frame, cast iron can imitate carved timber, and a fibreglass cornice can crown a steel shed. Nineteenth-century industrial production made historical ornament cheap and repeatable, so it appears on buildings whose plans and structures are wholly modern. When ornament agrees with silhouette, structure and openings, it confirms an identification handsomely. When it disagrees, believe the disagreement. The building is telling you that its clothes were chosen later than its body, and that is a dateable event in itself."
+          ]
+        },
+        {
+          "heading": "Pass five and six: materials and plan",
+          "paras": [
+            "Materials form the fifth pass, and they speak of region as much as of period. Stone types, brick sizes and bonds, roof coverings of slate, tile or thatch, and renders all belong to local geology and local trade routes before they belong to style. A change of transport, such as a new canal or railway, can transform a town's materials within a generation, which itself is dating evidence. Look also at weathering and tooling: hand-worked and machine-worked surfaces age differently. Materials can be imported for prestige, of course, but even the exception is informative, because somebody paid heavily to make that particular statement.",
+            "The plan is the sixth pass and the least fakeable evidence of all. Facades are replaced, roofs renewed and ornament stripped or added, but plans change only through major rebuilding, because moving walls means moving structure, stairs and services. Church plans, courtyard houses, terraced rows, school corridors and office floors all follow period patterns that you can often read from outside: in chimney positions, in the placing of stairs and entrances, in the difference between a front that receives guests and a back that receives coal. Whenever you can obtain a plan, weigh it heavily. It is the building's private testimony.",
+            "Now hold the vote. Lay your six verdicts side by side and ask where the majority points, and how strong the agreement is. Five passes agreeing give a confident identification; three against three give an honest puzzle, usually a building of two periods or a revival executed with unusual intelligence. State your confidence aloud, at least to your notebook, because it tells you what to check next. The method does not promise certainty on every street corner. It promises something better: that your mistakes will be reasoned, recorded and correctable when better evidence, a plan, a date stone or an open door, appears."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-structure",
+      "numeral": "III",
+      "title": "Reading Structure: Wall, Frame and Skin",
+      "sections": [
+        {
+          "heading": "The bearing wall and its thickness",
+          "paras": [
+            "For most of architectural history, the wall was the structure. Stone, brick or earth carried the floors and roof above, and every opening was a weakening that had to be bridged by an arch or a lintel. Read a bearing-wall building through its thickness. Stand at a doorway or deep window and measure the reveal with your eye: reveals of half a metre or more announce massive masonry, typical of Romanesque churches, medieval castles and early domestic building. Thick walls also explain small windows, since each new opening removes support and invites settlement, cracks and expensive repair work.",
+            "Masonry has a visible logic you can learn to follow. Weight travels downwards and slightly outwards, so walls thicken towards the base, buttresses appear where vaults push sideways, and arches gather loads onto piers at their springing points. In classical masonry the same logic is dressed in the orders, but the engineering is unchanged: columns and pilasters mark where loads descend, and entablatures distribute them. Where you see a wide opening in a thick wall, look immediately above it for the arch, relieving arch or beam doing the work, because something must always be doing that work in masonry construction.",
+            "Bearing walls also limit height and span, and those limits date buildings as surely as decoration does. A medieval hall roofed in timber could span impressively, but a stone vault over a wide space demanded engineering that only major churches could afford. Domestic masonry rarely rose beyond four or five storeys before lifts and frames, because the ground-floor walls became absurdly thick. When you meet a very tall, thin-walled building with large windows, some other structural idea must be present, whatever its facade pretends. That single inference, wall or frame, divides architectural history into its two great structural eras for the field observer."
+          ]
+        },
+        {
+          "heading": "Iron, steel and the liberated facade",
+          "figure": "ironbridge",
+          "paras": [
+            "Iron broke the old logic in stages. The Iron Bridge at Coalbrookdale, completed in 1779, proved that iron could carry a major span as an arch of cast pieces, borrowing its jointing from carpentry. In textile mills, iron columns and beams then created fire-resistant floors with regular grids of supports and far larger windows than masonry allowed. Read such buildings by their rhythm: evenly spaced piers, segmental brick vaults between beams inside, and facades that are already becoming a pattern of structure repeated, rather than a mass sculpted. The frame is present, but it still hides politely behind masonry dress.",
+            "The steel frame, mature by the 1880s and 1890s, completed the liberation. A skeleton of columns and beams now carried every load, including the walls themselves, which became a cladding hung floor by floor. Consequences cascade across the facade: windows can meet at corners, whole elevations can turn to glass, and the ground floor can open into broad shopfronts between slender piers. Tall buildings of ten, twenty or more storeys become practical without fortress walls at their base. When you see height combined with thin walls and generous openings, you are reading a framed building, regardless of whether its skin imitates stone palaces.",
+            "This liberation is the central difficulty in reading modern buildings, because style detaches from structure. The same steel skeleton can wear classical stone, Gothic terracotta, stripped modernist render or a mirror-glass skin, all within one city decade. Dating therefore shifts to secondary evidence: floor heights, column spacing, the handling of corners, fire escapes, lift overruns on the roof and the technology of the cladding itself. Do not be disappointed that the old certainties vanish. The frame is itself a period signature, and a building that can wear any costume is announcing, quite honestly, that it belongs to the age of frames."
+          ]
+        },
+        {
+          "heading": "Concrete and the curtain wall",
+          "paras": [
+            "Reinforced concrete joined iron and steel as the third frame material, and it brought a different visual character. Concrete is cast, not assembled, so it can flow into curves, cantilevers and continuous slabs that steel achieves only with effort. In its honest mid-twentieth-century form, called béton brut, the surface retains the marks of its timber formwork: board grain, tie holes and joints between pours. Read those marks as a birth certificate. A board-marked concrete facade belongs to the decades when architects celebrated casting as truth to material, roughly from the 1950s to the 1970s, and imitations in smooth render fool nobody at close range.",
+            "Concrete frames announce themselves through rhythm. Look for a steady beat of columns, often expressed on the facade, with slabs visible as horizontal bands and non-structural panels or glazing filling between. Cantilevers are a giveaway: a floor or balcony projecting with no visible support below is almost certainly reinforced concrete or steel at work. Domes and shells of thin concrete, impossible in masonry at such spans and thinness, mark major public buildings of the post-war decades. Where concrete is hidden behind brick or stone cladding, the column grid often still betrays it through regular window spacing and unusually thin external walls.",
+            "The curtain wall is the frame's logical endpoint: a skin of glass and panels hung from the edges of floors, carrying only itself. Identify it by its continuous grid, identical repeated units, spandrel panels concealing each floor slab, and reflections that run uninterrupted across the surface because nothing structural interrupts them. Early curtain walls of the 1950s use slender metal mullions and opaque coloured spandrels; later versions pursue seamless mirror glass. Either way, the facade has become weatherproofing and image, not support. Your structural pass therefore ends at the grid behind the glass, and dating passes to systems, profiles and panel technology."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-plan",
+      "numeral": "IV",
+      "title": "Reading Plan, Massing and Roof",
+      "sections": [
+        {
+          "heading": "Plans that betray dates",
+          "paras": [
+            "Some plans are so bound to their period that a single glance at a floor diagram dates a building within a generation. The medieval church follows the cruciform pattern: nave, transepts crossing near the east end, and a chancel beyond, an arrangement dictated by liturgy and processions. The Renaissance palazzo turns inward around a courtyard, presenting a guarded face to the street and its finest rooms around a sheltered court. The Georgian terraced house stacks reception rooms above a raised ground floor with services below. Each pattern answers social habits that flourished, changed and left these diagrams behind as fossils.",
+            "Plans survive refacing because they are expensive to alter. A house may gain a new front, a fashionable render and replacement windows while keeping its original arrangement of hall, stairs and chimney breasts intact behind the party walls. Churches keep their cruciform bones through Victorian restoration; mills keep their long, narrow floors, designed for line shafts and daylight, through conversion into flats. Learn to infer plan from outside clues: the position of the entrance, chimney stacks marking heated rooms, stair windows lighting a half-landing, and the unmistakable regularity of a corridor building with rooms opening off a spine.",
+            "The twentieth century broke the old diagrams with the open plan. Once frames carried loads, internal walls could move or vanish, and living spaces flowed together in ways no bearing-wall house allowed. Offices adopted deep open floors around a service core; houses merged kitchen and living room; schools and galleries pursued flexible space as an ideal. An open interior is therefore itself dating evidence, rarely earlier than the twentieth century in domestic work and usually later still. Conversely, a warren of small load-walled rooms beneath a modern facade tells you the building is older than its skin, and probably listed for exactly that reason."
+          ]
+        },
+        {
+          "heading": "Massing: the composed and the accreted",
+          "figure": "villaRotonda",
+          "paras": [
+            "Massing describes how a building's volumes are assembled, and two great habits divide history. Composed massing belongs to classical design: a symmetrical block, a clear hierarchy of centre and wings, pavilions marking the ends, and every part subordinated to a geometry you can grasp from one viewpoint. The Villa Rotonda near Vicenza, begun in the 1560s, carries this habit to perfection, with four identical temple fronts on a square block beneath a dome. When you see that degree of order, you are in the presence of a designer working from drawings, and almost certainly of the classical tradition in some phase.",
+            "Accretive massing is the opposite habit: a building grown by additions, each generation extending, heightening or attaching according to need. Medieval manor houses, farmsteads, abbey complexes and old parish churches show it beautifully: roofs at different pitches and levels, a tower here, a porch there, materials changing where one campaign ended and another began centuries later. Read the junctions. Straight joints in masonry, a change of stone size or a roof scar on a gable all mark the seams between campaigns. Accretion is not disorder; it is a diary, and its very irregularity is strong evidence of genuine age and continuous use.",
+            "The twentieth century introduced a third habit, sculptural massing, in which volumes are composed for effect rather than symmetry or growth. Setbacks carve tall buildings into steps, partly for light and planning law; slabs ride on pilotis; cylinders, wedges and folded forms announce leisure centres, offices and cultural buildings. Such massing is drawn, like classical composition, but its geometry is dynamic rather than static, and it depends on frame construction to be buildable at all. Distinguish deliberate sculptural form from accretion by consistency of material and detail: a sculptural building was still built in one campaign, however restless its outline may appear from the street."
+          ]
+        },
+        {
+          "heading": "Roofs: the fifth elevation",
+          "paras": [
+            "Architects call the roof the fifth elevation, and field observers ignore it at their cost. Pitch alone carries evidence. Steep pitches shed rain and snow in northern climates and suit small coverings such as thatch, tile and slate; shallow pitches belong to drier regions or to coverings, like lead sheets and modern membranes, that tolerate them. A steep roof on a classical building is often hidden behind a parapet, because the tradition demanded a silhouette of pure horizontal lines. When you see a parapet, always ask what it conceals: the hidden roof usually tells a plainer, more practical story.",
+            "Roof forms follow structure and period together. The dome, masonry in early examples and frame-clad later, crowns spaces of ceremony from Renaissance churches to nineteenth-century capitols. The mansard, with its steep lower slope and shallow upper slope, buys an extra storey inside the roof and signals French influence or later seventeenth and eighteenth-century urban building, revived enthusiastically in the nineteenth century. Butterfly roofs, saw-tooth factory roofs and folded concrete shells all belong to the twentieth century's engineering. Coverings refine the date further: machine-made tiles, asbestos slates and felted flat roofs each had their decades of dominance in ordinary speculative building.",
+            "The flat roof became modernism's proudest claim: a building freed from the pitched past, gaining terraces and a pure geometric silhouette. In northern climates it also became modernism's recurring liability, as membranes failed and water found every joint. Later generations therefore disguised new buildings under pitched roofs again, sometimes as regional politeness and sometimes as planning requirement, producing estates where modern frames and plans hide beneath traditional tiles. Do not let a pitched roof veto a modern date, or a flat roof guarantee one. Roofs, like every pass, vote; they do not rule. Weigh pitch, covering, structure and silhouette together before deciding."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "romanesque-id",
+      "numeral": "V",
+      "title": "Romanesque: The Fortress Church (c. 1000–1200)",
+      "sections": [
+        {
+          "heading": "The five signs",
+          "figure": "speyerNave",
+          "paras": [
+            "First sign: the round arch, everywhere. Romanesque arches crown windows, doors, arcades and vaults with a perfect semicircle, because the style inherits Roman construction and thinks in its geometry. Second sign: mass. Walls are extraordinarily thick, windows small and deeply splayed, so that interiors gather a deliberate gloom broken by shafts of light. Third sign: the vault. Great churches such as Speyer Cathedral, rebuilt with stone vaults around 1080 to 1106, carry barrel or groin vaults over the nave, an engineering ambition paid for in masonry. Learn these three together and most Romanesque buildings announce themselves before you reach the door.",
+            "Fourth sign: sculpture fused with the wall. Romanesque carving does not stand free of the building; it grows out of capitals, arches and doorways, flattening itself against the surface it decorates. Capitals carry beasts, foliage and biblical scenes compressed into the block that carries the arch, while western doorways expand into sculpted portals whose figures stand in rows within the archivolts. Fifth sign: the fortress silhouette. Towers rise square and sturdy, small domes and turrets gather at crossings, and the whole composition sits low and wide rather than aspiring upwards. Contemporaries built for eternity and defence in the same gesture of faith.",
+            "Hold the five signs together as a system. The round arch needs mass to resist its thrust; the mass dictates the small windows; the small windows darken the vaulted interior; the sculpture concentrates where light and ceremony meet, at portals and capitals. This interdependence is why Romanesque is one of the easiest styles to identify confidently. A single round-arched window proves little, since classical and revival buildings use the form too, but a thick-walled, vaulted, fortress-like church with sculpture embedded in its fabric is Romanesque with high confidence. Check the capitals and doorways next, because regional dialects announce themselves most clearly there."
+          ]
+        },
+        {
+          "heading": "Where you meet it",
+          "paras": [
+            "You meet Romanesque chiefly in churches built for pilgrimage, monastic life and episcopal power between about 1000 and 1200. Great abbey and cathedral churches line the pilgrimage roads towards Spain, their plans lengthened with ambulatories and radiating chapels so crowds could circulate past relics without disturbing the choir. Smaller parish churches carry the same language in miniature: round-arched south doorway, massive tower, tiny windows high in the nave wall. Norman castle chapels and keeps translate the manner into military building, where the fortress quality that other churches merely suggest becomes literal defence, with walls metres thick and entrances raised above ground.",
+            "Regional dialects refine your dating and reward attention to materials. Burgundian churches pursue height and pointed barrel vaults; the Rhineland builds twin-towered westworks and dwarf galleries, as at Speyer and Mainz; Tuscany polishes the style with marble. At Toulouse the pilgrimage church of Saint-Sernin is built of brick, because stone was scarce on the plain, and its warm colour is a geological fact before it is an aesthetic one. At Pisa, cathedral, baptistery and leaning campanile wear bands of white and coloured marble with tiered arcades. In Norman England after 1066, imported masons built Durham and a hundred lesser churches in rubble and ashlar stone.",
+            "Expect Romanesque most densely where eleventh and twelfth-century wealth met stable institutions: monasteries, bishoprics and pilgrimage shrines. Town churches in prosperous regions were often rebuilt in Gothic later, which is why surviving Romanesque is disproportionately rural, monastic or preserved inside larger later buildings as a crypt, a tower or a single doorway reset in a Gothic wall. When you find one such fragment, read it as a survivor, not as the building's whole story. Its presence dates a phase, perhaps the first phase, and invites you to reconstruct what the later centuries replaced, extended or chose, significantly, to keep standing."
+          ]
+        },
+        {
+          "heading": "Look-alikes and dating clues",
+          "figure": "vezelayTympanum",
+          "paras": [
+            "The great look-alike test is Gothic, and Durham Cathedral exposes its difficulty. Durham, begun in 1093, is Romanesque in mass, in its round-arched arcades and in its mighty piers, yet its nave carries early pointed transverse arches within the vaulting, experiments on the road towards Gothic. The arch test therefore needs care: a pointed arch inside an otherwise massive Romanesque body does not reclassify the building. Weigh mass, window size and vault system together. Gothic dissolves the wall into glass; Romanesque, even at its most inventive, keeps the wall sovereign and the openings subordinate to its protective bulk and deep shadow.",
+            "Earlier look-alikes crowd the other side. Roman ruins share the round arch and mass, but Roman concrete, brick banding and classical orders follow different rules, and true Roman work in northern Europe is fragmentary and archaeological rather than roofed and in use. Carolingian and Ottonian churches precede Romanesque and resemble it, being its ancestors; they are rarer, usually simpler in vaulting and sculpture, and mostly encountered in specific regions of France and Germany. The sculpted tympanum offers finer evidence: at Vézelay, carved around 1120 to 1132, the great portal sculpture shows the mature Romanesque figure style, elongated, rhythmic and still bound tightly to its architectural frame.",
+            "The modern look-alike is Romanesque Revival, including the German Rundbogenstil, which reused the round arch for churches, schools, stations and town halls through the nineteenth century. Betrayals include machine-regular masonry, large windows that the style should not allow, cast-iron columns inside, and a plan fitted to a school or office rather than a liturgy. Date genuine work by capitals, which evolve from plain cushions to richly figured carving, by chevron ornament beloved of Norman builders, and by tower forms, from squat central towers to the paired western towers of ambitious churches. Each clue narrows the half-century; together they often narrow the generation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gothic-id",
+      "numeral": "VI",
+      "title": "Gothic: The Skeleton of Glass (c. 1140–1520)",
+      "sections": [
+        {
+          "heading": "The five signs",
+          "figure": "amiensNave",
+          "paras": [
+            "First sign: the pointed arch, which directs thrust more steeply downwards than a round arch and frees the builder to vault spaces of differing widths at a common height. Second sign: the rib vault, whose stone skeleton gathers the vault's weight onto points, leaving the webs between ribs comparatively light. Third sign: the flying buttress, an external half-arch that carries lateral thrust across the aisle roof to a freestanding pier, often crowned by a pinnacle whose weight helps resist overturning. At Amiens Cathedral, begun in 1220, these three devices combine into a single structural system of remarkable elegance and economy.",
+            "Fourth sign: the wall dissolved into glass. Because the skeleton carries the loads, the masonry between supports shrinks towards a frame for stained glass, and windows expand until they dominate the elevation. Tracery, the stone sub-division of the window, orders that glass into patterns that are among the most reliable dating tools in all architecture. Fifth sign: verticality. Spires, pinnacles, steep roofs and tall proportions pull the eye upwards, and the silhouette bristles where Romanesque sat solid. Inside, shafts rise uninterrupted from floor to vault, dissolving horizontal divisions. Stand in a Gothic nave at midday and the building seems less walled than glazed.",
+            "A sixth observation binds the five: sculpture steps free of the wall. On Gothic portals, figures stand in niches as near-independent statues, rounder and more natural in posture than their Romanesque predecessors flattened within archivolts. This freedom mirrors the structure itself, in which every element gains its own defined role. When you test a building for Gothic, therefore, test the system, not the arch alone. Pointed arches appear in Islamic and earlier medieval work without Gothic consequences. The full combination of rib, flyer, glass wall and vertical silhouette, working together, is the signature that no other medieval manner reproduces in complete form."
+          ]
+        },
+        {
+          "heading": "Where you meet it",
+          "paras": [
+            "You meet Gothic first in cathedrals, but its territory is far wider: parish churches in thousands, monastic ruins, town halls, guildhalls, university colleges, castles and even barns wear its forms between about 1140 and 1520. Any building type needing a hall, a chapel or a dignified public room could adopt the skeleton and its dress. Secular Gothic is a useful corrective to cathedral thinking: the town halls of Flanders and northern Germany and the colleges of Oxford and Cambridge show the same tracery and vaulting serving councils and scholars. Wherever late medieval wealth existed, Gothic was simply how ambitious building was done.",
+            "National schools give your identification its accent. French Rayonnant work refines tracery into radiant, wheel-like patterns and thins structure towards a cage of glass. English Gothic divides helpfully into Early English, with lancets and plate tracery; Decorated, with flowing bar tracery and rich carving; and Perpendicular, with panel tracery, flattened arches and fan vaults, as in the chapel of King's College, Cambridge, completed in the early sixteenth century. Baltic Gothic builds in brick where stone is absent, achieving height through gables and patterned brickwork. Italian Gothic keeps marble facing, broader walls and a classical reluctance to dissolve the wall completely.",
+            "Late phases reward specialists. Flamboyant Gothic in France twists tracery into flame-like curves and multiplies ribs into decorative stars, while German late Gothic weaves vault ribs into nets and loops of astonishing complexity. In England the fan vault spreads identical ribs into conoid shells of perfect regularity. These late manners overlap in date with early Renaissance work in Italy, a reminder that style maps are not tidy: one region's future is another region's flourishing present. Date late Gothic by its tracery and vault patterns first, since structure changes little at the end, and ornament, unusually, becomes the most sensitive clock the building possesses for the attentive observer."
+          ]
+        },
+        {
+          "heading": "Look-alikes and dating clues",
+          "figure": "chartresGlass",
+          "paras": [
+            "Against Romanesque, apply the system test rather than the arch test alone. A church may show pointed arches yet remain Romanesque in mass and intention, as transitional buildings across Europe demonstrate, while early Gothic in austere regions can look surprisingly plain. The Cistercian order is the standing trap: its twelfth and thirteenth-century churches deliberately avoid towers, sculpture and painted glass, so their Gothic skeleton appears in near-monastic nakedness and can be mistaken for an earlier, poorer manner. Look instead at vaults, window proportions and the handling of light. At Chartres, rebuilt from 1194, the glass itself, deep blue and ruby, turns the wall into luminous narrative for every visitor who enters.",
+            "Against Gothic Revival, look for the machine. Victorian Gothic betrays itself through tooling of mechanical sharpness, masonry of suspicious regularity, glass of nineteenth-century manufacture and colour, and details assembled from several medieval centuries on one small church with archaeological enthusiasm. Context helps too: a Gothic church in a planned Victorian suburb, beside a vicarage and school in matching dress, belongs to the revival's great building campaign, not to the middle ages. Revival work is not inferior work; the best of it is superb. But its iron roofs, its heating chambers and its complete stylistic programmes belong unmistakably to the industrial century that produced them.",
+            "For dating genuine Gothic, tracery is your finest instrument. Plate tracery, where openings are punched through a solid stone surface, belongs to the earliest phase. Bar tracery, built from slender moulded bars, follows from the middle of the thirteenth century and flowers into the flowing curves of the Decorated period, all ogees and daggers. Perpendicular panel tracery straightens those curves into a grid of uprights that continues across wall surfaces as panelling. Flowing forms date differently in France and Germany, so always date within the national school you have identified. Four passes to place the school, one exquisite window to place the generation: that is Gothic identification at its best."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renaissance-id",
+      "numeral": "VII",
+      "title": "Renaissance: The Classical Measure (c. 1400–1600)",
+      "sections": [
+        {
+          "heading": "The five signs",
+          "paras": [
+            "Begin with the orders. Renaissance builders used the classical orders — Doric, Ionic, Corinthian and their variants — correctly, with entablatures proportioned to the columns that carry them. Look for columns and pilasters that observe a system of ratios, often set out in contemporary treatises, rather than applied at random. Capitals are carved with care, bases rest on proper plinths, and the whole elevation reads as a measured composition. When an order looks misunderstood, stretched beyond reason or mixed with medieval detail, you are probably looking at an early experiment, a provincial work, or a later imitation.",
+            "The second and third signs work together. Round arches spring from columns or from piers treated as part of a classical system, with clear imposts and moulded archivolts, never the pointed arch of Gothic construction. Across the facade, rustication is graded by floor: heavy, deeply channelled blocks at ground level give an impression of strength, smoother stones above, and a nearly smooth finish at the piano nobile and top storey. This deliberate progression from rough to refined is one of the most reliable field marks, especially on urban palaces where the street front had to impress and defend.",
+            "Symmetry, massing and the roofline complete the picture. The building is composed as a balanced, often cubic volume around a central axis, with windows placed at regular intervals and no accidental additions breaking the front. Windows themselves are frequently framed as small temples — an aedicule of pilasters, entablature and pediment, triangular or segmental — set into the flat wall. Above, look for a dome raised on a cylindrical or polygonal drum, pierced with windows and capped by a lantern. A dome sitting directly on the roof without a drum belongs more often to another tradition or a later age."
+          ]
+        },
+        {
+          "heading": "Where you meet it",
+          "figure": "basilicaPalladiana",
+          "paras": [
+            "You meet the style first in Florence, where merchants and church patrons rebuilt the city in the fifteenth century. Hospital and church fronts show the new discipline in pale stone and white plaster, with round arches carried on slender columns and interiors ordered by repeated bays. The Florentine palace type — a fortress at the street, a graceful arcaded courtyard within, and a heavy crowning cornice — spread across Italy because it answered both security and display. When you stand before such a palace, read it floor by floor: the rustication lightens as your eye climbs, exactly as described above.",
+            "In Rome the manner grows grander and more archaeological. High Renaissance churches and palaces use the orders on a monumental scale, with domes planned as the crowning feature of whole districts and courtyards framed by superimposed arcades. From Rome the language travelled with printed treatises and travelling craftsmen. Note the Basilica Palladiana at Vicenza in the figure: an older Gothic hall reclothed with a screen of classical arches, a practical lesson in how the new style could dignify an existing building without demolishing it. That adaptability, as much as beauty, explains the speed of its European conquest.",
+            "The villas of the Veneto show the style at its most influential. A central pedimented block, temple front raised on a podium, wings and farm buildings arranged in calm symmetry: the formula proved exportable for three centuries, shaping country houses from England to Virginia and beyond. North of the Alps, however, expect mixture. French châteaux of the Loire keep steep roofs, tall chimneys and moated plans inherited from Gothic building, while dressing them with pilasters, roundels and classical cornices. Do not let the roofline mislead you; judge the northern building by its detail and its plan, not by an Italian silhouette."
+          ]
+        },
+        {
+          "heading": "Look-alikes and dating clues",
+          "paras": [
+            "The first confusion is with ancient Rome itself. A Renaissance front may copy a Roman temple or arch closely, but the materials betray it: look for brick cores faced in stone, regular coursing, and mortar and tooling consistent with fifteenth or sixteenth century work rather than Roman concrete construction. Renaissance buildings also serve Renaissance purposes — a palace courtyard, a chapel for a banking family, a villa farm — and their plans fit those uses. Small domestic details help too: glazed windows of generous size, chimneys treated as architectural features, and staircases planned for ceremony rather than defence.",
+            "Neoclassical work, treated in Chapter IX, is the closer trap. Both use the orders, pediments and domes, but the temper differs. Renaissance classicism is warmer and more inventive: rustication is bold, ornament is plentiful, and architects vary the antique freely to suit the site. Neoclassicism is cooler and more archaeological, preferring smooth ashlar, correct Greek or Roman precedent and a thinner spread of ornament. In the field, run your hand, in imagination, down the wall. If the ground floor is aggressively rusticated and the windows wear rich aedicules, think Renaissance or its revival; if all is smooth restraint, think later.",
+            "Victorian Italianate, common in nineteenth century streets, borrows the palazzo front but gives itself away by its dateable fittings: plate glass, sash windows with horns, stucco rather than stone, bracketed eaves and a plan built for Victorian services behind the facade. For dating within the Renaissance itself, follow three clues. Rustication grows more sculptural as the sixteenth century advances. Window surrounds move from simple moulded frames to elaborate aedicules and then to mannerist surprises, such as slipped or broken pediments. Dome profiles also change: early domes are hemispherical and modest, later ones taller, ribbed and more prominently lanterned over the skyline."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "baroque-rococo-id",
+      "numeral": "VIII",
+      "title": "Baroque and Rococo: Movement and Delight (c. 1600–1780)",
+      "sections": [
+        {
+          "heading": "The five signs",
+          "paras": [
+            "Movement is the first sign. Baroque plans abandon the calm square and circle for ovals, interlocking curves and facades that advance and recede like waves. A church front may swell outward at the centre and retreat at the wings, so that light and shadow model the wall through the day. Inside, nave and chapels flow into one another without hard divisions. Stand at the entrance and ask whether the space pulls you forward along a staged route. If the building seems to move while you stand still, and every part directs your eye to a climax, you are in Baroque territory.",
+            "The second group of signs concerns the orders and the pediment. Columns are gathered into giant orders that sweep through two or three floors, binding the elevation together and dwarfing human scale for rhetorical effect. Pediments are broken, nested one within another, curved, or opened at the centre to receive a coat of arms, a statue or a burst of carving. Entablatures bend around corners and project on brackets. Nothing rests quietly. When you record a facade, note where the classical rules are knowingly strained: that strain is deliberate theatre, designed to stir emotion before the visitor has understood a single detail.",
+            "Inside, the ceiling dissolves. Frescoed vaults open the architecture into painted skies, with stucco figures spilling over the cornice and real light from hidden windows joining the illusion. Gilding catches candlelight and daylight alike, and mirrors, polished stone and scagliola multiply the effect. Rococo, the later and lighter phase, keeps the movement but changes the mood: ornament turns asymmetrical, built from shells, rockwork and C-scrolls and S-scrolls, colours soften to pastels, and rooms shrink to an intimate scale. A Baroque interior awes you; a Rococo interior charms you, and the difference is a practical dating tool."
+          ]
+        },
+        {
+          "heading": "Where you meet it",
+          "figure": "wieskirche",
+          "paras": [
+            "Rome is the starting point: new churches with broad, embracing facades, chapels staged for the veneration of saints, and palaces whose courtyards and staircases unfold as sequences of surprise. From Rome the style travelled with religious orders and court architects across Catholic Europe. You meet it most completely where church and state shared the same theatrical language — in the great abbeys, pilgrimage churches and prince-bishop residences of southern Germany, Austria and Bohemia. The Wieskirche in Bavaria, shown in the figure, stands in open meadowland, plain without, radiant within: a setting that is itself part of the design.",
+            "In Central Europe the pilgrimage church became a special type. Routes were planned so that the building appeared at a bend in the road, towers framed the view, and the interior burst upon the visitor as a single glowing vessel of light, stucco and paint. The Residenz palaces of the prince-bishops match them room for room, with state staircases wide enough for processions and ceilings painted as allegories of rule. Here Baroque and Rococo often coexist in one complex, the earlier state rooms heavier and more symmetrical, the later private apartments lighter, smaller and increasingly asymmetrical in their decoration.",
+            "Iberia and Latin America developed intense regional variants. Spanish facades, especially in the Churrigueresque manner, concentrate carving so densely around doorways and towers that the surface becomes a single sculptural altarpiece in stone. In Brazil, mining wealth paid for gilded church interiors of extraordinary richness, with carved and painted woodwork covering altars from floor to vault, while exteriors in Minas Gerais experiment with curved fronts and soapstone detail. Protestant regions, by contrast, often kept Baroque planning — the oval, the staged approach — while restraining ornament, a useful reminder that confession shapes decoration as surely as date does."
+          ]
+        },
+        {
+          "heading": "Look-alikes and dating clues",
+          "paras": [
+            "Baroque and Rococo are phases, not rivals, and one building may contain both. The exterior, built earlier or intended for public grandeur, may be firmly Baroque: symmetrical, monumental, organised by a giant order. Step inside to apartments remodelled a generation later and you may find Rococo asymmetry, pale boiserie and delicate scrollwork applied over the earlier shell. Record shell and decoration separately, with separate dates where the evidence allows. The commonest field error is to date a whole building by its lightest room, or to call every curving interior Rococo when its architecture is thoroughly Baroque in scale and plan.",
+            "Neoclassicism reacted against both, and the contrast helps identification. Where Baroque bends, Neoclassicism straightens; where Rococo scatters ornament, Neoclassicism suppresses it; where a Baroque church stages emotion, a Neoclassical one teaches virtue through restraint. If a facade of about 1770 looks suddenly plain, planar and archaeologically correct, you are watching the change of taste in a single street. The later Baroque Revival of around 1900, often called Beaux-Arts, is grander in scale, built with modern frames and services, and more literal in its ornament; check the plan and the materials before accepting an early date.",
+            "For dating, work from geometry to ornament. Early Baroque plans, roughly before 1650, still grow from squares and circles, with movement concentrated in the facade. High Baroque work, about 1650 to 1720, risks full oval and undulating plans. Rococo, from about 1730, is primarily an interior and decorative phase: watch for the asymmetrical cartouche, the shell mixed with rockwork, and ornament that ignores the architectural grid. Rising ornament density on a Spanish or Latin American facade suggests a later date within the period, but always confirm with documents where you can, because provincial workshops kept older manners alive for decades."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neoclassical-id",
+      "numeral": "IX",
+      "title": "Neoclassical: The Temple Front for Everyone (c. 1750–1850)",
+      "sections": [
+        {
+          "heading": "The five signs",
+          "figure": "britishMuseum",
+          "paras": [
+            "The temple front is the governing sign. A portico of freestanding columns carries a triangular pediment, and that front — borrowed from Greek and Roman temples — is applied to museums, banks, law courts, parliaments, churches and private houses alike. The British Museum in London, shown in the figure, presents its collections behind a long Ionic colonnade, as if learning itself were a civic religion. When you meet this front, note whether the portico is structural or a screen applied to a box behind; in Neoclassical work it is often both screen and symbol, announcing the institution before you reach the door.",
+            "The orders are used archaeologically. Architects studied measured drawings of surviving ancient buildings and reproduced Doric, Ionic and Corinthian with a correctness earlier centuries had not attempted. The Greek strand favours Greek Doric — baseless, fluted columns with plain capitals — for its severity and moral associations with democracy and reason. The Roman strand prefers richer Ionic and Corinthian, taller proportions and a more imperial air suited to empires and their administrations. Identifying which strand a building follows tells you much about its patrons. A baseless Greek Doric portico on a town hall is a political statement, not merely a taste.",
+            "Walls, meanwhile, grow quiet. Smooth ashlar or fine stucco covers the facade in broad, planar surfaces, ornament is rationed to swags, paterae and Greek key patterns, and windows are set as simple openings in the flat wall rather than framed as miniature temples. Roof lines are hidden behind parapets, massing is block-like and symmetrical, and colour is restrained to stone, white and pale tints. The effect is intellectual: proportion carries the design where Baroque display once did. In the field, a facade that seems at first almost blank, yet rewards measurement, is a strong Neoclassical candidate."
+          ]
+        },
+        {
+          "heading": "Where you meet it",
+          "paras": [
+            "You meet Neoclassicism wherever a city rebuilt itself as a classical stage set. Berlin gained museums, churches and a triumphal gate arranged along processional routes; Washington was planned with avenues, circles and temple-fronted public buildings meant to embody a new republic; Edinburgh built so much so well that it earned the nickname Athens of the North, its hills crowned with monuments modelled on Greek originals, some left deliberately as fragments. Walk these cities and read the public buildings as a programme: law, learning, commerce and government each dressed in the same dignified and supposedly universal language of antiquity.",
+            "The country house and the city terrace show the style at domestic scale. A portico, sometimes of only four columns, gives a modest house the air of a temple, while long terraces and crescents compose many houses into a single palace front, with stucco painted to imitate stone and details repeated by pattern and mould. The type suited speculation: builders could vary interiors while the street elevation kept its classical discipline. In the field, lift your eyes above modern shopfronts in almost any British or European town of this period and you will find the terrace composition still intact.",
+            "Regime change produced local variants. In France the Empire style enriched the classical vocabulary with eagles, laurel and military trophies for a conquering state; in the young United States the Federal manner kept forms lighter, thinner and often in brick with white painted woodwork. Individual architects pushed the language in personal directions — towards Prussian severity and the sublime scale of museums and guardhouses, towards republican simplicity in American public work, or towards a poetic abstraction in London houses where light wells and stripped detail feel startlingly modern. Keep these names general in your notes; the building's strand and date matter more."
+          ]
+        },
+        {
+          "heading": "Look-alikes and dating clues",
+          "figure": "maisonCarree",
+          "paras": [
+            "Against Renaissance work, archaeology and smoothness are your separators. Renaissance classicism varies the antique freely, rusticates boldly and loves rich window surrounds; Neoclassicism copies specific ancient models, keeps walls smooth and thins ornament to a disciplined minimum. Against the ancient temple itself, look at function and fabric: a Neoclassical portico fronts offices, galleries or a banking hall, built in modern ashlar over brick, with glazed windows and a roof behind the pediment. The Maison Carrée at Nîmes, shown here, is the genuine Roman article — a first century temple whose crisp survival taught the eighteenth century what to copy.",
+            "Two later manners quote the style deceptively. Stripped classicism of the 1930s keeps the symmetry, the portico idea and the smooth stone, but reduces the orders to flat pilaster strips, removes capitals almost entirely and serves modernist plans, ministries and memorials of a very different state. Postmodern work of the 1980s quotes pediments and columns knowingly, often in unexpected materials, colours or scales, with a wit that Neoclassical architects would have found improper. In both cases the plan gives the answer: services, lifts, frame construction and window patterns belong unambiguously to their own centuries, however classical the elevation pretends to be.",
+            "Small fittings date Neoclassical buildings precisely. Window glazing bars are diagnostic: later eighteenth century sashes have many small panes, while by the 1830s and 1840s larger sheets and fewer, heavier bars appear, and Greek Revival houses may use distinctive horizontal panes. Doorcases move from delicate fanlights and slender columns to heavier Greek Doric surrounds with incised ornament. Ironwork helps too — railings, balconies and lamp standards with anthemion and laurel patterns, cast rather than wrought as the century advances. Record these details before you generalise; on a much altered terrace they may be the only original evidence left standing in the street."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "victorian-id",
+      "numeral": "X",
+      "title": "Victorian: The Era That Contains All Styles (1837–1901)",
+      "sections": [
+        {
+          "heading": "An era, not a style",
+          "paras": [
+            "Victorian is a date, not a style. The reign covers sixty-four years of the fastest building production Britain, and much of the world connected to it, had ever seen, and its architects worked self-consciously in several revived styles at once. Gothic Revival, Italianate, Queen Anne, Romanesque Revival, classical and iron-and-glass engineering stand side by side, sometimes in a single street, occasionally in a single building. The first identification question is therefore never 'is it Victorian?' but always three questions together: which revival, for which building type, in which decade? Answer those, and the building begins to explain itself.",
+            "Each revival carried a meaning its patrons understood. Gothic argued morality, craftsmanship and, for churches, doctrinal correctness; it suited schools, universities and memorials as well as worship. Italianate offered palatial dignity without Gothic's religious charge, and became the default for banks, clubs and stucco terraces. Queen Anne, despite its name, mixed red brick, white painted woodwork and Dutch and Flemish details into a free, domestic manner for houses and artist studios. Romanesque Revival gave museums, warehouses and Nonconformist chapels a sturdy round-arched gravity. When you identify the revival, also ask what its choice was meant to say.",
+            "Underneath the revivals, shared Victorian facts unite the period. Building was industrial: bricks, terracotta, tiles and cast ornament were factory made and moved by rail, so identical components appear in towns hundreds of miles apart. Plans answer new needs — railway stations, board schools, public baths, department stores, speculative suburbs — and services multiply: gas, then electric light, plumbed sanitation, ventilation systems and lifts. A medieval-looking school with a thoroughly modern plan is not a contradiction but the period's signature. Date the services and the plan alongside the style, and the three records will usually agree within a decade."
+          ]
+        },
+        {
+          "heading": "Where you meet it",
+          "figure": "nhmExterior",
+          "paras": [
+            "You meet Victorian building everywhere the nineteenth century city survives: parish churches and cathedrals restored or built anew, town halls competing in scale and carving, railway stations fronted like palaces or cathedrals, terraces and villas marching into suburbs, mills, warehouses and markets built with an engineer's confidence. The building types are the lesson. A society inventing public health, mass education and rail travel needed buildings that had no exact precedent, and it dressed most of them in borrowed clothes. Learn the types first on any walk, and the styles will sort themselves far more readily afterwards.",
+            "Colour is a field mark. High Victorian designers used structural polychromy — pattern built into the fabric with red, buff and blue bricks, contrasting stone dressings and banded arches — rather than applied paint. At the same time, plate glass transformed shopfronts and station roofs, and machine-made ornament filled catalogues from which builders ordered crestings, finials and terracotta panels. The Natural History Museum in London, shown in the figure, is Romanesque Revival executed almost wholly in terracotta, its facade populated with carved animals, living species on one wing, extinct on the other: revival style, industrial material and scientific programme fused.",
+            "Look also at the industrial buildings, where Victorian confidence needed no disguise. Mills and warehouses use round or segmental arches, repetitive bays and fireproof iron and brick construction, their only ornament a corbelled cornice or a dated chimney. Market halls, conservatories and exhibition buildings push iron and glass towards pure structure, with spans and lightness that point directly to twentieth century construction. In the field these are often the easiest Victorian buildings to date, because company lettering, date plaques and engineering details survive openly. Do not pass them by as styleless; they are the period thinking aloud in its own materials."
+          ]
+        },
+        {
+          "heading": "Look-alikes and dating clues",
+          "paras": [
+            "Telling a revival from its original is the central Victorian skill. Medieval work has irregular tooling, lime mortar, small and uneven glass, and plans grown by use; Victorian Gothic is tooled with machine regularity, set in hard cement mortar, glazed with large, flat sheets, and planned in one campaign with modern services threaded through it. Victorian classical work likewise betrays itself by plate glass, cast iron and standardised components. Handle the evidence in that order — fabric, plan, services, then ornament — and a supposed medieval church or Roman palazzo will usually declare its true century within minutes of careful looking.",
+            "The decades give you a working chronology. The 1840s favour Italianate stucco, low-pitched roofs and bracketed eaves, alongside earnest early Gothic churches in correct medieval detail. The 1850s and 1860s are High Victorian: bold polychromy, muscular Gothic and Romanesque, contrasting materials and carving with real vigour. The 1870s turn to Queen Anne red brick, tile hanging, white painted timber and irregular picturesque massing for houses, while public building grows grander and more eclectic. The 1890s relax into free styles, mixing Arts and Crafts honesty with classical and Baroque elements, and experiment with new materials on suburban and commercial work.",
+            "Treat suburbs as dated documents. Speculative builders worked street by street, and each phase keeps its house type, its brick, its bay window form, its doorcase and its chimney detail with remarkable consistency. A walk from a town centre outward is often a walk forward through the century: stucco villas of the forties, polychrome terraces of the sixties, red brick Queen Anne of the eighties, roughcast and half-timber of the nineties. Map the changes as you go, noting where railway lines, tram routes and new roads explain a sudden jump, and you will be reading the city's growth directly from its fabric."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-nouveau-id",
+      "numeral": "XI",
+      "title": "Art Nouveau: The Whiplash Line (c. 1890–1910)",
+      "sections": [
+        {
+          "heading": "The five signs",
+          "paras": [
+            "The whiplash line announces the style. Drawn from plant stems, tendrils, hair and water, it curves with a sudden snap, thickening and thinning as it runs, and it organises everything it touches: facade mouldings, window frames, balcony ironwork, lettering, even the plan of a room. Unlike historical ornament, it does not sit in panels or repeat by symmetry; it grows. Trace any line on a suspected building with your eye. If it behaves like a living stem — rising, bending, flowering into a lamp or a handle — rather than like a rule-drawn pattern, you have found the style's true signature.",
+            "Asymmetry follows from growth. Facades balance unlike elements against each other: a wide bow window against a narrow door, a tower of glass against a wall of brick, ornament concentrated where the hand or eye arrives and withheld elsewhere. Structure is expressed in the new materials — slender iron columns, wide sheets of glass, steel lintels — but worked as if they too were stems, tied and budding at the joints. Historical quotation is refused on principle. There are no orders, no pediments, no borrowed Roman or Gothic detail; for the first time a European style tried deliberately to have no past at all.",
+            "The third sign is continuity. In the fullest works the same line runs from the facade into the hall, up the staircase rail, across the ceiling, into the furniture, the light fittings and the door handles, so that building and contents form one designed whole — the Gesamtkunstwerk, or total work of art. Even modest examples show a trace of it: a shopfront whose lettering matches its tiles, a house whose stained glass repeats the curve of its ironwork. When exterior and interior share a single ornamental idea, however small the budget, you are looking at Art Nouveau thinking."
+          ]
+        },
+        {
+          "heading": "Where you meet it",
+          "figure": "castelBeranger",
+          "paras": [
+            "Brussels is the first classroom. In the 1890s its avenues filled with private houses whose facades of stone, sgraffito and iron broke every academic rule, their plans reorganised around light wells and open, flowing rooms for wealthy clients who wanted modernity made visible. Paris followed with apartment houses and the famous entrances of its Métro: Castel Béranger, shown in the figure, wraps a conventional block in stone carving, ironwork and stained glass of extraordinary invention, its doorway framed by the whiplash line at full stretch. In both cities the style belongs to private and commercial patronage, not to the state.",
+            "Barcelona gives the style its most inventive regional form, modernisme, where brick, tile, iron and broken ceramic mosaic cover apartment blocks and a great concert hall, and rooflines dissolve into sculpture. Glasgow answers with a straighter geometry: long verticals, stencilled roses and a disciplined grid that keeps the plant line under severe control, above all in its art school and its tearooms. Vienna's Secession strips the curve towards geometry and surface pattern in gold and white. Riga, rebuilt in a boom decade, preserves whole streets of facades where masks, maidens and peacocks cover speculation blocks in profusion.",
+            "Note the building types, because they explain the style's brevity and spread. Art Nouveau flourished in shops, cafés, department stores, metro entrances, exhibition pavilions and private houses — commissions where novelty sold, fashion moved quickly and a designer could control the whole interior. It rarely won churches, parliaments or banks, institutions that preferred historical authority. Its commercial base carried it across Europe and beyond within fifteen years, and commercial fashion also killed it: by 1910 its curves looked expensive and dated. When you find it, expect a date between about 1895 and 1905 at the core, later at the edges."
+          ]
+        },
+        {
+          "heading": "Look-alikes and dating clues",
+          "paras": [
+            "Art Deco is the necessary contrast, and one test separates them: the curve. Art Nouveau ornament is asymmetric, hand-drawn in feeling and grown from nature; Deco ornament is symmetrical, geometric and repeated by machine logic — zigzags, chevrons and sunbursts treated later in this guide. Buildings of 1910 to 1925 often straddle the two, with Nouveau plans wearing straighter ornament or Deco massing softened by a last curving detail. Date such hybrids by their services, their lettering and their materials rather than forcing a single label; recording the straddle honestly is better field practice than a confident mistake.",
+            "Arts and Crafts work, its British contemporary, shares the honesty and the plant motifs but differs in temper. Arts and Crafts design looks backward to vernacular building and hand craftsmanship: roughcast, tile hanging, exposed timber, and carving that stays close to medieval and country precedent. Art Nouveau looks forward, embraces iron, glass and the city, and lets ornament lead structure into new forms. Neo-Baroque contemporaries confuse beginners because they also curve and carve richly, but their ornament obeys the orders, keeps symmetry and quotes the seventeenth century openly. Check for a pediment and a giant order: if both govern, it is revival, not Nouveau.",
+            "Material clues date the style closely. Glazed terracotta and faience in cream, green and turquoise sheath many facades; stained glass uses opalescent and streaky glass in plant patterns; steel sash windows with slender sections replace timber in advanced work. Lettering is itself a document: the period's distinctive letterforms, with tall ascenders and organic terminals, appear on shop signs, foundation stones and mosaic thresholds. Inside, look for surviving light fittings, tiles and door furniture in the same line — they often outlast altered facades. A building stripped outside may still confess its style and its date in a single staircase window."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-deco-id",
+      "numeral": "XII",
+      "title": "Art Deco: Geometry and the Machine (c. 1910–1939)",
+      "sections": [
+        {
+          "heading": "The five signs",
+          "paras": [
+            "Geometry governs everything. Where Art Nouveau grew, Art Deco constructs: facades are composed of stepped masses that rise in setbacks like a ziggurat, corners are chamfered or curved in plan but drawn with instruments, and ornament is built from chevrons, zigzags, sunbursts, concentric arcs and stylised fountains. The repetition is rhythmic and symmetrical, meant to be read at speed from a car or across a street. Stand back from a suspected building and reduce it to silhouettes and patterns. If both resolve into crisp geometry without a freehand line anywhere, the identification is already half made for you.",
+            "The ornament is stylised, never naturalistic. Flowers become roses of concentric petals, animals become sleek emblems, human figures become athletes and goddesses of labour with simplified drapery, and the rising sun, the waterfall and the lightning bolt recur as signs of energy and modern life. Ancient Egypt, the Aztec and Maya worlds, and African and Oceanic art, freshly exhibited and published, supplied motifs that architects flattened into pattern. In the field, this borrowing is a clue rather than a confusion: an Egyptian cornice or a Maya stepped pyramid rendered in hard geometry, with no archaeology intended, belongs firmly to Deco.",
+            "Materials complete the five signs. Stainless steel, chrome, aluminium, black Vitrolite glass, coloured faience, neon lighting and polished woods and stones give surfaces a machined sheen unknown to earlier styles. After about 1930 a second manner joins the first: streamlining. Corners round off, horizontal speed lines wrap around buildings, strip windows run unbroken and white render replaces carved stone, borrowing the imagery of ocean liners, aircraft and trains. A building may show both manners — zigzag ornament of the twenties at the entrance, streamline curves on the block — and that combination is itself a dateable signature."
+          ]
+        },
+        {
+          "heading": "Where you meet it",
+          "figure": "miamiBeach",
+          "paras": [
+            "The style was christened in Paris at the 1925 International Exhibition of Modern Decorative and Industrial Arts, which gave it the name by which it is now universally known, and from there it travelled at the speed of commerce. Its natural buildings are those of modern life: skyscrapers with setback crowns lit at night, cinemas with soaring fins and neon signage, hotels, department stores, factories, garages, swimming pools and the ocean liners whose interiors carried the manner between continents. When you hunt Deco, hunt the programme first — entertainment, travel, retail and industry adopted it as their public uniform.",
+            "Regional strands repay attention. Miami Beach, shown in the figure, developed a tropical variant in the 1930s: small hotels in white and pastel stucco, with eyebrows over windows, neon lettering, porthole details and ornament drawn from sea and sun, built cheaply and gaily for holidaymakers. Mumbai preserves one of the world's largest collections in its waterside apartment blocks, and Napier in New Zealand, rebuilt after its 1931 earthquake, keeps a whole centre in the style. Tel Aviv's white, geometric housing of the same decade overlaps with the Bauhaus and International Style, a boundary case worth recording carefully.",
+            "Britain's contribution, often called Moderne, is quieter: brick factories with faience entrances and clock towers along the new arterial roads, white rendered roadhouses and lidos, cinemas in every suburb, and headquarters buildings that dress steel frames in stone and geometry. Everywhere the pattern of adoption is the same — the style signals that an institution is up to date. That is why it dates so well: unlike revivals, which could linger, Deco was fashion, and fashion changed on schedule. A building in full zigzag dress is unlikely to be earlier than 1920 or, in its streamline form, much later than 1939."
+          ]
+        },
+        {
+          "heading": "Look-alikes and dating clues",
+          "paras": [
+            "The curve test from the last chapter works in reverse here. If the line is geometric, symmetrical and repeatable by stencil, it is Deco; if it grows asymmetrically like a plant, it is Nouveau or a survival of it. Modernism is the harder separation, because the two share dates, materials and white walls. The distinction is one of principle: Deco keeps ornament, symmetry and the composed facade, and delights in display; orthodox Modernism refuses ornament, composes asymmetrically by function and treats the facade as the honest expression of plan and frame. Many real buildings mix both; name the mixture rather than hiding it.",
+            "Stripped classical public buildings of the same decades cause the most misidentifications. Post offices, exchanges and government offices often keep a portico's symmetry and a pediment's ghost while flattening every moulding and deleting the capitals, and from a distance they can pass for Deco. Look closer: stripped classicism keeps the classical body's proportions and hierarchy, uses stone and expects permanence, and avoids chevrons, sunbursts, neon and stylised figures entirely. Deco, even at its most monumental, cannot resist pattern. If the ornament is classical in kind but starved in execution, record stripped classicism; if it is geometric and exuberant, record Deco.",
+            "Small evidence fixes the date within the period. Typography is the fastest test: 1920s lettering is angular, inline and often Egyptian in flavour, carved on stone or cast in bronze; 1930s lettering turns rounded, streamlined and neon-lit. Door furniture follows the same arc, from angular bronze handles and zigzag grilles to smooth chrome bars and porthole windows. The master clue is the shift of manner itself: zigzag, crystalline Deco belongs chiefly to the 1920s; streamline, horizontal Deco belongs to the 1930s. When a building shows the first at its core and the second in its fittings, you are watching fashion change mid-construction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modernism-id",
+      "numeral": "XIII",
+      "title": "Modernism: The Plan Set Free (c. 1910–1970)",
+      "sections": [
+        {
+          "heading": "The five signs",
+          "figure": "bauhausDessau",
+          "paras": [
+            "Start with what is missing. Modernism removes applied ornament almost entirely, so cornices, mouldings and carved capitals give way to plain surfaces and sharp junctions. Walls become screens or slabs rather than decorated fronts, and decoration, if it appears at all, comes from proportion, rhythm and material contrast. Look for smooth render, flush detailing and windows set without architraves. When a building from the early twentieth century looks deliberately bare beside its neighbours, that bareness is rarely poverty or unfinished work. It is a manifesto in plaster and glass, arguing that beauty should follow use rather than applied pattern.",
+            "The second sign is asymmetry produced by a free plan. Because a frame of concrete or steel carries the loads, walls no longer need to stack neatly above one another, and rooms can be arranged where they work best. Facades therefore shift, project and recede in response to the interior, rather than obeying a symmetrical composition imposed from outside. Stair towers slide to one side, windows gather where light is needed, and blocks turn to catch sun or view. If the elevation looks like the accidental result of a plan you can almost reconstruct, you are reading modernism correctly.",
+            "Flat roofs, white render, ribbon windows, corner glazing and pilotis complete the familiar set. The flat roof removes the traditional silhouette and emphasises a horizontal box. Long horizontal windows, often wrapping a corner with slim steel or concrete mullions, announce that the wall is not loadbearing. Pilotis, the slender columns lifting the volume clear of the ground, free the site for gardens, parking or circulation. At the Bauhaus building in Dessau, completed in 1926, workshop glazing, dormitory balconies and an asymmetrical pinwheel plan show all these devices working together as one system."
+          ]
+        },
+        {
+          "heading": "Where you meet it",
+          "paras": [
+            "You meet modernism first in houses and housing, where reformers tested their ideas at domestic scale. Experimental estates such as the Weissenhof in Stuttgart, built in 1927, gathered flat-roofed villas by leading architects as a built exhibition of new living. Larger postwar blocks extended the same principles to hundreds of homes, most famously in the Unité d'Habitation in Marseille, completed in 1952, with its internal street, roof garden and deep brise-soleil. Read an estate as a manifesto by asking what it rejects: dark corridors, street-facing parlours and pitched roofs are usually refused on purpose.",
+            "Schools, factories, sanatoria and offices gave the movement its other proving grounds. A factory could express its frame and fill the workshop with even, north-facing light. A sanatorium made balconies, sun terraces and washable white surfaces into medical instruments as much as architectural gestures. Schools used ribbon windows and open plans to suggest a healthier, less hierarchical education, while offices adopted the free facade for flexible floors behind regular grids. In each type the plan is organised around movement, light and servicing, and the exterior records those decisions with unusual honesty for the period.",
+            "Within the shared language, learn the strands. The International Style favoured white volumes, regularity softened by function, and a studied weightlessness. The Bauhaus added a workshop culture of art, craft and technology, visible in bold glazing and graphic lettering. De Stijl reduced composition to planes, lines and primary colour, most clearly in small houses. Le Corbusier codified pilotis, free plan, free facade, horizontal windows and roof gardens as his five points. Scandinavian and Brazilian versions warmed the formula with timber, brick, curves and planting, proving that modernism could be humane and regional without surrendering its principles."
+          ]
+        },
+        {
+          "heading": "Look-alikes and dating clues",
+          "figure": "farnsworthHouse",
+          "paras": [
+            "Art Deco is the closest look-alike and the easiest to separate. Deco loves ornament, stylised pattern, rich materials and strong symmetry, often arranging a facade around a central, emphatic entrance. Modernism, by contrast, suppresses applied decoration and allows asymmetry to follow the plan. If zigzags, sunbursts, stepped massing and polished stone are doing the expressive work, call it Deco, even when the roof is flat. If expression comes from sliding volumes, plain render and the disposition of windows alone, call it modernist. The two styles shared technology and dates, but they held opposite views about decoration.",
+            "Postwar vernacular modern is harder, because it borrows the flat roof, brick panels and horizontal windows without the early manifesto intensity. System-built schools, clinics and housing often standardise components, repeat bays mechanically and accept heavier proportions for economy. Judge the detailing: pioneering work tends to be crisp, experimental and sometimes fragile, while later production is robust, repetitive and thrifty. Contemporary neo-modern buildings complicate matters further by quoting white boxes and corner windows with far better insulation, sealed glazing and crisp aluminium systems. Their perfection, services and thermal detailing usually betray a twenty-first-century date.",
+            "Date the fabric itself. Early buildings often use slender steel windows that corrode, rattle and subdivide the glass into small panes. Later work shifts to larger aluminium sections, patent glazing and eventually double-glazed units. Concrete tells its own story through weathering, patch repairs and the exposure of aggregate, though cleaning can confuse the evidence. The Farnsworth House in Illinois, completed in 1951, shows the limit case: a single glass room lifted on steel columns, with almost no solid wall at all. There the plan, reduced to a core and a terrace, becomes the entire architectural argument."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brutalism-id",
+      "numeral": "XIV",
+      "title": "Brutalism: Concrete, Honest and Misread (c. 1950–1980)",
+      "sections": [
+        {
+          "heading": "The five signs",
+          "paras": [
+            "Begin with the surface. Brutalism makes concrete show how it was made, leaving the grain of timber formwork, tie holes and shutter joints legible across the wall. This finish, known by the French term béton brut, is not a failure to plaster or paint. It is the point. Board-marking records the carpentry of construction in the finished building, so a close look rewards you with plank widths, nail patterns and slight misalignments. When concrete is deliberately rough, repetitive and unadorned, and the building wants you to notice, you have found the first and most reliable sign.",
+            "The second sign is mass handled sculpturally. Brutalist buildings rarely read as thin frames with infill panels. They present deep reveals, heavy overhangs, battered walls, chunky balconies and volumes that seem carved or cast as one substance. Rooflines step, blocks interlock, and window openings punch through thick concrete with shadowed depth. This weight is expressive as well as structural, giving civic and housing projects a fortress-like presence that supporters call honesty and critics call menace. Stand back and ask whether the form would survive translation into brick or steel. If not, its concrete mass is essential.",
+            "Third, the section is expressed outside. Stair towers, lift shafts, service ducts, water tanks and escape routes are pulled out of the main volume and given distinct shapes, so circulation and servicing can be read at a distance. A tower of stairs may rise as a separate concrete fin, while a boiler flue or ventilation trunk becomes a sculptural marker. Repetitive precast or in-situ grids supply the fourth sign, and function supplies the fifth: lecture theatres bulge, bin stores project, and access decks declare themselves. You should be able to narrate the building before entering it."
+          ]
+        },
+        {
+          "heading": "Where you meet it",
+          "figure": "trellick",
+          "paras": [
+            "Housing made Brutalism famous and, for many people, infamous. Postwar councils built towers and estates in concrete to replace bombed or overcrowded districts quickly and at high density. The best schemes combined maisonettes, decks, balconies and communal facilities in a single, legible system. Trellick Tower in London, completed in 1972, separates its lift and service tower from the slab of flats and links the two with bridges, making the diagram visible from streets away. Smaller balconies, deep concrete fins and a powerful silhouette complete a design that is social programme and sculpture at once.",
+            "Universities, civic centres, car parks and arts complexes adopted the same language for public ambition. A new university could cast lecture theatres, libraries and laboratories as a small concrete city, with raised walkways and courts. Town halls and courts used heavy frames and coffered soffits to suggest permanence and authority. Multi-storey car parks, often dismissed as pure utility, reveal some of the clearest Brutalist thinking: ramps expressed as split levels, open grids for ventilation, and massive upstands. Arts centres stacked foyers, galleries and auditoria into layered concrete landscapes that invite exploration between performances.",
+            "The movement had authors and a worldwide reach. In Britain, Alison and Peter Smithson argued for an ethic of materials used as found and for streets in the sky that preserved older patterns of neighbourliness at height. Le Corbusier's late work, from the Unité to the civic buildings at Chandigarh in India, supplied models of rough concrete, deep shade and monumental section. From London the language travelled and changed, appearing in Belgrade's vast housing blocks, in Japanese metabolist experiments, and in university and government buildings across Africa, Latin America and South Asia."
+          ]
+        },
+        {
+          "heading": "Look-alikes and dating clues",
+          "paras": [
+            "Separate Brutalism from generic concrete modernism by ethic, not by material alone. Plenty of postwar buildings use concrete frames yet hide them behind brick, tile, metal panels or smooth render, aiming for neutrality rather than expression. Brutalism insists that structure and material remain exposed and that the impression of making survives. If the concrete is merely the cheapest way to achieve a smooth, light-looking box, the building is modernist in method but not Brutalist in spirit. Look for intention in surface, mass and section together. One rough wall is not enough to settle the verdict.",
+            "Late modernism offers another confusion, especially in large commercial and institutional work of the nineteen-seventies. Its megastructures can be huge, repetitive and concrete-framed, but they tend towards smooth cladding, reflective glass, polished stone and corporate regularity. Brutalism is usually rougher, more plastic and more willing to let awkward functions disturb the composition. Dating clues help: exposed aggregate panels, bush-hammered finishes, chunky precast units and deeply modelled balconies belong firmly to the middle decades. Estate planning is also evidence, with deck access, podium parking, separated pedestrians and generous but undefined communal ground pointing to the same period.",
+            "Today's board-marked concrete fashion is the revival trap. Architects and interior designers now prize shuttered concrete for restaurants, galleries and expensive houses, borrowing the surface while rejecting the social scale and roughness of the original movement. The result can be exquisite, warm and paired with timber, brass and planting in ways a nineteen-sixties housing block never was. Date by context and detail: high-performance glazing, concealed services, refined junctions and small-scale luxury use suggest a revival rather than an original. A true Brutalist building usually carries the marks of public commissioning, repetition and weathering at urban scale."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vernacular-id",
+      "numeral": "XV",
+      "title": "Vernacular and Regional: When Style Is the Wrong Question",
+      "sections": [
+        {
+          "heading": "Buildings without architects",
+          "paras": [
+            "Vernacular building is produced from local materials and inherited patterns rather than from a named designer's drawing. A farmer, mason or carpenter builds as neighbours have built before, adjusting a known type to a particular family, slope and purse. The result answers climate, available craft and daily work with remarkable economy. Thick walls store heat, small openings limit winter loss, deep eaves throw off rain, and roofs follow the span that local timber can manage. Style labels developed for churches, palaces and fashionable houses mostly fail here, because change is slow, collective and practical.",
+            "That failure is instructive. A cottage may preserve a plan older than its walls, carry a roof rebuilt many times, and wear windows inserted by several generations. Asking whether it is Tudor, Georgian or Victorian often produces a false precision. Ask instead what you can read reliably. Notice where the stone, brick, earth or timber comes from, how the roof is pitched and covered, and whether rooms are arranged in a line, around a yard, or under one great roof. Those habits reveal region, livelihood and date ranges more honestly than a borrowed stylistic label.",
+            "Vernacular does not mean primitive, artless or untouched by design. On the contrary, the best traditional buildings show refined judgement in siting, proportion and detail, honed by repetition over centuries. A doorway may be placed to avoid the prevailing wind, a barn aligned for threshing draughts, or a farmhouse turned to watch its yard and fields. Ornament exists, but it often concentrates where craft and status meet: a dated lintel, patterned brickwork, carved bargeboards or a handsome chimney stack. Read such touches as local emphasis within a shared language, not as the arrival of a metropolitan style."
+          ]
+        },
+        {
+          "heading": "Where you meet it",
+          "figure": "shirakawa",
+          "paras": [
+            "In the Japanese village of Shirakawa-go, steep thatched roofs define the gassho-zukuri farmhouses. Their great pitched forms, built without nails in the traditional frame, shed heavy snow and create tall internal spaces once used for rearing silkworms. The name refers to hands joined in prayer, and the silhouette is unforgettable. Yet the form is first a response to snowfall, timber construction and a household economy. Village preservation now protects both the buildings and the communal rethatching work that sustains them. Here landscape, climate, structure and social organisation are inseparable, and a purely stylistic reading would miss the point.",
+            "Cotswold stone villages offer a contrasting lesson in limestone, slate-like stone tiles and mullioned windows. Houses and barns share walls, roofs and details because they draw on the same quarries and masons, producing coherence without a single designer. In the Mediterranean, whitewash reflects heat, moderates glare and unifies patched masonry, while shutters, balconies and small courtyards manage sun and air. Courtyard houses in many hot regions turn inward for shade, privacy and security, presenting plain walls to the street and richer life within. Each tradition makes climate visible, but each does so through a distinct material culture.",
+            "Regionalism is the deliberate modern answer to these lessons. Rather than copying old forms, architects abstract local principles: deep shade, courtyards, local stone, screened openings and roofs fitted to rainfall. Critics call the thoughtful version critical regionalism, because it resists both placeless international building and sentimental imitation. Identify it by tension. The plan and construction are plainly modern, yet siting, materials and environmental devices belong to one place rather than any place. A good regional building could not be moved unchanged to another climate without losing its logic, even though it wears no historical costume."
+          ]
+        },
+        {
+          "heading": "Look-alikes and dating clues",
+          "paras": [
+            "The picturesque model village is the first look-alike. Landowners and industrial patrons built cottages with varied roofs, decorative chimneys and artfully irregular plans to create an image of rural harmony. Unlike slowly evolved settlements, a model village often appears at one date, under one patron, with a consistent level of prettiness and planning. Revival cottages in estate villages and garden suburbs borrow vernacular language more loosely, mixing tile-hanging, half-timbering and leaded lights for charm. Their regularity, services and suburban plots usually reveal design intent, however skilfully the traditional details are reproduced.",
+            "Date vernacular fabric through construction, not silhouette. Timber framing can show jowled posts, close studding, curved braces or later softwood scantling, each pointing to a period and region. Brick bonds matter: irregular early brickwork, Flemish and English bonds, and later machine-made uniformity chart changing production. Roof coverings are equally eloquent, from thatch and stone slate to clay tile, Welsh slate carried by canal and railway, and finally concrete tiles. A steep pitch may survive long after its original thatch has been replaced by slate, so read pitch and covering as separate pieces of evidence.",
+            "Distinguish honest repair from restoration that invents a past. A repaired wall usually keeps patched materials, slight irregularities and evidence of successive campaigns, because its aim is continued use. Restoration may regularise windows, rebuild gables, remove plaster or replace sound old fabric to achieve a single-period appearance. Neither approach is automatically wrong, but your description should name what you see. Record surviving early material separately from later work, note reused timbers and reset stones, and resist assigning one confident date to a layered building. Vernacular evidence rewards cautious ranges and clear distinctions between fabric, form and legend."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "great-confusions",
+      "numeral": "XVI",
+      "title": "The Great Confusions: A Dichotomous Key",
+      "sections": [
+        {
+          "heading": "How a key works",
+          "figure": "towerBridge",
+          "paras": [
+            "A dichotomous key identifies by paired questions. At each step you choose the statement that fits, eliminate half the field, and move to a narrower pair. Botanists use keys for plants whose names are unknown, and buildings reward the same discipline. Begin with broad, observable contrasts: is the structure masonry or framed, the arch round or pointed, the decoration applied or integral, the plan symmetrical or free? Avoid starting with a date or a famous name. A good key forces you to look in sequence and prevents one attractive detail from deciding the whole verdict prematurely.",
+            "Tower Bridge in London is the ideal opening exercise because its evidence votes in different directions. The silhouette, turrets, pointed windows and stone cladding suggest a Gothic castle guarding the river. Yet the bridge was completed in 1894 as a steel-framed bascule bridge, clad in stone to harmonise with the nearby Tower of London. Its movable roadways, high walkways and engineering belong to the industrial nineteenth century, not to medieval fortification. Structure and plan expose the modern work, while dress supplies the historical association. The honest label is therefore Gothic Revival engineering, not Gothic.",
+            "Use the key aloud when you can. Say which test you applied, what you observed, and what it eliminated. If a companion disagrees, the disagreement will usually locate a specific window, moulding or junction that needs a second look. That is the value of the method: it turns taste into evidence. It also handles hybrids gracefully, because a building can pass the structural test for one family and the ornamental test for another. Your final phrase may need two parts, naming both the underlying building and the clothing or campaign that altered it."
+          ]
+        },
+        {
+          "heading": "The famous pairs",
+          "paras": [
+            "Gothic against Romanesque turns first on the arch and the vault. Round arches, thick walls and small windows indicate Romanesque, called Norman in Britain, while pointed arches, rib vaults and larger glazed openings indicate Gothic. Next test the elevation: Romanesque mass feels punched through, whereas Gothic structure gathers loads into piers and buttresses. For Renaissance against Neoclassical, look for archaeological severity. Renaissance work revives classical orders with fresh, often varied invention. Neoclassical work, later and more austere, favours correct Greek or Roman models, plainer surfaces and a more monumental, sometimes stripped, sense of scale.",
+            "Art Nouveau against Art Deco turns on the line. Nouveau uses the whiplash curve, plant-like growth and asymmetry that seems to sprout across metalwork, glass and carving. Deco straightens the curve into zigzags, chevrons, sunbursts and stepped profiles, often restoring symmetry and using sleek, expensive materials. Baroque against Rococo turns on weight and movement. Baroque is grand, sculptural and dramatic, bending whole facades and plans. Rococo is lighter, later and more intimate, dissolving ornament into shells, scrolls and delicate asymmetry, especially indoors. In each pair, date supports the visual test but should not replace it.",
+            "Modernism against Deco repeats the discipline of the previous chapter: ask whether ornament is the message or whether the free plan generates the form. Then test original against revival, the most consequential pair of all. An original building shows construction, wear and planning consistent with its supposed period. A revival selects the most recognisable features of an earlier style and combines them with later structure, services and expectations of comfort. Look behind the front, into roof carpentry, floor levels, brickwork, heating and plan. Revivals often quote a style more completely and correctly than the untidy originals ever did."
+          ]
+        },
+        {
+          "heading": "When the votes tie",
+          "figure": "elthamPalace",
+          "paras": [
+            "Some buildings stand between styles because they were made during a transition. Durham Cathedral, begun in 1093, is Romanesque in its massive piers and round arches, yet its rib vaults point towards the Gothic future. Neither label alone is false, but each is incomplete without explanation. In such cases name the dominant character first and record the forward-looking feature second. Transitional evidence is historically precious, since it shows masons solving structural problems before a new style had hardened into rules. Resist the urge to tidy these buildings into one camp for the sake of a neat answer.",
+            "Other buildings mix styles because different centuries built different parts. Eltham Palace in London joins a medieval great hall, with a magnificent hammerbeam roof of the fourteen-seventies, to a nineteen-thirties house of refined Art Deco and modern planning. The contrast is not an error to resolve but the building's biography: a royal medieval survival became the core of a fashionable modern home. Walk the junction. Changes in material, level, roofline and plan usually mark the campaign boundary clearly. Your verdict should preserve both dates and explain the relationship, rather than averaging them into a vague compromise label.",
+            "Buildings also change style during construction, as patrons die, funds alter or fashion moves faster than scaffolding. A nave begun in one manner may be completed in another, leaving a visible break in tracery, mouldings or vault design. Learn to write a two-part verdict honestly, giving feature, date and campaign in order: 'Decorated Gothic, c. 1300, refaced 1890' tells a reader what is medieval, what is Victorian and where doubt remains. Such precision is not pedantry. It is the difference between a label that hides evidence and a sentence that preserves it for the next observer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mixed-and-faked",
+      "numeral": "XVII",
+      "title": "Mixed Buildings, Revivals, Restorations and Fakes",
+      "sections": [
+        {
+          "heading": "The layered building",
+          "paras": [
+            "Most old buildings are several buildings occupying one site. A nave outlasts its chancel, a tower gains a spire, a farmhouse gains a polite front, and a shop inserts a new ground floor beneath older rooms. Survival is rarely even, because money, fire, fashion and use strike different parts at different times. Begin therefore with campaigns rather than a single date. Divide the building into masses that seem built together, then test each mass by its materials, openings and roof. Only after that exercise should you arrange the masses into a sequence of construction, alteration and repair.",
+            "The standing wall is an archaeological deposit turned upright. Breaks in coursing where one build meets another, straight joints between phases, changed mortar colour and differing stone sizes all mark interruptions. Blocked doors and windows preserve earlier circulation, sometimes visible as a faint arch in plaster or a rectangle of different brick. Putlog holes, scarred rooflines and weathered stone now protected indoors can reveal a former external wall. Look at quoins and corners especially carefully, because additions often butt against them. A patient circuit at close range will usually expose more chronology than any single impressive feature.",
+            "Roofs and plans complete the evidence. A change in pitch may leave a line across a gable, while two roof structures of different carpentry meet awkwardly over a junction. Inside, floor levels step where houses were combined, beams are reused with empty mortices from an earlier life, and fireplaces block former openings. Draw a simple phased plan as you go, using different lines or notes for each campaign. The drawing need not be beautiful. Its purpose is to stop later impressions from blurring distinctions you observed clearly on site, and to make uncertainty visible rather than hidden."
+          ]
+        },
+        {
+          "heading": "Restoration: rescue and invention",
+          "figure": "castellCoch",
+          "paras": [
+            "Restoration can rescue a ruin or invent the building it claims to save. The nineteenth-century French architect Viollet-le-Duc defined restoration as returning a building to a condition of completeness that may never have existed at any given moment. That candid phrase explains both the brilliance and the danger of his work. At Carcassonne, steep conical roofs on the towers still provoke debate about regional precedent and dramatic effect. Were they scholarly reconstructions or a northern imagination imposed on a southern fortress? The question matters because restoration teaches visitors what to believe about the past.",
+            "Castell Coch, above Tongwynlais near Cardiff, makes invention visible and enjoyable. A medieval castle, ruined for centuries, was rebuilt from the eighteen-seventies for the Marquess of Bute to designs by William Burges, with conical-capped towers, a working drawbridge effect and interiors of intense Victorian fantasy. Medieval footings and scholarship underpin the scheme, but the result is unmistakably a nineteenth-century dream of the Middle Ages. Identify it by that double character. The plan remembers the old stronghold, while silhouette, carving, colour and domestic planning belong to the age that rebuilt it with industrial wealth.",
+            "Modern conservation doctrine answers with legible repair. The Venice Charter of 1964 urged respect for historic material, caution about conjecture and distinguishable additions, so that new work supports survival without counterfeiting age. In practice that may mean a plain new stone set honestly among carved originals, a contemporary handrail beside an ancient stair, or a ruin stabilised rather than completed. Not every repair must shout, but it should not lie under close inspection. When judging a restored building, ask what is original fabric, what is evidence-based replacement and what is a later imagination presented as fact."
+          ]
+        },
+        {
+          "heading": "Fakes, pastiches and theme buildings",
+          "paras": [
+            "Commercial pastiche borrows a style to sell an experience or reassure a customer. Pubs acquire beams that support nothing, restaurants hide steel frames behind half-timbering, and shopping centres assemble Italianate arcades or Georgian terraces around car parks. Neo-vernacular housing estates quote Tudorbethan gables, tile-hanging and lattice windows, or distribute Georgian doors and sash windows over plans driven by garages and modern room sizes. Theme-park architecture goes further, making imitation the attraction itself. None of these buildings fools the fabric for long, but each can be attractive, well built and popular, which is why identification should remain analytical rather than sneering.",
+            "Date them anyway, using the evidence they cannot easily disguise. Materials reveal manufacture: uniform bricks, applied timber, plastic windows, concrete tiles and cavity-wall construction narrow the range quickly. Services are equally candid, from soil pipes and meters to burglar alarms, satellite dishes and ventilation grilles. Plot patterns speak too, since closes, distributor roads, standard house types and parking courts belong to development practice rather than to the quoted period. Documents, datestones, sales particulars and planning records may confirm the campaign. A supposed Tudor manor with a nineteen-eighties estate around it has already told you its story.",
+            "A fake is still evidence, though not evidence of the period it imitates. It records its own time's taste: which past seemed safe, prosperous, romantic or commercially useful when it was built. Interwar Tudorbethan suburbs speak of a longing for rural stability, while recent Georgian pastiche promises respectability in brick and sash windows. Even a theme building preserves real craft and real assumptions about its audience. Record it accurately, therefore, naming the quoted style, the actual date and the construction where you can. Contempt adds no information, and today's pastiche may become tomorrow's valued period piece."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "numeral": "XVIII",
+      "title": "Reading a Building: The Field Method in Full",
+      "sections": [
+        {
+          "heading": "The worked example",
+          "figure": "sainteChapelleUpper",
+          "paras": [
+            "Apply all six passes slowly to Sainte-Chapelle in Paris, and begin where the method begins, with silhouette. The chapel rises inside a courtyard of the former royal palace on the Ile de la Cite, its steep roof and slender spire announcing a precious vertical object rather than a parish church. From outside, tall windows dominate the upper walls, separated by strong buttresses, while a lower, more solid storey supports the whole composition. Even before detail, the building tells you that display, height and protected splendour mattered more than capacity for a large congregation or the expression of massive masonry.",
+            "Structure and openings carry the second and third passes. The upper chapel is a buttressed cage in which stone piers gather the thrusts and iron ties help stabilise the frame, allowing the walls between supports to open almost entirely as glass. Fifteen windows, each about fifteen metres high, fill the upper storey with stained glass separated by delicate Rayonnant tracery. There is no triforium competing for attention, and the glass descends close to the dado, so the room feels like a jewelled reliquary enlarged to architectural scale. Count the windows and measure them by eye against the piers.",
+            "Ornament, materials and plan complete the verdict. Rayonnant bar tracery organises the glass, sculpture and painted surfaces enrich the stone, and the dado arcade carries heraldic and biblical imagery in strong colour. Stone, glass, paint, gilding and iron work together rather than competing as separate trades. In plan the building has two storeys: a lower chapel for palace servants beneath the king's upper chapel, reached by narrow stairs and centred on the display of relics. Together the passes justify a confident verdict: Rayonnant Gothic, built in the twelve-forties as a court chapel of exceptional purpose."
+          ]
+        },
+        {
+          "heading": "The ten-minute protocol",
+          "paras": [
+            "For any unfamiliar building, give the method ten ordered minutes. Photograph it wide first, including roof, neighbours and street, then read the silhouette before approaching detail. Find the structure next: walls, frame, buttresses, trusses or expressed services, and decide what actually holds the building up. List the openings in order of size and type, noting arches, tracery, glazing bars and window profiles. Name the ornament only after that survey, asking whether it is structural, applied, integral or absent. This sequence prevents a decorative doorway from outweighing the evidence of plan, mass and construction considered together.",
+            "Touch the materials where touch is permitted, or inspect them closely enough to distinguish stone from render, timber from applied boards, and hand-made irregularity from machine-made repetition. Infer the plan from entrances, chimneys, stairs, window spacing and service yards, then check the context: street pattern, neighbouring dates, plot width, orientation and later extensions. A building read without its setting loses half its testimony. Finally state the verdict with its confidence and its second choice, for example 'Early English Gothic, high confidence; Decorated tracery would be the alternative if the mouldings prove later'. That sentence is your field record.",
+            "When evidence conflicts, do not average it away. Return to the highest-order evidence first: structure and plan usually outweigh detachable ornament, original fabric outweighs restoration, and a documented campaign outweighs a family story. Record the conflict in your note with the feature that causes it, because a later visit or a better photograph may resolve it. If two styles remain possible, say so and give the test that would decide between them. A verdict with stated uncertainty is more useful than a confident guess, and it teaches you exactly what to examine next time."
+          ]
+        },
+        {
+          "heading": "Keeping the habit",
+          "paras": [
+            "Style recognition is a reading skill, and like any literacy it compounds with practice. Sketch what you cannot yet name, because drawing forces you to notice springing lines, junctions and proportions that a photograph can flatten. Keep a notebook organised by place rather than by style, so neighbouring buildings correct one another and local materials become familiar. Return to the same street in different seasons and light. Repetition turns lists of features into recognition, until the arch shape or window profile announces itself before you have consciously worked through the key you learned at first.",
+            "Compare neighbours relentlessly. One street may contain a medieval church, Georgian houses, a Victorian school, a Deco cinema, postwar flats and a recent pastiche, each clarifying the others by contrast. Ask what changed in technology, transport, religion, education and domestic expectation to produce the sequence you see. The other volumes in this series then become deep references for each style you meet, supplying the history and detail behind the field signs used here. Use them after observation, not before it, so that reading the building remains primary and the book confirms or corrects rather than replaces looking.",
+            "End with humility. A label is a summary of evidence, not a spell that settles a building forever, and new fabric, documents or cleaning can change the balance of a verdict. Be ready to revise, to leave a date range open, and to admit when a building is vernacular, mixed or simply not yet understood. That restraint is not failure. It is the condition that keeps observation honest and curiosity alive. Walk away slowly, look back once more at the silhouette, and let the building, rather than your label, have the last word."
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [
+    [
+      "Thomas Rickman (1776–1841)",
+      "The founder of the discipline. A Liverpool architect who, in An Attempt to Discriminate the Styles of Architecture in England (1817), compared hundreds of churches feature by feature and fixed the period names still in use — Norman, Early English, Decorated, Perpendicular. His method, not his conclusions, is this book's inheritance: compare everything, let nothing decide alone."
+    ],
+    [
+      "A. W. N. Pugin (1812–1852)",
+      "The revivalist who made misreading a programme. In Contrasts (1836) and The True Principles (1841) Pugin argued that Gothic was faith made visible and classicism pagan; the Gothic Revival he ignited filled Britain with buildings intended to look medieval. The identifier studies him because he is the reason the nineteenth century cannot be read at face value."
+    ],
+    [
+      "John Ruskin (1819–1900)",
+      "The great describer. The Stones of Venice (1851–53) taught Europe to look at mouldings, capitals and weathering as moral facts, and his 'Lamp of Truth' condemned shams and restorations alike. Ruskin's eye — trained on the surface, suspicious of the machine — remains the field reader's best training, and his hatred of restoration an early statement of the honest-fake problem."
+    ],
+    [
+      "Eugène Viollet-le-Duc (1814–1879)",
+      "The restorer-analyst. His Dictionnaire raisonné (1854–68) read Gothic as pure structural reason, the deepest analysis the style has ever had; his restorations — Vézelay, Notre-Dame, Carcassonne — practised his definition of restoring as reinstating 'a condition of completeness that could never have existed at any given time'. He is both this book's method and its warning."
+    ],
+    [
+      "Banister Fletcher (1866–1953)",
+      "The systematiser. A History of Architecture on the Comparative Method (1896, with his father; his alone through many editions) set all the world's styles side by side in measured drawings — the famous 'Tree of Architecture'. Generations learned the styles from Fletcher's plates; the comparative page is the ancestor of every plate series in this series, this book included."
+    ],
+    [
+      "Nikolaus Pevsner (1902–1983)",
+      "The cataloguer. Pevsner's An Outline of European Architecture (1943) made the history of styles a pocketable narrative, and his Buildings of England (1951–74) modelled county-by-county field identification at national scale. His distinction between architecture and mere building — the bicycle shed and Lincoln Cathedral — still opens every discussion of what deserves reading closely."
+    ],
+    [
+      "John Summerson (1904–1992)",
+      "The grammarian of classicism. The Classical Language of Architecture (1963), from his BBC broadcasts, reduced the orders to a usable grammar of statement and inflection; his Georgian London and his essays on the picturesque did the same for the classical city. Where Rickman keyed the Gothic centuries, Summerson keyed the classical ones."
+    ],
+    [
+      "Virginia Savage McAlester (1943–2020)",
+      "The field guide's perfector. With Lee McAlester, A Field Guide to American Houses (1984; revised edition 2013) organised identification as a pictorial key — shape first, then roof, then detail — across nearly nine hundred pages of drawings and photographs. Her principle that a house is identified by its form before its ornament is quoted, in substance, on every field page of this book."
+    ],
+    [
+      "John C. Poppeliers (b. 1932) and S. Allen Chambers Jr.",
+      "The compact guides. Their What Style Is It?: A Guide to American Architecture (1983), written for the National Trust for Historic Preservation and revised in 2003, proved the method could be carried in a coat pocket: one page of signs per style, look-alikes named, no wasted words. The present book's field chapters are built to their measure."
+    ],
+    [
+      "James Stevens Curl (b. 1937)",
+      "The lexicographer. Curl's Dictionary of Architecture and Landscape Architecture (Oxford, 1999) gave the identifiers their reference shelf: every term in this book's glossary has a longer, sterner life in his pages. His polemics against careless modern usage are the discipline's conscience — a reminder that a wrong word is a wrong identification waiting to happen."
+    ]
+  ],
+  "fiveSigns": [
+    {
+      "name": "Silhouette: read the outline first",
+      "look": "Step back until the whole building fits in one view and read its outline against the sky. Mass that sits — low, broad, horizontal, roofed close to the ground — speaks of the masonry ages: Romanesque towers, classical domes, Georgian terraces composed like palaces. Lines that reach — spires, pinnacles, flying buttresses, setbacks pulling upward — announce Gothic or Deco. A box that floats on pilotis or a sculptural concrete mountain declares the twentieth century before a single detail is visible. The silhouette is the fastest sign because it is set by the building's whole conception, and it cannot be altered by a change of windows or a coat of paint.",
+      "limit": "Skylines are the most edited part of any old building: towers are finished centuries late, spires added by restorers, roofs rebuilt after fires. Carcassonne's famous outline is substantially a nineteenth-century drawing executed in stone. Read the silhouette of the main mass — nave, body, principal block — rather than its tallest accessory, and let the later passes confirm or correct the first impression.",
+      "img": "salisburySpire"
+    },
+    {
+      "name": "Structure: wall, skeleton or frame",
+      "look": "Ask how the building stands. In a load-bearing masonry building the wall is the structure: its thickness shows in deep window reveals, and openings are holes punched in a solid. In a Gothic building the load is gathered onto a skeleton of piers, ribs and buttresses, and the wall between becomes glass. In a framed building — iron, steel or concrete — the structure is a grid of columns and beams and the façade is a skin hung on it, free to be classical, Gothic or blank. The structural answer outvotes every other sign, because it is the one thing a builder could not fake and a restorer cannot change.",
+      "limit": "Structure can be concealed as well as shown: Victorian frames wear masonry dress, modern concrete frames hide behind brick slips, and Gothic Revival churches of real masonry stand beside framed ones of the same year and parish. Where the frame is hidden, read the plan and the window rhythm — the grid betrays the frame even under a costume, because the skin's divisions answer the columns behind them.",
+      "img": "notreDameFlyers"
+    },
+    {
+      "name": "Openings: the fastest dating evidence",
+      "look": "Windows and doors change fashion faster than any other part of a building, which makes them the identifier's clock. The round arch against the pointed; plate tracery against bar tracery against the panelled grids of Perpendicular; the sash window's glazing bars thickening and thinning across the Georgian decades; the steel ribbon window and the corner window of modernism; the slit and the loggia of Brutalism. Openings are also where revivals confess: a 'medieval' window with plate glass and machine-sharp arrises is a portrait of the nineteenth century, not the thirteenth.",
+      "limit": "Openings are the most replaceable element in the building. Windows are enlarged, blocked, re-glazed and re-invented in every century; a Romanesque church may wear Gothic windows and a Georgian house Victorian ones. Date the openings, by all means — then check whether the wall they are cut into agrees, and give the verdict to the older witness when they disagree.",
+      "img": "chartresRose"
+    },
+    {
+      "name": "Ornament: vocabulary, not verdict",
+      "look": "Ornament is a language with identifiable vocabularies: the chevron and the carved capital, the crocket and the ballflower, the classical orders in their correct and their wilful uses, the shell and C-scroll, the whiplash tendril, the chevron and sunburst, and modernism's eloquent refusal of the whole subject. Name the vocabulary and you have narrowed the field — then ask the decisive question, where the vocabulary comes from: Rome, the plant kingdom, or the machine. The source of the ornament is more diagnostic than its shapes.",
+      "limit": "Ornament is applied, and what is applied can be copied, ordered from a catalogue, or stripped. Nineteenth-century founders and carvers reproduced every historical vocabulary to order; twentieth-century conservation sometimes removes as dishonest what a later age learns to value. Ornament is therefore the confirming vote, never the deciding one — and the absence of ornament, on a building old enough to have worn it, is itself evidence that needs explaining.",
+      "img": "autunTympanum"
+    },
+    {
+      "name": "Materials: the honest witness",
+      "look": "Materials carry two kinds of evidence at once: place and date. Stone is regional — Bath's oolite, the Baltic's brick, Tuscany's marble banding — because before the railway nobody hauled it far; brick sizes, bonds and colours date a wall within decades; stucco, terracotta, cast iron, plate glass, stainless steel, board-marked concrete and the curtain wall each arrive in a known decade and announce it. Weathering is the witness's signature: genuine age rounds arrises, blackens sheltered carving and silvers timber in ways no scenic department has yet convincingly forged.",
+      "limit": "Materials travel further every century, and cleaning can reset the clock: a scrubbed façade of 1250 can look newer than a grimy one of 1925, and reclaimed materials put old fabric into new buildings wholesale. Read materials as probabilities, cross-check them against structure and plan, and distrust any surface that looks uniformly, expensively new on a building that claims to be old.",
+      "img": "uniteMarseille"
+    }
+  ],
+  "gazetteer": [
+    [
+      "Bath, England — the composed city",
+      "The Royal Crescent and the Circus teach classical composition at street scale: thirty houses behind one palace front, then a full circle of the same language. Follow with the Victorian and Edwardian infill and the lesson is complete — one grammar, two centuries, and the joins exactly where the method says to look for them."
+    ],
+    [
+      "London — one street, five styles",
+      "Walk from St Pancras (Gothic Revival, 1868) past the British Library to King's Cross (Italianate train shed, 1852), then south to the stucco terraces of Bloomsbury (Georgian and Neoclassical) and the Portland stone of the interwar years. No city on earth packs the revival problem tighter: within ten minutes, four centuries are quoting each other."
+    ],
+    [
+      "Edinburgh — the two towns",
+      "The medieval Old Town's vertical closes against the New Town's Georgian terraces across one valley: Scotland's two architectures facing each other, with the Greek Revival monuments of Calton Hill — the 'Athens of the North' — completing the classical argument on the skyline."
+    ],
+    [
+      "Barcelona — the grid of styles",
+      "The Eixample's chamfered blocks hold modernisme (Casa Milà, Casa Batlló) inside a classical street grid, with neo-Gothic and Noucentista neighbours on the same corners: the perfect exercise in reading façades one by one while the plan beneath them never changes."
+    ],
+    [
+      "Brussels — the townhouse laboratory",
+      "Whole streets of Art Nouveau (the Horta Museum, the Tassel and Solvay houses) survive among neo-Baroque and classical terraces: small buildings, expensive details, every sign at eye level. The identifier's finest classroom for the curve test and for ornament read as a total work of art."
+    ],
+    [
+      "Vienna — Ringstrasse as catalogue",
+      "The Ring boulevards are a built exhibition of revivals: neo-Gothic Votivkirche, Greek Revival Parliament, Renaissance Revival university and opera — followed, two streets away, by the Secession and the Postal Savings Bank. The nineteenth century's whole argument about style, walkable in an afternoon."
+    ],
+    [
+      "Dessau, Germany — modernism's campus",
+      "The Bauhaus building, the Masters' Houses and the Törten estate stand within one small city: the International Style in its native habitat, restored and weathered — the place to learn how modernism ages, and how its white render reads after ninety winters."
+    ],
+    [
+      "Chicago — the frame city",
+      "The first skyscrapers (the Monadnock's load-bearing mountain against the framed towers beside it), Sullivan's ornamented frames, and the Gothic-dressed Tribune Tower of 1925: Chicago is where the structure pass earns its keep, because here the skin and the skeleton parted company in public."
+    ],
+    [
+      "Napier, New Zealand — the dated rebuild",
+      "Rebuilt after the 1931 earthquake in a single burst of Art Deco, Spanish Revival and stripped classicism, Napier is the world's cleanest dating exercise: one street, one decade, three styles, and signage that has become a fourth. Streamline against zigzag can be learned here in an hour."
+    ],
+    [
+      "Miami Beach — Deco at full colour",
+      "The Art Deco Historic District holds some eight hundred buildings of the 1930s in tropical dress: neon, eyebrows, portholes and pastel render. Identification here is by typography, signage and the streamline curve — the machine style adapted to a beach, and preserved as a district rather than as monuments."
+    ],
+    [
+      "Tel Aviv — the white city",
+      "Four thousand buildings of the 1930s in the International Style, adapted with pilotis, deep balconies and ribbon windows to a Mediterranean climate, and UNESCO-listed as the White City: modernism as a whole urban fabric, and the test case for telling Bauhaus influence from local invention."
+    ],
+    [
+      "Chandigarh, India — the modern capital",
+      "Le Corbusier's Capitol — Assembly, High Court, Secretariat — with the city's housing sectors beyond: Brutalism and late modernism at the scale of a state, in brick and béton brut under Indian sun. The gazetteer's closing lesson: by 1960 the styles of this book are world languages, and their regional accents are the new frontier of identification."
+    ]
+  ],
+  "glossary": [
+    [
+      "Style",
+      "A recurrent system of structure, form, ornament and material shared by buildings of a period and region — a language, not a motif. A building is 'in' a style when the system, not a detail, matches."
+    ],
+    [
+      "Revival",
+      "The deliberate reuse of an earlier style as a programme — Gothic Revival, Greek Revival, Romanesque Revival — usually centuries later and always in the materials and plans of its own time."
+    ],
+    [
+      "Vernacular",
+      "Building produced by local tradition without architects: local materials, inherited plans, climate answers. Identified by region and construction rather than by style."
+    ],
+    [
+      "Pastiche",
+      "A later work assembled from quotations of earlier styles without their structural logic — style as packaging. Distinguished from revival by intent and by the evidence of its fabric."
+    ],
+    [
+      "Dichotomous key",
+      "An identification instrument of paired alternatives — pointed or round, frame or wall — each answer halving the field until one style remains. Rickman's method, and this book's Chapter XVI."
+    ],
+    [
+      "Silhouette",
+      "A building's outline against the sky: massing, roofline, towers and terminations read as one figure. The first pass of the method."
+    ],
+    [
+      "Massing",
+      "The arrangement of a building's volumes — blocks, wings, towers, setbacks — independent of its surface detail."
+    ],
+    [
+      "Load-bearing wall",
+      "A wall that carries the building's loads itself; thickness, small openings and deep reveals are its field marks."
+    ],
+    [
+      "Frame",
+      "A skeleton of columns and beams — timber, iron, steel or concrete — that carries the loads and frees the wall to become a skin."
+    ],
+    [
+      "Curtain wall",
+      "A non-load-bearing outer skin hung from a frame, typically of glass and metal panels; its divisions answer the frame behind it."
+    ],
+    [
+      "Béton brut",
+      "Concrete left unfinished as it comes from the formwork, its surface recording the boards or panels of the mould — Brutalism's signature material and name-source."
+    ],
+    [
+      "Arcade",
+      "A row of arches on piers or columns; blind arcade is the same rhythm applied to a solid wall as ornament."
+    ],
+    [
+      "Tracery",
+      "The stone framework subdividing a Gothic window: plate tracery (openings cut in solid stone), then bar tracery (slender moulded bars), flowing and panel forms after — the Gothic clock."
+    ],
+    [
+      "Orders",
+      "The classical column systems — Doric, Ionic, Corinthian and their Roman and Renaissance descendants — with their rules of proportion and ornament; the grammar of all classical styles."
+    ],
+    [
+      "Portico",
+      "A roofed entrance carried on columns, usually under a pediment: the temple front that Neoclassicism applied to banks, museums and houses."
+    ],
+    [
+      "Rustication",
+      "Masonry cut with deep joints and rough or diamond faces to give weight and texture, graded from basement to piano nobile in Renaissance and classical design."
+    ],
+    [
+      "Aedicule",
+      "A small framed opening — columns or pilasters carrying an entablature and pediment — used for windows and niches as a miniature temple front."
+    ],
+    [
+      "Loggia",
+      "A gallery or room open on one side through an arcade; in modern concrete housing, the deep inset balcony of the Unité is its descendant."
+    ],
+    [
+      "Oriel",
+      "A projecting window carried on corbels or brackets above ground level — a dating gift in Tudor, Jacobean and revival streets."
+    ],
+    [
+      "Mansard",
+      "A roof of two slopes, the lower steep and habitable, named for François Mansart; a dating sign from Parisian Baroque to Second Empire and its revivals."
+    ],
+    [
+      "Setback",
+      "The stepping-back of a tall building's upper floors, whether by zoning law (New York) or by compositional choice — a Deco signature and a zoning document in one."
+    ],
+    [
+      "Whiplash line",
+      "Art Nouveau's characteristic curve — a stem under tension, snapping like a whip (the 'coup de fouet') — in ironwork, carving, glass and lettering."
+    ],
+    [
+      "Streamlining",
+      "The 1930s application of aerodynamic curves and speed lines to buildings and objects: rounded corners, horizontal banding, nautical details — Deco's second manner."
+    ],
+    [
+      "Pilotis",
+      "Columns or piers that lift a building clear of the ground — one of Le Corbusier's five points, and modernism's quickest silhouette sign."
+    ],
+    [
+      "Free plan",
+      "A plan released from load-bearing walls by the frame, so rooms and façades may be arranged independently; the plan evidence of modern construction."
+    ],
+    [
+      "Spolia",
+      "Reused older material — columns, carved stones, whole reliefs — built into a newer fabric; the oldest trap in identification, from Roman temples in churches to reclaimed brick in new housing."
+    ],
+    [
+      "Restoration",
+      "Work returning a building to a chosen earlier state — ranging from repair to Viollet-le-Duc's 'completeness that never existed'. Distinguished from conservation, which keeps all periods legible."
+    ],
+    [
+      "Tooling",
+      "The marks of the tools on stone or brick — hand axe, chisel, saw, machine — a close-range dating witness that restorations and revivals rarely match exactly."
+    ]
+  ],
+  "sources": [
+    {
+      "name": "Smarthistory — art historical style and period surveys",
+      "url": "https://smarthistory.org"
+    },
+    {
+      "name": "UNESCO World Heritage Centre — the List",
+      "url": "https://whc.unesco.org/en/list/"
+    },
+    {
+      "name": "Getty Research — Art & Architecture Thesaurus",
+      "url": "https://www.getty.edu/research/tools/vocabularies/aat/"
+    },
+    {
+      "name": "Historic England — the National Heritage List for England",
+      "url": "https://historicengland.org.uk/listing/"
+    },
+    {
+      "name": "Society of Architectural Historians — SAH Archipedia",
+      "url": "https://sah-archipedia.org"
+    },
+    {
+      "name": "Docomomo International — registers of modern architecture",
+      "url": "https://docomomo.com"
+    }
+  ],
+  "bibliography": [
+    "Rickman, Thomas. An Attempt to Discriminate the Styles of Architecture in England. London: Longman, Hurst, Rees, Orme and Brown, 1817.",
+    "Fletcher, Banister, and Banister F. Fletcher. A History of Architecture on the Comparative Method. London: B. T. Batsford, 1896. (Many subsequent editions, Banister Fletcher's alone.)",
+    "Pevsner, Nikolaus. An Outline of European Architecture. Harmondsworth: Penguin Books, 1943. (Pelican Books.)",
+    "Summerson, John. The Classical Language of Architecture. London: Thames & Hudson, 1963.",
+    "Fleming, John, Hugh Honour and Nikolaus Pevsner. The Penguin Dictionary of Architecture and Landscape Architecture. 5th edition, London: Penguin Books, 1998. (First published 1966.)",
+    "Poppeliers, John C., and S. Allen Chambers Jr. What Style Is It?: A Guide to American Architecture. Washington, DC: Preservation Press, 1983. Revised edition, Hoboken: John Wiley & Sons, 2003.",
+    "McAlester, Virginia, and Lee McAlester. A Field Guide to American Houses. New York: Alfred A. Knopf, 1984. Revised edition by Virginia Savage McAlester, New York: Alfred A. Knopf, 2013.",
+    "Ching, Francis D. K. A Visual Dictionary of Architecture. New York: Van Nostrand Reinhold, 1995. 2nd edition, Hoboken: John Wiley & Sons, 2012.",
+    "Curl, James Stevens. A Dictionary of Architecture and Landscape Architecture. Oxford: Oxford University Press, 1999."
+  ]
 }
 ];
 

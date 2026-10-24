@@ -442,8 +442,15 @@ if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new
 // book PDF (~19.6 MB) in public/downloads/history/ and the flipbook reader's
 // page images (131 pages at reading resolution, ~18.6 MB) in the same
 // folder — a measured addition of ~57.6 MB for this book.
-if (distSizeMb - materialSizeMb > 1080) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 1080 MB`);
+// Raised 1080 -> 1125 on 2026-10-24 for Book 18 of the Architectural History
+// Series (How to Identify a Building's Style field guide deep page + book
+// PDF): 46 licensed Wikimedia Commons photographs plus the owner's final
+// series cover in public/assets/history-deep/how-to-identify-a-buildings-style/,
+// the generated 97-page book PDF (~17.3 MB) in public/downloads/history/ and
+// the flipbook reader's page images (97 pages at reading resolution) in the
+// same folder — a measured addition of ~45.0 MB for this book.
+if (distSizeMb - materialSizeMb > 1125) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 1125 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));
