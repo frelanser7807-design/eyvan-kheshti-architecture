@@ -684,6 +684,48 @@ export const historyStudies = [
       detail1: { src: `${H}/egypt-detail1.jpg`, alt: "The Great Hypostyle Hall at Karnak: rows of carved columns, the central nave's papyrus capitals rising towards the clerestory light", credit: "Photo: Vyacheslav Argenberg, via Wikimedia Commons (CC BY 4.0)" },
       detail2: { src: `${H}/egypt-detail2.jpg`, alt: "Deir el-Bahari from the air: the terraced temple of Hatshepsut against the cliff, with the earlier terraced temple of Mentuhotep II beside it", credit: "Photo: Diego Delso, via Wikimedia Commons (CC BY-SA 4.0)" }
     }
+  },
+  {
+    id: "byzantine-architecture",
+    title: "Byzantine Architecture",
+    facts: {
+      period: "AD 330–1453, with afterlives in Ottoman, Rus' and revival building to the present",
+      geography: "Constantinople and the eastern Mediterranean: Greece, the Balkans, Anatolia, Syria and Egypt, with Ravenna, Venice and Sicily in the west",
+      types: "Domed basilicas and cross-in-square churches, monasteries, city walls and cisterns, baptisteries, palaces and fortifications",
+      note: "Five signs: the dome floating on pendentives above a ring of windows; cloisonné masonry of stone framed in brick; the nine-bay cross-in-square core; gold-ground mosaic dissolving the wall into light; and spolia and repair written openly into the fabric."
+    },
+    context: [
+      "Byzantine architecture is the building culture of the eastern Roman empire across eleven centuries: from Constantine's refoundation of his capital in 330 to its fall in 1453, the same civilisation rebuilt its churches from basilicas into domed halls, survived invasion and Iconoclasm, and settled into the cross-in-square church — a small, tall, mosaic-lined cosmos that it exported from Sicily to Kiev.",
+      "Its constants are the capital and the dome. Constantinople's site, walls and cisterns framed everything; the dome on pendentives, achieved at Hagia Sophia in 537, remained the tradition's measuring rod for a thousand years — answered by Venice at St Mark's, hired out to Norman kings in Palermo, translated to Rus' at Kiev, and finally out-built, by a fraction, in Sinan's Ottoman mosques."
+    ],
+    signs: [
+      { name: "The floating dome on pendentives", look: "A dome meets its square bay through four spherical triangles, and at Hagia Sophia a cornice of forty windows cuts it free of its supports in a ring of light.", limit: "Squinches solve the same junction in earlier, eastern and provincial work; Ottoman and revival domes copy the look without the liturgy.", img: "hero" },
+      { name: "Cloisonné masonry", look: "Each stone framed in thin bricks, with crosses, meanders and letters spelled in brick across the wall — the middle Byzantine facade as jewellery.", limit: "A Greek and Constantinopolitan fashion of the tenth century onward; early work is plainer banded brick and stone.", img: "detail1" },
+      { name: "The cross-in-square core", look: "Nine bays, four columns, one dome: a small church of tall proportions, the whole interior legible in a single turning glance.", limit: "Origins are debated and hybrids abound; later exonarthexes, chapels and Baroque skins bury many cores.", img: "detail1" },
+      { name: "Gold-ground mosaic", look: "Gold tesserae set at varied angles turn dome and apse into fields of moving light: Pantocrator above, Virgin in the conch, feasts and saints below.", limit: "Gold marks the imperial purse; fresco and provincial mosaic imitate it, and restorers have reset much of what glows.", img: "detail2" },
+      { name: "Spolia and repair in the open", look: "Reused columns and carved blocks, banded rebuilds after earthquakes, inscribed repair plaques on the walls: the building keeps its own archive.", limit: "Reuse is universal in old building; distinguish structural repair from cosmetic patching, and trophy spolia from mere convenience.", img: "hero" }
+    ],
+    materials: "Brick laid in thick mortar beds for vaults and walls, stone in banding and cloisonné; marble revetment and opus sectile below, gold-ground mosaic or fresco above; timber ties and iron cramps stitching the masonry against Aegean earthquakes.",
+    examples: [
+      { name: "Hagia Sophia", place: "Constantinople (Istanbul), 532–537", note: "Anthemius' and Isidore's domed basilica for Justinian: the pendentive dome of some 31 metres that set the tradition's standard for a millennium.", sourceName: "UNESCO — Historic Areas of Istanbul", sourceUrl: "https://whc.unesco.org/en/list/356" },
+      { name: "San Vitale", place: "Ravenna, consecrated 547", note: "The octagonal church of the reconquest, its apse mosaics setting Justinian and Theodora in the eternal procession of the liturgy.", sourceName: "UNESCO — Early Christian Monuments of Ravenna", sourceUrl: "https://whc.unesco.org/en/list/788" },
+      { name: "Hosios Loukas", place: "Phocis, Greece, early 11th century", note: "The great monastic katholikon: cloisonné walls, carved marble and gold mosaic — the middle Byzantine synthesis at its most complete.", sourceName: "UNESCO — Monasteries of Daphni, Hosios Loukas and Nea Moni of Chios", sourceUrl: "https://whc.unesco.org/en/list/537" }
+    ],
+    lesson: "Read a Byzantine church from its dome downward and its walls inward: pendentive or squinch, cloisonné or banded brick, gold or fresco — geometry, masonry and surface together will date it, place it and price its patron before a single inscription is read.",
+    sources: [
+      { name: "UNESCO — Historic Areas of Istanbul", url: "https://whc.unesco.org/en/list/356" },
+      { name: "UNESCO — Early Christian Monuments of Ravenna", url: "https://whc.unesco.org/en/list/788" },
+      { name: "UNESCO — Monasteries of Daphni, Hosios Loukas and Nea Moni of Chios", url: "https://whc.unesco.org/en/list/537" }
+    ],
+    deepPage: "/magazine/architectural-history-styles/byzantine-architecture/",
+    pdf: "/downloads/history/byzantine-architecture.pdf",
+    bookCover: "/assets/history-deep/byzantine-architecture/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/byzantine-architecture/read/",
+    images: {
+      hero: { src: `${H}/byz-hero.jpg`, alt: "Hagia Sophia in Istanbul: the great dome and half-domes above buttresses and minarets", credit: "Photo: Arild Vågen, via Wikimedia Commons (CC BY-SA 3.0)" },
+      detail1: { src: `${H}/byz-detail1.jpg`, alt: "The west front of Hosios Loukas' katholikon: cloisonné masonry, arched porch and pierced marble screens", credit: "Photo: Hans A. Rosbach, via Wikimedia Commons (CC BY-SA 3.0)" },
+      detail2: { src: `${H}/byz-detail2.jpg`, alt: "The Pantocrator mosaic in the dome of Daphni Monastery, ringed by prophets in gold", credit: "Photo: Dimitris Eleftheriou, via Wikimedia Commons (CC BY-SA 4.0)" }
+    }
   }
 ];
 
