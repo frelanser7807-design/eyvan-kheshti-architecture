@@ -102,9 +102,9 @@
    "slug": "architecture-briefing-2026-10-24",
    "url": "https://worldarchjournal.com/newsletter/architecture-briefing-2026-10-24/",
    "firstPublishedAt": "2026-10-24T05:25:00Z",
-   "deploymentId": null,
-   "verifiedAt": null,
-   "evidence": "daily-articles-newsletter cron run 2026-10-24: 6 fresh stories (ArchDaily x2, Dezeen x2, Arch Record, e-architect), all verified <=72h with licensed photos + Our reading; 2 articles (kitchen-extension-handbook-uk, home-damp-condensation-mould-design-fixes); Gemini consult skipped (429 quota, 3rd day); deploy pending"
+   "deploymentId": "40067461340",
+   "verifiedAt": "2026-10-24T08:30:00Z",
+   "evidence": "daily-articles-newsletter cron run 2026-10-24: 6 fresh stories (ArchDaily x2, Dezeen x2, Arch Record, e-architect), all verified <=72h with licensed photos + Our reading; 2 articles (kitchen-extension-handbook-uk, home-damp-condensation-mould-design-fixes); Gemini consult skipped (429 quota, 3rd day); deploy run 40067461340 SUCCESS; live 200 + sitemap + self-canonical + archive + pair links verified"
   }
  ]
 }
