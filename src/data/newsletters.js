@@ -1,5 +1,6 @@
 import { october22Briefing } from './newsletter20261022.js';
 import { october23Briefing } from './newsletter20261023.js';
+import { october24Briefing } from './newsletter20261024.js';
 
 export const newsletterIssue = {
   slug: 'water-at-the-threshold',
@@ -1112,5 +1113,5 @@ export const october5Briefing = {
   ]
 };
 
-export const newsletterIssues = [october23Briefing, october22Briefing, october21Briefing, october11Briefing, october9Briefing, october8Briefing, october7Briefing, october5Briefing, october2Briefing, october1Briefing, september30Briefing, dailyBriefing];
+export const newsletterIssues = [october24Briefing, october23Briefing, october22Briefing, october21Briefing, october11Briefing, october9Briefing, october8Briefing, october7Briefing, october5Briefing, october2Briefing, october1Briefing, september30Briefing, dailyBriefing];
 export const editorialPath = (entry) => entry.format === 'Daily briefing' ? `/newsletter/${entry.slug}/` : `/magazine/analysis/${entry.slug}/`;
