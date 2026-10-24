@@ -108,6 +108,7 @@ const biophilicDesignArchitecture = {
     <p>Begin with the person’s route, design the section, fund maintenance and define what will be measured after opening. When those decisions align, biophilic design becomes more than a visual language. It becomes a durable relationship between architecture, people and the living world.</p>
   
     <p><strong>Continue exploring:</strong> biophilic principles are easiest to read in a real landscape: <a href="/projects/narbon-villa/">Narbon Villa</a> keeps its orchard, watercourse and old garden wall as the architecture itself — walk the project file and drawings. The same contact with living systems drives our <a href="/articles/small-courtyard-design-light-privacy-cooling/">courtyard house design</a> guide and the <a href="/articles/climate-responsive-facades-cooling-design/">climate responsive facade</a> strategies that keep planted buildings comfortable.</p>
+    <p><strong>From the library:</strong> <a href="/magazine/architectural-history-styles/art-nouveau/">Architecture grown from nature's forms starts here: Art Nouveau — A Complete History (Book I), free to read online</a> — the movement that first wrapped whole buildings in plant life.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international architecture guide'],

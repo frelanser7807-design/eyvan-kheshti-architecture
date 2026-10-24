@@ -12,6 +12,7 @@ export const historyStudies = [
   {
     id: "art-nouveau",
     title: "Art Nouveau",
+    deepRead: "/articles/biophilic-design-architecture-wellbeing/",
     facts: { period: "c. 1890–1910, flourishing 1895–1905", geography: "Belgium and France first, then across Europe and the Americas under local names", types: "Town houses, apartment blocks, department stores, cafés, metro entrances, interiors and furniture", note: "Names vary by country — Modernisme in Catalonia, Jugendstil in Germany, Sezession in Austria — for one international movement, not separate styles." },
     context: [
       "Art Nouveau emerged in the 1890s in prosperous industrial cities whose wealthy clients wanted houses unlike historicist copies. New materials made that possible: exposed iron and glass, large shopfront glazing and thin structural members could curve and open interiors to light. Designers such as Victor Horta in Brussels and Hector Guimard in Paris treated plan, stair, railing and door handle as one continuous design.",
@@ -197,6 +198,7 @@ export const historyStudies = [
   {
     id: "modernism-international-style",
     title: "Modernism & the International Style",
+    deepRead: "/articles/modern-villa-reimagined-7-design-principles/",
     facts: { period: "c. 1920–1965; International Style named after the 1932 MoMA exhibition", geography: "Origins in Germany, France, the Netherlands and Russia; then worldwide, especially the United States after 1938", types: "Housing, schools, offices, pavilions, factories and cultural buildings", note: "Modernism is the wider movement; the International Style is its sleek, white, glass-and-steel strand that travelled most successfully." },
     context: [
       "Modernism emerged from industrialisation, urban housing shortages and the trauma of the First World War. Reinforced concrete, steel frames and plate glass freed walls from structure, while architects such as Le Corbusier, Walter Gropius and Ludwig Mies van der Rohe argued that honest, functional, unornamented buildings could serve a healthier, more democratic industrial society.",
@@ -234,6 +236,7 @@ export const historyStudies = [
   {
     id: "victorian",
     title: "Victorian architecture",
+    deepRead: "/articles/adaptive-reuse-architecture-preserve-value/",
     facts: { period: "1837–1901, the reign of Queen Victoria, with styles continuing into the early 1900s", geography: "Britain and its empire and trading sphere, including North America, India, Australia and South Africa", types: "Houses and terraces, churches, stations, town halls, museums, factories and exhibition halls", note: "Victorian is an era of competing revivals defined by period and region, not one style — Gothic, Classical, Italianate and Arts and Crafts coexist." },
     context: [
       "Victorian architecture emerged from the Industrial Revolution: railways, iron, plate glass, machine-made brick and terra-cotta, and new wealth from industry and empire. A rapidly urbanising society needed stations, town halls, museums, schools and suburbs at unprecedented speed, while pattern books, journals and manufacturers' catalogues spread designs and components across Britain and abroad.",
@@ -461,6 +464,7 @@ export const historyStudies = [
   {
     id: "light-in-historic-buildings",
     title: "Light in historic buildings",
+    deepRead: "/articles/apartment-daylight-layout-design/",
     facts: { period: "Antiquity to the 19th century, with a medieval peak in the 12th and 13th centuries", geography: "Mediterranean world and medieval Europe, with traditions worldwide", types: "Temples, churches, chapels, baths and great halls", note: "Light is a design material, not a style: the same building type can be dark and massive or glazed and luminous in different periods." },
     context: [
       "Before electric light, an interior depended on every opening its structure could afford. Thick load-bearing walls allowed only small windows, so daylight was scarce, directed and precious. Builders treated it as both a practical resource and a meaning in itself: a single beam from an oculus, or coloured light through glass, could mark the sacred centre of a room and tell worshippers where to look.",
@@ -535,6 +539,7 @@ export const historyStudies = [
   {
     id: "the-historic-house",
     title: "The historic house",
+    deepRead: "/articles/small-courtyard-design-light-privacy-cooling/",
     facts: { period: "Roman antiquity to the 19th century, changing with each period", geography: "Mediterranean world, then Europe and its colonies worldwide", types: "Townhouses, hall houses, terraces, villas and manor houses", note: "The house is a building type, not a style: a Georgian terrace and a Victorian villa differ in plan and services as much as in ornament." },
     context: [
       "A house must do in small compass what larger buildings spread out: shelter a household, manage heat, water and waste, receive guests without exposing private life, and show status to the street. Historic plans answer with gradients. Rooms move from public to private, and noisy, smelly service spaces are pushed to a rear wing, a basement or across a courtyard, away from the rooms for living and display.",
@@ -572,6 +577,7 @@ export const historyStudies = [
   {
     id: "persian-architecture",
     title: "Persian Architecture",
+    deepRead: "/articles/courtyard-wind-house-passive-cooling/",
     facts: { period: "c. 1250 BCE to the present, in four great flowerings — Elamite and Achaemenid, Parthian and Sasanian, Seljuk to Timurid, and Safavid", geography: "The Iranian plateau and its cultural sphere: modern Iran, Ctesiphon in Iraq, and Samarkand and Bukhara in Central Asia", types: "Palaces, fire temples, mosques, madrasas, caravanserais, tomb towers, merchant houses, gardens and hydraulic works", note: "Persian is a building tradition, not a single period style: its signatures — the iwan, the dome on squinches, the four-iwan courtyard and the chahar bagh garden — persist across three thousand years and three religions." },
     context: [
       "Persian architecture grew on a high, arid plateau where water is scarce and earthquakes frequent, and its answers became its style: mudbrick and baked brick instead of timber, vaults instead of flat roofs, courtyards that turn inward against heat and dust, and gardens that make water visible as wealth. The Achaemenid kings built Persepolis and Pasargadae from the crafts of a whole empire; the Parthians and Sasanians then invented the tradition's structural core — the open vaulted iwan and the dome carried on squinches over a square room.",
@@ -609,6 +615,7 @@ export const historyStudies = [
   {
     id: "ancient-rome",
     title: "Ancient Rome",
+    deepRead: "/articles/low-carbon-concrete-epd-guide/",
     facts: { period: "c. 753 BC to AD 476 in the West — and far longer as a legacy: eight centuries from walled hill-town to capital of an empire of fifty million", geography: "The city of Rome on the Tiber, then Italy, then an empire on three continents: Europe from Britain to the Danube, North Africa, Egypt and the Near East to Mesopotamia", types: "Temples, fora and basilicas, amphitheatres and circuses, imperial baths, aqueducts, bridges and roads, apartment blocks, villas and palaces, triumphal arches and columns, frontier walls", note: "Roman is a building system, not a single style: concrete cast in place, the arch and the vault, the Greek orders applied as a dress over Roman structure, and infrastructure built to law and measure from Britain to Syria." },
     context: [
       "Rome learned building from its neighbours — the Etruscans gave it the arched drain, the high-podium temple and the habit of engineering as statecraft — and then, in the second century BC, acquired the material that changed everything: concrete made with volcanic ash, cast around rubble and faced in stone or brick. Concrete freed Roman builders from the length of a lintel and the size of a block. Space itself became castable: vaults, domes and curved plans could be poured like pottery, and the architecture of the empire — baths, basilicas, amphitheatres, harbours — is the record of that freedom being used at ever larger scale.",

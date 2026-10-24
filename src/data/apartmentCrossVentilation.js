@@ -79,6 +79,7 @@ const apartmentCrossVentilation = {
     <p>The most honest ventilation diagram contains conditions and boundaries, not only blue arrows. Cross ventilation can make an apartment more adaptable and reduce reliance on cooling during suitable weather, but it succeeds only when architecture, climate, systems and daily life describe the same operable route.</p>
   
     <p><strong>Continue exploring:</strong> air paths are clearest in section. The <a href="/projects/narbon-villa/">Narbon Villa project file</a> documents a house whose two sky rifts pull daylight and air through every level — open its drawings to see the strategy at full scale.</p>
+    <p><strong>From the library:</strong> <a href="/magazine/architectural-history-styles/persian-architecture/">Moving air through a plan is an old art, and the Persian wind-catcher is its classical instrument — read Persian Architecture, Book XIX</a> of the Architectural History Series, free to read online.</p>
   `,
   facts: [
     ['FORMAT', 'International apartment-performance guide'],

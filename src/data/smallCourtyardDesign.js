@@ -105,6 +105,7 @@ const smallCourtyardDesign = {
     <p>Start with the section, define a complete environmental path and make every edge useful. Then test the result against climate, neighbours, maintenance and daily life. When those layers align, a small courtyard stops being a gap in the plan and becomes the room that explains the house.</p>
   
     <p><strong>Continue exploring:</strong> the courtyard at villa scale is documented in <a href="/projects/the-voids-villa/">The Voids Villa project file</a> — three levels of connected courts with the full drawing set — and you can stand inside it in the <a href="/virtual-tours/the-voids-villa/">360° tour</a>. The same light-first logic shapes our guide to <a href="/articles/modern-villa-reimagined-7-design-principles/">modern villa design</a>.</p>
+    <p><strong>From the library:</strong> <a href="/magazine/architectural-history-styles/the-historic-house/">The courtyard house is one of the oldest house types on earth — read The Historic House, Book XV</a> of the Architectural History Series, free to read online.</p>
   `,
   facts: [
     ['FORMAT', 'Evidence-led international residential design guide'],
