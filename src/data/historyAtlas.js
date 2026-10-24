@@ -568,6 +568,43 @@ export const historyStudies = [
       detail1: { src: `${H}/house-detail1.jpg`, alt: "Atrium of a Roman domus at Pompeii", credit: "Photo: Carole Raddato, via Wikimedia Commons (CC BY-SA 2.0)" },
       detail2: { src: `${H}/house-detail2.jpg`, alt: "Uniform Georgian facade of the Royal Crescent in Bath", credit: "Photo: Diliff, via Wikimedia Commons (CC BY 2.5)" }
     }
+  },
+  {
+    id: "persian-architecture",
+    title: "Persian Architecture",
+    facts: { period: "c. 1250 BCE to the present, in four great flowerings — Elamite and Achaemenid, Parthian and Sasanian, Seljuk to Timurid, and Safavid", geography: "The Iranian plateau and its cultural sphere: modern Iran, Ctesiphon in Iraq, and Samarkand and Bukhara in Central Asia", types: "Palaces, fire temples, mosques, madrasas, caravanserais, tomb towers, merchant houses, gardens and hydraulic works", note: "Persian is a building tradition, not a single period style: its signatures — the iwan, the dome on squinches, the four-iwan courtyard and the chahar bagh garden — persist across three thousand years and three religions." },
+    context: [
+      "Persian architecture grew on a high, arid plateau where water is scarce and earthquakes frequent, and its answers became its style: mudbrick and baked brick instead of timber, vaults instead of flat roofs, courtyards that turn inward against heat and dust, and gardens that make water visible as wealth. The Achaemenid kings built Persepolis and Pasargadae from the crafts of a whole empire; the Parthians and Sasanians then invented the tradition's structural core — the open vaulted iwan and the dome carried on squinches over a square room.",
+      "Islam arrived in the seventh century and changed the patron and the programme, not the craftsmen: the Persian mosque took the four-iwan courtyard as its plan, Seljuk builders raised patterned brick to a complete art, and under the Timurids and Safavids glazed tile turned brick structures into blue monuments. The same tradition engineered qanats, ice houses and windcatchers, exported its forms to Mughal India and the Ottoman world, and still shapes Iranian building today."
+    ],
+    signs: [
+      { name: "The iwan", look: "A tall rectangular frame — the pishtaq — rises above the roofline, and inside it a deep vaulted hall opens to the court along its whole front; four iwans facing each other across a courtyard are the classic plan.", limit: "A single arched recess is not yet an iwan: the true sign is the open vaulted hall behind the frame, deep enough to sit in.", img: "hero" },
+      { name: "The dome on squinches", look: "Inside a square chamber, small arches or a honeycomb of niches at the corners step the square into an octagon and the octagon into the dome's circle.", limit: "Byzantium used the pendentive, a spherical triangle; a stepped arch or niche across the corner is the Persian squinch tradition.", img: "detail1" },
+      { name: "Brick first, then glaze", look: "The building's body is brick — early work patterned for its own sake — and from the twelfth century glaze spreads over it: turquoise accents first, then complete mosaic tile skins.", limit: "Glaze alone is not the sign; the Persian sequence — brick, turquoise accent, mosaic faience, haft-rang painting — is diagnostic.", img: "detail2" },
+      { name: "Muqarnas", look: "Under domes and in iwan semi-domes, tiers of small niches step down like a honeycomb — a three-dimensional geometric system projected from a two-dimensional plan.", limit: "Muqarnas is pan-Islamic; the Persian evidence is its early use in stucco and brick and its place inside the squinch zone.", img: "detail2" },
+      { name: "The courtyard and the garden cross", look: "Buildings present a plain wall to the street and unfold around a courtyard; the garden is divided by water channels into four — the chahar bagh — with a pavilion at the crossing or axis end.", limit: "Courtyards are universal in hot climates; the signature is the strict fourfold geometry, the axial pool and the terminating pavilion.", img: "hero" }
+    ],
+    materials: "Historic Persian building is mudbrick and baked brick in mud or lime mortar, vaulted without timber centring where skill allowed, with rubble-and-mortar concrete in Sasanian work, carved stucco, and — from the medieval centuries — glazed tile: monochrome turquoise, mosaic faience and haft-rang painted tile. Stone is reserved for Achaemenid ceremonial building and foundations. The modern equivalent is a brick or concrete frame, which can copy the iwan's profile but rarely its vaulting economy.",
+    examples: [
+      { name: "Persepolis", place: "Fars, Iran", date: "c. 515–330 BCE", look: "The Apadana's standing columns and bull capitals, the processional staircases and their reliefs of tribute bearers from across the Achaemenid Empire.", sourceName: "UNESCO World Heritage Centre", sourceUrl: "https://whc.unesco.org/en/list/114/" },
+      { name: "Meidan Emam and the Shah Mosque", place: "Isfahan, Iran", date: "1598–1629", look: "The great square of Shah Abbas, and the Shah Mosque's courtyard iwan in blue mosaic, rotated from the square's axis to face Mecca.", sourceName: "UNESCO World Heritage Centre", sourceUrl: "https://whc.unesco.org/en/list/115/" },
+      { name: "Dome of Soltaniyeh", place: "Zanjan, Iran", date: "1302–1312", look: "Uljaytu's octagonal mausoleum: among the largest brick domes in the world, carried on a gallery of squinches above an eight-sided chamber.", sourceName: "UNESCO World Heritage Centre", sourceUrl: "https://whc.unesco.org/en/list/1188/" }
+    ],
+    lesson: "Answer the climate with structure, not machinery: vault for shade, catch the wind, store the water, and let one courtyard organise public and private life.",
+    sources: [
+      { name: "UNESCO — Persepolis", url: "https://whc.unesco.org/en/list/114/" },
+      { name: "UNESCO — Meidan Emam, Esfahan", url: "https://whc.unesco.org/en/list/115/" },
+      { name: "Encyclopaedia Iranica — Architecture", url: "https://www.iranicaonline.org/" }
+    ],
+    deepPage: "/magazine/architectural-history-styles/persian-architecture/",
+    pdf: "/downloads/history/persian-architecture.pdf",
+    bookCover: "/assets/history-deep/persian-architecture/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/persian-architecture/read/",
+    images: {
+      hero: { src: `${H}/persian-hero.jpg`, alt: "The courtyard iwan of the Shah Mosque in Isfahan, its pishtaq and flanking arcades covered in blue tile mosaic", credit: "Photo: Radosław Botev, via Wikimedia Commons (CC BY 3.0 pl)" },
+      detail1: { src: `${H}/persian-detail1.jpg`, alt: "The dome of the Sheikh Lotfollah Mosque in Isfahan: the central medallion and the arabesque that spreads from it", credit: "Photo: Phillip Maiwald (Nikopol), via Wikimedia Commons (CC BY-SA 3.0)" },
+      detail2: { src: `${H}/persian-detail2.jpg`, alt: "A girih star-pattern tile mosaic at Shah-i Zinda, Samarkand: interlacing stars in blue, turquoise and white", credit: "Photo: Patrickringgenberg, via Wikimedia Commons (CC BY 3.0)" }
+    }
   }
 ];
 
