@@ -162,6 +162,30 @@ GUIDES = [
         "notes": "Tbilisi is a city of hills: the ridge and gorge sections are steep and exposed, so mix walking with the cable car and Bolt rides. Spring and autumn are the walking seasons. Use the guide as an architecture-led framework and confirm opening hours and access with each venue.",
         "sources": ["Georgia Travel: official visitor information", "The Georgian Guide: Tbilisi Old Town walking tour", "Madloba: Narikala Fortress guide"],
     },
+    {
+        "slug": "doha",
+        "country": "qatar",
+        "country_label": "QATAR",
+        "title": "Doha Architecture & Travel Guide",
+        "subtitle": "A bay city read at two speeds: museum islands, a restored souq and a skyline of twisted glass.",
+        "number": "07",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/View_of_the_Persian_Gulf_and_the_Museum_of_Islamic_Art_in_Qatar_at_dusk.jpg/1280px-View_of_the_Persian_Gulf_and_the_Museum_of_Islamic_Art_in_Qatar_at_dusk.jpg",
+        "credit": "Cover photo: Alexey Sergeev / Wikimedia Commons / CC BY-SA 3.0",
+        "lens": "Desert Rose · Souq · Skyline",
+        "places": [
+            ("Museum of Islamic Art", "I. M. Pei's 2008 museum on an artificial island off the Corniche — creamy limestone massing stepped from square to octagon to circle, inspired by the ninth-century ablution fountain of Cairo's Ibn Tulun Mosque."),
+            ("National Museum of Qatar", "Jean Nouvel's 2019 desert rose — 539 interlocking discs of sand-coloured concrete wrapping the restored palace of Sheikh Abdullah bin Jassim Al Thani."),
+            ("Souq Waqif", "The restored market quarter — spice and textile alleys, the falcon souq with its hooded birds and falcon hospital, and César Baldaccini's golden thumb at the main entrance."),
+            ("Msheireb Downtown", "A 31-hectare quarter rebuilt as a walkable courtyard city — LEED-rated, its lanes and shaded courts reviving the Qatari courtyard house."),
+            ("Katara Cultural Village", "The marble amphitheatre facing the sea, beside the Golden Mosque and the blue-and-gold Katara Mosque by Turkish architect Zainab Fadil Oglu."),
+        ],
+        "routes": [
+            ("Corniche museum loop", "Start at the Museum of Islamic Art, walk the Corniche's south end past the dhow harbour, then continue to the National Museum of Qatar — two museum islands bookending the bay. Allow half a day with interiors."),
+            ("Souq to Msheireb", "Start at Souq Waqif's falcon souq, walk the alleys to Msheireb's courtyard lanes, then finish at the Fanar spiral minaret — old Doha into new Doha in a single walk."),
+        ],
+        "notes": "October to April is the walking season. Plan outdoor routes for morning and evening and keep midday for interiors — this is a city designed around shade and air-conditioning, and your itinerary should be too. Friday prayer hours affect museum and souq opening times; confirm before you set out.",
+        "sources": ["Visit Qatar: official visitor information", "Museum of Islamic Art: official visitor information", "National Museum of Qatar: official visitor information"],
+    },
 ]
 
 
