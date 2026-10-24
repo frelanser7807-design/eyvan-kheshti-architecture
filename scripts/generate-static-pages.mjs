@@ -428,9 +428,51 @@ const promptsPath = '/prompts/';
 const promptsDescription = 'Copy free AI prompts for architecture websites, images, videos, logo motion and animated backgrounds, or explore locked WORLD ARCH PRO collections.';
 const promptsSeoTitle = 'Free AI Architecture Prompts: Copy-Paste for Images & Video';
 const promptsSeoDescription = 'Copy-paste AI prompts for architects: free prompts for architectural images, construction videos, websites and logo motion, plus PRO collections.';
-const promptLinks = promptItems.map((item) => `<li><a href="/prompts/${escapeHtml(item.id)}/">${escapeHtml(item.title)}</a> <b>${item.access === 'premium' ? '♛ PRO · Locked' : 'FREE · Copy-ready'}</b><p>${escapeHtml(item.summary)}</p></li>`).join('');
+const newFreePromptIds = new Set(['land-to-building-construction-prompt', 'fpv-construction-transformation-prompt', 'miniature-hands-building-prompt', 'light-trace-wireframe-building-prompt', 'luxury-villa-miniature-assembly-prompt', 'sketch-to-building-construction-prompt', 'folding-interior-transformation-prompt']);
+const newPromptFaqs = {
+  'land-to-building-construction-prompt': [
+    ['Is this prompt free?', 'Yes. The complete master prompt is published in full on this page, free to copy and use — no purchase or sign-up is required.'],
+    ['What does this prompt create?', 'A 10-second photorealistic construction video: a six-storey residence with stacked, planted terraces grows from an empty dirt site — excavation, concrete frame, envelope and finishes — with a slow orbit and an exploded-layer facade sequence before the final frame locks onto the reference image.'],
+    ['How do I use this prompt?', 'Upload the reference image from this page as the final-frame target in an image-to-video tool such as Veo, Kling or Runway, paste the master prompt, set a vertical 9:16 canvas at 24 fps with a 10-second duration, then generate and compare the last frame with the reference image.'],
+  ],
+  'fpv-construction-transformation-prompt': [
+    ['Is this prompt free?', 'Yes. The complete master prompt is published in full on this page, free to copy and use — no purchase or sign-up is required.'],
+    ['What does this prompt create?', 'A single continuous FPV fly-through of a construction site in which floors, columns, glazing and the travertine facade assemble in a chain reaction around the camera, ending on the finished eight-storey corner building in the reference image.'],
+    ['How do I use this prompt?', 'Upload the reference image from this page as the final-frame target in an image-to-video tool such as Veo, Kling or Runway, paste the master prompt, set a vertical 9:16 canvas at 24 fps with a 10-second duration, then generate and compare the last frame with the reference image.'],
+  ],
+  'miniature-hands-building-prompt': [
+    ['Is this prompt free?', 'Yes. The complete master prompt is published in full on this page, free to copy and use — no purchase or sign-up is required.'],
+    ['What does this prompt create?', 'A 10-second video in which matte-black-gloved hands build a miniature four-storey apartment building — plinth, columns, slabs, facade panels and windows — until the model stands complete at full scale, matching the reference image.'],
+    ['How do I use this prompt?', 'Upload the reference image from this page as the final-frame target in an image-to-video tool such as Veo, Kling or Runway, paste the master prompt, set a vertical 9:16 canvas at 24 fps with a 10-second duration, then generate and compare the last frame with the reference image.'],
+  ],
+  'light-trace-wireframe-building-prompt': [
+    ['Is this prompt free?', 'Yes. The complete master prompt is published in full on this page, free to copy and use — no purchase or sign-up is required.'],
+    ['What does this prompt create?', 'A blue-hour transformation video: glowing light trails trace the outline of a two-storey modern house over an empty site, resolve into a wireframe and then into the real building, ending on the exact reference frame.'],
+    ['How do I use this prompt?', 'Upload the reference image from this page as the final-frame target in an image-to-video tool such as Veo, Kling or Runway, paste the master prompt, set a vertical 9:16 canvas at 24 fps with a 10-second duration, then generate and compare the last frame with the reference image.'],
+  ],
+  'luxury-villa-miniature-assembly-prompt': [
+    ['Is this prompt free?', 'Yes. The complete master prompt is published in full on this page, free to copy and use — no purchase or sign-up is required.'],
+    ['What does this prompt create?', 'A precision miniature-assembly video: gloved hands and tweezers place the walls, glazing, slatted screens, pool and planting of a luxury villa on a dark diorama base, the lighting switches on, and the model transforms to full scale at night.'],
+    ['How do I use this prompt?', 'Upload the reference image from this page as the final-frame target in an image-to-video tool such as Veo, Kling or Runway, paste the master prompt, set a vertical 9:16 canvas at 24 fps with a 10-second duration, then generate and compare the last frame with the reference image.'],
+  ],
+  'sketch-to-building-construction-prompt': [
+    ['Is this prompt free?', 'Yes. The complete master prompt is published in full on this page, free to copy and use — no purchase or sign-up is required.'],
+    ['What does this prompt create?', 'A construction video that starts as a hand sketch of a seven-storey residence drawn on paper, then transitions into the real build — structure, facade and planted glass balconies — and finishes on the exact building in the reference image.'],
+    ['How do I use this prompt?', 'Upload the reference image from this page as the final-frame target in an image-to-video tool such as Veo, Kling or Runway, paste the master prompt, set a vertical 9:16 canvas at 24 fps with a 10-second duration, then generate and compare the last frame with the reference image.'],
+  ],
+  'folding-interior-transformation-prompt': [
+    ['Is this prompt free?', 'Yes. The complete master prompt is published in full on this page, free to copy and use — no purchase or sign-up is required.'],
+    ['What does this prompt create?', 'A 10-second interior transformation video: the flat walls, ceiling, sofa and coffee table of a luxury living room fold along precise diagonal lines into the faceted walnut-and-travertine origami interior of the reference image, filmed from a fixed frontal camera.'],
+    ['How do I use this prompt?', 'Upload the reference image from this page as the final-frame target in an image-to-video tool such as Veo, Kling or Runway, paste the master prompt, set a vertical 9:16 canvas at 24 fps with a 10-second duration, then generate and compare the last frame with the reference image.'],
+  ],
+};
+const promptCardLi = (item) => `<li><img src="${escapeHtml(item.image)}" alt="${escapeHtml(`${item.title} prompt preview`)}" loading="lazy" /><a href="/prompts/${escapeHtml(item.id)}/">${escapeHtml(item.title)}</a> <b>${item.access === 'premium' ? '♛ PRO · Locked' : 'FREE · Copy-ready'}</b><p>${escapeHtml(item.summary)}</p></li>`;
+const newFreeVideoItems = promptItems.filter((item) => newFreePromptIds.has(item.id));
+const otherFreeVideoItems = promptItems.filter((item) => item.access === 'free' && item.category === 'video' && !newFreePromptIds.has(item.id));
+const otherFreeItems = promptItems.filter((item) => item.access === 'free' && item.category !== 'video');
+const proPromptItems = promptItems.filter((item) => item.access === 'premium');
 const promptCategoryLinks = promptCategories.map((category) => `<a href="/prompts/?category=${escapeHtml(category.slug)}">${escapeHtml(category.title)}</a>`).join(' · ');
-const promptsBody = `<main class="seo-route-fallback"><a href="/">WORLD ARCH JOURNAL</a><header><small>WORLD ARCH PROMPT LAB · FREE + PRO</small><h1>AI prompts for architecture, image and motion</h1><p>${escapeHtml(promptsDescription)}</p></header><nav aria-label="Prompt categories">${promptCategoryLinks}</nav><section><h2>Prompt library</h2><ol>${promptLinks}</ol></section></main>`;
+const promptsBody = `<main class="seo-route-fallback"><a href="/">WORLD ARCH JOURNAL</a><header><small>WORLD ARCH PROMPT LAB · FREE + PRO</small><h1>AI prompts for architecture, image and motion</h1><p>${escapeHtml(promptsDescription)}</p><p>New to AI video/image prompts? Start with the free ones — copy, paste, create.</p></header><nav aria-label="Prompt categories">${promptCategoryLinks}</nav><section><h2>Free video prompts</h2><ol>${[...newFreeVideoItems, ...otherFreeVideoItems].map(promptCardLi).join('')}</ol></section><section><h2>More free prompts</h2><ol>${otherFreeItems.map(promptCardLi).join('')}</ol></section><section><h2>WORLD ARCH PRO collections</h2><ol>${proPromptItems.map(promptCardLi).join('')}</ol></section></main>`;
 const promptsSchema = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: `Free & PRO AI Architecture Prompts | ${siteName}`, description: promptsDescription, url: `${siteUrl}${promptsPath}`, inLanguage: 'en', publisher, hasPart: promptItems.map((item) => ({ '@type': 'CreativeWork', name: item.title, description: item.summary, url: `${siteUrl}/prompts/${item.id}/`, image: absoluteUrl(item.image), isAccessibleForFree: item.access === 'free' })) };
 await emit(promptsPath, preparePage({ pathname: promptsPath, title: promptsSeoTitle, description: promptsSeoDescription, image: '/assets/articles/climate-responsive-facades/climate-responsive-facade-hero-v1.jpg', schema: promptsSchema, body: promptsBody }));
 
@@ -440,6 +482,23 @@ for (const item of promptItems) {
   const creativeWork = { '@type': 'CreativeWork', name: item.title, description, url: `${siteUrl}${pathname}`, image: absoluteUrl(item.image), inLanguage: 'en', creator: publisher, isAccessibleForFree: item.access === 'free', learningResourceType: 'Prompt', about: item.category, ...(item.referenceFrames?.length ? { associatedMedia: item.referenceFrames.map((frame) => ({ '@type': 'ImageObject', name: frame.label, contentUrl: absoluteUrl(frame.src), caption: frame.alt })) } : {}), ...(item.access === 'free' ? { text: item.prompt } : {}) };
   const breadcrumb = { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'AI Prompt Library', item: `${siteUrl}/prompts/` }, { '@type': 'ListItem', position: 2, name: item.title, item: `${siteUrl}${pathname}` }] };
   const schema = { '@context': 'https://schema.org', '@graph': [creativeWork, breadcrumb] };
+  let pageSchema = schema;
+  let extraSections = '';
+  if (newFreePromptIds.has(item.id)) {
+    const faqs = newPromptFaqs[item.id];
+    const breadcrumbFull = { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: `${siteUrl}/` }, { '@type': 'ListItem', position: 2, name: 'AI Prompt Library', item: `${siteUrl}/prompts/` }, { '@type': 'ListItem', position: 3, name: item.title, item: `${siteUrl}${pathname}` }] };
+    const product = { '@type': 'Product', name: item.title, description: item.summary, url: `${siteUrl}${pathname}`, image: absoluteUrl(item.image), offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', availability: 'https://schema.org/InStock', url: `${siteUrl}${pathname}` } };
+    const faqPage = { '@type': 'FAQPage', mainEntity: faqs.map(([question, answer]) => ({ '@type': 'Question', name: question, acceptedAnswer: { '@type': 'Answer', text: answer } })) };
+    const graph = [creativeWork, breadcrumbFull, product, faqPage];
+    if (item.video) graph.push({ '@type': 'VideoObject', name: item.title, description: item.summary, thumbnailUrl: [absoluteUrl(item.image)], uploadDate: '2026-10-24', duration: 'PT10S', contentUrl: absoluteUrl(item.video), embedUrl: `${siteUrl}${pathname}` });
+    pageSchema = { '@context': 'https://schema.org', '@graph': graph };
+    const freeSiblings = promptItems.filter((entry) => entry.access === 'free' && entry.category === 'video' && entry.id !== item.id);
+    const startIdx = ([...newFreePromptIds].indexOf(item.id) * 3) % freeSiblings.length;
+    const moreFree = [0, 1, 2, 3].map((k) => freeSiblings[(startIdx + k) % freeSiblings.length]).map((entry) => `<li><a href="/prompts/${escapeHtml(entry.id)}/">${escapeHtml(entry.title)}</a> · Free</li>`).join('');
+    const proCards = promptItems.filter((entry) => entry.access === 'premium').map((entry) => `<li><a href="/prompts/${escapeHtml(entry.id)}/">${escapeHtml(entry.title)}</a> <b>♛ PRO · Locked</b><p>${escapeHtml(entry.summary)}</p></li>`).join('');
+    const faqHtml = faqs.map(([question, answer]) => `<h3>${escapeHtml(question)}</h3><p>${escapeHtml(answer)}</p>`).join('');
+    extraSections = `<section><h2>Frequently asked questions</h2>${faqHtml}</section><section><h2>More free prompts</h2><ul>${moreFree}</ul></section><section><h2>Go further: WORLD ARCH PRO collections</h2><ul>${proCards}</ul></section>`;
+  }
   const category = promptCategories.find((entry) => entry.slug === item.category);
   const accessBody = item.access === 'free'
     ? `<section><h2>${escapeHtml(item.promptLabel)}</h2><button type="button" data-copy-prompt="prompt-master-text">Copy full prompt</button><p>If your browser blocks copying, select the complete text below.</p><pre id="prompt-master-text" style="white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.7">${escapeHtml(item.prompt)}</pre><h2>${escapeHtml(item.secondaryLabel)}</h2><p>${escapeHtml(item.secondaryPrompt)}</p></section><script defer src="/assets/prompt-copy-fallback.js"></script>`
@@ -451,8 +510,8 @@ for (const item of promptItems) {
     : `<figure><img src="${escapeHtml(item.image)}" alt="${escapeHtml(`${item.title} prompt preview`)}" /></figure>`;
   const frames = item.referenceFrames?.length ? `<section><h2>Start and end frames</h2>${item.referenceFrames.map((frame) => `<figure><img src="${escapeHtml(frame.src)}" alt="${escapeHtml(frame.alt)}" loading="lazy" /><figcaption>${escapeHtml(frame.label)} · <a href="${escapeHtml(frame.src)}" download>Download JPG</a></figcaption></figure>`).join('')}</section>` : '';
   const relatedPrompts = promptItems.filter((entry) => entry.id !== item.id && entry.category === item.category).slice(0, 3).map((entry) => `<li><a href="/prompts/${escapeHtml(entry.id)}/">${escapeHtml(entry.title)}</a> · ${entry.access === 'premium' ? 'PRO' : 'Free'}</li>`).join('');
-  const body = `<main class="seo-route-fallback"><a href="/prompts/">WORLD ARCH JOURNAL / PROMPT LAB</a><article><header><small>${escapeHtml(category?.title || item.category)} · ${item.access === 'premium' ? '♛ PRO' : 'FREE'}</small><h1>${escapeHtml(item.title)}</h1><p>${escapeHtml(item.summary)}</p></header>${media}${watchLink}${frames}${accessBody}${relatedPrompts ? `<section><h2>Related prompts</h2><ul>${relatedPrompts}</ul></section>` : ''}</article></main>`;
-  await emit(pathname, preparePage({ pathname, title: `${item.title} AI Prompt | ${siteName}`, description, image: item.image, imageAlt: `${item.title} prompt preview`, schema, body }));
+  const body = `<main class="seo-route-fallback"><a href="/prompts/">WORLD ARCH JOURNAL / PROMPT LAB</a><article><header><small>${escapeHtml(category?.title || item.category)} · ${item.access === 'premium' ? '♛ PRO' : 'FREE'}</small><h1>${escapeHtml(item.title)}</h1><p>${escapeHtml(item.summary)}</p></header>${media}${watchLink}${frames}${accessBody}${extraSections || (relatedPrompts ? `<section><h2>Related prompts</h2><ul>${relatedPrompts}</ul></section>` : '')}</article></main>`;
+  await emit(pathname, preparePage({ pathname, title: `${item.title} AI Prompt | ${siteName}`, description, image: item.image, imageAlt: `${item.title} prompt preview`, schema: pageSchema, body }));
 }
 
 for (const [pathname, page] of Object.entries(legalPages)) {

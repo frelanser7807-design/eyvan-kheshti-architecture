@@ -17,6 +17,9 @@ function CopyPanel({ label, value, copied, onCopy }) {
   );
 }
 
+const NEW_FREE_PROMPT_IDS = new Set(['land-to-building-construction-prompt', 'fpv-construction-transformation-prompt', 'miniature-hands-building-prompt', 'light-trace-wireframe-building-prompt', 'luxury-villa-miniature-assembly-prompt', 'sketch-to-building-construction-prompt', 'folding-interior-transformation-prompt']);
+const PRO_PROMPT_ITEMS = promptItems.filter((entry) => entry.access === 'premium');
+
 export default function PromptDetail({ slug }) {
   const [copied, setCopied] = useState('');
   const item = promptById(slug);
@@ -72,6 +75,7 @@ export default function PromptDetail({ slug }) {
         )}
       </article>
       {related.length > 0 && <section className="prompt-related" aria-labelledby="related-prompts-title"><small>CONTINUE EXPLORING</small><h2 id="related-prompts-title">Related prompts</h2><div>{related.map((entry) => <a href={`/prompts/${entry.id}/`} key={entry.id}><span>{entry.access === 'premium' ? '♛ PRO' : 'FREE'}</span><strong>{entry.title}</strong><small>{entry.tool}</small></a>)}</div></section>}
+      {NEW_FREE_PROMPT_IDS.has(item.id) && <section className="prompt-related" aria-labelledby="pro-prompts-title"><small>GO FURTHER</small><h2 id="pro-prompts-title">WORLD ARCH PRO collections</h2><div>{PRO_PROMPT_ITEMS.map((entry) => <a href={`/prompts/${entry.id}/`} key={entry.id}><span>♛ PRO</span><strong>{entry.title}</strong><small>{entry.tool}</small></a>)}</div></section>}
       <footer className="prompt-library-footer"><a href="/prompts/">← All prompts</a><a href="/editorial-policy/">Editorial policy</a><a href="/privacy/">Privacy</a></footer>
     </main>
   );
