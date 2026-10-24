@@ -492,8 +492,11 @@ if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new
 // image + 10s demo reel; measured addition ~1.7 MB).
 // Raised 1366 -> 1367 on 2026-10-24 for the owner-designed cover of the
 // light-trace wireframe prompt product (measured addition ~0.5 MB).
-if (distSizeMb - materialSizeMb > 1367) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 1367 MB`);
+// Raised 1367 -> 1368 on 2026-10-24 for the owner-designed covers of the
+// miniature-hands and sketch-to-building prompt products (measured
+// addition ~1.0 MB).
+if (distSizeMb - materialSizeMb > 1368) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 1368 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));
