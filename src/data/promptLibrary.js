@@ -542,7 +542,7 @@ All transformations must feel physical and mechanical: sliding, lifting, assembl
     access: 'free',
     title: 'Light-Trace Wireframe to Real Building: Video Prompt',
     summary: 'Bright light trails trace a two-storey house out of an empty blue-hour site until the glowing wireframe becomes the real building.',
-    image: '/assets/prompts/light-trace-wireframe-building-prompt/final-frame.jpg',
+    image: '/assets/prompts/light-trace-wireframe-building-prompt/cover.jpg',
     video: '/assets/prompts/light-trace-wireframe-building-prompt/example-reel.mp4',
     publishedAt: '2026-10-24',
     modifiedAt: '2026-10-24',
