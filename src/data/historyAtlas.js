@@ -623,6 +623,10 @@ export const historyComparisons = [
 ];
 
 export const historyMethod = {
+  deepPage: "/magazine/architectural-history-styles/how-to-identify-a-buildings-style/",
+  pdf: "/downloads/history/how-to-identify-a-buildings-style.pdf",
+  bookCover: "/assets/history-deep/how-to-identify-a-buildings-style/book-cover.jpg",
+  readPath: "/magazine/architectural-history-styles/how-to-identify-a-buildings-style/read/",
   facade: { name: "Chrysler Building", place: "405 Lexington Avenue, New York, completed 1930, architect William Van Alen", img: { src: `${H}/chrysler-retouched.jpg`, alt: "Chrysler Building, New York — the facade worked through in the five-sign method", credit: "Photo: David Shankbone, via Wikimedia Commons (Public domain)" } },
   steps: [
     { sign: "Silhouette", observe: "The tower rises in strict setbacks, then a terraced crown of seven radiating arches steps sharply to a needle spire.", conclude: "Stepped massing and vertical thrust suggest Art Deco, though setbacks alone also reflect New York zoning law." },

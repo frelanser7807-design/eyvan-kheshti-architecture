@@ -179,6 +179,16 @@ function HubMethodStudy({ methodStudy }) {
       <ul className="wj-hub-mistakes">
         {methodStudy.mistakes.map((mistake) => <li key={mistake.slice(0, 28)}>{mistake}</li>)}
       </ul>
+      {methodStudy.deepPage && (
+        <div className="wj-hub-book">
+          {methodStudy.bookCover && <BookCover3D src={methodStudy.bookCover} title="How to Identify a Building's Style" className="wj-hub-bookcover" />}
+          <div className="wj-hub-booklinks">
+            <a className="wj-hub-book-read" href={methodStudy.deepPage}>Read the complete history <span aria-hidden="true">→</span></a>
+            {methodStudy.readPath && <a className="wj-hub-book-read" href={methodStudy.readPath}>Read the book <span aria-hidden="true">→</span></a>}
+            {methodStudy.pdf && <a className="wj-hub-book-pdf" href={methodStudy.deepPage + '#get-the-book'}>Download the book (PDF)</a>}
+          </div>
+        </div>
+      )}
     </section>
   );
 }
