@@ -457,8 +457,16 @@ if (materialSizeMb - stoneSizeMb - ceramicSizeMb - mineralSizeMb > 90) throw new
 // book PDF (~18.9 MB) in public/downloads/history/ and three hub photographs
 // (~2.0 MB) in public/assets/history-hub/ — a measured addition of ~51.3 MB
 // for this book.
-if (distSizeMb - materialSizeMb > 1177) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
-console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 1177 MB`);
+// Raised 1177 -> 1237 on 2026-10-24 for Book 20 of the Architectural History
+// Series (Ancient Rome deep page + book PDF): 44 licensed Wikimedia
+// Commons photographs plus the owner's final series cover (~20.3 MB) and the
+// flipbook reader's page images (121 pages at reading resolution, ~16.8 MB) in
+// public/assets/history-deep/ancient-rome/, the generated 121-page
+// book PDF (~20.9 MB) in public/downloads/history/ and three hub photographs
+// (~1.0 MB) in public/assets/history-hub/ — a measured addition of ~59.0 MB
+// for this book.
+if (distSizeMb - materialSizeMb > 1237) throw new Error(`Non-material release package regressed to ${(distSizeMb - materialSizeMb).toFixed(2)} MB`);
+console.log(`Material asset budget: ${materialSizeMb.toFixed(2)} MB (travertine ${stoneSizeMb.toFixed(2)} / 112 MB; ceramic porcelain ${ceramicSizeMb.toFixed(2)} / 84 MB; concrete/microcement ${(mineralSizeMb - compositeSizeMb).toFixed(2)} / 950 MB; composite ${compositeSizeMb.toFixed(2)} / 420 MB; existing allowance 90 MB); existing site: ${(distSizeMb - materialSizeMb).toFixed(2)} / 1237 MB`);
 for (const legacyAsset of ['sequence-01.mp4', 'walk-01-enter-from-exterior.mp4', 'scene-courtyard.png']) {
   try {
     await access(join(root, 'dist/assets', legacyAsset));

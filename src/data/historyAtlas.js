@@ -605,6 +605,43 @@ export const historyStudies = [
       detail1: { src: `${H}/persian-detail1.jpg`, alt: "The dome of the Sheikh Lotfollah Mosque in Isfahan: the central medallion and the arabesque that spreads from it", credit: "Photo: Phillip Maiwald (Nikopol), via Wikimedia Commons (CC BY-SA 3.0)" },
       detail2: { src: `${H}/persian-detail2.jpg`, alt: "A girih star-pattern tile mosaic at Shah-i Zinda, Samarkand: interlacing stars in blue, turquoise and white", credit: "Photo: Patrickringgenberg, via Wikimedia Commons (CC BY 3.0)" }
     }
+  },
+  {
+    id: "ancient-rome",
+    title: "Ancient Rome",
+    facts: { period: "c. 753 BC to AD 476 in the West — and far longer as a legacy: eight centuries from walled hill-town to capital of an empire of fifty million", geography: "The city of Rome on the Tiber, then Italy, then an empire on three continents: Europe from Britain to the Danube, North Africa, Egypt and the Near East to Mesopotamia", types: "Temples, fora and basilicas, amphitheatres and circuses, imperial baths, aqueducts, bridges and roads, apartment blocks, villas and palaces, triumphal arches and columns, frontier walls", note: "Roman is a building system, not a single style: concrete cast in place, the arch and the vault, the Greek orders applied as a dress over Roman structure, and infrastructure built to law and measure from Britain to Syria." },
+    context: [
+      "Rome learned building from its neighbours — the Etruscans gave it the arched drain, the high-podium temple and the habit of engineering as statecraft — and then, in the second century BC, acquired the material that changed everything: concrete made with volcanic ash, cast around rubble and faced in stone or brick. Concrete freed Roman builders from the length of a lintel and the size of a block. Space itself became castable: vaults, domes and curved plans could be poured like pottery, and the architecture of the empire — baths, basilicas, amphitheatres, harbours — is the record of that freedom being used at ever larger scale.",
+      "What Rome exported was the system, not a look. A provincial city received the same kit everywhere — forum, basilica, baths, aqueduct, theatre, straight streets on a grid — adjusted to local stone, local gods and local pride, and paid for largely by local wealth competing in public gifts. The buildings were then used for a thousand years after the empire fell: temples became churches, theatres became fortresses and apartment houses, and the Pantheon survives because it never stopped working. To read Roman architecture is to read structure first: find the concrete, and the marble dress explains itself."
+    ],
+    signs: [
+      { name: "Concrete with a skin", look: "Roman walls are cast, not laid: a rubble-and-mortar core faced in stone or brick that served as its own formwork. Read the facing to date the wall — irregular net-pattern reticulatum gives way, by the second century AD, to the brick facing of the mature empire.", limit: "The facing is a skin, not the structure: a brick-faced wall may hide any core, and later repairs re-face old walls, so a facing dates a surface, not always the building behind it.", img: "detail2" },
+      { name: "The orders as dress", look: "On the Colosseum the orders stack in their textbook sequence — Tuscan, Ionic, Corinthian — yet they carry nothing: the real work is done by the concrete and travertine vaulting behind them. Where a Roman column is applied to an arch it does not support, you are reading decoration used as a language of rank.", limit: "Greek temples use the same orders structurally, with stone lintels and no concrete core; the Roman sign is precisely the split between the dressed front and the cast structure behind it.", img: "hero" },
+      { name: "The arch and the vault", look: "The arch is Rome's unit of construction — in aqueduct arcades, bridge spans, amphitheatre substructures and bath halls — and the barrel and groin vaults built from it roof spaces no lintel could span. Look for the vault's springing and the massive walls or piers that take its thrust.", limit: "Arches are older than Rome (Etruscan and Near Eastern practice precedes it); the Roman signature is the arch married to concrete and repeated as a system, not the arch alone.", img: "hero" },
+      { name: "The dome in concrete", look: "The Pantheon's dome is a cast shell whose aggregate lightens as it rises — travertine low, pumice at the crown — coffered to shed weight and open at the oculus. Roman domes sit on cylindrical or polygonal drums of concrete, in baths and palaces as well as temples.", limit: "A dome silhouette alone proves nothing (Byzantine and Islamic domes have their own structures); the Roman evidence is the material — graded concrete — and the drum that carries it.", img: "detail1" },
+      { name: "The city as a kit of parts", look: "Forum, basilica, temple, baths, theatre, aqueduct and grid streets recur from Britain to Syria with local accents: a Roman city is recognisable by its programme before its ornament. Water arrives by law and gradient; streets meet at right angles; public buildings cluster at the crossing.", limit: "The kit was adapted, not stamped: eastern cities kept older streets and local gods, and terrain bends every grid. Look for the programme — especially baths and aqueduct — rather than a perfect plan.", img: "detail2" }
+    ],
+    materials: "Roman building is concrete (opus caementicium) of lime mortar, volcanic pozzolana where available, and local rubble, faced in tuff, travertine or brick and dressed — in prestige work — with marble, much of it imported across the empire: Carrara white, Egyptian granite and porphyry, coloured stones from Greece, Africa and Asia. Timber serves for roofs and centring, iron and bronze for clamps and ties. The modern equivalent is reinforced concrete and steel, which inherit Rome's cast logic but not its mass or its patience.",
+    examples: [
+      { name: "The Colosseum (Flavian Amphitheatre)", place: "Rome, Italy", date: "AD 70–80", look: "The largest amphitheatre ever built: four storeys of arcades in travertine over a radial concrete substructure, its superimposed orders — Tuscan, Ionic, Corinthian — applied as pure dress.", sourceName: "UNESCO World Heritage Centre", sourceUrl: "https://whc.unesco.org/en/list/91/" },
+      { name: "The Pantheon", place: "Rome, Italy", date: "AD 118–128", look: "A granite-columned portico carrying Agrippa's inscription, and behind it the widest concrete dome of the ancient world, its height equal to its diameter, lit only by the oculus.", sourceName: "UNESCO World Heritage Centre", sourceUrl: "https://whc.unesco.org/en/list/91/" },
+      { name: "The Pont du Gard", place: "Vers-Pont-du-Gard, France", date: "1st century AD", look: "Three tiers of arches carrying an aqueduct channel across the Gardon: the empire's water law written in dry-laid limestone, still the tallest surviving Roman aqueduct bridge.", sourceName: "UNESCO World Heritage Centre", sourceUrl: "https://whc.unesco.org/en/list/334/" }
+    ],
+    lesson: "Build the system, not the monument: cast structure honestly, dress it in a legible order, and give the city water, law and gathering places before ornament — infrastructure is the architecture people inherit.",
+    sources: [
+      { name: "UNESCO — Historic Centre of Rome", url: "https://whc.unesco.org/en/list/91/" },
+      { name: "UNESCO — Pont du Gard", url: "https://whc.unesco.org/en/list/334/" },
+      { name: "Smarthistory — Ancient Roman architecture", url: "https://smarthistory.org" }
+    ],
+    deepPage: "/magazine/architectural-history-styles/ancient-rome/",
+    pdf: "/downloads/history/ancient-rome.pdf",
+    bookCover: "/assets/history-deep/ancient-rome/book-cover.jpg",
+    readPath: "/magazine/architectural-history-styles/ancient-rome/read/",
+    images: {
+      hero: { src: `${H}/rome-hero.jpg`, alt: "The Colosseum in Rome at dusk: its three tiers of travertine arches lit from within against a deep blue evening sky", credit: "Photo: Diliff, via Wikimedia Commons (CC BY-SA 2.5)" },
+      detail1: { src: `${H}/rome-detail1.jpg`, alt: "The Pantheon's coffered concrete dome seen from inside: rings of coffers narrowing toward the open oculus at the crown", credit: "Photo: T. Le Berre, via Wikimedia Commons (CC BY-SA 4.0)" },
+      detail2: { src: `${H}/rome-detail2.jpg`, alt: "Trajan's Markets in Rome: the great curved brick facade of the ancient shopping complex, with the medieval Torre delle Milizie rising behind it", credit: "Photo: NikonZ7II, via Wikimedia Commons (CC BY-SA 4.0)" }
+    }
   }
 ];
 
