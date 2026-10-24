@@ -140,6 +140,18 @@
 .hv-card-k { font-family: var(--hv-sans); font-weight: 600; font-size: 9.5px; letter-spacing: .26em; text-transform: uppercase; color: var(--hv-gold); margin: 14px 2px 7px; }
 .hv-card-t { font-family: var(--hv-serif); font-weight: 500; font-size: 16.5px; line-height: 1.32; margin: 0 2px; }
 
+/* 4b · FREE AI PROMPTS — slim strip between the deck and materials:
+   copy left, the three designed covers right, whole-fit as always. */
+.hv-prompts-band { padding: 64px 0; border-top: 1px solid rgba(255, 255, 255, .12); }
+.hv-prompts { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 52px; align-items: center; }
+.hv-prompts-rule { width: 44px; height: 1px; background: var(--hv-gold); margin-bottom: 22px; }
+.hv-prompts-title { font-size: clamp(28px, 3vw, 40px); line-height: 1.18; max-width: 500px; }
+.hv-prompts-btn { margin-top: 30px; }
+.hv-prompts-covers { display: flex; gap: 16px; }
+.hv-prompts-cover { display: block; text-decoration: none; transition: transform .35s ease; }
+.hv-prompts-cover:hover, .hv-prompts-cover:focus-visible { transform: translateY(-5px); }
+.hv-prompts-img { width: 158px; aspect-ratio: 9 / 16; border-radius: 8px; box-shadow: 0 18px 44px rgba(0, 0, 0, .55); outline: 1px solid rgba(255, 255, 255, .14); outline-offset: -1px; }
+
 /* 5 · MATERIALS */
 .hv-band-dark { background: var(--hv-charcoal); color: var(--hv-ivory); }
 .hv-matcover { position: relative; height: 348px; border-radius: 8px; overflow: hidden; margin-top: 42px; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .18); background: #101011; }
@@ -231,6 +243,7 @@
 @media (prefers-reduced-motion: reduce) {
   .hv-deck.is-inview .hv-card { animation: none; }
   .hv-card { transition: none; }
+  .hv-prompts-cover { transition: none; }
 }
 
 @media (max-width: 760px) {
@@ -251,6 +264,11 @@
   .hv-deck.is-inview .hv-card { animation: none; }
   .hv-card { flex: 0 0 168px; max-width: 168px; scroll-snap-align: start; }
   .hv-card:hover { transform: none; }
+  .hv-prompts-band { padding: 48px 0; }
+  .hv-prompts { grid-template-columns: 1fr; gap: 30px; }
+  .hv-prompts-covers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .hv-prompts-cover:hover { transform: none; }
+  .hv-prompts-img { width: 100%; }
   .hv-mat { grid-template-columns: 1fr; }
   .hv-explore { grid-template-columns: 1fr; }
   .hv-door { min-height: 380px; }

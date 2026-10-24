@@ -161,6 +161,24 @@ const deckArticles = [
   },
 ];
 
+const promptBandCovers = [
+  {
+    slug: 'miniature-hands-building-prompt',
+    image: '/assets/prompts/miniature-hands-building-prompt/cover.jpg',
+    alt: 'Miniature Hands Build a Real Building — free AI video prompt cover',
+  },
+  {
+    slug: 'sketch-to-building-construction-prompt',
+    image: '/assets/prompts/sketch-to-building-construction-prompt/cover.jpg',
+    alt: 'From Sketch to Finished Building — free AI construction video prompt cover',
+  },
+  {
+    slug: 'folding-interior-transformation-prompt',
+    image: '/assets/prompts/folding-interior-transformation-prompt/cover.jpg',
+    alt: 'Folding Interior Transformation — free AI video prompt cover',
+  },
+];
+
 const finishes = [
   { name: 'Travertine', count: '4 finishes', active: true },
   { name: 'Ceramic & Porcelain', count: '5 finishes' },
@@ -304,6 +322,26 @@ export default function HomeV44({ content }) {
             </div>
             <div className="hv-centred">
               <a className="hv-btn hv-glass" href="/magazine/">Browse All</a>
+            </div>
+          </div>
+        </section>
+
+        {/* 4b · FREE AI PROMPTS band */}
+        <section className="hv-section hv-prompts-band" aria-labelledby="hv-prompts-title">
+          <div className="hv-wrap hv-prompts">
+            <div className="hv-prompts-copy">
+              <div className="hv-prompts-rule" aria-hidden="true" />
+              <div className="hv-tag">Free AI Prompts</div>
+              <h2 id="hv-prompts-title" className="hv-prompts-title">Copy-paste prompts that build the video</h2>
+              <p className="hv-sub">Seven professional AI prompts for architects — construction transformations, miniature builds and interiors. Free. No signup.</p>
+              <a className="hv-btn hv-glass hv-prompts-btn" href="/prompts/">Browse All Free Prompts</a>
+            </div>
+            <div className="hv-prompts-covers">
+              {promptBandCovers.map((cover) => (
+                <a className="hv-prompts-cover" key={cover.slug} href={`/prompts/${cover.slug}/`}>
+                  <FitImage className="hv-prompts-img" src={cover.image} alt={cover.alt} />
+                </a>
+              ))}
             </div>
           </div>
         </section>
