@@ -393,6 +393,304 @@ STRICT CONTINUITY: preserve the supplied start and end geometry exactly. No came
     disclosure: 'AI-generated conceptual architecture and construction animation. This is not a built-project record, engineered structural detail or construction-safety instruction.',
   },
   {
+    id: 'land-to-building-construction-prompt',
+    category: 'video',
+    access: 'free',
+    title: 'Empty Land to Finished Building: 10-Second Construction Video Prompt',
+    summary: 'Grow a six-storey desert residence from empty land to the exact finished building in one 10-second reference-locked sequence.',
+    image: '/assets/prompts/land-to-building-construction-prompt/final-frame.jpg',
+    publishedAt: '2026-10-24',
+    modifiedAt: '2026-10-24',
+    tool: 'Veo · Kling · Runway · image-to-video',
+    promptLabel: 'Free master prompt',
+    prompt: `0–2 sec — Begin with a fast, low cinematic push across an untouched dirt site toward the exact building location. Keep the construction area centered, with a realistic distant urban skyline under natural daylight.
+
+2–5 sec — Accelerated construction sequence: the exact concrete structural frame grows progressively floor by floor — columns, slabs, cores and exposed rebars locking into place in correct order. The camera smoothly circles the structure in one continuous 360° movement while construction advances naturally. No sudden appearance, no teleporting, no cuts. Finish the movement by returning precisely to the original frontal camera angle.
+
+5–9 sec — From the frontal view, create a controlled architectural assembly sequence. Facade panels, glazing, louvers, railings, finishes and exterior elements appear as perfectly aligned exploded layers, then smoothly move into their exact final positions step by step. Every element must match the uploaded reference building in geometry, scale, materials and placement.
+
+9–10 sec — ABSOLUTE FINAL-FRAME LOCK: the completed result MUST become EXACTLY IDENTICAL to the uploaded input image. Match the original building geometry, facade, materials, colors, windows, proportions, surroundings, lighting, camera angle, framing and perspective with ZERO alteration. From second 9 until the final frame, show ONLY the unchanged uploaded-image result. DO NOT redesign, reinterpret, improve, replace or modify anything. THE FINAL VIDEO FRAME MUST MATCH THE INPUT IMAGE EXACTLY.`,
+    secondaryLabel: 'Vertical Reel settings',
+    secondaryPrompt: 'Duration 10 seconds · vertical 9:16 · 720 × 1280 · 24 fps · reference strength high · final-frame lock high · motion strength medium · hold the exact supplied-image frame at 10.0 seconds · no generated text or logos.',
+    referenceFrames: [
+      { label: 'Absolute final-frame reference', src: '/assets/prompts/land-to-building-construction-prompt/final-frame.jpg', alt: 'Final-frame reference of a six-storey desert residential building with stacked planted terraces, travertine and dark stone panels and vertical timber slats' },
+    ],
+    howToUse: [
+      'Upload a rights-cleared image of the exact completed building as the final-frame reference.',
+      'Paste the complete English master prompt into a generator that supports image-to-video or start/end-frame control.',
+      'Use the vertical settings for Reels, Shorts and video Pins, or adapt the aspect ratio stated in the prompt for a landscape version.',
+      'Check facade geometry, balcony count, glazing, materials, planting and the final camera position before publishing.',
+    ],
+    disclosure: 'AI-generated architectural visualisation and prompt study. It is not a built-project record, construction method, structural sequence or safety guide.',
+  },
+  {
+    id: 'fpv-construction-transformation-prompt',
+    category: 'video',
+    access: 'free',
+    title: 'FPV Construction Transformation: Single-Take Video Prompt',
+    summary: 'One continuous FPV flight through a mechanical construction chain reaction that assembles an eight-storey travertine residence around the camera.',
+    image: '/assets/prompts/fpv-construction-transformation-prompt/final-frame.jpg',
+    video: '/assets/prompts/fpv-construction-transformation-prompt/example-reel.mp4',
+    publishedAt: '2026-10-24',
+    modifiedAt: '2026-10-24',
+    tool: 'Veo · Kling · Runway · image-to-video',
+    promptLabel: 'Free master prompt',
+    prompt: `Create a 10-second high-intensity, single-take FPV construction transformation following the storyboard exactly. Keep one consistent modern building and one consistent construction site from beginning to end. The unfinished structure must gradually evolve into the completed architecture. Treat the entire site as one massive synchronized mechanical system: cranes, steel members, columns, floor plates and facade components activate one another in a continuous chain reaction. Photoreal cinematic construction spectacle, IMAX-scale energy, ultra-wide 14mm FPV perspective, cool steel-toned shadows, warm industrial-orange highlights and aggressive controlled speed ramps. From 00:09 onward, the output must match the uploaded reference image exactly and remain unchanged — same building, same facade, same geometry, same framing, same materials, same final appearance.
+
+00:00–00:01.0 — SYSTEM ACTIVATION
+Begin extremely close inside the unfinished structure. A huge industrial steel locking assembly spins rapidly and clamps onto a structural connection. Heavy metal strikes metal as dense orange welding sparks burst past the camera. The lens stays dangerously close and follows the rotation of the mechanism.
+
+00:01.0–00:02.0 — CRANE ROTATION LINK
+Continue the exact rotational motion into the movement of a massive tower crane circling the same building. The camera rapidly escapes the structure into an extreme low-angle perspective and accelerates upward. The crane boom sweeps only centimeters above the lens, creating an intense near-collision moment.
+
+00:02.0–00:03.0 — STRUCTURAL BEAM STRIKE
+Lock onto a giant suspended steel beam moving rapidly toward the structure. It swings inches past the camera and crashes precisely into position between two structural columns. The impact produces concrete dust, welding sparks and fragments that burst toward the lens. Camera drives directly through the expanding debris.
+
+00:03.0–00:04.0 — COLUMN CHAIN
+The beam connection instantly activates the next mechanical sequence. Large concrete columns rise vertically one after another like synchronized industrial pistons. Camera climbs beside them at high speed while each column reaches its exact position and locks before the following column activates.
+
+00:04.0–00:05.0 — FLOOR PLATE SEQUENCE
+Dive inside the growing structure and accelerate through its interior. Oversized floor slabs slide inward horizontally from opposite sides, meeting with precise mechanical impacts just ahead of the camera. The lens escapes through the next structural opening seconds before another slab closes behind it. Continue this rapid sequential installation through multiple levels.
+
+00:05.0–00:06.2 — MECHANICAL ORBIT
+Burst back outside into a fast ascending orbit around the building. Structural columns extend, beams rotate into their connections, floors lock into place and framing systems unfold around the camera in one synchronized mechanical wave. The unfinished skeleton visibly progresses toward the exact completed architecture without interrupting the shot.
+
+00:06.2–00:07.4 — FACADE INSTALLATION WAVE
+Without any cut, race extremely close along the exterior. White curved facade sections and blue reflective glazing panels arrive from multiple directions and snap mechanically into their exact locations immediately behind the moving camera. The installation wave climbs rapidly upward and continues around the curved exterior geometry.
+
+00:07.4–00:08.5 — SLOW-MOTION PANEL LOCK
+A final oversized glass facade panel flies alongside the lens through sparks, concrete particles and metallic debris. Enter an extreme speed-ramp into near-frozen bullet time while the camera rolls around the moving panel. Suddenly restore full speed as the panel slams into its frame and locks with a powerful mechanical impact.
+
+00:08.5–00:10.0 — COMPLETION REVEAL
+That final impact activates the closing transformation. Camera rockets upward beside the facade while the remaining white panels, glazing elements and distinctive black rooftop structure snap mechanically into their final positions below and around it. By 00:09, the building must already converge to the uploaded reference image, and from 00:09 to 00:10 the result must become visually identical to the uploaded image and stay locked to it with no design changes. Rise above the roof, perform a final 180-degree aerial rotation, then pull rapidly backward and upward exactly as the last rooftop component locks into place. Reveal the fully completed building, architecturally identical to the reference, standing prominently above the city. Final frame must equal the uploaded image exactly.
+
+Maintain absolute visual continuity: one building, identical geometry, identical number of floors, the same curved facade and the same location throughout. Every construction action must mechanically trigger the next. Emphasize extreme velocity, monumental scale, close near-misses, strong depth and parallax, realistic motion blur, sparks, dust, debris, volumetric lighting and physically accurate metallic reflections. Do not alter the final building design in any way. The last second must faithfully show the exact uploaded image, not a variation. No teleporting objects, random morphing, structural collapse, duplicated components, architecture changes, impossible geometry intersections, text, subtitles, logos or watermarks.`,
+    secondaryLabel: 'Vertical Reel settings',
+    secondaryPrompt: 'Duration 10 seconds · vertical 9:16 · 720 × 1280 · 24 fps · reference strength high · final-frame lock high · motion strength medium · hold the exact supplied-image frame at 10.0 seconds · no generated text or logos.',
+    referenceFrames: [
+      { label: 'Absolute final-frame reference', src: '/assets/prompts/fpv-construction-transformation-prompt/final-frame.jpg', alt: 'Final-frame reference of an eight-storey travertine residential building with glass balconies and a dark rooftop pergola on a city street corner' },
+    ],
+    howToUse: [
+      'Upload a rights-cleared image of the exact completed building as the final-frame reference.',
+      'Paste the complete English master prompt into a generator that supports image-to-video or start/end-frame control.',
+      'Use the vertical settings for Reels, Shorts and video Pins, or adapt the aspect ratio stated in the prompt for a landscape version.',
+      'Check facade geometry, balcony count, glazing, materials, planting and the final camera position before publishing.',
+    ],
+    disclosure: 'AI-generated architectural visualisation and prompt study. It is not a built-project record, construction method, structural sequence or safety guide.',
+  },
+  {
+    id: 'miniature-hands-building-prompt',
+    category: 'video',
+    access: 'free',
+    title: 'Miniature Hands Build a Real Building: Video Prompt',
+    summary: 'Matte-black gloved hands assemble a four-storey apartment building at miniature scale until it becomes the full-size finished home.',
+    image: '/assets/prompts/miniature-hands-building-prompt/final-frame.jpg',
+    video: '/assets/prompts/miniature-hands-building-prompt/example-reel.mp4',
+    publishedAt: '2026-10-24',
+    modifiedAt: '2026-10-24',
+    tool: 'Veo · Kling · Runway · image-to-video',
+    promptLabel: 'Free master prompt',
+    prompt: `Create a 10-second ultra-photorealistic cinematic architectural build sequence in 16:9, using the uploaded reference image as the ABSOLUTE FINAL FRAME.
+
+CRITICAL FINAL-FRAME RULE: the uploaded image is the locked target. At the end of the 10-second video, the completed building, facade geometry, proportions, floors, balconies, windows, materials, colors, landscaping, lighting, camera angle, perspective, framing and composition MUST match the uploaded image EXACTLY. Do not redesign, reinterpret, simplify, replace or modify any visible element. The final frame MUST be visually identical to the input image.
+
+Keep the same building and site throughout. Use realistic daylight, natural shadows and only the materials already visible in the reference. Only masculine hands wearing matte-black gloves appear during construction.
+
+0.0–0.6: extreme macro shot; one finger draws a straight line through sand, exposing the exact footprint of the concrete foundation.
+
+0.6–1.3: a hand places the first structural concrete core; columns, beams and the structural grid mechanically assemble outward.
+
+1.3–2.0: two fingers lift upward; floor slabs, columns and structural levels rise sequentially and lock precisely into position.
+
+2.0–2.7: a hand physically shifts the upper volumes into their exact positions, creating the terraces, setbacks and balconies seen in the uploaded image; short controlled camera orbit.
+
+2.7–3.4: a hand sweeps across the exposed structure; the exact facade materials from the reference mechanically install across the building, including wall surfaces, metal elements, glazing, windows and balcony details.
+
+3.4–4.1: fingers CLICK the final facade panel into position; macro camera glide across the finished facade materials.
+
+4.1–4.8: a finger draws the exterior circulation path; paving, entrance paths and driveway assemble directly behind the movement.
+
+4.8–5.5: a hand installs the main tree and vegetation; the remaining landscaping assembles naturally according to the uploaded reference image.
+
+5.5–6.2: quick hand movements place the remaining exterior details, architectural lighting and vehicles exactly where they belong in the reference.
+
+6.2–7.0: complete the final ground and landscape elements while maintaining realistic physical assembly.
+
+7.0–8.2: fingers make the final precise adjustments; camera pushes through foreground foliage and transitions from miniature construction scale to full real-world scale as the hands disappear.
+
+8.2–10.0: camera emerges into the completed real environment, moves smoothly toward the facade, then returns precisely to the ORIGINAL uploaded-image camera position and framing.
+
+AT 10.0 SECONDS, FREEZE ON THE UPLOADED IMAGE AS THE EXACT FINAL FRAME. Input image = final video frame. Exact same building, exact same geometry, exact same materials, exact same colors, exact same surroundings, exact same perspective, exact same camera position and exact same composition. ZERO visual deviation.
+
+All transformations must feel physical and mechanical: sliding, lifting, assembling, unfolding and locking with realistic mass, contact and shadows. No magic, glow, holograms, LEGO, toys, cranes, workers, text, logos, morphing or spontaneous redesign.`,
+    secondaryLabel: 'Vertical Reel settings',
+    secondaryPrompt: 'Duration 10 seconds · vertical 9:16 · 720 × 1280 · 24 fps · reference strength high · final-frame lock high · motion strength medium · hold the exact supplied-image frame at 10.0 seconds · no generated text or logos.',
+    referenceFrames: [
+      { label: 'Absolute final-frame reference', src: '/assets/prompts/miniature-hands-building-prompt/final-frame.jpg', alt: 'Final-frame reference of a four-storey pale-concrete apartment building with a central vertical timber-slat panel, full-height glazing and glass-balustrade balconies' },
+    ],
+    howToUse: [
+      'Upload a rights-cleared image of the exact completed building as the final-frame reference.',
+      'Paste the complete English master prompt into a generator that supports image-to-video or start/end-frame control.',
+      'Use the vertical settings for Reels, Shorts and video Pins, or adapt the aspect ratio stated in the prompt for a landscape version.',
+      'Check facade geometry, balcony count, glazing, materials, planting and the final camera position before publishing.',
+    ],
+    disclosure: 'AI-generated architectural visualisation and prompt study. It is not a built-project record, construction method, structural sequence or safety guide.',
+  },
+  {
+    id: 'light-trace-wireframe-building-prompt',
+    category: 'video',
+    access: 'free',
+    title: 'Light-Trace Wireframe to Real Building: Video Prompt',
+    summary: 'Bright light trails trace a two-storey house out of an empty blue-hour site until the glowing wireframe becomes the real building.',
+    image: '/assets/prompts/light-trace-wireframe-building-prompt/final-frame.jpg',
+    video: '/assets/prompts/light-trace-wireframe-building-prompt/example-reel.mp4',
+    publishedAt: '2026-10-24',
+    modifiedAt: '2026-10-24',
+    tool: 'Veo · Kling · Runway · image-to-video',
+    promptLabel: 'Free master prompt',
+    prompt: `Use the uploaded image as the EXACT FINAL FRAME and absolute visual reference.
+
+Start from an empty site at blue hour. Bright light trails rapidly trace the building upward: structure, floor lines, balconies, windows, facade and roof. The glowing wireframe smoothly becomes realistic architecture with natural lighting and landscaping.
+
+FINAL FRAME MUST MATCH THE UPLOADED IMAGE 1:1 — identical building form, facade, materials, proportions, windows, colors, landscaping, camera angle, framing and perspective.
+
+NO redesign, NO material changes, NO added or removed elements, NO geometry changes, NO camera mismatch.
+
+End on the uploaded image EXACTLY.`,
+    secondaryLabel: 'Vertical Reel settings',
+    secondaryPrompt: 'Duration 10 seconds · vertical 9:16 · 720 × 1280 · 24 fps · reference strength high · final-frame lock high · motion strength medium · hold the exact supplied-image frame at 10.0 seconds · no generated text or logos.',
+    referenceFrames: [
+      { label: 'Absolute final-frame reference', src: '/assets/prompts/light-trace-wireframe-building-prompt/final-frame.jpg', alt: 'Final-frame reference of a two-storey modern house with a tall timber entrance bay, dark stone and travertine facade, glass balcony and landscaped front garden' },
+    ],
+    howToUse: [
+      'Upload a rights-cleared image of the exact completed building as the final-frame reference.',
+      'Paste the complete English master prompt into a generator that supports image-to-video or start/end-frame control.',
+      'Use the vertical settings for Reels, Shorts and video Pins, or adapt the aspect ratio stated in the prompt for a landscape version.',
+      'Check facade geometry, balcony count, glazing, materials, planting and the final camera position before publishing.',
+    ],
+    disclosure: 'AI-generated architectural visualisation and prompt study. It is not a built-project record, construction method, structural sequence or safety guide.',
+  },
+  {
+    id: 'luxury-villa-miniature-assembly-prompt',
+    category: 'video',
+    access: 'free',
+    title: 'Luxury Villa Miniature Assembly: Video Prompt',
+    summary: 'Precision-gloved hands assemble a luxury villa miniature panel by panel, then the completed model becomes the full-scale villa at night.',
+    image: '/assets/prompts/luxury-villa-miniature-assembly-prompt/final-frame.jpg',
+    video: '/assets/prompts/luxury-villa-miniature-assembly-prompt/example-reel.mp4',
+    publishedAt: '2026-10-24',
+    modifiedAt: '2026-10-24',
+    tool: 'Veo · Kling · Runway · image-to-video',
+    promptLabel: 'Free master prompt',
+    prompt: `Create a 10-second ultra-photorealistic cinematic luxury assembly video, 16:9, using the uploaded villa image as the EXACT FINAL TARGET.
+
+The villa begins as a premium architectural miniature on a pure black platform in a museum-style dark environment. Keep the same elevated front 3/4 camera angle throughout. The camera must stay locked and stable until the final reveal. No camera shake, no random movement, no extra objects, no text, no logos, no faces, no construction-site chaos, and no toy-like styling.
+
+Show only elegant masculine hands wearing thin matte-black precision gloves, appearing very large compared to the miniature. The villa must feature refined luxury materials such as warm limestone, architectural concrete, dark wood, bronze-toned metal, transparent glass, and a clean infinity pool. Keep the model highly realistic and premium.
+
+0.00–0.70 — a gloved hand carefully places a refined stone facade panel into position, closing the final gap with satisfying precision.
+0.70–1.40 — precision tweezers lower a full-height glass panel into a slim metallic frame; it settles cleanly and perfectly.
+1.40–2.10 — gloved fingers install vertical wooden facade slats one by one with exact spacing.
+2.10–2.80 — a tiny premium tool gives one precise finishing tap to a hidden facade detail so the surface becomes perfectly flush.
+2.80–3.50 — a fingertip gently closes the main entrance door in a soft, elegant motion.
+3.50–4.30 — a gloved hand lowers a terrace slab into place with realistic weight and contact.
+4.30–5.10 — two gloved hands carefully lower the final roof slab into position; it settles perfectly into the architecture.
+5.10–5.80 — precision placement of a mature miniature landscape tree near the villa.
+5.80–6.40 — clean water fills the infinity pool with realistic liquid movement and subtle reflections.
+6.40–7.20 — hidden lighting is activated; first the interior glows, then facade lighting, landscape lighting, and finally underwater pool lighting.
+7.20–8.00 — the finished illuminated miniature stands complete; both hands make a final subtle alignment adjustment and leave frame.
+
+8.00–10.00 — keep the villa perfectly locked in the same exact composition while a seamless scale transformation happens only around it: the black base becomes full-scale architectural ground, stone paving, landscaping, and natural surroundings. The miniature transforms into the exact same full-size luxury villa without morphing into another design.
+
+MOST IMPORTANT:
+The final frame must match the uploaded reference image exactly.
+Do not change the architecture, facade, proportions, materials, lighting design, pool layout, landscaping, framing, or camera angle.
+No redesign, no reinterpretation, no geometry change, no material change, no added elements, no removed elements.
+
+The video must end on the exact same villa shown in the uploaded image, with the same front 3/4 composition, now appearing as a real full-scale luxury house in a cinematic final hero shot.
+
+Style: premium architectural film, ultra-realistic materials, elegant assembly choreography, realistic reflections, realistic gravity, precision craftsmanship, luxury visualization, subtle ASMR feeling, minimal ambient sound, no voiceover.`,
+    secondaryLabel: 'Vertical Reel settings',
+    secondaryPrompt: 'Duration 10 seconds · vertical 9:16 · 720 × 1280 · 24 fps · reference strength high · final-frame lock high · motion strength medium · hold the exact supplied-image frame at 10.0 seconds · no generated text or logos.',
+    referenceFrames: [
+      { label: 'Absolute final-frame reference', src: '/assets/prompts/luxury-villa-miniature-assembly-prompt/final-frame.jpg', alt: 'Final-frame reference of a luxury modern villa at night with travertine and concrete volumes, a cantilevered glass upper floor, vertical timber slats and an infinity pool' },
+    ],
+    howToUse: [
+      'Upload a rights-cleared image of the exact completed building as the final-frame reference.',
+      'Paste the complete English master prompt into a generator that supports image-to-video or start/end-frame control.',
+      'Use the vertical settings for Reels, Shorts and video Pins, or adapt the aspect ratio stated in the prompt for a landscape version.',
+      'Check facade geometry, balcony count, glazing, materials, planting and the final camera position before publishing.',
+    ],
+    disclosure: 'AI-generated architectural visualisation and prompt study. It is not a built-project record, construction method, structural sequence or safety guide.',
+  },
+  {
+    id: 'sketch-to-building-construction-prompt',
+    category: 'video',
+    access: 'free',
+    title: 'From Sketch to Finished Building: Construction Video Prompt',
+    summary: 'A hand sketch of a seven-storey residence develops on paper, then transitions into its real construction and the exact finished building.',
+    image: '/assets/prompts/sketch-to-building-construction-prompt/final-frame.jpg',
+    video: '/assets/prompts/sketch-to-building-construction-prompt/example-reel.mp4',
+    publishedAt: '2026-10-24',
+    modifiedAt: '2026-10-24',
+    tool: 'Veo · Kling · Runway · image-to-video',
+    promptLabel: 'Free master prompt',
+    prompt: `Create a 10-second cinematic architectural construction video based on the uploaded reference image.
+
+The uploaded image is the EXACT FINAL TARGET.
+
+0.0–3.0s:
+Begin with a clean architectural drawing on white paper.
+Show the building being designed by hand in a professional architectural sketch style.
+First draw the main building outline, then progressively add doors, windows, balconies, facade divisions, and key architectural details.
+The sketch must clearly represent the SAME building shown in the uploaded reference image.
+Keep this part elegant, precise, minimal, and realistic, like an architect developing the facade drawing on paper.
+
+3.0–10.0s:
+Transition naturally from the architectural drawing into the real construction process of the SAME building.
+
+Show the same building progressing naturally from early construction to full completion:
+structure → floor-by-floor construction → facade and windows → balconies and details → final completed building.
+
+Keep the construction realistic, clean, fast-paced, and visually smooth.
+
+MOST IMPORTANT:
+The final frame of the video must be visually identical to the uploaded reference image.
+
+Do not redesign or reinterpret the building.
+Do not change the facade.
+Do not change the geometry, proportions, balconies, windows, materials, colors, textures, landscaping, camera angle, framing, or surrounding elements.
+
+The building at the end must be the exact same building shown in the uploaded image.
+
+The architectural sketch at the beginning must also correspond to the same final building, especially the door positions, window layout, balconies, proportions, and facade composition.
+
+No material changes.
+No architectural changes.
+No extra elements.
+No removed elements.
+No morphing into another design.
+No random scene changes.
+
+End the video by perfectly matching the uploaded reference image as the final frame.
+
+Style: realistic architectural B-roll, professional architectural sketching, premium construction visualization, cinematic but natural, realistic materials, realistic workers and machinery, smooth construction progression, high-end architectural presentation.
+
+No text, no logos, no watermark.`,
+    secondaryLabel: 'Vertical Reel settings',
+    secondaryPrompt: 'Duration 10 seconds · vertical 9:16 · 720 × 1280 · 24 fps · reference strength high · final-frame lock high · motion strength medium · hold the exact supplied-image frame at 10.0 seconds · no generated text or logos.',
+    referenceFrames: [
+      { label: 'Absolute final-frame reference', src: '/assets/prompts/sketch-to-building-construction-prompt/final-frame.jpg', alt: 'Final-frame reference of a seven-storey pale-stone residential building with planted glass balconies, vertical timber slat panels and a rooftop pergola terrace on a leafy street corner' },
+    ],
+    howToUse: [
+      'Upload a rights-cleared image of the exact completed building as the final-frame reference.',
+      'Paste the complete English master prompt into a generator that supports image-to-video or start/end-frame control.',
+      'Use the vertical settings for Reels, Shorts and video Pins, or adapt the aspect ratio stated in the prompt for a landscape version.',
+      'Check facade geometry, balcony count, glazing, materials, planting and the final camera position before publishing.',
+    ],
+    disclosure: 'AI-generated architectural visualisation and prompt study. It is not a built-project record, construction method, structural sequence or safety guide.',
+  },
+  {
     id: 'monogram-line-reveal',
     category: 'logo-motion',
     access: 'free',
