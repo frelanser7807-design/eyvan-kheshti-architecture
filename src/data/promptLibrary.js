@@ -691,6 +691,138 @@ No text, no logos, no watermark.`,
     disclosure: 'AI-generated architectural visualisation and prompt study. It is not a built-project record, construction method, structural sequence or safety guide.',
   },
   {
+    id: 'folding-interior-transformation-prompt',
+    title: 'Folding Interior Transformation: Living Room Video Prompt',
+    category: 'video',
+    access: 'free',
+    tool: 'Veo · Kling · Runway · image-to-video',
+    image: '/assets/prompts/folding-interior-transformation-prompt/cover.jpg',
+    video: '/assets/prompts/folding-interior-transformation-prompt/example-reel.mp4',
+    summary: 'A plain luxury living room folds itself into a faceted walnut-and-travertine origami interior — walls, ceiling, sofa and coffee table — ending on the exact reference frame.',
+    referenceFrames: [
+      { src: '/assets/prompts/folding-interior-transformation-prompt/final-frame.jpg', alt: 'Final-frame reference of a luxury living room with faceted walnut and travertine origami walls and ceiling, a curved cream sectional sofa and a polygonal stone coffee table' },
+    ],
+    prompt: `Create a 10-second ultra-photorealistic cinematic architectural transformation video using the uploaded reference image as the EXACT FINAL TARGET.
+
+CRITICAL: The uploaded reference image defines the final architecture, geometry, materials, furniture, lighting, camera position, and composition. The last frame must match this image as closely as possible.
+
+CAMERA:
+One continuous, perfectly stable, symmetrical frontal wide-angle shot. No camera movement, no zoom, no cuts, no transitions to different viewpoints. Preserve the exact perspective, proportions, and framing of the reference image.
+
+0.0–1.0 SECONDS | INITIAL INTERIOR
+
+Begin with the same luxurious living room before its geometric transformation.
+
+The room has simple, flat beige travertine walls, a smooth minimalist ceiling, a straight cream-colored sofa, and a simple rectangular stone coffee table.
+
+Maintain the exact room dimensions, window positions, shelving locations, and architectural proportions of the final reference.
+
+1.0–2.0 SECONDS | CENTRAL WALL FOLDING
+
+The central travertine wall begins folding along precise diagonal architectural crease lines.
+
+Large triangular stone panels slowly push forward while adjacent surfaces recess inward.
+
+The transformation creates the central symmetrical faceted diamond composition visible in the reference image.
+
+All movements must resemble physically plausible mechanical architectural folding.
+
+2.0–3.0 SECONDS | SIDE WALL TRANSFORMATION
+
+The folding transformation spreads symmetrically toward both side walls.
+
+Large walnut wood panels rotate and fold into sculptural triangular surfaces.
+
+Travertine and walnut surfaces interlock precisely.
+
+The final wall geometry must reproduce the exact angular composition of the reference image.
+
+3.0–4.5 SECONDS | CEILING TRANSFORMATION
+
+The previously flat ceiling begins folding along diagonal geometric lines.
+
+Large triangular walnut ceiling panels descend and rotate into their final positions.
+
+The ceiling develops the dramatic symmetrical origami-inspired architectural composition shown in the reference.
+
+Warm concealed linear LED lighting gradually illuminates the edges of the folded ceiling panels.
+
+The lighting must follow the exact geometric lines of the final design.
+
+4.5–6.0 SECONDS | SOFA TRANSFORMATION
+
+The original straight cream sofa transforms smoothly into the elegant curved sectional sofa shown in the final image.
+
+The sofa sections rotate and reposition naturally while the upholstery remains realistic.
+
+The final sofa must have the same curved silhouette, cream fabric, dimensions, position, and brown decorative cushions as the reference.
+
+6.0–7.5 SECONDS | COFFEE TABLE TRANSFORMATION
+
+The simple rectangular travertine coffee table transforms into the low polygonal sculptural stone table.
+
+Its stone surfaces fold outward into sharp, precise triangular facets.
+
+The table must match the final reference in geometry, material, scale, texture, and position.
+
+7.5–9.0 SECONDS | FINAL ARCHITECTURAL DETAILS
+
+The side shelving, warm integrated lighting, decorative objects, plants, and furnishings settle into their exact final positions.
+
+All walnut and travertine materials retain their natural realistic textures.
+
+The entire interior becomes identical in design and composition to the uploaded reference.
+
+9.0–10.0 SECONDS | FINAL HERO FRAME
+
+All architectural movements gradually stop.
+
+The completed luxurious living room remains perfectly still.
+
+The final frame must reproduce the uploaded reference image as closely as possible, including:
+
+- Exact ceiling geometry and lighting.
+- Exact central travertine wall composition.
+- Exact walnut wall panels.
+- Exact curved cream sofa.
+- Exact sculptural stone coffee table.
+- Exact furniture placement.
+- Exact decorative objects and plants.
+- Exact material colors and textures.
+- Exact camera angle and framing.
+
+VISUAL STYLE:
+
+Ultra-photorealistic architectural visualization, physically accurate materials, realistic architectural mechanics, cinematic natural lighting, warm ambient illumination, realistic shadows, premium interior design cinematography, smooth continuous animation, precise geometric transformations.
+
+The movement should feel like a real architectural installation unfolding in a carefully choreographed sequence.
+
+STRICT NEGATIVE CONSTRAINTS:
+
+No camera movement.
+No camera cuts.
+No random morphing.
+No melting geometry.
+No floating objects.
+No material substitutions.
+No architectural redesign.
+No changes to room dimensions.
+No additional furniture.
+No missing architectural elements.
+No changes to final composition.
+No exaggerated lighting effects.
+No people.
+No text.
+No logos.
+No watermark.
+
+ABSOLUTE PRIORITY: The final frame must match the uploaded reference image. Architectural accuracy is more important than visual creativity.`,
+    promptLabel: 'Free master prompt',
+    secondaryPrompt: 'Vertical Reel settings\n\nUse a vertical 9:16 frame (1080×1920), 24 fps, 10-second duration, photoreal finish, and an exact final-frame hold. Upload the reference image in this product as the target/final frame in your video tool.',
+    howToUse: '1. Open your AI video tool (Veo, Kling, Runway or a similar image-to-video model).\n2. Upload the reference image from this product as the final-frame / target image.\n3. Paste the master prompt below into the prompt field — do not edit the timing blocks.\n4. Set a vertical 9:16 canvas, 24 fps and a 10-second duration, then generate.\n5. Check the last frame against the reference image; if the tool drifts, re-run with a lower motion/creativity setting so the build lands exactly on the reference.',
+    disclosure: 'Demonstration visuals in this free prompt product were generated with AI image and video tools from the reference frame shown on this page. Results vary by model and settings; the prompt is written for current image-to-video tools.',
+  },
+  {
     id: 'monogram-line-reveal',
     category: 'logo-motion',
     access: 'free',
